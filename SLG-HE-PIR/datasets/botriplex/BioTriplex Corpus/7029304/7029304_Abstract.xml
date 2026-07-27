@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Identification and Analysis of Novel Biomarkers Involved in Chromophobe Renal Cell Carcinoma by Integrated Bioinformatics Analyses.
+Abstract: In renal cell carcinoma, chromophobe renal cell carcinoma (ChRCC) is a distinct subtype, whose clinical manifestations often lack specificity, and the molecular mechanisms of ChRCC tumorigenesis remain generally vague. The target of this study was to discover novel biomarkers involved in ChRCC by integrated bioinformatics analyses. We found 2608 differentially expressed genes (DEGs), of which 1518 were upregulated and 1090 were downregulated. Gene ontology (GO) analysis of DEGs uncovered significant functional enrichment in three aspects: biological process (BP), molecular function (MF), and cellular component (CC). The results of Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis indicated DEGs were largely enriched in retinol metabolism, arachidonic acid metabolism, and pentose and glucuronate interconversions. Then, the protein–protein interactions (PPI) network was constructed and top three hub genes were identified by the Cytoscape plugin cytoHubba. Through calculating the degree, betweenness centrality, and Stress of mRNAs, CENPA was upregulated and KNG1 and AGT were downregulated. A survival assay performed according to Oncomine data showed only CENPA high expression exhibited a worse prognosis. This study identified crucial genes and pathways for the progress of ChRCC, and CENPA might be a novel biomarker for diagnosis, treatment, and prognosis of ChRCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1212~1217" text="CENPA" location="result" />
+<GENE id="G1" spans="1238~1242" text="KNG1" location="result" />
+<GENE id="G2" spans="1247~1250" text="AGT" location="result" />
+<GENE id="G3" spans="1337~1342" text="CENPA" location="result" />
+<GENE id="G4" spans="1468~1473" text="CENPA" location="result" />
+<DISEASE id="D0" spans="68~100" text="Chromophobe Renal Cell Carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="153~173" text="renal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="175~207" text="chromophobe renal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="209~214" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="325~330" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="439~444" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1457~1462" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1544~1549" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="1491~1514" text="biomarker for diagnosis" location="result" relation="diagnostic tool" />
+<RELATION id="R2" spans="1491~1504,1531~1540" text="biomarker for ... prognosis" location="result" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G4" geneText="CENPA" diseaseID="D7" diseaseText="ChRCC" relationID="R1" relationText="biomarker for diagnosis" />
+<ENTITY_LINKING id="E1" geneID="G4" geneText="CENPA" diseaseID="D7" diseaseText="ChRCC" relationID="R2" relationText="biomarker for ... prognosis" />
+</TAGS>
+</Genomics_ConceptTask>

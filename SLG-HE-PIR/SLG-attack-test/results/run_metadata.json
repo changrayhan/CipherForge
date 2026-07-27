@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-07-24T13:07:30.993269",
+  "suite_version": "1.0.0",
+  "attacks_run": [
+    "P1",
+    "P2",
+    "P3",
+    "P6",
+    "P_ALL",
+    "M1",
+    "M2",
+    "M4",
+    "M5"
+  ],
+  "n_steps": 20,
+  "batch_size": 4,
+  "seed": 42,
+  "project_root": "/home/changrayhan/hCode/SLG-HE-PIR-code/SLG-HE-PIR",
+  "hf_model": "/root/autodl-tmp/hf_cache/Llama-3-1-8B-I",
+  "task": "biotriplex_qa",
+  "l1a_n_permutations": 10000,
+  "l1a_alpha": 0.05
+}

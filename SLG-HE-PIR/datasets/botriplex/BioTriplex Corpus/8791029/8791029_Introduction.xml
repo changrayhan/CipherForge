@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Neurodegenerative diseases of aging are a leading cause of death, disability, and dependency ( Erkkinen et al., 2018 ). The importance of progranulin (PGRN) in maintaining the health of the aging brain is well established ( Chitramuthu et al., 2017a ). For example, a genome-wide association study identified  GRN  (the gene for PGRN) as the second most prominent locus conferring resilience against age-related deterioration of the cerebral cortex ( Rhinn and Abeliovich, 2017 ). Clinically, heterozygous non-sense mutations of  GRN  that result in a loss of 50% of PGRN mRNA, cause FTD-GRN, a form of frontotemporal dementia that results from a progressive cortical atrophy and is, at present, almost always lethal ( Baker et al., 2006 ;  Cruts et al., 2006 ). FTD-GRN is a TDP-43 proteinopathy, that is, it is characterized by the accumulation of intracellular inclusions of ubiquitinated and phosphorylated C-terminal fragments of transactive response DNA binding protein 43 kDa (TAR DNA-binding protein 43 or TDP-43). Other important TDP-43 proteinopathies include amyotrophic lateral sclerosis (ALS) ( Neumann et al., 2006 ), limbic-predominant age-related TDP-43 encephalopathy ( Nelson et al., 2019 ), and traumatic encephalopathy ( McKee et al., 2010 ). Missense mutations of  GRN  have been identified in diseases other than FTD, including ALS ( Schymick et al., 2007 ;  Sleegers et al., 2008 ;  Cannon et al., 2013 ) and Alzheimer’s Disease ( Brouwers et al., 2008 ), although these are rare. Moreover, some variants of the  GRN  gene act as modifiers of ALS progression, reducing the age of onset of the disease and shortening survival ( Sleegers et al., 2008 ). Occasionally both alleles of  GRN  are mutated, leading to the complete loss of PGRN mRNA and resulting in a lysosomal storage disorder called neuronal ceroid lipofuscinosis (NCL) ( Smith et al., 2012 ). GRN-related NCL is clinically distinct from FTD, but it is highly likely that milder defects in autophagy and lysosome function contribute to FTD-GRN pathology ( Gotzl et al., 2014 ). The role of  GRN -deficiency in FTD has prompted interest in the development of PGRN-based therapies by, for example, increasing PGRN levels in the brain ( Arrant et al., 2017 ,  2018 ;  Miyakawa et al., 2020 ), or promoting read-through of  GRN  non-sense mutations ( Frew et al., 2020 ;  Kuang et al., 2020 ).
+Just as loss of PGRN is detrimental to brain health, enhanced expression of PGRN in the central nervous system (CNS) protected against the onset of several pathological phenotypes, at least in experimental models ( Chitramuthu et al., 2017a ). Thus, in mice, increased PGRN expression improved the NCL-like phenotype of PGRN knockout mice ( Arrant et al., 2018 ), inhibited the onset of disease-like phenotypes in TDP-43-related ALS ( Beel et al., 2018 ), as well as pathologies that are not related to TDP-43, such as genetic models of Alzheimer’s disease ( Minami et al., 2014 ;  Van Kampen and Kay, 2017 ), and chemically induced Parkinson’s disease ( Van Kampen et al., 2014 ). In addition to a protective action in chronic neurodegenerative conditions, PGRN stimulated neuronal regeneration and reinnervation following acute peripheral nerve injury ( Altmann et al., 2016 ) and exerted a protective action during acute cerebral ischemia ( Kanazawa et al., 2015 ,  2019 ). Clearly, therefore, PGRN exerts a remarkably broad spectrum of protection across proteinopathy boundaries and in both chronic neurodegenerative diseases and acute neuronal injury.
+Progranulin has multiple biological actions. It is neurotrophic ( Van Damme et al., 2008 ;  Ryan et al., 2009 ), it down-regulates microglial neuroinflammation ( Martens et al., 2012 ), and it influences both lysosomal activity ( Kao et al., 2017 ;  Paushter et al., 2018 ;  Elia et al., 2019 ) and autophagy ( Chang et al., 2017 ;  Elia et al., 2019 ;  Doyle et al., 2021 ). Understanding how PGRN affects neuronal biology will provide insights into brain aging and resilience against neurodegeneration. Here we sought to employ a simple, readily accessible, cellular model to investigate how PGRN expression influences structural and molecular phenotypes. We have shown previously that cultures of the neuron-like cell line, NSC-34 modified to over-express PGRN, remained alive and in a differentiated state for at least 90 days in the complete absence of serum, whereas under the same serum-free conditions unmodified NSC-34 cells died within less than 10 days ( Ryan et al., 2009 ). The ability of PGRN to support the survival of NSC-34 cells for months in the absence of any exogenous trophic support suggests that these cells are highly responsive to PGRN and may be a useful  in vitro  model for investigating cellular, molecular and biochemical aspects of PGRN action. NSC-34 cells were derived by the fusion of primary embryonic motor neurons with a neuroblastoma cell line ( Cashman et al., 1992 ), and display many physiological properties of motor neurons, including the expression of neurofilament proteins, generation of action potentials, storage and release of acetylcholine, and induction of myotubular clustering of acetylcholine receptors ( Cashman et al., 1992 ;  Durham et al., 1993 ;  Maier et al., 2013 ). They have, in addition, been widely used to study ALS-like TDP-43 neurotoxicity ( Yang et al., 2010 ;  Colombrita et al., 2012 ;  Lu et al., 2012 ;  Smethurst et al., 2016 ;  Moujalled et al., 2017 ;  Tian et al., 2017 ;  Chen T. et al., 2018 ;  Maurel et al., 2018 ;  Salvatori et al., 2018 ;  Hicks et al., 2020 ). PGRN is intimately involved in motor neuron function. In a semi-quantitative assessment motor neurons in the brain (pontine gray matter) and the spinal cord displayed the highest neuronal PGRN expression ( Ryan et al., 2009 ) and PGRN is neurotrophic for motor neurons in primary tissue culture ( Van Damme et al., 2008 ). In zebrafish, PGRN modulates the outgrowth and branching of primary motor neurons ( Chitramuthu et al., 2010 ) and protects them from axonopathy caused by genes associated with motor neuron diseases including TDP-43 ( Laird et al., 2010 ;  Chitramuthu et al., 2017b ), FUS (fused in sarcoma) ( Chitramuthu et al., 2017b ) and SMN1 (survival motor neuron 1) ( Chitramuthu et al., 2010 ). It significantly delays the onset of TDP-43-dependent ALS-like phenotypes in mice ( Beel et al., 2018 ). Here we have undertaken a series of parallel molecular analyses to identify how PGRN expression, or its depletion, affects the properties of NSC-34 motor neuron-like cells. The effect of PGRN insufficiency on the transcriptome of FTD-GRN brains has been reported at autopsy ( Chen-Plotkin et al., 2008 ), or in Grn–/– mice ( Chang et al., 2017 ). These analyzes, however, reflect late-stage events beyond the window of potential therapeutic intervention, and occur in a complex cellular environment where it is often difficult to assign observed effects to specific cells. Distinguishing effects that are the result of PGRN depletion itself from those that are secondary responses in reaction to the damage caused by PGRN depletion is not always clear. Moreover, the pathology of brains from Grn–/– mice differs from that of human FTD-GRN, and appears closer to NCL ( Ahmed et al., 2010 ), while GRN+/− mice, that genocopy human FTD-GRN, show only mild phenotypes that are not fully representative of the human disease ( Filiano et al., 2013 ). Cell-autonomous transcriptional analyses of PGRN insufficiency phenotypes have been performed using shRNA to diminish PGRN expression in primary human neural stem cells, where several pathways were affected ( Rosen et al., 2011 ), whereas no transcriptional effect of GRN depletion was observed in induced pluripotent stem cell (iPSC)-derived neurons with GRN expression reduced by siRNA ( Robin et al., 2020 ). The NSC-34 model allows the analysis of both PGRN insufficiency and elevated PGRN expression in a neuron-related cell that is highly dependent on intrinsic PGRN expression for survival and the maintenance of its neuronal phenotype.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="139~150" text="progranulin" location="background" />
+<GENE id="G1" spans="152~156" text="PGRN" location="background" />
+<GENE id="G2" spans="311~314" text="GRN" location="background" />
+<GENE id="G3" spans="330~334" text="PGRN" location="background" />
+<GENE id="G4" spans="531~534" text="GRN" location="background" />
+<GENE id="G5" spans="568~572" text="PGRN" location="background" />
+<GENE id="G6" spans="589~592" text="GRN" location="background" />
+<GENE id="G7" spans="768~771" text="GRN" location="background" />
+<GENE id="G8" spans="1537~1540" text="GRN" location="background" />
+<GENE id="G9" spans="1706~1709" text="GRN" location="background" />
+<GENE id="G10" spans="1756~1760" text="PGRN" location="background" />
+<GENE id="G11" spans="1880~1883" text="GRN" location="background" />
+<GENE id="G12" spans="2026~2029" text="GRN" location="background" />
+<GENE id="G13" spans="2077~2080" text="GRN" location="background" />
+<GENE id="G14" spans="2144~2148" text="PGRN" location="background" />
+<GENE id="G15" spans="2193~2197" text="PGRN" location="background" />
+<GENE id="G16" spans="2306~2309" text="GRN" location="background" />
+<GENE id="G17" spans="2392~2396" text="PGRN" location="background" />
+<GENE id="G18" spans="2452~2456" text="PGRN" location="background" />
+<GENE id="G19" spans="2645~2649" text="PGRN" location="background" />
+<GENE id="G20" spans="2696~2700" text="PGRN" location="background" />
+<GENE id="G21" spans="3134~3138" text="PGRN" location="background" />
+<GENE id="G22" spans="3373~3377" text="PGRN" location="background" />
+<GENE id="G23" spans="3533~3544" text="Progranulin" location="background" />
+<GENE id="G24" spans="3927~3931" text="PGRN" location="background" />
+<GENE id="G25" spans="4127~4131" text="PGRN" location="background" />
+<GENE id="G26" spans="4292~4296" text="PGRN" location="background" />
+<GENE id="G27" spans="4535~4539" text="PGRN" location="background" />
+<GENE id="G28" spans="4690~4694" text="PGRN" location="background" />
+<GENE id="G29" spans="4797~4801" text="PGRN" location="background" />
+<GENE id="G30" spans="5579~5583" text="PGRN" location="background" />
+<GENE id="G31" spans="5767~5771" text="PGRN" location="background" />
+<GENE id="G32" spans="5809~5813" text="PGRN" location="background" />
+<GENE id="G33" spans="5916~5920" text="PGRN" location="background" />
+<GENE id="G34" spans="6111~6117" text="TDP-43" location="background" />
+<GENE id="G35" spans="6171~6174" text="FUS" location="background" />
+<GENE id="G36" spans="6228~6232" text="SMN1" location="background" />
+<GENE id="G37" spans="6176~6192" text="fused in sarcoma" location="background" />
+<GENE id="G38" spans="6234~6257" text="survival motor neuron 1" location="background" />
+<GENE id="G39" spans="6343~6346" text="ALS" location="background" />
+<GENE id="G40" spans="6474~6478" text="PGRN" location="result" />
+<GENE id="G41" spans="6581~6585" text="PGRN" location="background" />
+<GENE id="G42" spans="6628~6631" text="GRN" location="background" />
+<GENE id="G43" spans="6705~6708" text="Grn" location="background" />
+<GENE id="G44" spans="7013~7017" text="PGRN" location="background" />
+<GENE id="G45" spans="7111~7115" text="PGRN" location="background" />
+<GENE id="G46" spans="7186~7189" text="Grn" location="background" />
+<GENE id="G47" spans="7229~7232" text="GRN" location="background" />
+<GENE id="G48" spans="7290~7293" text="GRN" location="background" />
+<GENE id="G49" spans="7327~7330" text="GRN" location="background" />
+<GENE id="G50" spans="7483~7487" text="PGRN" location="background" />
+<GENE id="G51" spans="7557~7561" text="PGRN" location="background" />
+<GENE id="G52" spans="7707~7710" text="GRN" location="background" />
+<GENE id="G53" spans="7795~7798" text="GRN" location="background" />
+<GENE id="G54" spans="7896~7900" text="PGRN" location="result" />
+<GENE id="G55" spans="7928~7932" text="PGRN" location="result" />
+<GENE id="G56" spans="8007~8011" text="PGRN" location="result" />
+<GENE id="G57" spans="1287~1290" text="GRN" location="background" />
+<DISEASE id="D0" spans="1071~1100" text="amyotrophic lateral sclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1102~1105" text="ALS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1351~1354" text="ALS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1433~1452" text="Alzheimer’s Disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1567~1570" text="ALS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="604~627" text="frontotemporal dementia" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D8" spans="764~767" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D9" spans="1819~1849" text="neuronal ceroid lipofuscinosis" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="1851~1854" text="NCL" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="1892~1895" text="NCL" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="1336~1339" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D13" spans="1924~1927" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D14" spans="2022~2025" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D15" spans="2096~2099" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D16" spans="2805~2808" text="ALS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="2913~2932" text="Alzheimer’s disease" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D18" spans="3009~3028" text="Parkinson’s disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="3309~3317" text="ischemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="3479~3504" text="neurodegenerative disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="4892~4905" text="neuroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="5312~5315" text="ALS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="6079~6099" text="motor neuron disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="6624~6627" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D25" spans="7225~7228" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D26" spans="7323~7326" text="FTD" location="background" disease1="disease of anatomical entity" disease2="disease of mental health" />
+</TAGS>
+</Genomics_ConceptTask>

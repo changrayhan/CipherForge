@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Molecules Potentially Associated with Breast Cancer Invasion
+Using the gene expression data of breast cancer morphological structures (GEO, GSE80754), we selected genes potentially associated with cancer invasion based on the following criteria:
+1. Differentially expressed genes (DEGs) in solid and trabecular structures as compared to normal breast epithelium ( p  < 0.1) ( Table S1 ) and their association with cell migration according to Gene Set Enrichment Analysis [ 16 ] ( Table S2 ).
+2. Genes expressed in solid and trabecular structures but not in tubular and alveolar structures ( p  < 0.05) and their association with cell migration according to literature data ( Table S3 ).
+3. Expression of proteins encoded by the selected genes at the periphery and the tips of the solid and/or trabecular structures according to the Human Protein Atlas [ 17 ] ( Figure S1 ).
+In total, four proteins were selected: HCLS1 associated protein X-1 (HAX1), kinesin family member 14 (KIF14), mitochondria-eating protein/spermatogenesis associated 18 (Mieap/SPATA18), and ezrin (EZR) ( Table 1 ).
+2.2. Positive Expression of KIF14 and Mieap and Negative Expression of EZR Are Associated with Breast Cancer Metastasis
+Based on the IHC data, we assessed the association of the expression of HAX1, KIF14, Mieap, and EZR with breast cancer metastasis. No significant association was found for HAX1. In contrast, KIF14, Mieap, and EZR expression were significantly correlated to metastasis. Distant metastases were more often detected in patients with expression of KIF14 and Mieap at the tips of the torpedo-like structures in breast tumors as compared to KIF14- and Mieap-negative cases (66.7% versus 14.3%,  p  = 0.003 and 70.0% versus 12.5%,  p  = 0.001, respectively;  Table 2 ). Distant metastases were also more frequently detected in patients with negative expression of EZR at the tips of the torpedo-like structures than in EZR-positive cases (73.7% versus 13.3%,  p  = 0.001;  Table 2 ). Metastasis-free survival was decreased in patients with positive expression of KIF14 (HR 6.63, 95% CI: 1.50–29.29,  p  = 0.013) and Mieap (HR 8.09, 95% CI: 1.83–35.75,  p  = 0.006) and negative expression of EZR (HR 7.65, 95% CI: 1.72–33.93,  p  = 0.007) at the tips of the torpedo-like structures ( Figure 2 ).
+It must be noted that torpedo-like structures were detected in 54.7% (46/84) of patients and just their presence was not associated with breast cancer metastasis. In particular, distant metastases were observed in 43.8% (20/46) patients with torpedo-like structures and 50.0% (19/38) patients without these structures ( p  = 0.55). Distant metastasis was not also related to the positive expression of KIF14 and Mieap and negative expression of EZR in other morphological arrangements of tumor cells: tubular, alveolar, solid and trabecular structures and small groups of tumor cells (data not shown). In addition, no significant association was found between expression of KIF14, Mieap, and EZR and molecular subtype of breast cancer, tumor size, grade, lymph node metastases, and recurrence.
+2.3. Patterns of Expression of KIF14, Mieap, and EZR in Breast Cancer
+The representative images of IHC staining for KIF14, Mieap, and EZR proteins are provided in  Figures S2–S4 . In total, positive expression of KIF14 and Mieap and negative expression of EZR were observed in 58.4 (45/77), 45.4% (35/77), and 59.2% (45/76) of breast cancers, respectively. Positive expression of KIF14 and Mieap and negative expression of EZR were more often observed in trabecular (74.3–91.7%) and tubular structures (62.5–88.2%) as compared to other structures and single tumor cells (39.1–60.0%;  p  < 0.05;  Tables S4–S6 ).
+2.4. Transcriptomic Profile of KIF14-Positive Tumor Cells Located in Torpedo-Like Structures
+We found 260 DEGs ( p  < 0.05) including 105 upregulated and 155 downregulated genes between KIF14-positive and KIF14-negative tumor cells located in torpedo-like structures ( Table S7 ). Among the most upregulated genes were  NHS  (NHS Actin Remodeling Regulator),  CNOT2-DT  (long non-coding RNA PRANCR),  THBS4  (thrombospondin 4), and others. The  SLITRK6  gene was the most downregulated gene in KIF14-positive cells ( Figure 3 A,  Table S7 ). According to Kaplan–Meier plotter [ 18 ], low expression of  NHS ,  THBS4,  and  SLITRK6  is associated with poor relapse-free survival (RFS) in breast cancer patients ( Figure S5 ). The upregulated genes were predominantly related to ether lipid metabolism, whereas the downregulated genes were mostly involved in AGE-RAGE and T cell receptor signaling pathways ( Figure 3 B). The GO annotation revealed that upregulated genes are prevalently associated with collagen fibril organization, whereas downregulated genes were related to regulation of cellular protein localization and metabolic processes ( Figure 3 B). The complete list of Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) terms enriched in KIF14-positive cells is given in  Tables S8 and S9 .
+2.5. Transcriptomic Profile of Mieap-Positive Tumor Cells Located in Torpedo-Like Structures
+A total of 226 DEGs (106 upregulated and 120 downregulated at  p  < 0.05) were identified in Mieap-positive tumor cells as compared to Mieap-negative tumor cells located in torpedo-like structures ( Table S10 ). The most significantly upregulated genes included  CCDC18  (Coiled-Coil Domain Containing 18) and  SAMD9  (Sterile Alpha Motif Domain Containing 9). Among the most downregulated genes were  FOSB  (FosB Proto-Oncogene),  GPR153  (G Protein-Coupled Receptor 153),  MYH4  (Myosin Heavy Chain 4), and others ( Figure 4 A). According to Kaplan–Meier plotter [ 18 ], low expression of  FOSB ,  GPR153,  and  MYH4  is associated with poor RFS in breast cancer patients ( Figure S6 ). The upregulated genes were enriched for the sulfur relay system, mitophagy, and synthesis of heterocycles (e.g., molybdopterin cofactor ( Figure 4 B)). The downregulated genes were associated with the Hedgehog signaling pathway, morphogenesis of an epithelial tube, mammary gland development, and other KEGG and GO terms ( Figure 4 B). The complete list of KEGG and GO terms enriched in Mieap-positive cells is given in  Tables S11 and S12 .
+2.6. Transcriptomic Profile of EZR-Negative Tumor Cells Located in Torpedo-Like Structures
+There were 162 DEGs (98 upregulated and 64 downregulated at  p  < 0.05) between EZR-negative and EZR-positive tumor cells located in torpedo-like structures ( Table S13 ). The most upregulated genes included  CD109 ,  ID4  (Inhibitor Of Differentiation 4),  ST8SIA1  (ST8 Alpha-N-Acetyl-Neuraminide Alpha-2,8-Sialyltransferase 1),  NR4A1  (Nuclear Receptor Subfamily 4 Group A Member 1), and others. The most significantly downregulated gene was  SYCP3  encoding synaptonemal complex protein 3 ( Figure 5 A). According to Kaplan–Meier plotter [ 18 ], low expression of  CD109, ID4, NR4A1 , and  SYCP3  is associated with poor RFS in breast cancer patients ( Figure S7 ). The upregulated genes were involved in the regulation of phagocytosis, chemokine-mediated signaling pathway, and synthesis and secretion of several hormones, whereas the downregulated genes were mainly associated with homologous recombination and beta-alanine metabolism ( Figure 5 B). The complete list of KEGG and GO terms enriched in EZR-negative cells is given in  Tables S14 and S15 .
+2.7. KIF14- and Mieap-Positive and EZR-Negative Cells are Co-Localized in Torpedo-Like Structures
+It turned out that positive expression of KIF14 and Mieap and negative expression of EZR were mainly observed in torpedo-like structures of the same breast tumors. Simultaneous expression of all three proteins was observed in 57.9% (11/19) of the patients with metastases. The co-expression of any two proteins was detected in 15.8% (3/19) of the cases ( Table S16 ). Multiplex IHC staining demonstrated that KIF14 and Mieap positive expression and EZR negative expression were both observed in the same cells and were specific for different cells within the tips of the torpedo-like structures ( Figure 6 A). Nevertheless, RNA-sequencing showed no overlapping DEGs ( p  < 0.05) between KIF14-positive, Mieap-positive, and EZR-negative cells ( Figure 6 B). Low overlapping was found when all genes up- and downregulated in KIF14-positive, Mieap-positive, and EZR-negative cells were analyzed ( Figure 6 C).
+2.8. Expression of Classic Markers of Invasion in KIF14-Positive, Mieap-Positive, and EZR-Negative Cells
+We checked whether Ki-67, urokinase-type plasminogen activator (uPA/PLAU), urokinase plasminogen activator surface receptor (uPAR/PLAUR), and matrix metalloproteinases (MMP2, MMP9, and MMP13) are expressed in KIF14-positive, Mieap-positive, and EZR-negative cells located in torpedo-like structures. No significant up- or downregulation of genes encoding the above-mentioned proteins were found. The exception was the downregulation of the  MMP13  gene in KIF14-positive cells as compared to KIF14-negative cells ( Table S17 ). Nevertheless, multiplex IHC staining showed no differences in MMP13 expression between tumor cells composing the torpedo-like structure ( Figure S8 ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="919~947" text="HCLS1 associated protein X-1" location="result" />
+<GENE id="G1" spans="949~953" text="HAX1" location="result" />
+<GENE id="G2" spans="956~980" text="kinesin family member 14" location="result" />
+<GENE id="G3" spans="982~987" text="KIF14" location="result" />
+<GENE id="G4" spans="990~1047" text="mitochondria-eating protein/spermatogenesis associated 18" location="result" />
+<GENE id="G5" spans="1049~1054" text="Mieap" location="result" />
+<GENE id="G6" spans="1055~1062" text="SPATA18" location="result" />
+<GENE id="G7" spans="1069~1074" text="ezrin" location="result" />
+<GENE id="G8" spans="1076~1079" text="EZR" location="result" />
+<GENE id="G9" spans="1122~1127" text="KIF14" location="result" />
+<GENE id="G10" spans="1132~1137" text="Mieap" location="result" />
+<GENE id="G11" spans="1165~1168" text="EZR" location="result" />
+<GENE id="G12" spans="1286~1290" text="HAX1" location="result" />
+<GENE id="G13" spans="1292~1297" text="KIF14" location="result" />
+<GENE id="G14" spans="1299~1304" text="Mieap" location="result" />
+<GENE id="G15" spans="1310~1313" text="EZR" location="result" />
+<GENE id="G16" spans="1386~1390" text="HAX1" location="result" />
+<GENE id="G17" spans="1558~1563" text="KIF14" location="result" />
+<GENE id="G18" spans="1405~1410" text="KIF14" location="result" />
+<GENE id="G19" spans="1412~1417" text="Mieap" location="result" />
+<GENE id="G20" spans="1423~1426" text="EZR" location="result" />
+<GENE id="G21" spans="1568~1573" text="Mieap" location="result" />
+<GENE id="G22" spans="1649~1654" text="KIF14" location="result" />
+<GENE id="G23" spans="1660~1665" text="Mieap" location="result" />
+<GENE id="G24" spans="1871~1874" text="EZR" location="result" />
+<GENE id="G25" spans="1926~1929" text="EZR" location="result" />
+<GENE id="G26" spans="2070~2075" text="KIF14" location="result" />
+<GENE id="G27" spans="2123~2128" text="Mieap" location="result" />
+<GENE id="G28" spans="2199~2202" text="EZR" location="result" />
+<GENE id="G29" spans="2705~2710" text="KIF14" location="result" />
+<GENE id="G30" spans="2748~2751" text="EZR" location="result" />
+<GENE id="G31" spans="3128~3133" text="KIF14" location="result" />
+<GENE id="G32" spans="3135~3140" text="Mieap" location="result" />
+<GENE id="G33" spans="3146~3149" text="EZR" location="result" />
+<GENE id="G35" spans="3213~3218" text="KIF14" location="result" />
+<GENE id="G36" spans="3220~3225" text="Mieap" location="result" />
+<GENE id="G37" spans="3231~3234" text="EZR" location="result" />
+<GENE id="G38" spans="3310~3315" text="KIF14" location="result" />
+<GENE id="G39" spans="3320~3325" text="Mieap" location="result" />
+<GENE id="G40" spans="3353~3356" text="EZR" location="result" />
+<GENE id="G41" spans="3477~3482" text="KIF14" location="result" />
+<GENE id="G42" spans="3487~3492" text="Mieap" location="result" />
+<GENE id="G43" spans="3520~3523" text="EZR" location="result" />
+<GENE id="G44" spans="3740~3745" text="KIF14" location="result" />
+<GENE id="G45" spans="3895~3900" text="KIF14" location="result" />
+<GENE id="G46" spans="3914~3919" text="KIF14" location="result" />
+<GENE id="G47" spans="4029~4032" text="NHS" location="result" />
+<GENE id="G48" spans="4035~4065" text="NHS Actin Remodeling Regulator" location="result" />
+<GENE id="G50" spans="4110~4115" text="THBS4" location="result" />
+<GENE id="G51" spans="4118~4134" text="thrombospondin 4" location="result" />
+<GENE id="G52" spans="4154~4161" text="SLITRK6" location="result" />
+<GENE id="G53" spans="4203~4208" text="KIF14" location="result" />
+<GENE id="G54" spans="4312~4315" text="NHS" location="result" />
+<GENE id="G55" spans="4319~4324" text="THBS4" location="result" />
+<GENE id="G56" spans="4332~4339" text="SLITRK6" location="result" />
+<GENE id="G57" spans="4977~4982" text="KIF14" location="result" />
+<GENE id="G58" spans="5061~5066" text="Mieap" location="result" />
+<GENE id="G59" spans="5386~5392" text="CCDC18" location="result" />
+<GENE id="G60" spans="5395~5427" text="Coiled-Coil Domain Containing 18" location="result" />
+<GENE id="G61" spans="5434~5439" text="SAMD9" location="result" />
+<GENE id="G62" spans="5442~5481" text="Sterile Alpha Motif Domain Containing 9" location="result" />
+<GENE id="G63" spans="5525~5529" text="FOSB" location="result" />
+<GENE id="G64" spans="5532~5551" text="FosB Proto-Oncogene" location="result" />
+<GENE id="G65" spans="5555~5561" text="GPR153" location="result" />
+<GENE id="G66" spans="5564~5594" text="G Protein-Coupled Receptor 153" location="result" />
+<GENE id="G67" spans="5598~5602" text="MYH4" location="result" />
+<GENE id="G68" spans="5605~5625" text="Myosin Heavy Chain 4" location="result" />
+<GENE id="G69" spans="5715~5719" text="FOSB" location="result" />
+<GENE id="G70" spans="5723~5729" text="GPR153" location="result" />
+<GENE id="G71" spans="5737~5741" text="MYH4" location="result" />
+<GENE id="G72" spans="6199~6204" text="Mieap" location="result" />
+<GENE id="G73" spans="6285~6288" text="EZR" location="result" />
+<GENE id="G74" spans="6425~6428" text="EZR" location="result" />
+<GENE id="G75" spans="6442~6445" text="EZR" location="result" />
+<GENE id="G76" spans="6554~6559" text="CD109" location="result" />
+<GENE id="G77" spans="6563~6566" text="ID4" location="result" />
+<GENE id="G78" spans="6569~6599" text="Inhibitor Of Differentiation 4" location="result" />
+<GENE id="G79" spans="6603~6610" text="ST8SIA1" location="result" />
+<GENE id="G80" spans="6613~6673" text="ST8 Alpha-N-Acetyl-Neuraminide Alpha-2,8-Sialyltransferase 1" location="result" />
+<GENE id="G81" spans="6677~6682" text="NR4A1" location="result" />
+<GENE id="G82" spans="6685~6730" text="Nuclear Receptor Subfamily 4 Group A Member 1" location="result" />
+<GENE id="G83" spans="6792~6797" text="SYCP3" location="result" />
+<GENE id="G84" spans="6808~6838" text="synaptonemal complex protein 3" location="result" />
+<GENE id="G85" spans="6915~6920" text="CD109" location="result" />
+<GENE id="G86" spans="6922~6925" text="ID4" location="result" />
+<GENE id="G87" spans="6927~6932" text="NR4A1" location="result" />
+<GENE id="G88" spans="6940~6945" text="SYCP3" location="result" />
+<GENE id="G89" spans="7353~7356" text="EZR" location="result" />
+<GENE id="G90" spans="7411~7416" text="KIF14" location="result" />
+<GENE id="G91" spans="7422~7427" text="Mieap" location="result" />
+<GENE id="G92" spans="7441~7444" text="EZR" location="result" />
+<GENE id="G93" spans="7546~7551" text="KIF14" location="result" />
+<GENE id="G94" spans="7556~7561" text="Mieap" location="result" />
+<GENE id="G95" spans="7589~7592" text="EZR" location="result" />
+<GENE id="G96" spans="7913~7918" text="KIF14" location="result" />
+<GENE id="G97" spans="7923~7928" text="Mieap" location="result" />
+<GENE id="G98" spans="7953~7956" text="EZR" location="result" />
+<GENE id="G99" spans="8191~8196" text="KIF14" location="result" />
+<GENE id="G100" spans="8207~8212" text="Mieap" location="result" />
+<GENE id="G101" spans="8227~8230" text="EZR" location="result" />
+<GENE id="G102" spans="8327~8332" text="KIF14" location="result" />
+<GENE id="G103" spans="8343~8348" text="Mieap" location="result" />
+<GENE id="G104" spans="8363~8366" text="EZR" location="result" />
+<GENE id="G105" spans="8461~8466" text="KIF14" location="result" />
+<GENE id="G106" spans="8477~8482" text="Mieap" location="result" />
+<GENE id="G107" spans="8497~8500" text="EZR" location="result" />
+<GENE id="G108" spans="8535~8540" text="Ki-67" location="result" />
+<GENE id="G109" spans="8542~8578" text="urokinase-type plasminogen activator" location="result" />
+<GENE id="G110" spans="8580~8583" text="uPA" location="result" />
+<GENE id="G111" spans="8584~8588" text="PLAU" location="result" />
+<GENE id="G112" spans="8591~8639" text="urokinase plasminogen activator surface receptor" location="result" />
+<GENE id="G113" spans="8641~8645" text="uPAR" location="result" />
+<GENE id="G114" spans="8646~8651" text="PLAUR" location="result" />
+<GENE id="G115" spans="8685~8689" text="MMP2" location="result" />
+<GENE id="G116" spans="8691~8695" text="MMP9" location="result" />
+<GENE id="G117" spans="8701~8706" text="MMP13" location="result" />
+<GENE id="G118" spans="8725~8730" text="KIF14" location="result" />
+<GENE id="G119" spans="8741~8746" text="Mieap" location="result" />
+<GENE id="G120" spans="8761~8764" text="EZR" location="result" />
+<GENE id="G121" spans="8957~8962" text="MMP13" location="result" />
+<GENE id="G122" spans="8972~8977" text="KIF14" location="result" />
+<GENE id="G123" spans="9008~9013" text="KIF14" location="result" />
+<GENE id="G124" spans="9106~9111" text="MMP13" location="result" />
+<DISEASE id="D0" spans="44~57" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="101~114" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="203~209" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="1189~1202" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1319~1332" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="3153~3166" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="3424~3437" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="4396~4409" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="5774~5787" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="6978~6991" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R2" spans="1173~1188,1203~1213" text="Associated with ... Metastasis" location="result" relation="negative prognostic marker" />
+<RELATION id="R3" spans="1345~1371" text="No significant association" location="result" relation="no relation" />
+<RELATION id="R4" spans="6896~6910" text="low expression" location="result" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G9" geneText="KIF14" diseaseID="D3" diseaseText="Breast Cancer" relationID="R2" relationText="Associated with ... Metastasis" />
+<ENTITY_LINKING id="E1" geneID="G10" geneText="Mieap" diseaseID="D3" diseaseText="Breast Cancer" relationID="R2" relationText="Associated with ... Metastasis" />
+<ENTITY_LINKING id="E2" geneID="G11" geneText="EZR" diseaseID="D3" diseaseText="Breast Cancer" relationID="R2" relationText="Associated with ... Metastasis" />
+<ENTITY_LINKING id="E3" geneID="G16" geneText="HAX1" diseaseID="D4" diseaseText="breast cancer" relationID="R3" relationText="No significant association" />
+<ENTITY_LINKING id="E4" geneID="G85" geneText="CD109" diseaseID="D9" diseaseText="breast cancer" relationID="R4" relationText="low expression" />
+<ENTITY_LINKING id="E5" geneID="G86" geneText="ID4" diseaseID="D9" diseaseText="breast cancer" relationID="R4" relationText="low expression" />
+<ENTITY_LINKING id="E6" geneID="G87" geneText="NR4A1" diseaseID="D9" diseaseText="breast cancer" relationID="R4" relationText="low expression" />
+<ENTITY_LINKING id="E7" geneID="G88" geneText="SYCP3" diseaseID="D9" diseaseText="breast cancer" relationID="R4" relationText="low expression" />
+</TAGS>
+</Genomics_ConceptTask>

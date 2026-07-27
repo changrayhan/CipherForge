@@ -1,0 +1,22 @@
+S3PIR/
+papers/BioTriplex/
+baseline/llama-rec/
+baseline/logs/
+baseline/*/logs/
+baseline/*/checkpoints/
+baseline/*/training.pid
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+.pytest_cache/
+venv/
+env/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Runtime PID files
+*.pid
+run_all*.pid

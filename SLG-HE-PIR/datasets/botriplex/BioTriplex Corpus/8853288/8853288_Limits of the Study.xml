@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The main limit of this study is the age difference of the CTRL group compared to OA and OP patients, which undoubtedly affects their clinical characteristics, such as BMI and  T- score. Unfortunately, it is not easy to enroll age-matched subjects of OA and OP patients, who do not have musculoskeletal disorders, but have undergone hip arthroplasty for high-energy fracture. However, in our research experience we have frequently observed similar responses between the samples of CTRL and OA patients. Another limit of our study is represented by the RPM, the use of which could underestimate or overestimate the effects of no load on biological samples. In fact, the influence of the effects of flow shear on the experimental result should not be neglected, ensuring that the culture chamber is free of air bubbles responsible for detachment from the substrate and consequent cell death. Therefore, results obtained from experiments using RPM systems to simulate of the biological effects of microgravity should be interpreted with caution and, if possible, compared directly with experiments under real microgravity conditions.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="82~84" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="89~91" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="251~253" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="258~260" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="490~492" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

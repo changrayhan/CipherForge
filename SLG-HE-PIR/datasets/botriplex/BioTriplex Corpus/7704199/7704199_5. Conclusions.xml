@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PILCs are a clinically and molecularly distinct subtype of ILCs. It is important for clinicians to recognize this subtype and consider additional testing (such as the 21-gene recurrence score or other prognostic/predictive assays) to help with treatment decisions (including adjuvant chemotherapy). Given our and other results that PILCs are molecularly distinct, further studies to investigate these mechanisms appear warranted. Currently, there are medications approved which target some of these activated pathways (CDK4/6 inhibitors and mTOR inhibitors), and it would be beneficial to know which tumors might respond better to such treatments and if these treatments might be beneficial in this subgroup early on (stages I-III in the neoadjuvant or adjuvant setting) given the molecularly distinct mechanism.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="520~524" text="CDK4" location="background" />
+<GENE id="G1" spans="542~546" text="mTOR" location="background" />
+<DISEASE id="D0" spans="60~63" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

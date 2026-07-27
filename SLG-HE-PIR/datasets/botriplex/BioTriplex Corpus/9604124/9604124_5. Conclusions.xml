@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+LAIR-1 expression is significantly upregulated in circulating T cytotoxic cells in HCV G4-related HCC when compared with liver cirrhosis. LAIR-1 expression on Tc comes second to AFP sensitivity and specificity as a potential screening molecular marker for HCC related to HCV G4. However, the sensitivity of LAIR-1 expression as a noninvasive molecular marker in liquid biopsy is accepted for the detection of HCC progression from liver cirrhosis HCV G4-related infection, which opens the door for better screening of AFP-negative HCC transformation. The LAIR-1 expression on Tc is associated with insulin resistance and inflammation in the context of HCC prognosis HCV G4-related, confirming the LAIR-1 resistance component.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~7" text="LAIR-1" location="result" />
+<GENE id="G1" spans="139~145" text="LAIR-1" location="result" />
+<GENE id="G2" spans="308~314" text="LAIR-1" location="result" />
+<GENE id="G3" spans="555~561" text="LAIR-1" location="result" />
+<GENE id="G4" spans="697~703" text="LAIR-1" location="result" />
+<DISEASE id="D0" spans="99~102" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="122~137" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="257~260" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="410~413" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="431~446" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="531~534" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="652~655" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="36~47" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R1" spans="343~359" text="molecular marker" location="result" relation="biomarker" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="LAIR-1" diseaseID="D0" diseaseText="HCC" relationID="R0" relationText="upregulated" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="LAIR-1" diseaseID="D3" diseaseText="HCC" relationID="R1" relationText="molecular marker" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Participant Demographics
+Fifteen healthy males were recruited to this study. The mean ± SD age and BMI was 28.8 ± 9.1 years and 29.6 ± 4.5 kg/m² respectively. From the cohort, there were 73.3% overweight and 26.7% obese. The men were non-smokers, were not on special diets and consumed less than four standard drinks per day.
+3.2. LAL Analysis
+
+           3.2.1. Summary of Polynomial Model Validation and Quality Measures 
+           Figure 1 . The coefficient of correlation (r) was ≥0.980 for all polynomial models and agreement between replicates (%CV) was <10% as per methodology.  
+        
+
+           3.2.2. Sample Heat Treatment, Deactivation Time and Dilution on Serum Endotoxin Levels 
+           Table 1 . The use of acid treatment was deemed unnecessary as the pH of all samples after heat treatment was below a value of 8. Sample dilution only meaningfully and significantly impacted on the detected endotoxin levels when the samples were diluted to 1:200; the magnitude of the difference in detectable endotoxin levels varied between 228% to 298% for samples diluted 1:200 compared to other dilutions (1:50, 1:75, and 1:100) which had similar heat deactivation conditions. Samples heat treated at 70 °C for 15 min and diluted to 1:200 significantly differed from samples diluted 1:50, 1:75, and 1:100 ( p  = 0.003,  p  < 0.001, and  p  = 0.006, respectively), or samples heat treated at 70 °C for 30 min at a dilution of 1:50, 1:75, and 1:100 ( p  = 0.004,  p  = 0.023, and  p  = 0.008, respectively), or samples heat treated at 80 °C for 15 min at a dilution of 1:50, 1:75, and 1:100 ( p  = 0.003,  p  = 0.016, and  p  = 0.009, respectively) or samples heat treated at 80 °C for 30 min at a dilution of 1:50, 1:75, and 1:100 ( p  = 0.001,  p  = 0.003, and  p  = 0.003, respectively). The effect of sample pre-treatment with heat and time on dilution is displayed in  Figure 2 . The percentage of samples meeting the inclusion criteria for data analysis (%CV < 10%, %PPC 50–200%) are outlined in  
+        
+
+           3.2.3. LAL Adaption for Ultrasonication 
+           The coefficient of variation of the reaction time between replicates for the polynomial model was 3.5% (0–6.1%), with r = 0.997. Unfortunately, only seven samples exhibited %PPC, with a %CV for duplicate analysis of the positive product control sample <10% (% PCC (31–604%), CV (0.5–60%)). Of these seven samples, only five samples met inclusion criteria of %CV for the duplicate sample analysis, suggesting ultrasonication in combination with a 10-fold dilution was not a robust method to detect endotoxin levels in serum. 
+        
+
+           3.2.4. LAL Adaption for Addition of Pyrosperse 
+           p  = 0.374). The coefficient of variation of the reaction time between replicates for the polynomial model was 2.8% (0–3.9%), with r = 0.998. The addition of 0.5% pyrosperse made no significant difference to the levels of endotoxin detected for serum samples diluted 1:200 and heated to 80 °C for 30 min compared to samples without the addition of pyrosperse ( 
+        
+
+           3.2.5. Relationship between BMI and Endotoxemia 
+           p  = 0.052, CI 95  0.004–1.051). However, there were no relationships between BMI and LAL assayed endotoxemia irrespective of heat treatment time, temperature, dilution, or the use of ultrasonication. The relationship with LBP detected metabolic endotoxemia and BMI was significant (r = 0.523,  
+        
+
+           3.2.6. Comparison of LBP to LAL 
+           p  = 0.134, CI 95  = −1.393–0.238; r = −0.493,  p  = 0.102, CI 95  = −1.881–0.087) or 1:200 for 15 min or 30 min and analyzed using the LAL method of analysis (r = −0.078,  p  = 0.841, CI 95  = −0.208–0.991; r = −0.278,  p  = 0.381, CI 95  = −0.916–0.381;  Figure 3 ). Additionally, there were no significant correlations with LBP measures of endotoxin and any other sample pre-treatment and LAL measures of endotoxin (LPS). Metabolic endotoxemia was quantified indirectly by LBP analysis; 10.2 ± 5.2 ug/mL. There were no significant correlations between LBP and samples heat treated at 80 °C for 15 min or 30 min after dilution to either 1:100 (r = −0.578,  
+        
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

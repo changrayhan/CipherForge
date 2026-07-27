@@ -1,0 +1,113 @@
+============================================================
+L1 Gradient Attack — GPU Real Protocol Mode
+============================================================
+Model:         /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+Output:        /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/l1_run
+BFV Cache:     /root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b
+============================================================
+09:54:09 [INFO] attack_suite: ============================================================
+09:54:09 [INFO] attack_suite: SLG-HE-PIR Attack Test Suite v2.0
+09:54:09 [INFO] attack_suite: ============================================================
+09:54:09 [INFO] attack_suite: Attacks: ['L1']
+09:54:09 [INFO] attack_suite: N steps: 50
+09:54:09 [INFO] attack_suite: Output: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_095409
+09:54:09 [INFO] attack_suite: ============================================================
+09:54:09 [INFO] attack_suite: Log file: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_095409/attack_test.log
+09:54:09 [INFO] attack_suite: ============================================================
+09:54:09 [INFO] attack_suite: Protocol initialisation (GPU mode, Llama-3.1-8B-I)
+09:54:09 [INFO] attack_suite: ============================================================
+09:54:09 [INFO] attack_suite: Patched _build_seal_context for poly_degree=2048
+09:54:10 [INFO] attack_suite: Loading tokenizer from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+09:54:13 [INFO] attack_suite: Loading TREC-QC dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc
+09:54:13 [INFO] attack_test_trecqc_dataset: Loaded 4909 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/train.jsonl
+09:54:13 [INFO] attack_test_trecqc_dataset: Loaded 543 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/val.jsonl
+09:54:13 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543, test=100
+09:54:13 [INFO] attack_suite: Building BFV backend (poly_degree=2048, plain_bits=30, scale=10000.0, hidden_dim=2048)
+09:54:13 [INFO] src.core.bfv_privselect_v2_adapter: Loaded public key from cache: /root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b/bfv_pk.bin
+09:54:13 [INFO] attack_suite: Building encrypted database …
+09:54:13 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+09:54:13 [INFO] attack_suite: Loading hint table …
+09:54:13 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+09:54:13 [INFO] attack_suite: [attack-suite] dχ enabled: alpha=0.150, answer_beta=0.500, calibration_steps=5, calibration_mode=False, dump_audit=True
+09:54:13 [INFO] attack_suite: Constructing HeterogeneousProtocol …
+09:54:13 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+09:54:13 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+09:54:13 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da (one-time load)
+09:54:13 [INFO] src.model.model_splitting: Loaded 146 weights from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+09:54:13 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+09:54:13 [WARNING] src.model.model_splitting: SageAttention not installed — will use SDPA fallback: No module named 'sageattention'
+09:54:13 [INFO] src.model.model_splitting: Using SDPA for U shard
+09:54:18 [INFO] src.model.model_splitting: Loaded U submodel: embed + 8 layers on cuda (attn=SDPA, gradient_checkpointing=True)
+09:54:18 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+09:54:18 [INFO] src.parties.party_u: [PartyU] H15 privatizer attached (alpha=0.15, beta=0.5)
+09:54:18 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+09:54:18 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+09:54:18 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+09:54:18 [INFO] src.model.model_splitting: Using SDPA for M shard
+09:54:21 [INFO] src.model.model_splitting: Loaded M submodel: 8 layers + 112 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=disabled)
+09:54:21 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+09:54:21 [INFO] attack_suite: PartyM BFV secret key loaded (poly_degree=2048)
+09:54:21 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=6000, peak_lr=3.50e-04
+09:54:21 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+09:54:21 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+09:54:21 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+09:54:21 [INFO] src.model.model_splitting: load_s_submodel: tied embeddings detected — using embed_tokens.weight as V matrix (shape=(128256, 2048))
+09:54:21 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (2048, 128256) on cuda
+09:54:21 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 2048)
+09:54:21 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+09:54:21 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 8.0s (single CUDA context)
+09:54:21 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+09:54:21 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:21 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628111] initialized
+09:54:21 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:21 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628112] initialized
+09:54:21 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:21 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628165] initialized
+09:54:21 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:21 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628190] initialized
+09:54:21 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:21 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628137] initialized
+09:54:21 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:21 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628191] initialized
+09:54:21 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+09:54:21 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+09:54:21 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:21 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628240] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=628265] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628269] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628342] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628367] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628392] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628417] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628442] initialized
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628467] initialized
+09:54:22 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+09:54:22 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+09:54:22 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+09:54:22 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=628492] initialized
+09:54:22 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+09:54:22 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 9.7s
+09:54:22 [INFO] attack_suite: GPU protocol initialisation successful!
+09:54:22 [INFO] attack_suite: ============================================================
+09:54:22 [INFO] attack_suite: Phase 2: Attack Data Collection
+09:54:22 [INFO] attack_suite: ============================================================
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 1917, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 1675, in main
+    module = _get_attack_module(aid, cfg)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 420, in _get_attack_module
+    from attacks.L1_gradient_inference import L1GradientInference
+ModuleNotFoundError: No module named 'attacks.L1_gradient_inference'

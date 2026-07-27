@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Our study suggests that SARS-CoV-2 serology, including IgM and IgG, can be a helpful tool to guide the management of COVID-19. It also suggests that hospitalized patients with positive IgG and IgM are at higher risk for mortality than those with no antibody yet, or those who have lost their IgM despite the use of remdesivir and decadron. We couldn’t show the benefit of anti-cytokine therapy in this group because of the small sample size and the retrospective nature of our study. It is possible that such agents could decrease mortality in this subgroup of patients. We would advocate for a prospective randomized controlled trial of agents that could temper the inflammatory response beyond decadron for this subgroup of patients at the highest risk of death from COVID-19.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="118~126" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="770~778" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

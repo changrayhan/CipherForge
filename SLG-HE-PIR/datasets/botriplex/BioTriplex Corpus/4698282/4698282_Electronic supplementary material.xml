@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+
+           ESM_1_Description_studies.pdf  Description of 37 Breast Cancer Association Consortium studies included in this analysis 
+ 
+             
+               
+           
+             
+        
+
+           ESM_2_List_genes.pdf  List of 133 candidate genes relevant to the immunosuppression pathway by chromosomal position 
+ 
+             
+               
+           
+             
+        
+
+           ESM_3_QQPlot.tif  Quantile–quantile plot for genotyped SNPs included in this analysis for associations with overall breast cancer risk (excluding SNPs located within  TGFBR2  and  CCND1 ) 
+ 
+             
+               
+           
+             
+        
+
+           ESM_4_Association_SNPs.pdf  Associations with overall breast cancer risk for 3595 SNPs in the immunosuppression pathway genes 
+ 
+             
+               
+           
+             
+        
+
+           ESM_5_TopSNPs_ERstatus.pdf  Associations of  TGFBR2 ,  CCND1  and  STAT3  SNPs with overall breast cancer risk as well as stratified by ER status 
+ 
+             
+               
+           
+             
+        
+
+           ESM_6_LDplot_PTRF.tif  Linkage disequilibrium plot for 19 SNPs at  PTRF 
+ 
+ 
+             
+               
+           
+             
+        
+
+           ESM_7_ForestPlot_rs1905339.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs1905339 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_8_ForestPlot_rs8074296.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs8074296 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_9_ForestPlot_rs146170568.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs146170568 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_10_ForestPlot_rs141732716.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs141732716 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_11_ForestPlot_rs138391971.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs138391971 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_12_ForestPlot_rs12952342.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs12952342 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_13_ForestPlot_rs190765034.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs190765034 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_14_ForestPlot_rs190137766.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs190137766 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_15_ForestPlot_chr17_40607850_I.tif  Forest plot showing meta-analysis of study-wise estimates for the association of chr17:40607850:I with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_16_ForestPlot_rs77942990.tif  Forest plot showing meta-analysis of study-wise estimates for the association of rs77942990 with breast cancer risk 
+ 
+             
+               
+           
+             
+        
+
+           ESM_17_Gene_level_associations.pdf  Gene-level associations with breast cancer risk for 133 candidate genes in the immunosuppression pathway 
+ 
+             
+               
+           
+             
+        
+
+           ESM_18_LDplot_IL5.tif  Linkage disequilibrium plot for seven SNPs at  IL5 
+ 
+ 
+             
+               
+           
+             
+        
+
+           ESM_19_LDplot_GM-CSF.tif  Linkage disequilibrium plot for nine SNPs at  GM - CSF 
+ 
+ 
+             
+               
+           
+             
+        
+
+           ESM_20_Boxplot_STAT3.tif  Box plot showing gene expression levels of  STAT3  in normal breast tissue as well as tumor breast tissue 
+ 
+             
+               
+           
+             
+        
+
+           ESM_21_Boxplot_IL5.tif  Box plot showing gene expression levels of  IL5  in normal breast tissue as well as tumor breast tissue 
+ 
+             
+               
+           
+             
+        
+
+           ESM_22_Boxplot_PTRF.tif  Box plot showing gene expression levels of  PTRF  in normal breast tissue as well as tumor breast tissue 
+ 
+             
+               
+           
+             
+        
+
+           ESM_23_Boxplot_CSF2.tif  Box plot showing gene expression levels of  GM - CSF  in normal breast tissue as well as tumor breast tissue 
+ 
+             
+               
+           
+             
+        
+
+           ESM_24_eQTL_rs1905339_STAT3.tif  Associations of rs1905339 genotypes with  STAT3  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+
+           ESM_25_eQTL_rs8074296_STAT3.tif  Associations of rs8074296 genotypes with  STAT3  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+
+           ESM_26_eQTL_rs77942990_STAT3.tif  Associations of rs8074296 genotypes with  STAT3  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+
+           ESM_27_eQTL_rs1905339_PTRF.tif  Associations of rs1905339 genotypes with  PTRF  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+
+           ESM_28_eQTL_rs8074296_PTRF.tif  Associations of rs8074296 genotypes with  PTRF  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+
+           ESM_29_eQTL_rs77942990_PTRF.tif  Associations of rs77942990 genotypes with  PTRF  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+
+           ESM_30_eQTL_rs1905339_TUBG2.tif  Associations of rs1905339 genotypes with  TUBG2  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+
+           ESM_31_eQTL_rs8074296_ TUBG2.tif  Associations of rs8074296 genotypes with  TUBG2  expression within 183 breast tissue samples 
+ 
+             
+               
+           
+             
+        
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="576~582" text="TGFBR2" location="result" />
+<GENE id="G1" spans="589~594" text="CCND1" location="result" />
+<GENE id="G2" spans="928~934" text="TGFBR2" location="result" />
+<GENE id="G3" spans="938~943" text="CCND1" location="result" />
+<GENE id="G4" spans="950~955" text="STAT3" location="result" />
+<GENE id="G5" spans="1176~1180" text="PTRF" location="result" />
+<GENE id="G6" spans="3869~3872" text="IL5" location="result" />
+<GENE id="G7" spans="3813~3816" text="IL5" location="result" />
+<GENE id="G8" spans="3969~3975" text="GM-CSF" location="result" />
+<GENE id="G9" spans="4027~4035" text="GM - CSF" location="result" />
+<GENE id="G10" spans="4188~4193" text="STAT3" location="result" />
+<GENE id="G11" spans="4398~4401" text="IL5" location="result" />
+<GENE id="G12" spans="4133~4138" text="STAT3" location="result" />
+<GENE id="G13" spans="4345~4348" text="IL5" location="result" />
+<GENE id="G14" spans="4553~4557" text="PTRF" location="result" />
+<GENE id="G15" spans="4607~4611" text="PTRF" location="result" />
+<GENE id="G16" spans="4763~4767" text="CSF2" location="result" />
+<GENE id="G17" spans="4817~4825" text="GM - CSF" location="result" />
+<GENE id="G18" spans="4984~4989" text="STAT3" location="result" />
+<GENE id="G19" spans="5037~5042" text="STAT3" location="result" />
+<GENE id="G20" spans="5190~5195" text="STAT3" location="result" />
+<GENE id="G21" spans="5243~5248" text="STAT3" location="result" />
+<GENE id="G22" spans="5397~5402" text="STAT3" location="result" />
+<GENE id="G23" spans="5450~5455" text="STAT3" location="result" />
+<GENE id="G24" spans="5603~5607" text="PTRF" location="result" />
+<GENE id="G25" spans="5655~5659" text="PTRF" location="result" />
+<GENE id="G26" spans="5859~5863" text="PTRF" location="result" />
+<GENE id="G27" spans="5807~5811" text="PTRF" location="result" />
+<GENE id="G28" spans="6012~6016" text="PTRF" location="result" />
+<GENE id="G29" spans="6065~6069" text="PTRF" location="result" />
+<GENE id="G30" spans="6217~6222" text="TUBG2" location="result" />
+<GENE id="G31" spans="6270~6275" text="TUBG2" location="result" />
+<GENE id="G32" spans="6424~6429" text="TUBG2" location="result" />
+<GENE id="G33" spans="6477~6482" text="TUBG2" location="result" />
+<DISEASE id="D0" spans="62~75" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="731~744" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="975~988" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1391~1404" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1618~1631" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1849~1862" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="2081~2094" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2313~2326" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2543~2556" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2775~2788" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="3007~3020" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="3249~3262" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3479~3492" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3643~3656" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

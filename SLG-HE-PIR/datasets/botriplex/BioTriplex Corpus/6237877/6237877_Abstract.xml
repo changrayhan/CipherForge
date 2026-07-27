@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: A standardized herbal extract PM014 ameliorates pulmonary fibrosis by suppressing the TGF-β1 pathway.
+Abstract: Idiopathic pulmonary fibrosis (IPF) is a devastating and common chronic lung disease pathologically characterized by loss of epithelial cells and activation of fibroblasts and myofibroblasts. The etiology of IPF remains unclear and the disease pathology is poorly understood with no known efficacious therapy. PM014 is an herbal extract that has been shown to have beneficial effects in pulmonary diseases, which are likely to exert anti-inflammatory bioactions. In the present study, we observed that bleomycin (BLM) caused increased inflammatory infiltration as well as collagen deposition in lungs of mice on day 14 after treatment. Administration of PM014 suppressed BLM-induced inflammatory responses and fibrotic changes in dose-dependent manner in mice. Additionally, we provided  in vitro  evidence suggesting that PM014 inhibited TGF-β1-induced epithelial-mesenchymal transition (EMT) and fibroblast activation in alveolar epithelial cells and human lung fibroblasts from healthy donor and IPF patients. PM014 appeared to target TGF-β1 signaling via Smad-dependent pathways and p38 mitogen-activated protein kinases (MAPKs) pathways. Taken together, our data suggest that PM014 administration exerts a protective effect against lung fibrosis and highlight PM014 as a viable treatment option that may bring benefits to patient with IPF.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="959~965" text="TGF-β1" location="result" />
+<GENE id="G2" spans="1158~1164" text="TGF-β1" location="result" />
+<GENE id="G3" spans="1207~1210" text="p38" location="result" />
+<DISEASE id="D0" spans="56~74" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="120~149" text="Idiopathic pulmonary fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="151~154" text="IPF" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="192~204" text="lung disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="328~331" text="IPF" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1119~1122" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1357~1370" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1460~1463" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

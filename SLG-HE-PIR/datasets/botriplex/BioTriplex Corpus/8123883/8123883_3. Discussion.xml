@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+hHMSCs have received attention as a promising therapeutic strategy because of their immunomodulatory effects on various types of cells [ 20 , 21 , 22 , 23 , 24 ]. We wanted to investigate how MSCT could affect anagen re-entry signaling and hair growth-promotion in IFN-γ-treated hORSCs, which is similar to the AA microenvironment. The results showed that MSCT upregulated hORSC viability, migration, and the expression of anagen-re-entry-related genes, unlike IFN-γ treatment ( Figure 1 ,  Figure 3  and  Figure 8 ). We found that the NLRP3 inflammasome components highly expressed after IFN-γ treatment were efficiently suppressed by MSCT ( Figure 2 ). IFN-γ signature genes and JAK/STAT-related pro-inflammatory cytokines induced by IFN-γ were decreased by MSCT. The anti-inflammatory cytokine  IL-10 , which contributes to the immunomodulatory effects of MSCT, was increased by MSCT. Hair growth factors were upregulated by MSCT ( Figure 6 ). The immunomodulatory effects of MSCT on hORSCs appeared to be associated with Wnt/β-catenin stimulation and inhibition of the JAK/STAT signaling pathway ( Figure 4 ,  Figure 5  and  Figure 7 ).
+Inflammatory cytokines, such as IFN-γ, are known to lead to the collapse of HF-IP by upregulation of expression of MHC class I a and MICA inside the HF.
+MICA is a polymorphic protein that is induced upon stress, damage or transformation of cells. In AA, NKG2D+ Natural killer cells (NK cells) attack MICA positive HFs, which results in apoptosis and hair loss [ 25 ]. According to studies, upregulation of MICA in lesional AA enhances the susceptibility of attack by NK cells on the HFs, which may then promote anagen termination and AA progression. MSCs have a suppressive effect on the proliferation of activated helper T cells, caused by cell cycle arrest in the G0/G1 phase [ 26 ]. The inhibition of T cell proliferation reduces IFN-γ secretion by Th1 cells and IL-17 secretion from Th17 cells and increases IL-4, IL-10 secretion by Th2 cells. In this study, MICA was significantly induced by IFN-γ in hORSCs but downregulated by MSCT ( Figure 3 ). This may suggest that MSCT inhibits the expression of IFN-γ induced MICA in hORSCs.
+The Wnt/β-catenin signaling pathway is important for hair morphogenesis and anagen re-entry [ 27 ]. β-catenin is required to increase the proliferation of bulge stem cells [ 28 ]. Cyclin D1 is a member of the cyclin protein family that is involved in regulating cell cycle progression. It is known to increase during the G0/G1 phase and to initiate DNA synthesis. Cyclin D1 and Axin2 are one of the target genes of the Wnt/β-catenin signal pathway. They are direct downstream molecules activated by β-catenin. LEF1 is a transcription factor that is primarily involved in the canonical Wnt/β-catenin signaling pathway [ 29 ]. They are also important for anagen re-entry and cell proliferation.
+In this study, MSCT significantly induced Wnt family proteins, β-catenin, GSK-3β and cyclin D1 expression. Among the Wnt family proteins, Wnt3a and 10b are related to the hair cycle and regeneration, and increase anagen gene expression. Kishimoto et al. generated Wnt3a-overexpressing keratinocyte feeder cells and co-cultured the cells with freshly isolated murine DPCs. In this experiment, Wnt3a was found to increase β-catenin expression and increase hair growth in nude mice that underwent skin remodeling composed of DPCs and keratinocytes [ 30 ]. Wnt5a is known as a downstream molecule of the sonic hedgehog signaling cascade and is upregulated during the early morphogenetic stages [ 31 , 32 ]. We also demonstrated that MSCT suppressed the expression of DKK1 in IFN-γ-induced hORSCs. However, this did not seem to be caused by TGF-β2. The reason for this is that  TGF-β2  mRNA was only increased by IFN-γ treatment and not by MSCT in this study. Most of the Wnt/β-catenin-related molecules were increased by MSCT conditions in vitro. This suggests that MSCT could help induce anagen re-entry by stimulating the Wnt/β-catenin signal pathway.
+SOX9 is characteristically expressed in CD34-positive hORSCs in the bulge area and is involved in the regulation of bulge formation and stem cell transcription [ 33 , 34 , 35 ]. CD34 and CD200 are known as human follicular stem cell markers. Keratin15 is one of the most widely used markers of bulge stem cells [ 36 ]. Since SOX9 is known as a β-catenin-regulated gene, the MSCT-induced enhanced expression of SOX9 may result from the activation of Wnt/β-catenin signaling by MSCT. CD200 suppresses the secretion of the pro-inflammatory cytokine TNF-α and improves the secretion of the anti-inflammatory cytokine IL-10. The expression of SOX9, CD34, CD200, and Keratin15 protein was increased after hHMSC co-culture ( Figure 5 ). This supports that MSCT could strengthen the stemness of HF stem cells in the bulge area of hORSCs [ 30 ].
+In AA, dystrophic HFs are often observed instead of normal HFs because hORSCs are attacked by inflammatory cells around the HFs and the immune privilege of the HFs is disrupted. The main role of hORSCs is to secrete and react to inflammatory substances. hORSCs are important immunocompetent cells that express NLRP3 inflammasomes constitutively in the HFs [ 19 ]. Therefore, we investigated the MSCT response with inflammasome markers, which are closely related to hORSCs. In our study, the inflammasome components were upregulated by IFN-γ treatment and downregulated by MSCT ( Figure 2 ). This finding may suggest new ways for regulating the inflammasome activation pathway and represent a way to prevent or treat AA.
+We also found that the IFN-γ-induced proinflammatory cytokines and chemokines of AA ( Figure 3 ) were suppressed by MSCT in hORSCs [ 37 , 38 ]. Due to the inflammatory response, these molecules disrupt the immune privilege of HFs, induce dystrophic change and catagen, and prevent anagen re-entry. In contrast,  IL-10  is an anti-inflammatory cytokine that has the opposite effect. These results can be the outcome of JAK/STAT pathway activation. Recent studies have shown that increased JAK-STAT signaling suppressed HF stem cell function in vitro and that STAT5 signaling regulated HF stem cell quiescence [ 39 , 40 ]. Even if the JAK/STAT signaling pathway is important in skin inflammation, the role of JAK/STAT signaling in hORSCs has not yet been studied.
+In this study, the phosphorylation of JAK1-3 and STAT1 was significantly decreased in hORSCs by MSCT, which reverted the IFN-γ-induced proinflammatory changes. Although the downregulation of STAT3 in the IFN-γ-hHMSCs treated group was not significant compared to the IFN-γ-treated groups, the changes were significant compared to the controls in Western blotting analysis. We suggest that MSCT suppress IFN-γ signaling through downregulation of the JAK/STAT pathway. This result suggests that the MSCT-suppressed activation of JAK1/2 reversed catagen induction and induced a potential mechanism involved in the new hair cycle. TGF-β is well known as an inducer of regression [ 41 ]. In accordance with that, the TGF-β2 mRNA in hORSCs was significantly upregulated in response to IFN-γ treatment and was reduced by MSCT in this study.
+We also found a significant increase in the mRNA expression of hair growth factors in hORSCs by MSCT. IGF-1 is a well-known anagen-prolonging factor and restored the immune activity of hair follicles [ 42 ]. PDGF is related to the induction and maintenance of the anagen phase, and FGF and is known as a hORSC growth factor. VEGF is involved in accelerating hair growth, increasing follicle size through follicular angiogenesis and stimulating ORSCs migration [ 43 , 44 ]. SHH has been found to regulate the angiogenic growth factor such as VEGF. BMP2, BMP4 activation is known to elaborately regulate the development of HF bulge stem cell activation and growth during the hair cycle [ 45 ]. hHMSCs secrete several growth factors such as VEGF, and FGF, which lead to escalated cell proliferation, regeneration and promote the migration of cells. As shown in  Figure 6 ,  IGF1, FGF2, FGF7, PDGF ,  VEGF, SHH, BMP2  and  BMP4  mRNA expression was suppressed by IFN-γ, and MSCT had a stimulatory effect on the transcription of growth factors. Our results indicate that MSCT increased hair growth factors to facilitate the viability and migration of hORSCs ( Figure 1  and  Figure 8 ).
+We previously studied the efficacy of MSCT in hDPCs, one of the key cells that make up the hair bulge [ 37 ]. There are similarities and differences between the results of that study and the results of the current research. As for the similarities, in hDPCs, MSCT also reduced the inflammatory markers  caspases-1  and  IFN-γR . In addition, the Wnt/β-catenin signaling pathway markers Wnt10, β-catenin, and pGSK-3β increased, and DKK1 decreased in both cells. The growth factor  FGF2  increased and the catagen inducer  TGF-β2  decreased, suggesting that in hDPCs and hORSCs, hHMSCs treat inflammation-related substances and are involved in the regulation of Wnt/β-catenin signaling and promote the secretion of growth factors. As for the differences, the inflammatory substances  IL-15, TNF-α,  and  IL-1β  were increased in hDPCs after hHMSCs treatment, whereas there was a clear decrease in cytokines in the hORSCs. Since cells secreting inflammatory substances such as IL-15 and TNF-α are mainly hORSCs, it can be inferred that MSCT could be relatively safe to use for HFs in vivo based on this result. Additionally, there was a clear difference in the JAK/STAT pathway-related results. In hDPCs, MSCT increased the expression levels of STAT1 and STAT3 compared to the IFN-γ-treated group. Thus, the JAK/STAT pathway acted as an anagen re-entry signal here. In contrast, in this study, MSCT in hORSCs reduced the expression levels of STAT1 and STAT3, which subsequently offset the proinflammatory effect of IFN-γ. This result may be because MSCT in hORSCs acted as a pro-inflammatory effect on the JAK/STAT pathway. The different interactions seemed to result from the different properties of each cell type.
+In our study, the migration ability of hORSCs was increased by MSCT, which was decreased by IFN-γ treatment ( Figure 8 ). The migration ability of hORSCs is one of the important factors in HFs growth. hORSCs migration is necessary and sufficient to proceed with the hair cycle. hORSCs represent a very proliferative compartment in the HFs during the anagen phase [ 38 ]. This is an important part of hair growth in the hair cycle.
+As shown in  Figure 6 , MSCT increases the expression level of hair growth factors related with cell migration in hORSCs. In addition, hHMSCs secretes multiple growth factors, which help cell proliferation and migration. Therefore, this result means that MSCT can play an active role in HFs growth by enhancing cell viability and migration under the microenvironment with HF-IP collapse.
+In this study, we demonstrated that MSCT increase hair shaft growth in mouse vibrissae organ culture ( Figure 9 ). As shown in  Figure 9 , hair bulbs were preserved in the MSCT treated group contrary to the IFN-γ group, in which the hair bulb was curved. This is one of the catagen-like regressive changes in hair bulb. Our results suggest that MSCT increases hair growth factors ( Figure 6 ) and stimulates Wnt/β-catenin signaling to stimulate cyclin D1 ( Figure 4 ) and suppress the catagen inducer TGF-β2. MSCT also blocks the proinflammation effects of IFN-γ through inhibition of the JAK/STAT pathway. Through these pathways, anagen re-entry and anagen prolongation would be improved in HF.
+Recent studies have shown that induced pluripotent stem cells can differentiate into MSCs to have DPC characteristics when exposed to a certain environment [ 46 ]. These MSCs were able to partially reproduce the characteristics of DPC, such as showing a DPC-related marker and raising HF-related genes. In addition, amniotic fluid-derived mesenchymal stem cell-conditioned medium promoted telogen–anagen conversion in HFs and increased HF density, mimicking the role of DPC [ 47 ]. Originally, MSCs and DPCs are from the mesoderm, which are different from hair keratinocytes which are ectodermal in origin [ 48 ]. Based on these studies, we predict that MSCs could change to have the ability to activate the Wnt/β-catenin signaling pathway and to induce anagen-reentry by modifying self-characteristics, similarly to DPCs in certain aspects, when co-cultured with hair keratinocytes.
+In association with AA, the effect of MSCT on hORSCs was first investigated in this study. Our results show that MSCT could induce anagen re-entry-related molecules in hORSCs. MSCT may induce anagen re-entry through activation of Wnt/β-catenin, inhibition of the JAK/ STAT pathway, HF-IP collapse-related genes, and NLRP3 inflammasome activation. Various growth factors related to AA were enhanced in response to MSCT. MSCT could increase hORSC viability and migration which results in hair shaft growth. MSCT can be an attractive treatment for refractory AA patients at various stages. Additional research is needed to determine the optimal clinical setting for MSCT.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="266~271" text="IFN-γ" location="result" />
+<GENE id="G1" spans="462~467" text="IFN-γ" location="result" />
+<GENE id="G2" spans="537~542" text="NLRP3" location="result" />
+<GENE id="G3" spans="590~595" text="IFN-γ" location="result" />
+<GENE id="G4" spans="656~661" text="IFN-γ" location="result" />
+<GENE id="G5" spans="737~742" text="IFN-γ" location="result" />
+<GENE id="G6" spans="799~804" text="IL-10" location="result" />
+<GENE id="G7" spans="1174~1179" text="IFN-γ" location="result" />
+<GENE id="G8" spans="1295~1299" text="MICA" location="result" />
+<GENE id="G9" spans="1396~1401" text="NKG2D" location="result" />
+<GENE id="G10" spans="1442~1446" text="MICA" location="result" />
+<GENE id="G11" spans="1548~1552" text="MICA" location="result" />
+<GENE id="G12" spans="1875~1880" text="IFN-γ" location="result" />
+<GENE id="G13" spans="1908~1913" text="IL-17" location="result" />
+<GENE id="G14" spans="2005~2009" text="MICA" location="result" />
+<GENE id="G15" spans="2149~2154" text="IFN-γ" location="result" />
+<GENE id="G16" spans="2163~2167" text="MICA" location="result" />
+<GENE id="G17" spans="2279~2288" text="β-catenin" location="background" />
+<GENE id="G18" spans="2359~2368" text="Cyclin D1" location="background" />
+<GENE id="G19" spans="2543~2552" text="Cyclin D1" location="background" />
+<GENE id="G20" spans="2557~2562" text="Axin2" location="background" />
+<GENE id="G21" spans="2678~2687" text="β-catenin" location="background" />
+<GENE id="G22" spans="2689~2693" text="LEF1" location="background" />
+<GENE id="G23" spans="2935~2944" text="β-catenin" location="result" />
+<GENE id="G24" spans="2946~2952" text="GSK-3β" location="result" />
+<GENE id="G25" spans="2957~2966" text="cyclin D1" location="result" />
+<GENE id="G26" spans="3010~3015" text="Wnt3a" location="result" />
+<GENE id="G27" spans="3136~3141" text="Wnt3a" location="result" />
+<GENE id="G28" spans="3264~3269" text="Wnt3a" location="result" />
+<GENE id="G29" spans="3292~3301" text="β-catenin" location="background" />
+<GENE id="G30" spans="3425~3430" text="Wnt5a" location="background" />
+<GENE id="G31" spans="3635~3639" text="DKK1" location="result" />
+<GENE id="G32" spans="3643~3648" text="IFN-γ" location="result" />
+<GENE id="G33" spans="3708~3714" text="TGF-β2" location="result" />
+<GENE id="G34" spans="3745~3751" text="TGF-β2" location="result" />
+<GENE id="G35" spans="3781~3785" text="FN-γ" location="result" />
+<GENE id="G36" spans="4022~4026" text="SOX9" location="background" />
+<GENE id="G37" spans="4062~4066" text="CD34" location="background" />
+<GENE id="G38" spans="4200~4204" text="CD34" location="background" />
+<GENE id="G39" spans="4209~4214" text="CD200" location="background" />
+<GENE id="G40" spans="4264~4273" text="Keratin15" location="background" />
+<GENE id="G41" spans="4347~4351" text="SOX9" location="result" />
+<GENE id="G42" spans="4366~4375" text="β-catenin" location="result" />
+<GENE id="G43" spans="4432~4436" text="SOX9" location="result" />
+<GENE id="G44" spans="4504~4509" text="CD200" location="result" />
+<GENE id="G45" spans="4568~4573" text="TNF-α" location="result" />
+<GENE id="G46" spans="4635~4640" text="IL-10" location="result" />
+<GENE id="G47" spans="4660~4664" text="SOX9" location="result" />
+<GENE id="G48" spans="4666~4670" text="CD34" location="result" />
+<GENE id="G49" spans="4672~4677" text="CD200" location="result" />
+<GENE id="G50" spans="4683~4692" text="Keratin15" location="result" />
+<GENE id="G51" spans="5169~5174" text="NLRP3" location="result" />
+<GENE id="G52" spans="5394~5399" text="IFN-γ" location="result" />
+<GENE id="G53" spans="5602~5607" text="IFN-γ" location="result" />
+<GENE id="G54" spans="5891~5896" text="IL-10" location="background" />
+<GENE id="G55" spans="6137~6142" text="STAT5" location="background" />
+<GENE id="G56" spans="6379~6383" text="JAK1" location="result" />
+<GENE id="G57" spans="6390~6395" text="STAT1" location="result" />
+<GENE id="G58" spans="6462~6467" text="IFN-γ" location="result" />
+<GENE id="G59" spans="6532~6537" text="STAT3" location="result" />
+<GENE id="G60" spans="6545~6550" text="IFN-γ" location="result" />
+<GENE id="G61" spans="6608~6613" text="IFN-γ" location="result" />
+<GENE id="G62" spans="6744~6749" text="IFN-γ" location="result" />
+<GENE id="G63" spans="6868~6872" text="JAK1" location="result" />
+<GENE id="G64" spans="6968~6973" text="TGF-β" location="background" />
+<GENE id="G65" spans="7053~7059" text="TGF-β2" location="result" />
+<GENE id="G66" spans="7120~7125" text="IFN-γ" location="result" />
+<GENE id="G67" spans="7277~7282" text="IGF-1" location="background" />
+<GENE id="G68" spans="7648~7651" text="SHH" location="background" />
+<GENE id="G69" spans="7722~7726" text="BMP2" location="background" />
+<GENE id="G70" spans="7728~7732" text="BMP4" location="result" />
+<GENE id="G71" spans="8046~8050" text="IGF1" location="result" />
+<GENE id="G72" spans="8052~8056" text="FGF2" location="result" />
+<GENE id="G73" spans="8058~8062" text="FGF7" location="result" />
+<GENE id="G74" spans="8078~8081" text="SHH" location="result" />
+<GENE id="G75" spans="8083~8087" text="BMP2" location="result" />
+<GENE id="G76" spans="8094~8098" text="BMP4" location="result" />
+<GENE id="G77" spans="8134~8139" text="IFN-γ" location="result" />
+<GENE id="G78" spans="8677~8683" text="IFN-γR" location="result" />
+<GENE id="G79" spans="8743~8748" text="Wnt10" location="result" />
+<GENE id="G80" spans="8750~8759" text="β-catenin" location="result" />
+<GENE id="G81" spans="8766~8772" text="GSK-3β" location="result" />
+<GENE id="G82" spans="8788~8792" text="DKK1" location="result" />
+<GENE id="G83" spans="8837~8841" text="FGF2" location="result" />
+<GENE id="G84" spans="8878~8884" text="TGF-β2" location="result" />
+<GENE id="G85" spans="9139~9144" text="IL-15" location="result" />
+<GENE id="G86" spans="9146~9151" text="TNF-α" location="result" />
+<GENE id="G87" spans="9159~9164" text="IL-1β" location="result" />
+<GENE id="G88" spans="9331~9336" text="IL-15" location="result" />
+<GENE id="G89" spans="9341~9346" text="TNF-α" location="result" />
+<GENE id="G90" spans="9599~9604" text="STAT1" location="result" />
+<GENE id="G91" spans="9609~9614" text="STAT3" location="result" />
+<GENE id="G92" spans="9631~9636" text="IFN-γ" location="result" />
+<GENE id="G93" spans="9796~9801" text="STAT1" location="result" />
+<GENE id="G94" spans="9806~9811" text="STAT3" location="result" />
+<GENE id="G95" spans="9869~9874" text="IFN-γ" location="result" />
+<GENE id="G96" spans="10163~10168" text="IFN-γ" location="result" />
+<GENE id="G97" spans="11097~11102" text="IFN-γ" location="result" />
+<GENE id="G98" spans="11335~11344" text="cyclin D1" location="result" />
+<GENE id="G99" spans="11391~11397" text="TGF-β2" location="result" />
+<GENE id="G100" spans="11447~11452" text="IFN-γ" location="result" />
+<GENE id="G101" spans="12786~12791" text="NLRP3" location="result" />
+<DISEASE id="D0" spans="312~314" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1392~1394" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1565~1567" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="4862~4864" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="5575~5577" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="5660~5662" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="12490~12492" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="12851~12853" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="13026~13028" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1532~1544" text="upregulation" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G11" geneText="MICA" diseaseID="D2" diseaseText="AA" relationID="R0" relationText="upregulation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Glioblastoma (GBM), the most common and lethal of primary brain tumors, has two defining phenotypes: uncontrollable proliferation and diffuse infiltration within the brain 1 – 6 . These features together allow tumor cells to invade regions of brain with an intact blood-brain barrier (BBB), enabling them to proliferate in an environment protected from potentially effective therapeutics. Thus, an ideal therapeutic needs to not only target both proliferation and invasion, but also penetrate the BBB and be retained within tumor-infiltrated brain long enough to kill tumor cells when they are vulnerable to the drug.
+The microtubule (MT)-based cytoskeleton is essential for both mitotic spindle function, which drives GBM proliferation, and cell motility, which drives GBM infiltration 7 . Several MT-targeting agents inhibit spindle function, including the taxanes and vinca alkaloids, and these drugs have been successfully used for treating a variety of malignancies 8 . However, MTs are essential for peripheral and central nervous system (PNS, CNS) function, and dose-limiting neurotoxicity has been observed with these MT-targeting drugs 8 , 9 . This has served as an impetus for developing drugs that target other components of mitotic spindle. One such group are MT-associated molecular motors, referred to as mitotic kinesins, which play multiple roles in mitotic spindle function and cell motility 10 , 11 . A member of the mitotic kinesins is KIF11 (kinesin family member 11) 12 , 13 . Over the last twenty years, more than 50 highly specific and potent small-molecule inhibitors of KIF11 have been developed 10 . While these drugs are not neurotoxic 14 – 17 , they have been disappointing as anti-cancer therapeutics. This has been attributed to the fact that most of the KIF11 inhibitor clinical studies have tested them in solid malignancies which typically have a low proliferative index, using drugs with a relatively short half-life 18 . Mitotic spindle inhibitors are cytotoxic only for cells in the M phase, which constitutes less than 5% of cell cycle duration. Thus, it seems highly unlikely that any appreciable fraction of cells from a tumor with a low proliferative index will be affected by a drug that is only active in M phase, particularly if the drug has a short half-life and can only be dosed intermittently.
+KIF11 inhibitors have not been clinically tested in GBM. In spite of the prior disappointing clinical experience, we have shown that KIF11 inhibitors are promising therapeutics in GBM for several reasons 7 . KIF11 is needed for survival of GBM tumor initiating cells (TICs)—the most invasive and chemoresistant cells in this tumor—and is essential for driving both GBM invasion and proliferation 7 . Furthermore, since GBM has a high proliferative index and rarely metastasizes outside the CNS, and given that the brain is essentially a post-mitotic structure, accumulating high doses of a KIF11 inhibitor in brain would essentially target all GBM cells with relatively little CNS toxicity. However, an effective GBM therapeutic must be able to cross the BBB and accumulate in brain at concentrations sufficient to kill tumor cells when they are vulnerable 19 , 20 . Many small-molecule anti-cancer therapies are prone to active efflux at the BBB by P-glycoprotein (P-gp; also known as ABCB1) and breast cancer resistance protein (Bcrp; also known as ABCG2), and this can severely limit drug distribution to the brain 19 , 21 . Although the BBB may be relatively compromised in the core of a GBM, infiltrative tumor cells reside behind a functionally intact BBB and result in the establishment of pharmacologic “sanctuaries” that provide sites for tumor recurrence that is inevitable in this disease 22 – 24 .
+Ispinesib (SB-715992) (Supplementary Fig.  S1 ) is a potent and highly specific KIF11 inhibitor, and we have shown that it is active against GBM cells, including treatment resistant TICs,  in vitro  and against orthotopic GBM models  in vivo 7 . However, even if ispinesib can freely diffuse into the brain, its efficacy could be severely limited if a substantial fraction of the drug is actively pumped out by efflux transporters at the BBB. In order to optimize ispinesib as a GBM therapeutic, we have undertaken a systematic investigation of its pharmacokinetics and pharmacodynamics in orthotopic rodent models of GBM. We find that while ispinesib is a P-gp and Bcrp substrate, its retention and efficacy in GBM can be substantially improved by inhibiting these efflux transporters. Our results support the use of targeting efflux mechanisms as an adjunct to therapeutic development of GBM therapies.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1456~1461" text="KIF11" location="background" />
+<GENE id="G1" spans="1463~1487" text="kinesin family member 11" location="background" />
+<GENE id="G2" spans="1596~1601" text="KIF11" location="background" />
+<GENE id="G3" spans="1786~1791" text="KIF11" location="background" />
+<GENE id="G4" spans="2342~2347" text="KIF11" location="background" />
+<GENE id="G5" spans="2475~2480" text="KIF11" location="background" />
+<GENE id="G6" spans="2550~2555" text="KIF11" location="background" />
+<GENE id="G7" spans="2932~2937" text="KIF11" location="background" />
+<GENE id="G8" spans="3292~3306" text="P-glycoprotein" location="background" />
+<GENE id="G9" spans="3308~3312" text="P-gp" location="background" />
+<GENE id="G10" spans="3328~3333" text="ABCB1" location="background" />
+<GENE id="G11" spans="3373~3377" text="Bcrp" location="background" />
+<GENE id="G12" spans="3393~3398" text="ABCG2" location="background" />
+<GENE id="G13" spans="3832~3837" text="KIF11" location="background" />
+<GENE id="G14" spans="4409~4413" text="P-gp" location="result" />
+<GENE id="G15" spans="4418~4422" text="Bcrp" location="result" />
+<DISEASE id="D0" spans="1~13" text="Glioblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="15~18" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="720~723" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="771~774" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="2394~2397" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="2522~2525" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="2582~2585" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2707~2710" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2761~2764" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2986~2989" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="3055~3058" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="3234~3240" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D12" spans="3339~3352" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3534~3537" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3893~3896" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3974~3977" text="GBM" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="4231~4234" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="4370~4373" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4464~4467" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4642~4645" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="2496~2518" text="promising therapeutics" location="background" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="KIF11" diseaseID="D5" diseaseText="GBM" relationID="R0" relationText="promising therapeutics" />
+</TAGS>
+</Genomics_ConceptTask>

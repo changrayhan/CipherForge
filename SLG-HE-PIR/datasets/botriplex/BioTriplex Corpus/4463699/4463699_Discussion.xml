@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In this study, we examined the genome-wide DNA methylation in the PBMC of patients with AAAs. Since cigarette smoking and increasing age have been found to be an important mediator of DNA methylation in tobacco-related cardiovascular disease, it was necessary to take the age and the smoking history of the patients into consideration in the analyses [ 27 ]. Regardless of smoking status, our analysis demonstrated significant differences in DNA methylation at specific CpG islands that map to two genes of interest:  CNN2  and  SERPINB9 . While the precise functions of these genes remain under scrutiny, there is biologic plausibility to implicate these genes in AAA pathogenesis. The first gene is  CNN2 , which is also known as h2-calponin or calponin 2. CNN2 is an actin-binding protein implicated in cytoskeletal organization and vascular development [ 28 ]. Calponin has been found to be upregulated in stretched vascular walls and may be an important regulator of vascular smooth muscle cell phenotype [ 29 ]. Additionally, circulating levels of calponin are found in patients with acute aortic dissection and may be a potential biomarker for this aortic pathology [ 30 ]. The second gene is  SERPINB9 , which is also known as PI9.  SERPINB9  is located at 6p25 and belongs to a family of serine protease inhibitors. SERPINB9 is present in the cytoplasm of cytoxic lymphocytes, inhibits the granule proteinase granzyme B and protects cells from granzyme B induced apoptosis [ 31 , 32 , 33 ]. Moreover, SERPINB9 has been shown to inhibit apoptosis of human vascular smooth muscle cells, again a key process in AAA pathogenesis [ 34 ].
+Our investigation began by investigating global DNA methylation in the PBMC of AAA patients ( Table 1  and  Supplementary Table S1 ). For comparison, we also analyzed global DNA methylation in the PBMC of vascular surgery patients without evidence of peripheral arterial disease (PAD) ( Table 1  and  Supplementary Table S1 ). We considered it important to use non-PAD patients as controls as others [ 8 ] have shown diffuse hypermethylation across many genomic loci in patients with systemic atherosclerosis. Our initial analysis, using Human Methylation 450k BeadChips [ 26 ], demonstrated decreased methylation of the  CNN2  gene and hypermethylation of the  SERPINB9  gene. Interestingly, none of the differentially methylated CpGIs within these genes were located in the promoter regions. These non-promoter CpGIs, regarded as CpGI shores, still influence gene expression but likely through a different mechanism such as alternative transcription or by maintaining silenced gene expression that was brought about by other epigenetic modifications [ 35 , 36 ]. Again, it is necessary to emphasize that the exact mechanism by which DNA methylation influences gene expression is still unknown. Regardless, we employed alternative methods to better understand the effects of DNA methylation on the genes of interest. First, we used real-time quantitative RT-PCR to examine the effect of methylation on gene expression. To our dismay, we found no difference in  CNN2  or  SERPINB9  mRNA in PBMC when comparing AAA and control patients. As a secondary method to reconcile these results, we subjected aneurysmal and non-aneurysmal human infrarenal aortic tissue to immunohistochemical analysis. Using this technique, we were able to convincingly demonstrate enhanced expression of CNN2 and SERPINB9 in the aneurysmal aorta, as compared to that of non-AAA controls. Of note, we found the greatest positive staining to be limited to the vascular smooth muscle cell rich media of the aneurysmal aorta ( Figure 3 ). The significance of this is unclear but likely highlights the importance of the vascular smooth muscle cell, and its reaction to inflammation, in AAA pathogenesis. Our results, while somewhat discordant, mirror that of others [ 8 , 36 ] who have found that DNA methylation of CpGI shores functions in a complex manner to regulate gene expression in health and disease.
+The findings of this study are novel but our investigation has several limitations that must be highlighted. The first is the small sample size associated with this study. This will be addressed in future studies as our research efforts continue and patient enrollment increases. Moreover, our future experiments will also include further characterization of the individual epigenetic marks using sequencing of bisulfite modified DNA and studies on histone modifications such as methylation and acetylation. The second limitation worthy of discussion is the possibility that the differential methylation seen in this study is age-related and not AAA-related, albeit we did attempt to adjust the analyses for age and smoking status. In this study, the control patients were on average ~10 years younger than their AAA counterparts ( Table 1 ). Another limitation of this study is that we used all mononuclear cell types for our analysis. Isolating subtypes of mononuclear cells from peripheral blood has been performed by others [ 25 , 37 ] but is beyond the scope of this report. The last limitation applicable to our study pertains to any investigation of DNA methylation. By studying DNA methylation, we are investigating a genetic modification, the exact effect of which on gene expression is unknown making interpretation of differential methylation very difficult [ 38 ].
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="519~523" text="CNN2" location="result" />
+<GENE id="G1" spans="530~538" text="SERPINB9" location="result" />
+<GENE id="G2" spans="703~707" text="CNN2" location="result" />
+<GENE id="G3" spans="733~744" text="h2-calponin" location="background" />
+<GENE id="G4" spans="748~758" text="calponin 2" location="background" />
+<GENE id="G5" spans="760~764" text="CNN2" location="background" />
+<GENE id="G6" spans="1202~1210" text="SERPINB9" location="result" />
+<GENE id="G7" spans="1236~1239" text="PI9" location="background" />
+<GENE id="G8" spans="1242~1250" text="SERPINB9" location="background" />
+<GENE id="G9" spans="1326~1334" text="SERPINB9" location="background" />
+<GENE id="G10" spans="1511~1519" text="SERPINB9" location="background" />
+<GENE id="G11" spans="2265~2269" text="CNN2" location="result" />
+<GENE id="G12" spans="2305~2313" text="SERPINB9" location="result" />
+<GENE id="G13" spans="3105~3109" text="CNN2" location="result" />
+<GENE id="G14" spans="3422~3426" text="CNN2" location="result" />
+<GENE id="G15" spans="3431~3439" text="SERPINB9" location="result" />
+<GENE id="G17" spans="3115~3123" text="SERPINB9" location="result" />
+<DISEASE id="D0" spans="89~92" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="666~669" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1618~1621" text="AAA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1722~1725" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1894~1921" text="peripheral arterial disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1923~1926" text="PAD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2008~2011" text="PAD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2136~2151" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="3153~3156" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="3492~3495" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="3799~3802" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="4668~4671" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="4835~4838" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1622~1634" text="pathogenesis" location="background" relation="pathological role" />
+<RELATION id="R1" spans="3087~3100" text="no difference" location="result" relation="no relation" />
+<ENTITY_LINKING id="E0" geneID="G10" geneText="SERPINB9" diseaseID="D2" diseaseText="AAA" relationID="R0" relationText="pathogenesis" />
+<ENTITY_LINKING id="E1" geneID="G13" geneText="CNN2" diseaseID="D9" diseaseText="AAA" relationID="R1" relationText="no difference" />
+<ENTITY_LINKING id="E2" geneID="G17" geneText="SERPINB9" diseaseID="D9" diseaseText="AAA" relationID="R1" relationText="no difference" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Case 1
+Patient 1, a young woman, presented to medical attention with a 3-month history of bloating, nausea, change in bowel habits, and night-sweats. There was no reported history of asbestos exposure, and no contributory family history. Cross-sectional imaging identified a peritoneal mass ( Fig. 1a ). Core needle biopsy and peritoneal cytology confirmed the diagnosis of epithelioid mesothelioma ( Fig. 1b ). The patient underwent 3 cycles of systemic chemotherapy with cisplatin and pemetrexed with modest response. Shortly after the initiation of chemotherapy, a fresh-frozen biopsy from a tumor deposit in the omentum was obtained for molecular analysis. The patient then underwent cytoreductive surgery and hyperthermic intraperitoneal chemotherapy. Histology from the cytoreductive surgery specimen showed a biphasic mesothelioma invading multiple abdominal and pelvic viscera with high-grade cytology and no appreciable treatment effect ( Fig. 1c ).
+The FFPE material from the original diagnostic biopsy was exhausted during workup and thus molecular analysis was performed on the fresh-frozen omental biopsy (high cellularity, 59% tumor content), as well as peripheral blood. Targeted panel sequencing did not identify any significant mutations. Whole-genome sequencing (107X tumor and 40X germline depth of coverage) identified a somatic frameshifting mutation in  NF2  (Y177fs, COSM23800), as well as somatic SNVs in  SOCS3  (N92K), an inhibitor of  JAK2  tyrosine kinase;[ 15 ]  TET3  (R870G), a gene involved in chromatin remodeling;[ 16 ] and  TFPT  (G128W) a promoter of apoptosis ( Table 1 ).[ 17 ] One insertion/deletion, 13 additional SNVs, and 16 gross chromosomal aberrations were identified. Assessment of the  BAP1  locus revealed wild-type alleles in both the tumor and germline.
+
+           10.1371/journal.pone.0119689.t001 
+           Table 1 
+           Select SNVs from patients 1 and 2. 
+           
+             
+           
+             
+                 
+               
+                 
+               Patient 1 
+                   Patient 2 
+                 
+                   
+               
+                 
+               CNTNAP3B  M1247I 
+ 
+ 
+                   CDKN2A  R58* 
+ 
+                 
+                   
+                 NF2  Y177fs 
+ 
+ 
+                   CNTNAP3B  M1247I 
+ 
+ 
+                 
+                   
+                 SOCS3  N92K 
+ 
+                   LATS2  R958H 
+ 
+                 
+                   
+                 TET3  R870G 
+ 
+                   NF2  R466* 
+ 
+ 
+                 
+                   
+                 TFPT  G128W 
+ 
+                   NOTCH1  P2097L 
+ 
+                 
+                   
+                 
+                   SMO  V210M 
+ 
+                 
+                   
+                 
+                   TP53  R213* 
+ 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+           NF2  loss-of-function mutations were common to both patients, as well as mutations in  CNTNAP3B  (shown in bold). For a complete list of SNVs see  S1 File  and  S2 File . 
+ 
+             
+               
+           
+             
+        
+RNA expression analysis detected increased expression of  MET  and  NOTCH1  compared to both normal controls and tumor expression data from a range of malignancies publicly available from The Cancer Genome Atlas (TCGA). A fluorescent  in situ  hybridization (FISH) assay directed at the  MET  locus did not demonstrate amplification. FISH for possible 9p21 deletion showed intact loci. Immunohistochemical (IHC) analysis of BAP1 protein showed intact nuclear expression in tumor cells. FISH and IHC assays were performed on FFPE sections from the omental tumor sample obtained at surgery. Pathway analysis conducted based upon a synthesis of available data revealed deregulation of the NOTCH and PI3K-mTOR pathways ( S1 Fig ).
+Within two months of cytoreductive surgery, the patient progressed clinically and radiographically. She was retreated with platinum doublet chemotherapy with no response. Based upon molecular results, the patient was briefly treated with everolimus with no response, deterioration continued and the patient died from progressive disease. For a complete set of genomic alterations and RNA expression data, see  S1 File .
+Case 2
+Patient 2 was a middle-aged woman with a prior hysterectomy, no history of asbestos exposure and no significant family history. She presented with a vaginal wall mass, biopsy of which showed a sarcomatoid mesothelioma ( Fig. 2a ). Imaging by PET CT revealed several additional peritoneal lesions, including one adjacent to the right colon ( Fig. 2b,c ). Systemic chemotherapy was initiated with carboplatin and taxol. After 4 cycles, a discordant response was observed with complete resolution of the vaginal mass ( Fig. 2e ) but persistence of the right colonic nodule ( Fig. 2f ). CT-guided biopsy of this residual nodule showed a sarcomatoid mesothelioma, in keeping with the histology of the vaginal mass. After 6 cycles of carboplatin and taxol, the patient underwent cytoreductive surgery with hyperthermic intraperitoneal chemotherapy, during which all sites of persistent and presumed regressed disease were resected. A fresh-frozen biopsy of the right colonic nodule was obtained intraoperatively for molecular workup. Final pathology from the surgical specimens showed epithelioid mesothelioma in the right colonic nodule—no sarcomatoid component was identified ( Fig. 2d ). Scar tissue, indicative of treated disease, replaced the previously biopsied vaginal mass.
+Molecular analyses were performed on FFPE tissue from the original diagnostic biopsy of the vaginal mass (high cellularity, 70% tumor content), as well as the fresh-frozen intraoperative biopsy of the right colonic nodule (high cellularity, 56% tumor content). Targeted panel sequencing identified a missense mutation in the  smoothened  gene ( SMO  V210M, COSM364081), a member of the hedgehog signaling pathway previously implicated in pleural mesothelioma.[ 18 ] A nonsense mutation in  p53  (R213*, COSM10654), and a nonsense mutation in  CDKN2A  (R58*, COSM12473); the mutation in  CDKN2A  was identified only in the chemotherapy-resistant right colon nodule. IHC directed towards p16 displayed no immunoreactivity in either tumor sample. BAP1 IHC demonstrated nuclear expression in tumor cells. FISH did not demonstrate loss of chromosome 9p21.
+Whole genome sequencing (106X frozen intraoperative biopsy, 41X FFPE diagnostic biopsy, 48X germline depths of coverage) of both specimens confirmed all of the variants identified by panel sequencing. Additionally, a nonsense mutation in  NF2  (R466*, COSM23667) was identified in both samples. A novel missense mutation in  LATS2  (R958H) was identified in both samples, affecting a highly conserved residue of the tumor suppressor protein. Another novel missense mutation in  NOTCH1  (P2097L) was also identified in both samples affecting a highly conserved region of the cell-surface receptor that has also been previously implicated in mesothelioma by activating the PI3K-mTOR cell-signaling pathway ( Table 1 ).[ 19 ] In total, 116 somatic coding SNVs were identified in both tumor samples, 151 additional coding SNVs were uniquely identified in the vaginal tumor, and 167 coding SNVs were uniquely identified in the pericolic tumor indicating a clear clonal divergence of the two malignant cell populations, further demonstrated by their differing histotypes. Nine large-scale structural variants were identified in the pericolic tumor on whole-genome sequencing ( Fig. 3 ).
+RNA expression data, together with genome sequence data, were used to perform a pathway analysis that showed deregulation of the Hippo and PI3K-AKT pathways. Upregulation of the  MET  tyrosine kinase was observed, and confirmed with 3+ immunohistochemical reactivity, but FISH did not demonstrate amplification at the  MET  locus ( S2 Fig ).
+In the setting of a hypermutated tumor, we analyzed the molecular data to identify a candidate mutational signature.[ 20 ] All coding and noncoding SNVs as well as adjacent base pairs were analyzed showing a predominance of cytosine to thymine (C>T) transitions, a signature associated with cytosine deamination, thought to be associated with aging.[ 21 ]
+The patient remains clinically well and disease free for 14 months following surgery. For a complete set of genomic alterations and RNA expression data, see  S2 File .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1377~1380" text="NF2" location="result" />
+<GENE id="G1" spans="1431~1436" text="SOCS3" location="result" />
+<GENE id="G2" spans="1734~1738" text="BAP1" location="result" />
+<GENE id="G3" spans="2166~2174" text="CNTNAP3B" location="result" />
+<GENE id="G4" spans="2207~2213" text="CDKN2A" location="result" />
+<GENE id="G5" spans="2278~2281" text="NF2" location="result" />
+<GENE id="G6" spans="2314~2322" text="CNTNAP3B" location="result" />
+<GENE id="G7" spans="2391~2396" text="SOCS3" location="result" />
+<GENE id="G8" spans="2425~2430" text="LATS2" location="result" />
+<GENE id="G9" spans="2496~2500" text="TET3" location="result" />
+<GENE id="G10" spans="2530~2533" text="NF2" location="result" />
+<GENE id="G11" spans="2601~2605" text="TFPT" location="result" />
+<GENE id="G12" spans="2635~2641" text="NOTCH1" location="result" />
+<GENE id="G13" spans="2728~2731" text="SMO" location="result" />
+<GENE id="G14" spans="2817~2821" text="TP53" location="result" />
+<GENE id="G15" spans="2971~2974" text="NF2" location="result" />
+<GENE id="G16" spans="3268~3271" text="MET" location="result" />
+<GENE id="G17" spans="3278~3284" text="NOTCH1" location="result" />
+<GENE id="G18" spans="3498~3501" text="MET" location="result" />
+<GENE id="G19" spans="3634~3638" text="BAP1" location="result" />
+<GENE id="G20" spans="5966~5976" text="smoothened" location="background" />
+<GENE id="G21" spans="5985~5988" text="SMO" location="background" />
+<GENE id="G22" spans="6130~6133" text="p53" location="result" />
+<GENE id="G23" spans="6183~6189" text="CDKN2A" location="result" />
+<GENE id="G24" spans="6227~6233" text="CDKN2A" location="result" />
+<GENE id="G25" spans="6326~6329" text="p16" location="result" />
+<GENE id="G26" spans="6384~6388" text="BAP1" location="result" />
+<GENE id="G27" spans="6730~6733" text="NF2" location="result" />
+<GENE id="G28" spans="6816~6821" text="LATS2" location="result" />
+<GENE id="G29" spans="6969~6975" text="NOTCH1" location="result" />
+<GENE id="G30" spans="7851~7854" text="MET" location="result" />
+<GENE id="G31" spans="7991~7994" text="MET" location="result" />
+<DISEASE id="D1" spans="387~399" text="mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="826~838" text="mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="3402~3408" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="4569~4581" text="mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="5009~5021" text="mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="5455~5467" text="mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="6086~6098" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R0" spans="6064~6077" text="implicated in" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G20" geneText="smoothened" diseaseID="D7" diseaseText="mesothelioma" relationID="R0" relationText="implicated in" />
+<ENTITY_LINKING id="E1" geneID="G21" geneText="SMO" diseaseID="D7" diseaseText="mesothelioma" relationID="R0" relationText="implicated in" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The pathogenesis of HCC in Egypt mostly involves HCV-related liver inflammation, and if this occurs after successful complete HCV G4 treatment, clinical exploration is required. Liver cirrhosis is an intermediate process during the pathogenesis of HCC [ 18 ]. Therefore, understanding the molecular and cellular events underlying liver cirrhosis’ progression to HCC is essential for identifying potential therapeutic targets.
+A significant factor during HCC development is an inflamed and cirrhotic liver with significant immune infiltration caused by HCV G4 infection. With few available treatments, HCC is one of the main causes of cancer-related deaths globally [ 19 ] and nationally [ 18 ]. In our patients’ cohort, the following were the clinical interrelated risk factors for HCC development: progression of cirrhosis disease to cancer; male gender; older age; diabetes; obesity with hyperinsulinemia, insulin resistance, and dyslipidemia; inflammation prognostic ratios and indices (TAG/HDL-C and GLR); and a history of HCV infection post-treatment.
+The immune system recognizes tumor cells as non-self cells via Tc; therefore, the immune response is controlled by inhibitory receptors to stop autolysis. One of the inhibitory receptors on immune cells is the cytotoxic T-lymphocyte–associated antigen 4, previously measured in HCV G4-related HCC, as well as its single nucleotide polymorphism in Egyptian patients with HCV G4 [ 20 ].
+Moreover, ligands for inhibitory receptors related to the immune system are constitutively expressed on healthy cells, although they can be lost in malignant cells [ 21 ]. The loss of the inhibitory checks on tumor cells will allow activating signals to predominate, which may be involved in liver cirrhosis progression to HCC HCV G4 infection or post-treatment.
+The collagen-binding inhibitory receptor,  LAIR-1  gene, is encoded on chromosome 19 by the leukocyte receptor complex [ 22 ].  LAIR-1  gene produces an inhibitory receptor that is located on peripheral blood cells as T cells. The  LAIR-1  gene belongs to the leukocyte-associated inhibitory receptor family. The leukocyte receptor cluster contains at least 29 genes encoding leukocyte-expressed receptors of the immunoglobulin superfamily domain ( Figure 3 b). The  LAIR-1  gene-encoded protein may cause cell death in myeloid leukemias [ 23 ] and has been identified as an anchor for tyrosine phosphatase [ 24 ].
+LAIR-1 is expressed on immune cells, including CD3+CD8+ cytotoxic T cells, in the tumor microenvironment and circulation, inhibiting immune cell activities [ 25 , 26 ] and explaining liver cirrhosis progression to HCC.
+The current study was undertaken to understand the role of Tc cells LAIR-1 level expression in primary liver cancer from HCV G4.
+Based on the STRING network reactome pathways illustrated in  Figure 4  cytokine signaling in the adaptive immune system, the functions of molecular LAIR-1 are protein tyrosine kinase and phosphatase binding and insulin-like growth factor receptor-related binding. In our study, the serum insulin level was significantly increased in the patients’ group ( n  = 101) compared with that in the apparently healthy control group ( n  = 20). Furthermore, diabetes, insulin resistance, and its prognostic markers in the cirrhotic group ( n  = 37) were significantly increased compared with those in the healthy control ( n  = 20) and HCC ( n  = 64) groups. This suggests that as with primary liver cancer, HCC mostly affects individuals with cirrhosis from an underlying chronic liver inflammatory disease, including HCV-related [ 1 ] as in our case.
+LAIR-1 serves as an inhibitory receptor for T cells on a permanent basis, with a tyrosine phosphorylation component to activate PTPN6 and PTPN11 phosphatases. However, without the aid of phosphatases, LAIR-1 reduces anti-inflammatory cytokine IL-2 and the interferon IFN-gamma production while increasing the release of transforming growth factor beta in CD4+ T cells (per the STRING pathway). Barnabei et al. in 2021 found LAIR-1 to inhibit the nuclear translocation of nuclear factor kappa-B cell p65 subunit, phosphorylation of the inhibitory kappa-B alpha in myeloid leukemia cell lines, and proliferation inhibition and induction of apoptosis in these cells [ 27 ].
+The accumulation of fatty acids, presented in our current study, that resulted as a consequence to the increased serum TAG, obesity, and dyslipidemia with diabetes, leading to generalized inflammation and triggering a pro-inflammatory cytokine, are presented clinically as significant prognostic inflammatory indices, such as TAG/HDL-C ratio and GLR. This leads to the nonalcoholic steatohepatitis component of the current patients’ cohort, a step toward liver fibrosis that precedes cirrhosis. This is consistent with a Korean population-based study showing an altered lipid metabolism being linked to HCC development with TAG (mg/dL) significantly increased in the HCC group [ 28 ].
+In the current study, we aimed to examine whether LAIR-1 influences HCC susceptibility by performing a case-controlled study in a population of Egyptian patients, evaluating the association between HCV G4 post-treatment and liver cirrhosis risk or cirrhosis progression to HCC. Moreover, we aimed to determine if LAIR-1 could predict HCC prognosis with an odds ratio and 95% confidence interval under credible statistical models.
+Moreover, to prove whether measuring and/or quantifying Tc LAIR-1 expression can serve as a sensitive, noninvasive prognostic molecular marker in post-HCV G4 infection-treated Egyptian patients’ peripheral blood liquid biopsy, we explored if the level of Tc expression of LAIR-1 is associated with liver cirrhosis progression compared with HCV G4-related HCC.
+Tc% showed no significant difference when compared between groups, whereas the % of Tc positive for the immunoinhibitory LAIR-1 (LAIR-1+Tc%) was significantly increased in the HCC group compared with that in the liver cirrhosis group ( p  < 0.001). Regarding the expression of LAIR-1% on Tc +cells and LAIR-1 MFI on Tc, it was significantly increased in the HCC group compared with that in the liver cirrhosis group ( p  = 0.012). These findings were consistent with those of Ma et al. who showed that Tc cells are essential for anti-tumor immunity [ 29 ]. Wu et al. reported that LAIR-1 over expression in HCC tissues was significantly associated with worse overall survival [ 30 ]. Regarding LAIR-1 cross-linking with its ligand, it inhibits the cytotoxic activity of CD8+ T cells and T-cell receptor/CD3 complex signaling [ 31 ], worsening the overall survival; therefore, currently, we are working on collecting the patients overall survival (years) and LAIR-1 ligand measurement in a complementary manuscript (future prospective).
+Martínez-Esparza et al. reported that blood monocytes exhibited higher LAIR-1 expression levels in cirrhotic patients and emphasized that liver cirrhosis is characterized by a progressive replacement of the functional hepatic architecture by nonfunctional fibrotic tissue, which is rich in the immunoinhibitory LAIR-1 ligand, collagen deposition [ 11 ]. Progression toward liver cirrhosis is caused by a dysregulation of immune regulatory mechanisms that govern the balance between activation/homeostasis of the immune system in case of chronic viral infections [ 32 ]. In our study, cirrhotic liver lesions had a significantly higher ( p  < 0.001) LAIR-1+Tc expression level than focal liver lesions, multiple liver lesions ( Table 4 ), and portal vein patency. Moreover, the cases with ascites had higher LAIR-1 MFI on Tc expression level than those without ascites ( p  = 0.027); additionally, the cases with marked ascites had higher LAIR-1 MFI on Tc expression level than those with minimal ascites ( p  = 0.020). However, larger liver size and LN involvement showed a higher trend in LAIR-1 expression than N0 cases, suggesting LAIR-1 collusion during liver cirrhosis and HCC. This is in addition to the correlation of either LAIR-1+Tc or LAIR-1 MFI on Tc expression % with the tumor marker AFP ( r  = 0.367,  p  < 0.001 and  r  = 0.213,  p  = 0.033, respectively), which points out the diagnostic utility of LAIR-1 expression in HCC transformation post-HCV treatment, being measured together with AFP, proved more, by better sensitivity and specificity %, when both are plotted by the ROC curve ( Figure 2  and  Table 6 ).
+Despite no significant correlation being reported between LAIR-1+Tc% or LAIR-1 MFI on Tc and lipid profile (as illustrated in  Table 5 ), the HDL-C level was significantly decreased in the patients’ group and stepwise in both post-HCV groups, with an increased serum total cholesterol and TAG (dyslipidemia documented in  Table 1  and  Table 2 ). It is hypothesized that a link may be found between LAIR-1 expression and HDL-C during HCC development post-HCV treatment as a previous Mendelian meta-analysis reported that a 1-mg/dL reduction in the HDL-C level was associated with a 14% increased overall cancer risk [ 33 ]. Tosi et al. previously reported the scavenger receptor class B type on LAIR-1 ligand complement C1q, an HDL-C receptor, enhances the uptake of cholesteryl esters, leading to a decrease in serum HDL-C levels [ 34 ]. During liver cirrhosis progression to HCC post-HCV infection treatment, LAIR-1 overexpression is associated with Tc exhaustion, inflammation progression, and fatty acid build-up [ 34 , 35 ]; moreover, cholesterol crystals increase due to dysfunctional clearance [ 36 ] in the HCC microenvironment [ 37 ].
+According to the ROC curves, LAIR-1+Tc%, at a cutoff value of ≥73.6 and an AUC of 0.756 can distinguish HCV-related HCC transformation from HCV-related liver cirrhosis, with 67.2% sensitivity and 62.2% specificity ( p  < 0.001), whereas LAIR-1 MFI had 67.2% sensitivity and 62.2% specificity at a cutoff value of >34.5 and an AUC of 0.651 ( p  = 0.012). AFP at a cutoff value of ≥10.2 and an AUC of 0.876 had 82.2% sensitivity and 75.7% specificity ( p  < 0.001) ( Table 6 ,  Figure 2 ).
+This implies the clinical significance of utilizing either expression % of LAIR-1+Tc and/or LAIR-1 MFI on Tc mainly with AFP for better diagnosis, with acceptable sensitivity and specificity. Therefore, % of LAIR-1+Tc and/or LAIR-1 MFI on Tc could be a good diagnostic choice in AFP-negative HCC cases [ 38 ], a recommendation worthy of further investigation and proof in the clinical practice setting.
+  (i) Flaws should be acknowledged, including the small sample size, lead-time bias, and selection bias. (ii) The capacity of the molecular biomarker assay refining is limited by the absence of comparable formalin-fixed paraffin-embedded tissue specimens to complement the liquid biopsy samples. Therefore, it is recommended that LAIR-1 and its ligand expression in liver tissue biopsy are performed in another future study.
+  One ongoing study by our team addresses the role of LAIR-1 SNPs variant haplotype in the HCC Egyptian patients’ cohort. Therefore, the sustainability plan aims at continuing the team oncology research work, addressing the role of several tumor immune-related checkpoint effectors/down-stream target genes/proteins, addressing in the STRING pathway ( Figure 4 ) in primary and/or metastatic HCC diagnosis and/or prognosis, and unraveling their exact role in post-treated HCV G4 HCC tumorigenesis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1849~1855" text="LAIR-1" location="background" />
+<GENE id="G1" spans="1934~1940" text="LAIR-1" location="background" />
+<GENE id="G2" spans="2038~2044" text="LAIR-1" location="background" />
+<GENE id="G3" spans="2273~2279" text="LAIR-1" location="background" />
+<GENE id="G4" spans="2421~2427" text="LAIR-1" location="background" />
+<GENE id="G5" spans="2468~2471" text="CD3" location="background" />
+<GENE id="G6" spans="2472~2475" text="CD8" location="background" />
+<GENE id="G7" spans="2708~2714" text="LAIR-1" location="result" />
+<GENE id="G8" spans="2918~2924" text="LAIR-1" location="result" />
+<GENE id="G9" spans="3614~3620" text="LAIR-1" location="background" />
+<GENE id="G10" spans="3742~3747" text="PTPN6" location="background" />
+<GENE id="G11" spans="3752~3758" text="PTPN11" location="background" />
+<GENE id="G12" spans="3815~3821" text="LAIR-1" location="background" />
+<GENE id="G13" spans="3857~3861" text="IL-2" location="background" />
+<GENE id="G14" spans="3881~3890" text="IFN-gamma" location="background" />
+<GENE id="G15" spans="3969~3972" text="CD4" location="background" />
+<GENE id="G16" spans="4038~4044" text="LAIR-1" location="background" />
+<GENE id="G17" spans="4113~4116" text="p65" location="background" />
+<GENE id="G18" spans="5020~5026" text="LAIR-1" location="result" />
+<GENE id="G19" spans="5283~5289" text="LAIR-1" location="result" />
+<GENE id="G20" spans="5459~5465" text="LAIR-1" location="result" />
+<GENE id="G21" spans="5672~5678" text="LAIR-1" location="result" />
+<GENE id="G22" spans="5881~5887" text="LAIR-1" location="result" />
+<GENE id="G23" spans="5889~5895" text="LAIR-1" location="result" />
+<GENE id="G24" spans="6037~6043" text="LAIR-1" location="result" />
+<GENE id="G25" spans="6062~6068" text="LAIR-1" location="result" />
+<GENE id="G26" spans="6341~6347" text="LAIR-1" location="background" />
+<GENE id="G27" spans="6454~6460" text="LAIR-1" location="background" />
+<GENE id="G28" spans="6530~6533" text="CD8" location="background" />
+<GENE id="G29" spans="6563~6566" text="CD3" location="background" />
+<GENE id="G30" spans="6718~6724" text="LAIR-1" location="background" />
+<GENE id="G31" spans="6867~6873" text="LAIR-1" location="background" />
+<GENE id="G32" spans="7107~7113" text="LAIR-1" location="background" />
+<GENE id="G33" spans="7445~7451" text="LAIR-1" location="result" />
+<GENE id="G34" spans="7603~7609" text="LAIR-1" location="result" />
+<GENE id="G35" spans="7734~7740" text="LAIR-1" location="result" />
+<GENE id="G36" spans="7886~7892" text="LAIR-1" location="result" />
+<GENE id="G37" spans="7930~7936" text="LAIR-1" location="result" />
+<GENE id="G38" spans="8028~8034" text="LAIR-1" location="result" />
+<GENE id="G39" spans="8041~8047" text="LAIR-1" location="result" />
+<GENE id="G40" spans="8093~8096" text="AFP" location="result" />
+<GENE id="G41" spans="8300~8303" text="AFP" location="result" />
+<GENE id="G42" spans="8484~8490" text="LAIR-1" location="result" />
+<GENE id="G43" spans="8825~8831" text="LAIR-1" location="result" />
+<GENE id="G44" spans="9121~9127" text="LAIR-1" location="background" />
+<GENE id="G45" spans="9337~9343" text="LAIR-1" location="background" />
+<GENE id="G46" spans="9599~9605" text="LAIR-1" location="result" />
+<GENE id="G47" spans="9807~9813" text="LAIR-1" location="result" />
+<GENE id="G48" spans="9924~9927" text="AFP" location="result" />
+<GENE id="G49" spans="10133~10139" text="LAIR-1" location="result" />
+<GENE id="G50" spans="10179~10182" text="AFP" location="result" />
+<GENE id="G51" spans="10150~10156" text="LAIR-1" location="result" />
+<GENE id="G52" spans="10266~10272" text="LAIR-1" location="result" />
+<GENE id="G53" spans="10283~10289" text="LAIR-1" location="result" />
+<GENE id="G54" spans="10337~10340" text="AFP" location="result" />
+<GENE id="G55" spans="10791~10797" text="LAIR-1" location="result" />
+<GENE id="G56" spans="10940~10946" text="LAIR-1" location="result" />
+<DISEASE id="D0" spans="21~24" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="179~194" text="Liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="249~252" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="331~346" text="liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="363~366" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="455~458" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="602~605" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="635~641" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="783~786" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="836~842" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="868~876" text="diabetes" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="878~885" text="obesity" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D12" spans="891~907" text="hyperinsulinemia" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="1351~1354" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1735~1750" text="liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="1766~1769" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2326~2342" text="myeloid leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2604~2619" text="liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="2635~2638" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2743~2755" text="liver cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3219~3227" text="diabetes" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D21" spans="3397~3400" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3455~3467" text="liver cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3469~3472" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="4177~4193" text="myeloid leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="4409~4416" text="obesity" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D27" spans="4422~4434" text="dyslipidemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D28" spans="4440~4448" text="diabetes" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D29" spans="4654~4682" text="nonalcoholic steatohepatitis" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D30" spans="4888~4891" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="4952~4955" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="5038~5041" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="5194~5209" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D34" spans="5243~5246" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="5304~5307" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="5698~5713" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D37" spans="5755~5758" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="5936~5939" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="5972~5987" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D40" spans="6118~6121" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="6154~6169" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D42" spans="6367~6370" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="6934~6949" text="liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D44" spans="7169~7184" text="liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D45" spans="7954~7969" text="liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D46" spans="7974~7977" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D47" spans="8860~8863" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D48" spans="9030~9036" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D49" spans="9272~9287" text="liver cirrhosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D50" spans="9303~9306" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D51" spans="9541~9544" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D52" spans="9686~9689" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D53" spans="9722~9737" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D54" spans="10350~10353" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D55" spans="10977~10980" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D56" spans="11278~11281" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D57" spans="11365~11368" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R2" spans="10311~10333" text="good diagnostic choice" location="result" relation="diagnostic tool" />
+<ENTITY_LINKING id="E0" geneID="G52" geneText="LAIR-1" diseaseID="D54" diseaseText="HCC" relationID="R2" relationText="good diagnostic choice" />
+<ENTITY_LINKING id="E1" geneID="G53" geneText="LAIR-1" diseaseID="D54" diseaseText="HCC" relationID="R2" relationText="good diagnostic choice" />
+</TAGS>
+</Genomics_ConceptTask>

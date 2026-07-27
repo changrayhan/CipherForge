@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Kv10.1 Regulates Microtubule Dynamics during Mitosis.
+Abstract: Kv10.1 (potassium voltage-gated channel subfamily H member 1, known as EAG1 or Ether-à-go-go 1), is a voltage-gated potassium channel, prevailingly expressed in the central nervous system. The aberrant expression of Kv10.1 is detected in over 70% of all human tumor tissues and correlates with poorer prognosis. In peripheral tissues, Kv10.1 is expressed almost exclusively during the G2/M phase of the cell cycle and regulates its progression—downregulation of Kv10.1 extends the duration of the G2/M phase both in cancer and healthy cells. Here, using biochemical and imaging techniques, such as live-cell measurements of microtubule growth and of cytosolic calcium, we elucidate the mechanisms of Kv10.1-mediated regulation at the G2/M phase. We show that Kv10.1 has a dual effect on mitotic microtubule dynamics. Through the functional interaction with ORAI1 (calcium release-activated calcium channel protein 1), it modulates cytosolic calcium oscillations, thereby changing microtubule behavior. The inhibition of either Kv10.1 or ORAI1 stabilizes the microtubules. In contrast, the knockdown of Kv10.1 increases the dynamicity of mitotic microtubules, resulting in a stronger spindle assembly checkpoint, greater mitotic spindle angle, and a decrease in lagging chromosomes. Understanding of Kv10.1-mediated modulation of the microtubule architecture will help to comprehend how cancer tissue benefits from the presence of Kv10.1, and thereby increase the efficacy and safety of Kv10.1-directed therapeutic strategies.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~14" text="Kv10.1" location="background" />
+<GENE id="G1" spans="72~78" text="Kv10.1" location="background" />
+<GENE id="G2" spans="80~132" text="potassium voltage-gated channel subfamily H member 1" location="background" />
+<GENE id="G3" spans="143~147" text="EAG1" location="background" />
+<GENE id="G4" spans="151~166" text="Ether-à-go-go 1" location="background" />
+<GENE id="G5" spans="288~294" text="Kv10.1" location="background" />
+<GENE id="G6" spans="407~413" text="Kv10.1" location="background" />
+<GENE id="G7" spans="534~540" text="Kv10.1" location="background" />
+<GENE id="G8" spans="772~778" text="Kv10.1" location="result" />
+<GENE id="G9" spans="831~837" text="Kv10.1" location="result" />
+<GENE id="G10" spans="929~934" text="ORAI1" location="result" />
+<GENE id="G11" spans="936~987" text="calcium release-activated calcium channel protein 1" location="result" />
+<GENE id="G12" spans="1099~1105" text="Kv10.1" location="result" />
+<GENE id="G13" spans="1109~1114" text="ORAI1" location="result" />
+<GENE id="G14" spans="1174~1180" text="Kv10.1" location="result" />
+<GENE id="G15" spans="1371~1377" text="Kv10.1" location="result" />
+<GENE id="G16" spans="1502~1508" text="Kv10.1" location="result" />
+<GENE id="G17" spans="1558~1564" text="Kv10.1" location="result" />
+<DISEASE id="D0" spans="588~594" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="1458~1464" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

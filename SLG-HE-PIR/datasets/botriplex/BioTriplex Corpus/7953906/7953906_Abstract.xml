@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: CXCL17 Is a Specific Diagnostic Biomarker for Severe Pandemic Influenza A(H1N1) That Predicts Poor Clinical Outcome.
+Abstract: The C-X-C motif chemokine ligand 17 (CXCL17) is chemotactic for myeloid cells, exhibits bactericidal activity, and exerts anti-viral functions. This chemokine is constitutively expressed in the respiratory tract, suggesting a role in lung defenses. However, little is known about the participation of CXCL17 against relevant respiratory pathogens in humans. Here, we evaluated the serum levels and lung tissue expression pattern of CXCL17 in a cohort of patients with severe pandemic influenza A(H1N1) from Mexico City. Peripheral blood samples obtained on admission and seven days after hospitalization were processed for determinations of serum CXCL17 levels by enzyme-linked immunosorbent assay (ELISA). The expression of CXCL17 was assessed by immunohistochemistry (IHQ) in lung autopsy specimens from patients that succumbed to the disease. Serum CXCL17 levels were also analyzed in two additional comparative cohorts of coronavirus disease 2019 (COVID-19) and pulmonary tuberculosis (TB) patients. Additionally, the expression of CXCL17 was tested in lung autopsy specimens from COVID-19 patients. A total of 122 patients were enrolled in the study, from which 68 had pandemic influenza A(H1N1), 24 had COVID-19, and 30 with PTB. CXCL17 was detected in  post-mortem  lung specimens from patients that died of pandemic influenza A(H1N1) and COVID-19. Interestingly, serum levels of CXCL17 were increased only in patients with pandemic influenza A(H1N1), but not COVID-19 and PTB. CXCL17 not only differentiated pandemic influenza A(H1N1) from other respiratory infections but showed prognostic value for influenza-associated mortality and renal failure in machine-learning algorithms and regression analyses. Using cell culture assays, we also identified that human alveolar A549 cells and peripheral blood monocyte-derived macrophages increase their CXCL17 production capacity after influenza A(H1N1) pdm09 virus infection. Our results for the first time demonstrate an induction of CXCL17 specifically during pandemic influenza A(H1N1), but not COVID-19 and PTB in humans. These findings could be of great utility to differentiate influenza and COVID-19 and to predict poor prognosis specially at settings of high incidence of pandemic A(H1N1). Future studies on the role of CXCL17 not only in severe pandemic influenza, but also in seasonal influenza, COVID-19, and PTB are required to validate our results.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~14" text="CXCL17" location="result" />
+<GENE id="G1" spans="139~170" text="C-X-C motif chemokine ligand 17" location="background" />
+<GENE id="G2" spans="172~178" text="CXCL17" location="background" />
+<GENE id="G3" spans="436~442" text="CXCL17" location="background" />
+<GENE id="G4" spans="567~573" text="CXCL17" location="result" />
+<GENE id="G5" spans="782~788" text="CXCL17" location="result" />
+<GENE id="G6" spans="860~866" text="CXCL17" location="result" />
+<GENE id="G7" spans="987~993" text="CXCL17" location="result" />
+<GENE id="G8" spans="1171~1177" text="CXCL17" location="result" />
+<GENE id="G9" spans="1371~1377" text="CXCL17" location="result" />
+<GENE id="G10" spans="1522~1528" text="CXCL17" location="result" />
+<GENE id="G11" spans="1620~1626" text="CXCL17" location="result" />
+<GENE id="G12" spans="1991~1997" text="CXCL17" location="result" />
+<GENE id="G13" spans="2124~2130" text="CXCL17" location="result" />
+<GENE id="G14" spans="2417~2423" text="CXCL17" location="result" />
+<DISEASE id="D0" spans="70~79" text="Influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D1" spans="619~628" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D2" spans="1087~1095" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D3" spans="1101~1123" text="pulmonary tuberculosis" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D4" spans="1125~1127" text="TB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D6" spans="1220~1228" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D7" spans="1318~1327" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D8" spans="1344~1352" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D9" spans="1366~1369" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D10" spans="1459~1468" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D11" spans="1481~1489" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D12" spans="1575~1584" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D13" spans="1602~1610" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D14" spans="1615~1618" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D15" spans="1660~1669" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D16" spans="1744~1753" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D17" spans="1779~1792" text="renal failure" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D18" spans="2024~2033" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D19" spans="2160~2169" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D20" spans="2187~2195" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D21" spans="2200~2203" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D22" spans="2273~2282" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D23" spans="2287~2295" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D24" spans="2452~2461" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D25" spans="2484~2493" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D26" spans="2495~2503" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D27" spans="2509~2512" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<RELATION id="R1" spans="1506~1518,1529~1543" text="serum levels ... were increased" location="result" relation="increased expression" />
+<RELATION id="R2" spans="1723~1739" text="prognostic value" location="result" relation="prognostic indicator" />
+<RELATION id="R3" spans="29~49" text="Diagnostic Biomarker" location="result" relation="diagnostic tool" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="CXCL17" diseaseID="D0" diseaseText="Influenza" relationID="R3" relationText="Diagnostic Biomarker" />
+<ENTITY_LINKING id="E1" geneID="G10" geneText="CXCL17" diseaseID="D12" diseaseText="influenza" relationID="R1" relationText="serum levels ... were increased" />
+<ENTITY_LINKING id="E2" geneID="G11" geneText="CXCL17" diseaseID="D16" diseaseText="influenza" relationID="R2" relationText="prognostic value" />
+<ENTITY_LINKING id="E3" geneID="G11" geneText="CXCL17" diseaseID="D17" diseaseText="renal failure" relationID="R2" relationText="prognostic value" />
+</TAGS>
+</Genomics_ConceptTask>

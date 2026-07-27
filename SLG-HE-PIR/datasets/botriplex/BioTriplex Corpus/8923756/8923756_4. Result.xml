@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+4.1. Demographic Features
+Demographic data of cases and controls are displayed in  Table 1 . Ages of BF group were significantly younger than the control group and the BC group ( P  < 0.001). BMI of this group was significantly lower than the other two groups ( P =0.01). Breast cancer group was with significantly more history of smoking and drinking ( P  < 0.001). In comparison, the healthy control group was primarily without history of smoking and drinking, suggesting healthier way of living. Besides, significant differences exist in ethnic formation of three groups ( P =0.002). In healthy controls, the observed genotype frequencies of rs662 and rs705382 were both in agreement with HWE ( P =0.989, for rs662;  P =0.849, for rs705382)  Table 2 .
+4.2. Analysis of the Association between Gene Polymorphism and Risks of Developing BF and BC
+Distribution of the rs662 genotype and allele was significant difference in three groups ( P  < 0.01). Adjusting age, ethnicity, history of smoking, history of drinking, and BMI with logic regression displayed significant correlation between the rs662 and the risks of developing BF and BC. Compared with GG genotype, AA genotype increased these risks more obviously; compared with allele G, allele A increased these risks more obviously. No obvious relevance were between the rs705382 and the risks of BF and BC (detailed in  Table 3 ).
+4.3. Haplotype Analysis of Associations between PON1 Polymorphism and BF and BC
+We performed haplotype analysis for 4 haplotypes (CA, CG, GA, and GG). We found that haplotype GG is frequently seen in the control group and BC group. Haplotype CA ranked 1 st  in BF group and 2 nd  in control group and BC group ( Table 4 ). The distribution of haplotype GA significantly increased risks of BC (OR = 3.239, 95% CI 1.705–6.152,  P  < 0.001). The distribution of haplotype GA significantly increased risks of BF (OR = 3.716, 95% CI 1.884–7.328,  P  < 0.001). The distribution of haplotype GG significantly decreased risks of BC (OR = 0.526, 95% CI 0.338–0.819,  P =0.004). The distribution of haplotype GG significantly decreased risks of BF (OR = 0.389, 95% CI 0.230–0.658,  P  < 0.001).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1435~1439" text="PON1" location="result" />
+<DISEASE id="D0" spans="102~104" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="273~286" text="Breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="839~841" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="846~848" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1129~1131" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1136~1138" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1352~1354" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1359~1361" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1457~1459" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1464~1466" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1609~1611" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1648~1650" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1688~1690" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1776~1778" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1892~1894" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2008~2010" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2122~2124" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In this study, we provide the first evidence that abnormal HS accumulation in a MPS IIIB cell model is associated with the activation of EGFR signaling resulting in a hypertrophic phenotype. We first established that NAGLU silencing in H9C2 rat cardiomyoblasts fully recapitulates the MPS IIIB lysosomal phenotype and reproduces the hypertrophic phenotype previously detected in the cardiac tissues of NAGLU knockout mice 24 . These results confirm the reliability of our MPS IIIB cell model to investigate the molecular events induced by NAGLU silencing in cardiac cells.
+Cardiac hypertrophy is the common response of the heart to different stimuli, however, prolonged hypertrophy increases the risk of heart failure or sudden cardiac death 41 , 42 . Increasing evidence is emerging on the involvement of EGFR pathway activation in the development of cardiac hypertrophy 43 , 44 . Consistently, we found the specific activation of EGFR in NAGLU-depleted cardiomyoblasts. Furthermore, we demonstrated that EGFR inhibition is able to prevent both hypertrophy and lysosomal defects in NAGLU-silenced cardiomyoblasts, suggesting an active role of EGFR in the development of cell pathology in MPS IIIB disease. The rescue of lysosomal phenotype in NAGLU knockdown cardiomyoblasts following EGFR inhibition might be ascribed to the block of EGFR signaling cascade regulating the activity of particular transcription factors involved in GAG biosynthesis 30 – 32 . Indeed, a therapeutic option for MPSs, called substrate reduction therapy, is based on the use of genistein, a compound belonging to the family of isoflavones, which impairs GAG synthesis by inhibiting EGFR kinase activity. Genistein treatment, however, only partially ameliorates the clinical signs of MPS IIIB disease due to its not exclusive action toward EGFR 32 , 45 . These findings highlight the need for more studies aimed to elucidate the precise signaling pathways involving EGFR in the cellular events consequent to the abnormal HS accumulation in MPS IIIB, including those effects that lead to cardiac hypertrophy.
+The pathogenesis of cardiac hypertrophy involves a number of complex molecular mechanisms including Wnt/Frizzled signals, calcineurin, mitofusin-2, tumor necrosis factor-α, mitogen-activated protein kinases, Rho kinase, Jun kinases (JNK), poly (ADP-ribose) polymerase, transcription factors, oxidative signals, and G protein-coupled-receptor-associated signaling systems 45 . However, the MEK1/ERK1/2 pathway occupies a central regulatory position in the signaling hierarchy that promotes cardiac hypertrophy 33 . On the other hand, the major actors of cardiac hypertrophy, such as ERKs and JNKs, are activated by EGFR 46 , 47 . In agreement with the above evidence, NAGLU-depleted cardiomyoblasts showed enhanced ERK1/2 phosphorylation, which was inhibited by the EGFR inhibitor AG1478. Interestingly, inhibition of ERK1/2 phosphorylation by the MEK/ERK inhibitor PD98059 strongly reduced ANP and BNP mRNA expression levels as well as lysosomal storage defects in NAGLU-depleted cardiomyoblasts, thus indicating that ERK1/2 phosphorylation induced by EGFR activation is essential for the lysosomal and hypertrophic phenotypes detected in our MPS IIIIB cell model.
+Many EGFR-mediated cellular functions require the interaction of the receptor with cellular Src (c-Src), a membrane-associate tyrosine kinase 36 , 37 , 48 . The interactions between EGFR and c-Src are bi-directional, in the sense that c-Src can bind, phosphorylate and activate EGFR and vice versa. The consequence of this interaction is an enhanced phosphorylation of specific substrates. For instance, c-Src-dependent transactivation of EGFR and Akt/MAPKs is essential for COX-2 upregulation in endothelial cells 38 . Furthermore, c-Src activation and its association with transactivated EGFR have been also detected in cells stimulated with non-EGF agonists 37 . In the present study, we found increased phosphorylation levels of c-Src in NAGLU-depleted cardiomyoblasts vs. control clones, while c-Src phosphorylation resulted to be unaffected by treatment with the EGFR inhibitor AG1478, suggesting that c-Src phosphorylation represents an upstream event in EGFR activation. Indeed, EGFR phosphorylation levels decreased in H9C2 sh-NAGLU cardiomyoblasts transfected with a DN c-Src. Moreover, ANP and BNP mRNA expression levels resulted to be downregulated or upregulated in H9C2 sh-NAGLU cardiomyoblasts transfected with DN or WT c-Src, respectively. These findings indicate that, in our MPS IIIB cell model, c-Src phosphorylation might mediate EGFR activation with subsequent signaling leading to the hypertrophic phenotype. Given that c-Src is required for EGFR internalization and signaling, and that active c-Src may induce ligand-independent EGFR activation 49 , inhibition of c-Src might also impede EGFR signaling events in NAGLU defective cells as well as in other cells lacking a lysosomal enzyme involved in GAG metabolism.
+Commonly, EGFR activation may occur either by transactivation or by binding with ligands such as EGF and HB-EGF. Transactivation of RTKs by G protein-coupled receptors (GPCRs) is a common pathway for transmission of reactive oxygen species-sensitive signals, and interaction between GPCRs and RTKs may occur either in a ligand-independent manner involving membrane-associated non-receptor tyrosine kinases, such as c-Src, or through the activation of metalloproteases (MMPs), which induce the release of RTK ligands such as HB-EGF 50 , 51 . On the other hand, it is well established that extracellular HSPGs, whose accumulation at the cell membrane and extracellular matrix contributes to the pathogenesis of MPSs, sequester soluble secreted growth factors and facilitate their binding to the cognate receptors, thus activating receptor signaling 15 – 17 . However, HSPGs also interact with growth factors that remain anchored to the cell surface via a transmembrane domain, and especially those belonging to the EGFR-ligand family which include HB-EGF 39 . The proteolytic cleavage of the anchored form of HB-EGF, namely proHB-EGF, at the extracellular domain gives rise to the soluble form of HB-EGF. Recently, an important role for HB-EGF in cardiac heart development, as well as in cardiac hypertrophy, has been demonstrated 40 , 52 , 53 . Indeed, angiotensin II-mediated transactivation of EGFR appears to involve Src-mediated MMP-activated release of HB-EGF 54 . In our investigation, we found the upregulation of HB-EGF in H9C2 sh-NAGLU cardiomyoblasts and the reduction of the hypertrophic response following HB-EGF silencing, suggesting that, in our MPS IIIB cell model, HB-EGF concurs to the activation of EGFR and subsequent hypertrophic signaling. These findings also suggest that inhibition of MMPs that activate EGFR by releasing its ligand HB-EGF might represent a therapeutic strategy for the treatment of lysosomal storage diseases as MPSs. However, further studies are needed to address the role of HB-EGF in MPS IIIB cardiac pathology.
+While studies are in progress by the use of the mouse model of the disease to validate in vivo the results obtained in NAGLU-silenced cardiomyoblasts, our findings unravel the cellular signaling pathways by which NAGLU silencing, associated to lysosomal defects and to an excess of extracellular HSPGs, promotes hypertrophy through c-Src- and HB-EGF-mediated activation of EGFR linking to ERK1/2 pathway (Fig.  9 ). This molecular mechanism that underlies cell pathology consequent to the abnormal HS accumulation in MPS IIIB disease is likely involved in the onset of the cardiac disorders observed in the affected patients. However, we cannot rule out that similar mechanisms may be active in other tissues and organs of MPS IIIB-affected children, and mainly that they may operate in the pathogenesis of other diseases where abnormal GAGs accumulate. Fig. 9 Schematic diagram depicting the signaling pathways by which NAGLU silencing and subsequent HSPG accumulation promote hypertrophy in H9C2 cardiomyoblasts through EGFR
+In conclusion, our findings provide novel clues for EGFR pathway targeting-based approaches for MPS IIIB as well as for other lysosomal storage diseases.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="218~223" text="NAGLU" location="result" />
+<GENE id="G1" spans="403~408" text="NAGLU" location="background" />
+<GENE id="G2" spans="540~545" text="NAGLU" location="result" />
+<GENE id="G3" spans="807~811" text="EGFR" location="background" />
+<GENE id="G4" spans="933~937" text="EGFR" location="result" />
+<GENE id="G5" spans="941~946" text="NAGLU" location="result" />
+<GENE id="G6" spans="1007~1011" text="EGFR" location="result" />
+<GENE id="G7" spans="1084~1089" text="NAGLU" location="result" />
+<GENE id="G8" spans="1145~1149" text="EGFR" location="result" />
+<GENE id="G9" spans="1245~1250" text="NAGLU" location="result" />
+<GENE id="G10" spans="1287~1291" text="EGFR" location="result" />
+<GENE id="G11" spans="1337~1341" text="EGFR" location="result" />
+<GENE id="G12" spans="1661~1665" text="EGFR" location="background" />
+<GENE id="G13" spans="1944~1948" text="EGFR" location="result" />
+<GENE id="G14" spans="2208~2219" text="calcineurin" location="background" />
+<GENE id="G15" spans="2221~2232" text="mitofusin-2" location="background" />
+<GENE id="G16" spans="2234~2257" text="tumor necrosis factor-α" location="background" />
+<GENE id="G17" spans="2294~2304" text="Rho kinase" location="background" />
+<GENE id="G18" spans="2319~2322" text="JNK" location="background" />
+<GENE id="G19" spans="2325~2353" text="poly (ADP-ribose) polymerase" location="background" />
+<GENE id="G20" spans="2700~2704" text="EGFR" location="background" />
+<GENE id="G21" spans="2753~2758" text="NAGLU" location="result" />
+<GENE id="G22" spans="2851~2855" text="EGFR" location="result" />
+<GENE id="G23" spans="2800~2804" text="ERK1" location="result" />
+<GENE id="G24" spans="2903~2907" text="ERK1" location="result" />
+<GENE id="G25" spans="3051~3056" text="NAGLU" location="result" />
+<GENE id="G26" spans="3104~3108" text="ERK1" location="result" />
+<GENE id="G27" spans="3138~3142" text="EGFR" location="result" />
+<GENE id="G28" spans="3256~3260" text="EGFR" location="background" />
+<GENE id="G29" spans="3334~3346" text="cellular Src" location="background" />
+<GENE id="G30" spans="3348~3353" text="c-Src" location="background" />
+<GENE id="G31" spans="3433~3437" text="EGFR" location="background" />
+<GENE id="G32" spans="3442~3447" text="c-Src" location="background" />
+<GENE id="G33" spans="3486~3491" text="c-Src" location="background" />
+<GENE id="G34" spans="3529~3533" text="EGFR" location="background" />
+<GENE id="G35" spans="3655~3660" text="c-Src" location="background" />
+<GENE id="G36" spans="3690~3694" text="EGFR" location="background" />
+<GENE id="G37" spans="3699~3702" text="Akt" location="background" />
+<GENE id="G38" spans="3726~3731" text="COX-2" location="background" />
+<GENE id="G39" spans="3784~3789" text="c-Src" location="result" />
+<GENE id="G40" spans="3841~3845" text="EGFR" location="result" />
+<GENE id="G41" spans="3984~3989" text="c-Src" location="result" />
+<GENE id="G42" spans="3993~3998" text="NAGLU" location="result" />
+<GENE id="G43" spans="4331~4336" text="c-Src" location="result" />
+<GENE id="G44" spans="4438~4443" text="NAGLU" location="result" />
+<GENE id="G45" spans="4486~4491" text="c-Src" location="result" />
+<GENE id="G46" spans="4565~4570" text="c-Src" location="result" />
+<GENE id="G47" spans="4601~4605" text="EGFR" location="result" />
+<GENE id="G48" spans="4693~4698" text="c-Src" location="background" />
+<GENE id="G49" spans="4715~4719" text="EGFR" location="background" />
+<GENE id="G50" spans="4767~4772" text="c-Src" location="background" />
+<GENE id="G51" spans="4803~4807" text="EGFR" location="background" />
+<GENE id="G52" spans="4838~4843" text="c-Src" location="result" />
+<GENE id="G53" spans="4862~4866" text="EGFR" location="result" />
+<GENE id="G54" spans="4887~4892" text="NAGLU" location="result" />
+<GENE id="G55" spans="5000~5004" text="EGFR" location="result" />
+<GENE id="G56" spans="5405~5410" text="c-Src" location="result" />
+<GENE id="G57" spans="6385~6389" text="EGFR" location="result" />
+<GENE id="G58" spans="6409~6412" text="Src" location="result" />
+<GENE id="G59" spans="6528~6533" text="NAGLU" location="result" />
+<GENE id="G61" spans="6706~6710" text="EGFR" location="result" />
+<GENE id="G62" spans="6816~6820" text="EGFR" location="result" />
+<GENE id="G63" spans="7164~7169" text="NAGLU" location="result" />
+<GENE id="G64" spans="7258~7263" text="NAGLU" location="result" />
+<GENE id="G65" spans="7377~7382" text="c-Src" location="result" />
+<GENE id="G66" spans="7418~7422" text="EGFR" location="result" />
+<GENE id="G67" spans="7434~7438" text="ERK1" location="result" />
+<GENE id="G68" spans="7562~7570" text="MPS IIIB" location="result" />
+<GENE id="G69" spans="7768~7776" text="MPS IIIB" location="result" />
+<GENE id="G70" spans="7966~7971" text="NAGLU" location="result" />
+<GENE id="G71" spans="8067~8071" text="EGFR" location="result" />
+<GENE id="G72" spans="1818~1822" text="EGFR" location="background" />
+<GENE id="G73" spans="4287~4292" text="NAGLU" location="result" />
+<GENE id="G60" spans="4213~4217" text="EGFR" location="result" />
+<GENE id="G74" spans="4238~4242" text="EGFR" location="result" />
+<GENE id="G75" spans="4120~4124" text="EGFR" location="background" />
+<GENE id="G76" spans="5095~5101" text="HB-EGF" location="background" />
+<GENE id="G77" spans="5514~5520" text="HB-EGF" location="background" />
+<GENE id="G78" spans="6036~6042" text="HB-EGF" location="background" />
+<GENE id="G79" spans="6097~6103" text="HB-EGF" location="background" />
+<GENE id="G80" spans="6185~6191" text="HB-EGF" location="background" />
+<GENE id="G81" spans="6845~6851" text="HB-EGF" location="result" />
+<GENE id="G82" spans="7388~7394" text="HB-EGF" location="result" />
+<DISEASE id="D0" spans="81~89" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="286~294" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="473~481" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="1190~1198" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="1762~1770" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="2018~2026" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="3229~3238" text="MPS IIIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="4544~4552" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="6912~6937" text="lysosomal storage disease" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="7017~7025" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="8168~8176" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="8198~8223" text="lysosomal storage disease" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="6649~6657" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R0" spans="1130~1141,1150~1168" text="active role ... in the development" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G8" geneText="EGFR" diseaseID="D3" diseaseText="MPS IIIB" relationID="R0" relationText="active role ... in the development" />
+</TAGS>
+</Genomics_ConceptTask>

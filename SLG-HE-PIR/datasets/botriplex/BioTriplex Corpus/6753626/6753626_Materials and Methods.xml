@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Patients
+In this retrospective study, 151 consecutive samples of ALL patients registered at Dr. BRA IRCH, All India Institute of Medical Sciences, New Delhi, India from June 2017 to November 2018 were included. The diagnosis of ALL was made as per the updated criteria of WHO classification of myeloid neoplasms and acute leukemia ( 20 ). Waiver for informed consent was obtained from the Institute Ethics Committee (IEC-573/03.11.2017).
+Risk Stratification and Treatment Regimen
+The patients were risk stratified as standard (age between 1 and 10 years, TLC < 50 × 10 9 /L, absence of high risk cytogenetics and CNS involvement and good prednisolone response on day 8 post induction chemotherapy i.e., blasts in peripheral blood <1 × 10 9 /L), intermediate (age>10 years/ TLC > 50 × 10 9 /L/ organ enlargement and absence of any high risk cytogenetic) and high risk groups (high risk cytogenetics, CNS involvement, poor early prednisolone response, and MRD positivity post induction).
+The treatment protocol used for the pediatric patients (below 18 years) was according to the Indian Childhood Collaborative Leukemia (ICICLE; Clinical Trials Registry-India Reference Number, unpublished CTRI/2015/12/006434) Group protocol. Briefly, the induction regimen for standard risk group consisted of three chemotherapeutic agents (prednisolone, vincristine, and L-asparaginase). Daunomycin was added as the fourth drug for intermediate to high risk patients. The follow up of these patients depended on MRD status and the treatment included consolidation, maintenance, delayed intensification, and maintenance chemotherapy for two years. The adult patients were treated according to the MCP-841 protocol ( 21 ). Patients who failed to achieve complete remission or relapsed were given re-induction therapy according to the UK-ALL XII protocol ( 22 ). Patients positive for BCR-ABL additionally received  Imatinib mesylate  (>1 year 340 mg/m 2 /day; not exceeding 600 mg/day).
+The MRD status was assessed at the end of induction chemotherapy using 10-color multi-parameter flow cytometry (Gallios, Beckman Coulter, Brea, CA). Stain-lyse-wash method was used with fluorochrome-tagged antibodies namely, CD81, CD45, CD34, CD58, CD19, HLA-DR, CD10, CD20, CD123, CD38 (Beckman Coulter, Miami, FL, USA). At least, one million cells were acquired in each case and list mode files were analyzed by Kaluza software version 3.0 (Beckman Coulter, Brea, CA, USA).
+RT-PCR for Detection of Balanced Translocations
+RNA was isolated using Tri Reagent (SIGMA-ALDRICH) as per the manufacturer's instructions. First strand cDNA was generated using RevertAid First Strand cDNA Synthesis Kit (Thermo Scientific, Waltham, Massachusetts, United States) as per the manufacturer's instructions. The product of the first strand cDNA synthesis was used directly in PCR for the detection of fusion transcripts including  BCR-ABL1, ETV6-RUNX1, KMT2A-AFF1, E2A-PBX1 , and  STIL-TAL1  ( 23 ).
+DigitalMLPA for Detection of Copy Number Alterations and Ploidy Status
+DNA was isolated from either bone marrow or peripheral blood collected at the time of diagnosis using Genomic DNA Purification Kit (GeneJET, ThermoFisher Scientific, Waltham, Massachusetts, United States). For performing digitalMLPA, the modified well-established MLPA protocol was combined with Illumina next generation sequencing Miseq platform for amplicon quantification as described earlier ( 19 ). Probes for detection of both B-ALL and T-ALL associated Copy Number Alterations (CNAs) were included in this digitalMLPA D007 ALL probemix, which can multiplex >600 probes in a single reaction and simultaneously perform copy number analysis of 54 key target genes. In addition, 198 probes in the same probemix were included for karyotyping and data normalization purposes and a set of 128 control probes were included for quality control purposes.
+Briefly, 100 ng of each DNA sample (in a total volume of 4 μl) sample was mixed with 2 μl of a unique barcode solution (MRC Holland), followed by DNA denaturation at 98°C for 10 min. After denaturation, a mixture of 1.25 μl dMLPA probe mix (MRC Holland) and 1.25 μl dMLPA buffer (MRC Holland) was added to each sample, and reactions were incubated overnight at 60°C for hybridization. Probes were ligated by incubating the reactions with 32 μl of a ligase master mix containing the ligase-65 enzyme (MRC Holland) and buffers (MRC Holland) at 48°C for 30 min, followed by heat inactivation of the ligase-65 enzyme at 98°C for 5 min and an additional incubation at 65°C for 20 min. PCR amplification of the ligated probes was performed on a calibrated Veriti 96-well thermocycler (Applied Biosystems). The PCR-amplified products were pooled and the library was loaded onto an Illumina MiSeq sequencer (Illumina, San Diego, CA) for quantification using the MiSeq Reagent Kit version 3 (150 cycles; Illumina). Sixteen healthy control DNA samples were included in the first validation run and for subsequent runs eight reference controls were included. Relative peak ratios between 0.8 and 1.2 were considered normal, while values below or above indicated losses or gains of genetic material, respectively. Data analysis was performed as described previously ( 19 ). Finally, heatmaps were generated comparing each dMLPA probe in each test sample against that in a reference sample to determine copy number changes for the indicated gene target.
+Validation by Conventional MLPA
+Conventional MLPA experiments were performed with DNA isolated from bone marrow or peripheral blood samples. Several SALSA MLPA probemixes were used for CNAs identification in these genes (MRC Holland, Amsterdam, The Netherlands). These probemixes included probes for  IKZF1, CDKN2A/B, PAX5, EBF1, ETV6, BTG1, RB1 , and  PAR1  region (P335 & P202 kit), iAMP21-ERG (P327 probemixes) and a probe mix for T-ALL (P383) containing several different targets. The results of MLPA analysis were interpreted by assigning deletion status to the indicated genes for each sample. For each probe the status was assigned as “deleted,” “normal,” or “amplified” depending on the ratio obtained relative to the established normal range (mean ± 2SD or mean ± 3SD). Relation dosage quotient values below 0.8 were considered deletion and above 1.2 as amplification. If more than 50% of the probe ratios in a particular region indicated a copy number alteration of the genetic material, the result for that gene was designated abnormal. Deletion of either  CDKN2A  or  CDKN2B  was considered as  CDKN2A/B  locus to be deleted. For deletion in the  PAR1  region of chromosome X or Y, we have considered it synonymous with  P2RY8-CRLF2  as described earlier ( 6 ).
+Statistical Analysis
+The significance of any change in DNA copy number for MLPA, and data from dMLPA, were compared using Pearson's correlation test as appropriate. All analyses were performed using SIGMAPLOT version 13.0 (SYSTAT Software, Inc. USA). Chi-square test and Fisher's exact test were used to correlate various parameters with the cytogenetic profile and CNAs.  p  < 0.05 were considered statistically significant. The FDR values and heat map were derived using R statistical software.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1868~1871" text="BCR" location="result" />
+<GENE id="G1" spans="1872~1875" text="ABL" location="result" />
+<GENE id="G2" spans="2196~2200" text="CD81" location="result" />
+<GENE id="G3" spans="2202~2206" text="CD45" location="result" />
+<GENE id="G4" spans="2208~2212" text="CD34" location="result" />
+<GENE id="G5" spans="2214~2218" text="CD58" location="result" />
+<GENE id="G6" spans="2220~2224" text="CD19" location="result" />
+<GENE id="G7" spans="2234~2238" text="CD10" location="result" />
+<GENE id="G8" spans="2240~2244" text="CD20" location="result" />
+<GENE id="G9" spans="2246~2251" text="CD123" location="result" />
+<GENE id="G10" spans="2253~2257" text="CD38" location="result" />
+<GENE id="G11" spans="2888~2891" text="BCR" location="result" />
+<GENE id="G12" spans="2892~2896" text="ABL1" location="result" />
+<GENE id="G13" spans="2898~2902" text="ETV6" location="result" />
+<GENE id="G14" spans="2903~2908" text="RUNX1" location="result" />
+<GENE id="G15" spans="2910~2915" text="KMT2A" location="result" />
+<GENE id="G16" spans="2916~2920" text="AFF1" location="result" />
+<GENE id="G17" spans="2922~2925" text="E2A" location="result" />
+<GENE id="G18" spans="2926~2930" text="PBX1" location="result" />
+<GENE id="G19" spans="2938~2942" text="STIL" location="result" />
+<GENE id="G20" spans="2943~2947" text="TAL1" location="result" />
+<GENE id="G21" spans="5722~5727" text="IKZF1" location="result" />
+<GENE id="G22" spans="5729~5735" text="CDKN2A" location="result" />
+<GENE id="G23" spans="5739~5743" text="PAX5" location="result" />
+<GENE id="G24" spans="5745~5749" text="EBF1" location="result" />
+<GENE id="G25" spans="5751~5755" text="ETV6" location="result" />
+<GENE id="G26" spans="5757~5761" text="BTG1" location="result" />
+<GENE id="G27" spans="5763~5766" text="RB1" location="result" />
+<GENE id="G28" spans="5774~5778" text="PAR1" location="result" />
+<GENE id="G30" spans="5813~5816" text="ERG" location="result" />
+<GENE id="G31" spans="6654~6659" text="P2RY8" location="result" />
+<GENE id="G32" spans="6489~6495" text="CDKN2A" location="result" />
+<GENE id="G33" spans="6501~6507" text="CDKN2B" location="result" />
+<GENE id="G34" spans="6528~6534" text="CDKN2A" location="result" />
+<GENE id="G35" spans="6580~6584" text="PAR1" location="result" />
+<GENE id="G36" spans="6660~6665" text="CRLF2" location="result" />
+<DISEASE id="D0" spans="66~69" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="229~232" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="323~331" text="leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1111~1119" text="Leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1821~1824" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="3461~3466" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="3471~3476" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="5855~5860" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

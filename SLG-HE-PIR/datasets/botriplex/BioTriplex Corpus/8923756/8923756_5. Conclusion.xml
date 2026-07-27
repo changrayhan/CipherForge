@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PON1 is a kind of liver-induced sugar protease involved in the anti-inflammatory and antioxidative mechanism. In this research, we studied the association between SNPs of PON1 (rs662 and rs705382) and genetic susceptibility of BF and BC in females of Guangxi. The results displayed that significant associations with BF and BC risk were observed for the rs662 SNP. Haplotype analysis of the 2-candidate SNPs suggested haplotype GA is a risky factor of BF and BC. It was being reported that variation of rs662 and rs705382 locus in PON1 may have more influence on the activity of PON1 enzyme [ 13 – 15 ]. The SPNs rs662 locus influences hydrolysis capability of PON1 enzyme of lipid peroxide enzyme. Results of this research displayed significant relevance between rs662 locus of PON1 and incidence of BC and BF in females of Guangxi. The possible explanation may be that poor PON1 activity in female in Guangxi with homozygote AA carrying rs662 locus (geno-variation of homozygote) reacted poorly to emergency response and lipid peroxide response caused by cancer. As a result, the risks of developing these carcinomas are increased. The association of rs662 SNPs and genetic susceptibility of breast cancer were verified [ 16 – 19 ]. However, no research related to the association of rs705382 SNPs and breast diseases was found.
+Analyzing multiple SNPs provides more meaningful results than only analyzing a single SNP [ 20 ]. The results of this research suggested that distribution of GA significantly increased (3.239 times) risks of BC and distribution of GA significantly increased (3.716 times) risks of BF.
+Despite strong biological rationality and correlation of this research, there are several limitations need to be handled. Besides, the subject of this research is females in Guangxi, the relevant data may not suit other groups of females and need to be used cautiously. The results of this research indicated that the locus of rs662 in PON1 is relevant to risk of developing BF and BC in females of Guangxi. Further prospective studies are needed to support our conclusions.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~5" text="PON1" location="background" />
+<GENE id="G1" spans="172~176" text="PON1" location="result" />
+<GENE id="G2" spans="532~536" text="PON1" location="background" />
+<GENE id="G3" spans="580~584" text="PON1" location="result" />
+<GENE id="G4" spans="662~666" text="PON1" location="result" />
+<GENE id="G5" spans="780~784" text="PON1" location="result" />
+<GENE id="G6" spans="877~881" text="PON1" location="result" />
+<GENE id="G7" spans="1953~1957" text="PON1" location="result" />
+<DISEASE id="D0" spans="228~230" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="235~237" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="318~320" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="325~327" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="453~455" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="460~462" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="802~804" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="809~811" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1058~1064" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="1109~1118" text="carcinoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="1195~1208" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1540~1542" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1613~1615" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1992~1994" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1999~2001" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="1961~1991" text="relevant to risk of developing" location="result" relation="genetic susceptibility" />
+<ENTITY_LINKING id="E0" geneID="G7" geneText="PON1" diseaseID="D14" diseaseText="BF" relationID="R1" relationText="relevant to risk of developing" />
+<ENTITY_LINKING id="E1" geneID="G7" geneText="PON1" diseaseID="D15" diseaseText="BC" relationID="R1" relationText="relevant to risk of developing" />
+</TAGS>
+</Genomics_ConceptTask>

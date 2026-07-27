@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Expression of the EGF family in gastric cancer: downregulation of HER4 and its activating ligand NRG4.
+Abstract: Gastric cancer is a major cause of cancer-related deaths in both men and women. The epidermal growth factor receptors are EGFR, HER2, HER3 and HER4. Of the four epidermal growth factor receptors, EGFR and HER2 are well-known oncogenes involved in gastric cancer. Little, however, is known about the role played by HER3 and HER4 in this disease. We obtained paired samples from the tumor and the adjacent normal tissue from the same patient undergoing surgery for gastric cancer. Using RT-qPCR, we quantified the mRNA expression of the four receptors including the HER4 splicing isoforms and all the ligands activating these receptors. Using immunohistochemistry, the protein expression of HER4 was also quantified. We found that HER2 mRNA expression was upregulated in the tumor tissue compared to the matched normal tissue (p = 0.0520). All ligands with affinity for EGFR were upregulated, whereas the expression of EGFR was unchanged. Interestingly, we found the mRNA expression of HER4 (p = 0.0002) and its ligand NRG4 (p = 0.0009) to be downregulated in the tumor tissue compared to the matched normal tissue. HER4 downregulation was demonstrated for all the alternatively spliced isoforms of this receptor. These results support the involvement of EGFR and HER2 in gastric cancer and suggest an interesting association of reduced HER4 expression with development of gastric cancer.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="74~78" text="HER4" location="result" />
+<GENE id="G2" spans="105~109" text="NRG4" location="background" />
+<GENE id="G3" spans="243~247" text="EGFR" location="background" />
+<GENE id="G4" spans="249~253" text="HER2" location="background" />
+<GENE id="G5" spans="255~259" text="HER3" location="background" />
+<GENE id="G6" spans="264~268" text="HER4" location="background" />
+<GENE id="G7" spans="317~321" text="EGFR" location="background" />
+<GENE id="G8" spans="326~330" text="HER2" location="background" />
+<GENE id="G9" spans="435~439" text="HER3" location="background" />
+<GENE id="G10" spans="444~448" text="HER4" location="background" />
+<GENE id="G11" spans="685~689" text="HER4" location="result" />
+<GENE id="G12" spans="810~814" text="HER4" location="result" />
+<GENE id="G13" spans="850~854" text="HER2" location="result" />
+<GENE id="G14" spans="989~993" text="EGFR" location="result" />
+<GENE id="G15" spans="1038~1042" text="EGFR" location="result" />
+<GENE id="G16" spans="1105~1109" text="HER4" location="result" />
+<GENE id="G17" spans="1235~1239" text="HER4" location="result" />
+<GENE id="G18" spans="1374~1378" text="EGFR" location="result" />
+<GENE id="G19" spans="1383~1387" text="HER2" location="result" />
+<GENE id="G20" spans="1456~1460" text="HER4" location="result" />
+<DISEASE id="D0" spans="40~54" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="121~135" text="Gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="156~162" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="368~382" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="584~598" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1391~1405" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1492~1506" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="56~70" text="downregulation" location="result" relation="decreased expression" />
+<RELATION id="R1" spans="356~367" text="involved in" location="background" relation="relation undefined" />
+<RELATION id="R3" spans="1448~1455,1461~1471" text="reduced ... expression" location="result" relation="decreased expression" />
+<RELATION id="R2" spans="1359~1370" text="involvement" location="result" relation="relation undefined" />
+<RELATION id="R4" spans="1477~1488" text="development" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="HER4" diseaseID="D0" diseaseText="gastric cancer" relationID="R0" relationText="downregulation" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="NRG4" diseaseID="D0" diseaseText="gastric cancer" relationID="R0" relationText="downregulation" />
+<ENTITY_LINKING id="E2" geneID="G7" geneText="EGFR" diseaseID="D3" diseaseText="gastric cancer" relationID="R1" relationText="involved in" />
+<ENTITY_LINKING id="E3" geneID="G8" geneText="HER2" diseaseID="D3" diseaseText="gastric cancer" relationID="R1" relationText="involved in" />
+<ENTITY_LINKING id="E6" geneID="G20" geneText="HER4" diseaseID="D7" diseaseText="gastric cancer" relationID="R3" relationText="reduced ... expression" />
+<ENTITY_LINKING id="E4" geneID="G18" geneText="EGFR" diseaseID="D6" diseaseText="gastric cancer" relationID="R2" relationText="involvement" />
+<ENTITY_LINKING id="E5" geneID="G19" geneText="HER2" diseaseID="D6" diseaseText="gastric cancer" relationID="R2" relationText="involvement" />
+<ENTITY_LINKING id="E9" geneID="G20" geneText="HER4" diseaseID="D7" diseaseText="gastric cancer" relationID="R4" relationText="development" />
+</TAGS>
+</Genomics_ConceptTask>

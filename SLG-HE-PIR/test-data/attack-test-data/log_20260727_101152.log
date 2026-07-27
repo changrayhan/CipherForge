@@ -1,0 +1,48 @@
+2026-07-27 10:11:52,064 [INFO] attack_suite: Log file: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_101152/attack_test.log
+2026-07-27 10:11:52,064 [INFO] attack_suite: ============================================================
+2026-07-27 10:11:52,064 [INFO] attack_suite: Protocol initialisation (GPU mode, Llama-3.1-8B-I)
+2026-07-27 10:11:52,064 [INFO] attack_suite: ============================================================
+2026-07-27 10:11:52,066 [INFO] attack_suite: Patched _build_seal_context for poly_degree=2048
+2026-07-27 10:11:52,853 [INFO] attack_suite: Loading tokenizer from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+2026-07-27 10:11:55,982 [INFO] attack_suite: Loading TREC-QC dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc
+2026-07-27 10:11:56,004 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543, test=100
+2026-07-27 10:11:56,004 [INFO] attack_suite: Building BFV backend (poly_degree=2048, plain_bits=30, scale=10000.0, hidden_dim=2048)
+2026-07-27 10:11:56,010 [INFO] attack_suite: Building encrypted database …
+2026-07-27 10:11:56,011 [INFO] attack_suite: Loading hint table …
+2026-07-27 10:11:56,025 [INFO] attack_suite: Constructing HeterogeneousProtocol …
+2026-07-27 10:12:03,711 [INFO] attack_suite: PartyM BFV secret key loaded (poly_degree=2048)
+2026-07-27 10:12:05,470 [INFO] attack_suite: GPU protocol initialisation successful!
+2026-07-27 10:12:05,470 [INFO] attack_suite: ============================================================
+2026-07-27 10:12:05,470 [INFO] attack_suite: Phase 2: Attack Data Collection
+2026-07-27 10:12:05,470 [INFO] attack_suite: ============================================================
+2026-07-27 10:12:05,480 [INFO] attack_suite: Registered attack: L2 (S-side Activation Label Inference)
+2026-07-27 10:12:05,485 [INFO] attack_suite: ============================================================
+2026-07-27 10:12:05,485 [INFO] attack_suite: Collecting real attack data via AttackProtocolWrapper
+2026-07-27 10:12:05,485 [INFO] attack_suite: ============================================================
+2026-07-27 10:12:05,486 [INFO] attack_suite: Running 50 training steps …
+2026-07-27 10:12:11,217 [INFO] attack_suite: Training step 1/50 completed (bundles=1)
+2026-07-27 10:12:25,788 [INFO] attack_suite: Training step 6/50 completed (bundles=6)
+2026-07-27 10:12:40,708 [INFO] attack_suite: Training step 11/50 completed (bundles=11)
+2026-07-27 10:12:55,439 [INFO] attack_suite: Training step 16/50 completed (bundles=16)
+2026-07-27 10:13:09,794 [INFO] attack_suite: Training step 21/50 completed (bundles=21)
+2026-07-27 10:13:24,486 [INFO] attack_suite: Training step 26/50 completed (bundles=26)
+2026-07-27 10:13:39,036 [INFO] attack_suite: Training step 31/50 completed (bundles=31)
+2026-07-27 10:13:53,597 [INFO] attack_suite: Training step 36/50 completed (bundles=36)
+2026-07-27 10:14:08,196 [INFO] attack_suite: Training step 41/50 completed (bundles=41)
+2026-07-27 10:14:23,495 [INFO] attack_suite: Training step 46/50 completed (bundles=46)
+2026-07-27 10:14:35,814 [INFO] attack_suite: Collecting evaluation predictions for M-1 …
+2026-07-27 10:14:40,651 [INFO] attack_suite: M1: Saved offline data to /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_101152/m1
+2026-07-27 10:14:40,988 [INFO] attack_suite: ============================================================
+2026-07-27 10:14:40,988 [INFO] attack_suite: Phase 3: Running Attacks
+2026-07-27 10:14:40,988 [INFO] attack_suite: ============================================================
+2026-07-27 10:14:40,988 [INFO] attack_suite: Running L2 …
+2026-07-27 10:14:41,501 [INFO] attack_suite:   [!!] L2/a_t_mean_anova | a_t_class_mean_anova_pvalue=0.0000 (chance=0.0001), p=0.0000 | n=200 | Min p-value across 512 features of a_t: 3.3970e-05. Binomial aggregate: 267/512 features with raw p<0.05 (p=0.0000e+00 under Binomial(n=512, 0.05) null). BH-FDR min p_adj=3.3970e-05. Class means differ across labels (binomial aggregate + FDR)
+2026-07-27 10:14:41,501 [INFO] attack_suite:   [OK] L2/a_t_norm_anova | a_t_norm_anova_pvalue=0.5050 (chance=0.0500), p=0.5050 | n=200 | ANOVA p=5.0504e-01, eta²=0.0218: no meaningful norm difference across classes (effect size below 0.10)
+2026-07-27 10:14:41,501 [INFO] attack_suite:   [OK] L2/a_t_kl_divergence | a_t_kl_divergence_mean=0.0038 (chance=0.1000) | n=200 | KL mean <= 0.1: a_t does not deviate from uniform baseline
+2026-07-27 10:14:41,501 [INFO] attack_suite:   [OK] L2/result_S_mean_anova | result_S_class_mean_anova_pvalue=0.0006 (chance=0.0001), p=0.0006 | n=200 | Min p-value across 512 features of result_S: 6.1422e-04. Binomial aggregate: 17/512 features with raw p<0.05 (p=9.5592e-01 under Binomial(n=512, 0.05) null). BH-FDR min p_adj=6.1422e-04. No systematic mean difference across classes (binomial aggregate)
+2026-07-27 10:14:41,501 [INFO] attack_suite:   [OK] L2/result_S_norm_anova | result_S_norm_anova_pvalue=0.1927 (chance=0.0500), p=0.1927 | n=200 | ANOVA p=1.9271e-01, eta²=0.0371: no meaningful norm difference across classes (effect size below 0.10)
+2026-07-27 10:14:41,501 [INFO] attack_suite: ============================================================
+2026-07-27 10:14:41,501 [INFO] attack_suite: Phase 4: Generating Reports
+2026-07-27 10:14:41,501 [INFO] attack_suite: ============================================================
+2026-07-27 10:14:41,501 [INFO] attack_suite: JSON results: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_101152/attack_results.json
+2026-07-27 10:14:41,501 [INFO] attack_suite: Summary: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/summary_20260727_101152.json

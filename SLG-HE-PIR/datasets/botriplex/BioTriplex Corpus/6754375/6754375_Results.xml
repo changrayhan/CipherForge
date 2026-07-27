@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+LINC01232 expression is upregulated in PAAD samples and associated with poor patients’ prognosis
+According to the analysis results of TCGA database, LINC01232 expression in was higher in PAAD tissues than that in normal tissues (Fig.  1a ). Furthermore, the correlation between LINC01232 level and the prognosis of TCGA PAAD patients was also identified. Survival analysis revealed that PAAD patients with high level of LINC01232 exhibited lower overall survival than those with low LINC01232 level (Fig.  1b ). To validate the results of TCGA database, LINC01232 expression was subsequently detected in 40 pairs of tissues obtained from PAAD patients. Similarly, LINC01232 presented higher expression level in PAAD samples compared to that in adjacent normal samples (Fig.  1c ). Consistently, the expression level of LINC01232 in PAAD cell lines was found to be higher compared to the normal cell line (Fig.  1d ). Fig. 1 LINC01232 expression is upregulated in PAAD samples and associated with poor patients’ prognosis. a  TCGA data of LINC01232 expression in PAAD and normal samples.  b  TCGA survival analysis of PAAD patients with high or low LINC01232 expression.  c  LINC01232 expression was detected in 40 pairs of PAAD tissues and adjacent normal tissues.  d  qRT-PCR assay was implemented to estimate the expression level of LINC01232 in normal cell line (HPDE6-C7) and PAAD cells (CAPAN-1, BxPC-3, JF305, PANC-1, and SW1990). * P  < 0.05, ** P   <  0.01
+Silencing of LINC01232 hampers cell proliferation and promoted cell apoptosis in PAAD
+In order to unveil the specific role of LINC01232, LINC01232 was knocked down in PANC-1 and SW1990 cells by transfection with sh-LINC01232#1/2/3 plasmids (Fig.  2a ). MTT and colony formation assays demonstrated that inhibition of LINC01232 contributed to the overt diminution of cell proliferation (Fig.  2b, c ). In addition, TUNEL-staining assay manifested that the proportion of TUNEL-positive cells was increased due to depletion of LINC01232 (Fig.  2d ). Further, increased apoptosis rate was further detected in LINC01232-downregulated cells by using flow cytometry analysis (Fig.  2e ). Collectively, we concluded that LINC01232 acted as an oncogene in PAAD by inducing cell proliferation and suppressing cell apoptosis. Fig. 2 Silencing of LINC01232 hampered cell proliferation and promoted cell apoptosis in PAAD. a  The efficiency of LINC01232 knockdown in PANC-1 and SW1990 cells was verified by qRT-PCR.  b ,  c  Cell proliferative ability was assessed by MTT and colony formation assays after LINC01232 knockdown.  d ,  e  TUNEL-staining assay and flow cytometry analysis were adopted to determine the apoptosis of PANC-1 and SW1990 cells after indicated transfection. * P  < 0.05, ** P   <  0.01
+Knockdown LINC01232 led to the repression of cell migration, invasion, and EMT in PAAD
+To further probe the effects of LINC01232 on cell migration and invasion, we carried out transwell assays and verified that the migratory and invasive capacities of PANC-1 and SW1990 cells were restrained on account of LINC01232 downregulation (Fig.  3a–c ). EMT has been proven to be of paramount significance in cell processes of migration and invasion 16 . Here, western blot was adopted to evaluate the protein level of EMT markers. Our results illuminated that epithelial marker, E-cadherin, was increased in PANC-1 and SW1990 cells with LINC01232 knockdown, while the levels of mesenchymal markers N-cadherin, Vimentin and related transcription factors Snail and Twist were prominently decreased by depletion of LINC01232 (Fig.  3d ). In agreement with these findings, immunofluorescent assays certified that LINC01232 silencing resulted in enhanced E-cadherin level and the reduced expression of N-cadherin in both PANC-1 and SW1990 cells (Fig.  3e ). In addition, we observed the phenotype of PANC-1 and SW1990 cells and found that knockdown of LINC01232 inducing EMT phenotype into MET phenotype (Fig.  3f ). By the large, we expounded that knockdown of LINC01232 retarded the migration and invasion of pancreatic cancer cells via reversing EMT processes. Fig. 3 Knockdown LINC01232 led to the repression of cell migration, invasion and EMT in PAAD. a – c  Transwell assays were carried out to detect cell migration and invasion in LINC01232-downregulated PAAD cells.  d  The levels of EMT-related proteins was measured by western blotting.  e  Immunofluorescence assay was applied to further confirm the levels of E-cadherin and N-cadherin in PANC-1 and SW1990 cells.  f  The phenotype of PANC-1 and SW1990 cells transfected with different plasmids was observed. ** P   <  0.01
+LINC01232 positively regulated the expression of TM9SF2
+By browsing the UCSC website, we found that TM9SF2 was a gene near LINC01232 (Fig.  S1A ). Based on TCGA data, the upregulation of TM9SF2 expression was observed in pancreatic cancer tissues (Fig.  4a ). Moreover, it was showed by TCGA correlation analysis that there was a positive expression association between TM9SF2 and LINC01232 in PAAD samples (Fig.  4b ). Moreover, we also observed that TM9SF2 was expressed at a higher level in 40 PAAD samples compared to adjacent normal controls, which was consistent with LINC01232 (Fig.  4c ). The qRT-PCR assay delineated that the expression of TM9SF2 in PAAD cells was higher than that in normal cells (Fig.  4d ). Therefore, we intended to examine the potential regulatory effect of LINC01232 on TM9SF2 expression. Accordingly, we detected the mRNA and protein level of TM9SF2 in cells transfected with LINC01232-specific shRNA and control shRNA. Both levels were decreased by the knockdown of LINC01232 (Fig.  4e ). In addition, subcellular fractionation analysis indicated that LINC01232 was predominantly expressed in cytoplasm (Fig.  4f ). And this result was further validated by FISH assay (Fig.  4g ). In turn, we surmised that LINC01232 functioned as a ceRNA to regulate TM9SF2. However, RIP experiments illustrated that LINC01232 had no ability to bind with Ago2, suggesting that LINC01232 was unable to combine with RNA-induced silencing complex (RISC) (Fig.  4h ). To determine the role of TM9SF2 in cellular processes, we silenced it in PANC-1 and SW1990 cells (Fig.  S1B ). After loss-of function analysis, we determined that silencing of TM9SF2 efficiently suppressed cell proliferation (Fig.  S1C, D ). Furthermore, migratory ability of PAAD cells was weakened after TM9SF2 was knocked down (Fig.  S1E ). EMT markers were also tested in indicated cells. As a result, we observed that EMT process was reversed by the knockdown of TM9SF2 (Fig.  S1F ). On the whole, we concluded that TM9SF2 was positively regulated by LINC01232 and promoted PAAD cell proliferation and migration. Fig. 4 LINC01232 positively regulated the expression of TM9SF2. a  Upregulation of TM9SF2 expression in TCGA PAAD tissues.  b  TCGA correlation analysis of LINC01232 and TM9SF2.  c  TM9SF2 expression and its correlation with LINC01232 in 40 PAAD tissues.  d  TM9SF2 expression in normal cell line and PAAD cell lines.  e  mRNA and protein level of TM9SF2 were examined in PAAD cells transfected with LINC01232-specific shRNA and control shRNA.  f ,  g  Subcellular fractionation and FISH assay were carried out to determine the nuclear-cytoplasmic fractionation of LINC01232 in PAAD cells.  h  Ago2-RIP experiment was utilized to estimate the capability of LINC01232 to combine with RISC complex. * P  < 0.05, ** P   <  0.01
+LINC01232 recruited EIF4A3 to stabilize TM9SF2
+To obtain a more particular knowledge of whether LINC01232 modulated TM9SF2, we conducted bioinformatics analysis. Pull-down silver staining and mass spectrometry analysis showed that there are some RBPs that can bind to LINC01232 (Fig.  5a ). The interaction between EIF4A3 and LINC01232 was further validated and shown by using western blot analysis. The peak map showed the enrichment of EIF4A3 in biotin-labeled-LINC01232 (Fig.  S2A ). To determine whether LINC01232 had regulatory effect on EIF4A3 expression, we examined both mRNA and protein levels of EIF4A3 in LINC01232-downregulated PAAD cells. No significant expression change was observed (Fig.  S2B ), indicating that LINC01232 potentially recruited EIF4A3 to regulate their downstream mRNAs. In addition, the expression of EIF4A3 was remarkably increased in TAGA and obtained PAAD tissues and positively correlated with TM9SF2 (Fig.  S2C, D ). Similarly, we detected relative high-expression level of EIF4A3 in PAAD cell lines (Fig.  S1E ). Then, we silenced EIF4A3 expression and observed that the level of TM9SF2 was dropped by EIF4A3 depletion (Fig.  S1E, F ). Thus, we chose EIF4A3 for further analysis. Furtherly, RIP assay validated that EIF4A3 could interact with both LINC01232 and TM9SF2 (Fig.  5b, c ). More importantly, the enrichment of TM9SF2 in anti-EIF4A3 precipitates was diminished owing to LINC01232 silencing (Fig.  5d ). It is known that interaction between lncRNAs and RBPs can induce the change of mRNA stability. Thus, we tested the mRNA stability of TM9SF2 in cells treated with Actinomycin D after transfections. As expected, overexpression of EIF4A3 led to the fortified mRNA stability of TM9SF2 (Fig.  5e ). And LINC01232 knockdown decreased TM9SF2 mRNA stability and the rebound of TM9SF2 stability occurred with upregulation of EIF4A3 (Fig.  5f ). Taken together, these findings revealed that LINC01232 modulated TM9SF2 expression through recruiting EIF4A3 to enhance the mRNA stability of TM9SF2. Fig. 5 LINC01232 recruited EIF4A3 to stabilize TM9SF2. a  Pull-down silver staining and the peak map for mass spectrometry analysis were used to demonstrate the interaction between EIF4A3 and LINC01232.  b ,  c  RIP assay was applied to validate the binding of EIF4A3 to LINC01232 and TM9SF2.  d  The effect of LINC01232 knockdown on the binding of EIF4A3 to TM9SF2 was assessed by RIP assay.  e ,  f  After Actinomycin D treatment, the mRNA stability of TM9SF2 in indicated cells was determined by qRT-PCR. * P  < 0.05
+LINC01232 and TM9SF2 synergistically promoted PAAD progression
+Rescue experiments were performed to explore whether LINC01232 affected the tumorigenesis and development of pancreatic cancer by TM9SF2. As displayed in Fig.  6a, b , cell proliferation repressed by silencing of LINC01232 was prompted when TM9SF2 was overexpressed. It was stated that ectopic expression of TM9SF2 abolished the promotion of cell apoptosis caused by LINC01232 knockdown (Fig.  6c ). Furthermore, TM9SF2 upregulation boosted cell migration and invasion inhibited by LINC01232 attenuation (Fig.  6d, e ). In concert with mentioned results, overexpression of TM9SF2 reversed the influence of LINC01232 depletion on the expression of EMT-relevant proteins (Fig.  6f ). Through in vivo experiments, we further determined that tumor growth in sh-LINC01232 group was slower than sh-NC group. Whereas, tumor growth was faster after co-transfection with TM9SF2 expression vector (Fig.  6g, h ). To sum up, LINC01232 executed carcinogenic properties in pancreatic cancer via regulation of TM9SF2. Fig. 6 LINC01232 and TM9SF2 synergistically promoted PAAD progression. a ,  b  Cell proliferation in cells transfected with sh-NC, sh-LINC01232, or co-transfected with sh-LINC01232 and TM9SF2 expression vector was measured by the MTT and colony formation assays.  c  Cell apoptosis rate was evaluated by caspase-3 activity assay.  d ,  e  Cell migratory and invasive capacities were determined by transwell assays.  f  EMT process was estimated by western blotting.  g  Tumors derived from cells transfected with different plasmids.  h ,  i  Tumor volume and tumor weight in different groups were calculated and shown. * P  < 0.05, ** P   <  0.01
+SP1 acted as a transcriptional activator of LINC01232 and TM9SF2 in PAAD cells
+Through employment of UCSC database, we screened out 85 candidate transcription regulators for both TM9SF2 and LINC01232. To identify the co-regulators, we overexpressed all these candidate genes to detect the expression change of both TM9SF2 and LINC01232. As presented in Fig.  7a , SP1 overexpression led to the most significant upregulation of TM9SF2 and LINC01232. Importantly, SP1 was upregulated in TCGA PAAD samples and positively correlated with LINC01232 and TM9SF2 (Fig.  S3A, B ). High level of SP1 indicated poor overall survival of PAAD patients (Fig.  S3C ). Upregulation of SP1 was further determined in 40 PAAD tissues (Fig.  S3D ). The expression correlation between SP1 and LINC01232 or TM9SF2 was also analyzed in PAAD samples and was found to be positive (Fig.  S3E ). To make further confirmation, SP1 expression was silenced in two PAAD cell lines and transfection efficiency was verified by qRT-PCR (Fig.  S3F ). Moreover, SP1 was found to be unable to regulate mRNA stability of TM9SF2 (Fig.  S3G ). It was proofed that depletion of SP1 decreased the levels of LINC01232 and TM9SF2 (Fig.  7b ). Then, we determined the affinity of SP1 to the promoter of LINC01232 or TM9SF2 by ChIP assay. It was corroborated by ChIP experiments that SP1 directly bound with LINC01232 and TM9SF2 promoters (Fig.  7c ). To further identify their interactions, we obtained the DNA motif of SP1 and the putative binding sites of SP1 to LINC01232 and TM9SF2 promoters from JASPAR database (Fig.  7d ). To determine the detailed binding sites, luciferase reporter gene assays were carried out. Results manifested that the region between −667 and −677 bp (E1) on the LINC01232 promoter was responsible for SP1-mediated transcriptional activation (Fig.  7e ). Whereas, sequence from −596 to −606 bp of TM9SF2 promoter was the key binding site for SP1 (Fig.  7f ). In a word, the transcriptional activation of LINC01232 and TM9SF2 was mediated by SP1. Fig. 7 SP1 acted as a transcriptional activator of LINC01232 and TM9SF2 in PAAD cells. a  After transcription factors were respectively overexpressed, we observed that upregulation of SP1 led to the most significant increase of TM9SF2 and LINC01232 expression.  b  The levels of TM9SF2 and LINC01232 in response to inhibition of SP1 were detected by qRT-PCR.  c  ChIP assay revealed the binding capability of SP1 to LINC01232 and TM9SF2 promoters.  d  DNA motif of SP1.  e ,  f  Specific binding sites of SP1 for LINC01232 and TM9SF2 promoters were validated by luciferase reporter gene assays. * P  < 0.05, ** P   <  0.01, *** P   <  0.001
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3454~3464" text="N-cadherin" location="result" />
+<GENE id="G1" spans="3466~3474" text="Vimentin" location="result" />
+<GENE id="G2" spans="3509~3514" text="Snail" location="result" />
+<GENE id="G3" spans="3519~3524" text="Twist" location="result" />
+<GENE id="G4" spans="3706~3716" text="E-cadherin" location="result" />
+<GENE id="G5" spans="3753~3763" text="N-cadherin" location="result" />
+<GENE id="G6" spans="4474~4484" text="E-cadherin" location="result" />
+<GENE id="G7" spans="4489~4499" text="N-cadherin" location="result" />
+<GENE id="G8" spans="4687~4693" text="TM9SF2" location="result" />
+<GENE id="G9" spans="4738~4744" text="TM9SF2" location="result" />
+<GENE id="G10" spans="4825~4831" text="TM9SF2" location="result" />
+<GENE id="G11" spans="5008~5014" text="TM9SF2" location="result" />
+<GENE id="G12" spans="5090~5096" text="TM9SF2" location="result" />
+<GENE id="G13" spans="5287~5293" text="TM9SF2" location="result" />
+<GENE id="G14" spans="5440~5446" text="TM9SF2" location="result" />
+<GENE id="G15" spans="5514~5520" text="TM9SF2" location="result" />
+<GENE id="G16" spans="5923~5929" text="TM9SF2" location="result" />
+<GENE id="G17" spans="6011~6015" text="Ago2" location="result" />
+<GENE id="G18" spans="6145~6151" text="TM9SF2" location="result" />
+<GENE id="G19" spans="6296~6302" text="TM9SF2" location="result" />
+<GENE id="G20" spans="6426~6432" text="TM9SF2" location="result" />
+<GENE id="G21" spans="6588~6594" text="TM9SF2" location="result" />
+<GENE id="G22" spans="6641~6647" text="TM9SF2" location="result" />
+<GENE id="G23" spans="6794~6800" text="TM9SF2" location="result" />
+<GENE id="G24" spans="6821~6827" text="TM9SF2" location="result" />
+<GENE id="G25" spans="6908~6914" text="TM9SF2" location="result" />
+<GENE id="G26" spans="6920~6926" text="TM9SF2" location="result" />
+<GENE id="G27" spans="6997~7003" text="TM9SF2" location="result" />
+<GENE id="G28" spans="7086~7092" text="TM9SF2" location="result" />
+<GENE id="G29" spans="7332~7336" text="Ago2" location="result" />
+<GENE id="G30" spans="7483~7489" text="EIF4A3" location="result" />
+<GENE id="G31" spans="7503~7509" text="TM9SF2" location="result" />
+<GENE id="G32" spans="7579~7585" text="TM9SF2" location="result" />
+<GENE id="G33" spans="7778~7784" text="EIF4A3" location="result" />
+<GENE id="G34" spans="7901~7907" text="EIF4A3" location="result" />
+<GENE id="G35" spans="8006~8012" text="EIF4A3" location="result" />
+<GENE id="G36" spans="8069~8075" text="EIF4A3" location="result" />
+<GENE id="G37" spans="8223~8229" text="EIF4A3" location="result" />
+<GENE id="G38" spans="8297~8303" text="EIF4A3" location="result" />
+<GENE id="G39" spans="8394~8400" text="TM9SF2" location="result" />
+<GENE id="G40" spans="8475~8481" text="EIF4A3" location="result" />
+<GENE id="G41" spans="8533~8539" text="EIF4A3" location="result" />
+<GENE id="G42" spans="8582~8588" text="TM9SF2" location="result" />
+<GENE id="G43" spans="8604~8610" text="EIF4A3" location="result" />
+<GENE id="G44" spans="8653~8659" text="EIF4A3" location="result" />
+<GENE id="G45" spans="8718~8724" text="EIF4A3" location="result" />
+<GENE id="G46" spans="8764~8770" text="TM9SF2" location="result" />
+<GENE id="G47" spans="8823~8829" text="TM9SF2" location="result" />
+<GENE id="G48" spans="8838~8844" text="EIF4A3" location="result" />
+<GENE id="G49" spans="9143~9149" text="EIF4A3" location="result" />
+<GENE id="G50" spans="9189~9195" text="TM9SF2" location="result" />
+<GENE id="G51" spans="9243~9249" text="TM9SF2" location="result" />
+<GENE id="G52" spans="9284~9290" text="TM9SF2" location="result" />
+<GENE id="G53" spans="9331~9337" text="EIF4A3" location="result" />
+<GENE id="G54" spans="9416~9422" text="TM9SF2" location="result" />
+<GENE id="G55" spans="9453~9459" text="EIF4A3" location="result" />
+<GENE id="G56" spans="9493~9499" text="TM9SF2" location="result" />
+<GENE id="G57" spans="9528~9534" text="EIF4A3" location="result" />
+<GENE id="G58" spans="9548~9554" text="TM9SF2" location="result" />
+<GENE id="G59" spans="9682~9688" text="EIF4A3" location="result" />
+<GENE id="G60" spans="9762~9768" text="EIF4A3" location="result" />
+<GENE id="G61" spans="9786~9792" text="TM9SF2" location="result" />
+<GENE id="G62" spans="9850~9856" text="EIF4A3" location="result" />
+<GENE id="G63" spans="9860~9866" text="TM9SF2" location="result" />
+<GENE id="G64" spans="10035~10041" text="TM9SF2" location="result" />
+<GENE id="G65" spans="10214~10220" text="TM9SF2" location="result" />
+<GENE id="G66" spans="10325~10331" text="TM9SF2" location="result" />
+<GENE id="G67" spans="10392~10398" text="TM9SF2" location="result" />
+<GENE id="G68" spans="10497~10503" text="TM9SF2" location="result" />
+<GENE id="G69" spans="10657~10663" text="TM9SF2" location="result" />
+<GENE id="G70" spans="10946~10952" text="TM9SF2" location="result" />
+<GENE id="G71" spans="11080~11086" text="TM9SF2" location="result" />
+<GENE id="G72" spans="11109~11115" text="TM9SF2" location="result" />
+<GENE id="G73" spans="11273~11279" text="TM9SF2" location="result" />
+<GENE id="G74" spans="11392~11401" text="caspase-3" location="result" />
+<GENE id="G75" spans="11735~11738" text="SP1" location="result" />
+<GENE id="G76" spans="11793~11799" text="TM9SF2" location="result" />
+<GENE id="G77" spans="11914~11920" text="TM9SF2" location="result" />
+<GENE id="G78" spans="12050~12056" text="TM9SF2" location="result" />
+<GENE id="G79" spans="12099~12102" text="SP1" location="result" />
+<GENE id="G80" spans="12162~12168" text="TM9SF2" location="result" />
+<GENE id="G81" spans="12197~12200" text="SP1" location="result" />
+<GENE id="G82" spans="12283~12289" text="TM9SF2" location="result" />
+<GENE id="G83" spans="12321~12324" text="SP1" location="result" />
+<GENE id="G84" spans="12404~12407" text="SP1" location="result" />
+<GENE id="G85" spans="12499~12502" text="SP1" location="result" />
+<GENE id="G86" spans="12520~12526" text="TM9SF2" location="result" />
+<GENE id="G87" spans="12634~12637" text="SP1" location="result" />
+<GENE id="G88" spans="12761~12764" text="SP1" location="result" />
+<GENE id="G89" spans="12818~12824" text="TM9SF2" location="result" />
+<GENE id="G90" spans="12872~12875" text="SP1" location="result" />
+<GENE id="G91" spans="12914~12920" text="TM9SF2" location="result" />
+<GENE id="G92" spans="12970~12973" text="SP1" location="result" />
+<GENE id="G93" spans="13006~13012" text="TM9SF2" location="result" />
+<GENE id="G94" spans="13073~13076" text="SP1" location="result" />
+<GENE id="G95" spans="13111~13117" text="TM9SF2" location="result" />
+<GENE id="G96" spans="13210~13213" text="SP1" location="result" />
+<GENE id="G97" spans="13248~13251" text="SP1" location="result" />
+<GENE id="G98" spans="13269~13275" text="TM9SF2" location="result" />
+<GENE id="G99" spans="13522~13525" text="SP1" location="result" />
+<GENE id="G100" spans="13738~13744" text="TM9SF2" location="result" />
+<GENE id="G101" spans="13761~13764" text="SP1" location="result" />
+<GENE id="G102" spans="13773~13776" text="SP1" location="result" />
+<GENE id="G103" spans="13831~13837" text="TM9SF2" location="result" />
+<GENE id="G104" spans="13950~13953" text="SP1" location="result" />
+<GENE id="G105" spans="13994~14000" text="TM9SF2" location="result" />
+<GENE id="G106" spans="14045~14051" text="TM9SF2" location="result" />
+<GENE id="G107" spans="14095~14098" text="SP1" location="result" />
+<GENE id="G108" spans="14175~14178" text="SP1" location="result" />
+<GENE id="G109" spans="14196~14202" text="TM9SF2" location="result" />
+<GENE id="G110" spans="14271~14274" text="SP1" location="result" />
+<GENE id="G111" spans="14293~14299" text="TM9SF2" location="result" />
+<GENE id="G112" spans="3335~3345" text="E-cadherin" location="result" />
+<DISEASE id="D0" spans="40~44" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="188~192" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="321~325" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="388~392" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="639~643" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="712~716" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="833~837" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="964~968" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1063~1067" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1118~1122" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1224~1228" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1381~1385" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1547~1551" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2213~2217" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2370~2374" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2845~2849" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4062~4079" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4203~4207" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4315~4319" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="4859~4876" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="5032~5036" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="5135~5139" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="5297~5301" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="6396~6400" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="6699~6703" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="6847~6851" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="6979~6983" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="7039~7043" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="7110~7114" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="7316~7320" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="8103~8107" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="8350~8354" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="8485~8489" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="10067~10071" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="10193~10210" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="11141~11145" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="11803~11807" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="12225~12229" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D40" spans="12360~12364" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="12437~12441" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="12548~12552" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="12669~12673" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D44" spans="13841~13845" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="5101~5128" text="expressed at a higher level" location="result" relation="increased expression" />
+<RELATION id="R1" spans="5273~5283,5308~5318" text="expression ... was higher" location="result" relation="increased expression" />
+<RELATION id="R2" spans="6805~6820,6828~6838" text="Upregulation of ... expression" location="result" relation="increased expression" />
+<RELATION id="R3" spans="8283~8296,8304~8328" text="expression of ... was remarkably increased" location="result" relation="increased expression" />
+<RELATION id="R4" spans="8450~8471" text="high-expression level" location="result" relation="increased expression" />
+<RELATION id="R5" spans="10058~10066,10072~10083" text="promoted ... progression" location="result" relation="modulator increase disease" />
+<RELATION id="R6" spans="11132~11140,11146~11157" text="promoted ... progression" location="result" relation="modulator increase disease" />
+<RELATION id="R7" spans="12205~12216" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R8" spans="12335~12356" text="poor overall survival" location="result" relation="negative prognostic marker" />
+<RELATION id="R9" spans="12307~12317" text="High level" location="result" relation="increased expression" />
+<RELATION id="R10" spans="12388~12400" text="Upregulation" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="TM9SF2" diseaseID="D23" diseaseText="PAAD" relationID="R0" relationText="expressed at a higher level" />
+<ENTITY_LINKING id="E1" geneID="G13" geneText="TM9SF2" diseaseID="D24" diseaseText="PAAD" relationID="R1" relationText="expression ... was higher" />
+<ENTITY_LINKING id="E2" geneID="G24" geneText="TM9SF2" diseaseID="D27" diseaseText="PAAD" relationID="R2" relationText="Upregulation of ... expression" />
+<ENTITY_LINKING id="E3" geneID="G38" geneText="EIF4A3" diseaseID="D33" diseaseText="PAAD" relationID="R3" relationText="expression of ... was remarkably increased" />
+<ENTITY_LINKING id="E4" geneID="G40" geneText="EIF4A3" diseaseID="D34" diseaseText="PAAD" relationID="R4" relationText="high-expression level" />
+<ENTITY_LINKING id="E5" geneID="G64" geneText="TM9SF2" diseaseID="D35" diseaseText="PAAD" relationID="R5" relationText="promoted ... progression" />
+<ENTITY_LINKING id="E6" geneID="G72" geneText="TM9SF2" diseaseID="D37" diseaseText="PAAD" relationID="R6" relationText="promoted ... progression" />
+<ENTITY_LINKING id="E7" geneID="G81" geneText="SP1" diseaseID="D39" diseaseText="PAAD" relationID="R7" relationText="upregulated" />
+<ENTITY_LINKING id="E8" geneID="G83" geneText="SP1" diseaseID="D40" diseaseText="PAAD" relationID="R9" relationText="High level" />
+<ENTITY_LINKING id="E9" geneID="G83" geneText="SP1" diseaseID="D40" diseaseText="PAAD" relationID="R8" relationText="poor overall survival" />
+</TAGS>
+</Genomics_ConceptTask>

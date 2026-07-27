@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Tumor samples
+All colon cancer samples were obtained from the Tianjin Cancer Hospital. Pathological diagnosis and staging of colon cancer were performed according to the American Joint Committee on Cancer (AJCC) Staging System. The patient data and samples were collected with approval by the Ethics Committee of the Tianjin Cancer Hospital. Informed consent was obtained in all cases.
+Cell culture and treatment
+Macrophages were derived from PBMCs and stimulated with 25 ng/ mL recombinant human M-CSF (PeproTech, USA, 300-25) for 6 days. The human colon cancer cell lines HCT116, HT29, and HEK293T cell lines were obtained from ATCC. All human cell lines had been authenticated using STR profiling (Tianjin genink biotechnology Co., Ltd) within the last 3 years. All experiments were performed with mycoplasma-free cells. HCT116 cells were cultured in McCoy’s 5A medium (Gibco, USA). HEK293T and HT29 cells were cultured in DMEM (Gibco). Macrophages were cultured in RPMI 1640 (Gibco). All media were supplemented with 10% fetal bovine serum (Gibco) and 1% penicillin/streptomycin (Gibco). The cells were maintained at 37 °C in a humidified atmosphere of 5% CO 2 . For transient transfection, the cells were transfected with plasmid or siRNA (Genechem, Shanghai, China) using Lipofectamine 3000 and Opti-MEM (Invitrogen). The ratio of Lipofectamine 3000 (µl) to: total DNA (μg) was 2:1, according to the manufacturer’s protocol. The sequences of siRNAs targeting ADAM17 were as follows (5′-3′): si1: CCTATGTCGATGCTGAACAAA; si2: CCCATGAAGAACACGTGTAAA. Lentiviruses carrying short hairpin RNA sequences targeting human HDAC6 or TAK1 mRNA (shHDAC6 or shTAK1, respectively) and matched negative controls were constructed by our laboratory. The sequences of shRNAs targeting human HDAC6 and TAK1 are as follows (5′-3′):
+shHDAC6#1: GCATCCCATCCTGAATATCCTT
+shHDAC6#2: GCATCCCATCCTGAATATCCTT
+shTAK1#1: CGGAACCTTTAGGGATAGTTC
+shTAK1#2: GCAGTGATTCTTGGATTGTTT
+Fluorescent Multiplex Immunohistochemistry
+Paraffin sections of colon cancer tissues were collected and used for mIHC with an Opal 7-colour kit (PerkinElmer, NEL811001KT). For the first and subsequent rounds antigen epitope retrieval was performed in EDTA (pH 8.0) buffer using a microwave at the lowest power for 15 min. The slides were cooled to room temperature, and washed with TBST (three times, 3 min). Then, the slides were blocked with antibody diluent/block buffer for 10 min and incubated with primary antibody at 4 °C overnight. The following primary antibodies were used: anti-pan-CK (Abcam, Cambridge, UK, ab27988,); anti-HDAC6 (Cell Signaling Technology, USA, 7558); anti-CD68(Invitrogen, CA, USA, 14-0688-82); and anti-CD163(Abcam, ab182422). The next day, the slides were placed at room temperature and incubated with HRP-conjugated secondary antibody for 10 min after being washed with TBST three times. The slides were treated with TSA dye for 10 min, and then microwaved for epitope retrieval to label with the next antibody. Finally, the nuclei were stained with DAPI for 10 min at room temperature.
+Western blot analysis
+Total protein was isolated from human colon cancer samples or cultured cells using precooled cell lysis buffer (containing 50 mM Tris-HCl pH 7.5, 150 mM NaCl, and 1% Triton) supplemented with protease inhibitor cocktail (MCE, NJ, USA, HY-K0010), deacetylase inhibitor cocktail (MCE, HY-K0030) and phosphatase inhibitor cocktail (MCE HY-K0022 and HY-K0023). The cell lysate was centrifuged at 4 °C and then the supernatant was collected. The protein concentration was determined using a BCA Protein Assay Kit (Thermo Fisher Scientific, MA, USA). A proper amount of protein was added to SDS loading buffer and boiled for 5 min. Then, the protein samples were separated by SDS/PAGE and transferred onto polyvinylidene difluoride membranes (Millipore). The membranes were blocked for 1 h with Tris-buffered saline with 0.1% Tween 20 containing 5% non-fat milk. For phosphorylation analysis, 5% bovine serum albumin was used. Antibody diluent (TOYOBO, Japan, NKB-101) was used to prepare primary and secondary antibodies. After incubation with primary antibodies overnight at 4°C, the membranes were washed and incubated with HRP-conjugated anti- rabbit (CST, 7074) or anti- mouse (absin, Shanghai, China) secondary antibodies. The protein bands were detected using ECL substrate (Millipore, WBKLS0500), visualized using an exposure instrument (Amersham Imager 600) and quantified using ImageJ software.
+Immunoprecipitation
+HEK293T cells and HCT116 cells were transfected with the indicated plasmids for 48 h and then lysed. The samples were centrifuged, and the supernatant was collected. For each sample, 1 mg of protein was incubated overnight at 4 °C with 2 μg of the indicated antibody. The next day, protein-A/G beads (Bimake, TX, USA, b23202) or protein A/G agarose (Santa Cruz, CA, USA, sc-2003) was added for another 3 h at 4 °C. After being washed three times with cold IP buffer, the proteins were boiled with 2× SDS loading buffer for 10 min. The samples were centrifuged and used for follow-up experiments.
+Collection of conditioned medium
+To obtain conditioned medium (CM), cells were grown to sub confluence. The culture medium was replaced with 1% FBS. After 24 h, the medium was harvested, and debris was removed by centrifugation at 1000× g  for 10 min at 4 °C.
+ELISA
+The conditioned medium of tumor cells was analyzed by ELISA using a commercial kit, according to the manufacturer’s protocol (human IL-6 receptor ELISA kit, Abcam, 46029).
+Determination of TACE/ADAM17 activity
+When the cell density reached approximately 80%, the cells were detached and lysed in buffer (150 mM NaCl,50 mM Tris,1% Triton X-100, and 4% glycerol) supplemented with protease inhibitor cocktail (MCE, HY-K0010) and phosphatase inhibitor (MCE, HY-K0021 and HY-K0023) for 0.5 h at 4 °C. The proteins were centrifuged at 4 °C for 10 min at maximum speed, and then the protein concentration was determined using the BCA assay (Thermo Fisher Scientific, 23227). 20 μg protein was transferred to each well of a black 96-well plate. Then 20 μM TACE substrate IV (Merck Millipore, GER, 616407) was added and the samples were incubated for 30 min at 37 °C. ADAM17 activity was measured with a spectrophotometer at an excitation wavelength of 320 nm and an emission wavelength of 420 nm.
+Plasmid constructs
+Full-length HDAC6, and TAK1 and the truncated fragments of both genes were amplified by PCR and cloned into the pcDNA3.1(+)-Flag and pcDNA3.1(+)-HA vectors. Point mutations of the indicated TAK1 constructs were purchased from Tsingke Biotechnology, Beijing.
+Flow cytometry
+Macrophages from PBMCs were cocultured with stably transfected colon cancer cells or conditioned medium for 48 h.Then these macrophages were digested with cell dissociation buffer (Gibco, USA) and dissociated into single cell suspensions. Next, the cells were incubated with APC-conjugated anti-human CD11b (Biolegend,101228); PE/Cy5.5-conjugated anti-human CD86 (Biolegend, CA, USA, 305412) and FITC-conjugated anti-human CD206 (Biolegend, 321104) antibodies for 20 mins at 4 °C in the dark. Flow cytometry was performed using a flow cytometer (BD Biosciences, FACSCanto II, USA).
+RNA extraction and quantitative PCR
+Total RNA was isolated from cultured cells using TRIzol reagent (Invitrogen, CA, USA). The mRNA was reverse transcribed into cDNA using PrimeScript RT Master Mix (TaKaRa, RR036A, Japan). TB Green Premix Ex Taq TM  II (TaKaRa, RR820A, Japan) was used to detect the amplified PCR products. Real-time PCR was performed using an ABI QuanStudio5 real time PCR instrument. The data were calculated using the 2 -ΔΔCT  method and GAPDH was used as the reference. The primers used for different target genes are as follows:
+HDAC6 (forward): 5ʹ-GAGGGAGAACTCCGTGTCCTA-3ʹ
+HDAC6 (reverse): 5ʹ-AATGCCATCCATAAGACTGTGC-3ʹ
+GAPDH (forward): 5ʹ-ACAACTTTGGTATCGTGGAAGG-3ʹ
+GAPDH (reverse): 5ʹ-GCCATCACGCCACAGTTTC-3ʹ
+sIL-6R (forward): 5ʹ-GCGACAAGCCTCCCAGGTTC-3ʹ
+sIL-6R (reverse): 5ʹ-GTGCCACCCAGCCAGCTATC-3ʹ
+mIL-6R (forward): 5ʹ-CATTGCCATTGTTCTGAGGTTC-3ʹ
+mIL-6R (reverse): 5ʹ-GTGCCACCCAGCCAGCTATC-3ʹ
+CD206 (forward): 5ʹ-GGGTTGCTATCACTCTCTATGC-3ʹ
+CD206 (reverse): 5ʹ-TTTCTTGTCTGTTGCCGTAGTT-3ʹ
+CD86 (forward): 5ʹ-CTGCTCATCTATACACGGTTACC-3ʹ
+CD86 (reverse): 5ʹ-GGAAACGTCGTACAGTTCTGTG-3ʹ
+ARG-1 (forward): 5ʹ-TGGACAGACTAGGAATTGGCA-3ʹ
+ARG-1 (reverse): 5ʹ-CCAGTCCGTCAACATCAAAACT-3ʹ
+INOS (forward): 5ʹ-GTTCCAGATGAATACTGGCAGTC-3ʹ
+INOS (reverse): 5ʹ-GCAACTGAACACTATCTTTCCCT-3ʹ
+TNF-α (forward): 5ʹ-GAGGCCAAGCCCTGGTATG-3ʹ
+TNF-α (reverse): 5ʹ-CGGGCCGATTGATCTCAGC-3ʹ
+IL-10 (forward): 5ʹ-CCTCCGTCTGTGTGGTTTGAA-3ʹ
+IL-10 (reverse): 5ʹ-CACTGCGGTAAGGTCATAGGA-3ʹ
+Animal models
+Mice were purchased from the Vital River Laboratory Animal Technology Co., Ltd (Beijing, China) and sheltered under specific pathogen-free conditions. CT26-shCtrl and CT26-shHDAC6 cells were suspended in PBS and subcutaneously injected into BALB/c mice (female, 5–6 weeks old, 3 × 10 6  cells per mouse,  n  = 12). After 22 days, the mice were euthanized, and tumor tissues were removed for follow-up experiments. For the xenograft model, HCT116-shCtrl and HCT116-shHDAC6 cells were subcutaneously injected into BALB/c nude mice (female, 5–6 weeks old, 3 × 10 6  cells per mouse,  n  = 10). All mice were randomly allocated. The experiment was conducted according to the ethics guidelines for animal experiments and approved by the Animal Ethical and Welfare Committee of Tianjin Medical University Cancer Institute and Hospital.
+Antibodies and reagents
+Selective HDAC6 inhibitor, Tubastatin A HCl (HY-13271) was purchased from MCE and selective TAK1 inhibitor, Takinib (s8663) was purchased from Selleck. Anti- pan-Acetylated lysine (9441), anti-TAK1 (5206), anti-p-TAK1 (4508), anti-HDAC6 (7558), anti-HDAC6 (7558), anti-Flag (14793), anti-ERK1/2 (4695), anti-p-ERK1/2 (4377), anti-ADAM17 (3976), anti- p38 (8690), anti-p-p38 (4511), anti-IgG (2729), anti-Ac-tubulin (5335), anti-Tubulin (2148), anti-STAT3 (12640), and anti-p-STAT3 (9145) antibodies were obtained from Cell Signaling Technology. Anti-IL-6R (sc-373708) antibody was purchased from Santa Cruz Biotechnology. Anti-p-ADAM17 (ab182630) antibody was obtained from Abcam. Antibodies were used at a ratio of 1:1000 dilution. Anti-GAPDH (G8795) antibody was from Sigma-Aldrich and was used at a ratio of 1:3000 dilution.
+Statistical analysis
+All statistical analyses were performed using GraphPad Prism 8.0 software and Microsoft Excel 2017 statistical program. Pearson’s correlation coefficient and the chi-square test were used to analyze associations between HDAC6 expression and the characteristics of patients with colon cancer. Statistical analyses between groups were performed by two-tailed Student’s  t  test. All data are expressed as the mean ± SD of three independent experiments.  P  values < 0.05 were considered statistically significant. * P  < 0.05; ** P  < 0.01; *** P  < 0.001; **** P  < 0.0001; ns=not significant.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1466~1472" text="ADAM17" location="result" />
+<GENE id="G1" spans="1620~1625" text="HDAC6" location="result" />
+<GENE id="G2" spans="1629~1633" text="TAK1" location="result" />
+<GENE id="G3" spans="1642~1647" text="HDAC6" location="result" />
+<GENE id="G4" spans="1653~1657" text="TAK1" location="result" />
+<GENE id="G5" spans="1779~1784" text="HDAC6" location="result" />
+<GENE id="G6" spans="1789~1793" text="TAK1" location="result" />
+<GENE id="G7" spans="1820~1825" text="HDAC6" location="result" />
+<GENE id="G8" spans="1854~1859" text="HDAC6" location="result" />
+<GENE id="G9" spans="1888~1892" text="TAK1" location="result" />
+<GENE id="G10" spans="1920~1924" text="TAK1" location="result" />
+<GENE id="G11" spans="2585~2590" text="HDAC6" location="result" />
+<GENE id="G12" spans="2636~2640" text="CD68" location="result" />
+<GENE id="G13" spans="2684~2689" text="CD163" location="result" />
+<GENE id="G14" spans="5567~5573" text="ADAM17" location="result" />
+<GENE id="G15" spans="5562~5566" text="TACE" location="result" />
+<GENE id="G16" spans="6394~6399" text="HDAC6" location="result" />
+<GENE id="G17" spans="6405~6409" text="TAK1" location="result" />
+<GENE id="G18" spans="6572~6576" text="TAK1" location="result" />
+<GENE id="G19" spans="6956~6960" text="CD11" location="result" />
+<GENE id="G20" spans="7013~7017" text="CD86" location="result" />
+<GENE id="G21" spans="7078~7083" text="CD206" location="result" />
+<GENE id="G22" spans="7695~7700" text="GAPDH" location="result" />
+<GENE id="G23" spans="7788~7793" text="HDAC6" location="result" />
+<GENE id="G24" spans="7833~7838" text="HDAC6" location="result" />
+<GENE id="G25" spans="7879~7884" text="GAPDH" location="result" />
+<GENE id="G26" spans="7925~7930" text="GAPDH" location="result" />
+<GENE id="G27" spans="7969~7974" text="IL-6R" location="result" />
+<GENE id="G28" spans="8014~8019" text="IL-6R" location="result" />
+<GENE id="G29" spans="8059~8064" text="IL-6R" location="result" />
+<GENE id="G30" spans="8106~8111" text="IL-6R" location="result" />
+<GENE id="G31" spans="8150~8155" text="CD206" location="result" />
+<GENE id="G32" spans="8196~8201" text="CD206" location="result" />
+<GENE id="G33" spans="8242~8246" text="CD86" location="result" />
+<GENE id="G34" spans="8288~8292" text="CD86" location="result" />
+<GENE id="G35" spans="8333~8338" text="ARG-1" location="result" />
+<GENE id="G36" spans="8378~8383" text="ARG-1" location="result" />
+<GENE id="G37" spans="8424~8428" text="INOS" location="result" />
+<GENE id="G38" spans="8470~8474" text="INOS" location="result" />
+<GENE id="G39" spans="8516~8521" text="TNF-α" location="result" />
+<GENE id="G40" spans="8559~8564" text="TNF-α" location="result" />
+<GENE id="G41" spans="8602~8607" text="IL-10" location="result" />
+<GENE id="G42" spans="8647~8652" text="IL-10" location="result" />
+<GENE id="G43" spans="8880~8886" text="HDAC6 " location="result" />
+<GENE id="G44" spans="9172~9177" text="HDAC6" location="result" />
+<GENE id="G45" spans="9570~9575" text="HDAC6" location="result" />
+<GENE id="G46" spans="9652~9656" text="TAK1" location="result" />
+<GENE id="G47" spans="9753~9757" text="TAK1" location="result" />
+<GENE id="G48" spans="9773~9777" text="TAK1" location="result" />
+<GENE id="G49" spans="9791~9796" text="HDAC6" location="result" />
+<GENE id="G50" spans="9810~9815" text="HDAC6" location="result" />
+<GENE id="G51" spans="9848~9852" text="ERK1" location="result" />
+<GENE id="G52" spans="9870~9874" text="ERK1" location="result" />
+<GENE id="G53" spans="9890~9896" text="ADAM17" location="result" />
+<GENE id="G54" spans="9911~9914" text="p38" location="result" />
+<GENE id="G55" spans="9930~9933" text="p38" location="result" />
+<GENE id="G56" spans="10009~10014" text="STAT3" location="result" />
+<GENE id="G57" spans="10035~10040" text="STAT3" location="result" />
+<GENE id="G58" spans="10110~10115" text="IL-6R" location="result" />
+<GENE id="G59" spans="10189~10195" text="ADAM17" location="result" />
+<GENE id="G60" spans="10298~10303" text="GAPDH" location="result" />
+<GENE id="G61" spans="10629~10634" text="HDAC6" location="result" />
+<DISEASE id="D0" spans="19~31" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="71~77" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="126~138" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="199~205" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="326~332" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="551~563" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="2014~2026" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="3130~3142" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="6718~6730" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="10687~10699" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

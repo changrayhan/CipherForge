@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Periodontitis is a bacteria-induced inflammatory disease of the oral cavity and has a high worldwide prevalence (Adler et al.,  2013 ), affecting ~50% of the adults and more than 60% of the people over 65 years of age (Chapple et al.,  2013 ). Periodontitis is not exclusively injurious to oral health; indeed, many potential associations between systemic diseases and periodontal disease have been highlighted (Loos,  2006 ).
+The subgingival polymicrobial communities of individuals with and without periodontitis are now well-defined using 16S RNA (Griffen et al.,  2012 ; Abusleme et al.,  2013 ; Kirst et al.,  2015 ) and it has been shown that microbial communities are more closely associated with periodontal disease than any individual bacterial species (Abusleme et al.,  2013 ). Several studies have investigated the association between host immune responses and pathogens such as  Porphyromonas gingivalis  (Jiao et al.,  2013 ; Hajishengallis and Lamont,  2014 ; Maekawa et al.,  2014 ),  Streptococcus gordonii , and  T. forsythia  (Kesavalu et al.,  2007 ; Polak et al.,  2009 ; Daep et al.,  2011 ; Kinney et al.,  2011 ; Orth et al.,  2011 ). However, the oral microbiome is not limited to only three species and the complex impact of the various bacteria on periodontal disease is more complicated than the study of single bacterium (He et al.,  2015 ).
+It was initially thought that pathogenic bacteria were responsible for periodontitis, but it is now known that the sole presence of the pathogens is not sufficient for tissue destruction and that human microbiome dysbiosis and host inflammatory dysregulation play important roles in periodontal disease (Pihlstrom et al.,  2005 ; Darveau,  2010 ). Indeed, the host response to bacteria triggers the immune cells and alters the balance between anti-inflammatory and pro-inflammatory cytokines, thereby contributing to disease progression (Darveau,  2010 ). Nevertheless, the exact mechanisms and contribution of the various factors are still unclear (Human Microbiome Project Consortium,  2012 ). Several cytokines playing major roles in periodontal disease have been identified (Sexton et al.,  2011 ; Korte and Kinney,  2016 ) and used as potential biomarkers for periodontitis and periodontal disease progression (Kinney et al.,  2014 ). Interleukin (IL)-1β (Gursoy et al.,  2011 ), IL-6 (Nibali et al.,  2012 ), IL-8 (Lagdive et al.,  2013 ), and C-reactive protein (CRP; Bansal et al.,  2014 ) have been shown to play important roles in periodontal disease. Nevertheless, a comprehensive understanding of the roles of various cytokines and microbial communities in periodontitis is lacking (Casanova and Abel,  2004 ; Lee and Mazmanian,  2010 ). Therefore, whole microbial and cytokine profiles should be used for screening and would be more appropriate for predicting periodontitis development, diagnosis, and progression than using single cytokines or bacteria (Gursoy et al.,  2011 ; Kinney et al.,  2011 ; Belstrom et al.,  2014 ).
+Therefore, the present study was undertaken to examine the combined profile of microbiome and cytokines among individuals with or without periodontitis. Aboriginal volunteers with similar habits were selected from Meipo Village in Jishi Shan (Gansu, China) in order to minimize the habitat bias on oral microbial communities (Seow,  2012 ; Wang et al.,  2012 ). To do so, 454 pyrosequencing and RayBio Quantibody Arrays were used (1) to detect the microbiomes and inflammatory cytokines of gingival crevicular fluid (GCF) in volunteers with periodontitis and healthy volunteers, and (2) to analyze the correlations between microbiome composition and inflammatory cytokines. This study extends our understanding of the associated polymicrobial community and cytokines composition in periodontitis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2312~2331" text="Interleukin (IL)-1β" location="background" />
+<GENE id="G1" spans="2357~2361" text="IL-6" location="background" />
+<GENE id="G2" spans="2387~2391" text="IL-8" location="background" />
+<GENE id="G3" spans="2422~2440" text="C-reactive protein" location="background" />
+<GENE id="G4" spans="2442~2445" text="CRP" location="background" />
+<DISEASE id="D0" spans="1~14" text="Periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="245~258" text="Periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="370~389" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="502~515" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="705~724" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1276~1295" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1443~1456" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1655~1674" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="2237~2250" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2255~2274" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2513~2532" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2845~2858" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="3150~3163" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="3553~3566" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="3794~3807" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="2489~2509" text="play important roles" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="Interleukin (IL)-1β" diseaseID="D10" diseaseText="periodontal disease" relationID="R0" relationText="play important roles" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="IL-6" diseaseID="D10" diseaseText="periodontal disease" relationID="R0" relationText="play important roles" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="IL-8" diseaseID="D10" diseaseText="periodontal disease" relationID="R0" relationText="play important roles" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="C-reactive protein" diseaseID="D10" diseaseText="periodontal disease" relationID="R0" relationText="play important roles" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="CRP" diseaseID="D10" diseaseText="periodontal disease" relationID="R0" relationText="play important roles" />
+</TAGS>
+</Genomics_ConceptTask>

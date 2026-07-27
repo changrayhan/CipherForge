@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Leptospirosis is an emerging zoonosis that is caused by pathogenic spirochetes of the genus  Leptospira . Approximately 1.03 million cases of the disease occur in humans worldwide, with approximately 60,000 deaths annually [ 1 ]. Many species of wild and domestic animals are leptospirosis reservoir hosts and eliminate leptospires to the environment via urinary shedding. Infection may result from direct contact with carrier animals or indirect contact with contaminated soil and water [ 2 , 3 ].
+Human leptospirosis ranges from an asymptomatic or self-limited febrile illness (80 to 90% of cases) to a life-threatening illness (5 to 10% of cases). The life-threatening manifestation is characterized by Weil´s syndrome (renal failure, hemorrhage and jaundice) or severe pulmonary hemorrhagic syndrome [ 2 – 5 ].
+Leptospirosis-induced acute kidney injury (AKI) is typically nonoliguric at the beginning of renal failure evolution or during mild forms with high frequency of hypokalemia [ 4 ]. In a prior study, higher serum potassium levels were observed in patients with more severe renal dysfunction concomitant with rhabdomyolysis. In addition, an association between creatine phosphokinase levels (CPK) (a marker of muscle injury) and maximum serum creatinine levels has been reported. This suggests that rhabdomyolysis is associated with severe AKI in leptospirosis [ 6 ].
+Various bacterial, viral, fungal and protozoal infections lead to rhabdomyolysis [ 7 – 10 ], but the mechanism of muscle damage has not been established for many infections, including leptospirosis. Muscle injury may result from a direct pathogen invasion of skeletal muscle, tissue hypoxia, high lysosomal enzymatic activity or the release of toxins [ 11 , 12 ]. The identification of proteins that act as toxins in the host during leptospiral infection is essential to understanding the pathophysiological mechanisms of rhabdomyolysis and the mechanisms that contribute to severity of AKI.
+The subsurface lipoprotein LipL32 is present in pathogenic leptospires, and it is the most abundantly expressed protein (40,000 copies per cell) [ 13 , 14 ]. However, the role of this protein in the pathogenesis of leptospirosis remains unknown [ 15 ]. Lp25 is a putative outer membrane lipoprotein of pathogenic  Leptospira  spp., but its function is not known. No sequences similar to this protein were identified in saprophytic  Leptospira  spp. [ 16 – 18 ].
+The present study investigated whether the LipL32 and Lp25 proteins expressed by pathogenic  Leptospira  were associated with rhabdomyolysis and oliguric AKI in guinea pigs. To our knowledge, this study is the first characterization of a leptospiral protein associated with renal and muscular manifestations of leptospirosis.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1~14" text="Leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="277~290" text="leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="506~519" text="leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="816~829" text="Leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D4" spans="1360~1373" text="leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D5" spans="1565~1578" text="leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D6" spans="2746~2759" text="leptospirosis" location="result" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,6 @@
+2026-07-24 16:02:22,652 [INFO] attack_suite: Log file: SLG-attack-test/results/run_20260724_160222/attack_test.log
+2026-07-24 16:02:22,652 [INFO] attack_suite: Using synthetic data mode
+2026-07-24 16:02:22,652 [INFO] attack_suite: ============================================================
+2026-07-24 16:02:22,652 [INFO] attack_suite: Protocol initialisation (simplified mode)
+2026-07-24 16:02:22,652 [INFO] attack_suite: ============================================================
+2026-07-24 16:02:24,879 [ERROR] attack_suite: Protocol init failed: TRECQCDataset.__init__() got an unexpected keyword argument 'seed'

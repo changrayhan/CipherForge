@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Colorectal cancer (CRC) is the third most deadly type of cancer in the United States  1 . Current methods of treatment for CRC include surgical resection, radiotherapy, and adjuvant chemotherapy  2 . 5-fluorouracil (5FU) is a conventional chemotherapy drug used for the clinical treatment of CRC that induces cell death by hindering the nucleotide metabolism of CRC cells  3 . However, regardless of whether 5FU is used alone or in combination, drug resistance develops as treatment time increases  4 ,  5 . Therefore, there is a very urgent need to solve 5FU resistance or identify a more effective treatment for CRC.
+The close relationship between abnormal glucose metabolism and drug resistance is a hallmark of tumors  6 . Several key enzymes involved in glucose metabolism, including PKM2, PDK1, and IDH1, are also involved in CRC development and the induction of chemotherapy resistance  7 - 9 . Isocitrate dehydrogenase 1 (IDH1) catalyzes the production of α-ketoglutarate (α-KG) from the substrate isocitrate, which is accompanied by a reduction in NADPH  10 ,  11 . IDH1 expression is elevated in various tumor types, including osteosarcoma, lung cancer, or gastric cancer, compared with normal tissues  12 - 14 . The function activating mutation of IDH1 is also associated with the development of glioma and the tolerance of targeted therapy  15 . As a metabolite of IDH1, α-KG is essential for maintaining dioxygenase activity in the cytoplasm  16 . NADPH participates in defense against adverse oxidative reactions in cells, such as reactive oxygen species (ROS) induced by chemotherapy drugs  17 . Therefore, IDH1 and its associated metabolites are beneficial for the maintainence of tumor survival and the harsh external environment. At present, the commercial IDH1 inhibitor ivosidenib (also known as AG-120) has been applied to clinical trials to treat cholangiocarcinoma and leukemia  18 ,  19 . The role of IDH1 in the development of resistance to 5FU or other chemotherapeutic drugs in CRC has not been revealed yet.
+Exosomes are nanoscale extracellular vesicles secreted by various types of cells that are widely involved in intercellular communication. They deliver their contents (including DNA, RNA, and proteins) providing instructions from the source cell to the recipient cell  20 . Among tumor cells, exosomes are involved in tumorigenesis, invasion, immune response, and chemotherapy resistance and can regulate the tumor microenvironment  21 . For example, exosomal miR-105 secreted by breast cancer cells can reprogram glucose metabolism in cancer-associated fibroblasts to support tumor growth  22 . In CRC cells, exosomal miR-128-3p enhanced chemosensitivity to oxaliplatin  23 . Our previous study found that exosomes derived from cisplatin-resistant lung cancer cells delivered PKM2 to reprogram glucose metabolism in sensitive cells and transmit drug resistance to sensitive cells  24 . In CRC cells, the involvement of exosomes in cell metabolism and drug resistance development is not yet fully understood.
+In this study, we found that IDH1 was highly expressed in CRC tissues and was the driver of 5FU resistance in CRC cells. Proteomics and cytology analyses were conducted to verify that 5FU-resistant CRC cells secreted exosomes that encapsulated high levels of IDH1. These exosomes derived from drug-resistant cells increased the resistance of sensitive cells to 5FU by reprogramming the reducing internal environment of sensitive cells. Our results elucidated the role of exosomal IDH1 in 5FU resistance in CRC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="790~794" text="PKM2" location="background" />
+<GENE id="G1" spans="796~800" text="PDK1" location="background" />
+<GENE id="G2" spans="806~810" text="IDH1" location="background" />
+<GENE id="G3" spans="903~929" text="Isocitrate dehydrogenase 1" location="background" />
+<GENE id="G4" spans="931~935" text="IDH1" location="background" />
+<GENE id="G5" spans="1076~1080" text="IDH1" location="background" />
+<GENE id="G6" spans="1260~1264" text="IDH1" location="background" />
+<GENE id="G7" spans="1378~1382" text="IDH1" location="background" />
+<GENE id="G8" spans="1623~1627" text="IDH1" location="background" />
+<GENE id="G9" spans="1776~1780" text="IDH1" location="background" />
+<GENE id="G10" spans="1926~1930" text="IDH1" location="background" />
+<GENE id="G11" spans="2813~2817" text="PKM2" location="background" />
+<GENE id="G12" spans="3074~3078" text="IDH1" location="result" />
+<GENE id="G13" spans="3304~3308" text="IDH1" location="result" />
+<GENE id="G14" spans="3525~3529" text="IDH1" location="result" />
+<DISEASE id="D0" spans="1~18" text="Colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="20~23" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="58~64" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="124~127" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="293~296" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="363~366" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="615~618" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="833~836" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1138~1150" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1152~1163" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1168~1182" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1308~1314" text="glioma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1870~1888" text="cholangiocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1893~1901" text="leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2006~2009" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2516~2529" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2572~2578" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D17" spans="2635~2638" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2785~2796" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2926~2929" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3103~3106" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3155~3158" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3243~3246" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3551~3554" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="870~893" text="chemotherapy resistance" location="background" relation="therapy resistance" />
+<RELATION id="R2" spans="1081~1103" text="expression is elevated" location="background" relation="increased expression" />
+<RELATION id="R3" spans="1228~1256" text="function activating mutation" location="background" relation="causative activation" />
+<RELATION id="R4" spans="1293~1304" text="development" location="background" relation="pathological role" />
+<RELATION id="R5" spans="837~848" text="development" location="background" relation="pathological role" />
+<RELATION id="R6" spans="3083~3099" text="highly expressed" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="PKM2" diseaseID="D7" diseaseText="CRC" relationID="R5" relationText="development" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="PKM2" diseaseID="D7" diseaseText="CRC" relationID="R1" relationText="chemotherapy resistance" />
+<ENTITY_LINKING id="E2" geneID="G1" geneText="PDK1" diseaseID="D7" diseaseText="CRC" relationID="R5" relationText="development" />
+<ENTITY_LINKING id="E3" geneID="G1" geneText="PDK1" diseaseID="D7" diseaseText="CRC" relationID="R1" relationText="chemotherapy resistance" />
+<ENTITY_LINKING id="E4" geneID="G2" geneText="IDH1" diseaseID="D7" diseaseText="CRC" relationID="R5" relationText="development" />
+<ENTITY_LINKING id="E5" geneID="G2" geneText="IDH1" diseaseID="D7" diseaseText="CRC" relationID="R1" relationText="chemotherapy resistance" />
+<ENTITY_LINKING id="E6" geneID="G5" geneText="IDH1" diseaseID="D8" diseaseText="osteosarcoma" relationID="R2" relationText="expression is elevated" />
+<ENTITY_LINKING id="E7" geneID="G5" geneText="IDH1" diseaseID="D9" diseaseText="lung cancer" relationID="R2" relationText="expression is elevated" />
+<ENTITY_LINKING id="E8" geneID="G5" geneText="IDH1" diseaseID="D10" diseaseText="gastric cancer" relationID="R2" relationText="expression is elevated" />
+<ENTITY_LINKING id="E9" geneID="G6" geneText="IDH1" diseaseID="D11" diseaseText="glioma" relationID="R3" relationText="function activating mutation" />
+<ENTITY_LINKING id="E10" geneID="G6" geneText="IDH1" diseaseID="D11" diseaseText="glioma" relationID="R4" relationText="development" />
+<ENTITY_LINKING id="E11" geneID="G12" geneText="IDH1" diseaseID="D20" diseaseText="CRC" relationID="R6" relationText="highly expressed" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+1.1.
+Endocannabinoid System
+The endocannabinoid system (ECS) is a lipid signaling system which includes the cannabinoid receptors, the endogenous lipid ligands (endocannabinoids), and the enzymatic machinery for their synthesis and inactivation [ 1 , 2 ]. It is a highly conserved system along the phylogeny and its better known and studied function is the modulation of neurotransmission [ 3 - 5 ]. In the central nervous system it is involved in other processes like plasticity and hippocampal neurogenesis [ 6 ], neural progenitor cells differentiation [ 7 ], psychiatric disorders [ 8 ], emotions [ 9 ], anxiety, stress [ 10 , 11 ], neuroprotection (reviewed in [ 12 ]), antinociception [ 13 ] and immunomodulation [ 14 ]. This review will highlight what is currently known regarding diverse cannabinoid modulation of signal transduction and synaptic transmission, interactions with hormones and other neuromodulators [ 15 ], and the central regulation of energy balance [ 16 ], as well as reward and addiction pathways [ 17 , 18 ].
+This leads to the idea that modifications in the ECS signaling could be a very useful tool for future treatments of a variety of different diseases and disorders. There are many current studies and clinical trials evaluating cannabinoid compounds for liver disease [ 19 ], multiple sclerosis [ 20 ], gastric cancer [ 21 ] or Huntington disease [ 22 ] that underscore the potential therapeutic utility of cannabinoids-like compounds.
+1.2.
+Endocannabinoid Compounds
+Endocannabinoid compounds are amides, esters and ethers of long-chain polyunsaturated fatty acids that are synthesized on demand [ 2 , 23 ]. N-arachidonoylethanolamine or anandamide (AEA) and 2-arachidonoylglycerol (2-AG) are the most studied endocannabinoids and were discovered first by Devane  et al.  [ 24 ], and Mechoulam  et al.  [ 25 ] and Sugiura  et al.  [ 26 ], respectively. Since then, other endocannabinoids agonists have been identified; including 2-arachydonyl-glyceril-ether (noladin ether) [ 27 ]; O-arachydonoyl-ethanolamine (virodhamine) [ 28 ]; N-arachidonoyl-dopamine (NADA) [ 29 ]; N-oleoylethanolamine (OEA) and palmitoylethanolamide (PEA) [ 30 ]. However, OEA and PEA are not strictly considered endocannabinoids because they do not target the cannabinoid receptors.
+Due to their lipophilic structure, endocannabinoids cannot be stored in vesicles. Instead they are synthesized and released when needed, “on demand” ([ 2 , 3 ], recently reviewed in [ 31 ]). As such they are not considered “classical neurotransmitters” but they play a very important role in synaptic transmission and neuromodulation, particularly in glutamatergic and GABAergic synapses [ 15 ]. Termination of endocannabinoid signaling is mediated by cellular reuptake and enzymatic hydrolysis. The reuptake transporter of endocannabinoids has not been indentified yet, there is only pharmacological evidence of its existence through the use of reuptake inhibitors (e.g., AM404; VDM11; OMDM-1; OMDM-2; UCM707) [see 16 for review]. However, the enzymes involved in the metabolism of AEA and 2-AG are better known and described. 2-AG is degraded by the monoacylglycerol lipase (MAGL) giving rise to free fatty acids and glycerol [ 32 ]. Fatty acid amide hydrolase (FAAH) is the main AEA hydrolase and it degrades this endocannabinoid to arachidonic acid and ethanolamine in a tissue dependent manner [ 33 ]. As we will discuss later, mutations in the FAAH genetic code may result in the dysregulation of endogenous cannabinoid signaling, thereby producing alterations in the myriad regulatory processes with which they are involved, within them, we will focus in FAAH role in addiction.
+1.3.
+Cannabinoid Receptors
+There are different types of receptors to which cannabinoid compounds can bind. These include the classical cannabinoid receptor subtypes (CB1 and CB2), as well as non-CB1/non-CB2 receptors, the transient receptor potential cation channel subfamily V member 1 (TRPV-1), peroxisome proliferator-activated receptors (PPAR), and the orphan receptors GPR55 and GPR119 (see [ 34 ] for review). The activation of TRPV-1 by endocannabinoids results in the modification of intracellular calcium levels [ 34 ]. OEA and PEA can bind to PPARα, which then increases the synthesis of neurosteroids [ 35 ]. GPR55 is mainly activated by AEA and PEA [ 36 ] and its activation also leads to increases in intracellular calcium [ 37 ]. Finally, GPR119 binds OEA and PEA, which then activates the adenylate cyclase (AC) leading to increases in the levels of cAMP [ 38 , 39 ].
+  summarizes some of the most recent studies regarding the implications of these receptors in aspects such as energy balance, eating disorders or addiction and drug abuse.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3145~3168" text="monoacylglycerol lipase" location="background" />
+<GENE id="G1" spans="3170~3174" text="MAGL" location="background" />
+<GENE id="G2" spans="3257~3261" text="FAAH" location="background" />
+<GENE id="G3" spans="3443~3447" text="FAAH" location="background" />
+<GENE id="G4" spans="3655~3659" text="FAAH" location="background" />
+<GENE id="G5" spans="3845~3848" text="CB1" location="background" />
+<GENE id="G6" spans="3853~3856" text="CB2" location="background" />
+<GENE id="G7" spans="3874~3877" text="CB1" location="background" />
+<GENE id="G8" spans="3882~3885" text="CB2" location="background" />
+<GENE id="G9" spans="3901~3965" text="transient receptor potential cation channel subfamily V member 1" location="background" />
+<GENE id="G10" spans="3967~3973" text="TRPV-1" location="background" />
+<GENE id="G11" spans="4053~4058" text="GPR55" location="background" />
+<GENE id="G12" spans="4063~4069" text="GPR119" location="background" />
+<GENE id="G13" spans="4113~4119" text="TRPV-1" location="background" />
+<GENE id="G14" spans="4232~4237" text="PPARα" location="background" />
+<GENE id="G15" spans="4299~4304" text="GPR55" location="background" />
+<GENE id="G16" spans="4432~4438" text="GPR119" location="background" />
+<GENE id="G17" spans="4544~4548" text="cAMP" location="background" />
+<DISEASE id="D0" spans="1289~1302" text="liver disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1311~1329" text="multiple sclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1338~1352" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="4688~4703" text="eating disorder" location="background" disease1="disease of mental health" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

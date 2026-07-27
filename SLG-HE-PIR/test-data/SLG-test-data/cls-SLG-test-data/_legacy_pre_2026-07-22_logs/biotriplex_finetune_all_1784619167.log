@@ -1,0 +1,28 @@
+2026-07-21 15:32:47,963 [INFO] biotriplex_finetune: Logging to /root/autodl-tmp/slg-biotriplex-classification/logs/biotriplex_finetune_all_1784619167.log
+2026-07-21 15:32:47,964 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 15:32:47,964 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:32:47,964 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 15:32:47,964 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:32:47,964 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 15:32:50,120 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 15:32:58,027 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 7.9s
+2026-07-21 15:33:00,601 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 15:33:00,613 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 15:33:03,085 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:33:12,210 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 15:33:12,210 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 15:33:12,211 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 15:33:12,211 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:33:12,756 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 15:33:12,756 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 15:33:12,759 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 15:33:12,772 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 15:33:12,772 [INFO] biotriplex_finetune: Stage 0 complete in 24.8s
+2026-07-21 15:33:12,772 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:33:12,772 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 15:33:12,772 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:33:13,799 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...

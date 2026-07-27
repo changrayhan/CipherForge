@@ -1,0 +1,27 @@
+2026-07-22 15:11:52,234 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-22 15:15:34,584 [INFO] src.core.bfv_privselect_v2_adapter: Saved encrypted DB to /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin (16825.8 MB)
+2026-07-22 15:15:34,731 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-22 15:15:34,732 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-22 15:15:34,732 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-22 15:15:34,732 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+2026-07-22 15:15:35,165 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 183.8s
+2026-07-22 15:15:35,165 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-22 15:15:35,182 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-22 15:15:35,182 [INFO] biotriplex_finetune: Stage 0 complete in 222.9s
+2026-07-22 15:15:36,195 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-22 15:15:36,265 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-22 15:15:36,265 [INFO] biotriplex_finetune: [Stage1] Building BFV backend (pk_path=/root/autodl-tmp/slg-bfv-cache/bfv_pk.bin)...
+2026-07-22 15:15:50,267 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-22 15:15:50,379 [INFO] src.core.s3pir_hints: Saved hint table to /root/autodl-tmp/slg-bfv-cache/s3pir_hints/hint_table.json
+2026-07-22 15:15:50,379 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-22 15:17:08,130 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=6, batch=1, lr=0.0001, wd=0
+2026-07-23 12:01:17,230 [INFO] src.training.trainer: Epoch 0: train_loss_proxy=28160.0000 | val_ce_loss=14.2565 | val_micro_F1=0.0000 (P=0.0000 R=0.0000 Acc=0.0000) | val_macro_F1=0.0000 | val_weighted_F1=0.0000 | n_samples=134
+2026-07-23 12:01:17,230 [INFO] src.training.trainer:   [BioTriplex Classification] val_bt_micro_f1=0.0000 | val_bt_macro_f1=0.0000 | val_bt_weighted_f1=0.0000 | val_bt_multilabel_f1=0.0000 | val_bt_macro_roc_auc=0.0000
+2026-07-24 08:42:40,046 [INFO] src.training.trainer: Epoch 1: train_loss_proxy=28160.0000 | val_ce_loss=14.8386 | val_micro_F1=0.0000 (P=0.0000 R=0.0000 Acc=0.0000) | val_macro_F1=0.0000 | val_weighted_F1=0.0000 | n_samples=134
+2026-07-24 08:42:40,046 [INFO] src.training.trainer:   [BioTriplex Classification] val_bt_micro_f1=0.0000 | val_bt_macro_f1=0.0000 | val_bt_weighted_f1=0.0000 | val_bt_multilabel_f1=0.0000 | val_bt_macro_roc_auc=0.0000
+2026-07-25 05:20:38,176 [INFO] src.training.trainer: Epoch 2: train_loss_proxy=28160.0000 | val_ce_loss=14.8895 | val_micro_F1=0.0000 (P=0.0000 R=0.0000 Acc=0.0000) | val_macro_F1=0.0000 | val_weighted_F1=0.0000 | n_samples=134
+2026-07-25 05:20:38,176 [INFO] src.training.trainer:   [BioTriplex Classification] val_bt_micro_f1=0.0000 | val_bt_macro_f1=0.0000 | val_bt_weighted_f1=0.0000 | val_bt_multilabel_f1=0.0000 | val_bt_macro_roc_auc=0.0000
+2026-07-26 02:12:49,761 [INFO] src.training.trainer: Epoch 3: train_loss_proxy=28160.0000 | val_ce_loss=14.5938 | val_micro_F1=0.0000 (P=0.0000 R=0.0000 Acc=0.0000) | val_macro_F1=0.0000 | val_weighted_F1=0.0000 | n_samples=134
+2026-07-26 02:12:49,761 [INFO] src.training.trainer:   [BioTriplex Classification] val_bt_micro_f1=0.0000 | val_bt_macro_f1=0.0000 | val_bt_weighted_f1=0.0000 | val_bt_multilabel_f1=0.0000 | val_bt_macro_roc_auc=0.0000
+2026-07-26 23:09:25,190 [INFO] src.training.trainer: Epoch 4: train_loss_proxy=28160.0000 | val_ce_loss=14.7775 | val_micro_F1=0.0000 (P=0.0000 R=0.0000 Acc=0.0000) | val_macro_F1=0.0000 | val_weighted_F1=0.0000 | n_samples=134
+2026-07-26 23:09:25,191 [INFO] src.training.trainer:   [BioTriplex Classification] val_bt_micro_f1=0.0000 | val_bt_macro_f1=0.0000 | val_bt_weighted_f1=0.0000 | val_bt_multilabel_f1=0.0000 | val_bt_macro_roc_auc=0.0000

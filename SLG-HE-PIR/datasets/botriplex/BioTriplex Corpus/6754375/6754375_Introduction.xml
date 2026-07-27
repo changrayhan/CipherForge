@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Pancreatic adenocarcinoma (PAAD), one of the most prevailing malignant tumors in digestive system, is defined as one of the main culprits of cancer-associated mortality, which constitutes 1–2% of generalized malignancies, which results in more than 227,000 deaths each year worldwide 1 . Despite surgery is one of the appropriate therapeutic regimens for patients with pancreatic adenocarcinoma, but only 10–20% of patients can be surgically resected in view of lacking main signs or symptoms in the early stages and its aggressive malignant behavior 2 . Despite great efforts dedicated in the development of PAAD treatment, the prognosis of patients is far from satisfactory and the 5-year survival rate remains less than 5% 3 , 4 . Therefore, in-depth investigations on the potential molecular mechanism in PAAD progression and identification of the functional therapeutic targets for the therapy of PAAD are urgently needed.
+Long noncoding RNAs (lncRNAs) are a kind of RNA molecules longer than 200 nucleotides without protein-coding potential 5 . Accumulating evidence has exposed that lncRNAs are involved in the initiation and development of numerous malignancies, including pancreatic adenocarcinoma 6 , 7 . For example, long noncoding RNA CASC2 upregulates PTEN to suppress pancreatic adenocarcinoma metastasis by downregulating miR-21 8 . LncRNA SLCO4A1-AS1 promotes growth and invasion of bladder cancer through sponging miR-335-5p to upregulate OCT4 9 . LncRNA LINC00460 promoted colorectal cancer cells metastasis via sponging miR-939-5p 10 . Through using TCGA data, we determined that long intergenic nonprotein-coding RNA 1232 (LINC01232) is an lncRNA that is upregulated in PAAD samples and predicted poor prognosis. Thus, we chose LINC01232 for functional and mechanism analysis in PAAD cell lines.
+LncRNAs are crucial regulators for their nearby genes in human cancers 11 – 13 . In our current study, we identified that LINC01232 positively regulated its nearby gene transmembrane 9 superfamily member 2 (TM9SF2). A recent study has indicated that TM9SF2 acts as a novel oncogene in colorectal cancer 14 . Nevertheless, the participation of TM9SF2 in pancreatic carcinoma progression is vague. Through bioinformatics analysis and mechanism investigations, the positive regulatory effect of LINC01232 on TM9SF2 was determined in PAAD cell lines. Functionally, the oncogenic potential of LINC01232 and TM9SF2 was determined in PAAD cells. In vitro and in vivo rescue assays demonstrated the interaction between LINC01232 and TM9SF2 in PAAD tumorigenesis. Taken together, our present study revealed that a novel molecular pathway in PAAD cellular activities, thus providing potential therapeutic targets in PAAD treatment.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1266~1270" text="PTEN" location="background" />
+<GENE id="G1" spans="1986~2022" text="transmembrane 9 superfamily member 2" location="result" />
+<GENE id="G2" spans="2024~2030" text="TM9SF2" location="result" />
+<GENE id="G3" spans="2067~2073" text="TM9SF2" location="result" />
+<GENE id="G4" spans="2160~2166" text="TM9SF2" location="result" />
+<GENE id="G5" spans="2322~2328" text="TM9SF2" location="result" />
+<GENE id="G6" spans="2419~2425" text="TM9SF2" location="result" />
+<DISEASE id="D0" spans="1~26" text="Pancreatic adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="28~32" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="142~148" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="370~395" text="pancreatic adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="610~614" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="810~814" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="903~907" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1182~1207" text="pancreatic adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1283~1308" text="pancreatic adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1400~1414" text="bladder cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1492~1509" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1691~1695" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1800~1804" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1880~1886" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D14" spans="2102~2119" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2170~2190" text="pancreatic carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2347~2351" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2444~2448" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2552~2556" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2649~2653" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="2723~2727" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1274~1282,1309~1319" text="suppress ... metastasis" location="background" relation="modulator decrease disease" />
+<RELATION id="R1" spans="2090~2098" text="oncogene" location="background" relation="causative mutation" />
+<RELATION id="R2" spans="2382~2401" text="oncogenic potential" location="result" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="PTEN" diseaseID="D8" diseaseText="pancreatic adenocarcinoma" relationID="R0" relationText="suppress ... metastasis" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="TM9SF2" diseaseID="D14" diseaseText="colorectal cancer" relationID="R1" relationText="oncogene" />
+<ENTITY_LINKING id="E2" geneID="G6" geneText="TM9SF2" diseaseID="D17" diseaseText="PAAD" relationID="R2" relationText="oncogenic potential" />
+</TAGS>
+</Genomics_ConceptTask>

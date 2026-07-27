@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Comparison of clinicopathological characteristics between patients with PaC with/without DM
+To identify the possible features of DM in patients with PaC, we compared the clinicopathologic characteristics of patients with PaC with/without DM. In the DM group, the median duration of DM was 3.0 (range, 0.1-30.0) years. As shown in  Table 1 , the blood levels of fasting blood glucose (P=0.001), sodium (P=0.003), total cholesterol (P=0.002), and low-density lipoprotein cholesterol (P=0.045) were significantly higher in the DM group than in the non-DM group, suggesting dysregulated glucose and lipid metabolism in patients with PaC and DM. In addition, the DM group included more women (58.3  vs  25.0%, P=0.02), and the patients in the non-DM group were taller (P=0.03), without a difference in weight (P=0.26). There were no differences between the two groups regarding smoking, alcohol, other biochemical indicators, tumor stage, and Eastern Cooperative Oncology Group (ECOG) score (all P>0.05). The proportion of patients with a P-gp score ≥85 was higher in the DM group than in the non-DM group (75.0  vs  25.0%, P<0.001).
+P-gp, but not CYP3A4, was significantly upregulated in duodenum tissues of patients with PaC and DM
+Since P-gp and CYP3A4 are able to form an intestinal absorption barrier that is closely associated with multidrug resistance ( 17 ), we sought to investigate the possible association of P-gp and CYP3A4 expression with the presence of DM in patients with PaC. Based on the IHC results for these two proteins in duodenum tissue samples of patients with PaC with/without DM ( Figure 1 ), the mean IHC score of duodenal P-gp in the DM group was significantly higher than that in the non-DM group ( Table 2 ;  Figure 2A-F ), whereas the mean IHC score of duodenal CYP3A4 was not significantly different between the two groups ( Table 2 ;  Figure 3A-F ).
+
+ Table 2 Duodenal expression score (1-100) of CYP3A4 and P-gp proteins in patients with pancreatic cancer with or without diabetes mellitus (DM). DM (n=24) Non-DM (n=24) P P-gp 92.50 (20.00, 100.00) 65.00 (10.00, 95.00) <0.001 CYP3A4 80.00 (20.00, 100.00) 72.50 (0.00, 100.00) 0.312 t -test). CYP3A4: cytochrome P450 3A4; P-gp: P-glycoprotein. Data are reported as median (range) (Student's  
+
+DM and duodenal P-gp levels were not associated with the OS of patients with PaC
+The OS of patients with PaC and DM or high expression of P-gp (IHC score >85) was not significantly lower compared with that of patients without DM or with low expression of P-gp (P=0.291 and P=0.958) ( Figure 4 ). In addition, the multivariable Cox regression analysis showed that there was no association between other variables and survival in patients with PaC (data not shown). These data suggested that, at least in this cohort of patients, the presence of DM and high duodenal P-gp levels were not associated with the OS of patients with PaC.
+Cox analysis for death
+The univariate and multivariate Cox analyses were conducted. Triglycerides (HR=0777, 95%CI: 0.616-0.980, P=0.033) and ECOG=2 (HR=3.047, 95%CI: 1.098-8.459, P=0.032) were associated with mortality in the univariate analyses. In the multivariate analysis, no variable was associated with mortality.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1130~1134" text="P-gp" location="result" />
+<GENE id="G1" spans="1144~1150" text="CYP3A4" location="result" />
+<GENE id="G2" spans="1236~1240" text="P-gp" location="result" />
+<GENE id="G3" spans="1245~1251" text="CYP3A4" location="result" />
+<GENE id="G4" spans="1416~1420" text="P-gp" location="result" />
+<GENE id="G5" spans="1425~1431" text="CYP3A4" location="result" />
+<GENE id="G6" spans="1646~1650" text="P-gp" location="result" />
+<GENE id="G7" spans="1789~1795" text="CYP3A4" location="result" />
+<GENE id="G8" spans="1926~1932" text="CYP3A4" location="result" />
+<GENE id="G9" spans="1937~1941" text="P-gp" location="result" />
+<GENE id="G10" spans="2173~2179" text="CYP3A4" location="result" />
+<GENE id="G11" spans="2181~2200" text="cytochrome P450 3A4" location="result" />
+<GENE id="G12" spans="2202~2206" text="P-gp" location="result" />
+<GENE id="G13" spans="2208~2222" text="P-glycoprotein" location="result" />
+<GENE id="G14" spans="2290~2294" text="P-gp" location="result" />
+<GENE id="G15" spans="2412~2416" text="P-gp" location="result" />
+<GENE id="G16" spans="2529~2533" text="P-gp" location="result" />
+<GENE id="G17" spans="2839~2843" text="P-gp" location="result" />
+<DISEASE id="D0" spans="73~76" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="90~92" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="130~132" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="150~153" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="222~225" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="239~241" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="250~252" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="283~285" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="525~527" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="550~552" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="630~633" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="638~640" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="659~661" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="743~745" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D14" spans="1068~1070" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D15" spans="1093~1095" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D16" spans="1219~1222" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="1227~1229" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D18" spans="1464~1466" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D19" spans="1484~1487" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="1581~1584" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="1598~1600" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D22" spans="1658~1660" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D23" spans="1713~1715" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D24" spans="1968~1985" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="2002~2019" text="diabetes mellitus" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D26" spans="2021~2023" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D27" spans="2026~2028" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D28" spans="2040~2042" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D29" spans="2274~2276" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D30" spans="2351~2354" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="2379~2382" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="2387~2389" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D33" spans="2500~2502" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D34" spans="2716~2719" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="2818~2820" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D36" spans="2900~2903" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="1156~1181" text="significantly upregulated" location="result" relation="increased expression" />
+<RELATION id="R2" spans="2393~2408" text="high expression" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="P-gp" diseaseID="D16" diseaseText="PaC" relationID="R1" relationText="significantly upregulated" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="P-gp" diseaseID="D17" diseaseText="DM" relationID="R1" relationText="significantly upregulated" />
+<ENTITY_LINKING id="E2" geneID="G15" geneText="P-gp" diseaseID="D31" diseaseText="PaC" relationID="R2" relationText="high expression" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Dual inhibition of PI3K/Akt and Wnt/β-catenin signaling by SMA in colon cancer cells
+The hyperproliferation of colonic epithelium is one of the earliest changes observed during the tumorigenesis of CRC [ 27 , 28 ]. We investigated whether SMA suppresses colon cancer proliferation by using a colony formation assay in HT29 cells, which possess an  APC  mutation, and CT26 cells, which do not. SMA significantly inhibited colony formation by colon cancer cells in a concentration-dependent manner ( Fig 1A ). In the cell proliferation assay, the IC 50  (50% maximal inhibitory concentration) of SMA was lower in CT26 cells than in HT29 cells ( Table 1 ). However, the inhibitory effect of SMA at concentrations above 10 μM was greater in HT29 cells than in CT26 cells ( Fig 1B ). In HT29 colon cancer cells, as we previously reported in endothelial cells, phosphorylation of PI3K and its downstream signals, Akt and mTOR phosphorylation, were blocked by SMA ( Fig 1C ). However, 50 μM SMA did not suppress Akt phosphorylation completely to the vehicle-treated control level. Because SMA at the same concentration completely suppressed colony formation, the results imply that PI3K/Akt signaling was not the only pathway mediating the inhibitory action of SMA against colon cancer cell proliferation. To identify other possible signaling pathways mediating the anti-proliferative action of SMA, we examined the involvement of β-catenin, which is associated with CRC tumorigenesis, in SMA action. The β-catenin level is regulated by GSK3β, which is inhibited by PI3K/Akt. Treatment with GSK3β inhibitors, BIO or LiCl, under serum-starved conditions, induced the proliferations of colon cancer cells, CT26, HT29, and HCT116. These cell proliferations were suppressed by SMA ( Fig 1D and 1E ). The IC 50  of SMA in BIO- or LiCl-induced cell proliferation was higher than in serum-induced proliferation ( Table 1 ).
+
+           10.1371/journal.pone.0141753.t001 
+           Table 1 
+           50 ) of SMA in cancer cell proliferation. The half maximal inhibitory concentration (IC 
+           
+             
+           
+             
+                 
+                 
+                 
+                 
+               
+                 
+               
+                   50  (μM) IC 
+                 
+                   
+                 CT26 (WT APC, WT β-catenin) 
+                   HT29 (MT APC, WT β-catenin) 
+                   HCT116 (WT APC, MT β-catenin) 
+                   A549 (MT APC, WT β-catenin) 
+                 
+                   
+               
+                 
+               Serum-induced 
+                   18.2 
+                   30.2 
+                   25.1 
+                   13.5 
+                 
+                   
+                 BIO-induced 
+                   28.8 
+                   50.4 
+                   52.4 
+                   28.8 
+                 
+                   
+                 LiCl-induced 
+                   30.9 
+                   50.1 
+                   50.1 
+                   28.1 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+Next, we found that SMA alters nuclear β-catenin level. Immunofluorescence staining with anti-β-catenin antibody and confocal microscopy demonstrated that cytosolic β-catenin was highly translocated to the nucleus after stimulation with serum ( Fig 2A ) or Wnt3α ( Fig 2B ) in HT29 cells. This nuclear translocation was significantly suppressed by SMA. In addition, Western blot analysis also demonstrated that serum-induced nuclear β-catenin accumulation was significantly suppressed by SMA. In fact, nuclear β-catenin was not detectable at SMA concentrations of 10 or 50 μM ( Fig 2C ). In addition, total cellular β-catenin levels were decreased by SMA. Given that nuclear β-catenin binds to members of the TCF/LEF1 family of transcriptional factors to induce target gene expressions, we examined the effects of SMA on TCF/LEF1 transcriptional activity using a TCF/LEF reporter gene dual-luciferase assay. Treating reporter gene-transfected cells with SMA significantly inhibited Wnt3α (10 ng/mL)- or serum-enhanced TCF/LEF transcription activities ( Fig 2D ). Furthermore, Western blot analysis of β-catenin/TCF/LEF target gene expressions showed that SMA significantly suppressed the expressions of cyclin D1 and c-myc in HT29 cells ( Fig 2E ).
+Effect of SMA on tankyrase enzyme activity, axin levels, and β-catenin destruction complex
+The SMA-induced decrease in total β-catenin levels suggests that SMA enhances the activity of the β-catenin destruction complex. In fact, SMA increased the level of the phosphorylated form of β-catenin ( Fig 3A ). This increase in β-catenin phosphorylation in SMA-treated cells may have been achieved by increased GSK3β activity due to suppression of PI3K/Akt activity or by increased levels of tankyrase-regulated axin proteins. As expected, there was an inhibitory effect of SMA on PI3K/Akt, and SMA suppressed GSK3β phosphorylation in a concentration-dependent manner ( Fig 3A ). At the same time, SMA increased axin1 and axin2 levels ( Fig 3A ). Because axin levels are regulated by tankyrase, we also investigated whether increased axin levels in SMA-treated cells were due to tankyrase inhibition by comparing the effect of SMA to the effect of XAV939, which is a selective and potent tankyrase inhibitor. SMA showed a low level of inhibition of tankyrase enzyme activity (IC 50  of 50.1 μM and 15.5 μM for tankyrase 1 and 2, respectively) compared to XAV939 ( Fig 3B  and  Table 2 ). However, SMA strongly inhibited TCF/LEF transcription activity to almost the same extent as XAV939 ( Fig 3C ). The IC 50  values of SMA and XAV939 on TCF/LEF transcription activity were 39.8 nM and 28.1 nM, respectively ( Table 2 ).
+
+           10.1371/journal.pone.0141753.t002 
+           Table 2 
+           50  of SMA with respect to tankyrase and TCF/LEF transcription activities. The IC 
+           
+             
+           
+             
+                 
+                 
+                 
+               
+                 
+               
+                   50 
+ IC 
+                 
+                   
+                 Tankyrase 1 activity 
+                   Tankyrase 2 activity 
+                   TCF/LEF transcription activity 
+                 
+                   
+               
+                 
+               SMA 
+                   50.1 μM 
+                   15.5 μM 
+                   39.8 nM 
+                 
+                   
+                 XAV939 
+                   * 
+ 11 nM 
+                   * 
+ 4 nM 
+                   28.1 nM 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+           17 ]. *Previously reported [ 
+             
+               
+           
+             
+        
+SMA inhibited tumor growth in syngenic and xenograft mouse colon cancer models
+To investigate the  in vivo  antitumor effect of SMA and its potential use in combination chemotherapy, we used a CT26 syngenic tumor model and a HT29 xenograft model in mice and compared the effects of SMA with the effects of 5-FU, which is commonly used to treat solid tumors, including colon cancer (drug treatment scheme is shown in  Fig 4A ). In the CT26 syngenic tumor model, SMA dose-dependently suppressed tumor growth in a manner similar to 5-FU ( Fig 4B and 4C ). However, 5-FU at 50 mg/kg showed obvious toxic effects, such as hair loss and significant body weight reduction at the fourth day of treatment ( Fig 4D ). Unlike 5-FU, SMA at the same dose did not produce such changes. Similarly, in the HT29 xenograft tumor model, SMA was found to have a dose-dependent anti-tumor effect ( Fig 4E ). In addition, when SMA (50 mg/kg) was administered with low dose 5-FU (10 mg/kg), the effects were greater than those of 5-FU (10 mg/kg) or SMA (50 mg/kg) alone ( Fig 4D ), and SMA did not reduce body weight ( Fig 4F ).
+Anti-tumor effect of SMA alone and in combination with cisplatin in the A549 lung cancer xenograft model
+Next, we examined whether SMA could exert anti-proliferative activity in A549 human non-small cell lung cancer cells (NSCLC), which possess mutant APC and wild type β-catenin similar to HT29 colon cancer cells. Treatment with SMA inhibited A549 human lung cancer cell proliferation ( Fig 1 ), and the IC 50  value of SMA against serum- or GSK3β inhibitor-induced cancer cell proliferation was the lowest in A549 cells ( Table 1 ). The anti-tumor effect and action mechanism of SMA were further examined in a mouse tumor model with a xenograft of A549 cells (drug treatment scheme is shown in  Fig 5A ). As shown in  Fig 5B , SMA significantly suppressed tumor growth in this model. Because cisplatin is often the first treatment option for monotherapy or for combination chemotherapy in patients with advanced NSCLC, we also compared the effect of SMA with cisplatin. In the A549 xenograft model, 50 mg/kg SMA had an anti-tumor effect similar to 1 mg/kg cisplatin. Furthermore, combined therapy with cisplatin (1 mg/kg) and SMA (50 mg/kg) had a much stronger anti-tumor effect than cisplatin or SMA alone ( Fig 5B and 5C ). Western blot analyses of tumor tissues showed SMA significantly suppressed the phosphorylation of PI3K (p85), Akt, and GSK3β ( Fig 5D ). In contrast, axin levels were increased by SMA. Cisplatin treatment induced a similar but less potent effect on the phosphorylation of the signaling proteins. SMA in a combination regimen with cisplatin induced strong inhibitory effects on the signaling molecules. Nuclear β-catenin levels in tumor tissues were not inhibited by cisplatin alone, but were dramatically suppressed by SMA and synergistically by SMA plus cisplatin ( Fig 5E ). Regarding c-Myc and cyclin D1 levels, although cisplatin suppressed their nuclear levels, treatment with SMA plus cisplatin had a much stronger effect ( Fig 5F ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="349~352" text="APC" location="result" />
+<GENE id="G1" spans="875~879" text="PI3K" location="result" />
+<GENE id="G2" spans="908~911" text="Akt" location="result" />
+<GENE id="G3" spans="916~920" text="mTOR" location="result" />
+<GENE id="G4" spans="1006~1009" text="Akt" location="result" />
+<GENE id="G5" spans="1425~1434" text="β-catenin" location="result" />
+<GENE id="G6" spans="1499~1508" text="β-catenin" location="background" />
+<GENE id="G7" spans="1531~1536" text="GSK3β" location="background" />
+<GENE id="G8" spans="1560~1564" text="PI3K" location="background" />
+<GENE id="G9" spans="1565~1568" text="Akt" location="result" />
+<GENE id="G10" spans="1585~1590" text="GSK3β" location="result" />
+<GENE id="G11" spans="2348~2351" text="APC" location="result" />
+<GENE id="G12" spans="2356~2365" text="β-catenin" location="result" />
+<GENE id="G13" spans="2396~2399" text="APC" location="result" />
+<GENE id="G14" spans="2404~2413" text="β-catenin" location="result" />
+<GENE id="G15" spans="2446~2449" text="APC" location="result" />
+<GENE id="G16" spans="2454~2463" text="β-catenin" location="result" />
+<GENE id="G17" spans="2494~2497" text="APC" location="result" />
+<GENE id="G18" spans="2502~2511" text="β-catenin" location="result" />
+<GENE id="G19" spans="3229~3238" text="β-catenin" location="result" />
+<GENE id="G20" spans="3284~3293" text="β-catenin" location="result" />
+<GENE id="G21" spans="3355~3364" text="β-catenin" location="result" />
+<GENE id="G22" spans="3623~3632" text="β-catenin" location="result" />
+<GENE id="G23" spans="3700~3709" text="β-catenin" location="result" />
+<GENE id="G24" spans="3806~3815" text="β-catenin" location="result" />
+<GENE id="G25" spans="3865~3874" text="β-catenin" location="result" />
+<GENE id="G26" spans="3903~3907" text="LEF1" location="result" />
+<GENE id="G27" spans="4015~4019" text="LEF1" location="result" />
+<GENE id="G28" spans="4291~4300" text="β-catenin" location="result" />
+<GENE id="G29" spans="4393~4402" text="cyclin D1" location="result" />
+<GENE id="G30" spans="4407~4412" text="c-myc" location="result" />
+<GENE id="G31" spans="4456~4465" text="tankyrase" location="result" />
+<GENE id="G32" spans="4500~4509" text="β-catenin" location="result" />
+<GENE id="G33" spans="4564~4573" text="β-catenin" location="result" />
+<GENE id="G34" spans="4628~4637" text="β-catenin" location="result" />
+<GENE id="G35" spans="4722~4731" text="β-catenin" location="result" />
+<GENE id="G36" spans="4761~4770" text="β-catenin" location="result" />
+<GENE id="G37" spans="4844~4849" text="GSK3β" location="result" />
+<GENE id="G38" spans="4881~4885" text="PI3K" location="result" />
+<GENE id="G39" spans="4886~4889" text="Akt" location="result" />
+<GENE id="G40" spans="4925~4934" text="tankyrase" location="result" />
+<GENE id="G41" spans="4945~4949" text="axin" location="result" />
+<GENE id="G42" spans="5014~5018" text="PI3K" location="result" />
+<GENE id="G43" spans="5019~5022" text="Akt" location="result" />
+<GENE id="G44" spans="5043~5048" text="GSK3β" location="result" />
+<GENE id="G45" spans="5145~5150" text="axin1" location="result" />
+<GENE id="G46" spans="5155~5160" text="axin2" location="result" />
+<GENE id="G47" spans="5188~5192" text="axin" location="background" />
+<GENE id="G48" spans="5217~5226" text="tankyrase" location="background" />
+<GENE id="G49" spans="5267~5271" text="axin" location="result" />
+<GENE id="G50" spans="5312~5321" text="tankyrase" location="result" />
+<GENE id="G51" spans="5421~5430" text="tankyrase" location="result" />
+<GENE id="G52" spans="5482~5491" text="tankyrase" location="result" />
+<GENE id="G53" spans="5543~5552" text="tankyrase" location="result" />
+<GENE id="G54" spans="6254~6263" text="Tankyrase" location="result" />
+<GENE id="G55" spans="6295~6304" text="Tankyrase" location="result" />
+<GENE id="G56" spans="8286~8289" text="APC" location="background" />
+<GENE id="G57" spans="8304~8313" text="β-catenin" location="background" />
+<GENE id="G58" spans="8478~8483" text="GSK3β" location="result" />
+<GENE id="G59" spans="9361~9365" text="PI3K" location="result" />
+<GENE id="G60" spans="9367~9370" text="p85" location="result" />
+<GENE id="G61" spans="9373~9376" text="Akt" location="result" />
+<GENE id="G62" spans="9382~9387" text="GSK3β" location="result" />
+<GENE id="G63" spans="9413~9417" text="axin" location="result" />
+<GENE id="G64" spans="9673~9682" text="β-catenin" location="result" />
+<GENE id="G65" spans="9850~9855" text="c-Myc" location="result" />
+<GENE id="G66" spans="9860~9869" text="cyclin D1" location="result" />
+<DISEASE id="D0" spans="67~79" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="199~202" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="255~267" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="442~454" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="788~800" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1267~1279" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1461~1464" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1678~1690" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="6987~6999" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="7296~7308" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="8111~8122" text="lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="8223~8249" text="non-small cell lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="8257~8262" text="NSCLC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="8330~8342" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="8390~8401" text="lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="8502~8508" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="8949~8954" text="NSCLC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1445~1460" text="associated with" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="β-catenin" diseaseID="D6" diseaseText="CRC" relationID="R0" relationText="associated with" />
+</TAGS>
+</Genomics_ConceptTask>

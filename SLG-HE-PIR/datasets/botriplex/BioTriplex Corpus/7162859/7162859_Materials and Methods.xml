@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Chemicals
+Ispinesib, N-(3-aminopropyl)-N-[(1 R)-1-(3-benzyl-7-chloro-4-oxoquinazolin-2-yl)-2-methylpropyl]-4-methylbenzamide, was purchased from Selleck Chemicals (Houston, TX). Elacridar [GF-120918, N-[4-[2-(6,7-dimethoxy-3,4-dihydro-1H-isoquinolin-2-yl)ethyl]phenyl]-5-methoxy-9-oxo-10H-acridine-4-carboxamide] was purchased from Toronto Research Chemicals Inc. (Ontario, Canada).
+  assay for determination of unbound (free) fractions
+Rapid equilibrium dialysis was used to determine unbound fractions with modifications 48 , 49  to manufacturer’s protocol (Thermo Fisher Scientific). Mouse plasma and brain homogenates (in 3 volumes of PBS, w/v) were spiked with 0.1 mg/mL ispinesib to obtain final concentrations of 1 µM. 300 µL of drug-spiked matrices were placed in donor chamber, and 500 µL of PBS was placed in receiver chamber of inserts (8 kDa MWCO), in triplicates. The base plate with inserts was incubated on Bioshaker at 37 °C and 1000 rpm for 4 hours. Ispinesib concentrations in samples were analyzed by liquid-chromatography tandem mass-spectrometry (LC-MS/MS). Additional details are described in the supplemental methods.
+  cytotoxicity assay
+TP53(−/−) and PTEN(−/−) cells were seeded into 96-well plates (pre-coated with fibronectin) at a density of 5,000 cells per well in DMEM media with 0.5% FBS, 1% nitrogen supplement, 10 ng/ml of FGF and 10 ng/ml of PDGFAA. Human GBM1A cells were seeded into 96 well plates (pre-coated with laminin) in DMEM media with 1% neuroPlex supplement, 20 ng/ml of EGF and 20 ng/ml of FEF. After 24 hours (~70% confluency), cells were exposed to ispinesib (n = 10 wells per concentration) from 0.025–1000 nM with or without 500 nM elacridar co-treatment. The plates were incubated for 72 hours, cell viability measured using CellTiter-Glo ATP-based assay, and read on a luminometer. The dose-response data were fit to the Hill equation.
+  studies
+All studies conducted were in compliance with the guidelines for the Care and Use of Laboratory Animals (NIH), and approved by Institutional Animal Care and Use Committee (IACUC) at University of Minnesota or Mayo Clinic Foundation. Animals were housed in standard 12-hour light/dark cycle with unlimited access to food and water. Retrovirus production, intracranial injection methods, and establishment of primary cell lines were performed as described previously 28 .
+Pharmacokinetics following intravenous and intraperitoneal administration of ispinesib
+A single intravenous bolus dose of 5 mg/kg ispinesib (vehicle: ethanol, Tween 80 and distilled water in volume ratio of 20:2.5:77.5) was administered to FVB wild-type and  Mdr1a/b −/− 
+ Bcrp1 −/−  mice. This was followed by collection of whole blood and brain samples at 0.17, 0.5, 1, 2, 4, 8 and 15 hours post-dose, and blood samples were centrifuged to separate plasma for further analysis. In another study, a single intraperitoneal dose of 10 mg/kg ispinesib (microemulsion vehicle: Cremophor EL, Carbitol, Captex 355 and distilled water in volume ratio of 20:10:3:67) was dosed in wild-type,  Mdr1a/b −/− , Bcrp1 −/− , and  Mdr1a/b −/− 
+ Bcrp1 −/−  mice. At 2 and 6 hours following administration of ispinesib, whole blood and brain samples were harvested, and blood samples were centrifuged for plasma separation. Additional details on the conduct of  in vivo  pharmacokinetic studies are described in the supplementary methods. The drug concentrations in all samples were measured by a specific and sensitive LC-MS/MS assay for ispinesib.
+Brain distribution of ispinesib with and without co-administration of elacridar
+FVB wild-type mice received a single dose of 10 mg/kg ip ispinesib with or without simultaneous co-administration of 10 mg/kg ip elacridar, both in microemulsion vehicle. Ispinesib and elacridar (half-life of 3.2 hrs following ip dosing 50 ) have comparable half-lives and so were dosed together. Blood and brain specimens were harvested at 2 and 6 hours post-dose.
+Spatial distribution of ispinesib in a rat model of GBM
+The GBM tumors were induced by stereotactic injection of a PDGF-IRES-tdTomato retrovirus in rat pups 28 , using postnatal day 3 (P3) neonatal Sprague-Dawley rats. Rats were randomized (n = 9) to receive single dose of 10 mg/kg ip ispinesib with or without simultaneous co-administration of 10 mg/kg ip elacridar on day 21 following intracranial injections. Blood and brain (tumor-bearing) samples were collected at 2 hours post-dose, and whole brains were immediately flash frozen.
+A fluorescence-guided punch biopsy technique (Supplementary Fig.  S2 ) was developed and employed for isolation of tumor core, tumor rim (brain adjacent to tumor, BAT) and normal (non-tumor) brain regions from brain samples. Briefly, an acrylic adult rat brain matrix (WPI) was used to obtain thick coronal brain sections (1–2 mm thick) through the Td-Tomato labelled tumors. The tumor regions were identified by relative fluorescence signal (Nikon AZ100M microscope), and biospy punches with varying diameters were utilized to isolate tumor core (tumor region with fluorescence signal 5-fold or higher relative to background signal) and rim (region adjacent to tumor core with fluorescence signal 3 to 5-fold higher relative to background) (Supplementary Fig.  S3 ). The samples from individual brains were pooled together for analysis of ispinesib concentrations by LC-MS/MS.
+Pharmacodynamics of ispinesib in a mouse model of GBM
+Female NSG mice were intracerebrally injected with 500,000 GBM1A cells at coordinates X = 1.5 mm, Y = 1.5 mm and Z = 2.5 mm relative to the bregma, and tumor growth was monitored by bioluminescence imaging. After 4 weeks (tumor size of about 2 × 10 9  photons/sec), animals were randomized to receive single ip dose of microemulsion vehicle, 10 mg/kg elacridar, 10 mg/kg ispinesib, or a combination of 10 mg/kg ispinesib and 10 mg/kg elacridar (n = 8–10). At 8 hours following treatment, mice were perfused and whole brains were isolated. The samples were processed for immunofluorescence by staining for tubulin with an alpha-tubulin antibody (Cell signaling, Cat#2125) and counter staining with DAPI for visualizing nuclei. Images were scanned and counted for cells with monopolar spindles.
+In vivo efficacy of ispinesib in a mouse model of GBM
+Female NSG mice were intracranially implanted with 500,000 luciferase expressing GBM1A cells (transduced with lentiviral particles expressing GFP-Luciferase). After 7 days, animals were randomized into four groups and ip administered with microemulsion vehicle, 10 mg/kg elacridar, 10 mg/kg ispinesib, or a combination of 10 mg/kg ispinesib and 10 mg/kg elacridar, once every 4 days for 28 days (n = 10). The dosing schedule of once every 4 days was based on our previously publication with ispinesib 7 . Tumor growth was monitored by bioluminescence imaging and animals were followed for survival.
+LC-MS/MS analysis
+A detailed description is provided in the supplemental methods. In brief, all samples were spiked with dasatinib as internal standard. After extraction in ethyl acetate, organic supernatant was dried under nitrogen, reconstituted in mobile phase (55:45 of 1 mM ammonium formate with 0.1% formic acid: acetonitrile), and injected onto a Phenomenex Synergi 4 µ Polar-RP 80 A column. The m/z transitions were 517.20–246.96 for ispinesib and 488.21–400.99 for dasatinib (positive-ionization mode).
+Statistical and data analysis
+The details of pharmacokinetic data analysis, calculations and statistical testing are described in the supplemental methods.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1163~1167" text="TP53" location="result" />
+<GENE id="G1" spans="1177~1181" text="PTEN" location="result" />
+<GENE id="G2" spans="2628~2633" text="Mdr1a" location="result" />
+<GENE id="G3" spans="2642~2647" text="Bcrp1" location="result" />
+<GENE id="G4" spans="3068~3073" text="Bcrp1" location="result" />
+<GENE id="G5" spans="3085~3090" text="Mdr1a" location="result" />
+<GENE id="G6" spans="3099~3104" text="Bcrp1" location="result" />
+<DISEASE id="D0" spans="4000~4003" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="4008~4011" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="5414~5417" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="6261~6264" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="6346~6349" text="GBM" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

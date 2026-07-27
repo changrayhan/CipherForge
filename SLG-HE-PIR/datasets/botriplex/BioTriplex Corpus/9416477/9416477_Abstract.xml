@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Novel Germline PHD2 Variant in a Metastatic Pheochromocytoma and Chronic Myeloid Leukemia, but in the Absence of Polycythemia.
+Abstract: Background: Pheochromocytoma (Pheo) and paraganglioma (PGL) are rare tumors, mostly resulting from pathogenic variants of predisposing genes, with a genetic contribution that now stands at around 70%. Germline variants account for approximately 40%, while the remaining 30% is attributable to somatic variants. Objective: This study aimed to describe a new  PHD2  ( EGLN1 ) variant in a patient affected by metastatic Pheo and chronic myeloid leukemia (CML) without polycythemia and to emphasize the need to adopt a comprehensive next-generation sequencing (NGS) panel. Methods: Genetic analysis was carried out by NGS. This analysis was initially performed using a panel of genes known for tumor predisposition ( EGLN1 ,  EPAS1 ,  FH ,  KIF1B β,  MAX ,  NF1 ,  RET ,  SDHA ,  SDHAF2 ,  SDHB ,  SDHC ,  SDHD ,  TMEM127 , and  VHL ), followed initially by SNP-CGH array, to exclude the presence of the pathogenic Copy Number Variants (CNVs) and the loss of heterozygosity (LOH) and subsequently by whole exome sequencing (WES) comparative sequence analysis of the DNA extracted from tumor fragments and peripheral blood. Results: We found a novel germline  PHD2  ( EGLN1 ) gene variant, c.153G>A, p.W51*, in a patient affected by metastatic Pheo and chronic myeloid leukemia (CML) in the absence of polycythemia. Conclusions: According to the latest guidelines, it is mandatory to perform genetic analysis in all Pheo/PGL cases regardless of phenotype. In patients with metastatic disease and no evidence of polycythemia, we propose testing for  PHD2  ( EGLN1 ) gene variants. A possible correlation between  PHD2  ( EGLN1 ) pathogenic variants and CML clinical course should be considered.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="23~27" text="PHD2" location="result" />
+<GENE id="G2" spans="503~507" text="PHD2" location="result" />
+<GENE id="G3" spans="511~516" text="EGLN1" location="result" />
+<GENE id="G4" spans="859~864" text="EGLN1" location="result" />
+<GENE id="G5" spans="868~873" text="EPAS1" location="result" />
+<GENE id="G6" spans="877~879" text="FH" location="result" />
+<GENE id="G7" spans="883~890" text="KIF1B β" location="result" />
+<GENE id="G8" spans="893~896" text="MAX" location="result" />
+<GENE id="G9" spans="900~903" text="NF1" location="result" />
+<GENE id="G10" spans="907~910" text="RET" location="result" />
+<GENE id="G11" spans="914~918" text="SDHA" location="result" />
+<GENE id="G12" spans="922~928" text="SDHAF2" location="result" />
+<GENE id="G13" spans="932~936" text="SDHB" location="result" />
+<GENE id="G14" spans="940~944" text="SDHC" location="result" />
+<GENE id="G15" spans="948~952" text="SDHD" location="result" />
+<GENE id="G16" spans="956~963" text="TMEM127" location="result" />
+<GENE id="G17" spans="971~974" text="VHL" location="result" />
+<GENE id="G18" spans="1301~1305" text="PHD2" location="result" />
+<GENE id="G19" spans="1309~1314" text="EGLN1" location="result" />
+<GENE id="G20" spans="1690~1694" text="PHD2" location="" />
+<GENE id="G21" spans="1698~1703" text="EGLN1" location="" />
+<GENE id="G22" spans="1753~1757" text="PHD2" location="" />
+<GENE id="G23" spans="1761~1766" text="EGLN1" location="" />
+<DISEASE id="D0" spans="52~68" text="Pheochromocytoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="73~97" text="Chronic Myeloid Leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="121~133" text="Polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="157~173" text="Pheochromocytoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="175~179" text="Pheo" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="185~198" text="paraganglioma" location="background" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D6" spans="563~567" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="572~596" text="chronic myeloid leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="598~601" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="611~623" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1385~1389" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="1394~1418" text="chronic myeloid leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1420~1423" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1443~1455" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="200~203" text="PGL" location="background" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D15" spans="1557~1561" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="1562~1565" text="PGL" location="result" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D17" spans="1652~1664" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="1793~1796" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1317~1329" text="gene variant" location="result" relation="associated mutation" />
+<RELATION id="R1" spans="1769~1788" text="pathogenic variants" location="result" relation="causative mutation" />
+<RELATION id="R2" spans="14~22,28~35" text="Germline ... Variant" location="result" relation="associated mutation" />
+<ENTITY_LINKING id="E0" geneID="G18" geneText="PHD2" diseaseID="D10" diseaseText="Pheo" relationID="R0" relationText="gene variant" />
+<ENTITY_LINKING id="E1" geneID="G18" geneText="PHD2" diseaseID="D11" diseaseText="chronic myeloid leukemia" relationID="R0" relationText="gene variant" />
+<ENTITY_LINKING id="E2" geneID="G18" geneText="PHD2" diseaseID="D12" diseaseText="CML" relationID="R0" relationText="gene variant" />
+<ENTITY_LINKING id="E3" geneID="G19" geneText="EGLN1" diseaseID="D10" diseaseText="Pheo" relationID="R0" relationText="gene variant" />
+<ENTITY_LINKING id="E4" geneID="G19" geneText="EGLN1" diseaseID="D11" diseaseText="chronic myeloid leukemia" relationID="R0" relationText="gene variant" />
+<ENTITY_LINKING id="E5" geneID="G19" geneText="EGLN1" diseaseID="D12" diseaseText="CML" relationID="R0" relationText="gene variant" />
+<ENTITY_LINKING id="E6" geneID="G22" geneText="PHD2" diseaseID="D22" diseaseText="CML" relationID="R1" relationText="pathogenic variants" />
+<ENTITY_LINKING id="E7" geneID="G23" geneText="EGLN1" diseaseID="D22" diseaseText="CML" relationID="R1" relationText="pathogenic variants" />
+<ENTITY_LINKING id="E8" geneID="G0" geneText="PHD2" diseaseID="D0" diseaseText="Pheochromocytoma" relationID="R2" relationText="Germline ... Variant" />
+<ENTITY_LINKING id="E9" geneID="G0" geneText="PHD2" diseaseID="D1" diseaseText="Chronic Myeloid Leukemia" relationID="R2" relationText="Germline ... Variant" />
+</TAGS>
+</Genomics_ConceptTask>

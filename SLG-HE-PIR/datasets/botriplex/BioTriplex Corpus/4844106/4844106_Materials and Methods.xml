@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Study approval
+All experiments with mice and experimental guidelines were approved and monitored by the Institutional Animal Care and Use Committee (IACUC) at Iowa State University (Ames, IA, USA) following the federal and state guidelines. This study is designed to address how OS affects tissue-specific splicing regulation in mice exposed to PQ that is known to increase susceptibility to Parkinson’s disease.
+Animals
+For all mice experiments, male and female mice were housed under the standard conditions of constant temperature (22 ± 1°C), humidity (relative, 30%) and a 12 h light/dark cycle. All mice had free access to food and water. Transgenic (TG) mice with FVB/N background, which have two copies of  SMN2  and one copy of  Smn  ( Smn +/- ; SMN2 +/+ ), were generated from breeding pairs obtained from the Jackson Laboratory (JAX Strain 005024) [ 25 ]. Ear punches were used for genotyping.
+Design of in vivo experiments with paraquat
+Each animal group treated with either phosphate buffered saline (PBS) (Life Technologies, Carlsbad, CA) or paraquat (PQ, 1,1′-dimethyl-4,4′-bipyridinium dichloride hydrate or methyl viologen dichloride hydrate, Sigma-Aldrich, St. Louis, MO) consisted of four 6–8 week-old TG mice: two male (~23 g each) and two female (~17 g each). PQ stock solution was prepared immediately before usage (200 mM in PBS). In PQ-treated group every individual mouse received a single injection (0.25 ml) of various amounts of PQ ranging from 10 to 70 mg/kg body weight using intraperitoneal (IP) route, similar to the dose range used in [ 42 , 43 ]. In PBS-treated control group, each mouse was given an IP injection of PBS (0.25 ml). Once injected, mice were monitored twice per day until their sacrifice. At the designated time points, mice were anaesthetized using isoflurane and sacrificed by cervical dislocation. Mouse tissues, including brain, heart, kidney, liver, lung, muscle, spinal cord, testis, and uterus/ovary, were collected and immediately frozen either in liquid nitrogen or on dry ice and moved to -80°C for storage until further usage.
+Survival study
+Each 6–8 week-old TG mouse was randomly divided into two groups: control group (PBS injection, n = 10) and PQ group (70 mg/kg, n = 28). We chose the highest dose based on a previous study [ 43 ]. Mice were housed in groups of 3–4 same conditions as described above and provided with soaked standard laboratory food. Mice were monitored twice per day and euthanized if they showed signs of excessive pain or distress, including reduced motor activity. Unless otherwise stated, all experiments were terminated at 24 hours post PQ treatment. This termination time point was chosen based on the time course experiment that captured all splicing events affected by PQ-induced OS. At the termination point, mice were anaesthetized using isoflurane and sacrificed by cervical dislocation. All reasonable effort were made to minimize animal suffering, including anesthesia.
+Reverse transcription and MESDA
+Total RNA was isolated from mouse tissues using TRIzol reagent (Life Technologies) following the manufacturer’s recommendations. RNA was subjected to DNase digestion using RQ1 RNase-free DNase (Promega, Madison, WI). DNase-treated RNA was recovered by either phenol:chloroform (OmniPur) extraction and ethanol precipitation or by using a Qiagen RNeasy Mini RNA purification kit (Qiagen, Venlo, Netherlands). RNA concentration was measured using a NanoDrop spectrophotometer (Thermo Scientific, Carlsbad, CA). cDNA was reverse transcribed from 1.6 μg of total RNA in a 10 μl reaction, using a SuperScript III Reverse Transcriptase (RTase, Life Technologies) and oligo(dT) 12-18  primer (Life Technologies), random primers (Promega), or a gene-specific primer (3E8-Dde) for  SMN2  analysis. For mouse  Smn  analysis a gene-specific primer (3SmnE8) was used. One or two μl of RTase reaction were then used as a template for PCR amplification in a 25 μl reaction with Taq DNA Polymerase (New England Biolabs). The reaction was carried out in the presence of either a 5′-end- 32 P-labelled primer or a trace amount of [α- 32 P] dATP (3,000 Ci/mmole; Perkin-Elmer, Waltham, MA). MESDA was performed as previously described [ 41 ]. PCR products were resolved on native polyacrylamide gels. Analysis and quantifications of splice products were performed using a FPL-5000 Image Reader and Multi Gauge software (Fuji Photo Film Inc, Valhalla, NY).
+Total RNA from cultured cells was prepared using TRIzol reagent (Life Technologies) following the manufacturer’s instructions. Reverse transcription reactions were carried by SuperScript III RTase. For amplification of  SMN  and  SBP2 , cDNAs were generated using gene-specific primers 3E8-Dde and 3hSBP2E4, respectively ( S1 Table ). For MESDA, cDNA was amplified using Taq DNA polymerase and a pair of primers 5SMNE1TSS and 3E8-25 ( S1 Table ), with the latter one being  32 P-labeled at its 5′ end. 2 μl of RTase reaction were used per 25 μl of PCR reaction. RT-PCR amplified  SMN  splice products were resolved on native polyacrylamide gels. Analysis and quantifications were then performed using a FPL-5000 Image Reader and Multi Gauge software (Fuji Photo Film Inc). For  SBP2 , PCR amplification was done using primers 5hSBP2E1 and 3hSBP2E4 ( S1 Table ). RT-PCR amplified  SBP2  splice isoforms were resolved on native polyacrylamide gels. The gels were stained with ethidium bromides and the fluorescent images captured using the BioSpectrum AC Imaging System (UVP, Upland, CA). Primers used for RT-PCR and MESDA are given in  S1 Table . Novel splice isoforms of  SMN2  are described in  Table 1 .
+
+           10.1371/journal.pone.0154390.t001 
+           Table 1 
+           SMN  splice variants. Description of  
+           
+             
+           
+             
+                 
+                 
+                 
+               
+                 
+               Exon 
+                   Gene 
+                   GenBank accession number 
+                   Reference 
+                 
+                   
+               
+                 
+               ΔC3,7 
+                   SMN2 
+                   
+                     
+                   KF217140 
+                   This study 
+                 
+                   
+                 ΔC3,5,7 
+                   SMN2 
+                   
+                     
+                   KF217141 
+                   This study 
+                 
+                   
+                 ΔC5,6,7 
+                   SMN2 
+                   
+                     
+                   KF217142 
+                   This study 
+                 
+                   
+                 ΔC3–5,7 
+                   SMN2 
+                   
+                     
+                   KF217143 
+                   This study 
+                 
+                   
+                 ΔC3,5–7 
+                   SMN2 
+                   
+                     
+                   KF217144 
+                   This study 
+                 
+                   
+                 ΔC3–7 
+                   SMN2 
+                   
+                     
+                   KF217145 
+                   This study 
+                 
+                   
+                 ΔC5 
+                   SMN1 
+                   
+                     
+                   JQ657798 
+                   41 ] [ 
+                 
+                   
+                 ΔC3 
+                   SMN1 
+                   
+                     
+                   JQ657800 
+                   41 ] [ 
+                 
+                   
+                 ΔC5,7 
+                   SMN1 
+                   
+                     
+                   JQ657799 
+                   41 ] [ 
+                 
+                   
+                 ΔC5,6,7 
+                   SMN1 
+                   
+                     
+                   JQ657801 
+                   41 ] [ 
+                 
+                   
+                 ΔC5,6 
+                   SMN1 
+                   
+                     
+                   JQ732166 
+                   41 ] [ 
+                 
+                   
+                 ΔC5,6 
+                   SMN2 
+                   
+                     
+                   JQ732167 
+                   41 ] [ 
+                 
+                   
+                 ΔC5 
+                   SMN1 
+                   
+                     
+                   JQ657802 
+                   41 ] [ 
+                 
+                   
+                 ΔC3 
+                   SMN2 
+                   
+                     
+                   JQ690861 
+                   41 ] [ 
+                 
+                   
+                 ΔC3,4 
+                   SMN1 
+                   
+                     
+                   JQ745297 
+                   41 ] [ 
+                 
+                   
+                 ΔC4,7 
+                   SMN2 
+                   
+                     
+                   JQ690864 
+                   41 ] [ 
+                 
+                   
+                 ΔC3,7 
+                   SMN2 
+                   
+                     
+                   JQ690862 
+                   41 ] [ 
+                 
+                   
+                 ΔC3,5 
+                   SMN1 
+                   
+                     
+                   JQ657803 
+                   41 ] [ 
+                 
+                   
+                 ΔC3,5,7 
+                   SMN2 
+                   
+                     
+                   JQ690863 
+                   41 ] [ 
+                 
+                   
+                 ΔC5,7 
+                   SMN2 
+                   
+                     
+                   JQ690865 
+                   41 ] [ 
+                 
+                   
+                 ΔC3,7 
+                   SMN1 
+                   
+                     
+                   JQ690867 
+                   41 ] [ 
+                 
+                   
+                 ΔC3,5 
+                   SMN2 
+                   
+                     
+                   JQ690866 
+                   41 ] [ 
+                 
+                   
+                 ΔC3,5,7 
+                   SMN1 
+                   
+                     
+                   JQ690868 
+                   41 ] [ 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+Quantitative Real-time PCR (QPCR)
+All reactions were performed in 96-well plates using the Stratagene Mx3005P PCR machine (Agilent technologies, Santa Clara, CA). cDNA was synthesized as described above using either oligo(dT) 12-18  or random primers. Each RTase reaction was then diluted 1:20, and 1.5 μl was used in a 20 μl of PCR reaction containing 300 nM of each primer and either Brilliant II SYBR master Mix with Rox (Agilent Technologies) or FastStart Universal SYBR Green Master mix (ROX) (Roche, Basel, Switzerland). For a negative control, cDNA synthesized in absence of RTase or nuclease-free water was used as a template during QPCR amplification. The amplicon sizes were < 200 bp. Genes showing threshold cycle values greater than 38 were considered as undetectable/less expressed. To amplify different splice isoforms and to avoid amplification of genomic DNA, at least one primer in each primer set used for QPCR was designed to anneal to an exon-exon junctions. Each isoform abundance was calculated relative to the average of three samples from PBS-treated animals using the ΔΔCt method. Values were normalized by dividing by the geometric mean of the abundance of three genes: β-actin (ACTB), Glyceraldehyde-3-phosphate dehydrogenase (GAPDH), and Hydroxymethylbilane synthase (HMBS), amplified with primers described [ 44 ]. All samples were used in three biological replicates and amplified in technical duplicates.
+Western blot analysis
+For animal tissues, frozen samples were thawed on ice and very briefly rinsed in ice-cold 1XPBS. Tissues were then homogenized in ice-cold Radioimmunoprecipation Assay (RIPA) buffer (Boston BioProducts, Ashland, MA) using the ratio of 100 μl of RIPA buffer per 10 mg of tissue. Immediately before usage, RIPA buffer was supplemented with either Halt protease single use inhibitor cocktail or Halt protease and phosphatase inhibitor cocktail (Thermo Scientific, Waltham, MA). Samples were then sonicated (6 times, 10 sec each, with 1 min intervals) and kept on ice for 30 min. The obtained lysates were subjected to centrifugation at 12,000 rpm for 30 min at 4°C to remove tissue debris. For cells grown in culture total protein lysates were prepared similar as described in [ 41 ]. Briefly, cell pellets were resuspended in ice-cold RIPA buffer (Boston BioProducts) supplemented with Halt protease and phosphatase inhibitor cocktail (Thermo Scientific). Resuspended cells were left on ice for 30 min, after what the lysates were spun down at 13,000 rpm for 10 min at 4°C to remove cell debris.
+Protein concentrations were measured by Bradford protein assay using Bio-Rad protein assay solution (Bio-Rad, Hercules, CA). Protein samples were resolved on SDS-polyacrylamide gels. The separated proteins were transferred to Immobilon polyvinylidene fluoride (PVDF) membrane (Millipore, Billerica, MA) using the Turbo Transfer system (Bio-Rad). Membrane blocking was done in 5% nonfat dried milk in Tris-buffered saline with 0.05% Tween-20 (TBST). The following primary antibodies were used: mouse anti-SMN-KH antibody (1:500; Millipore), mouse monoclonal anti-SMN antibody (1:2,000, BD Transduction Laboratories, E. Ruthorford, NJ; cat # 610646), mouse anti-Gemin2 (1:500; Sigma-Aldrich; Clone 2E17, cat # G6669), rabbit polyclonal anti-elF4A2 (1:1000; Abcam, Cambridge, MA; ab31218), mouse monoclonal anti-SRPK2 (1:4000; BD Transduction Laboratories; cat # 611118), mouse monoclonal anti-phosphorylated SR proteins (1:200; Millipore; anti-phospho epitope SR proteins clone 1H4), rabbit monoclonal anti-PSF (1:10,000; Abcam; EPR11847, ab177149), goat polyclonal anti-p54 (1:3,000; Santa Cruz Biotechnology, Dallas, TX, C-16, sc-46220), rabbit polyclonal anti-SRp55 (1:200; Santa Cruz Biotechnology; H-180, sc-67100), mouse monoclonal anti-hnRNP A1 (1:10,000; Abcam; 9H19, ab5832), mouse monoclonal anti-hnRNP A2 (1:2,000; Abcam; DP3B3, ab6102), rabbit monoclonal anti-hnRNP K (1:10,000; Abcam; EP943Y, ab52600), mouse monoclonal anti-ASF/SF2 (1:400; US Biological Life Sciences, Salem, MA; S5555), goat polyclonal anti-TIA-1 (1:500, Santa Cruz Biotechnology; C-20, sc-1751), goat polyclonal anti-TIAR (1:200; Santa Cruz Biotechnology; C-18, sc-1749), goat polyclonal anti-hnRNP H (1:200; Santa Cruz Biotechnology; N-16, sc-10042), horseradish-peroxidase-conjugated anti-FLAG (1:4,000; Sigma-Aldrich; A8592), rabbit polyclonal anti-β-Actin (1:2,000; Sigma-Aldrich; A2066), mouse monoclonal anti-GAPDH (1:5,000; Abcam; 6C5, ab8245), rabbit monoclonal anti-Akt (1:1,000; Cell Signaling, Danvers, MA; C67E7, cat # 4691) and rabbit monoclonal anti-phospho-(Ser473)-Akt (1:1,000; Cell Signaling; D9E, cat # 4060). After incubation with primary antibodies, membranes were washed in TBST at least four times (10 min each) and incubated with the appropriate secondary antibody. The following secondary antibodies were used: horseradish-peroxidase-conjugated goat anti-mouse IgG (1:5,000; Jackson Immuno Research, West Grove, PA; cat # 115-035-003), donkey anti-rabbit IgG (1:2,000; GE Healthcare, Pittsburgh, PA; cat # NA934V) and donkey anti-goat IgG (1:2,000; Santa Cruz Biotechnology; sc-2020). Following multiple washes with TBST, membranes were developed using SuperSignal West Dura Extended Duration Substrate or SuperSignal West Femto Maximum Sensitivity Substrate (Thermo Scientific) following the manufacture’s instructions. Images were visualized using the BioSpectrum AC Imaging System (UVP). Often membranes were stripped using Restore Western Stripping Buffer (Thermo Scientific) and re-probed.
+To detect 4-Hydroxynonenal adducts of histidine residues the membranes were incubated with primary mouse monoclonal anti-4-HNE antibody (R&D Systems, Minneapolis, MN; Clone #198960, MAB3249). Alexa Fluor 680-conjugated goat anti-mouse antibody (Thermo Scientific) was used as a secondary antibody. Western blot images were captured with a LI-COR Odyssey machine (LI-COR, Lincoln, NE).
+For each Western blot, the mean intensity of each band was determined using ImageJ software. The mean intensity of the band of interest for each sample was divided by the mean intensity of β-actin, which served as a loading control. For comparisons purposes, the PBS average was set at 1.0 and PQ samples were expressed relative to this value.
+Sample preparation for isoelectric focusing (IEF)
+TG brain tissues were homogenized in ReadyPrep Protein Extraction Kit (Bio-Rad) following the manufacturer’s instructions. Briefly, 100 mg of brain tissue was homogenized in the presence of 1 ml 2D Rehydration buffer containing protease inhibitors. This was followed by sonication (four times, 30 sec each with an interval of 30 sec). Lysates were clarified by centrifugation at 16,000 x g for 30 min at room temperature. The extracted proteins were cleaned up by acetone precipitation methods (TECH TIP#49, Thermo Scientific) and the concentration of proteins was measured via Bradford protein assay as described above.
+Two-dimensional polyacrylamide gel electrophoresis (2D-PAGE)
+Isoelectric focusing (IEF) (pH3-10, 18 cm strip) using 500 μg of each sample was conducted in rehydration solution (8M Urea, 2% CHAPS, 0.5% immobilized pH gradients buffer, bromophenol blue containing 2.8 mg/ml DTT) at 20°C using the GE electrophoresis unit in accordance with the manufacturer’s instructions. After the IEF procedure, strips were incubated for 10 min with equilibration buffer (50 mM Tris-HCl, pH 8.8, 6M urea, 30% glycerol, and 2% SDS, bromophenol blue containing 10 mg/ml DTT). Equilibrated strips were then inserted onto SDS-PAGE gels (20 x 24 cm, 15%) and 2D gels were run. Upon run completion, the 2D gels were subjected to Coomassie Blue staining. Digital images from Coomassie stained gels were acquired using the Amersham Pharmacia Biotech ImageScanner flatbed scanner. Digitalized images were quantitatively analyzed using Progenesis SameSpots in accordance with the manufacturer’s instructions. Each spot was normalized by total valid spot intensity and the spots with a fold change greater than 2, an anova (p) less than 0.05 and a power greater than 0.8 were selected. Selected protein spots were enzymatically digested. Trypsin fragments were then analyzed using Matrix Assisted Laser Desorption/Ionization-Time of Flight (MALDI-TOF). Sequence tag searches were conducted using the MASCOT program.
+Cell culture
+All the tissue culture supplies were from Life Technologies. Human HEK-293 cells were grown in Dulbecco’s Modified Eagle’s Medium (DMEM, cat # 11965) supplemented with 10% Fetal Bovine Serum (FBS). Human neuroblastoma SH-SY5Y cells were cultured in 1:1 mixture of Minimum Essential Medium (MEM, cat #11095) and F12 Medium (cat # 11765) supplemented with 10% FBS. Human primary fibroblasts from SMA type I patient (GM03813) obtained from Coriell Cell Repositories were cultured in MEM (cat # 10370) supplemented with 2 mM GlutaMAX-I (cat # 35050) and 15% FBS.
+For PQ treatment of HEK-293, cells were pre-plated in 100 mm dishes at a density of ~1.9X10 6  cells. For PQ treatment of SH-SY5Y and GM03813, cells were pre-plated in 60 mm culture dishes at a density of 4.2X10 6  and 3.3X10 5  per dish, respectively. Next day (24 hours later) medium in each dish was replaced with a fresh one without (-) or with (+) 1mM PQ. 24 hours later cells were washed with ice-cold 1XPBS (3 times) and collected by scraping. One sixth of the cells were used for total RNA preparation, while the rest of the cells were lysed using RIPA buffer.
+HeLa cells were grown in DMEM (cat # 11965) supplemented with 10% FBS. To test whether different splice isoforms can be translated, HeLa cells pre-plated at a density of ~0.4x10 6  cells per one well of a 6-well plate were transfected with 2 μg of 3XFLAG-tagged protein expression vector of interest using X-tremeGENE HP DNA transfection Reagent (Life Science) following the manufacturer’s recommendations. Twenty-four hours later, HeLa cells were washed with ice-cold 1X PBS (3 times) and collected by scraping for whole-cell lysate preparation using RIPA buffer similar as in [ 41 ].
+Generation of  SMN  splice isoform expression vectors
+Human expression vectors for 3XFLAG-tagged SMN splice isoforms were generated as follows ( S3 Table ). cDNA of interest was reverse transcribed using total RNA from TG brain or SH-SY5Y cells, Super ScriptIII Reverse Transcriptase (Life Technologies) and either 3Adapter-oligo(dT) primer or a gene-specific primer (3E8-Dde). PCR amplification of each  SMN  isoform was performed with a pair of primers, 5SMNE1-MluI and P2-2 ( S1 Table ). The  SMN2  3′UTR sequences were amplified using the primers 5SMNE8-St and 3Adapter-SalI. PCR products were gel-purified and used as templates together with the 3′UTR fragment for the second PCR with primers 5SMNE1-MluI and 3Adapter-SalI. PCR products were then digested with MluI and SalI and inserted into human 3XFLAG mammalian expression vector [ 45 ]. The identity of generated expression vectors was verified by sequencing.
+Motif analysis
+Multiple EM for Motif Elicitation (MEME) package (version 4.11.1) [ 46 ] was used to identify over-represented motifs (4–6 width motif with more than 4 site counts) in exons with increased exclusion or inclusion upon PQ treatment. Analyses were performed with a search window of entire OS-induced aberrant splicing exons and 100 nt flanking intronic sequences.
+Statistical analysis
+For Kaplan-Meier survival curves, log-rank tests were used. For QPCR, relative quantities with standard error were calculated by using ΔΔCT method in Excel (Microsoft Office 2011 edition). Statistical analyses were performed using the Student’s  t -test. Unless otherwise mentioned,  P  values were two-tailed and the level of statistical significance was set at  P  < 0.05.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="715~719" text="SMN2" location="result" />
+<GENE id="G1" spans="755~759" text="SMN2" location="result" />
+<GENE id="G2" spans="3773~3777" text="SMN2" location="result" />
+<GENE id="G3" spans="4668~4672" text="SBP2" location="result" />
+<GENE id="G4" spans="5216~5220" text="SBP2" location="result" />
+<GENE id="G5" spans="4738~4742" text="SBP2" location="result" />
+<GENE id="G6" spans="5266~5270" text="SBP2" location="result" />
+<GENE id="G7" spans="5279~5283" text="SBP2" location="result" />
+<GENE id="G8" spans="5318~5322" text="SBP2" location="result" />
+<GENE id="G9" spans="5610~5614" text="SMN2" location="result" />
+<GENE id="G10" spans="6135~6139" text="SMN2" location="result" />
+<GENE id="G11" spans="6326~6330" text="SMN2" location="result" />
+<GENE id="G12" spans="6517~6521" text="SMN2" location="result" />
+<GENE id="G13" spans="6708~6712" text="SMN2" location="result" />
+<GENE id="G14" spans="6899~6903" text="SMN2" location="result" />
+<GENE id="G15" spans="7275~7279" text="SMN1" location="result" />
+<GENE id="G16" spans="7458~7462" text="SMN1" location="result" />
+<GENE id="G17" spans="7643~7647" text="SMN1" location="result" />
+<GENE id="G18" spans="7830~7834" text="SMN1" location="result" />
+<GENE id="G19" spans="8015~8019" text="SMN1" location="result" />
+<GENE id="G20" spans="8200~8204" text="SMN2" location="result" />
+<GENE id="G21" spans="8383~8387" text="SMN1" location="result" />
+<GENE id="G22" spans="8566~8570" text="SMN2" location="result" />
+<GENE id="G23" spans="8751~8755" text="SMN1" location="result" />
+<GENE id="G24" spans="8936~8940" text="SMN2" location="result" />
+<GENE id="G25" spans="9121~9125" text="SMN2" location="result" />
+<GENE id="G26" spans="9306~9310" text="SMN1" location="result" />
+<GENE id="G27" spans="9493~9497" text="SMN2" location="result" />
+<GENE id="G28" spans="9678~9682" text="SMN2" location="result" />
+<GENE id="G29" spans="9863~9867" text="SMN1" location="result" />
+<GENE id="G30" spans="10048~10052" text="SMN2" location="result" />
+<GENE id="G31" spans="10235~10239" text="SMN1" location="result" />
+<GENE id="G32" spans="11672~11679" text="β-actin" location="result" />
+<GENE id="G33" spans="11681~11685" text="ACTB" location="result" />
+<GENE id="G34" spans="11688~11728" text="Glyceraldehyde-3-phosphate dehydrogenase" location="result" />
+<GENE id="G35" spans="11730~11735" text="GAPDH" location="result" />
+<GENE id="G36" spans="11742~11770" text="Hydroxymethylbilane synthase" location="result" />
+<GENE id="G37" spans="11772~11776" text="HMBS" location="result" />
+<GENE id="G38" spans="13688~13694" text="Gemin2" location="result" />
+<GENE id="G39" spans="13837~13842" text="SRPK2" location="result" />
+<GENE id="G40" spans="14033~14036" text="PSF" location="result" />
+<GENE id="G41" spans="14097~14100" text="p54" location="result" />
+<GENE id="G42" spans="14269~14277" text="hnRNP A1" location="result" />
+<GENE id="G43" spans="14333~14341" text="hnRNP A2" location="result" />
+<GENE id="G44" spans="14398~14405" text="hnRNP K" location="result" />
+<GENE id="G45" spans="14549~14554" text="TIA-1" location="result" />
+<GENE id="G46" spans="14702~14709" text="hnRNP H" location="result" />
+<GENE id="G47" spans="14861~14868" text="β-Actin" location="result" />
+<GENE id="G48" spans="14924~14929" text="GAPDH" location="result" />
+<GENE id="G49" spans="14984~14987" text="Akt" location="result" />
+<GENE id="G50" spans="15090~15093" text="Akt" location="result" />
+<GENE id="G51" spans="16603~16610" text="β-actin" location="result" />
+<GENE id="G52" spans="21041~21045" text="SMN2" location="result" />
+<DISEASE id="D0" spans="393~412" text="Parkinson’s disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

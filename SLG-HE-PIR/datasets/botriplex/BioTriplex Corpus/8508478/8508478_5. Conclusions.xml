@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In conclusion, a higher PRAL and NEAP score was prospectively associated with a higher incidence of hyperuricemia among the middle-aged and older Korean adults in this large prospective cohort study. Future studies are warranted to understand the underlying pathophysiology of hyperuricemia in terms of the amounts and types of purine content in foods and beverages consumed by Koreans, and their bioavailability for purine-to-uric-acid metabolism.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="101~114" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D1" spans="278~291" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

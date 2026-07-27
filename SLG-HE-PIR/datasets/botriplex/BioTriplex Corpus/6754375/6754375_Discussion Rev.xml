@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Pancreatic cancer is one of the most lethal diseases in digestive system and ranks as the fourth leading reason of cancer death 17 . Pancreatic cancer is characterized by lack of early diagnosis and poor prognosis and its morbidity is increasing annually worldwide 18 , 19 . Although constant innovation of therapeutic options has been achieved, 5-year survival rate of pancreatic cancer patients remains less than 5% 20 . Hence, it is of great significance to identify molecular targets associated with the development of PAAD.
+Mounting evidence has revealed that lncRNAs participate in biological processes of diverse cancers by chromatin modification and genomic imprinting, transcriptional activation, regulation at post-transcriptional level 21 . For instance, long noncoding RNA DANCR promotes the progression of non-small-cell lung cancer by inhibiting p21 expression 22 . LncRNA MALAT1 binds chromatin remodeling subunit BRG1 to epigenetically promote inflammation-related hepatocellular carcinoma progression 23 . Silencing of DLEU2 suppresses pancreatic cancer cell proliferation and invasion by upregulating miR-455 24 . Searching from TCGA database, we determined that LINC01232 is dysregulated in PAAD samples and had potential to regulate prognosis. Previously, LINC01232 has been reported to be highly expressed in oral carcinoma tissues and associated with the shorter survival rate 25 . However, to our knowledge, the potential of LINC01232 in PAAD progression remains to be further investigated. Our findings testified that high expression of LINC01232 in PAAD cells. Knockdown of LINC01232 hampered cell proliferation, migration, invasion, and EMT whereas boosted cell apoptosis. Thus, we speculated that LINC01232 exerted oncogenic property in PAAD progression.
+TM9SF2 is an evolutionarily conserved transmembrane protein and has been identified as a glycolipid-regulating factor and a novel colorectal cancer oncogene 14 , 26 . However, the function of TM9SF2 in tumorigenesis and progression of PAAD still needs to be delineated. After bioinformatics analysis, we knew that TM9SF2 is the nearby gene of LINC01232. Intriguingly, TM9SF2 was also upregulated in TCGA PAAD samples and positively correlated with LINC01232. Then, we validated that LINC01232 positively regulated the expression of TM9SF2. Mechanistically, lncRNAs can modulate target gene expression via miRNA response elements 27 , 28 . Although LINC01232 was predominantly expressed in cytoplasm, it cannot bind with RISC complex. Thus, LINC01232 regulated TM9SF2 potentially via other mechanisms.
+Based on previous reports, lncRNAs can regulate the mRNA stability of their downstream genes by recruiting RBPs 29 – 32 . In current study, pull-down assay and mass-spectrometry analysis detected the RBPs that could interact with LINC01232. Among which, eukaryotic translation initiation factor 4A3 (EIF4A3), a key exon junction complex component, can cause mRNA decay and regulate protein expression at the translational and post-translational levels 33 , 34 . Moreover, several researches have revealed that EIF4A3 executes carcinogenic properties in glioblastoma and ovarian cancer 35 , 36 . TCGA data presented that upregulated EIF4A3 positively correlated with LINC01232 and TM9SF2 in PAAD samples. Further mechanism investigation revealed that binding of EIF4A3 to TM9SF2 was affected by the expression level of LINC01232. After detection, we determined that the mRNA stability of TM9SF2 was positively regulated by LINC01232/EIF4A3 axis. Hereto, we elucidated that LINC01232 recruited EIF4A3 to stabilize TM9SF2 mRNA. Furthermore, TM9SF2 involved in LINC01232-mediated PAAD progression.
+Since upregulation of LINC01232 and TM9SF2 promoted PAAD progression, we further analyzed whether there are some molecular mechanisms led to the upregulation of LINC01232 and TM9SF2. It is known that transcriptional activation is of great significance for dysregulation of genes. In our present study, we determined that SP1 is a transcription activator for both LINC01232 and TM9SF2. Upregulation of SP1 in PAAD cells induced the overexpression of LINC01232 and TM9SF2. More importantly, SP1 was upregulated in TCGA PAAD samples and correlated with poor patients’ prognosis. To summarize, this study was the first to unveil the role and molecular mechanism of LINC01232, expounding that SP1-induced LINC01232 exerted oncogenic activities in PAAD via recruiting EIF4A3 to upregulate TM9SF2 expression (Fig.  8 ). All these findings may provide a promising molecular target for PAAD treatment. Fig. 8 Graphical abstract illustrated the function and molecular mechanism of LINC01232 in PAAD progression
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="861~864" text="p21" location="background" />
+<GENE id="G1" spans="930~934" text="BRG1" location="background" />
+<GENE id="G2" spans="1783~1789" text="TM9SF2" location="result" />
+<GENE id="G3" spans="1975~1981" text="TM9SF2" location="result" />
+<GENE id="G4" spans="2097~2103" text="TM9SF2" location="result" />
+<GENE id="G5" spans="2151~2157" text="TM9SF2" location="result" />
+<GENE id="G6" spans="2315~2321" text="TM9SF2" location="result" />
+<GENE id="G7" spans="2543~2549" text="TM9SF2" location="result" />
+<GENE id="G8" spans="2884~2890" text="EIF4A3" location="background" />
+<GENE id="G9" spans="3094~3100" text="EIF4A3" location="background" />
+<GENE id="G10" spans="3216~3222" text="EIF4A3" location="result" />
+<GENE id="G11" spans="3576~3582" text="EIF4A3" location="result" />
+<GENE id="G12" spans="3596~3602" text="TM9SF2" location="result" />
+<GENE id="G13" spans="3622~3628" text="TM9SF2" location="result" />
+<GENE id="G14" spans="3714~3720" text="TM9SF2" location="result" />
+<GENE id="G15" spans="3853~3859" text="TM9SF2" location="result" />
+<GENE id="G16" spans="3999~4002" text="SP1" location="result" />
+<GENE id="G17" spans="4055~4061" text="TM9SF2" location="result" />
+<GENE id="G18" spans="4079~4082" text="SP1" location="result" />
+<GENE id="G19" spans="4141~4147" text="TM9SF2" location="result" />
+<GENE id="G20" spans="4167~4170" text="SP1" location="result" />
+<GENE id="G21" spans="4366~4369" text="SP1" location="result" />
+<GENE id="G22" spans="4440~4446" text="EIF4A3" location="result" />
+<GENE id="G23" spans="4461~4467" text="TM9SF2" location="" />
+<DISEASE id="D0" spans="1~18" text="Pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="116~122" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="134~151" text="Pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="371~388" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="524~528" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="820~846" text="non-small-cell lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="982~1006" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1054~1071" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1211~1215" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1331~1345" text="oral carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1462~1466" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1765~1769" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1913~1930" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2018~2022" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2187~2191" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3137~3149" text="glioblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3154~3168" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3274~3278" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3660~3664" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3730~3734" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="4086~4090" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4195~4199" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="4420~4424" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="4555~4559" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="4662~4666" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R2" spans="953~981,1007~1018" text="promote inflammation-related ... progression" location="background" relation="modulator increase disease" />
+<RELATION id="R3" spans="1931~1939" text="oncogene" location="result" relation="causative mutation" />
+<RELATION id="R4" spans="2167~2178" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R5" spans="3101~3133" text="executes carcinogenic properties" location="background" relation="pathological role" />
+<RELATION id="R6" spans="3629~3640,3665~3676" text="involved in ... progression" location="result" relation="modulator increase disease" />
+<RELATION id="R7" spans="3684~3696" text="upregulation" location="result" relation="increased expression" />
+<RELATION id="R8" spans="3721~3729,3735~3746" text="promoted ... progression" location="result" relation="modulator increase disease" />
+<RELATION id="R9" spans="4063~4075" text="Upregulation" location="result" relation="increased expression" />
+<RELATION id="R10" spans="4109~4123" text="overexpression" location="result" relation="increased expression" />
+<RELATION id="R11" spans="4175~4186" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R12" spans="4228~4252" text="poor patients’ prognosis" location="result" relation="negative prognostic marker" />
+<RELATION id="R13" spans="4396~4416" text="oncogenic activities" location="result" relation="pathological role" />
+<RELATION id="R14" spans="4450~4460,4468~4478" text="upregulate ... expression" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="BRG1" diseaseID="D7" diseaseText="hepatocellular carcinoma" relationID="R2" relationText="promote inflammation-related ... progression" />
+<ENTITY_LINKING id="E2" geneID="G5" geneText="TM9SF2" diseaseID="D16" diseaseText="PAAD" relationID="R4" relationText="upregulated" />
+<ENTITY_LINKING id="E3" geneID="G9" geneText="EIF4A3" diseaseID="D17" diseaseText="glioblastoma" relationID="R5" relationText="executes carcinogenic properties" />
+<ENTITY_LINKING id="E4" geneID="G9" geneText="EIF4A3" diseaseID="D18" diseaseText="ovarian cancer" relationID="R5" relationText="executes carcinogenic properties" />
+<ENTITY_LINKING id="E5" geneID="G13" geneText="TM9SF2" diseaseID="D20" diseaseText="PAAD" relationID="R6" relationText="involved in ... progression" />
+<ENTITY_LINKING id="E6" geneID="G14" geneText="TM9SF2" diseaseID="D21" diseaseText="PAAD" relationID="R7" relationText="upregulation" />
+<ENTITY_LINKING id="E7" geneID="G14" geneText="TM9SF2" diseaseID="D21" diseaseText="PAAD" relationID="R8" relationText="promoted ... progression" />
+<ENTITY_LINKING id="E8" geneID="G18" geneText="SP1" diseaseID="D22" diseaseText="PAAD" relationID="R9" relationText="Upregulation" />
+<ENTITY_LINKING id="E9" geneID="G19" geneText="TM9SF2" diseaseID="D22" diseaseText="PAAD" relationID="R10" relationText="overexpression" />
+<ENTITY_LINKING id="E10" geneID="G20" geneText="SP1" diseaseID="D23" diseaseText="PAAD" relationID="R11" relationText="upregulated" />
+<ENTITY_LINKING id="E11" geneID="G20" geneText="SP1" diseaseID="D23" diseaseText="PAAD" relationID="R12" relationText="poor patients’ prognosis" />
+<ENTITY_LINKING id="E12" geneID="G21" geneText="SP1" diseaseID="D24" diseaseText="PAAD" relationID="R13" relationText="oncogenic activities" />
+<ENTITY_LINKING id="E13" geneID="G23" geneText="TM9SF2" diseaseID="D24" diseaseText="PAAD" relationID="R14" relationText="upregulate ... expression" />
+</TAGS>
+</Genomics_ConceptTask>

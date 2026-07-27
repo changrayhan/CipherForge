@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Role of Myostatin in Muscle Degeneration by Random Positioning Machine Exposure: An in vitro Study for the Treatment of Sarcopenia.
+Abstract: Several scientific evidence have shown that exposure to microgravity has a significant impact on the health of the musculoskeletal system by altering the expression of proteins and molecules involved in bone–muscle crosstalk, which is also observed in the research of microgravity effect simulation. Among these, the expression pattern of myostatin appears to play a key role in both load-free muscle damage and the progression of age-related musculoskeletal disorders, such as osteoporosis and sarcopenia. Based on this evidence, we here investigated the efficacy of treatment with anti-myostatin (anti-MSTN) antibodies on primary cultures of human satellite cells exposed to 72 h of random positioning machine (RPM). Cell cultures were obtained from muscle biopsies taken from a total of 30 patients (controls, osteoarthritic, and osteoporotic) during hip arthroplasty. The Pax7 expression by immunofluorescence was carried out for the characterization of satellite cells. We then performed morphological evaluation by light microscopy and immunocytochemical analysis to assess myostatin expression. Our results showed that prolonged RPM exposure not only caused satellite cell death, but also induced changes in myostatin expression levels with group-dependent variations. Surprisingly, we observed that the use of anti-MSTN antibodies induced a significant increase in cell survival after RPM exposure under all experimental conditions. Noteworthy, we found that the negative effect of RPM exposure was counteracted by treatment with anti-MSTN antibodies, which allowed the formation of numerous myotubes. Our results highlight the role of myostatin as a major effector of the cellular degeneration observed with RPM exposure, suggesting it as a potential therapeutic target to slow the muscle mass loss that occurs in the absence of loading.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="16~25" text="Myostatin" location="background" />
+<GENE id="G1" spans="489~498" text="myostatin" location="background" />
+<GENE id="G2" spans="738~747" text="myostatin" location="result" />
+<GENE id="G3" spans="754~758" text="MSTN" location="result" />
+<GENE id="G4" spans="1026~1030" text="Pax7" location="result" />
+<GENE id="G5" spans="1230~1239" text="myostatin" location="result" />
+<GENE id="G6" spans="1365~1374" text="myostatin" location="result" />
+<GENE id="G7" spans="1473~1477" text="MSTN" location="result" />
+<GENE id="G8" spans="1693~1697" text="MSTN" location="result" />
+<GENE id="G9" spans="1794~1803" text="myostatin" location="result" />
+<DISEASE id="D0" spans="628~640" text="osteoporosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="517~528,562~577" text="key role in ... the progression" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="myostatin" diseaseID="D0" diseaseText="osteoporosis" relationID="R0" relationText="key role in ... the progression" />
+</TAGS>
+</Genomics_ConceptTask>

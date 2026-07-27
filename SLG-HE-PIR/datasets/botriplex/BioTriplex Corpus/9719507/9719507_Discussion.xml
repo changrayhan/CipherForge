@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+NF-κB pathway has an indispensable part in the development of innate and adaptive immunity 25 , which are dysregulated in BD 26 . The impact of NF-κB signals in inflammation, neuroprotection, and apoptosis are particularly obvious in the nervous system 27 . NF-κB can also modulate neuronal excitability and susceptibility to excitotoxicity 28 . In addition, pro-inflammatory cytokines which are associated with NF-κB can influence the process of neuroplasticity 28 , 29 . An early study in the postmortem tissue samples of BD patients has demonstrated elevation of NF-κB2 in BD samples. Based on the reported impact of viruses and cytokines on expression of NF-κB2, authors have suggested that up-regulation of NF-κB2 is in line with the contribution of possible environmental factors in the pathogenesis of BD 30 . Subsequently, Rao et al. have demonstrated up-regulation of NF-κB in the BD brain samples consistent with the elevation of various inflammatory cytokines, induction of apoptosis, brain atrophy and cognitive deficits in these patients 31 .
+We have assessed expression levels of NF-κB-related lncRNAs in BD patients and healthy subjects. While  ANRIL ,  CEBPA-DT  and  HNF1-AS1  were significantly under-expressed in BD patients compared with controls,  NKILA  levels were higher in patients versus controls.  ANRIL  has been revealed to regulate inflammatory response as a constituent of NF-κB pathway 13 . We have recently reported association between rs1333048 variants of  ANRIL  and risk of BD I in an Iranian cohort of patients. Moreover, rs1333045 and rs1333048 variants of  ANRIL  have been associated with risk of BD II. Moreover, T A haplotype block (rs1333045 and rs1333048, respectively) has been found to decrease risk of BD I and II, while C C haplotype decreases risk of BD II 32 . Thus, the present study shows further evidence for participation of  ANRIL  in the pathoetiology of BD.
+We have also previously reported up-regulation of  HNF1A-AS1  in patients with schizophrenia compared with controls 24 . Thus, this lncRNA might influence pathogenesis BD and schizophrenia in different directions.
+Among differentially expressed genes,  HFN1A-AS1  exhibited the best diagnostic parameters in separation of patients from controls, potentiating this lncRNA as a possible biomarker for BD.
+We also reported correlations between expression levels of these lncRNAs in both patient and control groups, providing evidence for our hypothesis regarding association between these lncRNAs and NF-κB. However, expression of none of lncRNAs was associated with clinical and demographic data of BD patients. Our study has limitations regarding sample size, lack of drug-naïve patients, lack of access to HAM-D and YMRS scores, unavailability of history of drugs other than antipsychotic drugs, lack of functional studies and verification of the obtained results with other techniques. Expression of genes might be affected by administration of carbamazepine. The small sample size might affect the significance of obtained data. Finally, functional studies are needed to find the mechanistical points about contribution of mentioned genes to the pathogenesis of BD.
+Taken together, this study provides evidence for participation of NF-κB-associated lncRNAs in BD and warrants additional functional studies. Future studies involving patients in different phases (i.e., mania, depression) should be performed in order to evaluate whether the lncRNA changes are independent of the disease phase. Moreover, based on the literature-based approach that was used for selection of mentioned lncRNAs, we just can conclude functional interactions between these lncRNAs and NF-κB signaling, possibly downstream or upstream of this pathway. Further assays should find their exact role on the activity of NF-κB signaling.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="145~150" text="NF-κB" location="background" />
+<GENE id="G1" spans="259~264" text="NF-κB" location="background" />
+<GENE id="G2" spans="413~418" text="NF-κB" location="background" />
+<GENE id="G4" spans="567~573" text="NF-κB2" location="background" />
+<GENE id="G5" spans="660~666" text="NF-κB2" location="background" />
+<GENE id="G6" spans="713~719" text="NF-κB2" location="background" />
+<GENE id="G7" spans="878~883" text="NF-κB" location="background" />
+<GENE id="G8" spans="1095~1100" text="NF-κB" location="result" />
+<GENE id="G9" spans="2515~2520" text="NF-κB" location="result" />
+<GENE id="G10" spans="3251~3256" text="NF-κB" location="result" />
+<GENE id="G11" spans="3682~3687" text="NF-κB" location="result" />
+<GENE id="G12" spans="3811~3816" text="NF-κB" location="result" />
+<DISEASE id="D0" spans="123~125" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="525~527" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="577~579" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="810~812" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="891~893" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="1120~1122" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="1233~1235" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="1512~1514" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="1639~1644" text="BD II" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D9" spans="1751~1755" text="BD I" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D10" spans="1751~1753,1760~1762" text="BD ... II" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D11" spans="1802~1807" text="BD II" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D12" spans="1913~1915" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D13" spans="1996~2009" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D14" spans="2085~2087" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D15" spans="2092~2105" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D16" spans="2316~2318" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D18" spans="2614~2616" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D19" spans="3181~3183" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D20" spans="3279~3281" text="BD" location="result" disease1="disease of mental health" disease2="-" />
+<RELATION id="R0" spans="554~563" text="elevation" location="background" relation="increased expression" />
+<RELATION id="R1" spans="696~709" text="up-regulation" location="background" relation="increased expression" />
+<RELATION id="R2" spans="861~874" text="up-regulation" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G4" geneText="NF-κB2" diseaseID="D1" diseaseText="BD" relationID="R0" relationText="elevation" />
+<ENTITY_LINKING id="E1" geneID="G6" geneText="NF-κB2" diseaseID="D3" diseaseText="BD" relationID="R1" relationText="up-regulation" />
+<ENTITY_LINKING id="E2" geneID="G7" geneText="NF-κB" diseaseID="D4" diseaseText="BD" relationID="R2" relationText="up-regulation" />
+</TAGS>
+</Genomics_ConceptTask>

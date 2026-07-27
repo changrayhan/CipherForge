@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Our comprehensive examination of associations between polymorphisms in the immunosuppression pathway genes and breast cancer risk revealed that  STAT3 ,  IL5,  and  GM - CSF  may play a role in overall breast cancer susceptibility among women of European ancestry.
+The in silico functional analysis revealed that within a ±50 kb window of  STAT3 , several polymorphisms are located in regulatory regions that could actively affect DNA transcription (Fig.  3 ). The SNP rs181888151, which is in complete LD with rs146170568 ( r 2  = 1) but independent of rs1905339 ( r 2  = 0.01, Fig.  1 ) was significantly associated with increased risk for overall breast cancer (per allele OR 1.31, 95 % CI 1.16–1.49,  p  value = 2.8 × 10 −5 ). Together with a further independently associated imputed SNP rs141732716, these polymorphisms reside in strong DNase I hypersensitivity and transcription regulatory sites (Fig.  3 ). This suggests that they may be functional polymorphisms, but further experimental work is required for confirmation. Fig. 3 STAT3/PTRF  region. The UCSC genome browser graphic shows functional annotations for the SNPs rs1905339 ( red ), correlated SNPs ( r 
+ 2  > 0.80,  green ), as well as the other independent imputed SNPs ( black ) in or near the  STAT3/PTRF  region UCSC genome browser graphic for SNPs at the 
+  encodes the signal transducer and activator of transcription 3, which is a member of the STAT protein family. Activated by corresponding cytokines or growth factors, STAT3 can be phosphorylated and translocate into the cell nucleus, acting as a transcription activator. In addition, STAT3 plays a key role in regulating immune response in the tumor microenvironment (Yu et al.  2009 ). STAT3 signaling is required for immunosuppressive and tumor-promoting functions of MDSCs (Cheng et al.  2003 ,  2008 ; Kortylewski et al.  2005 ,  2009 ; Kujawski et al.  2008 ; Ostrand-Rosenberg and Sinha  2009 ; Yu et al.  2009 ), as well as for Treg cell expansion (Kortylewski et al.  2005 ,  2009 ; Matsumura et al.  2007 ).  STAT3  has been reported in several previous genome-wide association studies (GWAS) to be associated with immune relevant diseases such as Crohn’s disease (Barrett et al.  2008 ; Franke et al.  2008 ; Yamazaki et al.  2013 ), inflammatory bowel disease (Jostins et al.  2012 ), and multiple sclerosis (Jakkula et al.  2010 ; Patsopoulos et al.  2011 ; Sawcer et al.  2011 ). Additionally, expression of  STAT3  was suggested to be enriched in triple-negative breast cancer, and negatively associated with lymph node involvement and breast tumor stage in a study based on an in silico network approach (Liu et al.  2012b ). However, the association of rs1905339 with triple-negative breast cancer risk in our study (N triple-negative breast cancer = 2600) was similar and not stronger compared to the association observed for overall breast cancer risk (per allele OR 1.06, 95 % CI 0.99–1.14,  p  value = 0.11).
+The genotyped SNP rs1905339 is also located at 7 kb 5′ of  PTRF,  which encodes the polymerase I and transcript release factor, and is not known to be directly involved in immunosuppression. In addition, two independently associated imputed SNPs rs8074296 and rs12952342 ( r 2  = 0.99 and 0 with rs1905339, respectively, Fig.  1 ) are located at 8 kb 5′ and 0.8 kb 3′ of  PTRF , respectively (Fig.  3 ). PTRF is known to contribute to the formation of caveolae, small membrane caves involved in cell signaling, lipid regulation, and endocytosis (Chadda and Mayor  2008 ). Recently, down-regulation of  PTRF  was observed in breast cancer cell lines and breast tumor tissue, suggesting that PTRF expression might be an indicator for breast cancer progression (Bai et al.  2012 ). The SNPs rs1905339 and rs8074296 were also found to be eQTL for  TUBG2  (tubulin, gamma 2) in the GTEx database, the expression of  TUBG2  decreased with each variant allele (Online Resources 30 and 31, respectively).  TUBG2  encodes γ-tubulin, a protein required for the formation and polar orientation of microtubules in cells. It is currently unknown, whether  TUBG2  plays a role in breast cancer development or progression.
+The other two potential susceptibility loci,  IL5  and  GM - CSF,  are both located in a known cytokine gene cluster at 5q31.  IL5  encodes interleukin 5, a cytokine secreted by CD4+ T helper 2 cells (Mills  2004 ; Parker  1993 ). IL5 is a growth and differentiation factor for both B cells and eosinophils, triggering eosinophil- and B cell-dependent immune response (Mills  2004 ; Parker  1993 ).  GM - CSF  encodes granulocyte–macrophage colony stimulating factor, a cytokine that controls differentiation and function of granulocytes and macrophages. GM-CSF is also a MDSC- inducing and activating factor in the bone marrow (Ostrand-Rosenberg and Sinha  2009 ; Serafini et al.  2004 ). In the tumor microenvironment, GM-CSF is the cytokine for dendritic cell differentiation and function, and it is often found to be underexpressed (Zou  2005 ). Additionally, 5q31 has been found to be a susceptibility locus for rheumatoid arthritis (Okada et al.  2012 ,  2014 ) and inflammatory bowel disease (Jostins et al.  2012 ).
+Immunosuppression is a complex network with plenty of contributors, including transcription factors (e.g., STAT3), as well as immune mediating cytokines (e.g., IL5 and GM-CSF). Results of this analysis indicate that genetic variation in different components of the immunosuppression pathway may be susceptibility loci of breast cancer among women of European ancestry.
+The main strengths of the present analysis were its large sample size, the uniform genotyping procedures and centralized quality controls used. The imputation of genotypes in the most interesting susceptibility loci provided an opportunity to identify more strongly associated variants. Assessments of gene-level associations also provided evidence for additional putative susceptibility loci. A limitation was the lack of an independent sample to replicate the observed associations; this will be feasible in the future using new studies participating in the BCAC. Further functional studies are still needed to identify causal variants and to investigate the underlying biological mechanisms.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="146~151" text="STAT3" location="result" />
+<GENE id="G1" spans="155~158" text="IL5" location="result" />
+<GENE id="G2" spans="166~174" text="GM - CSF" location="result" />
+<GENE id="G3" spans="1039~1044" text="STAT3" location="result" />
+<GENE id="G4" spans="1267~1272" text="STAT3" location="result" />
+<GENE id="G5" spans="1345~1395" text="signal transducer and activator of transcription 3" location="background" />
+<GENE id="G6" spans="1499~1504" text="STAT3" location="background" />
+<GENE id="G7" spans="1616~1621" text="STAT3" location="background" />
+<GENE id="G8" spans="1719~1724" text="STAT3" location="background" />
+<GENE id="G9" spans="2050~2055" text="STAT3" location="background" />
+<GENE id="G10" spans="2454~2459" text="STAT3" location="background" />
+<GENE id="G11" spans="341~346" text="STAT3" location="result" />
+<GENE id="G12" spans="1045~1049" text="PTRF" location="result" />
+<GENE id="G13" spans="1273~1277" text="PTRF" location="result" />
+<GENE id="G14" spans="3020~3024" text="PTRF" location="result" />
+<GENE id="G15" spans="3045~3087" text="polymerase I and transcript release factor" location="result" />
+<GENE id="G16" spans="3333~3337" text="PTRF" location="result" />
+<GENE id="G17" spans="3365~3369" text="PTRF" location="background" />
+<GENE id="G18" spans="3563~3567" text="PTRF" location="background" />
+<GENE id="G19" spans="3651~3655" text="PTRF" location="background" />
+<GENE id="G20" spans="3805~3810" text="TUBG2" location="result" />
+<GENE id="G21" spans="3813~3829" text="tubulin, gamma 2" location="result" />
+<GENE id="G22" spans="3872~3877" text="TUBG2" location="result" />
+<GENE id="G23" spans="3959~3964" text="TUBG2" location="result" />
+<GENE id="G24" spans="3974~3983" text="γ-tubulin" location="result" />
+<GENE id="G25" spans="4104~4109" text="TUBG2" location="result" />
+<GENE id="G26" spans="4215~4218" text="IL5" location="result" />
+<GENE id="G27" spans="4225~4233" text="GM - CSF" location="result" />
+<GENE id="G28" spans="4296~4299" text="IL5" location="background" />
+<GENE id="G29" spans="4309~4322" text="interleukin 5" location="background" />
+<GENE id="G30" spans="4347~4350" text="CD4" location="background" />
+<GENE id="G31" spans="4400~4403" text="IL5" location="background" />
+<GENE id="G32" spans="4569~4577" text="GM - CSF" location="background" />
+<GENE id="G33" spans="4587~4635" text="granulocyte–macrophage colony stimulating factor" location="background" />
+<GENE id="G34" spans="4724~4730" text="GM-CSF" location="background" />
+<GENE id="G35" spans="4890~4896" text="GM-CSF" location="background" />
+<GENE id="G36" spans="5300~5305" text="STAT3" location="background" />
+<GENE id="G37" spans="5353~5356" text="IL5" location="background" />
+<GENE id="G38" spans="5361~5367" text="GM-CSF" location="background" />
+<DISEASE id="D0" spans="112~125" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="203~216" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="651~664" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="2189~2204" text="Crohn’s disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2276~2302" text="inflammatory bowel disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2332~2350" text="multiple sclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2509~2522" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2732~2745" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2783~2796" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2883~2896" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="3585~3598" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3693~3706" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="4127~4140" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="5086~5106" text="rheumatoid arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="5141~5167" text="inflammatory bowel disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="5514~5527" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="195~202,217~231" text="overall ... susceptibility" location="result" relation="genetic susceptibility" />
+<RELATION id="R1" spans="2140~2155" text="associated with" location="background" relation="relation undefined" />
+<RELATION id="R3" spans="3543~3558" text="down-regulation" location="background" relation="decreased expression" />
+<RELATION id="R4" spans="4111~4126,4141~4152" text="plays a role in ... development" location="background" relation="pathological role" />
+<RELATION id="R2" spans="2439~2449,2481~2489" text="expression ... enriched" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="STAT3" diseaseID="D1" diseaseText="breast cancer" relationID="R0" relationText="overall ... susceptibility" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="IL5" diseaseID="D1" diseaseText="breast cancer" relationID="R0" relationText="overall ... susceptibility" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="GM - CSF" diseaseID="D1" diseaseText="breast cancer" relationID="R0" relationText="overall ... susceptibility" />
+<ENTITY_LINKING id="E3" geneID="G9" geneText="STAT3" diseaseID="D3" diseaseText="Crohn’s disease" relationID="R1" relationText="associated with" />
+<ENTITY_LINKING id="E4" geneID="G9" geneText="STAT3" diseaseID="D4" diseaseText="inflammatory bowel disease" relationID="R1" relationText="associated with" />
+<ENTITY_LINKING id="E5" geneID="G9" geneText="STAT3" diseaseID="D5" diseaseText="multiple sclerosis" relationID="R1" relationText="associated with" />
+<ENTITY_LINKING id="E6" geneID="G10" geneText="STAT3" diseaseID="D6" diseaseText="breast cancer" relationID="R2" relationText="expression ... enriched" />
+<ENTITY_LINKING id="E7" geneID="G18" geneText="PTRF" diseaseID="D11" diseaseText="breast cancer" relationID="R3" relationText="down-regulation" />
+<ENTITY_LINKING id="E8" geneID="G25" geneText="TUBG2" diseaseID="D13" diseaseText="breast cancer" relationID="R4" relationText="plays a role in ... development" />
+</TAGS>
+</Genomics_ConceptTask>

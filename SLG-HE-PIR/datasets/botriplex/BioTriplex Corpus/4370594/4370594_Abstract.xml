@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Personalized oncogenomics: clinical experience with malignant peritoneal mesothelioma using whole genome sequencing.
+Abstract: Peritoneal mesothelioma is a rare and sometimes lethal malignancy that presents a clinical challenge for both diagnosis and management. Recent studies have led to a better understanding of the molecular biology of peritoneal mesothelioma. Translation of the emerging data into better treatments and outcome is needed. From two patients with peritoneal mesothelioma, we derived whole genome sequences, RNA expression profiles, and targeted deep sequencing data. Molecular data were made available for translation into a clinical treatment plan. Treatment responses and outcomes were later examined in the context of molecular findings. Molecular studies presented here provide the first reported whole genome sequences of peritoneal mesothelioma. Mutations in known mesothelioma-related genes  NF2 ,  CDKN2A ,  LATS2 , amongst others, were identified. Activation of  MET -related signaling pathways was demonstrated in both cases. A hypermutated phenotype was observed in one case (434 vs. 18 single nucleotide variants) and was associated with a favourable outcome despite sarcomatoid histology and multifocal disease. This study represents the first report of whole genome analyses of peritoneal mesothelioma, a key step in the understanding and treatment of this disease.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="928~931" text="NF2" location="result" />
+<GENE id="G1" spans="935~941" text="CDKN2A" location="result" />
+<GENE id="G2" spans="945~950" text="LATS2" location="result" />
+<DISEASE id="D0" spans="70~93" text="peritoneal mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="135~158" text="Peritoneal mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="349~372" text="peritoneal mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="476~499" text="peritoneal mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="856~879" text="peritoneal mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="900~912" text="mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="1321~1344" text="peritoneal mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

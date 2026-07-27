@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: MT2A is an early predictive biomarker of response to chemotherapy and a potential therapeutic target in osteosarcoma.
+Abstract: Osteosarcoma is the most prevalent primary bone malignancy in children and young adults. Resistance to chemotherapy remains a key challenge for effective treatment of patients with osteosarcoma. The aim of the present study was to investigate the preventive role of metallothionein-2A (MT2A) in response to cytotoxic effects of chemotherapy. A panel of human and murine osteosarcoma cell lines, modified for MT2A were evaluated for cell viability, and motility (wound healing assay). Cell-derived xenograft models were established in mice. FFPE tumour samples were assessed by IHC.  In vitro  experiments indicated a positive correlation between half-maximal inhibitory concentration (IC50) for drugs in clinical practice, and MT2A mRNA level. This reinforced our previously reported correlation between MT2A mRNA level in tumour samples at diagnosis and overall survival in patients with osteosarcoma. In addition, MT2A/MT2 silencing using shRNA strategy led to a marked reduction of IC50 values and to enhanced cytotoxic effect of chemotherapy on primary tumour. Our results show that MT2A level could be used as a predictive biomarker of resistance to chemotherapy, and provide with preclinical rational for MT2A targeting as a therapeutic strategy for enhancing anti-tumour treatment of innate chemo-resistant osteosarcoma cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="MT2A" location="result" />
+<GENE id="G1" spans="402~420" text="metallothionein-2A" location="result" />
+<GENE id="G2" spans="422~426" text="MT2A" location="result" />
+<GENE id="G3" spans="863~867" text="MT2A" location="result" />
+<GENE id="G4" spans="940~944" text="MT2A" location="result" />
+<GENE id="G5" spans="1052~1056" text="MT2A" location="result" />
+<GENE id="G6" spans="1057~1060" text="MT2" location="result" />
+<GENE id="G7" spans="1223~1227" text="MT2A" location="result" />
+<GENE id="G8" spans="1347~1351" text="MT2A" location="result" />
+<DISEASE id="D0" spans="112~124" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="136~148" text="Osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="317~329" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="506~518" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1025~1037" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1450~1462" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="90~108" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R2" spans="1367~1387" text="therapeutic strategy" location="result" relation="therapeutic target" />
+<RELATION id="R3" spans="25~45" text="predictive biomarker" location="result" relation="prognostic indicator" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="MT2A" diseaseID="D0" diseaseText="osteosarcoma" relationID="R1" relationText="therapeutic target" />
+<ENTITY_LINKING id="E2" geneID="G8" geneText="MT2A" diseaseID="D5" diseaseText="osteosarcoma" relationID="R2" relationText="therapeutic strategy" />
+<ENTITY_LINKING id="E3" geneID="G0" geneText="MT2A" diseaseID="D0" diseaseText="osteosarcoma" relationID="R3" relationText="predictive biomarker" />
+</TAGS>
+</Genomics_ConceptTask>

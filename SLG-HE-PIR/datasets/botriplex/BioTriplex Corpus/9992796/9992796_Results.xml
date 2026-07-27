@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Establishment of LPS-induced AOM in rats
+To verify the successful establishment of LPS-induced AOM in a rat model, we observed the tympanic membrane by otoscopy and the histologic sections by H&E staining. As shown in  Figures 1A–E , the tympanic membrane of the normal control group was transparent, and there were no signs of an inflammatory reaction; however, the LPS-treated group showed an inflammatory response at 2 days after LPS treatment, and the inflammation disappeared after 7 days. The ME mucosal thickness was significantly increased on the first day after LPS treatment and recovered after 7 days ( Figures 1F–O ).
+Reduction of ME mucosal thickness by red/NIR LED irradiation
+To investigate the therapeutic effect of the red/NIR LED on LPS-induced AOM, rats were irradiated through the ear canal using the red/NIR LED with wavelengths of 655 nm and 842 nm and an intensity of 102 mW/m 2  for 3 days after LPS injection. As shown in  Figures 2A–C , otoscopy revealed that red/NIR LED irradiation reduced the LPS-induced inflammation of the tympanic membrane. In comparison with the control group, the ME mucosal thickness of the LPS-treated group with OM was much thicker with increased inflammatory cell deposits ( Figures 2D–I ). Compared with the control group, higher degree of MPO positive cell infiltration was observed in the LPS-treated group with OM ( Figures 2J–L ). The ME mucosal thickness of the control group was 21.5 ± 3.53 μm, which was increased to 102.2 ± 17.81 μm in the LPS-treated OM group. On the other hand, the ME mucosal thickness was significantly reduced to 40.7 ± 8.82 μm in the red/NIR LED-irradiated OM group ( Figure 2M ). The number of MPO positive neutrophils was significantly decreased in the red/NIR LED-irradiated OM group ( Figure 2N ). The results indicated that LPS induced AOM in the rats, and the increase in the ME mucosal thickness and inflammatory cell deposits was markedly reversed by red/NIR LED irradiation.
+Reduced expression of pro-inflammatory cytokines in rats with LPS-induced AOM following red/NIR LED irradiation
+To investigate the in vivo effects of red/NIR LED irradiation on LPS-induced AOM in rats, we designed an experiment as shown in  Figure 3A . The inflammatory response is known to be crucial in ME damage under various conditions, such as bacterial exposure ( Ferenbach et al., 2007 ). Therefore, we attempted to examine whether OM amelioration by the red/NIR LED is associated with inflammation suppression and analyzed the expression of pro-inflammatory cytokines by western blotting and ELISA in the tympanic bullae obtained from rats after LPS treatment. The results showed that the increase in inflammation of the tympanic membrane was markedly reduced by LED irradiation ( Figures 3B–D ), and the protein expression of the pro-inflammatory cytokines IL-1β, IL-6, and TNF-α, which was increased by LPS, was significantly decreased by LED irradiation ( Figure 3E ). ELISA results were consistent with those of western blotting ( Figures 3F–H ). OM is associated with ROS levels, and ROS is associated with mitogen-activated protein kinase (MAPK) signaling. Therefore, we subsequently investigated whether MAPK signaling is inhibited by LED irradiation. The phosphorylation of ERK, p38, and JNK, which was increased in the ME tissue of rats after LPS treatment, was inhibited by LED irradiation ( Figure 3I ). The results demonstrated the efficacy of red/NIR LED irradiation in inhibiting pro-inflammatory cytokine expression induced by LPS, and the inhibition was highly correlated with the suppression of the MAPK signaling pathway.
+Reduced expression of inflammatory cytokines in HMEECs and RAW 264.7 cells following red/NIR LED irradiation
+We examined the in vitro effect of red/NIR LED irradiation on the expression of pro-inflammatory cytokines. The HMEEC line has been widely used in OM studies; thus, we used this cell line to investigate the effect of LED irradiation on LPS-induced cytokine elevation. The experimental design for LED irradiation with HMEECs is illustrated in  Figure 4A . We first confirmed the cell viability of HMEECs after LED irradiation. The number of viable cells did not show any difference over time in the LED-irradiated group compared with the control group ( Figures 4B–G ). As shown in  Figures 4H–J , IL-1β, IL-6, and TNF-α mRNA levels were significantly increased with LPS stimulation at 50 μg/ml for 3 h, which were greatly reduced by LED irradiation in HMEECs. Furthermore, western blot results revealed that the expression levels of IL-1β, IL-6, and TNF-α were increased by LPS exposure, and this upregulation was reversed by LED irradiation in HMEECs ( Figure 4K ). Additionally, the concentrations of IL-1β, IL-6, and TNF-α were determined by ELISA, which were consistent with the western blot results ( Figures 4L–N ). The phosphorylation of ERK, p38, and JNK, which was increased after LPS stimulation, was inhibited by LED irradiation in HMEECs ( Figure 4O ). Important inflammatory mediators in OM are produced by infiltrating immune cells such as macrophages ( Juhn et al., 2008 ). LPS can induce various inflammatory mediators and stimulate local macrophages to produce soluble mediators including IL-1β, IL-6, and TNF-α. Therefore, we investigated the effect of red/NIR LED irradiation on the expression of pro-inflammatory cytokines in RAW 264.7 cells, a mouse macrophage cell line. The experimental design for RAW 264.7 cells was similar to that for HMEECs, as shown in  Figure 5A . LED irradiation showed no cytotoxicity towards RAW 264.7 cells ( Figures 5B–G ). Likewise, the mRNA and protein expression levels of IL-1β, IL-6, and TNF-α, which were increased by LPS treatment, were markedly inhibited by LED irradiation in RAW 264.7 cells ( Figures 5H–N ). Moreover, the phosphorylation of ERK, JNK, and p38, which was increased by LPS, was attenuated by LED irradiation in RAW 264.7 cells ( Figure 5O ). These results indicated that red/NIR LED irradiation suppressed the expression of pro-inflammatory cytokines induced by LPS in the macrophage cell line RAW 264.7 through the blockade of MAPK signaling. Overall, our study demonstrated that red/NIR LED irradiation effectively suppressed inflammation caused by OM. Moreover, red/NIR LED irradiation reduced pro-inflammatory cytokine production in HMEECs and RAW 264.7 cells by blocking MAPK signaling ( Figure 6 ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2838~2843" text="IL-1β" location="result" />
+<GENE id="G1" spans="2845~2849" text="IL-6" location="result" />
+<GENE id="G2" spans="2855~2860" text="TNF-α" location="result" />
+<GENE id="G3" spans="3262~3265" text="ERK" location="result" />
+<GENE id="G4" spans="3267~3270" text="p38" location="result" />
+<GENE id="G5" spans="3276~3279" text="JNK" location="result" />
+<GENE id="G6" spans="4326~4331" text="IL-1β" location="result" />
+<GENE id="G7" spans="4333~4337" text="IL-6" location="result" />
+<GENE id="G8" spans="4343~4348" text="TNF-α" location="result" />
+<GENE id="G9" spans="4562~4567" text="IL-1β" location="result" />
+<GENE id="G10" spans="4569~4573" text="IL-6" location="result" />
+<GENE id="G11" spans="4579~4584" text="TNF-α" location="result" />
+<GENE id="G12" spans="4732~4737" text="IL-1β" location="result" />
+<GENE id="G13" spans="4739~4743" text="IL-6" location="result" />
+<GENE id="G14" spans="4749~4754" text="TNF-α" location="result" />
+<GENE id="G15" spans="4874~4877" text="ERK" location="result" />
+<GENE id="G16" spans="4879~4882" text="p38" location="result" />
+<GENE id="G17" spans="4888~4891" text="JNK" location="result" />
+<GENE id="G18" spans="5235~5240" text="IL-1β" location="result" />
+<GENE id="G19" spans="5242~5246" text="IL-6" location="result" />
+<GENE id="G20" spans="5252~5257" text="TNF-α" location="result" />
+<GENE id="G21" spans="5656~5661" text="IL-1β" location="result" />
+<GENE id="G22" spans="5663~5667" text="IL-6" location="result" />
+<GENE id="G23" spans="5673~5678" text="TNF-α" location="result" />
+<GENE id="G24" spans="5832~5835" text="ERK" location="result" />
+<GENE id="G25" spans="5837~5840" text="JNK" location="result" />
+<GENE id="G26" spans="5846~5849" text="p38" location="result" />
+<DISEASE id="D0" spans="1167~1169" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1371~1373" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1517~1519" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1645~1647" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1766~1768" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2411~2413" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="3031~3033" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="3876~3878" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="5030~5032" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="6256~6258" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

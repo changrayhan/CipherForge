@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Data sources and search strategies
+We comprehensively searched publications related to NDDS for PC in the WOSCC database from 2003 to 2022 (as of September 8).Reasonable use of wildcards makes retrieval strategies more organized and scientific ( Cheng et al., 2022a ;  Cheng et al., 2022b ). The retrieval strategy of this study was as follows: [TS=((Nanoparticle* OR Nanocrystalline Material* OR Nanocrystal* OR Nano Particle*) AND (Drug Delivery System* OR Drug Targeting* OR Drug Delivery))] AND [TS=((Pancreas OR Pancreatic) NEAR/1 (cancer* OR tumo$r* OR neoplasm* OR carcinoma* OR oncology))]. Only English language publications were included; the data category was limited to “article” and “review”. After excluding the publications that meet the language and article type requirements, further, we evaluated the title and abstract articles to determine whether the literature meets the theme of NDDs for PC. For the uncertain literature, the full text was downloaded and evaluated in more detail.  Figure 1  showed the research flow chart.
+Bibliometric analysis
+CiteSpace (6.1.R3) was used to analyze the included literature, including co-citation analysis performed on countries/regions and institutions, dual-map overlay of citations, timeline view, co-cited references analysis, and references with the strongest citation burst.
+VOSviewer (1.6.16) was used to visualize the co-citation network of authors and journals, and the co-occurrence of keywords. In the visual map, different nodes represented authors, journals, or keywords, etc; The node size indicated numbers or frequency; The thickness of the line represented the strength of the link; The colors of nodes represented different clusters or times.
+R-Bibliometrix was used to analyze the theme evolution based on keywords over time, visualize the cooperation network between countries, and make a descriptive analysis of the publishing characteristics of journals. In addition, we used R software and R-Bibliometrix to generate the distribution map of high-frequency keywords over time.
+Moreover, the scientometric online platform ( https://bibliometric.com/ ) was used to conduct international cooperation networks between countries.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="97~99" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="538~544" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="912~914" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

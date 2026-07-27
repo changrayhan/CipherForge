@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The Role of Technological Developments in Understanding Immunology and Immunodeficiency
+The application of new technologies to basic research and clinical investigations has greatly improved biochemical and molecular analyses of cellular physiology and identified defects in these processes that underpin human disease. Thus, technological advances have enabled not only fundamental discoveries of basic immunology, but also a greater understanding of disease pathogenesis, rapid diagnoses of these conditions as well as providing opportunities for the development and/or implementation of improved therapies. Great examples of this can be found in the fields of clinical immunology and immunodeficiency.
+Using electrophoretic analysis of serum from a young boy with severe and recurrent bacterial infections led to the discovery by Col Ogden Bruton of the first case of agammaglobulinemia ( 1 ). Importantly, treating this patient with monthly subcutaneous infusions of concentrated human immune serum globulin prevented further infections ( 1 ). These observations established that agammaglobulinemia caused this patient's recurrent infections, and that the gammaglobulin fraction of serum contained antibodies capable of prophylactically preventing infection. Critically, this finding in a single patient—which pre-dated the discovery of B cells by more than a decade ( 2 )—led to the identification 40 years later that mutations in  BTK , encoding Bruton's tyrosine kinase, cause X-linked agammaglobulinemia (XLA) ( 3 ).
+Extending this work by Bruton, the advent of serological reagents capable of reacting with specific lymphocyte subsets—such as polyclonal antisera raised against surface Ig molecules—enabled the identification of B cells in the peripheral blood of healthy individuals, and the absence of Ig-expressing cells in XLA ( 4 – 7 ). Importantly, XLA patients were found to have near-normal frequencies of precursor B cells in their bone marrow (BM), the site of B-cell development ( 8 ), establishing that the very early—but not later—stages of B-cell development were intact in XLA patients. Similarly, advances in techniques to fractionate human peripheral blood leukocyte subsets by density gradient centrifugation allowed the isolation of populations enriched for B cells, T cells and monocytes. This elegant approach also revealed a stark paucity of B cells in XLA ( 9 ). These analytical approaches demonstrating an absence of peripheral blood Ig-expressing B cells in XLA patients provided a clear explanation for their agammaglobulinemia.
+These serological studies using anti-Ig not only defined B cells as the cellular deficiency in XLA, but also gave greater clarity to other immune deficient conditions. For instance, investigation of X-linked or autosomal recessive (AR) severe combined immunodeficiency (SCID) revealed that, despite persistent lymphopenia and hypogammaglobulinemia, the majority (>90%) of lymphocytes in these individuals were actually B cells ( 7 ,  10 ). This established that these conditions were likely due to a deficiency of T cells, thus defining T − B +  SCID. Likewise, studies of males who were hypo- or agammaglobulinemic but had normal frequencies of B cells, along with T cells, delineated an X-linked PID distinct from XLA that probably represented X-linked hyper-IgM syndrome ( 6 ,  7 ).
+Monoclonal Abs Enabled Further Delineation, and Prognosis, of Immunodeficiencies
+The ability to generate immortalized cells lines (hybridomas) producing monoclonal Abs (mAbs) with defined and distinct specificities ( 11 ) led to quantum leaps in basic and clinical immunology. Thus, it quickly became possible to identify immune cell populations and subsets not only according to the differential expression of surface Ig, but also by the presence, or absence of other cell surface molecules. By using mAbs against surface markers that are coordinately expressed during B-cell development, it was found that the very few B cells present in the circulation of XLA patients resembled immature B cells in BM and were distinct from mature B cells in the peripheral blood of healthy donors ( 12 ). This finding was critical in identifying the stage at which B cell development is blocked by inactivating mutations in  BTK  ( 3 ).
+This approach of studying immune cell subsets by immunofluorescent microscopy was also critical in understanding pathophysiology of HIV infection and subsequent progression to AIDS. Here, a reduction in the number of peripheral blood CD4 +  T cells, and a corresponding inversion of the CD4:CD8 T cell ratio, became a defining clinical characteristic of individuals infected with HIV ( 13 – 16 ). Furthermore, the steady decline in numbers of CD4 +  T cells in HIV infection became predictive of progression to full blown AIDS, revealing the need to longitudinally track CD4 +  T cells as a biomarker of disease progression following HIV infection ( 16 ,  17 ).
+Flow Cytometry Revolutionized Immunology and the Study of Immunodeficiencies
+While methodologies such as density gradient centrifugation and immunofluorescent microscopy advanced our understanding of basic immunology and disease, they were laborious and often lacked the level of sensitivity and quantitation required to make definitive interpretations of the data. By simultaneously enabling the rapid analysis of large numbers of immune cells, flow cytometry has had a profound impact on immunology ( 18 ), including its application to the study of primary and acquired immunodeficiencies.
+It became possible to quickly assess the status of CD4 +  T cells in HIV infection ( 17 ), accurately define the stages and phenotypes of B cell development in human BM and how mutations in genes such as  BTK, BLNK, IGHM, IGLL1, CD79A, CD79B, PIK3R1 , and  TCF3  differentially affect this process ( 3 ,  19 ,  20 ), and delineate distinct types of SCID due to different gene mutations according to the presence and absence of specific lymphocyte populations, such as B + T − NK –  SCID ( IL2RG, JAK3 ), B − T − NK +  SCID ( RAG1, RAG2 ), B + T − NK +  SCID ( IL7RA ), or B − T − NK −  SCID ( ADA ) ( 20 ,  21 ).
+The discoveries of surface molecules that are induced on activated lymphocytes, or distinguish discrete subsets of T and B cells, also led to major advances in the discovery, diagnosis, management, and classification of PIDs ( 20 ). Thus, males with X-linked hyper IgM syndrome could be identified by the inability of their CD4 +  T cells to upregulate expression of functional CD40L following anti-CD3/CD28 or PMA/ionomycin-mediated activation ( 22 ,  23 ). Common variable immunodeficiency (CVID) due to  ICOS  mutations was discovered by the identification of a small number of patients whose T cells lacked ICOS expression following  in vitro  stimulation ( 24 ). The finding that CD27 is expressed on human memory, but not naïve, B cells ( 25 ,  26 ) enabled an entirely new stratification system of CVID that could reliably classify patients with various pathologies ( 27 ,  28 ).
+We have also exploited this finding, together with the availability of patients with PIDs, to identify non-redundant molecular and cellular requirements for the generation and/or maintenance of memory B cells in humans. Thus, mutations that disrupt (i) CD4 +  T cell/B cell interactions and thus delivery of CD4 +  T cell-mediated B cell help (e.g., loss of function [LOF]  CD40L, ICOS, CD40, NEMO, SH2D1A, RLTPR  [ CARMIL2], CD27 / CD70 ), (ii) cytokine signaling particularly through IL-21 and STAT3 (i.e.,  IL21, IL21R, IL2RG, ZNF341, IL10R  LOF;  STAT3  dominant negative [DN];  STAT1  gain of function [GOF]), or (iii) other intracellular signaling pathways ( STK4, DOCK8, SP110  LOF;  PIK3CD  GOF) all reduce memory B cells (defined as CD19 + CD20 + CD10 − CD27 +  cells) in affected individuals ( 29 – 41 ) ( Figure 1 ). Similar studies performed by other investigators have established that signaling via CARD11/BCL10/MALT1 ( 45 ), CD19/CD81 ( 46 ), and NIK/NFKB2 ( 47 ,  48 ) are also key regulators of the generation and/or maintenance of human memory B cells. Importantly, this approach also established that, for instance, IL12Rβ1/2, IL-23R, TYK2, and STAT1 signaling ( 32 ,  42 ), nor SPPL2A ( 43 ) or GINS1 ( 44 ), are required for generating and/or maintaining the memory B cell pool in humans ( Figure 1 ).
+Further advances in flow cytometric methodologies enabled detection of intracellular proteins ( 49 ), as well as post-translational modifications to proteins involved in cell signaling ( 50 ). These developments were also embraced by the clinical immunology field to facilitate rapid diagnosis of PIDs and discover patients with novel immune defects. The ability to quantify expression of SAP, XIAP, BTK, FOXP3, and DOCK8 proteins by intracellular staining and flow cytometric analysis expedited detection and diagnosis of patients with X-linked lymphoproliferative disease (XLP) type 1 (LOF mutations in  SH2D1A ), XLP-2 (LOF mutations in  XIAP/BIRC4 ), XLA (BTK), IPEX ( FOXP3 ), and an AR form of HIES ( DOCK8 ), respectively ( 51 – 56 ) ( Figure 2 ). Furthermore, this facilitated the identification of female carriers of some X-linked traits, such as XLP-1, XLP-2, and XLA ( 51 ,  55 – 57 ,  59 ) ( Figure 2 ), as well as the discovery of somatic reversion in XLP-1 ( 60 ), DOCK8-deficiency ( 54 ), and leukocyte adhesion deficiency-1 due to mutations in  ITGB2  encoding CD18 ( 61 ,  62 ). Similarly, the detection of intracellular phosphorylated STAT proteins in response to cytokine-mediated stimulation of lymphocyte populations has been developed as a functional screen to identify individuals with LOF mutations in  IL10R, IL12RB1 , or  IFNGR1  ( 63 – 65 ), or GOF mutations in  STAT1  ( 66 ). Importantly, this technique has been applied to discover patients with novel inborn errors of immunity, including LOF mutations in  IL21R  ( 67 ),  IL6ST  ( 68 ), and  IL6R  ( 69 ). Clinical flow cytometry has also played a valuable role in studying PIDs affecting innate immunity. Assessing respiratory burst in phagocytes using oxidation of fluorescent probes such as dihydrorhodamine 123 (DHR) following leukocyte activation  in vitro  is the gold standard for diagnosing individuals with either X-linked or AR forms of chronic granulomatous disease ( 70 ), as well as females carriers of the X-linked form of this condition ( 59 ). Lastly, the use of cell permeable fluorescent dyes such as carboxyfluorescein succinimidyl ester (CFSE), Cell trace violet and Cell trace yellow, to label intracellular molecules and then track the dilution and concomitant reduction in fluorescence intensity of these dyes with each cell division ( 71 ,  72 ) has enabled detailed analysis of the role of cell division in lymphocyte differentiation and how these events can be uncoupled or compromised in various PIDs ( 29 – 31 ,  33 ,  35 – 37 ,  40 ,  58 ,  60 ,  73 – 76 ).
+However, there are important caveats to consider when using flow cytometry to determine potential molecular causes of PIDs. While the vast majority of gene variants found to cause PIDs abolish protein expression, and thus a lack of the encoded protein can be used as a surrogate to confirm the pathogenicity of a mutation, several variants do not affect protein expression and are pathogenic due to them being LOF. An example of this can be found in one of the original descriptions of mutations in  CD40LG , which reported detectable expression of CD40L on activated CD4 +  T cells from one patient with X-linked hyper-IgM syndrome despite the presence of a predicted inactivating mutation ( 23 ). Similarly, pathogenic mutations have been identified in  SH2D1A  ( 77 ),  DOCK8  ( 78 ),  BTK  ( 55 ,  56 ), and  IL10RA  ( 65 ) in patients with XLP, AR HIES, XLA and very early onset inflammatory bowel disease, respectively, yet expression of the encoded proteins is unaffected. Despite this, flow cytometry was still valuable in some of these cases to establish the LOF nature of variants that did not affect protein expression. Here, quantifying binding of soluble CD40 to the surface of activated CD4 +  T cells established that a specific mutation in  CD40LG  that preserved protein expression, as determined flow cytometrically using an anti-CD40L mAb, was unable to bind CD40L ( 23 ). Likewise, LOF of expressed but mutant IL-10RA was confirmed by demonstrating an inability of IL-10 to induce phosphorylation of STAT3 in PBMCs from this patient ( 65 ). Thus, like all aspects of research and clinical immunology, awareness of the limitations of specific assays needs to be borne in mind, and multiple approaches adopted to ensure the most accurate and clinically-actionable results are obtained. But the contribution of flow cytometry to clinical medicine remains central and unquestioned.
+Delineation of Human Peripheral Blood Lymphocytes by Flow Cytometry
+To study the impact of gene mutations on the human immune system of individuals with PIDs, it is important to first be able to identify distinct populations of immune cells in peripheral blood (PB), as this is the predominant source of cells that is readily obtainable from patients. In line with this, mAbs directed against a myriad of cell surface markers can be used to identify, isolate, and characterize distinct  in vivo -generated immune cell subsets ( Table 1 ). Of the main conventional lymphocyte populations CD3, CD4, CD8, CD20, and CD56 have been used to identify total CD3 +  T, CD4 +  helper T (Th), CD8 +  cytotoxic T, CD20 +  B, and CD3 − CD56 +  natural killer (NK) cells ( Table 1 ). In addition to this, unconventional T cell subsets, which contribute to both innate and adaptive immune responses, have been identified within the T cell compartment as CD3 + Vα24 + Vβ11 +  NKT, CD3 + γδ + αβ −  γδ T and CD3 + Vα7.2 + CD161 +  mucosal associated invariant T (MAIT) cells ( 79 ) ( Table 1 ).
+
+           Table 1 
+           Immune cell populations identified in human peripheral blood according to specific phenotypes. 
+           
+             
+           Immune cell 
+                 
+                   
+                 Surface markers 
+                 
+                   
+               
+                 
+             
+               
+             +  T CELLS CD4 
+               
+                 
+               +  T cells Total CD4 
+                 + CD4 + CD3 
+               
+                 
+               Naïve 
+                 + CD4 + CCR7 + CD45RA + CD3 
+               
+                 
+               Central memory 
+                 + CD4 + CCR7 + CD45RA − CD3 
+               
+                 
+               Effector memory 
+                 + CD4 + CCR7 − CD45RA − CD3 
+               
+                 
+               Treg 
+                 + CD4 + CD25 hi CD127 lo FoxP3 + CD3 
+               
+                 
+               Tfh 
+                 + CD4 + CD45RA − CXCR5 + CD3 
+               
+                 
+               Th1 
+                 + CD4 + CD45RA − CXCR5 − CXCR3 + CD3 
+               
+                 
+               Other Th cells including Th2 and Th9 cells 
+                 + CD4 + CD45RA − CXCR5 − CXCR3 − CCR6 − CD3 
+               
+                 
+               Th17 
+                 + CD4 + CD45RA − CXCR5 − CCR6 + CD3 
+               
+                 
+               +  T CELLS CD8 
+               
+                 
+               +  T cells Total CD8 
+                 + CD8 + CD3 
+               
+                 
+               Naïve 
+                 + CD8 + CCR7 + CD45RA + CD3 
+               
+                 
+               Central memory 
+                 + CD8 + CCR7 + CD45RA − CD3 
+               
+                 
+               Effector memory 
+                 + CD8 + CCR7 − CD45RA − CD3 
+               
+                 
+               TEMRA 
+                 + CD8 + CCR7 − CD45RA + CD3 
+               
+                 
+               B CELLS 
+               
+                 
+               +  B cells Total CD20 
+                 + CD20 
+               
+                 
+               Transitional 
+                 + CD10 + CD27 − CD20 
+               
+                 
+               Early transitional 
+                 + CD10 + CD27 − CD21 lo CD44 −/lo CD20 
+               
+                 
+               Late transitional 
+                 + CD10 + CD27 − CD21 + CD44 + CD20 
+               
+                 
+               Naïve 
+                 + CD10 − CD27 − IgM + IgD hi CD20 
+               
+                 
+               Memory 
+                 + CD10 − CD27 + CD20 
+               
+                 
+               IgM memory 
+                 + CD10 − CD27 + IgM hi IgD ± CD20 
+               
+                 
+               IgG memory 
+                 + CD10 − CD27 + IgG + CD20 
+               
+                 
+               IgA memory 
+                 + CD10 − CD27 + IgA + CD20 
+               
+                 
+               Plasmablasts/cells 
+                 ± CD19 + CD38 hi CD27 hi CD20 
+               
+                 
+               Atypical/aged memory B cells 
+                 hi CD21 lo Tbet + CD11c + FCRL5 + CD19 
+               
+                 
+               Innate-like lymphocytes 
+               
+                 
+               NK cells 
+                 − CD56 + CD3 
+               
+                 
+               NKT cells 
+                 + Vα24 + Vβ11 + CD3 
+               
+                 
+               MAIT cells 
+                 + Vα7.2 + CD161 + CD3 
+               
+                 
+               γδ T cells 
+                 + Vαβ − Vγδ + CD3 
+               
+                 
+             
+               
+           
+             
+        
+Importantly, differential expression of specific cell surface markers can be used to determine the maturation status of distinct subsets of CD4 +  and CD8 +  T and B cells. Specifically CCR7 and CD45RA delineate naive (CD45RA + CCR7 + ), central memory (T CM ; CD45RA − CCR7 + ), and effector memory (T EM ; CD45RA − CCR7 − ) CD4 +  T cells, and naive (CD45RA + CCR7 + ), T CM  (CD45RA − CCR7 + ), T EM  (CD45RA −  CCR7 − ), and revertant memory (T EMRA ; CD45RA + CCR7 − ) CD8 +  T cell populations ( 80 ,  81 ) ( Table 1 ). The CD4 +  T cell compartment can also be resolved into different “helper” subsets based on expression of CD25, CD127, CD45RA, CXCR5, CXCR3, and CCR6. As such, CD4 +  T cell populations corresponding to regulatory T cells (Tregs; CD25 hi CD127 lo ), T follicular helper (Tfh; CD45RA − CXCR5 + ), Th1 (CD45RA − CXCR5 − CXCR3 + CCR6 − ), Th2 (CD45RA − CXCR5 − CXCR3 − CCR6 − ), and Th17 (CD45RA − CXCR5 − CXCR3 − CCR6 + ) subsets can be identified in PB of healthy individuals ( 32 ,  81 ,  82 ).
+CD20 +  human B cells can be divided into transitional (CD10 + CD27 − ), naïve (CD10 − CD27 − ), and memory (CD10 − CD27 + ) subsets by their differential expression of CD10 and CD27 ( 25 ,  26 ,  83 ,  84 ). Early/immature and late/mature subsets of transitional B cells can also be identified according to differential expression of CD21 or CD44 ( 35 ,  83 ,  84 ). Furthermore, memory B cells can remain IgM hi  or undergo Ig isotype switching to become IgG- or IgA-expressing cells ( 25 ,  26 ) ( Table 1 ). Plasmablasts (CD19 + CD38 hi CD27 hi CD20 lo ) can also be detected, though these cells persist at very low frequencies in the PB at the basal state ( 85 ). A population of CD19 hi CD21 lo  B cells can also be detected within the B cell compartment. These CD19 hi CD21 lo  have been referred to as “atypical” and/or “aged memory” B cells, and have been associated with both health and disease ( 86 – 88 ) ( Table 1 ). Thus, on one hand they have been proposed as being plasmablast precursors that are rapidly re-activated and differentiate into plasmablasts during anamnestic immune responses to specific Ag ( 86 ). On the other hand they have been considered to be pathogenic in the setting of chronic infection (e.g., HIV, malaria, Hepatitis B) as they are “exhausted” and unable to clear these pathogens, or self-reactive in Ab-mediated autoimmune disease (SLE, RA, Sjogren's syndrome) ( 27 ,  87 ,  88 ).
+Insights Into Disease Pathogenesis in PIDs
+Over the past two decades, our flow cytometric-based studies of various PIDs have provided substantial insight and understanding into the non-redundant roles of specific genes, molecules, and signaling pathways in the development, differentiation and effector function of human B cells, CD4 +  T cells, CD8 +  T cells and innate-like lymphocytes. These findings have not only identified critical requirements for establishing robust primary and long-lived immunity against various pathogens, but have elucidated mechanisms underlying infectious susceptibility in the setting of these PIDs, and defined specialized functions of discrete subsets of immune cells host defense. Some of our key findings from these studies are summarized below:
+
+           Autosomal Dominant Hyper IgE Syndrome Due to STAT3 Mutations 
+           Staphylococcal ) and fungal ( Candida  sps.) infections, recurrent cyst-forming pneumonia and impaired generation of Ag-specific Abs following vaccination or infection, despite dramatically increased levels of serum IgE ( 89 ). Affected individuals also present with non-immune connective tissue defects such as broad facial features, high palate, retention of primary teeth, hyperextensibility, scoliosis, osteoporosis, and recurrent fractures ( 89 ). AD-HIES was found to result from heterozygous germline DN mutations in  STAT3  (STAT3 DN ) ( 90 ,  91 ). Examination of PBMCs from these patients has revealed a “lymphocyte phenotype signature” that is distinct from healthy donors. AD HIES is characterized by recurrent opportunistic bacterial ( 
+           +  T cells in STAT3 DN , we found increases in proportions of naïve and decreases in proportions of T CM  cells ( Figures 3A,B ,  4A,B ) ( 32 ). Further investigations into CD4 +  T cell subsets revealed a significant decrease in CXCR5 +  Tfh and CCR6 +  Th17 cells and to a lesser extent an increase in the CXCR5 − CXCR3 − CCR6 −  memory population ( 32 ,  92 ,  94 ,  95 ), which contains Th2 cells, in patients with STAT3 DN  mutations ( Figures 3C ,  4C,D ). Frequencies of total CD8 +  T cells are comparable in healthy donors and STAT3 DN  patients ( Figure 3D ), however STAT3 DN  patients have an increase in naïve and a corresponding decrease in T CM , T EM , and T EMRA  CD8 +  T cells ( Figures 3E ,  4E,F ) ( 73 ). Examination of the B cell compartment of STAT3 DN  patients also revealed stark differences to healthy donors. Despite normal frequencies of total B cells ( Figure 3F ), they tended to be more immature as revealed by an increase in transitional and naïve B cells and a concurrent decrease in memory B cells ( Figures 1 ,  3G ) ( 31 ,  32 ,  74 ). Interestingly, despite the severe reduction in memory B cells, those that do develop in STAT3 DN  patients have undergone Ig isotype switching, albeit with a trend toward IgG and away from IgA ( Figure 3H ) ( 31 ,  74 ). Specifically, while there were normal frequencies of total CD4 
+           Figure 3 
+             DN  patients.  (A)  Total CD4 T cells,  (B)  naïve, central memory (T CM ), effector memory (T EM ) CD4 +  T cells,  (C)  regulatory T cells (Treg) T follicular helper (Tfh) cells, Th1, Th2, Th17 CD4 +  T cells,  (D)  total CD8 +  T cells,  (E)  naïve, T CM , T EM , and revertant memory (T EMRA ) CD8 +  T cells,  (F)  total B cells,  (G)  transitional, naive and memory B cells,  (H)  IgM, IgG and IgA memory B cells,  (I)  NK cells,  (J)  NKT cells,  (K)  γδ T cells and  (L)  mucosal associated invariant T (MAIT) cells were identified in normal donors (N) and STAT3 DN  patients (S). Each point represents a different sample and horizontal line represents the average; statistics were performed in Prism using  t -test ( * p  < 0.05;  ** p  < 0.01;  *** p  < 0.001;  **** p  < 0.0001). These data are compiled from findings previously reported in the following publications: ( 31 ,  32 ,  73 – 75 ,  92 ,  93 ). Identification of immune cell populations in STAT3 
+             
+               
+             
+           
+             
+           Figure 4 
+             ZNF341  phenocopy clinical and cellular defects due to autosomal dominant  STAT3  mutations to cause AR HIES. PBMCs from healthy donors or from individuals with pathogenic  STAT3  DN or  ZNF341  LOF mutations were stained with mAbs against CD4, CD8, CD45RA, CCR7, CXCR3, CCR6, CXCR5, CD127, and CD25.  (A,B)  Total CD4 +  T cells were identified as CD4 + CD8 −  cells, and then proportions of naïve, T CM , T EM , and T EMRA  cells were determined.  (C,D)  the memory compartment (CD4 + CD45RA − ) of CD4 +  T cells was analyzed to quantify the proportions of cells with a CXCR3 − CCR6 +  Th17-, CXCR3 + CCR6 −  Th1-, CXCR3 + CCR6 +  Th1/17-, and CXCR3 − CCR6 −  Th2-type phenotype.  (E,F)  Total CD8 +  T cells were identified as CD4 − CD8 +  cells, and then proportions of naïve, T CM , T EM , and T EMRA  cells were determined. The contour plots in  (A,C,E)  are representative of 1 healthy donor, and 1 patient each with mutations in  STAT3  or  ZNF341 . The graphs represent the mean ± sem of CD4 +  and CD8 +  T cell subsets detected in the PB of 17 healthy donors, 8  STAT3 DN  patients or 4  ZNF341 -deficient patients. Significant differences were determined by ANOVA ( * p  < 0.05;  ** p  < 0.01;  *** p  < 0.001;  **** p  < 0.0001). These data are compiled from our findings previously reported in Beziat et al. ( 40 ). Recessive mutations in  
+             
+               
+             
+           
+             
+           DN  patients is normal ( Figures 3I,K ). However, we found a severe reduction in NKT and MAIT cells in the absence of intact STAT3 signaling ( Figures 3J,L ) ( 93 ,  95 ). Taken together this analysis revealed a distinct phenotype for STAT3 DN  lymphocytes compared to healthy controls. This lymphocyte signature has not only aided in the identification of potential STAT3 DN  patients, but also provided valuable insights into disease susceptibility and a cellular and molecular explanation for the clinical features of STAT3 deficiency. For instance, CCR6 +  Th17 cells are implicated in protective immunity against fungal infections ( 81 ,  95 ). Thus, the severe reduction in Th17 cells in STAT3 DN  patients explains their extreme susceptibility to  Candida albicans  and subsequent chronic mucocutaneous candidiasis. Furthermore, the significant reductions in memory B cells and Tfh cells due to STAT3 deficiency are likely to account for defects in long-lived humoral immunity in STAT3 DN  patients ( 95 ). In regards to innate-like lymphocytes, the frequencies of NK and γδ T cells in the PB of STAT3 
+           31 ,  32 ,  74 ,  95 ) and NKT cells ( 93 ,  95 ), IL-23R/IL-12Rβ1/STAT3 (but not IL-12Rβ2) signaling is necessary for MAIT cells ( 42 ,  93 ), and IL-23R/IL-12Rβ1/STAT3 and IL-21/IL-21R/STAT3 signaling likely co-operate to generate Th17 cells ( 32 ,  42 ,  95 ). While these findings established critical roles for STAT3 signaling in the generation and/or maintenance of various populations of effector lymphocytes, they did not directly identify the upstream STAT3-activating cytokine(s) required for these processes. However, this has now been achieved by the identification and analysis of PID patients with inactivating mutations in specific cytokines or their receptors that signal through STAT3. Thus, IL-21/IL-21R/STAT3 signaling is required for establishing the pool of memory B cells ( 
+        
+
+           Mutations in the Novel Transcription Factor ZNF341 Underlie a Form of Autosomal Recessive HIES That Phenotypically and Functionally Resembles STAT3 Deficiency 
+           DN  mutations ( 40 ,  96 ). The molecular lesion underlying this form of recessive HIES was found to be bi-allelic mutations in the novel transcription factor  ZNF341 . The link between ZNF341 and STAT3 function was provided by the finding that ZNF341 binds to the  STAT3  promoter and regulates STAT3 expression. Consequently, ZNF341-deficient patients have low levels of  STAT3  mRNA and protein and poor responses following stimulation with STAT3-activating cytokines ( 40 ,  96 ). Recently, 2 studies identified 19 patients with an AR form of HIES who essentially clinically phenocopied individuals with STAT3 
+           DN  patients. The CD4 +  T cell compartment was comprised of increased frequencies of naïve and decreased frequencies of T CM  cells ( Figures 4A,B ) ( 32 ,  40 ). This could be further broken down to reveal decreases in CCR6 +  Th17 ( Figures 4C,D ) and CXCR5 +  Tfh cells and increases in Th2 cells ( 40 ,  96 ). The paucity of Th17 phenotype cells in ZNF341- and STAT3-deficient patients (i.e., CD4 + CCR6 + CXCR3 −  memory T cells) was confirmed functionally by demonstrating by flow cytometry reductions in proportions of their memory CD4 +  T cells that expressed intracellular IL17A, IL17F, and IL22 ( Figures 5A,B ) ( 32 ,  40 ,  92 ), canonical cytokines produced by Th17 cells ( 81 ,  95 ). Similarly, ZNF341-deficient and STAT3 DN  patients had increased proportions of memory CD4 +  T cells expressing the characteristic Th2 cytokines IL-4 and IL-13 ( Figures 5C,D ) ( 40 ), consistent with the finding of increased CD4 + CD45RA − CXCR5 − CCR6 − CXCR3 −  memory cells ( Figure 3C ), as well as the hyper-IgE phenotype and Th2-associated pathologies, in these individuals ( 40 ,  95 ,  96 ). However, in contrast to STAT3 DN  patients, the CD8 +  T cell compartment in ZNF341-deficient patients was relatively comparable to that of normal donors ( Figures 4E,F ) ( 40 ,  73 ). ZNF341-deficient patients have similar decreases in memory B cells as STAT3 DN  patients ( Figure 1 ), and their few memory B cells are predominantly IgG +  rather than IgA +  ( 31 ,  40 ,  74 ). When populations of innate-like T cells were examined, ZNF341-deficient patients had comparable frequencies of γδ T and NKT cells, but fewer MAIT cells than healthy donors ( 40 ). In contrast to STAT3, ZNF341 is likely to be important for NK cell development, as these cells are significantly decreased in ZNF341-deficient patients compared to healthy controls ( 40 ). When PBMCs from ZNF341-deficient patients were examined, we identified a lymphocyte signature very similar to that of STAT3 
+           Figure 5 
+             +  T cell defects detectable by immunophenotyping of  STAT3 DN  and  ZNF341 -deficient patients correlate with compromised function determined flow cytometrically  in vitro . Sort-purified CD4+ memory T cells isolated from healthy donors or individuals with pathogenic  STAT3  DN or  ZNF341  LOF mutations were cultured  in vitro  with anti-CD2/CD3/CD28 mAb conjugated to beads. Following 5 days, the cells were harvested, washed, and then restimulated with PMA/ionomycin for 6 h, with Brefeldin A being added for the final 4 h of culture. Cells were then harvested, fixed, permeabilised, and stained with fluorescently-labeled mAbs specific for  (A,B)  IL-17A and IL-17F, or  (C,D)  IL-4 and IL-13. The proportions of cytokine-expressing cells were then determined by flow cytometric analysis. Contour plots  (A,C)  are representative of 1 healthy donor, and 1 patient with mutations in  STAT3  or  ZNF341 . The graphs  (B,D)  represent the mean ± sem of CD4 +  memory T cells expressing the indicated cytokine from 23–28 healthy donors, 6–7  STAT3 DN  patients or 4–6  ZNF341 -deficient patients. These data are compiled from our findings previously reported in Beziat et al. ( 40 ). CD4 
+             
+               
+             
+           
+             
+        
+
+           DOCK8-Deficiency 
+           DOCK8  ( 97 ). This disorder is characterized by recurrent cutaneous viral, bacterial and fungal infections, increased serum IgE levels, and severe atopic disease, including food-induced anaphylaxis ( 97 ). Similar to SAP expression in XLP, the use of mAbs to detect DOCK8 expression has been crucial for the diagnosis of DOCK8-deficient patients ( 37 ,  53 ,  97 ) ( Figure 2 ). Intracellular flow cytometry for DOCK8 expression has also detected somatic reversion in these patients ( 54 ). Dedicator of cytokinesis 8 (DOCK8) deficiency is a combined immunodeficiency caused by AR LOF mutations in  
+           +  T cells, but normal frequencies of CD8 +  T cells, resulting in an inverted CD4:CD8 ratio compared to healthy donors ( 37 ,  58 ,  76 ). When DOCK8-deficient CD4 +  and CD8 +  T cells were further investigated, we found a decrease in naïve CD4 +  and CD8 +  T cells and a corresponding increase in CD4 +  T EM  and CD8 +  T EM  and T EMRA  populations compared to healthy donors ( 37 ,  58 ,  76 ). Furthermore, memory T cells in DOCK8-deficiency contained reduced frequencies of CD27 + , CD28 + , and CD127 +  and higher frequencies of CD57 + , CD95 + , and PD1 +  cells, indicating these cells had undergone premature exhaustion or senescence compared to their counterparts in healthy donors ( 37 ,  58 ,  76 ). There were also reductions in frequencies of CD4 + CCR6 +  memory T cells in DOCK8-deficient patients, suggesting a role for DOCK8 in Th17 cells ( 37 ,  58 ,  78 ). This loss of CCR6 +  Th17 cells also provides a cellular explanation for increased susceptibility of DOCK8-deficient patients to infections with  Candida  sp. ( 81 ,  95 ). The B cell compartment in DOCK8-deficient patients comprises normal frequencies of total and transitional B cells, however there are increases in naïve and decreases in memory B cells compared to healthy donors ( 37 ,  98 ), thus highlighting a requirement for DOCK8 for B cell differentiation. DOCK8-deficient patients were also found to have decreased αβ T, NKT, and MAIT cells, normal frequencies of NK cells, but increased γδ T cells ( 37 ). Importantly, this cellular phenotype has been able to predict individuals with AR HIES who may have pathogenic mutations in  DOCK8 , and provide explanations for clinical features of this condition ( 37 ,  58 ,  76 ). DOCK8-deficient patients also have a unique lymphocyte phenotype, with decreased frequencies of CD4 
+        
+
+           X-Linked Lymphoproliferative Disease 
+           99 ). XLP-1 patients also exhibit hypogammaglobulinemia and a heightened risk of developing B-cell lymphoma, both of which occur independently of exposure to EBV ( 99 ). XLP-1 results from LOF mutations in  SH2D1A , encoding signaling lymphocytic activation molecule (SLAM)-associated protein (SAP) ( 20 ). SAP is a small intracellular adaptor protein that binds to tyrosine-based motifs in the intracellular domain of SLAM family members and regulates signaling downstream of these receptors ( 99 ). The availability of mAbs specific for SAP has been instrumental in expanding our knowledge of this condition. Thus, flow cytometry has (i) accurately defined the cell types that express SAP (predominantly T, NK, and NKT cells, but rarely B cells), (ii) offered a rapid and sensitive diagnostic tool to detect not only XLP patients whom lack SAP expression, but also female carriers of the XLP trait who have bimodal SAP expression in their T and NK cells ( Figure 2 ) ( 57 ), and ( 3 ) revealed lymphocyte defects in XLP-1, thereby providing insight into disease pathogenesis. XLP patients have a paucity for CD27 +  memory B cells ( Figure 1 ), and the few memory B cells detected express IgM, thereby indicating an inability to undergo class switching to express IgG or IgA ( 29 ,  30 ). Within the CD4 +  T cell compartment, XLP patients have a comparable frequency of naïve, T CM  and T EM  populations to healthy donors ( 29 ). Although XLP patients have a normal frequency of Tfh cells ( 100 ,  101 ), the inability of these cells to support B cell differentiation in an  in vitro  helper assay indicates defective B-helper function ( 30 ). Together, these observations identify defective CD4 +  T cell help as the cellular basis for hypogammaglobulinemia in XLP-1 patients, rather than a B-cell intrinsic defect. This is indeed consistent with the fact that B cells do not express SAP ( 57 ,  60 ) and XLP B cells function normally when provided with the correct T-dependent stimuli  in vitro  ( 30 ). XLP-1 is a rare X-linked PID whereby affected males present with extreme sensitivity to disease resulting from Epstein-Barr virus (EBV) infection. Following exposure to EBV, XLP patients develop severe infectious mononucleosis, leading to often-fatal hemophagocytic lymphohistiocytosis ( 
+           +  T cells from XLP patients are skewed toward T EM  and T EMRA  cells, usually at the expense of naïve T cells. Interestingly, by utilizing intracellular flow cytometry to detect SAP expression, we were able to show that some XLP patients undergo somatic reversion and a population of SAP +  CD45RA − CCR7 −  T EM  cells is detectable within their CD8 +  T cells ( 60 ). These reverted SAP +  CD8 +  T cells in XLP patients could respond to EBV and kill-EBV infected B cells, suggesting they were able to provide protective immunity against ongoing EBV infection ( 60 ). These functional features were detected by concomitantly tracking proliferation and degranulation of EBV-specific CD8 +  T cells ( 60 ), further illustrating the utility of flow cytometry in establishing functionality of immune cells in PIDs. CD8 
+           102 ). Consistent with this essential role of SAP in NKT cell development, female XLP carriers undergo X chromosome inactivation within NKT cells, but not T or NK cells, resulting in all NKT cells in these carriers expressing only the WT allele ( 57 ,  102 ). XLP patients also lack NKT cells, revealing an essential role for SAP in the development of this cell type and potentially implicating NKT cells in some of the clinical manifestations of XLP such as impaired anti-viral and anti-tumor immune responses ( 
+        
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1438~1441" text="BTK" location="background" />
+<GENE id="G2" spans="1453~1477" text="Bruton's tyrosine kinase" location="background" />
+<GENE id="G3" spans="4265~4268" text="BTK" location="background" />
+<GENE id="G4" spans="4511~4514" text="CD4" location="background" />
+<GENE id="G5" spans="4564~4567" text="CD4" location="background" />
+<GENE id="G6" spans="4568~4571" text="CD8" location="background" />
+<GENE id="G7" spans="4720~4723" text="CD4" location="background" />
+<GENE id="G8" spans="4848~4851" text="CD4" location="background" />
+<GENE id="G9" spans="5582~5585" text="CD4" location="background" />
+<GENE id="G10" spans="5736~5739" text="BTK" location="background" />
+<GENE id="G11" spans="5741~5745" text="BLNK" location="background" />
+<GENE id="G12" spans="5747~5751" text="IGHM" location="background" />
+<GENE id="G13" spans="5753~5758" text="IGLL1" location="background" />
+<GENE id="G14" spans="5760~5765" text="CD79A" location="background" />
+<GENE id="G15" spans="5767~5772" text="CD79B" location="background" />
+<GENE id="G16" spans="5774~5780" text="PIK3R1" location="background" />
+<GENE id="G17" spans="5788~5792" text="TCF3" location="background" />
+<GENE id="G18" spans="6020~6025" text="IL2RG" location="background" />
+<GENE id="G19" spans="6027~6031" text="JAK3" location="background" />
+<GENE id="G20" spans="6056~6060" text="RAG1" location="background" />
+<GENE id="G21" spans="6062~6066" text="RAG2" location="background" />
+<GENE id="G22" spans="6124~6127" text="ADA" location="background" />
+<GENE id="G23" spans="6468~6471" text="CD4" location="background" />
+<GENE id="G24" spans="6522~6526" text="CD40" location="background" />
+<GENE id="G25" spans="6543~6546" text="CD3" location="background" />
+<GENE id="G26" spans="6547~6551" text="CD28" location="background" />
+<GENE id="G27" spans="6651~6655" text="ICOS" location="background" />
+<GENE id="G28" spans="6829~6833" text="CD27" location="background" />
+<GENE id="G29" spans="7284~7287" text="CD4" location="background" />
+<GENE id="G30" spans="7339~7342" text="CD4" location="background" />
+<GENE id="G31" spans="7405~7409" text="CD40" location="background" />
+<GENE id="G32" spans="7412~7416" text="ICOS" location="background" />
+<GENE id="G33" spans="7418~7422" text="CD40" location="background" />
+<GENE id="G34" spans="7424~7428" text="NEMO" location="background" />
+<GENE id="G35" spans="7430~7436" text="SH2D1A" location="background" />
+<GENE id="G36" spans="7438~7443" text="RLTPR" location="background" />
+<GENE id="G37" spans="7447~7454" text="CARMIL2" location="background" />
+<GENE id="G38" spans="7457~7461" text="CD27" location="background" />
+<GENE id="G39" spans="7464~7468" text="CD70" location="background" />
+<GENE id="G40" spans="7517~7522" text="IL-21" location="background" />
+<GENE id="G41" spans="7527~7532" text="STAT3" location="background" />
+<GENE id="G42" spans="7541~7545" text="IL21" location="background" />
+<GENE id="G43" spans="7547~7552" text="IL21R" location="background" />
+<GENE id="G44" spans="7554~7559" text="IL2RG" location="background" />
+<GENE id="G45" spans="7561~7567" text="ZNF341" location="background" />
+<GENE id="G46" spans="7569~7574" text="IL10R" location="background" />
+<GENE id="G47" spans="7576~7579" text="LOF" location="background" />
+<GENE id="G48" spans="7582~7587" text="STAT3" location="background" />
+<GENE id="G49" spans="7614~7619" text="STAT1" location="background" />
+<GENE id="G50" spans="7696~7700" text="STK4" location="background" />
+<GENE id="G51" spans="7702~7707" text="DOCK8" location="background" />
+<GENE id="G52" spans="7709~7714" text="SP110" location="background" />
+<GENE id="G53" spans="7722~7728" text="PIK3CD" location="background" />
+<GENE id="G54" spans="7773~7777" text="CD19" location="background" />
+<GENE id="G55" spans="7780~7784" text="CD20" location="background" />
+<GENE id="G56" spans="7787~7791" text="CD10" location="background" />
+<GENE id="G57" spans="7794~7798" text="CD27" location="background" />
+<GENE id="G58" spans="7944~7950" text="CARD11" location="background" />
+<GENE id="G59" spans="7951~7956" text="BCL10" location="background" />
+<GENE id="G60" spans="7957~7962" text="MALT1" location="background" />
+<GENE id="G61" spans="7971~7975" text="CD19" location="background" />
+<GENE id="G62" spans="7976~7980" text="CD81" location="background" />
+<GENE id="G63" spans="7993~7996" text="NIK" location="background" />
+<GENE id="G64" spans="7997~8002" text="NFKB2" location="background" />
+<GENE id="G65" spans="8229~8235" text="SPPL2A" location="background" />
+<GENE id="G66" spans="8246~8251" text="GINS1" location="background" />
+<GENE id="G67" spans="8743~8746" text="SAP" location="background" />
+<GENE id="G68" spans="8748~8752" text="XIAP" location="background" />
+<GENE id="G69" spans="8754~8757" text="BTK" location="background" />
+<GENE id="G70" spans="8759~8764" text="FOXP3" location="background" />
+<GENE id="G71" spans="8770~8775" text="DOCK8" location="background" />
+<GENE id="G73" spans="8960~8966" text="SH2D1A" location="background" />
+<GENE id="G75" spans="8995~8999" text="XIAP" location="background" />
+<GENE id="G76" spans="9000~9005" text="BIRC4" location="background" />
+<GENE id="G77" spans="9014~9017" text="BTK" location="background" />
+<GENE id="G78" spans="9027~9032" text="FOXP3" location="background" />
+<GENE id="G79" spans="9061~9066" text="DOCK8" location="background" />
+<GENE id="G80" spans="9333~9338" text="DOCK8" location="background" />
+<GENE id="G81" spans="9415~9420" text="ITGB2" location="background" />
+<GENE id="G82" spans="9431~9435" text="CD18" location="background" />
+<GENE id="G83" spans="9681~9686" text="IL10R" location="background" />
+<GENE id="G84" spans="9688~9695" text="IL12RB1" location="background" />
+<GENE id="G85" spans="9702~9708" text="IFNGR1" location="background" />
+<GENE id="G86" spans="9744~9749" text="STAT1" location="background" />
+<GENE id="G87" spans="9891~9896" text="IL21R" location="background" />
+<GENE id="G88" spans="9907~9912" text="IL6ST" location="background" />
+<GENE id="G89" spans="9927~9931" text="IL6R" location="background" />
+<GENE id="G90" spans="11422~11428" text="CD40LG" location="background" />
+<GENE id="G91" spans="11471~11476" text="CD40L" location="background" />
+<GENE id="G92" spans="11490~11493" text="CD4" location="background" />
+<GENE id="G93" spans="11678~11684" text="SH2D1A" location="background" />
+<GENE id="G94" spans="11695~11700" text="DOCK8" location="background" />
+<GENE id="G95" spans="11711~11714" text="BTK" location="background" />
+<GENE id="G96" spans="11735~11741" text="IL10RA" location="background" />
+<GENE id="G97" spans="12090~12094" text="CD40" location="background" />
+<GENE id="G98" spans="12123~12126" text="CD4" location="background" />
+<GENE id="G99" spans="12179~12185" text="CD40LG" location="background" />
+<GENE id="G100" spans="12270~12275" text="CD40L" location="background" />
+<GENE id="G101" spans="12300~12305" text="CD40L" location="background" />
+<GENE id="G102" spans="12352~12359" text="IL-10RA" location="background" />
+<GENE id="G103" spans="12407~12412" text="IL-10" location="background" />
+<GENE id="G104" spans="12442~12447" text="STAT3" location="background" />
+<GENE id="G105" spans="13407~13410" text="CD3" location="background" />
+<GENE id="G106" spans="13412~13415" text="CD4" location="background" />
+<GENE id="G107" spans="13417~13420" text="CD8" location="background" />
+<GENE id="G108" spans="13422~13426" text="CD20" location="background" />
+<GENE id="G109" spans="13432~13436" text="CD56" location="background" />
+<GENE id="G110" spans="13470~13473" text="CD3" location="background" />
+<GENE id="G111" spans="13480~13483" text="CD4" location="background" />
+<GENE id="G112" spans="13502~13505" text="CD8" location="background" />
+<GENE id="G113" spans="13522~13526" text="CD20" location="background" />
+<GENE id="G114" spans="13537~13540" text="CD3" location="background" />
+<GENE id="G115" spans="13543~13547" text="CD56" location="background" />
+<GENE id="G116" spans="13759~13762" text="CD3" location="background" />
+<GENE id="G117" spans="13785~13788" text="CD3" location="background" />
+<GENE id="G118" spans="13811~13814" text="CD3" location="background" />
+<GENE id="G119" spans="13825~13830" text="CD161" location="background" />
+<GENE id="G120" spans="14274~14277" text="CD4" location="background" />
+<GENE id="G121" spans="14369~14372" text="CD4" location="background" />
+<GENE id="G122" spans="14375~14378" text="CD3" location="background" />
+<GENE id="G123" spans="14455~14458" text="CD4" location="background" />
+<GENE id="G124" spans="14461~14465" text="CCR7" location="background" />
+<GENE id="G125" spans="14468~14474" text="CD45RA" location="background" />
+<GENE id="G126" spans="14477~14480" text="CD3" location="background" />
+<GENE id="G127" spans="14566~14569" text="CD4" location="background" />
+<GENE id="G128" spans="14572~14576" text="CCR7" location="background" />
+<GENE id="G129" spans="14579~14585" text="CD45RA" location="background" />
+<GENE id="G130" spans="14588~14591" text="CD3" location="background" />
+<GENE id="G131" spans="14678~14681" text="CD4" location="background" />
+<GENE id="G132" spans="14684~14688" text="CCR7" location="background" />
+<GENE id="G133" spans="14691~14697" text="CD45RA" location="background" />
+<GENE id="G134" spans="14700~14703" text="CD3" location="background" />
+<GENE id="G135" spans="14779~14782" text="CD4" location="background" />
+<GENE id="G136" spans="14785~14789" text="CD25" location="background" />
+<GENE id="G137" spans="14793~14798" text="CD127" location="background" />
+<GENE id="G138" spans="14802~14807" text="FoxP3" location="background" />
+<GENE id="G139" spans="14810~14813" text="CD3" location="background" />
+<GENE id="G140" spans="14888~14891" text="CD4" location="background" />
+<GENE id="G141" spans="14895~14900" text="D45RA" location="background" />
+<GENE id="G142" spans="14903~14908" text="CXCR5" location="background" />
+<GENE id="G143" spans="14911~14914" text="CD3" location="background" />
+<GENE id="G144" spans="14989~14992" text="CD4" location="background" />
+<GENE id="G145" spans="14995~15001" text="CD45RA" location="background" />
+<GENE id="G146" spans="15004~15009" text="CXCR5" location="background" />
+<GENE id="G147" spans="15012~15017" text="CXCR3" location="background" />
+<GENE id="G148" spans="15020~15023" text="CD3" location="background" />
+<GENE id="G149" spans="15137~15140" text="CD4" location="background" />
+<GENE id="G150" spans="15143~15149" text="CD45RA" location="background" />
+<GENE id="G151" spans="15152~15157" text="CXCR5" location="background" />
+<GENE id="G152" spans="15160~15165" text="CXCR3" location="background" />
+<GENE id="G153" spans="15168~15172" text="CCR6" location="background" />
+<GENE id="G154" spans="15175~15178" text="CD3" location="background" />
+<GENE id="G155" spans="15254~15257" text="CD4" location="background" />
+<GENE id="G156" spans="15260~15266" text="CD45RA" location="background" />
+<GENE id="G157" spans="15269~15274" text="CXCR5" location="background" />
+<GENE id="G158" spans="15277~15281" text="CCR6" location="background" />
+<GENE id="G159" spans="15284~15287" text="CD3" location="background" />
+<GENE id="G160" spans="15349~15352" text="CD8" location="background" />
+<GENE id="G161" spans="15420~15423" text="CD8" location="background" />
+<GENE id="G162" spans="15444~15447" text="CD8" location="background" />
+<GENE id="G163" spans="15450~15453" text="CD3" location="background" />
+<GENE id="G164" spans="15530~15533" text="CD8" location="background" />
+<GENE id="G165" spans="15536~15540" text="CCR7" location="background" />
+<GENE id="G166" spans="15543~15549" text="CD45RA" location="background" />
+<GENE id="G167" spans="15552~15555" text="CD3" location="background" />
+<GENE id="G168" spans="15641~15644" text="CD8" location="background" />
+<GENE id="G169" spans="15647~15651" text="CCR7" location="background" />
+<GENE id="G170" spans="15654~15660" text="CD45RA" location="background" />
+<GENE id="G171" spans="15663~15666" text="CD3" location="background" />
+<GENE id="G172" spans="15753~15756" text="CD8" location="background" />
+<GENE id="G173" spans="15759~15763" text="CCR7" location="background" />
+<GENE id="G174" spans="15766~15772" text="CD45RA" location="background" />
+<GENE id="G175" spans="15775~15778" text="CD3" location="background" />
+<GENE id="G176" spans="15855~15858" text="CD8" location="background" />
+<GENE id="G177" spans="15861~15865" text="CCR7" location="background" />
+<GENE id="G178" spans="15868~15874" text="CD45RA" location="background" />
+<GENE id="G179" spans="15877~15880" text="CD3" location="background" />
+<GENE id="G180" spans="16006~16010" text="CD20" location="background" />
+<GENE id="G181" spans="16031~16035" text="CD20" location="background" />
+<GENE id="G182" spans="16119~16123" text="CD10" location="background" />
+<GENE id="G183" spans="16126~16130" text="CD27" location="background" />
+<GENE id="G184" spans="16133~16137" text="CD20" location="background" />
+<GENE id="G185" spans="16227~16231" text="CD10" location="background" />
+<GENE id="G186" spans="16234~16238" text="CD27" location="background" />
+<GENE id="G187" spans="16241~16245" text="CD21" location="background" />
+<GENE id="G188" spans="16249~16253" text="CD44" location="background" />
+<GENE id="G189" spans="16259~16263" text="CD20" location="background" />
+<GENE id="G190" spans="16352~16356" text="CD10" location="background" />
+<GENE id="G191" spans="16359~16363" text="CD27" location="background" />
+<GENE id="G192" spans="16366~16370" text="CD21" location="background" />
+<GENE id="G193" spans="16373~16377" text="CD44" location="background" />
+<GENE id="G194" spans="16380~16384" text="CD20" location="background" />
+<GENE id="G195" spans="16461~16465" text="CD10" location="background" />
+<GENE id="G196" spans="16468~16472" text="CD27" location="background" />
+<GENE id="G197" spans="16488~16492" text="CD20" location="background" />
+<GENE id="G198" spans="16570~16574" text="CD10" location="background" />
+<GENE id="G199" spans="16577~16581" text="CD27" location="background" />
+<GENE id="G200" spans="16584~16588" text="CD20" location="background" />
+<GENE id="G201" spans="16670~16674" text="CD10" location="background" />
+<GENE id="G202" spans="16677~16681" text="CD27" location="background" />
+<GENE id="G203" spans="16697~16701" text="CD20" location="background" />
+<GENE id="G204" spans="16783~16787" text="CD10" location="background" />
+<GENE id="G205" spans="16790~16794" text="CD27" location="background" />
+<GENE id="G206" spans="16803~16807" text="CD20" location="background" />
+<GENE id="G207" spans="16889~16893" text="CD10" location="background" />
+<GENE id="G208" spans="16896~16900" text="CD27" location="background" />
+<GENE id="G209" spans="16909~16913" text="CD20" location="background" />
+<GENE id="G210" spans="17003~17007" text="CD19" location="background" />
+<GENE id="G211" spans="17010~17014" text="CD38" location="background" />
+<GENE id="G212" spans="17018~17022" text="CD27" location="background" />
+<GENE id="G213" spans="17026~17030" text="CD20" location="background" />
+<GENE id="G214" spans="17131~17135" text="CD21" location="background" />
+<GENE id="G215" spans="17146~17151" text="CD11c" location="background" />
+<GENE id="G216" spans="17154~17159" text="FCRL5" location="background" />
+<GENE id="G217" spans="17139~17143" text="Tbet" location="background" />
+<GENE id="G218" spans="17162~17166" text="CD19" location="background" />
+<GENE id="G219" spans="17320~17324" text="CD56" location="background" />
+<GENE id="G220" spans="17327~17330" text="CD3" location="background" />
+<GENE id="G221" spans="17425~17428" text="CD3" location="background" />
+<GENE id="G222" spans="17518~17523" text="CD161" location="background" />
+<GENE id="G223" spans="17526~17529" text="CD3" location="background" />
+<GENE id="G224" spans="17623~17626" text="CD3" location="background" />
+<GENE id="G225" spans="17867~17870" text="CD4" location="background" />
+<GENE id="G226" spans="17878~17881" text="CD8" location="background" />
+<GENE id="G227" spans="17913~17917" text="CCR7" location="background" />
+<GENE id="G228" spans="17922~17928" text="CD45RA" location="background" />
+<GENE id="G229" spans="17946~17952" text="CD45RA" location="background" />
+<GENE id="G230" spans="17955~17959" text="CCR7" location="background" />
+<GENE id="G231" spans="17988~17994" text="CD45RA" location="background" />
+<GENE id="G232" spans="17997~18001" text="CCR7" location="background" />
+<GENE id="G233" spans="18035~18041" text="CD45RA" location="background" />
+<GENE id="G234" spans="18044~18048" text="CCR7" location="background" />
+<GENE id="G235" spans="18053~18056" text="CD4" location="background" />
+<GENE id="G236" spans="18080~18086" text="CD45RA" location="background" />
+<GENE id="G237" spans="18089~18093" text="CCR7" location="background" />
+<GENE id="G238" spans="18106~18112" text="CD45RA" location="background" />
+<GENE id="G239" spans="18115~18119" text="CCR7" location="background" />
+<GENE id="G240" spans="18132~18138" text="CD45RA" location="background" />
+<GENE id="G241" spans="18142~18146" text="CCR7" location="background" />
+<GENE id="G242" spans="18183~18189" text="CD45RA" location="background" />
+<GENE id="G243" spans="18192~18196" text="CCR7" location="background" />
+<GENE id="G244" spans="18201~18204" text="CD8" location="background" />
+<GENE id="G245" spans="18257~18260" text="CD4" location="background" />
+<GENE id="G246" spans="18359~18363" text="CD25" location="background" />
+<GENE id="G247" spans="18365~18370" text="CD127" location="background" />
+<GENE id="G248" spans="18372~18378" text="CD45RA" location="background" />
+<GENE id="G249" spans="18380~18385" text="CXCR5" location="background" />
+<GENE id="G250" spans="18387~18392" text="CXCR3" location="background" />
+<GENE id="G251" spans="18398~18402" text="CCR6" location="background" />
+<GENE id="G252" spans="18483~18487" text="CD25" location="background" />
+<GENE id="G253" spans="18491~18496" text="CD127" location="background" />
+<GENE id="G254" spans="18529~18535" text="CD45RA" location="background" />
+<GENE id="G255" spans="18538~18543" text="CXCR5" location="background" />
+<GENE id="G256" spans="18554~18560" text="CD45RA" location="background" />
+<GENE id="G257" spans="18563~18568" text="CXCR5" location="background" />
+<GENE id="G258" spans="18571~18576" text="CXCR3" location="background" />
+<GENE id="G259" spans="18579~18583" text="CCR6" location="background" />
+<GENE id="G260" spans="18594~18600" text="CD45RA" location="background" />
+<GENE id="G261" spans="18603~18608" text="CXCR5" location="background" />
+<GENE id="G262" spans="18611~18616" text="CXCR3" location="background" />
+<GENE id="G263" spans="18619~18623" text="CCR6" location="background" />
+<GENE id="G264" spans="18639~18645" text="CD45RA" location="background" />
+<GENE id="G265" spans="18648~18653" text="CXCR5" location="background" />
+<GENE id="G266" spans="18656~18661" text="CXCR3" location="background" />
+<GENE id="G267" spans="18664~18668" text="CCR6" location="background" />
+<GENE id="G268" spans="18804~18808" text="CD10" location="background" />
+<GENE id="G269" spans="18811~18815" text="CD27" location="background" />
+<GENE id="G270" spans="18828~18832" text="CD10" location="background" />
+<GENE id="G271" spans="18835~18839" text="CD27" location="background" />
+<GENE id="G272" spans="18857~18861" text="CD10" location="background" />
+<GENE id="G273" spans="18864~18868" text="CD27" location="background" />
+<GENE id="G274" spans="18917~18921" text="CD10" location="background" />
+<GENE id="G275" spans="18926~18930" text="CD27" location="background" />
+<GENE id="G276" spans="19083~19087" text="CD21" location="background" />
+<GENE id="G277" spans="19091~19095" text="CD44" location="background" />
+<GENE id="G278" spans="19274~19278" text="CD19" location="background" />
+<GENE id="G279" spans="19281~19285" text="CD38" location="background" />
+<GENE id="G280" spans="19289~19293" text="CD27" location="background" />
+<GENE id="G281" spans="19297~19301" text="CD20" location="background" />
+<GENE id="G282" spans="19433~19437" text="CD19" location="background" />
+<GENE id="G283" spans="19441~19445" text="CD21" location="background" />
+<GENE id="G284" spans="19516~19520" text="CD19" location="background" />
+<GENE id="G285" spans="19524~19528" text="CD21" location="background" />
+<GENE id="G286" spans="20499~20502" text="CD4" location="background" />
+<GENE id="G287" spans="20515~20518" text="CD8" location="background" />
+<GENE id="G288" spans="21009~21014" text="STAT3" location="background" />
+<GENE id="G289" spans="21562~21567" text="STAT3" location="background" />
+<GENE id="G290" spans="21570~21575" text="STAT3" location="background" />
+<GENE id="G291" spans="21812~21817" text="STAT3" location="background" />
+<GENE id="G292" spans="21971~21974" text="CD4" location="background" />
+<GENE id="G293" spans="22028~22033" text="CXCR5" location="background" />
+<GENE id="G294" spans="22045~22049" text="CCR6" location="background" />
+<GENE id="G295" spans="22106~22111" text="CXCR5" location="background" />
+<GENE id="G296" spans="22114~22119" text="CXCR3" location="background" />
+<GENE id="G297" spans="22122~22126" text="CCR6" location="background" />
+<GENE id="G298" spans="22217~22222" text="STAT3" location="background" />
+<GENE id="G299" spans="22282~22285" text="CD8" location="background" />
+<GENE id="G300" spans="22334~22339" text="STAT3" location="background" />
+<GENE id="G301" spans="22376~22381" text="STAT3" location="background" />
+<GENE id="G302" spans="22479~22482" text="CD8" location="background" />
+<GENE id="G303" spans="22566~22571" text="STAT3" location="background" />
+<GENE id="G304" spans="22960~22965" text="STAT3" location="background" />
+<GENE id="G305" spans="23152~23155" text="CD4" location="background" />
+<GENE id="G306" spans="23217~23220" text="CD4" location="background" />
+<GENE id="G307" spans="23415~23418" text="CD8" location="background" />
+<GENE id="G308" spans="23489~23492" text="CD8" location="background" />
+<GENE id="G309" spans="23756~23761" text="STAT3" location="background" />
+<GENE id="G310" spans="24153~24158" text="STAT3" location="background" />
+<GENE id="G311" spans="24264~24270" text="ZNF341" location="background" />
+<GENE id="G312" spans="24339~24344" text="STAT3" location="background" />
+<GENE id="G313" spans="24437~24442" text="STAT3" location="background" />
+<GENE id="G314" spans="24451~24457" text="ZNF341" location="background" />
+<GENE id="G315" spans="24504~24507" text="CD4" location="background" />
+<GENE id="G316" spans="24509~24512" text="CD8" location="background" />
+<GENE id="G317" spans="24514~24520" text="CD45RA" location="background" />
+<GENE id="G318" spans="24522~24526" text="CCR7" location="background" />
+<GENE id="G319" spans="24528~24533" text="CXCR3" location="background" />
+<GENE id="G320" spans="24535~24539" text="CCR6" location="background" />
+<GENE id="G321" spans="24541~24546" text="CXCR5" location="background" />
+<GENE id="G322" spans="24548~24553" text="CD127" location="background" />
+<GENE id="G323" spans="24559~24563" text="CD25" location="background" />
+<GENE id="G324" spans="24579~24582" text="CD4" location="background" />
+<GENE id="G325" spans="24613~24616" text="CD4" location="background" />
+<GENE id="G326" spans="24619~24622" text="CD8" location="background" />
+<GENE id="G327" spans="24745~24748" text="CD4" location="background" />
+<GENE id="G328" spans="24751~24757" text="CD45RA" location="background" />
+<GENE id="G329" spans="24765~24768" text="CD4" location="background" />
+<GENE id="G330" spans="24837~24842" text="CXCR3" location="background" />
+<GENE id="G331" spans="24845~24849" text="CCR6" location="background" />
+<GENE id="G332" spans="24860~24865" text="CXCR3" location="background" />
+<GENE id="G333" spans="24868~24872" text="CCR6" location="background" />
+<GENE id="G334" spans="24882~24887" text="CXCR3" location="background" />
+<GENE id="G335" spans="24890~24894" text="CCR6" location="background" />
+<GENE id="G336" spans="24911~24916" text="CXCR3" location="background" />
+<GENE id="G337" spans="24919~24923" text="CCR6" location="background" />
+<GENE id="G338" spans="24961~24964" text="CD8" location="background" />
+<GENE id="G339" spans="24995~24998" text="CD4" location="background" />
+<GENE id="G340" spans="25001~25004" text="CD8" location="background" />
+<GENE id="G341" spans="25203~25208" text="STAT3" location="background" />
+<GENE id="G342" spans="25214~25220" text="ZNF341" location="background" />
+<GENE id="G343" spans="25262~25265" text="CD4" location="background" />
+<GENE id="G344" spans="25273~25276" text="CD8" location="background" />
+<GENE id="G345" spans="25339~25344" text="STAT3" location="background" />
+<GENE id="G346" spans="25364~25370" text="ZNF341" location="background" />
+<GENE id="G347" spans="25826~25831" text="STAT3" location="background" />
+<GENE id="G348" spans="25936~25941" text="STAT3" location="background" />
+<GENE id="G349" spans="26068~26073" text="STAT3" location="background" />
+<GENE id="G350" spans="26222~26227" text="STAT3" location="background" />
+<GENE id="G351" spans="26254~26258" text="CCR6" location="background" />
+<GENE id="G352" spans="26395~26400" text="STAT3" location="background" />
+<GENE id="G353" spans="26603~26608" text="STAT3" location="background" />
+<GENE id="G354" spans="26688~26693" text="STAT3" location="background" />
+<GENE id="G355" spans="26804~26809" text="STAT3" location="background" />
+<GENE id="G356" spans="26889~26894" text="STAT3" location="background" />
+<GENE id="G357" spans="26986~26991" text="STAT3" location="background" />
+<GENE id="G358" spans="27009~27014" text="STAT3" location="background" />
+<GENE id="G359" spans="27138~27143" text="STAT3" location="background" />
+<GENE id="G360" spans="27283~27288" text="STAT3" location="background" />
+<GENE id="G361" spans="27518~27523" text="STAT3" location="background" />
+<GENE id="G362" spans="27544~27549" text="STAT3" location="background" />
+<GENE id="G363" spans="27684~27690" text="ZNF341" location="background" />
+<GENE id="G364" spans="27782~27787" text="STAT3" location="background" />
+<GENE id="G365" spans="27971~27977" text="ZNF341" location="background" />
+<GENE id="G366" spans="27997~28003" text="ZNF341" location="background" />
+<GENE id="G367" spans="28008~28013" text="STAT3" location="background" />
+<GENE id="G368" spans="28056~28062" text="ZNF341" location="background" />
+<GENE id="G369" spans="28077~28082" text="STAT3" location="background" />
+<GENE id="G370" spans="28107~28112" text="STAT3" location="background" />
+<GENE id="G371" spans="28139~28145" text="ZNF341" location="background" />
+<GENE id="G372" spans="28185~28190" text="STAT3" location="background" />
+<GENE id="G373" spans="28255~28260" text="STAT3" location="background" />
+<GENE id="G374" spans="28419~28424" text="STAT3" location="background" />
+<GENE id="G375" spans="28455~28458" text="CD4" location="background" />
+<GENE id="G376" spans="28658~28662" text="CCR6" location="background" />
+<GENE id="G377" spans="28692~28697" text="CXCR5" location="background" />
+<GENE id="G378" spans="28791~28797" text="ZNF341" location="background" />
+<GENE id="G379" spans="28803~28808" text="STAT3" location="background" />
+<GENE id="G380" spans="28835~28838" text="CD4" location="background" />
+<GENE id="G381" spans="28841~28845" text="CCR6" location="background" />
+<GENE id="G382" spans="28848~28853" text="CXCR3" location="background" />
+<GENE id="G383" spans="28977~28980" text="CD4" location="background" />
+<GENE id="G384" spans="29021~29026" text="IL17A" location="background" />
+<GENE id="G385" spans="29028~29033" text="IL17F" location="background" />
+<GENE id="G386" spans="29039~29043" text="IL22" location="background" />
+<GENE id="G387" spans="29149~29155" text="ZNF341" location="background" />
+<GENE id="G388" spans="29170~29175" text="STAT3" location="background" />
+<GENE id="G389" spans="29225~29228" text="CD4" location="background" />
+<GENE id="G390" spans="29284~29288" text="IL-4" location="background" />
+<GENE id="G391" spans="29293~29298" text="IL-13" location="background" />
+<GENE id="G392" spans="29365~29368" text="CD4" location="background" />
+<GENE id="G393" spans="29371~29377" text="CD45RA" location="background" />
+<GENE id="G394" spans="29380~29385" text="CXCR5" location="background" />
+<GENE id="G395" spans="29388~29392" text="CCR6" location="background" />
+<GENE id="G396" spans="29395~29400" text="CXCR3" location="background" />
+<GENE id="G397" spans="29564~29569" text="STAT3" location="background" />
+<GENE id="G398" spans="29588~29591" text="CD8" location="background" />
+<GENE id="G399" spans="29617~29623" text="ZNF341" location="background" />
+<GENE id="G400" spans="29725~29731" text="ZNF341" location="background" />
+<GENE id="G401" spans="29795~29800" text="STAT3" location="background" />
+<GENE id="G402" spans="29976~29982" text="ZNF341" location="background" />
+<GENE id="G403" spans="30116~30121" text="STAT3" location="background" />
+<GENE id="G404" spans="30123~30129" text="ZNF341" location="background" />
+<GENE id="G405" spans="30227~30233" text="ZNF341" location="background" />
+<GENE id="G406" spans="30306~30312" text="ZNF341" location="background" />
+<GENE id="G407" spans="30408~30413" text="STAT3" location="background" />
+<GENE id="G408" spans="30503~30508" text="STAT3" location="background" />
+<GENE id="G409" spans="30518~30524" text="ZNF341" location="background" />
+<GENE id="G410" spans="30638~30641" text="CD4" location="background" />
+<GENE id="G411" spans="30719~30724" text="STAT3" location="background" />
+<GENE id="G412" spans="30733~30739" text="ZNF341" location="background" />
+<GENE id="G413" spans="30790~30793" text="CD2" location="background" />
+<GENE id="G414" spans="30794~30797" text="CD3" location="background" />
+<GENE id="G415" spans="30798~30802" text="CD28" location="background" />
+<GENE id="G416" spans="31103~31109" text="IL-17A" location="background" />
+<GENE id="G417" spans="31114~31120" text="IL-17F" location="background" />
+<GENE id="G418" spans="31133~31137" text="IL-4" location="background" />
+<GENE id="G419" spans="31142~31147" text="IL-13" location="background" />
+<GENE id="G420" spans="31338~31343" text="STAT3" location="background" />
+<GENE id="G421" spans="31349~31355" text="ZNF341" location="background" />
+<GENE id="G422" spans="31493~31498" text="STAT3" location="background" />
+<GENE id="G423" spans="31520~31526" text="ZNF341" location="background" />
+<GENE id="G424" spans="31635~31638" text="CD4" location="background" />
+<GENE id="G425" spans="31731~31736" text="DOCK8" location="background" />
+<GENE id="G426" spans="31760~31765" text="DOCK8" location="background" />
+<GENE id="G427" spans="31978~31981" text="SAP" location="background" />
+<GENE id="G428" spans="32027~32032" text="DOCK8" location="background" />
+<GENE id="G429" spans="32082~32087" text="DOCK8" location="background" />
+<GENE id="G430" spans="32173~32178" text="DOCK8" location="background" />
+<GENE id="G431" spans="32252~32278" text="Dedicator of cytokinesis 8" location="background" />
+<GENE id="G432" spans="32280~32285" text="DOCK8" location="background" />
+<GENE id="G433" spans="32410~32413" text="CD8" location="background" />
+<GENE id="G434" spans="32451~32454" text="CD4" location="background" />
+<GENE id="G435" spans="32455~32458" text="CD8" location="background" />
+<GENE id="G436" spans="32517~32522" text="DOCK8" location="background" />
+<GENE id="G437" spans="32533~32536" text="CD4" location="background" />
+<GENE id="G438" spans="32544~32547" text="CD8" location="background" />
+<GENE id="G439" spans="32615~32618" text="CD4" location="background" />
+<GENE id="G440" spans="32626~32629" text="CD8" location="background" />
+<GENE id="G441" spans="32673~32676" text="CD4" location="background" />
+<GENE id="G442" spans="32690~32693" text="CD8" location="background" />
+<GENE id="G443" spans="32805~32810" text="DOCK8" location="background" />
+<GENE id="G444" spans="32855~32859" text="CD27" location="background" />
+<GENE id="G445" spans="32864~32868" text="CD28" location="background" />
+<GENE id="G446" spans="32877~32882" text="CD127" location="background" />
+<GENE id="G447" spans="32912~32916" text="CD57" location="background" />
+<GENE id="G448" spans="32921~32925" text="CD95" location="background" />
+<GENE id="G449" spans="32934~32937" text="PD1" location="background" />
+<GENE id="G450" spans="33134~33137" text="CD4" location="background" />
+<GENE id="G451" spans="33140~33144" text="CCR6" location="background" />
+<GENE id="G452" spans="33166~33171" text="DOCK8" location="background" />
+<GENE id="G453" spans="33214~33219" text="DOCK8" location="background" />
+<GENE id="G454" spans="33267~33271" text="CCR6" location="background" />
+<GENE id="G455" spans="33355~33360" text="DOCK8" location="background" />
+<GENE id="G456" spans="33453~33458" text="DOCK8" location="background" />
+<GENE id="G457" spans="33688~33693" text="DOCK8" location="background" />
+<GENE id="G458" spans="33722~33727" text="DOCK8" location="background" />
+<GENE id="G459" spans="33998~34003" text="DOCK8" location="background" />
+<GENE id="G460" spans="34091~34096" text="DOCK8" location="background" />
+<GENE id="G461" spans="34187~34190" text="CD4" location="background" />
+<GENE id="G462" spans="34469~34475" text="SH2D1A" location="background" />
+<GENE id="G463" spans="34487~34528" text="signaling lymphocytic activation molecule" location="background" />
+<GENE id="G464" spans="34529~34534" text="(SLAM" location="background" />
+<GENE id="G465" spans="34487~34554" text="signaling lymphocytic activation molecule (SLAM)-associated protein" location="background" />
+<GENE id="G466" spans="34556~34559" text="SAP" location="background" />
+<GENE id="G467" spans="34569~34572" text="SAP" location="background" />
+<GENE id="G468" spans="34681~34685" text="SLAM" location="background" />
+<GENE id="G469" spans="34801~34804" text="SAP" location="background" />
+<GENE id="G470" spans="34949~34952" text="SAP" location="background" />
+<GENE id="G471" spans="35104~35107" text="SAP" location="background" />
+<GENE id="G472" spans="35179~35182" text="SAP" location="background" />
+<GENE id="G474" spans="35372~35376" text="CD27" location="background" />
+<GENE id="G475" spans="35564~35567" text="CD4" location="background" />
+<GENE id="G476" spans="35958~35961" text="CD4" location="background" />
+<GENE id="G477" spans="36151~36154" text="SAP" location="background" />
+<GENE id="G478" spans="36752~36755" text="SAP" location="background" />
+<GENE id="G479" spans="36858~36861" text="SAP" location="background" />
+<GENE id="G480" spans="36865~36871" text="CD45RA" location="background" />
+<GENE id="G481" spans="36874~36878" text="CCR7" location="background" />
+<GENE id="G482" spans="36921~36924" text="CD8" location="background" />
+<GENE id="G483" spans="36959~36962" text="SAP" location="background" />
+<GENE id="G484" spans="36966~36969" text="CD8" location="background" />
+<GENE id="G485" spans="37258~37261" text="CD8" location="background" />
+<GENE id="G486" spans="37387~37390" text="CD8" location="background" />
+<GENE id="G487" spans="37449~37452" text="SAP" location="background" />
+<GENE id="G488" spans="37663~37666" text="XLP" location="background" />
+<GENE id="G489" spans="37729~37732" text="SAP" location="background" />
+<DISEASE id="D0" spans="872~890" text="agammaglobulinemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1085~1103" text="agammaglobulinemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1485~1512" text="X-linked agammaglobulinemia" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D3" spans="1514~1517" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D5" spans="1865~1868" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D6" spans="2098~2101" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D7" spans="2385~2388" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D8" spans="2494~2497" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D9" spans="1837~1840" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D10" spans="2546~2564" text="agammaglobulinemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2661~2664" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D12" spans="2802~2834" text="severe combined immunodeficiency" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2836~2840" text="SCID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2765~2773,2802~2834" text="X-linked ... severe combined immunodeficiency" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D16" spans="3282~3285" text="XLA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="3264~3267" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="4011~4014" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D20" spans="4453~4457" text="AIDS" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D21" spans="4799~4803" text="AIDS" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D22" spans="5880~5884" text="SCID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="6084~6088" text="SCID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="6049~6053" text="SCID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="6013~6017" text="SCID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="6117~6121" text="SCID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="6364~6367" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D28" spans="6394~6421" text="X-linked hyper IgM syndrome" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D29" spans="6603~6635" text="Common variable immunodeficiency" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D30" spans="6637~6641" text="CVID" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D31" spans="6949~6953" text="CVID" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D32" spans="7116~7119" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D33" spans="8651~8654" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D35" spans="8891~8940" text="X-linked lymphoproliferative disease (XLP) type 1" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D36" spans="9009~9012" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D37" spans="9020~9024" text="IPEX" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D38" spans="9054~9058" text="HIES" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D39" spans="8970~8975" text="XLP-2" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D40" spans="9210~9215" text="XLP-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D41" spans="9217~9222" text="XLP-2" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D42" spans="9228~9231" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D43" spans="9319~9324" text="XLP-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D44" spans="9362~9393" text="leukocyte adhesion deficiency-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D45" spans="10009~10012" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D46" spans="10282~10311" text="chronic granulomatous disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D47" spans="10858~10861" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D48" spans="11040~11043" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D49" spans="11102~11105" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D50" spans="11527~11554" text="X-linked hyper-IgM syndrome" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D51" spans="11767~11770" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D52" spans="11772~11779" text="AR HIES" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D53" spans="11781~11784" text="XLA" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D54" spans="11806~11832" text="inflammatory bowel disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D55" spans="19985~19992" text="malaria" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D56" spans="19994~20005" text="Hepatitis B" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D57" spans="19980~19983" text="HIV" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D60" spans="20129~20147" text="Sjogren's syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D61" spans="20207~20210" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D62" spans="20284~20287" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D63" spans="20983~21001" text="Hyper IgE Syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D64" spans="21433~21442" text="scoliosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D65" spans="21444~21456" text="osteoporosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D66" spans="21490~21497" text="AD-HIES" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D67" spans="21722~21729" text="AD HIES" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D68" spans="24365~24372" text="AR HIES" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D69" spans="27416~27419" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D70" spans="28358~28362" text="HIES" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D71" spans="31996~31999" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D73" spans="33952~33959" text="AR HIES" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D74" spans="34213~34249" text="X-Linked Lymphoproliferative Disease" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D75" spans="34268~34273" text="XLP-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D76" spans="34354~34369" text="B-cell lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D77" spans="34432~34437" text="XLP-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D78" spans="35081~35084" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D79" spans="35152~35155" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D80" spans="35280~35285" text="XLP-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D81" spans="35340~35343" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D82" spans="35591~35594" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D83" spans="35705~35708" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D84" spans="36028~36033" text="XLP-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D85" spans="36172~36175" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D86" spans="36272~36277" text="XLP-1" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D87" spans="36297~36300" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D88" spans="36446~36449" text="XLP" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D89" spans="36523~36557" text="hemophagocytic lymphohistiocytosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D90" spans="36588~36591" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D91" spans="36799~36802" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D92" spans="36984~36987" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D93" spans="37381~37384" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D94" spans="37485~37488" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D95" spans="37850~37853" text="XLP" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D96" spans="2892~2913" text="hypogammaglobulinemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1424~1433,1479~1484" text="mutations ... cause" location="background" relation="causative mutation" />
+<RELATION id="R1" spans="6643~6649,6657~6666" text="due to ... mutations" location="background" relation="causative mutation" />
+<RELATION id="R2" spans="8942~8955" text="LOF mutations" location="background" relation="associated mutation" />
+<RELATION id="R3" spans="8977~8990" text="LOF mutations" location="background" relation="associated mutation" />
+<RELATION id="R5" spans="21002~21008,21015~21024" text="Due to ... Mutations" location="background" relation="causative mutation" />
+<RELATION id="R6" spans="21511~21557" text="result from heterozygous germline DN mutations" location="background" relation="causative mutation" />
+<RELATION id="R7" spans="34438~34464" text="results from LOF mutations" location="background" relation="causative mutation" />
+<RELATION id="R8" spans="35099~35103,35108~35118" text="lack ... expression" location="background" relation="decreased expression" />
+<RELATION id="R9" spans="9394~9410" text="due to mutations" location="background" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="BTK" diseaseID="D2" diseaseText="X-linked agammaglobulinemia" relationID="R0" relationText="mutations ... cause" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="Bruton's tyrosine kinase" diseaseID="D2" diseaseText="X-linked agammaglobulinemia" relationID="R0" relationText="mutations ... cause" />
+<ENTITY_LINKING id="E2" geneID="G0" geneText="BTK" diseaseID="D3" diseaseText="XLA" relationID="R0" relationText="mutations ... cause" />
+<ENTITY_LINKING id="E3" geneID="G2" geneText="Bruton's tyrosine kinase" diseaseID="D3" diseaseText="XLA" relationID="R0" relationText="mutations ... cause" />
+<ENTITY_LINKING id="E4" geneID="G27" geneText="ICOS" diseaseID="D29" diseaseText="Common variable immunodeficiency" relationID="R1" relationText="due to ... mutations" />
+<ENTITY_LINKING id="E5" geneID="G27" geneText="ICOS" diseaseID="D30" diseaseText="CVID" relationID="R1" relationText="due to ... mutations" />
+<ENTITY_LINKING id="E6" geneID="G73" geneText="SH2D1A" diseaseID="D35" diseaseText="X-linked lymphoproliferative disease (XLP) type 1" relationID="R2" relationText="LOF mutations" />
+<ENTITY_LINKING id="E7" geneID="G75" geneText="XIAP" diseaseID="D39" diseaseText="XLP-2" relationID="R3" relationText="LOF mutations" />
+<ENTITY_LINKING id="E8" geneID="G76" geneText="BIRC4" diseaseID="D39" diseaseText="XLP-2" relationID="R3" relationText="LOF mutations" />
+<ENTITY_LINKING id="E9" geneID="G81" geneText="ITGB2" diseaseID="D44" diseaseText="leukocyte adhesion deficiency-1" relationID="R9" relationText="due to mutations" />
+<ENTITY_LINKING id="E10" geneID="G82" geneText="CD18" diseaseID="D44" diseaseText="leukocyte adhesion deficiency-1" relationID="R9" relationText="due to mutations" />
+<ENTITY_LINKING id="E11" geneID="G288" geneText="STAT3" diseaseID="D63" diseaseText="Hyper IgE Syndrome" relationID="R5" relationText="Due to ... Mutations" />
+<ENTITY_LINKING id="E12" geneID="G289" geneText="STAT3" diseaseID="D66" diseaseText="AD-HIES" relationID="R6" relationText="result from heterozygous germline DN mutations" />
+<ENTITY_LINKING id="E13" geneID="G290" geneText="STAT3" diseaseID="D66" diseaseText="AD-HIES" relationID="R6" relationText="result from heterozygous germline DN mutations" />
+<ENTITY_LINKING id="E14" geneID="G462" geneText="SH2D1A" diseaseID="D77" diseaseText="XLP-1" relationID="R7" relationText="results from LOF mutations" />
+<ENTITY_LINKING id="E15" geneID="G471" geneText="SAP" diseaseID="D78" diseaseText="XLP" relationID="R8" relationText="lack ... expression" />
+</TAGS>
+</Genomics_ConceptTask>

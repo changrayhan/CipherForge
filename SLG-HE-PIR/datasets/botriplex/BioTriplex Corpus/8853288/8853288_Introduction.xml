@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Sarcopenia is a typical pathological condition of aging characterized by a progressive reduction in muscle strength and function leading to physical frailty and an increased risk of falls and fractures ( Cariati et al., 2021 ). The molecular mechanisms underlying the development and progression of sarcopenia include nuclear apoptosis, mitochondrial dysfunction, and muscle fiber denervation ( Deschenes, 2004 ;  Alway and Siu, 2008 ;  Marzetti et al., 2013 ). Noteworthy, mitochondrial DNA damage in a mouse model has been reported to result in loss of the satellite cell pool, leading to reduced regenerative potential, muscle atrophy, and decline in locomotor activity ( Wang et al., 2013 ). Satellite cells are primarily responsible for muscle regeneration, as in addition to ensuring the preservation of a stem compartment in muscle tissue, they also provide the myogenic cells that will form new myofibrils. Therefore, the loss of the satellite cell pool could reflect the state of muscle alteration that specifically characterizes age-related bone diseases, such as osteoporosis and osteoarthritis ( Scimeca et al., 2017 ).
+Sarcopenia is also a condition found in astronauts exposed to spaceflight ( di Prampero and Narici, 2003 ;  Bettis et al., 2018 ). Indeed, prolonged unloading is known to induce rapid tissue degeneration, precluding long-term missions, and reproducing some of the pathophysiological events that occur in the musculoskeletal system during aging ( Tarantino et al., 2020 ). Several scientific evidence have reported that muscle mass and strength may decrease in response to microgravity and ground-based simulation conditions, resulting in muscle atrophy, changes in muscle fiber composition and gene expression, as well as a reduction in regenerative muscle growth ( Fitts et al., 2010 ;  Narici and de Boer, 2011 ;  Tanaka et al., 2017 ). These changes are generally associated with bone mass loss, alterations in the balance between osteoblasts and osteoclasts activities, as well as increased bone resorption and inhibition of new bone formation by osteoblasts ( Arfat et al., 2014 ;  Grimm et al., 2016 ). In this regard, Nabavi and colleagues have subjected primary cultures of murine osteoblasts to 5 days of microgravity, observing important structural alterations, such as shorter microtubules, reduction in the number and size of focal adhesions, and, in general, an extended cell morphology with damaged nuclei ( Nabavi et al., 2011 ). In agreement, Colaianni et al. reported hindlimb unloading as a factor responsible for inducing bone loss and muscle atrophy in mouse models ( Colaianni et al., 2017 ). However, the authors reported that administration of recombinant irisin reversed the effects induced by unload simulation in mice, indicating the potential reversibility of this condition, and suggesting a possible strategy to counteract disease progression ( Colaianni et al., 2017 ). Finally, in our previous work, we evaluated the simulated biological effects of microgravity on primary satellite cell cultures derived from control (CTRL), osteoarthritic (OA), and osteoporotic (OP) patients, finding alterations in both morphological and molecular terms ( Tarantino et al., 2020 ). Specifically, random positioning machine (RPM) exposure resulted in the onset of obvious signs of cell degeneration, such as cytoplasmic vacuolization, and altered the amount of myotubes positive for bone morphogenetic protein-2 (BMP-2) and myostatin. We observed increased BMP-2 expression levels in all experimental groups, whereas myostatin expression was markedly increased in cells from CTRL and OA patients, suggesting the existence of an imbalance between BMP-2 and myostatin pathways ( Tarantino et al., 2020 ).
+Not surprisingly, the sarcopenic condition is known to be characterized by a progressive increase in the levels of myostatin, a myokine produced by skeletal muscle on which it acts as a negative regulator ( Tarantino et al., 2015b ). Indeed, in myostatin-deficient mouse models, an increase in muscle mass and strength has been found, along with an expansion of muscle insertion sites in the humerus, femur, and spine ( Elkasrawy and Hamrick, 2010 ). Qin et al. proposed an anti-osteogenic role for myostatin, having observed that, in response to it, osteocytes increase the expression of sclerostin, Receptor Activator of Nuclear factor Kappa-Β Ligand (RANKL), and Dickkopf-1 (DKK-1), which are all negative regulators of bone remodeling ( Qin et al., 2017 ). In agreement, we recently evaluated myostatin and BMP-2 levels in muscle biopsies from CTRL, OA, and OP patients ( Scimeca et al., 2015 ). Interestingly, the number of myostatin-positive fibers in OP patients was significantly higher than in the CTRL and OA groups, and BMP-2-positive fibers were negative for myostatin and vice versa. In addition, fewer satellite cells were found in the muscles of OP patients than in CTRL and OA patients, confirming a reduction in muscle regenerative potential. Our results suggested that the muscle tissue of OP patients was characterized by a higher content of atrophic fibers, a low amount of satellite cells, and a higher expression of myostatin ( Scimeca et al., 2015 ).
+Based on this evidence, in the present work, which is a continuation of the previous one ( Tarantino et al., 2020 ), we reproduced identical experimental conditions and enriched the data previously obtained to evaluate the efficacy of anti-myostatin (anti-MSTN) antibodies in preventing human satellite cell degeneration induced by RPM exposure. Particularly, RPM is a model currently used for simulation research on cell cultures in parallel with experiments conducted on space stations and allows simulating the biological effects of microgravity ( van Loon, 2007 ;  Wuest et al., 2015 ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3433~3461" text="bone morphogenetic protein-2" location="background" />
+<GENE id="G1" spans="3463~3468" text="BMP-2" location="background" />
+<GENE id="G2" spans="3474~3483" text="myostatin" location="background" />
+<GENE id="G3" spans="3507~3512" text="BMP-2" location="background" />
+<GENE id="G4" spans="3567~3576" text="myostatin" location="background" />
+<GENE id="G5" spans="3696~3701" text="BMP-2" location="background" />
+<GENE id="G6" spans="3706~3715" text="myostatin" location="background" />
+<GENE id="G7" spans="3868~3877" text="myostatin" location="background" />
+<GENE id="G8" spans="3998~4007" text="myostatin" location="background" />
+<GENE id="G9" spans="4252~4261" text="myostatin" location="background" />
+<GENE id="G10" spans="4342~4352" text="sclerostin" location="background" />
+<GENE id="G11" spans="4354~4405" text="Receptor Activator of Nuclear factor Kappa-Β Ligand" location="background" />
+<GENE id="G12" spans="4407~4412" text="RANKL" location="background" />
+<GENE id="G13" spans="4419~4429" text="Dickkopf-1" location="background" />
+<GENE id="G14" spans="4431~4436" text="DKK-1" location="background" />
+<GENE id="G15" spans="4550~4559" text="myostatin" location="background" />
+<GENE id="G16" spans="4564~4569" text="BMP-2" location="background" />
+<GENE id="G17" spans="4682~4691" text="myostatin" location="background" />
+<GENE id="G18" spans="4784~4789" text="BMP-2" location="background" />
+<GENE id="G19" spans="4824~4833" text="myostatin" location="background" />
+<GENE id="G20" spans="5191~5200" text="myostatin" location="background" />
+<GENE id="G21" spans="5467~5476" text="myostatin" location="result" />
+<GENE id="G22" spans="5483~5487" text="MSTN" location="result" />
+<DISEASE id="D0" spans="3106~3108" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="3129~3131" text="OP" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="3634~3636" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="4607~4609" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="4615~4617" text="OP" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="4711~4713" text="OP" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="4769~4771" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="4914~4916" text="OP" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="4943~4945" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="5061~5063" text="OP" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R1" spans="5170~5187" text="higher expression" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G20" geneText="myostatin" diseaseID="D9" diseaseText="OP" relationID="R1" relationText="higher expression" />
+</TAGS>
+</Genomics_ConceptTask>

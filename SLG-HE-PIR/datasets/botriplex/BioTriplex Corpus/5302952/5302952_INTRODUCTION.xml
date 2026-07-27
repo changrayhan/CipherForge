@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Prostate cancer is one the most widespread types of cancer. Until recently, it was the most common cancer among men in Western countries, whereas its incidence is increasing in Asian populations. In the United States alone, 186,320 new cases of prostate cancer will be diagnosed and a total of 28,660 deaths are predicted [ 1 ]. Prostate cancer is a slowly growing cancer and is usually detected at a late stage [ 2 ]. Most patients exhibit increased levels of specific cancer markers, such as the prostate specific antigen (PSA) which is secreted into blood circulation [ 3 ]. Because prostate cancer is initially androgen-dependent, androgen deprivation is commonly used to cause it to regress [ 4 ]. However, prostate cancers that are not cured by surgery eventually become androgen independent, thus resistant to anti-androgen therapy, and progress to highly aggressive metastatic cancer often leading to a patient's death [ 5 ]. Moreover, standard chemotherapy is rather ineffective for prostate cancer and has serious side effects due to its toxicity.
+An alternative approach is the use of natural dietary compounds for either chemoprevention or chemotherapy. Two examples are resveratrol and EGCG, found in red wine and green tea, respectively. These have been demonstrated to be beneficial agents as they interfere with key processes involved in cancer development and progression. Among polyphenols, a promising dietary component is delphinidin (Figure  1A ), one of the main anthocyanidins. Delphinidin is a diphenylpropane-based, polyphenolic ring structure-harboring compound that is naturally found in pomegranates, berries, grapes, beets, and eggplants [ 6 ]. Delphinidin possesses anti-cancer, anti-inflammatory, and anti-angiogenic properties. Recently published reports showed that it is able to inhibit the invasion of breast cancer cells [ 7 ]. Due to the factors mentioned above (emergence of androgen-independent prostate cancer cells, low efficiency and serious side effects of classic chemotherapy against this type of cancer), dietary chemoprevention and dietary therapy of prostate cancer are increasingly considered as a promising means to reduce the occurrence of this type of cancer, or reduce the side effects during its treatment, respectively [ 8 ,  9 ].
+Histone deacetylases (HDACs) are widely expressed, highly conserved proteins. Eighteen human HDACs have been identified, which are grouped into four classes based on their homology to their respective yeast orthologs. Class I HDACs (1, 2, 3, and 8) are homologous to the yeast transcriptional regulator RPD3, class II HDACs (HDAC 4–7, 9, 10) are similar to Hda1, and class III HDACs (SIRTs 1–7) are NAD + -dependent histone deacetylases homologous Sir2 [ 10 ]. HDAC11 is quite different from the members of the other classes and has been placed in a fourth class. In addition to histone proteins, HDACs have many non-histone protein substrates, including p53, NF-kB, and STAT, which are important transcription factors regulating the expression of a large number of genes [ 11 ]. HDACs are involved in DNA replication, cell cycle progression, gene repression, cell proliferation, and tumorigenesis in various cells [ 12 ]. However, the roles of the various HDACs in cell proliferation and cell death are not yet fully established.
+HDACs are important therapeutic targets in various human cancers, because they regulate the expression of p53 and its activation [ 13 – 16 ]. The p53 protein is a key transcription factor of tumor cell death signaling pathways as it regulates the expression of genes involved in apoptosis and cell cycle arrest [ 17 ,  18 ]. Another protein, MDM2, binds and ubiquinates p53, resulting in the rapid degradation of the latter. However, acetylation of p53 by two histone acetyltransferases (HATs), p300 and CBP, abrogates the ability of mdm2 to bind and ubiquinate p53, leading to p53 stabilization [ 19 ,  20 ]. As expected, deacetylation of p53 by HDACs has the opposite effect, i.e., it promotes its degradation. Among HDACs, HDAC3 localizes to the nucleus, cytoplasm, and plasma membrane. It is functionally distinct from other members of Class I HDACs [ 21 ] and exerts an important regulatory effect on the expression and function of p53. According to recent research, the cleavage of HDAC3 that takes place during apoptosis induced by chemotherapeutic agents, leads to the expression of p53-regulated pro-apoptotic genes [ 22 ].
+In this study, we demonstrate that delphinidin induces apoptosis in prostate LNCaP cancer cells by inducing caspase-mediated HDAC3 cleavage that results in the acetylation and stabilization of p53. The activation of effector caspases during delphinidin-induced apoptosis is involved in the cleavage and inactivation of HDAC3, whereas the downregulation of HDAC3 activity leads to the oligomerization of p53 in human prostate cancer LNCaP cells. Moreover, delphinidin-induced apoptosis is accompanied by the upregulation of pro-apoptotic genes such as  Bax  and  p21 . To sum up, we demonstrated that treatment of LNCaP cells with delphinidin significantly enhanced p53 stabilization and p53 acetylation. Delphinidin appears to serve as a multifunctional anti-tumor and HDAC-inhibition agent in various types of human cancer.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2590~2594" text="RPD3" location="background" />
+<GENE id="G2" spans="2735~2739" text="Sir2" location="background" />
+<GENE id="G3" spans="2748~2754" text="HDAC11" location="background" />
+<GENE id="G4" spans="2942~2945" text="p53" location="background" />
+<GENE id="G5" spans="2947~2952" text="NF-kB" location="background" />
+<GENE id="G6" spans="3424~3427" text="p53" location="background" />
+<GENE id="G7" spans="3660~3664" text="MDM2" location="background" />
+<GENE id="G8" spans="3688~3691" text="p53" location="background" />
+<GENE id="G9" spans="3767~3770" text="p53" location="background" />
+<GENE id="G10" spans="3813~3817" text="p300" location="background" />
+<GENE id="G11" spans="3822~3825" text="CBP" location="background" />
+<GENE id="G12" spans="3852~3856" text="mdm2" location="background" />
+<GENE id="G13" spans="3880~3883" text="p53" location="background" />
+<GENE id="G14" spans="3896~3899" text="p53" location="background" />
+<GENE id="G15" spans="3958~3961" text="p53" location="background" />
+<GENE id="G16" spans="4044~4049" text="HDAC3" location="background" />
+<GENE id="G17" spans="4409~4412" text="p53" location="background" />
+<GENE id="G18" spans="4576~4581" text="HDAC3" location="result" />
+<GENE id="G19" spans="4644~4647" text="p53" location="result" />
+<GENE id="G20" spans="4770~4775" text="HDAC3" location="result" />
+<GENE id="G21" spans="4807~4812" text="HDAC3" location="result" />
+<GENE id="G22" spans="4854~4857" text="p53" location="result" />
+<GENE id="G23" spans="5003~5006" text="Bax" location="result" />
+<GENE id="G24" spans="5013~5016" text="p21" location="result" />
+<GENE id="G25" spans="5116~5119" text="p53" location="result" />
+<GENE id="G26" spans="5138~5141" text="p53" location="result" />
+<DISEASE id="D0" spans="1~16" text="Prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="53~59" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="100~106" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="246~261" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="330~345" text="Prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="471~477" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="587~602" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="713~728" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="993~1008" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1702~1708" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="1838~1851" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1935~1950" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2043~2049" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="2205~2211" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D14" spans="3375~3381" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D15" spans="4534~4540" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="4867~4882" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="5268~5274" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R1" spans="4789~4803" text="downregulation" location="result" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G21" geneText="HDAC3" diseaseID="D16" diseaseText="prostate cancer" relationID="R1" relationText="downregulation" />
+</TAGS>
+</Genomics_ConceptTask>

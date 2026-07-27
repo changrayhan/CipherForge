@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cx43 is lateralized in DMD mice, correlating with overall disease severity
+The aberrant localization and protein expression of Cx43 have been largely associated with various heart disease models. While presence at the intercalated discs is required for proper cardiac conduction, lateralization and altered levels contribute significantly to cardiac pathology. To assess potential changes in expression and localization of Cx43 in the hearts of multiple models of DMD, we performed immunofluorescence (IF) staining on sections from WT, mdx, and mdx:utr mice at 2, 4, 8, and 12 months of age. mdx:utr mice were analyzed until the 4 month time point, as these animals typically only survive up to 3–4 months due to the severity of the disease 34 . In WT mice, Cx43 localizes tightly to the intercalated discs (93% ± 2% MEAN ± SEM, n = 5), critical for the formation of gap junctions and proper electrical signal conduction between cardiomyocytes ( Fig. 1a,b ). However, in mdx mouse hearts, even at 2, 4, and 8 months of age where no histopathology is present, Cx43 localization was significantly lateralized, with only 67% ± 3.5% (MEAN ± SEM, n = 7) expression at the intercalated discs ( Fig. 1a,b ). In addition, through analysis of the more severe mdx:utr double knock out model of DMD, an even lower proportion of Cx43 expression was observed at intercalated discs (46% ± 5% MEAN ± SEM, n = 5), demonstrating that while initial Cx43 remodeling occurs before overt cardiac pathology is present, it increases as signs of dilated cardiomyopathy and fibrosis appear ( Fig. 1a,b ). The mdx:utr model of DMD is known to develop significant cardiac inflammation, fibrosis, and degeneration, with related decreased overall cardiac function towards end stages of disease, similar to symptoms exhibited by patients 34 35 .
+As Cx43 is known to have a very short half-life and undergo rapid turnover in response to cardiac stimuli 36 37 , we sought to examine the effect of β-adrenergic challenge on protein expression patterns. WT, mdx, and mdx:utr mice were challenged by Iso (5 mg/kg IP) and hearts were visualized for related changes in Cx43 within one hour ( Fig. 1c ). We found a significant increase in the lateralization of Cx43 in both mdx (51% ± 4% MEAN ± SEM, n = 5, at IDs) and mdx:utr (35.75% ± 3.75% MEAN ± SEM, n = 5, at IDs) mouse hearts, to levels greater than those seen prior to challenge, while WT hearts remained relatively unaffected (88% ± 2.5% MEAN ± SEM, n = 6) ( Fig. 1c,d ).
+By performing western blot analysis on protein samples from each animal, we found that overall Cx43 levels were increased in DMD mice compared to WT ( Fig. 1e,f ). Specifically, mdx mice displayed a 1.92 ± 0.32 fold increase in Cx43 protein levels while the more severe mdx:utr mice exhibited even greater Cx43 upregulation (2.71 ± 0.49 fold), compared to WT mice ( Fig. 1f ). We further sought to examine whether the Pannexin-1 protein was dysregulated in DMD mice, as it has been shown to form hemichannels with properties similar to those formed by Cx43 38 . By western blot analysis of Panexin1, we found no significant differences in protein levels in mdx mice, compared to WT ( Supplementary Fig. 1a,b ). This indicated that Cx43 could specifically be playing a significant role in DMD pathological hearts in regards to channel function. Taken together, our findings show that Cx43 is not only redistributed to lateral sides of the cardiomyocytes but also upregulated at those positions.
+Human DMD hearts display lateralized and upregulated Cx43
+To examine whether altered Cx43 protein expression and lateralization are also present in human DMD, we performed Cx43 analysis on heart samples obtained from multiple non-DMD and DMD patients. Immunofluorescence indicates that DMD patients’ hearts exhibit significantly lateralized expression patterns of Cx43, compared to non-DMD individuals, at percentages similar to the severe DMD mouse model (49% ± 9% localized to IDs) ( Fig. 2a,b ).
+Western blot analysis was performed on tissue samples from each patient analyzed by IF to quantify differences in protein expression levels. Results show that overall Cx43 is significantly upregulated in DMD patients compared to non-DMD (4.92 ± 0.92 fold), again at levels similar to, or even greater than, those seen in severe DMD mice ( Fig. 2c,d ). These findings indicate that Cx43 may play an important role in human DMD cardiomyopathy and that mouse models properly mimic levels and expression patterns seen in patients, even in DMD heart failure.
+mdx and mdx:utr models of DMD develop severe arrhythmias
+As proper protein levels and localization of Cx43 are known to be required for cardiac function, our initial findings led us to examine  in vivo  parameters that could be influenced by aberrant protein expression and localization of Cx43. WT, mdx, an mdx:utr mice underwent electrocardiography (ECG) to visualize disturbances in electrical conduction as a possible result of altered Cx43 activity. At baseline, no group showed significant spontaneous arrhythmias ( Fig. 3a ) and RR intervals did not show significant variation (WT: 127 ms; mdx: 126 ms; mdx:utr: 124 ms). Iso was used to challenge mice, at conditions equal to those previously mentioned, examining the susceptibility of these hearts to the development of conduction related disorders. Following administration, both mdx and mdx:utr mice developed arrhythmias within minutes, while WT mice did not show any signs of arrhythmias throughout the duration of analysis ( Fig. 3b,d ). Along with the initial occurrence of premature ventricular contractions (PVCs) in mdx and mdx:utr mice, R-R intervals were significantly decreased below 95 ms in each mouse (mdx: RR = 93 ms; mdx:utr: RR = 90 ms)( Fig. 3b ) followed by undetermined values after arrhythmia scores worsened due to absent QRS complexes ( Fig. 3f ), translating to an increase in heart rate of about 165 beats per minute (bpm). WT mice also experienced shortened R-R intervals but to a lesser extent (WT: RR = 103 ms,  Fig. 3f ), increasing heart rate by about 100 bpm. While several mdx mice progressed to develop non-sustained ventricular tachycardia (VT) or AV blocks during the challenge (Arrhythmia Score = 2 or 4, accordingly), mdx:utr mice quickly advanced to sustained VT and AV block, and a majority died within 1 hour of initial Iso administration (Arrhythmia Score = 3, 4, or 5, accordingly) ( Fig. 3d ). ECG tracings also show a slight increase in QT intervals in mdx mice compared to WT both at baseline (WT = 47.3 ms, mdx = 49.7 ms) and after Iso (WT = 39.7 ms, mdx = 44.7 ms) ( Fig. 3g ). QT intervals could not be assessed properly in mdx:utr mice due to the rapid onset of VT and the related absence of distinct Q and T waves. As WT mice are known to be mainly unaffected by many fold higher doses of Iso 32 , these findings show a potential link between overall cardiac dysfunction in DMD and Cx43.
+Cx43 Inhibition Prevents Arrhythmias in DMD Models
+As a possible mechanism to address the occurrence of arrhythmias in DMD mouse models, Cx43 hemichannels were directly targeted for functional inhibition using two different mimetic peptides, Gap26 and Gap19, designed to prevent the binding of sequences necessary for channel opening 27 . As Gap26 has been shown to be able to also inhibit gap junctions in a dose and time dependent manner, our studies utilized low, single doses. In addition, Gap19 was used as a more hemichannel selective peptide mimetic due to the role of the target sequence in hemichannel but not gap junction channel opening.
+By treating mice with Gap 26 or Gap 19 prior to Iso administration, both DMD models showed significant decreases in conduction deficiencies ( Fig. 3c ). A majority of mdx mice (90%) were effectively protected from the development of VT and PVCs following even a low dose of Gap 26 (1 ug/kg) or Gap 19 (10 ug/kg) treatment (Arrhythmia Score = 0) ( Fig. 3e ). Optimal dosage was determined as lowest dose providing significant change in arrhythmia score. As Gap 26 corresponds to an extracellular sequence and Gap 19 corresponds to an intracellular sequence, a higher dose was required of Gap 19 to provide similar benefit as expected. Since the results of both treatments separately lead to equivalent scores and ECG patterns, measurements for Gap 26 and Gap 19 treated mice are expressed together. ECG intervals measured in treated, challenged DMD mice were significantly rescued to WT levels (WT: QT = 46 ms; mdx: QT = 47.7 ms; mdx:utr: QT = 44 ms) ( Fig. 3g ), with some intervals being further rescued even closer to baseline (mdx: RR = 115 ms compared to baseline mdx:126 ms) ( Fig. 3f ). To assess whether targeting Pannexin-1 could similarly protect DMD mice from challenge related symptoms, a Pannexin-1 inhibiting peptide mimetic was utilized. In both treated mdx and mdx:utr mice, arrhythmogenesis occurred following challenge to the same extent as untreated challenged mice (mdx: Arrhythmia Score = 3; mdx:utr: Arrhythmia Score = 5) ( Supplementary Fig. 1c,d ). In addition, western blot analysis was performed on baseline, Iso challenged, and Cx43 peptide mimetic treated Iso challenged cardiac samples to view a potential role of the sodium channel Na v 1.5 in the rescue of lethality and arrhythmogenesis. Previous findings have shown the downregulation of Na v 1.5 in mdx(5 cv) mice, and that transgenic upregulation provides a therapeutically beneficial restoration of sodium current that may prevent the development of arrhythmias 39 40 . Our results confirm that DMD mice display decreased protein levels of Na v 1.5, but show that no significant changes occur following Cx43 peptide mimetic treatment ( Supplementary Fig. 2a,b ). Together, these findings indicate a significant, specific role for Cx43 hemichannel inhibition in preventing the onset of arrhythmias in DMD and in protecting DMD hearts from overall challenge-related effects.
+mdx mice treated with Gap 26 or Gap 19 survive following Iso challenge
+Following Iso challenge and the development of arrhythmias, we found that DMD mice displayed significant mortality within a short period of time 32 33 . A majority of mdx mice died within 24 hours after Iso was administered, while many mdx:utr mice died within only 1 hour following challenge ( Fig. 4 ). However, 90% of mdx mice treated with either the Gap 26 or Gap 19 Cx43 peptide mimetic prior to Iso challenge were protected from both arrhythmogenesis and related lethality ( Fig. 4 ). Although mdx:utr mice received substantial benefits from treatment in terms of ECG readouts, overall lethality was not prevented. These mice showed only slightly increased durations of survival ( Fig. 4 ). Since mdx:utr mice do display overt cardiac and skeletal muscle histopathology as early as 2 months of age, models at this advanced stage of disease may not receive as significant a benefit as those in earlier stages such as mdx mice. To verify the selective benefits of Cx43 mediation, Pannexin-1 peptide mimetic treated DMD mice were challenged and monitored for survival. These mice died within durations comparable to untreated, isoproterenol challenged DMD mice ( Supplementary Fig. 1e ), consistent with observed arrhythmogenesis ( Supplementary Fig. 1c,d ) and an overall lack of Pannexin-1 peptide mimetic protective effects. Overall, our results show that mdx mice are successfully protected from arrhythmogenesis and death by Cx43 selective inhibition, and that while mdx:utr mice receive considerable cardiac benefits, treatment may be more effective if started at earlier ages before critical disease time points.
+These results strongly implicate Cx43 in overall cardiac pathology and disease progression in DMD, and may have a significant impact on therapeutic development to combat a leading cause of death in the disease.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~5" text="Cx43" location="result" />
+<GENE id="G1" spans="128~132" text="Cx43" location="background" />
+<GENE id="G2" spans="424~428" text="Cx43" location="result" />
+<GENE id="G3" spans="759~763" text="Cx43" location="result" />
+<GENE id="G4" spans="1060~1064" text="Cx43" location="result" />
+<GENE id="G5" spans="1318~1322" text="Cx43" location="result" />
+<GENE id="G6" spans="1432~1436" text="Cx43" location="result" />
+<GENE id="G7" spans="1820~1824" text="Cx43" location="background" />
+<GENE id="G8" spans="2224~2228" text="Cx43" location="result" />
+<GENE id="G9" spans="2589~2593" text="Cx43" location="result" />
+<GENE id="G10" spans="2722~2726" text="Cx43" location="result" />
+<GENE id="G11" spans="2800~2804" text="Cx43" location="result" />
+<GENE id="G12" spans="2912~2922" text="Pannexin-1" location="result" />
+<GENE id="G13" spans="3046~3050" text="Cx43" location="result" />
+<GENE id="G14" spans="3377~3381" text="Cx43" location="result" />
+<GENE id="G15" spans="3541~3545" text="Cx43" location="result" />
+<GENE id="G16" spans="3573~3577" text="Cx43" location="result" />
+<GENE id="G17" spans="3225~3229" text="Cx43" location="result" />
+<GENE id="G18" spans="3660~3664" text="Cx43" location="result" />
+<GENE id="G19" spans="3852~3856" text="Cx43" location="result" />
+<GENE id="G20" spans="4154~4158" text="Cx43" location="result" />
+<GENE id="G21" spans="4368~4372" text="Cx43" location="result" />
+<GENE id="G22" spans="4643~4647" text="Cx43" location="background" />
+<GENE id="G23" spans="4831~4835" text="Cx43" location="result" />
+<GENE id="G24" spans="4981~4985" text="Cx43" location="result" />
+<GENE id="G25" spans="6932~6936" text="Cx43" location="result" />
+<GENE id="G26" spans="6938~6942" text="Cx43" location="result" />
+<GENE id="G27" spans="7075~7079" text="Cx43" location="result" />
+<GENE id="G28" spans="8708~8718" text="Pannexin-1" location="result" />
+<GENE id="G29" spans="8787~8797" text="Pannexin-1" location="result" />
+<GENE id="G30" spans="9141~9145" text="Cx43" location="result" />
+<GENE id="G31" spans="9675~9679" text="Cx43" location="result" />
+<GENE id="G32" spans="9802~9806" text="Cx43" location="result" />
+<GENE id="G33" spans="10387~10391" text="Cx43" location="result" />
+<GENE id="G34" spans="10984~10988" text="Cx43" location="result" />
+<GENE id="G35" spans="11300~11310" text="Pannexin-1" location="result" />
+<GENE id="G36" spans="11449~11453" text="Cx43" location="result" />
+<GENE id="G37" spans="11672~11676" text="Cx43" location="result" />
+<DISEASE id="D0" spans="24~27" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D1" spans="175~188" text="heart disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="465~468" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D3" spans="1285~1288" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D4" spans="1602~1605" text="DMD" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D5" spans="2619~2622" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D6" spans="2951~2954" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D7" spans="3282~3285" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D8" spans="3494~3497" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D9" spans="3642~3645" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D10" spans="3718~3721" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D11" spans="3726~3729" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D12" spans="3774~3777" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D13" spans="3874~3877" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D14" spans="3928~3931" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D15" spans="4191~4194" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D16" spans="4220~4223" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D17" spans="4315~4318" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D18" spans="4409~4412" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D19" spans="4413~4427" text="cardiomyopathy" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="4522~4525" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D21" spans="4526~4539" text="heart failure" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="6924~6927" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D23" spans="6978~6981" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D24" spans="7057~7060" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D25" spans="7660~7663" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D26" spans="8431~8434" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D27" spans="8743~8746" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D28" spans="9567~9570" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D29" spans="9872~9875" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D30" spans="9894~9897" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D31" spans="10090~10093" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D32" spans="11035~11038" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D33" spans="11171~11174" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D34" spans="11733~11736" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<RELATION id="R1" spans="3252~3278" text="playing a significant role" location="result" relation="relation undefined" />
+<RELATION id="R2" spans="1298~1317,1323~1333" text="lower proportion of ... expression" location="result" relation="decreased expression" />
+<RELATION id="R4" spans="4162~4187" text="significantly upregulated" location="result" relation="increased expression" />
+<RELATION id="R5" spans="4377~4399" text="play an important role" location="result" relation="relation undefined" />
+<RELATION id="R6" spans="2594~2615" text="levels were increased" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="Cx43" diseaseID="D3" diseaseText="DMD" relationID="R2" relationText="lower proportion of ... expression" />
+<ENTITY_LINKING id="E1" geneID="G9" geneText="Cx43" diseaseID="D5" diseaseText="DMD" relationID="R6" relationText="levels were increased" />
+<ENTITY_LINKING id="E2" geneID="G17" geneText="Cx43" diseaseID="D7" diseaseText="DMD" relationID="R1" relationText="playing a significant role" />
+<ENTITY_LINKING id="E3" geneID="G20" geneText="Cx43" diseaseID="D15" diseaseText="DMD" relationID="R4" relationText="significantly upregulated" />
+<ENTITY_LINKING id="E4" geneID="G21" geneText="Cx43" diseaseID="D18" diseaseText="DMD" relationID="R5" relationText="play an important role" />
+<ENTITY_LINKING id="E5" geneID="G21" geneText="Cx43" diseaseID="D19" diseaseText="cardiomyopathy" relationID="R5" relationText="play an important role" />
+</TAGS>
+</Genomics_ConceptTask>

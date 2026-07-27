@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. General Info and Randomization
+The nutraceutical we used was an oral solution (Flogostop ®  Duo-Humana ®  Italia S.p.A.) which, in 15 mL, contained Boswellia serrata (150 mg), bromelain (150 mg), magnesium (90 mg), zinc (5.6 mg), honey (1.7 g), tyndallized Lactobacillus acidophilus (1.5 × 10 9  cells), and tyndallized Lactobacillus casei (1.5 × 10 9  cells).
+All patients were screened firstly by a doctor who filled in the patients’ clinical records and who did randomization using a computer; then, a different physician (without any information on the patient assigned) performed all the clinical investigations at each follow-ups. The use of two different doctors guaranteed a single-blinded analysis.
+After randomization, the patients were assigned to one of three groups: Control Group (CG), Treatment Group 1 (TG1), or Treatment Group 2 (TG2). The patients in both TG were treated by Flogostop ®  Duo in combination with the standard treatment, instead CG was only treated with standard treatment. Nasal aerosol with Fluticasone and Mucolitic, and nasal washing with hypertonic solution were the standard treatment, as defined by local guidelines [ 6 ].
+All children started the treatment within two days after the first clinical consultation.
+2.2. Inclusion and Exclusion Criteria
+Inclusion criteria were age over 12 months, patients affected by OME, patients with CHL, no previous use of ventilatory tube in the last six months, general good health, and parents’ agreement to participate in the study.
+We excluded children affected by acute otitis, suffering from sensorineural hearing loss (SNHL), patients with serious conditions—congenital/acquired immunologic and/or neurologic and/or metabolic diseases—and the ones whose parents did not agree with the participation in the study.
+The treatment groups followed two different therapeutic schemes: TG1 received traditional treatment + 15 mL Flogostop ®  Duo/die for 20 consecutive days, while TG2 extended the treatment for 30 consecutive days.
+Patients in the CG were treated for 30 days with the standard treatment.
+Three time points were identified: T0 = before treatment (baseline), T1 = 20 days after treatment with Flogostop, and T2 35 days after treatment.
+2.3. Clinical Evaluation ( Table 1 )
+The children were evaluated by a pediatric otolaryngologist with over 10 years’ experience. The physician evaluated the condition of patients TM using Sensera microscope (Zeiss, Oberkochen, Germany). The clinical aspect of the TM was photo-recorded and then, based on the finding, a score from 1 to 4 was assigned; 1 = TM hyperemic, 2 = TM bulging, 3 = hyperemic + bulging, and 4 = healthy TM [ 6 ]. Then, the same doctor investigated by Stortz flexible fibro-endoscopy (Stortz, Tuttilingen, Germany) and Olympus CV-170 camera (Olympus, Shinjuku, Tokio, Japan) the patients’ nose and rhynopharinx to evaluate the presence and volume of adenoid tissue and the nasal condition (i.e., hypertrophy of turbinate). The observed findings were classified using the Cassano assessment [ 8 ], with scores ranging from 1 to 4.
+Powell’s health questionnaire, translated into Italian, was used to evaluate the general condition of the patients [ 9 ] at the three follow-ups (T0, T1, and T2).
+2.4. Auditory Tests ( Table 1 )
+Children’s hearing capacities were tested by pure tone audiometry (PTA) and MT impedance. All tests were performed by a technician with over 20 years’ experience. PTA was performed to determine the auditory threshold and the characteristics of hearing loss (i.e., SNHL or conductive hearing loss (CHL)) using a Madsen Astera (Otometrics, Taastrup, Denmark) audiometer. The impedance test was performed to evaluate the sound transmission capacity of the middle ear (tympanic membrane and ossicular bone chain) using the Clarinet Middle Ear Analyzer (Inventis, Padua, Italy) and to identify conductive hearing loss.
+The children displaying a sensorineural hearing loss (SNHL) on PTA were excluded from the study. The auditory threshold of children with CHL was scored following the ASHA guidelines for hearing loss as “1” referring to mild CHL (26–40 dB), “2” indicative of slight CHL (16–25 dB), and “3” for a normal auditory threshold (−10–15 dB). Pure tone average (PTAv) was calculated, including frequencies between 500 Hz and 2000 Hz.
+The findings (graphic) of impedance test were classified as: type A tympanogram, representing a normal function; type B tympanogram, indicating the presence of fluid/infection in the middle ear impairing sound transmission; and type C tympanogram, indicating negative pressure in the middle ear, as in the case of a poorly functioning Eustachian tube or obstruction of the rhinopharynx. Based on the type, a score was assigned to statistically analyze the data; 1 = type B tympanogram, 2 = type C tympanogram, and 3 = type A tympanogram.
+
+           healthcare-10-01526-t001_Table 1 
+           Table 1 
+           Summary of investigations performed during the study. 
+           
+             
+           1 
+ 
+ 
+                 Microscopic evaluation and photo-recording of tympanic membrane  (TM), using the following score: - TM hyperemic - TM bulging - TM hyperemic + bulging - TM healthy 
+               
+                 
+               2 
+ 
+ 
+                 Rhynopharingeal fibroendoscopy  (using the Cassano’s score to assess the adenoid tissue’s state) 
+               
+                 
+               3 
+ 
+ 
+                 Audiological assessment  (tympanometry, pure tone audiometry,) 
+               
+                 
+               4 
+ 
+ 
+                 Powell’ health questionnaire  (translated into Italian, to evaluate the general condition of the patients, at three follow-ups; T0, T1, and T2) 
+               
+                 
+             
+               
+           
+             
+        
+2.5. Statistical Analysis
+One of the authors (A.D.S.) certified in biostatistics participated in the study and in the statistical design. The statistical analysis was performed by STATA ® . One-way ANOVA was performed to analyze the score variation between the groups (TG1, TG2, and CG) at the three time points (T0, T1, and T2) for the otoscopy findings. The same test was repeated to evaluate the variance of impedance results, fibro-endoscopy, and PTA findings.
+The variances in the otoscopy findings between control and treatment at T1 were measured by one-way ANOVA. The same test was done to evaluate the other three features (impedance, fibro-endoscopy, and PTA). The numeric results of health questionnaires were compared between the groups using one-way ANOVA. A Holm–Bonferroni (HB) ad hoc test was performed for each one-way ANOVA.  p  value was considered statistically significant < 0.05.
+This study was conducted at the Department of Otolaryngology of Santobono-Pausilipon (Naples, Italy), a tertiary pediatric referral center, from January to November 2021. All procedures were approved by the local Institutional Review Board (IRB) and conducted in accordance with the ethical principles outlined in the Declaration of Helsinki. The parents of participating children signed a written, informed consent to authorize the enrollment of their child in the study.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1558~1564" text="otitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1581~1607" text="sensorineural hearing loss" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1609~1613" text="SNHL" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="3922~3948" text="sensorineural hearing loss" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="3950~3954" text="SNHL" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

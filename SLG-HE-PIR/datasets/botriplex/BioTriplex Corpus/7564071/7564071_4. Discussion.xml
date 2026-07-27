@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Our current understanding of the Kv10.1 implication in the G2/M phase involves both canonical (ion-channel activity) and non-canonical (massive intracellular domains and the splice variants present in the cell) mechanisms ( Figure 6 ). On the one hand, Kv10.1/ORAI1 tandem triggers changes in intracellular Ca 2+  behavior. The fluctuations in [Ca 2+ ] can directly affect the MT growth and change the activity of many of the proteins, which can translate the information encoded in the frequency and amplitude of Ca 2+  oscillations [ 94 ]. Considering the centrosomal localization of Kv10.1 [ 21 ], the decoding would take place at the centrosomes—a hub for a myriad of cell cycle regulators, including AURKA (Aurora kinase A) and PLK1 [ 114 ]. Ca 2+ /CaM transiently activates both these kinases during the G2/M transition [ 115 , 116 ]. It is, therefore, appealing to speculate that AURKA and PLK1 might react to Kv10.1/ORAI1 driven changes in cytosolic Ca 2+  oscillations.
+On the other hand, the physical presence of Kv10.1 both at the centrosomes and the split-forms in the cytosol hold a high potential of interacting and controlling the activity of many enzymes involved in mitosis. It is tempting to speculate that Kv10.1 can interfere with the activation of CDK1, AURKA, and PLK1 independently of its conductance. As already mentioned, the spliced form of the channel E65 activates CDK1 in Xenopus oocytes [ 97 ]. Interestingly, a positive feedback loop exists between AURKA, CDK1, and PLK1 [ 117 , 118 , 119 , 120 , 121 ]. All these three kinases are implicated in microtubule growth and SAC regulation [ 122 , 123 , 124 ]. Therefore, any imbalance in this system during mitosis can affect MT dynamicity, the positioning, or even formation of the mitotic spindle. In either way, SAC response will be altered, delaying, or speeding up the metaphase-to-anaphase transition.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="34~40" text="Kv10.1" location="result" />
+<GENE id="G1" spans="254~260" text="Kv10.1" location="result" />
+<GENE id="G2" spans="261~266" text="ORAI1" location="result" />
+<GENE id="G3" spans="587~593" text="Kv10.1" location="background" />
+<GENE id="G4" spans="706~711" text="AURKA" location="background" />
+<GENE id="G5" spans="713~728" text="Aurora kinase A" location="background" />
+<GENE id="G6" spans="734~738" text="PLK1" location="background" />
+<GENE id="G7" spans="888~893" text="AURKA" location="result" />
+<GENE id="G8" spans="898~902" text="PLK1" location="result" />
+<GENE id="G9" spans="918~924" text="Kv10.1" location="result" />
+<GENE id="G10" spans="925~930" text="ORAI1" location="result" />
+<GENE id="G11" spans="1024~1030" text="Kv10.1" location="result" />
+<GENE id="G12" spans="1226~1232" text="Kv10.1" location="result" />
+<GENE id="G13" spans="1270~1274" text="CDK1" location="result" />
+<GENE id="G14" spans="1276~1281" text="AURKA" location="result" />
+<GENE id="G15" spans="1287~1291" text="PLK1" location="result" />
+<GENE id="G16" spans="1394~1398" text="CDK1" location="background" />
+<GENE id="G17" spans="1481~1486" text="AURKA" location="background" />
+<GENE id="G18" spans="1498~1502" text="PLK1" location="background" />
+</TAGS>
+</Genomics_ConceptTask>

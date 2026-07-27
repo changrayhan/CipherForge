@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In the present study, owing to the anti-inflammatory effects of dual red and NIR LED irradiation, inflammatory cytokines were inhibited in an LPS-induced AOM rat model, as well as HMEECs and RAW 264.7 cells. Moreover, the decrease in pro-inflammatory cytokine production following LED irradiation was mediated by the blockade of MAPK signaling. Collectively, these findings suggest that red/NIR LED irradiation may be an effective therapeutic strategy for the treatment of OM.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="474~476" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

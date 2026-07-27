@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Colon cancer is a common malignant tumor in the digestive system and is associated with high morbidity and mortality [ 1 ,  2 ]. Various complex factors in cancer cells and the tumor microenvironment (TME) are involved in the development of colon cancer [ 3 ]. Tumors affect immune regulation in a variety of ways to promote progression and metastasis [ 4 ]. Tumor-associated macrophages (TAMs) are some of the most abundant immune cells in the TME [ 5 ]. M2-type TAMs promote tumor growth and participate in tumor immunosuppression by stimulating angiogenesis and tissue remodeling [ 6 ]. The TAM infiltration level is high in colon cancer and is associated with a poor prognosis [ 7 ]. Therefore, more effective treatments targeted at immunosuppressive microenvironment induced by M2 macrophages in colon cancer need to be further explored.
+The posttranslational modification of proteins plays an important role in tumor remodeling. Histone deacetylase 6 (HDAC6) is a deacetylase that participates in the dynamic regulation of the deacetylation of histone and nonhistone substrates [ 8 ]. It has been confirmed that the expression of HDAC6 is increased in a variety of tumor tissues and that HDAC6 can promote tumor development and metastasis [ 9 ,  10 ]. In melanoma models, HDAC6 inhibitors had a more significant inhibitory effect on tumor growth in C57BL/6 mice than in immunodeficient mice, which demonstrates that the antitumor effect of HDAC6 inhibitors requires an intact host immune system [ 9 ]. When HDAC6 inhibitors are combined with immune checkpoint inhibitors, they can effectively promote the release of IL-12 and TNF-α and polarize macrophages towards the antitumor M1 subtype [ 8 ,  9 ]. However, the mechanisms of HDAC6 in the colon cancer microenvironment, especially those underlying the effect on macrophage polarization, are still unclear. Interestingly, we found that HDAC6 could promote the release of sIL-6R by colon cancer cells, thereby further affecting macrophage M2 polarization.
+Classical IL-6 signaling involves IL-6 ligation to membrane-bound IL-6 receptor (mIL-6R) and gp130 transmembrane receptor dimerization, whereas “IL-6 trans-signaling” is mediated by the soluble IL-6 receptor (sIL-6R), which forms a complex with IL-6 and directly engages gp130 [ 11 ,  12 ]. Unlike mIL-6R, which is expressed in only a few cells, the IL-6/sIL-6R complex can, in principle, be activated in all cells due to the universal expression of gp130 [ 13 ]. SIL-6R is produced either via the proteolysis of mIL-6R by the metalloprotease ADAM17 (A disintegrin and metalloproteinase-17) or less frequently, by the alternative splicing of IL-6R mRNA, which has only been detected in humans [ 13 – 15 ]. It has been confirmed that mIL-6R, as a source of sIL-6R, is also expressed in tumor cells [ 16 ,  17 ]. IL-6 trans-signaling not only promotes the malignant proliferation and metastasis of tumor cells but also affects the TME, as well as macrophage M2 polarization [ 18 – 20 ]. IL-6 trans-signaling upregulates the expression of the IL-4 receptor and enhances IL-4-induced STAT6 phosphorylation, which promotes the M2 polarization of macrophages [ 21 ]. Recent evidence has shown that sIL-6R expression is markedly increased during tumorigenesis, in addition, the expression of ADAM17 is increased in colorectal cancer cells compared with normal cells, which further confirms the effect of sIL-6R [ 13 ,  22 ]. Therefore, exploring the regulatory mechanism of sIL-6R release is of great significance for identifying clinical targets for colon cancer.
+Transforming growth factor β-activated kinase 1 (TAK1) is a serine/threonine kinase and a member of the mitogen-activated protein kinase (MAPK) kinase kinase (MAP3K) family [ 23 ]. TAK1 is essential to produce tumor necrosis factor-α (TNF-α) and other cytokines via the activation of downstream MAPKs, such as p38 MAPK, extracellular signal-regulated kinases 1 and 2 (ERK1/2), and Jun N-terminal protein kinases 1 and 2 (JNK1 and JNK2) [ 24 ]. In addition, increasing evidence has demonstrated that the inhibition of TAK1 activity induces cancer cell death and prevents tumorigenesis and metastasis, suggesting that TAK1 may be an effective target in cancer treatment [ 25 – 27 ]. TAK1 kinase activity is regulated by a variety of posttranslational modifications. The phosphorylation of critical amino acid (aa) residues in the activation loop of TAK1 is critical for its kinase activity [ 28 – 30 ]. Besides phosphorylation, TAK1 can also undergo acetylation. It has been reported that YopJ acts as a serine/threonine acetyltransferase and prevents the phosphorylation of TAK1 by acetylating TAK1 at T184 and T187, inhibiting the activity of TAK1 [ 31 ]. However, research on the acetylation of TAK1 and the associated mechanism is relatively limited. Exploring the crosstalk among these modifications will provide a more comprehensive understanding of pathogenesis.
+In this study, we investigated the role of HDAC6 in promoting macrophage M2 polarization in colon cancer. The knockdown of HDAC6 inhibited the release of sIL-6R in colon cancer cells, thereby inhibition M2-like macrophage polarization. Additionally, HDAC6 promoted TAK1 phosphorylation, activated p38 MAPK signaling and increased ADAM17 phosphorylation and activity. More importantly, we found that TAK1 is a novel substrate of HDAC6. HDAC6 interacts with TAK1 and deacetylates TAK1 at T178 to influence its kinase activity. Our findings reveal an underlying mechanism the HDAC6-mediated deacetylation of TAK1 regulation of sIL-6R release and suggest a promising strategy for inhibiting the development of colon cancer.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="936~957" text="Histone deacetylase 6" location="background" />
+<GENE id="G1" spans="959~964" text="HDAC6" location="background" />
+<GENE id="G2" spans="1137~1142" text="HDAC6" location="background" />
+<GENE id="G3" spans="1195~1200" text="HDAC6" location="background" />
+<GENE id="G4" spans="1279~1284" text="HDAC6" location="background" />
+<GENE id="G5" spans="1447~1452" text="HDAC6" location="background" />
+<GENE id="G6" spans="1514~1519" text="HDAC6" location="background" />
+<GENE id="G7" spans="1623~1628" text="IL-12" location="background" />
+<GENE id="G8" spans="1633~1638" text="TNF-α" location="background" />
+<GENE id="G9" spans="1736~1741" text="HDAC6" location="background" />
+<GENE id="G10" spans="1931~1936" text="IL-6R" location="background" />
+<GENE id="G11" spans="1895~1900" text="HDAC6" location="background" />
+<GENE id="G12" spans="2024~2028" text="IL-6" location="background" />
+<GENE id="G13" spans="2048~2052" text="IL-6" location="background" />
+<GENE id="G14" spans="2159~2163" text="IL-6" location="background" />
+<GENE id="G15" spans="2464~2469" text="gp130" location="background" />
+<GENE id="G16" spans="2479~2484" text="IL-6R" location="background" />
+<GENE id="G17" spans="2370~2375" text="IL-6R" location="background" />
+<GENE id="G18" spans="2285~2290" text="gp130" location="background" />
+<GENE id="G19" spans="2224~2229" text="IL-6R" location="background" />
+<GENE id="G20" spans="2208~2212" text="IL-6" location="background" />
+<GENE id="G21" spans="2528~2533" text="IL-6R" location="background" />
+<GENE id="G22" spans="2557~2563" text="ADAM17" location="background" />
+<GENE id="G23" spans="2656~2661" text="IL-6R" location="background" />
+<GENE id="G24" spans="2748~2753" text="IL-6R" location="background" />
+<GENE id="G25" spans="2771~2776" text="IL-6R" location="background" />
+<GENE id="G26" spans="2825~2829" text="IL-6" location="background" />
+<GENE id="G27" spans="2999~3003" text="IL-6" location="background" />
+<GENE id="G28" spans="3054~3058" text="IL-4" location="background" />
+<GENE id="G29" spans="3081~3085" text="IL-4" location="background" />
+<GENE id="G30" spans="3094~3099" text="STAT6" location="background" />
+<GENE id="G31" spans="3207~3212" text="IL-6R" location="background" />
+<GENE id="G32" spans="3299~3305" text="ADAM17" location="background" />
+<GENE id="G33" spans="3322~3339" text="colorectal cancer" location="background" />
+<GENE id="G34" spans="3412~3417" text="IL-6R" location="background" />
+<GENE id="G35" spans="3482~3487" text="IL-6R" location="background" />
+<GENE id="G36" spans="3572~3619" text="Transforming growth factor β-activated kinase 1" location="background" />
+<GENE id="G37" spans="3621~3625" text="TAK1" location="background" />
+<GENE id="G39" spans="3731~3736" text="MAP3K" location="background" />
+<GENE id="G40" spans="3753~3757" text="TAK1" location="background" />
+<GENE id="G41" spans="3782~3805" text="tumor necrosis factor-α" location="background" />
+<GENE id="G42" spans="3807~3812" text="TNF-α" location="background" />
+<GENE id="G43" spans="3882~3885" text="p38" location="background" />
+<GENE id="G44" spans="3892~3932" text="extracellular signal-regulated kinases 1" location="background" />
+<GENE id="G45" spans="3940~3944" text="ERK1" location="background" />
+<GENE id="G46" spans="3953~3985" text="Jun N-terminal protein kinases 1" location="background" />
+<GENE id="G47" spans="3993~3997" text="JNK1" location="background" />
+<GENE id="G48" spans="4002~4006" text="JNK2" location="background" />
+<GENE id="G49" spans="4089~4093" text="TAK1" location="background" />
+<GENE id="G50" spans="4188~4192" text="TAK1" location="background" />
+<GENE id="G51" spans="4223~4229" text="cancer" location="background" />
+<GENE id="G52" spans="4253~4257" text="TAK1" location="background" />
+<GENE id="G53" spans="4419~4423" text="TAK1" location="background" />
+<GENE id="G54" spans="4498~4502" text="TAK1" location="background" />
+<GENE id="G55" spans="4645~4649" text="TAK1" location="background" />
+<GENE id="G56" spans="4665~4669" text="TAK1" location="background" />
+<GENE id="G57" spans="4715~4719" text="TAK1" location="background" />
+<GENE id="G58" spans="4768~4772" text="TAK1" location="background" />
+<GENE id="G59" spans="4983~4988" text="HDAC6" location="result" />
+<GENE id="G61" spans="5063~5068" text="HDAC6" location="result" />
+<GENE id="G62" spans="5095~5100" text="IL-6R" location="result" />
+<GENE id="G63" spans="5190~5195" text="HDAC6" location="result" />
+<GENE id="G64" spans="5205~5209" text="TAK1" location="result" />
+<GENE id="G65" spans="5237~5240" text="p38" location="result" />
+<GENE id="G66" spans="5270~5276" text="ADAM17" location="result" />
+<GENE id="G67" spans="5339~5343" text="TAK1" location="result" />
+<GENE id="G68" spans="5368~5373" text="HDAC6" location="result" />
+<GENE id="G69" spans="5375~5380" text="HDAC6" location="result" />
+<GENE id="G70" spans="5396~5400" text="TAK1" location="result" />
+<GENE id="G71" spans="5418~5422" text="TAK1" location="result" />
+<GENE id="G72" spans="5513~5518" text="HDAC6" location="result" />
+<GENE id="G73" spans="5545~5549" text="TAK1" location="result" />
+<GENE id="G74" spans="5565~5570" text="IL-6R" location="result" />
+<DISEASE id="D0" spans="1~13" text="Colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="157~163" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="242~254" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="629~641" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="802~814" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1262~1270" text="melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1749~1761" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1940~1952" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="3558~3570" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="5032~5044" text="colon cancer" location="result" disease1="disease of cellular proliferation" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="5104~5116" text="colon cancer" location="result" disease1="disease of cellular proliferation" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="5646~5658" text="colon cancer" location="result" disease1="disease of cellular proliferation" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="4111~4117" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

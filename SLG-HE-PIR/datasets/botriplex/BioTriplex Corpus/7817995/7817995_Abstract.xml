@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Sulfite Alters the Mitochondrial Network in Molybdenum Cofactor Deficiency.
+Abstract: Molybdenum cofactor deficiency (MoCD) is an autosomal recessive disorder belonging to the large family of inborn errors in metabolism. Patients typically present with encephalopathy and seizures early after birth and develop severe neurodegeneration within the first few weeks of life. The main pathomechanism underlying MoCD is the loss of function of sulfite oxidase (SO), a molybdenum cofactor (Moco) dependent enzyme located in mitochondrial intermembrane space. SO catalyzes the oxidation of sulfite (SO 3 2– ) to sulfate (SO 4 2– ) in the terminal reaction of cysteine catabolism, and in the absence of its activity, sulfurous compounds such as SO 3 2– , S-sulfocysteine, and thiosulfate accumulate in patients. Despite growing evidence that these compounds affect neuronal and mitochondrial function, the molecular basis of neuronal dysfunction and cell death in MoCD is still poorly understood. Here we show that mitochondria are severely affected by the loss of SO activity. SO-deficient mouse embryonic fibroblasts display reduced growth rates and impaired ATP production when cultured in galactose, which is an indicator of mitochondrial dysfunction. We also found that mitochondria in SO-deficient cells form a highly interconnected network compared to controls while displaying a slight decrease in motility and unchanged mitochondrial mass. Moreover, we show that the mitochondrial network is directly influenced by SO 3 2– , as a moderate elevation of SO 3 2–  lead to the formation of an interconnected mitochondrial network, while high SO 3 2–  levels induced fragmentation. Finally, we found a highly interconnected mitochondrial network in MoCD patient-derived fibroblasts, similar to our findings in mouse-derived fibroblasts. We therefore conclude that altered mitochondrial dynamics are an important contributor to the disease phenotype and suggest that MoCD should be included among the mitochondrial disorders.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="447~462" text="sulfite oxidase" location="background" />
+<DISEASE id="D0" spans="52~82" text="Molybdenum Cofactor Deficiency" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="94~124" text="Molybdenum cofactor deficiency" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="126~130" text="MoCD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="415~419" text="MoCD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="964~968" text="MoCD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="1753~1757" text="MoCD" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="1970~1974" text="MoCD" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R0" spans="389~414,420~443" text="pathomechanism underlying ... is the loss of function" location="background" relation="causative inhibition" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="sulfite oxidase" diseaseID="D3" diseaseText="MoCD" relationID="R0" relationText="pathomechanism underlying ... is the loss of function" />
+</TAGS>
+</Genomics_ConceptTask>

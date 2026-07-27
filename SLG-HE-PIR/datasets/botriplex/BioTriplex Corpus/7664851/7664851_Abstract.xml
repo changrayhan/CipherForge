@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: The FKBP4 Gene, Encoding a Regulator of the Androgen Receptor Signaling Pathway, Is a Novel Candidate Gene for Androgen Insensitivity Syndrome.
+Abstract: Androgen insensitivity syndrome (AIS), manifesting incomplete virilization in 46,XY individuals, is caused mostly by androgen receptor (AR) gene mutations. Therefore, a search for  AR  mutations is a routine approach in AIS diagnosis. However, some AIS patients lack  AR  mutations, which complicates the diagnosis. Here, we describe a patient suffering from partial androgen insensitivity syndrome (PAIS) and lacking  AR  mutations. The whole exome sequencing of the patient and his family members identified a heterozygous  FKBP4  gene mutation, c.956T>C (p.Leu319Pro), inherited from the mother. The gene encodes FKBP prolyl isomerase 4, a positive regulator of the AR signaling pathway. This is the first report describing a  FKBP4  gene mutation in association with a human disorder of sexual development (DSD). Importantly, the dysfunction of a homologous gene was previously reported in mice, resulting in a phenotype corresponding to PAIS. Moreover, the Leu319Pro amino acid substitution occurred in a highly conserved position of the FKBP4 region, responsible for interaction with other proteins that are crucial for the AR functional heterocomplex formation and therefore the substitution is predicted to cause the disease. We proposed the  FKBP4  gene as a candidate AIS gene and suggest screening that gene for the molecular diagnosis of AIS patients lacking  AR  gene mutations.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="12~17" text="FKBP4" location="result" />
+<GENE id="G1" spans="279~296" text="androgen receptor" location="background" />
+<GENE id="G2" spans="298~300" text="AR" location="background" />
+<GENE id="G3" spans="343~345" text="AR" location="background" />
+<GENE id="G4" spans="430~432" text="AR" location="background" />
+<GENE id="G5" spans="581~583" text="AR" location="result" />
+<GENE id="G6" spans="688~693" text="FKBP4" location="result" />
+<GENE id="G7" spans="778~801" text="FKBP prolyl isomerase 4" location="result" />
+<GENE id="G8" spans="831~833" text="AR" location="result" />
+<GENE id="G9" spans="892~897" text="FKBP4" location="result" />
+<GENE id="G10" spans="1205~1210" text="FKBP4" location="result" />
+<GENE id="G11" spans="1292~1294" text="AR" location="result" />
+<GENE id="G12" spans="1413~1418" text="FKBP4" location="result" />
+<GENE id="G13" spans="1534~1536" text="AR" location="result" />
+<DISEASE id="D0" spans="119~150" text="Androgen Insensitivity Syndrome" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="162~193" text="Androgen insensitivity syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="195~198" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="382~385" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="411~414" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="521~560" text="partial androgen insensitivity syndrome" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="562~566" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1104~1108" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1440~1443" text="AIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1512~1515" text="AIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="262~278,302~316" text="caused mostly by ... gene mutations" location="background" relation="causative mutation" />
+<RELATION id="R1" spans="1430~1439,1444~1448" text="candidate ... gene" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="androgen receptor" diseaseID="D1" diseaseText="Androgen insensitivity syndrome" relationID="R0" relationText="caused mostly by ... gene mutations" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="AR" diseaseID="D1" diseaseText="Androgen insensitivity syndrome" relationID="R0" relationText="caused mostly by ... gene mutations" />
+<ENTITY_LINKING id="E2" geneID="G1" geneText="androgen receptor" diseaseID="D2" diseaseText="AIS" relationID="R0" relationText="caused mostly by ... gene mutations" />
+<ENTITY_LINKING id="E3" geneID="G2" geneText="AR" diseaseID="D2" diseaseText="AIS" relationID="R0" relationText="caused mostly by ... gene mutations" />
+<ENTITY_LINKING id="E4" geneID="G12" geneText="FKBP4" diseaseID="R1" diseaseText="candidate ... gene" relationID="R1" relationText="candidate ... gene" />
+</TAGS>
+</Genomics_ConceptTask>

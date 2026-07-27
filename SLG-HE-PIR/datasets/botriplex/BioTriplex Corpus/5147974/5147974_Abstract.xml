@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Hyperhomocysteinemia in ApoE-/- Mice Leads to Overexpression of Enhancer of Zeste Homolog 2 via miR-92a Regulation.
+Abstract: Hyperhomocysteinemia (HHcy) is an independent risk factor for cardiovascular diseases, such as atherosclerosis. HHcy promotes atherogenesis by modifying the histone methylation patterns and miRNA regulation. In this study, we investigated the effects of homocysteine (Hcy) on the expression of enhancer of zeste homolog 2 (EZH2), and tested our hypothesis that Hcy-induced atherosclerosis is mediated by increased EZH2 expression, which is regulated by miR-92a. The levels of EZH2 and H3K27me3 were increased in the aorta of ApoE-/- mice fed a high-methionine diet for 16 weeks, whereas miR-92a expression was decreased. Over-expression of EZH2 increased H3K27me3 level and the accumulation of total cholesterol and triglycerides in the foam cells. Furthermore, upregulation of miR-92a reduced EZH2 expression in the foam cells. These data suggested that EZH2 plays a key role in Hcy-mediated lipid metabolism disorders, and that miR-92a may be a novel therapeutic target in Hcy-related atherosclerosis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="32~36" text="ApoE" location="result" />
+<GENE id="G2" spans="428~455" text="enhancer of zeste homolog 2" location="result" />
+<GENE id="G3" spans="457~461" text="EZH2" location="result" />
+<GENE id="G4" spans="72~99" text="Enhancer of Zeste Homolog 2" location="result" />
+<GENE id="G5" spans="548~552" text="EZH2" location="result" />
+<GENE id="G6" spans="610~614" text="EZH2" location="result" />
+<GENE id="G7" spans="659~663" text="ApoE" location="result" />
+<GENE id="G8" spans="774~778" text="EZH2" location="result" />
+<GENE id="G9" spans="989~993" text="EZH2" location="result" />
+<GENE id="G10" spans="928~932" text="EZH2" location="result" />
+<DISEASE id="D0" spans="8~28" text="Hyperhomocysteinemia" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="134~154" text="Hyperhomocysteinemia" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="156~160" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="196~218" text="cardiovascular disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="229~244" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="246~250" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="507~522" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1121~1136" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1027~1052" text="lipid metabolism disorder" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R1" spans="538~547,553~563" text="increased ... expression" location="result" relation="increased expression" />
+<RELATION id="R3" spans="994~1010" text="plays a key role" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="EZH2" diseaseID="D6" diseaseText="atherosclerosis" relationID="R1" relationText="increased ... expression" />
+<ENTITY_LINKING id="E1" geneID="G9" geneText="EZH2" diseaseID="D8" diseaseText="lipid metabolism disorder" relationID="R3" relationText="plays a key role" />
+</TAGS>
+</Genomics_ConceptTask>

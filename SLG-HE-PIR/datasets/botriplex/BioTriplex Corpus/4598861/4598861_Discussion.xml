@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Inflammation drives different mechanisms involved in tumorigenesis and progression, including proliferation of tumour cells, angiogenesis and metastasis 18 . These mechanisms are, in part, driven by secreted molecules such as CXCL12, which plays multiple roles in tumour pathogenesis 19 . Although they were first described to be produced by bone marrow stromal cells, they are also secreted by tumour cells of different origin, including hepatocellular carcinoma cells 19 . The CXCR4/CXCL12 has multiple roles in the pathogenesis of HCC, and can modulate cell growth, migration and survival via both autocrine and/or paracrine mechanisms 5 . A number of studies have demonstrated correlations between high CXCR4 expression and aggressive tumour behaviour and poor prognosis 6 8 20 . Therapeutic intervention with CXCR4 signal activation could be used as a promising strategy against hepatocellular carcinoma after curative resection. Administration of CXCR4 antagonist has been found to inhibit tumour growth and metastasis 4 21 22 23 . Discrepancies between our results and the report by Duda  et al ., which suggest that AMD3100 was ineffective in HCC tumorigenesis, probably rely on that the CXCR4 antagonist intervention on endogenous CXCR4 high-expression HCC cell line, SK-Hep1, in tumorigenesis  in vivo  in the present study 24 . There are multiple classes of CXCR4 antagonists in clinical trials 4 25 . These include: small-molecule inhibitors (for example, AMD3100), small modified peptides (for example, BTK140), antibodies (for example, ALX-0651) and modified CXCL12 antagonists (for example, CTCE-9908). Given the accumulating evidence for the critical role of CXCR4 in cancer, such compounds are currently being tested in early-phase clinical trials 4 25 . Our studies suggest that HCC patients should be included in these trials.
+In HCC patients, CXCR4 was detected in HCC tissues, but not in normal hepatic tissues. CXCR4 expression significantly correlated with progressed local tumours (T-status), lymphatic metastasis and distant dissemination, as well as with a decreased survival 6 7 26 27 . Nonetheless, conflicting data were reported that the CXCL12–CXCR4 are detected in sinusoidal endothelial cells in HCC tissue, and their expression are significantly higher than in non-HCC tissues 20 . Furthermore, Zhou reported that CXCR4 nuclear localization can be used to identify patients with HCC at high risk for developing lymph node metastasis 8 . The discrepancy may lie in the heterogeneity of HCC and different detection methods applied.
+The mechanism underlying CXCR4 overexpression in HCC is unclear at present. A number of studies have demonstrated upregulation of CXCR4 in HCC tissues, while CXCR4 mRNA expression reduced or remain no differences 6 28 . This means that CXCR4 may be regulated by post-transcriptional level in HCC. We provide definitive evidence for the notion qthat miR-622 negatively regulates CXCR4 expression. Here miR-622 is verified to be frequently decreased in HCC tissues, and inversely correlated with the survival of HCC patients, outlining a potential marker for predicting the prognosis of HCC patients. Furthermore, the therapeutic role of miR-622 in HCC remains to be elucidated. In the meanwhile, we cannot exclude other potential miRNA participating in CXCR4 regulation.
+The miRNA regulation involves multiple steps, including miRNA maturation, genetic deletion and epigenetic deregulation 29 30 . In particular, polycomb group proteins have central functions in cellular development and regeneration by controlling histone methylation, especially at histone H3 Lys27 (H3K27), which induces chromatin compaction 31 . Alterations of PcG genes directly modulate the trimethylation of H3K27 and thus affect the epigenome of HCC, which is crucial for controlling the HCC cell phenotype 32 . Oncogene polycomb group protein EZH2 in HCC is highly correlated with tumour progression 33 . We show that EZH2 epigenetically represses miR-622 expression by facilitating H3K27me3 trimethylation. Consistently, miR-101 was epigenetically silenced by EZH2 overexpression in HCC 34 .
+Recent studies have suggested unique expression profiles of miRNAs in HCC 17 35 , but loss of miR-622 has not been focused. Besides the variations of technological methodologies and sample origin, one main reason for this inconsistency is possibly that the liver is composed by a heterogeneous population of parenchymal cells, kupffer cells, stellate cells, bile duct cells, fibroblasts and inflammatory cells 36 . HCC samples of patients with different aetiologies usually with different cell activities and proportions may result in artifact of miRNA profiles. In the present study, we also discovered many dysregulated miRNAs in HCC that were consistently reported before (such as miR-139-5p and miR-1) (refs  15 ,  16 ).
+In conclusion, the coordinated expression of EZH2/miR-622/CXCR4 may be predictive of worse prognostic in patients with HCC. Our findings also highlight the therapeutic potential of CXCR4 in HCC treatment, and support the development of effective therapeutic strategies that target CXCR4 by a pharmacological approach. Therefore, CXCR4 could be a therapeutic target and a valuable prognostic marker for HCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="227~233" text="CXCL12" location="background" />
+<GENE id="G1" spans="480~485" text="CXCR4" location="background" />
+<GENE id="G2" spans="486~492" text="CXCL12" location="background" />
+<GENE id="G3" spans="708~713" text="CXCR4" location="background" />
+<GENE id="G4" spans="815~820" text="CXCR4" location="background" />
+<GENE id="G5" spans="954~959" text="CXCR4" location="background" />
+<GENE id="G6" spans="1197~1202" text="CXCR4" location="background" />
+<GENE id="G7" spans="1241~1246" text="CXCR4" location="background" />
+<GENE id="G8" spans="1370~1375" text="CXCR4" location="background" />
+<GENE id="G9" spans="1574~1580" text="CXCL12" location="background" />
+<GENE id="G10" spans="1676~1681" text="CXCR4" location="background" />
+<GENE id="G11" spans="1864~1869" text="CXCR4" location="result" />
+<GENE id="G12" spans="1934~1939" text="CXCR4" location="result" />
+<GENE id="G13" spans="2168~2174" text="CXCL12" location="background" />
+<GENE id="G14" spans="2175~2180" text="CXCR4" location="background" />
+<GENE id="G15" spans="2348~2353" text="CXCR4" location="background" />
+<GENE id="G16" spans="2589~2594" text="CXCR4" location="background" />
+<GENE id="G17" spans="2694~2699" text="CXCR4" location="background" />
+<GENE id="G18" spans="2722~2727" text="CXCR4" location="background" />
+<GENE id="G19" spans="2800~2805" text="CXCR4" location="background" />
+<GENE id="G20" spans="2942~2947" text="CXCR4" location="result" />
+<GENE id="G21" spans="3316~3321" text="CXCR4" location="result" />
+<GENE id="G23" spans="3882~3886" text="EZH2" location="background" />
+<GENE id="G24" spans="3957~3961" text="EZH2" location="result" />
+<GENE id="G25" spans="4100~4104" text="EZH2" location="result" />
+<GENE id="G26" spans="4902~4906" text="EZH2" location="result" />
+<GENE id="G27" spans="4915~4920" text="CXCR4" location="result" />
+<GENE id="G28" spans="5038~5043" text="CXCR4" location="result" />
+<GENE id="G29" spans="5138~5143" text="CXCR4" location="result" />
+<GENE id="G30" spans="5186~5191" text="CXCR4" location="result" />
+<DISEASE id="D0" spans="440~464" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="535~538" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="885~909" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1152~1155" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1263~1266" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1685~1691" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="1798~1801" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1850~1853" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1886~1889" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2229~2232" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2299~2302" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2413~2416" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2519~2522" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2613~2616" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2703~2706" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2856~2859" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3015~3018" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3074~3077" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3149~3152" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3211~3214" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3784~3787" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3826~3829" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3890~3893" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4123~4126" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="4202~4205" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="4547~4550" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="4764~4767" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="4976~4979" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="5047~5050" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="5259~5262" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="497~531" text="multiple roles in the pathogenesis" location="background" relation="pathological role" />
+<RELATION id="R1" spans="785~809" text="Therapeutic intervention" location="result" relation="therapeutic target" />
+<RELATION id="R2" spans="1247~1262" text="high-expression" location="background" relation="increased expression" />
+<RELATION id="R3" spans="1659~1672" text="critical role" location="background" relation="relation undefined" />
+<RELATION id="R5" spans="2678~2690" text="upregulation" location="background" relation="increased expression" />
+<RELATION id="R9" spans="4928~4958" text="predictive of worse prognostic" location="result" relation="negative prognostic marker" />
+<RELATION id="R10" spans="5013~5034" text="therapeutic potential" location="result" relation="therapeutic target" />
+<RELATION id="R11" spans="5203~5221" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R12" spans="5237~5254" text="prognostic marker" location="result" relation="prognostic indicator" />
+<RELATION id="R13" spans="2251~2286" text="expression are significantly higher" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="CXCR4" diseaseID="D1" diseaseText="HCC" relationID="R0" relationText="multiple roles in the pathogenesis" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="CXCL12" diseaseID="D1" diseaseText="HCC" relationID="R0" relationText="multiple roles in the pathogenesis" />
+<ENTITY_LINKING id="E2" geneID="G4" geneText="CXCR4" diseaseID="D2" diseaseText="hepatocellular carcinoma" relationID="R1" relationText="Therapeutic intervention" />
+<ENTITY_LINKING id="E3" geneID="G7" geneText="CXCR4" diseaseID="D4" diseaseText="HCC" relationID="R2" relationText="high-expression" />
+<ENTITY_LINKING id="E4" geneID="G10" geneText="CXCR4" diseaseID="D5" diseaseText="cancer" relationID="R3" relationText="critical role" />
+<ENTITY_LINKING id="E6" geneID="G17" geneText="CXCR4" diseaseID="D14" diseaseText="HCC" relationID="R5" relationText="upregulation" />
+<ENTITY_LINKING id="E8" geneID="G26" geneText="EZH2" diseaseID="D27" diseaseText="HCC" relationID="R9" relationText="predictive of worse prognostic" />
+<ENTITY_LINKING id="E10" geneID="G27" geneText="CXCR4" diseaseID="D27" diseaseText="HCC" relationID="R9" relationText="predictive of worse prognostic" />
+<ENTITY_LINKING id="E11" geneID="G28" geneText="CXCR4" diseaseID="D28" diseaseText="HCC" relationID="R10" relationText="therapeutic potential" />
+<ENTITY_LINKING id="E12" geneID="G30" geneText="CXCR4" diseaseID="D29" diseaseText="HCC" relationID="R11" relationText="therapeutic target" />
+<ENTITY_LINKING id="E13" geneID="G30" geneText="CXCR4" diseaseID="D29" diseaseText="HCC" relationID="R12" relationText="prognostic marker" />
+<ENTITY_LINKING id="E14" geneID="G13" geneText="CXCL12" diseaseID="D9" diseaseText="HCC" relationID="R13" relationText="expression are significantly higher" />
+<ENTITY_LINKING id="E15" geneID="G14" geneText="CXCR4" diseaseID="D9" diseaseText="HCC" relationID="R13" relationText="expression are significantly higher" />
+</TAGS>
+</Genomics_ConceptTask>

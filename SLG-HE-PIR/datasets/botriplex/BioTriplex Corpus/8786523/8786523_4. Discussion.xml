@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+OSAHS causes a decrease in blood oxygen saturation. With a decrease in blood saturation, OSHAH patients often develop cardiovascular system and cognitive disorders. Recent literature indicates that the incidence of periodontal disease is higher in patients with OSHAS than in healthy individuals. However, the mechanism underlying the correlation between OSAHS and the incidence of periodontal disease remains unclear. It is important to determine how hypoxia affects the biological behavior of HPDLCs, the principal cells in the periodontal ligament that help maintain the stability of the periodontal system and promote the repair and regeneration of periodontal tissue [ 29 ].
+Hypoxia can lead to oxidative damage and apoptosis in various tissues, which is key to maintaining tissue homeostasis [ 30 – 32 ]. Many factors can trigger its occurrence, especially oxidative stress [ 33 ]. Elevated ROS levels and oxidative stress were observed in patients with OSAHS. In vivo, we observed more positive TUNEL signals in the periodontal membrane of rats with UNO. These results indicate that hypoxia can lead to oxidative stress and apoptosis in periodontal tissue. After modeling UNO in rats, rats presented with oral respiratory symptoms [ 24 – 26 ]. Oral respiration is one of the main clinical manifestations in patients with OSAHS [ 1 ]. Oral respiration is also reported to be associated with gingival inflammation [ 34 ,  35 ]. The NLRP3 inflammasome is a multiprotein complex composed of NLRP3, ASC, and caspase-1. When the NLRP3 inflammasome polymerizes, IL-1 β  is produced to induce a cellular inflammatory response. Previous studies have shown that hypoxia is involved in NLRP3 activation and subsequent inflammasome formation by increasing TXNIP expression [ 36 – 38 ], and the occurrence of periodontitis is associated with the NRLP3 inflammasome [ 39 ]. Recent studies have reported that TXNIP could induce the formation and aggregation of the NLRP3 inflammatory body, leading to dysfunction and injury of periodontal membrane fibroblasts, resulting in periodontitis [ 10 ]. The in vivo results showed that the transcription and expression of TXNIP, ASC, and caspase-1 in periodontal tissues of UNO rats were higher than those of SHAM rats, and the expression level of the inflammatory factor IL-1 β  in periodontal tissues of UNO rats was upregulated. In IF experiments, high TXNIP, ASC, and caspase-1 expression signals were detected in the periodontal membrane of UNO rats compared to those of SHAM rats. Interestingly, our experimental results showed that compared to that in the SHAM group, the transcription level of NLRP3 in periodontal tissues was increased in the UNO group; however, there was no significant difference in its protein level. The result that the NRLP3 transcription level in periodontal tissues was upregulated but the protein level was not upregulated in a hypoxic environment in vivo was consistent with the results of a study, which demonstrated that hypoxia mainly leads to the aggregation of inflammasomes by increasing the nuclear localization of NLRP3 and caspase-1 [ 40 ], resulting in increased expression of inflammatory factors in tissues. Meanwhile, it is reported that there are no differences in the serum levels of NLRP3 inflammasome components between OSAHS and controls [ 41 ]. Hypoxia-induced cell death may play a key role in systemic diseases caused by OSAHS. In addition, the expression level of the inflammatory factor IL-1 β  in the periodontal tissues of UNO rats was upregulated.
+In vitro experiments found that CoCl 2  stimulation of HPDLCs resulted in ROS production and accumulation in cells, but the accumulation of ROS in cells was significantly improved after the application of NAC. Meanwhile, NAC significantly reduced the level of the inflammatory gene IL-1 β  and the aggregation of NLRP3 inflammasome. Several studies have shown that targeting ROS can reduce cardiovascular damage in OSAHS [ 42 ]. Therefore, antioxidant therapy may be a new treatment method to reduce the damage of periodontal tissue caused by oxidative stress.
+OSAHS is difficult to diagnose, and patients themselves tend to ignore and underestimate the symptoms [ 43 ]. Therefore, it is necessary to introduce specific sleep disorder questions and questionnaires into dental records, which can help clinicians identify patients at risk for OSAHS [ 44 ]. The study suggests that there is a pathological correlation between OASHS and the occurrence of periodontal diseases, which is supported by the above views.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1438~1443" text="NLRP3" location="background" />
+<GENE id="G1" spans="1495~1500" text="NLRP3" location="background" />
+<GENE id="G2" spans="1502~1505" text="ASC" location="background" />
+<GENE id="G3" spans="1511~1520" text="caspase-1" location="background" />
+<GENE id="G4" spans="1531~1536" text="NLRP3" location="background" />
+<GENE id="G5" spans="1563~1569" text="IL-1 β" location="background" />
+<GENE id="G6" spans="1683~1688" text="NLRP3" location="background" />
+<GENE id="G7" spans="1752~1757" text="TXNIP" location="background" />
+<GENE id="G8" spans="1841~1846" text="NRLP3" location="background" />
+<GENE id="G9" spans="1902~1907" text="TXNIP" location="background" />
+<GENE id="G10" spans="1958~1963" text="NLRP3" location="background" />
+<GENE id="G11" spans="2157~2162" text="TXNIP" location="result" />
+<GENE id="G12" spans="2164~2167" text="ASC" location="result" />
+<GENE id="G13" spans="2173~2182" text="caspase-1" location="result" />
+<GENE id="G14" spans="2307~2313" text="IL-1 β" location="result" />
+<GENE id="G15" spans="2391~2396" text="TXNIP" location="result" />
+<GENE id="G16" spans="2398~2401" text="ASC" location="result" />
+<GENE id="G17" spans="2407~2416" text="caspase-1" location="result" />
+<GENE id="G18" spans="2637~2642" text="NLRP3" location="result" />
+<GENE id="G19" spans="2785~2790" text="NRLP3" location="result" />
+<GENE id="G20" spans="3092~3097" text="NLRP3" location="background" />
+<GENE id="G21" spans="3102~3111" text="caspase-1" location="background" />
+<GENE id="G22" spans="3269~3274" text="NLRP3" location="background" />
+<GENE id="G23" spans="3480~3486" text="IL-1 β" location="result" />
+<GENE id="G24" spans="3826~3832" text="IL-1 β" location="result" />
+<GENE id="G25" spans="3857~3862" text="NLRP3" location="result" />
+<DISEASE id="D0" spans="216~235" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="383~402" text="periodontal disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1804~1817" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2067~2080" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="4495~4514" text="periodontal disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1821~1836" text="associated with" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G8" geneText="NRLP3" diseaseID="D3" diseaseText="periodontitis" relationID="R0" relationText="associated with" />
+</TAGS>
+</Genomics_ConceptTask>

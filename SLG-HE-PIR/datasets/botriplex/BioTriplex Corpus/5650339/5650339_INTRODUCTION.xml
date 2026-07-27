@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Osteosarcoma (OS) is considered to be an aggressive bone neoplasm and occurs mainly in children and young adults [ 1 ]. Although the great progress has been made in surgical treatment combined with multidrug chemotherapy, the five-year survival rate and recurrence risk of OS patients have not been significantly improved due to the tumor local relapse and metastases [ 2 ]. Many molecular alterations in critical signal transduction pathways contribute to the OS pathogenesis via promoting the proliferation and metastasis [ 3 ]. Herein, identifying the key molecular targets involved in OS progression will be highlighted for diagnosis and therapy of OS patients.
+MicroRNAs (miRNAs) as noncoding RNAs have participated in multiple biological and pathogenesis of diseases by regulating gene expression. Dysregulation of miRNAs as oncogenes or tumor suppressors is involved in multiple steps of the oncogenic process [ 4 ]. On the one hand, miR-146a expression is found upregulated in gastric cancer [ 5 ], breast cancer [ 6 ], premalignant thymocytes [ 7 ] and thyroid cancer [ 8 ], and the rs2910164 polymorphism in miR-146a is related with the incidence of melanoma [ 9 ]. Ectopic expression of miR-146a results in cell proliferation [ 8 ,  10 ], migration [ 10 ], invasion and metastasis [ 11 ] in some cancers. Moreover, some key pathways mediate miR-146a promoting tumor progression. miR-146a facilitates growth and development of melanoma by activation of Notch signaling [ 12 ], reduces cell apoptosis in acute promyelocytic leukemia by Smad4 signaling [ 13 ] and enhances tumorigenic potential of breast cancer [ 14 ]. These data indicate that miR-146 may function as an oncogene involved in tumor progression.
+On the other hand, miR-146a expression is decreased in various cancers, such as NK/T cell lymphoma [ 15 ], gastric cancer [ 16 ], castration-resistant prostate cancer [ 17 ], head and neck squamous cell carcinoma [ 18 ], hepatocellular carcinoma [ 19 ], penile squamous cell carcinoma [ 20 ] and non-small cell lung cancer [ 21 ]. Enforced expression of miR-146a suppresses cell proliferation and invasion [15-19, 21-24) and angiogenesis via targeting EGFR [ 17 ], RAF6 [ 19 ], CCND1/2 [ 21 ], Notch1 [ 22 ] or Rac1 [ 24 ], induces cell apoptosis [ 15 ,  16 ,  23 ] and enhanced chemo-sensitivity [ 15 ]. Therefore, miR-146 may function as a tumor suppressor for cancer therapy.
+Despite the bi-directional role of miR-146a in cancers, its function and underlying regulation mechanism remain unclear in OS. In the present study, we found that miR-146a expression was increased in OS tissues and was positively correlated with the tumor size and high recurrence rate of OS patients. Knockdown of miR-146a suppressed cell growth  in vitro  and  in vivo . In addition, ZNRF3 was identified as a direct target of miR-146a in OS cells, and had a reverse correlation with miR-146a expression in OS tissues. Overexpression of ZNRF3 inhibited cell growth and attenuated the tumor-promoting effects of miR-146a via inhibition of GSK-3β/β-catenin signaling, indicating that miR-146a may function as a tumor suppressor and represent a potential biomarker for OS patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1546~1551" text="Smad4" location="background" />
+<GENE id="G1" spans="2173~2177" text="EGFR" location="background" />
+<GENE id="G2" spans="2186~2190" text="RAF6" location="background" />
+<GENE id="G3" spans="2215~2221" text="Notch1" location="background" />
+<GENE id="G4" spans="2199~2204" text="CCND1" location="background" />
+<GENE id="G5" spans="2232~2236" text="Rac1" location="background" />
+<GENE id="G6" spans="2786~2791" text="ZNRF3" location="result" />
+<GENE id="G7" spans="2939~2944" text="ZNRF3" location="result" />
+<DISEASE id="D0" spans="1~13" text="Osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="15~17" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="274~276" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="462~464" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="590~592" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="654~656" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="986~1000" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1008~1021" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1063~1077" text="thyroid cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1161~1169" text="melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1308~1314" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="1438~1446" text="melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1514~1542" text="acute promyelocytic leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1607~1620" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1784~1790" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1801~1819" text="NK/T cell lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="1828~1842" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="1851~1887" text="castration-resistant prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="1896~1933" text="head and neck squamous cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="1942~1966" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="1982~2005" text="squamous cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="2017~2043" text="non-small cell lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="2384~2390" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D23" spans="2447~2453" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D24" spans="2523~2525" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="2600~2602" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="2689~2691" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="2841~2843" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="2909~2911" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="3168~3170" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

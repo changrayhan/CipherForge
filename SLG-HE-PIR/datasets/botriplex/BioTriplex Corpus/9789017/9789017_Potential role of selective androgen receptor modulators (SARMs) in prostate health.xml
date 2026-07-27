@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Therapeutic potential of SARMs in PC
+The AR activates different genes in different cell types, however, a specific mechanism for this has not been clearly defined. Binding of different ligands, different co-factor interactions [ 153 ,  154 ], as well as different concentration of the ligand may impact the transcription profile [ 155 – 157 ]. Despite considerable efforts, no SARMs can so far fully discriminate between desirable and non-desirable effects in certain situations (as reviewed in [ 158 ]). Considering the small effect on the prostate within physiological levels of testosterone, the need of SARMs may be limited in the treatment of men with LOH.
+Non-steroidal antiandrogens (e.g., bicalutamide) are commonly used in treatment of PC. There are also new antiandrogens, second generation androgen receptor inhibitors (enzalutamide, apalutamide), which are used in treatment of advanced PC. Anti-androgens are not used for treatment of BPH. However, when aiming to efficiently block AR signaling in metastatic PC and castration resistant PC, SARMs that do not confer systemic side-effects such as metabolic syndrome and osteoporosis would be important therapeutic tools.
+As evidenced by the effect of modulating its levels, testosterone is a powerful mediator of both anabolic and androgenic effects. When aiming to target only parts of its repertoire, such as inhibiting PC growth without inducing the side-effects of systemic castration or restoring systemic anabolic effects without possible negative impact on the prostate, testosterone itself may be a too blunt instrument. Selective androgen receptor modulators (SARMs), steroidal or nonsteroidal molecules with agonistic or antagonistic action, are being developed with the hope to enable tissue-specific effects on AR activity. Besides optimized AR modulating functions, these substances may also display improved bioavailability and pharmacology profiles.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="42~44" text="AR" location="background" />
+<GENE id="G1" spans="996~998" text="AR" location="background" />
+<GENE id="G2" spans="1786~1788" text="AR" location="background" />
+<GENE id="G3" spans="1817~1819" text="AR" location="background" />
+<DISEASE id="D0" spans="35~37" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="746~748" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1023~1025" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1051~1053" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1385~1387" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

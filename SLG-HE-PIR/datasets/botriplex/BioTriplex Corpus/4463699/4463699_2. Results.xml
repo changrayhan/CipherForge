@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Genome-Wide Analysis of DNA Methylation in Peripheral Blood Mononuclear Cells of AAA Patients and Non-Aneurysmal Controls
+Human Methylation 450k BeadChips [ 26 ] were used to detect DNA methylation in AAA ( n  = 20) and control ( n  = 21) samples, and methylation at CpGIs was analyzed.  Table 1  summarizes the samples used, and  Supplementary Table S1  provides more detailed information about each donor. The 41 samples were run in two batches. PC analysis revealed there were significant global differences in methylation between the two batches. There were also significant differences in methylation with respect to age and AAA diagnosis. When OLS linear regression models included smoking, the fit for age was improved, compared to models that did not include smoking.
+Based on the PC analysis, a subset of 16 CpGIs contributed most to the variance of the PCs significant for AAA diagnosis and age ( Table 3  and  Supplementary Table S2 ). The CpGIs selected for the subset also had a similar direction and magnitude in both batches. This subset was analyzed using OLS linear regression models, and four CpGIs were found to be significantly differentially methylated with respect to AAA ( Table 4 ). Each of these CpGIs are located in the body of a different gene. These genes were  ADCY10P1 ,  CNN2 ,  KLHL35 , and  SERPINB9 . DNA methylation was decreased in AAA samples compared to controls for  ADCY10P1  and  CNN2 . DNA methylation was increased in AAA samples compared to controls for  KLHL35  and  SERPINB9 .
+
+           ijms-16-11259-t003_Table 3 
+           Table 3 
+           CpGIs in the subset analyzed using ordinary least squares (OLS) linear regression models. 
+           
+             
+           CpGI * Name and Location 
+                 Gene 
+                 Gene Context of the CpGI 
+               
+                 
+             
+               
+             chr4: 190962111–190962689 
+                 null 
+                 NA 
+               
+                 
+               chr6: 2891929–2892182 
+                 SERPINB9 
+ 
+ 
+                 Body 
+               
+                 
+               chr6: 41068475–41069343 
+                 ADCY10P1 
+ 
+ 
+                 Body 
+               
+                 
+               chr6: 168435835–168436086 
+                 KIF25 
+ 
+ 
+                 Body 
+               
+                 
+               chr9: 124987743–124991086 
+                 LHX6 
+ 
+ 
+                 Body 
+               
+                 
+               chr11: 396685–397462 
+                 PKP3 
+ 
+ 
+                 Body 
+               
+                 
+               chr11: 75139454–75139817 
+                 KLHL35 
+ 
+ 
+                 Body, Promotera 
+               
+                 
+               chr17: 152117–152438 
+                 RPH3AL 
+ 
+ 
+                 Body 
+               
+                 
+               chr17: 19099818–19100138 
+                 null 
+                 NA 
+               
+                 
+               chr19: 1033605–1035236 
+                 CNN2 
+ 
+ 
+                 Body 
+               
+                 
+               chr19: 37786692–37787110 
+                 null 
+                 NA 
+               
+                 
+               chr19: 612989–614068 
+                 HCN2 
+ 
+ 
+                 Body 
+               
+                 
+               chr19: 49001748–49003087 
+                 LMTK3 
+ 
+ 
+                 Body 
+               
+                 
+               chr20: 32254811–32255989 
+                 NECAB3 
+ 
+ 
+                 Body 
+               
+                 
+               chr21: 38630052–38630507 
+                 DSCR3 
+ 
+ 
+                 Body 
+               
+                 
+               chrX: 72298626–72299108 
+                 PABPC1L2A 
+ 
+ 
+                 1st Exon 
+               
+                 
+             
+               
+           
+             
+           *  The CpGIs were represented by 16 CpG probes and spanned both Promoter and Body of the gene. Only 3 of 16 probes were in the promoter. NA, not applicable, since the CpGI was not in any gene. Extended annotation for each CpG probe in the CpGIs above is provided in  Supplementary Table S2 . 
+             
+               
+           
+             
+        
+
+           ijms-16-11259-t004_Table 4 
+           Table 4 
+           Genes demonstrating differential DNA methylation with respect to AAA, age, and smoking. 
+           
+             
+           Gene 
+                 p  Value (Diagnosis) 
+                 p  Value (Age) 
+                 p  Value (Smoking) 
+               
+                 
+             
+               
+             ADCY10P1 
+ 
+ 
+                 0.0221 
+                 0.06702 
+                 0.04543 
+               
+                 
+               CNN2 
+ 
+ 
+                 0.006514 
+                 0.032 
+                 0.02625 
+               
+                 
+               KLHL35 
+ 
+ 
+                 0.009153 
+                 0.009907 
+                 0.007803 
+               
+                 
+               SERPINB9 
+ 
+ 
+                 0.00309 
+                 0.02121 
+                 0.1016 
+               
+                 
+             
+               
+           
+             
+        
+2.2. Real-Time Quantitative RT-PCR to Measure mRNA Levels of CNN2 and SERPINB9 in PBMC of AAA Patients and Non-Aneurysmal Controls
+Two of the genes ( CNN2  and  SERPINB9 ) which were significantly differentially methylated in AAA were selected for follow-up studies which included real-time quantitative RT-PCR and immunohistochemical staining.
+Real-time quantitative RT-PCR was used to measure mRNA levels of  CNN2  and  SERPINB9  in PBMC of AAA ( n  = 26) and non-aneurysmal ( n  = 20) samples.  Table 1  summarizes the sample groups, and  Supplementary Table S1  lists more detailed information about each donor. There were no statistically significant differences in gene expression with respect to AAA diagnosis, age, or smoking. However, there was a trend for  CNN2  to have lower expression, and  SERPINB9  to have higher expression in the AAA than control samples ( Figure 2 ).
+2.3. Immunohistological Staining of CNN2 and SERPINB9 in the Aortic Wall of AAA Patients and Non-Aneurysmal Controls
+Immunohistochemical analysis was performed to visualize expression and localization of  CNN2  and  SERPINB9  in the aortic wall of AAA ( n smoking  = 3,  n non-smoking  = 3) and non-aneurysmal ( n  = 4) patients.  Table 2  includes information about each tissue sample used, and  Table 5  includes information about the  CNN2  and  SERPINB9  primary antibodies used. Representative images of aortic tissue samples from a control, an AAA smoker, and an AAA non-smoker are shown in  Figure 3 . While imprecise at best, we attempted to compare the results of our immunohistochemical analysis. Subjectively, control aortas showed no specific staining for  CNN2  in any section of the aorta. AAA aortas displayed much more staining for  CNN2  throughout the media and intima. In samples containing a thrombus, the thrombus also contained many stained cells (not shown). There were no noticeable differences in staining between samples from smokers and non-smokers. Although a statistical comparison is not available, control aortas subjectively appeared to show  SERPINB9  staining in the intima and media. There was also light staining in the adventitia of some controls aortas, but it was not consistent. Female aortas contained less  SERPINB9  staining than male aortas (not shown). AAA aortas generally showed darker  SERPINB9  staining. This was especially noticeable near the intima of most samples. There was also an increase in  SERPINB9  staining in areas of the aorta where the morphology was disrupted and where there was a high density of immune cells.
+
+           ijms-16-11259-t005_Table 5 
+           Table 5 
+           Primary antibodies used in immunohistological analyses. 
+           
+             
+           Gene Symbol 
+                 Gene ID 
+                 Protein Symbols 
+                 Full Name 
+                 Catalog Number 
+                 Supplier 
+                 Species 
+                 IHC Dilution 
+               
+                 
+             
+               
+             CNN2 
+ 
+ 
+                 1265 
+                 CNN2 
+                 Calponin 2 
+                 TA503688 
+                 OriGene, Rockville, MD, USA 
+                 Mouse monoclonal 
+                 1:234 
+               
+                 
+               SERPINB9 
+ 
+ 
+                 5272 
+                 CAP3, PI9, SERPINB9 
+                 Serpin peptidase inhibitor, clade B (ovalbumin), member 9 
+                 TA312970 
+                 OriGene, Rockville, MD, USA 
+                 Rabbit polyclonal 
+                 1:4667 
+               
+                 
+             
+               
+           
+             
+           IHC, immunohistochemistry. 
+             
+               
+           
+             
+        
+2.4 Bioinformatic Analysis of Interactions between CNN2 and SERPINB9
+Potential interactions between  CNN2  and  SERPINB9  identified using Ingenuity Pathway Analysis ®  (IPA) tool are shown in a network ( Figure 4 ).  SERPINB9  and  CNN2  do not directly interact, but they do interact with several of the same proteins and they are involved in similar pathways. Most of the genes in the network are involved in cell signaling, the immune response, and cell death.
+We investigated changes in DNA methylation in patients with AAA and followed up the findings by conducting gene and protein expression studies.  Figure 1  presents an outline of our study. The AAA patients included in the methylation study had aortic diameters between 3 and 5 cm and none of them had undergone a surgical AAA repair. First, genome-wide DNA methylation patterns were obtained from PBMC of AAA ( n  = 20) and non-aneurysmal ( n  = 21) patients. The DNA methylation data were analyzed by principal component (PC) analysis, and then a subset of CpGIs were further analyzed using ordinary least squares (OLS) linear regression models to detect significant differences in methylation. This analysis revealed four genes with significantly different DNA methylation in AAA samples compared with controls. Two genes with the greatest magnitude of differential methylation, calponin 2 ( CNN2 ) and serpin peptidase inhibitor clade B (ovalbumin) member 9 ( SERPINB9 ), were studied further using real-time quantitative RT-PCR to determine their mRNA levels in PBMC of AAA ( n  = 26) and non-aneurysmal ( n  = 20) controls. In addition, immunohistological staining of AAA ( n  = 6) and control human infrarenal abdominal aortas ( n  = 4) was used to determine protein expression and localization. All blood samples were obtained from male patients between the ages of 43 and 88 ( Table 1  and  Supplementary Table S1 ). Human aortic AAA samples for immunohistological staining were collected from patients undergoing AAA repair operations, and non-aneurysmal infrarenal abdominal aortic wall samples were collected from autopsies ( Table 2 ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1296~1304" text="ADCY10P1" location="result" />
+<GENE id="G1" spans="1308~1312" text="CNN2" location="result" />
+<GENE id="G2" spans="1316~1322" text="KLHL35" location="result" />
+<GENE id="G3" spans="1330~1338" text="SERPINB9" location="result" />
+<GENE id="G4" spans="1412~1420" text="ADCY10P1" location="result" />
+<GENE id="G5" spans="1427~1431" text="CNN2" location="result" />
+<GENE id="G6" spans="1505~1511" text="KLHL35" location="result" />
+<GENE id="G7" spans="1518~1526" text="SERPINB9" location="result" />
+<GENE id="G8" spans="2057~2065" text="SERPINB9" location="result" />
+<GENE id="G9" spans="2185~2193" text="ADCY10P1" location="result" />
+<GENE id="G10" spans="2315~2320" text="KIF25" location="result" />
+<GENE id="G11" spans="2442~2446" text="LHX6" location="result" />
+<GENE id="G12" spans="2563~2567" text="PKP3" location="result" />
+<GENE id="G13" spans="2688~2694" text="KLHL35" location="result" />
+<GENE id="G14" spans="2822~2828" text="RPH3AL" location="result" />
+<GENE id="G15" spans="3066~3070" text="CNN2" location="result" />
+<GENE id="G16" spans="3306~3310" text="HCN2" location="result" />
+<GENE id="G17" spans="3431~3436" text="LMTK3" location="result" />
+<GENE id="G18" spans="3557~3563" text="NECAB3" location="result" />
+<GENE id="G19" spans="3684~3689" text="DSCR3" location="result" />
+<GENE id="G20" spans="3809~3818" text="PABPC1L2A" location="result" />
+<GENE id="G21" spans="4699~4707" text="ADCY10P1" location="result" />
+<GENE id="G22" spans="4839~4843" text="CNN2" location="result" />
+<GENE id="G23" spans="4975~4981" text="KLHL35" location="result" />
+<GENE id="G24" spans="5117~5125" text="SERPINB9" location="result" />
+<GENE id="G25" spans="5368~5372" text="CNN2" location="result" />
+<GENE id="G26" spans="5377~5385" text="SERPINB9" location="result" />
+<GENE id="G27" spans="5457~5461" text="CNN2" location="result" />
+<GENE id="G28" spans="5468~5476" text="SERPINB9" location="result" />
+<GENE id="G29" spans="5718~5722" text="CNN2" location="result" />
+<GENE id="G30" spans="5729~5737" text="SERPINB9" location="result" />
+<GENE id="G31" spans="6074~6078" text="CNN2" location="result" />
+<GENE id="G32" spans="6111~6119" text="SERPINB9" location="result" />
+<GENE id="G33" spans="6229~6233" text="CNN2" location="result" />
+<GENE id="G34" spans="6238~6246" text="SERPINB9" location="result" />
+<GENE id="G35" spans="6398~6402" text="CNN2" location="result" />
+<GENE id="G36" spans="6409~6417" text="SERPINB9" location="result" />
+<GENE id="G37" spans="6631~6635" text="CNN2" location="result" />
+<GENE id="G38" spans="6642~6650" text="SERPINB9" location="result" />
+<GENE id="G39" spans="6962~6966" text="CNN2" location="result" />
+<GENE id="G40" spans="7042~7046" text="CNN2" location="result" />
+<GENE id="G41" spans="7368~7376" text="SERPINB9" location="result" />
+<GENE id="G42" spans="7542~7550" text="SERPINB9" location="result" />
+<GENE id="G43" spans="7627~7635" text="SERPINB9" location="result" />
+<GENE id="G44" spans="7742~7750" text="SERPINB9" location="result" />
+<GENE id="G45" spans="8330~8334" text="CNN2" location="result" />
+<GENE id="G46" spans="8380~8384" text="CNN2" location="result" />
+<GENE id="G47" spans="8403~8413" text="Calponin 2" location="result" />
+<GENE id="G48" spans="8596~8604" text="SERPINB9" location="result" />
+<GENE id="G49" spans="8661~8669" text="SERPINB9" location="result" />
+<GENE id="G50" spans="8656~8659" text="PI9" location="result" />
+<GENE id="G51" spans="8688~8745" text="Serpin peptidase inhibitor, clade B (ovalbumin), member 9" location="result" />
+<GENE id="G52" spans="8650~8654" text="CAP3" location="result" />
+<GENE id="G53" spans="9126~9130" text="CNN2" location="result" />
+<GENE id="G54" spans="9135~9143" text="SERPINB9" location="result" />
+<GENE id="G55" spans="9176~9180" text="CNN2" location="result" />
+<GENE id="G56" spans="9187~9195" text="SERPINB9" location="result" />
+<GENE id="G57" spans="9293~9301" text="SERPINB9" location="result" />
+<GENE id="G58" spans="9308~9312" text="CNN2" location="result" />
+<GENE id="G64" spans="10421~10431" text="calponin 2" location="result" />
+<GENE id="G65" spans="10434~10438" text="CNN2" location="result" />
+<GENE id="G66" spans="10446~10500" text="erpin peptidase inhibitor clade B (ovalbumin) member 9" location="result" />
+<GENE id="G67" spans="10503~10511" text="SERPINB9" location="result" />
+<DISEASE id="D0" spans="87~90" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="207~210" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="636~639" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="889~892" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1196~1199" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1374~1377" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1467~1470" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="4446~4449" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="5397~5400" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="5533~5536" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="5750~5753" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="6010~6013" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="6154~6157" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="6269~6272" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="6441~6444" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="6743~6746" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="6762~6765" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="6997~7000" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="7591~7594" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="10614~10617" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="10713~10716" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="10978~10981" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="11062~11065" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="10318~10321" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D29" spans="9862~9865" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D30" spans="9733~9736" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D31" spans="9600~9603" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D32" spans="9945~9948" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="6088~6104" text="lower expression" location="result" relation="decreased expression" />
+<RELATION id="R1" spans="6129~6146" text="higher expression" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G31" geneText="CNN2" diseaseID="D16" diseaseText="AAA" relationID="R0" relationText="lower expression" />
+<ENTITY_LINKING id="E1" geneID="G32" geneText="SERPINB9" diseaseID="D16" diseaseText="AAA" relationID="R1" relationText="higher expression" />
+</TAGS>
+</Genomics_ConceptTask>

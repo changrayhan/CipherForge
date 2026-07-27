@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Neonatal dorsal and intermediate/ventral hippocampus are differently entrained in discontinuous patterns of oscillatory activity
+While different organization and function of dHP vs. i/vHP of adults have been extensively characterized ( Thompson et al., 2008 ;  Dong et al., 2009 ;  Patel et al., 2013 ), their patterns of structural and functional maturation are still poorly understood. To fill this knowledge gap, we firstly examined the network oscillatory and firing activity of CA1 area of either dHP or i/vHP by performing extracellular recordings of the local field potential (LFP) and multiple unit activity (MUA) in neonatal [postnatal day (P) 8–10] non-anesthetized and urethane-anesthetized mice (n = 153). While urethane anesthesia led to an overall decrease of amplitude and power of oscillatory activity when compared to the non-anesthetized state of the same group of pups, the firing rate and timing as well as the synchrony and interactions within prefrontal-hippocampal networks were similar during both states ( Figure 1—figure supplement 1 ). Due to the close proximity and the absence of reliable anatomical and functional borders between iHP and vHP at neonatal age, data from the two areas were pooled and referred as from i/vHP. The entire investigation was performed at the age of initiation of coupling between HP and PFC, that is, P8-10 ( Brockmann et al., 2011 ). Independent of the position along the dorsal-ventral axis, the CA1 area was characterized by discontinuous oscillations with main frequency in theta band (4–12 Hz) and irregular low amplitude beta-gamma band components, which have been previously categorized as theta oscillations ( Brockmann et al., 2011 ). They were accompanied by prominent sharp-waves (SPWs) reversing across the pyramidal layer (str. pyr.) and by strong MUA discharge ( Figure 1A and E ). While the general patterns of activity were similar in dHP and i/vHP, their properties significantly differed between the sub-divisions. The theta bursts in i/vHP had significantly higher occurrence (i/vHP: 8.1 ± 0.2 oscillations/min, n = 103 mice vs. dHP: 5.2 ± 0.3 oscillations/min, n = 41 mice; p<0.001), larger amplitude (i/vHP:110.6 ± 5.6 µV vs. dHP: 92.9 ± 2.6 µV; p=0.015), and shorter duration (i/vHP: 3.5 ± 0.1 s vs. dHP: 4.3 ± 0.1 s, p<0.001) when compared with dHP ( Figure 1B ,  Figure 1—figure supplement 2A ). Investigation of the spectral composition of theta bursts revealed significant differences within theta band with a stronger activation of dHP (relative power: dHP: 13.0 ± 1.3, n = 41 mice; i/vHP: 10.3 ± 0.5, n = 103 mice; p=0.026), whereas the faster frequency components were similar along the septo-temporal axis (relative power: 12–30 Hz: dHP, 15.0 ± 1.6, n = 41 mice; i/vHP, 13.2 ± 0.7 n = 103 mice, p=0.22; 30–100 Hz: dHP, 6.3 ± 0.6, n = 41 mice; i/vHP: 5.2 ± 0.3, n = 103 mice; p=0.073) ( Figure 1C ,  Figure 1—figure supplement 2B ).
+Differences along the septo-temporal axis were detected both in hippocampal spiking and population events SPWs. Overall, pyramidal neurons in i/vHP fired at higher rates (0.45 ± 0.01 Hz, n = 557 units from 103 mice) than in the dHP (0.35 ± 0.02 Hz, n = 158 units from 41 mice; p=0.025) ( Figure 1D ). SPW in neonatal HP were more prominent in the dHP (712.8 ± 31.5 µV, n = 41 mice) when compared with those occurring in the i/vHP (223.8 ± 6.3 µV, n = 103 mice, p<0.001), yet their occurrence increased along the septo-temporal axis (dHP: 6.6 ± 0.5, n = 41 mice; i/vHP: 8.6 ± 0.2, n = 103 mice, p<0.001) ( Figure 1E and F ,  Figure 1—figure supplement 2D . In line with our previous results ( Brockmann et al., 2011 ), SPWs were accompanied by prominent firing centered around the SPW peak (dHP, 232 units; i/vHP, 670 units) that were phase-locked to hippocampal ripples ( Figure 1—figure supplement 2C ). The power of ripples decreased along the septo-temporal axis (relative power: dHP, 24.4 ± 3.3, n = 41 mice; i/vHP, 6.1 ± 0.60, n = 103 mice, p<0.001) ( Figure 1G,H ). Similarly, the ripple-related spiking was stronger in dHP when compared with i/vHP (peak firing: dHP: 1.13 ± 0.09 Hz, n = 232 units; i/vHP 0.84 ± 0.03, n = 670, p<0.001) ( Figure 1I and J ).
+These data show that the activity patterns in the dorsal and intermediate/ventral CA1 area differ in their properties and spectral structure.
+Theta activity within dorsal and intermediate/ventral hippocampus differently entrains the neonatal prelimbic cortex
+The different properties of network and neuronal activity in dHP vs. i/vHP led us to question their outcome for the long-range coupling in the developing brain. Past studies identified tight interactions between HP and PFC, which emerge already at neonatal age ( Brockmann et al., 2011 ;  Hartung et al., 2016 ) and are in support of memory at adulthood ( Krüger et al., 2012 ;  Spellman et al., 2015 ;  Place et al., 2016 ). The discontinuous theta oscillations in HP have been proposed to drive the activation of local circuits in the PFC. To assess the coupling of dHP and i/vHP with PFC, we recorded simultaneously LFP and MUA in the corresponding hippocampal CA1 area and the prelimbic subdivision (PL) of the PFC of P8-10 mice. The entire investigation focused on PL, since in adults it is the prefrontal subdivision with the most dense innervation from HP ( Jay and Witter, 1991 ;  Vertes et al., 2007 ). In a first step, we examined the temporal correspondence of discontinuous oscillations recorded simultaneously in the PL and dHP, as well as in the PL and i/vHP. We previously characterized the network activity in the PL and showed that spindle-shaped oscillations switching between theta (4–12 Hz) and beta-gamma (12–40 Hz) frequency components alternate with periods of silence ( Brockmann et al., 2011 ;  Cichon et al., 2014 ;  Bitzenhofer et al., 2015 ). The majority of prelimbic and hippocampal oscillations co-occurred within a narrow time window ( Figure 2A ). The temporal synchrony between prelimbic and hippocampal oscillations was assessed by performing spectral coherence analysis ( Figure 2B ). The results revealed a stronger coupling for PL-i/vHP (4–12 Hz: 0.17 ± 0.0069; 12–30 Hz: 0.31 ± 0.011; 30–100 Hz: 0.11 ± 0.0069, n = 103 mice) when compared with PL-dHP (4–12 Hz: 0.12 ± 0.0081; 12–30 Hz: 0.18 ± 0.0094; 30–100 Hz: 0.084 ± 0.004, n = 41 mice). In line with previous investigations, this level of coherence is a genuine feature of investigated neonatal networks and not the result of non-specific and conduction synchrony, since we considered only the imaginary component of the coherence spectrum, which excludes zero time-lag synchronization ( Nolte et al., 2004 ).
+Due to the symmetric interdependence of coherence, it does not offer reliable insights into the information flow between two brain areas. Therefore, in a second step, we estimated the strength of directed interactions between PL and HP by calculating the generalized partial directed coherence (gPDC) ( Baccala et al., 2007 ;  Rodrigues and Baccala, 2016 ) ( Figure 2C ). The method bases on the notion of Granger causality ( Granger, 1980 ) and avoids distorted connectivity results due to different scaling of data in HP and PL ( Baccala et al., 2007 ;  Taxidis et al., 2010 ). Independent of the position along the septo-temporal axis, the information flow in theta or beta frequency band from either dorsal or intermediate/ventral HP to PL was significantly stronger than in the opposite direction. However, mean gPDC values for i/vHP → PL were significantly (p<0.001) higher (0.069 ± 0.003, n = 103 mice) when compared with those for dHP → PL (0.053 ± 0.003, n = 41 mice). Cross-correlation analysis confirmed these results ( Figure 2—figure supplement 1 ). The stronger information flow from i/vHP to PL was confined to theta frequency range and was not detected for 12–30 Hz frequencies (i/vHP → PL: 0.048 ± 0.001; dHP → PL: 0.043 ± 0.002, p=0.16). Correspondingly, the firing of individual prelimbic neurons was precisely timed by the phase of oscillations in i/vHP but not dHP ( Figure 2D ). Almost 20% of clustered units (52 out of 310 units) were locked to theta phase in i/vHP, whereas only 6.5% of units (3 out of 46 units) were timed by dHP. The low number of locked cells in dHP precluded the comparison of coupling strength between the two hippocampal sub-divisions.
+These results indicate that the distinct activity patterns in dHP and i/vHP at neonatal age have different outcomes in their coupling with the PL. Despite higher power, theta oscillations in dHP do not substantially account for prelimbic activity. In contrast, i/vHP seems to drive neuronal firing and network entrainment in the PL.
+SPWs-mediated output of intermediate/ventral but not dorsal hippocampus times network oscillations and spiking response in the neonatal prelimbic cortex
+Since SPWs and ripples in dHP significantly differ from those in i/vHP, they might have a distinct impact on the developing PFC. While abundant literature documented the contribution of SPWs-spindles complex to memory-relevant processing in downstream targets, such as PFC ( Colgin, 2011 ;  Buzsáki, 2015 ;  Colgin, 2016 ), it is unknown how these complexes affect the development of cortical activation. Simultaneous recordings from neonatal CA1 area either in dHP or i/vHP and PL showed that already at neonatal age, prefrontal oscillations are generated shortly (~100 ms) after hippocampal SPWs-ripples. This prelimbic activation is significantly stronger when induced by SPWs-ripples emerging in i/vHP than in dHP as reflected by the significantly higher power of oscillatory activity in theta (PL for dHP: 186.9 ± 12.5 µV 2 ; PL for i/vHP: 249.5 ± 14.5 µV 2 , p=0.0088), beta (PL for dHP: 34.3 ± 3.3 µV 2 ; PL for i/vHP: 48.1 ± 2.8 µV 2 , p=0.0049), and gamma (PL for dHP: 11.3 ± 0.9 µV 2 ; PL for i/vHP: 17.4 ± 1.2 µV 2 , p=0.0026) frequency band ( Figure 3A ). The SPWs-ripple-induced oscillatory activity in the PL of neonatal mice was accompanied by augmentation of firing rates. While the induced firing in i/vHP peaked (≈90 ms) after SPWs-ripples and remained significantly (p<0.001) elevated for several seconds, a less prominent peak was observed following SPW-ripples in dHP ( Figure 3B and C ). The phase-locking of prelimbic units was similar before and after SPWs ( Figure 3—figure supplement 1 ).
+These data reveal that SPWs-ripples from intermediate/ventral but less from the dorsal part of hippocampal CA1 correlate with pronounced neuronal firing and local entrainment in the PL of neonatal mice.
+Pyramidal neurons in intermediate/ventral but not dorsal hippocampus densely project to the prefrontal cortex at neonatal age
+To identify the anatomical substrate of different coupling strength between i/vHP - PL and dHP - PL, we monitored the projections that originate from the CA1 area in both hippocampal subdivisions and target the PFC. The direct unilateral projections from hippocampal CA1 area to PL have been extensively investigated in adult brain ( Swanson, 1981 ;  Jay and Witter, 1991 ;  Vertes et al., 2007 ) and are present already at neonatal age ( Brockmann et al., 2011 ;  Hartung et al., 2016 ). We tested for sub-division-specific differences by using retrograde and anterograde tracing. First, we injected unilaterally small amounts of the retrograde tracer Fluorogold (FG) into the PL of P7 mice (n = 8 mice). Three days after FG injections, labeled cells were found in str. pyr. of CA1 in both dHP and i/vHP ( Figure 4A ). However, their density was significantly different (p<0.001); whereas in dHP very few cells were retrogradely labeled (0.15*10 3  ± 0.074*10 3  cells/mm 2 ), a large proportion of pyramidal-shaped cells in the CA1 area of i/vHP projects to PL (3.29*10 3  ± 0.19*10 3  cells/mm 2 ).
+Second, the preferential innervation of PL by pyramidal neurons from CA1 area of i/vHP was confirmed by anterograde staining with BDA (n = 9 mice). Small amounts of BDA were injected into the CA1 area of i/vHP ( Figure 4B ). They led to labeling of the soma and arborized dendritic tree of pyramidal neurons in str. pyr. with the characteristic orientation of axons. In 7 out of 9 mice anterogradely-labeled axons were found in the PL, preferentially within its deep layers V and VI.
+Thus, the dense axonal projections from CA1 area of i/vHP might represent the substrate of HP-induced oscillatory entrainment of prelimbic circuits.
+Selective light manipulation of pyramidal neurons and interneurons in CA1 area of intermediate/ventral but not dorsal hippocampus causes frequency-specific changes in the oscillatory entrainment of neonatal prelimbic circuits
+The tight coupling by synchrony and the directed information flow from hippocampal CA1 area to PL via direct axonal projections suggest that the HP acts already at neonatal age as a drive for prelimbic activation. Moreover, the differences identified between the dHP – PL and i/vHP – PL communication argue for prominent augmentation of driving force along the septo-temporal hippocampal axis. To causally confirm these correlative evidences, we selectively activated by light the pyramidal neurons in the CA1 area of either dHP or i/vHP that had been transfected with a highly efficient fast-kinetics double mutant ChR2E123T/T159C (ET/TC) ( Berndt et al., 2011 ) and the red fluorescent protein tDimer2 by  in utero  electroporation (IUE) ( Figure 5—figure supplement 1A ). This method enables stable area and cell type-specific transfection of neurons already prenatally without the need of cell-type specific promotors of a sufficiently small size ( Baumgart and Grebe, 2015 ;  Szczurkowska et al., 2016 ). To target neurons along the septo-temporal axis, distinct transfection protocols were used. When the IUE was performed with two paddles placed 25° leftward angle from the midline and a 0° angle downward from anterior to posterior, tDimer-positive neurons were mainly found in the CA1 area of the dHP, as revealed by the analysis of consecutive coronal sections from IUE-transfected P8-10 mice. Targeting of i/vHP succeeded only when three paddles were used, with both positive poles located at 90° leftward angle from the midline and the third negative pole at 0° angle downward from anterior to posterior ( Figure 5A , S2B). Staining with NeuN showed that a substantial proportion of neurons in str. pyr. of CA1 area (dHP: 18.3 ± 1.0%; n = 36 slices from 13 mice; i/vHP: 14.5 ± 1.5%, n = 12 slices from 11 mice) were transfected by IUE. The shape of tDimer2-positive neurons, the orientation of primary dendrites, and the absence of positive staining for GABA confirmed that the light-sensitive protein ChR2(ET/TC) was integrated exclusively into cell lineages of pyramidal neurons ( Figure 5A ). Omission of ChR2(ET/TC) from the expression construct (i.e. opsin-free) yielded similar expression rates and distribution of tDimer2-positive neurons ( Figure 5—figure supplement 1C ).
+To exclude non-specific effects of transfection procedure by IUE on the overall development of mice, we assessed the developmental milestones and reflexes of electroporated opsin-expressing and opsin-free mice ( Figure 5—figure supplement 1D ). While IUE caused significant reduction of litter size (non-electroporated 6.5 ± 0.7 pups/litter, electroporated: 4.5 ± 0.5 pups/litter, p=0.017), all investigated pups had similar body length, tail length, and weight during early postnatal period. Vibrissa placing, surface righting and cliff aversion reflexes were also not affected by IUE or transfection of neurons with opsins. These data indicate that the overall somatic development during embryonic and postnatal stage of ChR2(ET/TC)-transfected mice is unaltered.
+We first assessed the efficiency of light stimulation in evoking action potentials in hippocampal pyramidal neurons in vivo. Blue light pulses (473 nm, 20–40 mW/mm 2 ) at different frequencies (4, 8, 16 Hz) led shortly (<10 ms) after the stimulus to precisely timed firing of transfected neurons in both dHP and i/vHP. Our previous experimental data and modeling work showed that the used light power did not cause local tissue heating that might interfere with neuronal spiking ( Stujenske et al., 2015 ;  Bitzenhofer et al., 2017b ). For both hippocampal sub-divisions the efficiency of firing similarly decreased with augmenting frequency ( Figure 5B ). For stimulation frequencies >16 Hz, the firing lost the precise timing by light, most likely due to the immaturity of neurons and their projections.
+To decide whether activation of HP boosts the entrainment of prelimbic circuits, we simultaneously performed multi-site recordings of LFP and MUA in PL and HP during pulsed light stimulation of CA1 area of dHP (n = 22 mice) or i/vHP (n = 9 mice) ( Figure 5C ). The firing in i/vHP timed by light at 8 Hz, but not at 4 Hz or 16 Hz, caused significant (theta: p=0.039, beta: p=0.030, gamma: p=0.0036) augmentation of oscillatory activity in all frequency bands as reflected by the higher power in the PL during the stimulation when compared with the time window before the train of pulses ( Figure 5D ,  Table 1 ). In contrast, stimulation by light of dHP left the prelimbic activity unaffected. In opsin-free animals, stimulation of dHP and i/vHP led to no significant changes in the oscillatory activity ( Figure 5—figure supplement 2A ,  Table 1 ). Rhythmic firing of prelimbic neurons was not detected after light activation of hippocampal subdivisions, most likely because hippocampal axons were rather sparse.
+
+           10.7554/eLife.33158.014 
+           Table 1. 
+           Mean power changes in PL after light stimulation of dHP or i/vHP in ChR2(ET/TC)-containing and opsin-free animals. *p<0.05, **p<0.01. 
+           
+             
+           
+                 dHP 
+                 I/vHP 
+               
+                 
+               
+                 Stimulation frequency 
+                 Stimulation frequency 
+               
+                 
+             
+               
+             ChR2(ET/TC) 
+                 4 Hz 
+                 8 Hz 
+                 16 Hz 
+                 4 Hz 
+                 8 Hz 
+                 16 hz 
+               
+                 
+               Theta 
+                 0.97 ± 0.10 
+                 1.19 ± 0.19 
+                 1.0 ± 0.093 
+                 0.90 ± 0.15 
+                 1.89 ± 0.36 (*) 
+                 1.16 ± 0.08 
+               
+                 
+               Beta 
+                 0.91 ± 0.06 
+                 1.17 ± 0.15 
+                 1.06 ± 0.13 
+                 0.94 ± 0.12 
+                 1.72 ± 0.27 (*) 
+                 1.12 ± 0.08 
+               
+                 
+               Gamma 
+                 1.0 ± 0.035 
+                 1.00 ± 0.19 
+                 1.04 ± 0.38 
+                 0.97 ± 0.06 
+                 1.26 ± 0.06 (**) 
+                 1.02 ± 0.06 
+               
+                 
+               Opsinfree 
+                 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               Theta 
+                 1.11 ± 0.14 
+                 1.09 ± 0.19 
+                 1.14 ± 0.22 
+                 1.17 ± 0.27 
+                 1.17 ± 0.20 
+                 1.16 ± 0.12 
+               
+                 
+               Beta 
+                 1.13 ± 0.15 
+                 0.99 ± 0.16 
+                 1.11 ± 0.11 
+                 1.05 ± 0.22 
+                 0.95 ± 0.18 
+                 1.08 ± 0.13 
+               
+                 
+               Gamma 
+                 1.08 ± 0.06 
+                 0.93 ± 0.04 
+                 1.03 ± 0.03 
+                 0.89 ± 0.09 
+                 0.94 ± 0.07 
+                 0.97 ± 0.04 
+               
+                 
+             
+               
+           
+             
+        
+To confirm the driving role of i/vHP for the generation of oscillatory activity in PL, we selectively transfected Dlx5/6 positive interneurons with either ChETA or archaerhodopsin (ArchT). Blue light stimulation (473 nm) confined to i/vHP of Dlx5/6–ChETA mice (n = 19) led to a significant reduction of hippocampal power in all frequency bands (theta: p=0.024, beta: p=0.018, gamma: p=0.044). Correspondingly, the oscillatory activity in PL diminished (theta: p=0.027, beta: p=0.077, gamma: p=0.019) ( Figure 6A,B ). Silencing of interneurons in Dlx5/6-ArchT mice (n = 13) by yellow light (600 nm) had an opposite effect and caused augmentation of oscillatory activity both within i/vHP (theta: p<0.001, beta: p=0.0012, gamma: p<0.001) and PL (theta: p<0.001, beta: p<0.001, gamma: p<0.001) ( Figure 6A,C ).
+Taken together, these data reveal the critical role of hippocampal activity for the oscillatory entrainment of PL and identify pyramidal neurons in CA1 area of of i/vHP but not dHP as drivers for the broad activation of local prelimbic circuits.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,75 @@
+{
+  "attack_results": [
+    {
+      "attack_id": "M1",
+      "sub_attack": "prediction_consistency",
+      "metric": "confidence_variance",
+      "value": 0.0033834040686106775,
+      "chance_level": 0.1,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 100,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "Confidence variance=0.0034, mean=0.0866. Low variance: predictions appear uniform"
+    },
+    {
+      "attack_id": "M1",
+      "sub_attack": "distillation_convergence",
+      "metric": "query_budget_utilisation",
+      "value": 0.1,
+      "chance_level": NaN,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 100,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "Used 100/1000 queries (10.0% of budget). Without iterative training, single-pass surrogate accuracy is the meaningful signal."
+    },
+    {
+      "attack_id": "M1",
+      "sub_attack": "surrogate_model",
+      "metric": "accuracy",
+      "value": 0.0,
+      "chance_level": 0.0,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 0,
+      "n_positive": 0,
+      "verdict": "INCONCLUSIVE",
+      "notes": "Insufficient paired data for surrogate training (need ≥500 samples, have 100)"
+    },
+    {
+      "attack_id": "M1",
+      "sub_attack": "information_leakage",
+      "metric": "prediction_diversity_6bucket",
+      "value": 0.4241069486798396,
+      "chance_level": 0.5,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 100,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "Prediction diversity (6-bucket)=0.4241, deviation from uniform=1.0400; vocab-token entropy=0.4539 (n_distinct_tokens=10) for cross-comparison. Limited diversity in coarse-class buckets"
+    }
+  ],
+  "metadata": {
+    "suite_version": "2.0",
+    "attacks_run": [
+      "M1"
+    ],
+    "n_steps": 10,
+    "n_eval_steps": 50,
+    "batch_size": 4,
+    "seed": 42,
+    "project_root": "/root/autodl-tmp/SLG-HE-PIR",
+    "hf_model": "/root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da",
+    "data_dir": "/root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc",
+    "use_gpu": true,
+    "timestamp": "20260727_101624"
+  }
+}

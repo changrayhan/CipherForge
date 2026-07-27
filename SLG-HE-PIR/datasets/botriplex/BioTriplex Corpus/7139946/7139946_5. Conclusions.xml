@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In summary, consistent with prior preclinical HP  13 C MR publications involving murine models, the progression from low- to high-grade human PCa resulted in a significant increase in lactate (i.e., the Warburg effect) and an associated increase in LDH activity in living prostate tissue cultures. Another important finding of this study is the significant increase in MCT4-facilitated lactate efflux as a clear distinguishing factor for the presence of Gleason grade 4 PCa. Moreover, the lack of a significant increase in LDH activity and lactate efflux in low-grade PCa versus benign tissue suggests that HP [1- 13 C]pyruvate MRI can be used to image the presence of high-grade cancer in patients at the time of diagnosis, or during disease progression while on active surveillance. This hypothesis is being tested in a recently initiated HP [1- 13 C]pyruvate MRI study of patients with early-stage/indolent PCa selecting or on “active surveillance” as their clinical management course and receiving MRI/TRUS fusion biopsy as the pathologic standard of reference (NCT03933670).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="370~374" text="MCT4" location="result" />
+<DISEASE id="D0" spans="143~146" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="471~474" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="569~572" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="681~687" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="911~914" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

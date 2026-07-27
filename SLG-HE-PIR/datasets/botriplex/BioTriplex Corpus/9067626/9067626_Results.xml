@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Symptoms and physical signs of arthritis were monitored in hTNF-α transgenic mice at early (8 weeks), established (12 weeks), and late (19 weeks) disease stages. Transgenic mice appeared healthy at 8 weeks of age but demonstrated impaired mobility and reduced digit splaying by 12 weeks. Severe polyarthritis was evident in all transgenic mice by 19 weeks and elevated clinical scores reflected severely swollen digits, paws, and ankle joints ( Figure 1A ). Consistent with previous studies in this model ( Taconic Biosciences, 2022 ), synovial hyperplasia, leukocyte infiltration, cartilage destruction, fibrosis, and subchondral bone erosion were observed in digit and ankle joints (data not shown). Furthermore, hTNF-α mice demonstrated a significant decrease in body mass at 12 and 19 weeks ( Figure 1B ,  p  < 0.05), consistent with RA-induced cachexia. In contrast, wild-type mice remained healthy and demonstrated a steady increase in body mass.
+To investigate transcriptional pathways activated by hTNF-α signaling in this model, NF-κB and orphan nuclear receptor NR4A1-3 mRNA levels were measured in whole paws from transgenic and wild-type mice by RT-qPCR. NF-κB 1  mRNA was expressed at similar levels between transgenic and wild-type groups at 8 weeks and increased 2-fold at established and late disease stages ( Figure 2A ,  p  < 0.05). All three NR4A receptors were detected without differential expression at 8 and 12 weeks ( Figures 2B–D ). At the late disease stage, NR4A2 was selectively upregulated 2-fold ( Figure 2C ,  p  < 0.05), while NR4A1 and 3 remained equivalent to wild-type levels. These gene expression results reflect the net expression patterns of NF-κB 1  and the NR4A receptors in whole paws composed of multiple tissues and cell types.
+To expand on these findings and measure the histological distribution of NF-κB and NR4A2 proteins, sections of contralateral paws from hTNF-α and wild-type mice were assayed by immunohistochemistry. RelA was detected in chondrocytes from wild-type and hTNF-α joints ( Figures 3A,D,E,F ). At the early stage of disease, 80% of hTNF-α chondrocytes in the resting zone of the articular surfaces stained positive for RelA ( Figure 3I ,  p  < 0.005). However, at the established and late disease stages, RelA positivity in cartilage decreased to wild-type levels without significant differences between groups  Figures 3E,F,I . Synovial hyperplasia was observed with concurrent increases in RelA signal in synoviocytes ( Figures 3B,H , >70%,  p  < 0.005) and cells in synovio-entheseal compartments ( Figure 3C ). Isotype controls confirmed the absence of background staining on paw sections ( Figure 3G ).
+NR4A2 was detected in a similar distribution pattern in both cartilage and synovium and ubiquitously expressed in superficial chondrocytes from hTNF-α and wild-type joints at the early timepoint ( Figures 4A,D,I ). A 10% decrease in NR4A2 positive chondrocytes was observed in both groups at late stage, but statistical significance was limited to the hTNF-α groups ( Figure 4E,F,I ,  p  < 0.05). Synovial hyperplasia coincided with increases in NR4A2 in the synovium (>80%) and abundant expression in synoviocytes at the sites of membrane insertion to the cartilage ( Figures 4B,C,H ,  p  < 0.0005). Isotype controls confirmed the absence of background staining on paw sections ( Figure 4G ). Taken together, elevated RelA and NR4A2 protein levels in synoviocytes suggest that gene expression changes noted in whole paws ( Figure 2 ) are largely driven by disease changes in the synovium.
+To further investigate arthritis-related molecular mechanisms in the hTNF-α model, global gene expression patterns were examined in paws using RT-qPCR panels specific for 88 genes implicated in RA. A set of 48 genes was upregulated at the early stage of disease relative to wild-type controls, of which 22 remained elevated at the late stage along with nine additional induced genes ( Figures 5A,C,E ). Upregulated genes included inflammatory cytokines and chemokines (IL-1β, IL-6, IL-1, IL-4, CCL5, CXCL10, CXCL12), matrix degrading enzymes and inhibitors (MMP2, MMP9, TIMP1, TIMP2), cell surface receptors (ICAM1, VCAM1, CD14, CCR5, CXCR4, KDR), intracellular signaling proteins (AKT3, SOCS3, PRKCB, S100A4) and transcription factors (JUN, HIF1-alpha, STAT1, PPAR-alpha, CREB1). Endogenous mouse TNF-α was elevated by 3.5-fold ( Figure 5C ), consistent with autoregulation of this cytokine in response to chronic hTNF-α signaling. Validating RT-qPCR results presented earlier, NR4A2 (+4.4-fold) and NF-κB transcripts (NFKB1 +11.8-fold, RELA +2.9-fold) were also upregulated in hTNF-α paws ( Figures 5A,C ). Notably, four genes were repressed at the early stage (BCL2, MUC1, PTGS2, SLC16A3) and two were repressed at the late stage (UBC, IL-4) ( Figures 5B,D ). Differential expression was not observed for the remaining genes detected on the panels (early = 28, late = 51,  Supplementary Table S1 ).
+Next, the promoters of all genes detected in the panel experiment were scanned for putative binding sites for NF-κB 1  (GGGGATTCCCC) and NR4A receptors (AAGGTCAC) using matrix derived JASPAR CORE models of consensus vertebrate binding sites ( Lee and Huang, 2013 ). Consensus binding sites for these factors were enriched in the promoters of differentially expressed genes relative to the stably expressed groups ( Table 1 ). Over half of the early induced promoters contained at least one NR4A or NF-κB 1  binding site and 38% of the promoters contained sites for both factors. Furthermore, NR4A consensus binding sites were predicted in 8 of the 10 most highly induced promoters (CCL5, ICAM1, CD14, TNFRSF1B, NFκB 1 , H2-AB1, TNFAIP3, TNFRSF1A) ( Supplementary Table S2 ). These trends were evident in differentially expressed genes from early and late stages of disease, suggesting that NF-κB and NR4A receptors regulate transcriptional pathways central to this model.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="61~66" text="TNF-α" location="result" />
+<GENE id="G1" spans="717~722" text="TNF-α" location="result" />
+<GENE id="G2" spans="1008~1013" text="TNF-α" location="result" />
+<GENE id="G3" spans="1039~1044" text="NF-κB" location="result" />
+<GENE id="G4" spans="1073~1078" text="NR4A1" location="result" />
+<GENE id="G5" spans="1168~1175" text="NF-κB 1" location="result" />
+<GENE id="G6" spans="1486~1491" text="NR4A2" location="result" />
+<GENE id="G7" spans="1560~1565" text="NR4A1" location="result" />
+<GENE id="G8" spans="1682~1689" text="NF-κB 1" location="result" />
+<GENE id="G9" spans="1846~1851" text="NF-κB" location="result" />
+<GENE id="G10" spans="1856~1861" text="NR4A2" location="result" />
+<GENE id="G11" spans="1972~1976" text="RelA" location="result" />
+<GENE id="G12" spans="2026~2031" text="TNF-α" location="result" />
+<GENE id="G13" spans="2100~2105" text="TNF-α" location="result" />
+<GENE id="G14" spans="2186~2190" text="RelA" location="result" />
+<GENE id="G15" spans="2272~2276" text="RelA" location="result" />
+<GENE id="G16" spans="2459~2463" text="RelA" location="result" />
+<GENE id="G17" spans="2675~2680" text="NR4A2" location="result" />
+<GENE id="G18" spans="2820~2825" text="TNF-α" location="result" />
+<GENE id="G19" spans="2908~2913" text="NR4A2" location="result" />
+<GENE id="G20" spans="3028~3033" text="TNF-α" location="result" />
+<GENE id="G21" spans="3121~3126" text="NR4A2" location="result" />
+<GENE id="G22" spans="3394~3398" text="RelA" location="result" />
+<GENE id="G23" spans="3403~3408" text="NR4A2" location="result" />
+<GENE id="G24" spans="3635~3640" text="TNF-α" location="result" />
+<GENE id="G25" spans="4034~4039" text="IL-1β" location="result" />
+<GENE id="G26" spans="4041~4045" text="IL-6" location="result" />
+<GENE id="G27" spans="4047~4051" text="IL-1" location="result" />
+<GENE id="G28" spans="4053~4057" text="IL-4" location="result" />
+<GENE id="G29" spans="4059~4063" text="CCL5" location="result" />
+<GENE id="G30" spans="4065~4071" text="CXCL10" location="result" />
+<GENE id="G31" spans="4073~4079" text="CXCL12" location="result" />
+<GENE id="G32" spans="4123~4127" text="MMP2" location="result" />
+<GENE id="G33" spans="4129~4133" text="MMP9" location="result" />
+<GENE id="G34" spans="4135~4140" text="TIMP1" location="result" />
+<GENE id="G35" spans="4142~4147" text="TIMP2" location="result" />
+<GENE id="G36" spans="4174~4179" text="ICAM1" location="result" />
+<GENE id="G37" spans="4181~4186" text="VCAM1" location="result" />
+<GENE id="G38" spans="4188~4192" text="CD14" location="result" />
+<GENE id="G39" spans="4194~4198" text="CCR5" location="result" />
+<GENE id="G40" spans="4200~4205" text="CXCR4" location="result" />
+<GENE id="G41" spans="4207~4210" text="KDR" location="result" />
+<GENE id="G42" spans="4247~4251" text="AKT3" location="result" />
+<GENE id="G43" spans="4253~4258" text="SOCS3" location="result" />
+<GENE id="G44" spans="4260~4265" text="PRKCB" location="result" />
+<GENE id="G45" spans="4267~4273" text="S100A4" location="result" />
+<GENE id="G46" spans="4302~4305" text="JUN" location="result" />
+<GENE id="G47" spans="4307~4317" text="HIF1-alpha" location="result" />
+<GENE id="G48" spans="4319~4324" text="STAT1" location="result" />
+<GENE id="G49" spans="4326~4336" text="PPAR-alpha" location="result" />
+<GENE id="G50" spans="4338~4343" text="CREB1" location="result" />
+<GENE id="G51" spans="4363~4368" text="TNF-α" location="result" />
+<GENE id="G52" spans="4481~4486" text="TNF-α" location="result" />
+<GENE id="G53" spans="4544~4549" text="NR4A2" location="result" />
+<GENE id="G54" spans="4566~4571" text="NF-κB" location="result" />
+<GENE id="G55" spans="4585~4590" text="NFKB1" location="result" />
+<GENE id="G56" spans="4603~4607" text="RELA" location="result" />
+<GENE id="G57" spans="4645~4650" text="TNF-α" location="result" />
+<GENE id="G58" spans="4729~4733" text="BCL2" location="result" />
+<GENE id="G59" spans="4735~4739" text="MUC1" location="" />
+<GENE id="G60" spans="4741~4746" text="PTGS2" location="" />
+<GENE id="G61" spans="4748~4755" text="SLC16A3" location="" />
+<GENE id="G62" spans="4799~4802" text="UBC" location="" />
+<GENE id="G63" spans="5077~5084" text="NF-κB 1" location="" />
+<GENE id="G64" spans="5465~5472" text="NF-κB 1" location="" />
+<GENE id="G65" spans="5649~5653" text="CCL5" location="" />
+<GENE id="G66" spans="5655~5660" text="ICAM1" location="" />
+<GENE id="G67" spans="5662~5666" text="CD14" location="" />
+<GENE id="G68" spans="5668~5676" text="TNFRSF1B" location="" />
+<GENE id="G69" spans="5678~5684" text="NFκB 1" location="" />
+<GENE id="G70" spans="5687~5693" text="H2-AB1" location="" />
+<GENE id="G71" spans="5695~5702" text="TNFAIP3" location="" />
+<GENE id="G72" spans="5704~5712" text="TNFRSF1A" location="" />
+<GENE id="G73" spans="5857~5862" text="NF-κB" location="" />
+<GENE id="G74" spans="1909~1914" text="TNF-α" location="" />
+<DISEASE id="D0" spans="839~841" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

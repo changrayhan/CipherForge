@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Androgens, aging, and prostate health.
+Abstract: Due to late onset hypogonadism (LOH), there is an increased usage of testosterone replacement therapy (TRT) in the aging male population. Since prostate is a target organ for androgens and anti-androgenic strategies are used to treat and palliate benign prostate hyperplasia (BPH) and prostate cancer (PC), the prevalence of both increases with age, the possible influence of TRT on prostate health becomes highly relevant. The present review summarizes existing data on the associations between endogenous hormone concentrations and prostate growth and concludes that circulating concentrations of androgens do not appear to be associated with the risks of development of BPH or initiation or progression of PC. The explanation for these findings relates to an apparent insensitivity of prostatic tissue to changes of testosterone concentrations within the physiological range.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="75~87" text="hypogonadism" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="342~357" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="359~361" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="766~768" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

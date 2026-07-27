@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Through single-cell transcriptomic analysis, we have identified here some unique characteristics of ECs that form either normal vessels or cavernomas. Here, we have shown that brain ECs represent a heterogeneous population that is distributed across 13 different clusters on the basis of their gene expression. These cells express highly specialized functions that help to form the vasculature that is most appropriate for the needs of brain vascularization and for the development of the BBB ( Figures 1I  and  8A ). Remarkably, resident progenitor cells were detected in all of the  Pdcd10-wt  clusters, although in different proportions. This indicates that resident progenitor cells are heterogeneous and share several transcriptional features with the ECs of the vessels where they reside ( Figure 8A ). It can be speculated that this ‘mimicry’ behavior of endothelial-resident progenitors might be determined by the specificity of the different vascular microenvironments, and even that the ‘progenitor’ status might represent a transient and reversible response to microenvironmental signals, rather than a fate-committed, stable identity. In this study, we have further extended the concept of diversity through consideration of a pathological inherited condition (i.e. CCM) that is characterized by the development of cavernomas in the brain microcirculation. Although there is evidence that in CCM, deficient ECs of venous origin appear to be responsible for the formation of the lesions in the retina, an undisputed demonstration of their origin and of their functional characteristics was still missing ( Abdelilah-Seyfried et al., 2020 ;  Boulday et al., 2011 ).
+We report here that venous ECs are particularly sensitive to  Pdcd10  deletion. Under  Pdcd10-ko , these venous ECs undergo defective differentiation and angiogenic programs – with abnormal tip cell traits and increased mitosis – that gives rise to cavernous branching and mulberry lesions ( Figure 8B ). This confirms the venous nature of cavernomas at the molecular level, which has been described up to now anatomically. The venous compartment also responds to  Pdcd10  deletion through increased numbers and expression of venous-resident  Bst1 -positive and  Peg3 -positive progenitor cells. These observations confirm our previous study ( Malinverno et al., 2019 ), where we showed that the trigger in cavernoma formation is the recruitment of progenitor cells that attract mature ECs into the areas of the lesions. Interestingly, Goveia et al. recently described  Bst1 -positive cells as vein-resident endothelial stem cells that still have unexplored roles in lung tumor vascularization ( Goveia et al., 2020 ).
+The role of specific progenitors can be different in different pathological contexts. For example, in injury repairing of the infra-renal aorta,  Bst1  did not label highly proliferating cells with regenerating ability ( McDonald et al., 2018 ). On the contrary, during liver vascular damage, liver vascular homeostasis, and ischemic hindlimb muscle,  Bst1 -positive stem cells proliferate to reestablish new functional vessels ( Wakabayashi et al., 2018 ). Although a comprehensive definition and comparison of the transcriptional and functional specificity of the progenitors that express  Bst1 ,  Peg3 ,  Cd200 , and  Procr  in different organs at different developmental stages and in different pathological situations is of great interest, the details here remain very limited and deserve further investigation.
+The present study confirms and extends our earlier observations, to show that  Pdcd10 -ko cells appear to form malformations due to increased cell growth and defective sprouting of abnormal tip cells ( Figures 4 ,  5  and  8 ). Another observation derived from the present study is that arterial ECs are resilient to  Pdcd10  deletion. This striking result shows that brain arterial ECs maintain their genetic and functional phenotype also under  Pdcd10  deletion. It is possible that the unique resistance of these cells is induced and maintained by up-regulation of a relatively large set of ‘putative defensive’ genes that could be modulated directly or indirectly by  Pdcd10  ( Figures 3  and  8 ). These data also allow us to conclude that the cells responsible for the formation of cavernomas are of venous and tip cell origin, while ECs of arterial origin are not responsive. Thus, the same mutation and inactivation of  Pdcd10  can result in strongly different responses in ECs of venous and arterial origin, and in the resident progenitor cells.
+Interestingly, the absolute level and the relative increases in  Klf2  and  Klf4  in the  Pdcd10 -ko do not directly correlate with the level of response to  Pdcd10  deletion. Almost all of the clusters identified show up-regulation of both  Klf2  and  Klf4  in  Pdcd10 -ko cells, in comparison to the respective  Pdcd10 -wt. However, while  Pdcd10 - ko cells in all of the clusters are modified, only a few clusters are particularly responsive to the mutation. This indicates that while  Klf2  and  Klf4  are necessary for expression of the mutant phenotype ( Zhou et al., 2016 ;  Cuttano et al., 2016 ), they are not sufficient. A specific transcriptional landscape appears necessary to allow the full transformation. This is particularly evident in the arterial cluster that express the highest levels of  Klf2  and  Klf4  but does not develop the  Pdcd10  phenotype.
+Overall, this study adds several new aspects to the evolution of CCM and identifies the venous EC clusters and their related progenitor cells as the main cell types responsible for cavernoma development. This study thus opens new perspectives in our understanding of the development of cavernous malformations, and it should thus help in the development of novel and better-targeted therapeutics. Here we represents a public source for data exploration of the CCM and the physiological endothelium, as the data can be further explored in the online database  https://edgroup.shinyapps.io/MapCcm3EC/ .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2220~2224" text="Bst1" location="result" />
+<GENE id="G1" spans="2240~2244" text="Peg3" location="result" />
+<GENE id="G2" spans="2547~2551" text="Bst1" location="background" />
+<GENE id="G3" spans="1739~1745" text="Pdcd10" location="result" />
+<GENE id="G4" spans="1764~1770" text="Pdcd10" location="result" />
+<GENE id="G5" spans="2842~2846" text="Bst1" location="background" />
+<GENE id="G6" spans="3048~3052" text="Bst1" location="background" />
+<GENE id="G7" spans="3288~3292" text="Bst1" location="background" />
+<GENE id="G8" spans="3296~3300" text="Peg3" location="result" />
+<GENE id="G9" spans="3304~3309" text="Cd200" location="result" />
+<GENE id="G10" spans="3317~3322" text="Procr" location="result" />
+<GENE id="G11" spans="3592~3598" text="Pdcd10" location="result" />
+<GENE id="G12" spans="3831~3837" text="Pdcd10" location="result" />
+<GENE id="G13" spans="3960~3966" text="Pdcd10" location="result" />
+<GENE id="G14" spans="4441~4447" text="Pdcd10" location="result" />
+<GENE id="G15" spans="4633~4637" text="Klf2" location="result" />
+<GENE id="G16" spans="4644~4648" text="Klf4" location="result" />
+<GENE id="G17" spans="4658~4664" text="Pdcd10" location="result" />
+<GENE id="G18" spans="4726~4732" text="Pdcd10" location="result" />
+<GENE id="G19" spans="4810~4814" text="Klf2" location="result" />
+<GENE id="G20" spans="4821~4825" text="Klf4" location="result" />
+<GENE id="G21" spans="4831~4837" text="Pdcd10" location="result" />
+<GENE id="G22" spans="4882~4888" text="Pdcd10" location="result" />
+<GENE id="G23" spans="4910~4916" text="Pdcd10" location="result" />
+<GENE id="G24" spans="5057~5061" text="Klf2" location="background" />
+<GENE id="G25" spans="5068~5072" text="Klf4" location="background" />
+<GENE id="G26" spans="5377~5381" text="Klf2" location="result" />
+<GENE id="G27" spans="5420~5426" text="Pdcd10" location="result" />
+<GENE id="G28" spans="5388~5392" text="Klf4" location="result" />
+<GENE id="G29" spans="586~592" text="Pdcd10" location="result" />
+<DISEASE id="D0" spans="1279~1282" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1405~1408" text="CCM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="5504~5507" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="5899~5902" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

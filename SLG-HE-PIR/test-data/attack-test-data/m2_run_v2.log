@@ -1,0 +1,195 @@
+============================================================
+M2 Hidden State Inversion — GPU Real Protocol Mode
+============================================================
+Model:         /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+Output:        /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/m2_run
+BFV Cache:     /root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b
+============================================================
+14:21:05 [INFO] attack_suite: ============================================================
+14:21:05 [INFO] attack_suite: SLG-HE-PIR Attack Test Suite v2.0
+14:21:05 [INFO] attack_suite: ============================================================
+14:21:05 [INFO] attack_suite: Attacks: ['M2']
+14:21:05 [INFO] attack_suite: N steps: 200
+14:21:05 [INFO] attack_suite: Output: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105
+14:21:05 [INFO] attack_suite: ============================================================
+14:21:05 [INFO] attack_suite: Log file: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105/attack_test.log
+14:21:05 [INFO] attack_suite: ============================================================
+14:21:05 [INFO] attack_suite: Protocol initialisation (GPU mode, Llama-3.1-8B-I)
+14:21:05 [INFO] attack_suite: ============================================================
+14:21:05 [INFO] attack_suite: Patched _build_seal_context for poly_degree=2048
+14:21:06 [INFO] attack_suite: Loading tokenizer from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+14:21:09 [INFO] attack_suite: Loading TREC-QC dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc
+14:21:09 [INFO] attack_test_trecqc_dataset: Loaded 4909 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/train.jsonl
+14:21:09 [INFO] attack_test_trecqc_dataset: Loaded 543 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/val.jsonl
+14:21:09 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543, test=100
+14:21:09 [INFO] attack_suite: Building BFV backend (poly_degree=2048, plain_bits=30, scale=10000.0, hidden_dim=2048)
+14:21:09 [INFO] src.core.bfv_privselect_v2_adapter: Loaded public key from cache: /root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b/bfv_pk.bin
+14:21:09 [INFO] attack_suite: Building encrypted database …
+14:21:09 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+14:21:09 [INFO] attack_suite: Loading hint table …
+14:21:09 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+14:21:09 [INFO] attack_suite: Constructing HeterogeneousProtocol …
+14:21:09 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+14:21:09 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+14:21:09 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da (one-time load)
+14:21:09 [INFO] src.model.model_splitting: Loaded 146 weights from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+14:21:09 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+14:21:09 [WARNING] src.model.model_splitting: SageAttention not installed — will use SDPA fallback: No module named 'sageattention'
+14:21:09 [INFO] src.model.model_splitting: Using SDPA for U shard
+14:21:14 [INFO] src.model.model_splitting: Loaded U submodel: embed + 8 layers on cuda (attn=SDPA, gradient_checkpointing=True)
+14:21:14 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+14:21:14 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+14:21:14 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+14:21:14 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+14:21:14 [INFO] src.model.model_splitting: Using SDPA for M shard
+14:21:17 [INFO] src.model.model_splitting: Loaded M submodel: 8 layers + 112 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=disabled)
+14:21:17 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+14:21:17 [INFO] attack_suite: PartyM BFV secret key loaded (poly_degree=2048)
+14:21:17 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=6000, peak_lr=3.50e-04
+14:21:17 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+14:21:17 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+14:21:17 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+14:21:17 [INFO] src.model.model_splitting: load_s_submodel: tied embeddings detected — using embed_tokens.weight as V matrix (shape=(128256, 2048))
+14:21:17 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (2048, 128256) on cuda
+14:21:17 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 2048)
+14:21:17 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+14:21:17 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 7.8s (single CUDA context)
+14:21:17 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+14:21:17 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:17 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670195] initialized
+14:21:17 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:17 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670196] initialized
+14:21:17 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:17 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670246] initialized
+14:21:17 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:17 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670221] initialized
+14:21:17 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+14:21:17 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+14:21:17 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:17 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670247] initialized
+14:21:17 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:17 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670296] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670297] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_u: [CryptoUWorker] init done: poly_degree=2048 plain_bits=30 scale=10000
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoUWorker pid=670322] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670350] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670423] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670448] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670473] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670498] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670523] initialized
+14:21:18 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:18 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670548] initialized
+14:21:19 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+14:21:19 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+14:21:19 [INFO] src.parties.crypto_workers.crypto_m: [CryptoMWorker] init done: poly_degree=2048 plain_bits=30 scale=10000 vec_dim=2048
+14:21:19 [INFO] src.parties.crypto_workers.base: [CryptoMWorker pid=670573] initialized
+14:21:19 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+14:21:19 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 9.5s
+14:21:19 [INFO] attack_suite: GPU protocol initialisation successful!
+14:21:19 [INFO] attack_suite: ============================================================
+14:21:19 [INFO] attack_suite: Phase 2: Attack Data Collection
+14:21:19 [INFO] attack_suite: ============================================================
+14:21:19 [INFO] attack_suite: Registered attack: M2 (S-side LoRA Fingerprint Detection (rank + direction))
+14:21:19 [INFO] attack_suite: ============================================================
+14:21:19 [INFO] attack_suite: Collecting real attack data via AttackProtocolWrapper
+14:21:19 [INFO] attack_suite: ============================================================
+14:21:19 [INFO] protocol.attack_protocol_wrapper: AttackProtocolWrapper initialised: collect_g_accum=True, collect_s_argmax=True
+14:21:19 [INFO] attack_suite: Running 200 training steps …
+14:21:19 [INFO] attack_suite: Pre-LoRA warmup: disabled LoRA scaling on 56 _LoRALinear modules for the first 200 steps (= 800 samples in a_t_pre)
+/root/miniconda3/lib/python3.12/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+14:21:21 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+14:21:21 [INFO] src.parties.crypto_workers.crypto_s: [CryptoSWorker] init done: n_entries=128256 vec_dim=2048 poly_degree=2048 enc_db=/root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b/bfv_ct_db_n128256_d2048_p2048.bin hints=loaded
+14:21:21 [INFO] src.parties.crypto_workers.base: [CryptoSWorker pid=670601] initialized
+14:21:24 [INFO] attack_suite: Training step 1/200 completed (bundles=1)
+14:21:39 [INFO] attack_suite: Training step 6/200 completed (bundles=6)
+14:21:54 [INFO] attack_suite: Training step 11/200 completed (bundles=11)
+14:22:09 [INFO] attack_suite: Training step 16/200 completed (bundles=16)
+14:22:23 [INFO] attack_suite: Training step 21/200 completed (bundles=21)
+14:22:39 [INFO] attack_suite: Training step 26/200 completed (bundles=26)
+14:22:54 [INFO] attack_suite: Training step 31/200 completed (bundles=31)
+14:23:09 [INFO] attack_suite: Training step 36/200 completed (bundles=36)
+14:23:23 [INFO] attack_suite: Training step 41/200 completed (bundles=41)
+14:23:38 [INFO] attack_suite: Training step 46/200 completed (bundles=46)
+14:23:53 [INFO] attack_suite: Training step 51/200 completed (bundles=51)
+14:24:08 [INFO] attack_suite: Training step 56/200 completed (bundles=56)
+14:24:23 [INFO] attack_suite: Training step 61/200 completed (bundles=61)
+14:24:38 [INFO] attack_suite: Training step 66/200 completed (bundles=66)
+14:24:53 [INFO] attack_suite: Training step 71/200 completed (bundles=71)
+14:25:08 [INFO] attack_suite: Training step 76/200 completed (bundles=76)
+14:25:22 [INFO] attack_suite: Training step 81/200 completed (bundles=81)
+14:25:37 [INFO] attack_suite: Training step 86/200 completed (bundles=86)
+14:25:52 [INFO] attack_suite: Training step 91/200 completed (bundles=91)
+14:26:07 [INFO] attack_suite: Training step 96/200 completed (bundles=96)
+14:26:22 [INFO] attack_suite: Training step 101/200 completed (bundles=101)
+14:26:37 [INFO] attack_suite: Training step 106/200 completed (bundles=106)
+14:26:51 [INFO] attack_suite: Training step 111/200 completed (bundles=111)
+14:27:07 [INFO] attack_suite: Training step 116/200 completed (bundles=116)
+14:27:22 [INFO] attack_suite: Training step 121/200 completed (bundles=121)
+14:27:37 [INFO] attack_suite: Training step 126/200 completed (bundles=126)
+14:27:52 [INFO] attack_suite: Training step 131/200 completed (bundles=131)
+14:28:07 [INFO] attack_suite: Training step 136/200 completed (bundles=136)
+14:28:22 [INFO] attack_suite: Training step 141/200 completed (bundles=141)
+14:28:37 [INFO] attack_suite: Training step 146/200 completed (bundles=146)
+14:28:51 [INFO] attack_suite: Training step 151/200 completed (bundles=151)
+14:29:06 [INFO] attack_suite: Training step 156/200 completed (bundles=156)
+14:29:21 [INFO] attack_suite: Training step 161/200 completed (bundles=161)
+14:29:36 [INFO] attack_suite: Training step 166/200 completed (bundles=166)
+14:29:51 [INFO] attack_suite: Training step 171/200 completed (bundles=171)
+14:30:06 [INFO] attack_suite: Training step 176/200 completed (bundles=176)
+14:30:20 [INFO] attack_suite: Training step 181/200 completed (bundles=181)
+14:30:35 [INFO] attack_suite: Training step 186/200 completed (bundles=186)
+14:30:49 [INFO] attack_suite: Training step 191/200 completed (bundles=191)
+14:31:04 [INFO] attack_suite: Training step 196/200 completed (bundles=196)
+14:31:16 [INFO] attack_suite: Pre-LoRA warmup end: re-enabled LoRA scaling on 56 _LoRALinear modules (scaling = α/r = 2.0000)
+14:31:16 [INFO] attack_suite: Collecting evaluation predictions for M-1 …
+14:31:22 [INFO] attack_suite: M1: Saved offline data to /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105/m1
+14:31:22 [INFO] protocol.attack_protocol_wrapper: Restored original PartyM.backward_and_update
+14:31:22 [INFO] attack_suite: ============================================================
+14:31:22 [INFO] attack_suite: Phase 3: Running Attacks
+14:31:22 [INFO] attack_suite: ============================================================
+14:31:22 [INFO] attack_suite: Running M2 …
+14:31:22 [INFO] attacks.M2_hidden_inversion: M-2: A_post=(800, 2048), A_pre=(800, 2048), lora_rank=8, weak_baseline=False
+/root/miniconda3/lib/python3.12/site-packages/sklearn/decomposition/_truncated_svd.py:273: RuntimeWarning: invalid value encountered in divide
+  self.explained_variance_ratio_ = exp_var / full_var
+/root/miniconda3/lib/python3.12/site-packages/sklearn/decomposition/_truncated_svd.py:273: RuntimeWarning: invalid value encountered in divide
+  self.explained_variance_ratio_ = exp_var / full_var
+/root/miniconda3/lib/python3.12/site-packages/sklearn/decomposition/_truncated_svd.py:273: RuntimeWarning: invalid value encountered in divide
+  self.explained_variance_ratio_ = exp_var / full_var
+14:31:57 [INFO] attacks.M2_hidden_inversion: M-2: saved artefacts to /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105/m2
+14:31:57 [INFO] attack_suite:   [??] M2/rank_fingerprint | rho_spectral_at_lora_rank=0.0000 (chance=9.5188), p=1.0000 | n=800 | ρ(r=8)=0.000 (null 95% quantile=9.519, σ_mp=0.0000e+00, n_above_thr=0/32). Permutation p=1.0000e+00. no rank edge; consistent with no LoRA [consistency gate] ρ_real=0.000 vs ρ_self=9.318, gap=-9.318 (consistency_z=-9.32σ) <0.5σ ⇒ single-statistic verdict underpowered; rerun with larger warmup_steps (current n_pre=800, n_post=800).
+14:31:57 [INFO] attack_suite:   [??] M2/direction_fingerprint | projection_energy_in_deltaW=0.0000 (chance=0.0000), p=1.0000 | n=800 | ‖Δa_t projected on empirical ΔW top-r‖²=0.0000e+00 (null 95% quantile=0.0000e+00, p=1.0000e+00). Principal angle to post-update top-r = 83.47°. [consistency gate] observed=0.0000e+00 vs pre-self background=1.6213e-04, gap_z=-1.00σ <0.5σ ⇒ underpowered; rerun with larger warmup_steps (current n_pre=800).
+14:31:57 [INFO] attack_suite:   [OK] M2/result_s_correlation | result_s_label_correlation=0.0917 (chance=0.0003), p=0.0002 | n=1600 | Max |r|=0.0917 (min p=2.4080e-04), Binomial aggregate: 9/192 p<0.05 (p=4.9312e-01).
+14:31:57 [INFO] attack_suite:   [OK] M2/z_t_effective_rank | z_t_effective_rank=41.0000 (chance=8.0000) | n=1600 | Z_t effective rank=41, LoRA rank=8; far from LoRA rank.
+14:31:57 [INFO] attack_suite:   [OK] M2/theoretical_analysis | direct_inversion_feasible=0.0000 (chance=0.5000) | n=800 | Direct inversion of Z @ V^T not feasible: V^T shape=(128256,2048), incompatible for standard matrix inversion.
+14:31:57 [INFO] attack_suite:   [??] M2/m2_aggregate | m2_aggregate=0.0000 (chance=1.0000) | n=800 | Aggregate of rank=INCONCLUSIVE, direction=INCONCLUSIVE, result_s=PRIVACY_PRESERVED.
+14:31:57 [INFO] attack_suite: ============================================================
+14:31:57 [INFO] attack_suite: Phase 4: Generating Reports
+14:31:57 [INFO] attack_suite: ============================================================
+14:31:57 [INFO] attack_suite: JSON results: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105/attack_results.json
+14:31:57 [INFO] attack_suite: Summary: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/summary_20260727_142105.json
+14:31:57 [INFO] attack_suite: Log copied: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/log_20260727_142105.log
+14:31:57 [INFO] attack_suite: ============================================================
+14:31:57 [INFO] attack_suite: SUMMARY
+14:31:57 [INFO] attack_suite: ============================================================
+14:31:57 [INFO] attack_suite: GPU Used: Yes
+14:31:57 [INFO] attack_suite: Total verdicts: 6
+14:31:57 [INFO] attack_suite:   LEAK_DETECTED:     0
+14:31:57 [INFO] attack_suite:   PRIVACY_PRESERVED: 3
+14:31:57 [INFO] attack_suite:   INCONCLUSIVE:      3
+14:31:57 [INFO] attack_suite: All attacks indicate privacy is preserved.
+14:31:57 [INFO] attack_suite: ============================================================
+14:31:57 [INFO] attack_suite: Output directory: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105
+14:31:57 [INFO] attack_suite: ============================================================
+
+M2 attack complete. Results in: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_*/attack_results.json

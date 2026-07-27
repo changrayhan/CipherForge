@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Establishment of in-hospital clinical network for patients with neurofibromatosis type 1 in Nagoya University Hospital.
+Abstract: Neurofibromatosis type 1 (NF1) is a genetic multisystem disorder. Clinicians must be aware of the diverse clinical features of this disorder in order to provide optimal care for it. We have set up an NF1 in-hospital medical care network of specialists regardless of patient age, launching a multidisciplinary approach to the disease for the first time in Japan. From January 2014 to December 2020, 246 patients were enrolled in the NF1 patient list and medical records. Mean age was 26.0 years ranging from 3 months to 80 years. The number of patients was higher as age at first visit was lower. There were 107 males (41%) and 139 females. After 2011, the number of patients has increased since the year when the medical care network was started. Regarding orthopedic signs, scoliosis was present in 60 cases (26%), and bone abnormalities in the upper arm, forearm, and tibia in 8 cases (3.5%). Neurofibromas other than cutaneous neurofibromas were present in 90 cases (39%), and MPNST in 17 cases (7.4%). We launched a multidisciplinary NF1 clinic system for the first time in Japan. For patients with NF1, which is a hereditary and systemic disease associated with a high incidence of malignant tumors, it will be of great benefit when the number of such clinics in Japan and the rest of Asia is increased.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="72~96" text="neurofibromatosis type 1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D1" spans="138~162" text="Neurofibromatosis type 1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D2" spans="164~167" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D3" spans="338~341" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D4" spans="570~573" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D5" spans="913~922" text="scoliosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1176~1179" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D7" spans="1241~1244" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D8" spans="1118~1123" text="MPNST" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

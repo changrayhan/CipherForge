@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Chromophobe renal cell carcinoma (ChRCC), derived from distal convoluted tubules and cortical collecting conduits, could be a distinct subtype of renal cell carcinoma, which accounts for almost 5% of renal cell carcinoma subtypes [ 1 ]. Although ChRCC is relatively inert, once metastasized, ChRCC patients have the same survival rate as metastatic clear cell renal cell carcinoma (ccRCC) [ 2 ]. The clinical manifestations of ChRCC often lack specificity, which makes it difficult for early diagnosis [ 3 ,  4 ]. Thus, understanding in-depth pathogenesis of ChRCC is urgently demanded for early diagnosis, treatment, and prognosis.
+The molecular mechanisms of ChRCC tumorigenesis remain generally unclear. Many researchers through retrospective analysis found some related markers to ChRCC, such as c-Met [ 5 ], PD-L2 [ 6 ], and the oncogene KIT expression [ 7 ], which were almost upregulated, associated with metastatic progression and poor survival in ChRCC. Genetically, ChRCC are known to have different forms of chromosomal anomalies. ChRCC often involves in gains in chromosomes 4, 7, 11, 12, 14q, and 18q, as well as losses in chromosomes Y, 1, 2, 6, 10, 13, 17, and 21, which may result in tumor suppressor gene inactivation and promote tumorigenesis [ 8 ,  9 ]. Changes in the number of chromosomes are important features of human cancer and may reflect potential genomic instability [ 10 ], which might lead to tumor suppressor gene mutation or deletion, such as PTEN, p53 [ 11 ], RB1, and ERBB4 [ 12 ], promoting tumorigenesis and distant metastasis. Thus far, all of these genomic findings have been completed in retrospective studies using archived tumor samples and deserve further validation.
+At present, with the wide application of sequencing, bioinformatics analyses have great advantage for understanding the pathophysiological mechanisms of ChRCC. Wang et al. have instituted CFTR as a key gene based on the GEO database [ 13 ]. No other records have been found to study the disease using this method. In order to analyze the cancer more accurately, in our study, we integrated the TCGA database, using bioinformatics analyses to explore likely molecular mechanisms and novel biomarkers in ChRCC and identify CENPA was a vital gene involved in ChRCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="801~806" text="c-Met" location="background" />
+<GENE id="G1" spans="814~819" text="PD-L2" location="background" />
+<GENE id="G2" spans="1476~1480" text="PTEN" location="background" />
+<GENE id="G3" spans="1482~1485" text="p53" location="background" />
+<GENE id="G4" spans="1494~1497" text="RB1" location="background" />
+<GENE id="G5" spans="1503~1508" text="ERBB4" location="background" />
+<GENE id="G6" spans="1899~1903" text="CFTR" location="background" />
+<GENE id="G7" spans="2232~2237" text="CENPA" location="background" />
+<DISEASE id="D0" spans="1~33" text="Chromophobe renal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="35~40" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="147~167" text="renal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="201~221" text="renal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="247~252" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="293~298" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="350~381" text="clear cell renal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="383~388" text="ccRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="428~433" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="560~565" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="662~667" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="786~791" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="957~962" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="977~982" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1043~1048" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1343~1349" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="disease of anatomical entity" />
+<DISEASE id="D16" spans="1864~1869" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2049~2055" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D19" spans="2213~2218" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="2267~2272" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="775~782" text="markers" location="background" relation="biomarker" />
+<RELATION id="R1" spans="913~935" text="metastatic progression" location="background" relation="modulator increase disease" />
+<RELATION id="R2" spans="940~953" text="poor survival" location="background" relation="negative prognostic marker" />
+<RELATION id="R3" spans="884~895" text="upregulated" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="c-Met" diseaseID="D11" diseaseText="ChRCC" relationID="R0" relationText="markers" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="PD-L2" diseaseID="D11" diseaseText="ChRCC" relationID="R0" relationText="markers" />
+<ENTITY_LINKING id="E2" geneID="G0" geneText="c-Met" diseaseID="D12" diseaseText="ChRCC" relationID="R1" relationText="metastatic progression" />
+<ENTITY_LINKING id="E3" geneID="G0" geneText="c-Met" diseaseID="D12" diseaseText="ChRCC" relationID="R2" relationText="poor survival" />
+<ENTITY_LINKING id="E4" geneID="G1" geneText="PD-L2" diseaseID="D12" diseaseText="ChRCC" relationID="R1" relationText="metastatic progression" />
+<ENTITY_LINKING id="E5" geneID="G1" geneText="PD-L2" diseaseID="D12" diseaseText="ChRCC" relationID="R2" relationText="poor survival" />
+</TAGS>
+</Genomics_ConceptTask>

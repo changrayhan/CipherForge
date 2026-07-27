@@ -1,0 +1,54 @@
+2026-07-24 16:04:54,396 [INFO] attack_suite: Log file: SLG-attack-test/results/run_20260724_160454/attack_test.log
+2026-07-24 16:04:54,396 [INFO] attack_suite: Using synthetic data mode
+2026-07-24 16:04:54,396 [INFO] attack_suite: ============================================================
+2026-07-24 16:04:54,396 [INFO] attack_suite: Protocol initialisation (simplified mode)
+2026-07-24 16:04:54,396 [INFO] attack_suite: ============================================================
+2026-07-24 16:04:55,250 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543
+2026-07-24 16:04:55,250 [INFO] attack_suite: ============================================================
+2026-07-24 16:04:55,250 [INFO] attack_suite: Phase 1: Attack Data Collection
+2026-07-24 16:04:55,250 [INFO] attack_suite: ============================================================
+2026-07-24 16:04:56,033 [INFO] attack_suite: Registered attack: L1 (M-side Gradient Label Inference)
+2026-07-24 16:04:56,033 [INFO] attack_suite: Registered attack: L2 (S-side Activation Label Inference)
+2026-07-24 16:04:56,033 [INFO] attack_suite: Registered attack: M1 (U-side Model Inference (Evaluation Phase))
+2026-07-24 16:04:56,033 [INFO] attack_suite: Registered attack: M2 (S-side Hidden State Inversion)
+2026-07-24 16:04:56,033 [INFO] attack_suite: Generating synthetic attack data...
+2026-07-24 16:04:56,038 [INFO] attack_suite: ============================================================
+2026-07-24 16:04:56,038 [INFO] attack_suite: Phase 2: Running Attacks
+2026-07-24 16:04:56,038 [INFO] attack_suite: ============================================================
+2026-07-24 16:04:56,038 [INFO] attack_suite: Running L1...
+2026-07-24 16:05:00,088 [INFO] attack_suite:   [OK] L1/kmeans_ari | adjusted_rand_index=0.0130 (chance=0.0000) | n=40 | ARI near 0: gradient space does not encode labels
+2026-07-24 16:05:00,088 [INFO] attack_suite:   [OK] L1/nn_agreement | 1nn_label_agreement=0.0750 (chance=0.1667) | n=40 | Rate > 0.167 + 2σ indicates nearest neighbors share labels
+2026-07-24 16:05:00,089 [INFO] attack_suite:   [OK] L1/cosine_auc | cosine_similarity_auc=0.5664 (chance=0.5000) | n=40 | AUC near 0.5: gradients do not encode label similarity
+2026-07-24 16:05:00,089 [INFO] attack_suite:   [OK] L1/permutation_test | 1nn_agreement_permutation_pvalue=0.9261 (chance=0.0500), p=0.9261 | n=40 | p >= 0.05: no statistically significant label signal
+2026-07-24 16:05:00,089 [INFO] attack_suite:   [OK] L1/magnitude_anova | gradient_magnitude_anova_pvalue=0.8104 (chance=0.0500), p=0.8104 | n=40 | ANOVA p >= 0.05: no systematic magnitude difference across classes
+2026-07-24 16:05:00,089 [INFO] attack_suite: Running L2...
+2026-07-24 16:05:00,092 [INFO] attack_suite:   [OK] L2/mean_anova | activation_mean_anova_pvalue=0.9301 (chance=0.0500), p=0.9301 | n=40 | ANOVA p >= 0.05: no systematic mean difference across classes
+2026-07-24 16:05:00,092 [INFO] attack_suite:   [OK] L2/norm_anova | activation_norm_anova_pvalue=0.2246 (chance=0.0500), p=0.2246 | n=40 | ANOVA p >= 0.05: no systematic norm difference across classes
+2026-07-24 16:05:00,092 [INFO] attack_suite:   [OK] L2/kl_divergence | kl_divergence_mean=0.4055 (chance=0.1000) | n=40 | KL mean < 0.1: activations do not encode label information
+2026-07-24 16:05:00,092 [INFO] attack_suite: Running M1...
+2026-07-24 16:05:00,092 [INFO] attack_suite:   [OK] M1/prediction_consistency | confidence_variance=0.0109 (chance=0.1000) | n=40 | Confidence variance=0.0109, mean=0.7729. Low variance: predictions appear uniform
+2026-07-24 16:05:00,092 [INFO] attack_suite:   [OK] M1/confidence_distribution | normalized_entropy=0.9975 (chance=0.5000) | n=40 | Normalized entropy=0.9975. Uniform distribution: no exploitable pattern
+2026-07-24 16:05:00,093 [INFO] attack_suite:   [??] M1/surrogate_model | n_samples=40.0000 (chance=50.0000) | n=0 | Insufficient data for surrogate training (have 40, need >= 50)
+2026-07-24 16:05:00,093 [INFO] attack_suite:   [OK] M1/information_leakage | prediction_diversity=0.9875 (chance=0.5000) | n=40 | Prediction diversity=0.9875, deviation from uniform=0.1667. Diverse predictions: no exploitable pattern
+2026-07-24 16:05:00,093 [INFO] attack_suite: Running M2...
+2026-07-24 16:05:00,393 [INFO] attack_suite:   [OK] M2/rank_analysis | effective_rank_1pct=39.0000 (chance=8.0000) | n=40 | Rank=39 indicates no simple low-rank structure.
+2026-07-24 16:05:00,393 [INFO] attack_suite:   [OK] M2/svd_energy | components_for_95_energy=37.0000 (chance=16.0000) | n=40 | Energy distributed across 37 components: no low-rank structure.
+2026-07-24 16:05:00,393 [INFO] attack_suite:   [OK] M2/theoretical_analysis | direct_inversion_feasible=0.0000 (chance=0.5000) | n=40 | Direct inversion of Z @ V^T not feasible: V^T shape=(128256, 2048), dimensions incompatible for standard matrix inversion.
+2026-07-24 16:05:00,393 [INFO] attack_suite: ============================================================
+2026-07-24 16:05:00,394 [INFO] attack_suite: Phase 3: Generating Reports
+2026-07-24 16:05:00,394 [INFO] attack_suite: ============================================================
+2026-07-24 16:05:00,394 [INFO] attack_suite: JSON results: SLG-attack-test/results/run_20260724_160454/attack_results.json
+2026-07-24 16:05:00,395 [INFO] attack_suite: Summary: /home/changrayhan/hCode/SLG-HE-PIR-code/SLG-HE-PIR/test-data/attack-test-data/summary_20260724_160454.json
+2026-07-24 16:05:00,397 [INFO] attack_suite: Log copied: /home/changrayhan/hCode/SLG-HE-PIR-code/SLG-HE-PIR/test-data/attack-test-data/log_20260724_160454.log
+2026-07-24 16:05:00,397 [INFO] attack_suite: ============================================================
+2026-07-24 16:05:00,397 [INFO] attack_suite: SUMMARY
+2026-07-24 16:05:00,397 [INFO] attack_suite: ============================================================
+2026-07-24 16:05:00,397 [INFO] attack_suite: GPU Used: No (synthetic data)
+2026-07-24 16:05:00,397 [INFO] attack_suite: Total verdicts: 15
+2026-07-24 16:05:00,397 [INFO] attack_suite:   LEAK_DETECTED:     0
+2026-07-24 16:05:00,398 [INFO] attack_suite:   PRIVACY_PRESERVED: 14
+2026-07-24 16:05:00,398 [INFO] attack_suite:   INCONCLUSIVE:      1
+2026-07-24 16:05:00,398 [INFO] attack_suite: All attacks indicate privacy is preserved.
+2026-07-24 16:05:00,398 [INFO] attack_suite: ============================================================
+2026-07-24 16:05:00,398 [INFO] attack_suite: Output directory: SLG-attack-test/results/run_20260724_160454
+2026-07-24 16:05:00,399 [INFO] attack_suite: ============================================================

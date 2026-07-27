@@ -1,0 +1,112 @@
+2026-07-27 20:10:35,741 [INFO] biotriplex_finetune: Logging to /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/logs/biotriplex_finetune_1_1785154235.log
+2026-07-27 20:10:35,741 [INFO] biotriplex_finetune: Task: generation, stage: 1
+2026-07-27 20:10:35,741 [INFO] biotriplex_finetune: ============================================================
+2026-07-27 20:10:35,741 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (GENERATION)
+2026-07-27 20:10:35,741 [INFO] biotriplex_finetune: ============================================================
+2026-07-27 20:10:38,872 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=generation) ...
+2026-07-27 20:10:39,084 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[train]: 843 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 20:10:39,109 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/train_gold_ner.txt
+2026-07-27 20:10:39,118 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[val]: 181 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 20:10:39,123 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/val_gold_ner.txt
+2026-07-27 20:10:39,131 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[test]: 174 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 20:10:39,137 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/test_gold_ner.txt
+2026-07-27 20:10:39,137 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=843 val=181 test=174
+2026-07-27 20:10:39,137 [INFO] biotriplex_finetune: [Stage1] Building BFV backend (pk_path=/root/autodl-tmp/slg-bfv-cache/bfv_pk.bin)...
+2026-07-27 20:10:39,148 [INFO] src.core.bfv_privselect_v2_adapter: Loaded public key from cache: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+2026-07-27 20:10:44,261 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-27 20:10:53,946 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-27 20:10:53,955 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-27 20:10:53,955 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-27 20:10:53,974 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-27 20:10:53,974 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-27 20:10:53,979 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+2026-07-27 20:10:53,979 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 20:10:53,979 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-27 20:10:53,987 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-27 20:10:53,989 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+2026-07-27 20:10:54,038 [WARNING] src.model.model_splitting: SageAttention not installed — will use SDPA fallback: No module named 'sageattention'
+2026-07-27 20:10:54,038 [INFO] src.model.model_splitting: Using SDPA for U shard
+2026-07-27 20:11:17,151 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=SDPA, gradient_checkpointing=True)
+2026-07-27 20:11:17,158 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+2026-07-27 20:11:17,160 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+2026-07-27 20:11:17,160 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 20:11:17,161 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-27 20:11:17,162 [INFO] src.model.model_splitting: Using SDPA for M shard
+2026-07-27 20:11:36,868 [INFO] src.model.model_splitting: DeepSpeed ZeRO-1 will be configured in PartyM (gradient checkpointing enabled)
+2026-07-27 20:11:36,869 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=ZeRO-1)
+2026-07-27 20:11:36,876 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+2026-07-27 20:11:36,877 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-27 20:11:36,878 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=843, peak_lr=1.00e-04
+2026-07-27 20:11:36,878 [WARNING] src.parties.party_m: DeepSpeed not installed; install with: pip install deepspeed
+2026-07-27 20:11:36,878 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-27 20:11:36,879 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-27 20:11:36,879 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 20:11:37,093 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-27 20:11:37,112 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-27 20:11:37,113 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-27 20:11:37,113 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 43.1s (single CUDA context)
+2026-07-27 20:11:37,113 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-27 20:11:52,401 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-27 20:11:52,401 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-27 20:12:07,720 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-27 20:12:07,721 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-27 20:12:09,655 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-27 20:12:09,655 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 75.7s
+2026-07-27 20:12:09,656 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=1, batch=1, lr=0.0001, wd=0.2
+2026-07-27 20:12:09,656 [INFO] src.training.trainer: Starting training: epochs=1, patience=9999, train=843, val=181
+2026-07-27 20:12:20,941 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=0 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:12:24,323 [INFO] biotriplex_finetune: [max_train_steps] step=1 loss=123904.0000 step_time_ms=14655.6
+2026-07-27 20:12:26,361 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=1 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:12:29,693 [INFO] biotriplex_finetune: [max_train_steps] step=2 loss=124416.0000 step_time_ms=5365.8
+2026-07-27 20:12:31,727 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=2 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:12:34,990 [INFO] biotriplex_finetune: [max_train_steps] step=3 loss=123904.0000 step_time_ms=5290.9
+2026-07-27 20:12:37,013 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=3 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:12:40,368 [INFO] biotriplex_finetune: [max_train_steps] step=4 loss=124416.0000 step_time_ms=5369.7
+2026-07-27 20:12:42,423 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=4 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:12:45,632 [INFO] biotriplex_finetune: [max_train_steps] step=5 loss=124416.0000 step_time_ms=5258.7
+2026-07-27 20:12:47,670 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=5 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:12:50,856 [INFO] biotriplex_finetune: [max_train_steps] step=6 loss=123904.0000 step_time_ms=5214.9
+2026-07-27 20:12:52,910 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=6 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:12:56,150 [INFO] biotriplex_finetune: [max_train_steps] step=7 loss=123904.0000 step_time_ms=5284.9
+2026-07-27 20:12:58,180 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=7 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:01,425 [INFO] biotriplex_finetune: [max_train_steps] step=8 loss=124416.0000 step_time_ms=5267.9
+2026-07-27 20:13:03,458 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=8 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:06,733 [INFO] biotriplex_finetune: [max_train_steps] step=9 loss=124416.0000 step_time_ms=5300.8
+2026-07-27 20:13:08,765 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=9 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:12,058 [INFO] biotriplex_finetune: [max_train_steps] step=10 loss=124416.0000 step_time_ms=5319.6
+2026-07-27 20:13:14,157 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=10 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:17,448 [INFO] biotriplex_finetune: [max_train_steps] step=11 loss=123904.0000 step_time_ms=5384.0
+2026-07-27 20:13:19,483 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=11 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:22,708 [INFO] biotriplex_finetune: [max_train_steps] step=12 loss=123904.0000 step_time_ms=5257.4
+2026-07-27 20:13:24,735 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=12 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:27,966 [INFO] biotriplex_finetune: [max_train_steps] step=13 loss=124416.0000 step_time_ms=5249.9
+2026-07-27 20:13:30,203 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=13 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:33,602 [INFO] biotriplex_finetune: [max_train_steps] step=14 loss=123904.0000 step_time_ms=5628.2
+2026-07-27 20:13:35,645 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=14 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:38,968 [INFO] biotriplex_finetune: [max_train_steps] step=15 loss=123904.0000 step_time_ms=5360.0
+2026-07-27 20:13:40,968 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=15 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:44,309 [INFO] biotriplex_finetune: [max_train_steps] step=16 loss=123904.0000 step_time_ms=5334.4
+2026-07-27 20:13:46,313 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=16 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:49,572 [INFO] biotriplex_finetune: [max_train_steps] step=17 loss=123904.0000 step_time_ms=5256.4
+2026-07-27 20:13:51,611 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=17 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:13:54,986 [INFO] biotriplex_finetune: [max_train_steps] step=18 loss=124416.0000 step_time_ms=5406.1
+2026-07-27 20:13:57,036 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=18 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:14:00,393 [INFO] biotriplex_finetune: [max_train_steps] step=19 loss=124416.0000 step_time_ms=5399.0
+2026-07-27 20:14:02,396 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=19 n_tokens=512 K=1 chunks of ~4096
+2026-07-27 20:14:05,706 [INFO] biotriplex_finetune: [max_train_steps] step=20 loss=124416.0000 step_time_ms=5308.5
+2026-07-27 20:14:05,706 [INFO] biotriplex_finetune: [max_train_steps] reached 20, stopping
+2026-07-27 20:14:05,707 [INFO] src.training.trainer: Epoch 0: train_loss_proxy=124160.0000 | val_ce_loss=0.0000 | val_micro_F1=0.0000 (P=0.0000 R=0.0000 Acc=0.0000) | val_macro_F1=0.0000 | val_weighted_F1=0.0000 | n_samples=0
+2026-07-27 20:14:05,707 [INFO] src.training.trainer:   [BioTriplex NER] val_ner_macro_f1=0.0000 | val_ner_weighted_f1=0.0000 | val_ner_micro_f1=0.0000 | val_ner_macro_roc_auc=0.0000 | GENE_f1=0.0000 DISEASE_f1=0.0000 RELATION_f1=0.0000
+2026-07-27 20:14:05,839 [INFO] src.training.trainer: Last checkpoint saved → /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/checkpoints/last_checkpoint.pt (epoch=0)
+2026-07-27 20:14:05,947 [INFO] src.training.trainer: Checkpoint saved → /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/checkpoints/checkpoint_epoch_000.pt
+2026-07-27 20:14:06,052 [INFO] src.training.trainer: Best checkpoint saved → /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/checkpoints/best_checkpoint.pt (metric=0.0000)
+2026-07-27 20:14:06,052 [INFO] src.training.trainer: New best val_entity_micro_f1=0.0000 at epoch 0
+2026-07-27 20:14:06,052 [INFO] src.training.trainer: Metrics log → /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/logs/training_metrics_20260727_201406.json
+2026-07-27 20:14:06,053 [INFO] src.training.trainer: BioTriplex-QA reference (Table 5, supervised LLaMA 3.1 8B): P=0.65 R=0.62 F1=0.63 | Best epoch 0: P=0.0000 R=0.0000 F1=0.0000 | Macro_F1=0.0000 | Weighted_F1=0.0000 | CE_loss=0.0000
+2026-07-27 20:14:06,053 [INFO] biotriplex_finetune: [Stage1] Training done: best_metric=0.0000, steps=20
+2026-07-27 20:14:07,958 [INFO] biotriplex_finetune: Building transient base model for adapter export ...
+2026-07-27 20:14:08,497 [WARNING] biotriplex_finetune: Missing LoRA keys: ['model.embed_tokens.weight', 'model.layers.0.self_attn.q_proj.base_layer.weight', 'model.layers.0.self_attn.q_proj.lora_A.default.weight', 'model.layers.0.self_attn.q_proj.lora_B.default.weight', 'model.layers.0.self_attn.k_proj.base_layer.weight']
+2026-07-27 20:14:28,727 [INFO] biotriplex_finetune: PEFT adapter saved → /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/adapter
+2026-07-27 20:14:29,214 [INFO] biotriplex_finetune: Stage 1 complete in 233.5s
+2026-07-27 20:14:29,214 [INFO] biotriplex_finetune: ============================================================
+2026-07-27 20:14:29,214 [INFO] biotriplex_finetune: All stages complete!

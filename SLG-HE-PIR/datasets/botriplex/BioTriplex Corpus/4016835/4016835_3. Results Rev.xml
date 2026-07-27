@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1.  AGT  M235T Polymorphism
+The genotype distribution of M235T polymorphism was significantly different between case and control subjects. Taking the MM genotype of the  AGT  M235T polymorphism as a reference, association of the MT genotype was 2.40 (95% CI: 1.11–5.37) and TT genotype was 2.62 (95% CI: 1.24–5.76), indicating a dominant effect of the T on risk and T allele is highly associated with hypertension in our recessive model ( Table 4 ). Allelic association does not withstand after multiple corrections (alpha value 0.05/4 = 0.013;  Table 2 ). Furthermore, the samples were segregated for subgroup analysis on the basis of gender and T allele was associated with the female patients (OR: 0.522; 95% CI: 0.330–0.826) after applying the Bonferroni corrections (Tables  2  and  3 ).
+3.2.  ACE  I/D Polymorphism
+Considering I/D polymorphism, the distribution of genotypes did not differ significantly between EHT patients and controls through a slight increase in the frequency of DD (39.34%) homozygous that was observed among patients as compared to controls (31.75%) ( Table 3 ). However, our results revealed overrepresentation of “I”-allele carriers (homozygous II and heterozygous ID) in male control subjects ( Table 4 ) which suggests its protective role in studied population. This association was estimated as odds ratio of 0.401 with 95% CI 0.224–0.718 and withstand after multiple correction ( Table 4 ).
+3.3.  ACE  G2350A Polymorphism
+The genotype distribution of  ACE  G2350A polymorphism did not differ significantly between EHT patients and control subjects, and the allele frequencies were in HWE in both groups (Tables  3  and  4 ).
+3.4.  AGTR1  A1166C Polymorphism
+Genotyping frequencies of A1166C polymorphisms were identified for all the EHT patients and control subjects. Our result shows that there is no significant difference in genotype and allelic frequencies in EHT patients and controls. Furthermore, the allele frequencies are consistent with the HWE in both cases and controls (Tables  2  and  3 ).
+3.5. Analysis of Epistatic Interaction
+To elaborate the findings of the analysis, MDR analysis was applied to detect and characterize high-order gene-gene and gene-environmental interactions in cases and controls.   Figure 1  illustrates the MDR interaction information analysis of all four polymorphisms studied gene, represented in the form of a dendrogram. The MDR analysis shows synergistic effect of  ACE  and  AGT  polymorphisms in the EHT patients. To improve the quality of analysis and identify the disease risk, we have carried out combination analysis and haplotype frequencies on the basis of the polymorphism pairs selected by MDR analysis. Similar analysis between gene-environmental interactions showed moderate synergistic effect of the marker  AGT  M235T and  ACE  I/D with the sex in the development of EHT ( Figure 1 ).   Table 5 
+    summarizes the results of the MDR analysis evaluated for all possible combinations of the polymorphisms studied for the risk of developing hypertension. It shows the best model with a combination of polymorphisms in order along with its prediction error and coefficient of variation (CV) consistency. Result reveals the interaction of  AGT  M235T- ACE  I/D polymorphisms as the overall best models with least prediction error of 0.39 and CV consistency of 10/10. High-risk (dark grey) and low-risk (light grey) genotypic combinations were determined based on the threshold value, which was 1.0 (211/211) for the present data. It was observed that TT genotype of  AGT  M235T polymorphism when present in combination with DD genotype of  ACE  I/D polymorphism conferred a 2.5 times higher risk (56/22) for developing EHT ( Figure 2 ).
+Association studies of genetic polymorphisms and trait for detecting the complex diseases remain controversial. However, the association study of allele and genotype frequencies of candidate genes with the unaffected and affected subjects to understand the genetic etiology of complex human traits remains an efficient method [ 39 – 41 ]. Taking this method into consideration, we determined the possible association of genetic polymorphisms of RAS genes with EHT with the south Indian subjects. To the best of our knowledge, few studies have been published in RAS gene polymorphisms with the genotype and allele based association study in Indian subjects. But, large number of studies has reported association between EHT and  ACE   [ 42 – 45 ] or  AGT   [ 46 – 48 ] gene polymorphism but lack of haplotype based association of the RAS gene with the EHT in south Indian population. Probably this could be the first comprehensive reports on RAS gene polymorphisms with association study of genotype and haplotype in relation to EHT in south Indian subjects.
+A total of 422 subjects were recruited for this study, out of which 211 subjects were cases and 211 subjects were controls. Among the patients, 109 (51.66%) are males and 102 (48.34%) are females, whereas in control subjects 130 (61.61%) are males and 81 (38.99%) are females ( Table 1 ). The mean age of control subjects is  43.71 ± 14.17 years for males and 43.90 ± 13.57 years for females. The mean ages of male patients are 54.56 ± 13.04 years and 54.37 ± 12.25 years for females. The difference in the distribution of epidemiological features were found to be significant between cases and controls with respect to gender ( χ ² =  4.26;  P  = 0.039).
+Genotype distributions of all four studied polymorphisms were compatible with HWE expectation in cases as well as in controls. Differences between cases and controls in allele/genotype frequency distributions that were observed for  AGT  M235T and  ACE  I/D polymorphism (Tables  2  and  3 ) with T and D allele are more prevalent in cases than in controls except for  ACE  I/D polymorphism in females. Genotype/allele distribution of  ACE  G2350A and  AGTR1  A1166C polymorphisms was similar in both cases and controls (Tables  2  and  3 ).
+To test the association of RAS gene polymorphisms with hypertension, genotype odds ratio was calculated for all the variants reported in the table.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="7~10" text="AGT" location="result" />
+<GENE id="G1" spans="173~176" text="AGT" location="result" />
+<GENE id="G2" spans="802~805" text="ACE" location="result" />
+<GENE id="G3" spans="1435~1438" text="ACE" location="result" />
+<GENE id="G4" spans="1490~1493" text="ACE" location="result" />
+<GENE id="G5" spans="1669~1674" text="AGTR1" location="result" />
+<GENE id="G6" spans="2448~2451" text="ACE" location="result" />
+<GENE id="G7" spans="2458~2461" text="AGT" location="result" />
+<GENE id="G8" spans="2803~2806" text="AGT" location="result" />
+<GENE id="G9" spans="2819~2822" text="ACE" location="result" />
+<GENE id="G10" spans="3232~3235" text="AGT" location="result" />
+<GENE id="G11" spans="3559~3562" text="AGT" location="result" />
+<GENE id="G12" spans="3632~3635" text="ACE" location="result" />
+<GENE id="G13" spans="4479~4482" text="AGT" location="result" />
+<GENE id="G15" spans="5676~5679" text="AGT" location="background" />
+<GENE id="G16" spans="5692~5695" text="ACE" location="result" />
+<GENE id="G17" spans="5812~5815" text="ACE" location="result" />
+<GENE id="G18" spans="5879~5882" text="ACE" location="result" />
+<GENE id="G19" spans="5896~5901" text="AGTR1" location="result" />
+<GENE id="G21" spans="4457~4460" text="ACE" location="background" />
+<DISEASE id="D0" spans="404~416" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="921~924" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1552~1555" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1771~1774" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1902~1905" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2484~2487" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2863~2866" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="3035~3047" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="3711~3714" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="4189~4192" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="4448~4451" text="EHT" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="4580~4583" text="EHT" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="4757~4760" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="6040~6052" text="hypertension" location="result" disease1="" disease2="" />
+<RELATION id="R1" spans="4428~4447" text="association between" location="background" relation="relation undefined" />
+<RELATION id="R0" spans="3676~3687,3696~3710" text="higher risk ... for developing" location="result" relation="genetic susceptibility" />
+<ENTITY_LINKING id="E3" geneID="G13" geneText="AGT" diseaseID="D10" diseaseText="EHT" relationID="R1" relationText="association between" />
+<ENTITY_LINKING id="E4" geneID="G21" geneText="ACE" diseaseID="D10" diseaseText="EHT" relationID="R1" relationText="association between" />
+<ENTITY_LINKING id="E2" geneID="G11" geneText="AGT" diseaseID="D8" diseaseText="EHT" relationID="R0" relationText="higher risk ... for developing" />
+<ENTITY_LINKING id="E5" geneID="G12" geneText="ACE" diseaseID="D8" diseaseText="EHT" relationID="R0" relationText="higher risk ... for developing" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Pancreatic ductal adenocarcinoma (PDAC) is the fourth most common cause of cancer-related death and is the most aggressive cancer with a five-year survival of <5% 1 , 2 . Gemcitabine is the first-line treatment for PDAC 3  but offers little therapeutic value because chemoresistance develops rapidly and PDAC has profound symptomatic effects 4 . Moreover, the newly developed PD-1/PD-L1 immunotherapies even showed a poor effect on pancreatic cancer 5 . Therefore, additional therapeutic strategies for pancreatic cancer are urgently needed.
+Typical genetic alterations observed in PDAC include activation of the oncogene KRAS (>90%), inactivation or loss of tumor suppressor genes such as CDKN2A (95%), TP53 (50–75%), SMAD4 (~55%), PTEN (~60%) and mutation of the DNA repair gene BRCA2 (7–19%), contributing to tumor progression or relapse 6 – 9 . Unfortunately, few of these drivers are currently druggable, thus making it difficult to devise effective therapies against PDAC. Increasingly, molecular profiling of tumor specimens is being utilized to reveal tumor susceptibilities and accelerate the development of precision medicine. A personalized therapeutic approach targeting key drivers associated with PDAC is likely to be a future trend. In addition, recent studies have demonstrated that these four tumor drivers play roles in gemcitabine susceptibility to pancreatic adenocarcinoma cells 10 – 13 . A recent study showed that a therapeutic antibody targeting KRAS synergistically increased the antitumor activity of gemcitabine by inhibiting RAS downstream signaling in pancreatic cancer with KRAS mutation 10 . The loss or mutation of TP53 promoted gemcitabine resistance in PDAC 11 , 12 . P16/CDKN2A inactivated pancreatic cancer cells are 3–4 fold less sensitive to gemcitabine 13 . DPC4/SMAD4 inactivation was modestly less sensitive to gemcitabine 13 . A previous study using mouse models suggested that co-deletion of PTEN and SMAD4 contributes to and mediates resistance to pancreatic cancer 14 . In addition, SMAD4 loss in pancreatic cancer causes alterations to multiple kinase pathways (particularly the phosphorylated ERK/p38/Akt pathways), and increases chemoresistance in vitro 15 . Furthermore, PDAC cells with intact SMAD4 are more sensitive to TGF-β1 inhibitor treatment to reduce cell migration, whereas PDAC cells lacking SMAD4 showed decreased cell motility in response to EGFR inhibitor treatment in PDAC carcinoma tissue 16 , 17 . Those evidences support that it is necessary and convincing to develop more treatment strategies for PDAC carrying fatal mutations in driver genes.
+Antibody-based or ligand-based molecularly targeted drugs including antibody-drug conjugates (ADCs) and fusion proteins have recently become effective drug delivery systems 18 . To date, several EGFR-targeted therapies are available for PDAC treatment 19 – 23 . In our previous study, DTLL (named as a dual-targeting ligand-based lidamycin) was shown to be a highly potent bispecific antibody-drug conjugate (ADC)-like agent consisting of two oligopeptides against EGFR and HER2, and an enediyne antibiotics lidamycin (LDM) 16 . It was designed not only to inhibit the activities of both EGFR and HER2, but also to combine with the cytotoxic effect of LDM. Our previous studies demonstrated that DTLL was superior to free LDM alone in ovarian carcinoma 24 , PDAC 25 , and esophageal cancer 26 . Furthermore, DTLL might suppress pancreatic tumor progression by EGFR/HER2-dependent blockage of AKT/mTOR-signaling and PD-L1/PD1-mediated escape from immunosurveillance in PDAC 25 .
+We previously found that human pancreatic cancer AsPC-1 and MIA PaCa-2 cells with high EGFR/HER2 expression showed the strongest binding affinity to DTLP, the precursor of DTLL, however, the AsPC-1 cell line or xenograft tumor showed intermediate resistance to DTLL, whereas MIA PaCa-2 had stronger affinity and better response 25 . This raised an interesting proposal and encouraged us to explore more effective strategies and underlie relevant mechanisms especially for drug-resistant pancreatic cancers. Other studies have also found the emergence of resistance to EGFR-targeted therapies in PDAC 27 , 28 . To overcome that, several combination strategies of either targeted agents or checkpoint inhibitors and chemotherapies showed synergistic activities, highlighting the potential of these strategies for pancreatic cancer 29 . For instance, a kinase inhibitor specific to EGFR can sensitize tumors to gemcitabine in PDAC models 30 . Therefore, we hypothesized that it might be possible to improve the chemotherapeutic efficacy of gemcitabine in PDAC when combined with DTLL.
+In the present study, we investigated differences in the genetic and expression profiles of the main driver genes in PDAC between the AsPC-1 and MIA PaCa-2 cell lines, followed with evaluation of DTLL efficacy when given in combination with gemcitabine by using gemcitabine-sensitive and gemcitabine-resistant PDAC models. The study aimed to evaluate the effects of the combination treatment and further elucidate the mechanism of this strategy. Our findings demonstrated that DTLL provided a promising synergistic therapeutic strategy but enhanced the susceptibility of both gemcitabine-sensitive and gemcitabine-resistant PDAC tumors through different signaling pathways.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="623~627" text="KRAS" location="background" />
+<GENE id="G1" spans="691~697" text="CDKN2A" location="background" />
+<GENE id="G2" spans="705~709" text="TP53" location="background" />
+<GENE id="G3" spans="720~725" text="SMAD4" location="background" />
+<GENE id="G4" spans="734~738" text="PTEN" location="background" />
+<GENE id="G5" spans="782~787" text="BRCA2" location="background" />
+<GENE id="G6" spans="1471~1475" text="KRAS" location="background" />
+<GENE id="G7" spans="1605~1609" text="KRAS" location="background" />
+<GENE id="G8" spans="1648~1652" text="TP53" location="background" />
+<GENE id="G9" spans="1703~1706" text="P16" location="background" />
+<GENE id="G10" spans="1707~1713" text="CDKN2A" location="background" />
+<GENE id="G11" spans="1798~1802" text="DPC4" location="background" />
+<GENE id="G12" spans="1803~1808" text="SMAD4" location="background" />
+<GENE id="G13" spans="1936~1940" text="PTEN" location="background" />
+<GENE id="G14" spans="1945~1950" text="SMAD4" location="background" />
+<GENE id="G15" spans="2029~2034" text="SMAD4" location="background" />
+<GENE id="G16" spans="2244~2249" text="SMAD4" location="background" />
+<GENE id="G17" spans="2272~2278" text="TGF-β1" location="background" />
+<GENE id="G18" spans="2352~2357" text="SMAD4" location="background" />
+<GENE id="G19" spans="2807~2811" text="EGFR" location="background" />
+<GENE id="G20" spans="3077~3081" text="EGFR" location="background" />
+<GENE id="G21" spans="3086~3090" text="HER2" location="background" />
+<GENE id="G22" spans="3200~3204" text="EGFR" location="background" />
+<GENE id="G23" spans="3209~3213" text="HER2" location="background" />
+<GENE id="G24" spans="3472~3476" text="EGFR" location="background" />
+<GENE id="G25" spans="3477~3481" text="HER2" location="background" />
+<GENE id="G26" spans="3504~3507" text="AKT" location="background" />
+<GENE id="G27" spans="3508~3512" text="mTOR" location="background" />
+<GENE id="G28" spans="3527~3532" text="PD-L1" location="background" />
+<GENE id="G29" spans="3677~3681" text="EGFR" location="background" />
+<GENE id="G30" spans="3682~3686" text="HER2" location="background" />
+<GENE id="G31" spans="4158~4162" text="EGFR" location="background" />
+<GENE id="G32" spans="4469~4473" text="EGFR" location="background" />
+<DISEASE id="D0" spans="1~33" text="Pancreatic ductal adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="35~39" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="76~82" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="124~130" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="216~220" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="305~309" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="433~450" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="504~521" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="583~587" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="974~978" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1212~1216" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1369~1394" text="pancreatic adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1582~1600" text="pancreatic cancer " location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1688~1692" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1726~1743" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1993~2010" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2043~2060" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2221~2225" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2333~2337" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="2432~2436" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="2437~2446" text="carcinoma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D22" spans="2565~2569" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="2849~2853" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3347~3364" text="ovarian carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="3370~3374" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="3384~3401" text="esophageal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="3580~3584" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="3621~3638" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="4077~4094" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="4185~4189" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="4401~4418" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="4513~4517" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="4642~4646" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="4789~4793" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="4982~4986" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="5296~5300" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="614~622" text="oncogene" location="background" relation="causative mutation" />
+<RELATION id="R1" spans="636~656" text="inactivation or loss" location="background" relation="decreased expression" />
+<RELATION id="R2" spans="750~758" text="mutation" location="background" relation="associated mutation" />
+<RELATION id="R3" spans="1628~1632" text="loss" location="background" relation="decreased expression" />
+<RELATION id="R4" spans="1636~1644" text="mutation" location="background" relation="associated mutation" />
+<RELATION id="R5" spans="2035~2039" text="loss" location="background" relation="decreased expression" />
+<RELATION id="R6" spans="2178~2193" text="chemoresistance" location="background" relation="therapy resistance" />
+<RELATION id="R7" spans="2812~2830" text="targeted therapies" location="background" relation="therapeutic target" />
+<RELATION id="R8" spans="3672~3676,3687~3697" text="high ... expression" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="KRAS" diseaseID="D8" diseaseText="PDAC" relationID="R0" relationText="oncogene" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="CDKN2A" diseaseID="D8" diseaseText="PDAC" relationID="R1" relationText="inactivation or loss" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="TP53" diseaseID="D8" diseaseText="PDAC" relationID="R1" relationText="inactivation or loss" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="SMAD4" diseaseID="D8" diseaseText="PDAC" relationID="R1" relationText="inactivation or loss" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="PTEN" diseaseID="D8" diseaseText="PDAC" relationID="R1" relationText="inactivation or loss" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="BRCA2" diseaseID="D8" diseaseText="PDAC" relationID="R2" relationText="mutation" />
+<ENTITY_LINKING id="E6" geneID="G8" geneText="TP53" diseaseID="D13" diseaseText="PDAC" relationID="R3" relationText="loss" />
+<ENTITY_LINKING id="E7" geneID="G8" geneText="TP53" diseaseID="D13" diseaseText="PDAC" relationID="R4" relationText="mutation" />
+<ENTITY_LINKING id="E8" geneID="G15" geneText="SMAD4" diseaseID="D16" diseaseText="pancreatic cancer" relationID="R5" relationText="loss" />
+<ENTITY_LINKING id="E9" geneID="G15" geneText="SMAD4" diseaseID="D16" diseaseText="pancreatic cancer" relationID="R6" relationText="chemoresistance" />
+<ENTITY_LINKING id="E10" geneID="G19" geneText="EGFR" diseaseID="D23" diseaseText="PDAC" relationID="R7" relationText="targeted therapies" />
+<ENTITY_LINKING id="E11" geneID="G29" geneText="EGFR" diseaseID="D28" diseaseText="pancreatic cancer" relationID="R8" relationText="high ... expression" />
+<ENTITY_LINKING id="E12" geneID="G30" geneText="HER2" diseaseID="D29" diseaseText="pancreatic cancer" relationID="R8" relationText="high ... expression" />
+</TAGS>
+</Genomics_ConceptTask>

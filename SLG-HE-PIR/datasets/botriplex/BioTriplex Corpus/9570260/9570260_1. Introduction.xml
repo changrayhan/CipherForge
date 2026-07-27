@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+  is the causative pathogen of Lyme disease (LD), the most common vector-borne disease in Europe and North America [ 1 , 2 ]. It is an invasive, host-dependent and semi-aerophilic bacterium with three predominant morphological forms [ 1 , 2 , 3 ]. The vegetative (active) form is the motile spirochetes, which under conditional stress can quickly transform into persistent forms of knob-/round-shaped bodies and/or biofilm like aggregates. The latent forms of  B. burgdorferi sensu lato  are acknowledged to be responsible for a persisting type of LD in humans, although this aspect remains controversial [ 4 , 5 , 6 , 7 ]. LD is a multisystemic zoonosis with inflammatory responses at its basis, affecting multiple organs. The pathogenesis in early stages of LD is associated largely with the presence of viable bacteria at the site of inflammation, whereas in the later stages of LD, inflammatory and autoimmune features seem to prevail.
+  is an extracellular pathogen with pathogen-associated molecular patterns (PAMPs), such as lipoproteins and nucleic acids, serving as the toll-like receptor 2 (TLR2) ligands, and inducing proinflammatory cytokine production [ 8 , 9 ]. This signaling cascade engages the adaptor protein CD14+ as an acknowledged element in mediating proinflammatory responses and immunomodulatory–immunosuppressive features [ 10 , 11 ]. Involvement of the canonical factor kappa B complex (NFκB) signaling pathway seems to be plausible as well [ 10 , 12 , 13 ]. NFκB is a family of Rel transcription factors (i.e., NFκB1, NFκB2, RelA/p65, RelB, and c-Rel) encoded by five genes: NFκB1, NFκB2, RELA, RELB and c-REL [ 13 ]. Proteins NFκB1 and NFκB2 are translated as large precursor proteins known as p105 and p100 that undergo proteolysis to become p50 and p52 respectively, whereas RelA, RelB, and c-REL proteins contain a transactivation domain (TAD) in their C-terminal region. Thus, they can induce DNA transcription, while the p50 and p52 homodimers are able to repress it by merely subjugating the DNA binding sites and blocking its transcription [ 13 , 14 ]. In the canonical pathway, NFκB comprises subunits p65 and p50 and exists in two forms: active (phosphorylated), acting in the nucleus, and inactive (dephosphorylated), present in the cytoplasm [ 15 , 16 , 17 ], where it undergoes the activation by cell stressors [ 18 , 19 , 20 ]. This activation occurs through several intermittent steps that lead to an activation through phosphorylation of the IκB kinase (IKK) complex, which subsequently results in its ubiquitination and degradation. Once degraded, the remaining NFκB dimer (e.g., p65/p50 subunits) translocates to the nucleus, where it activates transcription of numerous target genes.
+Gallic acid (3,4,5-trihydroxybenzoic acid) is a low molecular triphenolic compound existing in monomeric as well as in polymeric form. Its mode of antimicrobial action, although not fully established, may be attributed to deactivation of a plethora of microbial proteins, including adhesins, enzymes and cell envelope transport proteins [ 21 , 22 , 23 ]. Gallic acid was found to show synergism with several existing chemotherapeutic drugs, as well as to serve as an anchor for the design or development of new pharmacological agents with diverse therapeutic features [ 24 ].
+In this study, we tested the anti- Borrelia  and anti-inflammatory effects of gallic acid. The anti- Borrelia  effect was examined by utilizing a high-throughput screening method allowing for assessing viability of the logarithmic phase (rich in typical motile spirochetes) and stationary phase (rich in knob-/round-shaped persisters). The anti-inflammatory effect of gallic acid was studied against  B. burgdorferi -induced inflammation in CD14+ macrophages, focusing on proinflammatory cytokine production and secretion, and the mode of action. To address this particular aspect, we focused on the toll-like receptor 2 (TLR2)–NFκB canonical signaling pathway, evaluating the potential of gallic acid to alter the levels of its key mediators. Here, we report that gallic acid significantly decreases the levels of cytokines relevant in LD, such as IL1β, IL6 and TNFα induced by live  B. burgdorferi , through downregulation of the CD14+ adaptor and TLR2, and further downstream decreasing level of phosphorylated p65 molecule.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1080~1100" text="toll-like receptor 2" location="background" />
+<GENE id="G1" spans="1102~1106" text="TLR2" location="background" />
+<GENE id="G2" spans="1228~1232" text="CD14" location="background" />
+<GENE id="G3" spans="1486~1490" text="NFκB" location="background" />
+<GENE id="G4" spans="1539~1544" text="NFκB1" location="background" />
+<GENE id="G5" spans="1546~1551" text="NFκB2" location="background" />
+<GENE id="G6" spans="1553~1557" text="RelA" location="background" />
+<GENE id="G7" spans="1558~1561" text="p65" location="background" />
+<GENE id="G8" spans="1563~1567" text="RelB" location="background" />
+<GENE id="G9" spans="1573~1578" text="c-Rel" location="background" />
+<GENE id="G10" spans="1603~1608" text="NFκB1" location="background" />
+<GENE id="G11" spans="1610~1615" text="NFκB2" location="background" />
+<GENE id="G12" spans="1617~1621" text="RELA" location="background" />
+<GENE id="G13" spans="1623~1627" text="RELB" location="background" />
+<GENE id="G14" spans="1632~1637" text="c-REL" location="background" />
+<GENE id="G15" spans="1655~1660" text="NFκB1" location="background" />
+<GENE id="G16" spans="1665~1670" text="NFκB2" location="background" />
+<GENE id="G17" spans="1723~1727" text="p105" location="background" />
+<GENE id="G18" spans="1732~1736" text="p100" location="background" />
+<GENE id="G19" spans="1772~1775" text="p50" location="background" />
+<GENE id="G20" spans="1780~1783" text="p52" location="background" />
+<GENE id="G21" spans="1806~1810" text="RelA" location="background" />
+<GENE id="G22" spans="1812~1816" text="RelB" location="background" />
+<GENE id="G23" spans="1822~1827" text="c-REL" location="background" />
+<GENE id="G24" spans="1955~1958" text="p50" location="background" />
+<GENE id="G25" spans="1963~1966" text="p52" location="background" />
+<GENE id="G26" spans="2115~2119" text="NFκB" location="background" />
+<GENE id="G27" spans="2139~2142" text="p65" location="background" />
+<GENE id="G28" spans="2147~2150" text="p50" location="background" />
+<GENE id="G29" spans="2607~2611" text="NFκB" location="background" />
+<GENE id="G30" spans="2625~2628" text="p65" location="background" />
+<GENE id="G31" spans="2629~2632" text="p50" location="background" />
+<GENE id="G32" spans="3748~3752" text="CD14" location="result" />
+<GENE id="G34" spans="4156~4160" text="IL1β" location="result" />
+<GENE id="G35" spans="4162~4165" text="IL6" location="result" />
+<GENE id="G36" spans="4170~4174" text="TNFα" location="result" />
+<GENE id="G37" spans="4239~4243" text="CD14" location="result" />
+<GENE id="G38" spans="4257~4261" text="TLR2" location="result" />
+<GENE id="G39" spans="4321~4324" text="p65" location="result" />
+<DISEASE id="D0" spans="32~44" text="Lyme disease" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="46~48" text="LD" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="549~551" text="LD" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="625~627" text="LD" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D4" spans="761~763" text="LD" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D5" spans="883~885" text="LD" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D7" spans="4144~4146" text="LD" location="background" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

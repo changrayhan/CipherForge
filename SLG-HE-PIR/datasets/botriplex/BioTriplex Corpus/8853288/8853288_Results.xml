@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Clinical Evaluation
+Characterization of all patients enrolled in the study was performed by clinical and instrumental assessment. As shown in  Table 1 , we analyzed the following parameters for each group of patients: age (years), Bone Mass Index (BMI),  T- score L1–L4,  T- score (femoral neck), and  T- score (total femur). Specifically, the CTRL group included 10 patients characterized by a  T- score ≥ −1.0 SD and a K–L score from 0 to 1. The OA group included 10 patients with radiographic evidence of hip OA, a K–L score of 3 or 4, and a  T- score ≥ −2.5 SD; whereas the OP group included 10 patients with fragility hip fracture,  T- score ≤ −2.5 SD, and a K–L score from 0 to 1. We found no discrepancy for age, sex, and comorbidities between the OA (mean age in years: 72.5 ± 3.2) and OP (mean age in years: 78.4 ± 2.5) groups, compared with CTRL patients (mean age in years: 45.3 ± 2.6) who were significantly younger ( *** p  < 0.001). In contrast, we found significant differences between the three groups for the other parameters analyzed (BMI,  * p  < 0.05;  T- score,  *** p  < 0.001). Not surprisingly, the CTRL group presented higher  T- score values than the OA and OP patients, highlighting a dependence of musculoskeletal disorders on patient age.
+
+           Table 1 
+           Main characteristics of CTRL, OA, and OP patients. 
+           
+             
+           
+                 Age (years) 
+                 2 ) BMI (Kg/m 
+                 T- score (L1–L4) 
+                 T- score (femoral neck) 
+                 T- score (total femur) 
+               
+                 
+             
+               
+             CTRL 
+                 45.3 ± 2.6 
+                 23.1 ± 2.9 
+                 0.9 ± 0.5 
+                 1.2 ± 0.1 
+                 1.0 ± 0.3 
+               
+                 
+               OA 
+                 72.5 ± 3.2 
+                 27.3 ± 1.0 
+                 −0.7 ± 0.6 
+                 −0.6 ± 0.1 
+                 −0.4 ± 0.2 
+               
+                 
+               OP 
+                 78.4 ± 2.5 
+                 21.4 ± 1.5 
+                 −2.5 ± 0.4 
+                 −2.7 ± 0.2 
+                 −2.4 ± 0.1 
+               
+                 
+             
+               
+           
+             
+           CTRL, patients underwent hip arthroplasty for high-energy hip fracture; OA, patients underwent hip arthroplasty for osteoarthritis; OP, patients underwent hip arthroplasty for fragility fracture; BMI, Bone Mass Index . 
+           
+             
+        
+Morphological Analysis
+Morphological analysis by light microscopy was performed to assess cellular composition and to verify that all primary cultures were free of contamination by pathogens, such as bacteria, algae, and fungi, and/or cells of different histo-types, such as fibroblasts. In this regard, the Pax7 expression by immunofluorescence was assessed to characterize the satellite cell population ( Supplementary Figure S1 ).
+In agreement with previous results ( Tarantino et al., 2020 ), under normogravity conditions, samples derived from CTRL ( Figure 1A ) and OA ( Figure 1B ) patients showed similar morphological characteristics, with a heterogeneous population of numerous myotubes and rare single satellite cells. In contrast, in primary cultures from OP patients ( Figure 1C ), we observed numerous single satellite cells and rare myotubes. Noteworthy, cell morphology was affected by RPM exposure, as variations in the satellite cell/myotube ratio were found in all three experimental groups ( Figures 1D – F ). However, although an increase in the number of myotubes was observed mainly in OP patients, microscopic evaluation also showed that RPM exposure induced cell degeneration, as demonstrated by cytoplasmic vacuolization of myotubes and the presence of numerous cellular debris and areas of necrosis.
+Immunocytochemistry
+Myostatin analysis was performed by immunocytochemistry, and the levels of its expression were quantified by counting the number of positive myotubes over 25 High-Power Field.
+In normogravity conditions, primary cultures derived from OP patients showed the highest levels of myostatin expression compared with the CTRL and OA groups. A significant increase in myostatin expression was also observed in primary cultures derived from OA patients compared with CTRL patients ( Figures 2A – C ). Indeed, myostatin levels were (18.1 ± 2.4) in the CTRL group, (90.3 ± 8.4) in the OA group, and (295.9 ± 14.5) in the OP group (CTRL vs. OA,  ** p  < 0.01; CTRL vs. OP,  **** p  < 0.0001; OA vs. OP,  **** p  < 0.0001;  Figure 2D ). These data do not differ from those previously shown ( Tarantino et al., 2020 ), confirming that myostatin expression is age-dependent. RPM exposure did not induce changes in myostatin expression between CTRL and OA groups, in contrast to cells derived from OP patients in which myostatin levels were significantly reduced ( Figures 2E – G ). Thus, we observed group-dependent myostatin expression, with values of (153.1 ± 11.3) for CTRL patients, (182.2 ± 15.4) for OA patients, and (109.7 ± 8.1) for OP patients (OA vs. OP,  ** p  < 0.01;  Figure 2H ).
+Anti-MSTN Antibodies Treatment on Primary Cultures of Human Satellite Cells
+We previously showed by Transmission Electron Microscopy (TEM) analysis the presence of evident signs of cell degeneration in myotubes observed in primary cultures subjected to RPM exposure ( Tarantino et al., 2020 ). To investigate whether myostatin was the main effector of such degeneration, we treated satellite cells exposed to RPM with anti-MSTN antibodies for 72 h. Toluidine blue staining allowed us to evaluate important morphological differences between the three groups of patients under the two experimental conditions.
+Regarding to CTRL patients, we found a slowing of growth in myotubes subjected to RPM exposure ( Figure 3A ). On the contrary, treatment with anti-MSTN antibodies counteracted this negative effect, favoring in some places the formation of a cellular multilayer ( Figure 3D ). Also in OA patients, myotubes subjected to RPM exposure showed slowed growth ( Figure 3B ); whereas treatment with anti-MSTN antibodies promoted growth and formation of new myotubes ( Figure 3E ). Finally, RPM exposure drastically impaired the ability to form myotubes in OP patient cultures ( Figure 3C ). Surprisingly, even in this experimental group, treatment with anti-MSTN antibodies counteracted the deleterious effects of RPM exposure by promoting cell aggregation and the tendency to form new myotubes ( Figure 3F ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2856~2860" text="Pax7" location="result" />
+<GENE id="G1" spans="3895~3904" text="Myostatin" location="result" />
+<GENE id="G2" spans="4395~4404" text="myostatin" location="result" />
+<GENE id="G3" spans="4716~4725" text="myostatin" location="result" />
+<GENE id="G4" spans="4794~4803" text="myostatin" location="result" />
+<GENE id="G5" spans="4898~4907" text="myostatin" location="result" />
+<GENE id="G6" spans="4170~4179" text="myostatin" location="result" />
+<GENE id="G7" spans="4996~5005" text="myostatin" location="result" />
+<GENE id="G8" spans="5179~5183" text="MSTN" location="result" />
+<GENE id="G9" spans="5491~5500" text="myostatin" location="result" />
+<GENE id="G10" spans="5597~5601" text="MSTN" location="result" />
+<GENE id="G11" spans="5929~5933" text="MSTN" location="result" />
+<GENE id="G12" spans="6178~6182" text="MSTN" location="result" />
+<GENE id="G13" spans="6432~6436" text="MSTN" location="result" />
+<DISEASE id="D0" spans="449~451" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="513~515" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="579~581" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="756~758" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1178~1180" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1185~1187" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1331~1333" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1339~1341" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1845~1847" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2043~2045" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2365~2367" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2425~2427" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="3120~3122" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="3316~3318" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2409~2423" text="osteoarthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="3657~3659" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="4129~4131" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="4218~4220" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="4327~4329" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="4469~4471" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="4505~4507" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="4832~4834" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="4877~4879" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="5086~5088" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="5121~5123" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="5134~5136" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="5141~5143" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="6066~6068" text="OA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D28" spans="6330~6332" text="OP" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="4152~4166" text="highest levels" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G6" geneText="myostatin" diseaseID="D16" diseaseText="OP" relationID="R0" relationText="highest levels" />
+</TAGS>
+</Genomics_ConceptTask>

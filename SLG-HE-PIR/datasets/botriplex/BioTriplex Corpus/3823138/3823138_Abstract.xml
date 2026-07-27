@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: DUX4 expression in FSHD muscle cells: how could such a rare protein cause a myopathy?
+Abstract: Facioscapulohumeral muscular dystrophy (FSHD) is one of the most frequent hereditary muscle disorders. It is linked to contractions of the  D4Z4  repeat array in 4q35. We have characterized the double homeobox 4 ( DUX4)  gene in  D4Z4  and its mRNA transcribed from the distal  D4Z4  unit to a polyadenylation signal in the flanking  pLAM  region. It encodes a transcription factor expressed in FSHD but not healthy muscle cells which initiates a gene deregulation cascade causing differentiation defects, muscle atrophy and oxidative stress.  PITX1  was the first identified DUX4 target and encodes a transcription factor involved in muscle atrophy.  DUX4  was found expressed in only 1/1000 FSHD myoblasts. We have now shown it was induced upon differentiation and detected in about 1/200 myotube nuclei. The DUX4 and PITX1 proteins presented staining gradients in consecutive myonuclei which suggested a diffusion as known for other muscle nuclear proteins. Both protein half-lifes were regulated by the ubiquitin-proteasome pathway. In addition, we could immunodetect the DUX4 protein in FSHD muscle extracts. As a model, we propose the  DUX4  gene is stochastically activated in a small number of FSHD myonuclei. The resulting mRNAs are translated in the cytoplasm around an activated nucleus and the DUX4 proteins diffuse to adjacent nuclei where they activate target genes such as  PITX1 . The PITX1 protein can further diffuse to additional myonuclei and expand the transcriptional deregulation cascade initiated by DUX4. Together the diffusion and the deregulation cascade would explain how a rare protein could cause the muscle defects observed in FSHD.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="DUX4" location="result" />
+<GENE id="G3" spans="298~315" text="double homeobox 4" location="result" />
+<GENE id="G4" spans="318~322" text="DUX4" location="result" />
+<GENE id="G5" spans="648~653" text="PITX1" location="background" />
+<GENE id="G6" spans="680~684" text="DUX4" location="background" />
+<GENE id="G7" spans="756~760" text="DUX4" location="result" />
+<GENE id="G8" spans="915~919" text="DUX4" location="result" />
+<GENE id="G9" spans="924~929" text="PITX1" location="result" />
+<GENE id="G10" spans="1180~1184" text="DUX4" location="result" />
+<GENE id="G11" spans="1246~1250" text="DUX4" location="result" />
+<GENE id="G12" spans="1410~1414" text="DUX4" location="result" />
+<GENE id="G13" spans="1493~1498" text="PITX1" location="result" />
+<GENE id="G14" spans="1505~1510" text="PITX1" location="result" />
+<GENE id="G15" spans="1628~1632" text="DUX4" location="result" />
+<DISEASE id="D0" spans="27~31" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="84~92" text="myopathy" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="103~142" text=" Facioscapulohumeral muscular dystrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="144~148" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="499~503" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="610~624" text="muscle atrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="739~753" text="muscle atrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="797~801" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1196~1200" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1306~1310" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1762~1766" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R1" spans="727~738" text="involved in" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E1" geneID="G5" geneText="PITX1" diseaseID="D6" diseaseText="muscle atrophy" relationID="R1" relationText="involved in" />
+</TAGS>
+</Genomics_ConceptTask>

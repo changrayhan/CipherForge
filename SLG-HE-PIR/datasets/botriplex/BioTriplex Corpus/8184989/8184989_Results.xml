@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In January 2014, we started the NF1 in-hospital medical care network. For NF1 patients who had their first visit before then and had been continuously treated, we requested each department to provide medical care as an NF1 network. Therefore, NF1 patients whose first visit date was before 2014 are also included in the medical records of NF1 network.
+From January 2014 to December 2020, 246 patients were enrolled in the NF1 patient list and medical records. Excluding the three patients whose age at the first visit was unknown, mean age was 26.0 years ranging from 3 months to 80 years. The younger the age at the first visit, the higher the patient number distribution (Fig.  2 ). Figure 2 Number of NF1 patients by age group at first visit.
+There were 107 males (41%) and 139 females. Looking at the number of first-time patients by age group by gender, the number of males in their 20 s and 30 s was markedly lower than that of females (Fig.  3 ). Figure 3 A ) total, ( B ) male by age group at first visit, ( C ) females by age group at first visit. Number of NF1 patients by gender. (
+Divided by 5 years, the number of first-time NF1 patients is increasing markedly. Especially after 2011, the number of patients has increased since the year when the medical care network was started (Fig.  4 ). Excluding 15 patients whose family history is unknown, familial NF1 was 101 (44%), and non-familial was 130, with non-familial slightly predominant. Figure 4 A ) year range separated by 5 years. ( B ) recent years. The dotted line indicates the time when the NF1 in-hospital medical care network was started. Number of NF1 patients by year. (
+Regarding orthopedic signs, there was a description that was investigated in 230 patients. Scoliosis was present in 60 cases (26%), and bone abnormalities in the upper arm, forearm, and tibia were observed in 8 cases (3.5%). Neurofibromas other than cutaneous ones were found in 90 cases (39%) and MPNST in 17 cases (7.4%) (Fig.  5 ). Figure 5 Diseases treated by orthopedic surgeons. Ratio to the total number of patients. Neurofibroma: deep-seated neurofibroma counted. Cutaneous neurofibroma not counted.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1739~1748" text="Scoliosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1946~1951" text="MPNST" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="33~36" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D3" spans="75~78" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D4" spans="220~223" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D5" spans="244~247" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D6" spans="340~343" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D7" spans="423~426" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D8" spans="705~708" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D9" spans="1068~1071" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D10" spans="1139~1142" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D11" spans="1369~1372" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D12" spans="1564~1567" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D13" spans="1624~1627" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+</TAGS>
+</Genomics_ConceptTask>

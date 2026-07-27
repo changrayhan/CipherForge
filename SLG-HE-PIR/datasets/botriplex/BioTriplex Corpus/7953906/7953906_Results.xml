@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Participant Characteristics
+A total of 68 patients infected with influenza were enrolled in the study. Their clinical characteristics are summarized in  Table 1 
+ 
+ . Seventy percent of influenza patients were male, with a median age of 48 years. We also recruited 24 patients with COVID-19, from which most were males (75%), with a median age of 50 years. Most patients with influenza presented similar characteristics than COVID-19, except for some specific differences. For instance, obesity was more common among influenza patients, while the prevalence of other comorbidities did not differ between both diseases. Cough, dyspnea, fever, myalgia, and arthralgia were the most frequent symptoms of respiratory illness in both participant groups. Interestingly, dyspnea, rhinorrhea, and sputum production were more common during influenza, whereas dry cough and vomit were more frequent among COVID-19 patients ( Table 1 
+ 
+ ).
+
+           Table 1 
+           Clinical characteristics and laboratory parameters of study participants. 
+           
+             
+           Characteristics 
+                 Influenza, N = 68A 
+                 COVID-19, N = 24B 
+                 p -value, A  vs  B 
+ 
+                 PTB, N = 30C 
+                 p -value, A  vs  C 
+ 
+               
+                 
+             
+               
+             Age (years), median (range) 
+ 
+ 
+                 48 (20–77) 
+                 50 (28–73) 
+                 0.6536 
+                 39 (20–46) 
+                 0.0010 
+               
+                 
+               Males 
+ 
+ 
+                 48 (70.5) 
+                 18 (75) 
+                 0.7953 
+                 20 (66.6) 
+                 0.8126 
+               
+                 
+               BMI 
+ 
+ 
+                 33.4 (30–38.2) 
+                 28.9 (25.2–30.3) 
+                 <0.0001 
+                 20.6 (18.8–23.1) 
+                 <0.0001 
+               
+                 
+               Comorbidities 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               Smoking 
+                 27 (39.7) 
+                 5 (20.8) 
+                 0.1349 
+                 0 (0) 
+                 <0.0001 
+               
+                 
+               Diabetes 
+                 14 (20.5) 
+                 7 (29.1) 
+                 0.4063 
+                 11 (36.6) 
+                 0.1306 
+               
+                 
+               SAH 
+                 18 (26.4) 
+                 5 (20.8) 
+                 0.7848 
+                 2 (6.6) 
+                 0.0295 
+               
+                 
+               OSA 
+                 4 (5.8) 
+                 0 (0) 
+                 0.5695 
+                 0 (0) 
+                 0.3095 
+               
+                 
+               COPD 
+                 3 (4.4) 
+                 1 (4.1) 
+                 >0.9999 
+                 0 (0) 
+                 0.5507 
+               
+                 
+               Symptoms at onset 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               Fever 
+                 62 (91.1) 
+                 18 (75) 
+                 0.0725 
+                 – 
+                 – 
+               
+                 
+               Myalgia 
+                 56 (82.3) 
+                 18 (75) 
+                 0.5500 
+                 – 
+                 – 
+               
+                 
+               Arthralgia 
+                 53 (79.1) 
+                 16 (66.6) 
+                 0.2847 
+                 – 
+                 – 
+               
+                 
+               Headache 
+                 33 (48.52) 
+                 11 (45.8) 
+                 >0.9999 
+                 – 
+                 – 
+               
+                 
+               Dyspnea 
+                 65 (95.5) 
+                 16 (66.6) 
+                 0.0007 
+                 – 
+                 – 
+               
+                 
+               Nasal congestion 
+                 13 (19.1) 
+                 1 (4.1) 
+                 0.1038 
+                 – 
+                 – 
+               
+                 
+               Rhinorrhea 
+                 26 (38.2) 
+                 3 (12.5) 
+                 0.0221 
+                 – 
+                 – 
+               
+                 
+               Sore throat 
+                 24 (35.8) 
+                 4 (16.6) 
+                 0.1223 
+                 – 
+                 – 
+               
+                 
+               Thoracic pain 
+                 9 (13.2) 
+                 0 (0) 
+                 0.1053 
+                 – 
+                 – 
+               
+                 
+               Cough 
+                 66 (97) 
+                 21 (87.5) 
+                 0.1093 
+                 – 
+                 – 
+               
+                 
+               Sputum 
+                 38 (55.8) 
+                 2 (8.3) 
+                 <0.0001 
+                 – 
+                 – 
+               
+                 
+               Dry cough 
+                 27 (40.2) 
+                 19 (79.1) 
+                 0.0017 
+                 – 
+                 – 
+               
+                 
+               Fatigue 
+                 49 (72) 
+                 18 (75) 
+                 >0.9999 
+                 – 
+                 – 
+               
+                 
+               Diarrhea 
+                 5 (7.35) 
+                 5 (20.8) 
+                 0.1196 
+                 – 
+                 – 
+               
+                 
+               Nausea 
+                 4 (5.88) 
+                 3 (12.5) 
+                 0.3717 
+                 – 
+                 – 
+               
+                 
+               Vomit 
+                 2 (2.9) 
+                 4 (16.6) 
+                 0.0382 
+                 – 
+                 – 
+               
+                 
+               Illness onset - admission (days) 
+ 
+ 
+                 7.5 (5.2–12) 
+                 6 (4.2–10.7) 
+                 0.3756 
+                 – 
+                 – 
+               
+                 
+               Admission vital signs 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               Body temperature (°C) 
+                 38 (37–38) 
+                 37 (37–37.08) 
+                 0.0018 
+                 – 
+                 – 
+               
+                 
+               Respiratory rate (bpm) 
+                 25 (20–30) 
+                 24 (22–26) 
+                 0.3486 
+                 – 
+                 – 
+               
+                 
+               Hearth rate (bpm) 
+                 96 (85-108) 
+                 85 (75–96) 
+                 0.0074 
+                 – 
+                 – 
+               
+                 
+               MAP (mmHg) 
+                 85.4 (75–118.3) 
+                 77.5 (71–87) 
+                 0.0677 
+                 – 
+                 – 
+               
+                 
+               Glucose (mg/dl) 
+ 
+ 
+                 144.9 (114.9–221.4) 
+                 115.6 (96.7–200.7) 
+                 0.0771 
+                 – 
+                 – 
+               
+                 
+               Blood count 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               9 /L) White blood cells (10 
+                 7.2 (5.6–10.3) 
+                 9.1 (5.2–12.2) 
+                 0.4429 
+                 – 
+                 – 
+               
+                 
+               9 /L) Neutrophils (10 
+                 5.7 (4.5–8.3) 
+                 7.4 (3.6–10.1) 
+                 0.7057 
+                 – 
+                 – 
+               
+                 
+               9 /L) Lymphocytes (10 
+                 0.8 (0.5–1.1) 
+                 0.8 (0.6–1.0) 
+                 0.4657 
+                 – 
+                 – 
+               
+                 
+               NLR 
+                 8.5 (5.4–12.6) 
+                 8.7 (3.9–13.4) 
+                 0.7927 
+                 – 
+                 – 
+               
+                 
+               Hgb (g/dl) 
+                 14.9 (13.3–17.3) 
+                 14.1 (13.2–15.3) 
+                 0.1015 
+                 – 
+                 – 
+               
+                 
+               9 /L) Platelets (10 
+                 177.5 (136.5–216.5) 
+                 202 (145.8–256.8) 
+                 0.2523 
+                 – 
+                 – 
+               
+                 
+               Renal function 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               Cr (mg/dL) 
+                 1.02 (0.7–1.4) 
+                 1.0 (0.8-1.4) 
+                 0.8754 
+                 – 
+                 – 
+               
+                 
+               BUN (mg/dl) 
+                 24.9 (15.5–35.7 
+                 18.3 (13.6-26.8) 
+                 0.1390 
+                 – 
+                 – 
+               
+                 
+               Na (mmol/L) 
+                 137.4 (133.4–140.5) 
+                 138.6 (136-141.5) 
+                 0.2155 
+                 – 
+                 – 
+               
+                 
+               K (mmol/L) 
+                 4.1 (3.8–4.5) 
+                 4.1 (3.9-4.3) 
+                 0.9384 
+                 – 
+                 – 
+               
+                 
+               Liver function 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               Total bilirubin (mg/dl) 
+                 0.6 (0.4–0.8) 
+                 0.4 (0.3-0.7) 
+                 0.0900 
+                 – 
+                 – 
+               
+                 
+               AST (U/L) 
+                 61.8 (44.7–87) 
+                 35.1 (23.6-80.7) 
+                 0.0055 
+                 – 
+                 – 
+               
+                 
+               ALT (U/L) 
+                 41 (26.3–52.2) 
+                 32.7 (25.1-48.4) 
+                 0.2768 
+                 – 
+                 – 
+               
+                 
+               Other biomarkers 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               LDH (U/L) 
+                 643.8 (500–877.9) 
+                 341.7 (251.5-477.7) 
+                 <0.0001 
+                 – 
+                 – 
+               
+                 
+               ALP (U/L) 
+                 121.7 (98.2–161.1) 
+                 78 (67.7-88.2) 
+                 <0.0001 
+                 – 
+                 – 
+               
+                 
+               CPK (U/L) 
+                 274.4 (108–700.8) 
+                 117.8 (64-117.8) 
+                 0.4754 
+                 – 
+                 – 
+               
+                 
+               Procalcitonin (ng/ml) 
+                 0.55 (0.15–1.92) 
+                 0.1 (0.05-0.17) 
+                 <0.0001 
+                 – 
+                 – 
+               
+                 
+               2 /FiO 2 PaO 
+ 
+ 
+                 82.5 (59.9–143.5) 
+                 127.8 (94.7-198.1) 
+                 0.0031 
+                 – 
+                 – 
+               
+                 
+               Severity of illness 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               SOFA 
+                 7 (5–9) 
+                 5 (3-6) 
+                 0.0002 
+                 – 
+                 – 
+               
+                 
+               APACHE II 
+                 10 (7–16) 
+                 7 (4-8) 
+                 0.0069 
+                 – 
+                 – 
+               
+                 
+               Respiratory support 
+ 
+ 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               High flow nasal cannula 
+                 0 (0) 
+                 7 (29.1) 
+                 <0.0001 
+                 0 (0) 
+                 >0.9999 
+               
+                 
+               MV 
+                 68 (100) 
+                 17 (70.8) 
+                 <0.0001 
+                 0 (0) 
+                 <0.0001 
+               
+                 
+               Prone position 
+                 40 (58.8) 
+                 8 (33.3) 
+                 0.0359 
+                 0 (0) 
+                 <0.0001 
+               
+                 
+               ECMO 
+                 7 (10.2) 
+                 0 (0) 
+                 0.1836 
+                 0 (0) 
+                 0.1836 
+               
+                 
+               Renal replacement therapy 
+ 
+ 
+                 16 (23.5) 
+                 2 (8.3) 
+                 0.1399 
+                 0 (0) 
+                 0.0022 
+               
+                 
+               Mortality 
+ 
+ 
+                 16 (23.5) 
+                 10 (41.6) 
+                 0.1151 
+                 0 (0) 
+                 0.0022 
+               
+                 
+             
+               
+           
+             
+           Data are displayed as n (%) or median (IQR). N is the total number of patients with available data. ALP, alkaline phosphatase; APACHE-II, Acute Physiology And Chronic Health Evaluation II; AST, aspartate aminotransferase; ALT, alanine aminotransferase; BMI, body mass index; bpm, breaths/beats per minute; BUN, blood ureic nitrogen; COPD, chronic obstructive pulmonary disease; CPK, creatine phosphokinase; Cr, creatinine; ECMO, extra-corporeal membrane oxygenation; FiO2, fraction of inspired oxygen; HCO3, bicarbonate; Hgb, hemoglobin; IQR, interquartile range; ICU, intensive care unit; LDH, lactate dehydrogenase; MAP, mean arterial pressure; MV, mechanical ventilation; ND, not determined; NLR, neutrophil/lymphocyte ration; OSA, obstructive sleep apnea syndrome; PaO2, partial pressure of oxygen in arterial blood; PCO2, partial pressure of carbon dioxide in blood; SAH, systemic arterial hypertension; SD, standard deviation; SOFA, Sequential Organ Failure Assessment. Differences in continuous variables were estimated using the Mann–Whitney U test. Differences in categorical variables were calculated using the Fisher’s exact or the Chi square test as appropriate. 
+           
+             
+        
+Triage vital signs were similar between groups, except for a higher blood temperature and heart rate in influenza patients. Also, most laboratory parameters routinely tested in emergency departments did not differ between individuals with influenza and COVID-19. The levels of aspartate aminotransferase (AST), lactate dehydrogenase (LDH), alkaline phosphatase (ALP), and procalcitonin were increased in influenza patients as compared to COVID-19 subjects ( Table 1 
+ 
+ ). Similarly, severity of illness scores at admission, including the Sequential Organ Failure Assessment (SOFA), and the Acute Physiology and Chronic Health Evaluation II (APACHE-II), were higher in influenza cases. We should note that despite this, COVID-19 patients showed higher mortality compared to influenza (41  vs . 23%,  p  = 0.1151).
+An additional cohort of 30 patients with active PTB were included in the study. These individuals were sex-matched with influenza patients. However, they presented some differences regarding their clinical and demographic characteristics. First, PTB patients were younger than influenza subjects, with a median age of 38 years. Sixty-six percent were males and showed a lower body mass index (BMI) than influenza and COVID-19 patients. There were no differences in the prevalence of diabetes between groups. Finally, although PTB showed a milder and chronic clinical disease with regards to influenza and COVID-19, they had high degrees of lung damage according to their scores in a quantitative scale that evaluates changes on chest radiographs (data not shown) ( 10 ).
+Expression of CXCL17 in the Lung of Patients With Influenza or COVID-19
+CXCL17 is constitutively expressed in the respiratory tract and lungs of mice and humans ( 1 ,  2 ). Under inflammatory conditions, the production of this chemokine is known to be further upregulated ( 2 ,  4 ,  5 ,  11 ,  12 ). To investigate whether CXCL17 may participate in immunity against the influenza A(H1N1) virus, we analyzed the tissue expression pattern of CXCL17 in lung autopsy specimens obtained from patients who died of influenza. The histological changes induced in the lungs during influenza were mainly characterized by intra-alveolar inflammatory infiltrates consisting of macrophages and polymorphonuclear cells scattered between areas of edema, hemorrhage, and fibrin deposits ( Figure 1A 
+ 
+ , left upper panel). We also noted that the integrity of alveolar walls and the micro-architecture of the lung were conserved in influenza patients ( Supplementary Figure 1 
+ 
+ ). CXCL17 expression was detected mainly within the cytoplasm of infiltrating macrophages, but not in polymorphonuclear cells. The expression of CXCL17 was also detected within alveolar epithelial cells ( Figure 1A 
+ 
+ , left lower panel). Blood vessels and pleura did not express CXCL17 in lung autopsy specimens from influenza patients (data not shown).
+We also evaluated the tissue-expression pattern of CXCL17 in lungs of patients that succumbed to COVID-19. Interestingly, we found that SARS-CoV-2 induced distinctive morphological changes in the infected lung, characterized by an intense inflammatory infiltrate affecting extensive areas of the parenchyma, as well as the thickness of alveolar walls, and partial loss of the histological architecture of the lung ( Supplementary Figure 1 
+ 
+  and  Figure 1A 
+ 
+ , right upper panel). These changes are compatible with interstitial pneumonia. As observed in influenza infected lung sections, the expression of CXCL17 in the lungs of deceased COVID-19 patients was also detected within macrophages and alveolar epithelial cells ( Figure 1A 
+ 
+ , right lower panel). CXCL17 was not expressed in endothelial cells of alveolar capillaries, but pleura showed increased CXCL17 expression (data not shown). Collectively, these findings demonstrate that CXCL17 can be detected in the lungs during influenza and SARS-CoV-2 infection.
+High Serum Levels of CXCL17 Distinguish Influenza From Other Respiratory Infections
+Although CXCL17 is mainly produced at mucosal surfaces, increased serum levels of this chemokine might serve as a readout of active local immune responses. Thus, we addressed whether the CXCL17 expression found in the lungs of influenza- and SARS-CoV-2-infected patients could be also detected in the serum. Our results indicate that CXCL17 levels were significatively elevated in the serum of influenza cases, but not in healthy donors (HD) or COVID-19 subjects. The latter group indeed showed low serum CXCL17 levels, similar to the levels observed in HD ( Figure 1B 
+ 
+ ). These findings contrast with the expression of CXCL17 detected in the lung of COVID-19 patients, suggesting that the levels of CXCL17 in serum and its expression in lung tissue specimens do not correlate during the course of the disease. Nonetheless, our lung immunohistochemical analyses only focused on the expression of this chemokine in the late stages of influenza and COVID-19, whereas serum samples were taken within the first day after patients´ hospital admission. We also measured the levels of CXCL17 in serum samples from PTB patients. Notably, we found that the levels of the chemokine in PTB individuals were much lower compared to those observed in influenza patients ( Figure 1B 
+ 
+ ). In contrast, no differences in serum CXCL17 levels were observed between COVID-19 and PTB patients. These findings suggest distinctive serum CXCL17 dynamics during influenza, COVID-19, and PTB that could potentially be harnessed for diagnostic purposes. This is important since influenza and COVID-19 will converge at some point during the ongoing winter in the North Hemisphere. As such, physicians will require novel rapidly testable diagnostic biomarkers to discriminate both diseases, specially at setting of limited availability of RT-PCR tests.
+Hence, next we investigated if CXCL17, along with other clinical characteristics, could have certain diagnostic value to discriminate between both viral infections. In an unsupervised clustering analysis, we found that some influenza patients grouped together according to their clinical and laboratory parameters, but another cluster was formed by combined influenza and COVID-19 subjects ( Figure 1C 
+ 
+ ). This suggests that the differentiation of the two infections by clinical characteristics would be difficult in the emergency room. Nonetheless, in a random forest analysis, CXCL17 was among the most explicative variables of the viral subtype ( Figure 1D 
+ 
+ ). Indeed, in a bivariate logistic regression analysis using the variables identified in the random forest algorithm, only CXCL17, along with procalcitonin, showed significant association with influenza ( Supplementary Figure 2 
+ 
+ ). LDH and ALP were marginally associated with influenza, whereas platelets showed no correlation with any type of infection. Interestingly, although irrelevant in the random forest algorithm, symptoms such as dyspnea, rhinorrhea, and sputum production were predictors of influenza, whereas dry cough and vomit were associated with COVID-19.
+To further estimate the diagnostic value of CXCL17, we performed a ROC curve analysis with the serum levels of CXCL17 of influenza and COVID-19 subjects. We observed that CXCL17 levels could reliably differentiate between influenza and COVID-19, with an AUC of 0.81 ( Figure 1E 
+ 
+ ). Using a cut-off value of 841 pg/ml, elevated serum levels of this chemokine have a 78.2% sensitivity, 73.5% specificity, 89.2% PPV, 51.3% NPV, and an OR of 8.79 (3.1–26, 95% CI) to distinguish influenza from COVID-19. Together, our results point to the diagnostic use of serum CXCL17 levels in patients with acute respiratory illness to enable distinguishing infection between these viruses, although these findings must be validated in larger cohorts of patients, as well as in patients infected with seasonal influenza viruses.
+Dynamics and Prognostic Value of Serum CXCL17 Levels in Influenza
+Next, we evaluated the dynamics of serum CXCL17 levels during influenza. For this purpose, we grouped influenza patients according to the duration of their illness, defined as the period from symptom onset to hospital admission. Interestingly, we found that levels of CXCL17 increased early in influenza patients within the first two days following the onset of symptoms, and levels remained increased during the first two weeks of illness. However, the maximum levels of CXCL17 were observed among influenza patients seeking medical attention three weeks after the onset of symptoms ( Figure 2A 
+ 
+ ). In 54 of the 68 influenza patients enrolled in the study, an additional serum sample was obtained seven days (D7) following hospital admission (D0). Although there were no differences in CXCL17 between D0 and D7, most patients showed constant or decreasing chemokine levels ( Figure 2B 
+ 
+ ), except for one individual who showed a notable increase in CXCL17 and succumbed to the infection. Overall, the dynamics of CXCL17 levels post-hospital admission were similar in survivors and deceased influenza patients ( Figure 2C 
+ 
+ ).
+Importantly, serum levels of CXCL17 at D0 were significatively higher in patients who died of influenza as compared to survivors ( Figure 2D 
+ 
+ ). Indeed, CXCL17 again was among the variables with the higher importance for influenza-associated mortality in a random forest analysis ( Figure 2E 
+ 
+ ), showing an AUC of 0.70 to differentiate both groups in the ROC curve analysis ( Figure 2F 
+ 
+ ). Serum levels of CXCL17 above 1,128 pg/ml predicted a fatal outcome with a 75% sensitivity and 50% specificity, showing a non-significant OR value for mortality of 3.0 (0.86–9.24, 95% CI). The survival of patients with CXCL17 below such cut-off value was lower at day 14 after admission when compared to individuals with higher levels of this chemokine ( Figure 2G 
+ 
+ ,  Table 2 
+ 
+ ). Conversely, accumulated survival at days 28 and 60 following hospital admission was lower in influenza patients with serum levels of CXCL17 ≥1,128 pg/ml.
+
+           Table 2 
+           Cumulative survival rates in patients with influenza according with their serum CXCL17 levels. 
+           
+             
+           Time after hospital admission 
+                 Survival (%, 95% CI) 
+               
+                 
+               CXCL17 <1,128 pg/ml 
+                 CXCL17 ≥ 1,128 pg/ml 
+               
+                 
+             
+               
+             7 days 
+                 96.66 (78.6–99.52) 
+                 94.73 (80.55–98.65) 
+               
+                 
+               14 days 
+                 84.86 (64.38–94.06) 
+                 91.776 (76.56–97.27) 
+               
+                 
+               21 days 
+                 84.86 (64.38–94.06) 
+                 85.06 (67.5–94.16) 
+               
+                 
+               28 days 
+                 84.86 (64.38–94.06) 
+                 63.33 (41.48–78.89) 
+               
+                 
+               60 days 
+                 84.86 (64.38–94.06) 
+                 31.66 (1.93-71.53) 
+               
+                 
+             
+               
+           
+             
+           Survival rates and their 95% CI were estimated using the Kaplan-Meyer method and the log rank test. 
+           
+             
+        
+Most clinical and laboratory parameters did not differ between the two groups of influenza patients ( Supplementary Table 2 
+ 
+ ). Furthermore, none of these clinical characteristics impacted the serum levels of CXCL17 ( Figure 3A 
+ 
+ ), and this chemokine was not associated with the severity of ARDS in terms of the PaO2/FiO2 values at admission ( Figure 3B 
+ 
+ ). These results together suggest that CXCL17 represents an independent prognostic factor for mortality in influenza. In contrast, no differences in serum CXCL17 levels at admission were observed between survivor- and deceased-COVID-19 patients ( Figure 3C 
+ 
+ ), and this chemokine showed no correlation with the lung damage score of patients with PTB ( Supplementary Figure 3 
+ 
+ ).
+We also noted that CXCL17 was increased among influenza patients that developed acute kidney injury (AKIN;  Figure 3D 
+ 
+ ), and its levels were even higher in individuals requiring renal replacement therapy ( Figure 3E 
+ 
+ ). Using the same cut-off value of 1,128pg/mL, elevated serum levels of CXCL17 showed a 73.6% sensitivity, 51% specificity, and a non-significant OR of 2.91 (0.96–8.28, 95% CI) to predict the development of AKIN ( Figure 3F 
+ 
+ ). Similarly, increased levels of CXCL17 showed an 87.5% sensitivity, 53.8% specificity, and a significant OR of 8.16 (1.71–38, 95% CI) to predict the need for renal replacement therapy ( Figure 3G 
+ 
+ ).
+Influenza A(H1N1) pdm09 Virus Induces the Production of CXCL17 in Human Lung Epithelial Cells and Macrophages
+The higher levels of CXCL17 in sera from influenza patients prompted us to investigate the possible cellular sources of CXCL17 during influenza. To this end, we infected human A549 lung alveolar epithelial cells and peripheral blood monocyte-derived macrophages with a clinical isolate of the influenza A(H1N1) pdm09 virus. Interestingly, while both human cell types produced high amounts of CXCL17 at 24 h, 48h, and 72h after the infection, A549 epithelial cells produced lower levels of CXCL17 in response to influenza as compared to macrophages ( Figures 3H, I 
+ 
+ ). These findings are consistent with the expression of CXCL17 in lung macrophages and alveolar epithelial cells in autopsy specimens from our influenza patients. This suggests that the influenza A(H1N1) pdm09 virus stimulates CXCL17 expression in humans, both  in vivo  and  in vitro . However, further analyses are required to confirm a role for CXCL17 in influenza.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="16359~16365" text="CXCL17" location="result" />
+<GENE id="G1" spans="16669~16675" text="CXCL17" location="result" />
+<GENE id="G2" spans="16786~16792" text="CXCL17" location="result" />
+<GENE id="G3" spans="17313~17319" text="CXCL17" location="result" />
+<GENE id="G4" spans="17455~17461" text="CXCL17" location="result" />
+<GENE id="G5" spans="17591~17597" text="CXCL17" location="result" />
+<GENE id="G6" spans="17717~17723" text="CXCL17" location="result" />
+<GENE id="G7" spans="18276~18282" text="CXCL17" location="result" />
+<GENE id="G8" spans="18431~18437" text="CXCL17" location="result" />
+<GENE id="G9" spans="18530~18536" text="CXCL17" location="result" />
+<GENE id="G10" spans="18612~18618" text="CXCL17" location="result" />
+<GENE id="G11" spans="18712~18718" text="CXCL17" location="result" />
+<GENE id="G12" spans="18784~18790" text="CXCL17" location="result" />
+<GENE id="G13" spans="18962~18968" text="CXCL17" location="result" />
+<GENE id="G14" spans="19109~19115" text="CXCL17" location="result" />
+<GENE id="G15" spans="19280~19286" text="CXCL17" location="result" />
+<GENE id="G16" spans="19398~19404" text="CXCL17" location="result" />
+<GENE id="G17" spans="19478~19484" text="CXCL17" location="result" />
+<GENE id="G18" spans="19856~19862" text="CXCL17" location="result" />
+<GENE id="G19" spans="20090~20096" text="CXCL17" location="result" />
+<GENE id="G20" spans="20194~20200" text="CXCL17" location="result" />
+<GENE id="G21" spans="20635~20641" text="CXCL17" location="result" />
+<GENE id="G22" spans="21186~21192" text="CXCL17" location="result" />
+<GENE id="G23" spans="21394~21400" text="CXCL17" location="result" />
+<GENE id="G24" spans="21889~21895" text="CXCL17" location="result" />
+<GENE id="G25" spans="21956~21962" text="CXCL17" location="result" />
+<GENE id="G26" spans="22016~22022" text="CXCL17" location="result" />
+<GENE id="G27" spans="22407~22413" text="CXCL17" location="result" />
+<GENE id="G28" spans="22699~22705" text="CXCL17" location="result" />
+<GENE id="G29" spans="22767~22773" text="CXCL17" location="result" />
+<GENE id="G30" spans="22994~23000" text="CXCL17" location="result" />
+<GENE id="G31" spans="23198~23204" text="CXCL17" location="result" />
+<GENE id="G32" spans="23516~23522" text="CXCL17" location="result" />
+<GENE id="G33" spans="23681~23687" text="CXCL17" location="result" />
+<GENE id="G34" spans="23745~23751" text="CXCL17" location="result" />
+<GENE id="G35" spans="23889~23895" text="CXCL17" location="result" />
+<GENE id="G36" spans="24016~24022" text="CXCL17" location="result" />
+<GENE id="G37" spans="24275~24281" text="CXCL17" location="result" />
+<GENE id="G38" spans="24477~24483" text="CXCL17" location="result" />
+<GENE id="G39" spans="24911~24917" text="CXCL17" location="result" />
+<GENE id="G40" spans="25083~25089" text="CXCL17" location="result" />
+<GENE id="G41" spans="25121~25127" text="CXCL17" location="result" />
+<GENE id="G42" spans="26287~26293" text="CXCL17" location="result" />
+<GENE id="G43" spans="26478~26484" text="CXCL17" location="result" />
+<GENE id="G44" spans="26594~26600" text="CXCL17" location="result" />
+<GENE id="G45" spans="26843~26849" text="CXCL17" location="result" />
+<GENE id="G46" spans="27120~27126" text="CXCL17" location="result" />
+<GENE id="G47" spans="27310~27316" text="CXCL17" location="result" />
+<GENE id="G48" spans="27537~27543" text="CXCL17" location="result" />
+<GENE id="G49" spans="27612~27618" text="CXCL17" location="result" />
+<GENE id="G50" spans="27711~27717" text="CXCL17" location="result" />
+<GENE id="G51" spans="27983~27989" text="CXCL17" location="result" />
+<GENE id="G52" spans="28080~28086" text="CXCL17" location="result" />
+<GENE id="G53" spans="28215~28221" text="CXCL17" location="result" />
+<GENE id="G54" spans="28386~28392" text="CXCL17" location="result" />
+<GENE id="G55" spans="28507~28513" text="CXCL17" location="result" />
+<DISEASE id="D0" spans="66~75" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D1" spans="187~196" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D2" spans="283~291" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D3" spans="377~386" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D4" spans="426~434" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D5" spans="488~495" text="obesity" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D6" spans="518~527" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D7" spans="832~841" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D8" spans="896~904" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D9" spans="1109~1118" text="Influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D10" spans="1146~1154" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D11" spans="1221~1224" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D12" spans="2321~2329" text="Diabetes" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="2876~2880" text="COPD" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D14" spans="13882~13886" text="COPD" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D15" spans="13888~13925" text="chronic obstructive pulmonary disease" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D16" spans="14864~14873" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D17" spans="14999~15008" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D18" spans="15013~15021" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D19" spans="15198~15206" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D20" spans="15429~15438" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D21" spans="15480~15488" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D22" spans="15534~15543" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D23" spans="15622~15625" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D24" spans="15694~15703" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D25" spans="15820~15823" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D26" spans="15851~15860" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D27" spans="15977~15986" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D28" spans="15991~15999" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D29" spans="16057~16065" text="diabetes" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D30" spans="16165~16174" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D31" spans="16179~16187" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D32" spans="16395~16404" text="Influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D33" spans="16408~16416" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D34" spans="16716~16725" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D35" spans="16854~16863" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D36" spans="17262~17271" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D37" spans="17629~17638" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D38" spans="17763~17771" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D39" spans="18198~18207" text="pneumonia" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D40" spans="18224~18233" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D41" spans="18308~18316" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D42" spans="18655~18664" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D43" spans="18731~18740" text="Influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D44" spans="19002~19011" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D45" spans="19169~19178" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D46" spans="19220~19228" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D47" spans="19429~19437" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D48" spans="19711~19720" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D49" spans="19725~19733" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D50" spans="19885~19888" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D51" spans="19953~19956" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D52" spans="20015~20024" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D53" spans="20126~20134" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D54" spans="20139~20142" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D55" spans="20217~20226" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D56" spans="20228~20236" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D57" spans="20242~20245" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D58" spans="20345~20353" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D59" spans="20976~20984" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D60" spans="20962~20971" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D61" spans="21464~21473" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D62" spans="21550~21559" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D63" spans="21775~21784" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D64" spans="21835~21843" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D65" spans="21966~21975" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D66" spans="21980~21988" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D67" spans="22067~22076" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D68" spans="22081~22089" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D69" spans="22323~22332" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D70" spans="22338~22346" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D71" spans="22641~22650" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D72" spans="22716~22725" text="Influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D73" spans="22788~22797" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D74" spans="22828~22837" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D75" spans="23020~23029" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D76" spans="23225~23234" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D77" spans="23345~23354" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D78" spans="24084~24093" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D79" spans="24738~24747" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D80" spans="26156~26165" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D81" spans="26372~26376" text="ARDS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D82" spans="26546~26555" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D83" spans="26666~26674" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D84" spans="26788~26791" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D85" spans="26870~26879" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D86" spans="27481~27490" text="Influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D87" spans="27884~27893" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D88" spans="28302~28311" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D89" spans="28345~28354" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D91" spans="28517~28526" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<RELATION id="R1" spans="18691~18708" text="High Serum Levels" location="result" relation="increased expression" />
+<RELATION id="R2" spans="19144~19165" text="elevated in the serum" location="result" relation="increased expression" />
+<RELATION id="R4" spans="22984~22990,23001~23010" text="levels ... increased" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G11" geneText="CXCL17" diseaseID="D43" diseaseText="Influenza" relationID="R1" relationText="High Serum Levels" />
+<ENTITY_LINKING id="E1" geneID="G14" geneText="CXCL17" diseaseID="D45" diseaseText="influenza" relationID="R2" relationText="elevated in the serum" />
+<ENTITY_LINKING id="E2" geneID="G30" geneText="CXCL17" diseaseID="D75" diseaseText="influenza" relationID="R4" relationText="levels ... increased" />
+</TAGS>
+</Genomics_ConceptTask>

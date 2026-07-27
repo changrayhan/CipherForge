@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+
+ Supplementary Table 1 Breast Cancer Patient Characteristics within Subgroups (DOCX 16 kb) 
+ Supplementary Table 2 Breast Cancer Patient Characteristics within Subgroups (DOCX 15 kb) 
+
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="25~38" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="117~130" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

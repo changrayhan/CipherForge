@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+A 71-year-old female was diagnosed with invasive ductal carcinoma of the left breast two years ago. The tumor was histologic grade2, ER+ / PR+ / HER2-. The patient underwent a mastectomy followed by adjuvant endocrine therapy. She was found to have an incidental small bowel mass on a CT scan during her follow-up. The mass was located 50-60 cm from the ileocecal valve. Clinically and radiologically, the mass was suspicious for either metastatic disease or gastrointestinal stromal tumor. The patient underwent open small bowel resection, and a 6.5 cm segment of the small bowel was sent to pathology. Grossly, a 2.0 cm tan-pink smooth round submucosal polyploid mass protruding into the lumen was identified ( Figure 1 A). The tumor was hard and serially sectioned to reveal a white, calcified cut surface. Microscopically, the tumor appeared hypocellular and composed of scant spindle cells embedded in a dense, hyalinized and calcified, collagenous stroma ( Figure 1 B, and  Figure 2 ). No cytologic atypia or mitotic activity were identified. There was no inflammatory infiltrate, except for occasional scattered lymphocytes. Immunohistochemical stains were performed to rule out differential diagnoses, and the spindle cells were found to be negative for pan-cytokeratin, DOG1, desmin, S100, CD34, and MUC4. A final diagnosis of calcifying fibrous tumor was rendered.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="146~150" text="HER2" location="result" />
+<GENE id="G1" spans="1280~1284" text="DOG1" location="result" />
+<GENE id="G2" spans="1286~1292" text="desmin" location="result" />
+<GENE id="G3" spans="1294~1298" text="S100" location="result" />
+<GENE id="G4" spans="1300~1304" text="CD34" location="result" />
+<GENE id="G5" spans="1310~1314" text="MUC4" location="result" />
+<DISEASE id="D0" spans="41~66" text="invasive ductal carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

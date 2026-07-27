@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Animals and Diet
+Male Sprague-Dawley rats (200–250 g) were obtained from the National Laboratory Animal Center, Mahidol University, Thailand. The rats were maintained in an environmentally controlled room (23 ± 2 °C, with a 12 h light/12 h dark cycle) and given access to food and water ad libitum. All experiments were conducted according to protocols approved by the Siriraj Animal Care and Use Committee (SiACUC) from the Faculty of Medicine of Siriraj Hospital, Mahidol University, and complied with international guidelines for animal research protection, such as the International Guiding Principles for Biochemical Research Involving Animals (SiACUP number: SI-ACAP 008/2557).
+Parboiled germinated brown rice (PGBR), brown rice (BR), and white rice (WR) were produced from a rice variety grown in Thailand, Khao Dawk Mali 105  (Oryza sativa  L. ssp.  indica  cv. KDML 105). PGBR was prepared according to the method developed by Rattanadee et al. (2011) [ 12 ]. In brief, all three types of rice were cooked in an electric rice cooker (1.8 L, Sharp KS-19ET) and then freeze-dried ( Supplementary Table S1 ).
+The freeze-dried rice powders were stored at −20 °C until use. The proximate compositions of the powders are presented in the  Supplementary Materials . The AIN76A diet (basal diet) was composed of corn starch (15%,  w / w ), casein (20%,  w / w ), DL-methionine (0.3%,  w / w ), sucrose (49.9%,  w / w ), corn oil (5%,  w / w ), cellulose powder (5%,  w / w ), mineral mix (3.5%,  w / w ), vitamin mix (1%,  w / w ), and choline bitartrate (0.2%,  w / w ). The rice powders (PGBR, BR, and WR) replaced corn starch in the AIN76A diet (15%) with ad libitum feeding and became the PGBR, BR and WR diets, respectively. The components of each diet were designed based on the macronutrient compositions in the rice ( Supplementary Tables S2 and S3 ).
+2.2. Experimental Design
+The experimental design and treatment are illustrated in  Figure 1 . Following a one-week acclimatization period, the rats were randomly divided into six groups with seven animals each. The hypertensive groups were given  N -nitro-L-arginine methyl ester (L-NAME) in the drinking water for a daily intake of 20 mg/kg throughout the experimental period (12 weeks). The rats started to consume the rice diets after four weeks until the end of the experimental period. Systolic blood pressures were measured weekly by the indirect method of tail-cuff occlusion in conscious animals using a Niprem 645 pressure recorder (Cibertec, Barcelona, Spain) [ 13 ].
+The rats were divided into six groups of seven animals as follows:
+Group 1: normotensive rats that received the basal diet (control);
+Group 2: hypertensive rats that received the basal diet;
+Group 3: hypertensive rats that received the basal diet and losartan (an anti-hypertensive drug);
+Group 4: hypertensive rats that received the WR diet;
+Group 5: hypertensive rats that received the BR diet;
+Group 6: hypertensive rats that received the PGBR diet.
+At the end of the treatment period of eight weeks, the animals were anesthetized by the inhalation of CO 2 . The body weight was recorded, and the heart was removed intact and weighed for each rat. The heart tissues were frozen and stored at −80 °C until analysis.
+2.3. Gene Expression Analysis
+The tissue for RNA isolation was the left ventricle, and RNA was extracted using an RNA isolation kit (Roche Diagnostics Corp., Indianapolis, IN, USA). The purity and quantity of the RNA were determined using a NanoDrop UV Spectrophotometer (Thermo Scientific, Wilmington, DE, USA). To measure the mRNA level, complementary DNA was amplified by a quantitative real-time polymerase chain reaction (Lightcycler 96) (Roche Diagnostics Corp., Indianapolis, IN, USA) using a SYBR Green kit (Roche Diagnostics Corp., Indianapolis, IN, USA). The forward and reverse primers used in this study [ 13 , 14 , 15 , 16 ] are shown in  Supplementary Table S4 . The quantitative fold changes in mRNA expression were determined relative to beta-actin (β-actin) using the 2 −ΔΔCT  method [ 17 ].
+2.4. Histopathological Examination
+The tissue for the histology assay was the left atrium. The tissue was fixed with a 10% formaldehyde buffer and embedded in paraffin. Samples of 5 µm thickness were stained with hematoxylin and eosin, followed by examination under a light microscope (Olympus, Tokyo, Japan). A cross section of the heart was evaluated from photographs of whole tissue sections taken at 40× magnification by a pathologist at the National Laboratory Animal Center, Mahidol University, who was blinded to the treatments.
+2.5. Statistical Analysis
+Data are presented as means ± standards error of the means (SEM). Statistical comparisons between the groups were performed using the Mann–Whitney U test. All statistical analyses were performed using the Statistical Package for the Social Sciences for Windows (SPSS) version 18.0. The significance level was 0.05 (α = 0.05).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="4017~4027" text="beta-actin" location="result" />
+<GENE id="G1" spans="4029~4036" text="β-actin" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

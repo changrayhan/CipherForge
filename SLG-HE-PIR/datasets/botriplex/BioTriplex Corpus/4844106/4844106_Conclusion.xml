@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In conclusion, our findings demonstrate the susceptibility of various  SMN2  exons to skipping under the conditions of OS and implicate multiple cis-elements and transacting factors in splicing regulation of different  SMN  exons under normal and OS conditions.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="72~76" text="SMN2" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

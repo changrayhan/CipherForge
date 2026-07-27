@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cholesteatoma suppurative otitis media is the result of a chronic inflammatory process. Histologicaly cholesteatoma itself is a cyst enclosed in a multi-layered keratinizing squamous epithelium wall, containing epithelial keratin debris. It is characterized by locally invasive behavior and frequent recurrence due to uncoordinated cell proliferation and extensive bone destruction. The suggested pathomechanism of cholesteatoma involves an inflammatory process associated with changes in cell signaling pathways and possibly genetic defects. The characteristic aggressive behavior of cholesteatoma might be the result of interactions between these factors [ 2 ].
+Previously we have reported a significantly elevated c-MYC expression level in cholesteatoma samples, now we have determined the mRNA expression pattern of five additional genes in samples of our original cohort to obtain additional information about the molecular background of cholesteatoma. In this study patient samples were stratified into four groups according to age of onset and clinicopathologic characteristics of patients: pediatric (age below 18 year) recurrent or nonrecurrent cholesteatoma and adult (age above 18 year) recurrent or nonrecurrent cholesteatoma. The quantitative assessment of the expression KRT1, KRT10, KRT19, MMP9 and TP53 genes was carried out in our surgical samples using RT-QPCR methodology. Normal skin samples derived from the retroauricular region of healthy individuals were used as control for all measurements.
+First we have assessed the expression pattern of the cytokeratin genes KRT1, KRT10 and KRT19. It was warranted by previous studies which have suggested the involvement of a number of cytokeratins in the background of the hyperproliferative phenotype of cholesteatoma [ 19 – 23 ]. Cytokeratins are members of the IF superfamily present in cells with epithelial origin, typically expressed in a highly regulated, tissue-specific, cell cycle stage and differentiation-dependent manner. Therefore cytokeratins frequently used as markers of cell migration, differentiation and proliferation state in epithelial cells. Moreover recent reports suggest that interactions between keratins and other proteins modulate signaling cascades that regulate cell migration, invasion, and metastasis. According to this suggestion several cytokeratins were found differently expressed in malignant epithelial cells, their specific expression pattern frequently correlated with the prognosis and metastatic potential of certain tumors, like in breast cancer and tumors of the oral cavity [ 24 – 25 ]. KRT1 is coexpressed with KRT10 in the suprabasal layer of the epidermis, elevated expression of the KRT1/KRT10 complex indicate increased terminal differentiation of keratinocytes. KRT19 is specifically expressed in the periderm of the developing epidermis [ 26 ]. Although KRT19 is one of the most frequently used marker for tumor cell detection, recent results showed, that KRT19 is a potential tumor suppressor. It negatively regulates Akt signaling through modulation of Egr1 nuclear localization. It also down regulates cell proliferation and migration through promoting the nuclear translocation of β-catenin thus modulating the NUMB-dependent NOTCH signaling pathway [ 22 ], [ 27 – 29 ]. In normal skin, the epithelial differentiation and proliferation processes are well balanced, therefore differences that might be observed in the expression of KRT genes between the cholesteatoma and normal skin samples could help to characterize the cellular differentiation and proliferation state of cholesteatoma.
+In our cholesteatoma samples KRT1 and KRT10 showed identical expression patterns as it was expected, since they protein products are known to form heteroduplex in cells. This data could serve as an internal control to validate the accuracy of our measurements. The expression level of KRT1 and KRT10 genes in the pediatric recurrent group was higher than that of the control and nonrecurrent pediatric groups but the difference was not significant. The expression of the two genes suggests an ongoing keratinocyte differentiation and keratinization process especially in pediatric recurrent cases. The significantly reduced expression of KRT1 and KRT10 in the adult group might shift the proliferation-differentiation balance of cells toward dedifferentiation and proliferation, especially in the recurrent group.
+The expression level of KRT19 appears to be inversely proportional to that of KRT1/KRT10, it was lower in the more invasive recurrent cases in our pediatric and adult groups, too. Since its reduced level might be associated with elevated cell proliferation potential its lower expression level suggests worse prognosis for recurrence. This suggestion correlates with the high recurrence frequency found in pediatric cases.
+The type IV/V collagenase matrix metallopeptidase 9 (MMP9) enzyme could degrade the extracellular matrix in normal physiological processes and under pathological conditions, too. Several studies suggested that its increased expression is required for tissue remodeling during tumor progression, needed for invasion and metastasis generation. Compared to the control sample, the expression of the MMP9 was significantly increased in the recurrent cholesteatoma group, the highest mRNA expression level was found in adult recurrent cases. The elevated production of MMP9 likely plays an important role in the proteolysis of the extracellular matrix and local bone destruction. The elevated c-MYC expression we have detected previously in cholesteatoma might contribute to the increased MMP9 expression since the MMP9 promoter harbors a c-MYC binding site [ 18 ,  30 – 32 ].
+The expression of the TP53 gene did not show significant differences between patients and controls in any comparisons. Compared to control samples the highest TP53 expression was found in pediatric recurrent samples, it was also elevated, although to a lesser extent in adult nonrecurrent cases. In our previous work the highest c-MYC expression level was found in children with recurrent cholesteatoma, this elevated c-MYC level might lead to higher TP53 expression since two c-MYC binding sites are present in the promoter of TP53 [ 33 ]. Although p53 activity is regulated mainly on posttranscriptional level, the somewhat elevated p53 expression might counteract the effect of over expressed c-MYC on apoptosis and cell proliferation [ 34 – 35 ]. C-MYC is thought to be a key factor in tumorogenesis, however over expression of c-MYC alone does not induce tumorogenesis, p53 protein can balance its effect thorough the activation of apoptosis [ 36 ]. The expression levels of KRT19 found in our samples point toward that balancing effect, too.
+Changes in the expression levels of the five genes found in our single pediatric patient with recurrence during the study period nicely correlates with the gene expression patterns described above.
+Based on our results it can be concluded that the expression pattern of KRT1, KRT10 and KRT19 genes seen in our pediatric cholesteatoma samples suggests elevated immature keratinocyte differentiation and elevated proliferation potential, especially in recurrent samples. On the other hand expression pattern of these markers seen in adult samples is consistent with keratinocyte dedifferentiation and cell cycle deregulation in the recurrent group, however, the elevated KRT19 expression in the nonrecurrent group might repress the latest process. Increased MMP9 production is consistent with the aggressive, destructive phenotype of cholesteatoma. TP53 mRNA expression does not seem to play an important role in the pathogenesis of cholesteatoma.
+We can conclude, that the expression pattern of the five genes in our cholesteatoma samples suggests that cholesteatoma is a noncancerous tumor with a strong potential for recurrence. The differences in the expression pattern of the KRT1 and KRT10 genes observed in our study support the hypothesis that distinctly altered cellular differentiation processes are associated with cholesteatoma formation in pediatric and adult cases. KRT19 expression might have prognostic significance, its lower level in pediatric cases could be associated with the more aggressive behavior of childhood cholesteatoma.
+It is clear that our study has some limitations, such as the small sample size and the low number of genes investigated. Further studies using larger populations are needed possibly in a different cohort to replicate our results in order to clarify the molecular pathomechanism of the disease and characterize differences between pediatric and adult cholesteatoma. Another limitation is the use of retroauricular skin as control instead of using samples taken from the tympanic membrane or external ear canal. We are aware of the fact that retroauricular skin is not the most appropriate control sample for cholesteatoma, however, several studies have used this sample as control according to previous publications [ 10 ,  14 ,  16 ]. Moreover, at the end of surgical removal of cholesteatoma, it is difficult to obtain a sample from the external auditory ear canal due to the necessary reconstruction of this anatomical region, or from the tympanic membrane since it is frequently damaged in cholesteatoma.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="718~723" text="c-MYC" location="background" />
+<GENE id="G1" spans="1286~1290" text="KRT1" location="result" />
+<GENE id="G2" spans="1292~1297" text="KRT10" location="result" />
+<GENE id="G3" spans="1299~1304" text="KRT19" location="result" />
+<GENE id="G4" spans="1306~1310" text="MMP9" location="result" />
+<GENE id="G5" spans="1315~1319" text="TP53" location="result" />
+<GENE id="G6" spans="1589~1593" text="KRT1" location="result" />
+<GENE id="G7" spans="1595~1600" text="KRT10" location="result" />
+<GENE id="G8" spans="1605~1610" text="KRT19" location="result" />
+<GENE id="G9" spans="2624~2629" text="KRT10" location="background" />
+<GENE id="G10" spans="2599~2603" text="KRT1" location="background" />
+<GENE id="G11" spans="2699~2703" text="KRT1" location="background" />
+<GENE id="G12" spans="2704~2709" text="KRT10" location="background" />
+<GENE id="G13" spans="2780~2785" text="KRT19" location="background" />
+<GENE id="G14" spans="2873~2878" text="KRT19" location="background" />
+<GENE id="G15" spans="2975~2980" text="KRT19" location="background" />
+<GENE id="G16" spans="3038~3041" text="Akt" location="background" />
+<GENE id="G17" spans="3074~3078" text="Egr1" location="background" />
+<GENE id="G18" spans="3204~3213" text="β-catenin" location="background" />
+<GENE id="G19" spans="3234~3238" text="NUMB" location="background" />
+<GENE id="G20" spans="3641~3645" text="KRT1" location="result" />
+<GENE id="G21" spans="3650~3655" text="KRT10" location="result" />
+<GENE id="G22" spans="3897~3901" text="KRT1" location="result" />
+<GENE id="G23" spans="3906~3911" text="KRT10" location="result" />
+<GENE id="G24" spans="4250~4254" text="KRT1" location="result" />
+<GENE id="G25" spans="4259~4264" text="KRT10" location="result" />
+<GENE id="G26" spans="4450~4455" text="KRT19" location="result" />
+<GENE id="G27" spans="4504~4508" text="KRT1" location="result" />
+<GENE id="G28" spans="4509~4514" text="KRT10" location="result" />
+<GENE id="G29" spans="4875~4900" text="matrix metallopeptidase 9" location="result" />
+<GENE id="G30" spans="4902~4906" text="MMP9" location="result" />
+<GENE id="G31" spans="5245~5249" text="MMP9" location="result" />
+<GENE id="G32" spans="5413~5417" text="MMP9" location="result" />
+<GENE id="G33" spans="5537~5542" text="c-MYC" location="background" />
+<GENE id="G34" spans="5633~5637" text="MMP9" location="result" />
+<GENE id="G35" spans="5659~5663" text="MMP9" location="background" />
+<GENE id="G36" spans="5683~5688" text="c-MYC" location="background" />
+<GENE id="G37" spans="5743~5747" text="TP53" location="result" />
+<GENE id="G38" spans="5880~5884" text="TP53" location="result" />
+<GENE id="G39" spans="6050~6055" text="c-MYC" location="background" />
+<GENE id="G40" spans="6139~6144" text="c-MYC" location="background" />
+<GENE id="G41" spans="6172~6176" text="TP53" location="background" />
+<GENE id="G42" spans="6198~6203" text="c-MYC" location="background" />
+<GENE id="G43" spans="6271~6274" text="p53" location="background" />
+<GENE id="G44" spans="6356~6359" text="p53" location="background" />
+<GENE id="G45" spans="6249~6253" text="TP53" location="background" />
+<GENE id="G46" spans="6417~6422" text="c-MYC" location="background" />
+<GENE id="G47" spans="6472~6477" text="C-MYC" location="background" />
+<GENE id="G48" spans="6553~6558" text="c-MYC" location="background" />
+<GENE id="G49" spans="6596~6599" text="p53" location="background" />
+<GENE id="G50" spans="6701~6706" text="KRT19" location="result" />
+<GENE id="G51" spans="7039~7043" text="KRT1" location="result" />
+<GENE id="G52" spans="7045~7050" text="KRT10" location="result" />
+<GENE id="G53" spans="7055~7060" text="KRT19" location="result" />
+<GENE id="G54" spans="7438~7443" text="KRT19" location="result" />
+<GENE id="G55" spans="7525~7529" text="MMP9" location="result" />
+<GENE id="G56" spans="7616~7620" text="TP53" location="result" />
+<GENE id="G57" spans="7948~7952" text="KRT1" location="result" />
+<GENE id="G58" spans="7957~7962" text="KRT10" location="result" />
+<GENE id="G59" spans="8147~8152" text="KRT19" location="result" />
+<DISEASE id="D0" spans="1~14" text="Cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="15~39" text="suppurative otitis media" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="103~116" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="416~429" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="586~599" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="744~757" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="944~957" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1155~1168" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1225~1238" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1771~1784" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2542~2555" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3597~3610" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="3619~3632" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="5295~5308" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="5585~5598" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="6110~6123" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="7089~7102" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="7601~7614" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="7700~7713" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="7785~7798" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="7821~7834" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="8093~8106" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="8302~8315" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="8667~8680" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="8924~8937" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="9096~9109" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="9310~9323" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="5227~5237,5250~5277" text="expression ... was significantly increased" location="result" relation="increased expression" />
+<RELATION id="R1" spans="5528~5536,5543~5553" text="elevated ... expression" location="background" relation="increased expression" />
+<RELATION id="R2" spans="6042~6049,6056~6066,6066~6072" text="highest ... expression ...  level" location="background" relation="increased expression" />
+<RELATION id="R3" spans="7637~7696" text="does not seem to play an important role in the pathogenesis" location="result" relation="no relation" />
+<RELATION id="R4" spans="8175~8198" text="prognostic significance" location="result" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G31" geneText="MMP9" diseaseID="D14" diseaseText="cholesteatoma" relationID="R0" relationText="expression ... was significantly increased" />
+<ENTITY_LINKING id="E1" geneID="G33" geneText="c-MYC" diseaseID="D15" diseaseText="cholesteatoma" relationID="R1" relationText="elevated ... expression" />
+<ENTITY_LINKING id="E2" geneID="G39" geneText="c-MYC" diseaseID="D16" diseaseText="cholesteatoma" relationID="R2" relationText="highest ... expression ...  level" />
+<ENTITY_LINKING id="E3" geneID="G56" geneText="TP53" diseaseID="D19" diseaseText="cholesteatoma" relationID="R3" relationText="does not seem to play an important role in the pathogenesis" />
+<ENTITY_LINKING id="E4" geneID="G59" geneText="KRT19" diseaseID="D23" diseaseText="cholesteatoma" relationID="R4" relationText="prognostic significance" />
+</TAGS>
+</Genomics_ConceptTask>

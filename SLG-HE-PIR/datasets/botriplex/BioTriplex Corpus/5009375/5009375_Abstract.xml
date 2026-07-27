@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: GRAM domain-containing protein 1A (GRAMD1A) promotes the expansion of hepatocellular carcinoma stem cell and hepatocellular carcinoma growth through STAT5.
+Abstract: Hepatocellular carcinoma (HCC) is the leading cause for cancer death worldwide, new prognostic factors and targets are critical for HCC treatment. Here, we found GRAMD1A was upregulated in HCC tissues, patients with high GRAMD1A levels had poor outcome, statistical analyses found GRAMD1A expression was positively correlated with pathologic differentiation and survival or mortality. It was an unfavorable prognostic factor for HCC patients. Functional analyses revealed GRAMD1A contributed to the self-renewal of HCC stem cells, resistance to chemotherapy and tumor growth of HCC determined by hepatosphere formation assay, side population (SP) analysis, TUNEL assay, soft agar growth ability assay and tumor growth model  in vivo . Mechanism analyses found signal transducer and activator of transcription 5 (STAT5) was the target of GRAMD1A, GRAMD1A regulated the target genes of STAT5 and the transcriptional activity of STAT5. Inhibition of STAT5 in indicated HCC cells overexpressing GRAMD1A suppressed the effects of GRAMD1A on the self-renewal of HCC stem cell, resistance to chemotherapy and tumor growth, suggesting GRAMD1A promoted the self-renewal of HCC stem cells and the development of HCC by increasing STAT5 level. GRAMD1A might be a useful biomarker and target for HCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~41" text="GRAM domain-containing protein 1A" location="background" />
+<GENE id="G1" spans="43~50" text="GRAMD1A" location="background" />
+<GENE id="G3" spans="157~162" text="STAT5" location="result" />
+<GENE id="G4" spans="336~343" text="GRAMD1A" location="result" />
+<GENE id="G5" spans="395~402" text="GRAMD1A" location="result" />
+<GENE id="G6" spans="455~462" text="GRAMD1A" location="result" />
+<GENE id="G7" spans="646~653" text="GRAMD1A" location="result" />
+<GENE id="G8" spans="934~984" text="signal transducer and activator of transcription 5" location="result" />
+<GENE id="G9" spans="986~991" text="STAT5" location="result" />
+<GENE id="G10" spans="1011~1018" text="GRAMD1A" location="result" />
+<GENE id="G11" spans="1020~1027" text="GRAMD1A" location="result" />
+<GENE id="G12" spans="1058~1063" text="STAT5" location="result" />
+<GENE id="G13" spans="1100~1105" text="STAT5" location="result" />
+<GENE id="G14" spans="1121~1126" text="STAT5" location="result" />
+<GENE id="G15" spans="1165~1172" text="GRAMD1A" location="result" />
+<GENE id="G16" spans="1199~1206" text="GRAMD1A" location="result" />
+<GENE id="G17" spans="1301~1308" text="GRAMD1A" location="result" />
+<GENE id="G18" spans="1394~1399" text="STAT5" location="result" />
+<GENE id="G19" spans="1407~1414" text="GRAMD1A" location="result" />
+<DISEASE id="D0" spans="78~102" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="117~141" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="174~198" text="Hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="200~203" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="230~236" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="306~309" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="363~366" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="603~606" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="689~692" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="752~755" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1140~1143" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1230~1233" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1338~1341" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1376~1379" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1458~1461" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="348~359" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R1" spans="569~598" text="unfavorable prognostic factor" location="result" relation="negative prognostic marker" />
+<RELATION id="R3" spans="705~731" text="resistance to chemotherapy" location="result" relation="negative prognostic marker" />
+<RELATION id="R4" spans="1150~1164" text="overexpressing" location="result" relation="increased expression" />
+<RELATION id="R5" spans="1245~1271" text="resistance to chemotherapy" location="result" relation="negative prognostic marker" />
+<RELATION id="R6" spans="1361~1372" text="development" location="result" relation="pathological role" />
+<RELATION id="R7" spans="1433~1442" text="biomarker" location="result" relation="biomarker" />
+<RELATION id="R8" spans="1447~1453" text="target" location="result" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G4" geneText="GRAMD1A" diseaseID="D6" diseaseText="HCC" relationID="R0" relationText="upregulated" />
+<ENTITY_LINKING id="E1" geneID="G6" geneText="GRAMD1A" diseaseID="D7" diseaseText="HCC" relationID="R1" relationText="unfavorable prognostic factor" />
+<ENTITY_LINKING id="E2" geneID="G7" geneText="GRAMD1A" diseaseID="D9" diseaseText="HCC" relationID="R3" relationText="resistance to chemotherapy" />
+<ENTITY_LINKING id="E3" geneID="G15" geneText="GRAMD1A" diseaseID="D10" diseaseText="HCC" relationID="R4" relationText="overexpressing" />
+<ENTITY_LINKING id="E4" geneID="G16" geneText="GRAMD1A" diseaseID="D11" diseaseText="HCC" relationID="R5" relationText="resistance to chemotherapy" />
+<ENTITY_LINKING id="E5" geneID="G17" geneText="GRAMD1A" diseaseID="D13" diseaseText="HCC" relationID="R6" relationText="development" />
+<ENTITY_LINKING id="E6" geneID="G19" geneText="GRAMD1A" diseaseID="D14" diseaseText="HCC" relationID="R7" relationText="biomarker" />
+<ENTITY_LINKING id="E7" geneID="G19" geneText="GRAMD1A" diseaseID="D14" diseaseText="HCC" relationID="R8" relationText="target" />
+</TAGS>
+</Genomics_ConceptTask>

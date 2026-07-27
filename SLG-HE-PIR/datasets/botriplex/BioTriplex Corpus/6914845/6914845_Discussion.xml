@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Early lung adenocarcinoma is associated with high risks of recurrence and death after surgery ( 20 ). However, patients cannot achieve consistent therapeutic benefits from certain drugs due to their potential toxicities and side effects, and as a result, the application of systemic adjuvant chemotherapy after surgery remains a source of controversy in clinics ( 21 ). Therefore, it is of importance to mine potential lung adenocarcinoma biomarkers that could be used to predict patient prognosis and recurrence, and to identify high-risk patients who would benefit from early adjuvant chemotherapy.
+In the era of immunotherapy, it is of crucial significance to mine molecular events that are related to the tumor immune microenvironment to uncover predictive biomarkers associated with survival. The literature suggests that the FoxP3:CD3 ratio in the tumor matrix, as well as expression levels of IL-12 and IL-17, is markedly correlated with post-operative recurrence in early lung adenocarcinoma ( 22 – 24 ). Moreover, the infiltration of numerous immune factors and immunocytes (including neutrophils, macrophages, and lymphocytes) has also been reported to correlate with angiogenesis, cell proliferation, and invasion of this disease ( 25 ).
+In this study, 14 prognosis-specific immune-related genes were discovered through the mining, statistical analysis, and sorting of large datasets such as TCGA and ImmPort. From this, a prognostic prediction model was constructed, the RiskScore of patients was calculated, and prediction and verification were also carried out. Among all 14 prognosis-specific immune-related genes, 9 (e.g.,  PSMD11, PPIA, MIF, BMP5, DKK1, PDGFB, ANGPTL4, IL1R2 , and  THRB ) ( 26 – 34 ) have been reported to be involved in the immune microenvironment-associated pathogenesis of lung adenocarcinoma or suggested to be significant predictors of recurrence-free or overall survival. This implies that our bioinformatics analysis using TCGA and ImmPort cohorts has prognostic value. The remaining five genes have not been previously associated with lung adenocarcinoma prognosis and could serve as new potential biomarkers for this disease. These include  IL20RB  (interleukin 20 receptor beta),  LTBR, TNFRSF1, TNFRSF17  (TNFR superfamily genes), and  MC1R  (melanocortin 1 receptor).
+We are particularly interested in  TNFRSF1A  and  LTBR . From a protein–protein interaction network generated in the previous studies, both were found to be highly interconnected nodes. These two genes encode tumor necrosis factor receptors, which have been repeatedly shown to take part in multiple tumor processes such as proliferation, metastasis, and angiogenesis. These receptors are not only expressed on some tumor cells but also on suppressive immune cells including regulatory T cells and myeloid-derived suppressor cells. They convert the tumor-inhibitory TNF into a tumor-promoting factor, and not only directly enhance the proliferation of some types of tumor cells, but also activate immunosuppressive cells and support immune escape and tumor development ( 35 ,  36 ). In addition, these two markers can induce tumor-infiltrating T-cell apoptosis and contribute to failed patient responses to immunotherapy. These can also shape the tumor microenvironment via FasL/Fas-mediated cell apoptosis induced by other cells in the tumor microenvironment, such as cancer cells, endothelial cells, and myeloid-derived suppressor cells ( 37 ).
+Previous reports have provided elegant analyses regarding how the activation of tumor-intrinsic genes shapes the tumor microenvironment. In the current work, the proposed model, constructed based on the expression profiles of specific immune-related genes, could further classify patients with defined clinical stages into different subgroups based on predicted survival. Moreover, the RiskScore, calculated based on the expression profiles of specific immune-related genes, could be used in combination with clinical features to predict the survival of lung adenocarcinoma patients more precisely. Although we used bioinformatics to identify prognosis-specific immune-related genes involved in lung adenocarcinoma, the limitations of this study should be noted. The proposed validation cohort is based on retrospective data from TCGA, so the models need further validation in large sample clinical studies.
+In conclusion, this model contributes new clinical lung adenocarcinoma markers. These data not only provide multiple targets for precise lung adenocarcinoma treatment, but also could be used to more accurately classify lung adenocarcinoma patients at the molecular subtype level. Furthermore, this model could be used to guide clinicians in decisions related to prognosis, clinical diagnosis, and medication for lung adenocarcinoma patients with different immunophenotypes.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="832~837" text="FoxP3" location="background" />
+<GENE id="G1" spans="838~841" text="CD3" location="background" />
+<GENE id="G2" spans="901~906" text="IL-12" location="background" />
+<GENE id="G3" spans="911~916" text="IL-17" location="background" />
+<GENE id="G4" spans="1641~1647" text="PSMD11" location="background" />
+<GENE id="G5" spans="1649~1653" text="PPIA" location="background" />
+<GENE id="G6" spans="1655~1658" text="MIF" location="background" />
+<GENE id="G7" spans="1660~1664" text="BMP5" location="background" />
+<GENE id="G8" spans="1666~1670" text="DKK1" location="background" />
+<GENE id="G9" spans="1672~1677" text="PDGFB" location="background" />
+<GENE id="G10" spans="1679~1686" text="ANGPTL4" location="background" />
+<GENE id="G11" spans="1688~1693" text="IL1R2" location="background" />
+<GENE id="G12" spans="1701~1705" text="THRB" location="background" />
+<GENE id="G13" spans="2186~2192" text="IL20RB" location="result" />
+<GENE id="G14" spans="2195~2223" text="interleukin 20 receptor beta" location="result" />
+<GENE id="G15" spans="2227~2231" text="LTBR" location="result" />
+<GENE id="G16" spans="2233~2240" text="TNFRSF1" location="result" />
+<GENE id="G17" spans="2242~2250" text="TNFRSF17" location="result" />
+<GENE id="G18" spans="2283~2287" text="MC1R" location="result" />
+<GENE id="G19" spans="2290~2313" text="melanocortin 1 receptor" location="result" />
+<GENE id="G20" spans="2351~2359" text="TNFRSF1A" location="result" />
+<GENE id="G21" spans="2366~2370" text="LTBR" location="result" />
+<GENE id="G22" spans="2882~2885" text="TNF" location="result" />
+<GENE id="G23" spans="3290~3294" text="FasL" location="background" />
+<GENE id="G24" spans="3295~3298" text="Fas" location="background" />
+<DISEASE id="D0" spans="7~26" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="420~439" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="981~1000" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1812~1831" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="2079~2098" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="3385~3391" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="4017~4036" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="" />
+<DISEASE id="D7" spans="4158~4177" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="4422~4441" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="4508~4527" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="4590~4609" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="4783~4802" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="930~971" text="correlated with post-operative recurrence" location="background" relation="prognostic indicator" />
+<RELATION id="R1" spans="1745~1808" text="involved in the immune microenvironment-associated pathogenesis" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="FoxP3" diseaseID="D2" diseaseText="lung adenocarcinoma" relationID="R0" relationText="correlated with post-operative recurrence" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="CD3" diseaseID="D2" diseaseText="lung adenocarcinoma" relationID="R0" relationText="correlated with post-operative recurrence" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="IL-12" diseaseID="D2" diseaseText="lung adenocarcinoma" relationID="R0" relationText="correlated with post-operative recurrence" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="IL-17" diseaseID="D2" diseaseText="lung adenocarcinoma" relationID="R0" relationText="correlated with post-operative recurrence" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="PSMD11" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="PPIA" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E6" geneID="G6" geneText="MIF" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E7" geneID="G7" geneText="BMP5" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E8" geneID="G8" geneText="DKK1" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E9" geneID="G9" geneText="PDGFB" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E10" geneID="G10" geneText="ANGPTL4" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E11" geneID="G11" geneText="IL1R2" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E12" geneID="G12" geneText="THRB" diseaseID="D3" diseaseText="lung adenocarcinoma" relationID="R1" relationText="involved in the immune microenvironment-associated pathogenesis" />
+<ENTITY_LINKING id="E14" geneID="" geneText="" diseaseID="" diseaseText="" relationID="" relationText="" />
+</TAGS>
+</Genomics_ConceptTask>

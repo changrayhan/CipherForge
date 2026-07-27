@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: The Activity of KIF14, Mieap, and EZR in a New Type of the Invasive Component, Torpedo-Like Structures, Predetermines the Metastatic Potential of Breast Cancer.
+Abstract: Intratumor morphological heterogeneity reflects patterns of invasive growth and is an indicator of the metastatic potential of breast cancer. In this study, we used this heterogeneity to identify molecules associated with breast cancer invasion and metastasis. The gene expression microarray data were used to identify genes differentially expressed between solid, trabecular, and other morphological arrangements of tumor cells. Immunohistochemistry was applied to evaluate the association of the selected proteins with metastasis. RNA-sequencing was performed to analyze the molecular makeup of metastatic tumor cells. High frequency of metastases and decreased metastasis-free survival were detected in patients either with positive expression of KIF14 or Mieap or negative expression of EZR at the tips of the torpedo-like structures in breast cancers. KIF14- and Mieap-positive and EZR-negative cells were mainly detected in the torpedo-like structures of the same breast tumors; however, their transcriptomic features differed. KIF14-positive cells showed a significant upregulation of genes involved in ether lipid metabolism. Mieap-positive cells were enriched in genes involved in mitophagy. EZR-negative cells displayed upregulated genes associated with phagocytosis and the chemokine-mediated signaling pathway. In conclusion, the positive expression of KIF14 and Mieap and negative expression of EZR at the tips of the torpedo-like structures are associated with breast cancer metastasis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="24~29" text="KIF14" location="result" />
+<GENE id="G1" spans="31~36" text="Mieap" location="result" />
+<GENE id="G2" spans="42~45" text="EZR" location="result" />
+<GENE id="G3" spans="929~934" text="KIF14" location="result" />
+<GENE id="G4" spans="938~943" text="Mieap" location="result" />
+<GENE id="G5" spans="970~973" text="EZR" location="result" />
+<GENE id="G6" spans="1036~1041" text="KIF14" location="result" />
+<GENE id="G7" spans="1047~1052" text="Mieap" location="result" />
+<GENE id="G8" spans="1066~1069" text="EZR" location="result" />
+<GENE id="G9" spans="1213~1218" text="KIF14" location="result" />
+<GENE id="G10" spans="1313~1318" text="Mieap" location="result" />
+<GENE id="G11" spans="1380~1383" text="EZR" location="result" />
+<GENE id="G12" spans="1544~1549" text="KIF14" location="result" />
+<GENE id="G13" spans="1554~1559" text="Mieap" location="result" />
+<GENE id="G14" spans="1587~1590" text="EZR" location="result" />
+<DISEASE id="D1" spans="154~167" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="306~319" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="401~414" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1020~1033" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1654~1667" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="112~150" text="Predetermines the Metastatic Potential" location="result" relation="negative prognostic marker" />
+<RELATION id="R1" spans="1638~1653,1668~1678" text="associated with ... metastasis" location="result" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="KIF14" diseaseID="D1" diseaseText="Breast Cancer" relationID="R0" relationText="Predetermines the Metastatic Potential" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="Mieap" diseaseID="D1" diseaseText="Breast Cancer" relationID="R0" relationText="Predetermines the Metastatic Potential" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="EZR" diseaseID="D1" diseaseText="Breast Cancer" relationID="R0" relationText="Predetermines the Metastatic Potential" />
+<ENTITY_LINKING id="E3" geneID="G12" geneText="KIF14" diseaseID="D5" diseaseText="breast cancer" relationID="R1" relationText="associated with ... metastasis" />
+<ENTITY_LINKING id="E4" geneID="G13" geneText="Mieap" diseaseID="D5" diseaseText="breast cancer" relationID="R1" relationText="associated with ... metastasis" />
+<ENTITY_LINKING id="E5" geneID="G14" geneText="EZR" diseaseID="D5" diseaseText="breast cancer" relationID="R1" relationText="associated with ... metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

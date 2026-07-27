@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Ocular injuries can occur following bites by bees, wasps, and ants which belong to the group hymenoptera [ 1 ]. The effects are both local and systemic, and are mainly due to the toxins elaborated by the sting. So far, the eye-related injuries reported are conjunctivitis, corneal infiltrates [ 1 ], [ 2 ], cataract formation, iritis, hyphaema, lens subluxation, and optic nerve damage [ 3 ], [ 4 ], [ 5 ], [ 6 ]. Corneal injury is the most commonly reported ocular injury. Recently, ischaemic optic neuropathy and cilio-choroidal detachment [ 7 ] have also been reported. Hereby, we report an unusual case of vitritis following a bee sting injury to the eye, hitherto unreported (PubMed search). 
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="308~316" text="cataract" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="258~272" text="conjunctivitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="328~334" text="iritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

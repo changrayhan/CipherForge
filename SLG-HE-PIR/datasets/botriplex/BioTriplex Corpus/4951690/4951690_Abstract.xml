@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Glutathione peroxidase 3 localizes to the epithelial lining fluid and the extracellular matrix in interstitial lung disease.
+Abstract: Aberrant antioxidant activity and excessive deposition of extracellular matrix (ECM) are hallmarks of interstitial lung diseases (ILD). It is known that oxidative stress alters the ECM, but extracellular antioxidant defence mechanisms in ILD are incompletely understood. Here, we extracted abundance and detergent solubility of extracellular antioxidant enzymes from a proteomic dataset of bleomycin-induced lung fibrosis in mice and assessed regulation and distribution of glutathione peroxidase 3 (GPX3) in murine and human lung fibrosis. Superoxide dismutase 3 (Sod3), Gpx3, and Gpx activity were increased in mouse BALF during bleomycin-induced lung fibrosis. In lung tissue homogenates, Gpx3, but not Sod3, was upregulated and detergent solubility profiling indicated that Gpx3 associated with ECM proteins. Immunofluorescence analysis showed that Gpx3 was expressed by bronchial epithelial cells and interstitial fibroblasts and localized to the basement membrane and interstitial ECM in lung tissue. As to human ILD samples, BALF of some patients contained high levels of GPX3, and GPX3 was upregulated in lung homogenates from IPF patients. GPX3 expression in primary human bronchial epithelial cells and lung fibroblasts was downregulated by TNF-α, but more variably regulated by TGF-β1 and menadione. In conclusion, the antioxidant enzyme GPX3 localizes to lung ECM and is variably upregulated in ILD.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~32" text="Glutathione peroxidase 3" location="result" />
+<GENE id="G1" spans="617~641" text="glutathione peroxidase 3" location="result" />
+<GENE id="G2" spans="643~647" text="GPX3" location="result" />
+<GENE id="G3" spans="684~706" text="Superoxide dismutase 3" location="result" />
+<GENE id="G4" spans="708~712" text="Sod3" location="result" />
+<GENE id="G5" spans="715~719" text="Gpx3" location="result" />
+<GENE id="G6" spans="835~839" text="Gpx3" location="result" />
+<GENE id="G7" spans="849~853" text="Sod3" location="result" />
+<GENE id="G8" spans="921~925" text="Gpx3" location="result" />
+<GENE id="G9" spans="996~1000" text="Gpx3" location="result" />
+<GENE id="G10" spans="1222~1226" text="GPX3" location="result" />
+<GENE id="G11" spans="1232~1236" text="GPX3" location="result" />
+<GENE id="G12" spans="1292~1296" text="GPX3" location="result" />
+<GENE id="G13" spans="1394~1399" text="TNF-α" location="result" />
+<GENE id="G14" spans="1432~1438" text="TGF-β1" location="result" />
+<GENE id="G15" spans="1492~1496" text="GPX3" location="result" />
+<DISEASE id="D0" spans="106~131" text="interstitial lung disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="245~270" text="interstitial lung disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="273~276" text="ILD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="551~564" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="669~682" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="792~805" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1162~1165" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1550~1553" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="381~384" text="ILD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R1" spans="1535~1546" text="upregulated" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G15" geneText="GPX3" diseaseID="D8" diseaseText="ILD" relationID="R1" relationText="upregulated" />
+</TAGS>
+</Genomics_ConceptTask>

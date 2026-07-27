@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Analysis of KRT1, KRT10, KRT19, TP53 and MMP9 expression in pediatric and adult cholesteatoma.
+Abstract: Cholesteatoma is an epidermal cyst with still unknown pathomechanism. The aim of the current study was to investigate molecular differences in the background of the hyperproliferative property and aggressive behavior typical of the cholesteatoma epithelium. The expression of three cytokeratin genes (KRT1, KRT10 and KRT19), the matrix metalloproteinase 9 gene (MMP9) and the tumor suppressor TP53 gene was measured by qRT-PCR in surgical samples of pediatric and adult cholesteatoma cases and their expression level was compared to that of normal skin samples from the retroauricular region of control individuals. Cholesteatoma samples were stratified according to the age of onset and recurrence for more detailed analysis. Our results showed identical expression pattern for KRT1 and KRT10, their expression was higher in pediatric cases than in adults, especially in pediatric recurrent samples. The expression level of KRT19 was inversely proportional to that of KRT1/KRT10, it was lower in the more invasive recurrent cases both in our pediatric and adult groups. As it was expected from the bone destructive behavior of cholesteatoma, a significantly elevated expression of MMP9 was measured in cholesteatoma samples, the highest level was found in adult recurrent cases. Low expression levels characterize the TP53 gene without significant differences in our samples. These findings demonstrate that cytokeratin expression distinguishes between pediatric/adult, nonrecurrent/recurrent cases, suggesting that distinct differentiation state and cell division potential characterize these cholesteatoma cases. KRT19 with a tumor suppressor potential might restrict the recurrence of cholesteatoma. The differences observed in gene expression profiles between cholesteatoma and control samples support the notion that cholesteatoma is a cystic lesion with tumor-like behavior because it is characterized by invasive, destructive growth and high tendency for recurrence.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="20~24" text="KRT1" location="result" />
+<GENE id="G1" spans="26~31" text="KRT10" location="result" />
+<GENE id="G2" spans="33~38" text="KRT19" location="result" />
+<GENE id="G3" spans="40~44" text="TP53" location="result" />
+<GENE id="G4" spans="49~53" text="MMP9" location="result" />
+<GENE id="G6" spans="414~418" text="KRT1" location="result" />
+<GENE id="G7" spans="420~425" text="KRT10" location="result" />
+<GENE id="G8" spans="430~435" text="KRT19" location="result" />
+<GENE id="G9" spans="442~468" text="matrix metalloproteinase 9" location="result" />
+<GENE id="G10" spans="475~479" text="MMP9" location="result" />
+<GENE id="G11" spans="506~510" text="TP53" location="result" />
+<GENE id="G12" spans="892~896" text="KRT1" location="result" />
+<GENE id="G13" spans="901~906" text="KRT10" location="result" />
+<GENE id="G14" spans="1038~1043" text="KRT19" location="result" />
+<GENE id="G15" spans="1082~1086" text="KRT1" location="result" />
+<GENE id="G16" spans="1087~1092" text="KRT10" location="result" />
+<GENE id="G17" spans="1295~1299" text="MMP9" location="result" />
+<GENE id="G18" spans="1432~1436" text="TP53" location="result" />
+<GENE id="G19" spans="1729~1734" text="KRT19" location="result" />
+<DISEASE id="D0" spans="88~101" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="113~126" text="Cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="345~358" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="583~596" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="729~742" text="Cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1241~1254" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1316~1329" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1708~1721" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1802~1815" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1878~1891" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1936~1949" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1272~1291" text="elevated expression" location="result" relation="increased expression" />
+<RELATION id="R1" spans="1775~1798" text="restrict the recurrence" location="result" relation="modulator decrease disease" />
+<ENTITY_LINKING id="E0" geneID="G17" geneText="MMP9" diseaseID="D6" diseaseText="cholesteatoma" relationID="R0" relationText="elevated expression" />
+<ENTITY_LINKING id="E1" geneID="G19" geneText="KRT19" diseaseID="D8" diseaseText="cholesteatoma" relationID="R1" relationText="restrict the recurrence" />
+</TAGS>
+</Genomics_ConceptTask>

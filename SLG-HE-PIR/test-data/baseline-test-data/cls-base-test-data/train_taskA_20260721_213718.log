@@ -1,0 +1,161 @@
+2026-07-21 21:37:20,408 [INFO] biotriplex_finetune: Logging to baseline/classification_genrel/logs/biotriplex_finetune_all_1784641040.log
+2026-07-21 21:37:20,408 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 21:37:20,408 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 21:37:20,409 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 21:37:20,409 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 21:37:20,409 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 21:37:22,407 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:01<05:21,  1.11s/it]Loading weights:  11%|█         | 31/291 [00:01<00:08, 29.36it/s]Loading weights:  14%|█▎        | 40/291 [00:01<00:06, 36.05it/s]Loading weights:  17%|█▋        | 49/291 [00:01<00:06, 38.38it/s]Loading weights:  20%|█▉        | 58/291 [00:01<00:05, 39.35it/s]Loading weights:  23%|██▎       | 68/291 [00:02<00:05, 43.24it/s]Loading weights:  26%|██▌       | 76/291 [00:02<00:04, 48.55it/s]Loading weights:  29%|██▉       | 85/291 [00:02<00:04, 47.18it/s]Loading weights:  32%|███▏      | 94/291 [00:02<00:04, 48.38it/s]Loading weights:  35%|███▌      | 103/291 [00:02<00:04, 46.79it/s]Loading weights:  38%|███▊      | 112/291 [00:02<00:03, 46.58it/s]Loading weights:  41%|████      | 118/291 [00:03<00:03, 48.74it/s]Loading weights:  43%|████▎     | 124/291 [00:03<00:03, 47.66it/s]Loading weights:  45%|████▌     | 132/291 [00:03<00:03, 47.41it/s]Loading weights:  48%|████▊     | 139/291 [00:03<00:03, 50.23it/s]Loading weights:  51%|█████     | 148/291 [00:03<00:02, 51.08it/s]Loading weights:  54%|█████▎    | 156/291 [00:03<00:02, 57.34it/s]Loading weights:  56%|█████▌    | 163/291 [00:03<00:02, 58.54it/s]Loading weights:  58%|█████▊    | 170/291 [00:04<00:02, 49.15it/s]Loading weights:  60%|██████    | 176/291 [00:04<00:02, 42.18it/s]Loading weights:  63%|██████▎   | 184/291 [00:04<00:02, 42.45it/s]Loading weights:  66%|██████▋   | 193/291 [00:04<00:01, 49.04it/s]Loading weights:  69%|██████▉   | 202/291 [00:04<00:02, 41.64it/s]Loading weights:  73%|███████▎  | 211/291 [00:05<00:01, 48.10it/s]Loading weights:  76%|███████▌  | 220/291 [00:05<00:01, 47.63it/s]Loading weights:  79%|███████▊  | 229/291 [00:05<00:01, 48.37it/s]Loading weights:  81%|████████  | 235/291 [00:05<00:01, 50.13it/s]Loading weights:  83%|████████▎ | 241/291 [00:05<00:00, 51.63it/s]Loading weights:  85%|████████▍ | 247/291 [00:05<00:00, 44.83it/s]Loading weights:  88%|████████▊ | 256/291 [00:05<00:00, 52.06it/s]Loading weights:  91%|█████████ | 264/291 [00:06<00:00, 58.38it/s]Loading weights:  93%|█████████▎| 271/291 [00:06<00:00, 41.89it/s]Loading weights:  97%|█████████▋| 283/291 [00:06<00:00, 45.66it/s]Loading weights: 100%|██████████| 291/291 [00:06<00:00, 44.25it/s]
+2026-07-21 21:37:29,748 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 7.3s
+2026-07-21 21:37:32,887 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 21:37:32,900 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 21:37:35,545 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 21:37:44,770 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 21:37:44,771 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 21:37:44,771 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 21:37:44,771 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 21:37:45,740 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 21:37:45,740 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 21:37:45,744 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 21:37:45,757 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 21:37:45,757 [INFO] biotriplex_finetune: Stage 0 complete in 25.3s
+2026-07-21 21:37:45,758 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 21:37:45,758 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 21:37:45,758 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 21:37:47,000 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 21:37:47,037 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 21:37:47,049 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 21:37:47,063 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 21:37:47,065 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 21:37:47,075 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 21:37:47,078 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 21:37:47,079 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 21:37:47,079 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 21:37:51,901 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 21:38:01,001 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 21:38:01,011 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 21:38:01,011 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 21:38:01,029 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 21:38:01,029 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 21:38:01,050 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+2026-07-21 21:38:01,050 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 21:38:01,050 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-21 21:38:01,058 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 21:38:01,060 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+2026-07-21 21:38:01,166 [INFO] src.model.model_splitting: SageAttention detected: sm_120 supported
+2026-07-21 21:38:01,166 [INFO] src.model.model_splitting: Using SDPA (SageAttention available for custom integration)
+2026-07-21 21:38:24,562 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=SDPA-SageAvail, gradient_checkpointing=True)
+2026-07-21 21:38:24,570 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+2026-07-21 21:38:24,570 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 21:38:24,571 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 21:38:24,572 [INFO] src.model.model_splitting: Using SDPA (SageAttention available for custom integration)
+2026-07-21 21:38:44,761 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=disabled)
+2026-07-21 21:38:44,770 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 21:38:44,772 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=1468, peak_lr=1.00e-04
+2026-07-21 21:38:44,772 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 21:38:44,772 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 21:38:44,773 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 21:38:44,965 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-21 21:38:44,982 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 21:38:44,983 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 21:38:44,983 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 43.9s (single CUDA context)
+2026-07-21 21:38:44,983 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 21:39:01,912 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 21:39:01,912 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 21:39:18,509 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 21:39:18,509 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 21:39:20,518 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 21:39:20,518 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 79.5s
+2026-07-21 21:39:20,518 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=2, batch=1, lr=0.0001, wd=0
+2026-07-21 21:39:20,519 [INFO] src.training.trainer: Starting training: epochs=2, patience=999, train=734, val=134
+/root/miniconda3/lib/python3.12/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+2026-07-21 21:40:13,831 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=0 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:42:09,196 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=1 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:44:04,346 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=2 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:46:01,105 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=3 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:47:57,335 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=4 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:49:53,233 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=5 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:51:48,806 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=6 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:53:46,250 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=7 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:55:40,395 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=8 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:57:35,832 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=9 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 21:59:31,629 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=10 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:01:27,625 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=11 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:03:23,826 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=12 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:05:21,909 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=13 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:07:18,019 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=14 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:09:15,257 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=15 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:11:10,810 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=16 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:13:07,217 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=17 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:15:04,233 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=18 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:17:01,706 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=19 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:18:58,663 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=20 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:20:56,749 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=21 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:22:53,177 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=22 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:24:50,884 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=23 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:26:47,609 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=24 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:28:43,417 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=25 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:30:39,739 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=26 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:32:36,586 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=27 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:34:33,226 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=28 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:36:30,136 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=29 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:38:26,396 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=30 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:40:22,782 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=31 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:42:19,349 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=32 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:44:14,997 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=33 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:46:12,422 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=34 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:48:10,140 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=35 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:50:06,890 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=36 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:52:03,929 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=37 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:54:00,983 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=38 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:55:57,899 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=39 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:57:55,408 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=40 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 22:59:52,584 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=41 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 23:01:49,592 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=42 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 23:03:46,292 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=43 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 23:05:42,995 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=44 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 23:07:40,192 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=45 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 23:09:37,039 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=46 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 23:11:34,333 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=47 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 23:13:31,341 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=48 n_tokens=10000 K=4 chunks of ~3072
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 680, in <module>
+    main()
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 665, in main
+    all_results["1"] = run_stage1(args, logger)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 503, in run_stage1
+    result = trainer.train()
+             ^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/training/trainer.py", line 244, in train
+    epoch_metrics = self._run_epoch(epoch)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/training/trainer.py", line 304, in _run_epoch
+    result = self.ipc.step_train_chunked(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/heterogeneous_protocol.py", line 417, in step_train_chunked
+    s_result = self.party_s.process_logits_dispatch({
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_s.py", line 271, in process_logits_dispatch
+    result = self.crypto_s_pool.submit({
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/crypto_workers/pool.py", line 87, in submit
+    return async_result.get()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/multiprocessing/pool.py", line 768, in get
+    self.wait(timeout)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/pool.py", line 765, in wait
+    self._event.wait(timeout)
+  File "/root/miniconda3/lib/python3.12/threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt

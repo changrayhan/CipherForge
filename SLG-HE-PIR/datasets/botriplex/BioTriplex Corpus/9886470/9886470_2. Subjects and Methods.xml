@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Subjects
+A total of 78 lymphoma patients and 50 healthy volunteers participated in the study. Healthy controls included thirty-six males and fourteen females. Healthy volunteers' range in age was from 26 to 70 years old. Seventy-eight lymphoma subjects ranged in age from 11 to 81 years, including 39 men and 39 women. Patients received treatment as soon as the primary diagnosis is confirmed. Patients with lymphoma were followed, and the patients were separated into two groups based on how well they responded to treatment: group I with no extranodal involvement and group II with extranodal involvement. Lymphoma patients' clinical outcomes were evaluated according to Cheson response criteria (National Cancer Institute Working Group standards for response to treatment) [ 46 ]. According to established criteria, the effectiveness of the treatment was assessed in 78 patients, of whom twenty-nine had a complete response (CR), eighteen had a partial response (PR), twenty-seven had a recurrence, and four had a treatment failure [ 46 ]. Pretherapy and posttherapy blood samples were taken to assess IL-19 levels and PD-L1/PD-1 coexpression with CXCR3/CD36 in peripheral lymphocytes for the presence of extranodal involvement and response to treatment. Patients with missing pathological or clinical information on their lymphoma were excluded from the study. Atherosclerosis, various cancers, and persistent infections were all ruled out. Each subject signed an informed consent form. This study was performed in the Clinical Pathology Department, Faculty of Medicine, Minia University.
+2.2. Clinical Data
+A complete clinical examination was performed on all subjects to monitor lymphadenopathy and hepatosplenomegaly, and detailed history questionnaires were completed. To determine the performance, type, and stage of lymphoma, all patients underwent bone marrow aspiration and lymph node biopsy. The Ann Arbor classification has been considered for clinical staging [ 47 ]. The modified International Workshop on CLL (iwCLL) 2018 criteria were used in diagnosis [ 48 ], and CLL stages were assessed according to the Rai staging system [ 49 ]. Three expert pathologists validated all pathological specimens following WHO criteria [ 50 ]. Using a flow cytometer, the patients' immunophenotyping was performed. All patients obtained chest X-rays and pelviabdominal ultrasounds to rule out extramedullary involvement. The patient's performance was evaluated according to Eastern Cooperative Oncology Group scale [ 51 ]. PET (positron emission tomography) or CT (computed tomography) scans were used. The Ann Arbor approach [ 52 ] was used to assess lymphoma staging. BCR-ABL, and hepatitis C virus (HCV) RNA, was assessed by quantitative RT-PCR.
+2.3. Follow-Up and Lymphoma Therapy
+Follow-up for lymphoma patients was performed at the hematology clinic and by telephone. The posttherapy lymphoma status was evaluated in lymphoma patients by means of clinical examination and PET/CT scans. Patients will be evaluated every three months for the identification of lymphoma progression. The follow-up was only for 78 patients with lymphoma out of 92 patients. The follow-up could not be performed for these patients as some patients were referred to other centers, some have died, and some had rejected blood samples rewithdrawal. Event-free survival (EFS) measures the time between the end of therapy and the commencement of an event (extranodal involvement). Seven follicular cell lymphoma (FCL) and twenty-eight diffuse large B cell lymphoma (DLBCL) patients' subjects had CHOP therapy (cyclophosphamide, hydroxydaunorubicin, oncovin, and prednisone) [ 53 ]. In contrast, those with HL had ABVD therapy (Adriamycin, bleomycin, vinblastine, and dacarbazine) and radiation [ 54 ]. Seven patients with chronic lymphocytic leukemia (CLL) underwent various treatments designed based on the therapy indications, stage, and comorbidities. The following strategies were used for CLL: no therapy (approach of watching and waiting if there is no therapy indication); corticosteroids (quiescent CLL with immune cytopenias); FCR chemotherapy (fludarabine, cyclophosphamide, and rituximab) was indicated for CLL progressive illness [ 49 ]. One marginal zone lymphoma (MZL) patient and two mucosa-associated lymphoid tissue (MALT) lymphoma patients had chemotherapy, rituximab, and radiotherapy.
+2.4. Blood Sampling
+All subjects provided peripheral samples, which were taken under very sterile conditions. Eight milliliters of blood were collected. For a complete blood count (CBC), 2 mL of blood was put into an EDTA tube. For flow cytometric analysis, 2 mL of blood was inserted into an EDTA tube. A plain tube was filled with 4 mL of blood, then centrifuged for 5 minutes at 3000 rpm. Serum was isolated and used to analyze liver function tests (bilirubin, albumin, alanine aminotransferase (ALT), and aspartate aminotransferase (AST)), lactate dehydrogenase (LDH), kidney function tests (serum creatinine and blood urea), and random blood sugar. The leftover serum was kept at -70°C until the serum IL-19 concentrations were measured.
+2.5. Laboratory Investigations
+A computerized hematology analyzer was used to determine CBC (Celtac G, Nihon Kohden Corporation, Japan). Renal function analysis (blood urea nitrogen and serum creatinine), liver function analysis (ALT, AST, bilirubin, and albumin), and random blood sugar were performed using an autoanalyzer (SELECTRA, ELITech Group, clinical chemistry automation systems, France). An automated ACE chemistry analyzer assessed LDH (Schiapparelli Biosystems. INC; USA).
+2.6. Immunophenotyping
+PD-1/PD-L1 coexpression with CXCR3/CD36 was determined in collected blood samples. To identify the various immune cells, the following human monoclonal antibodies were used, as directed by the manufacturer: PD-1 (BioLegend, catalog No. 329906), CXCR3 monoclonal antibody (BioLegend; catalog no. 353704), PD-L1 (BioLegend, catalog No. 309706), and CD36 monoclonal antibody (BioLegend, catalog No. 336204). Unstained cells were utilized as a negative control for every patient. Negative isotypic controls were performed using other tubes. As isotype controls, monoclonal PE-conjugated IgG2a (BioLegend; catalog no. 402203) and FITC IgG1 were used (BioLegend; catalog no. 400110).
+2.7. Staining Flow Cytometric Analysis
+The percentages of PD-L1+CXCR3+, PD-1+CXCR3, PD-L1+CD36+, and PD-1+CD36+ lymphocytes were calculated using flow cytometry BD FACSCanto II (Becton Dickinson, CA, San Diego, USA). In brief, a hundred microliters of anticoagulated-EDTA whole blood were stained with five uL of monoclonal antibodies and incubated at room temperature in the dark for twenty minutes. The cells were lysed using the lysing buffer and set aside for about ten minutes at room temperature in the dark. Cells were then washed two times with PBS and resuspended in 300 uL of PBS solution. A minimum of 10,000 events were analyzed. Lymphocyte gating was carried out through the FSC/SSC plots (front scatter vs. side scatter technique) [ 55 – 60 ], and then, CXCR3+ and CD36+ lymphocytes were gated for PDL1/PD-1 expression [ 61 – 65 ]. The cutoff values were calculated using the isotypic controls as a guide. Unstained cells were employed as a negative control for every patient.
+2.8. ELISA for IL-19 Analysis
+The concentrations of IL-19 in serum were assessed using an ELISA kit (Sunred Biological Technology Co., Ltd., Shanghai) following the manufacturer's instructions. In the 96 wells of the microtiter strips, a specific monoclonal for IL-19 was coated (sensitivity for IL-19: 1.3 pg/mL). A microtiter plate reader was used to determine optical densities at 450 nm.
+2.9. Statistical Analyses
+The data were analyzed by applying the SPSS application (Statistical Package for Social Sciences) version 25. Normally, quantitative data was analyzed by minimum and maximum range and mean and standard deviation (SD). The median and interquartile range (IQR) was utilized for quantitative nonparametric data, while percentage and number were employed for categorical data. Mann–Whitney analysis was carried out to analyze quantitative nonparametric data between two groups. Kruskal-Wallis test was carried out to analyze nonparametric data between more than two groups, proceeded by pairwise comparisons between each two groups applying Bonferroni correction. Fisher's exact test, or the Chi-square test, was carried out to compare the qualitative data between groups. Association between continuous and qualitative ordinal variables was assessed by Spearman's correlation, while Pearson's correlation was performed for the association between 2 continuous variables.
+The Kaplan-Meier analysis was carried out to assess EFS, comparing the survival curves using the log-rank test. The variables' cutoff point, area under the curve (AUC), specificity, and sensitivity were calculated using the receiver operator characteristic (ROC) curve.  P  values less than 0.05 were considered significant.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1111~1116" text="IL-19" location="result" />
+<GENE id="G1" spans="1128~1133" text="PD-L1" location="result" />
+<GENE id="G2" spans="1134~1138" text="PD-1" location="result" />
+<GENE id="G3" spans="1157~1162" text="CXCR3" location="result" />
+<GENE id="G4" spans="1163~1167" text="CD36" location="result" />
+<GENE id="G5" spans="5644~5648" text="PD-1" location="result" />
+<GENE id="G6" spans="5649~5654" text="PD-L1" location="result" />
+<GENE id="G7" spans="5673~5678" text="CXCR3" location="result" />
+<GENE id="G8" spans="5679~5683" text="CD36" location="result" />
+<GENE id="G9" spans="5851~5855" text="PD-1" location="result" />
+<GENE id="G10" spans="5948~5953" text="PD-L1" location="result" />
+<GENE id="G11" spans="5991~5995" text="CD36" location="result" />
+<GENE id="G12" spans="6380~6385" text="PD-L1" location="result" />
+<GENE id="G13" spans="6386~6391" text="CXCR3" location="result" />
+<GENE id="G14" spans="6394~6398" text="PD-1" location="result" />
+<GENE id="G15" spans="6399~6404" text="CXCR3" location="result" />
+<GENE id="G16" spans="6406~6411" text="PD-L1" location="result" />
+<GENE id="G17" spans="6412~6416" text="CD36" location="result" />
+<GENE id="G18" spans="6423~6427" text="PD-1" location="result" />
+<GENE id="G19" spans="6428~6432" text="CD36" location="result" />
+<GENE id="G20" spans="7090~7095" text="CXCR3" location="result" />
+<GENE id="G21" spans="7101~7105" text="CD36" location="result" />
+<GENE id="G22" spans="7134~7138" text="PDL1" location="result" />
+<GENE id="G23" spans="7139~7143" text="PD-1" location="result" />
+<GENE id="G24" spans="5889~5894" text="CXCR3" location="result" />
+<DISEASE id="D0" spans="29~37" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="241~249" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="414~422" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="614~622" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1332~1340" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1371~1386" text="Atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1396~1402" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1832~1840" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2660~2668" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2776~2784" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2807~2815" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2898~2906" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2931~2939" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3072~3080" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3138~3146" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3490~3498" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3522~3551" text="diffuse large B cell lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3553~3558" text="DLBCL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3809~3837" text="chronic lymphocytic leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3839~3842" text="CLL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3981~3984" text="CLL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="4094~4097" text="CLL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="4205~4208" text="CLL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4241~4263" text="marginal zone lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="4265~4268" text="MZL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="4327~4335" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

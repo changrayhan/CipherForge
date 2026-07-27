@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+
+Conservative Treatment
+
+Conservative treatment is mainly suitable for the treatment of patients with early IDD, its main purpose is to relieve a patient's LBP and improve quality of life, which cannot cure the IVD, so it is regarded as palliative treatment. With the aggravation of IDD, conservative treatment often cannot control the clinical symptoms, and further surgical treatment will be taken.
+
+Drug Therapy
+
+Currently, the commonly used drugs for the treatment of LBP are non‐steroidal anti‐inflammatory drugs (NSAIDs), opioid painkillers, muscle relaxants, benzodiazepines, antidepressants, corticosteroids, antiepileptic drugs, and so on. NSAIDs are widely used to treat LBP patients, including non‐selective NSAIDs and selective COX‐2 NSAIDs. A published Cochrane review suggested that NSAIDs are more effective than placebo for treating LBP (small magnitude) and low risk of side effects (maybe underestimated because of small sample size). 16 
+ 
+  Opioids are mainly used in patients with acute attacks, severe pain and are difficult to relieve. Constipation and sedation are the most common adverse symptoms, 17 
+ 
+  but the dosage and duration of opioids are controversial because of their addiction and central dependence. Muscle relaxants can relieve muscle spasm around the spine and are effective for patients with LBP. 18 
+ 
+  As adjunctive therapy, it could be more effective, however, with a higher risk of central nervous system adverse effects. 18 
+ 
+  Benzodiazepines have been used as muscle relaxants to treat LBP and the most common side effects are drowsiness and dizziness. 18 
+ 
+  Anoher random controlled trial suggested that benzodiazepines should be considered standard of care for patients with sciatica associated with lumbar disc prolapse. 19 
+ 
+  Regarding antidepressants, two systematic reviews reported that they can relieve physical pain, 20 
+ 
+ ,  21 
+ 
+  but a randomized clinical trial suggested there was no difference in improvement in pain intensity between intervention group (low‐dose amitriptyline) and control group (placebo) after 6 months of treatment. 22 
+ 
+  Epidural steroid injections are one of the most common pain relief injections. Steroids inhibit the production of inflammatory chemicals in the body's immune system, which may be a source of pain. Chou  et al . 23 
+ 
+  suggested that using epidural corticosteroid injections to treat spinal stenosis could reduce pain immediately but had no long‐term benefit. Antiepileptic drugs are also considered a useful treatment for LBP. In one study, 24 
+ 
+  the researchers chose topiramate for 48 patients with LBP and the results indicated that topiramate is a relatively safe and effective agent in the treatment of LBP. Taken together, these drugs have their unique effects and complications. In clinical practice, the severity of pain, the duration of symptoms, the risk factors of complications, and the cost of treatment should be considered when weighing and selecting treatment drugs. The drug chosen for the patient should be the best choice to balance all factors.
+
+Non‐drug Therapy
+
+Non‐drug therapy mainly includes bed rest, traction, stent fixation, exercise therapy, acupuncture, massage, electromagnetic or electrothermal therapy, psychotherapy, and so on. 25 
+ 
+ ,  26 
+ 
+ ,  27 
+ 
+  These methods are used in many disciplines and fields and are often combined with drug therapy or surgery. Guo  et al . 28 
+ 
+  studied the difference between low‐tension traction mode and high‐tension traction mode in traction therapy by establishing a mechanical degeneration model of IVD. The results showed that compared with high‐tension traction mode, low‐tension traction provides a stable microenvironment for the repairment of IVD and protects IVD functional cells better. And they further found that low‐tension traction combined with extracorporeal shock wave therapy could reduce the expression of MMP3, MMP13, and ADAMTS‐4. 29 
+ 
+  It is well‐known that MMPs and ADAMTS can promote collagen degradation, which leads to IDD. Therefore, low‐tension traction combined with extracorporeal shock wave therapy can further restore the microenvironment of degenerative IVD, reduce the tension of NP and AF, and alleviate the degeneration of IVD. After IDD, the biomechanical function of IVD decreased, and the spine lacked support and stability. Physical exercise can improve the strength of paraspinal muscles, provide support for the spine, and contribute to the proliferation of IVD cells. Buyukturan  et al . 30 
+ 
+  conducted a randomized controlled trial that revealed that exercise can relieve pain and enhance muscle endurance. Transcutaneous Electrical Nerve Stimulation can also relieve pain according to two trials 31 
+ 
+ ,  32 
+ 
+ ; however, it does not show any advantages compared with the exercise therapy. Although the above treatments cannot reverse the degenerative changes of IVD, they can relieve pain caused by IDD by stimulating cells, promoting metabolite transport, and preventing adhesion and re‐injury. In clinical practice, these treatments have a place in the treatment of patients with early iodine deficiency because they are non‐invasive and low‐cost.
+
+Interventional Treatment
+
+The internal mechanics of the IVD can be changed and the neuropathic pain can be treated by heating, radiofrequency or injection of various chemicals into the IVD. These methods include intra‐discal electrothermal therapy (IDET), 33 
+ 
+ ,  34 
+ 
+  radiofrequency myeloplasty, 35 
+ 
+  chemical nucleolysis by intradiscal injection such as ozone, 36 
+ 
+ ,  37 
+ 
+  percutaneous discectomy, 38 
+ 
+ ,  39 
+ 
+  and so on. These techniques hope to relieve a patient's symptoms by reconstructing the structure and shape of the IVD. Generally, the heating probe, radiofrequency probe or cutting device is introduced into the pathological area, which usually needs to be operated under the guidance of CT or fluoroscopy. Heating and radiofrequency can reduce inflammation and cause tissue contraction to reduce compression. In general, the common goal of these techniques is to reduce the pressure in the spinal canal, thereby liberating nerve root compression and reducing the clinical symptoms of patients. With the development of endoscope technology in spine surgery, these techniques have changed from non‐visual indirect reduction to visually direct operation. The possible mechanism of IVD injection of ozone in the treatment of IDD is that ozone can reduce the herniated NP and reduce the inflammatory reaction, thus reducing the pain of patients. Studies by Elawamy  et al . 40 
+ 
+  and Ercalik  et al . 41 
+ 
+  have shown that IVD injection of ozone can effectively control disc herniation and relieve the pain caused by it. After these conservative treatments, if a patient's symptoms cannot be controlled or are aggravated, further surgical treatments will be needed.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3919~3923" text="MMP3" location="background" />
+<GENE id="G1" spans="3925~3930" text="MMP13" location="background" />
+<GENE id="G2" spans="3936~3944" text="ADAMTS‐4" location="background" />
+<DISEASE id="D0" spans="1060~1072" text="Constipation" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

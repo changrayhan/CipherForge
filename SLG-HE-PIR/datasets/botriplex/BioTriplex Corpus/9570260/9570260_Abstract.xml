@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Inhibition of Borrelia Burgdorferi-Induced TLR2-NFκB Canonical Signaling by Gallic Acid through Targeting the CD14+ Adaptor Protein and p65 Molecule.
+Abstract: The cases of Lyme disease caused by  Borrelia burgdorferi  infection have been increasing throughout Northern America and Europe. This pathogen, if not treated in a timely manner with antibiotics, can cause persisting and debilitating health outcomes. In the search for novel agents against  B. burgdorferi , we investigated a phenolic compound—gallic acid—for its anti- Borrelia  and anti-inflammatory effects. Our results showed its biocidal effect starting from 100 μg/mL against active spirochetes, persisters/round-shaped bodies, and biofilm like aggregates of  B. burgdorferi sensu stricto . Activation of macrophages by live  B. burgdorferi  also resulted in a robust NFκB-dependent proinflammatory responses seen in increased production of cytokines. Using human CD14+ macrophages  in vitro , we showed that CD14+ adaptor and phosphorylated p65 molecule are impeded at nonbiocidal and noncytotoxic concentrations of gallic acid, resulting in the inhibition of both expression and secretion of cytokines IL1β, IL6, and TNFα. Our findings demonstrate efficacy of gallic acid against  B. burgdorferi  and provide potential mechanistic insight into its TLR2/CD14+-NFκB mediated mode of action. Further studies on the potential of gallic acid as a safe and effective compound against  Borrelia- caused infection are warranted.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="51~55" text="TLR2" location="result" />
+<GENE id="G1" spans="56~60" text="NFκB" location="result" />
+<GENE id="G2" spans="118~122" text="CD14" location="result" />
+<GENE id="G3" spans="144~147" text="p65" location="result" />
+<GENE id="G4" spans="843~847" text="NFκB" location="result" />
+<GENE id="G5" spans="939~943" text="CD14" location="result" />
+<GENE id="G6" spans="984~988" text="CD14" location="result" />
+<GENE id="G7" spans="1179~1183" text="IL1β" location="result" />
+<GENE id="G8" spans="1185~1188" text="IL6" location="result" />
+<GENE id="G9" spans="1194~1198" text="TNFα" location="result" />
+<GENE id="G10" spans="1325~1329" text="TLR2" location="result" />
+<GENE id="G11" spans="1330~1334" text="CD14" location="result" />
+<GENE id="G12" spans="1336~1340" text="NFκB" location="result" />
+<GENE id="G13" spans="1017~1020" text="p65" location="result" />
+<DISEASE id="D0" spans="181~193" text="Lyme disease" location="background" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

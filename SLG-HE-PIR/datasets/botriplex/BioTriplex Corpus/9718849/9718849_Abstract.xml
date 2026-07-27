@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: NRG1 knockdown rescues PV interneuron GABAergic maturation deficits and schizophrenia behaviors in fetal growth restriction mice.
+Abstract: Schizophrenia is a highly debilitating mental disorder, those who experienced fetal growth restriction (FGR) in the early stage of life have a greater probability of schizophrenia. In this study, FGR mice showed hyperactivity in locomotor activity test, sociability dysfunction in three chamber test and nesting social behavior tests, cognition decline in Morris water maze and impaired sensory motor gating function in prepulse inhibition test. Mechanistic studies indicated that the number of parvalbumin (PV) interneuron was significantly reduced in FGR mouse media prefrontal cortex (mPFC). And the mRNA and protein level of neuregulin 1(NRG1), which is a critical schizophrenia gene, increased significantly in FGR mouse mPFC. Furthermore, NRG1 knockdown in FGR mouse mPFC improved PV interneuron GABAergic maturation and rescued schizophrenia behaviors including hyperactivity, social novelty defects, cognition decline, and sensorimotor gating deficits in FGR mice. This study indicates that mPFC NRG1 upregulation is one of the main causes of FGR-induced schizophrenia, which leads to significant reduction of PV interneuron number in mPFC. NRG1 knockdown in mPFC significantly rescues schizophrenia behaviors in FGR mouse. This study thus provides a potential effective therapy target or strategy for schizophrenia patients induced by FGR.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="NRG1" location="result" />
+<GENE id="G1" spans="777~789" text="neuregulin 1" location="result" />
+<GENE id="G2" spans="790~794" text="NRG1" location="result" />
+<GENE id="G3" spans="893~897" text="NRG1" location="result" />
+<GENE id="G4" spans="1152~1156" text="NRG1" location="result" />
+<GENE id="G5" spans="1297~1301" text="NRG1" location="result" />
+<DISEASE id="D0" spans="80~93" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="148~161" text="Schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="314~327" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="817~830" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="983~996" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="1211~1224" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="1342~1355" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="1458~1471" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<RELATION id="R0" spans="808~816,831~835" text="critical ... gene" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="neuregulin 1" diseaseID="D3" diseaseText="schizophrenia" relationID="R0" relationText="critical ... gene" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="NRG1" diseaseID="D3" diseaseText="schizophrenia" relationID="R0" relationText="critical ... gene" />
+</TAGS>
+</Genomics_ConceptTask>

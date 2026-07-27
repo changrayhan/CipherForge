@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+ : Schamberger, A. C.  et al . Glutathione peroxidase 3 localizes to the epithelial lining fluid and the extracellular matrix in interstitial lung disease.  Sci. Rep. 
+ 6 , 29952; doi: 10.1038/srep29952 (2016).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="32~56" text="Glutathione peroxidase 3" location="result" />
+<DISEASE id="D0" spans="130~155" text="interstitial lung disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

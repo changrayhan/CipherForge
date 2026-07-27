@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Materials
+Fetal bovine serum (FBS) and penicillin-streptomycin were purchased from Gibco (Grand Island, NY, USA). XAV939, 5-fluorouracil, and 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) were purchased from Sigma-Aldrich (St. Louis, MO, USA). BIO was purchased from Tocris Bioscience (Ellisville, MO, USA). Antibodies directed against phospho-p85/PI3K (Tyr 467), p85/PI3K, Akt, phospho-mTOR, mTOR, phospho-β-catenin (S33/37/T41), Axin1, and Axin2 were obtained from Cell Signaling Technology (Boston, MA). Recombinant human Wnt-3α was purchased from R&D Systems, Inc. (Minneapolis, MN). Akt, phospho-GSK-3β (S9), GSK-3β, c-Myc, cyclinD1, lamin B, and β-actin antibodies were from Santa Cruz Biotechnology (Santa Cruz, CA, USA). The β-catenin antibody was purchased from Sigma-Aldrich (St. Louis, MO). SMA was generated from  Bacillus polyfermenticus  KJS-2 by Daewoo Pharmaceutical (Busan, Korea). They provided SMA in a salt form that was soluble in PBS.
+Cell culture
+The human colon epithelial cancer cell lines (HT29 and HCT116), the mouse colon carcinoma cell line CT26, and the human lung adenocarcinoma epithelial cell line A549 were purchased from the American Type Culture Collection (ATCC, VA, USA). HT29 cells were grown in RPMI1640 (Hyclone), whereas the CT26, A549, and HCT116 cell lines were grown in DMEM (Hyclone). Media was supplemented with 10% FBS containing 100 IU/ml penicillin and 100 μg/ml streptomycin. The cells were incubated at 37°C in a tissue culture incubator containing a 5% CO 2 /95% air atmosphere. After reaching confluence, the cells were trypsinized and sub-cultured by splitting the cells at a ratio of 1:5.
+Proliferation assay
+Cells were seeded in a 96-well plate at 5000 cells/well, starved by culturing in 1% FBS overnight, and treated with SMA with or without 10% FBS, BIO (0.1 μM), or LiCl (10 mM) for 48 h. MTT solution (20 μl) was added, and the cells were incubated for 4 h at 37°C. The MTT solution was then discarded by aspiration and 200 μl of DMSO was added to dissolve formazan crystals. After 30 minutes of incubation, absorbance was measured at 540 nm using a microplate reader (Molecular Devices, Menlo Park, CA). Relative proliferations are expressed as the percentages of the proliferation of the vehicle-treated controls.
+Colony forming assay
+Colony formation is an important endpoint for determining cancer cell proliferation and tumor responses to drugs. In the present study, colony formation was measured using an  in vitro  clonogenic assay. Agar growth medium solution (0.5%) was prepared by mixing 1% agar with 2 × RPMI1640 medium at a ratio of 1:1. Agar growth medium (0.5%; 500 μl) was added slowly to each 6-well plate. When sufficient colonies were visible and had reached a diameter  ca . 0.5 mm, they were treated with the indicated concentrations of drugs. Media and drugs were changed every two days for 30 days. Colonies were stained with 0.005% crystal violet for 1 hour at 4°C, and the numbers of colonies were counted using a microscope connected to a digital camera (TMS; Nikon, Japan).
+Western blot analysis
+Cells (CT26 and HT29) from 4- to 5-day-old cultures were seeded in a 60φ dish at 1×10 5  cells/cm 2 . The cells were serum starved (1% FBS) overnight, and then treated with SMA for 1 h prior to stimulation with 10% FBS for 24 h. Total cytosolic and nuclear proteins were extracted from cells and tissues and subjected to a western blot as previously described [ 26 ].
+Nuclear translocation of β-catenin
+The cells were grown on confocal dishes (glass bottomed dishes; Ibidi). Overnight serum starved cells were pretreated with SMA, stimulated with Wnt3α (10 ng/mL) or serum for 3 h, washed, fixed with 3.7% paraformaldehyde, permeabilized with 0.1% Triton X-100, blocked for 1 h with 3% bovine serum albumin (BSA) to reduce nonspecific binding, incubated with β-catenin antibody (1:100, Sigma) overnight at 4°C, and then incubated with a secondary antibody-conjugated with FITC (1:200) for 1 h at room temperature. Nuclei were stained with 600 nM 4,6-diamidino-2-phenylindole (DAPI), and then the cells were mounted with Prolong Gold Antifade (Invitrogen, Carlsbad, CA, USA). The cells were observed and photographed using a Confocal A1 Imaging System (Nikon, Japan). Between each of the steps, the cells were washed with Tris Buffered Saline containing 0.1% Tween 20 (TBST).
+TCF/LEF reporter dual-luciferase assay
+The cells were grown on confocal dishes (glass bottomed dishes; Ibidi). Overnight serum starved cells were pretreated with SMA, stimulated with Wnt3α (10 ng/mL) or serum for 3 h, washed, fixed with 3.7% paraformaldehyde, permeabilized with 0.1% Triton X-100, blocked for 1 h with 3% bovine serum albumin (BSA) to reduce nonspecific binding, incubated with β-catenin antibody (1:100, Sigma) overnight at 4°C, and then incubated with a secondary antibody-conjugated with FITC (1:200) for 1 h at room temperature. Nuclear staining was conducted using 600 nM 4,6-diamidino-2-phenylindole (DAPI), and the cells were mounted with Prolong Gold Antifade (Invitrogen, Carlsbad, CA, USA). The cells were observed and photographed using an A1 Confocal Laser Microscope System (Nikon Corp., Tokyo, Japan). Between each step, the cells were washed with Tris Buffered Saline containing 0.1% Tween 20 (TBST).
+Tankyrase activity assay
+To determine the effect of SMA on tankyrase 1 activity, the Tankyrase 1 Colorimetric Activity Assay Kit (Trivegen # 4700-096-K) was used. SMA was diluted in 1X I-PAR assay buffer (PAB). Histones from a histone-coated natural strip well plate were rehydrated with 50 μl of PAB and incubated at 25°C for 30 min. The PAB was removed and 25 μl of the assay cocktail, which consisted of 15 μl of the assay substrate and 10 μl of PAB with or without the inhibitor, was added to the samples. Tankyrase 1 enzyme (25 μl; 5 mUnits/well) was added to each well, and the tankyrase activities were determined using the Tankyrase 1 Colorimetric Activity Assay Kit according to the manufacturer's instructions.
+The effect of SMA on Tankyrase 2 activity was screened using TNKS2 Histone Ribosylation Colorimetric Assay Kit (Bioscience #80583, San Diego, CA). The assay was performed as per the manufacturer’s instructions. Briefly, the transparent 96 well plate was coated with the histone proteins and incubated overnight at 4°C. A master mixture containing 10X PARP assay buffer, 10X PARP assay mixture and distilled water was prepared and added in all the wells except in substrate control where 10X PARP assay mixture was substituted by distilled water. 5 μl of SMA diluted in PBS were added to the designated wells at the indicated concentration. Then, the biotinylated NAD+ substrate was incubated with an assay buffer containing the TNKS2 enzyme. Finally, the streptavidin-HRP was added followed by the the colorimetric HRP substrate. The reaction was then stopped by the addition of 2M H 2 SO 4 . The produced color was then measured at 450 nm using Spectrostar Nano microplate reader (BMG LABTECH).
+Anti-tumor activity measurements in mouse tumor models
+Six-week-old BALB/c mice were purchased from Orient Co. Ltd, Korea and housed under pathogen-free conditions in a 12-h light/dark cycle with access to food pellets and tap water  ad libitum . The anti-tumor activities of MA and SMA were evaluated using an allograft (CT26 mouse colon carcinoma cell line) model and xenograft (HT29 human colon cancer and A549 human lung cancer cell line) models. Six mice per each group were used. In the allograft mouse model, the mice were injected subcutaneously with 5×10 6  CT26 cells in 200 μl of DMEM/matrigel (1:1) into the flank region. Tumor sizes were measured every two days and calculated using following formula:
+ V ( mm 3 ) = L × W × W × ½ 
+
+When tumors reached 100 mm 3 , the mice were divided into different groups and treatments were started by injecting drugs i.p. daily. Mice were monitored for physical conditions such as body weight change and rustling behavior every day. When one mouse in 5-FU-treated group died after 7 days of 5-FU (50 mg/kg) treatment in the allograft tumor study, we ended this experiment, which was earlier than we planned. At the end of the study, the mice were sacrificed by placing them in a CO 2  gas-filled chamber, and the excised tumors were measured and weighed. The xenograft models involved the same procedure except that HT29 or A549 cells were injected. Different doses of SMA, cisplatin, and of SMA + cisplatin were injected daily for 7 days with a 3-day break for a total of 28 days.
+Mouse experiments were performed according to the institutional guidelines of the Institute of Laboratory Animal Resources (1996) and Yeungnam University for the care and use of laboratory animals (2009). The guidelines also contain a protocol for early euthanasia/humane endpoints for mice which become severely ill or die prior to the experimental endpoint. When mice became severely ill by losing 20% of body weight due to drug treatment or by gaining 20% of body weight due to tumor growth, mice were euthanized early, marking the endpoint of the experiment. This animal care and use protocol was reviewed and approved by the Institutional Animal Care and Use Committee at Yeungnam University (Approval number: 2014–020).
+Statistical analysis
+Statistical analyses were performed using GraphPad Prism 5.0 software (San Diego, CA, USA). The results are expressed as means ± SEMs. A one-way analysis of variance with Tukey’s test was used for multiple comparisons between groups. Values of p < 0.05 were considered statistically significant.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="366~369" text="p85" location="result" />
+<GENE id="G1" spans="370~374" text="PI3K" location="result" />
+<GENE id="G2" spans="386~389" text="p85" location="result" />
+<GENE id="G3" spans="390~394" text="PI3K" location="result" />
+<GENE id="G4" spans="396~399" text="Akt" location="result" />
+<GENE id="G5" spans="409~413" text="mTOR" location="result" />
+<GENE id="G6" spans="415~419" text="mTOR" location="result" />
+<GENE id="G7" spans="429~438" text="β-catenin" location="result" />
+<GENE id="G8" spans="453~458" text="Axin1" location="result" />
+<GENE id="G9" spans="464~469" text="Axin2" location="result" />
+<GENE id="G10" spans="623~629" text="GSK-3β" location="result" />
+<GENE id="G11" spans="636~642" text="GSK-3β" location="result" />
+<GENE id="G12" spans="644~649" text="c-Myc" location="result" />
+<GENE id="G13" spans="651~659" text="cyclinD1" location="result" />
+<GENE id="G14" spans="674~681" text="β-actin" location="result" />
+<GENE id="G15" spans="755~764" text="β-catenin" location="result" />
+<GENE id="G20" spans="3500~3509" text="β-catenin" location="result" />
+<GENE id="G21" spans="3866~3875" text="β-catenin" location="result" />
+<GENE id="G23" spans="4777~4786" text="β-catenin" location="result" />
+<GENE id="G24" spans="5315~5324" text="Tankyrase" location="result" />
+<GENE id="G26" spans="5374~5383" text="tankyrase" location="result" />
+<GENE id="G27" spans="5400~5409" text="Tankyrase" location="result" />
+<GENE id="G29" spans="5825~5834" text="Tankyrase" location="result" />
+<GENE id="G30" spans="5899~5908" text="tankyrase" location="result" />
+<GENE id="G31" spans="5946~5955" text="Tankyrase" location="result" />
+<GENE id="G33" spans="6057~6066" text="Tankyrase" location="result" />
+<GENE id="G34" spans="6097~6102" text="TNKS2" location="result" />
+<GENE id="G36" spans="6764~6769" text="TNKS2" location="result" />
+<DISEASE id="D0" spans="1002~1007,1019~1025" text="colon ... cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1066~1081" text="colon carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1112~1131" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="2379~2385" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="7365~7380" text="colon carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="7424~7436" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="7452~7453,7453~7463" text="l ... ung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

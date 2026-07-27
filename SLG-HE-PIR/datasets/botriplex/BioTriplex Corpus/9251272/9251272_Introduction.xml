@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Intervertebral disc degeneration (IDD) is a pathological change defined as the aging process and damage of intervertebral disc (IVD) caused by a series of complex molecular mechanisms that finally leads to serious clinical symptoms. Low back pain (LBP) is one of the typical clinical symptoms of IDD. It is not only a common reason for patients to go to the hospital, but also one of the leading causes of disability. 1 
+ 
+ ,  2 
+ 
+  Almost all people have transient attacks of LBP in their lives, and a small number of people will experience chronic LBP, which places a significant burden on the social economy, including not only the costs of treating patients (direct costs) but also the loss of social productivity (indirect costs). 3 
+ 
+ ,  4 
+ 
+  IDD can be induced by a variety of factors, such as aging, heredity factors, mechanical loading, obesity, and even smoking. 5 
+ 
+ ,  6 
+ 
+ ,  7 
+ 
+ ,  8 
+ 
+ ,  9 
+ 
+ ,  10 
+ 
+  The degeneration of IVD happens earlier than in other tissues of the body, as early in adolescence. 11 
+ 
+ ,  12 
+ 
+  With the increase of age, the number of people affected by IVD increases sharply. About 10% of the 50‐year‐old population suffer from IDD, and in 70‐year‐old people, this number will increases to about 60%. 12 
+ 
+ 
+
+IVDs are located between the upper and lower vertebrae, firmly connecting the centrums, and the IVDs can decompress, absorb shocks, and increase the range of spinal movement (Figure  1A ). Each IVD consists of three elements: nucleus pulposus (NP), annulus fibrosus (AF), and cartilage endplate (CEP) (Figure  1B ). In normal adults, there are few blood vessels in the IVD and most of the nutrient supply of IVD mainly depends on the infiltration from the CEP, which are the reasons why the IVD easily degenerates. The effect of IDD is mainly to change the movement and biomechanics of IVD, consequently affecting the mechanics of the spine. The intensity of normal IVD is primarily affected by the components of extracellular matrix (ECM). With age, the proteoglycan of ECM is lost and hydration ability decreases gradually, which leads to progressive dehydration of IVD, especially nucleus pulposus (NP). 7 
+ 
+ ,  13 
+ 
+  Although the function of each IVD is about the same, according to the spinal cord segment in which it is located, their structure will change to adapt to the different stresses. The thickness and intensity of different parts of the AF are also different, for example, the posterior part of the lumbar intervertebral disc is thinner, and there is no collagen fiber interweaving in the posterior part, so the intensity of the posterior part is lower than other parts, which explains why disc herniation often occurs at the back of the IVD 14 
+ 
+  (Figure  1C ). At the cellular level, environmental factors can accelerate the death of the cell through apoptosis or necrosis; these cellular processes, in turn, may further promote the pathogenesis of IDD. 15 
+ 
+  For example, the apoptosis and necrosis of NPCs not only reduce the number of functional cells but also release the inflammatory factors, which will further worsen the microenvironment of the IVD, leading to further degeneration of the IVD. Degeneration accumulation will cause clinical symptoms, then the patient needs to go to the hospital. At present, the main clinical treatments for IDD include conservative treatment and surgical treatment, which can relieve symptoms and reduce pain but cannot reverse the IDD, so the scientific community is beginning to study new biotherapy to delay or reverse the IDD. Many experiments  in vitro  have proved that biotherapy can promote the proliferation of NPCs, inhibit the fibrosis of IVD, preserve the water content and reverse the process of IDD. This article reviews the standard therapy and new biotherapy of IDD and puts forward the direction and prospect in the future.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="851~858" text="obesity" location="background" disease1="disease of metabolism" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

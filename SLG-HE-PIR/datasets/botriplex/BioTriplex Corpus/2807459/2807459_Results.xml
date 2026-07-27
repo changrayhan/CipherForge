@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The Non-Tumorigenic A549-NT and the Tumorigenic A549-T Subpopulations Differed in Contact-Mediated Growth Inhibition Properties
+First we isolated distinct A549 subpopulations by density gradient centrifugation as described by Croce et al. [3]  and characterized their CEACAM expression pattern. Density gradient centrifugation of A549 cells resulted in four different subpopulations: subpopulation A at the top of the gradient in fraction 0–3 corresponding to the density of 1.035, subpopulation B in the fraction 4–6 (density 1.040), subpopulation C in fraction 7–9 (density 1.050) and subpopulation D in fraction 10–12 (density 1.060). Cells accumulate at higher density fractions due to their size and granularity, which usually reflects an activated cell status. In accordance with published results, we could subdivide A549 cells in two groups as evidenced by their morphology and growth behavior. One corresponded to the non-tumorigenic like subpopulations A549-A, -B and -C, and the other to the tumorigenic A549-D [3] . To simplify our further studies we combined the subpopulations A549-A, -B and -C and named them A549-NT (non-tumorigenic) and A549-T (tumorigenic), respectively.
+Phase-contrast microscopy revealed that under standard culture conditions sub-confluent A549-NT and -T occurred as scattered colonies of associated cells ( Figure 1A ). However, confluent A549-NT cells appeared as cobblestone monolayer, characteristic of epithelial cell growth, consistent of closely associated cells with a typical polygonal, epithelial-like morphology indicating a stringent contact inhibition of cell growth ( Figure 1B ). In addition, this subpopulation formed tight cell-cell contacts leading to a significant prolongation of the trypsin treatment necessary for harvesting if compared with the time needed to harvest exponential growing A549-NT cells. The A549-T subpopulation also grew as a normal epithelial monolayer. However, in contrast to the A549-NT, some cells piled up on each other showing anchorage independence. These cell aggregates were found mainly at the top of the monolayer together with suspended cells ( Figure 1C ). Over time, the spheroid aggregates detached, floated unbound on top of the monolayer and formed proliferating colonies containing approximately 4–400 cells. After seeding A549-T spheroids into new culture vessels, most of the cells attached within a few hours ( Figure 1D ), grew to a confluent monolayer and again generated detached spheroids of growing cells (data not shown). A549-NT cells had a doubling time of approximately 24 hours and A549-T cells of approximately 20 hours as determined by cell cycle determinations (data not shown).
+The A549-NT and A549-T Subpopulations Revealed Different CEACAM Expression Patterns
+These observations concerning different growth properties of the A549 subpopulations led us to assume that different expression patterns of CEACAMs might be important in the loss of contact inhibition in these cells. Subsequently, the cell surface expression of CEACAM1, CEACAM5, CEACAM6, and CEACAM7 was measured on trypsin-dissociated A549-NT and A549-T cells harvested from non-confluent, confluent monolayers, or - in the case of A549-T cells, – cells growing as spheroids, by flow cytometry. As shown in  Figure 2 , neither proliferating cells of subpopulations cultivated in the log phase, nor A549-T cells growing as spheroids, expressed CEACAM1, CEACAM5, CEACAM6, or CEACAM7 on their cell surface. In contrast, in the tightly confluent monolayer of both the A549-T and A549-NT cell subpopulations, we found significant cell surface expression of CEACAM1, but not CEACAM5, in all A549 cells ( Figure 2A ). However, while cells of the A549-NT subpopulation also did not express cell surface bound CEACAM6, around 15% of the A549-T cells expressed significant levels of CEACAM6 on their cell surface (15%±6%, n = 7;  Figure 2 , lower panel). Western blot analyses confirmed that non-confluent A549 cells did not express CEACAM1, CEACAM5, or CEACAM6 ( Figure 2B ). Confluent A549 cells showed significant levels of CEACAM1, but in addition revealed a significant expression of CEACAM5 and CEACAM6 as well ( Figure 2B ). Thus, CEACAM5 and CEACAM6 proteins were expressed in confluent A549 cells, but apparently they did not appear at the cell surface except for some CEACAM6 in a minor fraction of cells ( Figure 2A ). To elucidate the discrepancy in our findings, we analyzed the cell culture supernatant of confluent A549 cells. We found that both CEACAM5, CEACAM6, and, to a minor extent, CEACAM1, were released into the cell culture supernatant of confluent A549-NT ( Figure 2C ) and A549-T cells (data not shown).
+CEACAM1 Is Mainly Expressed in the Post-Confluent Growth Phase of A549 Cells
+To analyze the regulation of the distinct expression patterns of CEACAMs found in altered growth stages in more detail, tightly confluent un-separated A549 cells were seeded into culture vessels with low cell density. Then cells were constantly cultured in exponential growth phase for one, two and three days, respectively. Initially, absolute CEACAM1 expression on the surface of confluent A549 cells was analyzed by quantitative flow cytometry. As shown in  Figure 3A  an approximate expression of 17,000±3020 (n = 4) molecules per cell was observed. One day later (day 1) the CEACAM1 expression dropped to 6600±1523 (n = 4) molecules per cell, and continued to decrease until no CEACAM1 expression on the cell surface was detectable on day 3 ( Figure 3A ). Further flow cytometric analyses of cells that were kept non-confluent for up to 10 days, revealed that CEACAM1 did not appear on the cell surface (data not shown). This finding was confirmed by Western blotting, while some minor CEACAM1 expression in lysates of exponential proliferating A549 cells harvested on day 3 was still detectable ( Figure 3B ). In addition to the significant decrease of CEACAM1 expression, a clear reduction of CEACAM5 and CEACAM6 protein from day zero to day three was found ( Figure 3B ). Thus, cell-cell contact seemed to play an important role in regulating the expression of CEACAMs in both A549 subpopulations.
+Next, we investigated the kinetics of CEACAM1 expression from just confluent A549 cells to up to seven days post-confluence. As shown in  Figure 3C , we found that A549 cells that had just reached confluence did not express CEACAM1. However, as soon as A549 cells entered the post-confluent growth arrest state, an increasing fraction of cells started to express high amounts of CEACAM1. At day seven expression of CEACAM1 could be detected on every cell of the A549 monolayer ( Figure 3C ). According to these results, not only the initial cell-cell contact, but also entering the growth arrest state, precedes the cell surface expression of CEACAM1. Thus CEACAM1 does not cause, but rather stabilizes and maintains contact inhibition. The expression of CEACAM5 and CEACAM6 in the A549 cells also varied with cell confluence in a similar manner (data not shown).
+A549-NT and A549-T Cells Expressed CEACAM1 Isoforms at a Similar Ratio of Total L Compared to Total S Isoforms
+In principle four different CEACAM1 splice variants are known to exist in human epithelia, namely CEACAM1-3S, CEACAM1-4S, CEACAM1-3L and CEACAM1-4L. To analyze these splice variants in tightly confluent A549-NT and A549-T cells, we established four different quantitative RT-PCRs, which discriminated between these splice variants. We found that post-confluent contact inhibited A549 cells of both subpopulations expressed all four of these CEACAM1 isoforms ( Figure 4  and  Table 1 ). CEACAM1-4L appeared to be the predominant isoform expressed followed by CEACAM1-3S ( Table 1 ). CEACAM1-4S and CEACAM1-3L were expressed at much lower levels. In general, the sum of the expression of the two L isoforms (∑ L ) was greater than the sum of the two S isoforms (/∑ S ), and there was no significant difference between the two subpopulations A549-NT and A549-T with respect to the ∑L/∑S ratio.
+
+           10.1371/journal.pone.0008747.t001 
+           Table 1 
+           Characterization of the CEACAM1 isoform pattern as determined by quantitative RT-PCR of the two A549 subpopulations. 
+           
+             
+           
+             
+                 
+                 
+               
+                 
+               
+                   A549-NT 
+                   A549-T 
+                 
+                   
+                 
+                   Confluent/G0 
+                   Confluent/G0 
+                 
+                   
+               
+                 
+               CEACAM1-4L 
+                   104.600±47.600 
+                   74.970±33.000 
+                 
+                   
+                 CEACAM1-4S 
+                   23.490±1.420 
+                   9.250±5.570 
+                 
+                   
+                 CEACAM1-3L 
+                   13.300±1.980 
+                   7.590±2.930 
+                 
+                   
+                 CEACAM1-3S 
+                   58.870±3.470 
+                   26.330±7.430 
+                 
+                   
+                 
+                   [Copies/µg] 
+                   [Copies/µg] 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+CEACAM1-4L Induces Contact-Mediated Inhibition of Cell Growth in A549 Cells
+To analyze the functional impact of the different CEACAMs, we altered their expression patterns by stable transfection of parental A549 cells with CEACAM1-4L, CEACAM1-4S, the ITIM-mutant form of CEACAM1 [CEACAM1-4L(Y459F/Y486F)], CEACAM5 and CEACAM6, respectively. Since proliferating A549 cells did not express CEACAMs, the transfection success could be monitored by flow cytometry utilizing exponentially growing A549 transfectants. Empty vector transfected A549 cells served as a control and showed no expression of CEACAMs in the proliferative stage ( Figure 5A, a ). In contrast, A549-CEACAM1-4L ( Figure 5A, b ), A549-CEACAM1-4L(Y459F/Y486F) ( Figure 5A, c ) and A549-CEACAM5 ( Figure 5A, d ) cell lines revealed a strong exogenous CEACAM expression, respectively. The capability to produce A549-CEACAM5 cell lines demonstrated that in principle A549 cells are able to express GPI-anchored CEACAMs on their cell surface. Unexpectedly, we were not able to establish stable transfectants of A549-CEACAM1-4S and A549-CEACAM6, although the individual vectors transfected into HeLa cells resulted in CEACAM1-4S and CEACAM6 expression, respectively, proving the efficacy of these vectors (data not shown). Repeated transfections of A549 cells with CEACAM1-4S and CEACAM6 were carried out resulting in A549 cells, which were no longer able to exhibit normal proliferation. Analyzes by phase-contrast microscopy revealed that A549-CEACAM1-4S and A549-CEACAM6 cells, which initially survived the G418-selection procedure, detached from the culture vessel and subsequently died (data not shown). However, in contrast to A549-CEACAM6, several A549-CEACAM1-4S cells remained attached on the cell culture vessel and partially formed giant cells containing several nuclei ( Figure 5B, e ). This finding implied a malfunction of the regular cell division processes caused by over-expression of CEACAM1-4S. Compared with un-transfected and control-vector transfected A549 cells, A549-CEACAM1-4L exhibited a marked increase of the homogeneous, cobblestone-like epithelial cell morphology of a well spread monolayer, suggesting a potentiation of contact inhibition ( Figure 5B, b ). Importantly, none of the CEACAM1-4L over-expressing cell lines piled up from the confluent monolayer, and no spheroidal cell aggregates were formed. To determine, whether an intact cytoplasmic tail of CEACAM1-4L is essential for mediating the improved contact inhibition found in A549-CEACAM1-4L, un-separated A549 cells were stably transfected with an expression plasmid coding for a cytoplasmic ITIM mutant form of CEACAM1-4L [3] ,  [30] . We found, that unlike CEACAM1-4L over-expressing cells, A549 cells carrying the mutant plasmid CEACAM1-4L (Y459F/Y486F) failed to grow as a homogenous monolayer. These cells barely established cell-matrix and cell-cell-contacts and appeared mainly as rounded cells. They grew as scattered, slightly attached cell-aggregates without forming solid monolayers ( Figure 5B, c ). Additionally, a number of A549-CEACAM1-4L (Y459F/Y486F) cells grew in suspension (data not shown), supporting an essential role of CEACAM1-4L in the mediation of contact inhibition of cell proliferation.
+Finally, morphological analyses of the A549-CEACAM5 cells revealed that they grew as tight epithelial-like monolayers, although in contrast to the CEACAM1-4L over-expressing cells, A549-CEACAM5 cells tended to pile up on the monolayer, implying continued cell proliferation ( Figure 5B, d ). However, unlike un-transfected and control vector transfected cells, they did not form spheroidal cell aggregates, but displayed a number of single cells with a shriveled appearance on the top of the monolayer ( Figure 5B, d ). Subsequent flow cytometric apoptosis assays of the cells harvested from the different culture supernatants revealed that the survival of detached A549-CEACAM5 cells was significantly decreased compared with detached wild type A549, A549-control vector and A549-CEACAM1-4L(Y459F/Y486F) cells ( Figure 5C ).
+Different CEACAMs Are Involved in the Modulation of A549 Cell Proliferation
+Next we investigated whether the expression of different CEACAMs promotes cell expansion, by measuring cell proliferation rates. We detected no significant alterations in the proliferation rates of parental A549 cells and A549 cells transfected with a control vector ( Figure 5D, open circles ), CEACAM1-4L ( Figure 5D, filled circles ), CEACAM1-4L(Y459F/Y486F) and CEACAM5 (data not shown) during the first two days after plating the cells at low cell number. Interestingly, after becoming confluent on day 3, A549-CEACAM1-4L cells stopped proliferating ( Figure 5D, filled circles ), whereas A549-control vector ( Figure 5D, open circles ), A549-CEACAM1-4L (Y459F/Y486F), and A549-CEACAM5 cells, continued to proliferate (data not shown). As an additional marker of cellular action we measured the acidification of the cell culture supernatant. Normally, the pH value of the cell culture supernatant of tightly confluent contact inhibited cells stays neutral, but decreases in non-contact inhibited cultures due to sustained metabolism. Therefore, we determined the pH values in the 5 days cell culture supernatants of the different confluent A549 cell lines. We detected a significant drop from pH 7.4 to about pH 6.6 in the supernatant of tightly confluent wild type A549, A549-control vector, A549-CEACAM1-4L (Y459F/Y486F) and A549-CEACAM5 cells, but not of confluent A549-CEACAM1-4L cells (data not shown). Thus, our results indicate that CEACAM1-4L negatively regulates proliferation of A549 cells by maintaining contact inhibition via its ITIM domain.
+CEACAM6 Induces A549 Cell Proliferation and Interferes with CEACAM1-4L Mediated Contact Inhibition
+In confluent A549-NT cells only CEACAM1 was expressed on the cell surface. However, 10–15 per cent of the A549-T cells also expressed CEACAM6 ( Figure 2A ). Therefore, we assumed that the expression of CEACAM6 might be of importance for the induction of proliferation by overcoming the CEACAM1-4L mediated contact inhibition. To investigate this hypothesis, confluent A549-T cells were divided by magnetic bead separation into CEACAM6-negative and CEACAM6-positive subpopulations. Subsequently, the expression levels of the proliferation marker Ki-67 were evaluated by immunoblotting. As shown in  Figure 6A , only the CEACAM6-positive subpopulations of confluent A549-T revealed a significant level of Ki-67 suggesting involvement of CEACAM6 in the induction of cell proliferation. To further investigate this observation, we determined the growth phase of the cells by measuring the DNA content as an additional marker of proliferation. Our results confirmed that CEACAM6 negative A549 cells were found only in the G0/G1 phase, whereas CEACAM6 positive A549 cells showed active cell cycling with high proportions of cells being in both the S-phase and the G2/M phase ( Figure 6B ). To further substantiate our results, we performed RNA interference experiments by stable transfection of A549-T cells either with scrambled sh-control plasmids or with shCEACAM6-plasmids. Flow cytometric ( Figure 6C ) and ELISA analyses (data not shown) of A549-T cells transfected with the different shCEACAM6-plasmids confirmed the complete absence of CEACAM6 expression in the confluent growth stage, while CEACAM1 was still expressed. Next, we investigated the morphology of the monolayer in the confluent stage and found, that A549-T-sh CEACAM6 monolayers had a cobblestone-like morphology consisting of closely associated cells, comparable to the morphology found in the A549-NT and A549-CEACAM1-4L cells ( Figure 6D ). Moreover, in confluent CEACAM6 shRNA plasmid transfected A549 cells neither spheroidal cell clusters nor media acidification, indicating impairment of contact inhibition, was observed.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3039~3046" text="CEACAM1" location="result" />
+<GENE id="G1" spans="3048~3055" text="CEACAM5" location="result" />
+<GENE id="G2" spans="3057~3064" text="CEACAM6" location="result" />
+<GENE id="G3" spans="3070~3077" text="CEACAM7" location="result" />
+<GENE id="G4" spans="3422~3429" text="CEACAM1" location="result" />
+<GENE id="G5" spans="3431~3438" text="CEACAM5" location="result" />
+<GENE id="G6" spans="3440~3447" text="CEACAM6" location="result" />
+<GENE id="G7" spans="3452~3459" text="CEACAM7" location="result" />
+<GENE id="G8" spans="3631~3638" text="CEACAM1" location="result" />
+<GENE id="G9" spans="3648~3655" text="CEACAM5" location="result" />
+<GENE id="G10" spans="3780~3787" text="CEACAM6" location="result" />
+<GENE id="G11" spans="3852~3859" text="CEACAM6" location="result" />
+<GENE id="G12" spans="4002~4009" text="CEACAM1" location="result" />
+<GENE id="G13" spans="4011~4018" text="CEACAM5" location="result" />
+<GENE id="G14" spans="4023~4030" text="CEACAM6" location="result" />
+<GENE id="G15" spans="4096~4103" text="CEACAM1" location="result" />
+<GENE id="G16" spans="4158~4165" text="CEACAM5" location="result" />
+<GENE id="G17" spans="4347~4354" text="CEACAM6" location="result" />
+<GENE id="G18" spans="4530~4537" text="CEACAM5" location="result" />
+<GENE id="G19" spans="4539~4546" text="CEACAM6" location="result" />
+<GENE id="G20" spans="4572~4579" text="CEACAM1" location="result" />
+<GENE id="G21" spans="4699~4706" text="CEACAM1" location="result" />
+<GENE id="G22" spans="5121~5128" text="CEACAM1" location="result" />
+<GENE id="G23" spans="5356~5363" text="CEACAM1" location="result" />
+<GENE id="G24" spans="5459~5466" text="CEACAM1" location="result" />
+<GENE id="G25" spans="5641~5648" text="CEACAM1" location="result" />
+<GENE id="G26" spans="5767~5774" text="CEACAM1" location="result" />
+<GENE id="G27" spans="5935~5942" text="CEACAM1" location="result" />
+<GENE id="G28" spans="6220~6227" text="CEACAM1" location="result" />
+<GENE id="G29" spans="6406~6413" text="CEACAM1" location="result" />
+<GENE id="G30" spans="6561~6568" text="CEACAM1" location="result" />
+<GENE id="G31" spans="6597~6604" text="CEACAM1" location="result" />
+<GENE id="G32" spans="6825~6832" text="CEACAM1" location="result" />
+<GENE id="G33" spans="6839~6846" text="CEACAM1" location="result" />
+<GENE id="G34" spans="6937~6944" text="CEACAM5" location="result" />
+<GENE id="G35" spans="6949~6956" text="CEACAM6" location="result" />
+<GENE id="G36" spans="7081~7088" text="CEACAM1" location="result" />
+<GENE id="G37" spans="7185~7192" text="CEACAM1" location="result" />
+<GENE id="G38" spans="7255~7262" text="CEACAM1" location="result" />
+<GENE id="G39" spans="7267~7274" text="CEACAM1" location="result" />
+<GENE id="G40" spans="7279~7286" text="CEACAM1" location="result" />
+<GENE id="G41" spans="7294~7301" text="CEACAM1" location="result" />
+<GENE id="G42" spans="7598~7605" text="CEACAM1" location="result" />
+<GENE id="G43" spans="7643~7650" text="CEACAM1" location="result" />
+<GENE id="G44" spans="7715~7722" text="CEACAM1" location="result" />
+<GENE id="G45" spans="7739~7746" text="CEACAM1" location="result" />
+<GENE id="G46" spans="7754~7761" text="CEACAM1" location="result" />
+<GENE id="G47" spans="8150~8157" text="CEACAM1" location="result" />
+<GENE id="G48" spans="8646~8653" text="CEACAM1" location="result" />
+<GENE id="G49" spans="8782~8789" text="CEACAM1" location="result" />
+<GENE id="G50" spans="8914~8921" text="CEACAM1" location="result" />
+<GENE id="G51" spans="9046~9053" text="CEACAM1" location="result" />
+<GENE id="G52" spans="9381~9388" text="CEACAM1" location="result" />
+<GENE id="G53" spans="9604~9611" text="CEACAM1" location="result" />
+<GENE id="G54" spans="9616~9623" text="CEACAM1" location="result" />
+<GENE id="G55" spans="9652~9659" text="CEACAM1" location="result" />
+<GENE id="G56" spans="9661~9668" text="CEACAM1" location="result" />
+<GENE id="G57" spans="9687~9694" text="CEACAM5" location="result" />
+<GENE id="G58" spans="9699~9706" text="CEACAM6" location="result" />
+<GENE id="G59" spans="10047~10054" text="CEACAM1" location="result" />
+<GENE id="G60" spans="10081~10088" text="CEACAM1" location="result" />
+<GENE id="G61" spans="10259~10266" text="CEACAM5" location="result" />
+<GENE id="G62" spans="10457~10464" text="CEACAM1" location="result" />
+<GENE id="G63" spans="10477~10484" text="CEACAM6" location="result" />
+<GENE id="G64" spans="10558~10565" text="CEACAM1" location="result" />
+<GENE id="G65" spans="10573~10580" text="CEACAM6" location="result" />
+<GENE id="G66" spans="10705~10712" text="CEACAM1" location="result" />
+<GENE id="G67" spans="10720~10727" text="CEACAM6" location="result" />
+<GENE id="G68" spans="10886~10893" text="CEACAM1" location="result" />
+<GENE id="G69" spans="10906~10913" text="CEACAM6" location="result" />
+<GENE id="G70" spans="11078~11085" text="CEACAM6" location="result" />
+<GENE id="G71" spans="11100~11107" text="CEACAM1" location="result" />
+<GENE id="G72" spans="11342~11349" text="CEACAM1" location="result" />
+<GENE id="G73" spans="11431~11438" text="CEACAM1" location="result" />
+<GENE id="G74" spans="11653~11660" text="CEACAM1" location="result" />
+<GENE id="G75" spans="11829~11836" text="CEACAM1" location="result" />
+<GENE id="G76" spans="11913~11920" text="CEACAM1" location="result" />
+<GENE id="G77" spans="12045~12052" text="CEACAM1" location="result" />
+<GENE id="G78" spans="12092~12099" text="CEACAM1" location="result" />
+<GENE id="G79" spans="12165~12172" text="CEACAM1" location="result" />
+<GENE id="G80" spans="12476~12483" text="CEACAM1" location="result" />
+<GENE id="G81" spans="12576~12583" text="CEACAM1" location="result" />
+<GENE id="G82" spans="12693~12700" text="CEACAM5" location="result" />
+<GENE id="G83" spans="12796~12803" text="CEACAM1" location="result" />
+<GENE id="G84" spans="12835~12842" text="CEACAM5" location="result" />
+<GENE id="G85" spans="13320~13327" text="CEACAM5" location="result" />
+<GENE id="G86" spans="13430~13437" text="CEACAM1" location="result" />
+<GENE id="G87" spans="13847~13854" text="CEACAM1" location="result" />
+<GENE id="G88" spans="13889~13896" text="CEACAM1" location="result" />
+<GENE id="G89" spans="13917~13924" text="CEACAM5" location="result" />
+<GENE id="G90" spans="14067~14074" text="CEACAM1" location="result" />
+<GENE id="G91" spans="14199~14206" text="CEACAM1" location="result" />
+<GENE id="G92" spans="14234~14241" text="CEACAM5" location="result" />
+<GENE id="G93" spans="14854~14861" text="CEACAM1" location="result" />
+<GENE id="G94" spans="14888~14895" text="CEACAM5" location="result" />
+<GENE id="G95" spans="14929~14936" text="CEACAM1" location="result" />
+<GENE id="G96" spans="14996~15003" text="CEACAM1" location="result" />
+<GENE id="G97" spans="15111~15118" text="CEACAM6" location="result" />
+<GENE id="G98" spans="15242~15249" text="CEACAM1" location="result" />
+<GENE id="G99" spans="15344~15351" text="CEACAM6" location="result" />
+<GENE id="G100" spans="15412~15419" text="CEACAM6" location="result" />
+<GENE id="G101" spans="15496~15503" text="CEACAM1" location="result" />
+<GENE id="G102" spans="15637~15644" text="CEACAM6" location="result" />
+<GENE id="G103" spans="15658~15665" text="CEACAM6" location="result" />
+<GENE id="G104" spans="15755~15760" text="Ki-67" location="result" />
+<GENE id="G105" spans="15829~15836" text="CEACAM6" location="result" />
+<GENE id="G106" spans="15913~15918" text="Ki-67" location="result" />
+<GENE id="G107" spans="15945~15952" text="CEACAM6" location="result" />
+<GENE id="G108" spans="16176~16183" text="CEACAM6" location="result" />
+<GENE id="G109" spans="16248~16255" text="CEACAM6" location="result" />
+<GENE id="G110" spans="16564~16570" text="CEACAM" location="result" />
+<GENE id="G111" spans="16697~16704" text="CEACAM6" location="result" />
+<GENE id="G112" spans="16748~16755" text="CEACAM6" location="result" />
+<GENE id="G113" spans="16804~16811" text="CEACAM1" location="result" />
+<GENE id="G114" spans="16936~16943" text="CEACAM6" location="result" />
+<GENE id="G115" spans="17088~17095" text="CEACAM1" location="result" />
+<GENE id="G116" spans="17143~17150" text="CEACAM6" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

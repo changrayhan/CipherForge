@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Osteosarcoma is the most common primary malignant bone tumour, with high incidence in children, adolescents and young adults 1 . The current protocols combine surgery to neoadjuvant and adjuvant chemotherapy regimen 2 , leading to a five-year overall survival rate levelled off around 60–70% over the past fifty years 3 . The major obstacles for a more favourable outcome are the frequent occurrence of drug resistance, and metastatic relapses. The underlying molecular mechanisms for chemo-resistance remain multiple and unclear, as well as their possible connection with the metastatic phenotype.
+Metallothioneins (MTs) are a group of cysteine-rich metal-binding proteins exhibiting significant chelating properties 4 , 5 . Hence, MTs play a key role in trace elements (zinc, copper…) homeostasis, protection against oxidative stress, and toxic heavy metals. Such detoxication process can decrease cell vulnerability to anticancer drugs, and modulate cancer cells response to chemotherapy (reviewed in 6 ). We previously reported that high MT2A mRNA level in tumour tissue at diagnosis correlates with poor response to chemotherapy and poorer outcome in a small cohort of osteosarcoma patients, suggesting a prognostic significance 7 .
+The present study first assesses the predictive value of MT2A expression level in response to various chemotherapy agents using a panel of osteosarcoma cell lines. Then, the potential value of MT2A repression to reinforce chemotherapy cytotoxicity is assessed using  in vitro  and preclinical models.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1043~1047" text="MT2A" location="background" />
+<GENE id="G1" spans="1296~1300" text="MT2A" location="result" />
+<GENE id="G2" spans="1432~1436" text="MT2A" location="result" />
+<DISEASE id="D0" spans="1~13" text="Osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1175~1187" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1378~1390" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1038~1042,1048~1058" text="high ... mRNA level" location="background" relation="increased expression" />
+<RELATION id="R1" spans="1105~1134" text="poor response to chemotherapy" location="background" relation="therapy resistance" />
+<RELATION id="R2" spans="1139~1153" text="poorer outcome" location="background" relation="negative prognostic marker" />
+<RELATION id="R3" spans="1211~1234" text="prognostic significance" location="background" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="MT2A" diseaseID="D1" diseaseText="osteosarcoma" relationID="R0" relationText="high ... mRNA level" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="MT2A" diseaseID="D1" diseaseText="osteosarcoma" relationID="R1" relationText="poor response to chemotherapy" />
+<ENTITY_LINKING id="E2" geneID="G0" geneText="MT2A" diseaseID="D1" diseaseText="osteosarcoma" relationID="R2" relationText="poorer outcome" />
+<ENTITY_LINKING id="E3" geneID="G0" geneText="MT2A" diseaseID="D1" diseaseText="osteosarcoma" relationID="R3" relationText="prognostic significance" />
+</TAGS>
+</Genomics_ConceptTask>

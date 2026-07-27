@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+COAD is the major subtype of colon cancer in histology. COAD cannot be effectively prevented, attributed to the large number of patients and deaths caused by COAD [ 1 ,  20 ]. There is a lot of evidence indicating that autophagy is involved in multiple BP of COAD. Studies have shown that cryptotanshinone guides autophagic cells death through ROS-p38 MAPK-NF- κ B signaling pathway [ 21 ]. Wen et al. found that orexin-A induced autophagy of colon cancer cells through extracellular signal-regulated kinase (ERK) signaling pathway, thus hindering the reproduction of colon carcinoma cells [ 22 ]. Yan et al. found that the inhibition of 6-phosphofructo-2-kinase/fructose-2, 6-bisphosphatase isoform 3 (PFKFB3) attenuated oxaliplatin-induced autophagy and decreased the viability of colon cancer cells [ 23 ]. Son et al. observed that the inhibition of autophagy of HCT116 in colon cancer cells by 3-MA could increase the rate of apoptosis [ 24 ].
+In present research, we examined the ARG expression profiles of COAD samples in the TCGA database and found that 37 ARGs had statistical difference between tumor and normal tissues. We performed GO and KEGG enrichment analyses on the discrepantly expressed ARGs. In addition to the autophagy pathway, these ARGs were also related to the BP of oxygen level responses. Azad et al. believed that the reactive oxygen species (ROS) could induce autophagy, low levels of ROS induced autophagy can inhibit tumor apoptosis, but excessive ROS will cause tumor cell death, and high levels of ROS will cause cancer [ 25 ]. In this study, we found that the autophagy-related proteins of COAD are distributed in autophagy bodies and also in vacuoles, both of which are important places for autophagy [ 26 – 28 ]. As for the function of MF, ARGs are mainly enriched in protein kinase regulator activity and ubiquitin-protein ligase binding. This binding is the main pathway of protein degradation that plays an indispensable role in autophagy. Protein kinase regulator activity can activate proteins to participate in various BP. In KEGG enrichment, ARGs are concentrated in signaling pathways of p53 and erbB, apoptosis, platinum drug resistance, and EGFR tyrosine kinase inhibitor and concentrated in human cytomegalovirus infection. P53 is an important tumor suppressor gene. It has been reported that TP53-HMGB1 complexes in the cytoplasm can regulate the balance between autophagy and apoptosis. Apoptosis occurs when there are more TP53 in the cytoplasm, and autophagy occurs when there is more HMGB1 [ 29 ]. The enrichment of ARGs in platinum drug resistance suggests that platinum drug resistance in colon cancer may be related to autophagy. The prognostic model constructed in this study involves eight proteins, namely, MTMR14, vesicle-associated membrane protein 3 (VAMP3), HSPA8, TSC1, DAPK1, CX3CL1, ATG13, and MAP1LC3C. As far as we know, this is also the first time that MTMR14 and VAMP3 were found to play a role in COAD. It is reported that the loss of MTMR14 can cause autophagy disorder and lead to muscle disease [ 30 ,  31 ]. The validated VAMP3 is generally regarded as a kind of biomarker of cell aging associated with multiple kinds of tumors, such as pancreatic cancer and breast cancer [ 32 ], and can reduce cell invasiveness [ 33 ].
+TSC1 is an important part of the survival promoting PI3K/Akt/mTOR signaling pathway. By cooperating with a variety of regulatory molecules, TSC1 plays an important role in development, cell growth and proliferation, survival, autophagy, and ciliary development [ 34 ]. TSC1/TSC2 tumor suppressor complex can be used as an inhibitor of mTOR pathway. The destruction of TSC1/TSC2 tumor suppressor function may contribute to the occurrence of tumor [ 35 ]. It is reported that low TSC1 expression level is associated with poor clinical outcomes of breast cancer [ 36 ] and gastric cancer [ 37 ]. Meanwhile, the nanoscale effects of some proteins we have found associated with autophagy and colon cancer have been studied. Nanoparticulate titanium dioxide can downregulate the expression of TSC1 in mouse follicles [ 38 ]. At the same time, nanoparticulate titanium dioxide can induce podocyte autophagy through antioxidant mechanism [ 39 ]. Nanoliquid chromatography tandem mass spectrometry suggested that HSPA8 might be related to pregnancy [ 40 ]. Microcapillary reverse-phase high-performance liquid chromatography-nanoelectrospray tandem mass spectrometry showed that VAMP3 was a factor involved in the secretion of platelet granules [ 41 ]. This evidence suggests that our model will be more valuable in scientific research when deeply combined with nanotechnology. More studies have proved that nanotitanium dioxide has tremendous potential in the treatment of colon adenocarcinoma. TSC1 is a kind of oncogene in colon cancer. Using nanotitanium dioxide to reduce the expression of TSC1 in colon cancer cells may become a new method for the treatment of colon cancer. Studies have shown that titanium dioxide nanoparticles can inhibit tumor cells by stimulating oxidative stress [ 42 ]. However, nano-TiO2 has a wide range of biological effects, which is deleterious to multiple organs in mammals [ 43 ]. Proquin et al. found that titanium dioxide nanoparticles may cause canceration of normal colon cells [ 44 ]. Therefore, it will be a research direction to make nano-TiO2 specifically combine with tumor cells.
+There are some deficiencies in our research. First, the molecular mechanism speculated in this study has not been verified by experiments. Second, the model of this study has not been applied in clinical settings, and its effect has not been confirmed. In addition, the specific molecular mechanisms of eight kinds of ARGs need to be further studied.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="639~702" text="6-phosphofructo-2-kinase/fructose-2, 6-bisphosphatase isoform 3" location="background" />
+<GENE id="G1" spans="704~710" text="PFKFB3" location="background" />
+<GENE id="G2" spans="867~873" text="HCT116" location="background" />
+<GENE id="G3" spans="2132~2135" text="p53" location="background" />
+<GENE id="G4" spans="2140~2144" text="erbB" location="background" />
+<GENE id="G5" spans="2187~2191" text="EGFR" location="background" />
+<GENE id="G6" spans="2271~2274" text="P53" location="background" />
+<GENE id="G7" spans="2340~2344" text="TP53" location="background" />
+<GENE id="G8" spans="2345~2350" text="HMGB1" location="background" />
+<GENE id="G9" spans="2473~2477" text="TP53" location="background" />
+<GENE id="G10" spans="2536~2541" text="HMGB1" location="background" />
+<GENE id="G11" spans="2765~2771" text="MTMR14" location="result" />
+<GENE id="G12" spans="2773~2810" text="vesicle-associated membrane protein 3" location="result" />
+<GENE id="G13" spans="2812~2817" text="VAMP3" location="result" />
+<GENE id="G14" spans="2820~2825" text="HSPA8" location="result" />
+<GENE id="G15" spans="2827~2831" text="TSC1" location="result" />
+<GENE id="G16" spans="2833~2838" text="DAPK1" location="result" />
+<GENE id="G17" spans="2840~2846" text="CX3CL1" location="result" />
+<GENE id="G18" spans="2848~2853" text="ATG13" location="result" />
+<GENE id="G19" spans="2859~2867" text="MAP1LC3C" location="result" />
+<GENE id="G20" spans="2921~2927" text="MTMR14" location="result" />
+<GENE id="G21" spans="2932~2937" text="VAMP3" location="result" />
+<GENE id="G22" spans="3005~3011" text="MTMR14" location="result" />
+<GENE id="G23" spans="3096~3101" text="VAMP3" location="background" />
+<GENE id="G24" spans="3296~3300" text="TSC1" location="background" />
+<GENE id="G25" spans="3436~3440" text="TSC1" location="background" />
+<GENE id="G26" spans="3565~3569" text="TSC1" location="background" />
+<GENE id="G27" spans="3570~3574" text="TSC2" location="background" />
+<GENE id="G28" spans="3664~3668" text="TSC1" location="background" />
+<GENE id="G29" spans="3669~3673" text="TSC2" location="background" />
+<GENE id="G30" spans="3774~3778" text="TSC1" location="background" />
+<GENE id="G31" spans="4083~4087" text="TSC1" location="background" />
+<GENE id="G32" spans="4300~4305" text="HSPA8" location="background" />
+<GENE id="G33" spans="4466~4471" text="VAMP3" location="background" />
+<GENE id="G34" spans="4783~4787" text="TSC1" location="background" />
+<GENE id="G35" spans="4882~4886" text="TSC1" location="background" />
+<DISEASE id="D0" spans="1~5" text="COAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="57~61" text="COAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="30~42" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="159~163" text="COAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="260~264" text="COAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="444~456" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="569~584" text="colon carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="784~796" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="877~889" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1013~1017" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1546~1552" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="1624~1628" text="COAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2643~2655" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2967~2971" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3053~3067" text="muscle disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="3211~3228" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3233~3246" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3841~3854" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3866~3880" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3983~3995" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4761~4781" text="colon adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="4813~4825" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="4890~4902" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4954~4966" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="2997~3001" text="loss" location="background" relation="decreased expression" />
+<RELATION id="R1" spans="3045~3052" text="lead to" location="background" relation="pathological role" />
+<RELATION id="R2" spans="3161~3171" text="associated" location="background" relation="relation undefined" />
+<RELATION id="R3" spans="2952~2963" text="play a role" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G20" geneText="MTMR14" diseaseID="D13" diseaseText="COAD" relationID="R3" relationText="play a role" />
+<ENTITY_LINKING id="E1" geneID="G21" geneText="VAMP3" diseaseID="D13" diseaseText="COAD" relationID="R3" relationText="play a role" />
+<ENTITY_LINKING id="E2" geneID="G22" geneText="MTMR14" diseaseID="D14" diseaseText="muscle disease" relationID="R0" relationText="loss" />
+<ENTITY_LINKING id="E3" geneID="G22" geneText="MTMR14" diseaseID="D14" diseaseText="muscle disease" relationID="R1" relationText="lead to" />
+<ENTITY_LINKING id="E4" geneID="G23" geneText="VAMP3" diseaseID="D15" diseaseText="pancreatic cancer" relationID="R2" relationText="associated" />
+<ENTITY_LINKING id="E5" geneID="G23" geneText="VAMP3" diseaseID="D16" diseaseText="breast cancer" relationID="R2" relationText="associated" />
+</TAGS>
+</Genomics_ConceptTask>

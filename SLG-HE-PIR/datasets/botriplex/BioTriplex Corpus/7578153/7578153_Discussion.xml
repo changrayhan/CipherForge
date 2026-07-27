@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In the present study, patients with PD and comorbid MDD displayed hypomethylation of the  KLF11  ( TIEG2 ) promoter region in comparison to a matched healthy control group as well as to PD patients without comorbid MDD. Correspondingly, a negative correlation of  KLF11  DNA methylation with dimensional symptoms of depression (as evaluated via the BDI-II) was observed in the PD patient group. Furthermore, in an independent sample of MDD patients, MDD patients without anxious features showed nominally significantly decreased  KLF11  methylation levels as compared to MDD patients with anxious depression.
+The present results for the first time demonstrating  KLF11  promoter hypomethylation—presumably leading to increased  KLF11  gene expression (cf. Suzuki and Bird  2008 ) and, consequently, an overexpression of the  MAOA  gene (Grunewald et al.  2012 )—in depression-related phenotypes are in line with a previous finding of increased KLF11 and MAOA levels in MDD patients compared to healthy controls (Harris et al.  2015 ) and with studies reporting  MAOA  hypomethylation in female patients with MDD (Melas et al.  2013 ; Melas and Forsell  2015 ). The present findings, however, do not support a role of  KLF11  methylation in PD. Thus, against the theoretical background of a common biological trunk shared by anxiety and mood disorders,  KLF11  methylation could be instrumental in guiding the differentiation of the clinical phenotype toward depression- rather than panic-related symptoms.
+Interestingly, the results of this study mirror a recently published finding of serotonin transporter gene ( SLC6A4 ) promoter hypermethylation in PD patients with comorbid MDD relative to healthy controls, but not in PD per se (Schiele et al.  2019 ). Consequently, future studies might want to explore the biochemical relationship between KLF11 and SLC6A4 function in the context of MDD, especially given that the  SLC6A4  promotor region has been shown to contain Sp1 binding sites (Bengel et al.  1997 ; Heils et al.  1998 ), which might be targeted by KLF11 (cf. Grunewald et al.  2012 ).
+The present findings should be interpreted in light of some limitations and might inspire future research efforts. For example, replication in independent, larger samples is warranted due to the relatively small group sizes of PD patients with and without comorbid depression, or MDD patients with and without anxious features, respectively, to confirm  KLF11  hypomethylation as a potential selective differential diagnostic marker of MDD comorbidity in PD or non-anxious MDD. Given that MDD is highly comorbid not only with PD but also with other anxiety and mental disorders, the potential of  KLF11  methylation status as a diagnostic marker to separate MDD diagnosis from other diagnoses should be explored in future studies. This would require a direct comparison with other comorbidity profiles, as well as comorbidity of MDD within other anxiety or mental disorders and a direct comparison of a PD sample with an MDD sample (i.e., PD with MDD vs. MDD only, PD without MDD vs. MDD only). Additionally, since no control group was available for the MDD sample (sample 2), the observed differences of  KLF11  methylation in MDD patients with or without anxious depression cannot be clearly ascribed to the effects of anxious symptoms. Moreover, longitudinal studies would help to elucidate whether the observed  KLF11  hypomethylation constitutes a trait or state marker of MDD. Despite the fact that in the present study PD patients and controls were matched for sex, age and smoking status, additional potentially confounding factors such as environmental exposure (cf. Domschke et al.  2012 ) cannot be excluded. Therefore, investigation of the impact of life events on  KLF11  methylation levels applying an (epi)gene-environment approach would pose a promising future research direction, particularly given previous evidence for a strong influence of stress on KLF11 expression (Grunewald et al.  2012 ; Harris et al.  2015 ). In addition, although no statistically significant influence of medication status on  KLF11  methylation was observed in either sample, potentially confounding effects of psychiatric medication on  KLF11  methylation cannot be fully excluded given that 57% (sample 1) or 79% (sample 2), respectively, of patients were on stable medication at the time of testing. Also, next to the differential effects of  KLF11  methylation on categorical disorder phenotypes, future studies may want to probe the association of  KLF11  methylation with symptom subtypes/subgroups as well as with disorder-specific intermediate phenotypes, and differential DNA methylation markers of panic disorder and MDD should be explored on an epigenome-wide level by means of epigenome-wide association studies (EWAS) (cf. Shimada-Sugimoto et al.  2017 ; Iurato et al.  2017 ; Shimada et al.  2018 ; Ziegler et al.  2019 ). Although pyrosequencing is currently considered the gold standard of DNA methylation analysis with a sensitivity to reliably detect differences as small as 5% (e.g., Dejeux et al.  2009 ; Migheli et al.  2013 ; Poulin et al.  2018 ), low methylation percentages (< 10%) may be confounded by unsystematic noise. In the present study, CpGs 2 and 3 achieved average methylation levels > 10% or > 20%, respectively, and might therefore constitute regions of particular interest for further analyses. For instance, analysis of a restricted target region of CpGs 2 and 3 utilizing the transcription factor-binding site prediction tool PROMO (Messeguer et al.  2002 ) identified the binding site of transcription factor TFI-II, a ubiquitously expressed protein, involved in growth factor signaling (Roy et al.  2007 ), to be located at CpG3, thus constituting a putative transcription factor whose binding affinity at this region could be affected by DNA methylation. Thus, future functional approaches may want to experimentally confirm a differential influence of  KLF11  methylation on TFI-II binding. Finally, DNA methylation was measured in peripheral blood samples. Given that epigenetic processes can act in a cell type-specific way, a cofounding effect due to potential variation in white blood cell composition between patients and controls cannot be excluded. Furthermore, epigenetic analyses in peripheral biomaterial such as blood does not allow for direct conclusions regarding methylation levels in brain tissue. Nevertheless, animal studies intraindividually comparing peripheral and central methylation or studies comparing peripheral methylation with central activity of the respective metabolite in humans using positron emission tomography (PET) have provided some evidence for DNA methylation levels measured in blood as a proxy for central processes (e.g., Murphy et al.  2005 ; Nohesara et al.  2011 ; Shumay et al.  2012 ). Also, when performing an  in silico  analysis of the correlation between blood and brain DNA methylation levels at the investigated  KLF11  region using the online available “Blood Brain DNA Methylation Comparison Tool” (Hannon et al.  2015 ), peripheral DNA methylation of both CpG1 (cg22541755) and CpG3 (cg20702913) was positively correlated with prefrontal cortex methylation ( r  ≥ 0.332,  p  ≤ 0.004). Analysis of further  KLF11  CpGs was precluded by the fact that only CpGs 1 and 3 are available in this search tool based on Illumina 450 K array data.
+In conclusion, the present pilot data suggest  KLF11  promoter hypomethylation as a potential epigenetic marker of MDD comorbidity in PD or non-anxious depression, respectively, possibly contributing to a differential pathomechanism of anxiety and mood disorders. In synopsis with previous findings implicating KLF11 in depression-related phenotypes (Harris et al.  2015 ), this finding is of mechanistic relevance and might foster research efforts into exploring innovative therapeutic approaches targeting this pathway in the treatment of major depression.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="91~96" text="KLF11" location="result" />
+<GENE id="G1" spans="100~105" text="TIEG2" location="result" />
+<GENE id="G2" spans="265~270" text="KLF11" location="result" />
+<GENE id="G3" spans="531~536" text="KLF11" location="result" />
+<GENE id="G4" spans="664~669" text="KLF11" location="result" />
+<GENE id="G5" spans="729~734" text="KLF11" location="background" />
+<GENE id="G6" spans="826~830" text="MAOA" location="background" />
+<GENE id="G7" spans="945~950" text="KLF11" location="background" />
+<GENE id="G8" spans="955~959" text="MAOA" location="background" />
+<GENE id="G9" spans="1063~1067" text="MAOA" location="background" />
+<GENE id="G10" spans="1219~1224" text="KLF11" location="result" />
+<GENE id="G11" spans="1354~1359" text="KLF11" location="result" />
+<GENE id="G12" spans="1587~1613" text="serotonin transporter gene" location="background" />
+<GENE id="G13" spans="1616~1622" text="SLC6A4" location="background" />
+<GENE id="G14" spans="1848~1853" text="KLF11" location="result" />
+<GENE id="G15" spans="1858~1864" text="SLC6A4" location="result" />
+<GENE id="G16" spans="1892~1895" text="MDD" location="background" />
+<GENE id="G17" spans="1924~1930" text="SLC6A4" location="background" />
+<GENE id="G18" spans="1974~1977" text="Sp1" location="background" />
+<GENE id="G19" spans="2064~2069" text="KLF11" location="background" />
+<GENE id="G20" spans="2455~2460" text="KLF11" location="result" />
+<GENE id="G21" spans="3207~3212" text="KLF11" location="result" />
+<GENE id="G22" spans="3417~3422" text="KLF11" location="result" />
+<GENE id="G24" spans="3779~3784" text="KLF11" location="result" />
+<GENE id="G25" spans="3971~3976" text="KLF11" location="background" />
+<GENE id="G26" spans="4123~4128" text="KLF11" location="result" />
+<GENE id="G27" spans="4235~4240" text="KLF11" location="result" />
+<GENE id="G28" spans="4551~4556" text="KLF11" location="result" />
+<GENE id="G29" spans="4443~4448" text="KLF11" location="result" />
+<GENE id="G30" spans="5994~5999" text="KLF11" location="result" />
+<GENE id="G31" spans="7007~7012" text="KLF11" location="background" />
+<GENE id="G32" spans="7303~7308" text="KLF11" location="result" />
+<GENE id="G33" spans="7481~7486" text="KLF11" location="result" />
+<GENE id="G34" spans="7745~7750" text="KLF11" location="background" />
+<GENE id="G35" spans="2698~2703" text="KLF11" location="result" />
+<DISEASE id="D0" spans="37~39" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="53~56" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="187~189" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="216~219" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="378~380" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="437~440" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="451~454" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="572~575" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="970~973" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D9" spans="1109~1112" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D10" spans="1241~1243" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D11" spans="1654~1656" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D12" spans="1680~1683" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D13" spans="1725~1727" text="PD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D14" spans="2328~2330" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D15" spans="2381~2384" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D16" spans="2537~2540" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D17" spans="2556~2558" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D18" spans="2574~2577" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D19" spans="2590~2593" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D20" spans="2627~2629" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D22" spans="2759~2762" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D23" spans="2930~2933" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D24" spans="3004~3006" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D25" spans="3022~3025" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D26" spans="3040~3042" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D27" spans="3048~3051" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D28" spans="3056~3059" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D29" spans="3066~3068" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D30" spans="3077~3080" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D31" spans="3085~3088" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D32" spans="3155~3158" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D33" spans="3229~3232" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D34" spans="3479~3482" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D35" spans="3527~3529" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D36" spans="4705~4719" text="panic disorder" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D37" spans="4724~4727" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D38" spans="7549~7552" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D39" spans="7568~7570" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<RELATION id="R0" spans="935~944,960~966" text="increased ... levels" location="background" relation="increased expression" />
+<RELATION id="R1" spans="7528~7545" text="epigenetic marker" location="result" relation="epigenetic marker" />
+<ENTITY_LINKING id="E0" geneID="G7" geneText="KLF11" diseaseID="D8" diseaseText="MDD" relationID="R0" relationText="increased ... levels" />
+<ENTITY_LINKING id="E1" geneID="G8" geneText="MAOA" diseaseID="D8" diseaseText="MDD" relationID="R0" relationText="increased ... levels" />
+<ENTITY_LINKING id="E2" geneID="G33" geneText="KLF11" diseaseID="D38" diseaseText="MDD" relationID="R1" relationText="epigenetic marker" />
+<ENTITY_LINKING id="E3" geneID="G33" geneText="KLF11" diseaseID="D39" diseaseText="PD" relationID="R1" relationText="epigenetic marker" />
+</TAGS>
+</Genomics_ConceptTask>

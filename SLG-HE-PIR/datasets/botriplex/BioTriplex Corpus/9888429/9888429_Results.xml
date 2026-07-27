@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1
+Identification of DEGs in IBD
+In this study, data were collected from three GEO data sets, namely GSE94648 and GSE119600, for 263 IBD and 69 control samples, respectively. After correcting for batch processing, metadata DEGs were parsed using the limma software. The results showed that 18 DEGs could be obtained by this method. Furthermore, 11 genes were significantly upregulated and 7 were significantly downregulated ( Figures 1A, B 
+ 
+ ). Subsequently, the DEGs were intersected with 3970 metalloproteinase-related genes, and 9 differentially expressed metalloproteinase-related genes (MRDEGs) were finally obtained.
+3.2
+Functional correlation analysis
+The MRDEGs were initially evaluated using GO enrichment, KEGG pathway analysis, and DO pathway enrichment analysis. The results revealed that 205 biological processes, 10 signaling pathways, and 127 diseases were significantly enriched. The biological processes were enriched for positive control of defense response to bacterium, leukocyte mediated immunity, leukocyte degranulation, and myeloid cell activation involved in immune response. In the cellular component, tertiary granule lumen, specific granule, tertiary granule, and anchored component of membrane were enriched. In addition, a significant enrichment of serine-type endopeptidase activity, serine-type peptidase activity, serine hydrolase activity, and oxalate transmembrane transporter activity in molecular function ( Figure 2A 
+ 
+ ) was observed. KEGG enrichment analysis showed that thiamine metabolism, folate biosynthesis, bladder cancer, legionellosis, arachidonic acid metabolism, and IBD were enriched ( Figure 2B 
+ 
+ ). DO analysis revealed that kidney disease, urinary system disease, arthropathy, central nervous system cancer, infertility, and primary bacterial infectious disease were significantly enriched ( Figure 2C 
+ 
+ ). In addition, enrichment differences were further investigated between IBD and control groups using GSEA. In IBD, Galactose metabolism, insulin signaling pathway, leukocyte transendothelial migration, lysosome, the toll-type receptor signaling pathway is an important area of aggregation. In the control group, graft rejection, graft-versus-host disease, Huntington’s disease, oxidative phosphorylation, and Parkinson’s disease were significantly enriched ( Figures 2D, E 
+ 
+ ).
+3.3
+Identification and validation of diagnostic feature biomarkers
+Three methods were used for detecting possible biological markers. The application of MRDEGs was investigated using the LASSO regression method and eight biochemical indicators were identified that could be used for the diagnosis of IBD ( Figure 3A 
+ 
+ ). MRDEGs were identified using the SVM-RFE method for four feature points ( Figure 3B 
+ 
+ ). In addition, the features of the top 5 were obtained by the random forest algorithm ( Figures 3C, D 
+ 
+ ). Finally, the intersection of the three algorithms was used to obtain five related metalloproteinases ( Figure 3E 
+ 
+ ). These included CD160, MMP-9, PTGDS, SLC26A8, and TLR5. Subsequently, the accuracy of the relevant genes was evaluated by machine learning as disease diagnostic genes using the ROC curve ( Figures 4A–E 
+ 
+ ). The AUC values of the five related genes were 0.732, 0.728, 0.715, 0.748, and 0.751, respectively, showing high sensitivity and specificity.
+3.4
+Immune cell infiltration
+From the results of the analysis, a map was made that showed how immune cells are distributed ( Figure 5A 
+ 
+ ) and then a preliminary discussion of the immune cell component of IBD was provided. To investigate the correlation between immune cell expression, correlation analysis was performed. The results showed the relationship between the expression of immune cells in the combined data ( Figure 5B 
+ 
+ ). Immune cell differential analysis revealed that in IBD, the expression of plasma cells, T cells CD4 naïve, T cells CD4 memory resting, and neutrophils was higher and B cells memory, T cells CD4 memory activated, macrophages M0, and macrophages M2 was lower than that in the control group ( Figure 6 
+ 
+ ).
+3.5
+Correlation analysis between the five biomarkers and infiltrating immune cells
+The correlation of the five biological markers with each immune cell type was investigated (Appendix 5). The five biomarkers were positively correlated with NK cells resting, Neutrophils, and T cells CD4 memory activated, respectively, while negatively correlated with Neutrophils, T cells CD8 and T cells CD4 memory activated ( Figures 7A–E 
+ 
+ ).
+3.6
+Chronic colitis model evaluation and histological identification
+The feeding process of mice is shown in  Figure 8A 
+ 
+ . The mice in the DSS group had redness and swelling around the anus. Due to the proliferation and swelling of the perianal mucosa, some mice showed adenomatous changes, with obvious redness and swelling and irregular prolapse of the anus ( Figure 8B 
+ 
+ ). Analysis of change in body weight revealed that the body weights of the mice decreased at the initial stage of administration, and in the subsequent modeling, the body weights of the mice in the DSS group increased at a lower rate than that in the control group ( Figure 8C 
+ 
+ ). After the mice were euthanized, the cecum was dissected to the anal hilum, stretched and spread spontaneously, and placed flat on A4 paper. When the length of each colon was measured, the intestinal length of the DSS group was found to be shortened ( Figure 8D 
+ 
+ ). The control group showed normal colonic structure with smooth mucosal surface and absence of annular folds and villi. The DSS group mainly showed typical manifestations of inflammatory mucosa, including infiltration of a large number of inflammatory cells in the mucosa, submucosa, and muscle layer; atypical gland hyperplasia; structural disorder; submucosal hemorrhage; and edema ( Figure 9 
+ 
+ ).
+3.7
+Expression of immune cells in the spleen
+The results of flow cytometry showed that the expression of the T cell CD8 marker (CD8 antibody) was different between the DSS and control groups, whereas that of other neutrophil markers (CD16/32) and T cells CD4 memory activated markers (CD25 and CD65) were not different ( Figures 10A–F 
+ 
+ ). CD8 was negatively correlated with MMP-9 and SLC26A8.
+3.8
+Validation of inflammatory factors and MMPs associated with IBD
+We verified the increased expression of inflammatory factors (IL-6 and IL-1β) in DSS group, which indicate that MMPs are closely related to inflammatory response ( Figures 11A, B 
+ 
+ ). Changes in the levels of MMP-related genes were evaluated in chronic IBD models. Compared with the control group, the expression levels of MMP-9, PTGDS, SLC26A8, and CD160 significantly increased, whereas that of TLR5 decreased in the DSS group, suggesting that the MMPs play a role in the development of the chronic inflammatory intestinal disease mouse model ( Figures 11C, D 
+ 
+ ). The results of immunofluorescence assay showed that compared with the control group, the fluorescence intensity of MMP-9, PTGDS, SLC26A8, and CD160 increased, whereas that of TLR5 decreased ( Figures 12A–E 
+ 
+ ) in the DSS group, which is consistent with the results of western blotting.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3004~3009" text="CD160" location="result" />
+<GENE id="G1" spans="3011~3016" text="MMP-9" location="result" />
+<GENE id="G2" spans="3018~3023" text="PTGDS" location="result" />
+<GENE id="G3" spans="3025~3032" text="SLC26A8" location="result" />
+<GENE id="G4" spans="3038~3042" text="TLR5" location="result" />
+<GENE id="G5" spans="3873~3876" text="CD4" location="result" />
+<GENE id="G6" spans="3892~3895" text="CD4" location="result" />
+<GENE id="G7" spans="3967~3970" text="CD4" location="result" />
+<GENE id="G8" spans="4366~4369" text="CD4" location="result" />
+<GENE id="G9" spans="4456~4459" text="CD8" location="result" />
+<GENE id="G10" spans="4472~4475" text="CD4" location="result" />
+<GENE id="G11" spans="5962~5965" text="CD8" location="result" />
+<GENE id="G12" spans="5974~5977" text="CD8" location="result" />
+<GENE id="G13" spans="6080~6084" text="CD16" location="result" />
+<GENE id="G14" spans="6101~6104" text="CD4" location="result" />
+<GENE id="G15" spans="6131~6135" text="CD25" location="result" />
+<GENE id="G16" spans="6140~6144" text="CD65" location="result" />
+<GENE id="G17" spans="6188~6191" text="CD8" location="result" />
+<GENE id="G18" spans="6223~6228" text="MMP-9" location="result" />
+<GENE id="G19" spans="6233~6240" text="SLC26A8" location="result" />
+<GENE id="G20" spans="6372~6376" text="IL-6" location="result" />
+<GENE id="G21" spans="6381~6386" text="IL-1β" location="result" />
+<GENE id="G22" spans="6635~6640" text="MMP-9" location="result" />
+<GENE id="G23" spans="6642~6647" text="PTGDS" location="result" />
+<GENE id="G24" spans="6649~6656" text="SLC26A8" location="result" />
+<GENE id="G25" spans="6662~6667" text="CD160" location="result" />
+<GENE id="G26" spans="6709~6713" text="TLR5" location="result" />
+<GENE id="G27" spans="6996~7001" text="MMP-9" location="result" />
+<GENE id="G28" spans="7003~7008" text="PTGDS" location="result" />
+<GENE id="G29" spans="7010~7017" text="SLC26A8" location="result" />
+<GENE id="G30" spans="7023~7028" text="CD160" location="result" />
+<GENE id="G31" spans="7056~7060" text="TLR5" location="result" />
+<DISEASE id="D0" spans="31~34" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="135~138" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1685~1699" text="kidney disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1701~1723" text="urinary system disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1725~1736" text="arthropathy" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1761~1767" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="1769~1780" text="infertility" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1794~1822" text="bacterial infectious disease" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D8" spans="1558~1572" text="bladder cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1622~1625" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1574~1587" text="legionellosis" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D11" spans="1940~1943" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="1978~1981" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2197~2222" text="graft-versus-host disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2224~2244" text="Huntington’s disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="2277~2296" text="Parkinson’s disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="3545~3548" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="3828~3831" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="4527~4534" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="6306~6309" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="6565~6568" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

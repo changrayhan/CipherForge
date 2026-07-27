@@ -1,0 +1,460 @@
+2026-07-21 19:12:49,728 [INFO] biotriplex_finetune: Logging to baseline/classification_genrel/logs/biotriplex_finetune_all_1784632369.log
+2026-07-21 19:12:49,728 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 19:12:49,728 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 19:12:49,728 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 19:12:49,728 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 19:12:49,728 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 19:12:51,980 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:01<05:14,  1.09s/it]Loading weights:  10%|▉         | 28/291 [00:01<00:08, 29.80it/s]Loading weights:  13%|█▎        | 38/291 [00:01<00:07, 34.37it/s]Loading weights:  16%|█▌        | 46/291 [00:01<00:06, 35.24it/s]Loading weights:  18%|█▊        | 52/291 [00:01<00:07, 33.82it/s]Loading weights:  20%|█▉        | 58/291 [00:02<00:07, 33.18it/s]Loading weights:  23%|██▎       | 67/291 [00:02<00:06, 37.18it/s]Loading weights:  25%|██▌       | 73/291 [00:02<00:05, 40.37it/s]Loading weights:  27%|██▋       | 78/291 [00:02<00:05, 41.42it/s]Loading weights:  29%|██▉       | 85/291 [00:02<00:06, 33.41it/s]Loading weights:  33%|███▎      | 95/291 [00:02<00:04, 44.65it/s]Loading weights:  35%|███▌      | 103/291 [00:03<00:04, 43.29it/s]Loading weights:  39%|███▉      | 113/291 [00:03<00:03, 54.14it/s]Loading weights:  42%|████▏     | 121/291 [00:03<00:04, 42.27it/s]Loading weights:  45%|████▍     | 130/291 [00:03<00:03, 44.26it/s]Loading weights:  47%|████▋     | 136/291 [00:03<00:03, 46.04it/s]Loading weights:  49%|████▉     | 144/291 [00:03<00:02, 52.39it/s]Loading weights:  52%|█████▏    | 150/291 [00:04<00:03, 43.66it/s]Loading weights:  55%|█████▍    | 159/291 [00:04<00:02, 52.90it/s]Loading weights:  57%|█████▋    | 166/291 [00:04<00:02, 46.63it/s]Loading weights:  60%|██████    | 175/291 [00:04<00:02, 45.91it/s]Loading weights:  63%|██████▎   | 184/291 [00:04<00:02, 46.17it/s]Loading weights:  66%|██████▋   | 193/291 [00:04<00:01, 53.89it/s]Loading weights:  69%|██████▊   | 200/291 [00:04<00:01, 56.98it/s]Loading weights:  72%|███████▏  | 209/291 [00:05<00:01, 64.28it/s]Loading weights:  75%|███████▍  | 217/291 [00:05<00:01, 46.27it/s]Loading weights:  77%|███████▋  | 223/291 [00:05<00:01, 47.50it/s]Loading weights:  79%|███████▊  | 229/291 [00:05<00:01, 36.94it/s]Loading weights:  82%|████████▏ | 238/291 [00:05<00:01, 46.41it/s]Loading weights:  84%|████████▍ | 244/291 [00:05<00:00, 48.82it/s]Loading weights:  87%|████████▋ | 253/291 [00:06<00:00, 57.30it/s]Loading weights:  89%|████████▉ | 260/291 [00:06<00:00, 58.91it/s]Loading weights:  92%|█████████▏| 267/291 [00:06<00:00, 49.90it/s]Loading weights:  94%|█████████▍| 274/291 [00:06<00:00, 45.85it/s]Loading weights:  97%|█████████▋| 283/291 [00:06<00:00, 45.39it/s]Loading weights: 100%|██████████| 291/291 [00:06<00:00, 43.07it/s]
+2026-07-21 19:12:59,598 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 7.6s
+2026-07-21 19:13:02,611 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 19:13:02,625 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 19:13:05,896 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 19:13:14,815 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 19:13:14,816 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 19:13:14,816 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 19:13:14,816 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 19:13:15,629 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 19:13:15,629 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 19:13:15,631 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 19:13:15,644 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 19:13:15,644 [INFO] biotriplex_finetune: Stage 0 complete in 25.9s
+2026-07-21 19:13:15,644 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 19:13:15,644 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 19:13:15,644 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 19:13:16,737 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 19:13:16,772 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 19:13:16,783 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 19:13:16,792 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 19:13:16,794 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 19:13:16,802 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 19:13:16,804 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 19:13:16,805 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 19:13:16,805 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 19:13:21,434 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 19:13:30,354 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 19:13:30,364 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 19:13:30,364 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 19:13:30,382 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 19:13:30,382 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 19:13:30,388 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+2026-07-21 19:13:30,388 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 19:13:30,388 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-21 19:13:30,396 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 19:13:30,398 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+2026-07-21 19:13:30,512 [INFO] src.model.model_splitting: SageAttention detected: sm_120 supported
+2026-07-21 19:13:30,512 [INFO] src.model.model_splitting: Using SDPA (SageAttention available for custom integration)
+2026-07-21 19:13:53,308 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=SDPA-SageAvail, gradient_checkpointing=True)
+2026-07-21 19:13:53,316 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+2026-07-21 19:13:53,316 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 19:13:53,316 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 19:13:53,317 [INFO] src.model.model_splitting: Using SDPA (SageAttention available for custom integration)
+2026-07-21 19:14:13,928 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=disabled)
+2026-07-21 19:14:13,937 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 19:14:13,938 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=1468, peak_lr=1.00e-04
+2026-07-21 19:14:13,938 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 19:14:13,938 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 19:14:13,939 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 19:14:14,132 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-21 19:14:14,145 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 19:14:14,146 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 19:14:14,146 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 43.8s (single CUDA context)
+2026-07-21 19:14:14,146 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 19:14:31,332 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 19:14:31,333 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 19:14:48,308 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 19:14:48,308 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 19:14:50,389 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 19:14:50,389 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 80.0s
+2026-07-21 19:14:50,390 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=2, batch=1, lr=0.0001, wd=0
+2026-07-21 19:14:50,390 [INFO] src.training.trainer: Starting training: epochs=2, patience=999, train=734, val=134
+/root/miniconda3/lib/python3.12/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+2026-07-21 19:15:09,017 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=0 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:15:33,103 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=1 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:15:57,320 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=2 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:16:21,763 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=3 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:16:46,269 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=4 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:17:10,452 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=5 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:17:34,924 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=6 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:17:59,659 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=7 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:18:24,019 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=8 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:18:48,634 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=9 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:19:12,740 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=10 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:19:36,972 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=11 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:20:01,332 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=12 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:20:25,998 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=13 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:20:50,601 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=14 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:21:15,193 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=15 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:21:39,401 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=16 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:22:03,875 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=17 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:22:28,458 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=18 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:22:52,196 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=19 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:23:16,434 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=20 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:23:41,071 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=21 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:24:05,994 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=22 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:24:30,142 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=23 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:24:54,458 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=24 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:25:18,565 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=25 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:25:42,391 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=26 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:26:06,944 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=27 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:26:31,245 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=28 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:26:55,698 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=29 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:27:20,553 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=30 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:27:44,708 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=31 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:28:08,310 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=32 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:28:32,822 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=33 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:28:57,583 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=34 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:29:21,806 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=35 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:29:45,780 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=36 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:30:09,932 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=37 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:30:34,240 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=38 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:30:59,008 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=39 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:31:23,256 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=40 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:31:47,344 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=41 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:32:11,564 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=42 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:32:36,466 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=43 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:33:00,767 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=44 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:33:25,266 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=45 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:33:49,619 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=46 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:34:14,380 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=47 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:34:38,979 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=48 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:35:03,541 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=49 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:35:28,308 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=50 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:35:52,802 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=51 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:36:17,598 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=52 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:36:41,922 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=53 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:37:06,562 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=54 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:37:31,000 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=55 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:37:55,717 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=56 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:38:20,090 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=57 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:38:44,921 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=58 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:39:09,302 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=59 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:39:33,521 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=60 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:39:57,871 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=61 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:40:22,201 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=62 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:40:46,515 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=63 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:41:10,357 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=64 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:41:34,797 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=65 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:41:59,023 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=66 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:42:23,154 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=67 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:42:47,311 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=68 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:43:11,635 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=69 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:43:36,165 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=70 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:44:00,694 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=71 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:44:25,155 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=72 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:44:49,058 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=73 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:45:13,133 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=74 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:45:37,604 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=75 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:46:02,311 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=76 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:46:26,651 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=77 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:46:50,827 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=78 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:47:14,979 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=79 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:47:39,677 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=80 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:48:03,836 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=81 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:48:28,292 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=82 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:48:52,616 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=83 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:49:16,917 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=84 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:49:41,685 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=85 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:50:05,603 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=86 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:50:29,615 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=87 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:50:54,046 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=88 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:51:17,908 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=89 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:51:42,470 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=90 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:52:07,237 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=91 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:52:31,533 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=92 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:52:56,290 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=93 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:53:20,730 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=94 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:53:45,317 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=95 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:54:09,899 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=96 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:54:34,103 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=97 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:54:58,822 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=98 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:55:23,299 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=99 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:55:47,787 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=100 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:56:11,972 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=101 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:56:36,178 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=102 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:57:00,151 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=103 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:57:24,374 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=104 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:57:48,518 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=105 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:58:13,348 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=106 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:58:37,870 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=107 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:59:01,971 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=108 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:59:26,308 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=109 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 19:59:50,447 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=110 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:00:15,353 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=111 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:00:40,039 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=112 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:01:04,491 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=113 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:01:28,675 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=114 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:01:53,515 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=115 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:02:18,452 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=116 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:02:43,060 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=117 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:03:07,440 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=118 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:03:31,513 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=119 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:03:56,114 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=120 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:04:20,261 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=121 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:04:44,826 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=122 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:05:09,306 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=123 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:05:34,021 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=124 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:05:58,754 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=125 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:06:23,413 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=126 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:06:47,962 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=127 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:07:12,412 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=128 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:07:37,002 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=129 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:08:01,588 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=130 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:08:25,398 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=131 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:08:49,501 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=132 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:09:14,150 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=133 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:09:38,914 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=134 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:10:03,375 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=135 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:10:27,689 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=136 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:10:51,898 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=137 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:11:16,484 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=138 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:11:41,056 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=139 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:12:05,538 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=140 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:12:30,438 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=141 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:12:54,908 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=142 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:13:19,594 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=143 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:13:43,912 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=144 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:14:08,324 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=145 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:14:32,855 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=146 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:14:57,641 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=147 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:15:22,301 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=148 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:15:46,154 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=149 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:16:10,188 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=150 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:16:34,453 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=151 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:16:59,010 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=152 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:17:23,382 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=153 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:17:47,960 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=154 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:18:12,482 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=155 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:18:36,921 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=156 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:19:01,372 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=157 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:19:25,729 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=158 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:19:49,834 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=159 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:20:14,018 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=160 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:20:38,577 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=161 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:21:03,045 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=162 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:21:26,964 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=163 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:21:50,779 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=164 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:22:14,818 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=165 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:22:39,133 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=166 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:23:03,270 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=167 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:23:27,294 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=168 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:23:51,769 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=169 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:24:16,015 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=170 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:24:40,174 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=171 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:25:04,813 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=172 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:25:29,069 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=173 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:25:53,260 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=174 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:26:17,929 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=175 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:26:42,522 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=176 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:27:06,985 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=177 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:27:31,531 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=178 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:27:55,941 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=179 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:28:20,152 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=180 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:28:44,755 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=181 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:29:08,930 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=182 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:29:33,200 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=183 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:29:57,652 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=184 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:30:22,215 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=185 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:30:46,827 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=186 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:31:11,287 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=187 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:31:35,538 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=188 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:32:00,038 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=189 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:32:24,221 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=190 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:32:48,565 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=191 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:33:12,700 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=192 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:33:37,139 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=193 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:34:01,651 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=194 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:34:26,105 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=195 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:34:50,997 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=196 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:35:16,007 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=197 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:35:41,041 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=198 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:36:05,493 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=199 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:36:29,723 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=200 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:36:54,443 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=201 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:37:18,787 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=202 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:37:43,334 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=203 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:38:07,725 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=204 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:38:32,234 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=205 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:38:56,722 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=206 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:39:21,163 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=207 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:39:45,416 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=208 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:40:09,566 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=209 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:40:34,169 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=210 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:40:58,250 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=211 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:41:22,554 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=212 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:41:46,780 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=213 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:42:10,892 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=214 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:42:35,154 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=215 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:43:00,206 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=216 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:43:24,841 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=217 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:43:49,244 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=218 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:44:13,771 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=219 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:44:38,140 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=220 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:45:02,734 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=221 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:45:27,352 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=222 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:45:51,878 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=223 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:46:16,322 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=224 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:46:40,730 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=225 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:47:05,612 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=226 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:47:30,115 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=227 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:47:54,533 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=228 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:48:18,520 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=229 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:48:42,603 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=230 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:49:07,156 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=231 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:49:31,445 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=232 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:49:55,757 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=233 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:50:20,001 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=234 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:50:44,001 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=235 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:51:08,547 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=236 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:51:33,317 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=237 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:51:58,163 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=238 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:52:22,552 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=239 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:52:47,080 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=240 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:53:11,675 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=241 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:53:36,367 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=242 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:54:00,769 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=243 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:54:25,320 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=244 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:54:49,979 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=245 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:55:14,782 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=246 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:55:39,532 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=247 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:56:04,054 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=248 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:56:28,508 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=249 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:56:53,097 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=250 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:57:17,597 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=251 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:57:42,088 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=252 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:58:06,539 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=253 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:58:30,645 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=254 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:58:55,245 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=255 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:59:20,082 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=256 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 20:59:44,522 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=257 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:00:08,683 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=258 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:00:32,955 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=259 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:00:57,608 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=260 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:01:22,351 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=261 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:01:46,878 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=262 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:02:10,807 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=263 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:02:35,538 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=264 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:03:00,388 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=265 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:03:24,923 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=266 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:03:49,868 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=267 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:04:14,500 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=268 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:04:39,410 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=269 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:05:04,370 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=270 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:05:29,014 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=271 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:05:53,632 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=272 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:06:18,393 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=273 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:06:43,226 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=274 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:07:07,655 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=275 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:07:32,380 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=276 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:07:56,730 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=277 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:08:21,529 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=278 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:08:46,336 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=279 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:09:11,758 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=280 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:09:36,643 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=281 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:10:01,267 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=282 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:10:26,315 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=283 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:10:50,615 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=284 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:11:15,280 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=285 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:11:39,992 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=286 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:12:04,645 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=287 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:12:29,379 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=288 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:12:54,078 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=289 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:13:18,710 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=290 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:13:43,108 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=291 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:14:07,702 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=292 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:14:32,145 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=293 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:14:56,704 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=294 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:15:21,053 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=295 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:15:45,819 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=296 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:16:10,215 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=297 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:16:35,383 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=298 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:16:59,854 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=299 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:17:24,943 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=300 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:17:49,807 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=301 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:18:14,545 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=302 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:18:39,118 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=303 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:19:04,016 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=304 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:19:28,783 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=305 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:19:53,401 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=306 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:20:18,022 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=307 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:20:42,971 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=308 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:21:07,818 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=309 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:21:32,621 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=310 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:21:57,101 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=311 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:22:21,730 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=312 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:22:46,603 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=313 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:23:11,707 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=314 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:23:36,184 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=315 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:24:00,918 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=316 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:24:25,701 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=317 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:24:50,518 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=318 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:25:14,878 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=319 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:25:39,448 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=320 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:26:04,228 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=321 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:26:29,422 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=322 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:26:54,343 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=323 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:27:19,162 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=324 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:27:43,712 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=325 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:28:08,613 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=326 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:28:33,260 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=327 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:28:58,389 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=328 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:29:22,866 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=329 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:29:47,801 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=330 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:30:12,361 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=331 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:30:37,135 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=332 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:31:01,808 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=333 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:31:25,961 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=334 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:31:50,913 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=335 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:32:15,773 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=336 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:32:40,617 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=337 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:33:05,332 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=338 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:33:29,855 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=339 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:33:54,614 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=340 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:34:19,515 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=341 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:34:44,267 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=342 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:35:09,091 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=343 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:35:33,580 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=344 n_tokens=2048 K=4 chunks of ~512
+2026-07-21 21:35:58,206 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=345 n_tokens=2048 K=4 chunks of ~512
+Process SpawnPoolWorker-10:
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/miniconda3/lib/python3.12/multiprocessing/queues.py", line 399, in put
+    self._writer.send_bytes(obj)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 420, in _send_bytes
+    self._send(header)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/root/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/miniconda3/lib/python3.12/multiprocessing/queues.py", line 399, in put
+    self._writer.send_bytes(obj)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+/root/miniconda3/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 18 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

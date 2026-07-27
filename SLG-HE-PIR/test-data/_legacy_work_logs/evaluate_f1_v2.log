@@ -1,0 +1,77 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[init] base_model: /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+[init] adapter_dir: /root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/checkpoints
+[init] data_dir: /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex_classification
+[init] split: ['val']
+[init] max_samples: -1
+[init] temperature: 0.0 (0=greedy)
+[init] max_new_tokens: 20
+
+[load] tokenizer + base model ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:49,  5.86it/s]Loading weights:   1%|          | 2/291 [00:00<00:52,  5.55it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:07, 36.14it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:05, 49.70it/s]Loading weights:  11%|█         | 31/291 [00:00<00:04, 58.28it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:03, 63.07it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:03, 66.93it/s]Loading weights:  20%|██        | 59/291 [00:01<00:03, 72.79it/s]Loading weights:  23%|██▎       | 68/291 [00:01<00:03, 73.89it/s]Loading weights:  27%|██▋       | 78/291 [00:01<00:02, 77.54it/s]Loading weights:  32%|███▏      | 92/291 [00:01<00:02, 93.85it/s]Loading weights:  35%|███▌      | 102/291 [00:01<00:02, 91.52it/s]Loading weights:  38%|███▊      | 112/291 [00:01<00:02, 82.26it/s]Loading weights:  42%|████▏     | 121/291 [00:01<00:02, 80.34it/s]Loading weights:  45%|████▍     | 130/291 [00:01<00:02, 78.48it/s]Loading weights:  48%|████▊     | 139/291 [00:02<00:01, 81.34it/s]Loading weights:  51%|█████     | 148/291 [00:02<00:01, 79.73it/s]Loading weights:  54%|█████▍    | 157/291 [00:02<00:01, 79.92it/s]Loading weights:  57%|█████▋    | 167/291 [00:02<00:01, 78.70it/s]Loading weights:  60%|██████    | 176/291 [00:02<00:01, 77.85it/s]Loading weights:  64%|██████▎   | 185/291 [00:02<00:01, 77.19it/s]Loading weights:  67%|██████▋   | 194/291 [00:02<00:01, 77.70it/s]Loading weights:  70%|██████▉   | 203/291 [00:02<00:01, 78.82it/s]Loading weights:  73%|███████▎  | 212/291 [00:02<00:00, 81.64it/s]Loading weights:  76%|███████▌  | 221/291 [00:03<00:00, 81.08it/s]Loading weights:  79%|███████▉  | 230/291 [00:03<00:00, 78.55it/s]Loading weights:  82%|████████▏ | 239/291 [00:03<00:00, 79.95it/s]Loading weights:  85%|████████▌ | 248/291 [00:03<00:00, 81.32it/s]Loading weights:  88%|████████▊ | 257/291 [00:03<00:00, 79.84it/s]Loading weights:  91%|█████████▏| 266/291 [00:03<00:00, 81.98it/s]Loading weights:  95%|█████████▍| 275/291 [00:03<00:00, 81.77it/s]Loading weights:  98%|█████████▊| 284/291 [00:03<00:00, 79.99it/s]Loading weights: 100%|██████████| 291/291 [00:03<00:00, 74.73it/s]
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+[transformers] The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+[load] peft adapter from /root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/checkpoints ...
+[load] base+adapter total params: 8,033,669,120, trainable (should be 0 for inference): 0
+[load] GPU alloc: 16.07 GB / reserved: 16.09 GB
+
+[dataset] constructing val dataset ...
+[dataset] val: 114 samples (multi-label, group_relations=True, general_relations=True)
+[eval] split=val ...
+  [25/114] elapsed=11.8s speed=2.12 sample/s eta=42.0s
+  [50/114] elapsed=22.9s speed=2.19 sample/s eta=29.3s
+  [75/114] elapsed=33.9s speed=2.21 sample/s eta=17.6s
+  [100/114] elapsed=45.5s speed=2.20 sample/s eta=6.4s
+  [114/114] elapsed=51.7s speed=2.20 sample/s eta=0.0s
+[save] /root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/checkpoints/metrics_f1_val.json
+[save] /root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/checkpoints/F1_RESULTS_val.md
+
+# F1 评测结果 — split = `val`
+
+> Adapter: `/root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/checkpoints`  
+> Generated at: 2026-07-20 00:24:17  
+> Num samples: **114**, Num classes: **7**
+
+## 总体指标
+
+| Metric | Value |
+|---|---:|
+| micro_precision | 0.1478 |
+| micro_recall | 0.1241 |
+| micro_f1 | 0.1349 |
+| macro_precision | 0.3048 |
+| macro_recall | 0.1542 |
+| macro_f1 | 0.0553 |
+| subset_accuracy | 0.0789 |
+| hamming_loss | 0.2732 |
+| sample_precision | 0.1447 |
+| sample_recall | 0.1170 |
+| sample_f1 | 0.1243 |
+
+## Per-class 指标
+
+| Letter | Name | Precision | Recall | F1 | Support |
+|---|---|---:|---:|---:|---:|
+| a) | disease causing | 0.0000 | 0.0000 | 0.0000 | 40 |
+| b) | disease modulating | 0.0000 | 0.0000 | 0.0000 | 1 |
+| c) | gene expression | 1.0000 | 0.0204 | 0.0400 | 49 |
+| d) | diagnosis | 1.0000 | 0.0588 | 0.1111 | 17 |
+| e) | therapy | 0.1339 | 1.0000 | 0.2362 | 15 |
+| f) | no relation | 0.0000 | 0.0000 | 0.0000 | 2 |
+| g) | relation undefined | 0.0000 | 0.0000 | 0.0000 | 13 |
+
+---
+
+> **解读**：macro-F1 优先看（对类别不平衡敏感），micro-F1 受高频类主导。
+> **期望范围**（针对当前 epoch 10、596 train 的过拟合 adapter）：
+> - micro-F1  0.55-0.70
+> - macro-F1  0.30-0.45
+> 若 macro-F1 < 0.30，说明模型对 `b) disease modulating` / `f) no relation` 完全没学到。
+
+[save] /root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/checkpoints/metrics_f1_summary.json

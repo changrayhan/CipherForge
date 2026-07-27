@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Neurofibromatosis type-1 (NF1) is a hereditary disease that affects 1 in 2500–3000 people regardless of gender or ethnicity 1 ,  2 . Diagnosis is made with reference to the diagnostic criteria of the Japanese Dermatological Association, which were prepared based on the diagnostic criteria proposed by the National Institute of Health in 1988 3 . There is a remarkable phenotypic difference and an unpredictable lifelong course of the condition 4 . NF1 is characterized by the development of Café au lait plaques and benign neurofibromas 1 . Comorbidities that occur in adulthood include malignant tumors, central nervous system tumors, angiopathy, and cognitive impairment 1 ,  5 – 7 . Up to 60% of NF1 patients develop plexiform neurofibromas, which can cause pain, disfigurement, and malignant changes 8 . Malignant peripheral nerve sheath tumor (MPNST) is the most common and serious malignant tumor based on NF1, and the risk of developing it in a lifetime is reported to be 5.9–15.8% 9 – 11 . Patients with NF1 have been reported to develop malignancies at a 2.7–4 times higher risk than the general population 12 – 14 , and life expectancy is reduced by 8–20 years 15 ,  16 .
+Thus, for NF1 patients who have various signs/symptoms and a high incidence of malignant tumors that have a great influence on the life prognosis, it is inappropriate to treat them in a single department. In the United States, the Neurofibromatosis Clinic Network was established by the Children's Tumor Foundation in 2007 to standardize and raise the level of clinical care for neurofibromatosis nationwide and integrate research into clinical care practices ( https://www.ctf.org/research/nf-clinic-network ). There are now 63 accredited institutions located in 32 states, and each institution has a multidisciplinary approach to NF1 patients 17 . On the other hand, in Japan, there was no multidisciplinary NF1 clinic, and so NF1 medical treatment was performed only by a specialist in a single department generally for one manifestation. There were many problems such as delays in medical treatment for other symptoms in NF1 caused by medical treatment in a single department. In order to overcome these problems, we have built and promoted an in-hospital NF1 medical care network with multiple departments and specialties since 2014. The purpose of this study is to introduce the process of launching this NF1 medical care network and its progress.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1~25" text="Neurofibromatosis type-1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D1" spans="27~30" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D2" spans="450~453" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D3" spans="701~704" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D4" spans="851~856" text="MPNST" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="914~917" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D6" spans="1014~1017" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D7" spans="1194~1197" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D8" spans="1415~1432" text="Neurofibromatosis" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D9" spans="1563~1580" text="neurofibromatosis" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D10" spans="1816~1819" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D11" spans="1894~1897" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D12" spans="1913~1916" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D13" spans="2109~2112" text="NF1" location="background" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D14" spans="2244~2247" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D15" spans="2395~2398" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+</TAGS>
+</Genomics_ConceptTask>

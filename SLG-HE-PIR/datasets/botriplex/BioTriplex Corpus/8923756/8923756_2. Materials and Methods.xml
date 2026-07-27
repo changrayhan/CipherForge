@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. The Study Group
+This study included 135 patients with breast diseases and 98 healthy controls. Patients were periodically recruited in Guidong People's Hospital of Guangxi Zhuang Autonomous Region, from January to December through October of 2017, including 55 BF patients and 80 FC patients. All diagnoses have pathological support. Members of the control group were randomly selected from the healthy females having body examination in the same hospital. Inclusion criteria: without other malignant tumors or other breast diseases, females from Guangxi. Signatures of informed consent were obtained from all objectives of the study. In addition, demographic characteristics and blood samples, including age, ethnicity, tobacco and alcohol use, and body mass index (BMI), were also collected by the interviewers. This study was approved by the ethics committee of Guidong People's Hospital of Guangxi Zhuang Autonomous Region.
+2.2. DNA Extraction and Genotyping of PON1
+The PON1 rs705382 and rs662 SNPs were genotyped by polymerase chain reaction-restriction fragment length polymorphism (PCR-RFLP). The PCR was carried out in 1.0 mL of each primer, 12.5 mL of Green PCR Master Mix (Shanghai Sangon Biotech Co., Ltd., Shanghai, China), 9.5 mL of sterilized deionized water, and 2.0 mL of template DNA per reaction. The forward and reverse primers used were rs662-F 5'-TATTGTTGCTGTGGGACCTGAG-3' and R 5'-CACGCTAAACCCAAATACATCTC-3' [ 12 ] and rs705382-F 5'-GAGAGGGAAAGTGGTCAGCT-3' and R 5'-GAAGTGTGAGTTTGGGCAGG-3'. The PCR reaction for rs662 included a 5-min preincubation step at 95°C, followed by 39 cycles of 45 seconds at 95°C, 45 seconds at 58°C, 45 seconds at 72°C, and then a final 10-min extension step at 72°C. For rs705382, it included a 5-min preincubation step at 95°C, followed by 24 cycles of 39 seconds at 95°C, 30 seconds at 56°C, 30 seconds at 72°C, and then a final 10-min extension step at 72°C.
+After amplification, all products were separated on 3% agarose gel and subsequently stained with ethidium bromide to visualize the bands (Figures  1  and  2 ). To control the quality of the PCR reaction, a negative control was also performed in each genotyping assay. In addition, we entrusted Sangon Biotech to perform gene sequencing for 10% sample randomly chosen during the process for verification, which matches our results 100%.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="972~976" text="PON1" location="result" />
+<GENE id="G1" spans="981~985" text="PON1" location="result" />
+<DISEASE id="D0" spans="267~269" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="286~288" text="FC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

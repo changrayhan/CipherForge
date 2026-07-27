@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+CXCR4 is upregulated in HCC and correlated with survival
+To investigate the potential significance of CXCR4 in the development and progression of HCC, we first evaluated CXCR4 expression by immunohistochemical analysis in 127 HCC specimens. CXCR4 was located diffusely in the cytoplasm and nucleus of tumour cells ( Fig. 1a ). However, the level of cytoplasmic and nuclear CXCR4 expressions was significantly higher in tumour than peritumour tissues ( Fig. 1b ). Immunoblot analysis of lysates obtained from surgical samples of 13 HCC patients confirmed increases of CXCR4 expression in tumour relative to peritumour tissues ( Fig. 1c ). As shown in  Supplementary Table 1 , the level of cytoplasmic CXCR4 expression closely correlated with tumour size ( P =0.003,  χ 2 -test), venous invasion ( P =0.006,  χ 2 -test), high Barcelona Clinic Liver Cancer stage ( P =0.003, χ2-test) and Tumour, Node, Metastasis (TNM) stage ( P <0.001,  χ 2 -test). The level of cytoplasmic CXCR4 expression was correlated with tumour progression from TNM stage I to III ( Fig. 1d ). Importantly, patients with high cytoplasmic CXCR4 intensity showed significantly worse overall survival (mean of 33.0 versus 61.3 months, log-rank test  P <0.001;  Fig. 1e ) and recurrence-free survival (RFS; mean of 26.9 versus 42.6 months, log-rank test  P =0.001;  Fig. 1f ) than those with low cytoplasmic CXCR4 expression, while nuclear CXCR4 expression was found not to be significantly related to overall survival and RFS ( Supplementary Fig. 1 ). The Cox proportional hazards model revealed that high cytoplasmic CXCR4 expression was an independent prognostic factor with respect to overall survival (hazard ratio=1.889 (95% confidence interval, 1.040–3.431),  P =0.038) and RFS (hazard ratio=1.695 (95% confidence interval, 1.008–2.853),  P =0.048) ( Table 1  and  Supplementary Table 2 ). Taken together, it was clearly indicated that cytoplasmic CXCR4 expression was a significant and independent index for HCC outcomes.
+CXCR4 is required for tumour growth, migration and survival
+To explore the biologic function of CXCR4, we first determined the endogenous CXCR4 expression in hepatoma cell lines, and identified Huh7 and SK-Hep1 cells with the lowest and highest CXCR4 expression for subsequent experiments ( Fig. 2a ). We confirmed stable knockdown of CXCR4 in SK-Hep1 cells, and stable CXCR4-transfected Huh7 cells ( Fig. 2a  and  Supplementary Fig. 2a ). While ectopic CXCR4 expression promoted the proliferation of Huh7 cells, stably CXCR4 knockdown, AMD3100 (CXCR4 antagonist) and CXCR4-neutralization antibody inhibited the proliferation of SK-Hep1 cells ( Fig. 2b ). Furthermore, CXCR4 overexpression enhanced anchorage-independent growth, migration and survival of Huh7 cells, which were impaired by either CXCR4 knockdown, AMD3100 or neutralization antibody in SK-Hep1 cells ( Fig. 2c–e ).
+Suppression of CXCR4 inhibits tumorigenesis  in vivo
+We next investigated the effect of CXCR4 on tumorigenesis of hepatoma cells  in vivo.  Quantification of tumour size and weight showed that Huh7 cells with CXCR4 overexpression generated larger tumours than control cells ( Fig. 3a ). Conversely, SK-Hep1 cells with CXCR4 knockdown generated smaller tumours than control cells ( Fig. 3b ). To assess the therapeutic potential of targeting CXCR4  in vivo , we tested subcutaneous exnografts of SK-Hep1 cells. Transplant recipient nude mice with palpable tumours were treated with AMD3100 for 3 weeks. AMD3100 treatment potently suppressed tumorigenesis ( Fig. 3c , left panel). Intratumoural injection of AMD3100 had extended survival (mean of 52.7 versus 41.2 days, log-rank test  P =0.032;  Fig. 3c  right panel). To further validate the role of CXCR4 in tumorigenesis, we turned to a CXCR4-neutralization antibody. CXCR4-neutralization antibody treatment suppressed tumour size, and had extended survival (mean of 54.4 versus 42.1 days, log-rank test  P =0.004;  Fig. 3d ). This was accompanied by commensurate reduction in ki67 staining ( Fig. 3e ). These data indicate that CXCR4 promoted tumorigenesis  in vivo  and  in vitro , and targeting CXCR4 is a potential candidate for clinical application to the treatment of HCC.
+Identification of endogenous miRNA directly target CXCR4
+Changes in the expression of miRNAs appear to be a common characteristic of cancers including HCC 17 . Loss or suppression of miRNAs targeting CXCR4 may cause aberrant overexpression of CXCR4 in HCC. Therefore, we used comprehensive bioinformatics analysis as a filter to generate a selective miRNA library for subsequent screening. A total 64 miRs were successfully identified as candidate miRs ( Fig. 4a  and  Supplementary Fig. 3 ). Screening with the candidate miR library was carried out by quantitative PCR for the downregulation of miRs in HCC samples compared with peritumour tissues ( Fig. 4b ). We found five miRNAs (miR-302c, miR-139-5p, miR-9, miR-206 and miR-622) were downregulated in HCC compared with peritumour tissues ( Fig. 4c  and  Supplementary Table 3 ). To determine whether CXCR4 expression is selectively regulated by the five aforementioned miRs, we transfected these selected miR-mimics or anti-miRs in hepatoma cells. We found that miR-622 mimic suppressed CXCR4 expression in SK-Hep1 cells, whereas anti-miR-622 increased CXCR4 expression in Huh7 cells, which suggested that miR-622 is a specific regulator of CXCR4 in hepatoma cells ( Fig. 4d ). The TargetScan algorithm showed that the bases from 71 to 77 in the  CXCR4  3′-UTR have perfect complementarity to the seed sequence of miR-622. To substantiate the site-specific repression of miR-622 on  CXCR4 , we constructed a mutated  CXCR4  3′-UTR luciferase reporter ( Fig. 4e ), which completely restored luciferase activity induced by miR-622 mimic ( Fig. 4f ), and suppressed luciferase activity induced by anti-miR-622 ( Fig. 4g ). These data suggest that CXCR4 is a novel direct target of miR-622 in hepatoma cells.
+CXCR4 mediate the effects of miR-622 on tumour promotion
+CXCR4 upregulation by anti-miR-622 was prevented using siRNAs before assessment of cell growth and migration. Hepatoma cells were transfected with CXCR4 or control siRNA before transfection with anti-miR-622 followed by assessment of cell growth and migration, respectively. CXCR4 knockdown with siRNA was confirmed by immunoblotting ( Fig. 5a  and  Supplementary Fig. 4a,b ). Inhibition of miR-622 significantly promoted growth and migration of Huh7 and PLC/PRF/5 cells, however, CXCR4 knockdown prevented the increased growth and migration induced by anti-miR-622 expression ( Fig. 5b,c  and  Supplementary Fig. 4d ). Similar rescue to the above was obtained in SK-Hep1 and SNU448 cells transfected with miR-622 ( Fig. 5b,c  and  Supplementary Fig. 4c,d ). The above data show that inhibitory effects of miR-622 are partially mediated by targeting CXCR4.
+Loss of miR-622 occurs in HCC with epigenetic abnormalities
+We next sought to investigate the molecular mechanism that mediates the downregulation of miR-622 in HCC. The miR-622 promoter is located in a typical CpG island, suggesting a possible involvement of DNA methylation in the regulation of miR-622 transcription ( Fig. 6a,b ). Although 100% of CpGs were unmethylated in normal liver, only 5.4–64.3% CpGs were unmethylated in six hepatoma cell lines: SK-Hep1, SNU448, HepG2, Hep3B, PLC/PRF/5 and Huh7 cells ( Fig. 6c ). The miR-622 expression was significantly increased from 2.5- to >11-fold when hepatoma cells with hypermethylated miR-622 promoter (SK-Hep1, SNU448 and HepG2) were treated with 5-aza-2′-deoxycytidine (5-aza-Dc) for 3 days ( Fig. 6d ). Furthermore, miR-622 methylation was assessed by bisulfite-sequencing PCR (BSP) in additional 13 pairs of HCC and peritumour tissues. Nine tumours showed more than 5% DNA methylation and only three peritumoural tissue was methylated ( Fig. 6e ). Peritumoural tissues had a higher expression of miR-622 as compared with HCC (Student's  t -test  P <0.001,  Fig. 6f , left). Nine tumours were methylated and had lower expression levels of miR-622 in comparison with unmethylated tumours (Student's  t -test  P =0.023,  Fig. 6f , right).
+Changes in DNA methylation could also be associated with the subsequent acquisition of other histone modifications. We further performed chromatin immunoprecipitation (CHIP) to evaluate repressive histone hallmarks, including trimethylated H3K9 (H3K9me3) and trimethylated H3K27 (H3K27me3). The results showed higher levels of methylation at H3K9 and H3K27 in a broad area upstream of the miR-622 coding region in SK-Hep1 cells ( Supplementary Fig. 5a,b ). These data allowed us to hypothesize that histone methylation, especially those of EZH2-dependent H3K27me3, may contribute to miR-622 repression. To confirm our hypothesis, we performed EZH2 overexpression and knockdown in hepatoma cells. As expected, overexpression of EZH2 led to an increase in CXCR4 expression and decrease in the levels of miR-622 in Huh7 cells ( Fig. 7a ). Furthermore, CHIP assays showed that EZH2 occupied in the upstream region of miR-622, which is concomitant with the increase in H3K27me3 and H3K9me3 levels ( Fig. 7b ). We confirmed an EZH2 knockdown using a specific shRNA ( Supplementary Fig. 2c ). Knockdown of EZH2 resulted in a great increase in the levels of miR-622 and decrease in the CXCR4 expression in SK-Hep1 cells ( Fig. 7c ). CHIP assay indicated that decreased EZH2, H3K27me3 and H3K9me3 occupancy in the upstream regions of miR-622 ( Fig. 7d ). Similarly, effects were observed during inhibition of EZH2 activity in SK-Hep1 cells by DZNep ( Fig. 7e,f ). These data indicate a link between epigenetic regulation and miR-622 transcription in hepatoma cell lines.
+EZH2 regulates CXCR4 by controlling miR-622 expression
+On the basis of our findings, we considered an aspect of the biological communication between epigenetic silencing and CXCR4 expression through miR-622 regulation. EZH2 knockdown in SK-Hep1 cells resulted in reduction of CXCR4 expression, which is consistent with those of miR-622 overexpression. Then, we tested whether exogenous manipulation of miR-622 could inhibit the effects of EZH2. We restored miR-622 expression in Huh7 cells, but inhibited miR-622 expression in SK-Hep1 cells ( Fig. 8a ). Indeed, enhancement of proliferation and migration induced by EZH2 overexpression was partially inhibited by treatment with miR-622 mimic in Huh7 cells. On the other hand, repression of proliferation and migration induced by knockdown of EZH2 was partially restored by treatment with miR-622 inhibitor in SK-Hep1 cells ( Fig. 8b,c  and  Supplementary Fig. 6a,b ). Additional expression of CXCR4 rescued the inhibition of proliferation and migration induced by EZH2 knockdown in SK-Hep1 cells ( Fig. 8d–f  and  Supplementary Fig. 6c ). These results suggest that EZH2-mediated miR-622 suppression leads to CXCR4 activation.
+Clinical correlation of CXCR4 with miR-622 EZH2
+Given that miR-622 might regulate CXCR4 expression in HCC, miRNA  in situ  hybridization and immunohistochemical analysis were done to evaluate the relationship between miR-622 and CXCR4 expression in HCC ( n =127). miR-622 level was inverse correlated with CXCR4 expression in HCC tissues (Pearson's coefficient test  r =−0.391 ( P <0.001),  Fig. 9a,b ). At the meanwhile, CXCR4 expression was positively correlated with EZH2 expression in HCC tissues (Pearson's coefficient test  r =0.363 ( P <0.001),  Fig. 9a,b ). Considering the inverse correlation between CXCR4 and miR-622 in the HCC tumours, we further evaluated their combined influence on patient outcome. Patients were classified into four groups, using their median as the cutoff. I, CXCR4 low and miR-622 low ( n =19); II, CXCR4 low and miR-622 high ( n =45); III, CXCR4 high and miR-622 low ( n =44); and IV, CXCR4 high and miR-622 high ( n =19). Patients in group III showed significantly worse overall survival and RFS than those in groups I and II (both log-rank test  P <0.050,  Fig. 9c ). These data confirmed that EZH2/miR-622 pathway correlated with CXCR4 expression and was clinical relevant in HCC ( Fig. 9d ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~6" text="CXCR4" location="result" />
+<GENE id="G1" spans="103~108" text="CXCR4" location="result" />
+<GENE id="G2" spans="171~176" text="CXCR4" location="result" />
+<GENE id="G3" spans="242~247" text="CXCR4" location="result" />
+<GENE id="G4" spans="374~379" text="CXCR4" location="result" />
+<GENE id="G5" spans="568~573" text="CXCR4" location="result" />
+<GENE id="G6" spans="701~706" text="CXCR4" location="result" />
+<GENE id="G7" spans="973~978" text="CXCR4" location="result" />
+<GENE id="G8" spans="1110~1115" text="CXCR4" location="result" />
+<GENE id="G9" spans="1376~1381" text="CXCR4" location="result" />
+<GENE id="G10" spans="1408~1413" text="CXCR4" location="result" />
+<GENE id="G11" spans="1923~1928" text="CXCR4" location="result" />
+<GENE id="G13" spans="1587~1592" text="CXCR4" location="result" />
+<GENE id="G14" spans="1998~2003" text="CXCR4" location="result" />
+<GENE id="G15" spans="2094~2099" text="CXCR4" location="result" />
+<GENE id="G16" spans="2136~2141" text="CXCR4" location="result" />
+<GENE id="G17" spans="2243~2248" text="CXCR4" location="result" />
+<GENE id="G18" spans="2333~2338" text="CXCR4" location="result" />
+<GENE id="G19" spans="2368~2373" text="CXCR4" location="result" />
+<GENE id="G20" spans="2452~2457" text="CXCR4" location="result" />
+<GENE id="G21" spans="2518~2523" text="CXCR4" location="result" />
+<GENE id="G22" spans="2544~2549" text="CXCR4" location="result" />
+<GENE id="G23" spans="2566~2571" text="CXCR4" location="result" />
+<GENE id="G24" spans="2667~2672" text="CXCR4" location="result" />
+<GENE id="G25" spans="2795~2800" text="CXCR4" location="result" />
+<GENE id="G26" spans="2894~2899" text="CXCR4" location="result" />
+<GENE id="G27" spans="2967~2972" text="CXCR4" location="result" />
+<GENE id="G28" spans="3088~3093" text="CXCR4" location="result" />
+<GENE id="G29" spans="3197~3202" text="CXCR4" location="result" />
+<GENE id="G30" spans="3320~3325" text="CXCR4" location="result" />
+<GENE id="G31" spans="3728~3733" text="CXCR4" location="result" />
+<GENE id="G32" spans="3767~3772" text="CXCR4" location="result" />
+<GENE id="G33" spans="3798~3803" text="CXCR4" location="result" />
+<GENE id="G34" spans="4007~4011" text="ki67" location="result" />
+<GENE id="G35" spans="4059~4064" text="CXCR4" location="result" />
+<GENE id="G36" spans="4128~4133" text="CXCR4" location="result" />
+<GENE id="G37" spans="4260~4265" text="CXCR4" location="result" />
+<GENE id="G38" spans="4409~4414" text="CXCR4" location="result" />
+<GENE id="G39" spans="4452~4457" text="CXCR4" location="result" />
+<GENE id="G40" spans="5064~5069" text="CXCR4" location="result" />
+<GENE id="G41" spans="5251~5256" text="CXCR4" location="result" />
+<GENE id="G42" spans="5317~5322" text="CXCR4" location="result" />
+<GENE id="G43" spans="5405~5410" text="CXCR4" location="result" />
+<GENE id="G44" spans="5511~5516" text="CXCR4" location="result" />
+<GENE id="G45" spans="5647~5652" text="CXCR4" location="result" />
+<GENE id="G46" spans="5681~5686" text="CXCR4" location="result" />
+<GENE id="G47" spans="5908~5913" text="CXCR4" location="result" />
+<GENE id="G48" spans="5969~5974" text="CXCR4" location="result" />
+<GENE id="G49" spans="6026~6031" text="CXCR4" location="result" />
+<GENE id="G50" spans="6173~6178" text="CXCR4" location="result" />
+<GENE id="G51" spans="6301~6306" text="CXCR4" location="result" />
+<GENE id="G52" spans="6507~6512" text="CXCR4" location="result" />
+<GENE id="G53" spans="6876~6881" text="CXCR4" location="result" />
+<GENE id="G54" spans="8718~8722" text="EZH2" location="result" />
+<GENE id="G55" spans="8821~8825" text="EZH2" location="result" />
+<GENE id="G56" spans="8905~8909" text="EZH2" location="result" />
+<GENE id="G57" spans="8932~8937" text="CXCR4" location="result" />
+<GENE id="G58" spans="9051~9055" text="EZH2" location="result" />
+<GENE id="G59" spans="9199~9203" text="EZH2" location="result" />
+<GENE id="G60" spans="9277~9281" text="EZH2" location="result" />
+<GENE id="G61" spans="9356~9361" text="CXCR4" location="result" />
+<GENE id="G62" spans="9439~9443" text="EZH2" location="result" />
+<GENE id="G63" spans="9578~9582" text="EZH2" location="result" />
+<GENE id="G64" spans="9740~9744" text="EZH2" location="result" />
+<GENE id="G65" spans="9755~9760" text="CXCR4" location="result" />
+<GENE id="G66" spans="9914~9919" text="CXCR4" location="result" />
+<GENE id="G67" spans="9959~9963" text="EZH2" location="result" />
+<GENE id="G68" spans="10016~10021" text="CXCR4" location="result" />
+<GENE id="G69" spans="10179~10183" text="EZH2" location="result" />
+<GENE id="G70" spans="10356~10360" text="EZH2" location="result" />
+<GENE id="G71" spans="10683~10688" text="CXCR4" location="result" />
+<GENE id="G72" spans="10754~10758" text="EZH2" location="result" />
+<GENE id="G73" spans="10899~10904" text="CXCR4" location="result" />
+<GENE id="G74" spans="10941~10946" text="CXCR4" location="result" />
+<GENE id="G75" spans="10999~11004" text="CXCR4" location="result" />
+<GENE id="G76" spans="11146~11151" text="CXCR4" location="result" />
+<GENE id="G77" spans="11223~11228" text="CXCR4" location="result" />
+<GENE id="G79" spans="11387~11391" text="EZH2" location="result" />
+<GENE id="G80" spans="11527~11532" text="CXCR4" location="result" />
+<GENE id="G81" spans="11711~11716" text="CXCR4" location="result" />
+<GENE id="G82" spans="11751~11756" text="CXCR4" location="result" />
+<GENE id="G83" spans="11793~11798" text="CXCR4" location="result" />
+<GENE id="G84" spans="11838~11843" text="CXCR4" location="result" />
+<GENE id="G85" spans="12049~12053" text="EZH2" location="result" />
+<GENE id="G86" spans="12086~12091" text="CXCR4" location="result" />
+<GENE id="G87" spans="11339~11344" text="CXCR4" location="result" />
+<DISEASE id="D0" spans="25~28" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="147~150" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="227~230" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="532~535" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1984~1987" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="4204~4207" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="4342~4348" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="4461~4464" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="4813~4816" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="4965~4968" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="6909~6912" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="7044~7047" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="7963~7966" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="11166~11169" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="11243~11246" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="11406~11409" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="11552~11555" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="12132~12135" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="10~21" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R1" spans="33~57" text="correlated with survival" location="result" relation="prognostic indicator" />
+<RELATION id="R2" spans="116~143" text="development and progression" location="result" relation="pathological role" />
+<RELATION id="R7" spans="4434~4448" text="overexpression" location="result" relation="increased expression" />
+<RELATION id="R3" spans="4163~4200" text="clinical application to the treatment" location="result" relation="therapeutic target" />
+<RELATION id="R4" spans="1974~1983,1988~1996" text="index for ... outcomes" location="result" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="CXCR4" diseaseID="D0" diseaseText="HCC" relationID="R0" relationText="upregulated" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="CXCR4" diseaseID="D0" diseaseText="HCC" relationID="R1" relationText="correlated with survival" />
+<ENTITY_LINKING id="E2" geneID="G1" geneText="CXCR4" diseaseID="D1" diseaseText="HCC" relationID="R2" relationText="development and progression" />
+<ENTITY_LINKING id="E6" geneID="G39" geneText="CXCR4" diseaseID="D7" diseaseText="HCC" relationID="R7" relationText="overexpression" />
+<ENTITY_LINKING id="E11" geneID="G36" geneText="CXCR4" diseaseID="D5" diseaseText="HCC" relationID="R3" relationText="clinical application to the treatment" />
+<ENTITY_LINKING id="E12" geneID="G11" geneText="CXCR4" diseaseID="D4" diseaseText="HCC" relationID="R4" relationText="index for ... outcomes" />
+</TAGS>
+</Genomics_ConceptTask>

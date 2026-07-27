@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: An EGFR/HER2-targeted conjugate sensitizes gemcitabine-sensitive and resistant pancreatic cancer through different SMAD4-mediated mechanisms.
+Abstract: Chemoresistance limits its clinical implementation for pancreatic ductal adenocarcinoma (PDAC). We previously generated an EGFR/HER2 targeted conjugate, dual-targeting ligand-based lidamycin (DTLL), which shows a highly potent antitumor effect. To overcome chemoresistance in PDAC, we aim to study DTLL efficacy when combined with gemcitabine and explore its mechanisms of action. DTLL in combination with gemcitabine show a superior inhibitory effect on the growth of gemcitabine-resistant/sensitive tumors. DTLL sensitizes gemcitabine efficacy via distinct action mechanisms mediated by mothers against decapentaplegic homolog 4 (SMAD4). It not only prevents neoplastic proliferation via ATK/mTOR blockade and NF-κB impaired function in SMAD4-sufficient PDACs, but also restores SMAD4 bioactivity to trigger downstream NF-κB-regulated signaling in SMAD4-deficient tumors and to overcome chemoresistance. DTLL seems to act as a SMAD4 module that normalizes its function in PDAC, having a synergistic effect in combination with gemcitabine. Our findings provide insight into a rational SMAD4-directed precision therapy in PDAC.
+Chemoresistance is a main limitation for the treatment of pancreatic ductal adenocarcinoma (PDAC). Here, the authors show that an antibody drug conjugate-like compound targeting both EGFR and HER2 overcomes gemcitabine resistance in PDAC preclinical models by mechanisms involving the tumour suppressor SMAD4.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="11~15" text="EGFR" location="result" />
+<GENE id="G1" spans="16~20" text="HER2" location="result" />
+<GENE id="G2" spans="123~128" text="SMAD4" location="result" />
+<GENE id="G3" spans="283~287" text="EGFR" location="result" />
+<GENE id="G4" spans="288~292" text="HER2" location="result" />
+<GENE id="G5" spans="765~790" text="decapentaplegic homolog 4" location="result" />
+<GENE id="G6" spans="792~797" text="SMAD4" location="result" />
+<GENE id="G7" spans="854~858" text="mTOR" location="result" />
+<GENE id="G8" spans="872~877" text="NF-κB" location="result" />
+<GENE id="G9" spans="899~904" text="SMAD4" location="result" />
+<GENE id="G10" spans="941~946" text="SMAD4" location="result" />
+<GENE id="G11" spans="981~986" text="NF-κB" location="result" />
+<GENE id="G12" spans="1010~1015" text="SMAD4" location="result" />
+<GENE id="G13" spans="1089~1094" text="SMAD4" location="result" />
+<GENE id="G14" spans="1246~1251" text="SMAD4" location="result" />
+<GENE id="G15" spans="1471~1475" text="EGFR" location="result" />
+<GENE id="G16" spans="1480~1484" text="HER2" location="result" />
+<GENE id="G17" spans="1591~1596" text="SMAD4" location="result" />
+<DISEASE id="D0" spans="87~104" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="215~247" text="pancreatic ductal adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="249~253" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="436~440" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="916~920" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1134~1138" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1282~1286" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1346~1378" text="pancreatic ductal adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1380~1384" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1521~1525" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1252~1278" text="directed precision therapy" location="result" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G14" geneText="SMAD4" diseaseID="D6" diseaseText="PDAC" relationID="R0" relationText="directed precision therapy" />
+</TAGS>
+</Genomics_ConceptTask>

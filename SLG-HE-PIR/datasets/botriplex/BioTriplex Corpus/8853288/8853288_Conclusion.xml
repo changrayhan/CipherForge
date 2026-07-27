@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The results presented here support the hypothesis of myostatin-mediated muscle damage induced by RPM exposure. In fact, the action of this negative regulator on skeletal muscle was counteracted by the treatment of satellite cells with anti-MSTN antibodies ( Figure 4 ). However, the reversibility of damage induced by RPM exposure was observed for a period of 72 h, suggesting the need for further studies with longer exposure times to assess the limit of damage reversibility. Furthermore, the role of potential other effectors responsible for muscle degeneration by RPM exposure will need to be investigated to understand their involvement in the sarcopenic condition development. Finally, although RPM represents a valid model for simulating the biological effects of microgravity for us, it is not the only strategy capable of reproducing the effects induced by no load. Therefore, preclinical studies on the use of anti-MSTN antibodies in model animals subjected to limb unloading will be needed to confirm and validate the efficacy of this treatment in counteracting the loss of muscle mass typical of sarcopenia.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="54~63" text="myostatin" location="result" />
+<GENE id="G1" spans="241~245" text="MSTN" location="result" />
+<GENE id="G2" spans="926~930" text="MSTN" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

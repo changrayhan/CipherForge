@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+  Baohan A.  et al . Pten and EphB4 regulate the establishment of perisomatic inhibition in mouse visual cortex.  Nat. Commun.  7:12829 doi: 10.1038/ncomms12829 (2016).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="22~26" text="Pten" location="result" />
+<GENE id="G1" spans="31~36" text="EphB4" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

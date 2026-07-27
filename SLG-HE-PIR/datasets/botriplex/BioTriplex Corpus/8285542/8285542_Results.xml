@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+TP63 regulates fatty-acid metabolism pathway through SREBF1
+To explore putative TP63-regulated signaling pathways in vivo, we initially performed GSEA using SCC patient samples. In an unbiased fashion, we identified signaling pathways enriched in SCC samples with high TP63 expression by analyzing RNA-Seq data from TCGA cohorts, including ESCC ( n  = 81), HNSC ( n  = 436) and LUSC (n = 501) samples. Cervical SCC and human papillomavirus (HPV) +  HNSC samples were excluded, because HPV +  tumors have different gene expression programs than HPV -  SCCs 25 , 34 . Tumor samples from each SCC cohort were stratified as either TP63-high (top 30%) or TP63-low (bottom 30%) based on expression of this TF. Genes that were differentially expressed between TP63-high and TP63-low groups were first determined. Notably, genes exhibiting either positive or negative correlation with TP63 expression were highly overlapping between these three types of SCCs (Fig.  1a  and Supplementary Data  1 ). For example, 72.8% (182/250) of positively correlated genes identified in ESCC were shared with either LUSC ( P  < 1E-06) or HNSC ( P  < 1E-06) cohorts. This high degree of overlap supports the notion that TP63 shares biological functions among different types of SCC by directly regulating gene transcription 30 , 31 , 33 , 35 , 36 . These differentially expressed genes were next used to perform GSEA with the Hallmark geneset. Again, signaling pathways significantly enriched in TP63-high samples were largely overlapping between the three major types of SCCs (Fig.  1b ), suggesting a uniform role of TP63 in regulating gene expression programs across different types of SCC. Fig. 1 TP63 regulates fatty-acid metabolism pathway through SREBF1 in SCCs. a  Venn diagrams of genes exhibiting either positive or negative correlation with TP63 across three types of SCCs (|Log 2 FC | >2,  q -value < 0.05).  b  Left panel, Venn diagram of significantly enriched hallmark pathways in TP63-high SCC samples. Right panel, heatmap of GSEA results of the nine overlapped enriched pathways.  c  Bar plots showing the NES (normalized enrichment score, upper) and  P- value (lower) from GSEA results of fatty-acid metabolism pathway in TP63-high samples from 23 types of cancers from TCGA.  d  Individual GSEA plots of fatty-acid metabolism pathway in two independent cohorts of ESCC samples (TCGA and GSE53624).  e  GSEA plot of fatty-acid metabolism pathway in RNA-Seq data upon silencing of TP63 in TE5 cells. NES normalized enrichment score.  P- values in panel  c–e  were adjusted for multiple comparisons.  f  Confocal images of staining of lipid droplets after either TP63 knockdown alone or combined with full-length SREBF1 overexpression in TE5 and KYSE150 cells. Scale bar, 50 μm. Bottom panel, quantitative analysis of lipid droplet staining based on the confocal images; Mean ± SEM are shown,  n  =  5  except for the group of KYSE150-shTP63-1+OE SREBF1 ( n  = 6), as the number of microscopic vision. * P  < 0.05; ** P  < 0.01;  P- values were determined by a two-sided  t -test.  g  Heatmap showing the enriched motifs ( q  value < 0.001) in promoter regions of genes positively correlated with TP63.  h  Relative mRNA levels of indicated regulators of fatty-acid metabolism following siRNA knockdown of TP63 in TE5, KYSE150, and KYSE510 cells. Mean ± SEM are shown,  n  = 3 (biological replicates). * P  < 0.05;  P- values were determined by a two-sided  t -test.
+Among the nine shared signaling pathways, cell-cycle-related (E2F targets, G2M checkpoint, mitotic spindle) 37 , MYC 38 , 39 , and mTOR 40  signaling pathways were expectedly enriched, consistent with findings from previous studies of TP63. In addition, enrichment of the estrogen response late pathway was also observed. Interestingly, two lipid metabolism-related pathways (fatty-acid metabolism and cholesterol homeostasis) were identified (Fig.  1b , right panel). We next performed similar GSEA across all cancer types, which showed that fatty-acid metabolism was positively correlated with TP63 only significantly in SCC samples, with the exception of thyroid cancer (Fig.  1c ); cholesterol homeostasis did not show such SCC specificity (Supplementary Fig.  1a ). As discussed earlier, dysregulated fatty-acid metabolism is a metabolic hallmark of cancer. However, the biological significance of fatty-acid metabolism in SCC, as well as fatty-acid metabolism is regulated by TP63, have not been explored. Therefore, we next focused on characterizing the regulatory function of TP63 on fatty-acid metabolism in SCCs.
+To validate these TCGA-based results, additional GSEA was performed using other independent, large-scale SCC transcriptomic datasets, including ESCC (GSE53624) and LUSC (GSE4573); no such independent HNSC cohort was available for this reanalysis. Fatty-acid metabolism was again enriched in TP63-high samples from either ESCC (Fig.  1d ) or LUSC (Supplementary Fig.  1b ) cohorts. Among the three types of SCC, ESCC showed the highest enrichment score and lowest  P- value (Fig.  1c ); we therefore selected this cancer type for further characterization. Notably, GSEA of RNA-Seq data from in vitro perturbation assays showed that fatty-acid metabolism was significantly downregulated in TP63-knockdown ESCC cells (Fig.  1e  and Supplementary Fig.  1c ). Moreover, depletion of TP63 consistently reduced total lipid droplet levels, suggesting decreased lipid storage (Fig.  1f ).
+To understand how TP63 regulates fatty-acid metabolism, TF-binding motif enrichment analysis was performed using promoters of genes exhibiting positive correlations with TP63 (Fig.  1g ). Consistent with pathway enrichment results, TFs of the E2F family (E2F1 and E2F4) were top-ranked. SOX5 was also highly ranked, likely because it recognizes an identical sequence motif as SOX2, a well-known TP63 partner in SCC 30 , 33 , 41 . Notably, SREBF1 was among the highest-ranking TFs, indicating that SREBF1 is involved in the regulation of a significant fraction of genes positively correlated with TP63. Since SREBF1 is one of the most important master regulators of fatty-acid metabolism, we postulated that SREBF1 might act as the chief mediator between TP63 and the fatty-acid metabolism pathway. Supporting this hypothesis, silencing of TP63 downregulated SREBF1 expression in ESCC cell lines (Fig.  1h ). Moreover, ectopic expression of SREBF1 reversed the reduction of lipid droplet content caused by TP63-depletion (Fig.  1f ) and conversely, silencing of SREBF1 abolished the effect of the overexpression of TP63 (Supplementary Fig.  2a ), suggesting that SREBF1 functionally mediates the effect of TP63 on fatty-acid metabolism. Furthermore, knockdown of TP63 inhibited the mRNA expression of key rate-limiting enzymes for fatty-acid synthesis. Importantly, overexpression of SREBF1 rescued the decreased expression of these genes (Supplementary Fig.  2b ). On the other hand, knockdown of SREBF1 largely and consistently reversed the effect of TP63 overexpression on the mRNA levels of the enzymes (Supplementary Fig.  2c ). To explore whether additional regulators of lipid metabolism were involved, we screened eight known regulators of lipid metabolism (SREBF1, SREBF2, LXRA, LXRB, PPARA, PPARG, PGC1, and HNF4A) 11 , 42 – 46 . Most of these TFs were barely expressed in ESCC cells, while only SREBF1 was consistently regulated by TP63 (Fig.  1h  and Supplementary Fig.  2d ). Moreover, only SREBF1 was moderately upregulated in tumors vs. their corresponding normal tissues (Log 2 FC > 0.5) across all three types of SCC (Supplementary Fig.  2d ).
+SREBF1, TP63, and KLF5 co-regulate the transcription of each other
+We next investigated the regulatory mechanism of TP63 on SREBF1 transcription in SCC, focusing on ESCC model because compared with HNSC and LUSC, ESCC not only showed the highest expression of SREBF1 (Supplementary Fig.  2e ), but also had the highest tumor/normal ratio (that is, the greatest upregulation in tumors; Supplementary Fig.  2d ). Interestingly, a top-ranking super-enhancer (No. 2 among 1157 super-enhancers) was found to flank the  SREBF1  locus in TE5 cells (Fig.  2a ). In fact, SREBF1 had super-enhancers in 8/8 ESCC cell lines (TE5 and KYSE150 cells are shown as examples in Fig.  2b ). To determine whether this super-enhancer region indeed regulates SREBF1 transcription, circularized chromosome conformation capture (4C) assays were performed in TE5 cells using the  SREBF1  promoter as bait (Fig.  2c ). Importantly, 4C assays identified complex, extensive interactions between the  SREBF1  promoter and the super-enhancer region (Fig.  2c , Supplementary Data  2 ). Moreover, these DNA–DNA contacts were strictly confined within the super-enhancer region, highlighting the specificity of chromatin interactions. Notably, TP63 ChIP-Seq data from the same TE5 cells revealed multiple binding peaks within both the  SREBF1  super-enhancer and the promoter (Fig.  2d ), suggesting direct transcriptional regulation by TP63. Because we recently demonstrated that in SCC cells, TP63 often cooperates with SOX2 and KLF5 to co-regulate hundreds of enhancers and super-enhancers 33 , we hypothesized that TP63 might also require either SOX2 or KLF5 to co-regulate transcription of SREBF1. KLF5- (but not SOX2)-binding peaks were identified within both the  SREBF1  super-enhancer and the promoter in TE5 cells (a positive control peak of SOX2 ChIP-Seq was provided in Supplementary Fig.  3a ). Consistently, knockdown of KLF5 (but not SOX2) inhibited expression of SREBF1 across ESCC cell lines at both transcriptional and protein levels (Fig.  2e  and Supplementary Fig.  3b ). Additionally, verifying our recent findings on co-regulation between KLF5 and TP63, silencing either one of these two TFs decreased the expression of the other (Fig.  2e, f ). Fig. 2 TP63 and KLF5 co-regulate SREBF1 in ESCC cells. a  Ranking of SREBF1 super-enhancers (SEs) in eight ESCC cell lines.  b  Inflection plots ranking all typical- and super-enhancers in TE5 and KYSE150 cells.  c  4C assay showing the long-range interactions anchored on SREBF1 promoter in TE5 cells. Deeper red color indicates higher interaction frequency.  d  IGV plots showing ChIP-Seq profiles of indicated factors in SREBF1 gene locus. Blue shadows highlighting selected constitutive enhancers (E1, E2, and E3), promoter and one negative control (Control) region. 4C-postive regions are depicted as red bars and super-enhancer (SE) regions are depicted as blue bars on top of the IGV plots. RPM (Reads per million mapped reads) values of peaks are on the left of the tracks.  e, 
+ f  qRT-PCR and western blotting assays upon knockdown of either  e  KLF5 or  f  TP63 in ESCC cells. Mean ± SEM are shown,  n  = 3 (biological replicates). * P  < 0.05; ** P  < 0.01;  P- values were determined by a two-sided  t -test. Full-length SREBF1 is shown.
+To further characterize the activity of the SREBF1 super-enhancer, we intersected 4C, H3K27Ac, and TP63/KLF5 ChIP-Seq data 30 , 33 . Three putative enhancer constituents were identified to have 4C contacts as well as the peaks of H3K27Ac, TP63, and KLF5. Subsequently, these three enhancer elements and  SREBF1  promoter region were individually cloned into luciferase reporter vectors: robust activities of all three constituent enhancers were confirmed in TE5 cells (Fig.  3a, b ). As anticipated, the SREBF1 promoter also harbored strong reporter activity (Fig.  3a, b ). Furthermore, silencing of either TP63 or KLF5 decreased the reporter activity of the three enhancers and the promoter (Fig.  3a, b ). To measure the direct regulatory effect of TP63 on its targeting enhancers, we selected enhancer E3 and performed site-directed mutagenesis of TP63 canonical binding motif. Indeed, overexpression of TP63 increased significantly the reporter activity of the wild-type enhancer, but produced no detectable effect on the mutant enhancer (Supplementary Fig.  4a–c ). To further verify the direct transcriptional regulation of this super-enhancer on SREBF1, a CRISPR interference (CRISPRi) system was utilized, wherein a single guide RNA (sgRNA) directs the complex of dCas9/KRAB (fusion of nuclease-inactive dCas9 to the Krüppel-associated box repressor) to suppress targeted cis-regulatory elements 47 . sgRNAs against either E1, E2, E3, or the promoter were designed and individually transfected into TE5 cells together with dCas9/KRAB (Fig.  3c ). To exclude off-target effects, two independent sgRNAs were designed for each element. Importantly, sgRNAs targeting either E1, E2, E3 or the promoter each potently and consistently reduced SREBF1 expression (Fig.  3d ), highlighting the prominent regulatory activity of these constitutive enhancers. Fig. 3 SREBF1 regulates TP63 and KLF5 in ESCC cells. a ,  b  Enhancer activity measured by luciferase reporter assays after either  a  TP63 or  b  KLF5 knockdown in TE5 cells. Mean ± SEM are shown,  n  = 3 (biological replicates). * P  < 0.05; ** P  < 0.01;  P -values were determined by a two-sided  t -test.  c  Schematic showing inhibition of constitutive enhancers or promoter of SREBF1 using a catalytically-dead dCas9 fused to a transcriptional repressor domain (KRAB).  d  qRT-PCR measuring mRNA levels of SREBF1, TP63, and KLF5 after transfection of either dCas9/Krab vector alone (No sgRNA) or together with siRNAs for E1, E2, E3, promoter in TE5 cells. Mean values are shown,  n  = 2 (biological replicates).  e  qRT-PCR and western blotting analyses upon knockdown of SREBF1 in ESCC cells. Mean ± SEM are shown,  n  = 3 (biological replicates). ** P  < 0.01;  P -values were determined by a two-sided  t -test.  f  IGV plots of ChIP-Seq profiles of indicated factors at either TP63 or KLF5 gene loci. Blue shadows highlighting selected constitutive enhancers of TP63 (T1, T2, and T3) and promoter of KLF5 (K1) occupied by SREBF1. 4C-positive regions (using TP63 promoter as the bait) are depicted as red bars and super-enhancer (SE) regions are depicted as blue bars. RPM (Reads per million mapped reads) values of peaks are on the left of the tracks.  g  Luciferase reporter assays after SREBF1 knockdown in TE5 cells. Mean ± SEM are shown,  n  = 3 (biological replicates). * P  < 0.05; ** P  < 0.01;  P -values were determined by a two-sided  t -test.  h  Pearson correlation coefficient between SREBF1, TP63, and KLF5 in TCGA ESCC cohort ( n  = 81) and GSE53624 cohort ( n  = 118).  i  Schematic graph of the regulatory relationship between SREBF1, TP63, and KLF5.
+Quite surprisingly, sgRNAs targeting either E1, E2, E3 or the promoter also significantly and consistently reduced expression levels of both TP63 and KLF5, which are upstream regulators of SREBF1 (Fig.  3d ). This intriguing effect suggests that SREBF1 may also regulate the transcription of TP63 and KLF5, forming a feedback co-regulatory loop. Indeed, knockdown of SREBF1 significantly reduced the expression of TP63 and KLF5 at both mRNA and protein levels across different ESCC cell lines (Fig.  3e ). We next explored how SREBF1 controls the transcription of both TP63 and KLF5, and performed SREBF1 ChIP-Seq in both TE5 and KYSE150 cell lines (Fig.  3f ). As expected, SREBF1-binding peaks strongly overlapped in these two ESCC cell lines ( P  = 10 −8 , Supplementary Fig.  4d ). Sequence motif analysis confirmed that SREBF1 motif was the most strongly enriched (Supplementary Fig.  4e ), and canonical SREBF1 target genes (Supplementary Fig.  4f ) all harbored SREBF1 peaks at their promoters. These data validate the quality of SREBF1 ChIP-Seq results. Importantly, in the genome locus of  TP63 , we identified multiple SREBF1-binding peaks in a super-enhancer for TP63 (Fig.  3f ). Notably, our recent 4C results identified direct contacts of this SREBF1-occupying super-enhancer with the TP63 promoter 33 . In the case of  KLF5  locus, we also noted several SREBF1 peaks at both KLF5 promoter and enhancers. We next selected several candidate enhancer elements (T1, T2, and T3) of TP63 and a promoter element (K1) of KLF5 for luciferase reporter assays. Robust reporter activities of T3 and K1 were detected, and they were reduced upon silencing of SREBF1 (Fig.  3g ). We further performed site-directed mutagenesis to mutate SREBF1-binding motif in T2 and T3 elements. We found that overexpression of SREBF1 consistently increased the reporter activity of both wild-type T2/T3 elements, but failed to affect mutant T2/T3 (Supplementary Fig.  5a–d ), confirming the direct regulation of SREBF1 on these enhancers. Moreover, RNA-Seq data from different ESCC patient cohorts showed that the expression levels of the three TFs were modestly correlated with each other (Fig.  3h  and Supplementary Fig.  5e ). Together, these results demonstrate that SREBF1, TP63, and KLF5 co-activate the transcription of each other, forming a co-regulatory feedback loop (Fig.  3i ).
+SREBF1 promotes biosynthesis of fatty acids, sphingolipids, and glycerophospholipid in SCCs
+Having established the molecular basis of the super-enhancer activation of SREBF1, as well as the co-regulatory feedback loop of SREBF1/TP63/KLF5 in SCC cells, we next investigated the functional impact of SREBF1 on fatty-acid metabolism identified earlier (Fig.  1f ). SREBF1 is known to activate rate-limiting enzymes for de novo fatty-acid biosynthesis (ACLY, FASN, ACSS2 and SCD) in different cell types 12 , 15 , 48 – 50 . Here in SCC cells, we verified that silencing of SREBF1 by siRNAs (Fig.  4a, b , and Supplementary Fig.  6a, b ) markedly decreased both the mRNA and protein expression of these enzymes. Inhibition of SREBF1 activity by its antagonist, Fatostatin 16 , 51  (which also targets SREBF2), also produced the same effect (Fig.  4c  and Supplementary Fig.  6c ). Moreover, lipid droplet content reduced after silencing of SREBF1 (Supplementary Fig.  6d, e ). We next comprehensively profiled the landscape of lipid species in SCC cells considering that the lipidome has enormous structure complexity. Specifically, LC-MS/MS-based lipidomics was performed in the presence and absence of SREBF1-inhibition (by Fatostatin) in KYSE510 cells. To ensure reproducibility, triplicates of both control and experimental samples were profiled, which exhibited high correlation within each group (Pearson correlation coefficient: 0.82–0.95, Supplementary Fig.  6f ). As a result, a total of 1561 lipid ions were identified, which belonged to 35 classes of lipids, suggesting high coverage of lipidome by this systematic approach (Supplementary Data  3 ). SREBF1-inhibition resulted in the downregulation of 69 and upregulation of 65 lipid ions (|Log 2 FC | >2,  q -value < 0.1, Fig.  4d, e ). The downregulated lipid ions were notably enriched in two lipid classes: (i) Sphingolipid family (SL), which included Ceramide (Cer), Sphingosine (So), Glucosylceramide (CerG1), Diglucosylceramide (CerG2), and Triglucosylceramide (CerG3) and (ii) Glycerophospholipid family (GPL), which included Cardiolipin (CL), Lipopolysaccharide (LPS), Phosphatidylserine (PS), Phosphatidic acid (PA), Phosphatidylglycerol (PG), and Lyso-phosphatidylethanolamine (LPE). In contrast, no discernable pattern was found in the upregulated lipid ions (Fig.  4d, e ). These results suggest that SREBF1 regulates lipid metabolism in addition to fatty-acid synthesis. To further understand the alterations in the lipidome upon SREBF1-inhibition, we integrated RNA-Seq following SREBF1-inhibition (Supplementary Table  1 ) and its ChIP-Seq, and identified direct SREBF1-targeted enzymes for lipid metabolism process. Indeed, consistent with lipidomic data, SL anabolic enzymes, such as SPTLC1, SPTLC2, ELOV4, ELOV6, ELOV7, and CERS6, were direct downstream targets of SREBF1 (Fig.  4f ). LIPIN1, an enzyme for GPL synthesis, was also under direct control of SREBF1 (Fig.  4f ). Either knockdown or inhibition of SREBF1 downregulated the expression of all of these factors. Together, these findings demonstrate that SREBF1 promotes the biosynthesis of fatty acid, SL, and GPL by directly activating the transcription of many chief enzymes in SCC cells. Fig. 4 SREBF1 promotes biosynthesis of fatty acids, SL, and GPL in SCCs. a  qRT-PCR measuring mRNA levels of central enzymes for fatty-acid synthesis upon knockdown of SREBF1 in ESCC cells. Mean ± SEM are shown,  n  = 3 (biological replicates). * P  < 0.05; ** P  < 0.01;  P -values were determined by a two-sided  t -test.  b ,  c  Western blotting analyses showing protein levels of central enzymes for fatty-acid synthesis upon either  b  knockdown of SREBF1 or  c  treatment with Fatostatin (0, 3.25 μM, 6.5 μM, 13 μM) in ESCC cells. The western blotting experiments were performed in three biologically independent replicates, and the representative result were shown here.  d  Volcano plot of LC-MS/MS-based lipidomics after treatment with Fatostatin in KYSE510 cells. Each dot is one lipid ion.  e  Scatter plot of significantly changed lipid ions, which were grouped by lipid classes. Each dot is one lipid ion. SL sphingolipids, GPL glycerophospholipids, GL glycerolipids.  f  Schematic diagram showing the regulation of lipid synthesis pathways by SREBF1 via integration of RNA-Seq (SREBF1 knockdown vs scramble) and ChIP-Seq in TE5 cells. FA fatty acid, SL sphingolipid, GPL glycerophospholipids, MUFA monounsaturated FAs, PUFA polyunsaturated FAs, 3kSN 3-keto-sphinganine, SA sphinganine, SPT serine palmitoyltransferase, DHCer dihydroceramide, CER ceramide, CerG1 glucosylceramide, CerG2 giglucosylceramide, CerG3 triglucosylceramide, SM sphingomyelin, SO Sphingosine, S1P sphingosine 1 phosphate, G3P glycerol 3-phosphate, LPA lysophosphatidic acid, PA phosphatidic acid, DAG diacylglyceride, PG phosphatidylglycerol, CL cardiolipin.
+SREBF1 is essential for cell growth and migration of SCC
+We next sought to determine the biological significance of SREBF1 in SCC, again using ESCC as a primary disease model. As anticipated, immunohistochemistry (IHC) staining showed that SREBF1 protein was significantly more abundant in the nucleus than cytoplasm (Fig.  5a, b ). Overexpression of nuclear SREBF1 protein in ESCC was confirmed in 179 cancerous esophageal samples and 57 matched adjacent nonmalignant esophageal tissues (Fig.  5a , right panel). Importantly, high-expression of SREBF1 was significantly associated with poor overall survival of ESCC patients (Fig.  5c ). Regression analysis identified SREBF1 as an independent survival predictor in a multivariable model comprising the clinical tumor-node-metastasis (TNM) parameters (HR = 2.24, 95% CI = 1.36–3.71,  P  = 0.002) (Supplementary Table  2 ). Given the notable co-regulatory feedback loop of SREBF1/TP63/KLF5 identified earlier, proteins of TP63 and KLF5 were also stained using the same cohort of ESCC samples. Consistently, significant overexpression of TP63 and KLF5 were verified (Fig.  5a, b ). Fig. 5 SREBF1 is essential for SCC cell growth and migration. a  Boxplots of IHC scores for nucleus and cytoplasmic staining of SREBF1, TP63, and KLF5 proteins in ESCC tumor and adjacent nonmalignant esophagus samples. Boxplots indicate the median (middle line), 25th, 75th percentile (box) and 5th and 95th percentile (whiskers). The numbers of samples for IHC staining are 57 (the nonmalignant) and 179 (ESCC tumors). ** P  < 0.01;  P- values were determined by a two-sided  t -test between the IHC scores of two groups.  b  Representative IHC images of SREBF1, TP63, and KLF5 proteins in ESCC tumor samples. Original magnification is ×400; scale bar is 50 μm.  c  Kaplan–Meier analyses of ESCC patient survival stratified by the protein expression of SREBF1. A Log-rank test was used for Kaplan–Meier curve, and  P- value was two-tailed and significance level was 0.05.  d  Knockdown of SREBF1 by individual siRNAs and  e  treatment of Fatostatin inhibited cell proliferation in colony formation assay. Mean values are shown, three biological replicates for qRT-PCR assays and two biological replicates for colony assays.  f  Migration assay and  g  wound healing assay after knockdown of SREBF1 in ESCC cells. Mean ± SEM are shown,  n  = 3 (biological replicates). * P  < 0.05; ** P  < 0.01;  P -values were determined by a two-sided  t -test.  h  SREBF1 was stably silenced by shRNA in KYSE150 cell line.  i  Mouse xenograft assay upon knockdown of SREBF1 by shRNA or  j  treatment of Fatostatin (30 mg/kg/day) by intraperitoneal injection. Mean ± SEM are shown,  n  = 8 (the numbers of tumor in one group). * P  < 0.05; ** P  < 0.01;  P- values were determined by a one-sided  t -test.
+The biological effects of SREBF1 on the proliferation and migration of ESCC cells were next investigated. Silencing of endogenous SREBF1 expression by independent siRNAs markedly reduced colony growth (Fig.  5d ) across different ESCC cells. Similarly, inhibition of SREBF1 activity by Fatostatin also significantly suppressed colony formation (Fig.  5e ). In addition, knockdown of SREBF1 markedly inhibited short-term migration capacity of ESCC cells in both wound healing and trans-well migration assays (Fig.  5f–g ). In a xenograft model, targeting SREBF1 by either shRNA or its inhibitor Fatostatin potently suppressed xenograft growth in vivo (Fig.  5h–j , Supplementary Fig.  7a, b  left panels) and targeting of SREBF1 using either shRNA or Fatostatin potently reduced the expression of KI67 (Supplementary Fig.  7c, d ). In addition, we validated (i) the co-regulatory feedback loop between SREBF1/TP63/KLF5, and (ii) canonical target genes of SREBF1 in fatty-acid metabolism (e.g., ACLY, FASN, and SCD) in xenograft tumor samples (Supplementary Fig.  7a, b  right panels). These data together characterize SREBF1 as a strong SCC-promoting factor.
+SREBF1, TP63, and KLF5 cooperatively regulate SCC cell transcriptome
+Our above findings of SREBF1 as a strong SCC-promoting factor, as well as its co-regulatory feedback loop with TP63/KLF5 strongly suggest cell-type-specific functions of SREBF1 in SCC, in addition to its canonical role in lipid metabolism pathway. To explore this hypothesis, we analyzed the genome-wide occupancy of SREBF1 in three different cell types, namely SCC (TE5 and KYSE150 cell lines), liver cancer (HepG2 cell line) and breast cancer (MCF7 cell line). SREBF1 ChIP-Seq data of HepG2 and MCF7 cells were retrieved from the ENCODE project, and were reprocessed together with our internal data from ESCC cells using the same computational pipeline. Notably, cell-type-specific SREBF1-binding peaks outnumbered either shared (defined as peaks identified in two cell types) or ubiquitous peaks (defined as peaks identified in all three cell types) (Fig.  6a , Supplementary Fig.  8 ). Representative genes with either ubiquitous or cell-type-specific peaks are shown in Fig.  6c . To identify putative binding TFs, sequence motif enrichment analysis was performed for each group of peaks (Fig.  6b ). Considering the distinct DNA sequence contents between promoter and distal regions (e.g., promoters are often CG rich, while distal enhancer regions are depleted of CpG islands 52 ), motif analyses were performed separately in these two genomic contexts, and top 15 most significantly enriched motifs were focused (Supplementary Data  4 ). As anticipated, regardless of either ubiquitous or specific peak sets, SREBF or NFY (a known SREBF1 co-factor) motifs were almost always top ranked. Notably, known cell-type-specific TF motifs were enriched in cell-type-specific peak sets. In particular, TP63 and HNF4A motifs were significantly and uniquely enriched in ESCC- and HepG2-specific peaks, respectively (Fig.  6b ), congruent with their well-defined cell-type-specific functions. KLF5 was also enriched in both ESCC- and HepG2-specific peaks, consistent with its important role in both squamous and GI cancers 53 – 55 . In contrast, we did not identify such cell-type-specific TF motifs in the ubiquitous peak set. Fig. 6 SREBF1, TP63, and KLF5 cooperatively regulate SCC cell transcriptome. a  Heatmaps of ChIP-Seq signals at SREBF1 peak regions (±3 Kb of peak center), grouped as ubiquitous, shared or cell-type-specific peak sets, and rank ordered by intensity of SREBF1 peaks based on reads per million mapped reads (RPM). Lines, peaks; color scale of peak intensity is shown at the bottom.  b  Representative top shared or cell-type-specific TF motifs (denoted by *) in each peak sets. Note that KLF5 motif was found in both ESCC and HepG2 promoter regions (denoted by **).  P -values were adjusted for multiple comparisons.  c  IGV tracks of H3K27Ac and SREBF1 ChIP-Seq profiles at the loci of representative genes from each peak set.  d  Heatmaps of ChIP-Seq signals at ESCC-specific SREBF1 peaks grouped as either trio-, dual-, or solo-occupied by SREBF1/TP63/KLF5 (±5 Kb of peak center), rank ordered by intensity of SREBF1 peaks.  e  Similar as  d , line plots showing the distribution of indicated ChIP-Seq signals at ESCC-specific SREBF1 peak regions from indicated groups.  f  GSEA plots of the changes of the corresponding transcripts assigned to the 274 ESCC-specific peaks from RNA-Seq upon silencing of either SREBF1, TP63, or KLF5 in TE5 cells. NES normalized enrichment score.  P- values were adjusted for multiple comparisons.
+Focusing on the 473 ESCC-specific SREBF1-binding peaks, because TP63 and KLF5 motifs were strongly enriched, we next analyzed ChIP-Seq data of SREBF1, TP63, and KLF5 generated in the same TE5 cell line. Indeed, validating motif enrichment results, trio-occupancy of SREBF1/TP63/KLF5 was observed in 57.8% (274/473) peaks, dual-occupancy of either SREBF1/TP63 or SREBF1/KLF5 occurred in 14.0% (66/473) or 14.8% (70/473) peaks, and a minor fraction of peaks (63/473, 13.4%) were solo-occupied by SREBF1 alone (Fig.  6d, e ). The majority of these peaks were flanked by strong H3K27Ac signals, indicative of transcription-promoting activity. Meta-gene analysis showed that the binding peaks of these three TFs strongly aligned (Fig.  6e ). To understand the transcriptional impact of the co-binding of SREBF1/TP63/KLF5 in these ESCC-specific peaks, RNA-Seq data upon knockdown of each TF in TE5 cells were interrogated. Importantly, GSEA showed that the corresponding transcripts of these 274 trio-occupied ESCC-specific peaks were significantly enriched in the downregulated genes following silencing of either of the three TFs (Fig.  6f ). Collectively, these findings demonstrate the prominent co-binding pattern of SREBF1/TP63/KLF5 in hundreds of ESCC-specific peaks, which translates to co-operative regulation of gene expression by the three TFs.
+SREBF1, TP63, and KLF5 cooperate to activate transcriptionally ErbB/mTOR signaling pathways specifically in ESCC cells
+To explore the biological functions of both ubiquitous and cell-type-specific SREBF1-binding peaks, KEGG pathway analysis was performed. In genes associated with the ubiquitous peak set ( n  = 120), seven signaling pathways were significantly enriched. As expected, four pathways belonged to lipid metabolism process, including fatty-acid metabolism, steroid biosynthesis, fatty-acid biosynthesis and biosynthesis of unsaturated fatty acids (Fig.  7a ). These data confirm the common function of SREBF1 in regulating lipid and fatty-acid synthesis, regardless of cell types. In stark contrast, of the 13 signaling pathways significantly enriched in genes associated with ESCC-specific trio-occupied peaks, none were related to lipid metabolism. Instead, the majority of these 13 pathways were notably cancer-related, including ErbB signaling pathway, mTOR signaling pathway, glioma, HIF-1 signaling pathway, non-small cell lung cancer, breast cancer, choline metabolism in cancer as well as EGFR tyrosine kinase inhibitor resistance (Fig.  7b ). Because ErbB and mTOR signaling pathways were highly ranked, these two oncogenic cascades were selected for further investigation. Consistent with the trio-occupancy of SREBF1/TP63/KLF5 on these ESCC-specific peaks (Fig.  6d ), all 13 genes enriched in these two pathways were trio-occupied by SREBF1/TP63/KLF5 (Fig.  7c ). A trio-binding peak at the promoter of  WNT9A  gene is shown as an example, which is expectedly absent in both HepG2 and MCF7 cells (Fig.  7d ). Importantly, knockdown of SREBF1, TP63, and KLF5 co-decreased five components of mTOR signaling pathway across different ESCC cell lines (Fig.  7c , Supplementary Fig.  9 ). Similarly, in ErbB signaling pathway, silencing of SREBF1, TP63, and KLF5 led to the reduction of seven genes (Fig.  7c , Supplementary Fig.  9 ). Furthermore, the levels of phospho-mTOR, phospho-p70S6K, and phospho-MEK1/2 markedly decreased after knockdown of SREBF1 in SCC cell lines, validating the regulation of ErbB/mTOR signaling pathways by SREBF1 (Fig.  7e ). Taken together, these results highlight that SREBF1/TP63/KLF5 cooperate to activate transcriptionally ErbB/mTOR signaling pathways in SCC cells (Fig.  7f ). Fig. 7 SREBF1, TP63, and KLF5 cooperate to transcriptionally activate ErbB/mTOR signaling pathways in ESCC cells. a  Significantly enriched KEGG pathways of the corresponding transcripts assigned to the ubiquitous peaks or  b  the 274 ESCC-specific peaks trio-occupied by SREBF1, TP63, and KLF5. The number of genes enriched/the total number of genes in each pathway are shown in the brackets.  c  Left panel showing genes enriched in ErbB/mTOR pathways, which were occupied by SREBF1/TP63/KLF5 based on ChIP-Seq data. Black, occupied. Right panel: the fold changes (knockdown v.s. scramble control) of mRNA levels of indicated genes upon the silencing of either SREBF1, TP63, or KLF5 in three cell lines. In each group, 30 nM siRNA was transfected; after 48 h, total RNA was extracted for the measurement the mRNA expression by qRT-PCR.  d  IGV tracks of ChIP-Seq profiles of indicated factors at WNT9A gene locus in different cell lines.  e  Western blotting analyses following siRNA knockdown of SREBF1 in ESCC cells. Quantification of the blots is shown below.  f  A model diagram of the regulations and functions of SREBF1 in SCC cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~5" text="TP63" location="result" />
+<GENE id="G1" spans="54~60" text="SREBF1" location="result" />
+<GENE id="G2" spans="81~85" text="TP63" location="result" />
+<GENE id="G3" spans="270~274" text="TP63" location="result" />
+<GENE id="G4" spans="628~632" text="TP63" location="result" />
+<GENE id="G5" spans="651~655" text="TP63" location="result" />
+<GENE id="G6" spans="754~758" text="TP63" location="result" />
+<GENE id="G7" spans="768~772" text="TP63" location="result" />
+<GENE id="G8" spans="878~882" text="TP63" location="result" />
+<GENE id="G9" spans="1198~1202" text="TP63" location="result" />
+<GENE id="G10" spans="1474~1478" text="TP63" location="result" />
+<GENE id="G11" spans="1597~1601" text="TP63" location="result" />
+<GENE id="G12" spans="1679~1683" text="TP63" location="result" />
+<GENE id="G13" spans="1732~1738" text="SREBF1" location="result" />
+<GENE id="G14" spans="1830~1834" text="TP63" location="result" />
+<GENE id="G15" spans="1974~1978" text="TP63" location="result" />
+<GENE id="G16" spans="2219~2223" text="TP63" location="result" />
+<GENE id="G17" spans="2477~2481" text="TP63" location="result" />
+<GENE id="G18" spans="2658~2662" text="TP63" location="result" />
+<GENE id="G19" spans="2708~2714" text="SREBF1" location="result" />
+<GENE id="G20" spans="2942~2948" text="SREBF1" location="result" />
+<GENE id="G21" spans="2932~2936" text="TP63" location="result" />
+<GENE id="G22" spans="3192~3196" text="TP63" location="result" />
+<GENE id="G23" spans="3301~3305" text="TP63" location="result" />
+<GENE id="G26" spans="3697~3701" text="TP63" location="result" />
+<GENE id="G27" spans="4058~4062" text="TP63" location="result" />
+<GENE id="G28" spans="4444~4448" text="TP63" location="result" />
+<GENE id="G29" spans="4546~4550" text="TP63" location="result" />
+<GENE id="G30" spans="4876~4880" text="TP63" location="result" />
+<GENE id="G31" spans="5273~5277" text="TP63" location="result" />
+<GENE id="G32" spans="5363~5367" text="TP63" location="result" />
+<GENE id="G33" spans="5483~5487" text="TP63" location="result" />
+<GENE id="G34" spans="5635~5639" text="TP63" location="result" />
+<GENE id="G35" spans="5720~5724" text="E2F1" location="result" />
+<GENE id="G36" spans="5729~5733" text="E2F4" location="result" />
+<GENE id="G37" spans="5752~5756" text="SOX5" location="result" />
+<GENE id="G38" spans="5841~5845" text="SOX2" location="result" />
+<GENE id="G39" spans="5860~5864" text="TP63" location="result" />
+<GENE id="G40" spans="5904~5910" text="SREBF1" location="result" />
+<GENE id="G41" spans="5962~5968" text="SREBF1" location="result" />
+<GENE id="G42" spans="6061~6065" text="TP63" location="result" />
+<GENE id="G43" spans="6073~6079" text="SREBF1" location="result" />
+<GENE id="G44" spans="6172~6178" text="SREBF1" location="result" />
+<GENE id="G45" spans="6219~6223" text="TP63" location="result" />
+<GENE id="G46" spans="6304~6308" text="TP63" location="result" />
+<GENE id="G47" spans="6323~6329" text="SREBF1" location="result" />
+<GENE id="G48" spans="6405~6411" text="SREBF1" location="result" />
+<GENE id="G49" spans="6470~6474" text="TP63" location="result" />
+<GENE id="G50" spans="6526~6532" text="SREBF1" location="result" />
+<GENE id="G51" spans="6579~6583" text="TP63" location="result" />
+<GENE id="G52" spans="6627~6633" text="SREBF1" location="result" />
+<GENE id="G53" spans="6670~6674" text="TP63" location="result" />
+<GENE id="G54" spans="6727~6731" text="TP63" location="result" />
+<GENE id="G55" spans="6848~6854" text="SREBF1" location="result" />
+<GENE id="G56" spans="6962~6968" text="SREBF1" location="result" />
+<GENE id="G57" spans="7017~7021" text="TP63" location="result" />
+<GENE id="G58" spans="7230~7236" text="SREBF1" location="result" />
+<GENE id="G59" spans="7238~7244" text="SREBF2" location="result" />
+<GENE id="G60" spans="7246~7250" text="LXRA" location="result" />
+<GENE id="G61" spans="7252~7256" text="LXRB" location="result" />
+<GENE id="G62" spans="7258~7263" text="PPARA" location="result" />
+<GENE id="G63" spans="7265~7270" text="PPARG" location="result" />
+<GENE id="G64" spans="7272~7276" text="PGC1" location="result" />
+<GENE id="G65" spans="7282~7287" text="HNF4A" location="result" />
+<GENE id="G66" spans="7370~7376" text="SREBF1" location="result" />
+<GENE id="G67" spans="7407~7411" text="TP63" location="result" />
+<GENE id="G68" spans="7468~7474" text="SREBF1" location="result" />
+<GENE id="G69" spans="7625~7631" text="SREBF1" location="result" />
+<GENE id="G70" spans="7633~7637" text="TP63" location="result" />
+<GENE id="G71" spans="7643~7647" text="KLF5" location="result" />
+<GENE id="G72" spans="7741~7745" text="TP63" location="result" />
+<GENE id="G73" spans="7749~7755" text="SREBF1" location="result" />
+<GENE id="G74" spans="7773~7776" text="SCC" location="result" />
+<GENE id="G75" spans="7885~7891" text="SREBF1" location="result" />
+<GENE id="G76" spans="8139~8145" text="SREBF1" location="result" />
+<GENE id="G77" spans="8188~8194" text="SREBF1" location="result" />
+<GENE id="G78" spans="8363~8369" text="SREBF1" location="result" />
+<GENE id="G79" spans="8481~8487" text="SREBF1" location="result" />
+<GENE id="G80" spans="8598~8604" text="SREBF1" location="result" />
+<GENE id="G81" spans="8837~8841" text="TP63" location="result" />
+<GENE id="G82" spans="8929~8935" text="SREBF1" location="result" />
+<GENE id="G83" spans="9030~9034" text="TP63" location="result" />
+<GENE id="G84" spans="9088~9092" text="TP63" location="result" />
+<GENE id="G85" spans="9115~9119" text="SOX2" location="result" />
+<GENE id="G86" spans="9124~9128" text="KLF5" location="result" />
+<GENE id="G87" spans="9212~9216" text="TP63" location="result" />
+<GENE id="G88" spans="9243~9247" text="SOX2" location="result" />
+<GENE id="G89" spans="9251~9255" text="KLF5" location="result" />
+<GENE id="G90" spans="9288~9294" text="SREBF1" location="result" />
+<GENE id="G91" spans="9296~9300" text="KLF5" location="result" />
+<GENE id="G92" spans="9311~9315" text="SOX2" location="result" />
+<GENE id="G93" spans="9364~9370" text="SREBF1" location="result" />
+<GENE id="G94" spans="9445~9449" text="SOX2" location="result" />
+<GENE id="G95" spans="9528~9532" text="KLF5" location="result" />
+<GENE id="G96" spans="9542~9546" text="SOX2" location="result" />
+<GENE id="G97" spans="9572~9578" text="SREBF1" location="result" />
+<GENE id="G98" spans="9755~9759" text="KLF5" location="result" />
+<GENE id="G99" spans="9764~9768" text="TP63" location="result" />
+<GENE id="G100" spans="9869~9873" text="TP63" location="result" />
+<GENE id="G101" spans="9878~9882" text="KLF5" location="result" />
+<GENE id="G102" spans="9895~9901" text="SREBF1" location="result" />
+<GENE id="G103" spans="9931~9937" text="SREBF1" location="result" />
+<GENE id="G104" spans="10135~10141" text="SREBF1" location="result" />
+<GENE id="G105" spans="10286~10292" text="SREBF1" location="result" />
+<GENE id="G106" spans="10718~10722" text="KLF5" location="result" />
+<GENE id="G107" spans="10730~10734" text="TP63" location="result" />
+<GENE id="G108" spans="10896~10902" text="SREBF1" location="result" />
+<GENE id="G109" spans="10957~10963" text="SREBF1" location="result" />
+<GENE id="G110" spans="11012~11016" text="TP63" location="result" />
+<GENE id="G111" spans="11017~11021" text="KLF5" location="result" />
+<GENE id="G112" spans="11152~11156" text="TP63" location="result" />
+<GENE id="G113" spans="11162~11166" text="KLF5" location="result" />
+<GENE id="G114" spans="11217~11223" text="SREBF1" location="result" />
+<GENE id="G115" spans="11417~11423" text="SREBF1" location="result" />
+<GENE id="G116" spans="11521~11525" text="TP63" location="result" />
+<GENE id="G117" spans="11529~11533" text="KLF5" location="result" />
+<GENE id="G118" spans="11665~11669" text="TP63" location="result" />
+<GENE id="G119" spans="11765~11769" text="TP63" location="result" />
+<GENE id="G120" spans="11821~11825" text="TP63" location="result" />
+<GENE id="G121" spans="12067~12073" text="SREBF1" location="result" />
+<GENE id="G122" spans="12658~12664" text="SREBF1" location="result" />
+<GENE id="G123" spans="12776~12782" text="SREBF1" location="result" />
+<GENE id="G124" spans="12793~12797" text="TP63" location="result" />
+<GENE id="G125" spans="12802~12806" text="KLF5" location="result" />
+<GENE id="G126" spans="12904~12908" text="TP63" location="result" />
+<GENE id="G127" spans="12916~12920" text="KLF5" location="result" />
+<GENE id="G128" spans="13153~13159" text="SREBF1" location="result" />
+<GENE id="G129" spans="13282~13288" text="SREBF1" location="result" />
+<GENE id="G130" spans="13290~13294" text="TP63" location="result" />
+<GENE id="G131" spans="13300~13304" text="KLF5" location="result" />
+<GENE id="G132" spans="13548~13554" text="SREBF1" location="result" />
+<GENE id="G133" spans="13757~13761" text="TP63" location="result" />
+<GENE id="G134" spans="13765~13769" text="KLF5" location="result" />
+<GENE id="G135" spans="13842~13846" text="TP63" location="result" />
+<GENE id="G136" spans="13880~13884" text="KLF5" location="result" />
+<GENE id="G137" spans="13902~13908" text="SREBF1" location="result" />
+<GENE id="G138" spans="13937~13941" text="TP63" location="result" />
+<GENE id="G139" spans="14169~14175" text="SREBF1" location="result" />
+<GENE id="G140" spans="14524~14530" text="SREBF1" location="result" />
+<GENE id="G141" spans="14532~14536" text="TP63" location="result" />
+<GENE id="G142" spans="14542~14546" text="KLF5" location="result" />
+<GENE id="G143" spans="14689~14693" text="TP63" location="result" />
+<GENE id="G144" spans="14698~14702" text="KLF5" location="result" />
+<GENE id="G145" spans="14737~14743" text="SREBF1" location="result" />
+<GENE id="G146" spans="14794~14800" text="SREBF1" location="result" />
+<GENE id="G147" spans="14840~14844" text="TP63" location="result" />
+<GENE id="G148" spans="14849~14853" text="KLF5" location="result" />
+<GENE id="G149" spans="14915~14921" text="SREBF1" location="result" />
+<GENE id="G150" spans="14962~14966" text="TP63" location="result" />
+<GENE id="G151" spans="14971~14975" text="KLF5" location="result" />
+<GENE id="G152" spans="15075~15081" text="SREBF1" location="result" />
+<GENE id="G153" spans="15117~15121" text="TP63" location="result" />
+<GENE id="G154" spans="15126~15130" text="KLF5" location="result" />
+<GENE id="G155" spans="15146~15152" text="SREBF1" location="result" />
+<GENE id="G156" spans="15223~15229" text="SREBF1" location="result" />
+<GENE id="G157" spans="15373~15379" text="SREBF1" location="result" />
+<GENE id="G158" spans="15458~15464" text="SREBF1" location="result" />
+<GENE id="G159" spans="15517~15523" text="SREBF1" location="result" />
+<GENE id="G160" spans="15585~15591" text="SREBF1" location="result" />
+<GENE id="G161" spans="15647~15651" text="TP63" location="result" />
+<GENE id="G162" spans="15677~15683" text="SREBF1" location="result" />
+<GENE id="G163" spans="15806~15812" text="SREBF1" location="result" />
+<GENE id="G164" spans="15847~15851" text="TP63" location="result" />
+<GENE id="G165" spans="15882~15886" text="KLF5" location="result" />
+<GENE id="G166" spans="15917~15923" text="SREBF1" location="result" />
+<GENE id="G167" spans="15938~15942" text="KLF5" location="result" />
+<GENE id="G168" spans="16040~16044" text="TP63" location="result" />
+<GENE id="G169" spans="16076~16080" text="KLF5" location="result" />
+<GENE id="G170" spans="16208~16214" text="SREBF1" location="result" />
+<GENE id="G171" spans="16285~16291" text="SREBF1" location="result" />
+<GENE id="G172" spans="16361~16367" text="SREBF1" location="result" />
+<GENE id="G173" spans="16546~16552" text="SREBF1" location="result" />
+<GENE id="G174" spans="16806~16812" text="SREBF1" location="result" />
+<GENE id="G175" spans="16814~16818" text="TP63" location="result" />
+<GENE id="G176" spans="16824~16828" text="KLF5" location="result" />
+<GENE id="G177" spans="16925~16931" text="SREBF1" location="result" />
+<GENE id="G178" spans="17092~17098" text="SREBF1" location="result" />
+<GENE id="G179" spans="17146~17152" text="SREBF1" location="result" />
+<GENE id="G180" spans="17153~17157" text="TP63" location="result" />
+<GENE id="G181" spans="17158~17162" text="KLF5" location="result" />
+<GENE id="G182" spans="17223~17229" text="SREBF1" location="result" />
+<GENE id="G183" spans="17287~17293" text="SREBF1" location="result" />
+<GENE id="G184" spans="17374~17378" text="ACLY" location="result" />
+<GENE id="G185" spans="17380~17384" text="FASN" location="result" />
+<GENE id="G186" spans="17386~17391" text="ACSS2" location="result" />
+<GENE id="G187" spans="17396~17399" text="SCD" location="result" />
+<GENE id="G188" spans="17646~17652" text="SREBF1" location="result" />
+<GENE id="G189" spans="17721~17727" text="SREBF2" location="result" />
+<GENE id="G190" spans="17860~17866" text="SREBF1" location="result" />
+<GENE id="G191" spans="17494~17500" text="SREBF1" location="result" />
+<GENE id="G192" spans="18124~18130" text="SREBF1" location="result" />
+<GENE id="G193" spans="18581~18587" text="SREBF1" location="result" />
+<GENE id="G194" spans="19295~19301" text="SREBF1" location="result" />
+<GENE id="G195" spans="19425~19431" text="SREBF1" location="result" />
+<GENE id="G196" spans="19560~19566" text="SREBF1" location="result" />
+<GENE id="G197" spans="19683~19689" text="SPTLC1" location="result" />
+<GENE id="G198" spans="19691~19697" text="SPTLC2" location="result" />
+<GENE id="G199" spans="19699~19704" text="ELOV4" location="result" />
+<GENE id="G200" spans="19706~19711" text="ELOV6" location="result" />
+<GENE id="G201" spans="19713~19718" text="ELOV7" location="result" />
+<GENE id="G202" spans="19724~19729" text="CERS6" location="result" />
+<GENE id="G203" spans="19765~19771" text="SREBF1" location="result" />
+<GENE id="G204" spans="19785~19791" text="LIPIN1" location="result" />
+<GENE id="G205" spans="19855~19861" text="SREBF1" location="result" />
+<GENE id="G206" spans="19909~19915" text="SREBF1" location="result" />
+<GENE id="G207" spans="20012~20018" text="SREBF1" location="result" />
+<GENE id="G208" spans="20156~20162" text="SREBF1" location="result" />
+<GENE id="G209" spans="20317~20323" text="SREBF1" location="result" />
+<GENE id="G210" spans="20604~20610" text="SREBF1" location="result" />
+<GENE id="G211" spans="21207~21213" text="SREBF1" location="result" />
+<GENE id="G212" spans="21797~21803" text="SREBF1" location="result" />
+<GENE id="G213" spans="21913~21919" text="SREBF1" location="result" />
+<GENE id="G214" spans="22037~22043" text="SREBF1" location="result" />
+<GENE id="G215" spans="22156~22162" text="SREBF1" location="result" />
+<GENE id="G216" spans="22343~22349" text="SREBF1" location="result" />
+<GENE id="G217" spans="22467~22473" text="SREBF1" location="result" />
+<GENE id="G218" spans="22720~22726" text="SREBF1" location="result" />
+<GENE id="G219" spans="22727~22731" text="TP63" location="result" />
+<GENE id="G220" spans="22732~22736" text="KLF5" location="result" />
+<GENE id="G221" spans="22769~22773" text="TP63" location="result" />
+<GENE id="G222" spans="22778~22782" text="KLF5" location="result" />
+<GENE id="G223" spans="22884~22888" text="TP63" location="result" />
+<GENE id="G224" spans="22893~22897" text="KLF5" location="result" />
+<GENE id="G225" spans="22935~22941" text="SREBF1" location="result" />
+<GENE id="G226" spans="22959~22962" text="SCC" location="result" />
+<GENE id="G227" spans="23056~23062" text="SREBF1" location="result" />
+<GENE id="G228" spans="23064~23068" text="TP63" location="result" />
+<GENE id="G229" spans="23074~23078" text="KLF5" location="result" />
+<GENE id="G230" spans="23484~23490" text="SREBF1" location="result" />
+<GENE id="G231" spans="23492~23496" text="TP63" location="result" />
+<GENE id="G232" spans="23502~23506" text="KLF5" location="result" />
+<GENE id="G233" spans="23682~23688" text="SREBF1" location="result" />
+<GENE id="G234" spans="23818~23824" text="SREBF1" location="result" />
+<GENE id="G235" spans="24120~24126" text="SREBF1" location="result" />
+<GENE id="G236" spans="24280~24286" text="SREBF1" location="result" />
+<GENE id="G237" spans="24382~24388" text="SREBF1" location="result" />
+<GENE id="G238" spans="24646~24652" text="SREBF1" location="result" />
+<GENE id="G239" spans="24750~24756" text="SREBF1" location="result" />
+<GENE id="G240" spans="24887~24893" text="SREBF1" location="result" />
+<GENE id="G241" spans="25003~25009" text="SREBF1" location="result" />
+<GENE id="G242" spans="25174~25180" text="SREBF1" location="result" />
+<GENE id="G243" spans="25341~25347" text="SREBF1" location="result" />
+<GENE id="G244" spans="25416~25420" text="KI67" location="result" />
+<GENE id="G245" spans="25521~25527" text="SREBF1" location="result" />
+<GENE id="G246" spans="25528~25532" text="TP63" location="result" />
+<GENE id="G247" spans="25533~25537" text="KLF5" location="result" />
+<GENE id="G248" spans="25574~25580" text="SREBF1" location="result" />
+<GENE id="G249" spans="25613~25617" text="ACLY" location="result" />
+<GENE id="G250" spans="25619~25623" text="FASN" location="result" />
+<GENE id="G251" spans="25629~25632" text="SCD" location="result" />
+<GENE id="G252" spans="25737~25743" text="SREBF1" location="result" />
+<GENE id="G253" spans="25778~25784" text="SREBF1" location="result" />
+<GENE id="G254" spans="25786~25790" text="TP63" location="result" />
+<GENE id="G255" spans="25796~25800" text="KLF5" location="result" />
+<GENE id="G256" spans="25869~25875" text="SREBF1" location="result" />
+<GENE id="G257" spans="25958~25962" text="TP63" location="result" />
+<GENE id="G258" spans="25963~25967" text="KLF5" location="result" />
+<GENE id="G259" spans="26017~26023" text="SREBF1" location="result" />
+<GENE id="G260" spans="26164~26170" text="SREBF1" location="result" />
+<GENE id="G261" spans="26310~26316" text="SREBF1" location="result" />
+<GENE id="G262" spans="26531~26537" text="SREBF1" location="result" />
+<GENE id="G263" spans="27386~27392" text="SREBF1" location="result" />
+<GENE id="G264" spans="27548~27552" text="TP63" location="result" />
+<GENE id="G265" spans="27557~27562" text="HNF4A" location="result" />
+<GENE id="G266" spans="27736~27740" text="KLF5" location="result" />
+<GENE id="G267" spans="27978~27984" text="SREBF1" location="result" />
+<GENE id="G268" spans="27986~27990" text="TP63" location="result" />
+<GENE id="G269" spans="27996~28000" text="KLF5" location="result" />
+<GENE id="G270" spans="28083~28089" text="SREBF1" location="result" />
+<GENE id="G271" spans="28223~28229" text="SREBF1" location="result" />
+<GENE id="G272" spans="28457~28461" text="KLF5" location="result" />
+<GENE id="G273" spans="28616~28622" text="SREBF1" location="result" />
+<GENE id="G274" spans="28747~28753" text="SREBF1" location="result" />
+<GENE id="G275" spans="28812~28818" text="SREBF1" location="result" />
+<GENE id="G276" spans="28819~28823" text="TP63" location="result" />
+<GENE id="G277" spans="28824~28828" text="KLF5" location="result" />
+<GENE id="G278" spans="28882~28888" text="SREBF1" location="result" />
+<GENE id="G279" spans="28999~29005" text="SREBF1" location="result" />
+<GENE id="G280" spans="29183~29189" text="SREBF1" location="result" />
+<GENE id="G281" spans="29191~29195" text="TP63" location="result" />
+<GENE id="G282" spans="29200~29204" text="KLF5" location="result" />
+<GENE id="G283" spans="29337~29343" text="SREBF1" location="result" />
+<GENE id="G284" spans="29367~29371" text="TP63" location="result" />
+<GENE id="G285" spans="29376~29380" text="KLF5" location="result" />
+<GENE id="G286" spans="29446~29452" text="SREBF1" location="result" />
+<GENE id="G287" spans="29454~29458" text="TP63" location="result" />
+<GENE id="G288" spans="29464~29468" text="KLF5" location="result" />
+<GENE id="G289" spans="29569~29575" text="SREBF1" location="result" />
+<GENE id="G290" spans="29576~29580" text="TP63" location="result" />
+<GENE id="G291" spans="29581~29585" text="KLF5" location="result" />
+<GENE id="G292" spans="29650~29656" text="SREBF1" location="result" />
+<GENE id="G293" spans="29657~29661" text="TP63" location="result" />
+<GENE id="G294" spans="29665~29671" text="SREBF1" location="result" />
+<GENE id="G295" spans="29672~29676" text="KLF5" location="result" />
+<GENE id="G296" spans="29797~29803" text="SREBF1" location="result" />
+<GENE id="G297" spans="30102~30108" text="SREBF1" location="result" />
+<GENE id="G298" spans="30109~30113" text="TP63" location="result" />
+<GENE id="G299" spans="30114~30118" text="KLF5" location="result" />
+<GENE id="G300" spans="30519~30525" text="SREBF1" location="result" />
+<GENE id="G301" spans="30526~30530" text="TP63" location="result" />
+<GENE id="G302" spans="30531~30535" text="KLF5" location="result" />
+<GENE id="G303" spans="30653~30659" text="SREBF1" location="result" />
+<GENE id="G304" spans="30661~30665" text="TP63" location="result" />
+<GENE id="G305" spans="30671~30675" text="KLF5" location="result" />
+<GENE id="G306" spans="30850~30856" text="SREBF1" location="result" />
+<GENE id="G307" spans="31268~31274" text="SREBF1" location="result" />
+<GENE id="G308" spans="31763~31767" text="EGFR" location="result" />
+<GENE id="G309" spans="31987~31993" text="SREBF1" location="result" />
+<GENE id="G310" spans="31994~31998" text="TP63" location="result" />
+<GENE id="G311" spans="31999~32003" text="KLF5" location="result" />
+<GENE id="G312" spans="32112~32118" text="SREBF1" location="result" />
+<GENE id="G313" spans="32119~32123" text="TP63" location="result" />
+<GENE id="G314" spans="32124~32128" text="KLF5" location="result" />
+<GENE id="G315" spans="32182~32187" text="WNT9A" location="result" />
+<GENE id="G316" spans="32313~32319" text="SREBF1" location="result" />
+<GENE id="G317" spans="32321~32325" text="TP63" location="result" />
+<GENE id="G318" spans="32331~32335" text="KLF5" location="result" />
+<GENE id="G319" spans="32368~32372" text="mTOR" location="result" />
+<GENE id="G320" spans="32512~32518" text="SREBF1" location="result" />
+<GENE id="G321" spans="32520~32524" text="TP63" location="result" />
+<GENE id="G322" spans="32530~32534" text="KLF5" location="result" />
+<GENE id="G323" spans="32643~32647" text="mTOR" location="result" />
+<GENE id="G324" spans="32677~32681" text="MEK1" location="result" />
+<GENE id="G325" spans="32722~32728" text="SREBF1" location="result" />
+<GENE id="G326" spans="32809~32815" text="SREBF1" location="result" />
+<GENE id="G327" spans="32874~32880" text="SREBF1" location="result" />
+<GENE id="G328" spans="32881~32885" text="TP63" location="result" />
+<GENE id="G329" spans="32886~32890" text="KLF5" location="result" />
+<GENE id="G330" spans="32993~32999" text="SREBF1" location="result" />
+<GENE id="G331" spans="33001~33005" text="TP63" location="result" />
+<GENE id="G332" spans="33011~33015" text="KLF5" location="result" />
+<GENE id="G333" spans="33258~33264" text="SREBF1" location="result" />
+<GENE id="G334" spans="33266~33270" text="TP63" location="result" />
+<GENE id="G335" spans="33276~33280" text="KLF5" location="result" />
+<GENE id="G336" spans="33464~33470" text="SREBF1" location="result" />
+<GENE id="G337" spans="33471~33475" text="TP63" location="result" />
+<GENE id="G338" spans="33476~33480" text="KLF5" location="result" />
+<GENE id="G339" spans="33649~33655" text="SREBF1" location="result" />
+<GENE id="G340" spans="33657~33661" text="TP63" location="result" />
+<GENE id="G341" spans="33666~33670" text="KLF5" location="result" />
+<GENE id="G342" spans="33884~33889" text="WNT9A" location="result" />
+<GENE id="G343" spans="33985~33991" text="SREBF1" location="result" />
+<GENE id="G344" spans="34107~34113" text="SREBF1" location="result" />
+<DISEASE id="D0" spans="158~161" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="248~251" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="412~415" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="591~594" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="947~950" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1256~1259" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1550~1553" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1667~1670" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1742~1745" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1857~1860" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1984~1987" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2254~2260" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D12" spans="3973~3979" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="4085~4088" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="4190~4193" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="4317~4323" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="4390~4393" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4991~4994" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="5098~5104" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D20" spans="7594~7597" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="9077~9080" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="17012~17015" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="17166~17169" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="17453~17456" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="17964~17967" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="20138~20141" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="20216~20219" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="21850~21853" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="21923~21926" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="25756~25759" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="25888~25891" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="26027~26030" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="26209~26212" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="26243~26255" text="liver cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="26278~26291" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="27858~27864" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D38" spans="28024~28027" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="31573~31579" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D40" spans="31647~31653" text="glioma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="31680~31706" text="non-small cell lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="31708~31721" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="31745~31751" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D44" spans="32732~32735" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D45" spans="32963~32966" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D46" spans="34117~34120" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D47" spans="4579~4582" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1210~1230" text="biological functions" location="result" relation="pathological role" />
+<RELATION id="R1" spans="25760~25776" text="promoting factor" location="result" relation="modulator increase disease" />
+<RELATION id="R2" spans="25892~25908" text="promoting factor" location="result" relation="modulator increase disease" />
+<RELATION id="R4" spans="27829~27833" text="role" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G9" geneText="TP63" diseaseID="D5" diseaseText="SCC" relationID="R0" relationText="biological functions" />
+<ENTITY_LINKING id="E1" geneID="G252" geneText="SREBF1" diseaseID="D31" diseaseText="SCC" relationID="R1" relationText="promoting factor" />
+<ENTITY_LINKING id="E2" geneID="G256" geneText="SREBF1" diseaseID="D32" diseaseText="SCC" relationID="R2" relationText="promoting factor" />
+<ENTITY_LINKING id="E3" geneID="G266" geneText="KLF5" diseaseID="D37" diseaseText="cancer" relationID="R4" relationText="role" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Animals and experimental OM model
+Sprague-Dawley rats (age, 7–8 weeks old; gender, male; weight, 200–250 g) were purchased from Damul Science (Daejeon, Korea). All rats were provided with adequate food and water. Animal experiments were conducted in strict accordance with the recommendations of the Guide for the Care and Use of Laboratory Animals of Chonnam National University and the protocol approved by the Committee on the Ethics of Animal Experiments of Chonnam National University (CNUHIACUC-20027). All rats were alive during the research period, and normal tympanic membranes were observed prior to LPS injection. In this study, ketamine (100 mg/kg) and xylazine (10 mg/kg) were intraperitoneally injected for the anesthesia. Anesthesia were performed before LPS injection or LED irradiation. Animals were also anesthetized before decapitation for euthanasia. The OM animal model was established by injecting LPS (2.0 mg/ml; L9143, Sigma, St. Louis, MO, United States) from Pseudomonas aeruginosa 10 into the ME of the rats through the tympanic membrane. Intra-tympanic injection was used to deliver LPS since it was the least invasive method compared to other surgical approaches opening the bulla. Rats with PBS injection served as the control. After LPS exposure for 24 h, rats with OM were randomly divided into two groups (Red/NIR LED irradiated group versus none-irradiated group).
+Light source and irradiation
+In this study, the continuous-wave dual red and NIR LED irradiation system (HK HEALTHCARE CO., LTD., Korea) with wavelengths of 655 nm and 842 nm consisted of a control module and a battery and was connected to an LED light source with a power cable ( Supplementary Figure S1 ). The LED light source unit was composed of an LED light source and an optical fiber. The power intensity of the LED light was 102 W/m 2 . To examine the therapeutic effect of the red/NIR LED on LPS-induced AOM, rats were irradiated with the red/NIR LED through the ear canal for 30 min for 3 days after LPS injection. Optical fiber (diameter = 3 mm) was tightly placed in the external auditory canal cartilaginous portion. The direction of the optical fiber was monitored to always face the tympanic membrane during the irradiation. Since the optical fiber itself might cause otitis externa, the same optical fiber was place into the external auditory canal (under same anesthesia) without turning on the LED light for the control LPS group. The red/NIR LED system for cell experiments consisted of a power connector and a power supply unit, and the upper LED light source was composed of six LEDs. HMEECs and RAW 264.7 cells were irradiated with red and NIR wavelengths of 653 nm and 842 nm, respectively, and an intensity of 49.4 mW/m 2  for 3 h after LPS stimulation.
+Cell lines
+HMEECs (ScienCell, Carlsbad, CA, United States) and murine macrophage RAW 264.7 cells (Korean Cell Line Bank, Seoul, Korea) were grown with EPiCM-2 and RPMI 1640, respectively. HMEECs and RAW 264.7 cells were treated with LPS at a concentration of 10 μg/mL or 1 μg/mL immediately after serum starvation.
+Histopathological analyses
+After the rats were euthanized, tympanic bullae were harvested and fixed in 4% paraformaldehyde for 24 h at 4°C, rinsed with PBS, and decalcified in Calci-Clear Rapid (National Diagnostics, Atlanta, GA, United States) for 5 days. The softened bullae were dehydrated and embedded in paraffin. The paraffin-embedded bullae were sectioned into 7 µm longitudinal sections for staining. The sectioned bullae were deparaffinized, rehydrated, and stained with hematoxylin and eosin (H&E) to visualize the ME mucosa.
+Immunohistochemistry
+Immunohistochemical detection of myeloperoxidase (MPO), 7 µm-thick sections were deparaffinized and rehydrated. Citrate buffer solution was used for antigen retrieval, followed by incubation at room temperature for 10 min using 0.3% hydrogen peroxide and the removal of the endogenous peroxidase. The sections were incubated with a primary antibody at 4°C overnight and horseradish peroxidase was then applied for 1 h. Signals were developed in 3,3′-diaminobenzidine (DAB) tetrahydrochloride solution containing 0.1% H 2 O 2  and observed under the microscope. The number of positive MPO neutrophils in each group was calculated by randomly selecting six fields of view at magnification ×40.
+Real-time polymerase chain reaction (qPCR)
+Total RNA was extracted from the ME mucosa of rats or cells using the TRIzol reagent (Invitrogen, Carlsbad, CA, United States) following the manufacturer’s instructions. Extracted RNA was used to synthesize complementary DNA with a reverse transcription kit (Takara, Kyoto, Japan). qPCR was performed with SYBR Green (Takara) and monitored using Thermal Cycler Dice ®  Real Time System III (Takara). Primers were designed to target endogenous genes, and glyceraldehyde 3-phosphate dehydrogenase ( GAPDH  and  Gapdh ) or β-actin ( ACTB  and  Actb ) was used as the endogenous control. The crossing point of target genes with  GAPDH  and  Gapdh  was calculated using formula 2—(target gene −  GAPDH  and  Gapdh or ACTB  and  Actb ), and the relative amounts were quantified. The qPCR primers are listed in  Supplementary Table S1 .
+Antibodies and western blotting
+IL-1β, IL-6, TNF-α, MPO antibodies were purchased from Santa Cruz Biotechnology (Dallas, TX, United States) or Cell Signaling Technology (Danvers, MA, United States). Total ERK, pERK, JNK, pJNK, p38, pp38 (Cell Signaling Technology), and actin (Sigma) were used with the appropriate secondary antibodies from MBL (Shirley, NY, United States). For western blotting, proteins were separated by 12% PAGE and then electrophoretically transferred onto PVDF membranes. The membranes were incubated with primary antibodies, which were diluted according to the manufacturer’s instructions at 4°C overnight. Horseradish peroxidase-conjugated anti-mouse or anti-rabbit IgGs were added as secondary antibodies. The blots were reprobed with anti-actin antibody as the loading control. Finally, immunoreactive proteins were visualized using an enhanced chemiluminescence (ECL) protocol. The protein levels of IL-1β, IL-6, and TNF-α were measured by densitometry, and the relative protein levels were compared with that of actin and depicted as bar graphs (mean ± SEM,  n  = 9).
+ELISA
+The concentrations of the cytokines IL-1β, IL-6, and TNF-α in the tympanic bullae of rats were determined by ELISA using human ELISA kits from R&D Systems (Minneapolis, MN, United States), mouse ELISA kits from Elabscience (Houston, TX, United States), and rat ELISA kits from MyBioSource (San Diego, CA, United States). The results are expressed as picograms per milliliter in accordance with the manufacturer’s instructions. The results for the samples following triplicate experiments are depicted as bar graphs (mean ± SEM, n = 3).
+Cell viability assay
+The cell viability of HMEECs and RAW 264.7 cells was analyzed using the EZ-Cytox cell viability assay kit from DoGenBio (Seoul, Korea). In brief, the cells were plated and cultured in 96-well plates (5 × 10 3  cells/well). Next, 10 µL of EZ-Cytox reagent was added to each well and incubated at 37°C for 2 h, and cell viability was examined. The absorbance was measured using an ELISA microplate reader with a wavelength of 450 nm.
+Statistical analysis
+We determined the statistical significance of differences by non-parametric analysis, Mann-Whitney U and Kruskal Wallis tests. When the data met normal distribution (among sample size n = 9), one-way ANOVA with post-hoc Tukey HSD or Student’s t-test was performed. Assessment of normality of data was done using Kolmogorov-Smirnov and Shapiro-Wilk test  P  values less than 0.05 were regarded as statistically significant. Statistical analysis was performed using SPSS 27(Chicago, IL, United States).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="4839~4879" text="glyceraldehyde 3-phosphate dehydrogenase" location="result" />
+<GENE id="G1" spans="4882~4887" text="GAPDH" location="result" />
+<GENE id="G2" spans="4894~4899" text="Gapdh" location="result" />
+<GENE id="G3" spans="4905~4912" text="β-actin" location="result" />
+<GENE id="G4" spans="4915~4919" text="ACTB" location="result" />
+<GENE id="G5" spans="4926~4930" text="Actb" location="result" />
+<GENE id="G6" spans="5010~5015" text="GAPDH" location="result" />
+<GENE id="G7" spans="5022~5027" text="Gapdh" location="result" />
+<GENE id="G8" spans="5076~5081" text="GAPDH" location="result" />
+<GENE id="G9" spans="5088~5093" text="Gapdh" location="result" />
+<GENE id="G10" spans="5097~5101" text="ACTB" location="result" />
+<GENE id="G11" spans="5108~5112" text="Actb" location="result" />
+<GENE id="G12" spans="5247~5252" text="IL-1β" location="result" />
+<GENE id="G13" spans="5254~5258" text="IL-6" location="result" />
+<GENE id="G14" spans="5260~5265" text="TNF-α" location="result" />
+<GENE id="G15" spans="5420~5423" text="ERK" location="result" />
+<GENE id="G16" spans="5426~5429" text="ERK" location="result" />
+<GENE id="G17" spans="5431~5434" text="JNK" location="result" />
+<GENE id="G18" spans="5437~5440" text="JNK" location="result" />
+<GENE id="G19" spans="5442~5445" text="p38" location="result" />
+<GENE id="G20" spans="5448~5451" text="p38" location="result" />
+<GENE id="G21" spans="6143~6148" text="IL-1β" location="result" />
+<GENE id="G22" spans="6150~6154" text="IL-6" location="result" />
+<GENE id="G23" spans="6160~6165" text="TNF-α" location="result" />
+<GENE id="G24" spans="6354~6359" text="IL-1β" location="result" />
+<GENE id="G25" spans="6361~6365" text="IL-6" location="result" />
+<GENE id="G26" spans="6371~6376" text="TNF-α" location="result" />
+<DISEASE id="D0" spans="876~878" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1298~1300" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Data Source and Study Design
+The SEER program of the National Cancer Institute collects information on cancer incidence, patient survival, and patient characteristics from several geographically defined regions in the USA. Data were selected from the SEER 18 registry database from January 1, 2000, to December 31, 2014. The registries included San Francisco-Oakland SMSA, Connecticut, Detroit (Metropolitan), Hawaii, Iowa, New Mexico, Seattle (Puget Sound), Utah, Atlanta (Puget Sound), San Jose-Monterey, Los Angeles, Rural Georgia, California excluding SF/SJM/LA, Kentucky, Louisiana, New Jersey, and Greater Georgia. The International Classification of Diseases for Oncology, 3rd edition (ICD-O-3) histopathology codes were used to analyze the cases of malignancy.
+From this database, we collected data for women with breast cancer only and breast cancer survivors with multiple cancers who were diagnosed between 2000 and 2014. Second primary cancers that were diagnosed within 6 months of breast cancer diagnosis were excluded as these were likely to be pre-existing or synchronous cancers [ 8 ]. Cases derived only from death certificates or autopsy were also excluded. Follow-up continued until the date of diagnosis of any second cancer, death from any cause, the date of last known vital status, or the end of the study (December 31, 2014). In the Cox proportional hazards regression model analysis of risk factors for second female genital cancers after breast cancer, none of the follow-up data were excluded.
+There were 615,581 women with breast cancer only and 50,681 breast cancer survivors with multiple cancers in this database. A total of 4740 patients developed a second female genital cancer after a primary breast cancer diagnosis, including 3033 women with second corpus uteri cancer, 295 women with cervical cancer, and 1412 with ovarian cancer. Additionally, analyses were conducted based on the characteristics of the first breast cancer, which included the year of breast cancer diagnosis (2000–2004, 2005–2009, and 2010–2014), age at breast cancer diagnosis (age under 40, 40–49, 50–59, 60–69, and 70+ years), latency period (6–11, 12–59, 60–119, and 120+ months), race (white, black, American Indian/Alaskan Native, Asian, or Pacific islander), subtype (ER+PR+, ER+PR−, ER−PR+, ER−PR−), and menopausal status (premenopausal, perimenopausal, and postmenopausal) [ 9 ].
+Statistical Analysis
+
+           Estimation of Standardized Incidence Ratio 
+           P  values were at 0.05 significance alpha levels and were two-sided based on Poisson exact methods. To avoid statistically unstable estimates, the SIRs and CIs of the 0–20 age group were not presented where the number of observed cases was zero [ 10 ]. To compare the relative risk with the general population, we used the SEER*Stat Multiple primary-standardized incidence ratios (MP-SIR) tool (version 8.3.4) to calculate the SIRs by dividing the observed numbers of second primary cancers by the expected numbers of second primary cancers based on the rates of the general population, along with the 95% confidence interval (95% CI). CIs and  
+        
+
+           Risk Factors Analysis 
+           p  value < 0.05. All tests were two-sided. The characteristics of the women with breast cancer only and those with second primary female genital cancer were compared with chi-square tests. We used crude semi-parametric Cox proportional hazards regressions to evaluate the hazards ratios (HRs) and corresponding 95% CIs and to show the risk factors for the development of a second primary female genital cancer after breast cancer. The latency period was started at the first breast cancer diagnosis and censored at the second cancer diagnosis. All statistical analyses and charts were generated using SPSS 19.0 (IBM Corporation, Armonk, NY, USA) and GraphPad Prism 6.07. Significance levels were set at  
+        
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="104~110" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="823~836" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="846~859" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="884~890" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="949~955" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="996~1009" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1089~1095" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1240~1246" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="1452~1458" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="1466~1479" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1553~1566" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1583~1596" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1621~1627" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="1706~1712" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D14" spans="1729~1742" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1787~1806" text="corpus uteri cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="1823~1838" text="cervical cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="1854~1868" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="1950~1963" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="1992~2005" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="2062~2075" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="2968~2974" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D22" spans="3018~3024" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D23" spans="3267~3280" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3331~3337" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D25" spans="3589~3595" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D26" spans="3602~3615" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="3661~3674" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="3712~3718" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D29" spans="63~69" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

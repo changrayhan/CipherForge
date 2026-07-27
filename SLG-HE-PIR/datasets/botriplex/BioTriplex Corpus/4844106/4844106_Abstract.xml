@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Oxidative Stress Triggers Body-Wide Skipping of Multiple Exons of the Spinal Muscular Atrophy Gene.
+Abstract: Humans carry two nearly identical copies of  Survival Motor Neuron  gene:  SMN1  and  SMN2 . Loss of  SMN1  leads to spinal muscular atrophy (SMA), the most frequent genetic cause of infant mortality. While  SMN2  cannot compensate for the loss of  SMN1  due to predominant skipping of exon 7, correction of  SMN2  exon 7 splicing holds the promise of a cure for SMA. Previously, we used cell-based models coupled with a multi-exon-skipping detection assay (MESDA) to demonstrate the vulnerability of  SMN2  exons to aberrant splicing under the conditions of oxidative stress (OS). Here we employ a transgenic mouse model and MESDA to examine the OS-induced splicing regulation of  SMN2  exons. We induced OS using paraquat that is known to trigger production of reactive oxygen species and cause mitochondrial dysfunction. We show an overwhelming co-skipping of  SMN2  exon 5 and exon 7 under OS in all tissues except testis. We also show that OS increases skipping of  SMN2  exon 3 in all tissues except testis. We uncover several new  SMN2  splice isoforms expressed at elevated levels under the conditions of OS. We analyze cis-elements and transacting factors to demonstrate the diversity of mechanisms for splicing misregulation under OS. Our results of proteome analysis reveal downregulation of hnRNP H as one of the potential consequences of OS in brain. Our findings suggest  SMN2  as a sensor of OS with implications to SMA and other diseases impacted by low levels of SMN protein.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="193~197" text="SMN1" location="background" />
+<GENE id="G1" spans="204~208" text="SMN2" location="background" />
+<GENE id="G2" spans="220~224" text="SMN1" location="background" />
+<GENE id="G3" spans="260~263" text="SMA" location="background" />
+<GENE id="G4" spans="326~330" text="SMN2" location="background" />
+<GENE id="G5" spans="367~371" text="SMN1" location="background" />
+<GENE id="G6" spans="427~431" text="SMN2" location="background" />
+<GENE id="G7" spans="620~624" text="SMN2" location="background" />
+<GENE id="G8" spans="800~804" text="SMN2" location="result" />
+<GENE id="G9" spans="982~986" text="SMN2" location="result" />
+<GENE id="G10" spans="1089~1093" text="SMN2" location="result" />
+<GENE id="G11" spans="1156~1160" text="SMN2" location="result" />
+<GENE id="G12" spans="1504~1508" text="SMN2" location="" />
+<DISEASE id="D0" spans="78~101" text="Spinal Muscular Atrophy" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="235~258" text="spinal muscular atrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="481~484" text="SMA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1549~1552" text="SMA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="226~234" text="leads to" location="background" relation="pathological role" />
+<RELATION id="R1" spans="211~215" text="Loss" location="background" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="SMN1" diseaseID="D1" diseaseText="spinal muscular atrophy" relationID="R0" relationText="leads to" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="SMN1" diseaseID="D1" diseaseText="spinal muscular atrophy" relationID="R1" relationText="Loss" />
+</TAGS>
+</Genomics_ConceptTask>

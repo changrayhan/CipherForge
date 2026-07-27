@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+We report a novel  PHD2  nonsense germline variant in a patient affected by metastatic Pheo and CML in the absence of polycythemia. Our findings confirm the need to screen patients affected by chromaffin disease using a comprehensive NGS panel, with no limitation regarding phenotype. In particular, we suggest extending  PHD2  gene analysis to younger non-polycythemic patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="20~24" text="PHD2" location="result" />
+<GENE id="G1" spans="323~327" text="PHD2" location="result" />
+<DISEASE id="D0" spans="88~92" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="97~100" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="119~131" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="26~51" text="nonsense germline variant" location="result" relation="associated mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="PHD2" diseaseID="D0" diseaseText="Pheo" relationID="R0" relationText="nonsense germline variant" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="PHD2" diseaseID="D1" diseaseText="CML" relationID="R0" relationText="nonsense germline variant" />
+</TAGS>
+</Genomics_ConceptTask>

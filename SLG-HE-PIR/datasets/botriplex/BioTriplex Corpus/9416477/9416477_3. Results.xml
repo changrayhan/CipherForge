@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Mutational Analysis
+Analysis of SNP-CGH array reveals the absence of pathogenic CNVs and LOH in the entire genome. In particular, we focused on chromosome 1 to identify or exclude rearrangement or LOH near  EGLN1  that, in combination with the nonsense variant in  EGLN1 , could have some effect on our patient’s phenotype.
+NGS identified a heterozygous c.153G>A (p.W51*) variant in exon 1 of the  PHD2  gene (NM_022051.3) which has been defined as pathogenic according to the American College of Medical Genetics (ACMG) guidelines. This variant is not reported in GnomAD, ExAC, or dbSNP NFE (European non-Finnish) databases.  PHD2  variant entails a G to A transition of the TGG coding triplet in a stop codon, which encodes for a truncated PHD2 protein ( Figure 4 ).
+Its pathogenicity is presumed because it leads to a premature stop codon and the bioinformatic tool ( http://autopvs1.genetics.bgi.com/ , accessed on 13 August 2022) predicted mRNA decay with a strong probability [ 44 ].
+WES comparative sequence analysis of the tumor and blood DNA confirmed the variant identified by the panel genes, but no other significant variants were detected in the other coding regions.
+Computational analysis highlights the possible involvement of a peptide in two different mechanisms: reduction in propensity of PHD2 to generate dimers and straight interaction with nuclear receptor corepressor 2 (NCoR2). Firstly, four possible amino acid regions have been detected that, interacting with truncated a peptide, could interfere with the formation of a disulfide bond ( Figure 5 A–D). These Aa regions are located among the DSBH domain (aa 299–390 light blue) which possesses the three cysteine residues (Cys302, Cys323, and Cys326 red) required for oxidative dimerization, through the formation of the disulfide bond and/or induction of a conformational change after oxidation.
+Secondly, a potential interaction of a truncated peptide with a specific Aa sequence “TISNPPPLISSAK” of NCoR2 protein in positions 1101–1013 was identified. This NCoR2 sequence extends to the third region of the RII domain (residues 752–1016) and interacts with HDAC3, a Class I member of the histone deacetylase superfamily ( Figure 5 F).
+Genetic analysis was extended to the patient’s parents with their consent. Genomic DNA was screened for the  PHD2  variant using PCR and Sanger sequencing. The patient had inherited the  PHD2  variant from her father.
+3.2. PHD2 and HIF Expression in the Primary Tumor
+Compared with non-PHD2-mutated Pheo and PGL,  PHD2 -mutated tissue showed a significant reduction in gene expression levels of  ENGL1  mRNA of 43% and 47%, respectively ( Figure 5 E).
+Neoplastic cells were negative for PHD2 expression. Strong PHD2 staining of endothelial cells was evident in the lining of large blood vessels as well as in the capillaries. PHD2 expression was restrained to the cytoplasm ( Figure 6 ). In comparison, the tumor expressed higher levels of HIF2α than a healthy adrenal, as shown by Western blot analysis ( Figure 7 ).
+The flow chart illustrating the filtering process and the variant selection used to identify the pathogenic variants is shown in  Figure 1 B.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="213~218" text="EGLN1" location="result" />
+<GENE id="G1" spans="271~276" text="EGLN1" location="result" />
+<GENE id="G2" spans="404~408" text="PHD2" location="result" />
+<GENE id="G3" spans="633~637" text="PHD2" location="result" />
+<GENE id="G4" spans="748~752" text="PHD2" location="result" />
+<GENE id="G5" spans="1315~1319" text="PHD2" location="result" />
+<GENE id="G6" spans="1401~1406" text="NCoR2" location="result" />
+<GENE id="G7" spans="1369~1399" text="nuclear receptor corepressor 2" location="result" />
+<GENE id="G8" spans="2042~2047" text="NCoR2" location="result" />
+<GENE id="G9" spans="2142~2147" text="HDAC3" location="result" />
+<GENE id="G10" spans="2329~2333" text="PHD2" location="result" />
+<GENE id="G11" spans="2407~2411" text="PHD2" location="result" />
+<GENE id="G12" spans="2443~2447" text="PHD2" location="result" />
+<GENE id="G13" spans="2506~2510" text="PHD2" location="result" />
+<GENE id="G14" spans="2534~2538" text="PHD2" location="result" />
+<GENE id="G15" spans="2616~2621" text="ENGL1" location="result" />
+<GENE id="G16" spans="2707~2711" text="PHD2" location="result" />
+<GENE id="G17" spans="2731~2735" text="PHD2" location="result" />
+<GENE id="G18" spans="2846~2850" text="PHD2" location="result" />
+<GENE id="G19" spans="2960~2965" text="HIF2α" location="result" />
+<DISEASE id="D0" spans="2519~2523" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="2528~2531" text="PGL" location="result" disease1="disease of cellular proliferation" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

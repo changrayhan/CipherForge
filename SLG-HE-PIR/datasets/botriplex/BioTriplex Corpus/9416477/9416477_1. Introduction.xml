@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Pheochromocytoma (Pheo) and paraganglioma (PGL) are rare tumors with an incidence of 2–5 patients per million per year and an uncertain malignant potential [ 1 ]. Pheos represent about 80–85% of cases and PGLs represent about 15–20% [ 2 ]. The recommended diagnostic workup for suspected Pheo/PGL (PPGL) includes plasma free metanephrines and fractionated urinary metanephrines. Subsequently, computed tomography (CT) scans or magnetic resonance imaging (MRI) are used to locate the lesion [ 3 ]. Nuclear medicine exams such as  123 I-meta-iodobenzyl-guanidine (MIBG) scintigraphy,  18 F-fluoro-L-dihydroxyphenylalanine ( 18 F-DOPA), and  68 Ga-DOTATATE PET are predominantly used in patients with metastatic disease [ 4 , 5 ].
+Surgery is the curative option in non-metastatic and metastatic PPGL, and in patients with metastatic disease, tumor resection has been reported to increase overall survival [ 6 ].
+Medical therapy with alpha-blockers is necessary before surgery [ 7 ]. In patients affected by metastatic disease, ‘wait and see’ is the first option given the generally slow evolution of the disease [ 8 ]. Radiometabolic therapies with  131 I-MIBG or peptide receptor radionuclide therapy (PPRT) have proved effective [ 9 , 10 ], while cyclophosphamide vincristine dacarbazine (CVD) is the chemotherapy most commonly administered [ 11 ]. Local therapy such as external radiation therapy, radiosurgery, radiofrequency, cryoablation, and ethanol injection should be considered for unresectable lesions [ 12 ]. Tyrosine kinase inhibitors, e.g., Sunitinib [ 13 ], Temozolomide [ 14 ], as well as immunotherapy such as Pembrolizumab [ 15 ], are novel medical options for metastatic PPGLs.
+Up to 70% of PPGLs are caused by germline or somatic pathogenic variants in one of the known susceptibility genes [ 16 , 17 ]. Based on their transcriptional profile, PPGLs are classified into three clusters. Cluster 1 includes PPGLs with variants in genes encoding the hypoxia-inducible factor ( HIF ) 2α, the Von Hippel–Lindau tumor suppressor ( VHL ), the prolyl hydroxylase domain ( PHD ), fumarate hydratase ( FH ), and succinate dehydrogenase subunits ( SDHx ) [ 18 , 19 ]. These tumors are characterized by the activation of pseudohypoxic pathways and by an immature catecholamine-secreting phenotype [ 20 ]. Cluster 2 comprises PPGLs with pathogenic variants in the REarranged during Transfection ( RET ) proto-oncogene, the Neurofibromatosis type 1 ( NF1 ) tumor suppressor gene, the TransMEMbrane protein ( TMEM127 ) gene, the Harvey rat sarcoma viral oncogene homolog ( HRAS ) and the MYC Associated Factor X ( MAX ) gene. Cluster 2 PPGLs show activated MAPK and mTOR signaling pathways and are mostly benign exhibiting a mature catecholamine phenotype with a strong expression of phenylethanolamine N-methyltransferase (PNMT) [ 21 , 22 , 23 , 24 ]. Cluster 3 is the Wnt signaling cluster. These tumors are due to somatic mutations of the  CSDE1  gene or somatic gene fusions of the  MAML3  gene [ 2 ], but also patients with sporadic forms fall into this cluster. Cluster 3 tumors have a more aggressive behavior [ 19 ].
+Due to the large number of known susceptibility genes, next-generation sequencing (NGS) technology is ideally suited for carrying out PPGL genetic screening.
+The genetic screening proposed by Toledo et al. [ 25 ] includes the  PHD2  (also called  EGLN1)  gene (Egl-9 Family Hypoxia Inducible Factor 1). The encoded protein catalyzes the post-translational formation of 4-hydroxyproline in hypoxia-inducible factor (HIF) alpha proteins. HIF is a transcriptional complex, playing a central role in mammalian oxygen homeostasis, controlling energy, iron metabolism, erythropoiesis, development under hypoxic or pseudohypoxic conditions and mediating adaptive cell responses to these states. Under normoxic conditions, HIF is controlled by several enzymatic reactions, including prolyl hydroxylation by PHDs, leading to proteasome degradation. However, pseudohypoxia conditions can lead to HIF stabilization and transactivation of target genes [ 26 , 27 ].
+Dysregulation of HIF contributes to tumorigenesis and cancer progression [ 28 , 29 , 30 , 31 ]. HIF also has a crucial role in the pathogenesis of neuroendocrine tumors, especially PPGLs, regulating the cluster 1 pathway. Furthermore,  PHD2  heterozygous variants cause polycythemia, supporting the importance of PHD2 in the control of red cell mass in humans [ 32 , 33 ] that may be associated with PPGL [ 34 , 35 ].
+Here, we report a novel germline  PHD2  variant in a patient affected by metastatic Pheo and chronic myeloid leukemia (CML) in the absence of polycythemia.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2006~2040" text="Von Hippel–Lindau tumor suppressor" location="background" />
+<GENE id="G1" spans="2043~2046" text="VHL" location="background" />
+<GENE id="G2" spans="2089~2107" text="fumarate hydratase" location="background" />
+<GENE id="G3" spans="2110~2112" text="FH" location="background" />
+<GENE id="G4" spans="2369~2399" text="REarranged during Transfection" location="background" />
+<GENE id="G5" spans="2402~2405" text="RET" location="background" />
+<GENE id="G6" spans="2428~2452" text="Neurofibromatosis type 1" location="background" />
+<GENE id="G7" spans="2455~2458" text="NF1" location="background" />
+<GENE id="G8" spans="2512~2519" text="TMEM127" location="background" />
+<GENE id="G9" spans="2532~2573" text="Harvey rat sarcoma viral oncogene homolog" location="background" />
+<GENE id="G10" spans="2576~2580" text="HRAS" location="background" />
+<GENE id="G11" spans="2591~2614" text="MYC Associated Factor X" location="background" />
+<GENE id="G12" spans="2617~2620" text="MAX" location="background" />
+<GENE id="G13" spans="2946~2951" text="CSDE1" location="background" />
+<GENE id="G14" spans="2990~2995" text="MAML3" location="background" />
+<GENE id="G15" spans="3355~3359" text="PHD2" location="background" />
+<GENE id="G16" spans="3375~3380" text="EGLN1" location="background" />
+<GENE id="G17" spans="3389~3428" text="Egl-9 Family Hypoxia Inducible Factor 1" location="background" />
+<GENE id="G18" spans="4317~4321" text="PHD2" location="result" />
+<GENE id="G19" spans="4394~4398" text="PHD2" location="result" />
+<GENE id="G20" spans="4533~4537" text="PHD2" location="result" />
+<DISEASE id="D0" spans="1~17" text="Pheochromocytoma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="19~23" text="Pheo" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="29~42" text="paraganglioma" location="background" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D3" spans="44~47" text="PGL" location="background" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D4" spans="164~168" text="Pheo" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="206~209" text="PGL" location="background" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D6" spans="289~293" text="Pheo" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="294~297" text="PGL" location="background" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D8" spans="4135~4141" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="4351~4363" text="polycythemia" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="4583~4587" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="4592~4616" text="chronic myeloid leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="4618~4621" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="4641~4653" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="4323~4350" text="heterozygous variants cause" location="background" relation="causative mutation" />
+<RELATION id="R1" spans="4523~4531,4539~4546" text="germline ... variant" location="result" relation="associated mutation" />
+<ENTITY_LINKING id="E0" geneID="G18" geneText="PHD2" diseaseID="D9" diseaseText="polycythemia" relationID="R0" relationText="heterozygous variants cause" />
+<ENTITY_LINKING id="E1" geneID="G20" geneText="PHD2" diseaseID="D10" diseaseText="Pheo" relationID="R1" relationText="germline ... variant" />
+<ENTITY_LINKING id="E2" geneID="G20" geneText="PHD2" diseaseID="D11" diseaseText="chronic myeloid leukemia" relationID="R1" relationText="germline ... variant" />
+<ENTITY_LINKING id="E3" geneID="G20" geneText="PHD2" diseaseID="D12" diseaseText="CML" relationID="R1" relationText="germline ... variant" />
+</TAGS>
+</Genomics_ConceptTask>

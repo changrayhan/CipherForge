@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Association of Paraoxonase 1 Gene Polymorphisms with the Risk of Breast Fibroadenoma and Breast Cancer in the Females of Guangxi, China.
+Abstract: Fibroadenoma of the breast is a common cause of a benign breast lump in premenopausal women. The consensus view is that women with fibroadenomas are not at significantly increased risk of developing breast cancer. The objective of this research was to explore the association of PON1 rs662 and rs705382 with the risk of breast fibroadenoma (BF) and breast cancer (BC) in the females of Guangxi in southern China. The PON1 rs662 and rs705382 single-nucleotide polymorphisms (SNPs) were genotyped by polymerase chain reaction-restriction fragment length polymorphism (PCR-RFLP) in 55 BF patients, 80 BC patients, and 98 healthy controls. Significant associations with FB and BC risks were observed for the rs662 SNP. Diagnosis is based on the combination of clinical examination, imaging, and nonsurgical tissue biopsy (the triple test) [21]. In haplotype analyses, the haplotype GA increases the risk and haploid GG decreases the risk in BF and BC. Our research indicated that the PON1 rs662 SNP might be a risk factor for BF and BC. The results of this research indicated that the locus of rs662 in PON1 is relevant to risk of developing BF and BC in the females of Guangxi. Further prospective studies are needed to support our conclusions.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="23~36" text="Paraoxonase 1" location="result" />
+<GENE id="G1" spans="434~438" text="PON1" location="result" />
+<GENE id="G2" spans="572~576" text="PON1" location="result" />
+<GENE id="G3" spans="1135~1139" text="PON1" location="result" />
+<GENE id="G4" spans="1254~1258" text="PON1" location="result" />
+<DISEASE id="D0" spans="73~92" text="Breast Fibroadenoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="97~110" text="Breast Cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="155~181" text="Fibroadenoma of the breast" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="354~367" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="475~494" text="breast fibroadenoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="496~498" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="504~517" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="519~521" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="821~823" text="FB" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="828~830" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1092~1094" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1099~1101" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1177~1179" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1184~1186" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1293~1295" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1300~1302" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1161~1172" text="risk factor" location="result" relation="genetic susceptibility" />
+<RELATION id="R1" spans="1262~1292" text="relevant to risk of developing" location="result" relation="genetic susceptibility" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="PON1" diseaseID="D12" diseaseText="BF" relationID="R0" relationText="risk factor" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="PON1" diseaseID="D13" diseaseText="BC" relationID="R0" relationText="risk factor" />
+<ENTITY_LINKING id="E2" geneID="G4" geneText="PON1" diseaseID="D14" diseaseText="BF" relationID="R1" relationText="relevant to risk of developing" />
+<ENTITY_LINKING id="E3" geneID="G4" geneText="PON1" diseaseID="D15" diseaseText="BC" relationID="R1" relationText="relevant to risk of developing" />
+</TAGS>
+</Genomics_ConceptTask>

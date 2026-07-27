@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Immunohistochemical Analysis
+Formalin-fixed, paraffin embedded archival tumor tissue was identified in 9 PILCs and 14 ILCs. Slides were reviewed by a pathologist to ensure adequate sample and quality. Routine hematoxylin and eosin (H&E) stains were performed on 3 micron sections of tissue cut from the FFPE blocks.
+Immunohistochemistry (IHC) was performed for Ki67 by using Ventana Antibody #790-4286 (Rabbit primary monoclonal antibody), for PTEN by Cell Signaling Technologies #9188 (clone D4.3, XP Rabbit monoclonal antibody) and p-S6K1 by Cell Signaling Technologies, Serine 235/236 #2211. IHC was performed on a Discovery XT Automated Immunostainer (VMSI (Ventana Medical Systems), a Member of the Roche Group, Tucson, Arizona). The Ki67 expression is performed routinely at our institution on all newly diagnosed invasive breast carcinomas. It is classified as low (≤15% cells positive for expression of the antibody) or high (>15% of cells expressing Ki67). The low PTEN protein expression was defined as ≤10% of cells staining with 1+ intensity in the tumor cytoplasm or <5% of cells with 2+ intensity (i.e., cytoplasmiclongscore ≤ 10). The moderate PTEN protein expression was defined as ≥11–50% of cells staining with 1+ intensity or ≥5-25% of cells staining with 2+ intensity of their cytoplasm (i.e., cytoplasmic long score of 11-50). The high PTEN expression was defined as >50% of cells with 1+ intensity or >25% of cells with 2+ intensity. Similar quantification was applied to the p-S6K1 protein expression. IHC for PTEN and p-S6K1 was performed on 9 PILC and 9 ILC tumors.
+2.2. RNA Extraction
+Three 10  μ  continuous unstained sections of the FFPE tumors were mounted on positively charged slides for RNA isolation. These unstained tissue slides were then incubated in a series of three baths for 2 minutes each with gentle agitation for the first 15 seconds: d-limonene (histology grade), d-limonene, and 100% ethanol. The slides were allowed to dry completely before rehydrating in a 3% glycerol (MBG) solution. A sterile razor blade was used to scrape tissue from slides for collection into a 1.7 mL microcentrifuge tube.
+
+           2.2.1. RNA Isolation 
+           μ L were concentrated using the RNA Clean and Concentrator Columns (Zymo Research, Cat #11-325) according to manufacturer's specifications. RNA isolation was performed using the Roche HighPure FFPET RNA Isolation spin-column kit (Catalog #06650775001) according to manufacturer's specifications from the tumors identified on the sections. RNA was quantified using the NanoDrop 1000 (Thermo Scientific), and any with concentrations that were below 20 ng/ 
+        
+
+           2.2.2. NanoString nCounter System Processing 
+           100 ng of the purified RNA was hybridized with the PanCancer Code Set (Nanostring Technologies) at 65°C overnight. Further purification and binding of the hybridized probes to the optical cartridge was performed on the nCounter Prep Station, and finally, the cartridge was scanned on the nCounter Digital Analyzer. Raw counts from each gene were imported into the nSolver Analysis Software and normalized against background and housekeeping genes, and overall assay performance was assessed through evaluation of built-in positive controls. 
+        
+2.3. Gene Expression Analysis
+Log2 normalized data obtained from Nanostring nCounter analysis was analyzed for differentially expressed genes between PILC ( n  = 9) and ILC ( n  = 14). The bioinformatics analysis was carried out using R statistical tools. Limma module from Bioconductor and  t -statistic was used for analysis of variance to estimate differential levels of transcripts. Gene alterations with significant  p  value of ≤ 0.05 were chosen as changing between the two groups. This provided a list of 28 genes. The genes were clustered, and a heat map was generated using gplots package ( Figure 1 —heat map showing cluster of genes associated with PILC subtype that are differentially expressed than ILC). Further correlation analysis was done for genes showing greater expression in PILC to find more genes that show similar expression trend between PILC and ILC.
+The University of Arizona Human Subjects Institutional Review Board approved this retrospective translational study. Our pathology database was searched to identify PILCs and ILCs from 2012 to 2014. Clinicopathological characteristics were extracted from the surgical pathology reports and medical records. Two investigators reviewed the pathology reports independently and abstracted clinocopathological data. We identified 19 cases of PILC and 126 cases of ILC from 2012 to 2014 from pathology archives at our academic institution. Initially, 20 cases of grade 1, classic ILCs were selected; however, there were technical issues with IHC staining with the tumor sections not attaching to the slide for further analysis (likely due to higher fat content). In addition, majority of those slides had minimal tumor with significant amount of fat making IHC interpretation difficult. We relooked at our database and selected 20 ILCs, which had higher tumor size, grade, and cellularity for comparison to PILCs. This was done to better match the ILC and PILC samples. Our intent for this study was to identify and match approximately 20 PILCs and 20 ILCs. Our end result is data from 20 ILCs and 19 PILCs, which is presented here. Upon further attempts to obtain samples for the project (and to stain for PTEN and S6K1), we encountered the technical issues described above regarding tumor fat content. Thus, we utilized 9 PILC and 9 ILC tissue samples to analyze the PTEN and p-S6K1 expression.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="367~371" text="Ki67" location="result" />
+<GENE id="G1" spans="450~454" text="PTEN" location="result" />
+<GENE id="G2" spans="542~546" text="S6K1" location="result" />
+<GENE id="G3" spans="745~749" text="Ki67" location="result" />
+<GENE id="G4" spans="980~984" text="PTEN" location="result" />
+<GENE id="G5" spans="1165~1169" text="PTEN" location="result" />
+<GENE id="G6" spans="1363~1367" text="PTEN" location="result" />
+<GENE id="G7" spans="1539~1543" text="PTEN" location="result" />
+<GENE id="G8" spans="1550~1554" text="S6K1" location="result" />
+<GENE id="G9" spans="1585~1588" text="ILC" location="result" />
+<GENE id="G11" spans="5457~5461" text="PTEN" location="result" />
+<GENE id="G12" spans="5466~5470" text="S6K1" location="result" />
+<GENE id="G13" spans="5619~5623" text="PTEN" location="result" />
+<GENE id="G14" spans="5630~5634" text="S6K1" location="result" />
+<GENE id="G15" spans="1506~1510" text="S6K1" location="result" />
+<DISEASE id="D0" spans="124~127" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="835~851" text="breast carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="3447~3450" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="3991~3994" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="4151~4154" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="4331~4334" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="4615~4618" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="4730~4733" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="5081~5084" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="5198~5201" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="5302~5305" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="5339~5342" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="5585~5588" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

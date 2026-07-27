@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Progressive multifocal leucoencephalopathy (PML) is a rare demyelinating disorder caused by the opportunistic JC papovavirus. It is an occasional complication of chronic diseases affecting the reticulo-endothelial system such as lymphoma, Hodgkin disease, leukaemia, sarcoidosis, tuberculosis; patients undergoing immunosuppressive therapy in malignancy and post-organ transplantation, and in AIDS. HIV-associated cases account for up to 85% of all cases of PML 1  and there is a likelihood of further increase with the rising trend in AIDS. A case of PML associated with AIDS is described with clinical features of psychoticism with negative features leading to catatonia and eventually akinetic mutism without clinical evidence of an immunocompromised state.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1~43" text="Progressive multifocal leucoencephalopathy" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="45~48" text="PML" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="230~238" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="257~266" text="leukaemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="268~279" text="sarcoidosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="281~293" text="tuberculosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D7" spans="394~398" text="AIDS" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D9" spans="537~541" text="AIDS" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D10" spans="553~556" text="PML" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D11" spans="573~577" text="AIDS" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D12" spans="689~704" text="akinetic mutism" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="459~462" text="PML" location="background" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

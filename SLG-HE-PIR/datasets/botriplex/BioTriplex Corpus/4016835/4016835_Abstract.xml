@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Gender specific association of RAS gene polymorphism with essential hypertension: a case-control study.
+Abstract: Renin-angiotensin system (RAS) polymorphisms have been studied as candidate risk factors for hypertension with inconsistent results, possibly due to heterogeneity among various genetic and environmental factors. A case-control association study was conducted to investigate a possible involvement of polymorphisms of three RAS genes:  AGT  M235T (rs699),  ACE  I/D (rs4340) and G2350A (rs4343), and  AGTR1  A1166C (rs5186) in essential hypertensive patients. A total of 211 cases and 211 controls were recruited for this study. Genotyping was performed using PCR-RFLP method. The genotype and allele distribution of the M235T variant differed significantly in hypertensives and normotensives (OR-CI = 2.62 (1.24–5.76),  P  = 0.006; OR-CI = 0.699 (0.518–0.943),  P  = 0.018), respectively. When the samples were segregated based on sex, the 235TT genotype and T allele were predominant in the female patients (OR-CI = 5.68 (1.60-25.10),  P  = 0.002; OR-CI = 0.522 (0.330–0.826),  P  = 0.005) as compare to the male patients (OR-CI = 1.54 (1.24–5.76),  P  = 0.34; OR-CI = 0.874 (0.330–0.826),  P  = 0.506), respectively. For  ACE  DD variant, we found overrepresentation of “I”-allele (homozygous II and heterozygous ID) in unaffected males which suggest its protective role in studied population (OR-CI = 0.401 (0.224–0.718);  P  = 0.0009). The M235T variant of the  AGT  is significantly associated with female hypertensives and  ACE  DD variant could be a risk allele for essential hypertension in south India.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="457~460" text="AGT" location="result" />
+<GENE id="G1" spans="478~481" text="ACE" location="result" />
+<GENE id="G2" spans="522~527" text="AGTR1" location="result" />
+<GENE id="G3" spans="1246~1249" text="ACE" location="result" />
+<GENE id="G4" spans="1488~1491" text="AGT" location="result" />
+<GENE id="G5" spans="1552~1555" text="ACE" location="result" />
+<DISEASE id="D0" spans="66~88" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="215~227" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1595~1617" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1579~1590" text="risk allele" location="result" relation="genetic susceptibility" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="ACE" diseaseID="D2" diseaseText="essential hypertension" relationID="R0" relationText="risk allele" />
+</TAGS>
+</Genomics_ConceptTask>

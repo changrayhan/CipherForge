@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Lung adenocarcinoma is one of the most commonly encountered malignant tumors in the clinic, and is characterized by its high rate of metastasis and marked invasiveness. Accordingly, its 5-year survival rate is low, and thus, it has become one of the most important malignant tumors that threatens human life ( 1 ). Biomarkers can reliably estimate disease prognosis and patient survival, which is of great value to guide the clinical treatment of lung adenocarcinoma ( 2 ,  3 ). According to several large-sample clinical research studies, most early lung adenocarcinoma patients do not receive adjuvant systemic chemotherapy after surgery, because chemotherapy-related toxicity far outweighs the survival benefits to the patients ( 4 ). Therefore, it is necessary to recognize disease-associated risks in patients during early diagnosis and to administer additional adjuvant systemic chemotherapy for high-risk patients.
+In recent years, increasing studies have reported methods to predict and stratify survival and prognosis for lung adenocarcinoma patients based on gene expression. Unfortunately, such studies have not been translated to routine clinical practice, which can be ascribed to small sample sizes, excessive data fitting, or inadequate evidence ( 5 – 8 ). The currently open and available large-scale databases containing gene expression data, such as TCGA and ImmPort, have made it possible to potentially mine more reliable biomarkers for lung adenocarcinoma to predict and classify patient prognosis ( 9 ,  10 ). Each part of the immune system has been verified to participate in, accelerate, and even determine different stages of cancer initiation and progression ( 11 ). In addition, immune escape has also been confirmed to be a novel marker for cancer. Recently, surprising effects have been achieved for the treatment of lung adenocarcinoma patients based on the immunotherapeutic PD-1/PD-L1, which targets specific immune checkpoints ( 12 ,  13 ). PD-1/PD-L1 pathway inhibitors were approved for the treatment of metastatic NSCLC patients. Additionally, histopathologically observed immunological phenomena such as cytotoxic lymphocyte endosmosis in lung adenocarcinoma have been shown to markedly correlate with patient prognosis ( 14 ). However, the molecular events underlying tumor cell–immunocyte interactions in lung adenocarcinoma microenvironments need to be further explored and summarized, which will ultimately determine their potential to predict the prognosis of patients with lung adenocarcinoma.
+In this study, TCGA and ImmPort databases were analyzed and the clinical features of patients were considered to develop and verify a prognostic prediction model for lung adenocarcinoma based on immune-related genes. This could be ultimately used to assist clinicians in prognostic evaluations and therapeutic selection for advanced lung adenocarcinoma patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1907~1911" text="PD-1" location="background" />
+<GENE id="G1" spans="1912~1917" text="PD-L1" location="background" />
+<DISEASE id="D0" spans="1~20" text="Lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="448~467" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="552~571" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1032~1051" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1458~1477" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1652~1658" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="1770~1776" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1847~1866" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2051~2056" text="NSCLC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2177~2196" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2345~2364" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2517~2536" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2704~2723" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2871~2890" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1889~1906" text="immunotherapeutic" location="background" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="PD-1" diseaseID="D7" diseaseText="lung adenocarcinoma" relationID="R0" relationText="immunotherapeutic" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="PD-L1" diseaseID="D7" diseaseText="lung adenocarcinoma" relationID="R0" relationText="immunotherapeutic" />
+</TAGS>
+</Genomics_ConceptTask>

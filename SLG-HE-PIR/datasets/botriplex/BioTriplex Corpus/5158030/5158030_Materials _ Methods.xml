@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cell lines
+The Colo320DM, HCT116, CaCO2, DLD1, HT29, LoVo, RKO, SW48 and SW480 CRC cell lines were described previously [ 20 ], and the T84, WiDr and SW620 lines were purchased from the American Type Culture Collection (ATCC). Colo320DM and HCT116 cells were respectively maintained in DMEM or McCoy’s 5A medium supplemented with 10% feral bovine serum. For DNMT inhibition, cells were treated with 1 μM 5-aza-2’-deoxycytidine (5-aza-dC; Sigma-Aldrich, St Louis, MO, USA) for 72 h, replacing the drug and medium every 24 h. Genomic DNA was extracted using the standard phenol-chloroform method. Total RNA was extracted using TRI Reagent (COSMO BIO, Tokyo, Japan).
+Quantitative reverse-transcription PCR
+Single-stranded cDNA was prepared using SuperScript III reverse transcriptase (Thermo Fisher Scientific, Waltham, MA, USA), after which the integrity of the cDNA was confirmed by amplifying glyceraldehydes-3-phosphate dehydrogenase ( GAPDH ). Quantitative reverse-transcription PCR (RT-qPCR) was carried out using TaqMan Gene Expression Assays ( TET1 , Hs00286756_m1;  GAPDH , Hs02758991_g1; Thermo Fisher Scientific) and a 7500 Fast Real-Time PCR System (Thermo Fisher Scientific). SDS ver. 1.4 (Thermo Fisher Scientific) was used for comparative delta Ct analysis.
+Stable knockdown of  TET1  in CRC cells
+RNAi-induced  TET1  knockdown was accomplished using a BLOCK-iT Pol II miR RNAi Expression Vector kit (Thermo Fisher Scientific). Two sets of oligonucleotides targeting TET1 were purchased from Invitrogen and ligated into a pcDNA6.2-GW/EmGFP-miR vector (Thermo Fisher Scientific). Cells (3 × 10 5  cells in 6-well plates) were transfected with each TET1 knockdown vector (miTET1-1 or miTET1-2) or a pcDNA6.2-GW/EmGFP-miR-neg control plasmid (Thermo Fisher Scientific), after which cells were selected for 2 weeks with 1.0 mg/ml (Colo320DM) or 0.6 mg/ml (HCT116) G418. GFP-positive colonies were isolated, and knockdown efficiencies were analyzed using RT-qPCR.  TET1  knockdown clones and control clones were then cultured for an additional 2 to 3 weeks to obtain a sufficient number of cells for experimentation.
+Cell viability assay
+Cell proliferation was assessed by measuring the uptake of a water-soluble tetrazolium salt in WST-8 assays, as described previously [ 20 ]. Briefly, transfected cells were seeded onto 96-well plates to a density of 5 × 10 3  cells per well. After incubation for 24 h, 48 h or 72 h, WST-8 assays were carried out using a Cell Counting kit-8 (Dojindo, Tokyo, Japan) according to the manufacturer's instructions.
+Dot blot analysis
+Genomic DNA samples (500 ng) were spotted onto Hybond N+ nylon membranes (GE Healthcare, Tokyo, Japan). The blotted membrane was dampened with TE and then applied to a UV-crosslink procedure (1200 J/cm 2 , 30 sec) using Stratalinker 2400 (Agilent Technologies, Santa Clara, CA, USA). The membrane was then blocked with 100% BlockAce (DS Pharma Biomedical, Osaka, Japan) for 30 min at room temperature and incubated with a mouse anti-5-methylcytosine (5-mC) monoclonal antibody (1:1,000 dilution, Catalog No 39649, Active Motif, Carlsbad, CA, USA), with a rabbit anti-5-hydroxymethylcytosine (5-hmC) polyclonal antibody (1:10,000 dilution, Catalog No 39769, Active Motif), or with normal mouse IgG (1 μg/mL, Santa Cruz Biotechnology, Santa Cruz, CA, USA) overnight at 4°C. Thereafter, the membrane was incubated with HRP-conjugated anti-mouse IgG (1:10,000, The Jackson Laboratory, Bar Harbor, ME, USA) for 1 h at room temperature. The chemiluminescent signals were detected using ECL kits (GE Healthcare, Little Chalfont, UK) and an ImageQuant LAS4000 mini detection system (GE Healthcare).
+Bisulfite pyrosequencing and bisulfite sequencing analysis
+Genomic DNA (1 μg) was modified with sodium bisulfite using an EpiTect Bisulfite Kit (Qiagen, Hilden, Germany), after which bisulfite pyrosequencing and bisulfite sequencing were carried out as described [ 20 ]. For bisulfite pyrosequencing, the biotinylated PCR product was purified, made single-stranded and used as a template in a pyrosequencing reaction run according to the manufacturer’s instructions. The pyrosequencing reaction was carried out using a PSQ96 system with a PyroGold reagent Kit (Qiagen), and the results were analyzed using Q-CpG software (Qiagen). For bisulfite sequencing, amplified PCR products were cloned into pCR2.1-TOPO vector (Life Technologies), and 10 clones from each sample were sequenced using an ABI3130x automated sequencer (Life Technologies). Primer sequences and PCR product sizes are listed in  S1 Table .
+Infinium assay
+Genome-wide DNA methylation was analyzed using an Infinium HumanMethylation450 BeadChip (Illumina, San Diego, CA, USA) as described elsewhere. The data were then assembled using GenomeStudio methylation software (Illumina). Array data ware imported into Gene Spring GX ver. 13 (Agilent Technologies), after which statistical analysis and gene ontology (GO) analysis were carried out. Probes differentially methylated between control and knockdown cells were selected using t tests with Benjamini-Hochberg correction (P < 0.05). Results from selected genes were visualized using the University of California Santa Cruz (UCSC) genome browser. The Gene Expression Omnibus accession number for the Infinium assay data is GSE84400.
+Gene expression microarray
+Total RNA (100 ng) was amplified and labeled using a Low Input Quick Amp Labeling kit one-color (Agilent Technologies), after which the synthesized cRNA was hybridized to a SurePrint G3 Human GE 8 × 60K Ver 2.0 microarray (G4851B; Agilent technologies). Data analysis was carried out using GeneSpring GX ver. 13 (Agilent technologies). Probes differentially expressed between control and knockdown cells were selected by performing t tests with the Benjamini-Hochberg correction (P < 0.05). The Gene Expression Omnibus accession number for the microarray data is GSE84400.
+Statistical analysis
+To compare differences in continuous variables between groups, one-way ANOVA with post hoc tests was performed. Values of  P  < 0.05 (two-sided) were considered statistically significant. Statistical analyses were carried out using GraphPad Prism 5 (GraphPad software, La Jolla, CA, USA).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="894~935" text="glyceraldehydes-3-phosphate dehydrogenase" location="result" />
+<GENE id="G1" spans="938~943" text="GAPDH" location="result" />
+<GENE id="G2" spans="1050~1054" text="TET1" location="result" />
+<GENE id="G3" spans="1073~1078" text="GAPDH" location="result" />
+<GENE id="G4" spans="1292~1296" text="TET1" location="result" />
+<GENE id="G5" spans="1325~1329" text="TET1" location="result" />
+<GENE id="G6" spans="1480~1484" text="TET1" location="result" />
+<GENE id="G7" spans="1660~1664" text="TET1" location="result" />
+<GENE id="G8" spans="1685~1689" text="TET1" location="result" />
+<GENE id="G9" spans="1697~1701" text="TET1" location="result" />
+<GENE id="G10" spans="1973~1977" text="TET1" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

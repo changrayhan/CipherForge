@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Androgens govern the development of reproductive and non-reproductive pathways of the male body during the successive life periods, resulting in human sexual dimorphism. Testosterone and dihydrotestosterone are the most crucial androgens inducing male development. In the male embryo, they are responsible for the development of the Wolffian duct into the internal male sex organs and virilization of external genitalia, respectively. At the puberty period, androgens govern the growth of male internal and external genitalia as well as the growth of skeletal muscle, development of larynx, and general growth spurt. In the adult, androgens regulate spermatogenesis, muscle mass, bone metabolism as well as behavior; for a review, see [ 1 , 2 , 3 ]. Androgens act via the androgen receptor (AR) signaling pathway. Namely, they bind to the AR in the AR-Hsp90-p23 heterocomplex located within the cytoplasm of androgen-sensitive cells, cause AR activation and translocation into the nucleus, whereby AR functions as a transcription factor of specific genes; for a review, see [ 3 , 4 ]. The expression of these genes, in turn, stimulates cell growth, proliferation, cell cycle progression as well as secretion of specific proteins by AR-expressing cells, resulting in the development of a male phenotype; for review see [ 3 ]. The AR-mediated transcription is modulated by FKBP4 protein (also known as FKBP52), which interacts with AR [ 5 ] and its chaperon Hsp90 [ 6 ]. Thanks to the FKBP4–Hsp90 interaction, the AR receptor gains a high affinity for hormone binding and the AR-mediated transcription becomes upregulated [ 7 , 8 , 9 , 10 ].
+Loss-of-function mutations in the  AR  gene (located on the X chromosome) cause the dysregulation of the AR signaling pathway, resulting in androgen insensitivity syndrome (AIS) in 46,XY individuals. This syndrome is characterized by abnormalities of the internal and external genitalia virilization as well as secondary sex characteristics. This occurs despite the presence of hormonally active bilateral testes producing normal levels of testosterone and anti-Müllerian hormone (AMH), for a review, see [ 11 ]. The spectrum of AIS phenotypes is broad and classified in three major categories: complete (CAIS), partial (PAIS), and mild androgen insensitivity syndrome (MAIS). CAIS patients display female phenotypic characteristics, like female external genitalia, presence of distal vagina, female breast development, and the absence of prostate and Wolffian structures. However, they lack Müllerian duct derivatives, i.e., upper vagina, Fallopian tubes, and uterus. Those phenotypic females are characterized by primary amenorrhea. The PAIS category is more variable then CAIS. The phallic structure of PAIS patients’ ranges from a penis with varying degree of diminished size and hypospadias, up to a slightly enlarged clitoris. Wolffian structures are fully or partially developed, and the prostate is typically small or impalpable. Müllerian remnants are very rare. Finally, the MAIS category is reported in men representing adolescent gynecomastia and/or suffering from infertility; for a review, see [ 1 ]. Although a majority of AIS patients carry hemizygous mutations of the  AR  gene, in some AIS individuals no  AR  gene mutations have been found. Namely, around 10% of CAIS and 60–80% of PAIS patients do not carry such mutations; for a review, see [ 12 , 13 ]. Studies of such patients described mutations in some other genes important for sexual development, e.g., in the hypospadias-associated  MAMLD1  gene [ 14 ] or the  NR5A1  gene, encoding steroidogenic factor 1 [ 15 ]. Nevertheless, a majority of AIS patients lacking  AR  mutations are genetically unexplained. It was hypothesized that mutations in the AR co-regulator proteins could account for the AIS phenotype [ 16 ]. According to this hypothesis it was shown that a group of AIS patients with no  AR  gene mutation revealed reduced AR transactivation ability since the mRNA level of an AR target gene was significantly lowered. This data supports the existence of cellular components, besides the AR, affecting androgen signaling during sexual differentiation and suggests their involvement in the etiology of AIS when disrupted. That phenotypic AIS subgroup characterized by a lowered expression of AR target while lacking  AR  gene mutation is called AIS type II [ 13 ]. The hypothesis that the mutations of AR co-activators could be responsible for AIS, has not been confirmed, since no such mutations have been identified so far; for a review, see [ 17 ]. Therefore, the elucidation of the molecular background of idiopathic AIS is crucial for achieving a more complete understanding of the etiology of the disease and would be precious for AIS genetic counseling.
+Here, we report for the first time a potentially causative  FKBP4  gene mutation in a patient manifesting PAIS with hypospadias.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="773~790" text="androgen receptor" location="background" />
+<GENE id="G1" spans="792~794" text="AR" location="background" />
+<GENE id="G2" spans="840~842" text="AR" location="background" />
+<GENE id="G3" spans="941~943" text="AR" location="background" />
+<GENE id="G4" spans="850~852" text="AR" location="background" />
+<GENE id="G5" spans="999~1001" text="AR" location="background" />
+<GENE id="G6" spans="1233~1235" text="AR" location="background" />
+<GENE id="G7" spans="1330~1332" text="AR" location="background" />
+<GENE id="G8" spans="1372~1377" text="FKBP4" location="background" />
+<GENE id="G9" spans="1401~1407" text="FKBP52" location="background" />
+<GENE id="G10" spans="1431~1433" text="AR" location="background" />
+<GENE id="G11" spans="1457~1462" text="Hsp90" location="background" />
+<GENE id="G12" spans="1484~1489" text="FKBP4" location="background" />
+<GENE id="G13" spans="1490~1495" text="Hsp90" location="background" />
+<GENE id="G14" spans="1513~1515" text="AR" location="background" />
+<GENE id="G15" spans="1575~1577" text="AR" location="background" />
+<GENE id="G16" spans="3227~3229" text="AR" location="background" />
+<GENE id="G17" spans="3265~3267" text="AR" location="background" />
+<GENE id="G18" spans="3552~3558" text="MAMLD1" location="background" />
+<GENE id="G19" spans="3580~3585" text="NR5A1" location="background" />
+<GENE id="G20" spans="3768~3770" text="AR" location="background" />
+<GENE id="G21" spans="3683~3685" text="AR" location="background" />
+<GENE id="G22" spans="3917~3919" text="AR" location="background" />
+<GENE id="G23" spans="3952~3954" text="AR" location="background" />
+<GENE id="G24" spans="4006~4008" text="AR" location="background" />
+<GENE id="G25" spans="4117~4119" text="AR" location="background" />
+<GENE id="G26" spans="4320~4322" text="AR" location="background" />
+<GENE id="G27" spans="4345~4347" text="AR" location="background" />
+<GENE id="G28" spans="4430~4432" text="AR" location="background" />
+<GENE id="G29" spans="4849~4854" text="FKBP4" location="result" />
+<DISEASE id="D1" spans="1781~1812" text="androgen insensitivity syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1814~1817" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="2170~2173" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2246~2250" text="CAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2262~2266" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2273~2309" text="mild androgen insensitivity syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2311~2315" text="MAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="2236~2244,2278~2309" text="complete ... androgen insensitivity syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2253~2260,2278~2309" text="partial ... androgen insensitivity syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2318~2322" text="CAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2680~2684" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2716~2720" text="CAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2747~2751" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="3026~3030" text="MAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="3179~3182" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="3245~3248" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="3323~3327" text="CAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="3342~3346" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="3661~3664" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="3815~3818" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="3895~3898" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="4230~4233" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="4266~4269" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="4373~4376" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="4472~4475" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="4649~4652" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="4765~4768" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D28" spans="4895~4899" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="3198~3218" text="hemizygous mutations" location="background" relation="associated mutation" />
+<RELATION id="R1" spans="3261~3263,3269~3283" text="no ... gene mutations" location="background" relation="no relation" />
+<RELATION id="R2" spans="3913~3915,3921~3934" text="no ... gene mutation" location="background" relation="no relation" />
+<RELATION id="R3" spans="4838~4847,4856~4869" text="causative ... gene mutation" location="result" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G16" geneText="AR" diseaseID="D15" diseaseText="AIS" relationID="R0" relationText="hemizygous mutations" />
+<ENTITY_LINKING id="E1" geneID="G17" geneText="AR" diseaseID="D16" diseaseText="AIS" relationID="R1" relationText="no ... gene mutations" />
+<ENTITY_LINKING id="E2" geneID="G22" geneText="AR" diseaseID="D21" diseaseText="AIS" relationID="R2" relationText="no ... gene mutation" />
+<ENTITY_LINKING id="E3" geneID="G29" geneText="FKBP4" diseaseID="D28" diseaseText="PAIS" relationID="R3" relationText="causative ... gene mutation" />
+</TAGS>
+</Genomics_ConceptTask>

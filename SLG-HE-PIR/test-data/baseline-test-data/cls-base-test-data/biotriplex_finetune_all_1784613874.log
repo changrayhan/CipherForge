@@ -1,0 +1,48 @@
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: Logging to baseline/classification_genrel/logs/biotriplex_finetune_all_1784613874.log
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: Stage 0 complete in 0.0s
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 14:04:34,763 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:04:37,842 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 14:04:38,016 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 14:04:38,028 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 14:04:38,036 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 14:04:38,038 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 14:04:38,045 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 14:04:38,048 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 14:04:38,048 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 14:04:38,048 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 14:04:42,139 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 14:04:50,702 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 14:04:50,711 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 14:04:50,711 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 14:04:50,728 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 14:04:50,728 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 14:04:50,733 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+2026-07-21 14:04:50,733 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 14:05:12,332 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda
+2026-07-21 14:05:12,340 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+2026-07-21 14:05:12,340 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 14:05:31,101 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (gradient_checkpointing=True)
+2026-07-21 14:05:31,110 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 14:05:31,111 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=734, peak_lr=1.00e-04
+2026-07-21 14:05:31,111 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 14:05:31,112 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 14:05:31,112 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 14:05:33,963 [INFO] src.model.model_splitting: Loaded S V matrix: (128256, 4096) on cuda
+2026-07-21 14:05:33,976 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 14:05:33,976 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 14:05:33,976 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 43.2s (single CUDA context)
+2026-07-21 14:05:33,977 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 14:05:49,576 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 14:05:49,577 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 14:06:05,135 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 14:06:05,136 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 14:06:07,122 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 14:06:07,123 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 76.4s
+2026-07-21 14:06:07,123 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=1, batch=1, lr=0.0001, wd=0
+2026-07-21 14:06:07,123 [INFO] src.training.trainer: Starting training: epochs=1, patience=999, train=734, val=134

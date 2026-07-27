@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Can Smartwatch Prevent Sudden Cardiac Deaths? A Case Of Smartwatch Failure in Arrhythmogenic Right Ventricular Dysplasia.
+Abstract: Arrhythmogenic right ventricular dysplasia (ARVD) is caused by mutations in genes coding for components of desmosomes in the myocardium. Mutations in these genes make desmosomes dysfunctional and account for myocyte detachment, followed by inflammation and apoptosis when it encounters undue mechanical stress. This is why ARVD is a common cause of sudden cardiac death in athletes with undiagnosed ARVD, as increased physical activity exacerbates this progression of ARVD and associated arrhythmias. We describe a case of ARVD in a 36-year-old woman who presented with an unusual sensation in her chest due to non-sustaining ventricular tachycardia, which her smartwatch failed to pick up. Many smartwatches use photoplethysmography (PPG) to monitor heart rate (HR). A typical PPG device contains two light sources (green light and infrared) and a photodetector to measure the reflected light, proportional to the beat-to-beat variation in blood volume. HR is then calculated from these variations. In ambulatory settings, smartwatches underestimate HR in most tachyarrhythmias, mainly when the HR is more than 100 beats/min. Patients using smartwatches for ambulatory heart monitoring should know that the absence of an irregular pulse notification does not exclude possible arrhythmias. Management of ARVD is mainly focused on the prevention of syncope and cardiac arrest through antiarrhythmic medications and an implantable cardioverter defibrillator.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="140~182" text="Arrhythmogenic right ventricular dysplasia" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D1" spans="184~188" text="ARVD" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D2" spans="463~467" text="ARVD" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D3" spans="539~543" text="ARVD" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D4" spans="608~612" text="ARVD" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D5" spans="663~667" text="ARVD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D6" spans="1444~1448" text="ARVD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

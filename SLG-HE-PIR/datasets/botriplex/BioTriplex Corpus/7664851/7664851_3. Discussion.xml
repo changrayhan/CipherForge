@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The number of AIS patients with no  AR  gene mutation is significant, which makes their genetic diagnosis difficult. Here, we report a patient manifesting a PAIS phenotype, lacking any  AR  gene mutation and instead carrying a novel  FKBP4  gene variant. The gene seems to be a strong candidate for PAIS, since the knockout of its homologue in the mouse caused a phenotype consistent with PAIS, including hypospadias [ 24 ]. Moreover, the function of that gene is linked to an AR signaling pathway, i.e., the FKBP4 protein interacts with AR [ 5 ] and its chaperone Hsp90 [ 6 ], leading to enhanced androgen binding and the upregulation of AR-mediated transcription [ 7 , 8 , 9 , 10 ]. Previously, a search for a  FKBP4  gene mutation in a group of patients with hypospadias was described but no variant associated with that condition was found [ 25 ]. The  FKBP4  variant identified in our PAIS patient carries a missense p.Leu319Pro mutation. This mutation is considered causative for several reasons. Firstly, it is located within the TPR domain, which is crucial for FKBP4-Hsp90 interaction within the AR heterocomplex, as well as for FKBP4 interaction with S100A1 and S100A2 proteins, which regulate FKBP4-Hsp90 complex formation [ 26 ]. Taking into consideration that the presence of FKBP4 in the AR heterocomplex enhances AR ligand binding, a mutation in the domain vital for FKBP4–Hsp90 interaction could impair testosterone binding by its receptor and finally causing AIS. Secondly, the Leu319Pro substitution is situated within a position, which is conserved across vertebrates ( Figure 2 ), indicating its critical significance for FKBP4 protein function. Thirdly, the p.Leu319Pro substitution in the human FKBP4 protein has been predicted as disease-causing by several predictors of functional effects of human SNPs, and this variant is not present in any SNP database. Fourthly, the mutation in the PAIS patient described here has been inherited from its mother and was not present in the healthy brother ( Figure 1 ). Such a pedigree may indicate an autosomal dominant model of inheritance, with the DSD phenotype restricted to karyotypic men. However, this dominant mode of inheritance is not in line with the mouse model, in which heterozygous  Fkbp4  mutant males did not display hypospadias and were fertile, in contrast to homozygous  Fkbp4  mutant animals displaying a phenotype corresponding to PAIS [ 24 ]. Still, it is possible that the gene is imprinted in humans and only the maternal allele is expressed. Alternatively, discrepancy between the human and the mouse model for dosage requirement could be taken into account, similarly to some other autosomal genes involved in sexual development. For instance, a heterozygous mutation of the  SOX8  gene, encoding a transcriptional factor closely related to SRY (the other allele being the wild-type), caused a 46,XY DSD phenotype [ 27 ]. Meanwhile, the homozygous  Sox8  knockout did not affect the sex determination process. Instead, it caused Sertoli cell function impairment in the adult, leading to infertility or decreased fertility in males [ 28 ]. Therefore, we assume that discrepancy between the phenotype of the patient carrying the  FKBP4  heterozygous variant and a lack of the abnormal phenotype in heterozygous knockout in mice does not rule out a causative effect of the  FKBP4  variant in the patient.
+The six additional heterozygous variants identified in our patient in genes  AKR1C4 ,  CYP17A1 ,  FREM2 ,  IL17RD ,  NKD2 , involved in sexual development, do not seem to be causative for the patient’s phenotype. Namely, three among these variants were predicted to be neutral ( Table 2 ) and for that reason we did not further consider their influence on the patient’s phenotype. The other three variants of  AKR1C4 ,  CYP17A1  or  FREM2  genes were predicted to be disease causing ( Table 2 ). We consider the contribution of the  AKR1C4  variant to the DSD phenotype, as heterozygous mutations of this gene have been described as potential modifier of the DSD phenotype [ 22 ]. The mutations of  CYP17A1  and  FREM2  genes instead caused DSD in karyotypic men only when both alleles of those genes were mutated [ 19 , 20 , 21 ], therefore the heterozygous status of  CYP17A1  and  FREM2  variants in our patient make their contribution to the DSD phenotype less likely. However, we cannot rule out the modifier effect of those variants. Thus, although the described patient is a compound heterozygote of the  FREM2  gene, the variant inherited from the father was ruled out as causative due to the predicted neutral character. We assumed that the single  FREM2  variant inherited from the mother, however, predicted as disease causing is not sufficient to cause the DSD phenotype as ambiguous genitalia in karyotypic men are present in case both  FREM2  alleles are mutated [ 21 ]. Still there is possibility that the  FREM2  variant might contribute to the patient’s phenotype.
+Altogether, although we do not provide direct evidence for  FKBP4  mutation causality, our findings justify placing the  FKBP4  gene within a DSD target gene panel, specifically as an AIS candidate gene. The identification of more PAIS cases carrying a  FKBP4  mutation will provide stronger confirmation for its implication in an androgen insensitivity phenotype and could contribute to the diagnosis of AIS patients lacking  AR  mutations.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="37~39" text="AR" location="background" />
+<GENE id="G1" spans="187~189" text="AR" location="result" />
+<GENE id="G2" spans="235~240" text="FKBP4" location="result" />
+<GENE id="G3" spans="478~480" text="AR" location="background" />
+<GENE id="G4" spans="510~515" text="FKBP4" location="background" />
+<GENE id="G5" spans="539~541" text="AR" location="background" />
+<GENE id="G6" spans="566~571" text="Hsp90" location="background" />
+<GENE id="G7" spans="640~642" text="AR" location="background" />
+<GENE id="G8" spans="714~719" text="FKBP4" location="background" />
+<GENE id="G9" spans="858~863" text="FKBP4" location="result" />
+<GENE id="G10" spans="1071~1076" text="FKBP4" location="result" />
+<GENE id="G11" spans="1077~1082" text="Hsp90" location="result" />
+<GENE id="G12" spans="1106~1108" text="AR" location="result" />
+<GENE id="G13" spans="1139~1144" text="FKBP4" location="result" />
+<GENE id="G14" spans="1162~1168" text="S100A1" location="result" />
+<GENE id="G15" spans="1173~1179" text="S100A2" location="result" />
+<GENE id="G16" spans="1205~1210" text="FKBP4" location="background" />
+<GENE id="G17" spans="1211~1216" text="Hsp90" location="background" />
+<GENE id="G18" spans="1290~1295" text="FKBP4" location="result" />
+<GENE id="G19" spans="1303~1305" text="AR" location="result" />
+<GENE id="G20" spans="1329~1331" text="AR" location="result" />
+<GENE id="G21" spans="1383~1388" text="FKBP4" location="result" />
+<GENE id="G22" spans="1389~1394" text="Hsp90" location="result" />
+<GENE id="G23" spans="1643~1648" text="FKBP4" location="result" />
+<GENE id="G24" spans="1718~1723" text="FKBP4" location="result" />
+<GENE id="G26" spans="2261~2266" text="Fkbp4" location="result" />
+<GENE id="G27" spans="2354~2359" text="Fkbp4" location="background" />
+<GENE id="G28" spans="2766~2770" text="SOX8" location="background" />
+<GENE id="G29" spans="2831~2834" text="SRY" location="background" />
+<GENE id="G30" spans="2939~2943" text="Sox8" location="background" />
+<GENE id="G31" spans="3218~3223" text="FKBP4" location="result" />
+<GENE id="G32" spans="3361~3366" text="FKBP4" location="result" />
+<GENE id="G33" spans="3469~3475" text="AKR1C4" location="result" />
+<GENE id="G34" spans="3479~3486" text="CYP17A1" location="result" />
+<GENE id="G35" spans="3490~3495" text="FREM2" location="result" />
+<GENE id="G36" spans="3499~3505" text="IL17RD" location="result" />
+<GENE id="G37" spans="3509~3513" text="NKD2" location="result" />
+<GENE id="G38" spans="3802~3808" text="AKR1C4" location="result" />
+<GENE id="G39" spans="3812~3819" text="CYP17A1" location="result" />
+<GENE id="G40" spans="3825~3830" text="FREM2" location="result" />
+<GENE id="G41" spans="3925~3931" text="AKR1C4" location="background" />
+<GENE id="G42" spans="4091~4098" text="CYP17A1" location="background" />
+<GENE id="G43" spans="4105~4110" text="FREM2" location="background" />
+<GENE id="G44" spans="4262~4269" text="CYP17A1" location="result" />
+<GENE id="G45" spans="4276~4281" text="FREM2" location="result" />
+<GENE id="G46" spans="4504~4509" text="FREM2" location="result" />
+<GENE id="G47" spans="4650~4655" text="FREM2" location="result" />
+<GENE id="G48" spans="4842~4847" text="FREM2" location="background" />
+<GENE id="G49" spans="4914~4919" text="FREM2" location="result" />
+<GENE id="G50" spans="5034~5039" text="FKBP4" location="result" />
+<GENE id="G51" spans="5095~5100" text="FKBP4" location="result" />
+<GENE id="G52" spans="5228~5233" text="FKBP4" location="result" />
+<GENE id="G53" spans="5401~5403" text="AR" location="result" />
+<DISEASE id="D0" spans="15~18" text="AIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="158~162" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="300~304" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="390~394" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="891~895" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1477~1480" text="AIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1912~1916" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2416~2420" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="5158~5161" text="AIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="5205~5209" text="PAIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="5379~5382" text="AIS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="33~35,41~54" text="no ... gene mutation" location="background" relation="no relation" />
+<RELATION id="R1" spans="174~185,191~204" text="lacking any ... gene mutation" location="result" relation="no relation" />
+<RELATION id="R2" spans="242~254" text="gene variant" location="result" relation="associated mutation" />
+<RELATION id="R3" spans="914~943" text="missense p.Leu319Pro mutation" location="result" relation="associated mutation" />
+<RELATION id="R4" spans="5162~5176" text="candidate gene" location="result" relation="relation undefined" />
+<RELATION id="R5" spans="5235~5243" text="mutation" location="result" relation="associated mutation" />
+<RELATION id="R6" spans="5392~5399,5405~5414" text="lacking ... mutations" location="result" relation="no relation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="AR" diseaseID="D0" diseaseText="AIS" relationID="R0" relationText="no ... gene mutation" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="AR" diseaseID="D1" diseaseText="PAIS" relationID="R1" relationText="lacking any ... gene mutation" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="FKBP4" diseaseID="D1" diseaseText="PAIS" relationID="R2" relationText="gene variant" />
+<ENTITY_LINKING id="E3" geneID="G9" geneText="FKBP4" diseaseID="D4" diseaseText="PAIS" relationID="R3" relationText="missense p.Leu319Pro mutation" />
+<ENTITY_LINKING id="E4" geneID="G51" geneText="FKBP4" diseaseID="D10" diseaseText="AIS" relationID="R4" relationText="candidate gene" />
+<ENTITY_LINKING id="E5" geneID="G52" geneText="FKBP4" diseaseID="D11" diseaseText="PAIS" relationID="R5" relationText="mutation" />
+<ENTITY_LINKING id="E6" geneID="G53" geneText="AR" diseaseID="D12" diseaseText="AIS" relationID="R6" relationText="lacking ... mutations" />
+</TAGS>
+</Genomics_ConceptTask>

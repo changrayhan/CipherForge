@@ -1,0 +1,51 @@
+2026-07-27 14:47:56,458 [INFO] attack_suite: Log file: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/dp-ablation/run_20260727_144756/attack_test.log
+2026-07-27 14:47:56,458 [INFO] attack_suite: ============================================================
+2026-07-27 14:47:56,458 [INFO] attack_suite: Protocol initialisation (GPU mode, Llama-3.1-8B-I)
+2026-07-27 14:47:56,458 [INFO] attack_suite: ============================================================
+2026-07-27 14:47:56,459 [INFO] attack_suite: Patched _build_seal_context for poly_degree=2048
+2026-07-27 14:47:57,246 [INFO] attack_suite: Loading tokenizer from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+2026-07-27 14:48:00,405 [INFO] attack_suite: Loading TREC-QC dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc
+2026-07-27 14:48:00,427 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543, test=100
+2026-07-27 14:48:00,427 [INFO] attack_suite: Building BFV backend (poly_degree=2048, plain_bits=30, scale=10000.0, hidden_dim=2048)
+2026-07-27 14:48:00,433 [INFO] attack_suite: Building encrypted database …
+2026-07-27 14:48:00,434 [INFO] attack_suite: Loading hint table …
+2026-07-27 14:48:00,449 [INFO] attack_suite: [attack-suite] dχ enabled: alpha=0.050, answer_beta=0.700, calibration_steps=2, calibration_mode=False, dump_audit=False
+2026-07-27 14:48:00,449 [INFO] attack_suite: Constructing HeterogeneousProtocol …
+2026-07-27 14:48:08,178 [INFO] attack_suite: PartyM BFV secret key loaded (poly_degree=2048)
+2026-07-27 14:48:09,988 [INFO] attack_suite: GPU protocol initialisation successful!
+2026-07-27 14:48:09,988 [INFO] attack_suite: ============================================================
+2026-07-27 14:48:09,988 [INFO] attack_suite: Phase 2: Attack Data Collection
+2026-07-27 14:48:09,989 [INFO] attack_suite: ============================================================
+2026-07-27 14:48:09,993 [INFO] attack_suite: Registered attack: L1 (M-side Gradient Label Inference)
+2026-07-27 14:48:09,994 [INFO] attack_suite: ============================================================
+2026-07-27 14:48:09,994 [INFO] attack_suite: Collecting real attack data via AttackProtocolWrapper
+2026-07-27 14:48:09,994 [INFO] attack_suite: ============================================================
+2026-07-27 14:48:09,994 [INFO] attack_suite: Running 50 training steps …
+2026-07-27 14:48:15,819 [INFO] attack_suite: Training step 1/50 completed (bundles=1)
+2026-07-27 14:48:34,589 [INFO] attack_suite: Training step 6/50 completed (bundles=6)
+2026-07-27 14:48:53,337 [INFO] attack_suite: Training step 11/50 completed (bundles=11)
+2026-07-27 14:49:12,023 [INFO] attack_suite: Training step 16/50 completed (bundles=16)
+2026-07-27 14:49:30,111 [INFO] attack_suite: Training step 21/50 completed (bundles=21)
+2026-07-27 14:49:48,183 [INFO] attack_suite: Training step 26/50 completed (bundles=26)
+2026-07-27 14:50:07,016 [INFO] attack_suite: Training step 31/50 completed (bundles=31)
+2026-07-27 14:50:25,357 [INFO] attack_suite: Training step 36/50 completed (bundles=36)
+2026-07-27 14:50:43,480 [INFO] attack_suite: Training step 41/50 completed (bundles=41)
+2026-07-27 14:51:02,046 [INFO] attack_suite: Training step 46/50 completed (bundles=46)
+2026-07-27 14:51:17,098 [INFO] attack_suite: Collecting evaluation predictions for M-1 …
+2026-07-27 14:51:39,627 [INFO] attack_suite: M1: Saved offline data to /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/dp-ablation/run_20260727_144756/m1
+2026-07-27 14:51:39,979 [INFO] attack_suite: ============================================================
+2026-07-27 14:51:39,979 [INFO] attack_suite: Phase 3: Running Attacks
+2026-07-27 14:51:39,979 [INFO] attack_suite: ============================================================
+2026-07-27 14:51:39,979 [INFO] attack_suite: Running L1 …
+2026-07-27 14:52:08,983 [INFO] attack_suite:   [OK] L1/h_u_mean_anova | h_u_class_mean_anova_pvalue=0.0005 (chance=0.0001), p=0.0005 | n=200 | Min p-value across 512 features of H_U: 5.1114e-04. Binomial aggregate: 23/512 features with raw p<0.05 (p=6.5560e-01 under Binomial(n=512, 0.05) null). BH-FDR min p_adj=5.1114e-04. H_U does not encode label-mean structure (binomial aggregate)
+2026-07-27 14:52:08,984 [INFO] attack_suite:   [OK] L1/h_u_norm_anova | h_u_norm_anova_pvalue=0.4375 (chance=0.0500), p=0.4375 | n=200 | ANOVA p=4.3753e-01, eta²=0.0244: no meaningful norm difference across classes (effect size below 0.10)
+2026-07-27 14:52:08,984 [INFO] attack_suite:   [OK] L1/kmeans_ari | adjusted_rand_index=0.0070 (chance=0.0000) | n=200 | ARI near 0: gradient space does not encode labels
+2026-07-27 14:52:08,984 [INFO] attack_suite:   [OK] L1/nn_agreement | 1nn_label_agreement=0.2250 (chance=0.1667) | n=200 | Rate > 0.167 + 2σ indicates nearest neighbors share labels
+2026-07-27 14:52:08,984 [INFO] attack_suite:   [OK] L1/cosine_auc | cosine_similarity_auc=0.4961 (chance=0.5000) | n=200 | AUC near 0.5: gradients do not encode label similarity
+2026-07-27 14:52:08,984 [INFO] attack_suite:   [OK] L1/permutation_test | 1nn_agreement_permutation_pvalue=0.3354 (chance=0.0500), p=0.3354 | n=200 | p >= 0.05: no statistically significant label signal
+2026-07-27 14:52:08,984 [INFO] attack_suite:   [OK] L1/magnitude_anova | gradient_magnitude_anova_pvalue=0.3676 (chance=0.0500), p=0.3676 | n=200 | ANOVA p=3.6762e-01, eta²=0.0273: no meaningful magnitude difference across classes (effect size below 0.10)
+2026-07-27 14:52:08,984 [INFO] attack_suite: ============================================================
+2026-07-27 14:52:08,984 [INFO] attack_suite: Phase 4: Generating Reports
+2026-07-27 14:52:08,984 [INFO] attack_suite: ============================================================
+2026-07-27 14:52:08,984 [INFO] attack_suite: JSON results: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/dp-ablation/run_20260727_144756/attack_results.json
+2026-07-27 14:52:08,984 [INFO] attack_suite: Summary: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/summary_20260727_144756.json

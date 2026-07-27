@@ -1,0 +1,89 @@
+============================================================
+L1 Gradient Attack — GPU Real Protocol Mode
+============================================================
+Model:         /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+Output:        /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/l1_run
+BFV Cache:     /root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b
+============================================================
+09:38:40 [INFO] attack_suite: ============================================================
+09:38:40 [INFO] attack_suite: SLG-HE-PIR Attack Test Suite v2.0
+09:38:40 [INFO] attack_suite: ============================================================
+09:38:40 [INFO] attack_suite: Attacks: ['L1']
+09:38:40 [INFO] attack_suite: N steps: 50
+09:38:40 [INFO] attack_suite: Output: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_093840
+09:38:40 [INFO] attack_suite: ============================================================
+09:38:40 [INFO] attack_suite: Log file: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_093840/attack_test.log
+09:38:40 [INFO] attack_suite: ============================================================
+09:38:40 [INFO] attack_suite: Protocol initialisation (GPU mode, Llama-3.1-8B-I)
+09:38:40 [INFO] attack_suite: ============================================================
+09:38:40 [INFO] attack_suite: Patched _build_seal_context for poly_degree=2048
+09:38:40 [INFO] attack_suite: Loading tokenizer from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+09:38:44 [INFO] attack_suite: Loading TREC-QC dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc
+09:38:44 [INFO] attack_test_trecqc_dataset: Loaded 4909 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/train.jsonl
+09:38:44 [INFO] attack_test_trecqc_dataset: Loaded 543 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/val.jsonl
+09:38:44 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543, test=100
+09:38:44 [INFO] attack_suite: Building BFV backend (poly_degree=2048, plain_bits=30, scale=10000.0, hidden_dim=2048)
+09:38:44 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+09:38:44 [INFO] attack_suite: Building encrypted database …
+09:39:53 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted 128256 rows in 68.36s
+09:39:56 [INFO] src.core.bfv_privselect_v2_adapter: Saved encrypted DB to /root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b/bfv_ct_db_n128256_d2048_p2048.bin (4217.7 MB)
+09:39:56 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+09:39:56 [INFO] attack_suite: Loading hint table …
+09:39:56 [INFO] src.core.s3pir_hints: Computed main hints skeleton: 501 partitions, partition_size=256
+09:39:56 [INFO] src.core.s3pir_hints: Computed backup hints: 80 pairs per partition, lam=80
+09:39:56 [INFO] src.core.s3pir_hints: Saved hint table to /root/autodl-tmp/slg-bfv-cache/attack-test-bfv-cache-1b/s3pir_hints/hint_table.json
+09:39:56 [INFO] attack_suite: [attack-suite] dχ enabled: alpha=0.150, answer_beta=0.500, calibration_steps=5, calibration_mode=False, dump_audit=True
+09:39:56 [INFO] attack_suite: Constructing HeterogeneousProtocol …
+09:39:56 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+09:39:56 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+09:39:56 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da (one-time load)
+09:39:56 [INFO] src.model.model_splitting: Loaded 146 weights from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+09:39:56 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+09:39:56 [WARNING] src.model.model_splitting: SageAttention not installed — will use SDPA fallback: No module named 'sageattention'
+09:39:56 [INFO] src.model.model_splitting: Using SDPA for U shard
+09:40:01 [INFO] src.model.model_splitting: Loaded U submodel: embed + 8 layers on cuda (attn=SDPA, gradient_checkpointing=True)
+09:40:01 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+09:40:01 [INFO] src.parties.party_u: [PartyU] H15 privatizer attached (alpha=0.15, beta=0.5)
+09:40:01 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+09:40:01 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=16 hidden=2048 vocab=128256 u_layers=8
+09:40:01 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+09:40:01 [INFO] src.model.model_splitting: Using SDPA for M shard
+09:40:04 [INFO] src.model.model_splitting: Loaded M submodel: 8 layers + 112 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=disabled)
+09:40:04 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+09:40:04 [WARNING] attack_suite: GPU protocol init failed: plaintext data is invalid
+09:40:04 [WARNING] attack_suite: Falling back to synthetic data mode
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 1622, in main
+    protocol_info = _init_protocol_with_gpu(cfg)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 660, in _init_protocol_with_gpu
+    protocol = HeterogeneousProtocol(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/heterogeneous_protocol.py", line 172, in __init__
+    self.party_m = PartyM(
+                   ^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_m.py", line 48, in __init__
+    self._setup_bfv(bfv_sk_pem, bfv_pk_pem)
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_m.py", line 97, in _setup_bfv
+    self.bfv_backend._secret_key = self.bfv_backend._load_secret_key(bfv_sk_pem)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/core/bfv_privselect_v2_adapter.py", line 750, in _load_secret_key
+    sk.load(self._context, f.name)
+RuntimeError: plaintext data is invalid
+09:40:04 [INFO] attack_test_trecqc_dataset: Loaded 4909 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/train.jsonl
+09:40:04 [INFO] attack_test_trecqc_dataset: Loaded 543 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc/val.jsonl
+09:40:04 [INFO] attack_suite: ============================================================
+09:40:04 [INFO] attack_suite: Phase 2: Attack Data Collection
+09:40:04 [INFO] attack_suite: ============================================================
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 1892, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 1650, in main
+    module = _get_attack_module(aid, cfg)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/SLG-attack-test/run_attack_suite.py", line 420, in _get_attack_module
+    from attacks.L1_gradient_inference import L1GradientInference
+ModuleNotFoundError: No module named 'attacks.L1_gradient_inference'

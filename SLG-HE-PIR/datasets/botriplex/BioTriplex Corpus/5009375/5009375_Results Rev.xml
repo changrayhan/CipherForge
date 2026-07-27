@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+GRAMD1A overexpression is positively associated with HCC progression
+To determine the role of GRAMD1A in HCC progression, we used TCGA dataset to investigate GRAMD1A expression in HCC tissues and normal live tissues, and found GRAMD1A was significantly upregulated in HCC tissues ( Fig. 1a ). To examine the association between GRAMD1A expression and advanced HCC, we chose 78 patients with advanced HCC (Pathologic Stage III–IV) to analyze the association between GRAMD1A expression and survival time, the log-rank test suggested patients with high GRAMD1A levels had poor outcome (p = 0.000,  Fig. 1b ). GSEA was used to confirm this results, and found high GRAMD1A expression was positively correlated with low HCC survival and inversely correlated with high HCC survival ( Fig. 1c ). These results suggested GRAMD1A was associated with HCC progression.
+To further demonstrate above results, a cohort of 96 advanced HCC tissues was used to study the role of GRAMD1A in clinical progression, IHC analysis suggested GRAMD1A expression was positive in 96.9% (93/96) of examined tissues, only 3% (3/96) was negative. GRAMD1A is upregulated in 60.4% (58/96) tissues, only 39.6% was low expression ( Supplemental Table 3 ). We next analyzed the association between GRAMD1A levels and the clinicopathological features of HCC tissues, as shown in  Table 1 , high GRAMD1A was significantly correlated with pathological differentiation (p = 0.036 measured by Chi-square test, p = 0.043 measured by Fisher’s Exact test) and Survive or Mortality (p = 0.002, measured by both Chi-square test and Fisher’s Exact test) ( Table 1 ). In contrast, GRAMD1A levels wasn’t associated with gender, age, clinical stage, TNM classification, cirrhosis or HbsAg. We used Spearman correlation analysis to confirm this result, and found high GRAMD1A levels was significantly correlated with pathologic differentiation (rs = 0.210, p = 0.040) and Survival or Mortality (rs = 0.329, p = 0.001), suggesting GRAMD1A was associated with HCC progression. IHC analysis also found GRAMD1A was overexpressed in HCC tissues of patients with poor prognosis compared to HCC tissues of patients with good prognosis (p < 0.001). The detail data was shown as follows: GRAMD1A was overexpressed in 26.3% (5/19) tissues of patients with good prognosis, but it’s overexpressed in 68.8% (53/77) tissues of patients with poor prognosis ( Fig. 1d ). The log-rank test also revealed patients with high GRAMD1A levels had poor outcome (p = 0.000,  Fig. 1e ), suggesting GRAMD1A might be a prognostic factor for HCC patient. Univariate Cox regression analyses revealed T classification (p = 0.007) and GRAMD1A level (p = 0.000) were poor prognostic factors for HCC patients, Multivariate Cox regression analyses further revealed they are independent prognostic factors for HCC patients ( Table 2 ). Together, these findings revealed GRAMD1A is associated with HCC progression and is an independent prognostic factor for HCC patients.
+GRAMD1A promotes the self-renewal of HCC stem cells and resistance to chemotherapy
+We used GSEA to analyze the association between GRAMD1A levels and tumor recurrence, and found patients with high GRAMD1A levels had high recurrence rate ( Fig. 2a ). Meanwhile, we found low GRAMD1A levels correlated with repressed self-renewal of HCC stem cell, suggesting GRAMD1A might regulate the tumor growth, drug resistance and the expansion of HCC stem cells. To determine GRAMD1A’s role in the initiation and progression of HCC, we overexpressed GRAMD1A in HCC cells Huh7 and HepG2. Hepatosphere formation assay suggested overexpression of GRAMD1A increased the number and volume of hepatosphere ( Fig. 2b ). SP assay found overexpression of GRAMD1A increased the number of SP population ( Fig. 2c ). The markers of HCC stem cells, CD90 and CD133, were used to demonstrate GRAMD1A regulates HCC stem cells, western blot assay found overexpression of GRAMD1A increased CD90 and CD133 levels, while knockdown of GRAMD1A decreased CD90 and CD133 levels ( Fig. 2d ). These results suggested GRAMD1A promoted the expansion of HCC stem cells. In order to investigate the effect of GRAMD1A on drug resistance, we use chemotherapy drug Doxorubicin (Sigma) to treat indicated HCC cells. Cell survival assay found after treatment with Doxorubicin (dissolved with DMSO, 0.5 uM and 1.0 uM, respectively), the number of survival cells with GRAMD1A was significantly more than negative control cells ( Fig. 2e ). Apoptosis assay was used to confirm this result, TUNEL assay found after treatment with Doxorubicin (1.0 uM), the number of TUNEL positive cells was significantly decreased compared to negative control ( Fig. 2f ). Cleavages of pro-caspase and PARP are the markers of apoptosis 17 18 , western blot assay found GRAMD1A overexpression inhibited the activation of caspase 3 and the cleavage of PARP, but the expression of an anti-apoptotic protein BCL-X L  was increased ( Fig. 2g ), suggesting GRAMD1A increased the drug resistance of HCC by inhibiting apoptosis. Together, these results suggested GRAMD1A promotes the expansion of HCC stem cells and resistance to chemotherapy.
+GRAMD1A promotes HCC growth
+We further determined the role of GRAMD1A in tumor growth. Soft agar growth ability assay suggested overexpression of GRAMD1A significantly promoted anchorage-independent growth, while knockdown of GRAMD1A significantly suppressed anchorage-independent growth ( Fig. 3a ). We injected subcutaneously different number of cells into the flank of nude mice, and found overexpression of GRAMD1A promoted tumor growth, the tumor volume was larger than negative control. While knockdown of GRAMD1A suppressed tumor growth, the tumor volume was smaller than Scramble control ( Fig. 3b ). We used orthotopic transplantation mouse model to conform this findings, knockdown of GRAMD1A inhibited HCC growth ( Fig. 3c ), survival cure analysis revealed the survival of mouse with GRAMD1A was significantly longer than Scramble group ( Fig. 3d ). We also analyzed the markers of liver injure, including ALT (Alanine aminotransferase) and AST (Aspartate aminotransferase), and found GRAMD1A knockdown significantly reduced the concentration of AST and ALT, confirming GRAMD1A promotes HCC growth ( Fig. 3e ).
+STAT5 is a downstream target of GRAMD1A
+STATs play a key role in cell proliferation, differentiation, migration ad survival. STAT3 promotes HCC initiation and development, but the role of STAT5 in the initiation and development of human HCC has been reported rarely, we used TCGA data to analyze the relationship between GRAMD1A levels and the levels of STAT5 targeting genes by GSEA, and found a positive correlation between GRAMD1A levels and the levels of STAT5 targeting genes, suggesting GRAMD1A might regulate STAT5 ( Fig. 4a ). We also found overexpression of GRAMD1A increased STAT5 levels in both Huh-7 and HepG2 cells, while knockdown of GRAMD1A reduced STAT5 levels ( Fig. 4b ). Cyclin D1, Bcl-2, c-Jun and c-Myc are the target of STAT5 19 , GRAMD1A overexpression promoted these genes expression, while GRAMD1A knockdown inhibited these genes expression ( Fig. 4b ), suggesting STAT5 is a downstream of GRAMD1A. We cloned the promoter sequence of STAT5 into luciferase reporter vector, and transfected into indicated cells. Overexpression of GRAMD1A significantly increased luciferase activity, knockdown of GRAMD1A significantly decreased luciferase activity ( Fig. 4c ). These findings revealed GRAMD1A could regulate STAT5.
+GRAMD1A regulates the expansion of HCC stem cells, resistance to chemotherapy and tumor growth through regulating STAT5
+To investigate whether GRAMD1A regulates HCC initiation and development through regulating STAT5, we downregulated STAT5 in indicated HCC cells with GRAMD1A overexpression by siRNA for STAT5 and STAT inhibitor SH-4-54 (Selleckchem) 20 . Hepatosphere formation assay revealed downregulation of STAT5 significantly inhibited the number and volume of hepatosphere ( Fig. 5a ). SP analysis found downregulation of STAT5 reduced the percentage of the cell number of SP ( Fig. 5b ). These findings suggested GRAMD1A regulates the expansion of HCC stem cells through regulating STAT5. TUNEL assay revealed that TUNEL positive cells were significantly increased when STAT5 was downregulated in indicated cells with GRAMD1A overexpression ( Fig. 5c ). Western blot assay found downregulation of STAT5 promoted caspase 3 activation and PARP cleavage, and inhibited BCL-X L  levels ( Fig. 5d ). These findings suggested GRAMD1A regulated resistance to chemotherapy through regulating STAT5. Soft agar growth ability assay found downregulation of STAT5 significantly inhibited anchorage-independent growth ( Fig. 5e ), suggesting GRAMD1A regulates tumor growth through regulating STAT5.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~8" text="GRAMD1A" location="result" />
+<GENE id="G1" spans="95~102" text="GRAMD1A" location="result" />
+<GENE id="G2" spans="159~166" text="GRAMD1A" location="result" />
+<GENE id="G3" spans="228~235" text="GRAMD1A" location="result" />
+<GENE id="G4" spans="329~336" text="GRAMD1A" location="result" />
+<GENE id="G5" spans="466~473" text="GRAMD1A" location="result" />
+<GENE id="G6" spans="551~558" text="GRAMD1A" location="result" />
+<GENE id="G7" spans="661~668" text="GRAMD1A" location="result" />
+<GENE id="G8" spans="813~820" text="GRAMD1A" location="result" />
+<GENE id="G9" spans="962~969" text="GRAMD1A" location="result" />
+<GENE id="G10" spans="1018~1025" text="GRAMD1A" location="result" />
+<GENE id="G11" spans="1117~1124" text="GRAMD1A" location="result" />
+<GENE id="G12" spans="1263~1270" text="GRAMD1A" location="result" />
+<GENE id="G13" spans="1359~1366" text="GRAMD1A" location="result" />
+<GENE id="G14" spans="1634~1641" text="GRAMD1A" location="result" />
+<GENE id="G15" spans="1818~1825" text="GRAMD1A" location="result" />
+<GENE id="G16" spans="1980~1987" text="GRAMD1A" location="result" />
+<GENE id="G17" spans="2049~2056" text="GRAMD1A" location="result" />
+<GENE id="G19" spans="2229~2236" text="GRAMD1A" location="result" />
+<GENE id="G20" spans="2456~2463" text="GRAMD1A" location="result" />
+<GENE id="G21" spans="2523~2530" text="GRAMD1A" location="result" />
+<GENE id="G22" spans="2654~2661" text="GRAMD1A" location="result" />
+<GENE id="G23" spans="2885~2892" text="GRAMD1A" location="result" />
+<GENE id="G24" spans="2986~2993" text="GRAMD1A" location="result" />
+<GENE id="G25" spans="3117~3124" text="GRAMD1A" location="result" />
+<GENE id="G26" spans="3183~3190" text="GRAMD1A" location="result" />
+<GENE id="G27" spans="3260~3267" text="GRAMD1A" location="result" />
+<GENE id="G28" spans="3343~3350" text="GRAMD1A" location="result" />
+<GENE id="G29" spans="3450~3457" text="GRAMD1A" location="result" />
+<GENE id="G30" spans="3524~3531" text="GRAMD1A" location="result" />
+<GENE id="G31" spans="3618~3625" text="GRAMD1A" location="result" />
+<GENE id="G32" spans="3720~3727" text="GRAMD1A" location="result" />
+<GENE id="G33" spans="3851~3858" text="GRAMD1A" location="result" />
+<GENE id="G34" spans="3928~3935" text="GRAMD1A" location="result" />
+<GENE id="G35" spans="3946~3950" text="CD90" location="result" />
+<GENE id="G36" spans="3955~3960" text="CD133" location="result" />
+<GENE id="G37" spans="3988~3995" text="GRAMD1A" location="result" />
+<GENE id="G38" spans="4006~4010" text="CD90" location="result" />
+<GENE id="G39" spans="4015~4020" text="CD133" location="result" />
+<GENE id="G40" spans="4065~4072" text="GRAMD1A" location="result" />
+<GENE id="G41" spans="4153~4160" text="GRAMD1A" location="result" />
+<GENE id="G42" spans="4405~4412" text="GRAMD1A" location="result" />
+<GENE id="G43" spans="4721~4725" text="PARP" location="result" />
+<GENE id="G44" spans="4788~4795" text="GRAMD1A" location="result" />
+<GENE id="G45" spans="4839~4848" text="caspase 3" location="result" />
+<GENE id="G46" spans="4869~4873" text="PARP" location="result" />
+<GENE id="G47" spans="4923~4930" text="BCL-X L" location="result" />
+<GENE id="G48" spans="4970~4977" text="GRAMD1A" location="result" />
+<GENE id="G49" spans="5074~5081" text="GRAMD1A" location="result" />
+<GENE id="G50" spans="5155~5162" text="GRAMD1A" location="result" />
+<GENE id="G51" spans="5217~5224" text="GRAMD1A" location="result" />
+<GENE id="G52" spans="5301~5308" text="GRAMD1A" location="result" />
+<GENE id="G53" spans="5381~5388" text="GRAMD1A" location="result" />
+<GENE id="G54" spans="5566~5573" text="GRAMD1A" location="result" />
+<GENE id="G55" spans="5667~5674" text="GRAMD1A" location="result" />
+<GENE id="G56" spans="5850~5857" text="GRAMD1A" location="result" />
+<GENE id="G57" spans="5951~5958" text="GRAMD1A" location="result" />
+<GENE id="G58" spans="6152~6159" text="GRAMD1A" location="result" />
+<GENE id="G59" spans="6237~6244" text="GRAMD1A" location="result" />
+<GENE id="G60" spans="6278~6283" text="STAT5" location="result" />
+<GENE id="G61" spans="6310~6317" text="GRAMD1A" location="result" />
+<GENE id="G62" spans="6403~6408" text="STAT3" location="background" />
+<GENE id="G63" spans="6466~6471" text="STAT5" location="background" />
+<GENE id="G64" spans="6599~6606" text="GRAMD1A" location="result" />
+<GENE id="G65" spans="6632~6637" text="STAT5" location="result" />
+<GENE id="G66" spans="6704~6711" text="GRAMD1A" location="result" />
+<GENE id="G67" spans="6737~6742" text="STAT5" location="result" />
+<GENE id="G68" spans="6771~6778" text="GRAMD1A" location="result" />
+<GENE id="G69" spans="6794~6799" text="STAT5" location="result" />
+<GENE id="G70" spans="6845~6852" text="GRAMD1A" location="result" />
+<GENE id="G71" spans="6863~6868" text="STAT5" location="result" />
+<GENE id="G72" spans="6926~6933" text="GRAMD1A" location="result" />
+<GENE id="G73" spans="6942~6947" text="STAT5" location="result" />
+<GENE id="G74" spans="6968~6977" text="Cyclin D1" location="result" />
+<GENE id="G75" spans="6979~6984" text="Bcl-2" location="result" />
+<GENE id="G76" spans="6986~6991" text="c-Jun" location="result" />
+<GENE id="G77" spans="6996~7001" text="c-Myc" location="result" />
+<GENE id="G78" spans="7020~7025" text="STAT5" location="result" />
+<GENE id="G79" spans="7031~7038" text="GRAMD1A" location="result" />
+<GENE id="G80" spans="7093~7100" text="GRAMD1A" location="result" />
+<GENE id="G81" spans="7168~7173" text="STAT5" location="result" />
+<GENE id="G82" spans="7193~7200" text="GRAMD1A" location="result" />
+<GENE id="G83" spans="7237~7242" text="STAT5" location="result" />
+<GENE id="G84" spans="7332~7339" text="GRAMD1A" location="result" />
+<GENE id="G85" spans="7398~7405" text="GRAMD1A" location="result" />
+<GENE id="G86" spans="7487~7494" text="GRAMD1A" location="result" />
+<GENE id="G87" spans="7510~7515" text="STAT5" location="result" />
+<GENE id="G88" spans="7517~7524" text="GRAMD1A" location="result" />
+<GENE id="G89" spans="7631~7636" text="STAT5" location="result" />
+<GENE id="G90" spans="7660~7667" text="GRAMD1A" location="result" />
+<GENE id="G91" spans="7728~7733" text="STAT5" location="result" />
+<GENE id="G92" spans="7752~7757" text="STAT5" location="result" />
+<GENE id="G93" spans="7786~7793" text="GRAMD1A" location="result" />
+<GENE id="G94" spans="7822~7827" text="STAT5" location="result" />
+<GENE id="G95" spans="7930~7935" text="STAT5" location="result" />
+<GENE id="G96" spans="8047~8052" text="STAT5" location="result" />
+<GENE id="G97" spans="8139~8146" text="GRAMD1A" location="result" />
+<GENE id="G98" spans="8208~8213" text="STAT5" location="result" />
+<GENE id="G99" spans="8296~8301" text="STAT5" location="result" />
+<GENE id="G100" spans="8344~8351" text="GRAMD1A" location="result" />
+<GENE id="G101" spans="8423~8428" text="STAT5" location="result" />
+<GENE id="G102" spans="8463~8467" text="PARP" location="result" />
+<GENE id="G103" spans="8492~8499" text="BCL-X L" location="result" />
+<GENE id="G104" spans="8546~8553" text="GRAMD1A" location="result" />
+<GENE id="G105" spans="8610~8615" text="STAT5" location="result" />
+<GENE id="G106" spans="8672~8677" text="STAT5" location="result" />
+<GENE id="G107" spans="8755~8762" text="GRAMD1A" location="result" />
+<GENE id="G108" spans="8805~8810" text="STAT5" location="result" />
+<DISEASE id="D0" spans="54~57" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="106~109" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="181~184" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="269~272" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="361~364" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="401~404" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="715~718" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="763~766" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="841~844" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="920~923" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1318~1321" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2008~2011" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2078~2081" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2134~2137" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2564~2567" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2713~2716" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2825~2828" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2912~2915" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2972~2975" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3023~3026" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3317~3320" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3421~3424" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3502~3505" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3535~3538" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3794~3797" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="3869~3872" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="4099~4102" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="4245~4248" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="5011~5014" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="5108~5111" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="5172~5175" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="5868~5871" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="6254~6257" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="6418~6421" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="6515~6518" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="7552~7555" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="7678~7681" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="7771~7774" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="8174~8177" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="9~23" text="overexpression" location="result" relation="increased expression" />
+<RELATION id="R1" spans="27~53,58~69" text="positively associated with ... progression" location="result" relation="negative prognostic marker" />
+<RELATION id="R2" spans="87~91" text="role" location="result" relation="relation undefined" />
+<RELATION id="R3" spans="254~265" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R4" spans="684~714,719~727" text="positively correlated with low ... survival" location="result" relation="negative prognostic marker" />
+<RELATION id="R5" spans="656~660,669~679" text="high ... expression" location="result" relation="increased expression" />
+<RELATION id="R6" spans="732~762,767~775" text="inversely correlated with high ... survival" location="result" relation="negative prognostic marker" />
+<RELATION id="R7" spans="825~840,845~856" text="associated with ... progression" location="result" relation="prognostic indicator" />
+<RELATION id="R8" spans="954~958" text="role" location="result" relation="relation undefined" />
+<RELATION id="R9" spans="1992~2007,2012~2023" text="associated with ... progression" location="result" relation="prognostic indicator" />
+<RELATION id="R10" spans="2061~2074" text="overexpressed" location="result" relation="increased expression" />
+<RELATION id="R11" spans="2107~2121" text="poor prognosis" location="result" relation="negative prognostic marker" />
+<RELATION id="R12" spans="2163~2177" text="good prognosis" location="result" relation="positive prognostic marker" />
+<RELATION id="R13" spans="2542~2559" text="prognostic factor" location="result" relation="prognostic indicator" />
+<RELATION id="R14" spans="2690~2708" text="prognostic factors" location="result" relation="prognostic indicator" />
+<RELATION id="R15" spans="2896~2911,2916~2927" text="associated with ... progression" location="result" relation="prognostic indicator" />
+<RELATION id="R16" spans="2950~2967" text="prognostic factor" location="result" relation="prognostic indicator" />
+<RELATION id="R17" spans="3042~3068" text="resistance to chemotherapy" location="result" relation="therapy resistance" />
+<RELATION id="R18" spans="3384~3399" text="drug resistance" location="result" relation="therapy resistance" />
+<RELATION id="R20" spans="3460~3498" text="role in the initiation and progression" location="result" relation="pathological role" />
+<RELATION id="R21" spans="3859~3868" text="regulates" location="result" relation="pathological role" />
+<RELATION id="R22" spans="4992~5007" text="drug resistance" location="result" relation="therapy resistance" />
+<RELATION id="R23" spans="5127~5153" text="resistance to chemotherapy" location="result" relation="therapy resistance" />
+<RELATION id="R25" spans="6422~6448" text="initiation and development" location="background" relation="pathological role" />
+<RELATION id="R26" spans="7568~7594" text="resistance to chemotherapy" location="result" relation="therapy resistance" />
+<RELATION id="R27" spans="7682~7708" text="initiation and development" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="GRAMD1A" diseaseID="D0" diseaseText="HCC" relationID="R0" relationText="overexpression" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="GRAMD1A" diseaseID="D0" diseaseText="HCC" relationID="R1" relationText="positively associated with ... progression" />
+<ENTITY_LINKING id="E2" geneID="G1" geneText="GRAMD1A" diseaseID="D1" diseaseText="HCC" relationID="R2" relationText="role" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="GRAMD1A" diseaseID="D3" diseaseText="HCC" relationID="R3" relationText="upregulated" />
+<ENTITY_LINKING id="E4" geneID="G7" geneText="GRAMD1A" diseaseID="D6" diseaseText="HCC" relationID="R5" relationText="high ... expression" />
+<ENTITY_LINKING id="E5" geneID="G7" geneText="GRAMD1A" diseaseID="D6" diseaseText="HCC" relationID="R4" relationText="positively correlated with low ... survival" />
+<ENTITY_LINKING id="E6" geneID="G7" geneText="GRAMD1A" diseaseID="D7" diseaseText="HCC" relationID="R6" relationText="inversely correlated with high ... survival" />
+<ENTITY_LINKING id="E7" geneID="G8" geneText="GRAMD1A" diseaseID="D8" diseaseText="HCC" relationID="R7" relationText="associated with ... progression" />
+<ENTITY_LINKING id="E8" geneID="G9" geneText="GRAMD1A" diseaseID="D9" diseaseText="HCC" relationID="R8" relationText="role" />
+<ENTITY_LINKING id="E9" geneID="G16" geneText="GRAMD1A" diseaseID="D11" diseaseText="HCC" relationID="R9" relationText="associated with ... progression" />
+<ENTITY_LINKING id="E10" geneID="G17" geneText="GRAMD1A" diseaseID="D12" diseaseText="HCC" relationID="R10" relationText="overexpressed" />
+<ENTITY_LINKING id="E11" geneID="G17" geneText="GRAMD1A" diseaseID="D12" diseaseText="HCC" relationID="R11" relationText="poor prognosis" />
+<ENTITY_LINKING id="E12" geneID="G17" geneText="GRAMD1A" diseaseID="D13" diseaseText="HCC" relationID="R12" relationText="good prognosis" />
+<ENTITY_LINKING id="E13" geneID="G21" geneText="GRAMD1A" diseaseID="D14" diseaseText="HCC" relationID="R13" relationText="prognostic factor" />
+<ENTITY_LINKING id="E14" geneID="G22" geneText="GRAMD1A" diseaseID="D15" diseaseText="HCC" relationID="R14" relationText="prognostic factors" />
+<ENTITY_LINKING id="E15" geneID="G23" geneText="GRAMD1A" diseaseID="D17" diseaseText="HCC" relationID="R15" relationText="associated with ... progression" />
+<ENTITY_LINKING id="E16" geneID="G23" geneText="GRAMD1A" diseaseID="D18" diseaseText="HCC" relationID="R16" relationText="prognostic factor" />
+<ENTITY_LINKING id="E17" geneID="G24" geneText="GRAMD1A" diseaseID="D19" diseaseText="HCC" relationID="R17" relationText="resistance to chemotherapy" />
+<ENTITY_LINKING id="E18" geneID="G28" geneText="GRAMD1A" diseaseID="D21" diseaseText="HCC" relationID="R18" relationText="drug resistance" />
+<ENTITY_LINKING id="E19" geneID="G29" geneText="GRAMD1A" diseaseID="D22" diseaseText="HCC" relationID="R20" relationText="role in the initiation and progression" />
+<ENTITY_LINKING id="E20" geneID="G33" geneText="GRAMD1A" diseaseID="D25" diseaseText="HCC" relationID="R21" relationText="regulates" />
+<ENTITY_LINKING id="E21" geneID="G48" geneText="GRAMD1A" diseaseID="D28" diseaseText="HCC" relationID="R22" relationText="drug resistance" />
+<ENTITY_LINKING id="E22" geneID="G49" geneText="GRAMD1A" diseaseID="D29" diseaseText="HCC" relationID="R23" relationText="resistance to chemotherapy" />
+<ENTITY_LINKING id="E23" geneID="G62" geneText="STAT3" diseaseID="D33" diseaseText="HCC" relationID="R25" relationText="initiation and development" />
+<ENTITY_LINKING id="E24" geneID="G88" geneText="GRAMD1A" diseaseID="D35" diseaseText="HCC" relationID="R26" relationText="resistance to chemotherapy" />
+<ENTITY_LINKING id="E25" geneID="G90" geneText="GRAMD1A" diseaseID="D36" diseaseText="HCC" relationID="R27" relationText="initiation and development" />
+</TAGS>
+</Genomics_ConceptTask>

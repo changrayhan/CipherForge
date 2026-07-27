@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Data Source and Study Population
+The Korean Genome and Epidemiology Study (KoGES) is a population-based prospective cohort study conducted by the Korea National Institute of Health [ 23 ]. The main objective of the KoGES was to evaluate the genetic and environmental factors associated with a variety of common diseases [ 23 ]. We used the KoGES Health Examinee (HEXA) cohort data, including those of urban residence participants aged ≥40 years. Baseline HEXA data were collected from 2004 to 2013 and the follow-up data from 2012 to 2016. There were 65,616 adults who participated in both baseline and follow-up examinations. We excluded participants who had hyperuricemia (serum uric acid level of >7.0 mg/dL for men and >6.0 mg/dL for women;  n  = 4144), cardiovascular diseases ( n  = 2277), cancer ( n  = 2102), and renal diseases ( n  = 33) at baseline. After the exclusion of participants with no dietary data ( n  = 846) or implausible energy intake (<500 kcal/day or >5000 kcal/day) ( n  = 468), missing information on covariates ( n  = 11,263), and incomplete biochemical data ( n  = 108), a total of 44,375 (13,655 men and 30,720 women) participants were finally included ( Figure 1 ).
+2.2. Dietary Data, PRAL, and NEAP Score
+A validated semi-quantitative food frequency questionnaire (FFQ) with 106 food and beverage items was used to evaluate the dietary intake at baseline [ 24 ]. The FFQ consisted of a total of nine frequency items from “never/rarely” to “≥3 times a day” and three portion size options (0.5, 1.0, and 2 standard portion sizes). The frequency consumption of each food and beverage was multiplied by its caloric and nutrient values and then summed for all foods and beverages for each individual. Food and beverage items were aggregated into grains and grain products, rice, vegetables, fruits, meat and meat products, fish and shellfish, and milk and dairy products based on the previous studies [ 25 , 26 , 27 ].
+Using the following formulas, we calculated the PRAL and NEAP scores.
+PRAL (mEq/day) = [protein (g/day) × 0.49 + phosphorus (mg/day) × 0.037] − [potassium (mg/day) × 0.0211 − magnesium (mg/day) × 0.0263 − calcium (mg/day) × 0.013] [ 17 ].
+NEAP (mEq/day) = [protein (g/day) × 54.5/potassium (mEq/day)] − 10.2 [ 28 ].
+To derive the energy-adjusted dietary acid load from dietary intake, the residual method was used for dietary protein, phosphorous, potassium, magnesium, and calcium intake [ 29 ]. Positive scores indicated a highly acidic diet, and negative scores indicated a highly alkaline diet.
+2.3. Incidence of Hyperuricemia
+Hyperuricemia was defined as a serum uric acid level of >7.0 mg/dL in men and >6.0 mg/dL in women, according to previous studies [ 30 , 31 , 32 , 33 ]. The endpoint for this analysis was the date of follow-up examination.
+2.4. Statistical Analyses
+Sociodemographic, lifestyle, and dietary factors were expressed as means and standard deviations (SDs) for continuous variables and  n  (%) for categorical variables according to the quartiles of the PRAL and NEAP scores. The chi-square test was used for categorical variables and a general linear regression model was used for continuous variables to examine whether there was a significant difference in each variable according to the quartiles of the PRAL. Three models of multivariable Cox proportional hazard models were used to calculate the hazard ratios (HRs) and 95% confidence intervals (CIs) for hyperuricemia according to the quartiles of the PRAL and NEAP score: model 1 was unadjusted; model 2 was adjusted for age (years, continuous) and sex (men or women); and model 3 was additionally adjusted for educational level (≤elementary school, middle school, high school, or ≥college), smoking status (non-smoker, past smoker, or current smoker), drinking status (non-drinker, past drinker, or current drinker), physical activity (no or yes), body mass index (BMI; kg/m 2 , continuous), and examination site. All statistical analyses were performed using the SAS software (version 9.4; SAS Institute, Inc., Cary, NC, USA). Statistical significance was set at  p  < 0.05.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="666~679" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D1" spans="802~808" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="2569~2582" text="Hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D3" spans="2583~2596" text="Hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

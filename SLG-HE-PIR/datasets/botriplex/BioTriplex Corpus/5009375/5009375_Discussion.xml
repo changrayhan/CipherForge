@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+GRAMD1A is a newly discovered gene, it’s function never been reported in the development of various diseases. In present study, we analyzed the role of GRAMD1A in HCC prognosis and progression, and found GRAMD1A was upregulated in HCC tissues, GRAMD1A expression was significantly positively correlated with pathologic differentiation and survival state, patients with high GRAMD1A had poor outcome, Further analysis revealed GRAMD1A was an independent prognostic factor for HCC patients.
+We found GRAMD1A overexpression promoted the self-renewal of HCC stem cells, the resistance to chemotherapy and tumor growth. Here, we found GRAMD1A regulated the target genes of STAT5, such as CyclinD1, Bcl-2, c-jun and c-Myc. GRAMD1A also regulated the transcriptional activity of STAT5, overexpression of STAT5 promoted the STAT5 activity, while knockdown of STAT5 inhibited the STAT5 activity. This finding suggested GRAMD1A regulated STAT5 expression, but we couldn’t study whether GRAMD1A regulates the phosphorylation of STAT5 and the location of STAT5. The molecular mechanisms of GRAMD1A are still to be elucidated, the direct interaction proteins of GRAMD1A must be analyzed using co-immunoprecipitation coupled with tandem mass spectrometry.
+Previous results have demonstrated that STAT5 which has two isoforms, STA5A and STAT5B, plays critical role in normal and malignant cells, it can be phosphorylated by Jak2, and causes it translocate to nuclear to regulate the transcription of STAT5′ target genes 21 22 . For example, STAT5 promotes the proliferation, survival and self-renewal of hematopoietic stem cell 23 24 . STAT5 increases the AR stability, promotes castration-resistant prostate cancer growth, tumor metastasis and the self-renewal of prostate cancer stem cells 25 26 27 .
+The role of STAT5 in HCC progression is studied by several labs, but their results are contradictory. Lother Hennighausen,  et al . find CCl4 induces liver tumorigenesis in STAT5 knockout mice by increasing TGF-β stability and STAT3 activity, the N-terminal of STAT5 interacts with TGF-β to decrease TGF-β levels, overexpression of N-terminal STAT5 inhibits HCC formation. TGF-β upregulation abrogates growth hormone-induced STAT5 activation. Instead, TGF-β upregulation promotes growth hormone-induced STAT3 activation 28 . Meanwhile, they find STAT5 is essential for growth hormone induced NOX4 expression, in turn induces ROS generation and proapototic proteins PUMA and BIM expression 29 . Other labs also find in growth hormone signaling hyperactivated mice, deletion STAT5 protects liver tumorigenesis 30 . Knockdown of STAT5 in HCC cell SMMC7721 inhibits cell proliferation and induce apoptosis 31 . These findings suggest STAT5 is a tumor suppressor for HCC. Other labs also find STAT5B level is positively correlated with HCC progression, overexpression of STAT5B promotes epithelial-mesenchymal transition (EMT) and invasion in HCC induced by HBV 32 . We found knockdown of STAT5 in Huh-7 and HepG2 with GRAMD1A overexpression suppressed the self-renewal of HCC stem cells, resistance to chemotherapy and tumor growth, suggesting STAT5 was an oncogene. The role of STAT5 in HCC might be context-dependent.
+In summary, we provide evidences that GRAMD1A is a prognostic factor, it promotes the self-renewal of HCC stem cells, resistance to chemotherapy and tumor growth through regulating STAT5.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~8" text="GRAMD1A" location="background" />
+<GENE id="G1" spans="153~160" text="GRAMD1A" location="result" />
+<GENE id="G2" spans="205~212" text="GRAMD1A" location="result" />
+<GENE id="G3" spans="245~252" text="GRAMD1A" location="result" />
+<GENE id="G4" spans="375~382" text="GRAMD1A" location="result" />
+<GENE id="G5" spans="427~434" text="GRAMD1A" location="result" />
+<GENE id="G6" spans="499~506" text="GRAMD1A" location="result" />
+<GENE id="G7" spans="631~638" text="GRAMD1A" location="result" />
+<GENE id="G8" spans="669~674" text="STAT5" location="result" />
+<GENE id="G9" spans="684~692" text="CyclinD1" location="result" />
+<GENE id="G10" spans="694~699" text="Bcl-2" location="result" />
+<GENE id="G11" spans="701~706" text="c-jun" location="result" />
+<GENE id="G12" spans="711~716" text="c-Myc" location="result" />
+<GENE id="G13" spans="718~725" text="GRAMD1A" location="result" />
+<GENE id="G14" spans="773~778" text="STAT5" location="result" />
+<GENE id="G15" spans="798~803" text="STAT5" location="result" />
+<GENE id="G16" spans="817~822" text="STAT5" location="result" />
+<GENE id="G17" spans="852~857" text="STAT5" location="result" />
+<GENE id="G18" spans="872~877" text="STAT5" location="result" />
+<GENE id="G19" spans="911~918" text="GRAMD1A" location="result" />
+<GENE id="G20" spans="929~934" text="STAT5" location="result" />
+<GENE id="G21" spans="977~984" text="GRAMD1A" location="result" />
+<GENE id="G22" spans="1018~1023" text="STAT5" location="result" />
+<GENE id="G23" spans="1044~1049" text="STAT5" location="result" />
+<GENE id="G24" spans="1079~1086" text="GRAMD1A" location="result" />
+<GENE id="G25" spans="1150~1157" text="GRAMD1A" location="result" />
+<GENE id="G26" spans="1283~1288" text="STAT5" location="background" />
+<GENE id="G27" spans="1410~1414" text="Jak2" location="background" />
+<GENE id="G28" spans="1486~1491" text="STAT5" location="background" />
+<GENE id="G29" spans="1527~1532" text="STAT5" location="background" />
+<GENE id="G30" spans="1622~1627" text="STAT5" location="background" />
+<GENE id="G31" spans="1801~1806" text="STAT5" location="background" />
+<GENE id="G32" spans="1926~1930" text="CCl4" location="background" />
+<GENE id="G33" spans="1962~1967" text="STAT5" location="background" />
+<GENE id="G34" spans="1996~2001" text="TGF-β" location="background" />
+<GENE id="G35" spans="2016~2021" text="STAT3" location="background" />
+<GENE id="G36" spans="2050~2055" text="STAT5" location="background" />
+<GENE id="G37" spans="2071~2076" text="TGF-β" location="background" />
+<GENE id="G38" spans="2089~2094" text="TGF-β" location="background" />
+<GENE id="G39" spans="2132~2137" text="STAT5" location="background" />
+<GENE id="G40" spans="2162~2167" text="TGF-β" location="background" />
+<GENE id="G41" spans="2214~2219" text="STAT5" location="background" />
+<GENE id="G42" spans="2241~2246" text="TGF-β" location="background" />
+<GENE id="G43" spans="2292~2297" text="STAT3" location="background" />
+<GENE id="G44" spans="2335~2340" text="STAT5" location="background" />
+<GENE id="G45" spans="2381~2385" text="NOX4" location="background" />
+<GENE id="G46" spans="2414~2417" text="ROS" location="background" />
+<GENE id="G47" spans="2454~2458" text="PUMA" location="background" />
+<GENE id="G48" spans="2463~2466" text="BIM" location="background" />
+<GENE id="G49" spans="2562~2567" text="STAT5" location="background" />
+<GENE id="G50" spans="2615~2620" text="STAT5" location="background" />
+<GENE id="G51" spans="2719~2724" text="STAT5" location="background" />
+<GENE id="G53" spans="2777~2782" text="STAT5" location="background" />
+<GENE id="G54" spans="1323~1328" text="STAT5" location="background" />
+<GENE id="G55" spans="2855~2860" text="STAT5" location="background" />
+<GENE id="G56" spans="2973~2978" text="STAT5" location="result" />
+<GENE id="G57" spans="3003~3010" text="GRAMD1A" location="result" />
+<GENE id="G58" spans="3129~3134" text="STAT5" location="result" />
+<GENE id="G59" spans="3164~3169" text="STAT5" location="result" />
+<GENE id="G60" spans="3243~3250" text="GRAMD1A" location="result" />
+<GENE id="G61" spans="3386~3391" text="STAT5" location="result" />
+<DISEASE id="D0" spans="164~167" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="232~235" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="476~479" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="551~554" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1695~1701" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="1751~1766" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1810~1813" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2147~2150" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2624~2627" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2751~2754" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2820~2823" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2927~2930" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3057~3060" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3173~3176" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3307~3310" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="145~149" text="role" location="result" relation="relation undefined" />
+<RELATION id="R1" spans="217~228" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R2" spans="454~471" text="prognostic factor" location="result" relation="prognostic indicator" />
+<RELATION id="R4" spans="1793~1797" text="role" location="result" relation="relation undefined" />
+<RELATION id="R6" spans="3156~3160" text="role" location="result" relation="relation undefined" />
+<RELATION id="R7" spans="3256~3273" text="prognostic factor" location="result" relation="prognostic indicator" />
+<RELATION id="R8" spans="3323~3349" text="resistance to chemotherapy" location="result" relation="therapy resistance" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="GRAMD1A" diseaseID="D1" diseaseText="HCC" relationID="R1" relationText="upregulated" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="GRAMD1A" diseaseID="D0" diseaseText="HCC" relationID="R0" relationText="role" />
+<ENTITY_LINKING id="E2" geneID="G5" geneText="GRAMD1A" diseaseID="D2" diseaseText="HCC" relationID="R2" relationText="prognostic factor" />
+<ENTITY_LINKING id="E3" geneID="G31" geneText="STAT5" diseaseID="D6" diseaseText="HCC" relationID="R4" relationText="role" />
+<ENTITY_LINKING id="E4" geneID="G59" geneText="STAT5" diseaseID="D13" diseaseText="HCC" relationID="R6" relationText="role" />
+<ENTITY_LINKING id="E5" geneID="G60" geneText="GRAMD1A" diseaseID="D14" diseaseText="HCC" relationID="R7" relationText="prognostic factor" />
+<ENTITY_LINKING id="E6" geneID="G60" geneText="GRAMD1A" diseaseID="D14" diseaseText="HCC" relationID="R8" relationText="resistance to chemotherapy" />
+</TAGS>
+</Genomics_ConceptTask>

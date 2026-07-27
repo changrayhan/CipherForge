@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Study on the Expression Profile of Autophagy-Related Genes in Colon Adenocarcinoma.
+Abstract: Colon adenocarcinoma (COAD) is a common digestive tract tumor. Autophagy-related genes (ARGs) may play an obbligato role in the biological processes of COAD. This study was aimed at exploring the role of ARGs in COAD. Clinical data and RNA sequencing data of tumor and healthy samples were obtained from The Cancer Genome Atlas (TCGA), and discrepantly expressed ARGs were screened. Statistical differences of ARGs were performed with Gene Ontology (GO) functional annotation and the Kyoto Encyclopedia of Genes and Genomes pathway enrichment analysis. Eight ARGs were selected by univariate Cox and multivariate Cox regression. Kaplan–Meier (K-M) and multivariate receiver operating characteristic (multi-ROC) were used to check the fitness of the model. Among 398 COAD samples and 39 normal samples obtained from the TCGA database, 37 differentially expressed ARGs were screened. In the training group, eight prognostics-related ARGs (MTMR14, VAMP3, HSPA8, TSC1, DAPK1, CX3CL1, ATG13, and MAP1LC3C) were identified by Cox regression. A gene signature risk prediction model was constructed base on 8 autophagy-related genes. The survival time of the low-risk group was longer than the high-risk group, and the AUC of the model was 0.794. Univariate and multivariate Cox regression analysis showed that age and riskscore were the independent predictor. In conclusion, the prognosis model we built based one ARGs of COAD patients can estimate the prognosis of patients in clinical treatment.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1039~1045" text="MTMR14" location="result" />
+<GENE id="G1" spans="1047~1052" text="VAMP3" location="result" />
+<GENE id="G2" spans="1054~1059" text="HSPA8" location="result" />
+<GENE id="G3" spans="1061~1065" text="TSC1" location="result" />
+<GENE id="G4" spans="1067~1072" text="DAPK1" location="result" />
+<GENE id="G5" spans="1074~1080" text="CX3CL1" location="result" />
+<GENE id="G6" spans="1082~1087" text="ATG13" location="result" />
+<GENE id="G7" spans="1093~1101" text="MAP1LC3C" location="result" />
+<DISEASE id="D0" spans="70~90" text="Colon Adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="102~122" text="Colon adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="124~128" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="254~258" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="314~318" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="868~872" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1517~1521" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1013~1032" text="prognostics-related" location="result" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="MTMR14" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="VAMP3" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="HSPA8" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="TSC1" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="DAPK1" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="CX3CL1" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+<ENTITY_LINKING id="E6" geneID="G6" geneText="ATG13" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+<ENTITY_LINKING id="E7" geneID="G7" geneText="MAP1LC3C" diseaseID="D5" diseaseText="COAD" relationID="R0" relationText="prognostics-related" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,7 @@
+2026-07-24 16:03:44,199 [INFO] attack_suite: Log file: SLG-attack-test/results/run_20260724_160344/attack_test.log
+2026-07-24 16:03:44,199 [INFO] attack_suite: Using synthetic data mode
+2026-07-24 16:03:44,199 [INFO] attack_suite: ============================================================
+2026-07-24 16:03:44,199 [INFO] attack_suite: Protocol initialisation (simplified mode)
+2026-07-24 16:03:44,199 [INFO] attack_suite: ============================================================
+2026-07-24 16:03:46,599 [ERROR] attack_suite: Dataset not found: argument of type 'int' is not iterable
+2026-07-24 16:03:46,600 [ERROR] attack_suite: Protocol init failed: argument of type 'int' is not iterable

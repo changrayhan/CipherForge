@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In the past 20 years, the number of publications related to NDDS for PC has increased, indicating that the interest of scholars in this field is increasing. The United States is absolutely in the leading position in the field of NDDS for PC research. In terms of publication volume and global institutional cooperation, Chinese Acad SCI has made the greatest contribution in this field. Professors Couvreur P and Kazuoka K made great achievements in this field.  JOURNAL OF CONTROLLED RELEASE  is at the core of the publishing of NDDS for PC research. The topics related to the TME such as “tumor microenvironment”, “tumor penetration”, “hypoxia”, “exosome”, and “autophagy”, PC treatment-related topics such as “immunotherapy”, “combination therapy”, “alternating magnetic field/magnetic hyperthermia”, and “ultrasound”, and gene therapy dominated by “siRNA” and “miRNA” are the research hotspots and trends in the field of NDDS for PC.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="70~72" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="239~241" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="540~542" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="677~679" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="935~937" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Relationship between Gingival Crevicular Fluid Microbiota and Cytokine Profile in Periodontal Host Homeostasis.
+Abstract: As potential biomarkers in periodontitis, microbiome, and cytokines have recently been extensively investigated, but combined analyses of the variations between the microbial structure and cytokine composition are rare. The present study aimed to investigate whether there are differences in the combined profile of microbiome and cytokines in individuals with or without periodontitis. The microbiome and cytokine composition in gingival crevicular fluid (GCF) from 16 patients and 15 controls from Jishi Shan (Gansu, China) were analyzed using 454 pyrosequencing and RayBio Quantibody Arrays. The results showed that a higher co-occurrence of genera in periodontitis group compared with the healthy group, as evaluated by Schoener's abundance-based co-occurrence index. C-reactive protein (CRP) was significantly ( P  < 0.05) higher in the GCF of the periodontitis group while interleukin (IL)-8 was significantly ( P  < 0.01) higher in the GCF of the healthy group. The Mantel test revealed a significant concordance between cytokines and microbiota, in the healthy group (Mantel statistic  r  = 0.36,  P  ≤ 0.05) but not in the periodontitis group (Mantel statistic  r  = 0.013,  P  = 0.434). The results were further confirmed by the Procrustes test. Matrix metalloproteinase (MMP)-9, osteoactivin, IL-8, and macrophage inflammatory protein (MIP)-1a were significantly associated with bacterial composition at the phylum, class, order, family, and genus levels. CRP was also associated with bacterial composition at the species level. In conclusion, alterations in the polymicrobial community structure leads to disruption in the healthy correlation between cytokines and microbiomes. This dysbiosis between the microbiota and the immune response could be one of the major etiological mechanisms underlying periodontitis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="902~920" text="C-reactive protein" location="result" />
+<GENE id="G1" spans="922~925" text="CRP" location="result" />
+<GENE id="G2" spans="1009~1027" text="interleukin (IL)-8" location="result" />
+<GENE id="G3" spans="1386~1418" text="Matrix metalloproteinase (MMP)-9" location="result" />
+<GENE id="G4" spans="1420~1432" text="osteoactivin" location="result" />
+<GENE id="G5" spans="1434~1438" text="IL-8" location="result" />
+<GENE id="G6" spans="1444~1484" text="macrophage inflammatory protein (MIP)-1a" location="result" />
+<GENE id="G7" spans="1597~1600" text="CRP" location="result" />
+<DISEASE id="D0" spans="157~170" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="502~515" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="785~798" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="983~996" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1942~1955" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1262~1275" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="931~964" text="significantly ( P  &amp;lt; 0.05) higher" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="C-reactive protein" diseaseID="D3" diseaseText="periodontitis" relationID="R0" relationText="significantly ( P  &amp;lt; 0.05) higher" />
+<ENTITY_LINKING id="E1" geneID="" geneText="" diseaseID="" diseaseText="" relationID="" relationText="" />
+</TAGS>
+</Genomics_ConceptTask>

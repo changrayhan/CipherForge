@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Effects of White Rice, Brown Rice, and Parboiled Germinated Brown Rice Diets on Heart and Body Weight
+At the end of the experiment, the heart and body weights of all rats were determined.  Table 1  shows that the L-NAME-exposed group (hypertensive rats) acquired considerably more body weight than the control group (388 ± 7.64 vs. 316 ± 53.8 g;  p -value < 0.05). This observation was also found in the white rice (WR), brown rice (BR), and parboiled germinated brown rice (PGBR)-treated groups. The L-NAME-treated rats gained body weight, but heart weight and heart/body weight ratio remained unaffected ( Table 1 ). The diet consumption record of all groups is shown in  Supplementary Figure S1 . The rice consumption amounts in the WR, BR, and PGBR groups were 10.5 ± 1.8, 10.5 ± 2.1, and 11.0 ± 2.3 g/kg body weight, respectively.
+3.2. Effects of White Rice, Brown Rice, and Parboiled Germinated Brown Rice Diets on Systolic Blood Pressure
+To observe the anti-hypertensive properties of the WR, BR, and PGBR treatments, rats were administered L-NAME for four weeks to assure the successful elevation of the systolic blood pressure (SBP). At week 0 in  Figure 2 , L-NAME significantly induced SBP in rats compared to the control group. After the successful elevation of systolic blood pressure (SBP), rats were exposed to losartan (Los, an anti-hypertensive drug), WR, BR, and PGBR for an additional eight weeks, and the SBP was measured weekly using a noninvasive tail cuff. After treatment with Los, the SBP dropped to normal within two weeks and remained constant until the end of the experiment, confirming its potent anti-hypertensive properties. Interestingly, BR- and PGBR-exposed rats showed a gradual decrease in SBP over the experimental period. PGBR was more potent than BR at week 8 ( Figure 2 ), while the WR diet showed the smallest anti-hypertensive properties when compared with the other rice. Both the BR and PGBR diets showed anti-hypertensive properties, with PGBR being the most potent among the three types of rice.
+3.3. Effects of White Rice, Brown Rice, and Parboiled Germinated Brown Rice on Gene Expression in Heart Tissue
+  shows the promising anti-hypertensive effects of BR and PGBR. Therefore, the heart tissues of PGBR-treated rats were further investigated for gene expression, including (i) the renin–angiotensin system, such as AT1R; (ii) the TGF-β, collagen type I (Col I), and collagen type III (Col III) genes, which are involved in fibrosis; (iii) the NADPH oxidase (NOX4) gene, which is involved in oxidative stress production; and (iv) antioxidant enzymes and nitric oxide-producing enzymes (glutathione peroxidase (GPx), catalase (CAT), superoxide dismutase (SOD), and endothelial nitric oxide synthase (eNOS)).  Figure 3  and  Figure 4  demonstrate that L-NAME-treated rats showed significantly increased gene expression of AT1R, TGF-β, Col I, and GPx. In the Los-exposed group, the expression of AT1R, TGF-β, and NOX4 decreased, even though the expression of most antioxidant enzymes remained unchanged, indicating that in our condition AT1R, TGF-β, and NOX4 might be therapeutic targets for Los in the treatment of hypertension. Interestingly, the PGBR-treated group significantly suppressed AT1R and TGF-β expression at the same level as the control and Los-treated groups ( Figure 3 ). Although NOX4 was not statistically reduced, a clear trend of reduction was obtained. Therefore, PGBR might lower SBP by targeting AT1R, TGF-β, and NOX4, similar to the anti-hypertensive drug (Los), while the antioxidant enzymes may be neglected.
+3.4. Effect of PGBR on Heart Histopathological Changes
+The heart wall is composed of three layers, from the inside to the outside: the endocardium, myocardium, and epicardium. Several types of lesions are induced during hypertension. Thus, to ensure the anti-hypertensive properties of PGBR, we performed a histopathological analysis using H&E staining for lesion quantification. Representative figures of normal myocardial fibers, myocardial necrosis, inflammatory infiltration, and myocardial fibrosis and scar formation, which were scored in the present study, are shown in  Table 2  and  Figure 5 . In the L-NAME group, lesions were found in all layers, with focally endothelial hyperplasia in the epicardium. In the myocardium, cellular degeneration to necrosis in inflammatory cells was observed. In the sub-endocardium, large focal branching fibrosis, acute to chronic hemorrhages, and focal collagen deposits were frequently found. The outer epicardium showed cellular hyperplasia with mimic mononuclear cell infiltration. A cardiomyopathy analysis revealed degeneration, necrosis, inflammatory cell infiltration, and fibrosis/collagen scar formation. Treatment with PGBR in hypertensive rats showed a lower amount of cardiomyopathy compared with the L-NAME-induced hypertensive rat group, indicating an improvement in cardiac histology from PGBR after hypertension.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2372~2376" text="AT1R" location="result" />
+<GENE id="G1" spans="2500~2513" text="NADPH oxidase" location="result" />
+<GENE id="G2" spans="2515~2519" text="NOX4" location="result" />
+<GENE id="G3" spans="2642~2664" text="glutathione peroxidase" location="result" />
+<GENE id="G4" spans="2672~2680" text="catalase" location="result" />
+<GENE id="G5" spans="2682~2685" text="CAT" location="result" />
+<GENE id="G6" spans="2688~2708" text="superoxide dismutase" location="result" />
+<GENE id="G7" spans="2710~2713" text="SOD" location="result" />
+<GENE id="G8" spans="2720~2753" text="endothelial nitric oxide synthase" location="result" />
+<GENE id="G9" spans="2755~2759" text="eNOS" location="result" />
+<GENE id="G10" spans="2876~2880" text="AT1R" location="result" />
+<GENE id="G11" spans="2949~2953" text="AT1R" location="result" />
+<GENE id="G12" spans="2966~2970" text="NOX4" location="result" />
+<GENE id="G13" spans="3090~3094" text="AT1R" location="result" />
+<GENE id="G14" spans="3107~3111" text="NOX4" location="result" />
+<GENE id="G15" spans="3246~3250" text="AT1R" location="result" />
+<GENE id="G16" spans="3351~3355" text="NOX4" location="result" />
+<GENE id="G17" spans="3473~3477" text="AT1R" location="result" />
+<GENE id="G18" spans="3490~3494" text="NOX4" location="result" />
+<DISEASE id="D0" spans="3169~3181" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="3809~3821" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="4622~4636" text="cardiomyopathy" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="4815~4829" text="cardiomyopathy" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="4950~4963" text="hypertension." location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="3121~3140" text="therapeutic targets" location="result" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G13" geneText="AT1R" diseaseID="D0" diseaseText="hypertension" relationID="R0" relationText="therapeutic targets" />
+<ENTITY_LINKING id="E1" geneID="G14" geneText="NOX4" diseaseID="D0" diseaseText="hypertension" relationID="R0" relationText="therapeutic targets" />
+</TAGS>
+</Genomics_ConceptTask>

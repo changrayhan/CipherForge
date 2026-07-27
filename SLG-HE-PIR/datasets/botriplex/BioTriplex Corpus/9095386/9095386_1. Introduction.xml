@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Colon cancer is a widely known tumor, and its incidence rate is increasing. Epidemiological studies have shown that approximately 10% of all cancer deaths is caused by colon cancer and related complications [ 1 ]. Colon adenocarcinoma is the most common, accounting for 98% of colon carcinoma cases [ 2 ]. Colon cancer has a high recurrence rate after treatment, 42% of patients will relapse within 5 years, and the median time from recurrence to death is 12 months [ 3 ]. In addition, the molecular mechanism of colon cancer is still unclear. Therefore, we decided to explore the molecular mechanism of COAD.
+Autophagy is an important metabolic process that occurs only in eukaryotic cells. It enables lysosomes to decompose abnormal, dysfunctional proteins and organelles and can provide nutrients and energy for cells [ 4 ]. In previous studies, autophagy has been found to be involved in multiple physiological processes, especially closely related to cell death, and involved in many signaling pathways. There are sufficient evidences that autophagy can promote or inhibit tumor growth through Bcl-2, EGFR, and other signaling pathways [ 5 ]. Research by Catalano et al. shows that ARGs upregulated two master regulators of epithelial-mesenchymal transition (EMT), SNAIL, and SLUG, to promote EMT [ 6 ]. Zeng and Ju's study suggested that autophagy guided by the Hedgehog signaling pathway leads to tumor cell death [ 7 ]. Sandilands's team found that SRC's autophagy targeted at focal adhesion kinase (FAK) signaling promotes cancer cell survival [ 8 ]. These studies suggest that autophagy may promote tumor occurrence and progression through a variety of signaling pathways.
+Scientists have done a lot of research on the role of autophagy in tumors. Some studies have shown that autophagy can block tumor production. Peng et al.'s team found that BECN1 (encoding BECN1/Beclin 1), which induces autophagy, is cleaved and inactivated by caspase-3 in the absence of an abhydrolase domain containing 5 (ABHD5); ABHD5 increases the genomic instability and promotes the occurrence of cancer [ 9 ]. De et al. found that autophagy can inhibit angiogenesis by inducing endothelial cell death, thus inhibiting tumor growth indirectly [ 10 ]. However, other studies have found that autophagy promotes tumor genesis and growth. A study by Wen et al. showed that autophagy enhanced fatty acid utilization by tumor cells and caused adipocytes' growth-promoting effect blocked. In this study, fatty acid activates autophagy in colon cancer cells and promotes tumor cell growth [ 11 ]. A study has shown that RACK1 promotes the reproduction of colon carcinoma cells by inducing autophagy and enhances the viability of them [ 12 ]. The recurrence of ovarian tumors after dormancy induced by ARHI tumor suppressor also depends on autophagy [ 13 ]. Zhao et al.'s team found that autophagy can enhance the invasiveness of prostate cancer [ 14 ]. Some studies confirmed that the autophagy phenomenon is related to tumor resistance and metastasis [ 15 ]. Sharifi et al. revealed that autophagy plays a significant role in tumor cell migration. Autophagy defective tumor cells cannot decompose focal adhesion and metastasis [ 16 ]. Some studies have confirmed that autophagy can inhibit metastasis of tumor cells. Gugnoni et al.'s team has shown that autophagy can inhibit EMT and cancer metastasis, which can be blocked by cadherin-6 [ 17 ].Therefore, it is very important to explore molecular biomarkers suitable for the clinical treatment and prognosis of colon cancer. Liu et al. [ 18 ] constructed on 13 ARG-based prognostic model using information obtained from the TCGA and HADb databases and finally identified 3 high-risk genes, namely, MAP1LC3C, RAB7A, and WIPI2, as prognostic biomarker genes for CRC.
+In general, considering the contradictory and complex role of autophagy genes in COAD, the novelty and motivation of this study is to explore the law of COAD autophagy by analyzing the ARG expression and corresponding clinical information of the Cancer Genome Atlas (TCGA) database. First, ARGs with differential expression levels in tumor and normal tissues were screened out, and the possible pathways of ARGs were explored by Gene Ontology (GO) functional enrichment and the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway annotation. Then, Cox regression was used to determine which ARGs are associated with the prognosis of COAD patients and used to construct the model. To test the model accuracy, the Kaplan–Meier (K-M) method and the receiver operating characteristic (ROC) curve was plotted.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1100~1105" text="Bcl-2" location="background" />
+<GENE id="G1" spans="1107~1111" text="EGFR" location="background" />
+<GENE id="G2" spans="1271~1276" text="SNAIL" location="background" />
+<GENE id="G3" spans="1282~1286" text="SLUG" location="background" />
+<GENE id="G4" spans="1856~1861" text="BECN1" location="background" />
+<GENE id="G5" spans="1872~1877" text="BECN1" location="background" />
+<GENE id="G6" spans="1878~1886" text="Beclin 1" location="background" />
+<GENE id="G7" spans="1944~1953" text="caspase-3" location="background" />
+<GENE id="G8" spans="1975~2006" text="abhydrolase domain containing 5" location="background" />
+<GENE id="G9" spans="2008~2013" text="ABHD5" location="background" />
+<GENE id="G10" spans="2016~2021" text="ABHD5" location="background" />
+<GENE id="G11" spans="2602~2607" text="RACK1" location="background" />
+<GENE id="G12" spans="3410~3420" text="cadherin-6" location="background" />
+<GENE id="G13" spans="3732~3740" text="MAP1LC3C" location="background" />
+<GENE id="G14" spans="3742~3747" text="RAB7A" location="background" />
+<GENE id="G15" spans="3753~3758" text="WIPI2" location="background" />
+<DISEASE id="D0" spans="1~13" text="Colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="142~148" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="215~235" text="Colon adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="278~293" text="colon carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="307~319" text="Colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="514~526" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="605~609" text="COAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1533~1539" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="2087~2093" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="2521~2533" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2637~2652" text="colon carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2911~2926" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3367~3373" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="3545~3557" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3794~3797" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3880~3884" text="COAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3952~3956" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="4045~4051" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D18" spans="4435~4439" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="3763~3783" text="prognostic biomarker" location="background" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G13" geneText="MAP1LC3C" diseaseID="D14" diseaseText="CRC" relationID="R0" relationText="prognostic biomarker" />
+<ENTITY_LINKING id="E1" geneID="G14" geneText="RAB7A" diseaseID="D14" diseaseText="CRC" relationID="R0" relationText="prognostic biomarker" />
+<ENTITY_LINKING id="E2" geneID="G15" geneText="WIPI2" diseaseID="D14" diseaseText="CRC" relationID="R0" relationText="prognostic biomarker" />
+</TAGS>
+</Genomics_ConceptTask>

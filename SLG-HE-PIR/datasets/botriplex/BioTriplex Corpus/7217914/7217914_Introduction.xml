@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Deemed as the most common primary hepatic malignancy, hepatocellular carcinoma (HCC) is a big threat to human health globally 1 , 2 . It is the sixth most prevalent cancer and the third major cause of cancer-associated mortality all around the world 2 , 3 . Yearly, about 750,000 new cases are determined and ~500,000 death cases are related to HCC 4 . Getting infected with hepatitis B or C virus, abuse of alcohol, cirrhosis, as well as ingestion of aflatoxin B1, have been identified as the common risk factors that induce hepatocarcinogenesis 5 – 9 . Although in the past years, surgical resection has been the major choice for sick person with respectable HCC, tumor recurrence rate is still high after surgery because of the refractory feature of tumor 10 . In spite of strategies adopted to restrain HCC metastasis, no obvious positive effects have appeared 11 . Thus, therapies to prevent the recurrence and metastasis of HCC are still urgently needed. Understanding molecular mechanisms underlying HCC and probing into new therapeutic targets for HCC are crucial at present.
+Emerged as a novel type of RNA, circular RNA (circRNA) is characterized with a closed loop structure without 5′–3′ polarity and apt to be upregulated in the cytoplasm of eukaryotic cells 12 , 13 . CircRNA is largely featured with stability, abundance and conservation, and it is generally expressed in specific tissues or at a particular developmental time 14 , 15 . CircRNA is also considered to exist prevalently in mammals and is primarily associated with gene regulation in vivo 13 , 16 , 17 . A number of studies have uncovered the critical impact that circRNA elicits on the initiation and progression of different kinds of diseases, particularly in human malignancies. For example, hsa_circRNA_0006528 facilitates the proliferation, invasion, and migration of breast cancer cells through targeting miR-7-5p/Raf1 axis 18 . Circ_0001721 indicates poor prognosis in osteosarcoma and drives osteosarcoma progression by sponging miR-569 and miR-599 19 . Hsa_circ_0020123 elevates ZEB1/EZH2 expression to promote non-small cell lung cancer progression by competitively binding with miR-144 and inhibiting miR-144 expression 20 . Intriguingly, existing evidence has also manifested the regulatory role of circRNAs in HCC. For instance, hsa_circ_101280 accelerates HCC cell growth via regulation of miR-375/JAK2 axis 21 . The circRNA circZNF609 whose circBase ID is hsa_circ_0000615, is located at chr15: 64791491–64792365. According to a former study, circZNF609 elicits significant function on myoblast proliferation 22 . Besides, it has been revealed to sponge miR-150-5p to regulate AKT3 expression in Hirschsprung’s disease 23 . Strikingly, a previous investigation has clarified that circZNF609 facilitates cell growth and metastasis by sponging miR-145-5p to elevate p70S6K1 in breast cancer 24 . However, the specific role of circZNF609 in HCC has not been explored up to now. Herein, it’s worth detecting the performance of circZNF609 in HCC.
+The purpose of this current study was to make exploration of the specific function that circZNF609 exerted on HCC development, along with its molecular mechanism. All the findings from this study conclude that circZNF609 enhances HCC cell proliferation, metastasis, and stemness by activating the Hedgehog pathway through the regulation of miR-15a-5p/15b-5p and GLI2 expressions, shedding new light on exploring efficient targets for HCC treatment.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2067~2071" text="ZEB1" location="background" />
+<GENE id="G1" spans="2072~2076" text="EZH2" location="background" />
+<GENE id="G2" spans="2391~2395" text="JAK2" location="background" />
+<GENE id="G3" spans="2671~2675" text="AKT3" location="background" />
+<GENE id="G4" spans="3398~3402" text="GLI2" location="result" />
+<DISEASE id="D0" spans="55~79" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="81~84" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="166~172" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="202~208" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="346~349" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="662~665" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="808~811" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="931~934" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1008~1011" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1057~1060" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1852~1865" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1955~1967" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1979~1991" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2099~2125" text="non-small cell lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2302~2305" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2349~2352" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2869~2882" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2932~2935" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3031~3034" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3146~3149" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3266~3269" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3470~3473" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Progressive multifocal leucoencephalopathy in AIDS camouflaged with catatonia: A wolf in sheep's clothing.
+Abstract: Progressive multifocal leucoencephalopathy (PML) may pose a clinical and diagnostic dilemma. The patient may remain in a protracted psychotic state with negative symptoms, without overt features of dementia. The condition blends with catatonia, and eventually with akinetic mutism in a patient of AIDS in the absence of clinical evidence of an immunocompromised state. The present case report highlights the need for an in-depth clinical, biochemical and MRI assessment of patients with catatonia and akinetic mutism. Stupor of an ‘akinetic mutism’ pattern seems an important indication for HIV screening, particularly in high-risk patients.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="8~50" text="Progressive multifocal leucoencephalopathy" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="54~58" text="AIDS" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="125~167" text="Progressive multifocal leucoencephalopathy" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="169~172" text="PML" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D4" spans="323~331" text="dementia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="390~405" text="akinetic mutism" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="422~426" text="AIDS" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D7" spans="626~641" text="akinetic mutism" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="657~672" text="akinetic mutism" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+4.1. Patient Description
+A male patient, of Armenian origin, was born after full-term pregnancy (38 weeks of gestation) via vaginal delivery without complications. At birth, the patient manifested a scrotal form of hypospadias, small phallus (18 mm) with ventral chordae, bilateral cryptorchidism (testes inside the internal inguinal ring). The fourth degree of virilization was assessed according to the Prader scale. At the age of 6, the patient underwent surgery due to hypospadias, accompanied by orchiopexy. At the age of 10, a comprehensive examination, such as karyotyping, urological examinations (including testicle and pelvic ultrasound investigation), and hormonal analysis (including testosterone synthesis stimulation test) were performed. At the age of 13, urological examinations and the testosterone synthesis stimulation test were repeated. The patient expressed male psycho-sexual identity. His parents consented to endocrine and genetic studies.
+4.2. Hormonal Analysis
+At the age of 10, the patient was subjected to a complex hormonal examination. The levels of AMH, LH, FSH, TSH, PRL, DHEAS, cortisol, and progesterone were determined using the cobas e 411 instrument (Roche Diagnostics, Risch-Rotkreuz, Switzerland) and applying commercial kits (catalogue numbers: 6331076190, 11732234122, 11775863122, 11731459122, 3203093190, 3000087122, 6687733190, 7092539190 respectively (Roche Diagnostics, Risch-Rotkreuz, Switzerland). The efficiency of testosterone synthesis was examined upon 3-day testosterone stimulation with 1500 IU hCG (Pregnyl, Organon, India Ltd.) [ 29 ]. The hCG test was repeated at the age of 13.
+4.3. DNA Isolation and Whole Exome Sequencing (WES)
+Genomic DNA from the blood samples of the proband, his parents, and healthy brother was isolated by using the DNA mini kit (Qiagen, Hilden, Germany). Exome capture was performed on the proband and parents’ DNA samples by using the SureSelect Human All Exon v3 kit (Agilent Inc. ® ). Sequencing was performed on Illumina HiSeq 2000 device, and Fastq files were obtained using the Illumina CASAVA v1.8.1 software. The raw data were analyzed using our bioinformatic pipeline hosted on the Vital-IT Center of the Swiss Institute of Bioinformatics (SIB; [ 30 ]), as previously described [ 30 ]. WES data were analyzed using the VariantMaster software [ 31 ] in order to identify de novo variants, as well as variants with different Mendelian inheritance models (dominant with reduced penetrance, recessive or X-linked).
+4.4. Sanger Sequencing
+The mutation identified in the  FKBP4  gene was validated by Sanger sequencing in the patient, as compared to his parents and the healthy brother. Exon 8 of  FKBP4  gene, in which the mutation was identified, was amplified together with flanking intronic regions on DNA of the proband, his mother, father and brother, using FKBP4_E8_F:AACCTCTTGTGGCCATGTGT and FKBP4_E8_R:GTCACCAAGGGGAAGTTTCA primers. The obtained 386 bp amplicons were sequenced in both directions using the above primers, in separate reactions.
+4.5. Bioinformatics
+The data of the Genome Aggregation Database (gnomAD) [ 32 ], the 1000 genomes project (1000G) [ 33 ], and the Exome Aggregation Consortium (ExAC) Browser [ 34 ] were used to check for the variant allele frequency identified in genes involved in sexual development. The Meta-SNP integrating four algorithms (PANTHER, PhD-SNP, sorting intolerant from tolerant—SIFT and screening for non-acceptable polymorphisms—SNAP) [ 35 ], MutationTaster [ 36 ], and PolyPhen-2 [ 37 ] predictors of functional effect of SNP were used to predict the disease-causing variants identified in the genes involved in sexual development.
+4.6. Accession Numbers 
+Accession numbers of Homo sapiens mRNAs used are:  FKBP4  NM_002014.3,  AKR1C4  NM_001818,  CYP17A1  NM_000102,  FREM2  NM_207361,  IL17RD  NM_017563,  NKD2  NM_001271082. Accession numbers of vertebrate FKBP4 proteins used are:  Homo sapiens  NP_002005.1,  Mus musculus  NP_034349,  Anolis carolinensis  XP_008109533,  Gallus gallus  NP_001006250,  Xenopus laevis  NP_001084593,  Danio rerio  XP_005173673.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2560~2565" text="FKBP4" location="result" />
+<GENE id="G1" spans="2686~2691" text="FKBP4" location="result" />
+<GENE id="G2" spans="2852~2857" text="FKBP4" location="result" />
+<GENE id="G3" spans="2888~2893" text="FKBP4" location="result" />
+<GENE id="G4" spans="3750~3755" text="FKBP4" location="result" />
+<GENE id="G5" spans="3771~3777" text="AKR1C4" location="result" />
+<GENE id="G6" spans="3791~3798" text="CYP17A1" location="result" />
+<GENE id="G7" spans="3812~3817" text="FREM2" location="result" />
+<GENE id="G8" spans="3831~3837" text="IL17RD" location="result" />
+<GENE id="G9" spans="3851~3855" text="NKD2" location="result" />
+<GENE id="G10" spans="3903~3908" text="FKBP4" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

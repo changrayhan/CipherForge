@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+According to statistics regarding cancer incidence and mortality, breast cancer is the most common malignancy diagnosed in females, accounting for nearly one in three cancers [ 1 ]. Breast cancer is also the second leading cause of cancer-related death after lung cancer among women [ 2 ]. With the development of the early screening, detection, and systemic treatment of breast cancer, significant improvements in breast cancer survival outcomes have been made. Thus, women with breast cancer can achieve prolonged survival times and better life expectancies. However, a higher risk of developing a second primary female genital cancer among breast cancer survivors may translate into an important health problem in their lifetimes [ 3 ]. Within 10 years after the initial diagnosis, approximately 10% of breast cancer patients develop a subsequent primary cancer, including second primary endometrial cancer and second primary ovarian cancer [ 4 ].
+Previous studies have suggested a consensus in the increased risk of second primary female genital cancers among breast cancer survivors. A large cohort study reported that women with breast cancer had a 30% excess risk for second primary cancers, particularly for endometrial cancer and ovarian cancer [ 5 ]. The problem of second primary female genital cancers among breast cancer survivors may be related to treatment side effects or to etiological associations for multiple cancers. With the growing interest in identifying possible relationships between second female genital malignancies and first cancers, studies have focused on multiple factors, such as lifestyle, environment, treatment side effects, and hormonal and/or genetic factors. A European study reported that risk factors of second female genital malignancies included the body mass index and smoking status of breast cancer patients [ 5 ]. Moreover, estrogen receptor (ER)-positive breast cancer patients treated with tamoxifen have an increased risk of subsequent endometrial cancer [ 6 ,  7 ]. However, one study has shown that patients with breast cancer have a higher risk of subsequent endometrial cancer regardless of ER or progesterone receptor (PR) status [ 8 ].
+The aims of our study were to systemically evaluate the incidence of second primary female genital cancers in a large cohort of breast cancer patients and to identify risk factors for second primary corpus uteri cancer and ovarian cancer. Using the Surveillance, Epidemiology, and End Results (SEER) database, we calculated the standardized incidence ratio (SIR) for second primary cancers after breast cancer diagnosed between 2000 and 2014. Meanwhile, we used multivariable analysis to examine the risk factors for the development of a second primary female genital cancer after breast cancer.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="67~80" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="183~196" text="Breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="233~239" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="260~271" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="373~386" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="416~429" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="481~494" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="631~637" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="syndrome" />
+<DISEASE id="D8" spans="644~657" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="807~820" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="859~865" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="892~910" text="endometrial cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="930~944" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1051~1057" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D14" spans="1065~1078" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1136~1149" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="1191~1197" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D17" spans="1217~1235" text="endometrial cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="1240~1254" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="1307~1313" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D20" spans="1321~1334" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="1430~1436" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D22" spans="1556~1562" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D23" spans="1833~1846" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="1905~1918" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="2067~2080" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="2114~2132" text="endometrial cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="2322~2335" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="2393~2412" text="corpus uteri cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="2417~2431" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="2590~2603" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="2762~2768" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D32" spans="2775~2788" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="168~174" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D34" spans="1988~2006" text="endometrial cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="2293~2299" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Selective Connexin43 Inhibition Prevents Isoproterenol-Induced Arrhythmias and Lethality in Muscular Dystrophy Mice.
+Abstract: Duchenne muscular dystrophy (DMD) is caused by an X-linked mutation that leads to the absence of dystrophin, resulting in life-threatening arrhythmogenesis and associated heart failure. We targeted the gap junction protein connexin43 (Cx43) responsible for maintaining cardiac conduction. In mild  mdx  and severe  mdx:utr  mouse models of DMD, and human DMD tissues, Cx43 was found to be pathologically mislocalized to lateral sides of cardiomyocytes. In addition, overall Cx43 protein levels were markedly increased in mouse and human DMD heart tissues examined. Electrocardiography on isoproterenol challenged mice showed that both models developed arrhythmias and died within 24 hours, while wild-type mice were free of pathology. Administering peptide mimetics to inhibit lateralized Cx43 function prior to challenge protected  mdx  mice from arrhythmogenesis and death, while  mdx:utr  mice displayed markedly improved ECG scores. These findings suggest that Cx43 lateralization contributes significantly to DMD arrhythmogenesis and that selective inhibition may provide substantial benefit.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="232~242" text="dystrophin" location="background" />
+<GENE id="G1" spans="18~28" text="Connexin43" location="result" />
+<GENE id="G2" spans="358~368" text="connexin43" location="result" />
+<GENE id="G3" spans="370~374" text="Cx43" location="result" />
+<GENE id="G4" spans="503~507" text="Cx43" location="result" />
+<GENE id="G5" spans="609~613" text="Cx43" location="result" />
+<GENE id="G6" spans="924~928" text="Cx43" location="result" />
+<GENE id="G7" spans="1100~1104" text="Cx43" location="result" />
+<DISEASE id="D0" spans="135~162" text="Duchenne muscular dystrophy" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D1" spans="164~167" text="DMD" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D3" spans="475~478" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D4" spans="490~493" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D5" spans="672~675" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D6" spans="1149~1152" text="DMD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D2" spans="100~118" text="Muscular Dystrophy" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="221~231" text="absence of" location="background" relation="decreased expression" />
+<RELATION id="R2" spans="172~202" text="caused by an X-linked mutation" location="background" relation="causative mutation" />
+<RELATION id="R3" spans="1120~1145" text="contributes significantly" location="result" relation="pathological role" />
+<RELATION id="R4" spans="1179~1231" text="selective inhibition may provide substantial benefit" location="result" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="dystrophin" diseaseID="D0" diseaseText="Duchenne muscular dystrophy" relationID="R2" relationText="caused by an X-linked mutation" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="dystrophin" diseaseID="D1" diseaseText="DMD" relationID="R2" relationText="caused by an X-linked mutation" />
+<ENTITY_LINKING id="E2" geneID="G0" geneText="dystrophin" diseaseID="D0" diseaseText="Duchenne muscular dystrophy" relationID="R0" relationText="absence of" />
+<ENTITY_LINKING id="E3" geneID="G0" geneText="dystrophin" diseaseID="D1" diseaseText="DMD" relationID="R0" relationText="absence of" />
+<ENTITY_LINKING id="E4" geneID="G7" geneText="Cx43" diseaseID="D6" diseaseText="DMD" relationID="R3" relationText="contributes significantly" />
+<ENTITY_LINKING id="E5" geneID="G7" geneText="Cx43" diseaseID="D6" diseaseText="DMD" relationID="R4" relationText="selective inhibition may provide substantial benefit" />
+</TAGS>
+</Genomics_ConceptTask>

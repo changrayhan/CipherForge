@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Since it’s first description by Bailey and Cushing in 1924 14 , there has been controversy as to whether the histopathological features which are suggestive of the term astroblastoma mark a distinct entity 2 . There have historically been few biological studies of astroblastoma, which has made resolution of its pathogenesis difficult. The largest study, from Brat and co-workers in 2000, carried out DNA copy number profiling by comparative genomic hybridization (CGH) on 7 cases, and reported frequent gains of chromosome 19 and 20q, as well as losses of 9q, 10 and X 15 . Prior to this, karyotyping of a case from a 15 year old girl revealed monosomies of chromosomes 10, 21 and 22 16 . More recently, a lack of  IDH1 17  and  TP53 18  mutations in astroblastomas has been noted but there have been no characteristic genetic features reported giving positive clues as to their likely origin 19 .
+Recent integrated molecular analysis of another childhood brain tumour with controversial claims to being a disinct entity, CNS-PNET, have helped to clarify these issues, with the identification of a novel molecular entity, CNS HGNET-MN1, in which 16/41 cases were initially diagnosed as astroblastoma. This group of tumours had the oldest age at diagnosis, a largely supratentorial location, a striking female:male predominance, and the best overall survival of all novel entities described 8 . Histologically they had features overlapping with that descibing astroblastoma ( e.g . dense perivascular hyalinization) but not all cases could be so rationalised. They expressed GFAP but lacked neuronal antigen expression.
+The most striking feature of the newly described CNS HGNET-MN1 group were the pathognomonic fusions of  MN1  (and  BEND2 , or in one case,  CXXC5 ) 8 . The highly recurrent case described in the present paper harboured the most common fusion,  MN1:BEND2 , resulting in expresson of a transcript containing the large exon 1 of  MN1  with exons 9–14 of the longest transcript of  BEND2 . This was seen in all 11 surgical resection samples in our case, indicating an early, clonal, drive event in the pathogenesis of this tumour. Althought the function of BEND2 is unknown, a consequence of the mutation is the high expression levels of the two BEN-domains encoded by the gene, thought to play a role in chromatin organisation 20  and neural transcriptional regulation 21 . As other fusion partners of  MN1  have been reported 8 , disruption of this gene may instead be the pathogenic event.  MN1  is frequently targeted by a balanced t(4,22) translocation certain subtypes of meningioma, and acts as a transcriptional co-regulator of retinoic acid-mediated gene expression along with p300 22 , 23 .
+Although generally considered to harbour a good prognosis, extensively recurrent cases have been previously reported 9 . Exome sequencing of the multiple recurrences which occurred in the patient presented here afforded us the opportunity to infer a molecular evolution of the disease which aligned with the clinical presentation. This involved an early divergence from the original site after initial treatment, disseminating via four distinct anatomical routes to multiple locations within the brain. At a relatively advanced stage of presentation, this involved a doubling of the tumour genome not seen in the initial local recurrences. Interestingly, the final biopsies obtained via the nasal cavity were found not to contain these chromosomal changes, and were rather two further independent infiltrative extensions of the original local recurrence-derived branch.
+In all but the very earliest of the surgical samples we analysed, in addition to the truncal  MN1:BEND2  fusion we identified variants in genes associated with NF-κB signalling, and concurrent pathway activation as evidenced by immunohistochemistry for RELA-p65. These included  MAP3K1 , a downstream target of Bcr-Abl reported to mediate the anti-apoptotic effects of NF-κB 24 ;  MAP3K7 , which phosphorylates the IKK complex, leading to eventual release of inhibition and activation of NF-κB 25 ;  MALT1 , which has both scaffolding functions and proteolytic activity essential for NF-κB activation 26 ;  BCLAF1 , a direct target of p65 and c-Rel, and essential for C/EBPβ upregulation 27 ; and  LRRC4 , a candidate tumour suppressor gene down-regulated in gliomas which appears to play a role in cellular proliferation by mediating MAPK/PI3K and NF-κB signalling 28 . NF-κB has long been thought to play a role in glioma phenotypes 29 , and more recently emerged as a critical regulator in ependymoma 30 . The observation that these mutations occurred in the later specimens suggests a possible role in progression of CNS HGNET-MN1 tumours, and also provides a plausible therapeutic target.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1577~1581" text="GFAP" location="background" />
+<GENE id="G1" spans="1681~1684" text="MN1" location="background" />
+<GENE id="G2" spans="1726~1729" text="MN1" location="background" />
+<GENE id="G3" spans="1737~1742" text="BEND2" location="background" />
+<GENE id="G4" spans="1762~1767" text="CXXC5" location="background" />
+<GENE id="G5" spans="1866~1869" text="MN1" location="result" />
+<GENE id="G6" spans="1870~1875" text="BEND2" location="result" />
+<GENE id="G7" spans="1949~1952" text="MN1" location="result" />
+<GENE id="G8" spans="2000~2005" text="BEND2" location="result" />
+<GENE id="G9" spans="2175~2180" text="BEND2" location="background" />
+<GENE id="G10" spans="2422~2425" text="MN1" location="background" />
+<GENE id="G11" spans="2512~2515" text="MN1" location="background" />
+<GENE id="G12" spans="2704~2708" text="p300" location="background" />
+<GENE id="G13" spans="3683~3686" text="MN1" location="result" />
+<GENE id="G14" spans="3687~3692" text="BEND2" location="result" />
+<GENE id="G15" spans="3749~3754" text="NF-κB" location="result" />
+<GENE id="G16" spans="3842~3846" text="RELA" location="result" />
+<GENE id="G17" spans="3847~3850" text="p65" location="result" />
+<GENE id="G18" spans="3868~3874" text="MAP3K1" location="result" />
+<GENE id="G19" spans="3900~3903" text="Bcr" location="result" />
+<GENE id="G20" spans="3904~3907" text="Abl" location="result" />
+<GENE id="G21" spans="3958~3963" text="NF-κB" location="result" />
+<GENE id="G22" spans="3970~3976" text="MAP3K7" location="result" />
+<GENE id="G23" spans="4077~4082" text="NF-κB" location="background" />
+<GENE id="G24" spans="4089~4094" text="MALT1" location="result" />
+<GENE id="G25" spans="4173~4178" text="NF-κB" location="background" />
+<GENE id="G26" spans="4196~4202" text="BCLAF1" location="result" />
+<GENE id="G27" spans="4224~4227" text="p65" location="background" />
+<GENE id="G28" spans="4232~4237" text="c-Rel" location="background" />
+<GENE id="G29" spans="4287~4292" text="LRRC4" location="background" />
+<GENE id="G30" spans="4460~4465" text="NF-κB" location="background" />
+<GENE id="G31" spans="4720~4723" text="MN1" location="result" />
+<GENE id="G32" spans="1135~1138" text="MN1" location="background" />
+<DISEASE id="D0" spans="170~183" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="266~279" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="754~767" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1189~1202" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1462~1475" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="2596~2606" text="meningioma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="4348~4354" text="glioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="4506~4512" text="glioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="4582~4592" text="ependymoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="4330~4344" text="down-regulated" location="background" relation="decreased expression" />
+<RELATION id="R1" spans="4491~4502" text="play a role" location="background" relation="pathological role" />
+<RELATION id="R2" spans="4560~4578" text="critical regulator" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G29" geneText="LRRC4" diseaseID="D7" diseaseText="glioma" relationID="R0" relationText="down-regulated" />
+<ENTITY_LINKING id="E1" geneID="G30" geneText="NF-κB" diseaseID="D8" diseaseText="glioma" relationID="R1" relationText="play a role" />
+<ENTITY_LINKING id="E2" geneID="G30" geneText="NF-κB" diseaseID="D9" diseaseText="ependymoma" relationID="R2" relationText="critical regulator" />
+</TAGS>
+</Genomics_ConceptTask>

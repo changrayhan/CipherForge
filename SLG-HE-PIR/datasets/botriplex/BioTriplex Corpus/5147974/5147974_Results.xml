@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Hcy promotes atherosclerosis progression
+Atherosclerosis is a systemic chronic disease affecting the vascular walls of the arteries. To determine the order of severity of atherosclerosis, it is important to assess the plaque area, a well-known indicator. Foam cells, the most abundant cells within the lesions, are implicated in the pathogenesis of atherosclerosis. In order to quantify foam cells within the plaques, we performed Oil Red O staining, which is a lysochrome diazo dye used for staining neutral triglycerides and lipids. Thus, H&E and oil Red O staining of the thoracic aorta of mice were used to evaluate the size of the atherosclerotic lesions. The analysis of the H&E staining revealed large atherosclerotic plaques in the thoracic aorta of the ApoE-/- mice, whereas there was no evidence of plaque formation in the control mice. Apo E-/- mice fed with methionine was a typical method to replicate hyperhomocysteinemia animal model [ 5 ].Folic acid and vitamin B12 interfered Hcy production of methionine cycle [ 4 ,  8 ]. Increased lesions were observed in the HHcy group compared to the HLP group; moreover, when compared to HHcy+FA+VB group, the HHcy group demonstrated increased lesions ( Fig 1A and 1B ). In addition, HHcy group displayed markedly increased plaqe area compared to HLP group. The area of the plaque in HHcy+FA+VB group was significantly lower than the HHcy group ( Fig 1A and 1B ). Consistent with the results from the H&E staining, thoracic aorta from the HHcy group had increased accumulation of lipid droplets compared with the control and HLP group, as determined by Oil Red O staining ( Fig 1A ). The area of the atherosclerotic plaqe in HLP and HHcy groups also increased, compared to the control group ( Fig 1B ,  P  < 0.05).
+HHcy was induced by feeding ApoE-/- mice a high-methionine diet for 16 weeks, and serum Hcy concentrations were measured by HPLC. The results showed that serum Hcy concentrations in the HHcy group were 9.62-fold higher than the control group ( P  < 0.01), and 2.62-fold higher than the HLP group ( Fig 1C ). In HHcy+FA+VB group, the Hcy concentration was 37% lower than the HHcy group. Therefore, high-methionine diet significantly increased the serum concentrations of Hcy, suggesting that the diet-induced HHcy model was successful. To address the relationship of Hcy with that of the atherosclerotic plaque area, we calculated the correlation between them using Pearson correlation analysis. As expected, the analysis showed a strong and significantly positive correlation between the serum concentrations of Hcy and the plaque area (R 2  = 0.5153,  P  < 0.01). These results suggest that elevated Hcy levels may aggravate the formation of the atherosclerotic plaque ( Fig 1D ).
+Hcy increases the lipid levels in ApoE-/- mice and accelerates the accumulation of lipids in the macrophages
+Lipid metabolism disorder is an important feature of atherosclerosis. As shown in  Table 1 , TC, TG, and LDL were increased, and HDL was decreased after administration of different diets. Lipid profiling suggested that high-methionine diet disturbed lipid metabolism, which was consistent with study described previous. Lipid-laden macrophages, also known as foam cells, play a crucial role in the initiation and progression of atherosclerosis. To investigate the effects of Hcy on macrophage lipid accumulation, we performed assays to quantify the levels of TC and TG in macrophage foam cells. The results demonstrated that the levels of TC increased when the foam cells were treated with 100 μM Hcy for 24, 48 and 72 h ( P  < 0.01,  Fig 2 ). Folate and vitamin B12 supplementation effectively reversed this effect of Hcy, and significantly reduced the levels of TC in the foam cells ( P  < 0.01;  Fig 2 ). Moreover, the levels of TG were significantly higher in the Hcy group compared to the control group ( P  < 0.01;  Fig 2 ). Furthermore, folate and vitamin B12 supplementation alleviated the levels of increased TG that were induced by Hcy ( P  < 0.01,  Fig 2 ). Oil red O and ADFP stain of foam cells also showed Hcy accelerate lipid deposit ( Fig 2 ). Based on these results, we concluded that Hcy promoted lipid accumulation in macrophage foam cells.
+
+           10.1371/journal.pone.0167744.t001 
+           Table 1 
+           TC, TG, HDL and LDL levels in mice (mean ± SD, n = 10) 
+           
+             
+           
+             
+                 
+                 
+                 
+                 
+               
+                 
+               Gorup 
+                   TC (mmol/L) 
+                   TG (mmol/L) 
+                   HDL (μmol/L) 
+                   LDL (μmol/L) 
+                 
+                   
+               
+                 
+               CON 
+                   2.06 ± 0.1 
+                   0.31 ± 0.07 
+                   1.28 ± 0.05 
+                   0.41 ± 0.01 
+                 
+                   
+                 HLP 
+                   * 15.83 ± 0.46 
+                   * 1.18 ± 0.22 
+                   * 0.63 ± 0.05 
+                   0.79 ± 0.07 
+                 
+                   
+                 HHcy 
+                   # 24.02 ± 0.80 
+                   # 1.22 ± 0.26 
+                   # 0.48 ± 0.03 
+                   # 1.88 ± 0.42 
+                 
+                   
+                 HHcy+FA+VB 
+                   Δ 19.53 ± 0.65 
+                   Δ 0.83 ± 0.12 
+                   Δ 0.55 ± 0.02 
+                   Δ 1.07 ± 0.06 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+           Results were presented as mean ± SD. After 16 weeks of feeding, blood was collected and serum lipids were detected by an automatic biochemistry analyzer. 
+             
+               
+             P  < 0.05,  vs . CON. * 
+             
+               
+             P  < 0.05, vs. HLP. # 
+             
+               
+             P  < 0.05, vs. HHcy. TC, total cholesterol; TG, triglycerides; HDL, high-density lipoprotein; LDL, low-density lipoprotein. Δ 
+             
+               
+           
+             
+        
+Hcy increase the H3K27me3 level
+Several studies have demonstrated that histone modification plays a vital role in atherosclerosis[ 18 ]. Hcy, a risk factor for atherosclerosis, is known to aggravate the progression of atherosclerosis via histone modification[ 5 ]. Thus, in order to explore the possible epigenetic mechanisms for Hcy-related pathogenesis of atherosclerosis, we assessed the levels of H3K27me1, 2, and 3 in both the aortic tissue and the foam cells. As shown in  Fig 3 , no differences were observed in the levels of H3K27me1 and 2 amongst different mice groups ( Fig 3A and 3B ). Interestingly, the levels of H3K27me3 in the HHcy group were 194% ( P  < 0.05) and 110% ( P  < 0.05) higher than the control and HLP groups, respectively ( Fig 3C and 3D ). Treatment with folate and vitamin B12 significantly decreased the level of H3K27me3. Consistent with the data from the  in vivo  experiments, the levels of H3K27me3 level increased to 263% compared to the control group, when the foam cells were treated with 100 μM Hcy for 48 h. However, the H3K27me3 level in the Hcy+FA+VB group decreased significantly to 71% ( P  < 0.05) relative to the Hcy group ( Fig 3E and 3F ). These results indicated that H3K27me3 was involved in the progression of atherosclerosis.
+Upregulated EZH2 increases H3K27me3 level and lipid accumulation
+EZH2, a histone methyltransferase, initiates target gene silencing by catalyzing the of H3K27me3 level, and eventually leading to chromatin condensation [ 21 ]. In order to confirm whether Hcy affected the expression of EZH2, qRT-PCR and Western blotting were used to detect the mRNA and protein levels of EZH2, respectively, in both mice and foam cells. The qRT-PCR analysis revealed markedly elevated EZH2 mRNA levels in the aortic tissue of ApoE-/- mice fed a high-methionine diet ( Fig 4A ). However, EZH2 mRNA levels in the HHcy+FA+VB group decreased significantly. In addition, western blot analysis was performed to determine whether increased EZH2 gene expression also led to an increase in the protein levels of EZH2. Similar to the qRT-PCR results, the levels of EZH2 protein in the aortic tissue of HHcy group increased significantly compared with the control and HLP groups ( Fig 4A ). Protein expression of EZH2 in the HHcy+FA+VB group was lower than the HHcy group. Exposure of foam cells to Hcy resulted in induced expression of EZH2 both at the transcriptional and translational levels ( Fig 4B ). When the cells were treated with folate and vitamin B12 for 48 h, the mRNA and protein levels of EZH2 reduced significantly ( Fig 4B ). These results indicated that Hcy regulated EZH2 mRNA and protein expression, similar to H3K27me3.
+To further elucidate the functions of EZH2, we transfected Ad-EZH2 or Ad-EZH2-siRNAs into the foam cells, and evaluated the transfection efficiency. After the cells were transfected with adenovirus vectors or siRNAs, enhanced green fluorescence was assayed. The cells transfected with Ad-EZH2 demonstrated increased levels of EZH2 mRNA and protein, which were greater than 12-fold and 4.3-fold, respectively, relative to control Ad-GFP ( Fig 4C ). Similarly, transfection with Ad-EZH2-siRNA1, Ad-EZH2-siRNA2 and Ad-EZH2-siRNA3 to knock down EZH2, resulted in reduced EZH2 expression at both the transcript and the protein levels ( Fig 4C ).
+To confirm whether EZH2 specifically regulated H3K27me3, the level of H3K27me3 was further assessed. Overexpression of EZH2 in the foam cells resulted in the upregulation of H3K27, whereas EZH2 knockdown downregulated the expression H3K27me3 protein ( Fig 4D ). The data suggested that EZH2 was a key enzyme in the regulation of H3K27me3.
+Although EZH2 is considered a functional oncogene, and strongly associated with the progression and invasion of certain cancers [ 20 ], the role of EZH2 in lipid metabolism has been seldom reported. To determine whether altered EZH2 expression was involved in lipid accumulation, the concentrations of TG and TC in the foam cells were determined. As shown in  Fig 4E and 4F , overexpression of EZH2 in foam cells increased the levels of TC and TG by 3.6- and 3.1- fold, respectively. Contrarily, EZH2 knockdown by RNA interference resulted in 64% and 66% decrease in the levels of TC and TG, respectively, suggesting that EZH2 contributed to the accumulation of lipid in the foam cells.
+3’-UTR of EZH2 transcript is a direct target for miR-92a
+The different roles of miRNAs have been studied in animal models of atherosclerosis, and found to be associated with HHcy. We tested the mRNA expression of miR-92a by qRT-PCR. The results showed that there were no significant differences in the levels of miR-92a between the control and HLP groups. However, HHcy group had significantly reduced miR-92a levels compared to the HLP group. The expression of miR-92a in the HHcy+FA+VB group was higher than the HHcy group ( Fig 5A ). Consistent with the results from the animal experiments, exposure of foam cells to Hcy resulted in decreased miR-92a levels ( Fig 5B ). Treatment of the foam cells with folate and Vitamin B12 for 48 h induced the expression of miR-92a ( Fig 5B ). The data suggest that miR-92a may be involved in the development of HHcy.
+In general, miRNAs bind to the corresponding target mRNAs, and regulate gene transcription. Using the bioinformatics software TargetScan ( http://www.targetscan.org ) for target gene prediction, EZH2 was identified as one of the potential targets of miR-92a.  Fig 5D  illustrates the predicted binding site of miR-92a with EZH2 3’UTR. To further confirm the direct interaction of miR-92a with EZH2, we first transfected LV-miR-92a and Lv-miR92a-siRNA into the foam cells, and evaluated EZH2 mRNA and protein expression. As shown in  Fig 5C , the relative expression levels of miR-92a in Lv-miR-92a group increased significantly compared with the control group. However, there was a significant reduction in the level of miR-92a in Lv-miR92a-siRNA group. As expected, Lv-miR-92a significantly reduced both EZH2 mRNA and protein levels, whereas Lv-miR92a-siRNA accelerated the production of EZH2 mRNA and protein ( P  < 0.05,  Fig 5E and 5F ). Lastly, we constructed Ad-EZH2 3’-UTR and Ad-EZH2 mut 3’-UTR vectors for the luciferase reporter assay. The data showed a marked decrease in the luciferase activity of Ad-EZH2 3’-UTR in the foam cells ( P  < 0.05). Also, no changes in the luciferase activity of Ad-EZH2 mut 3’-UTR were observed ( Fig 5G ). Based on these findings, we hypothesize that miR-92a directly interacted with the 3’-UTR of EZH2 in foam cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="763~767" text="ApoE" location="result" />
+<GENE id="G1" spans="848~853" text="Apo E" location="result" />
+<GENE id="G2" spans="2788~2792" text="ApoE" location="result" />
+<GENE id="G3" spans="7437~7441" text="EZH2" location="result" />
+<GENE id="G4" spans="7490~7494" text="EZH2" location="result" />
+<GENE id="G5" spans="7710~7714" text="EZH2" location="result" />
+<GENE id="G6" spans="7796~7800" text="EZH2" location="result" />
+<GENE id="G7" spans="7893~7897" text="EZH2" location="result" />
+<GENE id="G8" spans="7934~7938" text="ApoE" location="result" />
+<GENE id="G9" spans="7995~7999" text="EZH2" location="result" />
+<GENE id="G10" spans="8141~8145" text="EZH2" location="result" />
+<GENE id="G11" spans="8211~8215" text="EZH2" location="result" />
+<GENE id="G12" spans="8263~8267" text="EZH2" location="result" />
+<GENE id="G13" spans="8410~8414" text="EZH2" location="result" />
+<GENE id="G14" spans="8534~8538" text="EZH2" location="result" />
+<GENE id="G15" spans="8701~8705" text="EZH2" location="result" />
+<GENE id="G16" spans="8783~8787" text="EZH2" location="result" />
+<GENE id="G17" spans="8876~8880" text="EZH2" location="result" />
+<GENE id="G18" spans="8900~8904" text="EZH2" location="result" />
+<GENE id="G19" spans="8911~8915" text="EZH2" location="result" />
+<GENE id="G20" spans="9126~9130" text="EZH2" location="result" />
+<GENE id="G21" spans="9164~9168" text="EZH2" location="result" />
+<GENE id="G22" spans="9318~9322" text="EZH2" location="result" />
+<GENE id="G23" spans="9334~9338" text="EZH2" location="result" />
+<GENE id="G24" spans="9353~9357" text="EZH2" location="result" />
+<GENE id="G25" spans="9379~9383" text="EZH2" location="result" />
+<GENE id="G26" spans="9405~9409" text="EZH2" location="result" />
+<GENE id="G27" spans="9498~9502" text="EZH2" location="result" />
+<GENE id="G28" spans="9598~9602" text="EZH2" location="result" />
+<GENE id="G29" spans="9668~9672" text="EZH2" location="result" />
+<GENE id="G30" spans="9765~9769" text="EZH2" location="result" />
+<GENE id="G31" spans="9827~9831" text="EZH2" location="background" />
+<GENE id="G32" spans="9966~9970" text="EZH2" location="background" />
+<GENE id="G33" spans="10046~10050" text="EZH2" location="result" />
+<GENE id="G34" spans="10212~10216" text="EZH2" location="result" />
+<GENE id="G35" spans="10314~10318" text="EZH2" location="result" />
+<GENE id="G36" spans="10440~10444" text="EZH2" location="result" />
+<GENE id="G37" spans="10515~10519" text="EZH2" location="result" />
+<GENE id="G38" spans="11558~11562" text="EZH2" location="result" />
+<GENE id="G39" spans="11686~11690" text="EZH2" location="result" />
+<GENE id="G40" spans="11849~11853" text="EZH2" location="result" />
+<GENE id="G41" spans="12168~12172" text="EZH2" location="result" />
+<GENE id="G42" spans="12252~12256" text="EZH2" location="result" />
+<GENE id="G43" spans="12331~12335" text="EZH2" location="result" />
+<GENE id="G44" spans="12350~12354" text="EZH2" location="result" />
+<GENE id="G45" spans="12476~12480" text="EZH2" location="result" />
+<GENE id="G46" spans="12570~12574" text="EZH2" location="result" />
+<GENE id="G47" spans="12704~12708" text="EZH2" location="result" />
+<GENE id="G48" spans="1800~1804" text="ApoE" location="result" />
+<DISEASE id="D0" spans="14~29" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="42~57" text="Atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="172~187" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="350~365" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="916~936" text="hyperhomocysteinemia" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="1080~1084" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="1167~1171" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="1145~1149" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="1241~1245" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="1341~1345" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="1391~1395" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="1690~1694" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="2083~2087" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D14" spans="2146~2150" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D15" spans="2280~2284" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D16" spans="1958~1962" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D17" spans="2863~2888" text="Lipid metabolism disorder" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D18" spans="2916~2931" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="3291~3306" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="5136~5140" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D21" spans="5334~5338" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D22" spans="5969~5973" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D23" spans="6260~6275" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="6306~6321" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="disease of anatomical entity" />
+<DISEASE id="D25" spans="6364~6379" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="disease of anatomical entity" />
+<DISEASE id="D26" spans="6504~6519" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="disease of anatomical entity" />
+<DISEASE id="D27" spans="7408~7423" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="disease of anatomical entity" />
+<DISEASE id="D28" spans="8019~8023" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D29" spans="8300~8304" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D30" spans="8458~8462" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D31" spans="9938~9944" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D32" spans="10630~10645" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D33" spans="10870~10874" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D34" spans="11019~11023" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D35" spans="11357~11361" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R0" spans="9882~9913" text="associated with the progression" location="background" relation="modulator increase disease" />
+<ENTITY_LINKING id="E0" geneID="G31" geneText="EZH2" diseaseID="D31" diseaseText="cancer" relationID="R0" relationText="associated with the progression" />
+</TAGS>
+</Genomics_ConceptTask>

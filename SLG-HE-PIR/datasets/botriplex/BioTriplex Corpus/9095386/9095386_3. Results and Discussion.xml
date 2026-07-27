@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Expression of ARGs in COAD and Normal Tissues
+Whether autophagy can lead to cell death is related to the level of autophagy-targeting compounds, Allison S. Limpert believes that excessive levels of autophagy have been shown to promote autophagy-dependent cell death. We analyzed the gene expression in 398 COAD samples and 39 normal samples by the Wilcoxon Signed-Rank Test. 37 differentially expressed ARGs were identified from 232 ARG according to the criteria of ∣ log2FC  | >1 and adjusted  P  value < 0.05 ( Figure 1 ). Among them, 21 were low expression (HSPB8, NKX2-3, NRG2, TP53INP2, CCR2, TMEM74, NRG3, MAP1LC3C, BCL2, PINK1, FKBP1B, TNFSF10, NRG1, ITPR1, PRKN, FAS, SESN2, GABARAP, FAM215A, CAPN2, and CDKN1A) in tumor tissues, and 16 were high expression (MBTPS2, CAPN10, BCL2L1, ERO1A, BID, ATIC, HSP90AB1, CD46, EIF4EBP1, BIRC5, VEGFA, SPHK1, MYC, TP73, CDKN2A, and ATG9B) in tumor tissues. The expressions of 37 ARGs in tumor and normal tissues are shown in  Figure 1(c) .
+3.2. GO and KEGG Analyses of ARGs
+To explore the molecular mechanism of ARGs in the oncogenesis of COAD, we conducted GO functional annotation and KEGG pathway enrichment analysis on ARGS. The results of GO enrichment showed that ARGs mainly participated in autophagy, dealing with changes in oxygen content and intrinsic apoptotic signaling pathways in biological processes (BP). In cellular components (CC), it is mainly focused on autophagosome and vacuolar membrane. The molecular function (MF) is mainly responsible for ubiquitin kinase regulator activity and protein ligase binding (Figures  2(a)  and  2(b) ). In KEGG enrichment analysis, ARG mainly participates in the signaling pathway of P53 and erbB, apoptosis, drug resistance of platinum, and EGFR tyrosine kinase inhibitor and participates in human cytomegalovirus infection ( Figure 2(c) ).
+3.3. Survival-Associated ARGs and the Prognostic Model
+The biomarkers of gene sequencing can directly deduce the survival time of colon carcinoma patients, independent of tumor-node-metastasis stage [ 19 ]. Through univariate Cox regression analysis, 24 ARGs associated to the survival rate of COAD patients were identified ( Figure 3 ), of which 8 (MTMR14, VAMP3, HSPA8, PRKAB1, BIRC5, BID, ATG3, and MAP1LC3C) were negatively correlated with risk score and 17 (GABARAP, HSPB8, TSC1, PEA15, DAPK1, PELP1, CDKN2A, CX3CL1, GRID1, ATG13, SPHK1, ZFYVE1, CFLAR, MAP1LC3C, MAP2K7, ULK1, and CTSD) were positively correlated with risk score ( P  < 0.05).
+3.4. Model Construction
+According to the eight candidate ARGs, the model for the risk score of COAD patients was built with gene expression value (GEV): risk score = (GEV of MTMR14∗−1.57825) + (GEV of VAMP3∗−0.50804) + (GEV of HSPA8∗−0.41769) + (GEV of TSC1∗0.76707) + (GEV of DAPK1∗0.31191) + (GEV of CX3CL1∗0.26684) + (GEV of ATG13∗0.73431) + (GEV of MAP1LC3C∗2.272704981).
+The results illustrated that patients in the low-risk group survive longer than the high-risk group. We also calculated and ranked patients' risk score by the model (Figures  4(a)  and  4(b) ). The scatterplot also shows that patients in the low-risk group survive longer than the high-risk group ( Figure 4(c) ). The results of expression level of genes in different risk group revealed that high-risk patients have a lower content of MTMR14, VAMP3, and HSPA8 in colon tissue than low-risk patients, and content of TSC1, DAPK1, CX3CL1, ATG13, and MAP1LC3C is on the opposite ( Figure 4(d) ).
+3.5. Model Performance Verification
+To verify the fitting degree of the model, we also examined the relationship between model elements and clinical risk, and the forest map shows the association between risk factors and prognosis (Figures  5(a)  and  5(b) ). We also drew the K-M curve to inspect the survival of two risk groups, and the results showed that high-risk patients were significantly associated with poor outcomes ( Figure 5(c) ). The AUC of the model ROC curve is 0.794 ( Figure 5(d) ).
+3.6. The Correlation between Model Elements and Clinical Parameters of COAD
+The relationship between riskscores of model and clinical parameters of COAD is shown in Figures  6(a)  and  6(c) , and the results revealed that riskscores have statistically significant correlation to clinical parameters of COAD. In addition, in model elements, statistical differences were showed in the expression of HSPA8 and TSC1 in COAD based on nodal metastasis status (Figures  6(d)  and  6(f) ), as well as the expression of HSPA8 and VAMP3 in COAD based on individual cancer stages (Figures  6(e)  and  6(g) ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="567~572" text="HSPB8" location="result" />
+<GENE id="G1" spans="574~578" text="NKX2" location="result" />
+<GENE id="G2" spans="582~586" text="NRG2" location="result" />
+<GENE id="G3" spans="588~596" text="TP53INP2" location="result" />
+<GENE id="G4" spans="598~602" text="CCR2" location="result" />
+<GENE id="G5" spans="604~610" text="TMEM74" location="result" />
+<GENE id="G6" spans="612~616" text="NRG3" location="result" />
+<GENE id="G7" spans="618~626" text="MAP1LC3C" location="result" />
+<GENE id="G8" spans="628~632" text="BCL2" location="result" />
+<GENE id="G9" spans="634~639" text="PINK1" location="result" />
+<GENE id="G10" spans="641~647" text="FKBP1B" location="result" />
+<GENE id="G11" spans="649~656" text="TNFSF10" location="result" />
+<GENE id="G12" spans="658~662" text="NRG1" location="result" />
+<GENE id="G13" spans="664~669" text="ITPR1" location="result" />
+<GENE id="G14" spans="671~675" text="PRKN" location="result" />
+<GENE id="G15" spans="677~680" text="FAS" location="result" />
+<GENE id="G16" spans="682~687" text="SESN2" location="result" />
+<GENE id="G17" spans="689~696" text="GABARAP" location="result" />
+<GENE id="G18" spans="698~705" text="FAM215A" location="result" />
+<GENE id="G19" spans="707~712" text="CAPN2" location="result" />
+<GENE id="G20" spans="718~724" text="CDKN1A" location="result" />
+<GENE id="G21" spans="773~779" text="MBTPS2" location="result" />
+<GENE id="G22" spans="781~787" text="CAPN10" location="result" />
+<GENE id="G23" spans="789~795" text="BCL2L1" location="result" />
+<GENE id="G24" spans="797~802" text="ERO1A" location="result" />
+<GENE id="G25" spans="804~807" text="BID" location="result" />
+<GENE id="G26" spans="809~813" text="ATIC" location="result" />
+<GENE id="G27" spans="815~823" text="HSP90AB1" location="result" />
+<GENE id="G28" spans="825~829" text="CD46" location="result" />
+<GENE id="G29" spans="831~839" text="EIF4EBP1" location="result" />
+<GENE id="G30" spans="841~846" text="BIRC5" location="result" />
+<GENE id="G31" spans="848~853" text="VEGFA" location="result" />
+<GENE id="G32" spans="855~860" text="SPHK1" location="result" />
+<GENE id="G33" spans="862~865" text="MYC" location="result" />
+<GENE id="G34" spans="867~871" text="TP73" location="result" />
+<GENE id="G35" spans="873~879" text="CDKN2A" location="result" />
+<GENE id="G36" spans="885~890" text="ATG9B" location="result" />
+<GENE id="G37" spans="1691~1694" text="P53" location="result" />
+<GENE id="G38" spans="1699~1703" text="erbB" location="result" />
+<GENE id="G39" spans="1749~1753" text="EGFR" location="result" />
+<GENE id="G40" spans="2199~2205" text="MTMR14" location="result" />
+<GENE id="G41" spans="2207~2212" text="VAMP3" location="result" />
+<GENE id="G42" spans="2214~2219" text="HSPA8" location="result" />
+<GENE id="G43" spans="2221~2227" text="PRKAB1" location="result" />
+<GENE id="G44" spans="2229~2234" text="BIRC5" location="result" />
+<GENE id="G45" spans="2236~2239" text="BID" location="result" />
+<GENE id="G46" spans="2241~2245" text="ATG3" location="result" />
+<GENE id="G47" spans="2251~2259" text="MAP1LC3C" location="result" />
+<GENE id="G48" spans="2312~2319" text="GABARAP" location="result" />
+<GENE id="G49" spans="2321~2326" text="HSPB8" location="result" />
+<GENE id="G50" spans="2328~2332" text="TSC1" location="result" />
+<GENE id="G51" spans="2334~2339" text="PEA15" location="result" />
+<GENE id="G52" spans="2341~2346" text="DAPK1" location="result" />
+<GENE id="G53" spans="2348~2353" text="PELP1" location="result" />
+<GENE id="G54" spans="2355~2361" text="CDKN2A" location="result" />
+<GENE id="G55" spans="2363~2369" text="CX3CL1" location="result" />
+<GENE id="G56" spans="2371~2376" text="GRID1" location="result" />
+<GENE id="G57" spans="2378~2383" text="ATG13" location="result" />
+<GENE id="G58" spans="2385~2390" text="SPHK1" location="result" />
+<GENE id="G59" spans="2392~2398" text="ZFYVE1" location="result" />
+<GENE id="G60" spans="2400~2405" text="CFLAR" location="result" />
+<GENE id="G61" spans="2407~2415" text="MAP1LC3C" location="result" />
+<GENE id="G62" spans="2417~2423" text="MAP2K7" location="result" />
+<GENE id="G63" spans="2425~2429" text="ULK1" location="result" />
+<GENE id="G64" spans="2435~2439" text="CTSD" location="result" />
+<GENE id="G65" spans="3310~3316" text="MTMR14" location="result" />
+<GENE id="G66" spans="3318~3323" text="VAMP3" location="result" />
+<GENE id="G67" spans="3329~3334" text="HSPA8" location="result" />
+<GENE id="G68" spans="3390~3394" text="TSC1" location="result" />
+<GENE id="G69" spans="3396~3401" text="DAPK1" location="result" />
+<GENE id="G70" spans="3403~3409" text="CX3CL1" location="result" />
+<GENE id="G71" spans="3411~3416" text="ATG13" location="result" />
+<GENE id="G72" spans="3422~3430" text="MAP1LC3C" location="result" />
+<GENE id="G73" spans="2672~2678" text="MTMR14" location="result" />
+<GENE id="G74" spans="2699~2704" text="VAMP3" location="result" />
+<GENE id="G75" spans="2725~2730" text="HSPA8" location="result" />
+<GENE id="G76" spans="2751~2755" text="TSC1" location="result" />
+<GENE id="G77" spans="2775~2780" text="DAPK1" location="result" />
+<GENE id="G78" spans="2800~2806" text="CX3CL1" location="result" />
+<GENE id="G79" spans="4365~4370" text="HSPA8" location="result" />
+<GENE id="G80" spans="4375~4379" text="TSC1" location="result" />
+<GENE id="G81" spans="4479~4484" text="HSPA8" location="result" />
+<GENE id="G82" spans="4489~4494" text="VAMP3" location="result" />
+<DISEASE id="D0" spans="28~32" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1092~1096" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1979~1994" text="colon carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="2143~2147" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="2593~2597" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="4039~4043" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="4116~4120" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="4270~4274" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="4383~4387" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="4498~4502" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="4523~4529" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="312~316" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R2" spans="2266~2303" text="negatively correlated with risk score" location="result" relation="positive prognostic marker" />
+<RELATION id="R3" spans="2446~2483" text="positively correlated with risk score" location="result" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G40" geneText="MTMR14" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E1" geneID="G41" geneText="VAMP3" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E2" geneID="G42" geneText="HSPA8" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E3" geneID="G43" geneText="PRKAB1" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E4" geneID="G44" geneText="BIRC5" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E5" geneID="G45" geneText="BID" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E6" geneID="G46" geneText="ATG3" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E7" geneID="G47" geneText="MAP1LC3C" diseaseID="D3" diseaseText="COAD" relationID="R2" relationText="negatively correlated with risk score" />
+<ENTITY_LINKING id="E8" geneID="G48" geneText="GABARAP" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E9" geneID="G49" geneText="HSPB8" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E10" geneID="G50" geneText="TSC1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E11" geneID="G51" geneText="PEA15" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E12" geneID="G52" geneText="DAPK1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E13" geneID="G53" geneText="PELP1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E14" geneID="G54" geneText="CDKN2A" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E15" geneID="G55" geneText="CX3CL1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E16" geneID="G56" geneText="GRID1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E17" geneID="G57" geneText="ATG13" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E18" geneID="G58" geneText="SPHK1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E19" geneID="G59" geneText="ZFYVE1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E20" geneID="G60" geneText="CFLAR" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E21" geneID="G61" geneText="MAP1LC3C" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E22" geneID="G62" geneText="MAP2K7" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E23" geneID="G63" geneText="ULK1" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+<ENTITY_LINKING id="E24" geneID="G64" geneText="CTSD" diseaseID="D3" diseaseText="COAD" relationID="R3" relationText="positively correlated with risk score" />
+</TAGS>
+</Genomics_ConceptTask>

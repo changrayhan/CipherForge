@@ -1,0 +1,59 @@
+2026-07-21 18:17:53,669 [INFO] biotriplex_finetune: Logging to baseline/classification_genrel/logs/biotriplex_finetune_all_1784629073.log
+2026-07-21 18:17:53,669 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 18:17:53,670 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:17:53,670 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 18:17:53,670 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:17:53,670 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 18:17:55,617 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 18:18:03,857 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 8.2s
+2026-07-21 18:18:06,586 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 18:18:06,599 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 18:18:08,996 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 18:18:17,737 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 18:18:17,738 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 18:18:17,738 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 18:18:17,738 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 18:18:18,408 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 18:18:18,408 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 18:18:18,409 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 18:18:18,422 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 18:18:18,422 [INFO] biotriplex_finetune: Stage 0 complete in 24.8s
+2026-07-21 18:18:18,422 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:18:18,422 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 18:18:18,422 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:18:19,453 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 18:18:19,488 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 18:18:19,498 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 18:18:19,507 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 18:18:19,509 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 18:18:19,516 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 18:18:19,519 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 18:18:19,519 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 18:18:19,519 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 18:18:23,786 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 18:18:32,614 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 18:18:32,622 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 18:18:32,622 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 18:18:32,638 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 18:18:32,638 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 18:18:32,642 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+2026-07-21 18:18:32,643 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 18:18:32,643 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-21 18:18:32,651 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 18:18:32,752 [INFO] src.model.model_splitting: SageAttention detected: sm_120 supported
+2026-07-21 18:18:32,754 [INFO] src.model.model_splitting: SageAttention3 FP4 (Blackwell) detected
+2026-07-21 18:18:32,754 [INFO] src.model.model_splitting: Using SageAttention3 FP4 for U shard (RTX 5090 Blackwell)
+2026-07-21 18:18:54,676 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=SageAttention3-FP4, gradient_checkpointing=True)
+2026-07-21 18:18:54,685 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+2026-07-21 18:18:54,686 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 18:18:54,686 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 18:18:54,687 [INFO] src.model.model_splitting: SageAttention3 FP4 (Blackwell) detected
+2026-07-21 18:18:54,687 [INFO] src.model.model_splitting: Using SageAttention3 FP4 for M shard (RTX 5090 Blackwell)
+2026-07-21 18:19:15,106 [INFO] root: gcc -pthread -B /root/miniconda3/compiler_compat -fno-strict-overflow -DNDEBUG -O2 -Wall -fPIC -O2 -isystem /root/miniconda3/include -fPIC -O2 -isystem /root/miniconda3/include -fPIC -c /tmp/tmplhw0zrce/test.c -o /tmp/tmplhw0zrce/test.o
+2026-07-21 18:19:15,120 [INFO] root: gcc -pthread -B /root/miniconda3/compiler_compat /tmp/tmplhw0zrce/test.o -laio -o /tmp/tmplhw0zrce/a.out
+2026-07-21 18:19:15,135 [INFO] root: gcc -pthread -B /root/miniconda3/compiler_compat -fno-strict-overflow -DNDEBUG -O2 -Wall -fPIC -O2 -isystem /root/miniconda3/include -fPIC -O2 -isystem /root/miniconda3/include -fPIC -c /tmp/tmpmssnac57/test.c -o /tmp/tmpmssnac57/test.o
+2026-07-21 18:19:15,156 [INFO] root: gcc -pthread -B /root/miniconda3/compiler_compat /tmp/tmpmssnac57/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpmssnac57/a.out

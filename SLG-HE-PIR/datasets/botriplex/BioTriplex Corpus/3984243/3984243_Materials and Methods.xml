@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Patient selection and collection of biopsies
+In this cohort study, 38 patients undergoing surgery for adenocarcinoma of the stomach, esophagus or gastroesophageal junction were consecutively included from July 2008 to November 2009. All individuals provided an informed written consent. Collection of biopsies was approved by the regional scientific ethics committees of Zealand, Denmark (journal number H-B-2008-049), and the establishment of a biobank was approved by the Danish Data Protection Agency (journal number 2008-41-2138). Biopsies were taken from both tumor tissue and the adjacent normal tissue. All biopsy samples were reviewed by an experienced pathologist to validate the diagnosis. Pre-defined clinical data were extracted from medical charts and pathology reports. The clinical characteristics of the patients are given in  Table 1 .
+
+           10.1371/journal.pone.0094606.t001 
+           Table 1 
+           Clinical characteristics of the patients included in this study. 
+           
+             
+           
+             
+                 
+               
+                 
+               
+                   Number of patients 
+                 
+                   
+                 Total number of patients 
+                   38 
+                 
+                   
+               
+                 
+               Sex 
+ 
+ 
+                   
+                 
+                   
+                 Female 
+                   11 
+                 
+                   
+                 Male 
+                   27 
+                 
+                   
+                 Age at diagnosis 
+                   
+                 
+                   
+                 Median 
+                   52 years 
+                 
+                   
+                 Range 
+                   36–90 years 
+                 
+                   
+                 Localization 
+ 
+ 
+                   
+                 
+                   
+                 Gastroesophageal junction 
+                   18 
+                 
+                   
+                 Antrum 
+                   13 
+                 
+                   
+                 Fundus 
+                   2 
+                 
+                   
+                 Corpus 
+                   2 
+                 
+                   
+                 Fundus and corpus 
+                   1 
+                 
+                   
+                 Unknown 
+                   2 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+RNA extraction
+Biopsies were placed in RNA later  (Life Technologies, Carlsbad, CA, USA) immediately after removal. RNA later  was removed prior to RNA isolation, and Trizol (Life Technologies, Carlsbad, CA, USA) was added. The tissue samples were homogenized on a Tissuelyser (Qiagen, Chatsworth, CA, USA). RNA from tissue was isolated according to the manufacture's protocol for Trizol RNA isolation (Life Technologies, Carlsbad, CA, USA). RNA concentrations were measured on a NanoDrop ND-1000 Spectrophotometer. RNA quality was tested on a 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA) according to the manufacture's protocol.
+Reverse transcription quantitative polymerase chain reaction (RT-q-PCR)
+cDNA was synthesized from 1 ug total RNA using High Capacity cDNA Reverse Transcription Kit (Life Technologies, Carlsbad, CA, USA). The final reaction was diluted to a total volume of 200 uL.
+1 µl of cDNA was used for qPCR using SYBR green Master mix (Roche, Basel, Switzerland) on a Roche lightcycler 480 at: 95°C, 10 min; 50 cycles of 95°C for 10 sec, specific annealing temperature for 10 sec, 72°C for 5 sec; 99°C for 1 sec; 59°C for 15 sec; 95°C for 1 sec; cooling to 40°C. Primer sequences and annealing temperatures are given in  Table 2 .
+
+           10.1371/journal.pone.0094606.t002 
+           Table 2 
+           Primers and annealing temperature for the qPCR reactions used in the study. 
+           
+             
+           
+             
+                 
+                 
+                 
+               
+                 
+               Assay 
+                   Forward primer 
+                   Reverse primer 
+                   Annealing temperature 
+                 
+                   
+               
+                 
+               EGFR 
+ 
+ 
+                   5′-GAG AAC GCC TCC CTC A-3′ 
+                   5′-GGT ACT CGT CGG CAT C-3′ 
+                   54°C 
+                 
+                   
+                 HER2 
+ 
+ 
+                   5′-CCA GGA CCT GCT GAA CTG GT-3′ 
+                   5′-TGT ACG AGC CGC ACA TCC-3′ 
+ 
+ 
+                   59°C 
+                 
+                   
+                 HER2 probe 
+                   5′-CAG ATT GCC AGG GGG ATG AGC TAC CTG-3′  Tamra Fam  
+                   - 
+                 
+                   
+                 HER3 
+ 
+ 
+                   5′-GGT GCT GGG CTT GCT TTT-3′ 
+ 
+ 
+                   5′-CGT GGC TGG AGT TGG TGT TA-3′ 
+                   65°C 
+                 
+                   
+                 HER4 total 
+ 
+ 
+                   5′-ACA GCA GTA CCG AGC CTT TGC G-3′ 
+                   5′-GCC ACT AAC ACG TAG CCT GTG AC-3′ 
+                   64°C 
+                 
+                   
+                 HER4 CYT1 
+ 
+ 
+                   5′-GGA TGA AGA GGA TTT GGA AG-3′ 
+                   5′-TCCTGACATGGGGGTGTA-3′ 
+ 
+ 
+                   56°C 
+                 
+                   
+                 HER4 CYT2 
+ 
+ 
+                   5′-GAA TAG GAA CCA GTT TGT ATA CCG-3′ 
+ 
+ 
+                   5′- ACA GCAG GAG TCA TCA AAA ATC-3′ 
+ 
+ 
+                   56°C 
+                 
+                   
+                 HER4 JMa 
+ 
+ 
+                   5′-TAA CGG TCC CAC TAG TCA-3′ 
+ 
+ 
+                   5′-CAT GTT GTG GTA AAG TGG-3′ 
+ 
+ 
+                   60°C 
+                 
+                   
+                 HER4 JMb 
+ 
+ 
+                   5′- ATA GGC TCA AGT ATT GAA G-3′ 
+                   3′-CCA TCA GGC CGA TGC-3′ 
+ 
+ 
+                   60°C 
+                 
+                   
+                 EGF 
+ 
+ 
+                   5′-GAC TTG GGA GCC TGA GCA GAA-3′ 
+ 
+ 
+                   5′-CAT GCA CAA GCG TGA CTG GAG GT-3′ 
+                   66°C 
+                 
+                   
+                 HB-EGF 
+ 
+ 
+                   5′-GGT GGT GCT GAA GCT CTT TC-3′ 
+                   5′-CCC CTT GCC TTT CTT CTT TC-3′ 
+                   61°C 
+                 
+                   
+                 AR 
+ 
+ 
+                   5′-GCC TCA GGC CAT TAT GC-3′ 
+                   5′-ACC TGT TCA ACT CTG ACT GA-3′ 
+                   58°C 
+                 
+                   
+                 BTC 
+ 
+ 
+                   5′-TCT AGG TGC CCC AAG C-3′ 
+                   5′-GTG CAG ACA CCG ATG A-3′ 
+                   66°C 
+                 
+                   
+                 EPR 
+ 
+ 
+                   5′-AAA GTG TAG CTC TGA CAT G-3′ 
+                   5′-CTG TAC CAT CTG CAG AAA TA-3′ 
+                   60°C 
+                 
+                   
+                 TGF-α 
+ 
+ 
+                   5′-GCC CGC CCG TAA AAT GGT CCC CTC-3′ 
+ 
+ 
+                   5′-GTC CAC CTG GCC AAA CTC CTC CTC TGG G-3′ 
+                   70°C 
+                 
+                   
+                 NRG1α 
+ 
+ 
+                   5′-ATC CAC CAC TGG GAC A-3′ 
+                   5′-TTT GGA TCA TGG GCA-3′ 
+ 
+ 
+                   60°C 
+                 
+                   
+                 NRG1β 
+ 
+ 
+                   5′-TAG GAA ATG ACA GTG CCT C-3′ 
+                   5′-CGT AGT TTT GGC AGC GA-3′ 
+                   65°C 
+                 
+                   
+                 NRG2α 
+ 
+ 
+                   5′- AAA TAT GGC AAC GGC AG-3′ 
+                   5′-CGC AAA GGC AGT TTC T-3′ 
+                   60°C 
+                 
+                   
+                 NRG2β 
+ 
+ 
+                   5′-GCT TTA CGT CAA CAG CG-3′ 
+                   5′-CCG GTG TAT CCC ACA G-3′ 
+                   63°C 
+                 
+                   
+                 NRG3 
+ 
+ 
+                   5′-ACA GTG CAA GCG AAA AC-3′ 
+                   5′-CAC TAT GAT ATG AGG GCG-3′ 
+ 
+ 
+                   61°C 
+                 
+                   
+                 NRG4 
+ 
+ 
+                   5′-CTG TTG TCT GCG GTA TCC-3′ 
+ 
+ 
+                   5′-TCA TTC TTG GTC AAG AGA GT-3′ 
+                   61°C 
+                 
+                   
+                 SDHA 
+ 
+ 
+                   5′-TGG GAA CAA GAG GGC ATC TG-3′ 
+                   5′-CCA CCA CTG CAT CAA ATT CAT G 
+ 
+ 
+                   62°C 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+The gene best suited for normalization was determined by applying the Normfinder algorithm  [23]  to the quantified concentrations of GAPDH, β-actin, YWHAZ, SDHA, and HMBS. SDHA turned out to be the best of the five. Two samples were excluded from the analyses due to no detection of mRNA from any of the reference genes.
+Immunostaining
+Paraffin-embedded tissues fixed in 4% buffered paraformaldehyde from 13 representative patients were investigated by immunohistochemistry using c-erbB-4/HER-4, rabbit polyclonal antibody diluted 1/50 as the primary antibody (RB-9045-P1, Thermo Scientific, Wilmington, DE, USA). For antigen retrieval sections were boiled in micro wave oven in 10 mM citrate buffer, pH 6.0. The immunoreaction was visualized by biotinylated goat anti-rabbit antibody diluted 1/200 (BA-1000, Vector Laboratories, Burlingame, CA, USA), followed by a preformed avidin and biotinylated horseradish peroxidase macromolecular complex (ABC) diluted 1/100 (Code nr. PK-4000, Vector Laboratories, Burlingame, CA, USA). The reaction was developed by the use of 3,3 -diaminobenzidine and counterstaining was performed with Mayer's Hemalum. As a negative control, the same procedure was conducted without any primary antibody.
+Using Image Pro Plus (MediaCybernetics) the staining intensity of representative images of the tumor versus the surrounding mucosa tissue was estimated. Two images of tumor sample and two images of the surrounding mucosa were collected from each tissue sample and the average of the two values was calculated and used for statistical analysis and plotting. For a few samples, only tumor tissue or only normal mucosa was present and no comparison of HER4 expression was possible for these tissues. Paired t-test was used to determine if the intensity of the tumor tissues was different from the intensity of the mucosa tissues.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="4381~4385" text="EGFR" location="result" />
+<GENE id="G1" spans="4567~4571" text="HER2" location="result" />
+<GENE id="G2" spans="4764~4768" text="HER2" location="result" />
+<GENE id="G3" spans="4927~4931" text="HER3" location="result" />
+<GENE id="G4" spans="5124~5128" text="HER4" location="result" />
+<GENE id="G5" spans="5333~5337" text="HER4" location="result" />
+<GENE id="G6" spans="5530~5534" text="HER4" location="result" />
+<GENE id="G7" spans="5747~5751" text="HER4" location="result" />
+<GENE id="G8" spans="5949~5953" text="HER4" location="result" />
+<GENE id="G9" spans="6146~6149" text="EGF" location="result" />
+<GENE id="G10" spans="6350~6356" text="HB-EGF" location="result" />
+<GENE id="G11" spans="6738~6741" text="BTC" location="result" />
+<GENE id="G12" spans="6923~6926" text="EPR" location="result" />
+<GENE id="G13" spans="7117~7122" text="TGF-α" location="result" />
+<GENE id="G14" spans="7334~7339" text="NRG1α" location="result" />
+<GENE id="G15" spans="7523~7528" text="NRG1β" location="result" />
+<GENE id="G16" spans="7715~7720" text="NRG2α" location="result" />
+<GENE id="G17" spans="7904~7909" text="NRG2β" location="result" />
+<GENE id="G18" spans="8092~8096" text="NRG3" location="result" />
+<GENE id="G19" spans="8285~8289" text="NRG4" location="result" />
+<GENE id="G20" spans="8482~8486" text="SDHA" location="result" />
+<GENE id="G21" spans="8898~8903" text="GAPDH" location="result" />
+<GENE id="G22" spans="8905~8912" text="β-actin" location="result" />
+<GENE id="G23" spans="8914~8919,8921~8925" text="YWHAZ ... SDHA" location="result" />
+<GENE id="G24" spans="8931~8935" text="HMBS" location="result" />
+<GENE id="G25" spans="8937~8941" text="SDHA" location="result" />
+<GENE id="G26" spans="9254~9259" text="HER-4" location="result" />
+<GENE id="G27" spans="9247~9253" text="erbB-4" location="result" />
+<GENE id="G28" spans="10447~10451" text="HER4" location="result" />
+<DISEASE id="D0" spans="103~132" text="adenocarcinoma of the stomach" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="103~124,147~172" text="adenocarcinoma of the ... gastroesophageal junction" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="103~124,134~143" text="adenocarcinoma of the ... esophagus" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

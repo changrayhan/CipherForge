@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The establishment of perisomatic inhibition progresses through two stages. In the first stage, factors intrinsic to developing cortex guide PV axons to pyramidal cell somas and proximal dendrites 19 . In the second stage, increased neural activity incited by sensory experience drives the proliferation of perisomatic inhibition 20 . Our results suggest a model in which sensory experience suppresses expression of EphB4 in PV cells. This downregulation of EphB4 likely relieves a native synaptic repulsion between PV cells and pyramidal neurons, thereby promoting the assembly of PV-mediated perisomatic inhibition.
+The link between increased Pten expression and a reduction in EphB4 levels has been shown in human tumour lines 21 , but has not been studied in the central nervous system. The signalling pathway linking Pten expression to a reduction in EphB4 expression is not revealed in this study, and the complexity of protein social networks, which are quite large, almost certainly guarantees that the connection will not be linear. However, Pten is known to suppress transcription factors. In mouse cortex, Pten expression increases approximately one week after birth and its expression increases through the third postnatal week 22 . In pyramidal neurons, Pten signalling slows the growth of axons and dendrites, and its deletion induces their growth 5 6 . Disruptions of the Pten signalling pathway in excitatory neurons are linked to autism spectrum disorders 23 , and, targeted, conditional deletion is being exploited as a strategy for promoting neural regeneration in the central nervous system 7 24 . Because of its link to autism and its potential therapeutic use in neural regeneration, PTEN signalling has been extensively studied in pyramidal neurons. However, PTEN's influence on the development of inhibitory neurons has only recently been examined 8 . This despite evidence that autism and schizophrenia may be deeply rooted in deficits in inhibition 4 25 26 . The data we present here show that in PV cells,  Pten  deletion promotes the disassembly of their synaptic input to local pyramidal neurons. This effect is specific to these synapses, as we found no evidence for changes in excitatory input to mutant PV cells or in inhibitory connections between mutant PV cells. These results, along with those of other investigators 8 , identify an essential link between PTEN signalling and the establishment of somatic inhibition.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="416~421" text="EphB4" location="result" />
+<GENE id="G1" spans="458~463" text="EphB4" location="result" />
+<GENE id="G2" spans="645~649" text="Pten" location="background" />
+<GENE id="G3" spans="680~685" text="EphB4" location="background" />
+<GENE id="G4" spans="822~826" text="Pten" location="background" />
+<GENE id="G5" spans="856~861" text="EphB4" location="background" />
+<GENE id="G6" spans="1051~1055" text="Pten" location="background" />
+<GENE id="G7" spans="1117~1121" text="Pten" location="background" />
+<GENE id="G8" spans="1267~1271" text="Pten" location="background" />
+<GENE id="G10" spans="1706~1710" text="PTEN" location="background" />
+<GENE id="G12" spans="2392~2396" text="PTEN" location="result" />
+<GENE id="G13" spans="1782~1786" text="PTEN" location="background" />
+<GENE id="G14" spans="2034~2038" text="Pten" location="result" />
+<DISEASE id="D0" spans="1447~1471" text="autism spectrum disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="1641~1647" text="autism" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="1903~1909" text="autism" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="1914~1927" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<RELATION id="R0" spans="1666~1681" text="therapeutic use" location="background" relation="therapeutic target" />
+<RELATION id="R1" spans="1633~1637" text="link" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G10" geneText="PTEN" diseaseID="D1" diseaseText="autism" relationID="R1" relationText="link" />
+<ENTITY_LINKING id="E1" geneID="G10" geneText="PTEN" diseaseID="D1" diseaseText="autism" relationID="R0" relationText="therapeutic use" />
+</TAGS>
+</Genomics_ConceptTask>

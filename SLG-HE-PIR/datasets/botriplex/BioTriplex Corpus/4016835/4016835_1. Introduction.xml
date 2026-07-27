@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+
+Human essential hypertension (EHT) is a multifactorial trait with a complex genetic basis. This complex disease is due to the consequence of an interaction between various environmental and genetic factors and it plays a major role in blood pressure (BP) variation [ 1 ]. It does not follow the Mendelian mode of transmission [ 2 ]. The genetic contribution is estimated to be between 30% and 40% of BP variation [ 3 ]. In recent years, a series of genes have been proposed to influence the mechanism of blood pressure. Some evidences of association between these genes had been reported [ 4 – 6 ] but on the contrary these associations were not always significant [ 7 ].
+More than 150 candidate genes have been implicated in the regulation of blood pressure that is linked to several pathways. Among these genes, RAS has significant direct involvement in the BP regulation as it is reported in several studies and most of the antihypertensive drugs are targeting this system. The genetic variation of RAS encoding genes, angiotensinogen ( AGT ), angiotensin-1-converting enzyme ( ACE ), and angiotensin II type 1 receptor ( AGTR1 ), were associated with EHT and have been important genes for the association studies in various populations [ 8 – 10 ].  AGT , the natural substrate of RAS, is synthesized in the liver and released into blood circulation. The potential role of  AGT  gene in hypertension was originally explored by Jeunemaitre group through linkage and association study in the causation of human EHT in Utah and French populations [ 4 ].  AGT  variants have been shown to associate with serum  AGT  in black and white children, providing a potential mechanism for genetic associations [ 11 ,  12 ]. Among the identified major molecular variants of  AGT , M235T and T174 M variants had a significant association with hypertension [ 13 ]. But associations with these variants are found to be contradictory in different populations [ 14 ]. Two different meta-analyses in Chinese populations have also confirmed that T allele of  AGT  M235T polymorphism is associated with essential hypertension [ 15 ,  16 ].
+
+ ACE  is a key zinc metalloenzyme of the RAS and is widely distributed in the kidney [ 17 ]. The  ACE  catalyzes the conversion of angiotensin I to the biologically active peptide, angiotensin II, which is involved in the control of fluid electrolyte balance and systemic blood pressure [ 18 ]. This polymorphism is characterized by the presence (insertion) or absence (deletion) of a 287 bp AluYa5 element inside intron 16. Although I/D polymorphism is located in intronic region of the  ACE  gene, several investigators have found that the D allele is related to increased activity of  ACE  in serum. The highest serum  ACE  activity was seen in the DD genotype while the lowest was seen in the II genotype [ 19 ]. Among the  ACE  gene polymorphisms of exon 17, G2350A variant has the most significant effect on plasma  ACE  concentrations as it accounts for 19% of the total variance in  ACE  plasma levels.  ACE  I/D is in linkage disequilibrium (LD) with  ACE  G2350A and both the variants are associated with essential hypertension with contradictory result [ 20 ,  21 ]. Meta-analyses in different studies also found that DD genotype of  ACE  I/D polymorphism [ 22 ,  23 ] and AA genotype of ACE G2350A polymorphism are associated with essential hypertension [ 24 ].
+The  AGTR1 , a receptor for angiotensin II, is a member of the G-protein-coupled receptor super family expressed in most tissues, where receptor activation leads to vasoconstriction, water retention, and vascular smooth muscle cell proliferation and hypertrophy [ 25 ,  26 ]. The polymorphism A1166C in the 3′ untranslated region of the  AGTR1  gene was detected in study by Bonnardeaux et al., (1994) who also identified its association with hypertension [ 27 ]. Several recent findings and meta-analysis reported that it is associated with essential hypertension [ 28 ,  29 ]; however, conflicting results are also reported by few studies [ 30 ,  31 ].
+The goal of the present analysis is to assess the effect of a combination of variants at different loci of pathophysiological pathway of RAS genes in south Indian population. In this case-control study, we examined possible associations between polymorphisms of the  AGT ,  ACE , and  AGTR1  genes and hypertension in the south Indian population age between 30 and 70 years. We therefore determined the association between  AGT  M235T,  ACE  I/D,  ACE  G2350A, and  AGTR1  A1166C polymorphisms in the study population.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1042~1045" text="AGT" location="" />
+<GENE id="G1" spans="1024~1039" text="angiotensinogen" location="" />
+<GENE id="G2" spans="1049~1080" text="angiotensin-1-converting enzyme" location="" />
+<GENE id="G3" spans="1083~1086" text="ACE" location="" />
+<GENE id="G4" spans="1094~1124" text="angiotensin II type 1 receptor" location="" />
+<GENE id="G5" spans="1127~1132" text="AGTR1" location="" />
+<GENE id="G6" spans="1157~1160" text="EHT" location="" />
+<GENE id="G7" spans="1255~1258" text="AGT" location="" />
+<GENE id="G8" spans="1379~1382" text="AGT" location="" />
+<GENE id="G9" spans="1557~1560" text="AGT" location="" />
+<GENE id="G10" spans="1612~1615" text="AGT" location="background" />
+<GENE id="G11" spans="1767~1770" text="AGT" location="background" />
+<GENE id="G12" spans="2044~2047" text="AGT" location="background" />
+<GENE id="G13" spans="2126~2129" text="ACE" location="background" />
+<GENE id="G14" spans="2223~2226" text="ACE" location="background" />
+<GENE id="G15" spans="2614~2617" text="ACE" location="background" />
+<GENE id="G16" spans="2713~2716" text="ACE" location="background" />
+<GENE id="G17" spans="2747~2750" text="ACE" location="background" />
+<GENE id="G18" spans="2853~2856" text="ACE" location="background" />
+<GENE id="G19" spans="2947~2950" text="ACE" location="background" />
+<GENE id="G20" spans="3016~3019" text="ACE" location="background" />
+<GENE id="G21" spans="3037~3040" text="ACE" location="background" />
+<GENE id="G22" spans="3086~3089" text="ACE" location="background" />
+<GENE id="G23" spans="3270~3273" text="ACE" location="background" />
+<GENE id="G24" spans="3324~3327" text="ACE" location="background" />
+<GENE id="G25" spans="3404~3409" text="AGTR1" location="background" />
+<GENE id="G26" spans="3737~3742" text="AGTR1" location="background" />
+<GENE id="G27" spans="4321~4324" text="AGT" location="result" />
+<GENE id="G28" spans="4328~4331" text="ACE" location="result" />
+<GENE id="G29" spans="4339~4344" text="AGTR1" location="result" />
+<GENE id="G30" spans="4478~4481" text="AGT" location="result" />
+<GENE id="G31" spans="4491~4494" text="ACE" location="result" />
+<GENE id="G32" spans="4502~4505" text="ACE" location="result" />
+<GENE id="G33" spans="4520~4525" text="AGTR1" location="result" />
+<DISEASE id="D0" spans="8~30" text="essential hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="32~35" text="EHT" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1392~1404" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1514~1517" text="EHT" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1834~1846" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2087~2109" text="essential hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="3368~3390" text="essential hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="3842~3854" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="3941~3963" text="essential hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="4356~4368" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1360~1374" text="potential role" location="background" relation="relation undefined" />
+<RELATION id="R1" spans="1805~1833" text="significant association with" location="background" relation="relation undefined" />
+<RELATION id="R4" spans="3825~3841" text="association with" location="background" relation="relation undefined" />
+<RELATION id="R6" spans="4269~4290" text="possible associations" location="result" relation="relation undefined" />
+<RELATION id="R2" spans="2071~2086" text="associated with" location="result" relation="relation undefined" />
+<RELATION id="R3" spans="3352~3367" text="associated with" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G8" geneText="AGT" diseaseID="D2" diseaseText="hypertension" relationID="R0" relationText="potential role" />
+<ENTITY_LINKING id="E1" geneID="G11" geneText="AGT" diseaseID="D4" diseaseText="hypertension" relationID="R1" relationText="significant association with" />
+<ENTITY_LINKING id="E4" geneID="G26" geneText="AGTR1" diseaseID="D7" diseaseText="hypertension" relationID="R4" relationText="association with" />
+<ENTITY_LINKING id="E6" geneID="G27" geneText="AGT" diseaseID="D9" diseaseText="hypertension" relationID="R6" relationText="possible associations" />
+<ENTITY_LINKING id="E7" geneID="G28" geneText="ACE" diseaseID="D9" diseaseText="hypertension" relationID="R6" relationText="possible associations" />
+<ENTITY_LINKING id="E8" geneID="G29" geneText="AGTR1" diseaseID="D9" diseaseText="hypertension" relationID="R6" relationText="possible associations" />
+<ENTITY_LINKING id="E9" geneID="G12" geneText="AGT" diseaseID="D5" diseaseText="essential hypertension" relationID="R2" relationText="associated with" />
+<ENTITY_LINKING id="E10" geneID="G24" geneText="ACE" diseaseID="D6" diseaseText="essential hypertension" relationID="R3" relationText="associated with" />
+</TAGS>
+</Genomics_ConceptTask>

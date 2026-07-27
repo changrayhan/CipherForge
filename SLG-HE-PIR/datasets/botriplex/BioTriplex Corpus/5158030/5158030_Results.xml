@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Establishment of stable  TET1  knockdown CRC cells
+To assess the expression levels of  TET1  in CRCs, we first used RNA-seq data obtained from primary CRC tissues in The Cancer Genome Atlas (TCGA) network study. We found that CRCs in the CIMP-high category showed significantly lower levels of  TET1  expression than CIMP-low or CIMP-negative tumors ( Fig 1A ), which is consistent with previous observations [ 18 ]. We next carried out RT-qPCR with  TET1  in a series of CRC cell lines, and found that the majority of CRC lines (8 of 12) expressed lower levels of  TET1  than normal colonic tissues, whereas two lines (Colo320DM and CaCO2) showed upregulated  TET1  expression ( Fig 1B ). To explore the effect of  TET1  downregulation in CRC cells, we selected for knockdown experiments HCT116 cells, in which  TET1  is expressed at a level similar to that in normal colon, and Colo320DM cells, in which  TET1  is expressed at a higher level than in normal colon. These cells were transfected with a plasmid encoding an artificial microRNA (miRNA) targeting  TET1  or a negative control, after which the transfectants were selected for 5 to 6 weeks. Using two different artificial miRNAs targeting  TET1  (miTET1-1 and miTET1-2), we established two stable  TET1  knockdown clones of HCT116 cells (TET1-KD1 and TET1-KD2) ( Fig 1C ). We also isolated two native control clones (CONT1 and CONT2). In TET1-KD1 cells, TET1 mRNA levels were reduced by about 70% as compared to control, while in TET1-KD2 cells they were reduced by approximately 50%. With Colo320DM cells, we also established three independent knockdown clones using the two miRNAs (miTET1-1 for TET1 KD1 and KD2; miTET1-2 for KD3) and three control clones (CONT1, CONT2 and CONT3) ( Fig 1C ). Cell viability assays revealed that TET1 depletion had no significant effect on cell proliferation in either HCT116 or Colo320DM cells (Fig A in  S1 File ).
+Using dot blot analysis, we evaluated global 5-hmC and 5-mC levels in the control and  TET1  knockdown clones ( Fig 1D ). Unexpectedly, we found that depletion of  TET1  did not induce significant changes in 5-hmC levels in either HCT116 or Colo320DM cells. Similarly,  TET1  depletion had no effect on 5-mC levels in HCT116 cells. By contrast, it appeared 5-mC levels were higher in the Colo320DM  TET1  knockdown clones than in control clones ( Fig 1D ). Previous studies showed that methylation of repetitive elements could be a surrogate marker of global 5-mC levels [ 21 ]. We therefore used quantitative bisulfite pyrosequencing to assess the methylation of LINE-1 and Alu Yb8, but detected no significant differences between control and knockdown clones with either HCT116 or Colo320DM cells ( Fig 1E ).
+Increased CpG methylation in  TET1  depleted Colo320DM cells
+To obtain more detailed insight into genome-wide 5-mC levels, we carried out Infinium HumanMethylation450 BeadChip assays. Consistent with the dot blots and bisulfite pyrosequencing, there were no apparent differences in the methylation status between HCT116 control and  TET1  knockdown clones (Fig B in  S1 File ). However, overall β-values were increased in the Colo320DM  TET1  knockdown clones, which is consistent with the 5-mC levels determined in the dot blot analysis ( Fig 2A–2C ). Median β-values for all probes in the control clones ranged from 0.42 to 0.44, while those for the knockdown clones ranged from 0.51 to 0.52 ( Fig 2A ). We observed a substantial increase (approximately 15000 probes) in the number of methylated probes (β-value ≥ 0.8) and a similar sized decrease in the number of unmethylated probes (β-value < 0.2) in the  TET1  knockdown clones ( Fig 2B and 2C ). We therefore extracted probe sets in which the methylation status recurrently differed between the control and knockdown clones ( P  < 0.05). Among the 3920 extracted probe sets, the majority showed higher methylation levels in the knockdown clones than in the control clones ( Fig 2D and 2E ). In approximately half the probes, the methylation changes were located in the CpG islands (CGIs) or CGI shores, while the remaining probes were outside of the CpG island regions ( Fig 2F ). In addition, probes with methylation changes were widely distributed in various genomic positions, including both genic and intergenic regions ( Fig 2F ). Of the 3920 probes with methylation changes, 2698 were located in genic regions (corresponding to 2019 unique genes). Gene ontology analysis revealed that genes associated with “cell periphery”, “plasma membrane” and “system development” were significantly enriched among these genes ( S2 Table ). However, microarray analysis carried out to assess the gene expression profiles in these cells revealed no significant differences in the expression levels of the majority of these genes between the control and knockdown clones ( Fig 2G ). However, it is notable that the expression levels of the genes with methylation changes were strikingly lower than the overall expression level of all protein coding genes ( Fig 2G ).
+Altering DNA methylation affects gene expression in Colo320DM cells
+To examine the effects of  TET1  depletion in more detail, we further analyzed the Infinium BeadChip data and microarray results obtained with the control and  TET1  knockdown Colo320DM cells. We found that expression of only a small number of genes significantly differed between the control and knockdown clones (29 probes corresponding to 25 unique genes,  P  < 0.05), and a majority of those were downregulated in the  TET1  knockdown clones (Fig C in  S1 File ). Of that group, 10 genes overlapped those with altered DNA methylation ( Fig 3 ,  Table 1 ).
+
+           10.1371/journal.pone.0168281.t001 
+           Table 1 
+           Genes with altered methylation and expression in TET1 knockdown Colo320DM cells. 
+           
+             
+           
+             
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               Gene name 
+                   Locus 
+                   Methylation 
+                   Location of altered methylation 
+                   CpG island 
+                   Expression 
+                 
+                   
+               
+                 
+               ALS2CR11 
+                   2q33.1 
+                   Up 
+                   TSS-1st Exon 
+                   Island 
+                   Down 
+                 
+                   
+                 ALDH5A1 
+                   6p22.3 
+                   Down 
+                   TSS-1st Exon 
+                   Island 
+                   Up 
+                 
+                   
+                 
+                   
+                   Down 
+                   Body 
+                   Island 
+                   
+                 
+                   
+                 FUCA2 
+                   6q24.2 
+                   Down 
+                   TSS-1st Exon 
+                   Island 
+                   Up 
+                 
+                   
+                 GRB10 
+                   7p12.1 
+                   Up 
+                   TSS-1st Exon 
+                   Shore 
+                   Up 
+                 
+                   
+                 
+                   
+                   Up 
+                   Body 
+                   
+                   
+                 
+                   
+                 
+                   
+                   Up 
+                   3'UTR 
+                   
+                   
+                 
+                   
+                 HAS2 
+                   8q24.13 
+                   Up 
+                   TSS-1st Exon 
+                   Shore 
+                   Down 
+                 
+                   
+                 HTATIP2 
+                   11p15.1 
+                   Up 
+                   TSS-1st Exon 
+                   Island 
+                   Down 
+                 
+                   
+                 FAM111B 
+                   11q12.1 
+                   Up 
+                   TSS-1st Exon 
+                   Shore 
+                   Down 
+                 
+                   
+                 
+                   
+                   Down 
+                   Body 
+                   
+                   
+                 
+                   
+                 ELMOD1 
+                   11q22.3 
+                   Up 
+                   TSS-1st Exon 
+                   
+                   Up 
+                 
+                   
+                 
+                   
+                   Up 
+                   3'UTR 
+                   
+                   
+                 
+                   
+                 MYO5C 
+                   15q21.2 
+                   Up 
+                   TSS-1st Exon 
+                   Shore 
+                   Down 
+                 
+                   
+                 CCDC68 
+                   18q21.2 
+                   Down 
+                   TSS-1st Exon 
+                   Island 
+                   Up 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+There was a positive relationship between upregulated methylation in the 5’ regions (transcription start sites and 1st exons) and downregulated expression of five genes ( HAS2 ,  HTATIP2 ,  MYOC5C ,  ALS2CR1  and  FAM111B ) in the  TET1  knockdown clones ( Fig 3B and 3C ). For instance, the promoter CpG island of  HTATIP2  was moderately methylated in the control clones, whereas the entire CpG island is nearly completely methylated in the  TET1  knockdown clones ( Fig 4A ). The  HAS2  promoter is not associated with a CpG island, but levels of DNA methylation around the transcription start site were strikingly elevated in  TET1  knockdown clones ( Fig 4B ). The methylation status of  HAS2  was further validated by bisulfite sequencing ( Fig 4C , Fig. D in  S1 File ), and RT-qPCR confirmed its downregulated expression in the knockdown clones ( Fig 4D ). Conversely, the promoter CpG islands of three genes ( FUCA2 ,  CCDC68  and  ALDH5A1 ) showed decreased methylation and upregulated expression in  TET1  knockdown clones ( Fig 3B and 3C ).
+Increased methylation within the gene body regions of two genes ( GRB10  and  ELMOD1 ) was associated with upregulated expression in  TET1  knockdown clones ( Fig 3 ). Notably, in GRB10, methylation levels were significantly increased over the entire gene body region, including the intragenic CpG island ( Fig 4E , Fig E in  S1 File ).  GRB10  is an imprinting gene, and the intragenic CpG island is known as a differentially methylated region (DMR), which is normally methylated only in the maternal allele [ 22 ]. Bisulfite sequencing confirmed that the CpG island was almost completely methylated in the  TET1  knockdown cells, while the region was methylated at about half that level in the control cells ( Fig 4F , Fig D in  S1 File ). Elevated  GRB10  expression in  TET1  knockdown clones was confirmed by RT-qPCR ( Fig 4G ). In addition, by performing statistical analyses with less stringent criteria, we detected additional genes with altered methylation and expression in  TET1  knockdown cells (Fig F in  S1 File ,  S3 Table ). For instance,  PDGFRB  was downregulated in association with promoter hypermethylation, and  GRIP1  was upregulated with gene body methylation in the  TET1  knockdown clones (Fig G in  S1 File ).
+  depletion attenuates the response to a DNMT inhibitor
+As described above,  TET1  knockdown had only a limited effect on 5-mC in HCT116 cells. Because Infinium BeadChip assays indicated that global DNA methylation levels are significantly higher in HCT116 than Colo320DM cells (median β-values of all probes were 0.86 to 0.87 in HCT116 vs. 0.42 to 0.44 in Colo320DM),  TET1  depletion may be unable to induce further DNA methylation in HCT116 cells. A recent study showed that in hepatocellular carcinoma (HCC) cells, active DNA demethylation using a DNMT inhibitor is dependent on  TET2  [ 23 ]. We therefore tested the effect of  TET1  depletion on pharmacological DNA demethylation and gene re-expression in HCT116 cells by treating control and  TET1  knockdown clones with or without 5-aza-dC, and analyzing the expression and DNA methylation of four representative tumor suppressor genes:  DKK3 ,  SFRP1 ,  SFRP2  and  SOX17 . These genes are normally silenced in HCT116 cells in association with promoter CpG island methylation [ 24 – 26 ]. The degrees to which 5-aza-dC treatment induced re-expression of the four genes were lowest in the TET1-KD1 clone, where the  TET1  depletion was greatest (Figs  1C  and  5A ). Quantitative DNA methylation analysis using bisulfite pyrosequencing revealed that the four genes were almost fully methylated in both control and  TET1  knockdown clones, and the highest levels of methylation after 5-aza-dC treatment were in the TET1-KD1 clone, though the differences were modest ( Fig 5A ). These results suggest that  TET1  depletion in CRC cells may be associated with attenuated responses to 5-aza-dC.
+To confirm the relationship between  TET1  and the drug effect, we carried out a gene expression microarray analysis using the HCT116 control and  TET1  knockdown clones treated with or without 5-aza-dC. We found that 5-aza-dC induced significant changes in the gene expression profiles of the control clones. Statistical analysis revealed that 3037 probe sets (corresponding to 2585 unique genes) were upregulated, while 2291 probe sets (1923 unique genes) were downregulated by the treatment ( P  < 0.05). Hierarchical clustering analysis of the affected genes clearly demonstrated that the magnitudes of the changes in gene expression were markedly smaller in the  TET1  knockdown clones than controls ( Fig 5B ). Box plots of the expression levels of upregulated ( Fig 5C ) and downregulated genes ( Fig 5D ) suggest the effect of 5-aza-dC on gene expression was diminished in the  TET1  knockdown clones. A microarray analysis of Colo320DM cells treated with 5-aza-dC yielded similar results (Fig H in  S1 File ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="26~30" text="TET1" location="result" />
+<GENE id="G1" spans="88~92" text="TET1" location="result" />
+<GENE id="G2" spans="296~300" text="TET1" location="result" />
+<GENE id="G3" spans="452~456" text="TET1" location="result" />
+<GENE id="G4" spans="567~571" text="TET1" location="result" />
+<GENE id="G5" spans="662~666" text="TET1" location="result" />
+<GENE id="G6" spans="717~721" text="TET1" location="result" />
+<GENE id="G7" spans="814~818" text="TET1" location="result" />
+<GENE id="G8" spans="908~912" text="TET1" location="result" />
+<GENE id="G9" spans="1062~1066" text="TET1" location="result" />
+<GENE id="G10" spans="1202~1206" text="TET1" location="result" />
+<GENE id="G11" spans="1211~1215" text="TET1" location="result" />
+<GENE id="G12" spans="1224~1228" text="TET1" location="result" />
+<GENE id="G13" spans="1260~1264" text="TET1" location="result" />
+<GENE id="G14" spans="1300~1304" text="TET1" location="result" />
+<GENE id="G15" spans="1313~1317" text="TET1" location="result" />
+<GENE id="G16" spans="1400~1404" text="TET1" location="result" />
+<GENE id="G17" spans="1416~1420" text="TET1" location="result" />
+<GENE id="G18" spans="1492~1496" text="TET1" location="result" />
+<GENE id="G19" spans="1793~1797" text="TET1" location="result" />
+<GENE id="G20" spans="2001~2005" text="TET1" location="result" />
+<GENE id="G21" spans="2078~2082" text="TET1" location="result" />
+<GENE id="G22" spans="2184~2188" text="TET1" location="result" />
+<GENE id="G23" spans="2313~2317" text="TET1" location="result" />
+<GENE id="G24" spans="2755~2759" text="TET1" location="result" />
+<GENE id="G25" spans="3058~3062" text="TET1" location="result" />
+<GENE id="G26" spans="3162~3166" text="TET1" location="result" />
+<GENE id="G27" spans="3636~3640" text="TET1" location="result" />
+<GENE id="G28" spans="5135~5139" text="TET1" location="result" />
+<GENE id="G29" spans="5531~5535" text="TET1" location="result" />
+<GENE id="G30" spans="5795~5799" text="TET1" location="result" />
+<GENE id="G31" spans="6289~6297" text="ALS2CR11" location="result" />
+<GENE id="G32" spans="6489~6496" text="ALDH5A1" location="result" />
+<GENE id="G33" spans="6861~6866" text="FUCA2" location="result" />
+<GENE id="G34" spans="7058~7063" text="GRB10" location="result" />
+<GENE id="G35" spans="7581~7585,7585~7587" text="HAS2 ...   " location="result" />
+<GENE id="G36" spans="7777~7784" text="HTATIP2" location="result" />
+<GENE id="G37" spans="7977~7984" text="FAM111B" location="result" />
+<GENE id="G38" spans="8342~8348" text="ELMOD1" location="result" />
+<GENE id="G39" spans="8697~8702,8702~8704" text="MYO5C ...   " location="result" />
+<GENE id="G40" spans="8894~8900" text="CCDC68" location="result" />
+<GENE id="G41" spans="9346~9350" text="HAS2" location="result" />
+<GENE id="G42" spans="9354~9361" text="HTATIP2" location="result" />
+<GENE id="G43" spans="9365~9371" text="MYOC5C" location="result" />
+<GENE id="G44" spans="9375~9382" text="ALS2CR1" location="result" />
+<GENE id="G45" spans="9389~9396" text="FAM111B" location="result" />
+<GENE id="G46" spans="9407~9411" text="TET1" location="result" />
+<GENE id="G47" spans="9491~9498" text="HTATIP2" location="result" />
+<GENE id="G48" spans="9619~9623" text="TET1" location="result" />
+<GENE id="G49" spans="9659~9663" text="HAS2" location="result" />
+<GENE id="G50" spans="9806~9810" text="TET1" location="result" />
+<GENE id="G51" spans="9868~9872" text="HAS2" location="result" />
+<GENE id="G52" spans="10094~10099" text="FUCA2" location="result" />
+<GENE id="G53" spans="10103~10109" text="CCDC68" location="result" />
+<GENE id="G54" spans="10116~10123" text="ALDH5A1" location="result" />
+<GENE id="G55" spans="10186~10190" text="TET1" location="result" />
+<GENE id="G56" spans="10294~10299" text="GRB10" location="result" />
+<GENE id="G57" spans="10306~10312" text="ELMOD1" location="result" />
+<GENE id="G58" spans="10362~10366" text="TET1" location="result" />
+<GENE id="G59" spans="10408~10413" text="GRB10" location="result" />
+<GENE id="G60" spans="10566~10571" text="GRB10" location="result" />
+<GENE id="G61" spans="10837~10841" text="TET1" location="result" />
+<GENE id="G62" spans="10980~10985" text="GRB10" location="result" />
+<GENE id="G63" spans="11002~11006" text="TET1" location="result" />
+<GENE id="G64" spans="11213~11217" text="TET1" location="result" />
+<GENE id="G65" spans="11284~11290" text="PDGFRB" location="result" />
+<GENE id="G66" spans="11362~11367" text="GRIP1" location="result" />
+<GENE id="G67" spans="11420~11424" text="TET1" location="result" />
+<GENE id="G68" spans="11542~11546" text="TET1" location="result" />
+<GENE id="G69" spans="11835~11839" text="TET1" location="result" />
+<GENE id="G70" spans="12098~12102" text="TET1" location="result" />
+<GENE id="G71" spans="12215~12219" text="TET1" location="result" />
+<GENE id="G72" spans="12361~12365" text="DKK3" location="result" />
+<GENE id="G73" spans="12369~12374" text="SFRP1" location="result" />
+<GENE id="G74" spans="12378~12383" text="SFRP2" location="result" />
+<GENE id="G75" spans="12390~12395" text="SOX17" location="result" />
+<GENE id="G76" spans="12612~12616" text="TET1" location="result" />
+<GENE id="G77" spans="12639~12643" text="TET1" location="result" />
+<GENE id="G78" spans="12838~12842" text="TET1" location="result" />
+<GENE id="G79" spans="12937~12941" text="TET1" location="result" />
+<GENE id="G80" spans="13028~13032" text="TET1" location="result" />
+<GENE id="G81" spans="13151~13155" text="TET1" location="result" />
+<GENE id="G82" spans="13261~13265" text="TET1" location="result" />
+<GENE id="G83" spans="13782~13786" text="TET1" location="result" />
+<GENE id="G84" spans="14000~14004" text="TET1" location="result" />
+<DISEASE id="D0" spans="42~45" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="97~100" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="227~230" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="473~476" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="520~523" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="741~744" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="13047~13050" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="279~294,302~312" text="lower levels of ... expression" location="result" relation="decreased expression" />
+<RELATION id="R1" spans="540~562" text="expressed lower levels" location="result" relation="decreased expression" />
+<RELATION id="R2" spans="723~737" text="downregulation" location="result" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="TET1" diseaseID="D2" diseaseText="CRC" relationID="R0" relationText="lower levels of ... expression" />
+<ENTITY_LINKING id="E1" geneID="G4" geneText="TET1" diseaseID="D4" diseaseText="CRC" relationID="R1" relationText="expressed lower levels" />
+<ENTITY_LINKING id="E2" geneID="G6" geneText="TET1" diseaseID="D5" diseaseText="CRC" relationID="R2" relationText="downregulation" />
+</TAGS>
+</Genomics_ConceptTask>

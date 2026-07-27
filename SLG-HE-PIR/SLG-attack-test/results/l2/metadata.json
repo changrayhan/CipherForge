@@ -1,0 +1,8 @@
+{
+  "shape": [
+    40,
+    2048
+  ],
+  "n_samples": 40,
+  "n_classes": 6
+}

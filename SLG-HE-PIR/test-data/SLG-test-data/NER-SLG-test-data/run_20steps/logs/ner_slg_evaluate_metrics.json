@@ -1,0 +1,45 @@
+{
+  "task": "NER (Span-level Exact-match)",
+  "n_common_doc_keys": 30,
+  "n_parse_failures": 2,
+  "metrics": {
+    "macro_precision": 0.238836,
+    "macro_recall": 0.445895,
+    "macro_f1": 0.275833,
+    "weighted_f1": 0.482902,
+    "overall_micro_precision": 0.260542,
+    "overall_micro_recall": 0.540625,
+    "overall_micro_f1": 0.351626
+  },
+  "per_class_metrics": {
+    "GENE": {
+      "precision": 0.506667,
+      "recall": 0.569288,
+      "f1": 0.536155,
+      "tp": 152,
+      "fp": 148,
+      "fn": 115
+    },
+    "DISEASE": {
+      "precision": 0.195402,
+      "recall": 0.404762,
+      "f1": 0.263566,
+      "tp": 17,
+      "fp": 70,
+      "fn": 25
+    },
+    "RELATION": {
+      "precision": 0.01444,
+      "recall": 0.363636,
+      "f1": 0.027778,
+      "tp": 4,
+      "fp": 273,
+      "fn": 7
+    }
+  },
+  "per_class_parse_failures": {
+    "GENE": 1,
+    "DISEASE": 1,
+    "RELATION": 0
+  }
+}

@@ -1,0 +1,25 @@
+[2026-07-27 17:33:52] Monitor started, tracking PID=718886
+[2026-07-27 17:33:52] Step 39 completed | 17:33:17 [INFO] attack_suite: Training step 181/200 completed (bundles=181)
+17:33:32 [INFO] attack_suite: Training step 186/200 completed (bundles=186)
+17:33:47 [INFO] attack_suite: Training step 191/200 completed (bundles=191)
+[2026-07-27 17:34:02] Step 40 completed | 17:33:32 [INFO] attack_suite: Training step 186/200 completed (bundles=186)
+17:33:47 [INFO] attack_suite: Training step 191/200 completed (bundles=191)
+17:34:02 [INFO] attack_suite: Training step 196/200 completed (bundles=196)
+[2026-07-27 17:37:53] PROCESS 718886 DIED
+[2026-07-27 17:37:53] Last 15 log lines:
+17:37:51 [INFO] attack_suite: Log copied: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/log_20260727_172400.log
+17:37:51 [INFO] attack_suite: ============================================================
+17:37:51 [INFO] attack_suite: SUMMARY
+17:37:51 [INFO] attack_suite: ============================================================
+17:37:51 [INFO] attack_suite: GPU Used: Yes
+17:37:51 [INFO] attack_suite: Total verdicts: 6
+17:37:51 [INFO] attack_suite:   LEAK_DETECTED:     0
+17:37:51 [INFO] attack_suite:   PRIVACY_PRESERVED: 3
+17:37:51 [INFO] attack_suite:   INCONCLUSIVE:      3
+17:37:51 [INFO] attack_suite: All attacks indicate privacy is preserved.
+17:37:51 [INFO] attack_suite: ============================================================
+17:37:51 [INFO] attack_suite: Output directory: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_172400
+17:37:51 [INFO] attack_suite: ============================================================
+
+M2 attack complete. Results in: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_*/attack_results.json
+[2026-07-27 17:37:53] Monitor stopped (process dead)

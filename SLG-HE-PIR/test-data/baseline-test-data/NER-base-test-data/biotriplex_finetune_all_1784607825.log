@@ -1,0 +1,67 @@
+2026-07-21 12:23:45,445 [INFO] biotriplex_finetune: Logging to /root/autodl-tmp/SLG-HE-PIR/baseline/generation_ner/logs/biotriplex_finetune_all_1784607825.log
+2026-07-21 12:23:45,445 [INFO] biotriplex_finetune: Task: generation, stage: all
+2026-07-21 12:23:45,445 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 12:23:45,445 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 12:23:45,445 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 12:23:45,445 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 12:23:47,432 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 12:23:55,414 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 8.0s
+2026-07-21 12:23:57,909 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 12:23:57,921 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 12:24:00,164 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 12:24:09,253 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 12:24:09,253 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 12:24:09,253 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 12:24:09,253 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 12:24:09,903 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 12:24:09,903 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 12:24:09,904 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 12:24:09,918 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 12:24:09,918 [INFO] biotriplex_finetune: Stage 0 complete in 24.5s
+2026-07-21 12:24:09,918 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 12:24:09,918 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (GENERATION)
+2026-07-21 12:24:09,918 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 12:24:11,087 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=generation) ...
+2026-07-21 12:24:11,126 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[train]: 843 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 12:24:11,143 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/train_gold_ner.txt
+2026-07-21 12:24:11,151 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[val]: 181 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 12:24:11,156 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/val_gold_ner.txt
+2026-07-21 12:24:11,164 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[test]: 174 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 12:24:11,168 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/test_gold_ner.txt
+2026-07-21 12:24:11,169 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=843 val=181 test=174
+2026-07-21 12:24:11,169 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 12:24:15,299 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 12:24:23,693 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 12:24:23,702 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 12:24:23,702 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 12:24:23,720 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 12:24:23,720 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 12:24:23,724 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+2026-07-21 12:24:23,725 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=0
+2026-07-21 12:24:26,995 [INFO] src.model.model_splitting: Loaded U submodel: embed + 0 layers on cuda
+2026-07-21 12:24:27,004 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+2026-07-21 12:24:27,004 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=0
+2026-07-21 12:25:05,814 [INFO] src.model.model_splitting: Loaded M submodel: 32 layers + 448 LoRA params on cuda (gradient_checkpointing=True)
+2026-07-21 12:25:05,823 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 12:25:05,825 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=8430, peak_lr=1.00e-04
+2026-07-21 12:25:05,825 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 12:25:05,825 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 12:25:05,826 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 12:25:08,737 [INFO] src.model.model_splitting: Loaded S V matrix: (128256, 4096) on cuda
+2026-07-21 12:25:08,751 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 12:25:08,752 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 12:25:08,752 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 45.0s (single CUDA context)
+2026-07-21 12:25:08,752 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 12:25:25,492 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 12:25:25,493 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 12:25:42,203 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 12:25:42,203 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 12:25:44,250 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 12:25:44,251 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 80.5s
+2026-07-21 12:25:44,251 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=10, batch=1, lr=0.0001, wd=0.2
+2026-07-21 12:25:44,251 [INFO] src.training.trainer: Starting training: epochs=10, patience=999, train=843, val=181
+2026-07-21 12:26:33,054 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=0 n_tokens=10000 K=7 chunks of ~1536

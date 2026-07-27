@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PCa (prostate cancer) is the third most common cancer for men throughout the planet, and the most common among men in North America, Europe and some parts of Africa [ 1 ]. Besides age, race and family history, identified risk factors include androgen, diet, physical activity, sexual history, inflammation and obesity [ 2 ]. Androgen plays a crucial role in the pathogenesis of PCa [ 3 , 4 ]. After interacting with androgen, the activated AR (androgen receptor) is translocated into the nucleus where it binds to AREs (androgen response elements) present in different target genes [ 5 ]. AR plays a pivotal role in the initiation and progression of PCa, mainly through promoting the growth and proliferation of PCa cells [ 6 – 8 ].
+GNMT (glycine N-methyltransferase) affects epigenetic modification by regulating the ratio of SAM (S-adenosylmethionine) to SAH (S-adenosylhomocysteine) in one-carbon metabolism pathway [ 9 ]. The human  GNMT  gene primarily expresses in the liver, pancreas and prostate [ 10 ]. Previously, we used immunohistochemical staining to demonstrate that  GNMT  expresses abundantly in the normal and hyperplasia tissues of prostate, while its expression was down-regulated in more than 80% of PC tissues [ 11 ]. In addition, loss of heterozygosity among different GNMT alleles (including INS/DEL and STRP1) has been observed in 36.4% of PCa [ 11 ]. Therefore we postulated that GNMT is a susceptibility gene for PCa.
+It is worth noting that Sreekumar et al. reported that there were significant increases of the levels of sarcosine, the enzymatic reaction product of GNMT in invasive PCa cell lines compared with benign prostate epithelial cells [ 12 ]. Furthermore, they found that the invasiveness of PCa cells was attenuated if they knock down the  GNMT  gene expression [ 12 ]. It suggests that  GNMT  not only plays a role in the transformation and pathogenesis of PCa, but also is involved in the invasiveness and metastasis of PCa. Although we have characterized the promoter region and xenobiotic responsive elements of human  GNMT , there is no report about the identification ARE so far [ 13 ]. Therefore the goals of this study were to test whether androgen can stimulate  GNMT  expression, and if yes, then we would like to further map its AREs. The results showed that  GNMT  is an androgen-inducing gene and a functional ARE is located in the coding region of the exon 1. It is intriguing to note that during our study, a YY1 (Ying and Yang 1) binding motif was accidently identified in the intron 1 of GNMT since it shares partial sequence homology with the ARE. These data have important implication to the future study of the interaction between hepatitis B viral infection and  GNMT  gene regulation.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="441~443" text="AR" location="background" />
+<GENE id="G1" spans="590~592" text="AR" location="background" />
+<GENE id="G2" spans="734~738" text="GNMT" location="background" />
+<GENE id="G3" spans="938~942" text="GNMT" location="background" />
+<GENE id="G4" spans="1083~1087" text="GNMT" location="background" />
+<GENE id="G5" spans="1292~1296" text="GNMT" location="background" />
+<GENE id="G6" spans="1406~1410" text="GNMT" location="result" />
+<GENE id="G7" spans="1595~1599" text="GNMT" location="background" />
+<GENE id="G9" spans="1780~1784" text="GNMT" location="background" />
+<GENE id="G10" spans="1828~1832" text="GNMT" location="background" />
+<GENE id="G12" spans="2063~2067" text="GNMT" location="background" />
+<GENE id="G13" spans="2212~2216" text="GNMT" location="result" />
+<GENE id="G14" spans="2311~2315" text="GNMT" location="result" />
+<GENE id="G15" spans="2464~2467" text="YY1" location="result" />
+<GENE id="G16" spans="2469~2484" text="Ying and Yang 1" location="result" />
+<GENE id="G17" spans="2545~2549" text="GNMT" location="result" />
+<GENE id="G18" spans="2724~2728" text="GNMT" location="result" />
+<GENE id="G19" spans="740~767" text="glycine N-methyltransferase" location="background" />
+<GENE id="G21" spans="1316~1319" text="INS" location="background" />
+<GENE id="G22" spans="1320~1323" text="DEL" location="background" />
+<GENE id="G23" spans="1328~1333" text="STRP1" location="background" />
+<DISEASE id="D0" spans="1~4" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="6~21" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="48~54" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="379~382" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="651~654" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="713~716" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1365~1368" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1440~1443" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1612~1615" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1731~1734" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1898~1901" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1962~1965" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1416~1435" text="susceptibility gene" location="result" relation="genetic susceptibility" />
+<RELATION id="R1" spans="1843~1894" text="plays a role in the transformation and pathogenesis" location="background" relation="pathological role" />
+<RELATION id="R2" spans="1915~1958" text="involved in the invasiveness and metastasis" location="background" relation="modulator increase disease" />
+<RELATION id="R3" spans="1253~1275" text="loss of heterozygosity" location="background" relation="associated mutation" />
+<ENTITY_LINKING id="E0" geneID="G6" geneText="GNMT" diseaseID="D8" diseaseText="PCa" relationID="R0" relationText="susceptibility gene" />
+<ENTITY_LINKING id="E1" geneID="G21" geneText="INS" diseaseID="D7" diseaseText="PCa" relationID="R3" relationText="loss of heterozygosity" />
+<ENTITY_LINKING id="E2" geneID="G22" geneText="DEL" diseaseID="D7" diseaseText="PCa" relationID="R3" relationText="loss of heterozygosity" />
+<ENTITY_LINKING id="E3" geneID="G23" geneText="STRP1" diseaseID="D7" diseaseText="PCa" relationID="R3" relationText="loss of heterozygosity" />
+<ENTITY_LINKING id="E4" geneID="G10" geneText="GNMT" diseaseID="D11" diseaseText="PCa" relationID="R1" relationText="plays a role in the transformation and pathogenesis" />
+<ENTITY_LINKING id="E5" geneID="G10" geneText="GNMT" diseaseID="D12" diseaseText="PCa" relationID="R2" relationText="involved in the invasiveness and metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

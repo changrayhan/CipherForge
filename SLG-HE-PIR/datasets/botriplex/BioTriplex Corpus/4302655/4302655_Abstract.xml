@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Eye-mediated immune tolerance to Type II collagen in arthritis-prone strains of mice.
+Abstract: Type II collagen (CII) is a cartilage structural protein that plays important roles in joint function, arthritis and ageing. In studying the ability of CII to induce eye-mediated specific immune tolerance, we have recently proven that CII is capable of inducing anterior chamber-associated immune deviation (ACAID) in Balb/c mice. Here, we study the ability of CII to induce eye-mediated immune tolerance in strains of mice that are prone to the induction of rheumatoid arthritis. Thus, we hypothesized that CII induces ACAID in DBA/1 mice and in C57BL/6 mice through the AC route (direct injection) or the intravenous route (adoptive transfer of  in vitro -generated CII-specific ACAID macrophages or of CII-specific  in vitro -generated T regulatory cells). Specific immune tolerance induction was assessed using both delayed-type hypersensitivity (DTH) and local adoptive transfer (LAT) assays. Results indicated the ability of CII to generate CII-specific ACAID-mediated immune tolerance  in vivo  and  in vitro  in both DBA/1 mice and C57BL/6 mice. These findings could be beneficial in studies of immune tolerance induction using CII.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="61~70" text="arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="563~583" text="rheumatoid arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

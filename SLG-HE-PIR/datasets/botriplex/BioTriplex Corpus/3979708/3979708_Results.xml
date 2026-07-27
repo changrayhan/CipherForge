@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+DNA Methylation Status and Expression Level of mRNA in PDAC Tissues
+To examine the relationship between the extent of DNA methylation of mucin genes and the expression level of mRNA in paired pancreatic tissues, we evaluated 34 tissue samples (17 paired, neoplastic and non-neoplastic areas of PDAC specimens).
+A plot of the U-index for  MUC1  against the mRNA level for MUC1 showed a significant correlation (R 2  = 0.406, P<0.001) ( Figure 1 ). This result indicates that the extent of DNA methylation status of  MUC1  is a trigger for regulation of expression of MUC1 mRNA in pancreatic tissue.
+A plot of the U-index for  MUC2  against the mRNA level for MUC2 showed no significant correlation (data not shown). A plot of the U-index for  MUC4  against the mRNA level for MUC4 showed no significant correlation, either (data not shown). However, as shown in the following paragraph, the DNA methylation status of  MUC2  and  MUC4  could be applied in the analysis of pancreatic juice.
+Correlation between DNA Methylation Status in Pancreatic Juice and Mucin Expression
+Representative cases of comparison of the DNA methylation status using MSE of pancreatic juice and expression of mucins examined by IHC in paired pancreatic tissues from PDAC, intestinal-type IPMN and gastric-type IPMN are shown in  Figure 2 . Pancreatic juice from patients with PDAC showed unmethylated  MUC1 , methylated  MUC2 , and unmethylated  MUC4  in MSE analysis, and paired pancreatic tissues were MUC1-positive, MUC2-negative and MUC4-positive ( Figure 2A ). Pancreatic juice from patients with intestinal-type IPMN showed unmethylated  MUC1 , unmethylated  MUC2  and unmethylated  MUC4 , and paired pancreatic tissues were MUC1-positive, MUC2-positive and MUC4-positive ( Figure 2B ). Pancreatic juice from patients with gastric-type IPMN showed unmethylated  MUC1 , methylated  MUC2  and methylated  MUC4 , and paired pancreatic tissues were MUC1-positive and MUC2-negative and MUC4-negative ( Figure 2C ). These results indicate that the DNA methylation status of the three mucin genes ( MUC1 ,  MUC2  and  MUC4 ) in pancreatic juice matches with the expression level of the three mucins (MUC1, MUC2 and MUC4) in tissue. Thus, MSE analysis of pancreatic juice may be useful for assessment of mucin expression levels.
+Differences in DNA Methylation among Neoplastic Lesions in Pancreatic Juice Analysis
+To examine differences in DNA methylation of  MUC1 ,  MUC2  and  MUC4  among pancreatic neoplastic lesions, we evaluated pancreatic juice samples from 15 patients with PDAC, 11 patients with gastric-type IPMN, 8 with intestinal-type IPMN, 9 with other IPMN types, and 2 non-neoplastic pancreases ( Table 1 ). The promoter methylation status of the three mucins was detected by MSE and the U-index was calculated using the band intensity. Interestingly, pancreatic juices obtained from the 2 non-neoplastic pancreases were similar to those for gastric-type IPMN (data not shown). The median U-index, 95% confidence interval and p values in a Kolmogorov-Smirnov test are shown in  Table S2 . For MUC1, gastric-type IPMN had a significantly lower U index (P>0.001) compared to other diseases, including intestinal-type IPMN and PDAC ( Figure 3A ). The area under the curve (AUC) for distinguishing gastric-type IPMN from other neoplasms was 0.803 (ROC curve shown in  Figure S1A ; U-index threshold of 44.65 points). For MUC2, the intestinal-type IPMN had a significantly higher U-index (P>0.001) compared to the other neoplasms, including gastric-type IPMN and PDAC, and the U-index for gastric-type IPMN was significantly lower (P = 0.002) than that for PDAC ( Figure 3B ). The AUC for distinguishing intestinal-type IPMN from other neoplasms was 0.882 (ROC curve shown in  Figure S1B ; U-index threshold of 82.71 points). For MUC4, gastric-type IPMN had a significantly lower U-index (P = 0.018) than intestinal-type IPMN ( Figure 3C ). The AUC for distinguishing gastric-type IPMN from intestinal-type IPMN was 0.740 (ROC curve shown in  Figure S1C ; U-index threshold of 83.22 points). The threshold values, AUCs, and P values are summarized in  Table 2 .
+
+           10.1371/journal.pone.0093760.t001 
+           Table 1 
+           Origin of pancreatic juice samples. 
+           
+             
+           
+             
+                 
+               
+                 
+               Disease state 
+                   Number 
+                 
+                   
+               
+                 
+               PDAC 
+                   15 
+                 
+                   
+                 Intestinal-type IPMN 
+                   8 
+                 
+                   
+                 Other-type IPMN 
+                   
+                 
+                   
+                 Pancreatobiliary-type IPMN 
+                   4 
+                 
+                   
+                 Intestinal-type IPMN with Colloid Carcinoma 
+                   3 
+                 
+                   
+                 Oncocytic-type IPMN 
+                   1 
+                 
+                   
+                 Intraductal tubulopapillary neoplasm 
+                   1 
+                 
+                   
+                 Gastric-type IPMN 
+                   11 
+                 
+                   
+                 Non-neoplastic pancreas 
+                   2 
+                 
+                   
+                 Total 
+                   45 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+           
+               PDAC: pancreatic ductal adenocarcinoma, IPMN: intraductal papillary mucinous neoplasm. 
+             
+               
+           
+             
+        
+
+           10.1371/journal.pone.0093760.t002 
+           Table 2 
+           Summary of P values in T tests, AUCs and threshold values. 
+           
+             
+           
+             
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               1. MUC1 
+                 
+                   
+               
+                 
+               PDAC vs IPMN-IN 
+                   PDAC vs IPMN-Oh 
+                   PDAC vs IPMN-GA 
+                   PDAC vs Other 
+                 
+                   
+                 P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                   a 
+ P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 0.355 
+                   0.617 
+                   76.25 
+                   0.514 
+                   0.526 
+                   55.03 
+                   0.001 
+                   0.815 
+                   55.03 
+                   0.057 
+                   0.613 
+                   55.03 
+                 
+                   
+                 
+                   IPMN-IN vs IPMN-Oh 
+                   IPMN-IN vs IPMN-GA 
+                   IPMN-IN vs Other 
+                 
+                   
+                 
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   0.256 
+                   0.611 
+                   76.25 
+                   0.002 
+                   0.837 
+                   76.25 
+                   0.064 
+                   0.693 
+                   76.25 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   IPMN-Oh vs IPMN-GA 
+                   IPMN-Oh vs Other 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   0.050 
+                   0.752 
+                   44.65 
+                   0.701 
+                   0.556 
+                   84.27 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   IPMN-GA vs Other 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   <0.001 
+                   0.803 
+                   44.65 
+                 
+                   
+                 2. MUC2 
+ 
+ 
+                 
+                   
+                 PDAC vs IPMN-IN 
+                   PDAC vs IPMN-Oh 
+                   PDAC vs IPMN-GA 
+                   PDAC vs Other 
+                 
+                   
+                 P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                   a 
+ P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 0.005 
+                   0.875 
+                   82.71 
+                   0.457 
+                   0.622 
+                   37.41 
+                   0.002 
+                   0.821 
+                   35.99 
+                   0.522 
+                   0.576 
+                   35.99 
+                 
+                   
+                 
+                   
+                   
+                   IPMN-IN vs IPMN-Oh 
+                   IPMN-IN vs IPMN-GA 
+                   IPMN-IN vs Other 
+                 
+                   
+                 
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   0.018 
+                   0.833 
+                   82.71 
+                   <0.001 
+                   0.923 
+                   82.71 
+                   <0.001 
+                   0.882 
+                   82.71 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   IPMN-Oh vs IPMN-GA 
+                   IPMN-Oh vs Other 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   0.106 
+                   0.735 
+                   8.46 
+                   0.687 
+                   0.540 
+                   37.41 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   IPMN-GA vs Other 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   0.001 
+                   0.822 
+                   8.46 
+                 
+                   
+                 3. MUC4 
+ 
+ 
+                 
+                   
+                 PDAC vs IPMN-IN 
+                   PDAC vs IPMN-Oh 
+                   PDAC vs IPMN-GA 
+                   PDAC vs Other 
+                 
+                   
+                 b 
+ P 
+                   AUC 
+                   Th. 
+                   b 
+ P 
+                   AUC 
+                   Th. 
+                   b 
+ P 
+                   AUC 
+                   Th. 
+                   b 
+ P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 0.825 
+                   0.533 
+                   98.20 
+                   0.030 
+                   0.770 
+                   68.98 
+                   0.065 
+                   0.708 
+                   92.54 
+                   0.052 
+                   0.680 
+                   92.54 
+                 
+                   
+                 
+                   
+                   
+                   IPMN-IN vs IPMN-Oh 
+                   IPMN-IN vs IPMN-GA 
+                   IPMN-IN vs Other 
+                 
+                   
+                 
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                   P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   0.019 
+                   0.792 
+                   83.22 
+                   0.019 
+                   0.740 
+                   83.22 
+                   0.061 
+                   0.642 
+                   83.22 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   IPMN-Oh vs IPMN-GA 
+                   IPMN-Oh vs Other 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   P 
+                   AUC 
+                   Th. 
+                   b 
+ P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   0.980 
+                   0.504 
+                   48.98 
+                   0.111 
+                   0.676 
+                   68.98 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   IPMN-GA vs Other 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   b 
+ P 
+                   AUC 
+                   Th. 
+                 
+                   
+                 
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   0.101 
+                   0.659 
+                   48.98 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+           a 
+               Welch T test, 
+             
+               
+             b 
+               Mann-Whitney U test, PDAC: pancreatic ductal adenocarcinoma, IPMN: intraductal papillary mucinous neoplasm, IPMN-IN: intestinal-type IPMN, IPMN, IPMN-Oh: other-type IPMN, IPMN-GA: gastric-type IPMN, Th.: Threshold value. 
+             
+               
+           
+             
+        
+Distinction of Pancreatic Neoplastic Lesions Based on Aberrant Methylation of Three Mucins
+A predictive model for identification of pancreatic disease was constructed using the U-indexes of MUC1, MUC2 and MUC4 based on quadratic ( Table 3 ) or canonical ( Table 4 ) discriminant analysis. The model based on quadratic discrimination analysis had specificity and sensitivity of 87% and 80% for PDAC; 100% and 88% for intestinal-type IPMN (dangerous type); and 88% and 77% for gastric-type IPMN (safe type) and non-neoplastic case. With canonical discriminant analysis, the model had a specificity and sensitivity of 77% and 73% for PDAC; 95% and 88% for intestinal-type IPMN; and 91% and 69% for gastric-type IPMN. These data are summarized in  Table S3 . The accuracies of the quadratic and canonical discriminant analyses were 76% and 64%, respectively, in examination of 45 pancreatic juice samples. Thus, quadratic discrimination analysis was more suitable for construction of the predictive model for pancreatic disease type using analysis of pancreatic juice.
+
+           10.1371/journal.pone.0093760.t003 
+           Table 3 
+           Summary of predictive model findings for disease type in Quadratic discrimination analysis. 
+           
+             
+           
+             
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               
+                   
+                   Probability of prediction 
+                   
+                   
+                 
+                   
+                 Final diagnosis 
+                   Setting of disease type 
+                   PDAC 
+                   IPMN-IN 
+                   Other 
+                   IPMN-GA 
+                   Predicted disease type 
+                   Accuracy 
+                 
+                   
+               
+                 
+               PDAC 
+                   PDAC 
+                   50.0% 
+                   35.6% 
+                   8.1% 
+                   6.3% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   71.9% 
+                   0.0% 
+                   2.7% 
+                   25.4% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   70.2% 
+                   0.0% 
+                   5.4% 
+                   24.5% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   48.3% 
+                   0.0% 
+                   7.7% 
+                   44.0% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   75.4% 
+                   0.0% 
+                   2.8% 
+                   21.8% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   77.2% 
+                   0.4% 
+                   5.0% 
+                   17.4% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   77.2% 
+                   0.0% 
+                   2.6% 
+                   20.2% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   77.2% 
+                   1.7% 
+                   5.8% 
+                   15.3% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   46.8% 
+                   9.0% 
+                   21.8% 
+                   22.3% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   71.0% 
+                   0.0% 
+                   2.8% 
+                   26.2% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   73.7% 
+                   1.5% 
+                   7.2% 
+                   17.7% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   57.2% 
+                   3.1% 
+                   35.3% 
+                   4.4% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   32.7% 
+                   7.2% 
+                   56.7% 
+                   3.4% 
+                   Other 
+                   - 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   45.2% 
+                   0.6% 
+                   53.9% 
+                   0.3% 
+                   Other 
+                   - 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   14.3% 
+                   0.3% 
+                   28.7% 
+                   56.7% 
+                   IPMN-GA 
+                   - 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   24.1% 
+                   65.6% 
+                   7.0% 
+                   3.3% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   34.5% 
+                   52.5% 
+                   9.0% 
+                   4.0% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   2.1% 
+                   91.1% 
+                   6.0% 
+                   0.8% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   6.5% 
+                   75.4% 
+                   17.8% 
+                   0.3% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   0.5% 
+                   95.0% 
+                   4.3% 
+                   0.2% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   0.1% 
+                   89.2% 
+                   10.6% 
+                   0.0% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   0.4% 
+                   94.3% 
+                   5.0% 
+                   0.2% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   1.6% 
+                   37.5% 
+                   58.6% 
+                   2.4% 
+                   Other 
+                   - 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   30.3% 
+                   0.9% 
+                   68.5% 
+                   0.3% 
+                   Other 
+                   yes 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   0.4% 
+                   6.7% 
+                   86.2% 
+                   6.7% 
+                   Other 
+                   yes 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   11.9% 
+                   0.1% 
+                   87.9% 
+                   0.1% 
+                   Other 
+                   yes 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   38.8% 
+                   0.3% 
+                   18.2% 
+                   42.7% 
+                   IPMN-GA 
+                   - 
+                 
+                   
+                 IPMN-IN with CC 
+                   Other 
+                   5.9% 
+                   41.1% 
+                   50.6% 
+                   2.3% 
+                   Other 
+                   yes 
+                 
+                   
+                 IPMN-IN with CC 
+                   Other 
+                   72.5% 
+                   1.2% 
+                   7.5% 
+                   18.8% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-IN with CC 
+                   Other 
+                   12.9% 
+                   0.0% 
+                   15.5% 
+                   71.6% 
+                   IPMN-GA 
+                   - 
+                 
+                   
+                 IPMN-On 
+                   Other 
+                   1.2% 
+                   0.0% 
+                   7.7% 
+                   91.1% 
+                   IPMN-GA 
+                   - 
+                 
+                   
+                 ITPN 
+                   Other 
+                   10.8% 
+                   16.3% 
+                   72.8% 
+                   0.2% 
+                   Other 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   1.2% 
+                   0.0% 
+                   8.0% 
+                   90.8% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   2.2% 
+                   0.0% 
+                   7.5% 
+                   90.3% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   0.1% 
+                   0.0% 
+                   6.1% 
+                   93.8% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   7.2% 
+                   0.0% 
+                   16.4% 
+                   76.4% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   5.7% 
+                   0.0% 
+                   11.7% 
+                   82.7% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   0.4% 
+                   0.0% 
+                   21.7% 
+                   77.9% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   7.5% 
+                   0.0% 
+                   15.8% 
+                   76.7% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   44.1% 
+                   0.0% 
+                   11.0% 
+                   45.0% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   61.3% 
+                   0.4% 
+                   8.8% 
+                   29.5% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   66.7% 
+                   11.7% 
+                   9.3% 
+                   12.3% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   69.4% 
+                   2.3% 
+                   9.5% 
+                   18.8% 
+                   PDAC 
+                   - 
+                 
+                   
+                 Pancreatitis 
+                   IPMN-GA 
+                   12.8% 
+                   0.3% 
+                   26.1% 
+                   60.8% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 NL 
+                   IPMN-GA 
+                   1.4% 
+                   0.0% 
+                   8.0% 
+                   90.6% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+           
+               PDAC: pancreatic ductal adenocarcinoma, IPMN: intraductal papillary mucinous neoplasm, IPMN-IN: intestinal-type IPMN, IPMN-PB: pancreatobiliary-type IPMN, IPMN-IN with CC: intestinal-type IPMN with colloid carcinoma, IPMN-On: oncocytic-type IPMN, ITPN: intraductal tubulopapillary neoplasm, IPMN-GA: gastric-type IPMN, NL: no lesion, Other: Other-type IPMN. 
+             
+               
+           
+             
+        
+
+           10.1371/journal.pone.0093760.t004 
+           Table 4 
+           Summary of predictive model findings for disease type in Canonical discriminant analysis. 
+           
+             
+           
+             
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+               
+                 
+               
+                   
+                   Probability of prediction 
+                   
+                   
+                 
+                   
+                 Final diagnosis 
+                   Setting of disease type 
+                   PDAC 
+                   IPMN-IN 
+                   Other 
+                   IPMN-GA 
+                   Predicted disease type 
+                   Accuracy 
+                 
+                   
+               
+                 
+               PDAC 
+                   PDAC 
+                   48.6% 
+                   33.8% 
+                   15.3% 
+                   2.4% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   54.2% 
+                   1.7% 
+                   4.2% 
+                   39.9% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   61.0% 
+                   11.1% 
+                   8.3% 
+                   19.6% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   48.9% 
+                   1.4% 
+                   10.2% 
+                   39.5% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   63.9% 
+                   5.0% 
+                   6.7% 
+                   24.4% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   63.8% 
+                   11.4% 
+                   13.6% 
+                   11.2% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   73.0% 
+                   4.1% 
+                   8.1% 
+                   14.7% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   63.4% 
+                   13.8% 
+                   15.1% 
+                   7.7% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   64.5% 
+                   13.8% 
+                   19.5% 
+                   2.2% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   53.5% 
+                   1.5% 
+                   4.3% 
+                   40.8% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   58.2% 
+                   20.9% 
+                   10.9% 
+                   9.9% 
+                   PDAC 
+                   yes 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   18.6% 
+                   11.0% 
+                   56.0% 
+                   14.5% 
+                   Other 
+                   - 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   18.4% 
+                   30.1% 
+                   41.2% 
+                   10.3% 
+                   Other 
+                   - 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   14.4% 
+                   11.6% 
+                   71.4% 
+                   2.6% 
+                   Other 
+                   - 
+                 
+                   
+                 PDAC 
+                   PDAC 
+                   25.7% 
+                   0.7% 
+                   22.4% 
+                   51.2% 
+                   IPMN-GA 
+                   - 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   38.9% 
+                   45.3% 
+                   12.8% 
+                   2.9% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   41.4% 
+                   42.8% 
+                   14.5% 
+                   1.3% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   25.3% 
+                   63.0% 
+                   8.7% 
+                   2.9% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   13.0% 
+                   77.8% 
+                   9.0% 
+                   0.3% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   18.8% 
+                   72.1% 
+                   7.0% 
+                   2.1% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   8.4% 
+                   84.5% 
+                   6.3% 
+                   0.8% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   17.8% 
+                   72.5% 
+                   7.6% 
+                   2.2% 
+                   IPMN-IN 
+                   yes 
+                 
+                   
+                 IPMN-IN 
+                   IPMN-IN 
+                   23.2% 
+                   1.0% 
+                   61.9% 
+                   13.8% 
+                   Other 
+                   - 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   14.5% 
+                   8.2% 
+                   74.8% 
+                   2.5% 
+                   Other 
+                   yes 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   60.4% 
+                   2.2% 
+                   33.8% 
+                   3.6% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   11.6% 
+                   6.7% 
+                   80.2% 
+                   1.4% 
+                   Other 
+                   yes 
+                 
+                   
+                 IPMN-PB 
+                   Other 
+                   45.1% 
+                   1.8% 
+                   21.1% 
+                   32.0% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-IN with CC 
+                   Other 
+                   18.9% 
+                   51.5% 
+                   22.1% 
+                   7.6% 
+                   IPMN-IN 
+                   - 
+                 
+                   
+                 IPMN-IN with CC 
+                   Other 
+                   58.0% 
+                   20.7% 
+                   10.6% 
+                   10.7% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-IN with CC 
+                   Other 
+                   19.9% 
+                   0.8% 
+                   15.9% 
+                   63.4% 
+                   IPMN-GA 
+                   - 
+                 
+                   
+                 IPMN-On 
+                   Other 
+                   8.2% 
+                   0.3% 
+                   7.2% 
+                   84.3% 
+                   IPMN-GA 
+                   - 
+                 
+                   
+                 ITPN 
+                   Other 
+                   8.5% 
+                   76.9% 
+                   14.1% 
+                   0.5% 
+                   IPMN-IN 
+                   - 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   6.9% 
+                   0.1% 
+                   1.0% 
+                   92.0% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   10.2% 
+                   0.2% 
+                   4.5% 
+                   85.0% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   3.2% 
+                   0.0% 
+                   0.7% 
+                   96.1% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   14.5% 
+                   0.5% 
+                   16.2% 
+                   68.8% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   15.2% 
+                   0.3% 
+                   9.2% 
+                   75.4% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   12.3% 
+                   2.4% 
+                   5.9% 
+                   79.5% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   13.7% 
+                   0.9% 
+                   17.3% 
+                   68.1% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   80.6% 
+                   0.7% 
+                   5.2% 
+                   13.5% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   49.9% 
+                   6.4% 
+                   17.1% 
+                   26.7% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   52.4% 
+                   14.6% 
+                   22.6% 
+                   10.4% 
+                   PDAC 
+                   - 
+                 
+                   
+                 IPMN-GA 
+                   IPMN-GA 
+                   55.3% 
+                   28.8% 
+                   8.3% 
+                   7.7% 
+                   PDAC 
+                   - 
+                 
+                   
+                 Pancreatitis 
+                   IPMN-GA 
+                   17.4% 
+                   0.7% 
+                   24.9% 
+                   57.0% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+                 NL 
+                   IPMN-GA 
+                   8.6% 
+                   0.3% 
+                   7.3% 
+                   83.7% 
+                   IPMN-GA 
+                   yes 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+           
+               PDAC: pancreatic ductal adenocarcinoma, IPMN: intraductal papillary mucinous neoplasm, IPMN-IN: intestinal-type IPMN, IPMN-PB: pancreatobiliary-type IPMN, IPMN-IN with CC: intestinal-type IPMN with colloid carcinoma, IPMN-On: oncocytic-type IPMN, ITPN: intraductal tubulopapillary neoplasm, IPMN-GA: gastric-type IPMN, NL: no lesion, Other: Other-type IPMN. 
+             
+               
+           
+             
+        
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="339~343" text="MUC1" location="result" />
+<GENE id="G1" spans="372~376" text="MUC1" location="result" />
+<GENE id="G2" spans="516~520" text="MUC1" location="result" />
+<GENE id="G3" spans="567~571" text="MUC1" location="result" />
+<GENE id="G4" spans="626~630" text="MUC2" location="result" />
+<GENE id="G5" spans="659~663" text="MUC2" location="result" />
+<GENE id="G6" spans="743~747" text="MUC4" location="result" />
+<GENE id="G7" spans="776~780" text="MUC4" location="result" />
+<GENE id="G8" spans="918~922" text="MUC2" location="result" />
+<GENE id="G9" spans="929~933" text="MUC4" location="result" />
+<GENE id="G10" spans="1379~1383" text="MUC1" location="result" />
+<GENE id="G11" spans="1398~1402" text="MUC2" location="result" />
+<GENE id="G12" spans="1423~1427" text="MUC4" location="result" />
+<GENE id="G13" spans="1481~1485" text="MUC1" location="result" />
+<GENE id="G14" spans="1496~1500" text="MUC2" location="result" />
+<GENE id="G15" spans="1514~1518" text="MUC4" location="result" />
+<GENE id="G16" spans="1621~1625" text="MUC1" location="result" />
+<GENE id="G17" spans="1642~1646" text="MUC2" location="result" />
+<GENE id="G18" spans="1666~1670" text="MUC4" location="result" />
+<GENE id="G19" spans="1708~1712" text="MUC1" location="result" />
+<GENE id="G20" spans="1723~1727" text="MUC2" location="result" />
+<GENE id="G21" spans="1741~1745" text="MUC4" location="result" />
+<GENE id="G22" spans="1845~1849" text="MUC1" location="result" />
+<GENE id="G23" spans="1864~1868" text="MUC2" location="result" />
+<GENE id="G24" spans="1886~1890" text="MUC4" location="result" />
+<GENE id="G25" spans="1928~1932" text="MUC1" location="result" />
+<GENE id="G26" spans="1946~1950" text="MUC2" location="result" />
+<GENE id="G27" spans="1964~1968" text="MUC4" location="result" />
+<GENE id="G28" spans="2075~2079" text="MUC1" location="result" />
+<GENE id="G29" spans="2083~2087" text="MUC2" location="result" />
+<GENE id="G30" spans="2094~2098" text="MUC4" location="result" />
+<GENE id="G31" spans="2176~2180" text="MUC1" location="result" />
+<GENE id="G32" spans="2182~2186" text="MUC2" location="result" />
+<GENE id="G33" spans="2191~2195" text="MUC4" location="result" />
+<GENE id="G34" spans="2435~2439" text="MUC1" location="result" />
+<GENE id="G35" spans="2443~2447" text="MUC2" location="result" />
+<GENE id="G36" spans="2454~2458" text="MUC4" location="result" />
+<GENE id="G37" spans="3083~3087" text="MUC1" location="result" />
+<GENE id="G38" spans="3407~3411" text="MUC2" location="result" />
+<GENE id="G39" spans="3815~3819" text="MUC4" location="result" />
+<GENE id="G40" spans="6238~6242" text="MUC1" location="result" />
+<GENE id="G41" spans="9661~9665" text="MUC2" location="result" />
+<GENE id="G43" spans="13095~13099" text="MUC4" location="result" />
+<GENE id="G44" spans="17201~17205" text="MUC1" location="result" />
+<GENE id="G45" spans="17207~17211" text="MUC2" location="result" />
+<GENE id="G46" spans="17216~17220" text="MUC4" location="result" />
+<DISEASE id="D0" spans="56~60" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="295~299" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1243~1247" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1265~1269" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1287~1291" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1353~1357" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1595~1599" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1819~1823" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2557~2561" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2593~2597" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2622~2626" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2641~2645" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2945~2949" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3102~3106" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3205~3209" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3214~3218" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3297~3301" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3433~3437" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3539~3543" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3548~3552" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3587~3591" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3642~3646" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3705~3709" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3834~3838" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3906~3910" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="3966~3970" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="3992~3996" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="4510~4514" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="4610~4614" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="4704~4708" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="4807~4811" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="4924~4933" text="Carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="5027~5031" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="5238~5242" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="5609~5613" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="5615~5647" text="pancreatic ductal adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="5649~5653" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="6331~6335" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="6339~6343" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="6367~6371" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D40" spans="6375~6379" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="6403~6407" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="6411~6415" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="6439~6443" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D44" spans="7197~7201" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D45" spans="7208~7212" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D46" spans="7236~7240" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D47" spans="7247~7251" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D48" spans="7275~7279" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D49" spans="8104~8108" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D50" spans="8115~8119" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D51" spans="8143~8147" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D52" spans="9004~9008" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D53" spans="9726~9730" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D54" spans="9734~9738" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D55" spans="9762~9766" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D56" spans="9770~9774" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D57" spans="9798~9802" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D58" spans="9806~9810" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D59" spans="9834~9838" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D60" spans="10632~10636" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D61" spans="10643~10647" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D62" spans="10671~10675" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D63" spans="10682~10686" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D64" spans="10710~10714" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D65" spans="11541~11545" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D66" spans="11552~11556" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D67" spans="11580~11584" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D68" spans="12440~12444" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D69" spans="13160~13164" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D70" spans="13168~13172" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D71" spans="13196~13200" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D72" spans="13204~13208" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D73" spans="13268~13272" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D74" spans="14078~14082" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D75" spans="14089~14093" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D76" spans="14117~14121" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D77" spans="14128~14132" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D78" spans="14156~14160" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D79" spans="14985~14989" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D80" spans="14996~15000" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D81" spans="15024~15028" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D82" spans="15889~15893" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D83" spans="16745~16749" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D84" spans="16751~16783" text="pancreatic ductal adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D85" spans="16785~16789" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D86" spans="16791~16830" text="intraductal papillary mucinous neoplasm" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D87" spans="16832~16836" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D88" spans="16857~16861" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D89" spans="16863~16867" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D90" spans="16869~16873" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D91" spans="16889~16893" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D92" spans="16895~16899" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D93" spans="16917~16921" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D94" spans="17404~17408" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D95" spans="17443~17447" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D96" spans="17499~17503" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D97" spans="17680~17684" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D98" spans="17719~17723" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D99" spans="18716~18720" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D100" spans="18741~18745" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D101" spans="18795~18799" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D102" spans="18963~18967" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D103" spans="18988~18992" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D104" spans="19115~19119" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D105" spans="19200~19204" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D106" spans="19225~19229" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D107" spans="19352~19356" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D108" spans="19437~19441" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D109" spans="19462~19466" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D110" spans="19589~19593" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D111" spans="19674~19678" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D112" spans="19699~19703" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D113" spans="19826~19830" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D114" spans="19911~19915" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D115" spans="19936~19940" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D116" spans="20063~20067" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D117" spans="20148~20152" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D118" spans="20173~20177" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D119" spans="20300~20304" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D120" spans="20385~20389" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D121" spans="20410~20414" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D122" spans="20537~20541" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D123" spans="20622~20626" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D124" spans="20647~20651" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D125" spans="20774~20778" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D126" spans="20859~20863" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D127" spans="20884~20888" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D128" spans="21012~21016" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D129" spans="21097~21101" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D130" spans="21122~21126" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D131" spans="21249~21253" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D132" spans="21334~21338" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D133" spans="21359~21363" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D134" spans="21486~21490" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D135" spans="21571~21575" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D136" spans="21596~21600" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D137" spans="21723~21727" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D138" spans="21808~21812" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D139" spans="21833~21837" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D140" spans="22044~22048" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D141" spans="22069~22073" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D142" spans="22280~22284" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D143" spans="22305~22309" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D144" spans="22433~22437" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D145" spans="22519~22523" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D146" spans="22547~22551" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D147" spans="22677~22681" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D148" spans="22765~22769" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D149" spans="22793~22797" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D150" spans="22923~22927" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D151" spans="23011~23015" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D152" spans="23039~23043" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D153" spans="23168~23172" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D154" spans="23256~23260" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D155" spans="23284~23288" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D156" spans="23414~23418" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D157" spans="23502~23506" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D158" spans="23530~23534" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D159" spans="23659~23663" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D160" spans="23747~23751" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D161" spans="23775~23779" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D162" spans="23905~23909" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D163" spans="23993~23997" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D164" spans="24021~24025" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D165" spans="24150~24154" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D166" spans="24238~24242" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D167" spans="24266~24270" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D168" spans="24480~24484" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D169" spans="24722~24726" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D170" spans="24963~24967" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D171" spans="25205~25209" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D172" spans="25362~25366" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D173" spans="25448~25452" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D174" spans="25698~25702" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D175" spans="25862~25866" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D176" spans="25945~25949" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D177" spans="26110~26114" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D178" spans="26196~26200" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D179" spans="26351~26355" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D180" spans="26677~26681" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D181" spans="26705~26709" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D182" spans="26834~26838" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D183" spans="26922~26926" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D184" spans="26950~26954" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D185" spans="27079~27083" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D186" spans="27167~27171" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D187" spans="27195~27199" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D188" spans="27324~27328" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D189" spans="27412~27416" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D190" spans="27440~27444" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D191" spans="27570~27574" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D192" spans="27658~27662" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D193" spans="27686~27690" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D194" spans="27816~27820" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D195" spans="27904~27908" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D196" spans="27932~27936" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D197" spans="28062~28066" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D198" spans="28150~28154" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D199" spans="28178~28182" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D200" spans="28308~28312" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D201" spans="28396~28400" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D202" spans="28424~28428" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D203" spans="28555~28559" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D204" spans="28643~28647" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D205" spans="28671~28675" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D206" spans="28801~28805" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D207" spans="28884~28888" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D208" spans="28912~28916" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D209" spans="29043~29047" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D210" spans="29126~29130" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D211" spans="29284~29288" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D212" spans="29400~29404" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D213" spans="29531~29535" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D214" spans="29642~29646" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D215" spans="29771~29775" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D216" spans="29959~29963" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D217" spans="29965~29997" text="pancreatic ductal adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D218" spans="29999~30003" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D219" spans="30005~30044" text="intraductal papillary mucinous neoplasm" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D220" spans="30046~30050" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D221" spans="30071~30075" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D222" spans="30077~30081" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D223" spans="30108~30112" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D224" spans="30114~30118" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D225" spans="30147~30151" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D226" spans="30165~30174" text="carcinoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D227" spans="30176~30180" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D228" spans="30200~30204" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D229" spans="30250~30254" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D230" spans="30272~30276" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D231" spans="30311~30315" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D232" spans="31021~31025" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D233" spans="31046~31050" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D234" spans="31100~31104" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D235" spans="31268~31272" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D236" spans="31293~31297" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D237" spans="31421~31425" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D238" spans="31506~31510" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D239" spans="31531~31535" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D240" spans="31658~31662" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D241" spans="31743~31747" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D242" spans="31768~31772" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D243" spans="31896~31900" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D244" spans="31981~31985" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D245" spans="32006~32010" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D246" spans="32134~32138" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D247" spans="32219~32223" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D248" spans="32244~32248" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D249" spans="32371~32375" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D250" spans="32456~32460" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D251" spans="32481~32485" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D252" spans="32610~32614" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D253" spans="32695~32699" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D254" spans="32720~32724" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D255" spans="32847~32851" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D256" spans="32932~32936" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D257" spans="32957~32961" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D258" spans="33085~33089" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D259" spans="33170~33174" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D260" spans="33195~33199" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D261" spans="33323~33327" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D262" spans="33408~33412" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D263" spans="33433~33437" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D264" spans="33560~33564" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D265" spans="33645~33649" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D266" spans="33670~33674" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D267" spans="33798~33802" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D268" spans="33883~33887" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D269" spans="33908~33912" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D270" spans="34121~34125" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D271" spans="34146~34150" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D272" spans="34359~34363" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D273" spans="34384~34388" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D274" spans="34596~34600" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D275" spans="34621~34625" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D276" spans="34749~34753" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D277" spans="34835~34839" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D278" spans="34863~34867" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D279" spans="34994~34998" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D280" spans="35082~35086" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D281" spans="35110~35114" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D282" spans="35241~35245" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D283" spans="35329~35333" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D284" spans="35357~35361" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D285" spans="35487~35491" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D286" spans="35575~35579" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D287" spans="35603~35607" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D288" spans="35733~35737" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D289" spans="35821~35825" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D290" spans="35849~35853" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D291" spans="35979~35983" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D292" spans="36067~36071" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D293" spans="36095~36099" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D294" spans="36224~36228" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D295" spans="36312~36316" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D296" spans="36340~36344" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D297" spans="36470~36474" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D298" spans="36558~36562" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D299" spans="36586~36590" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D300" spans="36801~36805" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D301" spans="37043~37047" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D302" spans="37199~37203" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D303" spans="37282~37286" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D304" spans="37524~37528" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D305" spans="37681~37685" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D306" spans="37764~37768" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D307" spans="37929~37933" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D308" spans="38015~38019" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D309" spans="38181~38185" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D310" spans="38264~38268" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D311" spans="38429~38433" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D312" spans="38515~38519" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D313" spans="38670~38674" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D314" spans="38909~38913" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D315" spans="38995~38999" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D316" spans="39023~39027" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D317" spans="39152~39156" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D318" spans="39240~39244" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D319" spans="39268~39272" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D320" spans="39398~39402" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D321" spans="39486~39490" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D322" spans="39514~39518" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D323" spans="39643~39647" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D324" spans="39731~39735" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D325" spans="39759~39763" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D326" spans="39890~39894" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D327" spans="39978~39982" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D328" spans="40006~40010" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D329" spans="40136~40140" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D330" spans="40224~40228" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D331" spans="40252~40256" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D332" spans="40382~40386" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D333" spans="40470~40474" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D334" spans="40498~40502" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D335" spans="40629~40633" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D336" spans="40717~40721" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D337" spans="40745~40749" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D338" spans="40875~40879" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D339" spans="40958~40962" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D340" spans="40986~40990" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D341" spans="41117~41121" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D342" spans="41200~41204" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D343" spans="41228~41232" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D344" spans="41360~41364" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D345" spans="41443~41447" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D346" spans="41471~41475" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D347" spans="41601~41605" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D348" spans="41717~41721" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D349" spans="41848~41852" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D350" spans="41959~41963" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D351" spans="42088~42092" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D352" spans="42276~42280" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D353" spans="42282~42314" text="pancreatic ductal adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D354" spans="42316~42320" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D355" spans="42322~42361" text="intraductal papillary mucinous neoplasm" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D356" spans="42363~42367" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D357" spans="42388~42392" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D358" spans="42394~42398" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D359" spans="42425~42429" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D360" spans="42431~42435" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D361" spans="42464~42468" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D362" spans="42482~42491" text="carcinoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D363" spans="42493~42497" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D364" spans="42517~42521" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D365" spans="42567~42571" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D366" spans="42589~42593" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D367" spans="42628~42632" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

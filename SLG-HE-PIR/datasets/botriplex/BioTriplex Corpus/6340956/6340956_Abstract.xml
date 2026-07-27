@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Minerval (2-hydroxyoleic acid) causes cancer cell selective toxicity by uncoupling oxidative phosphorylation and compromising bioenergetic compensation capacity.
+Abstract: This work tests bioenergetic and cell-biological implications of the synthetic fatty acid Minerval (2-hydroxyoleic acid), previously demonstrated to act by activation of sphingomyelin synthase in the plasma membrane (PM) and lowering of phosphatidylethanolamine (PE) and phosphatidylcholine (PC) and their carcinogenic signaling. We show here that Minerval also acts, selectively in cancer cell lines, as an ATP depleting uncoupler of mitochondrial oxidative phosphorylation (OxPhos). As a function of its exposure time, Minerval compromised the capacity of glioblastoma U87-MG cells to compensate for aberrant respiration by up-modulation of glycolysis. This effect was not exposure time-dependent in the lung carcinoma A549 cell line, which was more sensitive to Minerval. Compared with OxPhos inhibitors FCCP (uncoupler), rotenone (electron transfer inhibitor), and oligomycin (F1F0-ATPase inhibitor), Minerval action was similar only to that of FCCP. This similarity was manifested by mitochondrial membrane potential (MMP) depolarization, facilitation of oxygen consumption rate (OCR), restriction of mitochondrial and cellular reactive oxygen species (ROS) generation and mitochondrial fragmentation. Additionally, compared with other OxPhos inhibitors, Minerval uniquely induced ER stress in cancer cell lines. These new modes of action for Minerval, capitalizing on the high fatty acid requirements of cancer cells, can potentially enhance its cancer-selective toxicity and improve its therapeutic capacity.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="46~52" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="563~569" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="738~750" text="glioblastoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="886~900" text="lung carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1479~1485" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="1590~1596" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="1632~1638" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

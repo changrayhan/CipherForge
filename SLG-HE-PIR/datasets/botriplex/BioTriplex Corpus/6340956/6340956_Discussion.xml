@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Minerval acts as a partial uncoupler of oxidative phosphorylation
+The main finding of this work is that Minerval serves as a partial uncoupler of oxidative phosphorylation (OxPhos). We have shown that, similar to the well-established uncoupler FCCP, Minerval increases proton leak and reduces coupling efficiency in the cancer cell lines U87-MG and A549, while not affecting leak and coupling efficiency in the non-cancerous cell line MRC5. In addition, in U87-MG cells we have demonstrated that the modular kinetics of Minerval correspond only to those of an uncoupling agent, and not to other OxPhos modulators ( Figure 6 A). Expected bioenergetic effects of different prototypical OxPhos modulators are presented in  Table 1 , which demonstrates that the bioenergetic effects of Minerval can only match those of an OxPhos uncoupler.
+
+           Table 1 
+           The influence of different OxPhos modulators on bioenergetic parameters 
+           
+             
+           
+                 Mito. Memb. Potential (CMXRos, potentiometric dye) 
+                 Oxygen Consumption Rate (Seahorse) 
+                 Reactive Oxygen Species (CellROX) 
+                 ATP (CellTiter-GLO) 
+               
+                 
+             
+               
+             ETC blocker (rotenone) 
+                 ↓ 
+                 ↓ 
+                 ↑ 
+                 ↓ 
+               
+                 
+               OxPhos uncoupler (FCCP) 
+                 ↓ 
+                 ↑ 
+                 ↓ 
+                 ↓ 
+               
+                 
+               ATPase blocker (oligomycin) 
+                 ↑ 
+                 ↓ 
+                 ↑ 
+                 ↓ 
+               
+                 
+               Substrate oxidation (succinate) 
+                 ↑ 
+                 ↑ 
+                 ↑ 
+                 ↑ 
+               
+                 
+               Minerval 
+                 ↓ 
+                 ↑ 
+                 ↓ 
+                 ↓ 
+               
+                 
+             
+               
+           
+             
+        
+Also at the cell biological level Minerval was demonstrated to act as an uncoupler and not as nutrient excess, as the mitochondrial fragmentation it triggered was accompanied by a size decrease, and not increase, of the solitary mitochondria formed by the fragmentation ( Figure 6 B). Apart from substantiating the clinical advantage of Minerval, as these results point to selective damage to cancer cells only, it was interesting to consider why proton leak was not affected by Minerval in the non-cancerous cell line while it was in the cancer cell lines. Our explanation for this observation is based on the different structure and composition of mitochondrial lipids in cancer cells. Mitochondria of tumor cells are characterized by higher cholesterol levels and saturated fatty acyl chains [ 29 ]. These membranes thus tend to be less fluid and consequently less permeable to several substrates including protons (even though for protons the correlation between permeability and fluidity is less tight [ 30 ]). The observations that Minerval can increase membrane fluidity [ 11 ] and our preliminary lipidomics analysis showing reduction in cholesteryl esters, derived from cholesterol, by Minerval in U87-MG cells (PVE, unpublished results) suggest that Minerval has increased proton conductance selectively in cancer cells. This explanation is in line with the higher cholesterol content and rigidity of mitochondrial membranes in cancer cells that makes them more susceptible to the liquefying effect of Minerval than the mitochondrial membranes of non-cancerous cells such as MRC5. Thus, like FCCP, Minerval is hypothesized to increase proton conductance through the mitochondrial inner membrane. However, while FCCP increases proton conductance in both cancerous and non-cancerous cells by acting as a soluble protonophore, Minerval is hypothesized to selectively increase proton conductance in cancer cells through an increase in inner mitochondrial membrane fluidity. Another explanation, not necessarily mutually exclusive, is that Minerval has been demonstrated to up-regulate the expression of the uncoupling protein UCP1, thus acting as an OxPhos uncoupler [ 31 ], even though the tumor selectivity of this effect has not yet been tested.
+MMP depolarization by Minerval and its effect on ROS production
+As an MMP depolarizing agent, Minerval is also expected to facilitate electron flux through the respiratory chain and thus reduce mitochondrial ROS production, mainly caused by stalled or back flowing electrons that prematurely reduce dioxygen. This MMP depolarization may be associated with the extent of cancer selective Minerval toxicity, as the largest MMP depolarization was observed in the cancer cell line most susceptible to Minerval, A549 ( Figure 7 ). We speculate that modifications of the biophysical properties of the mitochondrial inner membrane, rather than its lipid composition, are more important for the anti-tumorigenic effect of Minerval. The reason for this speculation is that both isoforms of SMS modulated by Minerval, SMS1 ( http://www.uniprot.org/uniprot/Q86VZ5#subcellular_location ) and SMS2 ( http://www.uniprot.org/uniprot/Q8NHU3#subcellular_location ), are not expressed in mitochondrial membranes. Moreover, the modified lipid composition of mitochondria derived from tumors, mainly consisting of reduced levels of mature cardiolipins, is considered irreversible [ 32 ]. Possibly, the reduced mature cardiolipins in cancer cell mitochondria increase MMP by decreasing proton conductance through the F0 subunit of the mitochondrial F1F0-ATPase (H + -ATPase) [ 29 ]. This mode of action is consistent with the higher ROS produced by cancer cells mitochondria. An alternative mode of action involving ETC complexes upstream of F1F0-ATPase is less likely since the observed reduction in ETC complexes I, II, and III [ 32 ] associated with tumor cells would decrease rather than increase MMP. Thus, we further speculate that Minerval action counteracts this putative decrease in F0 proton conductance by increasing proton conductance through increasing membrane fluidity. ROS generated by the higher MMP typical of cancer cells can be important for cancer development. For instance, HIF1α-dependent carcinogenesis [ 33 ], and, especially important in the context of Minerval, Kras-mediated tumorigenicity [ 34 ] are dependent on ROS production. Therefore, the ROS mitigating down-modulation of MMP by Minerval is yet another mechanism discovered by this work which could mediate the attenuation of carcinogenic signaling, in addition to the well-established plasma membrane to cytoplasm translocation of oncoproteins such as Ras.
+Minerval selectivity to cancer cells
+Cancer cells have important energetic needs and fatty acids are one of the sources they use to fulfill their growth requirements. Previous studies have shown that intake of the fatty acid analog Minerval is markedly faster in cancer cells with respect to non-tumor cells [ 11 ]. Possibly as a consequence of this increased uptake and the slower metabolization of C2-hydroxylated fatty acids, Minerval is cytotoxic toward cancer cells, or tumors, sparing normal cells and normal tissues. This important feature is most pronounced by the effect of Minerval on cell viability and/or ATP levels ( Figure 4 ). The assay we selected for assessing cell viability is the CellTiter-Glo (Promega) that quantifies the number of metabolically active cells by overall ATP levels. This method better serves the cause of assessing selective toxicity because it is based on ATP—the ultimate co-reporter of both viability and energetic status. Other assays, for instance the common 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT)-based assays, report the number of metabolically active cells less reliably because they use endogenous NADH and thus divert it from its endogenous intracellular assays, generating metabolic stress. Moreover, the MTT assay postulates that mitochondrial NADH reduces MTT, whereas also NADH stemming from non-mitochondrial or non-energy producing processes, such as endosomal or lysosomal NADH generation, might reduce MTT as false positives.
+According to our data, Minerval acted as an uncoupler and reduced MMP in all cell types studied—the cancerous U87-MG and A549 and the non-cancerous MRC5 ( Figure 7 ). However, as expected, Minerval was toxic only to the cancerous cell lines U87-MG and A549 ( Figure 4 ). This result, widely supported by all literature on Minerval in terms of cancer selective abrogation of plasma membrane initiated proliferative signaling, was never explained in bioenergetic terms. We can provide the following bioenergetic explanation: if we compare the cancerous U87-MG cell line ( Figure 1 A, upper panel) with the non-cancerous MRC5 cell line ( Figure 1 C, upper panel), we can see that the basal OCR of U87-MG is higher (∼2 pmol O2 reduced/min/nucleus for U87-MG vs 1.5 pmol O 2  reduced/min/nucleus for MRC5 cells). The higher basal OCR in U87-MG cells suggest they have higher ATP demand and are therefore more susceptible to perturbation of energy production by an uncoupler such as Minerval. Hence, U87-MG cell viability or total ATP is more heavily affected by Minerval as compared with MRC5 cells ( Figure 4 ). However, if we make a more judicious comparison between the lung cancer cell line A549 and the non-malignant lung cell line MRC5, the picture becomes more complicated. A549 and MRC5 cells, perhaps surprisingly, have similar basal OCRs (∼1.5 pmol O 2  reduced/min/nucleus,  Figure 1 B,C, upper panels). Therefore, apparently they have similar ATP demands even though one of them is a cancer cell line, which theoretically should have higher ATP demand, and the other is not. It appears that only Minerval triggers the higher energy demand in the A549 cell line as compared with its non-cancer lung derived counterpart MRC5 cell line.
+After administration of Minerval, glycolysis was up-modulated only in A549 and not in MRC5 cells (cf  Figure 1 B,C). The metabolic potential (FCCP stress induced-activation of energy transformation pathways, such as respiration and glycolysis) of both A549 and MRC5 (and also U87-MG) cells relied on glycolysis and not on respiration ( Figure 3 , compare relative rises in OCR vs ECAR in control cells), i.e., under FCCP stress ECAR, and not OCR, was up-modulated. Therefore, once ATP demand rises distinctively in A549 (and not MRC5) cells by Minerval, they up-modulate glycolysis, not compromised by Minerval as respiration is, in an attempt to salvage ATP.
+Within cancer cell lines, there appears to be a difference between the glioblastoma cell line U87-MG and the lung carcinoma cell line A549. Minerval seems more cytotoxic to A549 than to U87-MG. This difference is most apparent if the energy phenotypes of the two cell lines are compared ( Figure 3 ). Minerval decreased overall energy status (both basal and stressed) in A549 cells ( Figure 3 B). This effect, manifested by a decrease in distance from the upward right corner, is not shared by U87-MG cells, in which the energy status is rather increased by Minerval, as manifested by an upward right hand shift in the energy diagram ( Figure 3 A). These overall energy data suggest that Minerval was more toxic to A549 cells than it was to the U87-MG cells. This conclusion is further supported by three observations: (1) ATP levels were slightly more reduced by Minerval in A549 ( Figure 4 B, 37% of control), as compared with U87-MG cells ( Figure 4 A, 44% of control); (2) Both OCR and ECAR (glycolysis) are compromised by Minerval in A549 cells ( Figure 3 B), whereas only glycolysis is compromised in U87-MG cells ( Figure 3 A). The glycolysis compensation damage in A549 cells can be revealed by the fact that the glycolytic up-modulation is less pronounced and does not increase with Minerval exposure time ( Figures 1 B and  3 B); (3) At 72 h, Minerval rendered A549 cells so sensitive to the uncoupler (FCCP) insult that their OCR was even reduced ( Figures 1 B and  2 C), rather than being facilitated as it was expected to be, and indeed was after 72 h Minerval exposure, in U87-MG cells ( Figures 1 A and  2 C). (4) IC 50  values for Minerval were lower in A549 (ca. 90 μM) than in U87-MG (ca. 400 μM) cells (PVE, submitted). As the glycolytic compensatory response as a whole in A549 cells was significantly less pronounced than in U87-MG cells, some of the relative resilience of U87-MG cells to Minerval (as compared with A549 cells) may be related to their higher capacity to compensate for the respiratory holdback by glycolytic up-regulation. However, at longer exposures to Minerval, this capacity is eventually dwindled. Our observations that A549 cells are more sensitive to Minerval than U87-MG cells suggest that in the clinical settings, where Minerval has only been tested in glioblastoma (and not on any other type of cancer), there is more room for improvement in glioblastoma than in lung cancer. We will discuss this possibility in the next section.
+Potential therapeutic Achilles heels of Minerval
+The different toxic efficacies of Minerval toward the two cancer cell lines studied—U87-MG (glioblastoma) and A549 (lung carcinoma)—suggest that the selective cancer toxicity of Minerval has some weak spots that can be improved. As described above, in contrast with A549 cells showing constant and less pronounced up-regulation of glycolysis following Minerval, in U87-MG cells at long enough exposure to Minerval (72 h), the ability to compensate reduced coupling efficiency with up-modulated glycolysis is compromised. This phenomenon in U87-MG cells is manifested both in  Figures 1 A and  3 A.  Figure 1 A (lower panel) shows it by the lower increase in ECAR following longer Minerval exposure, and  Figure 3 A shows it by the lower ECAR metabolic potential, or ability to meet an energy demand via up-modulation of glycolysis, at high Minerval exposure times. This reduced glycolytic compensation means that the efficacy of Minerval (i.e .  increase in selective toxicity) might be improved with glycolytic inhibitors (e.g. the FDA approved 2-deoxyglucose, or 3-bromopyruvate). Further inhibition of glycolysis, especially if Minerval dosage used for treating glioblastoma patients is equivalent to cell exposure times of below 72 h, may impede the recovery of cancer cells from Minerval and thus make the drug more efficient. In addition to compromised glycolytic compensation, another possible Achilles heel of cells treated with Minerval is ER stress ( Figure 9  and [ 12 ]). These Achilles’ heels can be exploited therapeutically. Improvements of Minerval cancer toxicity may be obtained if Minerval is co-administrated in cocktails with inhibitors of glycolysis. Nevertheless, Minerval co-administration with ER stress or unfolded protein response inducers would probably be too harsh for most patients. The expected higher cancer toxicity of Minerval in such cocktails might be evaluated in the future in non-responding or relapsing-remitting patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G1" spans="4217~4221" text="UCP1" location="background" />
+<GENE id="G2" spans="5148~5152" text="SMS1" location="background" />
+<GENE id="G3" spans="5220~5224" text="SMS2" location="background" />
+<GENE id="G4" spans="6315~6320" text="HIF1α" location="background" />
+<GENE id="G5" spans="6408~6412" text="Kras" location="background" />
+<DISEASE id="D0" spans="321~327" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="2478~2484" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="2624~2630" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="2759~2765" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="3402~3408" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="3523~3529" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="3990~3996" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="4710~4716" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="4800~4806" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="5553~5559" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="5768~5774" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="6281~6287" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D12" spans="6786~6792" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="6799~6805" text="Cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D14" spans="7025~7031" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D15" spans="7220~7226" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="8615~8621" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D17" spans="9440~9451" text="lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="9763~9769" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D19" spans="10680~10686" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D20" spans="10744~10756" text="glioblastoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="10782~10796" text="lung carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="12975~12987" text="glioblastoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="13018~13024" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D24" spans="13065~13077" text="glioblastoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="13086~13097" text="lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="13260~13266" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D27" spans="14367~14379" text="glioblastoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="14468~14474" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D29" spans="14767~14773" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D30" spans="15036~15042" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

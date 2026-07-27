@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Immune dysregulation in Glycogen Storage Disease 1b - a CyTOF approach.
+Abstract: Glycogen Storage Disease type 1b (GSD1b) is a rare disease manifesting as hypoglycemia, recurrent infections and neutropenia, resulting from deleterious mutations in the  SLC37A4  gene encoding the glucose-6-phosphate transporter. The susceptibility to infections is thought to be attributed not only to the neutrophil defect, though extensive immunophenotyping characterization is currently missing. Here we apply a systems immunology approach utilizing Cytometry by Time Of Flight (CyTOF) to map the peripheral immune landscape of 6 GSD1b patients. When compared to control subjects, those with GSD1b had a significant reduction in anti-inflammatory macrophages, CD16 +  macrophages, and Natural Killer cells. Additionally, there was a preference towards a central versus an effector memory phenotype in multiple T cell populations, which may suggest that these changes stem from an inability of activated immune cell populations to undergo the appropriate switch to glycolytic metabolism in the hypoglycemic conditions associated with GSD1b. Furthermore, we identified a global reduction of CD123, CD14, CCR4, CD24 and CD11b across several populations and a multi-cluster upregulation of CXCR3, hinting at a potential role of impaired immune cell trafficking in the context of GSD1b. Taken together, our data indicates that that the immune impairment observed in GSD1b patients extends far beyond neutropenia and encompasses innate and adaptive compartments, which may provide novel insights into the pathogenesis of this disorder.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="261~268" text="SLC37A4" location="background" />
+<GENE id="G1" spans="755~759" text="CD16" location="result" />
+<GENE id="G2" spans="1184~1189" text="CD123" location="result" />
+<GENE id="G3" spans="1191~1195" text="CD14" location="result" />
+<GENE id="G4" spans="1197~1201" text="CCR4" location="result" />
+<GENE id="G5" spans="1203~1207" text="CD24" location="result" />
+<GENE id="G6" spans="1212~1217" text="CD11b" location="result" />
+<GENE id="G7" spans="1281~1286" text="CXCR3" location="result" />
+<DISEASE id="D2" spans="32~59" text="Glycogen Storage Disease 1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="90~122" text="Glycogen Storage Disease type 1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="124~129" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="625~630" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="687~692" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="1128~1133" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="1370~1375" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="1456~1461" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R0" spans="216~252" text="resulting from deleterious mutations" location="background" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="SLC37A4" diseaseID="D3" diseaseText="Glycogen Storage Disease type 1b" relationID="R0" relationText="resulting from deleterious mutations" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="SLC37A4" diseaseID="D4" diseaseText="GSD1b" relationID="R0" relationText="resulting from deleterious mutations" />
+</TAGS>
+</Genomics_ConceptTask>

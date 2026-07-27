@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Patients using smartwatches for ambulatory heart monitoring should be aware that the absence of an irregular pulse notification does not exclude possible arrhythmias. The algorithm is designed to reduce the chances of incorrect HR readings; a common strategy is to stop recording when high levels of motion interference are detected. Unfortunately, this means that there is a high chance that a true cardiac arrhythmia will be interpreted as motion interference. It is essential to understand the limitations of these technologies to avoid inappropriate reliance on them for diagnostic purposes.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

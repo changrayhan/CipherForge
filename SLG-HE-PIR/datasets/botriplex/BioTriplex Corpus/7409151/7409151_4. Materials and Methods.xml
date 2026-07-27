@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+4.1. Patients
+Eighty-four patients with IC NST (T 1-4 N 0-3 M 0 ), between 31 and 78 years of age (mean age: 50.7 ± 9.88), were treated in the Cancer Research Institute, Tomsk NRMC (Tomsk, Russia) from 1991 to 2015. The clinicopathological parameters of breast cancer patients are provided in  Table S18 .
+The formalin-fixed, paraffin-embedded (FFPE) samples of breast tumor tissue were used for immunohistochemistry analysis. The frozen tumor and normal tissue specimens were used for RNA sequencing.
+The procedures followed in this study were in accordance with the Helsinki Declaration (1964, amended in 1975 and 1983). All patients signed informed consent for voluntary participation. The study was approved by the review board of the Cancer Research Institute, Tomsk NRMC on 19 March 2015 (the approval number is 3).
+4.2. Gene Expression Microarrays
+The gene expression microarray data (GEO, GSE80754) of tubular, alveolar, solid, and trabecular structures, as well as discrete groups of tumor cells, were evaluated using the R software (R Development Core Team, 2008) and the limma package from BioConductor [ 56 ]. Log mean spot signals were taken for further analysis. Expression levels were normalized to normal breast epithelium. The transcripts were ranked for differential expression using a moderated t-statistic as implemented in the limma package.
+4.3. Immunohistochemistry
+IHC was applied to assess HAX1, KIF14, Mieap, and EZR expression in breast tumors (n = 84). Seven-micrometer-thick sections of FFPE tumor samples were deparaffinized, rehydrated, and stained as previously described [ 57 ]. The following antibodies were used: Rabbit anti-HAX1 (NBP1-54800, 1:50, Novusbio, Centennial, CO, USA), rabbit anti-KIF14 (HPA038061, 1:500, Sigma, St. Louis, MO, USA), rabbit anti-Mieap/SPATA18 (HPA036854, 1:100, Sigma, St. Louis, MO, USA), and rabbit anti-EZR (HPA021616, 1:1000, Sigma, St. Louis, MO, USA). The stained sections were assessed for expression of HAX1, KIF14, Mieap, and EZR in different morphological structures of breast tumors. In particular, the assessment included the presence of structures (tubular, alveolar, solid, and trabecular) with positive and negative cells at their periphery (up to 2 layers), the presence of tumor cells with positive and negative expression at the tips (up to 3 rows) of the torpedo-like sprouts connected with solid structures and the torpedo-like structures (not connected with solid structures), positive and negative expression in single tumor cells, etc. The complete study protocol is given in  Table S19 . In total, 10 to 24 fields of view were analyzed per sample. Expression was counted as positive if it was observed in at least 10 structures of the same type.
+4.4. Multiplex Immunohistochemistry
+Multiplex IHC was used to analyze the co-localization of KIF14, Mieap, and EZR proteins in torpedo-like structures. Multiplex IHC was performed with a Bond RXm system (Leica, Hamburg, Germany) with antibodies against KIF14 (HPA038061, 1:500, Sigma, St. Louis, MO, USA; detected by Opal 520), Mieap/SPATA18 (HPA036854, 1:100, Sigma, St. Louis, MO, USA; Opal 620), EZR (HPA021616, 1:1000, Sigma, St. Louis, MO, USA; Opal 690), and MMP13 (MA5-14238, 1:25, Thermo Fisher Scientific, Waltham, MA, USA). Protein blocking was performed using 3% BSA-PBS (Sigma, St. Louis, MO, USA). TSA visualization was performed with the Opal 520, Opal 620, and Opal 690 (Opal seven-color IHC kit, Perkin Elmer, Waltham, MA, USA). Staining was finished with a DAPI counterstain and slides were enclosed in fluorescence mounting medium (Agilent, Santa-Clara, CA, USA). Slides were scanned using the Vectra 3.0 (PerkinElmer, Waltham, MA, USA). Tissue imaging was performed using inForm Advanced Image Analysis software (inForm 2.1.1 and 2.2.1; Perkin Elmer, Waltham, MA, USA).
+4.5. RNA-Preserving Immunolabeling and Fluorescence-Guided Laser Microdissection
+Seven-micrometer-thick sections of frozen breast tumor samples ( n  = 4) were mounted to PET-frame slides (Carl Zeiss, Oberkochen, Germany) pre-treated by RNAZap (Thermo Fisher Scientific, Waltham, MA, USA). The protocol of immunolabeling has been modified to prevent RNA degradation in the tissue sections. Briefly, the sections were fixed in methanol (Sigma, St. Louis, MO, USA) for 5 min and washed in PBS containing RNAlater (5:1; Thermo Fisher Scientific, Waltham, MA, USA) for 2 min. Thereafter, the sections were incubated for 5 min with the primary antibody cocktail: anti-cytokeratin 7 (CK7, OV-TL, 1:50, Agilent, Santa-Clara, CA, USA) and either anti-KIF14 (HPA038061, 1:500, Sigma, St. Louis, MO, USA) or anti-SPATA18/Mieap (HPA036854, 1:100, Sigma, St. Louis, MO, USA) or EZR (HPA021616, 1:500, Sigma, St. Louis, MO, USA) in PBS:RNAlater (5:1) and washed two times in PBS:RNAlater (5:1) for 2 min. Next, the sections were incubated for 5 min with the secondary antibodies: AlexaFluor 488-conjugated anti-mouse IgG (H+L) and AlexaFluor 555-conjugated anti-rabbit IgG (H+L) diluted in PBS:RNAlater (5:1). Finally, DAPI in PBS:RNAlater (5:1) was used to detect nuclei. The sections were washed two times for 5 s with PBS at room temperature, dehydrated, and air-dried. As control of non-specific binding, sections were incubated with an appropriate primary antibody or with only the secondary antibody. The RNA integrity number (RIN) of the samples obtained from the immunolabeled sections is provided in  Figure S9 .
+Laser capture microdissection guided under fluorescence (PALM, Carl Zeiss, Oberkochen, Germany) was used to isolate CK7-positive KIF14+, KIF14−, Mieap+, Mieap−, EZR+, and EZR− cells from the torpedo-like structures of breast tumors ( Figure S10 ). Approximately 50 samples of each type of cells were isolated from each breast tumor. In total, 24 microdissected specimens were collected.
+4.6. RNA Extraction, Library Preparation, Sequencing, and Bioinformatic Analysis
+RNA was extracted from the microdissected samples using the Single Cell RNA Purification Kit (Norgen, Thorold, ON, Canada). RNA samples were immediately used to generate cDNA libraries using SMARTer Stranded Total RNA-Seq Kit v2—Pico Input Mammalian (Takara, Mountain View, CA, USA). The concentration of cDNA libraries was measured by the dsDNA High Sensitivity kit on a Qubit 4.0 fluorometer (Thermo Fisher Scientific, Waltham, MA, USA) and varied from 1.33 to 15.7 ng/uL. The quality of cDNA libraries was assessed using High Sensitivity D1000 ScreenTape on a 4150 TapeStation (Agilent, Santa-Clara, CA, USA). Libraries were sequenced on a NextSeq500 instrument (Illumina, San Diego, CA, USA) using single-end 75 bp reads.
+Raw reads were aligned to the GRCh38 reference genome using STAR v. 2.7.3a ( https://github.com/alexdobin/STAR ) [ 58 ]. The number of mapped reads was counted by the featureCounts tool [ 59 ]. The DESeq2 package [ 60 ] was used to detect DEGs between KIF14-, Mieap-, and EZR-positive and negative tumor cells. Genes with  p -values < 0.05 were used for functional enrichment analysis by Enrichr [ 61 , 62 ].
+4.7. Statistical Analysis
+Statistical analysis was performed using Statistica 8.0 (StatSoft, Tulsa, OK, USA) and XLStat (Addinsoft, New York, NY, USA). Pearson’s Chi-square and Fisher’s exact tests were used to analyze the association between expression of HAX1, KIF14, Mieap, and EZR proteins in breast tumors and frequency of distant metastases. The Kaplan–Meier estimator with the log-rank test was used to analyze metastasis-free survival rates of breast cancer patients with expression of HAX1, KIF14, Mieap, and EZR proteins in tumors. Cox proportional hazard analysis was used to assess the association between HAX1, KIF14, Mieap, and EZR expression and metastasis-free survival. Associations were reported as hazard ratios (HRs) with 95% confidence intervals (95% CIs) and  p -values (likelihood ratio test). Differences were considered significant at  p  < 0.05. Association of DEGs in KIF14-, Mieap- positive and EZR-negative cells with RFS in breast cancer patients was analyzed using Kaplan–Meier plotter [ 18 ].
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1416~1420" text="HAX1" location="result" />
+<GENE id="G1" spans="1422~1427" text="KIF14" location="result" />
+<GENE id="G2" spans="1429~1434" text="Mieap" location="result" />
+<GENE id="G3" spans="1440~1443" text="EZR" location="result" />
+<GENE id="G4" spans="1656~1665" text="anti-HAX1" location="result" />
+<GENE id="G5" spans="1729~1734" text="KIF14" location="result" />
+<GENE id="G6" spans="1794~1799" text="Mieap" location="result" />
+<GENE id="G7" spans="1871~1874" text="EZR" location="result" />
+<GENE id="G8" spans="1976~1980" text="HAX1" location="result" />
+<GENE id="G9" spans="1982~1987" text="KIF14" location="result" />
+<GENE id="G10" spans="1989~1994" text="Mieap" location="result" />
+<GENE id="G11" spans="2000~2003" text="EZR" location="result" />
+<GENE id="G12" spans="2828~2833" text="KIF14" location="result" />
+<GENE id="G13" spans="2835~2840" text="Mieap" location="result" />
+<GENE id="G14" spans="2846~2849" text="EZR" location="result" />
+<GENE id="G15" spans="2988~2993" text="KIF14" location="result" />
+<GENE id="G16" spans="3063~3068" text="Mieap" location="result" />
+<GENE id="G17" spans="3134~3137" text="EZR" location="result" />
+<GENE id="G18" spans="3200~3205" text="MMP13" location="result" />
+<GENE id="G19" spans="4486~4499" text="cytokeratin 7" location="result" />
+<GENE id="G20" spans="4566~4571" text="KIF14" location="result" />
+<GENE id="G21" spans="4626~4633" text="SPATA18" location="result" />
+<GENE id="G22" spans="4634~4639" text="Mieap" location="result" />
+<GENE id="G23" spans="4689~4692" text="EZR" location="result" />
+<GENE id="G24" spans="5561~5566" text="KIF14" location="result" />
+<GENE id="G25" spans="5569~5574" text="KIF14" location="result" />
+<GENE id="G26" spans="5577~5582" text="Mieap" location="result" />
+<GENE id="G27" spans="5585~5590" text="Mieap" location="result" />
+<GENE id="G28" spans="5593~5596" text="EZR" location="result" />
+<GENE id="G29" spans="5603~5606" text="EZR" location="result" />
+<GENE id="G30" spans="6878~6883" text="KIF14" location="result" />
+<GENE id="G31" spans="6886~6891" text="Mieap" location="result" />
+<GENE id="G32" spans="6898~6901" text="EZR" location="result" />
+<GENE id="G33" spans="7292~7296" text="HAX1" location="result" />
+<GENE id="G34" spans="7298~7303" text="KIF14" location="result" />
+<GENE id="G35" spans="7305~7310" text="Mieap" location="result" />
+<GENE id="G36" spans="7316~7319" text="EZR" location="result" />
+<GENE id="G37" spans="7529~7533" text="HAX1" location="result" />
+<GENE id="G38" spans="7535~7540" text="KIF14" location="result" />
+<GENE id="G39" spans="7542~7547" text="Mieap" location="result" />
+<GENE id="G40" spans="7553~7556" text="EZR" location="result" />
+<GENE id="G41" spans="7653~7657" text="HAX1" location="result" />
+<GENE id="G42" spans="7659~7664" text="KIF14" location="result" />
+<GENE id="G43" spans="7666~7671" text="Mieap" location="result" />
+<GENE id="G44" spans="7677~7680" text="EZR" location="result" />
+<GENE id="G45" spans="7930~7935" text="KIF14" location="result" />
+<GENE id="G46" spans="7938~7943" text="Mieap" location="result" />
+<GENE id="G47" spans="7958~7961" text="EZR" location="result" />
+<DISEASE id="D0" spans="144~150" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="255~268" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="740~746" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="7989~8002" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Mortality Related to Chronic Obstructive Pulmonary Disease during the COVID-19 Pandemic: An Analysis of Multiple Causes of Death through Different Epidemic Waves in Veneto, Italy.
+Abstract: Mortality related to chronic obstructive pulmonary disease (COPD) during the COVID-19 pandemic is possibly underestimated by sparse available data. The study aimed to assess the impact of the pandemic on COPD-related mortality by means of time series analyses of causes of death data. We analyzed the death certificates of residents in Veneto (Italy) aged ≥40 years from 2008 to 2020. The age-standardized rates were computed for COPD as the underlying cause of death (UCOD) and as any mention in death certificates (multiple cause of death—MCOD). The annual percent change (APC) in the rates was estimated for the pre-pandemic period. Excess COPD-related mortality in 2020 was estimated by means of Seasonal Autoregressive Integrated Moving Average models. Overall, COPD was mentioned in 7.2% (43,780) of all deaths. From 2008 to 2019, the APC for COPD-related mortality was −4.9% (95% CI −5.5%, −4.2%) in men and −3.1% in women (95% CI −3.8%, −2.5%). In 2020 compared to the 2018–2019 average, the number of deaths from COPD (UCOD) declined by 8%, while COPD-related deaths (MCOD) increased by 14% (95% CI 10–18%), with peaks corresponding to the COVID-19 epidemic waves. Time series analyses confirmed that in 2020, COPD-related mortality increased by 16%. Patients with COPD experienced significant excess mortality during the first year of the pandemic. The decline in COPD mortality as the UCOD is explained by COVID-19 acting as a competing cause, highlighting how an MCOD approach is needed.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="29~66" text="Chronic Obstructive Pulmonary Disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="78~86" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="219~256" text="chronic obstructive pulmonary disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="258~262" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="275~283" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D5" spans="402~406" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="628~632" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="841~845" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="965~969" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1047~1051" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1220~1224" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="1254~1258" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="1417~1421" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="1472~1476" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="1572~1576" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="1615~1623" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

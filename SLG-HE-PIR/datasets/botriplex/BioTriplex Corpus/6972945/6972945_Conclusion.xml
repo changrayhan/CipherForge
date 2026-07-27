@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In this study we demonstrated synergistic effects of IFN-γ and TNF on the expression of TNF family member receptors, associated cytokine receptors and RASF proliferation. In contrast, cytokine production was negatively regulated by the combination of TNF and IFN-γ: While BAFF production was inhibited by TNF, IL-6 and IL-8 production was reduced by IFN-γ. Similarly, survival was increased by TNF or IFN-γ-stimulated RASF but reduced by the combination of both cytokines. These findings along with the shedding of VCAM-1 and the up-regulation of TGF-β by the combination of IFN-γ and TNF confirm a partial anti-inflammatory effect of IFN-γ in a TNF-driven pro-inflammatory environment in RA. In fact, it has already been shown that IFN-γR knockout mice show exacerbated arthritis 11 . Interestingly, in lupus erythematodes (SLE), IFN-γ is a prerequisite for disease development and this might be due to the cell type mainly responsible for disease initiation 59 . While lupus is mainly driven by the activity of autoreactive B cells, RA is dependent on T cell activation and innate mechanisms 60 , 61 . This is also evident in the therapeutic approach of both diseases, where RA profits from TNF inhibition, while SLE is combatted by B cell-depleting agents, like belimumab, whereas anti-TNF treatment exacerbates or even induces SLE. IFN-γ also induced soluble VCAM-1 when combined with TNF, which might, similar to soluble ICAM-1 alter leucocyte recruitment dependent on cell type and inhibit B cell attachment by disrupting VCAM1/integrin α4β1 interactions 62 , 63 . Additionally, increased membrane-bound TGF-β under the same culture conditions might not only alter B cell but also T cell function und support T-reg generation leading to an overall anti-inflammatory phenotype 64 .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="54~59" text="IFN-γ" location="result" />
+<GENE id="G1" spans="64~67" text="TNF" location="result" />
+<GENE id="G2" spans="252~255" text="TNF" location="result" />
+<GENE id="G3" spans="260~265" text="IFN-γ" location="result" />
+<GENE id="G4" spans="306~309" text="TNF" location="result" />
+<GENE id="G5" spans="311~315" text="IL-6" location="result" />
+<GENE id="G6" spans="320~324" text="IL-8" location="result" />
+<GENE id="G7" spans="351~356" text="IFN-γ" location="result" />
+<GENE id="G8" spans="395~398" text="TNF" location="result" />
+<GENE id="G9" spans="402~407" text="IFN-γ" location="result" />
+<GENE id="G10" spans="516~522" text="VCAM-1" location="result" />
+<GENE id="G11" spans="576~581" text="IFN-γ" location="result" />
+<GENE id="G12" spans="586~589" text="TNF" location="result" />
+<GENE id="G13" spans="636~641" text="IFN-γ" location="result" />
+<GENE id="G14" spans="647~650" text="TNF" location="result" />
+<GENE id="G15" spans="734~740" text="IFN-γR" location="result" />
+<GENE id="G16" spans="832~837" text="IFN-γ" location="result" />
+<GENE id="G17" spans="1194~1197" text="TNF" location="result" />
+<GENE id="G18" spans="1290~1293" text="TNF" location="result" />
+<GENE id="G19" spans="1337~1342" text="IFN-γ" location="result" />
+<GENE id="G20" spans="1364~1370" text="VCAM-1" location="result" />
+<GENE id="G21" spans="1390~1393" text="TNF" location="result" />
+<GENE id="G22" spans="1427~1433" text="ICAM-1" location="result" />
+<GENE id="G23" spans="1529~1534" text="VCAM1" location="result" />
+<DISEASE id="D0" spans="690~692" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="772~781" text="arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="805~824" text="lupus erythematodes" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="826~829" text="SLE" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1036~1038" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1178~1180" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1216~1219" text="SLE" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1332~1335" text="SLE" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="843~879" text="prerequisite for disease development" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G16" geneText="IFN-γ" diseaseID="D2" diseaseText="lupus erythematodes" relationID="R0" relationText="prerequisite for disease development" />
+<ENTITY_LINKING id="E1" geneID="G16" geneText="IFN-γ" diseaseID="D3" diseaseText="SLE" relationID="R0" relationText="prerequisite for disease development" />
+</TAGS>
+</Genomics_ConceptTask>

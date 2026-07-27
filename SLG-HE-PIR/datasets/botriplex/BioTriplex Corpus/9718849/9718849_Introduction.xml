@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Schizophrenia is a severe and disabling mental disorder with a prevalence of around 1% worldwide [ 1 ]. It accounts for 3% of the total economic burden of human disease [ 2 ]. Besides the role of genetics in the etiology of schizophrenia [ 3 ,  4 ], non-genetic factors like the intra-uterine environment also contributes to this disorder [ 3 ,  5 ]. The important role of intra-uterine environment in the etiology of schizophrenia is in accord with schizophrenia’s neurodevelopmental origin [ 6 ]. Epidemiology investigation demonstrates that, schizophrenia is closely related to early-life complications (ELCs), which are adverse events that occur during pregnancy and labor, at delivery, and in neonatal life [ 7 ,  8 ]. Meta-analysis of this study reveals that ELCs increase risk by 1.5- to 2-fold, a greater effect than any common genetic variant in schizophrenia progression [ 8 ]. Fetal growth restriction (FGR) is an important disease in ELCs, which affects 6% of pregnant women worldwide [ 9 ], and is linked to high perinatal mortality and morbidity [ 10 ]. Epidemiological studies demonstrate that people with a history of FGR would double the prevalence of suffering from schizophrenia in adulthood [ 8 ,  11 ,  12 ], while the underling mechanism is unclear.
+Schizophrenia is characterized by positive, negative and cognitive symptoms. Although positive symptoms are the most noticeable disease manifestation, cognitive symptoms are perhaps the most distinctive [ 13 ]. Studies indicate that inhibitory function deficits in the prefrontal cortex of schizophrenia patients might lead to cognitive disturbances [ 14 – 16 ]. Indeed, cortical inhibition impairments have been reported both in vivo and in post-mortem brain tissue from patients with schizophrenia [ 17 ,  18 ], and cognitive functions such as working memory depends on interneuron function [ 19 ,  20 ]. Only certain classes of cortical interneuron seem to be impaired in schizophrenia. In particular, parvalbumin (PV) interneurons in the prefrontal cortex of schizophrenia patients show decreased expression of glutamic acid decarboxylas1(GAD1) [ 21 ,  22 ], which impairs the inhibitory function of PV interneurons. However, it is unclear whether PV interneuron is the main cytological mechanism in FGR induced schizophrenia.
+An increasing body of evidence suggests that variation in genes that control the development and maturation of PV interneurons such as NRG1-ErbB4 signaling [ 23 – 25 ], DISC1 [ 26 ,  27 ], GRIN1 [ 28 ] and DTNBP1 [ 29 ], might confer susceptibility to schizophrenia [ 30 ]. NRG1 is a family of trophic factors with an epidermal growth factor (EGF)-like domain [ 31 ,  32 ], and is critical in neural development and synaptic plasticity. Besides, it also plays an important role in the transformation of high-risk schizophrenia [ 33 ,  34 ]. NRG1 and its receptor ErbB4 have been linked to abnormal cortical function in schizophrenia [ 35 ,  36 ]. Studies demonstrate that NRG1 is significantly upregulated in prefrontal cortex and hippocampus of schizophrenia patients [ 37 – 39 ]. High expression of NRG1 in hippocampal pyramidal neurons induces schizophrenic symptoms, leading to cognitive decline and social behavior defects [ 40 ]. Besides, researches also show that NRG1-ErbB4 signaling plays a critical role in GABAergic circuit maturation in cerebral cortex [ 23 ]. However, whether NRG1 upregulation contributes to GABAergic maturation defects in FGR induced schizophrenia is still unclear.
+In this study, we proved that NRG1 was pivotal in FGR induced schizophrenia and NRG1 knockdown in mPFC rescued schizophrenia symptoms in FGR mice. Besides, our results also demonstrated that mPFC NRG1 knockdown rescued FGR induced schizophrenia symptoms by improving GABAergic maturation of PV interneurons. These observations reveal a fundamental role of NRG1 in balancing prefrontal cortex inhibitory function, identify PV interneurons as a cellular target of NRG1-ErbB4 signaling in cognition and complex behaviors relevant to FGR-induced schizophrenia.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2116~2120" text="GAD1" location="background" />
+<GENE id="G1" spans="2439~2443" text="NRG1" location="background" />
+<GENE id="G2" spans="2444~2449" text="ErbB4" location="background" />
+<GENE id="G3" spans="2473~2478" text="DISC1" location="background" />
+<GENE id="G4" spans="2493~2498" text="GRIN1" location="background" />
+<GENE id="G5" spans="2510~2516" text="DTNBP1" location="background" />
+<GENE id="G6" spans="2578~2582" text="NRG1" location="background" />
+<GENE id="G7" spans="2845~2849" text="NRG1" location="background" />
+<GENE id="G8" spans="2867~2872" text="ErbB4" location="background" />
+<GENE id="G9" spans="2976~2980" text="NRG1" location="background" />
+<GENE id="G10" spans="3105~3109" text="NRG1" location="background" />
+<GENE id="G11" spans="3275~3279" text="NRG1" location="background" />
+<GENE id="G12" spans="3280~3285" text="ErbB4" location="background" />
+<GENE id="G13" spans="3394~3398" text="NRG1" location="background" />
+<GENE id="G14" spans="3533~3537" text="NRG1" location="result" />
+<GENE id="G15" spans="3583~3587" text="NRG1" location="result" />
+<GENE id="G16" spans="3699~3703" text="NRG1" location="result" />
+<GENE id="G17" spans="3859~3863" text="NRG1" location="result" />
+<GENE id="G18" spans="3965~3969" text="NRG1" location="result" />
+<GENE id="G19" spans="3970~3975" text="ErbB4" location="result" />
+<DISEASE id="D0" spans="1~14" text="Schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="225~238" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="419~432" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="451~464" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="546~559" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="856~869" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="1185~1198" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="1273~1286" text="Schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="1563~1576" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D9" spans="1759~1772" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D10" spans="1948~1961" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D11" spans="2036~2049" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D12" spans="2289~2302" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D13" spans="2556~2569" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D14" spans="2817~2830" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D15" spans="2923~2936" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D16" spans="3050~3063" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D17" spans="3471~3484" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D18" spans="3614~3627" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D19" spans="3565~3578" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D20" spans="3734~3747" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D21" spans="4045~4058" text="schizophrenia" location="result" disease1="disease of mental health" disease2="-" />
+<RELATION id="R0" spans="2064~2084" text="decreased expression" location="background" relation="increased expression" />
+<RELATION id="R1" spans="2531~2552" text="confer susceptibility" location="background" relation="genetic susceptibility" />
+<RELATION id="R2" spans="2998~3009" text="upregulated" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="GAD1" diseaseID="D11" diseaseText="schizophrenia" relationID="R0" relationText="decreased expression" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="NRG1" diseaseID="D13" diseaseText="schizophrenia" relationID="R1" relationText="confer susceptibility" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="ErbB4" diseaseID="D13" diseaseText="schizophrenia" relationID="R1" relationText="confer susceptibility" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="DISC1" diseaseID="D13" diseaseText="schizophrenia" relationID="R1" relationText="confer susceptibility" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="GRIN1" diseaseID="D13" diseaseText="schizophrenia" relationID="R1" relationText="confer susceptibility" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="DTNBP1" diseaseID="D13" diseaseText="schizophrenia" relationID="R1" relationText="confer susceptibility" />
+<ENTITY_LINKING id="E6" geneID="G9" geneText="NRG1" diseaseID="D16" diseaseText="schizophrenia" relationID="R2" relationText="upregulated" />
+</TAGS>
+</Genomics_ConceptTask>

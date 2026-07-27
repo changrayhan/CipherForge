@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Sample 1
+In the overall case–control comparison between PD patients and healthy controls, no significant differences in average methylation or in DNA methylation at single CpG sites was discerned (see Table  1 ). Secondary analyses comparing PD patients with and without comorbid MDD indicated significant group differences for average methylation ( p  = 0.049) and methylation at CpG3 ( p  = 0.041). Follow-up tests revealed significantly decreased methylation in PD patients with comorbid MDD (PD + MDD;  N  = 27) regarding average  KLF11  methylation ( p  = 0.008) and CpG site 3 methylation ( p  = 0.006) compared to PD patients without comorbid MDD as well as compared to healthy controls, again regarding average methylation ( p  = 0.010) and methylation at CpG site 3 ( p  = 0.006) (see Table  2 , Fig.  1 ). Conversely, PD patients without comorbid MDD diagnosis (PDonly;  N  = 30) did not differ from healthy controls with regard to  KLF11  average methylation and methylation at single CpG sites (all  p  > 0.05; see Table  2 ). Table 1 KLF11  methylation levels in PD patients and matched healthy controls CpG a Sample 1 N  = 57 PD patients (mean ± SE) N  = 57 Controls (mean ± SE) b Statistics Average 11.29 ± 0.45 11.88 ± 0.64 z  = − 0.25;  p  = 0.803 1 2.55 ± 0.14 2.83 ± 0.21 z  = − 0.60;  p  = 0.552 2 11.67 ± 0.55 11.93 ± 0.65 z  = − 0.10;  p  = 0.919 3 24.01 ± 0.91 25.38 ± 1.30 z  = − 0.33;  p  = 0.740 4 8.90 ± 0.38 9.04 ± 0.46 z  = − 0.00;  p  = 0.998 5 9.29 ± 0.35 9.46 ± 0.39 z  = − 0.06;  p  = 0.956 a PD  panic disorder b p  values from non-parametric Mann–Whitney  U  test are reported with average DNA methylation or methylation at the respective single CpG sites as dependent variable and group (PD patients vs. healthy controls). Mean methylation given in %;  SE  standard error of the mean Table 2 KLF11  methylation levels in PD patients with and without comorbid MDD and matched healthy controls CpG a Sample 1 N  = 30 Pdonly (mean ± SE) N  = 27 PD + MDD (mean ± SE) N  = 57 Controls (mean ± SE) b Statistics c PDonly vs. controls PD + MDD vs. controls PDonly vs. PD + MDD Average 12.22 ± 0.61 10.25 ± 0.62 11.88 ± 0.63 p  =  0.049* H = 6.04;  z  = − 1.94;  p  = 0.053 z  = − 2.73  p  =  0.010** z  = − 2.65;  p  =  0.008** 1 2.79 ± 0.20 2.29 ± 0.18 2.84 ± 0.21 p  = 0.113 H = 4.35;  – – – 2 12.72 ± 0.76 10.51 ± 0.73 11.93 ± 0.65 p  = 0.080 H = 5.06;  – – – 3 25.99 ± 1.22 21.81 ± 1.25 25.38 ± 1.30 p  =  0.041* H = 6.39;  z  = − 1.93;  p  = 0.054 z  = − 2.56;  p  =  0.006** z  = − 2.73;  p  =  0.006** 4 9.63 ± 0.51 8.09 ± 0.54 9.04 ± 0.46 p  = 0.072 H = 5.26;  – – – 5 9.95 ± 0.47 8.56 ± 0.49 9.46 ± 0.39 p  = 0.061 H = 5.59;  – – – a PD  panic disorder,  MDD  major depressive disorder b p  values from non-parametric Kruskal–Wallis test are reported with average DNA methylation or methylation at the respective single CpG sites as dependent variable and group (healthy controls vs. PDonly patients vs. PD + MDD patients) c z  and  p  values from post hoc tests (Mann–Whitney  U  test) are reported. Bold: significant results: *significant at  p  ≤ 0.05; **significant at  p  ≤ 0.01; mean methylation given in %;  SE  standard error of the mean Fig. 1 KLF11  DNA methylation in panic disorder patients with or without comorbid major depressive disorder and matched healthy controls.  PD  panic disorder,  MDD  major depressive disorder,  Controls  healthy controls without any anxiety disorder,  PDonly  PD patients without comorbid MDD,  PD + MDD  PD patients with comorbid MDD; * p  ≤ 0.05
+On a dimensional level, a negative correlation of  KLF11  average methylation with BDI-II scores was observed in the patient group ( ρ  = − 0.336;  p  = 0.013; see Fig.  2 ). Fig. 2 KLF11  DNA methylation and dimensional depression in panic disorder. Negative correlation between average  KLF11  DNA methylation and Beck Depression Inventory (BDI-II) scores in 54 patients with panic disorder ( ρ  = −0.336,  p  = 0.013)
+Sample 2
+Significant differences in  KLF11  DNA methylation were observed between MDD patients with and without anxious depression at CpG site 1 ( p  = 0.041) and, on a nominally significant level, with regard to average methylation ( p  = 0.052) and methylation at CpG sites 2–4 ( p  = 0.053-0.081; see Table  3 ; Fig.  3 ), with patients with non-anxious depression showing decreased  KLF11  methylation. Table 3 KLF11  DNA methylation in MDD patients with or without anxious depression CpG a Sample 2 N  = 98 Anxious depression (mean ± SE) N  = 66 Non-anxious depression (mean ± SE) b Statistics Average 12.28 ± 0.37 11.23 ± 0.41 z  = − 1.95;  p  = 0.052 1 3.07 ± 0.12 2.70 ± 0.13 z  = − 2.04;  p  =  0.041* 2 12.23 ± 0.41 11.20 ± 0.46 z  = − 1.75;  p  = 0.081 3 25.46 ± 0.70 23.41 ± 0.80 z  = − 1.75;  p  = 0.079 4 10.13 ± 0.35 9.18 ± 0.38 z  = − 1.77;  p  = 0.077 5 10.51 ± 0.31 9.64 ± 0.33 z  = − 1.94;  p  = 0.053 a MDD  major depressive disorder,  anxious depression  98 patients with anxious depression (anxiety/somatization factor of the Hamilton Depression Rating Scale ≥ 7),  non-anxious depression  66 patients without anxious depression (anxiety/somatization factor of the Hamilton Depression Rating Scale < 7). b p  values from non-parametric Mann–Whitney  U  test are reported with average DNA methylation or methylation at the respective single CpG sites as dependent variable and group (anxious vs. non-anxious MDD patients) p  ≤ 0.05; mean methylation given in %;  SE  standard error of the mean Bold: significant results: *significant at  Fig. 3 KLF11  DNA methylation in MDD patients with or without anxious depression. MDD: major depressive disorder; anxious depression: 98 patients with anxious depression (anxiety/somatization factor of the Hamilton Depression Rating Scale ≥ 7); non-anxious depression: 66 patients without anxious depression (anxiety/somatization factor of the Hamilton Depression Rating Scale < 7);  # p  ≤ 0.1; * p  ≤ 0.05
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="536~541" text="KLF11" location="result" />
+<GENE id="G1" spans="944~949" text="KLF11" location="result" />
+<GENE id="G2" spans="1048~1053" text="KLF11" location="result" />
+<GENE id="G3" spans="3582~3587" text="KLF11" location="result" />
+<GENE id="G4" spans="3713~3718" text="KLF11" location="result" />
+<GENE id="G5" spans="3820~3825" text="KLF11" location="result" />
+<GENE id="G6" spans="3989~3994" text="KLF11" location="result" />
+<GENE id="G7" spans="4339~4344" text="KLF11" location="result" />
+<GENE id="G8" spans="4367~4372" text="KLF11" location="result" />
+<GENE id="G9" spans="5518~5523" text="KLF11" location="result" />
+<DISEASE id="D0" spans="57~59" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="243~245" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="281~284" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="466~468" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="492~495" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="497~499" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="502~505" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="622~624" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="651~654" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D9" spans="829~831" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D10" spans="858~861" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D11" spans="1077~1079" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D12" spans="1527~1529" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D13" spans="1725~1727" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D14" spans="1858~1860" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D15" spans="1896~1899" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D16" spans="1979~1981" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D17" spans="1984~1987" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D18" spans="2064~2066" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D19" spans="2069~2072" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D20" spans="2097~2099" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D21" spans="2102~2105" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D22" spans="2672~2674" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D23" spans="2693~2696" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D24" spans="2922~2924" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D25" spans="2942~2944" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D26" spans="2947~2950" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D27" spans="3323~3325" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D28" spans="3327~3341" text="panic disorder" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D29" spans="3344~3347" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D30" spans="3349~3374" text="major depressive disorder" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D31" spans="3435~3437" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D32" spans="3443~3445" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D33" spans="3472~3475" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D34" spans="3478~3480" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D35" spans="3483~3486" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D36" spans="3488~3490" text="PD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D37" spans="3514~3517" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D38" spans="3766~3780" text="panic disorder" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D39" spans="3909~3923" text="panic disorder" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D40" spans="4034~4037" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D41" spans="4393~4396" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D42" spans="4875~4878" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D43" spans="4880~4905" text="major depressive disorder" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D44" spans="5381~5384" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D45" spans="5544~5547" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D46" spans="5593~5596" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

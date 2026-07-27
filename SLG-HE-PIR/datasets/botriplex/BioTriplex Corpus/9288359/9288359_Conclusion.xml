@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+This study is by far the first real-world data regarding the combination of lenvatinib and nivolumab in advanced HCC. We reported the promising efficacy and tolerable toxicities that is comparable with the clinical trial. Whether this regimen can become standard of care remains to be confirmed in a large prospective clinical trial.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="114~117" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

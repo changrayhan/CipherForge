@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Lenvatinib combined with nivolumab in advanced hepatocellular carcinoma-real-world experience.
+Abstract: 
+           Supplementary information 
+           The online version contains supplementary material available at 10.1007/s10637-022-01248-0. 
+        
+Lenvatinib, a multi-tyrosine kinase inhibitor that inhibits vascular endothelial growth factor and fibroblast growth factor receptors pathway, activated the immune response in tumor microenvironment. However, the combination of lenvatinib and anti-PD-1 has been reported in early phase studies. Hence, this study aims to explore the efficacy and toxicity of lenvatinib combined with nivolumab in the real-world setting. Advanced HCC patients who underwent lenvatinib combined with nivolumab (L + N group) treatment at Taipei Veterans General Hospital (Taipei, Taiwan) were reviewed between January 2016 and December 2020. Treatment response and outcomes were collected and analyzed. A control group with lenvatinib (L group) was also included for comparison. Forty patients were included in L + N group and 47 in L group. The L + N group demonstrated a higher objective response rate than L group (45.0% vs. 23.4%,  p  = 0.03). The L + N group also achieved longer PFS (7.5 vs. 4.8 months,  p  = 0.05) and OS (22.9 vs. 10.3 months,  p  = 0.01) than L group. Patients with HBV infection and REFLECT criteria fit demonstrated a trend of better prognosis. The PFS for those with PR, SD and PD groups were 11.2, 6.4, and 2.2 months and OS were non-reached, 14.6 and 4.7 months, respectively. Portal vein thrombosis (HR 4.3, 95% C.I. 1.5–12.8) and AFP > 400 ng/mL (HR 3.3, 95% C.I. 1.1–9.3) were poor prognostic factors and nivolumab used remained a protective factor (HR 0.2, 95% C.I. 0.1–0.7). Dermatitis (35.0%), pruritis (27.5%), and hypothyroidism (27.5%) were the common toxicities. Few patients developed grade 3/4 toxicities, including dermatitis (15%), gastrointestinal bleeding (7.5%), hypertension (5.0%), pneumonitis (2.5%) and stomatitis (2.5%). This is the first real-world data reporting the promising efficacy and tolerable toxicities of lenvatinib combined with nivolumab in advanced HCC. Further randomized trials are prompted.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="55~79" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1798~1812" text="hypothyroidism" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1956~1968" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="2000~2010" text="stomatitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1904~1914" text="dermatitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

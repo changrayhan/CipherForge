@@ -1,0 +1,9 @@
+2026-07-27 20:21:35,055 [INFO] biotriplex_eval: Building dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/ (split=test)
+2026-07-27 20:21:35,065 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[test]: 174 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 20:21:35,073 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/test_gold_ner.txt
+2026-07-27 20:21:35,073 [INFO] biotriplex_eval: Dataset size: 174
+2026-07-27 20:21:35,073 [INFO] biotriplex_eval: Truncated to 30 samples
+2026-07-27 20:21:35,239 [INFO] biotriplex_eval: Loading base model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-27 20:21:41,420 [INFO] biotriplex_eval: Attaching PEFT adapter from /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/adapter
+2026-07-27 20:31:51,551 [INFO] biotriplex_eval: Wrote inference outputs → /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/logs/infer_outputs_20260727_202133.json
+2026-07-27 20:31:51,702 [INFO] biotriplex_eval: Wrote metrics → /root/autodl-tmp/SLG-HE-PIR/test-data/SLG-test-data/NER-SLG-test-data/run_20steps/logs/ner_slg_evaluate_metrics.json

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In this study, we present compelling evidence that polyamines, and more particularly spermidine, can be considered as either beneficial or deleterious in colitis, depending on the etiology. In fact, in  C. rodentium  colitis, all three polyamines are associated with tissue damage and increased mucosal inflammation. By contrast, the generation of spermidine protects mice from DSS-induced colitis. In accordance with this result, we also found that knockout of  Smox  results in spermidine depletion and spermine accumulation in the colonic mucosa, which is associated with amelioration of  C. rodentium  colitis and worsening of DSS-induced colonic inflammation. Our data also indicate that these two models of colitis are driven by distinct pathological processes that can be potentially manipulated by the regulation of spermidine and spermine concentration.
+Our laboratory has previously reported that SMOX is induced during  H. pylori  infection in macrophages ( 14 ,  31 ) and in gastric epithelial cells ( 9 ,  17 ). This leads to H 2 O 2 -mediated DNA damage ( 9 ,  17 ) and support of chronic inflammation, potentially due to spermine depletion ( 31 ).  C. rodentium  infection leads to the induction of ODC in the colon of mice ( 7 ,  27 ), which has been further underlined in this study by the increase of putrescine concentration in the colonic tissues of infected mice. However, we now observed that  Smox  is not induced in the colon of mice infected with  C. rodentium . The discrepancy between  H. pylori  and  C. rodentium  in their ability to induce SMOX could be explained by the fact that SMOX induction in gastric tissue is dependent on the  H. pylori  virulence factor CagA ( 9 ), which is directly injected into host epithelial cells by a type IV secretion system. We can therefore postulate that  C. rodentium  does not possess the arsenal to stimulate  Smox  mRNA expression despite its numerous virulence factors including type III secretion system-dependent effectors ( 32 ). Contrasting to the  C. rodentium  model, we observed that  Smox  mRNA is upregulated in the colon of mice with DSS colitis. This is consistent with the increase of  SMOX  mRNA levels and SMOX protein expression in inflammatory cells of patients with ulcerative colitis (UC) ( 22 ). Similarly, Weiss et al. showed that spermidine was enhanced, and spermine was decreased in colonic epithelial cells of DSS-treated mice compared with untreated animals and in UC patients compared with healthy individuals ( 33 ), which is consistent with increased SMOX activity. Therefore, it would be of interest to determine which signaling pathways are involved in  Smox  mRNA expression during DSS colitis in future studies.
+Spermine oxidase converts spermine into spermidine. Despite the fact that this enzyme was not upregulated in the colon of mice infected with  C. rodentium , we found that  Smox  gene deletion resulted in a decreased concentration of spermidine and an accumulation of spermine in the colon. Similar data were obtained in the DSS model. Importantly, this effect of  Smox  deletion was also observed in uninfected/untreated animals. Altogether, these results support that the constitutive expression of SMOX, which can be augmented under specific conditions, is critical for the maintenance of spermine to spermidine flux in the colon and thus plays a role in the pathophysiology of colitis.
+The next essential finding highlighted by our study is the dual role of polyamines in our two models of colitis. First, in WT mice infected with  C. rodentium , increasing concentration of putrescine, spermidine, and spermine was significantly correlated with enhanced colonic injury score. Conversely, there was an inverse correlation between the damage to the colon and spermidine concentration in WT mice treated with DSS. These data therefore imply that polyamines are deleterious during  C. rodentium  infection and that spermidine protects animals against DSS-induced colitis. Consistently, we also observed that  Smox  deletion, which results in a reduction of spermidine concentration in the colon, is protective in  C. rodentium  colitis and exacerbates DSS-mediated injury. Although we cannot completely exclude a potential role for putrescine and spermine in the development of  C. rodentium -induced colitis, our data support the contention that spermidine displays opposite effects in mice with intestinal infection with an attaching and effacing pathogen or with epithelial injury-driven colitis.
+The question raised by our finding is how can the same polyamine have differing effects in the colon depending on the model? Supporting the concept that spermidine protects from DSS colitis, it has been reported that this polyamine exhibits anti-inflammatory properties by dampening MAPKs, PI3K, STAT-1, and NF-κB signaling pathways in myeloid cells ( 34 – 36 ) and thus gene transcription. Intriguingly, IFN-γ-induced synthesis of IL-6 is reduced in spermidine-treated THP-1 cells ( 35 ). This occurs through the spermidine-dependent stimulation of protein tyrosine phosphatase non-receptor type 2a that inhibits IFN-γ signaling ( 35 ). Consistent with these prior findings, it should be noted that IL-6 was one of the cytokines that we found to be further increased in  −/− Smox  mice during DSS colitis. Moreover, it has been described that daily supplementation of DSS-treated mice with spermidine improves clinical and histological parameters compared with sham-treated animals ( 35 ). In the same way, Yang et al. established that spermidine alleviates inflammation by favoring the polarization of macrophages toward an M2 response in a murine model of multiple sclerosis ( 37 ). The effect of spermidine on  C. rodentium  virulence gene expression is unknown and has not been analyzed in the present study. Intriguingly, it has been reported that spermidine is required for the virulence of  Salmonella enterica  Typhimurium in mice ( 38 ). Therefore, it could be now of interest whether decreased spermidine concentration in the colons of infected  −/− Smox  mice could lead to a reduction of  C. rodentium  virulence, and consequently to less damage without affecting colonization levels. However, the potential role of putrescine and spermine on the pathophysiology of  C. rodentium  infection should be also considered, since the concentration of all three polyamines was significantly correlated with the damage to the colon.
+In conclusion, our work reveals that the local homeostasis of spermidine and spermine through SMOX is a critical regulator of colonic inflammation. In the DSS model, spermidine is protective and consequently  Smox  deletion worsens colitis. Since SMOX is induced in the colon of UC patients ( 22 ,  33 ), we suggest that its induction could be beneficial by increasing spermidine concentration rather than deleterious by generating H 2 O 2 . Since DSS colitis exhibits some features similar to human UC, such patients might benefit from strategies to increase spermidine concentration in the colon, rather than inhibiting SMOX. Given that spermidine supplementation is safe, may also benefit the cardiovascular system ( 39 ) and exhibits neuroprotective and anti-cancerous properties ( 40 ), the use of this polyamine as a dietary supplement should be taken into consideration for patients with UC. However, our work also underlines that spermidine supplementation most likely should be avoided in the case of gastrointestinal infections, especially those involving attaching and effacing pathogens. Since different foods contain varying amount of spermidine ( 41 ), specific dietary recommendations related to polyamine intake may help in preventing colonic inflammation and/or severe intestinal infection.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="464~468" text="Smox" location="result" />
+<GENE id="G1" spans="908~912" text="SMOX" location="background" />
+<GENE id="G2" spans="1417~1421" text="Smox" location="result" />
+<GENE id="G3" spans="1571~1575" text="SMOX" location="result" />
+<GENE id="G4" spans="1612~1616" text="SMOX" location="background" />
+<GENE id="G5" spans="1881~1885" text="Smox" location="result" />
+<GENE id="G6" spans="2065~2069" text="Smox" location="result" />
+<GENE id="G7" spans="2171~2175" text="SMOX" location="result" />
+<GENE id="G8" spans="2193~2197" text="SMOX" location="background" />
+<GENE id="G9" spans="2552~2556" text="SMOX" location="result" />
+<GENE id="G10" spans="2657~2661" text="Smox" location="result" />
+<GENE id="G11" spans="2889~2893" text="Smox" location="result" />
+<GENE id="G12" spans="3081~3085" text="Smox" location="result" />
+<GENE id="G13" spans="3217~3221" text="SMOX" location="result" />
+<GENE id="G14" spans="4026~4030" text="Smox" location="result" />
+<GENE id="G15" spans="4807~4811" text="PI3K" location="background" />
+<GENE id="G16" spans="4813~4819" text="STAT-1" location="background" />
+<GENE id="G17" spans="4825~4830" text="NF-κB" location="background" />
+<GENE id="G18" spans="4922~4927" text="IFN-γ" location="background" />
+<GENE id="G19" spans="4949~4953" text="IL-6" location="background" />
+<GENE id="G20" spans="5131~5136" text="IFN-γ" location="background" />
+<GENE id="G21" spans="5217~5221" text="IL-6" location="background" />
+<GENE id="G22" spans="5293~5297" text="Smox" location="result" />
+<GENE id="G23" spans="6078~6082" text="Smox" location="result" />
+<GENE id="G24" spans="6549~6553" text="SMOX" location="result" />
+<GENE id="G25" spans="6664~6668" text="Smox" location="result" />
+<GENE id="G26" spans="6702~6706" text="SMOX" location="background" />
+<GENE id="G27" spans="7077~7081" text="SMOX" location="result" />
+<DISEASE id="D0" spans="155~162" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="218~225" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="391~398" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="607~614" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="714~721" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2121~2128" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2256~2274" text="ulcerative colitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2463~2465" text="UC" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2690~2697" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="3397~3404" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="3510~3517" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="3980~3987" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="4145~4152" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="4318~4325" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="4508~4515" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="4699~4706" text="colitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="5315~5322" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="5676~5694" text="multiple sclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="6687~6694" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="6734~6736" text="UC" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="6907~6914" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="6955~6957" text="UC" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D28" spans="7350~7352" text="UC" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D29" spans="2276~2278" text="UC" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="2158~2169,2177~2188" text="increase of ... mRNA levels" location="background" relation="increased expression" />
+<RELATION id="R1" spans="3358~3393" text="plays a role in the pathophysiology" location="result" relation="pathological role" />
+<RELATION id="R2" spans="6710~6717" text="induced" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G7" geneText="SMOX" diseaseID="D6" diseaseText="ulcerative colitis" relationID="R0" relationText="increase of ... mRNA levels" />
+<ENTITY_LINKING id="E1" geneID="G7" geneText="SMOX" diseaseID="D29" diseaseText="UC" relationID="R0" relationText="increase of ... mRNA levels" />
+<ENTITY_LINKING id="E2" geneID="G13" geneText="SMOX" diseaseID="D14" diseaseText="colitis" relationID="R1" relationText="plays a role in the pathophysiology" />
+<ENTITY_LINKING id="E3" geneID="G26" geneText="SMOX" diseaseID="D25" diseaseText="UC" relationID="R2" relationText="induced" />
+</TAGS>
+</Genomics_ConceptTask>

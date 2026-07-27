@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Study design
+This was a single-center, retrospective cohort study conducted in a community hospital in Newark, New Jersey, United States. It was designed to correlate the stage of disease with patient prognosis. Hospitalized patients were eligible for the study if they had a clinically suspected or laboratory-confirmed SARS-CoV-2 infection with rapid antigen test and reverse transcription-polymerase chain reaction (RT-PCR) along with COVID-19 serologies. The Cellex qSARS-CoV2 IgG/IgM rapid antigen test (Cellex Inc., Research Triangle, North Carolina) was used as a qualitative detection of IgM and IgG antibodies against SARS-CoV-2 in blood, which has been granted Emergency Use Authorization [ 13 - 14 ]. The serology obtained allowed us to divide the stages of COVID-19 into acute (IgM/IgG negative), subacute (IgM positive), and late disease (IgM negative/ IgG positive). Along with the serology, the cause of death was obtained as well.
+Inclusion/exclusion criteria
+Patients that were included in the study were age ≥ 18 years old and hospitalized from October 1, 2020, to February 28, 2021, with suspected or laboratory-confirmed SARS-CoV-2 infection with a Cellex qSARS-CoV-2 IgG/IgM rapid test. Patients who did not receive COVID-19 serologies and had no clear clinical outcomes were excluded from the study.
+Data collection and outcome
+We collected patient data using electronic medical records. After screening the qualifying patients, we went through individual demographics, including age, sex, race/ethnicity, and comorbidities, including body mass index (BMI), diabetes mellitus, hypertension, chronic kidney disease (stage 3b-5/glomerular filtration rate <44). Further data were collected in regard to how many days of symptoms prior to admission, serology outcomes along with inflammatory markers, including lactate dehydrogenase (LDH), CRP, ferritin, and D-dimer, on the appropriate patients and was analyzed.
+The primary outcome was all-cause mortality while being hospitalized in the various stages of the disease. Secondary outcomes included correlation with the inflammatory markers and the treatment correlation with the various stages of disease and review of the cause of death.
+Statistical analysis
+The patients’ demographics, clinical characteristics, serology, and biochemical data were retrieved and analyzed. Descriptive data are represented by mean ± standard deviation, percentage, numbers, and interquartile range. The Mann-Whitney test and T-test were adopted for non-normal and normal distribution of continuous variables, respectively. The analysis of variance (ANOVA) test was performed when comparing the continuous variables across multiple groups. As for categorical variables, the chi-square (χ2) or Fisher exact test was used. Correlation analysis was also performed to assess the severity of different stages of the COVID-19 disease with clinical outcome (need of mechanical ventilation and survival) based on the serology. All data analyses were performed with statistical software GraphPad Prism version 9.0.2 (GraphPad Software, San Diego, CA). Statistical significance was achieved if the null hypothesis could be rejected at a p-value of <0.05 with a 95% confidence interval. 
+Ethical issues and informed consent
+The retrospective study protocol has been approved by the Ethical Review Board of Saint Michael’s Medical Center, New York Medical College. A waiver of HIPAA privacy authorization has been obtained through the ethical review board. All procedures of the present study were conducted in compliance with the ethical standards of our institution as well as the Helsinki declaration for research on human beings.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1859~1862" text="CRP" location="result" />
+<DISEASE id="D0" spans="439~447" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="770~778" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="1238~1246" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="1581~1598" text="diabetes mellitus" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="1600~1612" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1614~1636" text="chronic kidney disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2864~2872" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

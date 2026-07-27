@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Pten and EphB4 regulate the establishment of perisomatic inhibition in mouse visual cortex.
+Abstract: Perisomatic inhibition of pyramidal neurons is established by fast-spiking, parvalbumin-expressing interneurons (PV cells). Failure to assemble adequate perisomatic inhibition is thought to underlie the aetiology of neurological dysfunction in seizures, autism spectrum disorders and schizophrenia. Here we show that in mouse visual cortex, strong perisomatic inhibition does not develop if PV cells lack a single copy of  Pten . PTEN signalling appears to drive the assembly of perisomatic inhibition in an experience-dependent manner by suppressing the expression of EphB4; PV cells hemizygous for  Pten  show an ∼2-fold increase in expression of EphB4, and over-expression of EphB4 in adult PV cells causes a dismantling of perisomatic inhibition. These findings implicate a molecular disinhibitory mechanism driving the establishment of perisomatic inhibition whereby visual experience enhances Pten signalling, resulting in the suppression of EphB4 expression; this relieves a native synaptic repulsion between PV cells and pyramidal neurons, thereby promoting the assembly of perisomatic inhibition.
+
+ Fast spiking interneurons provide perisomatic inhibition in the cortex. Here, Baohan  et al . show the failure to develop perisomatic inhibition in heterozygous  PTEN  null mutant mouse and the underlying mechanism to EphB4 reduction in an experience-dependent manner.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="Pten" location="result" />
+<GENE id="G1" spans="17~22" text="EphB4" location="result" />
+<GENE id="G2" spans="533~537" text="Pten" location="result" />
+<GENE id="G3" spans="540~544" text="PTEN" location="result" />
+<GENE id="G4" spans="679~684" text="EphB4" location="result" />
+<GENE id="G5" spans="711~715" text="Pten" location="result" />
+<GENE id="G6" spans="759~764" text="EphB4" location="result" />
+<GENE id="G7" spans="1058~1063" text="EphB4" location="result" />
+<GENE id="G8" spans="1009~1013" text="Pten" location="result" />
+<GENE id="G9" spans="1380~1384" text="PTEN" location="result" />
+<GENE id="G10" spans="1436~1441" text="EphB4" location="result" />
+<GENE id="G11" spans="789~794" text="EphB4" location="result" />
+<DISEASE id="D1" spans="364~388" text="autism spectrum disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="394~407" text="schizophrenia" location="background" disease1="disease of mental health" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

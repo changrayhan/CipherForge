@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Systemic Changes and Increased Apoptosis of Periodontal Tissue in UNO Rats
+The establishment of the UNO rat model was as mentioned above [ 24 – 26 ]. We used the peripheral nostril obstruction in rats as the standard for successful modeling. Body weight was used as an indicator of the influence of hypoxia on rats, and the statistical results showed that there was no significant difference in body weight between the SHAM and UNO groups (Figures  1(a)  and  1(b) ). TUNEL staining was performed to investigate the effect of hypoxia on periodontal cell apoptosis in UNO rats after UNO for 8 weeks. During apoptosis, the genomic DNA of cells is fragmented; this is detectable by TUNEL staining [ 27 ,  28 ]. Results showed that TUNEL-positive cells were increased in UNO rats compared to those in SHAM rats (Figures  1(c)  and  1(d) ). Taken together, the results show that apoptosis is a response to oxidative stress and is a product of the inflammatory response.
+3.2. The Levels of TXNIP/NLRP3 Inflammasome Signaling Pathway-Related Factors in Periodontal Tissues of Rats in the UNO Group Were Changed
+The expression of hypoxia-related factors in periodontal tissues of the UNO and SHAM groups was detected by RT-PCR to study the changes in inflammatory factors in periodontal tissues. The expression of TXNIP, NLRP3, caspase-1, ASC, and the inflammatory factor IL-1 β  was increased in the UNO group compared with the SHAM group. We then detected the protein levels of TXNIP, NLRP3, caspase-1, ASC, and IL-1 β  in the periodontal tissues of the two groups of rats (Figures  2(b)  and  2(c) ). IF showed that the UNO group had higher TXNIP, ASC, and caspase-1-positive cells than did the SHAM group, whereas there was no difference in NLRP3-positive cells. In addition, western blotting showed higher expression levels of TXNIP, caspase-1, ASC, and IL-1 β  in the UNO group than in the SHAM group, whereas there was no difference in NLRP3 protein expression ( Figure 2(a) ).
+3.3. CoCl 2  Simulates Hypoxia in HPDLCs, Induces ROS Production, Increases TXNIP Expression, and Upregulates NLRP3 Inflammasome-Related Factor Expression
+CoCl 2 -induced hypoxia is one of the most commonly used models in hypoxia studies. To study the effect of hypoxia on HPDLCs, different concentrations of CoCl 2  were used to stimulate cells. After two days of culture at 200  μ M and 400  μ M, cell viability decreased significantly. However, there was no significant difference in the cell viability of HPDLCs treated with 200  μ M at 24 h (Figures  3(a) ). In addition, the fluorescence intensity of ROS, TXNIP, NLRP3, ASC, and caspase-1 differed from those in the normal group (Figures  3(b)  and  3(c) ). We noted that with a change in CoCl 2  concentration, NLRP3 expression was not significantly different from that in the control group. At the same time, one day after 200  μ M and 400  μ M culture, we performed RT-PCR and western blotting analysis on TXNIP, NLRP3, caspase-1, ASC, and IL-1 β  in HPDLCs (Figures  3(d)  and  3(e) ). The results showed that culture with 200  μ M CoCl 2  for 24 h significantly increased the transcription and expression of TXNIP, NLRP3, caspase-1, ASC, and IL-1 β . However, with the increase in concentration, the expression of the above factors did not increase, which could result from NLRP3 inflammasome upregulation-regulated gene expression. Therefore, in our subsequent experiments, we used the 200  μ M culture for 24 h as a method to construct a hypoxic cell environment.
+3.4. Inhibition of ROS Production Attenuates CoCL 2 -Induced TNXIP Expression and NLRP3 Inflammasome Activation
+NAC inhibited ROS generation ( Figure 4(a) ). We verified whether ROS are involved in CoCl 2 -induced NLRP3 inflammasome activation and expression by NAC pretreatment ( Figure 4(b) ). The results showed that the CoCl 2 -induced aggregation of NLRP3 inflammasome-related factors and IL-1 β  expression decreased significantly with decreased ROS expression. Interestingly, NAC also inhibited CoCl 2 -induced TXNIP expression (Figures  4(c)  and  4(d) ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1312~1317" text="TXNIP" location="result" />
+<GENE id="G1" spans="1319~1324" text="NLRP3" location="result" />
+<GENE id="G2" spans="1326~1335" text="caspase-1" location="result" />
+<GENE id="G3" spans="1337~1340" text="ASC" location="result" />
+<GENE id="G4" spans="1370~1376" text="IL-1 β" location="result" />
+<GENE id="G5" spans="1478~1483" text="TXNIP" location="result" />
+<GENE id="G6" spans="1485~1490" text="NLRP3" location="result" />
+<GENE id="G7" spans="1492~1501" text="caspase-1" location="result" />
+<GENE id="G8" spans="1503~1506" text="ASC" location="result" />
+<GENE id="G9" spans="1512~1518" text="IL-1 β" location="result" />
+<GENE id="G10" spans="1642~1647" text="TXNIP" location="result" />
+<GENE id="G11" spans="1649~1652" text="ASC" location="result" />
+<GENE id="G12" spans="1658~1667" text="caspase-1" location="result" />
+<GENE id="G13" spans="1743~1748" text="NLRP3" location="result" />
+<GENE id="G14" spans="1830~1835" text="TXNIP" location="result" />
+<GENE id="G15" spans="1837~1846" text="caspase-1" location="result" />
+<GENE id="G16" spans="1848~1851" text="ASC" location="result" />
+<GENE id="G17" spans="1857~1863" text="IL-1 β" location="result" />
+<GENE id="G18" spans="1941~1946" text="NLRP3" location="result" />
+<GENE id="G19" spans="2059~2064" text="TXNIP" location="result" />
+<GENE id="G20" spans="2093~2098" text="NLRP3" location="result" />
+<GENE id="G21" spans="2595~2600" text="TXNIP" location="result" />
+<GENE id="G22" spans="2602~2607" text="NLRP3" location="result" />
+<GENE id="G23" spans="2609~2612" text="ASC" location="result" />
+<GENE id="G24" spans="2618~2627" text="caspase-1" location="result" />
+<GENE id="G25" spans="2751~2756" text="NLRP3" location="result" />
+<GENE id="G26" spans="2948~2953" text="TXNIP" location="result" />
+<GENE id="G27" spans="2955~2960" text="NLRP3" location="result" />
+<GENE id="G28" spans="2962~2971" text="caspase-1" location="result" />
+<GENE id="G29" spans="2973~2976" text="ASC" location="result" />
+<GENE id="G30" spans="2982~2988" text="IL-1 β" location="result" />
+<GENE id="G31" spans="3152~3157" text="TXNIP" location="result" />
+<GENE id="G32" spans="3159~3164" text="NLRP3" location="result" />
+<GENE id="G33" spans="3166~3175" text="caspase-1" location="result" />
+<GENE id="G34" spans="3177~3180" text="ASC" location="result" />
+<GENE id="G35" spans="3186~3192" text="IL-1 β" location="result" />
+<GENE id="G36" spans="3318~3323" text="NLRP3" location="result" />
+<GENE id="G37" spans="3571~3576" text="TNXIP" location="result" />
+<GENE id="G38" spans="3592~3597" text="NLRP3" location="result" />
+<GENE id="G39" spans="3724~3729" text="NLRP3" location="result" />
+<GENE id="G40" spans="3865~3870" text="NLRP3" location="result" />
+<GENE id="G41" spans="3904~3910" text="IL-1 β" location="result" />
+<GENE id="G42" spans="4028~4033" text="TXNIP" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

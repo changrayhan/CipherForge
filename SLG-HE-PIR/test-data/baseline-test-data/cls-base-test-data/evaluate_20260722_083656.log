@@ -1,0 +1,59 @@
+[INFO] Loading outputs: /root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/logs/infer_outputs_20260722_083656.json
+[INFO] Loading gold:    /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+[INFO] outputs count: 213, gold count: 213
+[INFO] common doc_keys: 213
+[INFO] evaluated samples: 213, parse failures: 0
+
+============================================================
+GenRel QA — Classification Metrics
+============================================================
+Samples evaluated   : 213
+Parse failures      : 0
+Micro Accuracy      : 0.5540
+Macro Precision     : 0.4042
+Macro Recall        : 0.3822
+Macro F1            : 0.3612
+Weighted F1         : 0.5228
+Micro F1            : 0.5540
+Multi-label F1 (samples avg): 0.5540
+Multi-label F1 (macro)      : 0.3612
+Multi-label F1 (micro)      : 0.5540
+Macro ROC AUC (ovr) : 0.8486
+Micro ROC AUC (ovr) : 0.8377
+
+--- Per-class ---
+          pathological  P=0.4324  R=1.0000  F1=0.6038  support=48
+            modulatory  P=0.2353  R=0.3077  F1=0.2667  support=13
+     expression change  P=0.8261  R=0.5135  F1=0.6333  support=74
+             diagnosis  P=0.7353  R=0.5814  F1=0.6494  support=43
+               therapy  P=0.6000  R=0.2727  F1=0.3750  support=11
+           no relation  P=0.0000  R=0.0000  F1=0.0000  support=1
+    relation undefined  P=0.0000  R=0.0000  F1=0.0000  support=23
+
+--- Confusion Matrix ---
+                    path  modu  expr  diag  ther  no r  rela
+        pathological                      48     0     0     0     0     0     0
+          modulatory                       7     4     0     2     0     0     0
+   expression change                      25     4    38     6     1     0     0
+           diagnosis                      12     0     5    25     1     0     0
+             therapy                       4     0     3     1     3     0     0
+         no relation                       1     0     0     0     0     0     0
+  relation undefined                      14     9     0     0     0     0     0
+
+--- sklearn classification_report ---
+                    precision    recall  f1-score   support
+
+      pathological     0.4324    1.0000    0.6038        48
+        modulatory     0.2353    0.3077    0.2667        13
+ expression change     0.8261    0.5135    0.6333        74
+         diagnosis     0.7353    0.5814    0.6494        43
+           therapy     0.6000    0.2727    0.3750        11
+       no relation     0.0000    0.0000    0.0000         1
+relation undefined     0.0000    0.0000    0.0000        23
+
+          accuracy                         0.5540       213
+         macro avg     0.4042    0.3822    0.3612       213
+      weighted avg     0.5782    0.5540    0.5228       213
+
+
+[INFO] results saved to: /root/autodl-tmp/SLG-HE-PIR/baseline/classification_genrel/logs/genrel_20260722_083656_evaluate_metrics.json

@@ -1,0 +1,53 @@
+2026-07-27 18:16:42,387 [INFO] test_3step_cls: Logging to /root/autodl-tmp/SLG-HE-PIR/test-data/3step-cls-test/logs/3step_test_1785147402.log
+2026-07-27 18:16:45,663 [INFO] test_3step_cls: Loading BioTriplex classification dataset ...
+2026-07-27 18:16:45,699 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 18:16:45,715 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-27 18:16:45,725 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 18:16:45,728 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-27 18:16:45,728 [INFO] test_3step_cls: Datasets: train=734 val=134
+2026-07-27 18:16:45,728 [INFO] test_3step_cls: Using n_entries=128256 (from meta=/root/autodl-tmp/slg-bfv-cache/bfv_meta.json)
+2026-07-27 18:16:45,728 [INFO] test_3step_cls: Building BFV backend (pk_path=/root/autodl-tmp/slg-bfv-cache/bfv_pk.bin) ...
+2026-07-27 18:16:45,738 [INFO] src.core.bfv_privselect_v2_adapter: Loaded public key from cache: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+2026-07-27 18:16:50,741 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-27 18:17:01,266 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-27 18:17:01,268 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-27 18:17:01,268 [INFO] test_3step_cls: BFV keys ready; sk_M dropped from main process
+2026-07-27 18:17:01,284 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-27 18:17:01,284 [INFO] test_3step_cls: Hint table ready
+2026-07-27 18:17:01,284 [INFO] test_3step_cls: Constructing HeterogeneousProtocol ...
+2026-07-27 18:17:01,285 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+2026-07-27 18:17:01,439 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 18:17:01,439 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-27 18:17:01,447 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-27 18:17:01,449 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+2026-07-27 18:17:01,494 [WARNING] src.model.model_splitting: SageAttention not installed — will use SDPA fallback: No module named 'sageattention'
+2026-07-27 18:17:01,494 [INFO] src.model.model_splitting: Using SDPA for U shard
+2026-07-27 18:17:26,134 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=SDPA, gradient_checkpointing=True)
+2026-07-27 18:17:26,141 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+2026-07-27 18:17:26,145 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+2026-07-27 18:17:26,145 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 18:17:26,145 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-27 18:17:26,147 [INFO] src.model.model_splitting: Using SDPA for M shard
+2026-07-27 18:17:47,446 [INFO] src.model.model_splitting: DeepSpeed ZeRO-1 will be configured in PartyM (gradient checkpointing enabled)
+2026-07-27 18:17:47,447 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=ZeRO-1)
+2026-07-27 18:17:47,454 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+2026-07-27 18:17:47,455 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-27 18:17:47,456 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=734, peak_lr=1.00e-04
+2026-07-27 18:17:47,457 [WARNING] src.parties.party_m: DeepSpeed not installed; install with: pip install deepspeed
+2026-07-27 18:17:47,457 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-27 18:17:47,457 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-27 18:17:47,458 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 18:17:47,675 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-27 18:17:47,695 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-27 18:17:47,696 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-27 18:17:47,696 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 46.4s (single CUDA context)
+2026-07-27 18:17:47,696 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-27 18:18:03,732 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-27 18:18:03,732 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-27 18:18:19,644 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-27 18:18:19,644 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-27 18:18:21,650 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-27 18:18:21,650 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 80.4s
+2026-07-27 18:18:21,650 [INFO] test_3step_cls: ============================================================
+2026-07-27 18:18:21,650 [INFO] test_3step_cls: Running 3 training steps ...
+2026-07-27 18:18:21,650 [INFO] test_3step_cls: ============================================================

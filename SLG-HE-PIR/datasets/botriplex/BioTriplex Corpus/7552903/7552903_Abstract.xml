@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: P-glycoprotein associated with diabetes mellitus and survival of patients with pancreatic cancer: 8-year follow-up.
+Abstract: Diabetes mellitus (DM) has a high prevalence in patients with pancreatic cancer (PaC), but the prognostic value of DM in PaC remains controversial. Alterations of P-glycoprotein (P-gp) and cytochrome P450 3A4 (CYP3A4) contribute to multidrug resistance and intestinal metabolism in a variety of cancer types, which may be implicated in DM development. This study aimed to explore the potential prognostic value of P-gp and CYP3A4 in PaC patients in the context of DM through long-term follow-up. We retrospectively reviewed the medical records of patients with PaC admitted at The First People's Hospital of Changzhou, Jiangsu, China, from January 2011 to November 2019 and identified two cohorts of adult patients with PaC, including 24 with DM and 24 without DM (non-DM). The baseline clinical characteristics and outcomes were compared. Immunohistochemistry showed that protein expression of P-gp, but not CYP3A, in duodenum tissues was significantly upregulated in PaC patients with DM compared with those without DM. Kaplan-Meier analysis and log-rank test showed that the survival of patients with PaC and DM/high expression of P-gp was not significantly reduced compared with that of patients without DM/low expression of P-gp. These findings suggested that P-gp expression levels were different in the DM and non-DM groups of patients with PaC, but DM and duodenal P-gp levels were not associated with the long-term survival of patients with PaC. It appears that the presence of DM or P-gp expression levels may not serve as effective prognostic markers for PaC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="323~342" text="cytochrome P450 3A4" location="background" />
+<GENE id="G1" spans="344~350" text="CYP3A4" location="background" />
+<GENE id="G2" spans="557~563" text="CYP3A4" location="result" />
+<GENE id="G3" spans="1043~1048" text="CYP3A" location="result" />
+<GENE id="G4" spans="8~22" text="P-glycoprotein" location="result" />
+<GENE id="G5" spans="297~311" text="P-glycoprotein" location="background" />
+<GENE id="G6" spans="313~317" text="P-gp" location="background" />
+<GENE id="G7" spans="548~552" text="P-gp" location="result" />
+<GENE id="G8" spans="1029~1033" text="P-gp" location="result" />
+<GENE id="G9" spans="1268~1272" text="P-gp" location="result" />
+<GENE id="G10" spans="1363~1367" text="P-gp" location="result" />
+<GENE id="G11" spans="1399~1403" text="P-gp" location="result" />
+<GENE id="G12" spans="1507~1511" text="P-gp" location="result" />
+<GENE id="G13" spans="1627~1631" text="P-gp" location="result" />
+<DISEASE id="D0" spans="39~56" text="diabetes mellitus" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="87~104" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="134~151" text="Diabetes mellitus" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="153~155" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="196~213" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="215~218" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="249~251" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="255~258" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="429~435" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="470~472" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="567~570" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="695~698" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="854~857" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="877~879" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D14" spans="895~897" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D15" spans="903~905" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D16" spans="1103~1106" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="1121~1123" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D18" spans="1152~1154" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D19" spans="1238~1241" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="1246~1248" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D21" spans="1342~1344" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D22" spans="1444~1446" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D23" spans="1455~1457" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D24" spans="1491~1493" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D25" spans="1621~1623" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D26" spans="1700~1703" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="598~600" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D28" spans="1482~1485" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="1584~1587" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="366~386" text="multidrug resistance" location="background" relation="therapy resistance" />
+<RELATION id="R2" spans="1074~1099" text="significantly upregulated" location="result" relation="increased expression" />
+<RELATION id="R3" spans="1249~1264" text="high expression" location="result" relation="increased expression" />
+<RELATION id="R4" spans="1212~1232,1273~1302" text="survival of patients ... was not significantly reduced" location="result" relation="no relation" />
+<RELATION id="R5" spans="1524~1578" text="not associated with the long-term survival of patients" location="result" relation="no relation" />
+<RELATION id="R6" spans="1650~1695" text="may not serve as effective prognostic markers" location="result" relation="no relation" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="P-glycoprotein" diseaseID="D8" diseaseText="cancer" relationID="R0" relationText="multidrug resistance" />
+<ENTITY_LINKING id="E1" geneID="G6" geneText="P-gp" diseaseID="D8" diseaseText="cancer" relationID="R0" relationText="multidrug resistance" />
+<ENTITY_LINKING id="E2" geneID="G0" geneText="cytochrome P450 3A4" diseaseID="D8" diseaseText="cancer" relationID="R0" relationText="multidrug resistance" />
+<ENTITY_LINKING id="E3" geneID="G1" geneText="CYP3A4" diseaseID="D8" diseaseText="cancer" relationID="R0" relationText="multidrug resistance" />
+<ENTITY_LINKING id="E4" geneID="G8" geneText="P-gp" diseaseID="D16" diseaseText="PaC" relationID="R2" relationText="significantly upregulated" />
+<ENTITY_LINKING id="E5" geneID="G8" geneText="P-gp" diseaseID="D17" diseaseText="DM" relationID="R2" relationText="significantly upregulated" />
+<ENTITY_LINKING id="E6" geneID="G9" geneText="P-gp" diseaseID="D19" diseaseText="PaC" relationID="R4" relationText="survival of patients ... was not significantly reduced" />
+<ENTITY_LINKING id="E7" geneID="G9" geneText="P-gp" diseaseID="D20" diseaseText="DM" relationID="R4" relationText="survival of patients ... was not significantly reduced" />
+<ENTITY_LINKING id="E8" geneID="G9" geneText="P-gp" diseaseID="D19" diseaseText="PaC" relationID="R3" relationText="high expression" />
+<ENTITY_LINKING id="E9" geneID="G9" geneText="P-gp" diseaseID="D20" diseaseText="DM" relationID="R3" relationText="high expression" />
+<ENTITY_LINKING id="E10" geneID="G12" geneText="P-gp" diseaseID="D29" diseaseText="PaC" relationID="R5" relationText="not associated with the long-term survival of patients" />
+<ENTITY_LINKING id="E11" geneID="G13" geneText="P-gp" diseaseID="D26" diseaseText="PaC" relationID="R6" relationText="may not serve as effective prognostic markers" />
+</TAGS>
+</Genomics_ConceptTask>

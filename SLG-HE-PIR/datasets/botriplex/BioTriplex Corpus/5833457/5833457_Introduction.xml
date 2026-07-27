@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Mucopolysaccharidoses (MPSs) are a group of inherited metabolic diseases, belonging to the class of lysosomal storage diseases, caused by the deficiency of lysosomal enzymes required to metabolize glycosaminoglycans (GAGs) 1 . The GAG family includes four main subgroups: hyaluronic acid or hyaluronan (HA), keratan sulfate (KS), chondroitin/dermatan sulfate (CS/DS), and heparan sulfate (HS)/heparin. With the exception of HA, GAGs are covalently attached to a core protein, forming the so-called proteoglycans that are abundantly expressed on the cell surface and extracellular matrix 2 . Deficits of GAG degrading enzymes are responsible for seven different MPSs (MPS I, II, III, IV, VI, VII, and IX), where the accumulation of the undegraded GAG results in multiple organ dysfunctions, with distinct clinical manifestations depending on the type of the lacking enzyme and the accumulated substrate 1 . MPS patients show profound mental retardation, intractable behavior, skeletal abnormalities, cardiovascular dysfunction, and death in the second decade of life 1 . Cardiac disease has been commonly observed in MPS patients and contributes to the early mortality of these patients 3 – 6 .
+Among MPS subtypes, the MPS IIIB is an autosomal recessive disorder caused by the deficiency of the α- N -acetylglucosaminidase (NAGLU) enzyme involved in HS degradation. The availability of MPS IIIB animal models and cultured cell systems, including primary fibroblasts from MPS IIIB patients 7 , 8 , has allowed to identify the defective lysosomal clearance of undigested HS as the primary cause of organ dysfunctions associated with the disease. Indeed, the defective lysosomal clearance of HS leads to the accumulation of abnormal levels of HS not only within the lysosomes of the cells, but also on the cell surface and in the extracellular matrix 8 – 10 , accounting for a number of pathologic events affecting various tissues and organs, including brain, liver, spleen, kidney, and heart 11 – 14 . Both during development and adult life, HS-associated proteoglycans (HSPGs) play crucial roles in the regulation of many physiological processes due to their property to bind and interact with signaling proteins, morphogens, growth factors, and other critical molecules 2 , 14 – 17 . Besides, the excess of extracellular HS has been shown to impair fibroblast growth factor 2 (FGF-2) receptor binding and signaling in cells derived from MPS I patients 10 , and to bind and sequester CXCL12-limiting hematopoietic migration in the murine model of MPS I 9 . As to date no treatments are available for MPS IIIB, a better understanding of the molecular mechanisms underlying HS storage defects at cellular level is a mandatory need to identify new targets for effective therapeutic approaches for MPS IIIB.
+Although progressive and severe neurological disorders are the most relevant clinical manifestations of the MPS IIIB, cardiac defects including heart failure, arrhythmias, pulmonary hypertension, and coronary occlusion have also been reported in affected patients 3 , 18 – 23 . Indeed, we recently demonstrated that the murine model of MPS IIIB 7  develops heart disease, valvular abnormalities, and heart failure 24 . However, the mechanisms governing cardiac dysfunction in MPS IIIB are still poorly investigated. In the present work, we generated a cellular model of MPS IIIB cardiac disease by silencing NAGLU gene expression in H9C2 rat cardiomyoblasts. This cell line has been proved to represent a relevant model to investigate mechanisms and consequences of cardiac diseases, including hypertrophy, and cardiomyocytes differentiation processes 25 , 26 . NAGLU-silenced H9C2 stable clones showed lysosomal abnormalities and hypertrophic phenotype, which correlated with epidermal growth factor receptor (EGFR) activation. Thus, we investigated the EGFR signaling pathway promoting cell pathology and hypertrophy in NAGLU-silenced cardiomyoblasts, providing new insights into the molecular mechanisms by which NAGLU deficiency and subsequent HS accumulation cause cardiac defects in MPS IIIB disease.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1295~1322" text="α- N -acetylglucosaminidase" location="background" />
+<GENE id="G1" spans="1324~1329" text="NAGLU" location="background" />
+<GENE id="G2" spans="2483~2489" text="CXCL12" location="background" />
+<GENE id="G3" spans="3411~3416" text="NAGLU" location="result" />
+<GENE id="G4" spans="3665~3670" text="NAGLU" location="result" />
+<GENE id="G5" spans="3780~3812" text="epidermal growth factor receptor" location="result" />
+<GENE id="G6" spans="3814~3818" text="EGFR" location="result" />
+<GENE id="G7" spans="3925~3930" text="NAGLU" location="result" />
+<GENE id="G8" spans="4019~4024" text="NAGLU" location="result" />
+<GENE id="G9" spans="2349~2375" text="fibroblast growth factor 2" location="background" />
+<GENE id="G10" spans="2377~2382" text="FGF-2" location="background" />
+<DISEASE id="D0" spans="101~126" text="lysosomal storage disease" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="1219~1227" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="1386~1394" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="1471~1479" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="2599~2607" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="2793~2801" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="2911~2919" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="3139~3147" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="2975~2997" text="pulmonary hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="3160~3173" text="heart disease" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="3279~3287" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="3373~3381" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="4092~4100" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

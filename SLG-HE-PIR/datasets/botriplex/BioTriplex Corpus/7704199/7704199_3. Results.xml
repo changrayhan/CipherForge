@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Clinicopathological Characteristics
+Data was extracted from medical records and pathology reports on 19 PILCs and 20 ILCs.   Table 1  summarizes the histological data. The HER2 expression was negative in all tumors (PILCs and ILCs). In the PILC group, lymph nodes were involved with metastatic carcinoma in 37% cases (negative in 47% and unknown in 16%) whereas in the ILC group, 70% had metastatic tumor to lymph nodes (negative in 30%). The 21-gene recurrence score assay (Oncotype Dx) was performed on 10 PILCs and 6 ILCs. The 21-gene recurrence score assay has been clinically validated and is used to classify tumors into low (<18), intermediate (18-30), and high (≥31) risk groups [ 15 ]. Results demonstrated that PILCs have higher scores (median 23, range 6-36) with the majority being in the intermediate or high range (8/10). In contrast, 4/6 ILCs were in the low risk category (2 were in the intermediate range with scores of 20 and 22).
+3.2. IHC Results
+Testing for Ki67 was performed on 19 PILCs and 20 ILCs. The proportion of tumors with ≥15% Ki67 was significantly higher in PILC group ( p  = <0.05) compared to the ILC group ( Table 1 ). Nine PILC and 9 ILC tumors were stained for the PTEN and pS6K-1 expression. The results show high expression of PTEN in all PILC and ILC tumors ( Figure 2 ); however, pS6K1 was high in 8/9 PILC tumors compared to 3/9 ILC tumors ( p  < 0.007) ( Figure 3 ). Our results indicate that PI3k/Akt/mTOR pathway is activated de novo in the majority of PILCs compared to ILCs. In addition, they also suggest that PTEN is not the key regulator of PI3k/Akt/mTOR pathway as it has high expression in all the tumors.
+3.3. Gene Expression Results
+The heat map ( Figure 4 ) shows clustering of genes and samples. PILC subtype does show overexpression of genes involved in cell cycle proliferation (CDC25C,CDK2), cellular proliferation (HELLS) [ 15 ], and DNA damage and repair (XRCC4, FANCA, FANCB, BRCA2) [ 16 ] genes compared to ILC. Correlation analysis of these overexpressed genes with other genes found more DNA repair and cell cycle genes that had greater expression in PILC (data not shown). We did not find any significant difference in expression of genes involved in the PI3K/Akt/mTOR pathway between the two groups (201 genes in this pathway were tested including but not limited to PTEN, PIK3, mTOR, AKT, etc.; however, S6K1 was not in these genes). Correlation analysis of these overexpressed genes with other genes found more DNA repair and cell cycle genes that had greater expression in PILC (data not shown), but they were not statistically significantly different compared to ILC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="178~182" text="HER2" location="result" />
+<GENE id="G1" spans="1208~1212" text="PTEN" location="result" />
+<GENE id="G3" spans="1218~1223" text="S6K-1" location="result" />
+<GENE id="G4" spans="1272~1276" text="PTEN" location="result" />
+<GENE id="G5" spans="1293~1296" text="ILC" location="result" />
+<GENE id="G6" spans="1328~1332" text="S6K1" location="result" />
+<GENE id="G7" spans="1377~1380" text="ILC" location="result" />
+<GENE id="G8" spans="1522~1525" text="ILC" location="result" />
+<GENE id="G9" spans="1564~1568" text="PTEN" location="result" />
+<GENE id="G10" spans="1843~1849" text="CDC25C" location="result" />
+<GENE id="G11" spans="1850~1854" text="CDK2" location="result" />
+<GENE id="G12" spans="1923~1928" text="XRCC4" location="result" />
+<GENE id="G13" spans="1930~1935" text="FANCA" location="result" />
+<GENE id="G14" spans="1937~1942" text="FANCB" location="result" />
+<GENE id="G15" spans="1944~1949" text="BRCA2" location="result" />
+<GENE id="G16" spans="2340~2344" text="PTEN" location="result" />
+<GENE id="G17" spans="2346~2350" text="PIK3" location="result" />
+<GENE id="G18" spans="2352~2356" text="mTOR" location="result" />
+<GENE id="G19" spans="2358~2361" text="AKT" location="result" />
+<GENE id="G20" spans="2378~2382" text="S6K1" location="result" />
+<GENE id="G21" spans="2640~2643" text="ILC" location="result" />
+<DISEASE id="D0" spans="123~126" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="232~235" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="300~309" text="carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="375~378" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="526~529" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="859~862" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="984~988" text="Ki67" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1022~1025" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1063~1067" text="Ki67" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1137~1140" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1176~1179" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1976~1979" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

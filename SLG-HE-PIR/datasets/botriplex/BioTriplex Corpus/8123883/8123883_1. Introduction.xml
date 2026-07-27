@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Alopecia areata (AA) is an autoimmune disease that targets hair follicles (HFs) during the anagen stage and is primarily caused by the disruption of immune privilege. [ 1 , 2 ]. AA is characterized by unexpected hair loss [ 3 , 4 ]. Even though AA is not a serious, life-threatening illness, it can have psychological consequences, including high levels of depression and anxiety [ 1 , 2 ]. However, the pathological mechanisms of chronic AA and alopecia totalis or alopecia universalis hair loss are not fully understood. Many patients with alopecia totalis and alopecia totalis show tolerance to conventional treatments [ 5 ].
+According to the concept of pathology, the prevention or recovery of immune privilege disruption of HFs can ultimately lead to the more effective management of AA. Recently, research studies have reported that treatments using mesenchymal stem cells (MSCs) can be useful for treating AA. Mesenchymal stem cell therapy (MSCT) or stem cell therapy using umbilical cord blood-derived cells for AA has been reported in several refractory cases [ 6 , 7 ]. A recent study examined the effects of MSCT in AA mouse models and discovered the immunomodulatory effects of MSCT. MSCT inhibited the expression of interferon-gamma (IFN-γ), C-X-C motif chemokines (CXCL) 9 and 10, and T-cell infiltration around HFs in AA mice [ 8 ].
+The mechanism by which MSCT is associated with improvement of hair growth and the immune environment is not yet well known. According to our previous study, MSCT reverted an AA-like environment in human dermal papillar cells (hDPCs) via the Wnt/β-catenin and Janus kinase (JAK)/signal transducers and activators of transcription protein (STAT) signaling pathways. In addition, various growth factors and cytokines associated with anagen re-entry induction were found to be enhanced by MSCT [ 9 ]. Activation of the Wnt/β-catenin and JAK/STAT signaling pathways is known to upregulate genes responsible for cell differentiation, proliferation, and anagen reentry in HFs [ 10 , 11 ]. MSCT was found to prolong anagen re-entry through activation of the Wnt/β-catenin and JAK/STAT signaling pathways [ 9 ].
+HFs are composed of cells of multiple origins, are single independent mini-organs, and have a characteristic periodic hair cycle [ 12 ]. The hair starts anew by the interaction between hDPC and hORSC signals. Additionally, some hORSCs contain HF stem cells, which are important for the initiation of the hair cycle.
+The hORSCs of HFs are multilayered tissues predominantly made up of undifferentiated keratinocytes [ 13 ]. hORSCs mainly comprise the hair shaft and the hair matrix. They play important roles in maintaining hDPCs and hair matrix cells [ 14 , 15 , 16 , 17 ]. They also contribute to the formation of HFs and the epidermis. hORSC apoptosis, which influences cell degeneration, the catagen phase of HFs, and upregulates the levels of necrosis and apoptosis in HFs, is associated with AA [ 18 ]. hORSCs also regulate inflammatory responses by expressing NLR family pyrin domain containing 3 (NLRP3) [ 19 ].
+The effects of MSCT on hORSCs have not yet been studied. To study the therapeutic mechanism of MSCT in AA, we investigated the effect of MSCT on hORSCs, with or without pretreatment with IFN-γ. We examined the effect of MSCT on the viability and migration ability of hORSCs. We focused on the activation of the Wnt/β-catenin and JAK/STAT signaling pathways and changes associated with the expression of several cytokines and chemokines, inflammasomes, growth factors, hair stem cell markers, and migration in response to MSCT.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3258~3263" text="IFN-γ" location="result" />
+<GENE id="G1" spans="1248~1253" text="IFN-γ" location="background" />
+<DISEASE id="D0" spans="1~16" text="Alopecia areata" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="18~20" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="179~181" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="246~248" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="440~442" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="447~463" text="alopecia totalis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="467~487" text="alopecia universalis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="543~559" text="alopecia totalis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="564~580" text="alopecia totalis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="790~792" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="914~916" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="1021~1023" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="1128~1130" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="1334~1336" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="1523~1525" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="2949~2951" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="3174~3176" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,9 @@
+2026-07-27 18:15:33,813 [INFO] test_3step_cls: Logging to /root/autodl-tmp/SLG-HE-PIR/test-data/3step-cls-test/logs/3step_test_1785147333.log
+2026-07-27 18:15:37,024 [INFO] test_3step_cls: Loading BioTriplex classification dataset ...
+2026-07-27 18:15:37,060 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 18:15:37,075 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-27 18:15:37,084 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 18:15:37,087 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-27 18:15:37,088 [INFO] test_3step_cls: Datasets: train=734 val=134
+2026-07-27 18:15:37,088 [INFO] test_3step_cls: Building BFV backend (pk_path=/root/autodl-tmp/slg-bfv-cache/bfv_pk.bin) ...
+2026-07-27 18:15:37,099 [INFO] src.core.bfv_privselect_v2_adapter: Loaded public key from cache: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin

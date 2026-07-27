@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Consensus of experts from the Spanish Pharmacogenetics and Pharmacogenomics Society and the Spanish Society of Medical Oncology for the genotyping of DPYD in cancer patients who are candidates for treatment with fluoropyrimidines.
+Abstract: 5-Fluorouracil (5-FU) and oral fluoropyrimidines, such as capecitabine, are widely used in the treatment of cancer, especially gastrointestinal tumors and breast cancer, but their administration can produce serious and even lethal toxicity. This toxicity is often related to the partial or complete deficiency of the dihydropyrimidine dehydrogenase (DPD) enzyme, which causes a reduction in clearance and a longer half-life of 5-FU. It is advisable to determine if a DPD deficiency exists before administering these drugs by genotyping  DPYD  gene polymorphisms. The objective of this consensus of experts, in which representatives from the Spanish Pharmacogenetics and Pharmacogenomics Society and the Spanish Society of Medical Oncology participated, is to establish clear recommendations for the implementation of genotype and/or phenotype testing for DPD deficiency in patients who are candidates to receive fluoropyrimidines. The genotyping of  DPYD  previous to treatment classifies individuals as normal, intermediate, or poor metabolizers. Normal metabolizers do not require changes in the initial dose, intermediate metabolizers should start treatment with fluoropyrimidines at doses reduced to 50%, and poor metabolizers are contraindicated for fluoropyrimidines.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="566~597" text="dihydropyrimidine dehydrogenase" location="background" />
+<GENE id="G1" spans="599~602" text="DPD" location="background" />
+<GENE id="G2" spans="716~719" text="DPD" location="background" />
+<GENE id="G3" spans="786~790" text="DPYD" location="background" />
+<GENE id="G4" spans="1104~1107" text="DPD" location="result" />
+<GENE id="G5" spans="1199~1203" text="DPYD" location="result" />
+<GENE id="G6" spans="158~162" text="DPYD" location="result" />
+<DISEASE id="D0" spans="166~172" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="357~363" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="404~417" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

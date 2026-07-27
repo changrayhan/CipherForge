@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Ovarian cancer is therapeutically challenging and has the highest mortality rate among gynecological malignancies. It has been estimated that there will be 22,440 new ovarian cancer cases and 14,080 deaths in 2017 in the United States [ 1 ]. Ovarian cancer is rarely detected early, and the majority of patients are already at advanced stages at the time of diagnosis. Moreover, ovarian cancers primarily metastasize through peritoneal dissemination from the primary tumor site to other distant organs including the omentum, colon, and liver. This metastatic process is often accompanied by ascitic fluid accumulation, which is associated with tumor metastasis and chemoresistance, further contributing to a poor survival rate in patients [ 2 ,  3 ]. The current clinical therapy is to perform debulking surgery followed by chemotherapy [ 4 ]. However, ovarian cancers are frequently recurrent, and become chemoresistant once recurrence occurs. The current therapeutic approaches are limited due to a lack of understanding the molecular mechanisms underlying tumor metastasis and chemoresistance.
+Epithelial to mesenchymal transition (EMT) is a biological process whereby epithelial cells acquire mesenchymal phenotypes by losing their polarity and cell-cell adhesion and gain migratory or invasive properties [ 5 ]. During the EMT process, epithelial markers such as E-cadherin, are downregulated, and mesenchymal markers such as snai2, vimentin, and β-catenin are upregulated [ 6 ]. The EMT process is regulated by multiple signaling pathways, including TGFβ, WNT, HMGA2 and NF-kB [ 6 – 9 ]. Extensive studies have indicated that EMT contributes to tumor metastasis and chemoresistance [ 10 – 12 ]. In ovarian cancers, EMT is also associated with peritoneal metastasis and chemotherapy drug resistance and with a poor survival rate in patients [ 6 ,  12 – 15 ].
+BIRC5 (baculoviral IAP repeat containing 5) encodes survivin as the smallest member of the inhibitors of apoptosis family. Survivin is highly expressed in various human cancers, including ovarian cancer, and its expression is very low in fully differentiated normal adult tissues [ 16 ]. Survivin expression is associated with tumor metastasis and chemoresistance in a number of cancer types such as melanoma, renal, prostate, and breast [ 17 – 20 ]. In ovarian cancer, survivin has also been shown to contribute to tumor metastasis and chemoresistance [ 12 ,  21 – 24 ]. However, the molecular mechanism underlying survivin-associated tumor metastasis and chemoresistance is still not well understood.
+In this study, we analyzed survivin expression in ovarian cancer patient samples and report that survivin was highly expressed in ovarian cancer and associated with poor survival. Lentiviral CRISPR/Cas9 nickase vector mediated BIRC5 editing led to the inhibition of EMT in ovarian cancer SKOV3 and OVCAR3 cells. Inhibition of BIRC5 expression by using a small molecule inhibitor of survivin, YM155, also suppressed EMT in both ovarian cancer cell lines. By using molecular or pharmacological approaches, intervening BIRC5 expression led to an inhibition of cell proliferation, migration, and invasion and sensitized cell response to chemotherapy drug treatment. In addition, inhibition of BIRC5 expression attenuated the TGFβ pathway in both SKOV3 and OVCAR3 cells. Our results indicated that survivin may contribute to tumor metastasis and chemoresistance by promoting EMT through the TGFβ pathway in ovarian cancer cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1369~1379" text="E-cadherin" location="background" />
+<GENE id="G1" spans="1432~1437" text="snai2" location="background" />
+<GENE id="G2" spans="1439~1447" text="vimentin" location="background" />
+<GENE id="G3" spans="1453~1462" text="β-catenin" location="background" />
+<GENE id="G4" spans="1557~1561" text="TGFβ" location="background" />
+<GENE id="G5" spans="1568~1573" text="HMGA2" location="background" />
+<GENE id="G6" spans="1578~1583" text="NF-kB" location="background" />
+<GENE id="G7" spans="1865~1870" text="BIRC5" location="background" />
+<GENE id="G8" spans="1872~1907" text="baculoviral IAP repeat containing 5" location="background" />
+<GENE id="G9" spans="1917~1925" text="survivin" location="background" />
+<GENE id="G10" spans="1988~1996" text="Survivin" location="background" />
+<GENE id="G11" spans="2153~2161" text="Survivin" location="background" />
+<GENE id="G12" spans="2335~2343" text="survivin" location="background" />
+<GENE id="G13" spans="2595~2603" text="survivin" location="result" />
+<GENE id="G14" spans="2665~2673" text="survivin" location="result" />
+<GENE id="G15" spans="2795~2800" text="BIRC5" location="result" />
+<GENE id="G16" spans="2894~2899" text="BIRC5" location="result" />
+<GENE id="G17" spans="2950~2958" text="survivin" location="result" />
+<GENE id="G18" spans="3084~3089" text="BIRC5" location="result" />
+<GENE id="G19" spans="3257~3262" text="BIRC5" location="result" />
+<GENE id="G20" spans="3361~3369" text="survivin" location="result" />
+<DISEASE id="D0" spans="1~15" text="Ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="243~257" text="Ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="380~394" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="854~868" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1705~1719" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="2053~2067" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2244~2250" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="2319~2333" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2618~2632" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2698~2712" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="2841~2855" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2995~3009" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3470~3484" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R4" spans="2213~2228" text="chemoresistance" location="background" relation="therapy resistance" />
+<RELATION id="R5" spans="2402~2417" text="chemoresistance" location="background" relation="therapy resistance" />
+<RELATION id="R6" spans="2678~2694" text="highly expressed" location="result" relation="increased expression" />
+<RELATION id="R7" spans="2733~2746" text="poor survival" location="result" relation="increased expression" />
+<RELATION id="R0" spans="3409~3424" text="chemoresistance" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G11" geneText="Survivin" diseaseID="D7" diseaseText="cancer" relationID="R4" relationText="chemoresistance" />
+<ENTITY_LINKING id="E1" geneID="G12" geneText="survivin" diseaseID="D8" diseaseText="ovarian cancer" relationID="R5" relationText="chemoresistance" />
+<ENTITY_LINKING id="E2" geneID="G14" geneText="survivin" diseaseID="D11" diseaseText="ovarian cancer" relationID="R6" relationText="highly expressed" />
+<ENTITY_LINKING id="E3" geneID="G14" geneText="survivin" diseaseID="D11" diseaseText="ovarian cancer" relationID="R7" relationText="poor survival" />
+<ENTITY_LINKING id="E4" geneID="G20" geneText="survivin" diseaseID="D12" diseaseText="ovarian cancer" relationID="R0" relationText="chemoresistance" />
+</TAGS>
+</Genomics_ConceptTask>

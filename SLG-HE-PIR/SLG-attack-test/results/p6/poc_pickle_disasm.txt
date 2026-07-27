@@ -1,0 +1,16 @@
+    0: \x80 PROTO      4
+    2: \x95 FRAME      44
+   11: \x8c SHORT_BINUNICODE 'posix'
+   18: \x94 MEMOIZE    (as 0)
+   19: \x8c SHORT_BINUNICODE 'system'
+   27: \x94 MEMOIZE    (as 1)
+   28: \x93 STACK_GLOBAL
+   29: \x94 MEMOIZE    (as 2)
+   30: \x8c SHORT_BINUNICODE 'echo P6_EXPLOITED'
+   49: \x94 MEMOIZE    (as 3)
+   50: \x85 TUPLE1
+   51: \x94 MEMOIZE    (as 4)
+   52: R    REDUCE
+   53: \x94 MEMOIZE    (as 5)
+   54: .    STOP
+highest protocol among opcodes = 4

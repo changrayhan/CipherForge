@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: miR-146a promotes growth of osteosarcoma cells by targeting ZNRF3/GSK-3β/β-catenin signaling pathway.
+Abstract: MicroRNA-146a-5p (miR-146a) functions as a tumor suppressor or oncogene involved in multiple biological processes. But, the underlying molecular mechanisms by which miR-146a contributes to osteosarcoma (OS) remain unclear. The correlation of miR-146a expression with clinicopathologic characteristics and prognosis of OS patients was analyzed by Kaplan-Meier and Cox regression analysis. Cell growth  in vitro  and  in vivo  was assessed by MTT, cell colony formation and animal models. The target of miR-146a was identified by bioinformatics software and gene luciferase reporter. As a result, miR-146a expression was substantially elevated in OS tissues and was positively associated with the tumor size ( P =0.001) and recurrence ( P =0.027) of OS patients. Moreover, knockdown of miR-146a suppressed cell proliferation and colony formation  in vitro  and  in vivo . In addition, zinc and ring finger 3 (ZNRF3) was identified as a direct target of miR-146a in OS cells, and was negatively correlated with miR-146a expression in OS tissues. Overexpression of ZNRF3 inhibited cell growth and rescued the tumor-promoting role of miR-146a via inhibition of GSK-3β/β-catenin signaling pathway. Taken together, miR-146a may function as an oncogene in OS cells by targeting ZNRF3/GSK-3β/β-catenin signaling pathway, and represent a promising biomarker for OS patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1003~1025" text="zinc and ring finger 3" location="result" />
+<GENE id="G1" spans="1027~1032" text="ZNRF3" location="result" />
+<GENE id="G2" spans="1181~1186" text="ZNRF3" location="result" />
+<DISEASE id="D0" spans="36~48" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="309~321" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="323~325" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="765~767" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1083~1085" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1151~1153" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1472~1474" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1368~1370" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="438~440" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The accumulating evidences suggested that the DNA methylation in body fluids (e.g., blood, saliva) can be promising biomarkers for various types of cancer  [26] ,  [27] ,  [28] . Previous studies also showed that the importance of DNA methylation (such as cyclin D2, ppENK, NPTX2) in pancreatic juice for the diagnosis of pancreatic neoplasms  [29] ,  [30] . In our present study, analyses of the DNA methylation status of  MUC1 ,  MUC2  and  MUC4  in pancreatic juices were useful for differential diagnosis of human pancreatic neoplasms  i.e.  PDAC, intestinal-type IPMN and gastric-type IPMN, with high specificity and sensitivity.
+In analyses of pancreatic neoplastic and non-neoplastic tissues of PDAC samples in this study, we found a strong relationship between the mRNA expression level and DNA methylation status for  MUC1 . This is similar to the results in pancreatic cancer cell lines in our previous study  [14]  and suggests that DNA methylation has a key role in  MUC1  regulation in human pancreatic tissue. Thus, evaluation of the DNA methylation status of  MUC1  can provide important information for diagnosis of human pancreatic neoplasms. We have reported that MUC2 was not expressed in PDAC and/or non-neoplastic pancreas  [8] ,  [9] ,  [10] ,  [31] . Similarly, PDAC and non-neoplastic pancreas showed low expression level of MUC2 mRNA (data not shown). Thus, we could not examine the correlation between DNA methylation status (U index) and expression level of mRNA. In MUC4, PDAC showed higher U index (hypomethylation status of DNA) than paired non-neoplastic area (data not shown). However, significant correlation was not found between DNA methylation status (U index) and expression level of mRNA. This result suggests that other factors affect MUC4 expression. Although there was no relationship between the mRNA expression level and DNA methylation status for  MUC2  and  MUC4  in the tissue samples, the DNA methylation status of  MUC2  and  MUC4  could be applied in the analysis of pancreatic juice as follows.
+Since MUC1, MUC2 and MUC4 are key mucins in pathological diagnosis of pancreatic neoplasms  [8] ,  [9] ,  [13] ,  [31] , our goal is to apply DNA methylation analysis of the three mucin genes using pancreatic juice for early diagnosis of these neoplasms. For this reason, we investigated the DNA methylation status of  MUC1 ,  MUC2  and  MUC4  in 45 samples of pancreatic juice collected from patients with PDAC, intestinal-type IPMN, gastric-type IPMN, other-type IPMN and non-neoplastic pancreas.
+MSE showed that gastric-type IPMNs have a significantly lower U-index for  MUC1  than other pancreatic neoplasms, indicating that MSE of  MUC1  is useful to identify gastric-type IPMNs. MSE also showed that intestinal type-IPMNs have a significantly higher U-index for  MUC2  compared to other pancreatic neoplasms and that this can be used to identify intestinal-type IPMNs. Interestingly, the  MUC2  analysis also showed a significant difference in methylation status between PDAC and intestinal-type IPMN, and between PDAC and gastric-type IPMN. Such results may provide a diagnostic clue for PDAC. In addition, analysis of  MUC4  using MSE may allow intestinal-type IPMN to be distinguished from gastric-type IPMN. The DNA methylation status of  MUC1 ,  MUC2  and  MUC4  in the MSE analysis also matched the expression profiles of the mucin proteins established in our previous studies  [3] ,  [4] ,  [8] ,  [9] ,  [10] ,  [12] ,  [13] ,  [31] ,  [32] ,  [33] ,  [34] .
+Differentiation of gastric-type IPMN (usually a safe type with a favorable outcome) from intestinal-type IPMN (a dangerous type with progression to colloidal carcinoma) by MSE clearly has a major clinical benefit. MSE also allows classification of other pancreatic lesions, including pancreatobiliary-type IPMN and oncocytic-type IPMN, which sometimes overlap with gastric-type IPMN or intestinal-type IPMN  [35] . Most gastric-type IPMNs do not require surgery, whereas the other IPMNs usually do need surgical removal  [36] . Thus, there may be a significant clinical benefit of MSE analysis of mucin genes using pancreatic juice because this analysis can differentiate IPMNs requiring surgical removal from those that can be treated conservatively with follow-up. Recently, development of PDAC derived from gastric-type IPMN was reported  [37] . In the cases of the present study, there is one case of advanced PDAC derived from gastric-type IPMN. The result of MSE analysis of that case showed a pattern of PDAC. Thus, we could differentiate gastric-type IPMN with progression to PDAC, which needs surgical removal, from pure gastric-type IPMN, which does not need surgical removal, by MSE analysis of pancreatic juice.
+Pancreatic juice cytology with MUC staining is highly reliable for identifying the preoperative histological subtype of IPMN  [20] , but cannot be applied to pancreatic juice containing no cells. In contrast, MSE can be used with pancreatic juice containing only DNA fragments. Cells and proteins are easily degraded in pancreatic juice due to the presence of strong digestive enzymes, but DNA fragments may still be present. However, there are many variables between the DNA methylation status as the starting point of mucin synthesis and the final protein product detected by mucin IHC, including the effects of transcription factors, splicing variants, post-transcriptional regulation including microRNAs, and glycosylation. Despite these variables, our MSE analyses of  MUC1 ,  MUC2  and  MUC4  in human pancreatic juice showed high sensitivity and specificity for differentiation among PDAC, gastric-type IPMN, intestinal-type IPMN and other-type IPMN.
+These findings suggest that MSE analysis of human pancreatic juice can provide useful information for selection of treatment methods for pancreatic neoplasms. Diagnosis can be made using this approach alone, but a combination of MSE analysis with imaging such as ultrasound, computed tomography and magnetic resonance imaging and also with pancreatic juice cytology with MUC staining may permit early differential diagnosis and treatment of pancreatic neoplasms.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="257~266" text="cyclin D2" location="background" />
+<GENE id="G1" spans="275~280" text="NPTX2" location="background" />
+<GENE id="G2" spans="425~429" text="MUC1" location="result" />
+<GENE id="G3" spans="433~437" text="MUC2" location="result" />
+<GENE id="G4" spans="444~448" text="MUC4" location="result" />
+<GENE id="G6" spans="828~832" text="MUC1" location="result" />
+<GENE id="G7" spans="980~984" text="MUC1" location="result" />
+<GENE id="G8" spans="1076~1080" text="MUC1" location="result" />
+<GENE id="G9" spans="1183~1187" text="MUC2" location="background" />
+<GENE id="G10" spans="1350~1354" text="MUC2" location="result" />
+<GENE id="G11" spans="1495~1499" text="MUC4" location="result" />
+<GENE id="G12" spans="1775~1779" text="MUC4" location="result" />
+<GENE id="G13" spans="1893~1897" text="MUC2" location="result" />
+<GENE id="G14" spans="1904~1908" text="MUC4" location="result" />
+<GENE id="G15" spans="1964~1968" text="MUC2" location="result" />
+<GENE id="G16" spans="1975~1979" text="MUC4" location="result" />
+<GENE id="G17" spans="2052~2056" text="MUC1" location="background" />
+<GENE id="G18" spans="2058~2062" text="MUC2" location="background" />
+<GENE id="G19" spans="2067~2071" text="MUC4" location="background" />
+<GENE id="G20" spans="2365~2369" text="MUC1" location="result" />
+<GENE id="G21" spans="2373~2377" text="MUC2" location="result" />
+<GENE id="G22" spans="2384~2388" text="MUC4" location="result" />
+<GENE id="G23" spans="2620~2624" text="MUC1" location="result" />
+<GENE id="G24" spans="2683~2687" text="MUC1" location="result" />
+<GENE id="G25" spans="2815~2819" text="MUC2" location="result" />
+<GENE id="G26" spans="2941~2945" text="MUC2" location="result" />
+<GENE id="G27" spans="3173~3177" text="MUC4" location="result" />
+<GENE id="G28" spans="3295~3299" text="MUC1" location="result" />
+<GENE id="G29" spans="3303~3307" text="MUC2" location="result" />
+<GENE id="G30" spans="3314~3318" text="MUC4" location="result" />
+<GENE id="G31" spans="5517~5521" text="MUC1" location="result" />
+<GENE id="G32" spans="5525~5529" text="MUC2" location="result" />
+<GENE id="G33" spans="5536~5540" text="MUC4" location="result" />
+<DISEASE id="D0" spans="149~155" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="547~551" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="569~573" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="591~595" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="703~707" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="869~886" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1209~1213" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1286~1290" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1501~1505" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2453~2457" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2475~2479" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2494~2498" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2511~2515" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2574~2578" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2724~2728" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2768~2772" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2914~2918" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3023~3027" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3048~3052" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3066~3070" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3088~3092" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3141~3145" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3215~3219" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3258~3262" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3551~3555" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="3624~3628" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="3677~3686" text="carcinoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D27" spans="3825~3829" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="3849~3853" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="3897~3901" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="3921~3925" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="3952~3956" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="4000~4004" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="4191~4195" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="4311~4315" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="4342~4346" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="4433~4437" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="4464~4468" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="4530~4534" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="4578~4582" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D40" spans="4603~4607" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="4662~4666" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="4863~4867" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="5634~5638" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D44" spans="5653~5657" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D45" spans="5675~5679" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D46" spans="5695~5699" text="IPMN" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="487~509" text="differential diagnosis" location="result" relation="diagnostic tool" />
+<RELATION id="R1" spans="1188~1205" text="was not expressed" location="background" relation="decreased expression" />
+<RELATION id="R2" spans="1326~1346" text="low expression level" location="result" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="MUC1" diseaseID="D1" diseaseText="PDAC" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="MUC1" diseaseID="D2" diseaseText="IPMN" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="MUC1" diseaseID="D3" diseaseText="IPMN" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="MUC2" diseaseID="D1" diseaseText="PDAC" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E4" geneID="G3" geneText="MUC2" diseaseID="D2" diseaseText="IPMN" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E5" geneID="G3" geneText="MUC2" diseaseID="D3" diseaseText="IPMN" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E6" geneID="G4" geneText="MUC4" diseaseID="D1" diseaseText="PDAC" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E7" geneID="G4" geneText="MUC4" diseaseID="D2" diseaseText="IPMN" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E8" geneID="G4" geneText="MUC4" diseaseID="D3" diseaseText="IPMN" relationID="R0" relationText="differential diagnosis" />
+<ENTITY_LINKING id="E9" geneID="G9" geneText="MUC2" diseaseID="D6" diseaseText="PDAC" relationID="R1" relationText="was not expressed" />
+<ENTITY_LINKING id="E10" geneID="G10" geneText="MUC2" diseaseID="D7" diseaseText="PDAC" relationID="R2" relationText="low expression level" />
+</TAGS>
+</Genomics_ConceptTask>

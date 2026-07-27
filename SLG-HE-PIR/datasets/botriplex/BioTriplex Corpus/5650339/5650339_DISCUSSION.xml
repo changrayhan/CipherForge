@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Accumulating evidence shows that miR-146a is implicated in cell growth and metastasis in various cancers, of which the dysregulation of miR-146a is associated with pathological staging, poor differentiation and distant metastasis, acting as an independent prognostic element for overall survival in gastric cancer [ 25 ,  26 ] and lung cancer [ 27 ]. In addition, miR-146a polymorphism rs2910164 is linked to the risk of esophageal cancer and colorectal cancers [ 28 ,  29 ]. In this study, we analyzed the correlation of miR-146a with clinicopathologic characteristics and prognosis of OS patients, which indicated that increased expression of miR-146a was positively linked to tumor size and OS recurrence, but Kaplan-Meier analysis indicated that miR-146a was not an independent prognostic factor for overall survival and recurrence for OS patients, unveiling that miR-146a might be a potential biomarker for OS patients.
+Functionally, in terms of the diversity of tissue expressions and the difference in target gene function, imiR-146a can act as an oncogene [ 12 - 14 ] or a tumor suppressor [ 21 - 24 ] in a variety of malignancies. miR-146a inhibits cell invasion in pancreatic cancer via inhibition of EGFR and NF-kB pathways [ 30 ], weakens the metastatic potential in breast cancer [ 31 ] and reduces epithelial-mesenchymal transition of esophageal carcinoma [ 32 ]. But, the function of miR-146a in human OS tissues is elusive. To confirm its role in human OS, our results showed that knockdown of miR-146a inhibited growth and colony formation  in vitro  and  in vivo , revealing the tumor-promoting role of miR-146a in OS cells.
+ZNRF3 as a member of E3 ubiquitin ligases family is downregulated in gastric cancer [ 33 ] and papillary thyroid carcinoma [ 34 ] and colorectal cancer [ 35 ], and inhibits cell growth and invasion and induces apoptosis via regulation of the Wnt/β-catenin pathway [ 33 ,  36 ]. MiR-93 promotes growth of lung cancer cells via ZNRF3/Wnt/β-catenin axis [ 37 ], and ZNRF3 suppresses the tumorigenesis and metastasis of nasopharyngeal carcinoma cells by inhibition of Wnt/β-catenin signaling [ 38 ]. Intriguingly, we also found that ZNRF3 was a direct target of miR-146a in OS cells and was negatively correlated with miR-146a expression in OS tissues; Overexpression of ZNRF3 repressed cell growth and rescued the tumor-promoting role of miR-146a via inhibition of GSK-3β/β-catenin signaling, indicating that miR-146a might promote OS tumorigenicity via targeting ZNRF3/GSK-3β/β-catenin signaling (Figure  8 ).
+Taken together, our study demonstrates that miR-146a is highly expressed in OS tissues and has the positive correlation with tumor size and high recurrence of OS patients. Restoration of miR-146a expression promotes OS cell growth via targeting ZNRF3/GSK-3β/β-catenin pathway, and represents a promising biomarker for OS patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1644~1649" text="ZNRF3" location="background" />
+<GENE id="G1" spans="2007~2012" text="ZNRF3" location="background" />
+<GENE id="G2" spans="2173~2178" text="ZNRF3" location="result" />
+<GENE id="G3" spans="2311~2316" text="ZNRF3" location="result" />
+<DISEASE id="D0" spans="300~314" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="332~343" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="422~439" text="esophageal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="444~462" text="colorectal cancers" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="588~590" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="841~843" text="OS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1176~1193" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1280~1293" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1350~1370" text="esophageal carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1418~1420" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1470~1472" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1634~1636" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1713~1727" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1739~1766" text="papillary thyroid carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1778~1795" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1948~1959" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2060~2084" text="nasopharyngeal carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2281~2283" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2628~2630" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2711~2713" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="2768~2770" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="2870~2872" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="695~697" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="913~915" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="2214~2216" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="2473~2475" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1696~1709" text="downregulated" location="background" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="ZNRF3" diseaseID="D12" diseaseText="gastric cancer" relationID="R0" relationText="downregulated" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="ZNRF3" diseaseID="D13" diseaseText="papillary thyroid carcinoma" relationID="R0" relationText="downregulated" />
+<ENTITY_LINKING id="E2" geneID="G0" geneText="ZNRF3" diseaseID="D14" diseaseText="colorectal cancer" relationID="R0" relationText="downregulated" />
+</TAGS>
+</Genomics_ConceptTask>

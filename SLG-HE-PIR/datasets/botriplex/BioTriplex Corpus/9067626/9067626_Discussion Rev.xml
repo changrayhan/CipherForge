@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+This study provides the first comprehensive analysis of the NR4A receptors and NF-κB in a transgenic mouse model of RA driven by the human TNF-α cytokine. Since TNF-α is a potent inducer of NF-κB and NR4A receptors in human joint cells, we hypothesized that these transcription factors would also be expressed in arthritic joints  in vivo . NF-κB 1  and NR4A2 mRNA transcripts were upregulated in whole paws from hTNF-α mice, while NR4A1 and NR4A3 were not differentially expressed ( Figure 2 ). Consistent with transcriptional induction of NR4A2 by NF-κB in human joint cells ( McEvoy et al., 2002 ;  Ralph et al., 2005 ;  Mix et al., 2007 ), we documented an increase in NF-κB 1  mRNA prior to NR4A2 upregulation at the late disease stage. Furthermore, we detected potent increases in RelA and NR4A2 proteins in inflamed synovium by immunohistochemistry ( Figures 3 ,  4 ), suggesting that gene expression patterns in whole paws are largely driven by changes in the synovium. In contrast, NR4A2 was constitutively expressed in the resting zone of cartilage but decreased at the late stage of disease. Since NR4A2 is a constitutively active transcription factor tightly regulated at the level of expression, the detection of NR4A2 protein in articular surfaces and synovium suggests this receptor is transcriptionally active in resident chondrocytes and synoviocytes.
+Our results in the hTNF-α model are consistent with tissue-specific activities for the NR4A receptors in joints. In human synovial fibroblasts, NR4A2 exacerbates inflammation and tissue degradation by upregulating IL-8, MMP-13, prolactin, CRH, and CRH-receptor1 ( Murphy et al., 2001 ;  Davies et al., 2005 ;  Ralph et al., 2007 ;  Aherne et al., 2009 ;  Mix et al., 2012 ;  McCoy et al., 2015 ). In human chondrocytes, NR4A2 antagonizes MMP-1, 3, and 9 gene expression and contributes to chondroprotection ( Mix et al., 2007 ). However, depletion of NR4A1-3 in human chondrocytes antagonizes histamine-dependent regulation of RANKL expression, providing evidence for differential modulation of genes involved in cartilage degradation ( Marzaioli et al., 2012 ). In addition, studies in rat chondrocytes support a protective function for NR4A1 through suppression of COX-2, iNOS, and MMP expression ( Xiong et al., 2020 ), while other studies suggest that NR4A3 has opposing effects ( Ma et al., 2020 ).
+By screening a broader panel of genes implicated in RA, we generated evidence of increased expression of various inflammatory cytokines and chemokines, matrix degrading enzymes and inhibitors, cell surface receptors, intracellular signaling proteins and transcription factors that support the hTNF-α mouse as a model of RA ( Figure 5 ). Of these, IL-1β and CCL5 were the most potently induced genes, consistent with the known activation of these promoters in response to increased TNF-α signaling ( Turner et al., 1989 ;  Lee et al., 2000 ). Additionally, NR4A2, NF-κB 1 , and RelA were also upregulated concurrent with increases in endogenous murine TNF-α. This screen focused on a select group of genes involved in RA and as such our results do not reflect the full spectrum of aberrant gene expression changes that may be occurring within hTNF-α joints.
+Promoter analysis of differentially expressed genes supports central roles for NF-κB and NR4A transcription factors in the hTNF-α model. Consensus binding sites for NF-κB 1  were predicted in the promoters of 58% of the induced genes in contrast to only 36% of the stable genes ( Table 1 ). Several of these differentially expressed genes have been previously recognized as transcriptional targets of NF-κB. NR4A monomeric binding sites known as Nurr binding response elements (NBRE: AAACCGTA) were also enriched in the promoters of differentially expressed genes. Among the genes containing these promoter elements ( Supplementary Table S2 ), NR4A receptors have been reported to regulate BCL-2, IL-6, CXCL-12, CXCR-4, and MMP-9 in various cellular contexts ( Johnson et al., 2011 ,  Bonta et al., 2006 ,  Mix et al., 2007 ,  Duren et al., 2016 ). NR4A receptors can also modulate gene expression through heterodimeric binding with retinoid X receptors (RXR) and interactions with NF-κB and erythroblast transformation specific (ETS) transcription factors ( Mix et al., 2007 ;  Aherne et al., 2009 ;  Saijo et al., 2009 ;  Duren et al., 2016 ;  McEvoy et al., 2017 ).
+Our findings are supported by recent gene expression studies highlighting the importance of NF-κB and NR4A receptors in the pathophysiology of arthritis. Integrative transcriptome analysis of a distinct hTNF-α transgenic model with rapid onset of symptomatic arthropathy (Tg197,  Keffer et al., 1991 ) ranked NF-κB as the most important transcription factor in this model ( Karagianni et al., 2019 ). Interestingly, the NR4A receptors exhibited disparate expression patterns in limbs from the Tg197 model; NR4A1 and 3 were downregulated and NR4A2 was not significantly altered. The hTNF-α model used here expresses significantly lower levels of hTNF-α and exhibits a gradual onset of symptoms that more closely models chronic RA ( Hayward et al., 2007 ). Another study of synovial gene expression profiles in OA identified NR4A2 as one of the top 10 transcription factors linked to differentially expressed genes from multiple microarray datasets ( Fei et al., 2016 ). However, NR4A2 was categorized as a downregulated gene in these OA synovial datasets, in contrast to its upregulation in OA cartilage ( Mix et al., 2007 ), RA synovium ( Murphy et al., 2001 ;  McEvoy et al., 2002 ;  Ralph et al., 2005 ;  Aherne et al., 2009 ;  Ralph et al., 2010 ), and hTNF-α joints in this study.
+NR4A expression and pharmacological targeting have been investigated in other mouse models of arthritis, providing broader insight into the therapeutic potential of these receptors .  In the K/BxN serum-induced model of RA ( Christianson et al., 2012 ), NR4A1-3 mRNA levels were elevated in inflamed ankles and NR4A2 expression was potently suppressed by dexamethasone and intra-articular injections of salmon calcitonin and hyaluronic acid ( Ryan et al., 2013 ). In CD4 +  T-cells isolated from DBA/1 mice with collagen-induced arthritis (CIA), NR4A1-3 mRNA levels were reduced relative to naïve controls and the NR4A agonist cytosporone B improved clinical scores  in vivo  ( Saini et al., 2019 ). NR4A2 protein was detected in inflamed synovium and cartilage of ankle joints from the TNF -delta-ARE  model of chronic inflammation ( Kontonyiannis et al., 1999 ;  Smyth et al., 2019 ) and also in joints from the antigen-induced arthritis model in a pilot study ( Everett et al., 2015 ). Further investigation of the NR4A receptors in animal models of arthritis will provide greater insight into the mechanisms linking these transcription factors to inflammation and cartilage degradation  in vivo. 
+
+Recent advances in synthetic NR4A ligands and endogenous receptor modulators have provided new strategies for targeting the NR4A receptors  in vitro  and  in vivo.  The ligand-binding domain of NR4A2 was once thought to be incompatible with the binding of endogenous ligands ( Wang et al., 2003 ), however structural studies have revealed that unsaturated fatty acids can bind to the canonical NR4A ligand-binding pocket and transactivate the NR4A2 receptor ( de Vera et al., 2016 ;  de Vera et al., 2019 ). Probing interactions between unsaturated fatty acids and NR4A receptors may lead to the development of new synthetic agents for selective receptor targeting. The purine anti-metabolite 6-mercaptopurine activates the NR4A receptors  in vitro,  suggesting some of the therapeutic actions of this widely used chemotherapeutic agent may also be mediated through the NR4A receptors ( Ordentlich et al., 2003 ;  Wansa et al., 2003 ;  Wansa and Muscat, 2005 ). Furthermore, multiple structurally-diverse agents have been identified that can regulate NR4A expression and transcriptional activity as selective agonists or antagonists ( Safe et al., 2016 ;  Munoz-Tello et al., 2020 ). Most relevant to the current study, the synthetic NR4A2 agonist 1,1-bis(3′-indolyl)-1-(p-chlorophenyl) methane (C-DIM12) blocked TNF-α induction of adhesion molecules and NF-κB regulated genes in primary murine synovial fibroblasts ( Afzali et al., 2018 ), suggesting that this agent may be a candidate for  in vivo  testing in arthritis models.
+Our study has limitations but presents opportunities for in-depth studies of the impact of NR4A receptors on structural and symptomatic arthritis  in vivo.  This study was restricted to male hTNF-α mice since they exhibit earlier symptoms and a higher degree of arthritis severity ( Hayward et al., 2007 ). Female mice should be included in future studies to address mechanisms of sexual dimorphism in the model. Microdissection of joint tissues would provide greater insight into the distribution of transcription factors and their potential target genes within hTNF-α joints. Furthermore, determining the cell-type-specific expression patterns of the NR4A receptors within the hTNF-α synovium would refine pharmacotherapeutic targeting strategies.
+In conclusion our results provide the first spatiotemporal map of NR4A2 distribution in an animal model of arthritis and validate the hTNF-α model for future testing of synthetic ligands and genetic strategies targeting this transcription factor  in vivo .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="61~65" text="NR4A" location="result" />
+<GENE id="G1" spans="80~85" text="NF-κB" location="result" />
+<GENE id="G2" spans="140~145" text="TNF-α" location="result" />
+<GENE id="G3" spans="162~167" text="TNF-α" location="result" />
+<GENE id="G4" spans="191~196" text="NF-κB" location="result" />
+<GENE id="G5" spans="201~205" text="NR4A" location="result" />
+<GENE id="G6" spans="342~349" text="NF-κB 1" location="result" />
+<GENE id="G7" spans="355~360" text="NR4A2" location="result" />
+<GENE id="G9" spans="433~438" text="NR4A1" location="result" />
+<GENE id="G10" spans="443~448" text="NR4A3" location="result" />
+<GENE id="G11" spans="542~547" text="NR4A2" location="background" />
+<GENE id="G12" spans="551~556" text="NF-κB" location="background" />
+<GENE id="G13" spans="674~681" text="NF-κB 1" location="result" />
+<GENE id="G14" spans="697~702" text="NR4A2" location="result" />
+<GENE id="G15" spans="788~792" text="RelA" location="result" />
+<GENE id="G16" spans="797~802" text="NR4A2" location="result" />
+<GENE id="G17" spans="992~997" text="NR4A2" location="result" />
+<GENE id="G18" spans="1110~1115" text="NR4A2" location="result" />
+<GENE id="G19" spans="1227~1232" text="NR4A2" location="result" />
+<GENE id="G20" spans="1390~1395" text="TNF-α" location="result" />
+<GENE id="G21" spans="1457~1461" text="NR4A" location="result" />
+<GENE id="G22" spans="1514~1519" text="NR4A2" location="background" />
+<GENE id="G23" spans="1584~1588" text="IL-8" location="background" />
+<GENE id="G24" spans="1590~1596" text="MMP-13" location="background" />
+<GENE id="G25" spans="1598~1607" text="prolactin" location="background" />
+<GENE id="G26" spans="1609~1612" text="CRH" location="background" />
+<GENE id="G27" spans="1790~1795" text="NR4A2" location="background" />
+<GENE id="G28" spans="1808~1813" text="MMP-1" location="background" />
+<GENE id="G29" spans="1921~1926" text="NR4A1" location="background" />
+<GENE id="G30" spans="1997~2002" text="RANKL" location="background" />
+<GENE id="G31" spans="2208~2213" text="NR4A1" location="background" />
+<GENE id="G32" spans="2237~2242" text="COX-2" location="background" />
+<GENE id="G33" spans="2244~2248" text="iNOS" location="background" />
+<GENE id="G34" spans="2326~2331" text="NR4A3" location="background" />
+<GENE id="G35" spans="2668~2673" text="TNF-α" location="result" />
+<GENE id="G36" spans="2721~2726" text="IL-1β" location="result" />
+<GENE id="G37" spans="2731~2735" text="CCL5" location="result" />
+<GENE id="G38" spans="2855~2860" text="TNF-α" location="background" />
+<GENE id="G39" spans="2930~2935" text="NR4A2" location="result" />
+<GENE id="G40" spans="2937~2944" text="NF-κB 1" location="result" />
+<GENE id="G41" spans="2951~2955" text="RelA" location="result" />
+<GENE id="G42" spans="3025~3030" text="TNF-α" location="result" />
+<GENE id="G43" spans="3217~3222" text="TNF-α" location="result" />
+<GENE id="G44" spans="3310~3315" text="NF-κB" location="result" />
+<GENE id="G45" spans="3320~3324" text="NR4A" location="result" />
+<GENE id="G46" spans="3355~3360" text="TNF-α" location="result" />
+<GENE id="G47" spans="3396~3403" text="NF-κB 1" location="result" />
+<GENE id="G48" spans="3632~3637" text="NF-κB" location="result" />
+<GENE id="G49" spans="3639~3643" text="NR4A" location="result" />
+<GENE id="G50" spans="3875~3879" text="NR4A" location="result" />
+<GENE id="G51" spans="3921~3926" text="BCL-2" location="background" />
+<GENE id="G52" spans="3928~3932" text="IL-6" location="background" />
+<GENE id="G53" spans="3934~3941" text="CXCL-12" location="background" />
+<GENE id="G54" spans="3943~3949" text="CXCR-4" location="background" />
+<GENE id="G55" spans="3955~3960" text="MMP-9" location="background" />
+<GENE id="G57" spans="4213~4218" text="NF-κB" location="background" />
+<GENE id="G58" spans="4492~4497" text="NF-κB" location="result" />
+<GENE id="G60" spans="4604~4609" text="TNF-α" location="result" />
+<GENE id="G61" spans="4709~4714" text="NF-κB" location="background" />
+<GENE id="G63" spans="4906~4911" text="NR4A1" location="result" />
+<GENE id="G64" spans="4941~4946" text="NR4A2" location="result" />
+<GENE id="G65" spans="4983~4988" text="TNF-α" location="result" />
+<GENE id="G66" spans="5046~5051" text="TNF-α" location="result" />
+<GENE id="G67" spans="5223~5228" text="NR4A2" location="background" />
+<GENE id="G68" spans="5378~5383" text="NR4A2" location="result" />
+<GENE id="G69" spans="5657~5662" text="TNF-α" location="result" />
+<GENE id="G70" spans="5685~5689" text="NR4A" location="result" />
+<GENE id="G72" spans="5939~5944" text="NR4A1" location="background" />
+<GENE id="G73" spans="5996~6001" text="NR4A2" location="background" />
+<GENE id="G74" spans="6152~6155" text="CD4" location="background" />
+<GENE id="G75" spans="6231~6236" text="NR4A1" location="background" />
+<GENE id="G76" spans="6299~6303" text="NR4A" location="result" />
+<GENE id="G77" spans="6385~6390" text="NR4A2" location="background" />
+<GENE id="G78" spans="6703~6707" text="NR4A" location="background" />
+<GENE id="G81" spans="7081~7086" text="NR4A2" location="background" />
+<GENE id="G83" spans="7330~7335" text="NR4A2" location="background" />
+<GENE id="G88" spans="8121~8126" text="NR4A2" location="background" />
+<GENE id="G89" spans="8200~8205" text="TNF-α" location="background" />
+<GENE id="G90" spans="8242~8247" text="NF-κB" location="result" />
+<GENE id="G91" spans="8508~8512" text="NR4A" location="result" />
+<GENE id="G92" spans="8609~8614" text="TNF-α" location="result" />
+<GENE id="G93" spans="8981~8986" text="TNF-α" location="result" />
+<GENE id="G94" spans="9070~9074" text="NR4A" location="result" />
+<GENE id="G95" spans="9097~9102" text="TNF-α" location="result" />
+<GENE id="G96" spans="9233~9238" text="NR4A2" location="result" />
+<GENE id="G97" spans="9302~9307" text="TNF-α" location="result" />
+<GENE id="G98" spans="415~420" text="TNF-α" location="result" />
+<DISEASE id="D0" spans="117~119" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="2426~2428" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="2694~2696" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="3091~3093" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="4543~4552" text="arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="5126~5128" text="RA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="5209~5211" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="5433~5435" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="5490~5492" text="OA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="5905~5907" text="RA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="6214~6223" text="arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="6738~6747" text="arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="8553~8562" text="arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="8679~8688" text="arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="9274~9283" text="arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="5779~5788" text="arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R1" spans="5405~5418" text="downregulated" location="result" relation="decreased expression" />
+<RELATION id="R2" spans="5474~5486" text="upregulation" location="result" relation="increased expression" />
+<RELATION id="R0" spans="4478~4488,4517~4539" text="importance ... in the pathophysiology" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E2" geneID="G68" geneText="NR4A2" diseaseID="D7" diseaseText="OA" relationID="R1" relationText="downregulated" />
+<ENTITY_LINKING id="E3" geneID="G68" geneText="NR4A2" diseaseID="D8" diseaseText="OA" relationID="R2" relationText="upregulation" />
+<ENTITY_LINKING id="E1" geneID="G58" geneText="NF-κB" diseaseID="D4" diseaseText="arthritis" relationID="R0" relationText="importance ... in the pathophysiology" />
+</TAGS>
+</Genomics_ConceptTask>

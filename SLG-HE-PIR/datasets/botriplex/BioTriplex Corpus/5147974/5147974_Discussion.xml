@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Posttranslational histone modifications play an important role in the transcriptional process. EZH2 is a key component of PRC2, which mediates tissue-specific gene silencing through trimethylation of H3K27 [ 16 ]. Several studies have documented the involvement of EZH2 in atherosclerosis [ 18 ]; however, the precise role of EZH2 in atherogenesis and the molecular mechanisms remain largely unknown. It has been recently reported that some miRNAs regulate EZH2 expression at the post-transcriptional level [ 20 ]. In this study, we showed for the first time that EZH2 and H3K27met3 levels were increased in the aortic tissue of ApoE-/- mice fed the methionine diet. Increased expression of EZH2 promotes lipid deposition  in vitro , as supported by our results showing elevated levels of both TG and TC in the foam cells. Moreover, the results from the western blot analysis and 3’UTR of the EZH2 luciferase assay confirmed that miR-92a might suppress EZH2 expression by binding to the 3’UTR of EZH2 mRNA. These findings indicate that EZH2 may regulate the initiation and development of Hcy-induced atherosclerosis, and therefore serve as a novel target for gene therapy.
+Atherosclerosis originates from a fatty streak within the intimal layer of the artery because of accumulating lipid-engorged foam cells. These foam cells are macrophages that have engulfed oxidized low-density lipoprotein cholesterol particles. A large body of evidence indicates that dyslipidemia might play a crucial role in vascular pathology associated with HHcy [ 18 ]. In this study, ApoE-/- mice receiving methionine diet displayed high levels of serum Hcy and typical atherosclerotic plaques in the thoracic aorta. Since Hcy is a branch-point intermediate in the methionine cycle, folate and vitamin B12 are essential for the conversion of Hcy during methionine metabolism [ 5 ]. Our data revealed that folate and B12 supplements decreased both the serum Hcy levels and the size of the plaques.  In vitro  experiments also showed that Hcy accelerated lipid accumulation in the foam cells. These results suggested that Hcy might promote the development of atherosclerosis as well as formation of the foam cells, which is in line with previously reported studies [ 4 ].
+Epigenetic processes play an important role in Hcy metabolism, including histone modification and miRNA regulation. Histone methylation is one of the major types of epigenetic modification. However, limited evidence on the effect of HHcy in atherogenesis via histone methylation is available. Histones have multiple specific reversible post-translational modifications, especially on the N-terminal tail of histones enriched with lysine and arginine residues [ 22 ]. Based on the position of the histone chain, methylated lysine is related to transcriptional activation or suppression. The modification of histones by methylation of the lysine residues has been shown to regulate gene expression by affecting chromatin structure. Histone methyltransferase (HMTs) may catalyze the transfer of a methyl group from SAM to a lysine residue on H3 [ 23 ]. For instance, methylation state of H3K9 is a strong characteristic of transcriptional repression [ 24 ], but trimethylation state of H3K4 is correlated with gene activation [ 25 ]. The lysine residue modification of H3K27 might be in the mono-, di-, or tri-methylated states. Methylation of H3K27 is linked to the formation of tight heterochromatin chromatin and transcriptional silencing [ 21 ]. H3K27me1 is involved in the regulation of X-linked gene expression, and H3K27me2 is a repressive histone modification to suppress gene transcription [ 26 ]. In rats, diet-induced HHcy affects global protein arginine methylation and influences H3R8 methylation [ 27 ]. In addition, HHcy decreases H4R3me2 levels in the liver of cystathionine β-synthase deficient mice [ 6 ]. In this study, we showed that the levels of H3K27me3 were markedly increased in the aorta, and no differences were observed in the levels of H3K27me1 and H3K27me2. Moreover, Hcy-induced H3K27me3 hypermethylation was also observed in foam cells. Hcy can lead to epigenetic dysregulation of gene expression by affecting the histone-methylation enzymes. EZH2 methyltransferase silences gene expression through methylation of histone H3 on lysine 27 (H3K27) [ 16 ]. Loss of EZH2 moved the balance of cortical progenitors from self-renewal to differentiation in the brain [ 28 ]. Deletion of LXR (liver X receptor) results in aberrant cholesterol ester accumulation, which is linked to increased expression of EZH2 in mice fed a high-cholesterol diet [ 29 ]. We found increased mRNA and protein expression of EZH2 in both ApoE-/- mice and foam cells. To our surprise, overexpression of EZH2 in the foam cells resulted in elevated levels of TC and TG, whereas knockdown of EZH2 by RNA interference caused reduction in TC and TG levels. Our data provide evidence for the new function of EZH2 in affecting lipid metabolism. Moreover, we found a similar trend of H3K27me3 levels after up/down regulated EZH2 expression, which suggested that H3K27me3 might be a vital mechanism for EZH2 on dyslipidemia of foam cells.
+Studies showed that miRNAs may affect transcriptional regulation of EZH2 via binding to the 3’UTR region of its mRNA [ 20 ]. These miRNAs were found to be widely related to blood lipids in the patients with cardiovascular diseases. Bioinformatics software TargetScan found that EZH2 was one of the potential targets of miR-92a. miR-92a is a member of miR-17-92 cluster located on chromosome 13q31.3, and is reduced profoundly in stable coronary artery disease. Liu and colleagues found that miR-92a was positively related to high-density lipoprotein cholesterol, but negatively related to lipoprotein-a. In our results, miR-92a levels were significantly decreased in ApoE-/- mice fed a high methionine diet as well as in Hcy treated foam cells, suggesting that miR-92a was involved in Hcy induced atherosclerosis.  In vitro  experiments showed that exogenous miR-92a affected EZH2 expression both at the transcriptional and translational levels. Moreover, luciferase reporter assay further proved that miR-92a directly interacted with the 3’-UTR of EZH2 in foam cells.
+In summary, our data demonstrate elevated H3K27me3 modification in aortas with Hcy-induced atherosclerotic plaques. Increased levels of H3K27me3 were accompanied by alterations in the corresponding histone methyltransferase EZH2, which was regulated by miR-92a. Furthermore, inhibition of EZH2 resulted in reduced lipid accumulation. These findings help us understand the molecular mechanisms in Hcy-induced atherosclerosis, and also give us a strong rationale to further investigate miR-92a and EZH2 as potential diagnostic or therapeutic targets for atherosclerosis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="96~100" text="EZH2" location="background" />
+<GENE id="G1" spans="266~270" text="EZH2" location="background" />
+<GENE id="G2" spans="327~331" text="EZH2" location="result" />
+<GENE id="G3" spans="565~569" text="EZH2" location="result" />
+<GENE id="G4" spans="458~462" text="EZH2" location="background" />
+<GENE id="G5" spans="630~634" text="ApoE" location="result" />
+<GENE id="G6" spans="692~696" text="EZH2" location="result" />
+<GENE id="G7" spans="894~898" text="EZH2" location="result" />
+<GENE id="G8" spans="954~958" text="EZH2" location="result" />
+<GENE id="G9" spans="997~1001" text="EZH2" location="result" />
+<GENE id="G10" spans="1037~1041" text="EZH2" location="result" />
+<GENE id="G11" spans="1564~1568" text="ApoE" location="result" />
+<GENE id="G12" spans="4222~4226" text="EZH2" location="background" />
+<GENE id="G13" spans="4341~4345" text="EZH2" location="background" />
+<GENE id="G14" spans="4576~4580" text="EZH2" location="background" />
+<GENE id="G15" spans="4675~4679" text="EZH2" location="result" />
+<GENE id="G16" spans="4688~4692" text="ApoE" location="result" />
+<GENE id="G17" spans="4752~4756" text="EZH2" location="result" />
+<GENE id="G18" spans="4838~4842" text="EZH2" location="result" />
+<GENE id="G19" spans="4951~4955" text="EZH2" location="result" />
+<GENE id="G20" spans="5065~5069" text="EZH2" location="result" />
+<GENE id="G21" spans="5143~5147" text="EZH2" location="result" />
+<GENE id="G22" spans="5247~5251" text="EZH2" location="result" />
+<GENE id="G23" spans="5457~5461" text="EZH2" location="result" />
+<GENE id="G24" spans="5846~5850" text="ApoE" location="result" />
+<GENE id="G25" spans="6228~6232" text="EZH2" location="result" />
+<GENE id="G26" spans="6472~6476" text="EZH2" location="result" />
+<GENE id="G27" spans="6537~6541" text="EZH2" location="result" />
+<GENE id="G28" spans="6744~6748" text="EZH2" location="result" />
+<DISEASE id="D0" spans="274~289" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1101~1116" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1174~1189" text="Atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1536~1540" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="2137~2152" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2483~2487" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="3676~3680" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="3778~3782" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="5615~5638" text="coronary artery disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="6656~6671" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="6800~6815" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="251~262" text="involvement" location="background" relation="relation undefined" />
+<RELATION id="R2" spans="6776~6795" text="therapeutic targets" location="result" relation="therapeutic target" />
+<RELATION id="R3" spans="6762~6772,6788~6795" text="diagnostic ... targets" location="result" relation="diagnostic tool" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="EZH2" diseaseID="D0" diseaseText="atherosclerosis" relationID="R0" relationText="involvement" />
+<ENTITY_LINKING id="E2" geneID="G28" geneText="EZH2" diseaseID="D11" diseaseText="atherosclerosis" relationID="R3" relationText="diagnostic ... targets" />
+<ENTITY_LINKING id="E3" geneID="G28" geneText="EZH2" diseaseID="D11" diseaseText="atherosclerosis" relationID="R2" relationText="therapeutic targets" />
+</TAGS>
+</Genomics_ConceptTask>

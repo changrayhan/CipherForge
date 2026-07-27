@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+NAGLU silencing induces lysosomal defects in H9C2 cardiomyoblasts
+To explore the molecular mechanisms underlying cardiac disease in MPS IIIB, we generated a cellular model of the disease by silencing NAGLU gene expression in H9C2 cardiomyoblasts through a pool of three DNA plasmids carrying different shRNAs against NAGLU mRNA. Silenced clones (H9C2 sh-NAGLU) showed a significant reduction of NAGLU mRNA and protein levels compared to that of H9C2 stably transfected with a non-targeting shRNA (H9C2 sh-CTR) (Fig.  1a, b ). The reduction of NAGLU mRNA and protein levels resulted in about 70% decrease of NAGLU catalytic activity in the H9C2 sh-NAGLU compared to that of H9C2 sh-CTR (Fig.  1c ). Since impaired digestion of HS in MPS IIIB results in the accumulation of the undegraded substrate and consequent lysosomal enlargement, we investigated whether NAGLU depletion is sufficient to induce aberrant lysosomal accumulation in our cellular model. H9C2 sh-NAGLU showed more abundant and larger intracellular vacuoles compared to H9C2 sh-CTR as detected by LysoTracker probe staining (Fig.  1d ). Consistently, a significant increase of lysosomal-associated membrane protein LAMP2 27  levels were detected in H9C2 sh-NAGLU compared to H9C2 sh-CTR (Supplementary Figure  S1a ). Moreover, by using a fluorescent lectin that specifically detects sugars and glycoproteins containing β(1 → 4)- N -acetyl- d -glucosamine and indeed recognizes HS, we evaluated the distribution of HS in NAGLU-depleted H9C2. Interestingly, while in H9C2 sh-CTR the lectin signal was mainly observed in the Golgi apparatus, in the H9C2 sh-NAGLU clones it was prevalently localized in intracellular spots at cell periphery and on the cell surface, indicating a strong accumulation of HS in these compartments (Fig.  1e ). Fig. 1 NAGLU silencing in H9C2 cardiomyoblasts causes lysosomal storage defects. a  NAGLU mRNA expression levels in control H9C2 stably transfected with a non-targeting shRNA (H9C2 sh-CTR) and selected NAGLU-depleted H9C2 stable clones (H9C2 sh-NAGLU) as measured by quantitative RT-PCR analysis. The amount of NAGLU mRNA was normalized with respect to the amount of 18S ribosomal RNA housekeeping gene. The data reported are the mean ± SD of three independent experiments. * P  < 0.05.  b  NAGLU protein levels in H9C2 sh-CTR and H9C2 sh-NAGLU as measured by western blotting analysis. To monitor equal loading of protein in the gel lanes, the blot was probed using anti-β-actin antibody. The data reported are the mean ± SD of three independent experiments of equal design. Densitometric analysis of the bands was performed, and the data obtained are reported on the histogram below. * P  < 0.05.  c  NAGLU enzymatic activity in the extracts from H9C2 sh-CTR and H9C2 sh-NAGLU clones. Cell lysates were assayed for protein content and enzyme activity (mean ± SD,  n  = 3) as described in “Materials and methods” section. * P  < 0.05.  d  Representative images of lysosomes labeled with LysoTracker probe in H9C2 sh-CTR and H9C2 sh-NAGLU. Higher magnification pictures are shown (small panels). Scale bar: 6 μm. In NAGLU-depleted H9C2 more abundant and larger intracellular vacuoles than control H9C2 are visible. Quantification of LysoTracker staining is the mean ± SD of three independent experiments. * P  < 0.05.  e  Representative images of HS labeled by lectin-FITC in H9C2 sh-CTR and H9C2 sh-NAGLU. 3D reconstructions of confocal sections along  Z -axis are shown (black and white panels). Scale bar: 10 μm. In NAGLU-depleted H9C2, an increased accumulation of HS in the periphery of the cells and on the cell membrane is detected compared to control H9C2. Quantification of HS staining is the mean ± SD of three independent experiments. * P  < 0.05
+Collectively, these data demonstrate that H9C2 sh-NAGLU cardiomyoblasts exhibit the storage abnormalities observed in MPS IIIB disease, thereby identifying this model as a valuable tool to investigate the pathophysiology of MPS IIIB-related cardiac disease.
+NAGLU silencing induces hypertrophy in H9C2 cardiomyoblasts
+We explored whether the lack of NAGLU might cause cellular hypertrophy as found in NAGLU −/−  mice 24 . To this aim, we labeled with fluorescent phalloidin the actin cytoskeleton of NAGLU-depleted and control H9C2 clones. Compared to H9C2 sh-CTR, the H9C2 sh-NAGLU showed a morphological expansion, typical of the hypertrophic phenotype, as evaluated by measuring length, width, and cell area (Fig.  2a ). Accordingly, cell morphology was evaluated also by staining the clones with Coomassie blue, and H9C2 sh-NAGLU resulted larger in comparison to control clones (Supplementary Figure  S1b ). The hypertrophic phenotype of H9C2 sh-NAGLU was further confirmed by analyzing the expression of two markers of hypertrophy: atrial natriuretic peptide (ANP) and brain natriuretic peptide (BNP) 28 . ANP and BNP mRNA levels were significantly increased in H9C2 sh-NAGLU compared to control clones (Fig.  2b ). Moreover, cell proliferation was impaired in NAGLU-depleted H9C2 (Supplementary Figure  S1c, d ) as well as the differentiation of H9C2 sh-NAGLU cardiomyoblasts to cardiomyocytes assessed by measuring the mRNA levels of the ventricular myosin light chain 2 (MLC2V) (Supplementary Figure  S1e ). Fig. 2 NAGLU silencing in H9C2 cardiomyoblasts promotes cellular hypertrophy. a  Phalloidin staining of H9C2 sh-CTR and H9C2 sh-NAGLU actin cytoskeleton. Nuclei were counterstained with DAPI. Scale bar: 10 μm. Cell size enlargement was observed in NAGLU-depleted H9C2 compared to control H9C2. Quantification of cell size is the mean ± SD of three independent experiments. * P  < 0.05.  b  Expression levels of mRNAs coding for ANP and BNP hypertrophic mediators in H9C2 sh-CTR and H9C2 sh-NAGLU as measured by quantitative RT-PCR analysis. The amount of ANP and BNP mRNA was normalized with respect to the amount of 18S ribosomal RNA housekeeping gene. The data reported are the mean ± SD of three independent experiments. * P  < 0.05
+These data indicate that NAGLU deficiency leads to cellular hypertrophy, together with differentiation and growth defects.
+EGFR activation sustains hypertrophy and lysosomal defects in NAGLU-depleted H9C2 cardiomyoblasts
+In order to investigate the signaling pathways activated by NAGLU silencing in H9C2 cardiomyoblasts, we performed a phospho-receptor tyrosine kinase (RTK) array on both NAGLU-depleted and control H9C2 clones. Of 49 tested RTKs (Supplementary Table  S1 ), the specific phosphorylation of EGFR in the H9C2 sh-NAGLU clones was detected as compared to control clones (Fig.  3a ). This result was confirmed by western blotting analysis of the phosphorylation levels of EGFR in NAGLU-depleted H9C2 that resulted to be higher than control clones (Supplementary Figure  S2a ). Then, we evaluated EGFR involvement in the onset of the hypertrophic phenotype and lysosomal pathology in our cellular model. H9C2 sh-NAGLU clones treated with the specific EGFR inhibitor AG1478 29  showed a significant reduction of ANP and BNP mRNA levels, as compared to the untreated clones (Fig.  3b, c ). Moreover, AG1478 treatment did not affect cell size of H9C2 sh-CTR clones (Fig.  4a , upper panels) as measured by phalloidin staining, whereas it caused a significant reduction of cell dimensions of NAGLU-depleted H9C2 (Fig.  4a , lower panels). These results indicate that EGFR inhibition is able to rescue the hypertrophic phenotype in our MPS IIIB cellular model. Fig. 3 EGFR activation triggers hypertrophy in NAGLU-silenced H9C2 cardiomyoblasts. a  Effect of NAGLU knockdown on RTK activity. p-RTK array showing the effect of NAGLU silencing on RTK phosphorylation. Cell lysates of H9C2 sh-CTR (left) and H9C2 sh-NAGLU (right) were applied to p-RTK arrays. The chemiluminescent film images (upper panels) are shown. The blue dots in the lower panels indicate the position of EGFR.  b ,  c  Expression levels of mRNAs coding for ANP ( b ) and BNP ( c ) in H9C2 sh-CTR and H9C2 sh-NAGLU both untreated and treated for 90 min with 10 μM of the EGFR inhibitor AG1478 as measured by quantitative RT-PCR analysis. The amount of ANP and BNP mRNA was normalized with respect to the amount of 18S ribosomal RNA housekeeping gene. The data reported are the mean ± SD of three independent experiments. * P  < 0.05 Fig. 4 EGFR inhibition reduces the hypertrophic phenotype and lysosomal defects in NAGLU-silenced H9C2 cardiomyoblasts. a  Representative images of actin cytoskeleton stained with phalloidin of H9C2 sh-CTR and H9C2 sh-NAGLU, both untreated and treated for 24 h with 10 μM of AG1478. Scale bars: 10 μm. A significant reduction of cell size was observed in AG1478-treated NAGLU-depleted H9C2 (lower panels), while no effect was detected in H9C2 sh-CTR clones (upper panels). Quantification of cell size is the mean ± SD of three independent experiments. * P  < 0.05.  b  Representative images of the lysosomes labeled by LysoTracker probe in H9C2 sh-CTR and H9C2 sh-NAGLU, both untreated and treated for 24 h with 10 μM of AG1478. Scale bars: 10 μm. In the AG1478-treated H9C2 sh-NAGLU, lysosome staining was significantly reduced compared to the untreated clones (lower panels), while no effect was detected in H9C2 sh-CTR clones (upper panels). Quantification of LysoTracker staining is the mean ± SD of three independent experiments. * P  < 0.05
+Besides, EGFR was already known to sustain GAG synthesis and to increase lysosomal pathology in different MPSs 30 – 32 . To establish the EGFR contribution to MPS IIIB lysosomal disorder in our cellular model, we evaluated the lysosomal accumulation in the H9C2 sh-CTR and H9C2 sh-NAGLU clones treated with the specific EGFR inhibitor AG1478. AG1478 treatment did not affect lysosomal compartments in H9C2 sh-CTR clones (Fig.  4b , upper panels), whereas it caused a significant reduction of the lysosomal staining in H9C2 sh-NALGU clones (Fig.  4b , lower panels) as measured by LysoTracker probe. Consistently, we measured LAMP2 protein levels in H9C2 sh-NAGLU and control clones in the presence of AG1478. Treatment with the EGFR inhibitor significantly reduced LAMP2 expression levels in NAGLU-depleted cardiomyoblasts, whereas it did not influence LAMP2 levels in control clones (Supplementary Figure  S2b ).
+These findings demonstrate that the specific EGFR inhibition with AG1478 reduces both hypertrophy and lysosomal defects in our MPS IIIB cell model, providing more evidence for the involvement of EGFR activation in the development of cell pathology in MPS IIIB disease.
+EGFR activation promotes ERK1/2 phosphorylation in NAGLU-depleted H9C2 cardiomyoblasts
+The demonstration of the important role of EGFR in the induction of a hypertrophic response in NAGLU-depleted cardiomyoblasts prompted us to explore the EGFR signal transduction pathway contributing to the cardiac phenotype in our MPS IIIB cellular model. Among the downstream pathways activated by EGFR, phosphorylation of extracellular signal-regulated kinases (ERK1/2) has been considered the essential regulator of the hypertrophic response 33 . Therefore, we investigated the phosphorylation levels of ERK1 and ERK2 in NAGLU-depleted rat cardiomyoblasts. Western blot analysis showed a significant increase in the phosphorylation levels of both ERK1 and ERK2 in H9C2 sh-NAGLU compared to control clones (Fig.  5a ). Furthermore, while cell treatment with the EGFR inhibitor AG1478 had no effect on ERK1/2 phosphorylation levels in control clones, it promoted a significant reduction of ERK1/2 phosphorylation in H9C2 sh-NAGLU as compared to untreated clones (Fig.  5b ), thus suggesting that ERK1/2 activation in NAGLU-depleted cardiomyoblasts is mainly EGFR dependent. Interestingly, H9C2 sh-NAGLU treatment with PD98059 34 , 35 , a selective inhibitor of the MEK/ERK pathway, caused a significant reduction of ANP and BNP mRNA levels (Fig.  5c, d ), indicating that ERK1/2 phosphorylation is essential for the hypertrophic response in NAGLU-depleted H9C2. These results were confirmed by phalloidin staining of both H9C2 sh-CTR and H9C2 sh-NAGLU exposed to PD98059 inhibitor. PD98059 treatment did not affect cell size of H9C2 sh-CTR clones(Fig.  6a , upper panels), whereas it caused a significant reduction of cell dimensions of H9C2 sh-NAGLU clones (Fig.  6a , lower panels). Furthermore, we asked whether MEK/ERK pathway inhibition would also rescue the lysosomal storage phenotype, and we evaluated lysosomal compartments in PD98059-treated H9C2 sh-CTR and H9C2 sh-NAGLU. PD98059 treatment did not affect lysosome staining in H9C2 sh-CTR clones (Fig.  6b , upper panels), whereas it caused a significant reduction of the lysosomal storage defect in H9C2 sh-NAGLU clones (Fig.  6b , lower panels). Fig. 5 NAGLU silencing promotes ERK1/2 phosphorylation in H9C2 cardiomyoblasts. a  ERK1/2 phosphorylation levels in H9C2 sh-CTR and H9C2 sh-NAGLU as measured by western blotting analysis. To monitor equal loading of protein in the gel lanes, the upper blot was stripped and reprobed using anti-ERK1/2 antibody. The data reported are the mean ± SD of three independent experiments of equal design. Densitometric analysis of the bands was performed, and the data obtained are reported on the histogram below. * P  < 0.05.  b  EGFR inhibition reduces ERK1/2 phosphorylation in NAGLU-silenced H9C2. ERK1/2 phosphorylation levels in H9C2 sh-CTR and H9C2 sh-NAGLU both untreated and treated for 90 min with 10 μM of the EGFR inhibitor AG1478 as measured by western blotting analysis. The upper blot was stripped and reprobed using anti-ERK1/2 antibody. The data reported are the mean ± SD of three independent experiments of equal design. Densitometric analysis of the bands was performed, and the data obtained are reported on the histogram below. * P  < 0.05.  c ,  d  Expression levels of mRNAs coding for ANP ( c ) and BNP ( d ) in H9C2 sh-CTR and H9C2 sh-NAGLU, both untreated and treated for 90 min with 50 μM of the MEK/ERK pathway inhibitor PD98059, as measured by quantitative RT-PCR analysis. The amount of ANP and BNP mRNA was normalized with respect to the amount of 18S ribosomal RNA housekeeping gene. The data reported are the mean ± SD of three independent experiments. * P  < 0.05 Fig. 6 MEK/ERK inhibition reduces cell size enlargement and lysosome abnormalities in H9C2 sh-NAGLU. a  Representative images of actin cytoskeleton stained with phalloidin of H9C2 sh-CTR and H9C2 sh-NAGLU clones, both untreated and treated for 24 h with 50 μM of PD98059. Scale bars: 10 μm. A significant reduction of cell size was observed in PD98059-treated NAGLU-depleted H9C2 (lower panels), while no effect was detected in H9C2 sh-CTR clones (upper panels). Quantification of cell size is the mean ± SD of three independent experiments. * P  < 0.05.  b  Representative images of lysosomes stained with LysoTracker probe in H9C2 sh-CTR and H9C2 sh-NAGLU clones, both untreated and treated for 24 h with 50 μM of PD98059. 3D reconstructions of confocal sections along  Z -axis are shown (black and white panels). Scale bars: 10 μm. In the PD98059-treated H9C2 sh-NAGLU clones, the fluorescence intensity was significantly reduced compared to the untreated clones (lower panels), while no effect was detected in H9C2 sh-CTR clones (upper panels). Quantification of LysoTracker staining is the mean ± SD of three independent experiments. * P  < 0.05
+Overall, these data indicate that ERK1/2 phosphorylation mediates EGFR-induced hypertrophic and lysosomal phenotypes in NAGLU-depleted H9C2.
+NAGLU depletion in H9C2 cardiomyoblasts promotes c-Src activation
+Multiple evidence supports a direct link between EGFR signaling and enhanced Src-family kinase activity 36 – 38 . Here, we evaluated the phosphorylation levels of c-Src in both H9C2 sh-NAGLU and control clones. The results obtained showed a significant increase of c-Src phosphorylation in NAGLU-depleted H9C2 as compared to H9C2 sh-CTR (Fig.  7a ). However, H9C2 sh-NAGLU treatment with the EGFR inhibitor AG1478 did not reduce c-Src phosphorylation levels (Fig.  7b ), suggesting that c-Src phosphorylation represents an upstream event in EGFR activation. Indeed, the transfection of H9C2 sh-CTR and H9C2 sh-NAGLU clones with a dominant-negative (DN) c-Src, while had no effects on H9C2 sh-CTR clones, caused the reduction of EGFR phosphorylation in the H9C2 sh-NAGLU as detected by western blotting analysis (Supplementary Figure  S3a ), indicating that EGFR phosphorylation in our cellular model of MPS IIIB might be mediated also by c-Src. Furthermore, the involvement of c-Src activation in the hypertrophic phenotype of NAGLU-depleted cardiomyoblasts was evaluated by measuring ANP and BNP mRNA levels in H9C2 sh-NAGLU transfected with DN or (wild-type) WT c-Src. A significant reduction of ANP and BNP mRNA levels was observed in H9C2 sh-NAGLU in the presence of DN c-Src (Fig.  7c, d ), whereas ANP and BNP mRNA levels were strongly increased in the presence of WT c-Src (Supplementary Figure  S3c, d ). By contrast, transfection with DN c-Src or WT c-Src had no effect on either EGFR phosphorylation or ANP and BNP mRNA levels in H9C2 sh-CTR. Fig. 7 NAGLU silencing induces c-Src activation in H9C2 cardiomyoblasts. a  c-Src phosphorylation levels in H9C2 sh-CTR and H9C2 sh-NAGLU as measured by western blotting analysis. The upper blot was stripped and reprobed using anti-c-Src antibody. The data reported are the mean ± SD of three independent experiments of equal design. Densitometric analysis of the bands was performed, and the data obtained are reported on the histogram below. * P  < 0.05.  b  c-Src phosphorylation levels in H9C2 sh-CTR and H9C2 sh-NAGLU, both untreated and treated for 90 min with 10 μM the EGFR inhibitor AG1478 as measured by western blotting analysis. The upper blot was stripped and reprobed using anti-c-Src antibody. The data reported are the mean ± SD of three independent experiments of equal design. Densitometric analysis of the bands was performed, and the data obtained are reported on the histogram below. * P  < 0.05.  c ,  d  Expression levels of mRNAs coding for ANP ( c ) and BNP ( d ) in H9C2 sh-CTR and H9C2 sh-NAGLU, both transfected with DN c-Src as measured by quantitative RT-PCR analysis. The amount of ANP and BNP mRNA was normalized with respect to the amount of 18S ribosomal RNA housekeeping gene. The data reported are the mean ± SD of three independent experiments. * P  < 0.05
+These results indicate that c-Src activation contributes to the hypertrophic response in NAGLU-depleted cardiomyoblasts by activating EGFR and its downstream signaling.
+Heparin-binding EGF-like growth factor (HB-EGF) upregulation in NAGLU-depleted H9C2
+It has been well established that the progressive accumulation of HSPGs on the cell membrane and extracellular matrix contributes to the pathogenesis of MPSs 10 – 14 . The extracellular HSPGs can bind and regulate the activity of HB-EGF that is a potent EGFR ligand, and EGFR activation by HB-EGF plays a role in the hypertrophic signaling in cardiomyocytes 39 , 40 . We investigated by western blot analysis the expression levels of HB-EGF in our cellular model, and we detected a significant increase of HB-EGF protein expression in H9C2 sh-NAGLU as compared to control clones (Fig.  8a ). Furthermore, we tested whether HB-EGF silencing with a specific siRNA would result in the reduction of the EGFR-induced hypertrophic response. Upon HB-EGF silencing in the H9C2 sh-NAGLU (Fig.  8b, c ), we detected the reduction of ANP and BNP mRNA levels compared to the same cells treated with a scrambled siRNA (Fig.  8c ). Fig. 8 Heparin-binding EGF-like growth factor (HB-EGF) upregulation in NAGLU-silenced H9C2 cardiomyoblasts. a  HB-EGF protein expression levels in H9C2 sh-CTR and H9C2 sh-NAGLU as measured by western blotting analysis. The amount of HB-EGF as measured by densitometry was normalized with respect to the amount of β-actin. The data reported are the mean ± SD of three independent experiments. * P  < 0.05.  b  HB-EGF protein levels in NAGLU sh-H9C2 transfected with HB-EGF siRNA (siHB-EGF) and with a non-targeting siRNA (siCTR) as measured by western blotting analysis. To monitor equal loading of protein in the gel lanes, the blot was probed using anti-β-actin antibody (lower blot). Densitometric analysis of the bands was performed, and the data obtained are reported on the histogram below. The data reported are the mean ± SD of three independent experiments. * P  < 0.05.  c  Expression levels of mRNAs coding for HB-EGF, ANP, and BNP in H9C2 sh-NAGLU transfected with HB-EGF siRNA (siHB-EGF) and with a non-targeting siRNA (siCTR) as measured by quantitative RT-PCR analysis. The amount of HB-EGF, ANP, and BNP mRNAs were normalized with respect to the amount of 18S ribosomal RNA housekeeping gene. The data reported are the mean ± SD of three independent experiments. * P  < 0.05
+Overall, these findings, together with c-Src-dependent EGFR transactivation, suggest that NAGLU-deficient cardiomyoblasts develop a hypertrophic phenotype through a coordinated intracellular and extracellular EGFR activation induced by c-Src and HB-EGF, respectively.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~6" text="NAGLU" location="result" />
+<GENE id="G1" spans="201~206" text="NAGLU" location="result" />
+<GENE id="G2" spans="318~323" text="NAGLU" location="result" />
+<GENE id="G3" spans="355~360" text="NAGLU" location="result" />
+<GENE id="G4" spans="396~401" text="NAGLU" location="result" />
+<GENE id="G5" spans="544~549" text="NAGLU" location="result" />
+<GENE id="G6" spans="608~613" text="NAGLU" location="result" />
+<GENE id="G7" spans="648~653" text="NAGLU" location="result" />
+<GENE id="G8" spans="860~865" text="NAGLU" location="result" />
+<GENE id="G9" spans="963~968" text="NAGLU" location="result" />
+<GENE id="G10" spans="1223~1228" text="NAGLU" location="result" />
+<GENE id="G11" spans="1486~1491" text="NAGLU" location="result" />
+<GENE id="G12" spans="1620~1625" text="NAGLU" location="result" />
+<GENE id="G13" spans="1809~1814" text="NAGLU" location="result" />
+<GENE id="G14" spans="1886~1891" text="NAGLU" location="result" />
+<GENE id="G15" spans="2004~2009" text="NAGLU" location="result" />
+<GENE id="G16" spans="2047~2052" text="NAGLU" location="result" />
+<GENE id="G17" spans="2113~2118" text="NAGLU" location="result" />
+<GENE id="G18" spans="2293~2298" text="NAGLU" location="result" />
+<GENE id="G19" spans="2341~2346" text="NAGLU" location="result" />
+<GENE id="G20" spans="2474~2481" text="β-actin" location="result" />
+<GENE id="G21" spans="2705~2710" text="NAGLU" location="result" />
+<GENE id="G22" spans="2775~2780" text="NAGLU" location="result" />
+<GENE id="G23" spans="3035~3040" text="NAGLU" location="result" />
+<GENE id="G24" spans="3118~3123" text="NAGLU" location="result" />
+<GENE id="G25" spans="3402~3407" text="NAGLU" location="result" />
+<GENE id="G26" spans="3521~3526" text="NAGLU" location="result" />
+<GENE id="G27" spans="3810~3815" text="NAGLU" location="result" />
+<GENE id="G28" spans="4018~4023" text="NAGLU" location="result" />
+<GENE id="G29" spans="4110~4115" text="NAGLU" location="result" />
+<GENE id="G30" spans="4161~4166" text="NAGLU" location="result" />
+<GENE id="G31" spans="4260~4265" text="NAGLU" location="result" />
+<GENE id="G32" spans="4337~4342" text="NAGLU" location="result" />
+<GENE id="G33" spans="4588~4593" text="NAGLU" location="result" />
+<GENE id="G34" spans="4710~4715" text="NAGLU" location="result" />
+<GENE id="G35" spans="4797~4823" text="atrial natriuretic peptide" location="result" />
+<GENE id="G36" spans="4825~4828" text="ANP" location="result" />
+<GENE id="G37" spans="4834~4859" text="brain natriuretic peptide" location="result" />
+<GENE id="G38" spans="4861~4864" text="BNP" location="result" />
+<GENE id="G39" spans="4871~4874" text="ANP" location="result" />
+<GENE id="G40" spans="4879~4882" text="BNP" location="result" />
+<GENE id="G41" spans="4935~4940" text="NAGLU" location="result" />
+<GENE id="G42" spans="5026~5031" text="NAGLU" location="result" />
+<GENE id="G43" spans="5120~5125" text="NAGLU" location="result" />
+<GENE id="G44" spans="5217~5237" text="myosin light chain 2" location="result" />
+<GENE id="G45" spans="5239~5244" text="MLC2V" location="result" />
+<GENE id="G46" spans="5283~5288" text="NAGLU" location="result" />
+<GENE id="G47" spans="5404~5409" text="NAGLU" location="result" />
+<GENE id="G48" spans="5524~5529" text="NAGLU" location="result" />
+<GENE id="G49" spans="5704~5707" text="ANP" location="result" />
+<GENE id="G50" spans="5712~5715" text="BNP" location="result" />
+<GENE id="G51" spans="5766~5771" text="NAGLU" location="result" />
+<GENE id="G52" spans="5831~5834" text="ANP" location="result" />
+<GENE id="G53" spans="5839~5842" text="BNP" location="result" />
+<GENE id="G54" spans="6037~6042" text="NAGLU" location="result" />
+<GENE id="G55" spans="6135~6139" text="EGFR" location="result" />
+<GENE id="G56" spans="6197~6202" text="NAGLU" location="result" />
+<GENE id="G57" spans="6293~6298" text="NAGLU" location="result" />
+<GENE id="G58" spans="6402~6407" text="NAGLU" location="result" />
+<GENE id="G59" spans="6520~6524" text="EGFR" location="result" />
+<GENE id="G60" spans="6540~6545" text="NAGLU" location="result" />
+<GENE id="G61" spans="6697~6701" text="EGFR" location="result" />
+<GENE id="G62" spans="6705~6710" text="NAGLU" location="result" />
+<GENE id="G63" spans="6821~6825" text="EGFR" location="result" />
+<GENE id="G64" spans="6936~6941" text="NAGLU" location="result" />
+<GENE id="G65" spans="6975~6979" text="EGFR" location="result" />
+<GENE id="G66" spans="7035~7038" text="ANP" location="result" />
+<GENE id="G67" spans="7043~7046" text="BNP" location="result" />
+<GENE id="G68" spans="7175~7178" text="CTR" location="result" />
+<GENE id="G69" spans="7312~7317" text="NAGLU" location="result" />
+<GENE id="G70" spans="7387~7391" text="EGFR" location="result" />
+<GENE id="G71" spans="7455~7463" text="MPS IIIB" location="result" />
+<GENE id="G72" spans="7487~7491" text="EGFR" location="result" />
+<GENE id="G73" spans="7527~7532" text="NAGLU" location="result" />
+<GENE id="G74" spans="7577~7582" text="NAGLU" location="result" />
+<GENE id="G75" spans="7644~7649" text="NAGLU" location="result" />
+<GENE id="G76" spans="7708~7711" text="CTR" location="result" />
+<GENE id="G77" spans="7731~7736" text="NAGLU" location="result" />
+<GENE id="G78" spans="7893~7897" text="EGFR" location="result" />
+<GENE id="G79" spans="7946~7949" text="ANP" location="result" />
+<GENE id="G80" spans="7960~7963" text="BNP" location="result" />
+<GENE id="G81" spans="7981~7984" text="CTR" location="result" />
+<GENE id="G82" spans="7997~8002" text="NAGLU" location="result" />
+<GENE id="G83" spans="8059~8063" text="EGFR" location="result" />
+<GENE id="G84" spans="8140~8143" text="ANP" location="result" />
+<GENE id="G85" spans="8148~8151" text="BNP" location="result" />
+<GENE id="G86" spans="8328~8332" text="EGFR" location="result" />
+<GENE id="G87" spans="8404~8409" text="NAGLU" location="result" />
+<GENE id="G88" spans="8523~8526" text="CTR" location="result" />
+<GENE id="G89" spans="8539~8544" text="NAGLU" location="result" />
+<GENE id="G90" spans="8691~8696" text="NAGLU" location="result" />
+<GENE id="G91" spans="8767~8770" text="CTR" location="result" />
+<GENE id="G92" spans="8969~8972" text="CTR" location="result" />
+<GENE id="G93" spans="8985~8990" text="NAGLU" location="result" />
+<GENE id="G94" spans="9099~9104" text="NAGLU" location="result" />
+<GENE id="G95" spans="9239~9242" text="CTR" location="result" />
+<GENE id="G96" spans="9377~9381" text="EGFR" location="result" />
+<GENE id="G97" spans="9506~9510" text="EGFR" location="result" />
+<GENE id="G98" spans="9633~9636" text="CTR" location="result" />
+<GENE id="G99" spans="9649~9654" text="NAGLU" location="result" />
+<GENE id="G100" spans="9688~9692" text="EGFR" location="result" />
+<GENE id="G101" spans="9777~9780" text="CTR" location="result" />
+<GENE id="G102" spans="9894~9899" text="NALGU" location="result" />
+<GENE id="G103" spans="10025~10030" text="NAGLU" location="result" />
+<GENE id="G104" spans="10096~10100" text="EGFR" location="result" />
+<GENE id="G105" spans="10133~10138" text="LAMP2" location="result" />
+<GENE id="G106" spans="9993~9998" text="LAMP2" location="result" />
+<GENE id="G107" spans="10221~10226" text="LAMP2" location="result" />
+<GENE id="G108" spans="10327~10331" text="EGFR" location="result" />
+<GENE id="G110" spans="10477~10481" text="EGFR" location="result" />
+<GENE id="G111" spans="10551~10555" text="EGFR" location="result" />
+<GENE id="G112" spans="10576~10580" text="ERK1" location="result" />
+<GENE id="G113" spans="10602~10607" text="NAGLU" location="result" />
+<GENE id="G114" spans="10681~10685" text="EGFR" location="result" />
+<GENE id="G115" spans="10733~10738" text="NAGLU" location="result" />
+<GENE id="G116" spans="10937~10941" text="EGFR" location="result" />
+<GENE id="G117" spans="11002~11006" text="ERK1" location="result" />
+<GENE id="G118" spans="11145~11149" text="ERK1" location="result" />
+<GENE id="G119" spans="11154~11158" text="ERK2" location="result" />
+<GENE id="G120" spans="11162~11167" text="NAGLU" location="result" />
+<GENE id="G121" spans="11288~11292" text="ERK1" location="result" />
+<GENE id="G122" spans="11297~11301" text="ERK2" location="result" />
+<GENE id="G123" spans="11313~11318" text="NAGLU" location="result" />
+<GENE id="G124" spans="11402~11406" text="EGFR" location="result" />
+<GENE id="G125" spans="11441~11445" text="ERK1" location="result" />
+<GENE id="G126" spans="11529~11533" text="ERK1" location="result" />
+<GENE id="G127" spans="11563~11568" text="NAGLU" location="result" />
+<GENE id="G128" spans="11635~11639" text="ERK1" location="result" />
+<GENE id="G129" spans="11656~11661" text="NAGLU" location="result" />
+<GENE id="G130" spans="11697~11701" text="EGFR" location="result" />
+<GENE id="G131" spans="11736~11741" text="NAGLU" location="result" />
+<GENE id="G132" spans="11855~11858" text="ANP" location="result" />
+<GENE id="G133" spans="11863~11866" text="BNP" location="result" />
+<GENE id="G134" spans="11911~11915" text="ERK1" location="result" />
+<GENE id="G135" spans="11980~11985" text="NAGLU" location="result" />
+<GENE id="G136" spans="12069~12072" text="CTR" location="result" />
+<GENE id="G137" spans="12085~12090" text="NAGLU" location="result" />
+<GENE id="G138" spans="12175~12178" text="CTR" location="result" />
+<GENE id="G139" spans="12284~12289" text="NAGLU" location="result" />
+<GENE id="G140" spans="12499~12502" text="CTR" location="result" />
+<GENE id="G141" spans="12515~12520" text="NAGLU" location="result" />
+<GENE id="G142" spans="12584~12587" text="CTR" location="result" />
+<GENE id="G143" spans="12707~12712" text="NAGLU" location="result" />
+<GENE id="G144" spans="12754~12759" text="NAGLU" location="result" />
+<GENE id="G145" spans="12779~12783" text="ERK1" location="result" />
+<GENE id="G146" spans="12830~12834" text="ERK1" location="result" />
+<GENE id="G147" spans="12871~12874" text="CTR" location="result" />
+<GENE id="G148" spans="13041~13045" text="ERK1" location="result" />
+<GENE id="G149" spans="13271~13275" text="EGFR" location="result" />
+<GENE id="G150" spans="13295~13299" text="ERK1" location="result" />
+<GENE id="G151" spans="13321~13326" text="NAGLU" location="result" />
+<GENE id="G152" spans="13342~13346" text="ERK1" location="result" />
+<GENE id="G153" spans="13383~13386" text="CTR" location="result" />
+<GENE id="G154" spans="13399~13404" text="NAGLU" location="result" />
+<GENE id="G155" spans="13461~13465" text="EGFR" location="result" />
+<GENE id="G156" spans="13577~13581" text="ERK1" location="result" />
+<GENE id="G157" spans="13850~13853" text="ANP" location="result" />
+<GENE id="G158" spans="13864~13867" text="BNP" location="result" />
+<GENE id="G159" spans="13885~13888" text="CTR" location="result" />
+<GENE id="G160" spans="13901~13906" text="NAGLU" location="result" />
+<GENE id="G161" spans="14058~14061" text="ANP" location="result" />
+<GENE id="G162" spans="14066~14069" text="BNP" location="result" />
+<GENE id="G163" spans="14333~14338" text="NAGLU" location="result" />
+<GENE id="G164" spans="14422~14425" text="CTR" location="result" />
+<GENE id="G165" spans="14438~14443" text="NAGLU" location="result" />
+<GENE id="G166" spans="14599~14604" text="NAGLU" location="result" />
+<GENE id="G167" spans="14675~14678" text="CTR" location="result" />
+<GENE id="G168" spans="14875~14878" text="CTR" location="result" />
+<GENE id="G169" spans="14891~14896" text="NAGLU" location="result" />
+<GENE id="G170" spans="15105~15110" text="NAGLU" location="result" />
+<GENE id="G171" spans="15261~15264" text="CTR" location="result" />
+<GENE id="G172" spans="15424~15428" text="ERK1" location="result" />
+<GENE id="G173" spans="15456~15460" text="EGFR" location="result" />
+<GENE id="G174" spans="15510~15515" text="NAGLU" location="result" />
+<GENE id="G175" spans="15531~15536" text="NAGLU" location="result" />
+<GENE id="G176" spans="15580~15585" text="c-Src" location="result" />
+<GENE id="G177" spans="15646~15650" text="EGFR" location="result" />
+<GENE id="G178" spans="15760~15765" text="c-Src" location="result" />
+<GENE id="G179" spans="15782~15787" text="NAGLU" location="result" />
+<GENE id="G180" spans="15862~15867" text="c-Src" location="result" />
+<GENE id="G181" spans="15887~15892" text="NAGLU" location="result" />
+<GENE id="G182" spans="15930~15933" text="CTR" location="result" />
+<GENE id="G183" spans="15964~15969" text="NAGLU" location="result" />
+<GENE id="G184" spans="15989~15993" text="EGFR" location="result" />
+<GENE id="G185" spans="16026~16031" text="c-Src" location="result" />
+<GENE id="G186" spans="16084~16089" text="c-Src" location="result" />
+<GENE id="G187" spans="16138~16142" text="EGFR" location="result" />
+<GENE id="G188" spans="16191~16194" text="CTR" location="result" />
+<GENE id="G189" spans="16207~16212" text="NAGLU" location="result" />
+<GENE id="G190" spans="16250~16255" text="c-Src" location="result" />
+<GENE id="G191" spans="16289~16292" text="CTR" location="result" />
+<GENE id="G192" spans="16325~16329" text="EGFR" location="result" />
+<GENE id="G193" spans="16361~16366" text="NAGLU" location="result" />
+<GENE id="G194" spans="16454~16458" text="EGFR" location="result" />
+<GENE id="G195" spans="16535~16540" text="c-Src" location="result" />
+<GENE id="G196" spans="16574~16579" text="c-Src" location="result" />
+<GENE id="G197" spans="16624~16629" text="NAGLU" location="result" />
+<GENE id="G198" spans="16682~16685" text="ANP" location="result" />
+<GENE id="G199" spans="16690~16693" text="BNP" location="result" />
+<GENE id="G200" spans="16717~16722" text="NAGLU" location="result" />
+<GENE id="G201" spans="16761~16766" text="c-Src" location="result" />
+<GENE id="G202" spans="16795~16798" text="ANP" location="result" />
+<GENE id="G203" spans="16803~16806" text="BNP" location="result" />
+<GENE id="G204" spans="16843~16848" text="NAGLU" location="result" />
+<GENE id="G205" spans="16871~16876" text="c-Src" location="result" />
+<GENE id="G206" spans="16901~16904" text="ANP" location="result" />
+<GENE id="G207" spans="16909~16912" text="BNP" location="result" />
+<GENE id="G208" spans="16971~16976" text="c-Src" location="result" />
+<GENE id="G209" spans="17044~17049" text="c-Src" location="result" />
+<GENE id="G210" spans="17056~17061" text="c-Src" location="result" />
+<GENE id="G211" spans="17086~17090" text="EGFR" location="result" />
+<GENE id="G212" spans="17110~17113" text="ANP" location="result" />
+<GENE id="G213" spans="17118~17121" text="BNP" location="result" />
+<GENE id="G214" spans="17145~17148" text="CTR" location="result" />
+<GENE id="G215" spans="17181~17186" text="c-Src" location="result" />
+<GENE id="G216" spans="17226~17231" text="c-Src" location="result" />
+<GENE id="G217" spans="17266~17269" text="CTR" location="result" />
+<GENE id="G218" spans="17282~17287" text="NAGLU" location="result" />
+<GENE id="G219" spans="17382~17387" text="c-Src" location="result" />
+<GENE id="G220" spans="17651~17654" text="CTR" location="result" />
+<GENE id="G221" spans="17667~17672" text="NAGLU" location="result" />
+<GENE id="G222" spans="17727~17731" text="EGFR" location="result" />
+<GENE id="G223" spans="17843~17848" text="c-Src" location="result" />
+<GENE id="G224" spans="18115~18118" text="ANP" location="result" />
+<GENE id="G225" spans="18129~18132" text="BNP" location="result" />
+<GENE id="G226" spans="18150~18153" text="CTR" location="result" />
+<GENE id="G227" spans="18166~18171" text="NAGLU" location="result" />
+<GENE id="G228" spans="18198~18203" text="c-Src" location="result" />
+<GENE id="G229" spans="18263~18266" text="ANP" location="result" />
+<GENE id="G230" spans="18271~18274" text="BNP" location="result" />
+<GENE id="G231" spans="18472~18477" text="c-Src" location="result" />
+<GENE id="G232" spans="18533~18538" text="NAGLU" location="result" />
+<GENE id="G233" spans="18578~18582" text="EGFR" location="result" />
+<GENE id="G234" spans="18677~18682" text="NAGLU" location="result" />
+<GENE id="G235" spans="18951~18955" text="EGFR" location="result" />
+<GENE id="G236" spans="18968~18972" text="EGFR" location="result" />
+<GENE id="G237" spans="18927~18933" text="HB-EGF" location="result" />
+<GENE id="G238" spans="1181~1186" text="LAMP2" location="result" />
+<GENE id="G239" spans="1249~1252" text="CTR" location="result" />
+<GENE id="G240" spans="2325~2328" text="CTR" location="result" />
+<GENE id="G241" spans="2759~2762" text="CTR" location="result" />
+<GENE id="G242" spans="5750~5753" text="CTR" location="result" />
+<GENE id="G243" spans="10160~10165" text="NAGLU" location="result" />
+<GENE id="G244" spans="10791~10795" text="EGFR" location="result" />
+<GENE id="G245" spans="12887~12892" text="NAGLU" location="result" />
+<GENE id="G246" spans="18613~18651" text="Heparin-binding EGF-like growth factor" location="result" />
+<GENE id="G247" spans="18653~18659" text="HB-EGF" location="result" />
+<GENE id="G248" spans="18987~18993" text="HB-EGF" location="result" />
+<GENE id="G249" spans="19131~19137" text="HB-EGF" location="result" />
+<GENE id="G250" spans="19203~19209" text="HB-EGF" location="result" />
+<GENE id="G251" spans="19240~19245" text="NAGLU" location="result" />
+<GENE id="G252" spans="19320~19326" text="HB-EGF" location="result" />
+<GENE id="G253" spans="19396~19400" text="EGFR" location="result" />
+<GENE id="G254" spans="19437~19443" text="HB-EGF" location="result" />
+<GENE id="G255" spans="19469~19474" text="NAGLU" location="result" />
+<GENE id="G256" spans="19520~19523" text="ANP" location="result" />
+<GENE id="G257" spans="19622~19660" text="Heparin-binding EGF-like growth factor" location="result" />
+<GENE id="G258" spans="19662~19668" text="HB-EGF" location="result" />
+<GENE id="G259" spans="19686~19691" text="NAGLU" location="result" />
+<GENE id="G260" spans="19726~19732" text="HB-EGF" location="result" />
+<GENE id="G261" spans="19770~19773" text="CTR" location="result" />
+<GENE id="G262" spans="19786~19791" text="NAGLU" location="result" />
+<GENE id="G263" spans="19848~19854" text="HB-EGF" location="result" />
+<GENE id="G264" spans="19928~19935" text="β-actin" location="result" />
+<GENE id="G265" spans="20024~20030" text="HB-EGF" location="result" />
+<GENE id="G266" spans="20049~20054" text="NAGLU" location="result" />
+<GENE id="G267" spans="20080~20086" text="HB-EGF" location="result" />
+<GENE id="G268" spans="20096~20102" text="HB-EGF" location="result" />
+<GENE id="G269" spans="20138~20141" text="CTR" location="result" />
+<GENE id="G270" spans="20270~20277" text="β-actin" location="result" />
+<GENE id="G271" spans="20536~20542" text="HB-EGF" location="result" />
+<GENE id="G272" spans="20544~20547" text="ANP" location="result" />
+<GENE id="G273" spans="20553~20556" text="BNP" location="result" />
+<GENE id="G274" spans="20568~20573" text="NAGLU" location="result" />
+<GENE id="G275" spans="20591~20597" text="HB-EGF" location="result" />
+<GENE id="G276" spans="20944~20949" text="c-Src" location="result" />
+<GENE id="G277" spans="20960~20964" text="EGFR" location="result" />
+<GENE id="G278" spans="20995~21000" text="NAGLU" location="result" />
+<GENE id="G279" spans="21114~21118" text="EGFR" location="result" />
+<GENE id="G280" spans="21141~21146" text="c-Src" location="result" />
+<GENE id="G281" spans="21151~21157" text="HB-EGF" location="result" />
+<DISEASE id="D0" spans="133~141" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="114~129" text="cardiac disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="733~741" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="3878~3886" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="3984~3992" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="4001~4016" text="cardiac disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="10409~10417" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="10533~10541" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="10869~10877" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="16500~16508" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R0" spans="10482~10511" text="activation in the development" location="result" relation="causative activation" />
+<ENTITY_LINKING id="E0" geneID="G110" geneText="EGFR" diseaseID="D7" diseaseText="MPS IIIB" relationID="R0" relationText="activation in the development" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Fluoropyrimidines or dihydropyrimidines (5-fluorouracil [5-FU], capecitabine, and tegafur) are antimetabolite drugs that are widely used to treat solid tumors, including breast and colorectal cancers and other gastrointestinal tract cancers. Each year, more than 2 million patients worldwide are diagnosed with a new cancer that is treated with fluoropyrimidines, mainly in combination with other antineoplastic drugs [ 1 ,  2 ]. Approximately 10–40% of patients treated with fluoropyrimidines develop severe toxicity (grade ≥ 3 on the  Common Terminology Criteria for Adverse Events  [CTCAE]), which may include myelosuppression, severe diarrhea, vomiting, stomatitis, mucositis, hand–foot syndrome (palmar–plantar erythrodysaesthesia), or neuropathy [ 3 – 6 ]. In 1% of patients, toxicity can be fatal [ 2 ]. It can occur in the first cycle of treatment, which suggests the importance of adjusting the initial dose of fluoropyrimidines for each patient before treatment starts [ 4 ].
+The main enzyme responsible for eliminating fluoropyrimidines is dihydropyrimidine dehydrogenase (DPD), encoded by the  DPYD  gene. The partial or complete deficiency of this enzyme has been associated with greater toxicity from fluoropyrimidines [ 3 ,  6 ], since 5-FU accumulates, and more active metabolites are formed. The phenotype of DPD can be defined by the presence or absence of single-nucleotide polymorphisms (SNPs) in the  DPYD  gene that alter the activity of the DPD enzyme.
+Several international guidelines recommend genotyping patients before giving them fluoropyrimidines [ 1 ,  2 ,  7 ], and dose adjustment reduces the risk of toxicity in subjects carrying  DPYD  mutations [ 6 ,  8 ,  9 ]. Currently in Spain,  DPYD  genotyping is not carried out in all patients who receive fluoropyrimidines. In May 2020, the Spanish Agency for Medicine and Health Products (AEMPS) published an informative note that recommended carrying out genotype and/or phenotype testing for DPD deficiency in patients who are candidates for dihydropyrimidines [ 10 ]. The objective of this consensus of experts, in which representatives of the Spanish Pharmacogenetics and Pharmacogenomics Society (SEFF) and the Spanish Society of Medical Oncology (SEOM) have participated, is to establish clear recommendations for the implementation of genotype and/or phenotype testing for DPD deficiency in patients who are candidates to receive dihydropyrimidines.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1052~1083" text="dihydropyrimidine dehydrogenase" location="background" />
+<GENE id="G2" spans="1107~1111" text="DPYD" location="background" />
+<GENE id="G3" spans="1327~1330" text="DPD" location="background" />
+<GENE id="G4" spans="1423~1427" text="DPYD" location="background" />
+<GENE id="G5" spans="1465~1468" text="DPD" location="background" />
+<GENE id="G6" spans="1665~1669" text="DPYD" location="background" />
+<GENE id="G7" spans="1719~1723" text="DPYD" location="background" />
+<GENE id="G8" spans="1973~1976" text="DPD" location="background" />
+<GENE id="G9" spans="2359~2362" text="DPD" location="result" />
+<GENE id="G10" spans="1085~1088" text="DPD" location="background" />
+<DISEASE id="D0" spans="171~177,193~199" text="breast ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="182~199" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="211~240" text="gastrointestinal tract cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="318~324" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="639~647" text="diarrhea" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="659~669" text="stomatitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="671~680" text="mucositis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="742~752" text="neuropathy" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

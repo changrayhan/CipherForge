@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Lymphomas are heterogeneous hematological malignancies arising in the lymphatic and reticuloendothelial systems. Hodgkin lymphoma (HL) and non-Hodgkin lymphoma (NHL) are the two forms of lymphoma [ 1 ,  2 ]. Both HL and NHL can impact any organ or tissue in the body. Extranodal lymphoma describes the lymphomatous invasion of tissues other than lymphoid organs or lymph nodes. The most commonly affected organs by lymphomatous infiltration are the lung, liver, bone, stomach, skin, spleen, central nervous system, and Waldeyer's ring [ 3 – 6 ]. Depending on the lymphoma stage and the histological type, the distribution and prevalence of the affected organs var y  [ 7 ,  8 ]. The incidence of extranodal involvement is increasing. The most significant challenges in lymphoma therapy are recurrence and extranodal involvement [ 9 ].
+T cells express the regulatory inhibitory protein programmed death-1 (PD-1), a transmembrane element [ 10 ]. Macrophages, T lymphocytes, B lymphocytes, regulatory cells, and tumor cells express PD-ligand 1 (PD-L1) [ 11 ]. PD-L1/PD-1 transmits restraining signals to T cells in lymphomas, causing functional exhaustion, anergy, or lymphocyte apoptosis [ 12 ,  13 ]. Previous studies reported overexpression of PD-L1/PD-1 in HL and various forms of NHL [ 14 ,  15 ]. However, few studies have investigated the relationship between PD-L1/PD-1 and extranodal involvement in lymphoma. PD-L1/PD-1 antibodies have launched a new era of lymphoma immunotherapy [ 16 ].
+CXCR3, a G protein-coupled cell surface receptor (GPCR), is present on CD4+ and CD8+ lymphocytes surface and other cells, like epithelial cells [ 17 ]. Still, interestingly, FOXp3+ regulatory T cells express it (Tregs) [ 18 – 20 ]. CXCR3 expression is upregulated in lymphoma [ 21 ,  22 ]. CXCR3 expression initiates tumor cell survival and metastasis through CXCR3 ligand expression [ 23 – 25 ].
+Cluster differentiation 36 (CD36) is a scavenger receptor on the surface of monocytes, adipocytes, dendritic cells, macrophages, and lymphocytes [ 26 – 33 ]. CD36 can bind to many ligands, including fatty acids, thrombospondin 1, and apoptotic cells [ 34 ]. CD36 functions include molecular adhesion, apoptosis, immune identification, and lipid uptake [ 35 – 37 ]. CD36 expression is associated with tumor cell growth and metastases [ 38 ,  39 ]. In an orthotopic OSCC mouse model, Pascual et al. showed that the suppression of CD36 prevented lymph node metastasis, demonstrating the necessity of fatty acids and CD36 for lymph node metastasis [ 34 ].
+Interleukin-19 (IL-19) is a member of the IL-10 family [ 40 ]. Essential sources of IL-19 are macrophages, monocytes, B lymphocytes, epithelial, and endothelial cells [ 41 ]. High serum IL-19 levels have been detected in patients with NHL [ 42 ]. High IL-19 levels are associated with poor prognosis, metastasis, and advanced tumor stages [ 43 ,  44 ].
+Tumors have developed various strategies, disrupting “immune checkpoints” to get through the host's immune system [ 45 ]. The study assessed PD-L1/PD-1 coexpression with CXCR3/CD36 in circulating CXCR3 and CD36 positive lymphocytes and serum IL-19 levels in extranodal lymphoma. Furthermore, the study investigated the effect of this coexpression and IL-19 on lymphoma prognosis. This study could help uncover new mechanistic insights into the extranodal involvement of lymphoma and assess a new era of lymphoma immunotherapy.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="886~904" text="programmed death-1" location="background" />
+<GENE id="G1" spans="906~910" text="PD-1" location="background" />
+<GENE id="G2" spans="1030~1041" text="PD-ligand 1" location="background" />
+<GENE id="G3" spans="1043~1048" text="PD-L1" location="background" />
+<GENE id="G4" spans="1058~1063" text="PD-L1" location="background" />
+<GENE id="G5" spans="1064~1068" text="PD-1" location="background" />
+<GENE id="G6" spans="1245~1250" text="PD-L1" location="background" />
+<GENE id="G7" spans="1251~1255" text="PD-1" location="background" />
+<GENE id="G8" spans="1365~1370" text="PD-L1" location="background" />
+<GENE id="G9" spans="1371~1375" text="PD-1" location="background" />
+<GENE id="G10" spans="1416~1421" text="PD-L1" location="background" />
+<GENE id="G11" spans="1422~1426" text="PD-1" location="background" />
+<GENE id="G12" spans="1496~1501" text="CXCR3" location="background" />
+<GENE id="G13" spans="1567~1570" text="CD4" location="background" />
+<GENE id="G14" spans="1576~1579" text="CD8" location="background" />
+<GENE id="G15" spans="1670~1675" text="FOXp3" location="background" />
+<GENE id="G16" spans="1728~1733" text="CXCR3" location="background" />
+<GENE id="G17" spans="1786~1791" text="CXCR3" location="background" />
+<GENE id="G18" spans="1856~1861" text="CXCR3" location="background" />
+<GENE id="G19" spans="1893~1919" text="Cluster differentiation 36" location="background" />
+<GENE id="G20" spans="1921~1925" text="CD36" location="background" />
+<GENE id="G21" spans="2051~2055" text="CD36" location="background" />
+<GENE id="G22" spans="2151~2155" text="CD36" location="background" />
+<GENE id="G23" spans="2258~2262" text="CD36" location="background" />
+<GENE id="G24" spans="2421~2425" text="CD36" location="background" />
+<GENE id="G25" spans="2506~2510" text="CD36" location="background" />
+<GENE id="G26" spans="2545~2559" text="Interleukin-19" location="background" />
+<GENE id="G27" spans="2561~2566" text="IL-19" location="background" />
+<GENE id="G28" spans="2587~2592" text="IL-10" location="background" />
+<GENE id="G29" spans="2731~2736" text="IL-19" location="background" />
+<GENE id="G30" spans="2797~2802" text="IL-19" location="background" />
+<GENE id="G31" spans="3039~3044" text="PD-L1" location="result" />
+<GENE id="G32" spans="3045~3049" text="PD-1" location="result" />
+<GENE id="G33" spans="3068~3073" text="CXCR3" location="result" />
+<GENE id="G34" spans="3074~3078,3078~3079" text="CD36 ...  " location="result" />
+<GENE id="G35" spans="3094~3099" text="CXCR3" location="result" />
+<GENE id="G36" spans="3104~3108" text="CD36" location="result" />
+<GENE id="G37" spans="3140~3145" text="IL-19" location="result" />
+<GENE id="G38" spans="3249~3254" text="IL-19" location="result" />
+<DISEASE id="D0" spans="1~9" text="Lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="114~130" text="Hodgkin lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="132~134" text="HL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="140~160" text="non-Hodgkin lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="162~165" text="NHL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="188~196" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="214~216" text="HL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="221~224" text="NHL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="564~572" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="770~778" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1113~1121" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1259~1261" text="HL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1283~1286" text="NHL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1406~1414" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1465~1473" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1763~1771" text="lymphoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2780~2783" text="NHL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3167~3175" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3258~3266" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3368~3376" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3401~3409" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1734~1759" text="expression is upregulated" location="background" relation="increased expression" />
+<RELATION id="R1" spans="1474~1487" text="immunotherapy" location="background" relation="therapeutic target" />
+<RELATION id="R2" spans="1227~1241" text="overexpression" location="background" relation="increased expression" />
+<RELATION id="R3" spans="2720~2730,2737~2743" text="High serum ... levels" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G6" geneText="PD-L1" diseaseID="D11" diseaseText="HL" relationID="R2" relationText="overexpression" />
+<ENTITY_LINKING id="E1" geneID="G6" geneText="PD-L1" diseaseID="D12" diseaseText="NHL" relationID="R2" relationText="overexpression" />
+<ENTITY_LINKING id="E2" geneID="G7" geneText="PD-1" diseaseID="D11" diseaseText="HL" relationID="R2" relationText="overexpression" />
+<ENTITY_LINKING id="E3" geneID="G7" geneText="PD-1" diseaseID="D12" diseaseText="NHL" relationID="R2" relationText="overexpression" />
+<ENTITY_LINKING id="E4" geneID="G10" geneText="PD-L1" diseaseID="D14" diseaseText="lymphoma" relationID="R1" relationText="immunotherapy" />
+<ENTITY_LINKING id="E5" geneID="G11" geneText="PD-1" diseaseID="D14" diseaseText="lymphoma" relationID="R1" relationText="immunotherapy" />
+<ENTITY_LINKING id="E6" geneID="G16" geneText="CXCR3" diseaseID="D15" diseaseText="lymphoma" relationID="R0" relationText="expression is upregulated" />
+<ENTITY_LINKING id="E7" geneID="G29" geneText="IL-19" diseaseID="D16" diseaseText="NHL" relationID="R3" relationText="High serum ... levels" />
+</TAGS>
+</Genomics_ConceptTask>

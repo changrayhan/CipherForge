@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PM014 alleviates BLM-induced pulmonary fibrosis in mice
+In the present study, we induced lung fibrosis by a single intratracheal administration of bleomycin as described previously 14 . In order to investigate the anti-fibrotic potential of PM014, mice challenged with BLM (5 mg/kg) were treated with three different doses of PM014 (50, 100, and 200 mg/kg) for 12 days starting at day 2 post-bleomycin (Fig.  1a ). Fourteen days after BLM challenge, mice showed both inflammation and fibrosis in the lungs. When compared to control group, bleomycin produced enhanced pulmonary inflammatory responses as well as destructed lung architecture with thickened alveolar septa and collapsed alveolar spaces, as evidenced by the histological evaluation (Fig.  1b ) and semi-quantitative histological analysis (Fig.  1c ) of H&E stained lung sections. Additionally, mice treated with bleomycin displayed notable deposition of collagen, as indicated by not only semi-quantitative analysis using fibrotic Aschroft scoring (Fig.  1d ) and quantitative histological collagen morphometry assessed by the fibrosis fraction (Fig.  1e ) from Masson’s trichrome stained tissues, but also biochemical collagen quantification determined by measuring hydroxyproline (Fig.  1f ). Importantly, all these BLM-induced inflammatory and fibrotic features were obviously alleviated after PM014 administration beginning 2 days after BLM treatment (Fig.  1a–f ). Similar findings were obtained when comparing treatment of PM014 and dexamethasone, which can be current first-line choice for pulmonary fibrosis 15 , in mice on day 14 post-treatment of BLM (Fig.  1c,e–f ). Figure 1 a – f ) Mice were administered intratracheally once with BLM (5 mg/kg) at day 0 and subsequently received PM014 (50, 100, or 200 mg/kg) daily from day 2 to day 13 after BLM exposure. ( a ) The experimental schedule was represented. ( b ) Representative images of pulmonary tissues stained with hematoxylin and eosin (H&E) or Masson’s trichrome staining were shown from control, BLM, and BLM + PM014 (200 mg/kg) group. ( c , d ) Ashcroft scoring and morphometric analysis of collagen were performed to determine the extent of lung fibrosis. ( f ) Hydroxyproline content used to evaluate collagen content was quantified in the lung tissues. ( g – i ) Mice were administered intratracheally once with BLM (2 mg/kg) at day 0 and subsequently received PM014 (200 mg/kg) daily from day 2 to day 21 after BLM treatment. ( g ) The experimental schedule was represented. ( h ) Representative images of lung tissues stained with Masson’s trichrome staining are shown from control, BLM, and BLM + PM014 (200 mg/kg) group. ( i ) Ashcroft scoring system was adopted to determine the extent of lung fibrosis. Data are presented as mean ± SE, n = 4–8 for each experimental group, * P  < 0.05; ** P  < 0.01; *** P  < 0.001. PM014 ameliorates pulmonary fibrosis induced by BLM in mice. (
+Bleomycin is well known to induce lung damage that results in acute inflammatory response, followed by fibrotic changes which can replicate many pathological features of human pulmonary fibrosis 16 , 17 . Hence, many researchers have recommended to evaluate anti-fibrotic properties of any novel target drug under investigation for treatment of lung fibrosis specially when inflammation subsides (after 10–14 days after bleomycin exposure) 17 , 18 . Here, we conducted a deeper investigation into testing anti-fibrotic action of PM014 with preventive treatment and therapeutic treatment in order to determine whether PM014 attenuates lung fibrosis solely by inhibiting inflammatory response and/or ameliorating the progression of established lung fibrosis. Firstly, to assess the preventive effect of PM014, mice were challenged with relatively low doses of bleomycin (2 mg/kg) and treated with PM014 (200 mg/kg) for 21 days, beginning on day 2 after bleomycin treatment (Fig.  1g ). Interestingly, lung fibrosis was markedly alleviated in mice treated with PM014 over the entire experimental period compared with BLM-only mice, as evidenced by Ashcroft’s fibrosis scoring (Fig.  1h,i ).
+Next, the therapeutic effect of PM014 was tested by two treatment schedules; mice were injected with bleomycin (5 mg/kg) and then PM014 was injected from day 7 to day 14 after BLM instillation (Fig.  S1a ) or from day 14 to day 21 after BLM challenge (Fig.  S1b ), respectively. Administration of PM014 neither beginning day 7 nor day 14 treatment induced no significant differences in fibrotic Ashcroft’s scoring (Fig.  S1b,e ) as well as weight loss (Fig.  S1c,f ) between BLM only-group and BLM + PM014 group, appearing to be lack of therapeutic effect of PM014 when it was given starting at day 7 or day 14 after BLM challenge. These data indicate that PM014 may protect against lung fibrosis, especially in the early inflammatory phase.
+PM014 improves mice survival rate and ameliorates the body weight loss in BLM-treated mice
+Next, to assess the protective effects of PM014, mice were treated with bleomycin at a dose of 5 mg/kg to induce lung damage and mortality. The changes of body weight were measured to assess the pulmonary toxicity induced by bleomicin. As shown in Fig.  2a , the mice treated with bleomycin began to die at day 7 and cumulative mortality was 50% at day 14 in BLM mice. Importantly, the survival rate was significantly improved by BLM + PM014 (200 mg/kg) mice compared with BLM-only mice. In addition, post-treatment with PM014 ameliorated the body weight loss of BLM-treated mice (Fig.  2b,c ). Figure 2 a ) Survival curve was shown. Data was represented as percentage of survival at each time point. Log-rank test, * P  = 0.015, n = 12 for each experimental group. ( b , c ) ( b ) Body weight was measured every day. ( c ) Body weight gain over 15 days was calculated. n = 15 for each experimental group, * P  < 0.05; *** P  < 0.001, Data are presented as mean ± SE. PM014 improves survival rate and ameliorates weight loss after BLM instillation. Mice were treated with BLM (5 mg/kg) intratracheally on day 0. PM014 (200 mg/kg) was administrated orally once a day, beginning on day 2 until day 13 after BLM treatment. (
+PM014 possesses an anti-inflammatory function in lung fibrosis induced by BLM
+Since BLM can induce influx of inflammatory cells into lung during early inflammatory phase 17 , 18 , we analyzed the influx of important inflammatory cells into the lungs by performing bronchoalveolar lavage fluid (BALF) counting analysis in BLM mice on day 14 after BLM instillation (5 mg/kg). As shown in Fig.  3a–c , increased infiltration of total cells, macrophages, and lymphocytes in lungs of BLM mice was observed, which is consistent with previous observations on elevated lung inflammation from BLM mice through day 14 after BLM treatment 19 . PM014 significantly reduced the number of infiltrated cells in the BALF of BLM-treated mice in a concentration-dependent manner. Similarly, dexamethasone which has been known to have powerful anti-inflammatory activity blocked the accumulation of inflammatory cells in the lungs of BLM-treated mice. Figure 3 a – c ) Bronchoalveolar lavage fluid (BALF) analysis was carried out by counting the number of total inflammatory cells, macrophages, and lymphocytes. ( d – i ) The level of pro-inflammatory cytokines from lung tissues of mice were analyzed by ELISA. The investigated cytokines were TNF-α, IL-1β, IL-6, TGF-β1, IL-17A, and IL-23. NS indicates no significant differences were found among groups. Data are presented as mean ± SE, n = 4–11, * P  < 0.05; ** P  < 0.01; *** P  < 0.001. PM014 inhibits pulmonary inflammation in lung fibrosis induced by BLM. Mice were injected with BLM (5 mg/kg) on day 0, followed by PM014 (50, 100, or 200 mg/kg) daily for consecutive 12 days, beginning on day 2 after BLM administration. (
+Crosstalk between cytokines and fibroblasts during lung fibrosis is a growing research interest 20 . Hence, in this study, we sought to examine the expression of a variety of inflammatory cytokines, such as tumor necrosis factor (TNF)-α, interleukin (IL)−1β, IL-6, transforming growth factor (TGF)-β, IL-17A, and IL-23 (Fig.  3d–i ). Marked increases in production of TNF-α, IL-1β, IL-6, TGF-β, and IL-17A were seen on day 14 after BLM exposure, whereas there were no significant differences in the levels of IL-23 on BLM-treated mice when compared with control mice. Nonetheless, we observed that PM014 exhibited a reduction of the expression level of TNF-α, IL-1β, IL-6, TGF-β, and IL-17A in the lungs of BLM-treated mice. Markedly, PM014 administration (200 mg/kg) induced greater or similar anti-inflammatory effect on pro-inflammatory cytokines than dexamethasone in BLM-challenged mice. However, no significant differences were detected when the expression level of IL-23 between the groups was compared. Our observations indicate that PM014 significantly suppressed BLM-mediated production of inflammatory cytokines.
+PM014 represses EMT in lung fibrosis induced by BLM
+Epithelial-mesenchymal transition (EMT), a process whereby differentiated epithelial cells acquire mesenchymal phenotypes during fibrotic processes, is increasingly recognized as an important phenomenon in lung fibrosis progression 7 , 8 . Thus, we first investigated whether the anti-fibrotic effect of PM014 was mediated via inhibition of EMT. As shown in Fig.  4a,b , bleomycin (5 mg/kg) seemed to induce myofibroblast activation, which was associated with decreased expression of E-cadherin (epithelial marker) and increased expression of α-smooth muscle actin (SMA) (mesenchymal marker). On the contrary, PM014 intervention for 12 days, beginning at day 2 after BLM treatment, resulted in inhibition of EMT in BLM-treated mice, as determined by the changes in expression of EMT markers. Likewise, our real-time qPCR analysis further demonstrated that BLM down-regulated E-cadherin (Fig.  4c ) and up-regulated α-SMA (Fig.  4d ) and vimentin (mesenchymal marker) (Fig.  4e ) expression, when compared with control mice. Nevertheless, PM014 treatment enhanced the expression of E-cadherin and reduced the expression of α-SMA and vimentin, when compared with BLM alone treated mice (Fig.  4c–e ), indicating the inhibitory effect of PM014 in bleomycin-induced EMT. Importantly, endogenous mRNA level of type I collagen which is the major fibrous collagen synthesized during lung fibrosis was obviously increased after bleomycin treatment (Fig.  4f ). Administration of PM014 markedly inhibited increased expression of collagen induced by BLM exposure. In addition, we assessed endogenous mRNA level of TGF-β1 in BLM-treated mice because TGF-β1 is one of the main signaling molecules that stimulates EMT during pulmonary fibrosis 7 , 9 . As shown in Fig.  4g , up-regulated TGF-β1 in BLM-challenged mice was reduced by administration of PM014 in concentration-dependent manner. Figure 4 a ) Western blotting analysis of E-cadherin and α-SMA in the lung tissues of mice. ( b ) Densitometric analysis, represented as the percentage of E-cadherin and α-SMA compared to levels in control group. ( c – g ) Quantitative real-time qPCR analysis of E-cadherin, α-SMA, vimentin, type I collagen, and TGF-β1 to measure the mRNA levels in the lung tissues derived from each group. The cropped gels are used in the figure, and uncropped gels are presented in Fig. S2. Data are presented as mean ± SE, n = 3–4, * P  < 0.05; ** P  < 0.01; *** P  < 0.001. PM014 represses EMT and fibroblast activation in pulmonary fibrosis in mice. Mice were intratracheally injected with a single dose of BLM (5 mg/kg) and subsequently treated with different doses of PM014 (50, 100, or 200 mg/kg) for 12 days, starting at day 2 after BLM exposure. (
+PM014 blocks TGF-β1-induced EMT in alveolar epithelial A549 cells
+We further evaluated whether the anti-fibrotic effect of PM014 was mediated via inhibition of EMT using  in vitro  model of EMT. TGF-β1 is well known to initiate and maintain EMT in various biological system including alveolar epithelial cells (AECs) 21 . Here, we induced EMT in A549 cell, the most popular cell lines of human alveolar epithelial type II cells, with treatment of TGF-β1 for 48 h. Indeed, TGF-β1-induced morphological alteration in A549 was clearly detected, from oval epithelial cells to spindle shaped fibroblast-like cells (Fig.  5a ). Correlating in  in vivo  results with BLM-induced mice, decreased expression of E-cadherin and increased expression of α-SMA were detected (Fig.  5b,c ). PM014 intervention markedly blocked the spindle-like mesenchymal morphology phenotype of EMT in A549 cells stimulated by TGF-β1 (Fig.  5a ). As observed, PM014 treatment increased the expression of the epithelial marker E-cadherin and repressed the expression of the mesenchymal marker α-SMA in TGF-β1-treated A549 cells in a dose-dependent manner (Fig.  5b,c ). Likewise, immunofluorescence study further demonstrated that PM014 treatment enhanced the expression of E-cadherin and reduced the expression of α-SMA in A549 cells compared with those of TGF-β1 treatment alone (Fig.  5d ). Apparently, PM014 dose-dependently increased mRNA level of endogenous E-cadherin and reduced the level of vimentin in TGF-β1-treated epithelial cells (Fig.  5e,f ). Figure 5 a ) The morphological changes were imaged using phase contrast microscopy (shown at 200x magnification). ( b – d ) The protein levels of E-cadherin and α-SMA were evaluated by western blotting ( b ) and subsequently analyzed by densitometry ( c ) and immunofluorescence ( d ). Data are presented relative to an average of the controls. ( e , f ) Real-time qPCR analysis of E-cadherin and vimentin in A549 cells treated with TGF-β1 and PM014. The cropped gels are used in the figure, and uncropped gels are presented in Fig. S3. Data are presented as the mean ± SE, n = 3–4, * P  < 0.05; ** P  < 0.01, scale bar, 10 μm. PM014 suppresses TGF-β1-induced EMT and fibroblast activation in human alveolar epithelial A549 cells. A549 cells were treated with TGF-β1 (20 ng/ml) and PM014 (0.1, 0.4, 1.0 mg/ml) for 48 h; 0.05% dimethylsulfoxide (DMSO) was used as a vehicle control for stimulation. (
+PM014 targets canonical Smad and non-canonical p38 signaling activated by TGF-β1 in alveolar epithelial cells and lung fibroblasts
+In order gain insight into the mechanisms underlying PM014 inhibition of EMT and fibroblast activation during fibrotic processes, we first examined whether PM014 could modify Smad-dependent pathway, which is well known as canonical signaling activated by TGF-β1 22 . Indeed, TGF-β1 induced increased phosphorylation of Smad2 and Smad3 in A549 cells when compared with control cells (Fig.  6a,b ). Whereas, co-treatment with PM014 and TGF-β1 markedly decreased the phosphorylation of Smad2 and Smad3 compared with TGF-β1 treated A549 cells. Next, we tested the effects of PM014 on the activation of p38 mitogen-activated protein kinases (MAPKs), which has been considered as key player influencing of non-canonical Smad-independent pathway 23 . Interestingly, PM014 inhibited TGF-β1-induced phosphorylation of p38 MAPK without altering the total expression of levels in A549 cells (Fig.  6a,b ). Figure 6 a ) Western blotting analysis of phosphorylation levels of Smad2 and Smad3 and p38 MAPK. ( b ) Densitometry of the immune blot was analyzed quantitatively. Expression of p-Smad2/3 and p-p38 is represented as a percentage compared to that of the control DMSO-treated group. ( c – e ) Real-time qPCR was performed to examine the mRNA levels of Slug, Snail, and TGF-β1. The cropped gels are used in the figure, and uncropped gels are presented in Fig. S4. Data are presented as mean ± SE, n = 3–4, * P  < 0.05; ** P  < 0.01. PM014 suppresses TGF-β1 pathway through inactivating canonical and non-canonical signaling in A549 cells. Human epithelial alveolar A549 cells were stimulated with TGF-β1 (20 ng/ml) and PM014 (0.1, 0.4, 1.0 mg/ml) for 48 h. (
+In order to determine whether PM014 is capable of exerting anti-fibrotic effects on fibroblast cells, we assessed activation of p38 MAPK as well as Smad2 and Smad3 in lung fibroblasts from healthy donor and IPF patients (Fig.  S5 ). Remarkably, compared with control group, TGF-β1 treatment activated not only Smad2 and Smad3, but also p38 MAPK with a concomitant expression of α-SMA in both donor and IPF fibroblasts, while PM014 co-treatment resulted in a dose-dependent suppression of TGF-β1 signaling pathway stimulating EMT.
+It is well documented that TGF-β1 elicits EMT via induction of transcriptional repressors, including Snail and Slug 24 . As expected, mRNA levels of Snail and Slug were significantly increased in TGF-β1-stimulated A549 cells when comparing with control cells (Fig.  6c,d ). However, PM014 co-treatment in a concentration-dependent manner inhibited expression of Snail and Slug induced by TGF-β1 in A549 cells. Surprisingly, we observed that PM014 down-regulated endogenous mRNA level of TGF-β1 transcripts induced by exogenous TGF-β1 treatment in A549 cells (Fig.  6e ), which may be associated with autocrine TGF-β1 signaling 25 , 26 .
+Consistent with previous result 27 , the addition of exogenous TGF-β1 increased mRNA level of type I collagen on human lung fibroblasts. We observed increased collagen mRNA in donor (about 2.4-fold) and IPF patients (about 4.8-fold) fibroblasts after TGF-β1 treatment, when compared with control group (Fig.  S7 ). On the contrary, co-treatment with PM014 significantly prevented TGF-β1-induced collagen production in fibroblasts from IPF patients, not from healthy donor. Only a weak trend toward significance ( p  = 0.151) was found when comparing TGF-β1 treated and TGF-β1 + PM014 (1.0 mg) treated donor HLFs. Further studies are needed to clarify biological action of PM014 on fibroblast in lung fibrosis.
+PM014 inhibits migration in TGF-β1 stimulated A549 cells and human lung fibroblasts
+Cell migration is one of key phenotypic changes of lung fibrosis, which appears to be key process for developing an aggressive phenotype 28 . As shown in Fig.  7 , TGF-β1 treatment caused enhanced cell migration activity when comparing with control A549 cells. However, co-treatment of PM014 and TGF-β1 in A549 cells significantly inhibited cell migration compared with the cells treated with TGF-β1 only, suggesting an inhibitory effect of PM014 on cell migration. Furthermore, we also evaluated whether PM014 was capable of inhibiting fibroblast migration in lung fibroblasts from healthy donor and IPF patient (Fig.  S8 ). Co-treatment of PM014 with TGF-β1 induced remarked reduction of the migration of healthy donor fibroblasts (Fig.  S8a ) and IPF fibroblasts (Fig.  S8b ) compared with fibroblasts treated with TGF-β1 only, respectively. Taken together, these observations have led to the suggestion that PM014 may act inhibitory agent during lung fibrosis, in particular, by suppressing cell migration. Figure 7 a ) Representative images of wound healing scratch assay in A549 cells. ( b ) The wound closure rate measuring the migration rate of A549 cells, represented as the percentage of wound closure. Data are presented as mean ± SE, n = 4, * P  < 0.05. PM014 inhibits cell migration in EMT induced by TGF-β1 in alveolar epithelial A549 cells. A549 cells were treated with TGF-β1 (20 ng/ml) and PM014 (0.4 mg/ml) for 48 h. (
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="7390~7395" text="TNF-α" location="result" />
+<GENE id="G1" spans="7397~7402" text="IL-1β" location="result" />
+<GENE id="G2" spans="7404~7408" text="IL-6" location="result" />
+<GENE id="G3" spans="7410~7416" text="TGF-β1" location="result" />
+<GENE id="G4" spans="7418~7424" text="IL-17A" location="result" />
+<GENE id="G5" spans="7430~7435" text="IL-23" location="result" />
+<GENE id="G6" spans="8034~8063" text="tumor necrosis factor (TNF)-α" location="result" />
+<GENE id="G7" spans="8065~8084" text="interleukin (IL)−1β" location="result" />
+<GENE id="G8" spans="8086~8090" text="IL-6" location="result" />
+<GENE id="G9" spans="8092~8126" text="transforming growth factor (TGF)-β" location="result" />
+<GENE id="G10" spans="8128~8134" text="IL-17A" location="result" />
+<GENE id="G11" spans="8140~8145" text="IL-23" location="result" />
+<GENE id="G12" spans="8195~8200" text="TNF-α" location="result" />
+<GENE id="G13" spans="8202~8207" text="IL-1β" location="result" />
+<GENE id="G14" spans="8209~8213" text="IL-6" location="result" />
+<GENE id="G15" spans="8215~8220" text="TGF-β" location="result" />
+<GENE id="G16" spans="8226~8232" text="IL-17A" location="result" />
+<GENE id="G17" spans="8336~8341" text="IL-23" location="result" />
+<GENE id="G18" spans="8480~8485" text="TNF-α" location="result" />
+<GENE id="G19" spans="8487~8492" text="IL-1β" location="result" />
+<GENE id="G20" spans="8493~8498" text=" IL-6" location="result" />
+<GENE id="G21" spans="8500~8505" text="TGF-β" location="result" />
+<GENE id="G22" spans="8511~8517" text="IL-17A" location="result" />
+<GENE id="G23" spans="8799~8804" text="IL-23" location="result" />
+<GENE id="G24" spans="9878~9888" text="E-cadherin" location="result" />
+<GENE id="G25" spans="9940~9948" text="vimentin" location="result" />
+<GENE id="G26" spans="10084~10094" text="E-cadherin" location="result" />
+<GENE id="G27" spans="10135~10143" text="vimentin" location="result" />
+<GENE id="G28" spans="10308~10323" text="type I collagen" location="result" />
+<GENE id="G29" spans="10379~10392" text="lung fibrosis" location="result" />
+<GENE id="G30" spans="10607~10613" text="TGF-β1" location="result" />
+<GENE id="G31" spans="10642~10648" text="TGF-β1" location="result" />
+<GENE id="G32" spans="10778~10784" text="TGF-β1" location="result" />
+<GENE id="G33" spans="10924~10934" text="E-cadherin" location="result" />
+<GENE id="G34" spans="11037~11047" text="E-cadherin" location="result" />
+<GENE id="G35" spans="11145~11155" text="E-cadherin" location="result" />
+<GENE id="G36" spans="11174~11189" text="type I collagen" location="result" />
+<GENE id="G37" spans="11195~11201" text="TGF-β1" location="result" />
+<GENE id="G38" spans="11738~11744" text="TGF-β1" location="result" />
+<GENE id="G39" spans="11920~11926" text="TGF-β1" location="result" />
+<GENE id="G40" spans="12172~12178" text="TGF-β1" location="result" />
+<GENE id="G41" spans="12197~12203" text="TGF-β1" location="result" />
+<GENE id="G42" spans="12427~12437" text="E-cadherin" location="result" />
+<GENE id="G43" spans="12622~12628" text="TGF-β1" location="result" />
+<GENE id="G44" spans="12721~12731" text="E-cadherin" location="result" />
+<GENE id="G45" spans="12796~12802" text="TGF-β1" location="result" />
+<GENE id="G46" spans="12968~12978" text="E-cadherin" location="result" />
+<GENE id="G47" spans="13052~13058" text="TGF-β1" location="result" />
+<GENE id="G48" spans="13158~13168" text="E-cadherin" location="result" />
+<GENE id="G49" spans="13206~13212" text="TGF-β1" location="result" />
+<GENE id="G50" spans="13194~13202" text="vimentin" location="result" />
+<GENE id="G51" spans="13399~13409" text="E-cadherin" location="result" />
+<GENE id="G52" spans="13635~13645" text="E-cadherin" location="result" />
+<GENE id="G53" spans="13650~13658" text="vimentin" location="result" />
+<GENE id="G54" spans="13686~13692" text="TGF-β1" location="result" />
+<GENE id="G55" spans="13898~13904" text="TGF-β1" location="result" />
+<GENE id="G56" spans="14013~14019" text="TGF-β1" location="result" />
+<GENE id="G57" spans="14177~14181" text="Smad" location="result" />
+<GENE id="G58" spans="14200~14203" text="p38" location="result" />
+<GENE id="G59" spans="14227~14233" text="TGF-β1" location="result" />
+<GENE id="G60" spans="14539~14545" text="TGF-β1" location="background" />
+<GENE id="G61" spans="14559~14565" text="TGF-β1" location="result" />
+<GENE id="G62" spans="14603~14608" text="Smad2" location="result" />
+<GENE id="G63" spans="14613~14618" text="Smad3" location="result" />
+<GENE id="G64" spans="14718~14724" text="TGF-β1" location="result" />
+<GENE id="G65" spans="14767~14772" text="Smad2" location="result" />
+<GENE id="G66" spans="14777~14782" text="Smad3" location="result" />
+<GENE id="G67" spans="14797~14803" text="TGF-β1" location="result" />
+<GENE id="G68" spans="15059~15065" text="TGF-β1" location="result" />
+<GENE id="G69" spans="15093~15096" text="p38" location="result" />
+<GENE id="G70" spans="15247~15252" text="Smad2" location="result" />
+<GENE id="G71" spans="15257~15262" text="Smad3" location="result" />
+<GENE id="G72" spans="15267~15270" text="p38" location="result" />
+<GENE id="G73" spans="15360~15365" text="Smad2" location="result" />
+<GENE id="G74" spans="15374~15377" text="p38" location="result" />
+<GENE id="G75" spans="15530~15534" text="Slug" location="result" />
+<GENE id="G76" spans="15536~15541" text="Snail" location="result" />
+<GENE id="G77" spans="15547~15553" text="TGF-β1" location="result" />
+<GENE id="G78" spans="15727~15733" text="TGF-β1" location="result" />
+<GENE id="G79" spans="15874~15880" text="TGF-β1" location="result" />
+<GENE id="G80" spans="16064~16067" text="p38" location="result" />
+<GENE id="G81" spans="16084~16089" text="Smad2" location="result" />
+<GENE id="G82" spans="16094~16099" text="Smad3" location="result" />
+<GENE id="G83" spans="16210~16216" text="TGF-β1" location="result" />
+<GENE id="G84" spans="16246~16251" text="Smad2" location="result" />
+<GENE id="G85" spans="16256~16261" text="Smad3" location="result" />
+<GENE id="G86" spans="16272~16275" text="p38" location="result" />
+<GENE id="G87" spans="16424~16430" text="TGF-β1" location="result" />
+<GENE id="G88" spans="16493~16499" text="TGF-β1" location="result" />
+<GENE id="G89" spans="16567~16572" text="Snail" location="background" />
+<GENE id="G90" spans="16577~16581" text="Slug" location="background" />
+<GENE id="G91" spans="16615~16620" text="Snail" location="result" />
+<GENE id="G92" spans="16625~16629" text="Slug" location="result" />
+<GENE id="G93" spans="16662~16668" text="TGF-β1" location="result" />
+<GENE id="G94" spans="16828~16833" text="Snail" location="result" />
+<GENE id="G95" spans="16838~16842" text="Slug" location="result" />
+<GENE id="G96" spans="16854~16860" text="TGF-β1" location="result" />
+<GENE id="G97" spans="16953~16959" text="TGF-β1" location="result" />
+<GENE id="G98" spans="16993~16999" text="TGF-β1" location="result" />
+<GENE id="G99" spans="17076~17082" text="TGF-β1" location="result" />
+<GENE id="G100" spans="17166~17172" text="TGF-β1" location="result" />
+<GENE id="G101" spans="17354~17360" text="TGF-β1" location="result" />
+<GENE id="G102" spans="17483~17489" text="TGF-β1" location="result" />
+<GENE id="G103" spans="17653~17659" text="TGF-β1" location="result" />
+<GENE id="G104" spans="17672~17678" text="TGF-β1" location="result" />
+<GENE id="G105" spans="17841~17847" text="TGF-β1" location="result" />
+<GENE id="G106" spans="18061~18067" text="TGF-β1" location="result" />
+<GENE id="G107" spans="18193~18199" text="TGF-β1" location="result" />
+<GENE id="G108" spans="18290~18296" text="TGF-β1" location="result" />
+<GENE id="G109" spans="18550~18556" text="TGF-β1" location="result" />
+<GENE id="G110" spans="18715~18721" text="TGF-β1" location="result" />
+<GENE id="G111" spans="19211~19217" text="TGF-β1" location="result" />
+<GENE id="G112" spans="19282~19288" text="TGF-β1" location="result" />
+<GENE id="G113" spans="9487~9497" text="E-cadherin" location="result" />
+<GENE id="G114" spans="11164~11172" text="vimentin" location="result" />
+<DISEASE id="D0" spans="30~48" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="90~103" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1561~1579" text="pulmonary fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="2877~2895" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="3098~3116" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="3556~3569" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="3664~3677" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="3921~3934" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="4793~4806" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="6214~6227" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="7878~7891" text="lung fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="8974~8987" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="9209~9222" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="10715~10733" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="11494~11512" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="16143~16146" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="16338~16341" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="17306~17309" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="17538~17541" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="17798~17811" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="17948~17961" text="lung fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="18498~18501" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="18647~18650" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="18847~18860" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

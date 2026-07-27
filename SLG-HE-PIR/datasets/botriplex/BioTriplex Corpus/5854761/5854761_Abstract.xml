@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Intraocular inflammation in a case of bee sting injury.
+Abstract: A19-year-old man presented with decreased vision in the right eye following a bee sting injury, ten days back. Examination revealed conjunctival hyperemia at the site of the sting, anterior uveitis, vitritis, mild disc hyperemia, ocular hypotony, and striae at macula. Treatment was initiated elsewhere with topical antibiotics, steroid, and cycloplegic. Systemic steroids were added. Three weeks later, vitiritis resolved, intraocular pressure became normal and the vision improved from 20/60 to 20/20. However, a chorioretinal atrophy in the vicinity of the sting site was noted. Global electroretinogram (ERG) revealed reduced scotopic responses and depressed oscillatory potentials; even though the photopic response was normal. Multifocal ERG and microperimetry were normal. Two months later, after discontinuation of medication, a traumatic mydriasis with a sluggish pupillary reaction was noted. Sixteen months later, the fundus remained stable. This is a rare case report of a bee sting injury leading to anterior uveitis, vitritis, and cilio-choroidal detachment, mimicking endophthalmitis. Timely recognition of the cause of the intraocular inflammation and appropriate treatment led to optimal recovery. 
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="255~271" text="anterior uveitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="304~319" text="ocular hypotony" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1087~1103" text="anterior uveitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1157~1172" text="endophthalmitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

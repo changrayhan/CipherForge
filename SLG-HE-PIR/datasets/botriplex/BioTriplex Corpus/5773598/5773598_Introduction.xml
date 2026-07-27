@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Astroblastomas are rare glial tumours of unknown origin 1 . These lesions are characterised by the presence of the perivascular pseudorosettes composed of tumour cells with a prominent process extending to a central blood vessel and perivascular hyalinization. In the previous (2007) WHO classification no formal grade was recommended 2 , although well-differentiated and malignant variants have been recognized 3 , possibly with clinical consequences 4 . Astroblastomas are positive for GFAP (glial fibrillary acidic protein), S100 and vimentin by immunohistochemistry and frequently display focal expression of EMA (epithelial membrane antigen) 4 . They predominantly occur supratentorially with differential diagnoses including high grade glioma, ependymoma, AT/RT (atypical teratoid/rhabdoid tumour) and CNS-PNET (primitive neuroectodermal tumour) 1 . These lesions most commonly present in children and young adults, with a clear female predominance 5  and may have a better clinical outcome than glioblastoma 6 . Astroblastomas have mostly been described in case reports, and their status as a distinct clinicopathological entity has been controversial.
+In the last few years, large-scale molecular profiling studies of multiple childhood brain tumour types has revealed novel insights into the taxonomy of cancers occurring within the CNS 7 . Specifically, CNS-PNETs have recently been resolved by biological subclassification using 450k methylation arrays into either multiple well-known brain tumour pathologies or one of four new molecular entities 8 . These novel entities differ in their anatomical location, age at incidence and histological features, and are marked by distinct pathognomonic structural variants, and are described as CNS neuroblastoma with  FOXR2  activation (CNS NB- FOXR2 ), CNS Ewing sarcoma family tumour with  CIC  alteration (CNS EFT- CIC ), CNS high-grade neuroepithelial tumour with  BCOR  alteration (CNS HGNET- BCOR ), and CNS high-grade neuroepithelial tumour with  MN1  alteration (CNS HGNET- MN1 ). This latter group was specifically associated with gene fusions involving  MN1  (22q12.3), usually with  BEND2  (Xp22.13), but also the alternative partner  CXXC5  (5q31.2), and contained 16/23 cases diagnosed as astroblastoma by the originating centres.
+One of the samples in the study described above included a case of astroblastoma diagnosed in a 6 year-old girl who suffered ten recurrences of her tumour over a ten-year period before finally succumbing to her disease. Multiple recurrences have been reported previously in isolated cases of astroblastomas with specific high grade histological features 9 , although the rarity of the disease and lack of available tissue has precluded biological analyses of this phenomenon. We were fortunate to have access to tumour tissue from all 11 surgical interventions from this patient for exome sequencing, which has allowed us the unique opportunity to study the clonal evolution of this novel molecular entity over a long period in the childhood setting, and in response to different treatment strategies.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="489~493" text="GFAP" location="background" />
+<GENE id="G1" spans="495~526" text="glial fibrillary acidic protein" location="background" />
+<GENE id="G2" spans="529~533" text="S100" location="background" />
+<GENE id="G3" spans="538~546" text="vimentin" location="background" />
+<GENE id="G4" spans="614~649" text="EMA (epithelial membrane antigen) 4" location="background" />
+<GENE id="G6" spans="1924~1928" text="BCOR" location="background" />
+<GENE id="G7" spans="2009~2012" text="MN1" location="background" />
+<GENE id="G8" spans="1773~1778" text="FOXR2" location="background" />
+<GENE id="G9" spans="1800~1805" text="FOXR2" location="background" />
+<GENE id="G10" spans="1953~1957" text="BCOR" location="background" />
+<GENE id="G11" spans="2119~2122" text="MN1" location="background" />
+<GENE id="G12" spans="2149~2154" text="BEND2" location="background" />
+<GENE id="G13" spans="2201~2206" text="CXXC5" location="background" />
+<DISEASE id="D0" spans="1~14" text="Astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="457~470" text="Astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="732~749" text="high grade glioma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="751~761" text="ependymoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="809~854" text="CNS-PNET (primitive neuroectodermal tumour) 1" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1003~1015" text="glioblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1314~1320" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1365~1373" text="CNS-PNET" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1749~1790" text="CNS neuroblastoma with  FOXR2  activation" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1792~1805" text="CNS NB- FOXR2" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1813~1826" text="Ewing sarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2366~2379" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2591~2604" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1020~1033" text="Astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2257~2270" text="astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

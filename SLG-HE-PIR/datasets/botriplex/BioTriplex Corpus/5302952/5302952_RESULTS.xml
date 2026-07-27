@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Delphinidin induces apoptosis in human LNCaP prostate cancer cells
+Delphinidin, the major anthocyanidin compound in pigmented fruits and vegetables, possesses a diphenylpropane-based, polyphenolic-ring structure and has anti-inflammatory, anti-oxidant, and anti-angiogenic activity (Figure  1A ). Previously published reports also suggest that treatment of prostate cancer cells with delphinidin results in an efficient, dose-dependent inhibition of cell growth. Hafeez et al. (2008) of the University of Wisconsin observed that whereas delphinidin exerts a differential dose response effect on the growth of prostate cancer cells, it did not affect the viability of normal prostate epithelial cells [ 6 ].
+To examine the mechanism of delphinidin-induced apoptosis, we first examined the cytotoxic effect of delphinidin on human prostate cancer cells using a cell viability assay. Delphinidin did not affect the viability of Du145 or PC3 cells at any of the used concentrations, whereas it had a clear dose-dependent cytotoxic effect on LNCaP cells. (Figure  1B ).
+In order to confirm that the aforementioned changes in viability were a result of delphinidin-induced apoptosis, we microscopically observed and applied the TUNEL assay on prostate cancer cell lines after a 12-hour treatment with 100-μM delphinidin. As shown in Figure  1C , delphinidin-treated LNCaP cells displayed changes in morphology that relate to apoptosis, whereas Du145 and PC3 cells did not exhibit similar changes in cellular morphology. The TUNEL assay can be used to detect dead or dying cells exhibiting DNA fragmentation, which is a sign of apoptosis. After delphinidin-treated cells were stained, the dead cells were measured in a multiplex microplate reader (Figure  1D ). As seen in Figure  1D , treatment of LNCaP cells with delphinidin resulted in the appearance of labeled dead cells. In contrast, no stained cells were detected in delphinidin-treated Du145 and PC3 cultures. Therefore, both the morphological observations and the TUNEL assay results indicate that delphinidin induces apoptosis of LNCaP cells. The fact that LNCaP cells are wt-p53 positive, while the two unaffected cancer cell lines, Du145 or PC3, do not express functional p53, suggests that delphinidin induces apoptosis in a p53-dependent fashion.
+Delphinidin induces caspase-dependent apoptosis in LNCaP cells
+Caspases play a major role in cancer cell apoptosis. Caspases-8 and-9 directly or indirectly activate the effector caspases-3 and −7, which serve as key factors in the apoptosis signaling pathway [ 23 ]. To investigate the mechanism of delphinidin-induced apoptosis in LNCaP cells, we examined the activation of caspases-3, −7, −8, and −9, as well as the cleavage of PARP-1 in the cytosol. PARP-1 is a substrate of effector caspases, so the presence or absence of the cleaved form is a clear indication of whether or not caspases play an essential role in delphinidin-induced apoptosis of LNCaP cells. Prostate cancer cells were incubated with various concentrations of delphinidin (50, 100, and 150 mM) for 24 h, while non-treated cells served as controls. In LNCaP cells, delphinidin treatment led to an increase in the expression of caspases-8 and to higher levels of the cleaved forms of caspase-3, caspase-7, and PARP-1, whereas no changes were observed in Du145 and PC3 cells (Figure  2A ). These results clearly suggest that the delphinidin-induced apoptosis of LNCaP cells was initiated by caspase-8 activation. Caspase-8 cleaved caspases-3 and −7 activating them. Truly, our experiments showed that delphinidin-induced apoptosis of LNCaP cells was accompanied by a significant increase in caspase activity (Figure  2B ). In turn, the activated effector caspases cleaved their substrate, PARP-1. As a whole, our results suggest that delphinidin-induced apoptosis in LNCap is mediated by caspase activation.
+To confirm the role of the caspase cascade in the delphinidin-induced apoptosis of LNCaP cells, we tried to inhibit apoptosis by blocking caspase activation with a general caspase inhibitor (zVAD). LNCaP cells were incubated with 100 μM delphinidin for 24 h, in the presence or absence of zVAD. As shown in Figure  2C , caspase activation in delphinidin-treated LNCaP cells was inhibited by zVAD treatment. We proceeded to examine the effect of zVAD, as well as the effect of a specific inhibitor of caspases-3 and −7, zDQMD, on the delphinidin-induced apoptosis of LNCaP cells. The caspase-3/-7 activity analysis showed that the delphinidin-induced activation of these two caspases was significantly inhibited by zDQMD (Figure  2D ). To evaluate whether the inhibition of caspases-3 and −7 decreases the cytotoxicity that is caused by delphinidin treatment, we performed another viability assay. The inhibitor effectively blocked caspase activity and reduced cytotoxicity. Therefore, the inactivation of caspases by zVAD or zDQMD dramatically inhibits delphinidin-induced apoptosis in LNCaP cells (Figure  2E ). Taken together, these results strongly suggest that delphinidin promotes apoptosis in these cells by activating the effector caspases-3 and −7.
+Delphinidin antagonizes HDAC3 activity and increases the cytotoxicity of LNCaP cells
+Histone modifications regulate the activation and stabilization of histones and non-histone proteins. HATs and HDACs dynamically regulate chromatin remodeling, histone modification, and gene expression. The main function of HDACs is the repression of gene transcription via deacetylation of lysine residues in histones or non-histones [ 24 ]. HDAC3 is known to regulate the transcription of genes through its effect on chromatin conformation [ 25 ,  26 ], and its functions have been demonstrated in many research studies. Recently, we reported the existence of three novel HDAC3-interacting partners, L3MBTL1, CREB3, and PDCD5, and described roles of HDAC3 in epigenetic regulation mediated by these proteins [ 27 ]. It is our belief that HDAC3 is an important regulatory factor of proliferation, growth homeostasis, and apoptosis of cancer cells during various cellular events.
+To determine whether the mechanism through which delphinidin induces apoptosis in LNCaP cells includes downregulation of HDAC3 activity; we measured total HDAC activity in cells treated with delphinidin. HDAC activity was decreased by delphinidin in both PC3 cells and LNCaP cells. However, the reduction was much greater in LNCaP cells. (Figure  3A ). We then examined whether delphinidin is a global or a specific HDAC inhibitor. As seen in Figure  3B , delphinidin reduced the activity of HDAC3 activity to a greater extent compared to the activity of the other class I HDACs. We concluded that delphinidin induced apoptosis of LNCaP cells via the specific inhibition of HDAC3 activity. To examine the mechanism through which the reduction of HDAC3 activity takes place, we determined the protein levels of class I HDACs and PARP-1 in delphinidin-treated cancer cells using western blot analysis. As shown in Figure  3C , delphinidin treatment dramatically reduced HDAC3 expression and induced PARP-1 cleavage in a dose-dependent manner. These data suggest that delphinidin induces apoptosis in LNCaP cells through the suppression of HDAC3 expression and deacetylase activity. To confirm that the suppression of HDAC activity leads to apoptosis, we examined the viability of LNCaP cells that were incubated with 100 μM delphinidin alone, or together with either TSA, a general HDAC inhibitor, or MS-275, a specific HDAC1/3 inhibitor. As expected, in both cases of co-treatment the viability of LNCaP cells was lower compared to the viability of cells treated with delphinidin alone. We also examined whether knocking down HDAC3 using siRNA enhanced the apoptotic effect of delphinidin in LNCaP cells. As shown in Figure  3D , HDAC3-knocked down cells treated with delphinidin displayed a significantly lower viability compared to normally expressing HDAC3 cells treated with delphinidin alone or co-treated with delphinidin and HDAC inhibitors. Thus, HDAC3 RNAi-mediated knockdown can enhance the apoptotic effect of delphinidin on LNCaP cells. Taken together, our findings reveal that HDAC3 is a critical factor in delphinidin-induced apoptosis in human prostate cancer LNCaP cells.
+Delphinidin-induced HDAC3 cleavage leads to p53 acetylation in LNCaP cells
+Various studies have reported that LNCaP cells harbor two functional alleles encoding wild-type p53, whereas DU145 cells express a modified p53 protein with two point mutations (Phe223Leu and Val274Phe) and PC3 cells are deficient in functional p53 protein production. To further support the finding that delphinidin-induced apoptosis is mediated by a downregulation of HDAC3 expression and activity, we examined the effects of different concentrations of delphinidin on p53 acetylation. According to previous reports [ 28 ,  29 ], HDAC3 is cleaved because of sorbitol-induced caspase-7 activation, or during FasL-mediated apoptosis. As p53 is one of the targets of the deacetylases activity of HDAC3, the cleavage of HDAC3 during apoptosis results in an increase in p53 acetylation, whereas the transcription of pro-apoptotic genes is activated. Based on these reports, we proceeded to examine whether an increase in p53 acetylation due to HDAC3 cleavage is also taking place in delphinidin-induced apoptosis. LNCaP cells and DU145 cells treated with delphinidin (50 and 100 mM), as well as untreated controls, were examined using western blot analysis. The apoptotic effect of delphinidin in LNCaP cells was accompanied by cleavage of both PARP-1 and HDAC3 (Figure  4A ). The cleaved form of HDAC3 can be detected using an anti-HDAC3 antibody raised against the N-terminal region of anti-HDAC3, whereas antibodies recognizing the C-terminal region are not able to bind to cleaved HDAC3.
+We then determined whether p53 acetylation and stability were enhanced by HDAC3 cleavage during delphinidin-induced apoptosis. LNCaP cells were treated with different doses of delphinidin for 24 h. As shown in Figure  4B , delphinidin increased p53 acetylation and stability, whereas HDAC3 was cleaved by activated caspase-7 in delphinidin-treated LNCaP cells, in which apoptosis was induced. We also examined the effect of two other anthocyanidins, cyanidin and aurantinidin, on the p53 acetylation status. As shown in Figure  4C , delphinidin increased p53 acetylation and stability to a greater extent compared to that by cyanidin and aurantinidin.
+To demonstrate that endogenous p53 is stabilized for activation in response to delphinidin, p53 was immunoprecipitated from lysates of LNCaP cells treated with delphinidin and/or glutaraldehyde (a protein-protein crossinker). Proteins were immunoprecipitated for 20 min at 37°C and detected by western blot analysis using an anti-p53 antibody. These results show that the stabilization and activation of p53 were induced by enhancing the oligomerization of p53 (Figure  4D ), whereas it is known that oligomerization of p53 is essential for enhancing p53 activity for DNA binding, protein-protein interactions, post-translational modification, and stabilization [ 30 ]. As a whole, these findings suggest that delphinidin induced p53-mediated apoptosis in LNCaP cells through p53 oligomerization.
+Delphinidin-induced apoptosis of LNCaP cells is mediated by activation of p53 and inactivation of HDAC3
+According to recent reports, p53-dependent apoptosis of cancer cells is regulated by post-translational modification of p53, including acetylation. Therefore, we examined the results of knocking down HDAC1 or HDAC3 on the stability of p53, on the p53 acetylation levels, as well as on the expression of the pro-apoptotic proteins p21 and BAX (which is regulated by p53), in delphinidin-treated LNCaP cells. Treatment of LNCaP cells with delphinidin and si-HDAC1 or si-HDAC3 increased total p53 and acetylated-p53 protein levels, as well as the expression of p21 and BAX proteins, whereas the increase was greater when HDAC3 was knocked down (Figure  5A ). We also performed a cell viability assay, where treatment of LNCaP cells with si-HDAC3 and delphinidin led to increased cytotoxicity. We conclude that HDAC3 inhibition enhances the apoptotic effect of delphinidin in LNCaP cells.
+To demonstrate that endogenous p53 undergoes oligomerization in delphinidin-treated cells, p53 was immunoprecipitated from cell lysates of LNCaP cells treated with delphinidin and/or si-HDAC3, and visualized using western blot analysis. As seen in Figure  5C , p53 oligomerization was increased in delphinidin-treated LNCaP HDAC3 knockdown cells, compared to the delphinidin-treated cells whose HDAC3 expression had not been reduced by si-RNA treatment. We conclude that HDAC3 is directly involved in p53-dependent apoptosis. To further study the effect of HDAC3 on p53 stability in the presence of delphinidin, we overexpressed Flag-fused proteins containing wild-type HDAC3, or a point-mutation of the protein (HDAC3 D309A ), or a C-terminal deletion mutant (HDAC3 ΔC ). Overexpression of wild-type HDAC3 and HDAC3 D309A  inhibited the ability of delphinidin to induce acetylation and stabilization of p53. The expression of p21 and BAX proteins was reduced (Figure  5D ) and the cells became resistant to delphinidin-induced cytotoxicity (Figure  5E ). In contrast, overexpression of HDAC3 ΔC  did not inhibit the effects of delphinidin on p53 levels, p53 acetylation, p21 and BAX expression, or cytotoxicity (Figure  5D, Figure 5E ). We next examined whether the p53 oligomerization caused by delphinidin is negatively regulated by HDAC3. As shown in Figure  5F , HDAC3 overexpression is able to inhibit the oligomerization of p53 in delphinine-treated LNCaP cells.
+Delphinidin-induced HDAC3 downregulation leads LNCaP cells to apoptosis via the activation of p53 target genes
+Recent studies have demonstrated that the cleavage of HDAC3 in the apoptotic signaling pathway enhances the expression of p53-regulated pro-apoptotic genes [ 22 ,  29 ]. To examine the activation of the transcription of p53 target genes because of delphinidin treatment, we created reporter plasmids consisting of the promoters of three genes,  p21 ,  Bax , and  Noxa , and the coding sequence of luciferase. The promoters of these three genes contain p53 binding elements and are activated by p53. We transiently transfected LNCaP cells with the reporter plasmids and treated the cells with delphinidin for 24 h. As shown in Figure  6A , delphinidin treatment led to the activation of all three promoters. We conclude that delphinidin-induced apoptosis in LNCaP cells is accompanied by the transcriptional activation of p53-upregulated pro-apoptotic genes. We next examined the role of HDAC3 in the expression of pro-apoptotic genes. HDAC3 knockdown dramatically enhanced the expression of  p53  and the pro-apoptotic genes  Bax ,  p21 ,  Puma , and  Noxa . HDAC1 knockdown did not have a similar effect on the expression of these genes (Figure  6B ). We also performed experiments where wild-type and mutant forms of HDAC3 were overexpressed. As shown in Figure  6C , overexpressing of HDAC3 wt  and HDAC3 D391A  suppressed the delphinidin-induced transcription of pro-apoptotic genes, whereas HDAC3 ΔC  did not affect the transcription of these genes. Therefore, our results demonstrate that HDAC3 is cleaved by effector-caspases in response to delphinidin-initiated cell death signaling, resulting in the transcriptional activation of pro-apoptotic target genes, including  Puma ,  Bax , and  Noxa . As shown in Figure  6D , delphinidin treatment of LNCaP cells results in activation of effector caspases, whereas activated caspase-3 cleaves HDAC3. These results suggest that HDAC3 cleavage leads to the hyperacetylation and oligomerization of p53, as well as to the transcriptional activation of p53 target genes during delphinidin-induced apoptosis in p53 wild-type human prostate cancer cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2131~2134" text="p53" location="result" />
+<GENE id="G1" spans="2229~2232" text="p53" location="result" />
+<GENE id="G2" spans="2283~2286" text="p53" location="result" />
+<GENE id="G3" spans="2736~2742" text="PARP-1" location="result" />
+<GENE id="G4" spans="2759~2765" text="PARP-1" location="result" />
+<GENE id="G5" spans="3261~3270" text="caspase-3" location="result" />
+<GENE id="G6" spans="3272~3281" text="caspase-7" location="result" />
+<GENE id="G7" spans="3287~3293" text="PARP-1" location="result" />
+<GENE id="G8" spans="3467~3476" text="caspase-8" location="result" />
+<GENE id="G9" spans="3489~3498" text="Caspase-8" location="result" />
+<GENE id="G10" spans="3765~3771" text="PARP-1" location="result" />
+<GENE id="G11" spans="5165~5170" text="HDAC3" location="result" />
+<GENE id="G12" spans="5569~5574" text="HDAC3" location="result" />
+<GENE id="G13" spans="5800~5805" text="HDAC3" location="result" />
+<GENE id="G14" spans="5828~5835" text="L3MBTL1" location="result" />
+<GENE id="G15" spans="5837~5842" text="CREB3" location="result" />
+<GENE id="G16" spans="5848~5853" text="PDCD5" location="result" />
+<GENE id="G17" spans="5878~5883" text="HDAC3" location="result" />
+<GENE id="G18" spans="5966~5971" text="HDAC3" location="result" />
+<GENE id="G19" spans="6227~6232" text="HDAC3" location="result" />
+<GENE id="G20" spans="6598~6603" text="HDAC3" location="result" />
+<GENE id="G21" spans="6780~6785" text="HDAC3" location="result" />
+<GENE id="G22" spans="6852~6857" text="HDAC3" location="result" />
+<GENE id="G23" spans="6934~6940" text="PARP-1" location="result" />
+<GENE id="G24" spans="7074~7079" text="HDAC3" location="result" />
+<GENE id="G25" spans="7243~7248" text="HDAC3" location="result" />
+<GENE id="G26" spans="7524~7529" text="HDAC1" location="result" />
+<GENE id="G27" spans="7731~7736" text="HDAC3" location="result" />
+<GENE id="G28" spans="7835~7840" text="HDAC3" location="result" />
+<GENE id="G29" spans="7959~7964" text="HDAC3" location="result" />
+<GENE id="G30" spans="8060~8065" text="HDAC3" location="result" />
+<GENE id="G31" spans="8195~8200" text="HDAC3" location="result" />
+<GENE id="G32" spans="8313~8318" text="HDAC3" location="result" />
+<GENE id="G33" spans="8337~8340" text="p53" location="result" />
+<GENE id="G34" spans="8464~8467" text="p53" location="result" />
+<GENE id="G35" spans="8508~8511" text="p53" location="result" />
+<GENE id="G36" spans="8613~8616" text="p53" location="result" />
+<GENE id="G37" spans="8738~8743" text="HDAC3" location="result" />
+<GENE id="G38" spans="8839~8842" text="p53" location="result" />
+<GENE id="G39" spans="8900~8905" text="HDAC3" location="result" />
+<GENE id="G40" spans="9005~9008" text="p53" location="result" />
+<GENE id="G41" spans="8945~8954" text="caspase-7" location="result" />
+<GENE id="G42" spans="9063~9068" text="HDAC3" location="result" />
+<GENE id="G43" spans="9086~9091" text="HDAC3" location="result" />
+<GENE id="G44" spans="9135~9138" text="p53" location="result" />
+<GENE id="G45" spans="9286~9289" text="p53" location="result" />
+<GENE id="G46" spans="9309~9314" text="HDAC3" location="result" />
+<GENE id="G47" spans="9610~9616" text="PARP-1" location="result" />
+<GENE id="G48" spans="9621~9626" text="HDAC3" location="result" />
+<GENE id="G49" spans="9662~9667" text="HDAC3" location="result" />
+<GENE id="G50" spans="9698~9703" text="HDAC3" location="result" />
+<GENE id="G51" spans="9758~9763" text="HDAC3" location="result" />
+<GENE id="G52" spans="9850~9855" text="HDAC3" location="result" />
+<GENE id="G53" spans="9884~9887" text="p53" location="result" />
+<GENE id="G54" spans="9931~9936" text="HDAC3" location="result" />
+<GENE id="G55" spans="10102~10105" text="p53" location="result" />
+<GENE id="G56" spans="10141~10146" text="HDAC3" location="result" />
+<GENE id="G57" spans="10341~10344" text="p53" location="result" />
+<GENE id="G58" spans="10412~10415" text="p53" location="result" />
+<GENE id="G59" spans="10540~10543" text="p53" location="result" />
+<GENE id="G60" spans="10601~10604" text="p53" location="result" />
+<GENE id="G61" spans="10839~10842" text="p53" location="result" />
+<GENE id="G62" spans="10913~10916" text="p53" location="result" />
+<GENE id="G63" spans="10966~10969" text="p53" location="result" />
+<GENE id="G64" spans="11239~11242" text="p53" location="result" />
+<GENE id="G65" spans="11285~11288" text="p53" location="result" />
+<GENE id="G66" spans="11380~11383" text="p53" location="result" />
+<GENE id="G67" spans="11404~11409" text="HDAC3" location="result" />
+<GENE id="G68" spans="11439~11442" text="p53" location="result" />
+<GENE id="G69" spans="11530~11533" text="p53" location="result" />
+<GENE id="G70" spans="11610~11615" text="HDAC1" location="result" />
+<GENE id="G71" spans="11619~11624" text="HDAC3" location="result" />
+<GENE id="G72" spans="11645~11648" text="p53" location="result" />
+<GENE id="G73" spans="11657~11660" text="p53" location="result" />
+<GENE id="G74" spans="11740~11743" text="p21" location="result" />
+<GENE id="G75" spans="11748~11751" text="BAX" location="result" />
+<GENE id="G76" spans="11775~11778" text="p53" location="result" />
+<GENE id="G77" spans="11866~11871" text="HDAC1" location="result" />
+<GENE id="G78" spans="11878~11883" text="HDAC3" location="result" />
+<GENE id="G79" spans="11900~11903" text="p53" location="result" />
+<GENE id="G80" spans="11919~11922" text="p53" location="result" />
+<GENE id="G81" spans="11968~11971" text="p21" location="result" />
+<GENE id="G82" spans="11976~11979" text="BAX" location="result" />
+<GENE id="G83" spans="12028~12033" text="HDAC3" location="result" />
+<GENE id="G84" spans="12147~12152" text="HDAC3" location="result" />
+<GENE id="G85" spans="12217~12222" text="HDAC3" location="result" />
+<GENE id="G86" spans="12326~12329" text="p53" location="result" />
+<GENE id="G87" spans="12386~12389" text="p53" location="result" />
+<GENE id="G88" spans="12481~12486" text="HDAC3" location="result" />
+<GENE id="G89" spans="12619~12624" text="HDAC3" location="result" />
+<GENE id="G90" spans="12690~12695" text="HDAC3" location="result" />
+<GENE id="G91" spans="12766~12771" text="HDAC3" location="result" />
+<GENE id="G92" spans="12852~12857" text="HDAC3" location="result" />
+<GENE id="G93" spans="12861~12864" text="p53" location="result" />
+<GENE id="G94" spans="12965~12970" text="HDAC3" location="result" />
+<GENE id="G95" spans="13008~13013" text="HDAC3" location="result" />
+<GENE id="G96" spans="13056~13061" text="HDAC3" location="result" />
+<GENE id="G97" spans="13096~13101" text="HDAC3" location="result" />
+<GENE id="G98" spans="13106~13111" text="HDAC3" location="result" />
+<GENE id="G99" spans="13199~13202" text="p53" location="result" />
+<GENE id="G100" spans="13222~13225" text="p21" location="result" />
+<GENE id="G101" spans="13230~13233" text="BAX" location="result" />
+<GENE id="G102" spans="13382~13387" text="HDAC3" location="result" />
+<GENE id="G103" spans="13438~13441" text="p53" location="result" />
+<GENE id="G104" spans="13450~13453" text="p53" location="result" />
+<GENE id="G105" spans="13467~13470" text="p21" location="result" />
+<GENE id="G106" spans="13475~13478" text="BAX" location="result" />
+<GENE id="G107" spans="13562~13565" text="p53" location="result" />
+<GENE id="G108" spans="13631~13636" text="HDAC3" location="result" />
+<GENE id="G109" spans="13663~13668" text="HDAC3" location="result" />
+<GENE id="G110" spans="13726~13729" text="p53" location="result" />
+<GENE id="G111" spans="13785~13790" text="HDAC3" location="result" />
+<GENE id="G112" spans="13859~13862" text="p53" location="result" />
+<GENE id="G113" spans="13930~13935" text="HDAC3" location="result" />
+<GENE id="G114" spans="13998~14001" text="p53" location="result" />
+<GENE id="G115" spans="14096~14099" text="p53" location="result" />
+<GENE id="G116" spans="14221~14224" text="p21" location="result" />
+<GENE id="G117" spans="14228~14231" text="Bax" location="result" />
+<GENE id="G118" spans="14239~14243" text="Noxa" location="result" />
+<GENE id="G119" spans="14328~14331" text="p53" location="result" />
+<GENE id="G120" spans="14370~14373" text="p53" location="result" />
+<GENE id="G121" spans="14697~14700" text="p53" location="result" />
+<GENE id="G122" spans="14763~14768" text="HDAC3" location="result" />
+<GENE id="G123" spans="14811~14816" text="HDAC3" location="result" />
+<GENE id="G124" spans="14868~14871" text="p53" location="result" />
+<GENE id="G125" spans="14902~14905" text="Bax" location="result" />
+<GENE id="G126" spans="14909~14912" text="p21" location="result" />
+<GENE id="G127" spans="14916~14920" text="Puma" location="result" />
+<GENE id="G128" spans="14928~14932" text="Noxa" location="result" />
+<GENE id="G129" spans="14935~14940" text="HDAC1" location="result" />
+<GENE id="G130" spans="15095~15100" text="HDAC3" location="result" />
+<GENE id="G131" spans="15164~15169" text="HDAC3" location="result" />
+<GENE id="G132" spans="15178~15183" text="HDAC3" location="result" />
+<GENE id="G133" spans="15272~15277" text="HDAC3" location="result" />
+<GENE id="G134" spans="15371~15376" text="HDAC3" location="result" />
+<GENE id="G135" spans="15554~15558" text="Puma" location="result" />
+<GENE id="G136" spans="15562~15565" text="Bax" location="result" />
+<GENE id="G137" spans="15573~15577" text="Noxa" location="result" />
+<GENE id="G138" spans="15704~15713" text="caspase-3" location="result" />
+<GENE id="G139" spans="15722~15727" text="HDAC3" location="result" />
+<GENE id="G140" spans="15756~15761" text="HDAC3" location="result" />
+<GENE id="G141" spans="15824~15827" text="p53" location="result" />
+<GENE id="G142" spans="15877~15880" text="p53" location="result" />
+<GENE id="G143" spans="15934~15937" text="p53" location="result" />
+<DISEASE id="D0" spans="46~61" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="358~373" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="610~625" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="830~845" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1238~1253" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="2399~2405" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="2971~2986" text="Prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="6061~6067" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="8264~8279" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="11466~11472" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="15954~15969" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="5988~6005" text="regulatory factor" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G18" geneText="HDAC3" diseaseID="D7" diseaseText="cancer" relationID="R0" relationText="regulatory factor" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Patients
+28 patients with long-standing RA fulfilling the American College of Rheumatology revised criteria for RA 65  were included in this study. The RA group comprised of 21 females and 7 males with a mean age of 63.6 years ± 7.6 years and 67.3 ± 9.8 years, respectively. C-reactive protein was 21.9 mg/dl ± 33.4 mg/dl for females and 67.7 mg/dl ± 61.4 mg/dl for males. 20 out of 28 patients received non-steroidal anti-inflammatory drugs, 20 out of 28 glucocorticoids, 5 out of 28 methotrexate, 1 out of 28 sulfasalazine, 3 out of 28 biologicals and 1out of 28 JAK inhibitor. All patients underwent elective knee joint replacement surgery, and they were informed about the purpose of the study and gave written consent. The study was approved by the Ethics Committees of the University of Düsseldorf (approval number 2018-87-KFogU) and Regensburg (approval number 15-1 01-021). We confirm that all experiments were performed in accordance with relevant guidelines and regulations.
+Antibodies and cytokines
+All antibodies used in this study are listed in Table  1 , cytokines are listed in Table  2 . Antibodies used in this study (Table  1 ): Table 1 Antibodies used for flow cytometry. Vendor Catalogue no. Target Fluorophore Miltenyi 130-102-643 CD256 (APRIL) APC Miltenyi 130-105-822 CD266 (Fn14) PE Miltenyi 130-100-662 CD267 (TACI) PE Miltenyi 130-097-656 CD268 (BAFF-R) FITC Miltenyi 130-118-975 CD269 (BCMA) APC Miltenyi 130-096-654 CD106 (VCAM-1) FITC Miltenyi 130-114-133 CD154 (CD40L) PE Miltenyi 130-099-931 CD119 (INF-γR) FITC Miltenyi 130-105-153 CD295 (ObR, Leptin receptor) PE-Vio770 Miltenyi 130-096-573 Membrane TGF-β APC ebioscience 12-9017-42 CD257 (membrane BAFF) PE Table 2 Cytokines used for stimulation of RASF. Vendor Catalogue no. Cytokine Peprotech 300-01 A TNF Peprotech 300-02 INF-γ R&D 7537-BF BAFF R&D 5860-AP APRIL R&D 1090-TW TWEAK
+Antibodies were used in a 1:11 dilution as recommended by the supplier. Cytokines used in this study (Table  2 ):
+Synovial fibroblast and tissue preparation
+Samples from RA synovial tissue were collected immediately after opening the knee joint capsule and tissue was prepared for cell isolation thereafter 66 . In brief, excised synovial tissue was cut into small fragments, minced and treated with liberase (Roche Diagnostics, Mannheim, Germany) at 37 °C overnight. The cell suspension was filtered (70 µm) and centrifuged at 300 g for 10 min. After that, the pellet was treated with erythrocyte lysis buffer (20.7 g NH 4 Cl, 1.97 g NH 4 HCO 3 , 0.09 g EDTA ad 1 l H 2 O) for 5 min, recentrifuged for 10 min and then resuspended in RPMI-1640 (Sigma Aldrich, St. Louis, USA) with 10% FCS. After overnight incubation, RPMI medium was replaced with fresh medium to wash off dead cells and debris.
+Stimulation of RA synovial fibroblasts
+6000 cells were seeded onto 96 well microtiter plates, grown for three days and were then stimulated with either TNF (0.1–10 ng/ml), IFN-γ (0.1–10 ng/ml) or a combination (IFN-γ 10 ng/ml + TNF 10 ng/ml) for 72 h (in RPMI medium containing 2% FCS to minimize proliferation; for all assays). After that, cells or supernatants were used for flow cytometry (cells) and ELISA (supernatants).
+IL-6, IL-8, sVCAM-1, sCD40L, sTACI, sBCMA, BAFF and APRIL ELISA
+Cell culture supernatants were used for ELISAs 72 h after addition of respective stimulants. Tests were conducted as described by the supplier (BD, OptEIA, Heidelberg, Germany (IL-6, IL-8) and R&D/Biotechne, Wiesbaden, Germany (sVCAM-1, sCD40L, sTACI, sBCMA, APRIL, BAFF)). Inter- and intraassay coefficient of variation was below 10%.
+Proliferation of RASF
+Proliferation was assessed by the cell titer blue viability assay (promega). We analyzed proliferation in RPMI medium containing only 2% FCS. This was important since FCS contains up to 28 µM lysophosphatidic acid (LPA). LPA has been reported to induce proliferation, calcium mobilization and IL-8 production in a wide variety of cell types 67 , 68  and therefore, we minimized this influence by only using 2% FCS.
+Flow cytometry
+Data were acquired on a MACSQuant analyzer 10 (Miltenyi, Bergisch Gladbach, Germany). After detachment of RASF with accutase (Life-Technologies/Thermo, #A11105–01) at 37 °C for 20 min, RASF were incubated with primary labelled antibodies for 10 min at 4 °C in PBS/1% BSA and analyzed thereafter. Cells were single-stained with respective antibodies.
+Isolation of murine B cells
+Murine B cells were isolated from spleens using the B Cell Isolation Kit mouse (miltenyi #130-104-443) according to the suppliers’ instructions.
+Animals
+Male DBA/1 J mice (6–8 weeks old) were purchased from Janvier (France). They had unrestricted access to chow and water. Five animals lived in one cage, and they were acclimated to the environment for one week before commencement of experiments. The University of Düsseldorf approved all experiments according to institutional and governmental regulations for animal use (project: O57/15). All procedures were performed in accordance with the German Animal Welfare Act and the European Directive 2010/63/EU on the protection of animals used for scientific purposes.
+RASF co-culture with murine B cells
+Co-culture experiments were performed in 48 well plates (Cellstar, Greiner bio-one, Kremsmünster, Austria). In brief, 20.000 RASF were seeded in 750 µl RPMI-1640 (Sigma-Aldrich) and grown for 72 h. Then, 250.000 isolated murine B cells were added for 48 h and cells were stimulated with cytokines as indicated. After that, B cell survival and apoptosis were assessed by Annexin V/propidium iodide staining.
+Apoptosis assay
+B cell survival and apoptosis were assessed using the FITC Annexin V assay kit (BD biosciences, Heidelberg, Germany) according to manufacturers’ instructions.
+Statistical analysis
+Statistical analysis was performed with SigmaPlot 13 (Systat Software Inc., San Jose, USA) and SPSS 25 (IBM, Armonk, USA). The statistic tests used are given in the figure legends. When data are presented as box plots, the boxes represent the 25th to 75th percentiles, the lines within the boxes represent the median, and the lines outside the boxes represent the 10th and 90th percentiles. When data are presented as line plots, the line represents the mean and error bars are depicted as standard error of mean. The level of significance was p < 0.05.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1253~1258" text="CD256" location="result" />
+<GENE id="G1" spans="1260~1265" text="APRIL" location="result" />
+<GENE id="G2" spans="1292~1297" text="CD266" location="result" />
+<GENE id="G3" spans="1329~1334" text="CD267" location="result" />
+<GENE id="G4" spans="1366~1371" text="CD268" location="result" />
+<GENE id="G5" spans="1407~1412" text="CD269" location="result" />
+<GENE id="G6" spans="1445~1450" text="CD106" location="result" />
+<GENE id="G7" spans="1452~1458" text="VCAM-1" location="result" />
+<GENE id="G8" spans="1486~1491" text="CD154" location="result" />
+<GENE id="G9" spans="1493~1498" text="CD40L" location="result" />
+<GENE id="G10" spans="1524~1529" text="CD119" location="result" />
+<GENE id="G11" spans="1565~1570" text="CD295" location="result" />
+<GENE id="G12" spans="1572~1575" text="ObR" location="result" />
+<GENE id="G13" spans="1577~1592" text="Leptin receptor" location="result" />
+<GENE id="G14" spans="1667~1672" text="CD257" location="result" />
+<GENE id="G15" spans="1845~1850" text="APRIL" location="result" />
+<GENE id="G16" spans="1863~1868" text="TWEAK" location="result" />
+<GENE id="G17" spans="2917~2920" text="TNF" location="result" />
+<GENE id="G18" spans="2937~2942" text="IFN-γ" location="result" />
+<GENE id="G19" spans="2976~2981" text="IFN-γ" location="result" />
+<GENE id="G20" spans="2993~2996" text="TNF" location="result" />
+<GENE id="G21" spans="3191~3195" text="IL-6" location="result" />
+<GENE id="G22" spans="3197~3201" text="IL-8" location="result" />
+<GENE id="G23" spans="3204~3210" text="VCAM-1" location="result" />
+<GENE id="G24" spans="3213~3218" text="CD40L" location="result" />
+<GENE id="G25" spans="3221~3225" text="TACI" location="result" />
+<GENE id="G26" spans="3228~3232" text="BCMA" location="result" />
+<GENE id="G27" spans="3234~3238" text="BAFF" location="result" />
+<GENE id="G28" spans="3243~3248" text="APRIL" location="result" />
+<GENE id="G29" spans="3484~3490" text="VCAM-1" location="result" />
+<GENE id="G30" spans="3493~3498" text="CD40L" location="result" />
+<GENE id="G31" spans="3501~3505" text="TACI" location="result" />
+<GENE id="G32" spans="3508~3512" text="BCMA" location="result" />
+<GENE id="G33" spans="3514~3519" text="APRIL" location="result" />
+<GENE id="G34" spans="3521~3525" text="BAFF" location="result" />
+<GENE id="G35" spans="3906~3910" text="IL-8" location="result" />
+<DISEASE id="D0" spans="41~43" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="113~115" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="153~155" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="2039~2041" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2780~2782" text="RA" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: TET1 Depletion Induces Aberrant CpG Methylation in Colorectal Cancer Cells.
+Abstract: Aberrant DNA methylation is commonly observed in colorectal cancer (CRC), but the underlying mechanism is not fully understood. 5-hydroxymethylcytosine levels and  TET1  expression are both reduced in CRC, while epigenetic silencing of  TET1  is reportedly associated with the CpG island methylator phenotype. In the present study, we aimed to clarify the relationship between loss of  TET1  and aberrant DNA methylation in CRC. Stable  TET1  knockdown clones were established using Colo320DM cells, which express high levels of  TET1 , and HCT116 cells, which express  TET1  at a level similar to that in normal colonic tissue. Infinium HumanMethylation450 BeadChip assays revealed increased levels of 5-methylcytosine at more than 10,000 CpG sites in  TET1 -depleted Colo320DM cells. Changes in DNA methylation were observed at various positions within the genome, including promoters, gene bodies and intergenic regions, and the altered methylation affected expression of a subset of genes. By contrast,  TET1  knockdown did not significantly affect DNA methylation in HCT116 cells. However,  TET1  depletion was associated with attenuated effects of 5-aza-2’-deoxycytidine on gene expression profiles in both cell lines. These results suggest that loss of  TET1  may induce aberrant DNA methylation and may attenuate the effect of 5-aza-2’-deoxycytidine in CRC cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="TET1" location="background" />
+<GENE id="G1" spans="258~262" text="TET1" location="background" />
+<GENE id="G2" spans="331~335" text="TET1" location="result" />
+<GENE id="G3" spans="480~484" text="TET1" location="result" />
+<GENE id="G4" spans="531~535" text="TET1" location="result" />
+<GENE id="G5" spans="624~628" text="TET1" location="result" />
+<GENE id="G6" spans="664~668" text="TET1" location="result" />
+<GENE id="G7" spans="848~852" text="TET1" location="result" />
+<GENE id="G8" spans="1102~1106" text="TET1" location="result" />
+<GENE id="G9" spans="1190~1194" text="TET1" location="result" />
+<GENE id="G10" spans="1355~1359" text="TET1" location="result" />
+<DISEASE id="D0" spans="59~76" text="Colorectal Cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="143~160" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="162~165" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="295~298" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="518~521" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1455~1458" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="264~291" text="expression are both reduced" location="background" relation="decreased expression" />
+<RELATION id="R1" spans="1346~1350" text="loss" location="result" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="TET1" diseaseID="D3" diseaseText="CRC" relationID="R0" relationText="expression are both reduced" />
+<ENTITY_LINKING id="E1" geneID="G10" geneText="TET1" diseaseID="D5" diseaseText="CRC" relationID="R1" relationText="loss" />
+</TAGS>
+</Genomics_ConceptTask>

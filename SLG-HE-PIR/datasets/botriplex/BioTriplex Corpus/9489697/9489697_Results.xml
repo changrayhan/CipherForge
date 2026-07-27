@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Differences in gemcitabine susceptibility and driver profiles in PDAC cells
+To stratify different drug responses to gemcitabine of common PDAC cell lines available in the lab and select cell models suitable for our follow-up experiments, we first performed MTS assays using 8 human lines including AsPC-1, MIA PaCa-2, BxPC-3, PANC-1, CFPAC-1, Panc0403, HuPT-3, and SU86.86 cells. As shown in Fig.  1a , these lines showed wide variations in gemcitabine susceptibility. Among them, MIA PaCa-2 and HupT-3 cells showed the most sensitivity to gemcitabine, whereas AsPC-1 and BxPC-3 cells were apparently less responsive to the drug. The viability of AsPC-1 cells after gemcitabine treatment was still over 45% even at 100 μM, implying the strongest resistance to the drug. Fig. 1 Differences in drug susceptibility and PDAC drivers between AsPC-1 cells and MIA PaCa-2 cells. a  Drug responses to gemcitabine of eight human pancreatic cancer cell lines. AsPC-1, MIA PaCa-2, BxPC-3, PANC-1, CFPAC-1, Panc0403, HuPT-3, and SU86.86 cells were exposed to various concentrations of gemcitabine (GEM) for 72 h and cell viability was measured by the MTS assay. Data are shown as the mean ± SD from three biologically independent experiments ( n  = 3).  b  The protein expression of KRAS, TP53, CDKN2A, and SMAD4 in eight pancreatic cancer cell lines was analyzed by Western blot assay, and quantitative evaluation for each line was performed by using ImageJ software. The protein level of β-actin was used as the internal standard. Data are presented as the mean ± SD ( n  = 3 biologically independent experiments).  c  Differences in protein expression levels in AsPC-1 and MIA PaCa-2 cells. The protein expression of EGFR, HER2, SMAD2, SMAD3, SMAD4, SMAD7, and TGF-β was detected by Western blot analysis. Data are shown as the mean ± SD ( n  = 3 three biologically independent samples). ‘a’ indicates  p  < 0.05 as compared with AsPC-1 cells.  p  < 0.01 for TGF-β,  p  < 0.001 for SMAD4 and SMAD7.  d  Drug responses to either gemcitabine or DTLL between AsPC-1 and MIA PaCa-2 cells. AsPC-1 and MIA PaCa-2 cells were exposed to various concentrations of GEM or DTLL for 72 h and cell viability was measured by the MTS assay. The results were obtained from three biologically independent experiments. Data are presented as the mean ± SD ( n  = 3). ‘a’ indicates  p  < 0.05 as compared with GEM (AsPC-1 cells) and ‘b’ represents  p  < 0.05 compared with DTLL (AsPC-1 cells).  p  < 0.001 for comparison with GEM at the concentrations of 10 −7 , 10 −6 , 10 −5  and 10 −4 mol/L, and  p  < 0.01 for comparison with GEM at the concentrations of 10 −11 , 10 −9 , 10 −7  and 10 −6  mol/L.  e  ROC (receiver operating characteristic) analysis to determine the SMAD4 expression level as a predictive tool for clinical gemcitabine response in pancreatic cancer patients ( n  = 108) from public data (TCGA-PAAD project). An ROC curve was plotted for AUC evaluation with the threshold level for SMAD4 expression at 2.27 (median expression of all the PAAD patients) to define the high (>2.27) or low (<2.27) level, followed with Fisher’s exact test for calculation of odds ratio and  p -value. Note: For  c  and  d , statistical significance was determined by using two-sided paired-samples  t -test. All specific  p  values are presented in the Source Data file and only significant values are shown in figures. Source data are provided in the Source Data file.
+Previous studies have demonstrated that KRAS, TP53, CDKN2A, and SMAD4 play key roles in the tumorigenesis and progression of PDAC, as well as gemcitabine susceptibility 10 – 13 . Therefore, we further detected the expression of these four drivers in these eight cell lines. As shown in Fig.  1b , a lack of KRAS expression was detected in all lines except for CFPAC-1 and Panc0403 cells, and CDKN2A was expressed very little among all eight cell lines. There were no apparent differences in KRAS and CDKN2A expression among the gemcitabine-sensitive or gemcitabine-resistant cell lines. Higher levels of TP53 expression were tested in MIA PaCa-2, BxPC-3, and PANC-1 cells, whereas low expression was observed in other lines, suggesting that the differences in TP53 expression were not predominantly devoted to gemcitabine susceptibility. For instance, HupT-3 cells presented lower levels of TP53 but were sensitive, similar to MIA-PaCa-2 cells, whereas BxPC-3 cells with higher TP53 expression showed less sensitivity than MIA-PaCa-2 cells. Interestingly, SMAD4 was highly expressed in MIA PaCa-2, HupT-3 and PANC-1 cells, whereas little was tested in AsPC-1, BxPC-3, and CFPAC-1 cells, implying that the expression might be potentially related to their susceptibility to gemcitabine. Although very significantly different levels of both TP53 and SMAD4 were observed in MIA PaCa-2 and AsPC-1 cells (Fig.  1b ), the strongest expression of TP53 protein in MIA PaCa-2 cells might be attributed to the gain of function (GOF) mutant TP53 proteins and degradation of normally labile protein in MIA-paca-2 cells 31 . Subsequently, we detected the genetic status of these four drivers in eight cell lines (Table  1 ), and found that the  SMAD4  gene was mutated only in AsPC-1 (R100T mutation) and BxPC-3 (Del) cells. This matched the protein levels in these two lines, as well as the cellular resistance to gemcitabine. Therefore, according to the protein levels and genotypes of those four drivers between MIA PaCa-2/HupT-3 and AsPC-1/BxPC-3 cells, SMAD4 might be the predominant driver contributing to the gemcitabine response in PDAC. Table 1 Genotypic profiles of four drivers in different PDAC cell lines Gene name Genotype Cell line name Exon Mutation location KRAS WT Bxpc-3 Panc0403 Mut Su86.86 exon 2 G12D PANC-1 G12D Aspc-1 G12D CF-PANC1 G12V MIA PaCa-2 G12C HupT-3 G12R TP53 WT Aspc-1 Panc0403 Mut Su86.86 exon 6, 9, 10 G201V,G228V,G321V,G360V,G602,G683T,G962T,G1079T PANC-1 exon 4, 7, 8 R114H,R141H,R234H,R273H,G341A,G422A,G701A,G818A CF-PANC1 exon 3, 6, 7 C83R,C110R,C203R,C242R,T247C,T328C,T607C,T724C MIA PaCa-2 exon 3, 6, 7 R89W,R116W,R209W,R248W,C265T,C346T,C625T,C742T HupT-3 exon 4, 8 R123W,R150W,R243W,R282W,C367T,C448,C727T,C844T Bxpc-3 exon 2, 5, 6 Y61C,Y88C,Y181C,A182G,Y220C,A263G,A542G,A659G CDKN2A WT Su86.86 Bxpc-3 PANC-1 Aspc-1 CF-PANC1 MIA PaCa-2 HupT-3 Mut PAN0403 exon 2 R99C,R96G,R90C,S73R SMAD4 WT Su86.86 PANC-1 CF-PANC1 Panc0403 MIA PaCa-2 HupT-3 Mut Aspc-1 exon 3 R100T Bxpc-3 exon 5, 9 T496C,F166L; Del,Chr18:48584501-48584728:51-178 WT  wild type,  Mut  mutation.
+For follow-up studies, we selected AsPC-1 and MIA PaCa-2 cells to detect the expression of numerous proteins including EGFR, HER2, SMAD2, SMAD3, SMAD4, SMAD7, and TGF-β by Western blot analysis. As confirmed in Fig.  1c , SMAD4 protein was highly expressed in MIA PaCa-2 but not AsPC-1 cells. Specifically, the ratios of p-SMAD2/SMAD2, p-SMAD3/SMAD3, SMAD7, p-EGFR/EGFR and p-HER2/HER2 in AsPC-1 cells were obviously higher than those in MIA PaCa-2 cells, showing much more activated TGF-β/SMADs signaling. Consequently, AsPC-1 and MIA PaCa-2 cells were chosen as in vitro models because of their resistant and sensitive responses to gemcitabine with deficient and sufficient SMAD4 expression, as well as mutant/wild-type genetic status, respectively, to further test the hypothesis that SMAD4 might play a key role in chemoresistance of pancreatic cancer. Simultaneously, we observed the antiproliferative effects of gemcitabine and DTLL on the AsPC-1 and MIA PaCa-2 cell lines. As shown in Fig.  1d , AsPC-1 cells were more resistant to gemcitabine than MIA PaCa-2 cells, or DTLL, which was mentioned in our previous study 17 .
+Furthermore, we downloaded the public data (TCGA-PAAD project) of pancreatic cancer patients from TCGA including clinical information on gemcitabine treatment and SMAD4 expression datasets to determine if SMAD4 expression in a PDAC patient is clinically correlated with gemcitabine response. By using the expression level of SMD4 as the criterion for predicting whether a patient is cured, we plotted an ROC curve with an AUC equal to 0.597 (Fig.  1e ). There were 35 patients with high SMAD4 expression, of which 17 (48.57%) samples had a positive drug response, whereas only 34.38% of patients (11 from 32 samples) with a low level of SMAD4 responded positively to gemcitabine. The odds ratio was 1.98 ( p  = 0.22), which indicated that the high level of SMAD4 expression facilitated the gemcitabine response clinically, although the significance level was more than 0.05 perhaps owing to the small sample size.
+Therefore, we demonstrated that SMAD4 was associated with not only PDAC occurrence and progression, but also the drug response to gemcitabine treatment both experimentally and clinically.
+DTLL potentiated the inhibitory effects of gemcitabine on cell proliferation and cycle distribution
+To investigate whether the combination of the two drugs could impact PDAC cell proliferation, we treated gemcitabine-resistant/SMAD4-deficient AsPC-1 and gemcitabine–sensitive/SMAD4-sufficient MIA PaCa-2 cells with gemcitabine, DTLL and both. The results from both MTS (Fig.  2a ) and CyQUANT (Fig.  2b ) assays indicated that the combination of gemcitabine with DTLL obviously inhibited AsPC-1 cell growth compared to gemcitabine or DTLL alone. Compared with AsPC-1 cells, gemcitabine alone showed a stronger inhibitory effect in MIA PaCa-2 cells. The combination treatment revealed even more significant inhibition of cell growth in a concentration-dependent manner. The results in both lines showed that the combination treatment had synergistic effects evaluated by the combination index (CI) < 1 (the threshold line) for both (right panels in Fig.  2 a,  b ), indicating that DTLL effectively sensitized the cell response to gemcitabine. Fig. 2 DTLL potentiated proliferation inhibition and cell cycle arrest induced by gemcitabine. a  Effects on drug cytotoxicity in AsPC-1 and MIA-paca-2 cells after treatment with GEM, DTLL or both were detected by MTS assays. AsPC-1 and MIA PaCa-2 cells were exposed to a series of concentrations of GEM combined with 10 −10 , 10 −12  and 10 −13  mol/L DTLL for 72 h, respectively. The MTS assay was performed at the end of incubation. Data are shown as the mean ± SD ( n  = 3 biologically independent experiments). ‘a’ indicates  p  < 0.05 as compared with the GEM group, ‘b’,  p  < 0.05, compared with the ‘GEM + DTLL’(10 −13 ) group, and’c’,  p  < 0.05, compared with the ‘GEM + DTLL’(10 −12 ) group.  b  The inhibitory effect of GEM and DTLL on cell proliferation in AsPC-1 and MIA-paca-2 cells was measured based on DNA fluorescence using the CyQUANT proliferation assay. The cells were exposed to a series of concentrations of GEM, DTLL or GEM combined with 10 −14  mol/L DTLL for 72 h, respectively. The assay utilizes a fluorescent dye to measure double strand DNA content with a microplate reader with excitation at 485 nm and emission detection at 530 nm. Data are shown as the mean ± SD ( n  = 3 biologically independent experiments). ‘a’ indicates  p  < 0.05, compared with the GEM group.  c  Synergistic effect of 5-fluorouracil, oxaliplatin, paclitaxel, irinotecan, lapatinib and etoposide with DTLL (10 −12  mol/L) based on MTS assays. The synergistic effect of the combination treatment was evaluated by calculation of the combination index (CI) using the Chou-Talalay method. CI > 1, CI = 1 and CI < 1 indicate antagonistic, additive and synergistic effects, respectively. Data are shown as the mean ± SD (n = 3 biologically independent experiments). ‘a’ indicates  p  < 0.05, compared with the 5-fluorouracil, oxaliplatin, paclitaxel, irinotecan, lapatinib or etoposide group, respectively.  d  Cell cycle distribution in AsPC-1 and MIA paca-2 cells after treatment with GEM, DTLL or both was detected by flow cytometry assays. In the cell cycle assay, AsPC-1 and MIA PaCa-2 cells were treated with 0.02 µM gemcitabine, 0.1 nM DTLL or their combination for 24 h. The cell cycle distribution was evaluated using propidium iodide (PI) staining and analyzed by flow cytometry. Data are presented as the mean ± SD for biologically triplicate experiments. Note :  One-way ANOVA with Bonferroni post hoc test was used in  a . For  b ,  c , statistical significance was determined by using two-sided paired-samples  t -test. All specific  p  values are presented in the Source Data file and only significant values are shown in figures. Source data are provided in the Source Data file.
+To further determine whether DTLL was capable of sensitizing cells to other drugs, we selected multiple antineoplastic agents widely used for pancreatic cancer treatment to detect the effect of DTLL combined with 5-fluorouracil (antimetabolite), oxaliplatin (DNA cross-linking), paclitaxel (anti-microtubule), irinotecan (topoisomerase I inhibitor), etoposide (topoisomerase II inhibitor) and lapatinib (dual HER2 and EGFR tyrosine kinase inhibitor), followed by evaluation of the synergistic effect by combination index (CI) calculation. The results (shown in Fig.  2c ) indicated that the combination of DTLL with all the above agents showed more significant antiproliferative effectiveness than either DTLL or those agents alone in both AsPC-1 and MIA PaCa-2 cells. The drug interactions of those agents and DTLL were shown to be synergistic with CIs <1 at those corresponding drug concentrations, except for each treated point of paclitaxel, 5-fluorouracil, irinotecan or oxaliplatin. The plots in both AsPC-1 and MIA PaCa-2 cells indicated that drugs at much higher doses showed less synergistic effects with CI values >1 (right panels in Fig.  2c ). These results suggest that DTLL can effectively sensitize PDAC cells to different types of drugs in addition to gemcitabine.
+Subsequently, we detected the cell cycle distribution in AsPC-1 and MIA PaCa-2 cells treated with PI staining. As shown in Fig.  2d , gemcitabine obviously induced the majority (73.54%) of MIA PaCa-2 cells to arrest at S phase compared to control cells at only 31.38% S phase arrest. However, slightly more AsPC-1 cells treated with gemcitabine arrested at both S (51.73% versus 41.50% in control) and G2/M (14.13% versus 4.26% in control), further suggesting that AsPC-1 cells were resistant to this drug. However, G2/M arrest in both lines was induced by DTLL. In the combined treatment group, G2/M arrest was observed in AsPC-1 cells, whereas an increase in S and G2/M phases of MIA PaCa-2 cells was detected.
+The above results showed cell cycle arrest and growth inhibition at different levels between the two cell lines by treatments, suggesting the antiproliferative effects of the combination treatment on both lines.
+Effects of DTLL on different signaling pathways in AsPC-1 and MIA PaCa-2 cells
+After demonstrating the antiproliferative effects of the combination treatment, we characterized the potential mechanisms of action in AsPC-1 and MIA PaCa-2 cells. To investigate inhibitory effects on PDAC cell proliferation and phases of drug treatments, we detected the expression of the apoptotic protein p-Bcl2, the DNA damage marker γH2AX and the cell cycle-related protein Cyclin D1. As shown in Fig.  3a , DTLL significantly decreased the expression of p-Bcl2 and Cyclin D1 with increased phosphorylated γH2AX in both AsPC-1 and MIA PaCa-2 cells. Similar observations were obtained from alterations in those proteins after treatment with gemcitabine. Meanwhile, even more remarkable changes in both lines were observed when treated with both. The results further demonstrated that the combination treatment could eventually induce cellular apoptosis, cycle arrest, and DNA double-strand breaks in gemcitabine-resistant or gemcitabine-sensitive cells. Fig. 3 Functional characterization of gemcitabine, DTLL or combination therapy in AsPC-1 and MIA PaCa-2 cells. a ) and TGF-β/SMADs signaling pathways ( b ) were determined by Western blot assays in AsPC-1 and MIA PaCa-2 cells after treatments with 2 µM gemcitabine, 0.1 nM DTLL and both at 37 °C for 4 h. Data are shown as the mean ± SD ( n  = 3 biologically independent experiments). Note: For  a – c , ‘a’ indicates  p  < 0.05 as compared with the control, ‘b’,  p  < 0.05 compared with the GEM group and ‘c’,  p  < 0.05 compared with the DTLL group. In AsPC-1 cells,  p  ≤ 0.001 (‘GEM + DTLL’versus Control) for p-γH2AX, p-Bcl-2, p-SMAD2/SMAD2, p-SMAD3/SMAD3 and SMAD7;  p  ≤ 0.001 (‘GEM + DTLL’versus GEM) for p-γH2AX, p-Bcl-2, p-SMAD2/SMAD2 and Cyclin D1.  p  < 0.001 (‘GEM + DTLL’versus DTLL) for p-SMAD2/SMAD2;  p  < 0.001 (DTLL versus Control) for p-γH2AX and SMAD7;  p  < 0.001 (DTLL versus GEM) for p-γH2AX. In MIA PaCa-2 cells,  p  ≤ 0.001 (‘GEM + DTLL’versus Control) for p-EGFR/EGFR, PD-L1, p-γH2AX, p-Bcl-2, Cyclin D1 and SMAD7;  p  ≤ 0.001 (‘GEM + DTLL ’ versus GEM) for p-EGFR/EGFR, PD-L1, p-γH2AX, p-Bcl-2, Cyclin D1, p-SMAD2/SMAD2, p-SMAD3/SMAD3, and SMAD7;  p  ≤ 0.001 (DTLL versus Control) for p-γH2AX, p-SMAD3/SMAD3 and SMAD7;  p  ≤ 0.001 (DTLL versus GEM) for p-EGFR/EGFR, p-γH2AX and Cyclin D1;  p  ≤ 0.001 (GEM versus Control) for p-γH2AX and Cyclin D1.  c  The nuclear accumulation of SMAD4 in AsPC-1 and MIA PaCa-2 cells after treatment with 2 µM gemcitabine, 0.1 nM DTLL or both at 37 °C for 4 h. After treatment, the cytoplasmic and nuclear protein fractions were detected using nuclear and cytoplasmic extraction kits. Isolation of the cytosol and nuclei was analyzed by Western blot assay. β-actin and Lamin B1 were used as the loading controls for the cytosol and nucleus, respectively. Band intensities were quantified using ImageJ. Data are shown as the mean ± SD ( n  = 3 biologically independent experiments). In AsPC-1 cells,  p  ≤ 0.001 (‘GEM + DTLL’versus Control) for SMAD4 in the cytoplasm and p-SMAD2/SMAD2 and SMAD4 in the nucleus;  p  ≤ 0.001 (‘GEM + DTLL’versus GEM) for SMAD4 in the nucleus;  p  ≤ 0.001 (DTLL versus Control) for p-SMAD2/SMAD2 and SMAD4 in the nucleus;  p  ≤ 0.001 (DTLL versus GEM) for SMAD4 in the nucleus. In MIA PaCa-2 cells,  p  ≤ 0.001 (‘GEM + DTLL’versus Control) for p-SMAD2/SMAD2 and p-SMAD3/SMAD3 in the cytoplasm, and SMAD4 in the nucleus;  p  ≤ 0.001 (‘GEM + DTLL’versus GEM) for p-SMAD3/SMAD3 in the cytoplasm, and p-SMAD2/SMAD2 and SMAD4 in the nucleus;  p  ≤ 0.001 (‘GEM + DTLL’versus DTLL) for p-SMAD3/SMAD3 in the cytoplasm;  p  ≤ 0.001 (DTLL versus Control) for p-SMAD3/SMAD3 in the cytoplasm;  p  ≤ 0.001 (GEM versus Control) for p-SMAD2/SMAD2 and p-SMAD3/SMAD3 in the cytoplasm.  d  Immunofluorescence analysis of SMAD4 in AsPC-1 and MIA PaCa-2 cells after treatment with 2 µM gemcitabine, 0.1 nM DTLL or both at 37 °C for 4 h using laser scanning confocal microscopy. Cells were fixed and stained with anti-SMAD4 antibody. Following incubation with fluorescent secondary antibodies, the cells were stained with DAPI. Red denotes the anti-Smad4 (red) antibody, and blue indicates the nucleus of AsPC-1 or MIA-paca-2 cells stained with DAPI. Red scale bars indicate 20 μm. Images are representative of three biologically independent experiments. Note: All specific  p  values are presented in the Source Data file and only significant values are shown in figures. For  a – c , statistical significance was determined by using one - w a y ANOVA with Bonferroni post hoc test. Source data are provided in the Source Data file. Protein levels of EGFR/HER2-dependent signaling pathways, PD-L1 signaling pathways, apoptotic protein Bcl2, DNA damage marker γH2AX, cell cycle-related protein Cyclin D1 (
+Our previous study demonstrated that DTLL enhanced DNA damage via EGFR/HER2-dependent blockage of the AKT/mTOR and PD-L1 signaling pathways in gemcitabine-sensitive MIA PaCa-2 cells. Hence, to test if these cellular signaling pathways are involved, we treated gemcitabine-resistant AsPC-1 or gemcitabine-sensitive MIA PaCa-2 cells with vehicle, gemcitabine, DTLL or both for 4 h, and further analyzed the ratios of active phosphorylated and total proteins for HER-2, EGFR, ERK1/2, AKT, mTOR, and PD-L1. Interestingly, the responses in the AKT/mTOR and PD-L1 signaling pathways were quite different between AsPC-1 and MIA PaCa-2 cells. After treatment with DTLL or both in MIA PaCa-2 cells, the ratios of active phosphorylated and total EGFR, HER-2, AKT and mTOR proteins were obviously decreased (Fig.  3a ). Furthermore, there were significant decreases in PD-L1 expression, which confirmed our previous findings regarding to DTLL function 25  and suggested similar AKT/mTOR signaling affected by its combination treatment in MIA PaCa-2 cells. In contrast, the ratios of p-EGFR/EGFR, p-HER-2/HER-2, p-AKT/AKT and p-mTOR/mTOR were significantly increased in AsPC-1 cells. Furthermore, an apparent increase in PD-L1 expression was observed in AsPC-1 cells, indicating that there were obviously different molecular mechanisms by which these two cells differed in drug response to the combination therapy. In addition, no changes in ERK1/2 expression in either of the two cell lines were found.
+We further explored whether other molecular signaling pathways were triggered by the combination treatment in AsPC-1 and MIA PaCa-2 cells. Total differences in TGF-β/SMADs signaling proteins were observed between those two lines, including SMAD2, SMAD3, SMAD4, SMAD7, and TGF-β levels. The data shown in Fig.  3b  indicated that treatment with DTLL alone or in combination with gemcitabine induced the expression of SMAD2, SMAD3 or SMAD4 in SMAD4-deficient AsPC-1 cells, while a marked decrease in SMAD7 expression was observed. This result indicated that, unlike MIA PaCa-2 cells, DTLL might restore SMAD4 expression by inhibiting SMAD7 in AsPC-1 cells, leading to significant reactivation of SMAD4-dependent signaling. In contrast, DTLL alone or in combination with gemcitabine significantly decreased the expression of SMAD2, SMAD3 or SMAD4 in SMAD4-sufficient MIA PaCa-2 cells, but they markedly increased the expression of SMAD7. We speculated that immediate activation of inhibitory SMADs (SMAD7) in MIA PaCa-2 cells might form a complex with SMAD2/3, thereby interfering with the complex formation between SMAD2/3 and SMAD4 32 , and preventing further signal propagation. Therefore, the above results demonstrated that the combination treatment had opposite effects on the TGF-β/SMADs signaling pathways of PDAC cells in a SMAD4-dependent manner.
+Subsequently, we detected differences in the effects of DTLL on the translocation of SMAD4 induced from the cytosol to the nucleus in AsPC-1 and MIA PaCa-2 cells. The cytoplasmic and nuclear proteins of AsPC-1 and MIA PaCa-2 cells were extracted after treatments to detect the distribution of SMAD2, SMAD3 and SMAD4 in parallel Western blot assays (Fig.  3c ). The results showed that the phosphorylated forms of SMAD2/SMAD3 and SMAD4 were significantly increased in the nucleus of AsPC-1 cells treated with either DTLL or both, but decreased in the cytoplasm. However, there were significant decreases in the ratios of p-SMAD2/SMAD2 and p-SMAD3/SMAD3, as well as decreased SMAD4 in the nucleus of MIA PaCa-2 cells after treatment with DTLL or both. In the MIA PaCa-2 cytoplasm, we found an increase in SMAD4 and enhanced ratios of p-SMAD2/SMAD2 and p-SMAD3/SMAD3 in cells treated by DTLL or both. As the results from the immunofluorescence assay show in Fig.  3d , the combination treatment, similar to DTLL, significantly increased the nuclear accumulation of SMAD4 in AsPC-1 cells, but suppressed its accumulation in the MIA PaCa-2 nucleus. We demonstrated that the SMAD-dependent signaling pathway was reactivated by DTLL or combination therapy, contributing to increases in the inhibition of SMAD4-deficient AsPC-1 cell growth. However, similar drug responses but controversial alterations in this pathway were observed in SMAD4-sufficient MIA PaCa-2 cells.
+Downregulation or upregulation of SMAD4 altered PDAC susceptibility to gemcitabine
+Since we have found a relationship between the gemcitabine response and SMAD4 protein levels, we altered SMAD4 expression by transiently transfecting either a specific siRNA or overexpression vector of SMAD4 into pancreatic cancer cells to detect the effect of SMAD4 expression levels on PDAC cellular susceptibility to gemcitabine. As shown in Fig.  4a , downregulation of SMAD4 at both mRNA and protein levels in MIA PaCa-2 cells that carry the wild-type  SMAD4  gene with high protein levels significantly reduced cell sensitivity to gemcitabine after exposure to various concentrations for 72 h. In contrast, SMAD4 overexpression apparently sensitized AsPC-1 cells carrying the R100T mutation with little SMAD4 protein expression to gemcitabine (Fig.  4b ). The results indicated that SMAD4 contributed to the cellular response to gemcitabine in PDAC cells. However, it might be involved in distinct action mechanisms owing to different genotypes and protein levels of SMAD4 in MIA PaCa-2 versus AsPC-1 cells. Fig. 4 Downregulation or upregulation of SMAD4 altered PDAC susceptibility to gemcitabine. a  Downregulation of SMAD4 reduced the sensitivity of MIA PaCa-2 cells to gemcitabine. After knocking down SMAD4 with its specific siRNAs, the mRNA and protein levels of  SMAD4  were detected by qRT-PCR and Western blot assays. MIA PaCa-2 cells were exposed to various concentrations of GEM for 72 h and cell viability was measured by MTS assay. The results were obtained from three independent experiments. Data are presented as the mean ± SD ( n  = 3 biologically independent experiments). A pooled siRNA against SMAD4 (siSMAD4) and a scramble siRNA (siNC) indicate siRNA targeting SMAD4 and its negative control, respectively. ‘a’ indicates,  p  < 0.05, as compared with the control.  p  = 1.26 × 10 −8  in qRT-PCR assay, and  p  < 0.001 at the GEM concentration of 10 −8  mol/L in MTS assay.  b  Upregulation of SMAD4 increased the sensitivity of AsPC-1 cells to gemcitabine. After SMAD4 was upregulated by its overexpression vector, the mRNA and protein levels of  SMAD4  in AsPC-1 cells were detected by qRT-PCR and Western blot assays. The AsPC-1 cell line was exposed to various concentrations of GEM for 72 h, and cell viability was measured by the MTS assay. The results were obtained from three independent experiments. Data are presented as the mean ± SD ( n  = 3 biologically independent experiments). pSMAD4 and pEV indicate SMAD4 overexpression plasmid and its empty vector, respectively. ‘a’ indicates  p  < 0.05 as compared with the control.  p  = 2.42 × 10 −11  in qRT-PCR assay. In MTS assay , 
+ p  ≤ 0.001 (pSMAD4 versus pEV) at the concentrations of 10 −11 , 10 −7 , 10 −6 , 10 −5 , and 10 −4  mol/L.  c  The differences in S MAD4  mRNA expression and protein levels in BxPC-3 (SMAD4 deletion), MIA PaCa-2 (wild-type SMAD4) and AsPC-1 (mutant SMAD4) cells. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). ‘a’ indicates  p  < 0.05 as compared to BxPC-3 cells with  p  = 2.79 × 10 −14  for AsPC-1 and 4.67 × 10 −14  for MIA PaCa - 2 cells.  d  The protein levels and half-life times of wild - type and mutant SMAD4 in AsPC-1, MIA PaCa-2 and BxPC-3 cells. Data presented are the mean ± SD from three biologically independent samples ( n  = 3).  e  The protein levels of SMAD4 with DTLL induction in AsPC-1, MIA PaCa-2 and BxPC-3 cells. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). ‘a’ indicates  p  < 0.05 with comparison of DTLL (AsPC-1) versus DTLL (MIA PaCa-2 cells) and ‘b’ represents  p  < 0.05 with comparison of CHX + DTLL (AsPC-1) versus CHX + DTLL (MIA PaCa-2 cells). When treated with DTLL,  p  < 0.001 for all time points except for 0, 0.25 and 0.5 h; When treated with CHX + DTLL,  p  < 0.001 for 1, 24, 36, and 48 h. Note: All specific  p  values are presented in the Source Data file and only significant values are shown in figures. For  a ,  b ,  e , statistical significance was determined by using two-sided Paired-samples t - test. One-way ANOVA with Bonferroni post hoc test was used in  c . Source data are provided in the Source Data file.
+Differences in the protein degradation of wild-type and mutant SMAD4 in PDAC cells and DTLL impact
+To further test if the effect of SMAD4 genetic status on its expression, we performed qRT-PCR and Western blot assays to detect differences in  SMAD4  mRNA expression among BxPC-3 (deleted  SMAD4 ), MIA PaCa-2 (wild-type  SMAD4 ) and AsPC-1 (R100T mutant  SMAD4 ) cells, as well as that in protein degradation.  SMAD4  mRNA and protein expression was not detectable in BxPC-3 cells, consistent with its genetic status. With obviously higher levels of  SMAD4  mRNA in MIA PaCa-2 and AsPC-1 cells, there was no significant difference between those two lines (left panel in Fig.  4c ). However, SMAD4 protein expression in MIA PaCa-2 cells was much higher than that in AsPC-1 cells (right panel in Fig.  4c ). The above result implied that SMAD4 genetic status is responsible for SMAD4 protein levels.
+Furthermore, mutant SMAD4 protein in AsPC-1 cells had much shorter half-life of only approximately one hour, showing rapid protein degradation after 24 h of treatment with cycloheximide (CHX, a protein synthesis inhibitor), compared to the prolonged wild-type protein in MIA PaCa-2 cells even after 72 h of CHX treatment (Fig.  4d ). Interestingly, with the induction of DTLL, mutant protein degradation of SMAD4 in AsPC-1 cells was significantly retarded, with a dramatic 9-fold-increase in its protein level even after 48 h of CHX treatment compared to the control at the beginning time point. The wild-type SMAD4 protein in MIA PaCa-2 cells also showed a slight increase with the induction of DTLL (Fig.  4e ). In addition, SMAD4 protein degradation was not observed and induced by DTLL in BxPC-3 cells (Fig.  4 d,  e ). This suggests that DTLL might significantly enhance the expression level of SMAD4, especially in SMAD4-deficient AsPC-1 cells, and thus resensitize the cellular response to gemcitabine or other chemotherapeutic agents. In addition, BxPC-3 cells without SMAD4 mRNA and protein expression were suitable for creating wild-type and mutant SMAD4 overexpression vectors in follow-up studies.
+Evaluation of in vivo efficacy in CDX models from AsPC-1 and MIA PaCa-2 cells
+Next, we determined whether there was a difference in the effect of SMAD4 between wild-type and mutant proteins on gemcitabine efficacy in vivo, and how DTLL or its combinational therapy influenced the growth of tumors expressing these two different SMAD4. The above two AsPC-1 and MIA PaCa-2 lines, serving as SMAD4-mutant/deficient and SMAD4-wild-type/sufficient PDAC cells, were used to generate in vivo CDX mouse models for evaluation of the antineoplastic efficacy of vehicle, gemcitabine or DTLL alone, and the combination. As shown in Fig. S 1 a, AsPC-1 xenografts had much higher expression of p-EGFR and p-SMAD2/SMAD2, p-SMAD3/SMAD3, SMAD7 but lack of SMAD4 and TGF-β expression, as compared to the MIA PaCa-2 xenograft model, further confirming the results from the in vitro observations.
+In the AsPC-1 xenograft model (shown in Fig.  5a  and Supplementary Table  1 ), gemcitabine had a minimal inhibitory effect at 26.05% and DTLL slightly repressed tumor growth by 39.80%. However, the combination of gemcitabine and DTLL had remarkable synergistic efficacy with a significant tumor inhibition rate of 66.96% in the AsPC-1 xenograft model. As shown in Fig.  5b  and Supplementary Table  1 , tumor growth of MIA PaCa-2 CDX models was obviously inhibited in all treatment groups compared with the control. Specifically, gemcitabine or DTLL alone was able to apparently inhibit tumor growth of MIA PaCa-2 models by 59.04% or 79.62%, respectively. The combination treatment significantly repressed tumor growth by 88.15%. In addition, no deaths or significant changes in body weight were observed (Fig. S 2 a and S 2b ) in treated mice, and no toxic-pathological organs were observed (Fig. S 3 a and S 3b ) as compared to the control group. Fig. 5 Evaluation of in vivo efficacy by cell line-derived xenograft (CDX) models of human pancreatic cancer. a ) and MIA PaCa-2 ( b ). In both CDX models, the mice received an equal volume of physiological saline (control group), 60 mg/kg gemcitabine intraperitoneally administered once a week (GEM group), 0.05 mg/kg DTLL at the LDM-equivalent dose intravenously administered (DTLL group) every ten days, and the same dosing administration for either DTLL or gemcitabine (GEM + DTLL group). Tumor volume in each group was measured and calculated for comparison between ‘GEM + DTLL’versus other groups. Data are representative of biologically independent replicates as the mean ± SEM ( n  = 6 for AsPC-1 and  n  = 5 for MIA PaCa-2 tumors). In AsPC-1 CDX model,  p  < 0.001 (‘GEM + DTLL’versus Control) for day 7, 11, 13, 15, 17, 19, 21, and 23;  p  < 0.001 (‘GEM + DTLL’versus GEM) for day 11, 13, 15, 17, 19, 21, and 23. In MIA PaCa-2 CDX model,  p  < 0.001 (‘GEM + DTLL’versus Control) for day 9, 12, 19, and 22.  c  Protein expression levels in tumor tissue samples from either AsPC-1 or MIA PaCa-2 models after treatment with GEM, DTLL or both were determined by Western blot assay. Band intensities were quantified using Image J. Data are displayed as the mean ± SD ( n  = 3 biologically independent replicates). In AsPC-1 CDX model,  p  < 0.001 for SMAD4 between ‘GEM + DTLL’ versus Control, ‘GEM + DTLL’ versus GEM or DTLL versus GEM groups;  p  < 0.001 for p-Akt/Akt between DTLL versus Control groups. In MIA PaCa-2 CDX model,  p  < 0.001 for SMAD7 between DTLL versus Control groups.  d  IHC staining of Ki-67 in paraffin-embedded tumor tissue samples from AsPC-1 and MIA PaCa-2 xenograft models (×100). Tumor sections were deparaffinized, rehydrated and incubated with Ki-67 antibody, followed by incubation with secondary antibody. The results were observed by an inverted microscope using DAB as a chromogenic reagent. Images are representative of three biologically independent replicates with a scale bar representing 50 μm ( n  = 3). In either AsPC-1 or MIA PaCa-2 tumors,  p  < 0.001 between ‘GEM + DTLL ’  versus Control, as well as DTLL versus GEM. In AsPC-1 tumors,  p  < 0.001 between GEM versus Control groups.  e  Apoptotic cells in the AsPC-1 and MIA PaCa-2 models were measured in TUNEL assay (×200 ) . Apoptotic cells in tumor tissue were determined by the TUNEL method according to the manufacturer’s instructions. They were observed and photographed under a fluorescence microscope. Red fluorescence represents the positive cells. Images are representative of three biologically independent replicates with a scale bar indicating 25 μm ( n  = 3). In both AsPC-1 tumors and MIA PaCa-2 tumors,  p  < 0.001 when compared ‘GEM + DTLL’versus all three Control, GEM and DTLL groups. In MIA PaCa-2 tumors,  p  < 0.001 (DTLL versus Control, or GEM versus Control). Note: For  a – e , ‘a’ indicates  p  < 0.05 as compared with the control, ‘b’,  p  < 0.05 compared with the GEM group and ‘c’,  p  < 0.05 compared with the DTLL group. All specific  p  values are presented in the Source Data file and only significant values are shown in figures. For  a-e , statistical significance was determined by using one-way ANOVA with Bonferroni post hoc test. Source data are provided in the Source Data fil e . Inhibitory effect on tumor growth of cells treated with gemcitabine, DTLL and both by using two CDX models of AsPC-1 (
+After mice were sacrificed, we further detected any alterations in the protein expression of tumor tissue samples in Western blot assays to confirm our results from the above in vitro functional studies, and thereby shed light on its therapeutic efficacy. For SMAD4-sufficient MIA PaCa-2 tumor models, the ratios of p-EGFR/EGFR, p-HER-2/HER-2, p-AKT/AKT, and p-mTOR/mTOR as well as PD-L1 expression were more effectively inhibited after treatment with DTLL or both than in gemcitabine or control-treated groups, whereas slightly decreased SMAD4 and dramatically increased SMAD7 were observed. These data implied that combination treatment enhanced antineoplastic efficacy via EGFR/HER2-dependent blockade of AKT/mTOR and PD-L1 signaling pathways in MIA PaCa-2 xenografts, consistent with the above in vitro results as well as our previous findings of DTLL 25 . In contrast, in either DTLL or the combination treatment group of SMAD4-deficient AsPC-1 models (shown in Fig.  5c ), significantly increased expression of SMAD2/SMAD3 and SMAD4, as well as decreased SMAD7 were tested when compared to the control or gemcitabine, suggesting that DTLL combined with gemcitabine could obviously reactivate SMAD4, and thereby inhibit AsPC-1 tumor growth in a SMAD-dependent manner. Moreover, we detected significant increases in the ratios of active phosphorylated and total proteins for EGFR, HER-2, AKT, and PD-L1, as well as little alteration in p-mTOR/mTOR with gemcitabine or the combination treatment. In contrast to the effect on SMAD4-sufficient MIA PaCa-2 tumors, DTLL inhibited the growth of SMAD4-deficient AsPC-1 tumors but not by blocking the EGFR/AKT/mTOR and PD-L1 signaling pathways.
+IHC staining of Ki-67 with semiquantification displayed a remarkable antiproliferative effect on tumor cells in the combination treatment group when compared to gemcitabine or DTLL alone (Fig.  5d ), as well as greater apoptosis in the TUNEL assay (Fig.  5e ). Our results suggested that the combination treatment showed highly potent efficacy by using in vivo CDX models compared to gemcitabine or DTLL alone.
+Evaluation of in vivo efficacy by PDX models of human pancreatic cancer
+PDX models derived from fresh human tumor tissue have been widely used to evaluate the pharmacological efficacy of various therapeutic agents and to predict their clinical implementation in the future as an effective study tool for translational medicine 33 . Therefore, to further investigate the antitumor effects of DTLL in combination with gemcitabine, we selected two PDX models (PA1233 and PA3142) as SMAD4-mutant/deficient and SMAD4-wild-type/sufficient models, based on SMAD4 genetic status obtained from available RNA sequencing datasets ( https://models.crownbio.com/pancreatic-cancer/ ) and protein levels by using Western blot assays (Fig. S 1b ). Similar to the profiles of AsPC-1 and MIA PaCa-2 tumors (Table  1 , Fig.S 1a ), the  SMAD4  gene in PA1233 tumors was mutated (D537Y and E171D) with obviously lower protein levels whereas higher expression was shown in PA3142 due to the wild-type  SMAD4 . Moreover, higher expression levels of EGFR and HER2 were detected in PA3142 models than in PA1233. These two PDX models had previously shown different responses to gemcitabine validated from the report of the company where PA1233 tumors were resistant to gemcitabine with a very slower growth rate and PA3142 models were sensitive with tumors rapidly developed ( https://models.crownbio.com/pancreatic-cancer/ ). As shown in Supplementary Table  1 , the results from the in vivo evaluation of efficacy in PA1233 models indicated that the inhibitory rate of tumor volume on day 28 at the end of the experiment was only 11.65% and 31.54% for gemcitabine and DTLL alone, respectively. However, the combination therapy obviously improved the antineoplastic effect with a 72.25% inhibition rate. As observed in Fig.  6a , in the SMAD4-deficient PA1233 model with the combination treatment, there were significantly superior antineoplastic effects achieved when compared with the gemcitabine or DTLL alone group. In the SMAD4-sufficient PA3142 models, the inhibitory rates of gemcitabine and DTLL were 54.37% and 50.50%, respectively. The combination treatment significantly repressed tumors at 77.17% (Fig.  6b ). The results showed that the combination treatment exhibited highly potent efficacy in both SMAD4-mutant/deficient and SMAD4-wild-type/sufficient PDX models compared to gemcitabine or DTLL alone. Fig. 6 Evaluation of in vivo efficacy by patient-derived xenograft (PDX) models of human pancreatic cancer. a ) and PA3142 ( b ) on tumor growth. In both PDX models, the mice were received equal volumes of physiological saline (control group), 60 mg/kg gemcitabine every four days (GEM group), 0.05 mg/kg DTLL once a week (DTLL group) and 60 mg/kg gemcitabine combined with 0.025 mg/kg DTLL (GEM + DTLL group). Data are representative of biologically independent replicates as the mean ± SEM ( n  = 3 for PA1233 and  n  = 4 for PA3142 tumors). In PA3142 model,  p  < 0.001 (‘GEM + DTLL’versus Control) for day 14 and 17.  c  Protein expression levels in tumor tissue samples from PA1233 or PA3142 models after treatments with GEM, DTLL or both were determined by Western blot assays. Band intensities were quantified using Image J. Data are displayed as the mean ± SD ( n  = 3 biologically independent replicates). In PA1233 PDX model,  p  < 0.001 for PD-L1 between DTLL versus Control or DTLL versus GEM;  p  < 0.001 for SMAD4 between ‘GEM + DTLL’ versus Control, DTLL versus Control or DTLL versus GEM. In PA3142 PDX model,  p  < 0.001 for SMAD4 between ‘GEM + DTLL’ versus Control, ‘GEM + DTLL’ versus GEM, DTLL versus Control or DTLL versus GEM; p < 0.001 for SMAD7 between ‘GEM + DTLL’ versus Control, ‘GEM + DTLL’ versus GEM or DTLL versus GEM.  d  IHC staining of Ki-67 in paraffin-embedded tumor tissue samples from either the PA1233 or PA3142 models (×100). Tumor sections were deparaffinized, rehydrated and incubated with Ki-67 antibody, followed by incubation with secondary antibody. The results were observed by an inverted microscope using DAB as a chromogenic reagent. Images are representative of three biologically independent replicates with a scale bar representing 50 μm ( n  = 3). In either PA1233 or PA3142 tumors,  p  < 0.001 between ‘GEM + DTLL’ versus Control, ‘GEM + DTLL’ versus DTLL or GEM versus Control. In PA1233 tumors,  p  < 0.001 between DTLL versus Control or DTLL versus GEM.  e  Apoptosis in the PA1233 and PA3142 models was measured in TUNEL assay (×200 ) . Apoptotic cells in tumor tissue were determined by the TUNEL method according to the manufacturer’s instructions. They were observed and photographed under a fluorescence microscope. Red fluorescence represents the positive cells. Images are representative of biologically independent replicates with a scale bar representing 25 μm ( n  = 3). In either PA1233 or PA3142 tumors,  p  < 0.001 between ‘GEM + DTLL’ versus Control, ‘GEM + DTLL’ versus GEM, ‘GEM + DTLL’ versus DTLL or DTLL versus Control. In PA1233 tumors,  p  < 0.001 between DTLL versus GEM. In PA3142 tumors,  p  < 0.001 between GEM versus Control. Note: For  a – e , ‘a’ indicates  p  < 0.05 as compared with the control, ‘b’,  p  < 0.05 compared with the GEM group and ‘c’,  p  < 0.05 compared with the DTLL group. All specific  p  values are presented in the Source Data file and only significant values are shown in figures. For a–b, statistical significance was determined by using paired-samples  t -test was two-sided. For  c – e , statistical significance was determined by using one-way ANOVA with Bonferroni post hoc test. Source data are provided in the Source Data file. Inhibitory effect of gemcitabine, DTLL and both in two PDX models of PA1233 (
+Subsequently, we investigated the drug effects on the expression of relevant proteins in the AKT/mTOR and TGFβ/SMADs signaling pathways in the two PDX models. Similar results were observed (Fig.  6c ), in which the combination treatment exhibited similar inhibitory trends in the ratios of p-EGFR/EGFR and pHER2/HER2 in both models. However, the combination significantly upregulated the protein levels of SMAD4 and PD-L1 in PA1233 tumors and downregulated these two proteins in PA3142 models (Fig.  6c ). In addition, there were no obvious effects on the p-mTOR/mTOR ratios detected in the PA1233 tumors whereas significantly decreased ratios of p-AKT/AKT and p-mTOR/mTOR were observed in PA3142 tumors treated with DTLL and both. Tumor specimens were tested for IHC staining of Ki-67 and apoptosis in the TUNEL assay with semiquantification (Fig.  6 d,  e ). Similar results were observed with significantly downregulated Ki-67 but increased apoptosis in the combination treatment group as compared to the gemcitabine or DTLL alone group. The above results further demonstrated that the combination treatment showed high inhibitory efficacy with distinct alterations in cell signaling pathways in a SMAD4-dependent manner.
+Evaluation of gemcitabine efficacy in BxPC-3 cells with stably expressing wild-type and mutant SMAD4 in vitro and in vivo
+As we mentioned above, BxPC-3 cells do not express SMAD4 mRNA or protein of owing to gene deletion. Therefore, we used this cell line to generate three types of stably transfected cells containing empty control, mutant, and wild-type SMAD4 overexpression vectors after creating the mutant SMAD4 overexpression vector via site-mutagenesis assay (Fig.  7a ) to further test the different effects of wild-type and mutant SMAD4 on drug efficacy. There was no apparent difference in the mRNA level of  SMAD4  in BxPC3-Mut and BxPC3-WT cells, while there was a much lower level of mutant protein than wild-type one, as detected by qRT-PCR and Western blot assays (Fig.  7b ,  c ). Fig. 7 Evaluation of gemcitabine efficacy in BxPC-3 cells stably expressing wild-type and mutant SMAD4 in vitro and in vivo. a  Sequence of wild-type Smad4 and mutant Smad4 R100T constructs.  b  Real-time qRT-PCR analysis of the mRNA level of SMAD4 in BxPC3-EV, BxPC3-WT and BxPC3-Mut stably transfected cells. BxPC3-EV, BxPC3-WT and BxPC3-Mut indicate that BxPC3 cells were stably transfected with the empty vector, wild-type SMAD4 or mutant SMAD4 (R100T) overexpression vectors. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). ‘a’ indicates  p  < 0.001 as compared with BxPC3-EV with  p  = 1.38 × 10 −10  for BxPC3-Mut and 7.24 × 10 −11  for BxPC3-WT cells.  c  Western blot analysis of SMAD4 in BxPC3-EV, BxPC3-WT and BxPC3-Mut stably transfected cells. The results were obtained from three biologically independent experiments as the mean ± SD ( n  = 3).  d  Effects of overexpression of wild type and mutant SMAD4 on the sensitivity of BxPC-3 cell lines to gemcitabine. The BxPC-3 cell line was exposed to various concentrations of GEM for 72 h and cell viability was measured by the MTS assay. Data are shown as the mean ± SD from three biologically independent replicates (n = 3). ‘a’ indicates p < 0.05, compared with BxPC3-MOCK;  b 
+ p  < 0.05, compared with the BxPC3-EV;  c 
+ p  < 0.05, compared with the BxPC3-WT. In BxPC3-WT cells,  p  < 0.001 for 10 −10 , 10 −9  and 10 −8  mol/L of GEM as compared to either BxPC3-MOCK or BxPC3-EV; and  p  < 0.001 at 10 −6  mol/L as compared to BxPC3-MOCK. In BxPC3- Mut cells,  p  < 0.001 at 10 −8  mol/L of GEM as compared to BxPC3-MOCK.  e  Effects on drug cytotoxicity in BxPC3-EV, BxPC3-WT and BxPC3-Mut stably transfected cells after treatment with GEM, DTLL or GEM combined with 10 −14  mol/L DTLL were detected by MTS assays. Data are shown as the mean ± SD from three biologically independent replicates ( n  = 3). ‘a’ indicates  p  < 0.05 as compared with the GEM group. In BxPC3-EV cells,  p  < 0.001 at 10 −12 , 10 −11 , 10 −10 , 10 −9  and 10 −8  mol/L of GEM between ‘GEM + DTLL’ versus GEM. In either BxPC3-WT or BxPC3-Mut cells , 
+ p  < 0 . 001 between ‘GEM + DTLL’ versus GEM at all concentrations of GEM except for 10 −7  and 10 −6  mol/L of GEM.  f  The inhibitory effect of GEM and DTLL on cell proliferation in BxPC3-EV, BxPC3-WT and BxPC3 - Mut stably trans f ected cells was measured by a CyQuant proliferation assay. The cells were exposed to a series of concentrations of GEM, DTLL or GEM combined with 10 −14  mol/L DTLL for 72 h, respectively. Data are shown as the mean ± SD from three biologically independent replicates (n = 3). As compared ‘GEM + DTLL’ to GEM,  p  < 0.001 for 10 −9  mol/L of GEM in BxPC3-EV cells,  p  < 0.001 at 10 −13  mol/L in BxPC3-WT cells, and  p  < 0.001 at 10 −11 , 10 −12  and 10 −13  mol/L in BxPC3-Mut cells.  g  Cell cycle distribution in BxPC3-EV, BxPC3-WT and BxPC3-Mut stably transfected cells after treated with GEM, DTLL or both was detected by flow cytometry assays. Cells were treated with 0.005 µM gemcitabine, 0.1 nM DTLL or their combination for 24 h. The cell cycle distribution was evaluated using propidium iodide (PI) staining and analyzed by flow cytometry. Data are representative of biologically independent triplicates ( n  = 3).  h  Inhibitory effect on tumor growth of treatments with gemcitabine, DTLL and both in these three CDX models derived from BxPC3-EV, BxPC3-WT and BxPC3-Mut cells. In those models, the mice received an equal volume of physiological saline (control group), 30 mg/kg gemcitabine intraperitoneally administered every four days (GEM group), 0.075 mg/kg DTLL at the LDM-equivalent dose intravenously administered once a week (DTLL group) and 30 mg/kg gemcitabine combined with 0.075 mg/kg DTLL (‘GEM + DTLL’group). Data are presented as the mean ± SEM for biologically independent replicates as the mean ± SD ( n  = 5). In BxPC3-EV CDX model,  p  < 0.001 (‘GEM + DTLL’versus Control) for day 27, 30 and 33. In BxPC3-WT CDX model,  p  < 0.001 (‘GEM + DTLL’versus Control) for day 21, 24, 27, 30, and 33. In BxPC3- Mut CDX model,  p  < 0.001 (‘GEM + DTLL’ versus Control) for day 24, 27, 30, and 33;  p  < 0.001 (‘GEM + DTLL’ versus GEM) for day 27, 30, and 33;  p  < 0.001 (‘GEM + DTLL’versus DTLL) for day 30. One-way ANOVA with Bonferroni post hoc test was used in  b ,  d ,  h ; Paired-samples  t -test was two-sided and used in  e  and  f . All specific  p  values are presented in the Source Data file and only significant values are shown in figures. Source data are provided in the Source Data file.
+We further evaluated the in vitro inhibitory effects of gemcitabine on the growth of BxPC-3 cells with empty vector (BxPC3-EV), wild-type (BxPC3-WT) and mutant (BxPC3-Mut) overexpression vectors. As shown in Fig.  7d , BxPC3-WT cells were more sensitive to gemcitabine than BxPC3 mock or BxPC3-EV cells, but BxPC3-Mut cells showed little difference from those two. Gemcitabine or DTLL alone, and their combination were tested for proliferative inhibition of BxPC3-EV, BxPC3-WT and BxPC3-Mut cells by using MTS and CyQUANT assays (Fig.  7e ,  f ), respectively. The results indicated that the combination of gemcitabine with DTLL showed the most significant inhibition rate of tumor cell growth when compared to gemcitabine or DTLL alone, obviously showing a synergistic effect evaluated by CI calculation, not a simple additive effect. In addition, the results from the cytometry assay (Fig.  7g ) showed that more G1/S arrest was observed in BxPC3-WT cells treated with gemcitabine than in the other two types of cells, partly explaining the sensitivity of BxPC3-WT cells overexpressing SMAD4 to gemcitabine. However, DTLL or its combination therapy significantly induced an increase in G2/M cells in both BxPC3-WT and BxPC3-Mut lines. This further confirmed that DTLL potentiated the inhibitory effects of gemcitabine on cell proliferation and cycle distribution.
+Next, we used the above BxPC3-EV, BxPC3-WT, and BxPC3-Mut stably transfected cell lines to generate in vivo CDX mouse models for evaluation of antineoplastic efficacy of vehicle, gemcitabine or DTLL alone, and the combination. As shown in Fig.  7h  and Supplementary Table  2 , gemcitabine had a minimal inhibitory effect on BxPC3-Mut tumors at 7.46% and DTLL slightly repressed tumor growth by 47.61%, however, the combination of gemcitabine and DTLL had remarkable synergistic efficacy with a tumor inhibition rate of 78.62% in this gemcitabine-resistant xenograft model. In the BxPC3-WT models, gemcitabine or DTLL alone was able to apparently inhibit tumor growth by 65.33% or 59.19%, respectively, suggesting its sensitivity to both drugs. The combination treatment significantly repressed tumor growth by 82.06%. In addition, there were no deaths or significant changes in body weight observed in treated mice (Fig. S 2c ), as well as no toxic-pathological organs (Fig. S 3c ), compared to the control group. This further confirmed the synergistic inhibitory effect of DTLL in combination with gemcitabine on in vivo tumor growth, similar to the above results obtained in both CDX and PDX models.
+All the above results demonstrated that different SMAD4 genetic statuses in PDAC cells are responsible for distinct protein levels between mutant and wild-type SMAD4. Expression has been proven to affect cellular susceptibility to gemcitabine by using ex/in vivo MIA PaCa-2, AsPC-1, and BxPC-3 cell lines or CDX/PDX mouse models with either mutant or wild-type SMAD4 expression. We confirmed that DTLL sensitizes gemcitabine efficacy in those models, and further conducted functional characterization in follow-up studies with the above BxPC3-EV, BxPC3-WT. and BxPC3-Mut stably transfected cell lines.
+Distinct protein levels and half-life times of mutant and wild-type SMAD4 with/without DTLL induction in BxPC-3 cells
+There was no apparent difference in  SMAD4  mRNA levels between AsPC-1 vs. MIA PaCa-2 (left panel in Fig.  4c ) and BxPC3-Mut vs. BxPC3-WT cells (Fig.  7b ), indicating no impact on  SMAD4  mRNA transcription affected by the R100T mutation. Therefore, we tested whether there was a difference in protein degradation between mutant and wild-type SMAD4 in BxPC3-WT and BxPC3-Mut stably transfected cell lines by Western blot assays, followed with DTLL treatment. The results demonstrated that the mutant SMAD4 protein was degraded rapidly (Fig.  8a ) but dramatically induced by DTLL (Fig.  8b ) in BxPC3-Mut cells, whereas wild-type SMAD4 remained much longer and showed a slight increase via DTLL treatment in BxPC3-WT cells (Fig.  8 a,  b ), consistent with the results from the AsPC-1 and MIA PaCa-2 lines (Fig.  4 d,  e ). TRIM33 protein, as a specific E3 ligase for SMAD4 ubiquitin-proteasome mediated degradation, was steeply decreased in BxPC3-WT cells after being treated with DTLL from 0, 0.25 till 8 h. However, its level maintained even for 24 h if given DTLL induction and gradually started to decrease in BxPC3-Mut cells (Fig.  8b ), which in part explained why the degradation velocity of mutant SMAD4 was significantly retarded if given DTLL induction. Next, we tested the protein levels of SMAD4 after cotreatment with CHX to exclude the influence of DTLL induction on protein synthesis and further demonstrated more significant induction of SMAD4 via DTLL in BxPC3-Mut cells than in BxPC3-WT cells (Fig.  8c ). This result confirmed that SMAD4 genetic status is responsible for SMAD4 protein expression and that the difference in TRIM33 mediated proteasome degradation between mutant and wild-type proteins partially contributed to their distinguished protein levels. Moreover, DTLL significantly prolonged the half-life time by inhibiting SMAD4 degradation but impacted wild-type and mutant proteins to different degrees, thereby reactivating SMAD4 function with restored proteins, especially in BxPC3-Mut cells, consequently leading to enhanced cellular susceptibility to gemcitabine. Fig. 8 Different mechanisms of the gemcitabine response in BxPC-3 cells affected by wild-type and mutant SMAD4 along with DTLL. a  The protein levels and half-life times of wild-type and mutant SMAD4 in BxPC3-WT and BxPC3-Mut stably transfected cells. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3).  b  Different SMAD4 and TRIM33 levels of mutant and wild-type SMAD4 with DTLL induction in BxPC3-WT and BxPC3-Mut stably transfected cells. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). ‘a’ indicates  p  < 0.05 with comparison SMAD4 of BxPC3-Mut versus BxPC3-WT cells, ‘b’ represents  p  < 0.05 with comparison TRIM33 of AsPC-1 versus MIA PaCa-2 cells. When treated with DTLL,  p  < 0.001 for SMAD4 at all time points except for 0, 0.5, and 1 h,  p  < 0.001 for TRIM33 at 1, 2, 6, 8, 12, and 24 h.  c  Distinct protein levels and half-life times of mutant and wild-type SMAD4 with DTLL induction. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). ‘a’ indicates  p  < 0.05 with comparison of BxPC3-Mut versus BxPC3-WT cells. When treated with CHX + DTLL,  p  < 0.001 for SMAD4 at all time points except for 0, 0.25 and 0.5 h.  d  Different cell signaling pathways affected by mutant and wild-type SMAD4 with DTLL induction. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). In BxPC3-Mut cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for SMAD4, p-SMAD2/SMAD2, SMAD7, TGFβ and p-AKT/AKT;  p  < 0.001 (‘GEM + DTLL’versus GEM) for SMAD4, p-SMAD2/SMAD2, TGFβ, p-EGFR/EGFR and p-AKT/AKT;  p  < 0.001 (DTLL versus Control) for SMAD4, p-SMAD2/SMAD2, SMAD7 and p-AKT/AKT;  p  < 0.001 (DTLL versus GEM) for SMAD4, p-SMAD2/SMAD2, p-EGFR/EGFR and p-AKT/AKT. In BxPC3-WT cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for TGFβ;  p  < 0.001 (DTLL versus GEM) for p-EGFR/EGFR.  e  Cell cycle-related proteins were determined by Western blot assays in BxPC3-Mut and BxPC3-WT stably transfected cells after treatm e nts with 2 µM gemcitabine, 0.1 nM DTLL or its combination at 37 °C for 4 h. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). In BxPC3-Mut cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for Cyclin D3 and p27;  p  < 0.001 (DTLL versus Control) for Cyclin D3 and p21;  p  < 0.001 (DTLL versus GEM) for p21 and p27. In BxPC3-WT cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for Cyclin D3, Cyclin B1, CDK2, p-CDC2, p-Weel, p21, p27, Cyclin E2 and CDK4;  p  < 0.001 (‘GEM + DTLL’versus GEM) for Cyclin D3, CDK2, p-Weel, p27, Cyclin E2 and CDK4;  p  < 0.001 (‘GEM + DTLL’versus DTLL) for CDK2, p21, Cyclin E2 and CDK4;  p  < 0.001 (DTLL versus Control) for Cyclin D3, CDK2, p-Weel, p27, Cyclin E2 and CDK4;  p  < 0.001 (DTLL versus GEM) for Cyclin D3, CDK2, p21and p27;  p  < 0.001 (GEM versus Control) for CDK2, p21, p27and Cyclin E2.  f  TRIM33, NF-κB and apoptosis-related proteins were determined by Western blot assays in BxPC3-Mut and BxPC3-WT stably transfected cells after treatment with gemcitabine and DTLL. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). In BxPC3-WT cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for SMAD4, NF-kB p50, p-NF-kB p65/NF-kB p65, Cleaved Caspase 8, FADD, MCL1, BAX, BCL2/BAX and MCL1/BAX;  p  < 0.001 (‘GEM + DTLL’versus GEM) for SMAD4, NF-kB p50, p-NF-kB p65/NF-kB p65, Cleaved Caspase 8, FADD;  p  < 0.001 (‘GEM + DTLL’versus DTLL) for SMAD4 and FADD;  p  < 0.001 (DTLL versus Control) for SMAD4, p-NF-kB p65/NF-kB p65, Cleaved Caspase 8, BAX, BCL2/BAX and MCL1/BAX;  p  < 0.001 (DTLL versus GEM) for SMAD4, p-NF-kB p65/NF-kB p65 and Cleaved Caspase 8;  p  < 0.001 (GEM versus Control) for p-NF-kB p65/NF-kB p65 and MCL1/BAX. In BxPC3-WT cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for TRIM33, NF-kB p50, BCL2, MCL1, and MCL1/BAX;  p  < 0.001 (‘GEM + DTLL’versus GEM) for NF-kB p50, BCL2, MCL1 and MCL1/BAX;  p  < 0.001 (‘GEM + DTLL’versus DTLL) for NF-kB p50;  p  < 0.001 (DTLL versus Control) for Cleaved Caspase 8, MCL1, and MCL1/BAX;  p  < 0.001 (DTLL versus GEM) for Cleaved Caspase 8 and MCL1.  g  The mRNA levels of  SMAD4, TRIM33, P50, P65, FADD, Bcl-2, MCL1 , and  BAX  were determined in BxPC3-Mut and BxPC3-WT cells after treatments with gemcitabine, DTLL and their combination by using qRT-PCR. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). In BxPC3-WT cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for NF-kB p50, NF-kB p65, TRIM 33, FADD, BcL2, MCL1, and Bax;  p  < 0.001 (‘GEM + DTLL’versus GEM) for NF-kB p50, NF-kB p65, TRIM 33, MCL1and Bax;  p  < 0.001 (‘GEM + DTLL’versus DTLL) for NF-kB p65 and MCL1;  p  < 0.001 (DTLL versus Control) for SMAD4, NF-kB p50, NF-kB p65, TRIM 33, BcL2, MCL1, and Bax;  p  < 0.001 (DTLL versus GEM) for SMAD4, NF-kB p50, TRIM 33, BcL2, MCL1, and Bax. In BxPC3-Mut cells,  p  < 0.001 (‘GEM + DTLL’versus Control) for SMAD4, NF-kB p50, NF-kB p65, TRIM 33, FADD and Bax;  p  < 0.001 (‘GEM + DTLL’versus GEM) for SMAD4, NF-kB p50, NF-kB p65, TRIM 33, FADD, BcL2, MCL1, and Bax;  p  < 0.001 (‘GEM + DTLL’versus DTLL) for SMAD4, NF-kB p65, FADD, and Bax;  p  < 0.001 (DTLL versus Control) for SMAD4, NF-kB p50, NF-kB p65, FADD, and Bax;  p  < 0.001 (DTLL versus GEM) for SMAD4, NF-kB p50, NF-kB p65, FADD, BcL2, MCL1, and Bax;  p  < 0.001 (GEM versus Control) for SMAD4, FADD, BcL2, MCL1, and Bax.  h  Specific interactions of SMAD4 with NF-κB and TRIM33 in BxPC3-EV, BxPC3-WT, and BxPC3-Mut stably transfected cells. The results were obtained from three biologically independent experiments.  i  Different protein interactions of mutant or wild-type SMAD4 with DTLL induction in BxPC3-WT and BxPC3-Mut stably transfected cells. The results were obtained from three biologically independent experiments.  j  Different proteomic and gemcitabine pharmacokinetic profiles in mutant and wild-type SMAD4 cells after treatment with GEM, DTLL or both. Data are shown as the mean ± SD from three biologically independent samples ( n  = 3). For  d – g , ‘a’ indicates  p  < 0.05 as compared with the control, ‘b’,  p  < 0.05 compared with the GEM group and ‘c’,  p  < 0.05 compared with the DTLL group. One-way ANOVA with Bonferroni post hoc test was used in  d – g ; Paired-samples  t -test was two-sided and used in  b  and  c . All specific  p  values are presented in the Source Data file and only significant values are shown in figures. Source data are provided in the Source Data file.
+Different cell signaling pathways affected by mutant and wild-type SMAD4 with/without DTLL induction in BxPC-3 cells
+To further explore the mechanism of SMAD4 action by which differences in protein levels of mutant and wild-type SMAD4 in PDAC cells contributed to distinguishing the gemcitabine response, we detected any alterations in the TGF-β/SMAD4 and EGFR/AKT/mTOR signaling pathways by Western blot assay. As shown in Fig.  8d , both the BxPC3-WT and BxPC3-Mut lines had decreased expression of p-EGFR, EGFR, p-HER2, and HER2. Similar to the observation in AsPC-1 and MIA PaCa-2 cells, significant decreases in p-AKT/AKT and p-mTOR/mTOR expression were observed in BxPC3-WT cells, while an increase in p-AKT/AKT was detected in BxPC3-Mut cells. However, there was significantly induced expression of SMAD4, p-SMAD2/SMAD2, p-SMAD3/SMAD3, and TGF-β, but an apparent decrease in SMAD7 in the BxPC3-Mut lines compared to the BxPC3-WT lines (Fig.  8d ), further confirming the results from the observations in the AsPC-1 and MIA PaCa-2 lines (Fig.  3 a,  b ).
+Next, we tested changes in cell cycle relevant proteins to determine if DTLL affected the expression level of any protein mediated by SMAD4. With DTLL or its combination treatment, the expression levels of cyclin D3, cyclin B1, CDK2, phos-CDC2, phos-Wee1, and P27 were reduced in both the BxPC3-Mut and BxPC3-WT lines (Fig.  8e ). However, significantly increased expression of P21, cyclin E2 and CDK4 in the BxPC3-Mut line was observed, while decreases in those proteins were detected in the BxPC3-WT line (Fig.  8e ).
+Interestingly, we found that the expression levels of phospho-P65, P65, and P50 units of NF-κB, a well-known transcription factor, were induced significantly by DTLL or its combination in the BxPC3-Mut line. Along with increased mutant SMAD4 by DTLL induction, apoptotic proteins including BAX, FADD, and cleaved caspase-8 were significantly induced, while anti-apoptotic Bcl-2 and MCL1 proteins were reduced (Fig.  8f ). Moreover, the semiquantification results in BxPC3-Mut cells demonstrated that there were significant decreases in the ratio of Bcl-2/BAX and MCL1/BAX after treatment with DTLL or its combination compared to the control, indicating the consequence of enhanced cell apoptosis by DTLL. On the other hand, in the BxPC3-WT line, all the above proteins were apparently reduced with decreased SMAD4, except for induced cleaved caspase-8 (Fig.  8f ). The results from semiquantification in the BxPC3-WT line also demonstrated the consequence of cell apoptosis with significant decreases in the ratio of Bcl-2/BAX and MCL1/BAX after treated by DTLL or its combination compared to the control. The directions of the changes in SMAD4 and NF-κB expression induced by DTLL, as well as the expression of their targeted apoptotic/anti-apoptotic proteins, were opposite between the BxPC3-WT and BxPC3-Mut lines, but eventually led to the consequence of enhanced cell apoptosis and sensitized drug response.
+Moreover, to determine if the expression of apoptotic (BAX, FADD) and anti-apoptotic (Bcl-2 and MCL1) proteins was transcriptionally regulated by NF-κB mediated via either mutant or wild-type SMAD4, we tested their mRNA levels in the same cell samples by qRT-PCR. Indeed, the mRNA levels of P50, P65, BAX, and FADD as SMAD4 targets were obviously upregulated along with the same increasing tendency at the  SMAD4  mRNA level in BxPC3-Mut cells when treated with DTLL or the combination, as compared to the control or gemcitabine-treated cells, implying that SMAD4 directly promoted its downstream target NF-κB which further regulated BAX and FADD expression as a regulatory transcription. However, slight decreases in Bcl-2 and MCL1 expression were detected in DTLL-treated cells, independent of NF-κB regulation promoted by SMAD4. On the other hand, along with little change in  SMAD4  mRNA expression in BxPC3-WT cells treated with DTLL or the combination, the mRNA levels of P50, BAX, Bcl-2, and MCL1 were significantly lower than those in the control or gemcitabine-treated cells, (Fig.  8g ). The results suggested that, in BxPC3-WT cells, decreased NF-κB was upstream of BAX, Bcl-2, and MCL1 but not transcriptionally regulated by SMAD4, and DTLL altered NF-κB transcriptional activity but did not affect its expression through SMAD4.
+These alterations in the mRNA levels of these two lines were largely consistent with the above results from the Western blot assay (Fig.  8f ). In addition, all of the above relevant proteins were detected for validating their basic expression profiles in the BxPC3-EV, -WT and -Mut cells (Fig. S 4 ).
+Different protein interactions of mutant or wild-type SMAD4 with/without DTLL induction in BxPC-3 cells
+The results from the co-IP assay further indicated that both mutant and wild-type SMAD4 proteins were able to interact with P50 and P65 (Fig.  8h ), which implied that SMAD4 might impact on the transcriptional bioactivity of NF-κB, which was further responsible for regulating the expression of the above mRNAs and proteins in both BxPC3-WT and BxPC3-Mut cells. Moreover, the interactions of wild-type SMAD4 with P50 and P65 were significantly inhibited in BxPC3-WT cells after treated by DTLL but were apparently increased in DTLL-treated BxPC3-Mut cells (Fig.  8i ). This might explain the reason for the difference intendancies in the downstream gene expression affected by NF-κB transcriptional activity between those two cell lines after treated by DTLL. Owing to the increased bioactivity of mutant SMAD4-mediated NF-κB given DTLL, apoptotic BAX and FADD proteins were significantly induced and resulted in cell death (increased cleaved caspase-8). However, the transcriptional bioactivity of NF-κB promoted by wild-type SMAD4 was inhibited by DTLL, and thus anti-apoptotic proteins (Bcl-2 and MCL1) were downregulated, mainly responsible for the increase in programmed cell death (enhanced cleaved caspase-8).
+In accordance with the results of TRIM33 alteration over the time course shown in Fig.  8b , the mRNA and protein levels of TRIM33 in BxPC3-Mut cells were decreased but not as significantly as those in BxPC3-WT cells after treatment with DTLL for 24 h (Fig.  8 f,  g ). This result suggested that TRIM33 was not regulated by SMAD4, and seemed to be the feedback of either mutant or wild-type SMAD4 expression. We also demonstrated the interaction of TRIM33 with either mutant or wild-type SMAD4 proteins (Fig.  8h ). The interaction between wild-type SMAD4 and TRIM33 was significantly inhibited in BxPC3-WT cells after treatment with DTLL, while their interaction was apparently increased in DTLL-treated BxPC3-Mut cells (Fig.  8i ). Different levels of TRIM33 expression in both cell lines were decreased but to different degrees. Therefore, we speculated that, in BxPC3-WT cells with high levels of wild-type SMAD4 expression, TRIM33 was responsible for its degradation to a certain degree and interacted with SMAD4 to maintain its expression balance. If given DTLL or its combination treatment, TRIM33 was reduced rapidly within 8 h with its apparently impaired interaction with wild-type SMAD4 to retard its degradation and maintain its expression balance. However, little expression of mutant SMAD4 in BxPC3-Mut cells was accompanied by a low level of TRIM33 which mediates its proteasome degradation. With DTLL or its combination treatments, TRIM33 was decreased at slower and lower velocities, thus resulting in very slow degradation of mutant SMAD4 and increased accumulation of SMAD4 protein expression. Consequently, the increased accumulation of mutant SMAD4 expression is accompanied by its significantly enhanced interaction with TRIM33 by DTLL to compensate for its degradation for a balance.
+Different proteomic and gemcitabine pharmacokinetic profiles in mutant and wild-type SMAD4 cells with/without DTLL induction in BxPC-3 cells
+In addition, we further performed a proteomic study to determine if SMAD4 has effects on the expression of gemcitabine-relevant transporters or pharmacokinetic enzymes. All the proteomic raw data and the results files have been uploaded to the iProX Consortium ( https://www.iprox.org/ ) with PXD identifiers (PXD031977). As shown in the heatmap (left panel of Fig.  8j ) and Supplementary Data  3 , the proteomic profiles of BxPC3-Mut and -WT cells without any treatments were quite distinct and showed fewer changes after gemcitabine treated both lines, respectively. DTLL or its combination obviously altered the profile of BxPC3-Mut cells compared to the control or gemcitabine-induced profile, unlike BxPC3-WT cells. Next, we found a total of 12 proteins of gemcitabine-relevant transporters or pharmacokinetic enzymes detectable (Supplementary Table  3 ), including ABCC1, CDA, CDC5L, CMPK1, DCK, DCTD, NT5C, NT5C2, NT5C3A, RRM1, RRM2, and SLC29A1. Except for DCK, DCTD, NT5C2 and NT5C3A, all the other nine proteins were significantly altered, as shown in the expression heatmap (right panel of Fig.  8j ) between BxPC3-Mut versus BxPC3-WT cells after treatments. The expression of SMAD4 was included as a positive control, which confirmed that SMAD4 expression alterations (Ratio  Mut/WT  = 0.017,  p  = 7.3 × 10 −5 ), similar to the results in Western blot assay. Specifically, the expression of RRM2 was much lower in BxPC3-Mut cells than in BxPC3-WT cells (Ratio  Mut/WT  = 0.22,  p  = 2.24 × 10 −6 ), and was significantly induced after treated with DTLL and its combination, with a similar altered trend of SMAD4 in those cells. The proteomic results implied that SMAD4 status significantly impacted the proteomic profiles as a result of chemoresistance properties that DTLL might also affect the proteomic profiles of both lines, and that it altered cellular susceptibility via RRM2 induction regulated by SMAD4 in BxPC3-Mut cells.
+All the above results suggested different action mechanisms of DTLL enhancing cellular susceptibility on the basis of SMAD4 genetic or expression status in BxPC3-Mut and BxPC3-WT cells, respectively, thereby shedding light on its synergistic therapeutic efficacy.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1709~1713" text="EGFR" location="result" />
+<GENE id="G1" spans="1715~1719" text="HER2" location="result" />
+<GENE id="G2" spans="1721~1726" text="SMAD2" location="result" />
+<GENE id="G3" spans="1728~1733" text="SMAD3" location="result" />
+<GENE id="G4" spans="1735~1740" text="SMAD4" location="result" />
+<GENE id="G5" spans="1742~1747" text="SMAD7" location="result" />
+<GENE id="G6" spans="1753~1758" text="TGF-β" location="result" />
+<GENE id="G7" spans="1951~1956" text="TGF-β" location="result" />
+<GENE id="G8" spans="1974~1979" text="SMAD4" location="result" />
+<GENE id="G9" spans="1984~1989" text="SMAD7" location="result" />
+<GENE id="G10" spans="2743~2748" text="SMAD4" location="result" />
+<GENE id="G11" spans="2974~2979" text="SMAD4" location="result" />
+<GENE id="G12" spans="3481~3485" text="KRAS" location="background" />
+<GENE id="G13" spans="3487~3491" text="TP53" location="background" />
+<GENE id="G14" spans="3493~3499" text="CDKN2A" location="background" />
+<GENE id="G15" spans="3505~3510" text="SMAD4" location="background" />
+<GENE id="G16" spans="3748~3752" text="KRAS" location="result" />
+<GENE id="G17" spans="3833~3839" text="CDKN2A" location="result" />
+<GENE id="G18" spans="3932~3936" text="KRAS" location="result" />
+<GENE id="G19" spans="3941~3947" text="CDKN2A" location="result" />
+<GENE id="G20" spans="4045~4049" text="TP53" location="result" />
+<GENE id="G21" spans="4201~4205" text="TP53" location="result" />
+<GENE id="G22" spans="4332~4336" text="TP53" location="result" />
+<GENE id="G23" spans="4419~4423" text="TP53" location="result" />
+<GENE id="G24" spans="4497~4502" text="SMAD4" location="result" />
+<GENE id="G25" spans="4779~4783" text="TP53" location="result" />
+<GENE id="G26" spans="4788~4793" text="SMAD4" location="result" />
+<GENE id="G27" spans="4880~4884" text="TP53" location="result" />
+<GENE id="G28" spans="4970~4974" text="TP53" location="result" />
+<GENE id="G29" spans="5172~5177" text="SMAD4" location="result" />
+<GENE id="G30" spans="5485~5490" text="SMAD4" location="result" />
+<GENE id="G31" spans="5702~5706" text="KRAS" location="result" />
+<GENE id="G32" spans="5750~5756" text="PANC-1" location="result" />
+<GENE id="G33" spans="5777~5782" text="PANC1" location="result" />
+<GENE id="G34" spans="5816~5820" text="TP53" location="result" />
+<GENE id="G35" spans="6277~6283" text="PANC-1" location="result" />
+<GENE id="G36" spans="6294~6299" text="PANC1" location="result" />
+<GENE id="G37" spans="6357~6362" text="SMAD4" location="result" />
+<GENE id="G38" spans="6374~6380" text="PANC-1" location="result" />
+<GENE id="G39" spans="6384~6389" text="PANC1" location="result" />
+<GENE id="G40" spans="6656~6660" text="EGFR" location="result" />
+<GENE id="G41" spans="6662~6666" text="HER2" location="result" />
+<GENE id="G42" spans="6668~6673" text="SMAD2" location="result" />
+<GENE id="G43" spans="6675~6680" text="SMAD3" location="result" />
+<GENE id="G44" spans="6682~6687" text="SMAD4" location="result" />
+<GENE id="G45" spans="6689~6694" text="SMAD7" location="result" />
+<GENE id="G46" spans="6700~6705" text="TGF-β" location="result" />
+<GENE id="G47" spans="6759~6764" text="SMAD4" location="result" />
+<GENE id="G48" spans="6860~6865" text="SMAD2" location="result" />
+<GENE id="G49" spans="6866~6871" text="SMAD2" location="result" />
+<GENE id="G50" spans="6875~6880" text="SMAD3" location="result" />
+<GENE id="G51" spans="6881~6886" text="SMAD3" location="result" />
+<GENE id="G52" spans="6888~6893" text="SMAD7" location="result" />
+<GENE id="G53" spans="6897~6901" text="EGFR" location="result" />
+<GENE id="G54" spans="6902~6906" text="EGFR" location="result" />
+<GENE id="G55" spans="6913~6917" text="HER2" location="result" />
+<GENE id="G56" spans="6918~6922" text="HER2" location="result" />
+<GENE id="G57" spans="7021~7026" text="TGF-β" location="result" />
+<GENE id="G58" spans="7027~7031" text="SMAD" location="result" />
+<GENE id="G59" spans="7213~7218" text="SMAD4" location="result" />
+<GENE id="G60" spans="7325~7330" text="SMAD4" location="result" />
+<GENE id="G61" spans="7830~7835" text="SMAD4" location="result" />
+<GENE id="G62" spans="7872~7877" text="SMAD4" location="result" />
+<GENE id="G63" spans="8154~8159" text="SMAD4" location="result" />
+<GENE id="G64" spans="8304~8309" text="SMAD4" location="result" />
+<GENE id="G65" spans="8424~8429" text="SMAD4" location="result" />
+<GENE id="G66" spans="8613~8618" text="SMAD4" location="result" />
+<GENE id="G67" spans="12919~12923" text="HER2" location="result" />
+<GENE id="G68" spans="12928~12932" text="EGFR" location="result" />
+<GENE id="G69" spans="15257~15261" text="Bcl2" location="result" />
+<GENE id="G70" spans="15266~15275" text="Cyclin D1" location="result" />
+<GENE id="G71" spans="15307~15311" text="H2AX" location="result" />
+<GENE id="G72" spans="16388~16393" text="SMAD2" location="result" />
+<GENE id="G73" spans="16394~16399" text="SMAD2" location="result" />
+<GENE id="G74" spans="16403~16408" text="SMAD3" location="result" />
+<GENE id="G75" spans="16409~16414" text="SMAD3" location="result" />
+<GENE id="G76" spans="16419~16424" text="SMAD7" location="result" />
+<GENE id="G77" spans="16470~16474" text="H2AX" location="result" />
+<GENE id="G78" spans="16478~16483" text="Bcl-2" location="result" />
+<GENE id="G79" spans="16487~16492" text="SMAD2" location="result" />
+<GENE id="G80" spans="16493~16498" text="SMAD2" location="result" />
+<GENE id="G81" spans="16503~16512" text="Cyclin D1" location="result" />
+<GENE id="G82" spans="16558~16563" text="SMAD2" location="result" />
+<GENE id="G83" spans="16564~16569" text="SMAD2" location="result" />
+<GENE id="G84" spans="16612~16616" text="H2AX" location="result" />
+<GENE id="G85" spans="16621~16626" text="SMAD7" location="result" />
+<GENE id="G86" spans="16665~16669" text="H2AX" location="result" />
+<GENE id="G87" spans="16739~16743" text="EGFR" location="result" />
+<GENE id="G88" spans="16744~16748" text="EGFR" location="result" />
+<GENE id="G89" spans="16760~16764" text="H2AX" location="result" />
+<GENE id="G90" spans="16768~16773" text="Bcl-2" location="result" />
+<GENE id="G91" spans="16775~16784" text="Cyclin D1" location="result" />
+<GENE id="G92" spans="16789~16794" text="SMAD7" location="result" />
+<GENE id="G93" spans="16841~16845" text="EGFR" location="result" />
+<GENE id="G94" spans="16846~16850" text="EGFR" location="result" />
+<GENE id="G95" spans="16861~16866" text="γH2AX" location="result" />
+<GENE id="G96" spans="16852~16857" text="PD-L1" location="result" />
+<GENE id="G97" spans="16870~16875" text="Bcl-2" location="result" />
+<GENE id="G98" spans="16877~16886" text="Cyclin D1" location="result" />
+<GENE id="G99" spans="16890~16895" text="SMAD2" location="result" />
+<GENE id="G100" spans="16896~16901" text="SMAD2" location="result" />
+<GENE id="G101" spans="16905~16910" text="SMAD3" location="result" />
+<GENE id="G102" spans="16911~16916" text="SMAD3" location="result" />
+<GENE id="G103" spans="16922~16927" text="SMAD7" location="result" />
+<GENE id="G104" spans="16969~16974" text="γH2AX" location="result" />
+<GENE id="G105" spans="16978~16983" text="SMAD3" location="result" />
+<GENE id="G106" spans="16984~16989" text="SMAD3" location="result" />
+<GENE id="G107" spans="16994~16999" text="SMAD7" location="result" />
+<GENE id="G108" spans="17037~17041" text="EGFR" location="result" />
+<GENE id="G109" spans="17042~17046" text="EGFR" location="result" />
+<GENE id="G110" spans="17050~17055" text="γH2AX" location="result" />
+<GENE id="G111" spans="17060~17069" text="Cyclin D1" location="result" />
+<GENE id="G112" spans="17110~17115" text="γH2AX" location="result" />
+<GENE id="G113" spans="17120~17129" text="Cyclin D1" location="result" />
+<GENE id="G114" spans="17163~17168" text="SMAD4" location="result" />
+<GENE id="G115" spans="17473~17480" text="β-actin" location="result" />
+<GENE id="G116" spans="17485~17493" text="Lamin B1" location="result" />
+<GENE id="G117" spans="17760~17765" text="SMAD4" location="result" />
+<GENE id="G118" spans="17789~17794" text="SMAD2" location="result" />
+<GENE id="G119" spans="17795~17800" text="SMAD2" location="result" />
+<GENE id="G120" spans="17805~17810" text="SMAD4" location="result" />
+<GENE id="G121" spans="17868~17873" text="SMAD4" location="result" />
+<GENE id="G122" spans="17930~17935" text="SMAD2" location="result" />
+<GENE id="G123" spans="17936~17941" text="SMAD2" location="result" />
+<GENE id="G124" spans="17946~17951" text="SMAD4" location="result" />
+<GENE id="G125" spans="18002~18007" text="SMAD4" location="result" />
+<GENE id="G126" spans="18092~18097" text="SMAD2" location="result" />
+<GENE id="G127" spans="18098~18103" text="SMAD2" location="result" />
+<GENE id="G128" spans="18110~18115" text="SMAD3" location="result" />
+<GENE id="G129" spans="18116~18121" text="SMAD3" location="result" />
+<GENE id="G130" spans="18144~18149" text="SMAD4" location="result" />
+<GENE id="G131" spans="18209~18214" text="SMAD3" location="result" />
+<GENE id="G132" spans="18215~18220" text="SMAD3" location="result" />
+<GENE id="G133" spans="18245~18250" text="SMAD2" location="result" />
+<GENE id="G134" spans="18251~18256" text="SMAD2" location="result" />
+<GENE id="G135" spans="18261~18266" text="SMAD4" location="result" />
+<GENE id="G136" spans="18327~18332" text="SMAD3" location="result" />
+<GENE id="G137" spans="18333~18338" text="SMAD3" location="result" />
+<GENE id="G138" spans="18397~18402" text="SMAD3" location="result" />
+<GENE id="G139" spans="18403~18408" text="SMAD3" location="result" />
+<GENE id="G140" spans="18466~18471" text="SMAD2" location="result" />
+<GENE id="G141" spans="18472~18477" text="SMAD2" location="result" />
+<GENE id="G142" spans="18484~18489" text="SMAD3" location="result" />
+<GENE id="G143" spans="18490~18495" text="SMAD3" location="result" />
+<GENE id="G144" spans="18549~18554" text="SMAD4" location="result" />
+<GENE id="G145" spans="18743~18748" text="SMAD4" location="result" />
+<GENE id="G146" spans="18874~18879" text="Smad4" location="result" />
+<GENE id="G147" spans="19377~19381" text="EGFR" location="result" />
+<GENE id="G148" spans="19382~19386" text="HER2" location="result" />
+<GENE id="G149" spans="19417~19422" text="PD-L1" location="result" />
+<GENE id="G150" spans="19461~19465" text="Bcl2" location="result" />
+<GENE id="G151" spans="19485~19490" text="γH2AX" location="result" />
+<GENE id="G152" spans="19519~19528" text="Cyclin D1" location="result" />
+<GENE id="G153" spans="19597~19601" text="EGFR" location="result" />
+<GENE id="G154" spans="19602~19606" text="HER2" location="result" />
+<GENE id="G155" spans="19633~19636" text="AKT" location="result" />
+<GENE id="G156" spans="19637~19641" text="mTOR" location="result" />
+<GENE id="G157" spans="19646~19651" text="PD-L1" location="result" />
+<GENE id="G158" spans="19991~19996" text="HER-2" location="result" />
+<GENE id="G159" spans="19998~20002" text="EGFR" location="result" />
+<GENE id="G160" spans="20004~20008" text="ERK1" location="result" />
+<GENE id="G161" spans="20012~20015" text="AKT" location="result" />
+<GENE id="G162" spans="20017~20021" text="mTOR" location="result" />
+<GENE id="G163" spans="20027~20032" text="PD-L1" location="result" />
+<GENE id="G164" spans="20070~20073" text="AKT" location="result" />
+<GENE id="G165" spans="20074~20078" text="mTOR" location="result" />
+<GENE id="G166" spans="20083~20088" text="PD-L1" location="result" />
+<GENE id="G167" spans="20267~20271" text="EGFR" location="result" />
+<GENE id="G168" spans="20273~20278" text="HER-2" location="result" />
+<GENE id="G169" spans="20280~20283" text="AKT" location="result" />
+<GENE id="G170" spans="20288~20292" text="mTOR" location="result" />
+<GENE id="G171" spans="20389~20394" text="PD-L1" location="result" />
+<GENE id="G172" spans="20498~20501" text="AKT" location="result" />
+<GENE id="G173" spans="20502~20506" text="mTOR" location="result" />
+<GENE id="G174" spans="20605~20609" text="EGFR" location="result" />
+<GENE id="G175" spans="20610~20614" text="EGFR" location="result" />
+<GENE id="G176" spans="20618~20623" text="HER-2" location="result" />
+<GENE id="G177" spans="20624~20629" text="HER-2" location="result" />
+<GENE id="G178" spans="20633~20636" text="AKT" location="result" />
+<GENE id="G179" spans="20637~20640" text="AKT" location="result" />
+<GENE id="G180" spans="20647~20651" text="mTOR" location="result" />
+<GENE id="G181" spans="20652~20656" text="mTOR" location="result" />
+<GENE id="G182" spans="20740~20745" text="PD-L1" location="result" />
+<GENE id="G183" spans="20961~20965" text="ERK1" location="result" />
+<GENE id="G184" spans="21263~21268" text="SMAD2" location="result" />
+<GENE id="G185" spans="21270~21275" text="SMAD3" location="result" />
+<GENE id="G186" spans="21277~21282" text="SMAD4" location="result" />
+<GENE id="G187" spans="21284~21289" text="SMAD7" location="result" />
+<GENE id="G188" spans="21439~21444" text="SMAD2" location="result" />
+<GENE id="G189" spans="21446~21451" text="SMAD3" location="result" />
+<GENE id="G190" spans="21455~21460" text="SMAD4" location="result" />
+<GENE id="G191" spans="21464~21469" text="SMAD4" location="result" />
+<GENE id="G192" spans="21521~21526" text="SMAD7" location="result" />
+<GENE id="G193" spans="21624~21629" text="SMAD4" location="result" />
+<GENE id="G194" spans="21655~21660" text="SMAD7" location="result" />
+<GENE id="G195" spans="21717~21722" text="SMAD4" location="result" />
+<GENE id="G196" spans="21845~21850" text="SMAD2" location="result" />
+<GENE id="G197" spans="21852~21857" text="SMAD3" location="result" />
+<GENE id="G198" spans="21861~21866" text="SMAD4" location="result" />
+<GENE id="G199" spans="21870~21875" text="SMAD4" location="result" />
+<GENE id="G200" spans="21951~21956" text="SMAD7" location="result" />
+<GENE id="G201" spans="22019~22024" text="SMAD7" location="result" />
+<GENE id="G202" spans="22072~22077" text="SMAD2" location="result" />
+<GENE id="G203" spans="22136~22141" text="SMAD2" location="result" />
+<GENE id="G204" spans="22148~22153" text="SMAD4" location="result" />
+<GENE id="G205" spans="22353~22358" text="SMAD4" location="result" />
+<GENE id="G206" spans="22462~22467" text="SMAD4" location="result" />
+<GENE id="G207" spans="22670~22675" text="SMAD2" location="result" />
+<GENE id="G208" spans="22677~22682" text="SMAD3" location="result" />
+<GENE id="G209" spans="22687~22692" text="SMAD4" location="result" />
+<GENE id="G210" spans="22790~22795" text="SMAD2" location="result" />
+<GENE id="G211" spans="22796~22801" text="SMAD3" location="result" />
+<GENE id="G212" spans="22806~22811" text="SMAD4" location="result" />
+<GENE id="G213" spans="22999~23004" text="SMAD2" location="result" />
+<GENE id="G214" spans="23005~23010" text="SMAD2" location="result" />
+<GENE id="G215" spans="23017~23022" text="SMAD3" location="result" />
+<GENE id="G216" spans="23023~23028" text="SMAD3" location="result" />
+<GENE id="G217" spans="23051~23056" text="SMAD4" location="result" />
+<GENE id="G218" spans="23180~23185" text="SMAD4" location="result" />
+<GENE id="G219" spans="23211~23216" text="SMAD2" location="result" />
+<GENE id="G220" spans="23217~23222" text="SMAD2" location="result" />
+<GENE id="G221" spans="23229~23234" text="SMAD3" location="result" />
+<GENE id="G222" spans="23235~23240" text="SMAD3" location="result" />
+<GENE id="G223" spans="23439~23444" text="SMAD4" location="result" />
+<GENE id="G224" spans="23674~23679" text="SMAD4" location="result" />
+<GENE id="G225" spans="23805~23810" text="SMAD4" location="result" />
+<GENE id="G226" spans="23874~23879" text="SMAD4" location="result" />
+<GENE id="G228" spans="23995~24000" text="SMAD4" location="result" />
+<GENE id="G229" spans="24028~24033" text="SMAD4" location="result" />
+<GENE id="G230" spans="24125~24130" text="SMAD4" location="result" />
+<GENE id="G231" spans="24184~24189" text="SMAD4" location="result" />
+<GENE id="G232" spans="24297~24302" text="SMAD4" location="result" />
+<GENE id="G233" spans="24381~24386" text="SMAD4" location="result" />
+<GENE id="G234" spans="24632~24637" text="SMAD4" location="result" />
+<GENE id="G235" spans="24712~24717" text="SMAD4" location="result" />
+<GENE id="G236" spans="24896~24901" text="SMAD4" location="result" />
+<GENE id="G237" spans="24978~24983" text="SMAD4" location="result" />
+<GENE id="G238" spans="25049~25054" text="SMAD4" location="result" />
+<GENE id="G239" spans="25135~25140" text="SMAD4" location="result" />
+<GENE id="G240" spans="25199~25204" text="SMAD4" location="result" />
+<GENE id="G241" spans="25543~25548" text="SMAD4" location="result" />
+<GENE id="G242" spans="25552~25557" text="SMAD4" location="result" />
+<GENE id="G243" spans="25612~25617" text="SMAD4" location="result" />
+<GENE id="G244" spans="25844~25849" text="SMAD4" location="result" />
+<GENE id="G245" spans="25914~25919" text="SMAD4" location="result" />
+<GENE id="G246" spans="25998~26003" text="SMAD4" location="result" />
+<GENE id="G247" spans="26344~26349" text="SMAD4" location="result" />
+<GENE id="G248" spans="26367~26372" text="SMAD4" location="result" />
+<GENE id="G249" spans="26727~26732" text="SMAD4" location="result" />
+<GENE id="G250" spans="26766~26771" text="SMAD4" location="result" />
+<GENE id="G251" spans="26792~26797" text="SMAD4" location="result" />
+<GENE id="G252" spans="27095~27100" text="SMAD4" location="result" />
+<GENE id="G253" spans="27255~27260" text="SMAD4" location="result" />
+<GENE id="G254" spans="28152~28157" text="SMAD4" location="result" />
+<GENE id="G255" spans="28221~28226" text="SMAD4" location="result" />
+<GENE id="G256" spans="28332~28337" text="SMAD4" location="result" />
+<GENE id="G257" spans="28378~28383" text="SMAD4" location="result" />
+<GENE id="G258" spans="28410~28415" text="SMAD4" location="result" />
+<GENE id="G259" spans="28444~28449" text="SMAD4" location="result" />
+<GENE id="G260" spans="28500~28505" text="SMAD4" location="result" />
+<GENE id="G261" spans="28640~28645" text="SMAD4" location="result" />
+<GENE id="G262" spans="28780~28785" text="SMAD4" location="result" />
+<GENE id="G263" spans="28925~28930" text="SMAD4" location="result" />
+<GENE id="G264" spans="28965~28970" text="SMAD4" location="result" />
+<GENE id="G265" spans="29007~29012" text="SMAD4" location="result" />
+<GENE id="G266" spans="29394~29399" text="SMAD4" location="result" />
+<GENE id="G267" spans="29597~29602" text="SMAD4" location="result" />
+<GENE id="G268" spans="29714~29719" text="SMAD4" location="result" />
+<GENE id="G269" spans="29887~29892" text="SMAD4" location="result" />
+<GENE id="G270" spans="30064~30069" text="SMAD4" location="result" />
+<GENE id="G271" spans="30146~30151" text="SMAD4" location="result" />
+<GENE id="G272" spans="30343~30348" text="SMAD4" location="result" />
+<GENE id="G273" spans="30525~30530" text="SMAD4" location="result" />
+<GENE id="G274" spans="30586~30591" text="SMAD4" location="result" />
+<GENE id="G275" spans="30613~30618" text="SMAD4" location="result" />
+<GENE id="G276" spans="30879~30883" text="EGFR" location="result" />
+<GENE id="G277" spans="30890~30895" text="SMAD2" location="result" />
+<GENE id="G278" spans="30896~30901" text="SMAD2" location="result" />
+<GENE id="G279" spans="30905~30910" text="SMAD3" location="result" />
+<GENE id="G280" spans="30911~30916" text="SMAD3" location="result" />
+<GENE id="G281" spans="30918~30923" text="SMAD7" location="result" />
+<GENE id="G282" spans="30936~30941" text="SMAD4" location="result" />
+<GENE id="G283" spans="33380~33385" text="SMAD4" location="result" />
+<GENE id="G284" spans="33577~33582" text="SMAD7" location="result" />
+<GENE id="G285" spans="33639~33644" text="Ki-67" location="result" />
+<GENE id="G286" spans="33805~33810" text="Ki-67" location="result" />
+<GENE id="G287" spans="35726~35731" text="SMAD4" location="result" />
+<GENE id="G288" spans="35784~35788" text="EGFR" location="result" />
+<GENE id="G289" spans="35789~35793" text="EGFR" location="result" />
+<GENE id="G290" spans="35797~35802" text="HER-2" location="result" />
+<GENE id="G291" spans="35803~35808" text="HER-2" location="result" />
+<GENE id="G292" spans="35812~35815" text="AKT" location="result" />
+<GENE id="G293" spans="35816~35819" text="AKT" location="result" />
+<GENE id="G294" spans="35827~35831" text="mTOR" location="result" />
+<GENE id="G295" spans="35832~35836" text="mTOR" location="result" />
+<GENE id="G296" spans="35848~35853" text="PD-L1" location="result" />
+<GENE id="G297" spans="36005~36010" text="SMAD4" location="result" />
+<GENE id="G298" spans="36038~36043" text="SMAD7" location="result" />
+<GENE id="G299" spans="36142~36146" text="EGFR" location="result" />
+<GENE id="G300" spans="36147~36151" text="HER2" location="result" />
+<GENE id="G301" spans="36174~36177" text="AKT" location="result" />
+<GENE id="G302" spans="36178~36182" text="mTOR" location="result" />
+<GENE id="G303" spans="36187~36192" text="PD-L1" location="result" />
+<GENE id="G304" spans="36393~36398" text="SMAD4" location="result" />
+<GENE id="G305" spans="36483~36488" text="SMAD2" location="result" />
+<GENE id="G306" spans="36489~36494" text="SMAD3" location="result" />
+<GENE id="G307" spans="36499~36504" text="SMAD4" location="result" />
+<GENE id="G308" spans="36527~36532" text="SMAD7" location="result" />
+<GENE id="G309" spans="36664~36669" text="SMAD4" location="result" />
+<GENE id="G310" spans="36845~36849" text="EGFR" location="result" />
+<GENE id="G311" spans="36851~36856" text="HER-2" location="result" />
+<GENE id="G312" spans="36858~36861" text="AKT" location="result" />
+<GENE id="G313" spans="36867~36872" text="PD-L1" location="result" />
+<GENE id="G314" spans="36908~36912" text="mTOR" location="result" />
+<GENE id="G315" spans="36913~36917" text="mTOR" location="result" />
+<GENE id="G316" spans="36994~36999" text="SMAD4" location="result" />
+<GENE id="G317" spans="37059~37064" text="SMAD4" location="result" />
+<GENE id="G318" spans="37113~37117" text="EGFR" location="result" />
+<GENE id="G319" spans="37118~37121" text="AKT" location="result" />
+<GENE id="G320" spans="37122~37126" text="mTOR" location="result" />
+<GENE id="G321" spans="37131~37136" text="PD-L1" location="result" />
+<GENE id="G322" spans="37173~37178" text="Ki-67" location="result" />
+<GENE id="G323" spans="38047~38052" text="SMAD4" location="result" />
+<GENE id="G324" spans="38074~38079" text="SMAD4" location="result" />
+<GENE id="G325" spans="38118~38123" text="SMAD4" location="result" />
+<GENE id="G326" spans="38385~38390" text="SMAD4" location="result" />
+<GENE id="G327" spans="38548~38553" text="SMAD4" location="result" />
+<GENE id="G328" spans="38594~38598" text="EGFR" location="result" />
+<GENE id="G329" spans="38603~38607" text="HER2" location="result" />
+<GENE id="G330" spans="39380~39385" text="SMAD4" location="result" />
+<GENE id="G331" spans="39570~39575" text="SMAD4" location="result" />
+<GENE id="G332" spans="39856~39861" text="SMAD4" location="result" />
+<GENE id="G333" spans="40982~40987" text="SMAD4" location="result" />
+<GENE id="G334" spans="41102~41107" text="SMAD4" location="result" />
+<GENE id="G335" spans="41224~41229" text="SMAD7" location="result" />
+<GENE id="G336" spans="41493~41498" text="Ki-67" location="result" />
+<GENE id="G337" spans="43575~43579" text="EGFR" location="result" />
+<GENE id="G338" spans="43580~43584" text="EGFR" location="result" />
+<GENE id="G339" spans="43590~43594" text="HER2" location="result" />
+<GENE id="G340" spans="43595~43599" text="HER2" location="result" />
+<GENE id="G341" spans="43689~43694" text="SMAD4" location="result" />
+<GENE id="G342" spans="43699~43704" text="PD-L1" location="result" />
+<GENE id="G343" spans="43841~43845" text="mTOR" location="result" />
+<GENE id="G344" spans="43846~43850" text="mTOR" location="result" />
+<GENE id="G345" spans="43932~43935" text="AKT" location="result" />
+<GENE id="G346" spans="43936~43939" text="AKT" location="result" />
+<GENE id="G347" spans="43946~43950" text="mTOR" location="result" />
+<GENE id="G348" spans="43951~43955" text="mTOR" location="result" />
+<GENE id="G349" spans="44063~44068" text="Ki-67" location="result" />
+<GENE id="G350" spans="44207~44212" text="Ki-67" location="result" />
+<GENE id="G351" spans="44484~44489" text="SMAD4" location="result" />
+<GENE id="G352" spans="44603~44608" text="SMAD4" location="result" />
+<GENE id="G353" spans="44864~44869" text="SMAD4" location="result" />
+<GENE id="G354" spans="44919~44924" text="SMAD4" location="result" />
+<GENE id="G355" spans="45048~45053" text="SMAD4" location="result" />
+<GENE id="G356" spans="45127~45132" text="SMAD4" location="result" />
+<GENE id="G357" spans="45402~45407" text="SMAD4" location="result" />
+<GENE id="G358" spans="45455~45460" text="Smad4" location="result" />
+<GENE id="G359" spans="45472~45477" text="Smad4" location="result" />
+<GENE id="G360" spans="45548~45553" text="SMAD4" location="result" />
+<GENE id="G361" spans="45732~45737" text="SMAD4" location="result" />
+<GENE id="G362" spans="45748~45753" text="SMAD4" location="result" />
+<GENE id="G363" spans="46033~46038" text="SMAD4" location="result" />
+<GENE id="G364" spans="46257~46262" text="SMAD4" location="result" />
+<GENE id="G365" spans="50990~50995" text="SMAD4" location="result" />
+<GENE id="G366" spans="52521~52526" text="SMAD4" location="result" />
+<GENE id="G367" spans="52631~52636" text="SMAD4" location="result" />
+<GENE id="G368" spans="52832~52837" text="SMAD4" location="result" />
+<GENE id="G369" spans="53141~53146" text="SMAD4" location="result" />
+<GENE id="G370" spans="53228~53233" text="SMAD4" location="result" />
+<GENE id="G371" spans="53374~53379" text="SMAD4" location="result" />
+<GENE id="G372" spans="53536~53541" text="SMAD4" location="result" />
+<GENE id="G373" spans="53693~53698" text="SMAD4" location="result" />
+<GENE id="G374" spans="53823~53828" text="SMAD4" location="result" />
+<GENE id="G375" spans="54017~54023" text="TRIM33" location="result" />
+<GENE id="G376" spans="54061~54066" text="SMAD4" location="result" />
+<GENE id="G377" spans="54400~54405" text="SMAD4" location="result" />
+<GENE id="G378" spans="54496~54501" text="SMAD4" location="result" />
+<GENE id="G379" spans="54648~54653" text="SMAD4" location="result" />
+<GENE id="G380" spans="54745~54750" text="SMAD4" location="result" />
+<GENE id="G381" spans="54785~54790" text="SMAD4" location="result" />
+<GENE id="G382" spans="54837~54843" text="TRIM33" location="result" />
+<GENE id="G383" spans="55047~55052" text="SMAD4" location="result" />
+<GENE id="G384" spans="55151~55156" text="SMAD4" location="result" />
+<GENE id="G385" spans="55399~55404" text="SMAD4" location="result" />
+<GENE id="G386" spans="55488~55493" text="SMAD4" location="result" />
+<GENE id="G387" spans="55695~55700" text="SMAD4" location="result" />
+<GENE id="G388" spans="55901~55906" text="SMAD4" location="result" />
+<GENE id="G389" spans="55985~55991" text="TRIM33" location="result" />
+<GENE id="G390" spans="56067~56072" text="SMAD4" location="result" />
+<GENE id="G391" spans="56136~56142" text="TRIM33" location="result" />
+<GENE id="G392" spans="56244~56249" text="SMAD4" location="result" />
+<GENE id="G393" spans="56481~56486" text="SMAD4" location="result" />
+<GENE id="G394" spans="56607~56612" text="SMAD4" location="result" />
+<GENE id="G395" spans="56786~56791" text="SMAD4" location="result" />
+<GENE id="G396" spans="56795~56800" text="SMAD2" location="result" />
+<GENE id="G397" spans="56801~56806" text="SMAD2" location="result" />
+<GENE id="G398" spans="56808~56813" text="SMAD7" location="result" />
+<GENE id="G399" spans="56826~56829" text="AKT" location="result" />
+<GENE id="G400" spans="56830~56833" text="AKT" location="result" />
+<GENE id="G401" spans="56876~56881" text="SMAD4" location="result" />
+<GENE id="G402" spans="56885~56890" text="SMAD2" location="result" />
+<GENE id="G403" spans="56891~56896" text="SMAD2" location="result" />
+<GENE id="G404" spans="56906~56910" text="EGFR" location="result" />
+<GENE id="G405" spans="56911~56915" text="EGFR" location="result" />
+<GENE id="G406" spans="56922~56925" text="AKT" location="result" />
+<GENE id="G407" spans="56926~56929" text="AKT" location="result" />
+<GENE id="G408" spans="56969~56974" text="SMAD4" location="result" />
+<GENE id="G409" spans="56978~56983" text="SMAD2" location="result" />
+<GENE id="G410" spans="56984~56989" text="SMAD2" location="result" />
+<GENE id="G411" spans="56991~56996" text="SMAD7" location="result" />
+<GENE id="G412" spans="57003~57006" text="AKT" location="result" />
+<GENE id="G413" spans="57007~57010" text="AKT" location="result" />
+<GENE id="G414" spans="57046~57051" text="SMAD4" location="result" />
+<GENE id="G415" spans="57055~57060" text="SMAD2" location="result" />
+<GENE id="G416" spans="57061~57066" text="SMAD2" location="result" />
+<GENE id="G417" spans="57070~57074" text="EGFR" location="result" />
+<GENE id="G418" spans="57075~57079" text="EGFR" location="result" />
+<GENE id="G419" spans="57086~57089" text="AKT" location="result" />
+<GENE id="G420" spans="57090~57093" text="AKT" location="result" />
+<GENE id="G421" spans="57201~57205" text="EGFR" location="result" />
+<GENE id="G422" spans="57206~57210" text="EGFR" location="result" />
+<GENE id="G423" spans="57577~57586" text="Cyclin D3" location="result" />
+<GENE id="G424" spans="57591~57594" text="p27" location="result" />
+<GENE id="G425" spans="57634~57643" text="Cyclin D3" location="result" />
+<GENE id="G426" spans="57648~57651" text="p21" location="result" />
+<GENE id="G427" spans="57687~57690" text="p21" location="result" />
+<GENE id="G428" spans="57695~57698" text="p27" location="result" />
+<GENE id="G429" spans="57764~57773" text="Cyclin D3" location="result" />
+<GENE id="G430" spans="57775~57784" text="Cyclin B1" location="result" />
+<GENE id="G431" spans="57786~57790" text="CDK2" location="result" />
+<GENE id="G432" spans="57792~57798" text="p-CDC2" location="result" />
+<GENE id="G433" spans="57808~57811" text="p21" location="result" />
+<GENE id="G434" spans="57813~57816" text="p27" location="result" />
+<GENE id="G435" spans="57818~57827" text="Cyclin E2" location="result" />
+<GENE id="G436" spans="57832~57836" text="CDK4" location="result" />
+<GENE id="G437" spans="57879~57888" text="Cyclin D3" location="result" />
+<GENE id="G438" spans="57890~57894" text="CDK2" location="result" />
+<GENE id="G439" spans="57904~57907" text="p27" location="result" />
+<GENE id="G440" spans="57909~57918" text="Cyclin E2" location="result" />
+<GENE id="G441" spans="57923~57927" text="CDK4" location="result" />
+<GENE id="G442" spans="57971~57975" text="CDK2" location="result" />
+<GENE id="G443" spans="57982~57991" text="Cyclin E2" location="result" />
+<GENE id="G444" spans="57977~57980" text="p21" location="result" />
+<GENE id="G445" spans="57996~58000" text="CDK4" location="result" />
+<GENE id="G446" spans="58040~58049" text="Cyclin D3" location="result" />
+<GENE id="G447" spans="58051~58055" text="CDK2" location="result" />
+<GENE id="G448" spans="58065~58068" text="p27" location="result" />
+<GENE id="G449" spans="58070~58079" text="Cyclin E2" location="result" />
+<GENE id="G450" spans="58084~58088" text="CDK4" location="result" />
+<GENE id="G451" spans="58124~58133" text="Cyclin D3" location="result" />
+<GENE id="G452" spans="58135~58139" text="CDK2" location="result" />
+<GENE id="G453" spans="58141~58144" text="p21" location="result" />
+<GENE id="G454" spans="58148~58151" text="p27" location="result" />
+<GENE id="G455" spans="58190~58194" text="CDK2" location="result" />
+<GENE id="G456" spans="58196~58199" text="p21" location="result" />
+<GENE id="G457" spans="58201~58204" text="p27" location="result" />
+<GENE id="G458" spans="58208~58217" text="Cyclin E2" location="result" />
+<GENE id="G459" spans="58223~58229" text="TRIM33" location="result" />
+<GENE id="G460" spans="58231~58236" text="NF-κB" location="result" />
+<GENE id="G461" spans="58552~58557" text="SMAD4" location="result" />
+<GENE id="G462" spans="58559~58564" text="NF-kB" location="result" />
+<GENE id="G463" spans="58565~58568" text="p50" location="result" />
+<GENE id="G464" spans="58572~58577" text="NF-kB" location="result" />
+<GENE id="G465" spans="58578~58581" text="p65" location="result" />
+<GENE id="G466" spans="58582~58587" text="NF-kB" location="result" />
+<GENE id="G467" spans="58588~58591" text="p65" location="result" />
+<GENE id="G468" spans="58601~58610" text="Caspase 8" location="result" />
+<GENE id="G469" spans="58612~58616" text="FADD" location="result" />
+<GENE id="G470" spans="58618~58622" text="MCL1" location="result" />
+<GENE id="G471" spans="58624~58627" text="BAX" location="result" />
+<GENE id="G472" spans="58629~58633" text="BCL2" location="result" />
+<GENE id="G473" spans="58634~58637" text="BAX" location="result" />
+<GENE id="G474" spans="58642~58646" text="MCL1" location="result" />
+<GENE id="G475" spans="58647~58650" text="BAX" location="result" />
+<GENE id="G476" spans="58693~58698" text="SMAD4" location="result" />
+<GENE id="G477" spans="58700~58705" text="NF-kB" location="result" />
+<GENE id="G478" spans="58713~58718" text="NF-kB" location="result" />
+<GENE id="G479" spans="58719~58722" text="p65" location="result" />
+<GENE id="G480" spans="58723~58728" text="NF-kB" location="result" />
+<GENE id="G481" spans="58729~58732" text="p65" location="result" />
+<GENE id="G482" spans="58742~58751" text="Caspase 8" location="result" />
+<GENE id="G483" spans="58753~58757" text="FADD" location="result" />
+<GENE id="G484" spans="58801~58806" text="SMAD4" location="result" />
+<GENE id="G485" spans="58811~58815" text="FADD" location="result" />
+<GENE id="G486" spans="58855~58860" text="SMAD4" location="result" />
+<GENE id="G487" spans="58864~58869" text="NF-kB" location="result" />
+<GENE id="G488" spans="58870~58873" text="p65" location="result" />
+<GENE id="G489" spans="58874~58879" text="NF-kB" location="result" />
+<GENE id="G490" spans="58880~58883" text="p65" location="result" />
+<GENE id="G491" spans="58893~58902" text="Caspase 8" location="result" />
+<GENE id="G492" spans="58904~58907" text="BAX" location="result" />
+<GENE id="G493" spans="58909~58913" text="BCL2" location="result" />
+<GENE id="G494" spans="58914~58917" text="BAX" location="result" />
+<GENE id="G495" spans="58922~58926" text="MCL1" location="result" />
+<GENE id="G496" spans="58927~58930" text="BAX" location="result" />
+<GENE id="G497" spans="58966~58971" text="SMAD4" location="result" />
+<GENE id="G498" spans="58975~58980" text="NF-kB" location="result" />
+<GENE id="G499" spans="58981~58984" text="p65" location="result" />
+<GENE id="G500" spans="58985~58990" text="NF-kB" location="result" />
+<GENE id="G501" spans="58991~58994" text="p65" location="result" />
+<GENE id="G502" spans="59007~59016" text="Caspase 8" location="result" />
+<GENE id="G503" spans="59057~59062" text="NF-kB" location="result" />
+<GENE id="G504" spans="59063~59066" text="p65" location="result" />
+<GENE id="G505" spans="59067~59072" text="NF-kB" location="result" />
+<GENE id="G506" spans="59073~59076" text="p65" location="result" />
+<GENE id="G507" spans="59081~59085" text="MCL1" location="result" />
+<GENE id="G508" spans="59086~59089" text="BAX" location="result" />
+<GENE id="G509" spans="59155~59161" text="TRIM33" location="result" />
+<GENE id="G510" spans="59163~59168" text="NF-kB" location="result" />
+<GENE id="G511" spans="59169~59172" text="p50" location="result" />
+<GENE id="G512" spans="59174~59178" text="BCL2" location="result" />
+<GENE id="G513" spans="59180~59184" text="MCL1" location="result" />
+<GENE id="G514" spans="59190~59194" text="MCL1" location="result" />
+<GENE id="G515" spans="59195~59198" text="BAX" location="result" />
+<GENE id="G516" spans="59241~59246" text="NF-kB" location="result" />
+<GENE id="G517" spans="59247~59250" text="p50" location="result" />
+<GENE id="G518" spans="59252~59256" text="BCL2" location="result" />
+<GENE id="G519" spans="59258~59262" text="MCL1" location="result" />
+<GENE id="G520" spans="59267~59271" text="MCL1" location="result" />
+<GENE id="G521" spans="59272~59275" text="BAX" location="result" />
+<GENE id="G522" spans="59319~59324" text="NF-kB" location="result" />
+<GENE id="G523" spans="59376~59385" text="Caspase 8" location="result" />
+<GENE id="G524" spans="59387~59391" text="MCL1" location="result" />
+<GENE id="G525" spans="8996~9001" text="SMAD4" location="result" />
+<GENE id="G526" spans="9045~9050" text="SMAD4" location="result" />
+<GENE id="G528" spans="59463~59467" text="MCL1" location="result" />
+<GENE id="G529" spans="59449~59458" text="Caspase 8" location="result" />
+<GENE id="G530" spans="59493~59498" text="SMAD4" location="result" />
+<GENE id="G531" spans="59500~59506" text="TRIM33" location="result" />
+<GENE id="G532" spans="59397~59401" text="MCL1" location="result" />
+<GENE id="G533" spans="59402~59405" text="BAX" location="result" />
+<GENE id="G534" spans="59508~59511" text="P50" location="result" />
+<GENE id="G535" spans="59513~59516" text="P65" location="result" />
+<GENE id="G536" spans="59518~59522" text="FADD" location="result" />
+<GENE id="G537" spans="59524~59529" text="Bcl-2" location="result" />
+<GENE id="G538" spans="59531~59535" text="MCL1" location="result" />
+<GENE id="G539" spans="59543~59546" text="BAX" location="result" />
+<GENE id="G540" spans="59827~59832" text="NF-kB" location="result" />
+<GENE id="G541" spans="59833~59836" text="p50" location="result" />
+<GENE id="G542" spans="59838~59843" text="NF-kB" location="result" />
+<GENE id="G543" spans="59844~59847" text="p65" location="result" />
+<GENE id="G544" spans="59849~59856" text="TRIM 33" location="result" />
+<GENE id="G545" spans="59858~59862" text="FADD" location="result" />
+<GENE id="G546" spans="59864~59868" text="BcL2" location="result" />
+<GENE id="G547" spans="59870~59874" text="MCL1" location="result" />
+<GENE id="G548" spans="59880~59883" text="Bax" location="result" />
+<GENE id="G549" spans="59926~59931" text="NF-kB" location="result" />
+<GENE id="G550" spans="59932~59935" text="p50" location="result" />
+<GENE id="G551" spans="59937~59942" text="NF-kB" location="result" />
+<GENE id="G552" spans="59943~59946" text="p65" location="result" />
+<GENE id="G553" spans="59948~59955" text="TRIM 33" location="result" />
+<GENE id="G554" spans="59957~59961" text="MCL1" location="result" />
+<GENE id="G555" spans="59965~59968" text="Bax" location="result" />
+<GENE id="G556" spans="60012~60017" text="NF-kB" location="result" />
+<GENE id="G557" spans="60026~60030" text="MCL1" location="result" />
+<GENE id="G558" spans="60070~60075" text="SMAD4" location="result" />
+<GENE id="G559" spans="60077~60082" text="NF-kB" location="result" />
+<GENE id="G560" spans="60083~60086" text="p50" location="result" />
+<GENE id="G561" spans="60088~60093" text="NF-kB" location="result" />
+<GENE id="G562" spans="60094~60097" text="p65" location="result" />
+<GENE id="G563" spans="60099~60106" text="TRIM 33" location="result" />
+<GENE id="G564" spans="60108~60112" text="BcL2" location="result" />
+<GENE id="G565" spans="60114~60118" text="MCL1" location="result" />
+<GENE id="G566" spans="60124~60127" text="Bax" location="result" />
+<GENE id="G567" spans="60163~60168" text="SMAD4" location="result" />
+<GENE id="G568" spans="60170~60175" text="NF-kB" location="result" />
+<GENE id="G569" spans="60176~60179" text="p50" location="result" />
+<GENE id="G570" spans="60181~60188" text="TRIM 33" location="result" />
+<GENE id="G571" spans="60190~60194" text="BcL2" location="result" />
+<GENE id="G572" spans="60196~60200" text="MCL1" location="result" />
+<GENE id="G573" spans="60206~60209" text="Bax" location="result" />
+<GENE id="G574" spans="60276~60281" text="SMAD4" location="result" />
+<GENE id="G575" spans="60283~60288" text="NF-kB" location="result" />
+<GENE id="G576" spans="60289~60292" text="p50" location="result" />
+<GENE id="G577" spans="60294~60299" text="NF-kB" location="result" />
+<GENE id="G578" spans="60300~60303" text="p65" location="result" />
+<GENE id="G579" spans="60305~60312" text="TRIM 33" location="result" />
+<GENE id="G580" spans="60314~60318" text="FADD" location="result" />
+<GENE id="G581" spans="60323~60326" text="Bax" location="result" />
+<GENE id="G582" spans="60369~60374" text="SMAD4" location="result" />
+<GENE id="G583" spans="60376~60381" text="NF-kB" location="result" />
+<GENE id="G584" spans="60382~60385" text="p50" location="result" />
+<GENE id="G585" spans="60387~60392" text="NF-kB" location="result" />
+<GENE id="G586" spans="60393~60396" text="p65" location="result" />
+<GENE id="G587" spans="60398~60405" text="TRIM 33" location="result" />
+<GENE id="G588" spans="60407~60411" text="FADD" location="result" />
+<GENE id="G589" spans="60413~60417" text="BcL2" location="result" />
+<GENE id="G590" spans="60419~60423" text="MCL1" location="result" />
+<GENE id="G591" spans="60429~60432" text="Bax" location="result" />
+<GENE id="G592" spans="60476~60481" text="SMAD4" location="result" />
+<GENE id="G593" spans="60483~60488" text="NF-kB" location="result" />
+<GENE id="G594" spans="60489~60492" text="p65" location="result" />
+<GENE id="G595" spans="60494~60498" text="FADD" location="result" />
+<GENE id="G596" spans="60504~60507" text="Bax" location="result" />
+<GENE id="G597" spans="60547~60552" text="SMAD4" location="result" />
+<GENE id="G598" spans="60554~60559" text="NF-kB" location="result" />
+<GENE id="G599" spans="60560~60563" text="p50" location="result" />
+<GENE id="G600" spans="60565~60570" text="NF-kB" location="result" />
+<GENE id="G601" spans="60571~60574" text="p65" location="result" />
+<GENE id="G602" spans="60576~60580" text="FADD" location="result" />
+<GENE id="G603" spans="60586~60589" text="Bax" location="result" />
+<GENE id="G604" spans="60625~60630" text="SMAD4" location="result" />
+<GENE id="G605" spans="60632~60637" text="NF-kB" location="result" />
+<GENE id="G606" spans="60638~60641" text="p50" location="result" />
+<GENE id="G607" spans="60643~60648" text="NF-kB" location="result" />
+<GENE id="G608" spans="60649~60652" text="p65" location="result" />
+<GENE id="G609" spans="60654~60658" text="FADD" location="result" />
+<GENE id="G610" spans="60660~60664" text="BcL2" location="result" />
+<GENE id="G611" spans="60666~60670" text="MCL1" location="result" />
+<GENE id="G612" spans="60676~60679" text="Bax" location="result" />
+<GENE id="G613" spans="60718~60723" text="SMAD4" location="result" />
+<GENE id="G614" spans="60725~60729" text="FADD" location="result" />
+<GENE id="G615" spans="60731~60735" text="BcL2" location="result" />
+<GENE id="G616" spans="60737~60741" text="MCL1" location="result" />
+<GENE id="G617" spans="60747~60750" text="Bax" location="result" />
+<GENE id="G618" spans="60781~60786" text="SMAD4" location="result" />
+<GENE id="G619" spans="60792~60797" text="NF-κB" location="result" />
+<GENE id="G620" spans="60802~60808" text="TRIM33" location="result" />
+<GENE id="G621" spans="61005~61010" text="SMAD4" location="result" />
+<GENE id="G622" spans="61247~61252" text="SMAD4" location="result" />
+<GENE id="G623" spans="61905~61910" text="SMAD4" location="result" />
+<GENE id="G624" spans="61991~61996" text="SMAD4" location="result" />
+<GENE id="G625" spans="62067~62072" text="SMAD4" location="result" />
+<GENE id="G626" spans="62184~62189" text="SMAD4" location="result" />
+<GENE id="G627" spans="62194~62198" text="EGFR" location="result" />
+<GENE id="G628" spans="62199~62202" text="AKT" location="result" />
+<GENE id="G629" spans="62203~62207" text="mTOR" location="result" />
+<GENE id="G630" spans="62341~62345" text="EGFR" location="result" />
+<GENE id="G631" spans="62347~62351" text="EGFR" location="result" />
+<GENE id="G632" spans="62353~62359" text="p-HER2" location="result" />
+<GENE id="G633" spans="62365~62369" text="HER2" location="result" />
+<GENE id="G634" spans="62457~62460" text="AKT" location="result" />
+<GENE id="G635" spans="62461~62464" text="AKT" location="result" />
+<GENE id="G636" spans="62471~62475" text="mTOR" location="result" />
+<GENE id="G637" spans="62476~62480" text="mTOR" location="result" />
+<GENE id="G638" spans="62548~62551" text="AKT" location="result" />
+<GENE id="G639" spans="62552~62555" text="AKT" location="result" />
+<GENE id="G640" spans="62644~62649" text="SMAD4" location="result" />
+<GENE id="G641" spans="62653~62658" text="SMAD2" location="result" />
+<GENE id="G642" spans="62659~62664" text="SMAD2" location="result" />
+<GENE id="G643" spans="62668~62673" text="SMAD3" location="result" />
+<GENE id="G644" spans="62674~62679" text="SMAD3" location="result" />
+<GENE id="G645" spans="62720~62725" text="SMAD7" location="result" />
+<GENE id="G646" spans="63033~63038" text="SMAD4" location="result" />
+<GENE id="G647" spans="63105~63114" text="cyclin D3" location="result" />
+<GENE id="G648" spans="63116~63125" text="cyclin B1" location="result" />
+<GENE id="G649" spans="63127~63131" text="CDK2" location="result" />
+<GENE id="G650" spans="63138~63142" text="CDC2" location="result" />
+<GENE id="G651" spans="63159~63162" text="P27" location="result" />
+<GENE id="G652" spans="63149~63153" text="Wee1" location="result" />
+<GENE id="G653" spans="63277~63280" text="P21" location="result" />
+<GENE id="G654" spans="63282~63291" text="cyclin E2" location="result" />
+<GENE id="G655" spans="63296~63300" text="CDK4" location="result" />
+<GENE id="G656" spans="63481~63484" text="P65" location="result" />
+<GENE id="G657" spans="63486~63489" text="P65" location="result" />
+<GENE id="G658" spans="63495~63498" text="P50" location="result" />
+<GENE id="G659" spans="63508~63513" text="NF-κB" location="result" />
+<GENE id="G660" spans="63655~63660" text="SMAD4" location="result" />
+<GENE id="G661" spans="63709~63712" text="BAX" location="result" />
+<GENE id="G662" spans="63714~63718" text="FADD" location="result" />
+<GENE id="G663" spans="63732~63741" text="caspase-8" location="result" />
+<GENE id="G664" spans="63791~63796" text="Bcl-2" location="result" />
+<GENE id="G665" spans="63801~63805" text="MCL1" location="result" />
+<GENE id="G666" spans="63968~63973" text="Bcl-2" location="result" />
+<GENE id="G667" spans="63974~63977" text="BAX" location="result" />
+<GENE id="G668" spans="63982~63986" text="MCL1" location="result" />
+<GENE id="G669" spans="63987~63990" text="BAX" location="result" />
+<GENE id="G670" spans="64227~64232" text="SMAD4" location="result" />
+<GENE id="G671" spans="64261~64270" text="caspase-8" location="result" />
+<GENE id="G672" spans="64436~64441" text="Bcl-2" location="result" />
+<GENE id="G673" spans="64442~64445" text="BAX" location="result" />
+<GENE id="G674" spans="64450~64454" text="MCL1" location="result" />
+<GENE id="G675" spans="64455~64458" text="BAX" location="result" />
+<GENE id="G676" spans="64558~64563" text="SMAD4" location="result" />
+<GENE id="G677" spans="64568~64573" text="NF-κB" location="result" />
+<GENE id="G678" spans="64887~64890" text="BAX" location="result" />
+<GENE id="G679" spans="64892~64896" text="FADD" location="result" />
+<GENE id="G680" spans="64918~64923" text="Bcl-2" location="result" />
+<GENE id="G681" spans="64928~64932" text="MCL1" location="result" />
+<GENE id="G682" spans="64978~64983" text="NF-κB" location="result" />
+<GENE id="G683" spans="65024~65029" text="SMAD4" location="result" />
+<GENE id="G684" spans="65123~65126" text="P50" location="result" />
+<GENE id="G685" spans="65128~65131" text="P65" location="result" />
+<GENE id="G686" spans="65133~65136" text="BAX" location="result" />
+<GENE id="G687" spans="65142~65146" text="FADD" location="result" />
+<GENE id="G688" spans="65150~65155" text="SMAD4" location="result" />
+<GENE id="G689" spans="65239~65244" text="SMAD4" location="result" />
+<GENE id="G690" spans="65390~65395" text="SMAD4" location="result" />
+<GENE id="G691" spans="65436~65441" text="NF-κB" location="result" />
+<GENE id="G692" spans="65466~65469" text="BAX" location="result" />
+<GENE id="G693" spans="65474~65478" text="FADD" location="result" />
+<GENE id="G694" spans="65550~65555" text="Bcl-2" location="result" />
+<GENE id="G695" spans="65560~65564" text="MCL1" location="result" />
+<GENE id="G696" spans="65628~65633" text="NF-κB" location="result" />
+<GENE id="G697" spans="65657~65662" text="SMAD4" location="result" />
+<GENE id="G698" spans="65712~65717" text="SMAD4" location="result" />
+<GENE id="G699" spans="65810~65813" text="P50" location="result" />
+<GENE id="G700" spans="65815~65818" text="BAX" location="result" />
+<GENE id="G701" spans="65820~65825" text="Bcl-2" location="result" />
+<GENE id="G702" spans="65831~65835" text="MCL1" location="result" />
+<GENE id="G703" spans="65987~65992" text="NF-κB" location="result" />
+<GENE id="G704" spans="66009~66012" text="BAX" location="result" />
+<GENE id="G705" spans="66014~66019" text="Bcl-2" location="result" />
+<GENE id="G706" spans="66025~66029" text="MCL1" location="result" />
+<GENE id="G707" spans="66069~66074" text="SMAD4" location="result" />
+<GENE id="G708" spans="66080~66084" text="DTLL" location="result" />
+<GENE id="G709" spans="66093~66098" text="NF-κB" location="result" />
+<GENE id="G710" spans="66166~66171" text="SMAD4" location="result" />
+<GENE id="G711" spans="66529~66534" text="SMAD4" location="result" />
+<GENE id="G712" spans="66661~66666" text="SMAD4" location="result" />
+<GENE id="G713" spans="66703~66706" text="P50" location="result" />
+<GENE id="G714" spans="66711~66714" text="P65" location="result" />
+<GENE id="G715" spans="66747~66752" text="SMAD4" location="result" />
+<GENE id="G716" spans="66804~66809" text="NF-κB" location="result" />
+<GENE id="G717" spans="66981~66986" text="SMAD4" location="result" />
+<GENE id="G718" spans="66992~66995" text="P50" location="result" />
+<GENE id="G719" spans="67000~67003" text="P65" location="result" />
+<GENE id="G720" spans="67256~67261" text="NF-κB" location="result" />
+<GENE id="G721" spans="67384~67389" text="SMAD4" location="result" />
+<GENE id="G722" spans="67399~67404" text="NF-κB" location="result" />
+<GENE id="G723" spans="67427~67430" text="BAX" location="result" />
+<GENE id="G724" spans="67435~67439" text="FADD" location="result" />
+<GENE id="G725" spans="67522~67531" text="caspase-8" location="result" />
+<GENE id="G726" spans="67578~67583" text="NF-κB" location="result" />
+<GENE id="G727" spans="67606~67611" text="SMAD4" location="result" />
+<GENE id="G728" spans="67669~67674" text="Bcl-2" location="result" />
+<GENE id="G729" spans="67679~67683" text="MCL1" location="result" />
+<GENE id="G730" spans="67784~67793" text="caspase-8" location="result" />
+<GENE id="G731" spans="67830~67836" text="TRIM33" location="result" />
+<GENE id="G732" spans="67920~67926" text="TRIM33" location="result" />
+<GENE id="G733" spans="68093~68099" text="TRIM33" location="result" />
+<GENE id="G734" spans="68121~68126" text="SMAD4" location="result" />
+<GENE id="G735" spans="68188~68193" text="SMAD4" location="result" />
+<GENE id="G736" spans="68246~68252" text="TRIM33" location="result" />
+<GENE id="G737" spans="68285~68290" text="SMAD4" location="result" />
+<GENE id="G738" spans="68347~68352" text="SMAD4" location="result" />
+<GENE id="G739" spans="68357~68363" text="TRIM33" location="result" />
+<GENE id="G740" spans="68551~68557" text="TRIM33" location="result" />
+<GENE id="G741" spans="68708~68713" text="SMAD4" location="result" />
+<GENE id="G742" spans="68726~68732" text="TRIM33" location="result" />
+<GENE id="G743" spans="68809~68814" text="SMAD4" location="result" />
+<GENE id="G744" spans="68895~68901" text="TRIM33" location="result" />
+<GENE id="G745" spans="68989~68994" text="SMAD4" location="result" />
+<GENE id="G746" spans="69095~69100" text="SMAD4" location="result" />
+<GENE id="G747" spans="69154~69160" text="TRIM33" location="result" />
+<GENE id="G748" spans="69245~69251" text="TRIM33" location="result" />
+<GENE id="G749" spans="69348~69353" text="SMAD4" location="result" />
+<GENE id="G750" spans="69384~69389" text="SMAD4" location="result" />
+<GENE id="G751" spans="69461~69466" text="SMAD4" location="result" />
+<GENE id="G752" spans="69540~69546" text="TRIM33" location="result" />
+<GENE id="G753" spans="69689~69694" text="SMAD4" location="result" />
+<GENE id="G754" spans="69813~69818" text="SMAD4" location="result" />
+<GENE id="G755" spans="70617~70622" text="ABCC1" location="result" />
+<GENE id="G756" spans="70624~70627" text="CDA" location="result" />
+<GENE id="G757" spans="70629~70634" text="CDC5L" location="result" />
+<GENE id="G758" spans="70636~70641" text="CMPK1" location="result" />
+<GENE id="G759" spans="70643~70646" text="DCK" location="result" />
+<GENE id="G760" spans="70648~70652" text="DCTD" location="result" />
+<GENE id="G761" spans="70654~70658" text="NT5C" location="result" />
+<GENE id="G762" spans="70660~70665" text="NT5C2" location="result" />
+<GENE id="G763" spans="70667~70673" text="NT5C3A" location="result" />
+<GENE id="G764" spans="70675~70679" text="RRM1" location="result" />
+<GENE id="G765" spans="70681~70685" text="RRM2" location="result" />
+<GENE id="G766" spans="70691~70698" text="SLC29A1" location="result" />
+<GENE id="G767" spans="70711~70714" text="DCK" location="result" />
+<GENE id="G768" spans="70716~70720" text="DCTD" location="result" />
+<GENE id="G769" spans="70722~70727" text="NT5C2" location="result" />
+<GENE id="G770" spans="70732~70738" text="NT5C3A" location="result" />
+<GENE id="G771" spans="70934~70939" text="SMAD4" location="result" />
+<GENE id="G772" spans="70997~71002" text="SMAD4" location="result" />
+<GENE id="G773" spans="71150~71154" text="RRM2" location="result" />
+<GENE id="G774" spans="71365~71370" text="SMAD4" location="result" />
+<GENE id="G775" spans="71422~71427" text="SMAD4" location="result" />
+<GENE id="G776" spans="71665~71670" text="SMAD4" location="result" />
+<GENE id="G777" spans="71637~71641" text="RRM2" location="result" />
+<GENE id="G778" spans="71809~71814" text="SMAD4" location="result" />
+<DISEASE id="D0" spans="66~70" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="139~143" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="2824~2841" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="3566~3570" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="5567~5571" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="5629~5633" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="7375~7392" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="7733~7750" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="7894~7898" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="8648~8652" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="8938~8942" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="12652~12669" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="13724~13728" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="14996~15000" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="22337~22341" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="23888~23892" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="24136~24153" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="24211~24215" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="24773~24777" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="24992~24996" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="28161~28165" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="30640~30644" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="32115~32132" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="38947~38964" text="pancreatic-cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="40049~40066" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="52547~52551" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="62076~62080" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R4" spans="7356~7371" text="chemoresistance" location="result" relation="therapy resistance" />
+<RELATION id="R5" spans="3533~3562" text="tumorigenesis and progression" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="KRAS" diseaseID="D3" diseaseText="PDAC" relationID="R5" relationText="tumorigenesis and progression" />
+<ENTITY_LINKING id="E1" geneID="G13" geneText="TP53" diseaseID="D3" diseaseText="PDAC" relationID="R5" relationText="tumorigenesis and progression" />
+<ENTITY_LINKING id="E2" geneID="G14" geneText="CDKN2A" diseaseID="D3" diseaseText="PDAC" relationID="R5" relationText="tumorigenesis and progression" />
+<ENTITY_LINKING id="E3" geneID="G15" geneText="SMAD4" diseaseID="D3" diseaseText="PDAC" relationID="R5" relationText="tumorigenesis and progression" />
+<ENTITY_LINKING id="E4" geneID="G60" geneText="SMAD4" diseaseID="D6" diseaseText="pancreatic cancer" relationID="R4" relationText="chemoresistance" />
+</TAGS>
+</Genomics_ConceptTask>

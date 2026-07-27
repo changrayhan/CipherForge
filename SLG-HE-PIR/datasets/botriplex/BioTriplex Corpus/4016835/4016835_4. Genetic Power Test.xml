@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+We estimated the genetic power using the M235T polymorphism as an example; an 80% power should have to detect linkage between hypertension and T allele at type I error of 0.05 when the sample includes 211 cases and 211 controls. We also performed post hoc exploratory analyses to examine the relationships of the polymorphisms with cases and control subjects. Genetic power estimation showed that 211 cases and 211 controls had >80% power to detect linkage between M235T variant and hypertension in south Indian population.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="127~139" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="484~496" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

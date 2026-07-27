@@ -1,0 +1,94 @@
+2026-07-27 14:21:05,595 [INFO] attack_suite: Log file: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105/attack_test.log
+2026-07-27 14:21:05,595 [INFO] attack_suite: ============================================================
+2026-07-27 14:21:05,595 [INFO] attack_suite: Protocol initialisation (GPU mode, Llama-3.1-8B-I)
+2026-07-27 14:21:05,595 [INFO] attack_suite: ============================================================
+2026-07-27 14:21:05,597 [INFO] attack_suite: Patched _build_seal_context for poly_degree=2048
+2026-07-27 14:21:06,411 [INFO] attack_suite: Loading tokenizer from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+2026-07-27 14:21:09,416 [INFO] attack_suite: Loading TREC-QC dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc
+2026-07-27 14:21:09,574 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543, test=100
+2026-07-27 14:21:09,574 [INFO] attack_suite: Building BFV backend (poly_degree=2048, plain_bits=30, scale=10000.0, hidden_dim=2048)
+2026-07-27 14:21:09,580 [INFO] attack_suite: Building encrypted database …
+2026-07-27 14:21:09,581 [INFO] attack_suite: Loading hint table …
+2026-07-27 14:21:09,596 [INFO] attack_suite: Constructing HeterogeneousProtocol …
+2026-07-27 14:21:17,217 [INFO] attack_suite: PartyM BFV secret key loaded (poly_degree=2048)
+2026-07-27 14:21:19,075 [INFO] attack_suite: GPU protocol initialisation successful!
+2026-07-27 14:21:19,075 [INFO] attack_suite: ============================================================
+2026-07-27 14:21:19,075 [INFO] attack_suite: Phase 2: Attack Data Collection
+2026-07-27 14:21:19,075 [INFO] attack_suite: ============================================================
+2026-07-27 14:21:19,081 [INFO] attack_suite: Registered attack: M2 (S-side LoRA Fingerprint Detection (rank + direction))
+2026-07-27 14:21:19,085 [INFO] attack_suite: ============================================================
+2026-07-27 14:21:19,085 [INFO] attack_suite: Collecting real attack data via AttackProtocolWrapper
+2026-07-27 14:21:19,086 [INFO] attack_suite: ============================================================
+2026-07-27 14:21:19,087 [INFO] attack_suite: Running 200 training steps …
+2026-07-27 14:21:19,088 [INFO] attack_suite: Pre-LoRA warmup: disabled LoRA scaling on 56 _LoRALinear modules for the first 200 steps (= 800 samples in a_t_pre)
+2026-07-27 14:21:24,614 [INFO] attack_suite: Training step 1/200 completed (bundles=1)
+2026-07-27 14:21:39,462 [INFO] attack_suite: Training step 6/200 completed (bundles=6)
+2026-07-27 14:21:54,299 [INFO] attack_suite: Training step 11/200 completed (bundles=11)
+2026-07-27 14:22:09,068 [INFO] attack_suite: Training step 16/200 completed (bundles=16)
+2026-07-27 14:22:23,898 [INFO] attack_suite: Training step 21/200 completed (bundles=21)
+2026-07-27 14:22:39,229 [INFO] attack_suite: Training step 26/200 completed (bundles=26)
+2026-07-27 14:22:54,188 [INFO] attack_suite: Training step 31/200 completed (bundles=31)
+2026-07-27 14:23:09,070 [INFO] attack_suite: Training step 36/200 completed (bundles=36)
+2026-07-27 14:23:23,720 [INFO] attack_suite: Training step 41/200 completed (bundles=41)
+2026-07-27 14:23:38,643 [INFO] attack_suite: Training step 46/200 completed (bundles=46)
+2026-07-27 14:23:53,528 [INFO] attack_suite: Training step 51/200 completed (bundles=51)
+2026-07-27 14:24:08,293 [INFO] attack_suite: Training step 56/200 completed (bundles=56)
+2026-07-27 14:24:23,463 [INFO] attack_suite: Training step 61/200 completed (bundles=61)
+2026-07-27 14:24:38,316 [INFO] attack_suite: Training step 66/200 completed (bundles=66)
+2026-07-27 14:24:53,062 [INFO] attack_suite: Training step 71/200 completed (bundles=71)
+2026-07-27 14:25:08,034 [INFO] attack_suite: Training step 76/200 completed (bundles=76)
+2026-07-27 14:25:22,870 [INFO] attack_suite: Training step 81/200 completed (bundles=81)
+2026-07-27 14:25:37,693 [INFO] attack_suite: Training step 86/200 completed (bundles=86)
+2026-07-27 14:25:52,720 [INFO] attack_suite: Training step 91/200 completed (bundles=91)
+2026-07-27 14:26:07,533 [INFO] attack_suite: Training step 96/200 completed (bundles=96)
+2026-07-27 14:26:22,328 [INFO] attack_suite: Training step 101/200 completed (bundles=101)
+2026-07-27 14:26:37,177 [INFO] attack_suite: Training step 106/200 completed (bundles=106)
+2026-07-27 14:26:51,715 [INFO] attack_suite: Training step 111/200 completed (bundles=111)
+2026-07-27 14:27:07,387 [INFO] attack_suite: Training step 116/200 completed (bundles=116)
+2026-07-27 14:27:22,181 [INFO] attack_suite: Training step 121/200 completed (bundles=121)
+2026-07-27 14:27:37,130 [INFO] attack_suite: Training step 126/200 completed (bundles=126)
+2026-07-27 14:27:52,262 [INFO] attack_suite: Training step 131/200 completed (bundles=131)
+2026-07-27 14:28:07,090 [INFO] attack_suite: Training step 136/200 completed (bundles=136)
+2026-07-27 14:28:22,124 [INFO] attack_suite: Training step 141/200 completed (bundles=141)
+2026-07-27 14:28:37,022 [INFO] attack_suite: Training step 146/200 completed (bundles=146)
+2026-07-27 14:28:51,826 [INFO] attack_suite: Training step 151/200 completed (bundles=151)
+2026-07-27 14:29:06,867 [INFO] attack_suite: Training step 156/200 completed (bundles=156)
+2026-07-27 14:29:21,717 [INFO] attack_suite: Training step 161/200 completed (bundles=161)
+2026-07-27 14:29:36,645 [INFO] attack_suite: Training step 166/200 completed (bundles=166)
+2026-07-27 14:29:51,639 [INFO] attack_suite: Training step 171/200 completed (bundles=171)
+2026-07-27 14:30:06,224 [INFO] attack_suite: Training step 176/200 completed (bundles=176)
+2026-07-27 14:30:20,997 [INFO] attack_suite: Training step 181/200 completed (bundles=181)
+2026-07-27 14:30:35,319 [INFO] attack_suite: Training step 186/200 completed (bundles=186)
+2026-07-27 14:30:49,643 [INFO] attack_suite: Training step 191/200 completed (bundles=191)
+2026-07-27 14:31:04,304 [INFO] attack_suite: Training step 196/200 completed (bundles=196)
+2026-07-27 14:31:16,364 [INFO] attack_suite: Pre-LoRA warmup end: re-enabled LoRA scaling on 56 _LoRALinear modules (scaling = α/r = 2.0000)
+2026-07-27 14:31:16,370 [INFO] attack_suite: Collecting evaluation predictions for M-1 …
+2026-07-27 14:31:22,398 [INFO] attack_suite: M1: Saved offline data to /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105/m1
+2026-07-27 14:31:22,727 [INFO] attack_suite: ============================================================
+2026-07-27 14:31:22,727 [INFO] attack_suite: Phase 3: Running Attacks
+2026-07-27 14:31:22,727 [INFO] attack_suite: ============================================================
+2026-07-27 14:31:22,728 [INFO] attack_suite: Running M2 …
+2026-07-27 14:31:57,578 [INFO] attack_suite:   [??] M2/rank_fingerprint | rho_spectral_at_lora_rank=0.0000 (chance=9.5188), p=1.0000 | n=800 | ρ(r=8)=0.000 (null 95% quantile=9.519, σ_mp=0.0000e+00, n_above_thr=0/32). Permutation p=1.0000e+00. no rank edge; consistent with no LoRA [consistency gate] ρ_real=0.000 vs ρ_self=9.318, gap=-9.318 (consistency_z=-9.32σ) <0.5σ ⇒ single-statistic verdict underpowered; rerun with larger warmup_steps (current n_pre=800, n_post=800).
+2026-07-27 14:31:57,578 [INFO] attack_suite:   [??] M2/direction_fingerprint | projection_energy_in_deltaW=0.0000 (chance=0.0000), p=1.0000 | n=800 | ‖Δa_t projected on empirical ΔW top-r‖²=0.0000e+00 (null 95% quantile=0.0000e+00, p=1.0000e+00). Principal angle to post-update top-r = 83.47°. [consistency gate] observed=0.0000e+00 vs pre-self background=1.6213e-04, gap_z=-1.00σ <0.5σ ⇒ underpowered; rerun with larger warmup_steps (current n_pre=800).
+2026-07-27 14:31:57,578 [INFO] attack_suite:   [OK] M2/result_s_correlation | result_s_label_correlation=0.0917 (chance=0.0003), p=0.0002 | n=1600 | Max |r|=0.0917 (min p=2.4080e-04), Binomial aggregate: 9/192 p<0.05 (p=4.9312e-01).
+2026-07-27 14:31:57,578 [INFO] attack_suite:   [OK] M2/z_t_effective_rank | z_t_effective_rank=41.0000 (chance=8.0000) | n=1600 | Z_t effective rank=41, LoRA rank=8; far from LoRA rank.
+2026-07-27 14:31:57,578 [INFO] attack_suite:   [OK] M2/theoretical_analysis | direct_inversion_feasible=0.0000 (chance=0.5000) | n=800 | Direct inversion of Z @ V^T not feasible: V^T shape=(128256,2048), incompatible for standard matrix inversion.
+2026-07-27 14:31:57,578 [INFO] attack_suite:   [??] M2/m2_aggregate | m2_aggregate=0.0000 (chance=1.0000) | n=800 | Aggregate of rank=INCONCLUSIVE, direction=INCONCLUSIVE, result_s=PRIVACY_PRESERVED.
+2026-07-27 14:31:57,578 [INFO] attack_suite: ============================================================
+2026-07-27 14:31:57,578 [INFO] attack_suite: Phase 4: Generating Reports
+2026-07-27 14:31:57,578 [INFO] attack_suite: ============================================================
+2026-07-27 14:31:57,578 [INFO] attack_suite: JSON results: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105/attack_results.json
+2026-07-27 14:31:57,578 [INFO] attack_suite: Summary: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/summary_20260727_142105.json
+2026-07-27 14:31:57,579 [INFO] attack_suite: Log copied: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/log_20260727_142105.log
+2026-07-27 14:31:57,579 [INFO] attack_suite: ============================================================
+2026-07-27 14:31:57,579 [INFO] attack_suite: SUMMARY
+2026-07-27 14:31:57,579 [INFO] attack_suite: ============================================================
+2026-07-27 14:31:57,579 [INFO] attack_suite: GPU Used: Yes
+2026-07-27 14:31:57,579 [INFO] attack_suite: Total verdicts: 6
+2026-07-27 14:31:57,579 [INFO] attack_suite:   LEAK_DETECTED:     0
+2026-07-27 14:31:57,579 [INFO] attack_suite:   PRIVACY_PRESERVED: 3
+2026-07-27 14:31:57,579 [INFO] attack_suite:   INCONCLUSIVE:      3
+2026-07-27 14:31:57,579 [INFO] attack_suite: All attacks indicate privacy is preserved.
+2026-07-27 14:31:57,579 [INFO] attack_suite: ============================================================
+2026-07-27 14:31:57,579 [INFO] attack_suite: Output directory: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_142105
+2026-07-27 14:31:57,579 [INFO] attack_suite: ============================================================

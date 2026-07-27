@@ -1,0 +1,146 @@
+2026-07-21 18:34:43,643 [INFO] biotriplex_finetune: Logging to baseline/classification_genrel/logs/biotriplex_finetune_all_1784630083.log
+2026-07-21 18:34:43,643 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 18:34:43,643 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:34:43,643 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 18:34:43,643 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:34:43,643 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 18:34:45,517 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:01<07:57,  1.65s/it]Loading weights:  14%|█▎        | 40/291 [00:01<00:08, 29.08it/s]Loading weights:  18%|█▊        | 51/291 [00:02<00:08, 28.94it/s]Loading weights:  21%|██        | 60/291 [00:02<00:06, 34.67it/s]Loading weights:  23%|██▎       | 68/291 [00:02<00:06, 35.56it/s]Loading weights:  26%|██▌       | 76/291 [00:02<00:06, 32.65it/s]Loading weights:  31%|███▏      | 91/291 [00:03<00:04, 42.58it/s]Loading weights:  33%|███▎      | 97/291 [00:03<00:06, 31.82it/s]Loading weights:  37%|███▋      | 109/291 [00:03<00:04, 42.18it/s]Loading weights:  40%|███▉      | 116/291 [00:03<00:04, 35.45it/s]Loading weights:  42%|████▏     | 123/291 [00:04<00:05, 32.36it/s]Loading weights:  45%|████▍     | 130/291 [00:04<00:04, 37.42it/s]Loading weights:  47%|████▋     | 136/291 [00:04<00:03, 39.52it/s]Loading weights:  50%|████▉     | 145/291 [00:04<00:03, 43.15it/s]Loading weights:  52%|█████▏    | 151/291 [00:04<00:03, 38.38it/s]Loading weights:  54%|█████▍    | 157/291 [00:05<00:04, 31.48it/s]Loading weights:  57%|█████▋    | 166/291 [00:05<00:03, 39.14it/s]Loading weights:  60%|██████    | 175/291 [00:05<00:03, 35.47it/s]Loading weights:  63%|██████▎   | 184/291 [00:05<00:03, 34.64it/s]Loading weights:  65%|██████▍   | 188/291 [00:05<00:02, 35.22it/s]Loading weights:  66%|██████▋   | 193/291 [00:05<00:02, 37.63it/s]Loading weights:  69%|██████▉   | 202/291 [00:06<00:02, 39.33it/s]Loading weights:  73%|███████▎  | 211/291 [00:06<00:02, 35.81it/s]Loading weights:  76%|███████▌  | 220/291 [00:06<00:02, 33.78it/s]Loading weights:  79%|███████▊  | 229/291 [00:06<00:01, 36.79it/s]Loading weights:  82%|████████▏ | 238/291 [00:07<00:01, 45.14it/s]Loading weights:  85%|████████▍ | 247/291 [00:07<00:00, 44.55it/s]Loading weights:  88%|████████▊ | 256/291 [00:07<00:00, 44.50it/s]Loading weights:  91%|█████████ | 265/291 [00:07<00:00, 44.67it/s]Loading weights:  94%|█████████▍| 274/291 [00:07<00:00, 45.55it/s]Loading weights:  97%|█████████▋| 283/291 [00:08<00:00, 44.46it/s]Loading weights: 100%|██████████| 291/291 [00:08<00:00, 36.09it/s]
+2026-07-21 18:34:54,295 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 8.8s
+2026-07-21 18:34:57,077 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 18:34:57,089 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 18:34:59,376 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 18:35:07,943 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 18:35:07,944 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 18:35:07,944 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 18:35:07,944 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 18:35:08,678 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 18:35:08,678 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 18:35:08,680 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 18:35:08,693 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 18:35:08,693 [INFO] biotriplex_finetune: Stage 0 complete in 25.0s
+2026-07-21 18:35:08,693 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:35:08,693 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 18:35:08,693 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:35:09,746 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 18:35:09,782 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 18:35:09,792 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 18:35:09,802 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 18:35:09,804 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 18:35:09,811 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 18:35:09,814 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 18:35:09,814 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 18:35:09,814 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 18:35:14,190 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 18:35:22,751 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 18:35:22,760 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 18:35:22,760 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 18:35:22,778 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 18:35:22,778 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 18:35:22,783 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+2026-07-21 18:35:22,783 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 18:35:22,783 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-21 18:35:22,791 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 18:35:22,891 [INFO] src.model.model_splitting: SageAttention detected: sm_120 supported
+2026-07-21 18:35:22,893 [INFO] src.model.model_splitting: SageAttention3 FP4 (Blackwell) detected
+2026-07-21 18:35:22,893 [INFO] src.model.model_splitting: Using SageAttention3 FP4 for U shard (RTX 5090 Blackwell)
+2026-07-21 18:35:44,896 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=SageAttention3-FP4, gradient_checkpointing=True)
+2026-07-21 18:35:44,904 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+2026-07-21 18:35:44,904 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 18:35:44,904 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 18:35:44,906 [INFO] src.model.model_splitting: SageAttention3 FP4 (Blackwell) detected
+2026-07-21 18:35:44,906 [INFO] src.model.model_splitting: Using SageAttention3 FP4 for M shard (RTX 5090 Blackwell)
+2026-07-21 18:36:03,852 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (attn=flash_attention_2, gradient_checkpointing=True, deepspeed_zero=disabled)
+2026-07-21 18:36:03,861 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 18:36:03,862 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=1468, peak_lr=1.00e-04
+2026-07-21 18:36:03,862 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 18:36:03,862 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 18:36:03,863 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 18:36:04,053 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-21 18:36:04,066 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 18:36:04,067 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 18:36:04,067 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 41.3s (single CUDA context)
+2026-07-21 18:36:04,067 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 18:36:19,598 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 18:36:19,598 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 18:36:35,252 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 18:36:35,253 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 18:36:37,198 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 18:36:37,198 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 74.4s
+2026-07-21 18:36:37,199 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=2, batch=1, lr=0.0001, wd=0
+2026-07-21 18:36:37,199 [INFO] src.training.trainer: Starting training: epochs=2, patience=999, train=734, val=134
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 680, in <module>
+    main()
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 665, in main
+    all_results["1"] = run_stage1(args, logger)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 503, in run_stage1
+    result = trainer.train()
+             ^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/training/trainer.py", line 244, in train
+    epoch_metrics = self._run_epoch(epoch)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/training/trainer.py", line 304, in _run_epoch
+    result = self.ipc.step_train_chunked(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/heterogeneous_protocol.py", line 395, in step_train_chunked
+    u_result = self.party_u.forward_train(batch)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_u.py", line 176, in forward_train
+    H_U = self._u_forward(input_ids, attention_mask)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_u.py", line 202, in _u_forward
+    return self.model.forward(input_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/model/model_splitting.py", line 385, in forward
+    layer_out = torch.utils.checkpoint.checkpoint(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/_compile.py", line 51, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/checkpoint.py", line 488, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/checkpoint.py", line 263, in forward
+    outputs = run_function(*args)
+              ^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 316, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 276, in forward
+    attn_output, attn_weights = attention_interface(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/integrations/flash_attention.py", line 69, in flash_attention_forward
+    attn_output = _flash_attention_forward(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/modeling_flash_attention_utils.py", line 712, in _flash_attention_forward
+    (flash_fn, flash_varlen_fn, _, pad_fn, unpad_fn), process_flash_kwargs_fn = lazy_import_flash_attention(
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/modeling_flash_attention_utils.py", line 248, in lazy_import_flash_attention
+    _flash_fn, _flash_varlen_fn, _flash_with_kvcache_fn, _pad_fn, _unpad_fn = _lazy_imports(
+                                                                              ^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/modeling_flash_attention_utils.py", line 179, in _lazy_imports
+    kernel = load_and_register_attn_kernel(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/integrations/hub_kernels.py", line 329, in load_and_register_attn_kernel
+    raise ImportError(
+ImportError: `kernels` is either not installed or uses an incompatible version. Please install the latest version with `pip install -U kernels`.

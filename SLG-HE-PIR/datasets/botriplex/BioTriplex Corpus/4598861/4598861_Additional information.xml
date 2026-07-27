@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+  Liu, H.  et al . EZH2-mediated loss of miR-622 determines CXCR4 activation in hepatocellular carcinoma.  Nat. Commun.  6:8494 doi: 10.1038/ncomms9494 (2015).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="20~24" text="EZH2" location="result" />
+<GENE id="G1" spans="61~66" text="CXCR4" location="result" />
+<DISEASE id="D0" spans="81~105" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

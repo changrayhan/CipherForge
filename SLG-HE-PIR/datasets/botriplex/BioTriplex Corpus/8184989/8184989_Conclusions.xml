@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+We have launched what is probably the first multidisciplinary NF1 clinic system in Asia. For patients with NF1, which is a hereditary and systemic disease with a high incidence of malignant tumors, it would be a great relief to increase the number of such clinics in Japan and the rest of Asia.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="63~66" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D1" spans="108~111" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+</TAGS>
+</Genomics_ConceptTask>

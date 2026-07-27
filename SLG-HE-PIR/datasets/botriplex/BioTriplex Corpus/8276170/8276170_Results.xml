@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PI3K/AKT Pathway Is Upregulated in Advanced BCC Tumors
+To assess alternative pathways that may drive BCC tumor growth, we reanalyzed our bulk-level RNA-sequencing (RNA-seq) data of 14 matched tumor-normal pairs of advanced and SMO inhibitor-resistant BCC samples ( 22 ,  48 ). Differential gene expression analysis across the 14 tumor-normal pairs identified 1602 genes that were upregulated by two-fold or more in the resistant BCC tumors compared to their normal skin counterparts ( 48 ). Database analysis of the upregulated genes with the Kyoto Encyclopedia of Genes and Genomes (KEGG) showed the expected upregulation of the cell cycle, HH pathway, and BCC-associated genes ( Figure 1A 
+ 
+ ,  Supplementary Data 1 
+ 
+ ). Another term that was significantly enriched was the PI3K/AKT pathway ( Figure 1A 
+ 
+  and  Supplementary Data 1 
+ 
+ ). Analogously, Kinase Enrichment Analysis (KEA) ( 49 ) linked many of the upregulated genes with kinases that are closely associated with PI3K/AKT signaling, such as MAPK, AKT, GSK3β, CSNK, S6K, and PRKCB ( Figure 1B 
+ 
+  and  Supplementary Data 1 
+ 
+ ). Close analysis of the PI3K pathway gene expression showed many components and downstream targets significantly upregulated in most tumors, including GRB2, PLCG1, and RPS6KA1 ( Figure 1C 
+ 
+  and  Supplementary Data 2 
+ 
+ ).
+PIK3CA Is Upregulated in Human and Mouse BCC Tumors
+To validate whether PI3K pathway upregulation in BCC tumors is consistent at the protein level, we measured the expression of the catalytic subunit PIK3CA in human nodular BCC tumors and normal epidermis using immunofluorescence staining. We observed that tumors displayed significantly enhanced expression of PIK3CA compared to normal epidermis ( Figures 2A, B 
+ 
+ ). To analyze Pik3ca expression in mice, we utilized a  fl/fl ; Gli1-Cre ERT2 Ptch1  mouse model in which BCC microtumors arise from the hair follicle, secondary hair germ, and the touch dome in the interfollicular epidermis ( 50 ). BCC tumors were grown for five weeks post-Cre induction and formed predominantly from the hair follicle regions. Similar to our observations in human BCC tumors, we also observed a significant increase in Pik3ca expression in mouse BCC tumors compared to both normal epithelium and the hair follicle ( Figures 2C, D 
+ 
+ ). Together, these results suggest that PI3K pathway activity is upregulated in human and mouse BCC tumors.
+Inhibition of PI3K Suppresses Growth and Hh Signaling in BCC Cells  In Vitro 
+
+To assess whether upregulation of the PI3K pathway signaling affects growth and HH signaling in BCCs, we assayed ASZ001 mouse BCC cells with two PI3K inhibitors, BKM120 and LY294002. BKM120 acts as an allosteric inhibitor of PI3K ( 51 ) while LY294002 acts as an ATP-competitive inhibitor ( 52 ). Treatment of ASZ001 cells with BKM120 and LY294002 both significantly decreased HH signaling as assayed by  Gli1  mRNA expression ( Figure 3A 
+ 
+ ). Additionally, treatment of ASZ001 cells with BKM120 and LY294002 both resulted in complementary and dose-dependent reduction of tumor cell growth over time ( Figures 3B, C 
+ 
+ ). A significant increase in Casp3-mediated apoptosis was also observed upon BKM120 inhibition, with the proliferation marker Mki67 trending downward ( Figures 3D–F 
+ 
+ ). Together, these results show that the PI3K pathway promotes BCC cell growth upstream of the HH pathway.
+Inhibition of PI3K Suppresses Growth but Not Hh Signaling in BCC Tumors  In Vivo 
+
+To evaluate whether inhibition of PI3K can serve as an effective therapeutic strategy in attenuating BCC tumors, we generated BCC tumors in the  fl/fl ; Gli1-Cre ERT2 Ptch1  mouse model and intraperitoneally injected either DMSO or 10 mg/kg of BKM120 daily for seven days. Histological staining of the dorsal skin of BKM120-treated mice showed a significant reduction in total tumor size compared to DMSO controls ( Figures 4A, B 
+ 
+ ). Interestingly, Gli1 protein expression was not altered in BKM120-treated mice ( Figures 4C, D 
+ 
+ ), suggesting that the PI3K operates downstream or in parallel to the HH pathway  in vivo , a result that is similar to Mtor inhibition ( 48 ). The discrepancy between our  in vitro  and  in vivo  results may indicate that the tumor microenvironment alters how the PI3K pathway functions in relation to the HH pathway.
+To further define how the PI3K pathway functions  in vivo , we assayed that status of aPKC, a Gli1 kinase that is necessary for high sustained Gli1 activity ( 29 ). Atypical PKCs are activated downstream of PI3K by Pdk1-dependent phosphorylation at T410 in a variety of cell types ( 53 ,  54 ). While we observed a slight increase in total aPKC immunostaining in BKM120-treated mouse BCC tumors, phosphorylation at T410 was significantly reduced ( Figures 4C, D 
+ 
+ ), indicating suppressed kinase activity. Although aPKC phosphorylates and activates Gli1 at residue T304 ( 29 ), we observed no change in p-T304 Gli1 expression ( Figures 4C, D 
+ 
+ ), reinforcing the possibility of PI3K’s role outside of HH signaling and suggesting that aPKC likely exerts its effects on another substrate. Akt1 is also activated downstream of PI3K by Pdk1-dependent phosphorylation at T308 ( 55 ), and we found a significant reduction in both total and p-T308 Akt1 expression in BKM120-treated mouse BCC tumors ( Figures 4E, F 
+ 
+ ). As both aPKC and Akt1 facilitate the degradation of cyclin-dependent kinase inhibitor p21 by phosphorylating T145 ( 56 – 58 ), we assayed p21 protein expression and found a substantial increase in p21 stability and a corresponding decrease in p21 phosphorylation ( Figures 4E, F 
+ 
+ ). Altogether, our data suggests PI3K likely facilitates BCC tumor growth by promoting cell cycle progression through aPKC- and Akt1-mediated p21 degradation.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="228~231" text="SMO" location="result" />
+<GENE id="G1" spans="1011~1015" text="MAPK" location="result" />
+<GENE id="G2" spans="1017~1020" text="AKT" location="result" />
+<GENE id="G3" spans="1022~1027" text="GSK3β" location="result" />
+<GENE id="G4" spans="1029~1033" text="CSNK" location="result" />
+<GENE id="G6" spans="1035~1038" text="S6K" location="result" />
+<GENE id="G7" spans="1044~1049" text="PRKCB" location="result" />
+<GENE id="G8" spans="1249~1253" text="GRB2" location="result" />
+<GENE id="G9" spans="1255~1260" text="PLCG1" location="result" />
+<GENE id="G10" spans="1266~1273" text="RPS6KA1" location="result" />
+<GENE id="G11" spans="1324~1330" text="PIK3CA" location="result" />
+<GENE id="G12" spans="1524~1530" text="PIK3CA" location="result" />
+<GENE id="G13" spans="1686~1692" text="PIK3CA" location="result" />
+<GENE id="G14" spans="1756~1762" text="Pik3ca" location="result" />
+<GENE id="G15" spans="1806~1810" text="Gli1" location="result" />
+<GENE id="G16" spans="1820~1825" text="Ptch1" location="result" />
+<GENE id="G17" spans="2180~2186" text="Pik3ca" location="result" />
+<GENE id="G18" spans="2627~2631" text="PI3K" location="result" />
+<GENE id="G19" spans="2707~2711" text="PI3K" location="result" />
+<GENE id="G20" spans="2887~2891" text="Gli1" location="result" />
+<GENE id="G21" spans="3133~3138" text="Casp3" location="result" />
+<GENE id="G22" spans="3230~3235" text="Mki67" location="result" />
+<GENE id="G23" spans="3394~3398" text="PI3K" location="result" />
+<GENE id="G24" spans="3497~3501" text="PI3K" location="result" />
+<GENE id="G25" spans="3616~3620" text="Gli1" location="result" />
+<GENE id="G26" spans="3630~3635" text="Ptch1" location="result" />
+<GENE id="G27" spans="3915~3919" text="Gli1" location="result" />
+<GENE id="G28" spans="4021~4025" text="PI3K" location="result" />
+<GENE id="G29" spans="4118~4122" text="Mtor" location="result" />
+<GENE id="G32" spans="4411~4415" text="Gli1" location="result" />
+<GENE id="G33" spans="4532~4536" text="Pdk1" location="result" />
+<GENE id="G34" spans="4868~4872" text="Gli1" location="result" />
+<GENE id="G35" spans="4929~4933" text="Gli1" location="result" />
+<GENE id="G36" spans="5145~5149" text="PI3K" location="result" />
+<GENE id="G37" spans="5153~5157" text="Pdk1" location="result" />
+<GENE id="G38" spans="5262~5266" text="Akt1" location="result" />
+<GENE id="G39" spans="5353~5357" text="Akt1" location="result" />
+<GENE id="G40" spans="5422~5425" text="p21" location="result" />
+<GENE id="G41" spans="5474~5477" text="p21" location="result" />
+<GENE id="G42" spans="5533~5536" text="p21" location="result" />
+<GENE id="G43" spans="5579~5582" text="p21" location="result" />
+<GENE id="G44" spans="5652~5656" text="PI3K" location="result" />
+<GENE id="G45" spans="5747~5751" text="Akt1" location="result" />
+<GENE id="G46" spans="5761~5764" text="p21" location="result" />
+<DISEASE id="D0" spans="45~48" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="102~105" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="252~255" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="430~433" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="659~662" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1365~1368" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1425~1428" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1548~1551" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1848~1851" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1975~1978" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2125~2128" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2207~2210" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2391~2394" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2460~2463" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2608~2611" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3336~3339" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3441~3444" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3564~3567" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4701~4704" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="5302~5305" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3589~3592" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="2578~2581" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1334~1345" text="Upregulated" location="result" relation="increased expression" />
+<RELATION id="R1" spans="2168~2179,2187~2197" text="increase in ... expression" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G17" geneText="Pik3ca" diseaseID="D11" diseaseText="BCC" relationID="R1" relationText="increase in ... expression" />
+<ENTITY_LINKING id="E1" geneID="G11" geneText="PIK3CA" diseaseID="D5" diseaseText="BCC" relationID="R0" relationText="Upregulated" />
+</TAGS>
+</Genomics_ConceptTask>

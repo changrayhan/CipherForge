@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: CircZNF609 enhances hepatocellular carcinoma cell proliferation, metastasis, and stemness by activating the Hedgehog pathway through the regulation of miR-15a-5p/15b-5p and GLI2 expressions.
+Abstract: Emerging evidence has revealed that aberrantly expressed circular RNAs (circRNAs) play vital roles in tumorigenesis and progression of diverse human malignancies. Although an existing literature has elucidated the regulatory role of circZNF609 in breast cancer, the crucial function that circZNF609 exerted on hepatocellular carcinoma (HCC) remains unclear. Herein, we determined to explore the molecular mechanism of circZNF609 in HCC. In this study, circZNF609 was conspicuously overexpressed and featured with loop structure in HCC. Functional tests revealed that decreased expression of circZNF609 suppressed cell proliferation, metastasis and stemness, whereas induced cell apoptosis in HCC. Subsequent molecular mechanism assays indicated that circZNF609 contributed to HCC progression through activation of Hedgehog pathway. Moreover, circZNF609 was found to be negatively correlated with miR-15a-5p/15b-5p but positively correlated with GLI2. Moreover, there was a negative correlation between miR-15a-5p/15b-5p and GLI2. Rescue experiments testified that GLI2 overexpression could recover circZNF609 depletion-mediated function on HCC development while miR-15a-5p/15b-5p inhibition could partially rescue circZNF609 silencing-mediated effect on HCC progression. Final experiments in vivo further elucidated the suppressive function of circZNF609 knockdown on the tumorigenesis of HCC. Briefly, circZNF609 enhances HCC cell proliferation, metastasis, and stemness by activating the Hedgehog pathway through the regulation of miR-15a-5p/15b-5p and GLI2 expressions.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="181~185" text="GLI2" location="result" />
+<GENE id="G1" spans="1154~1158" text="GLI2" location="result" />
+<GENE id="G2" spans="1233~1237" text="GLI2" location="result" />
+<GENE id="G3" spans="1273~1277" text="GLI2" location="result" />
+<GENE id="G4" spans="1764~1768" text="GLI2" location="result" />
+<DISEASE id="D0" spans="28~52" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="456~469" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="519~543" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="545~548" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="641~644" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="740~743" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="901~904" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="985~988" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1349~1352" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1463~1466" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1598~1601" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1632~1635" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

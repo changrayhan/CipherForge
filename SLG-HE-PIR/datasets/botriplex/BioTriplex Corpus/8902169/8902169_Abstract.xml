@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Downregulation of Three Novel miRNAs in the Lymph Nodes of Sheep Immunized With the Brucella suis Strain 2 Vaccine.
+Abstract: Ovine and caprine brucellosis, both caused by  Brucella melitensis , lead to substantial economic losses in the animal industry and health problems in human populations.  Brucella suis  strain 2 ( B.suis S2 ), as a live attenuated vaccine, is used extensively in China to prevent brucellosis. It has been proven that microRNA (miRNAs) are involved in the immunopathogenesis of brucellosis; however, the miRNA-driven mechanism of immune response to  B.suis  S2  in vivo  remains unknown. To determine which new miRNAs are involved in the host immune response to  B.suis  S2 and elucidate the function of these miRNAs, we performed a comprehensive analysis of miRNA expression profiles in sheep immunized with  B.suis  S2 using the high-throughput sequencing approach. The submandibular lymphatic nodes from sheep seropositive for  Brucella  were collected at 7, 14, 21, 30, 60 and 90 days post-immunization. MiRNA sequencing analysis revealed that 282 differentially expressed miRNAs (|log 2  fold-change |>0.5 and  p  < 0.05) were significantly enriched in the immune pathways, including the NF-kappa B signaling pathway, B cell receptor signaling pathway, p53 signaling pathway and complement and coagulation cascades. Increasing the threshold to |log 2  fold change|>1 and  p  < 0.01 revealed 48 differentially expressed miRNAs, 31 of which were novel miRNAs. Thirteen of these novel miRNAs, which were differentially expressed for at least two time points, were detected via RT-qPCR assays. The novel_229, novel_609, novel_973 and oar-miR-181a assessed by RT-qPCR were detectable and consistent with the expression patterns obtained by miRNA sequencing. Functional analyses of these miRNAs demonstrated that their target genes participated in the immune response pathways, including the innate and adaptive immunity pathways. The immune-related target genes of novel_229 included  ENSOARG00000000649  and  TMED1 , as well as  LCN2, PDPK1  and  LPO  were novel_609 target genes. The immune-related target genes of novel_973 included  C6orf58, SPPL3, BPIFB1, ENSOARG00000021083, MPTX1, CCL28, FGB, IDO1, OLR1  and  ENSOARG00000020393 . The immune-related target genes of oar-miR-181a included  ENSOARG00000002722, ARHGEF2, MFAP4 and DOK2 . These results will deepen our understanding of the host miRNA-driven defense mechanism in sheep immunized with  B.suis  S2 vaccine, and provide the valuable information for optimizing vaccines and developing molecular diagnostic targets.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2043~2048" text="TMED1" location="result" />
+<GENE id="G1" spans="2214~2219" text="MPTX1" location="result" />
+<GENE id="G2" spans="2221~2226" text="CCL28" location="result" />
+<GENE id="G3" spans="2228~2231" text="FGB" location="result" />
+<GENE id="G4" spans="2233~2237" text="IDO1" location="result" />
+<GENE id="G5" spans="2239~2243" text="OLR1" location="result" />
+<GENE id="G6" spans="2349~2356" text="ARHGEF2" location="result" />
+<GENE id="G7" spans="2358~2363" text="MFAP4" location="result" />
+<GENE id="G8" spans="2368~2372" text="DOK2" location="result" />
+<DISEASE id="D0" spans="152~163" text="brucellosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="414~425" text="brucellosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="511~522" text="brucellosis" location="background" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

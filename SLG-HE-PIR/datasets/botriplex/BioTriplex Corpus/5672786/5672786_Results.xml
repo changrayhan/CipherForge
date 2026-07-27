@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Bacterial communities in GCF of individuals with and without periodontitis
+Following parallel sequencing of the 31 GCF samples, 150,990 high-quality reads were obtained. Clustering of all the qualified sequences at a 97% similarity level generated 2,322 OTUs, and more than 62% were shared by the healthy and periodontitis groups (Venn diagram inset in Figure  1 ). α - diversity was similar between individuals with and without periodontitis ( P  > 0.05). However, β-diversity comparisons displayed a significant difference between the healthy and periodontitis groups in CAP plots (Figure  1 ).
+The sequences were further divided into 13 phyla, 22 classes, 38 orders, 79 families, 154 genera, and 510 species. The majority of OTUs belonged to five major phyla (average ≥5%), including  Bacteroidetes, Firmicutes, Proteobacteria, Fusobacteria , and  Actinobacteria  (Supplementary Table  2 ). The differences in the bacterial community composition were found at all taxonomic levels, including two minor phyla, four classes, six orders, eight families, 14 genera, and 43 species with significantly ( P  < 0.05) different relative abundance in the periodontitis group compared with the healthy group (Figure  2 ).
+Different bacterial distribution patterns in GCF of individuals with and without periodontitis
+To determine if there was a difference in the microbial communities between the GCF of individuals with and without periodontitis, Schoener's abundance-based co-occurrence probability analyses were performed for each group of genera. Two heatmaps (Figures  3A,B ) from the resulting Schoener's index matrixes (Supplementary Tables  3 ,  4 ) were drawn to visually assess the bacterial structure within each group. All genera in each group were assembled into two clusters from the root of a dendrogram based on the similarity of their co-occurrence probabilities.
+The analyses revealed a genera co-occurrence in the GCF of the periodontitis group compared to the GCF of the healthy group. For example, the genus  Peptostreptococcaceae _XI_G_1 showed a significantly increased co-occurrence with other genera ( P  < 0.01). The Schoener's index values between  Peptostreptococcaceae _XI_G_1 and  Bacillus  increased 3.7-fold in the GCF of individuals with periodontitis. However, the co-occurrence of the genus  Leptotrichiaceae _G_1 with other genera significantly decreased ( P  < 0.01). The Schoener's index values between  Leptotrichiaceae _G_1 and another two genera ( Leptotrichia  and  Aggregatibacter ) decreased 4.32- and 55-fold, respectively, in the GCF of individuals with periodontitis.
+Furthermore, higher frequencies of extreme Schoener's value (i.e., ranging from 0.5 to 1 or ranging from 0 to 0.1) were detected from the healthy individuals compared with the periodontitis patients (Figure  3C ), and a significantly higher value for Schoener's index was detected in the GCF from periodontitis patients (inset in Figure  3C ,  P  < 0.001). These scenarios suggested that periodontitis was prone to high co-occurrence probabilities across more genera, and thereby probably generating different distribution patterns within the healthy and periodontitis groups.
+The result demonstrates that polymicrobial community differed between the healthy and the periodontitis groups. The difference is attributed toward the co-occurrence of larger number of microbial communities at the genus level in the periodontitis group.
+Cytokines and their relations with the bacterial community structure in the GCF of samples with and without periodontitis
+A difference is the cytokine composition was observed between GCF with and without periodontitis. Of the 20 cytokines examined (details in Supplementary Table  5 ), CRP was significantly (one-way ANOVA,  P  < 0.05) higher in the GCF of the periodontitis group while IL-8 was significantly (one-way ANOVA,  P  < 0.01) higher in the GCF of the healthy group.
+Significant correlations were detected between pairs of cytokines (Figure  4 , Supplementary Table  6 ), while variations in cytokines across the individuals could not be explained by the two groups, as we previously hypothesized ( P  > 0.1). Nevertheless, based on the distance matrix, the Mantel test revealed a significant concordance between the two data sets, i.e., between cytokines and microbiota, in the healthy group (Mantel statistic  r  = 0.36,  P  ≤ 0.05) rather than in the periodontitis group (Mantel statistic  r  = 0.013,  P  = 0.434). The results were further confirmed by the PROTEST test in the healthy (m 12  = 0.61,  P  < 0.05) and periodontitis (m 12  = 0.68,  P  = 0.933) groups, respectively. Configurations of cytokines could optimally fit to those of microbiomes in the healthy group but could not in the periodontitis group (Figure  5A ).
+To detect the specific effects, the correlations were also examined between cytokines and microbiomes at the genus level (Figure  5B , Supplementary Table  7 ). As shown in Table  1 , MMP-9, osteoactivin, IL-8, and MIP-1a were significantly associated with bacterial composition at the phylum, class, order, family, and genus levels. CRP was also associated with bacterial composition at the species level, in addition to IL-8, MIP-1a, MMP-9, and osteoactivin. In turn, the bacterial taxa, from phylum to species levels, significantly influenced the cytokines, as listed in Table  2 . The variation in cytokines communities could be significantly explained by 10 oral taxa belonging to five phyla.
+
+           Table 1 
+           Effects of cytokines on the bacterial structure at different levels. 
+           
+             
+           
+                 Phylum 
+                 
+                   
+                 Class 
+                 
+                   
+                 Order 
+                 
+                   
+                 Family 
+                 
+                   
+                 Genus 
+                 
+                   
+                 Species 
+                 
+                   
+               
+                 
+               
+                 r 
+                     2 
+                   
+                     
+                 
+                   
+                 P 
+                   
+                     
+                 
+                   
+                 r 
+                     2 
+                   
+                     
+                 
+                   
+                 P 
+                   
+                     
+                 
+                   
+                 r 
+                     2 
+                   
+                     
+                 
+                   
+                 P 
+                   
+                     
+                 
+                   
+                 r 
+                     2 
+                   
+                     
+                 
+                   
+                 P 
+                   
+                     
+                 
+                   
+                 r 
+                     2 
+                   
+                     
+                 
+                   
+                 P 
+                   
+                     
+                 
+                   
+                 r 
+                     2 
+                   
+                     
+                 
+                   
+                 P 
+                   
+                     
+                 
+                   
+               
+                 
+             
+               
+             IL-8 
+                 0.2676 
+                 * 0.019 
+                 0.3103 
+                 * 0.018 
+                 0.2934 
+                 * 0.019 
+                 0.2453 
+                 * 0.035 
+                 0.1957 
+                 0.051. 
+                 0.2168 
+                 * 0.037 
+               
+                 
+               MIP-1a 
+                 0.2104 
+                 * 0.043 
+                 0.2231 
+                 * 0.027 
+                 0.2622 
+                 * 0.013 
+                 0.336 
+                 ** 0.006 
+                 0.3761 
+                 ** 0.003 
+                 0.5504 
+                 *** 0.001 
+               
+                 
+               MMP-9 
+                 0.2635 
+                 * 0.015 
+                 0.2693 
+                 * 0.019 
+                 0.2504 
+                 * 0.018 
+                 0.2657 
+                 * 0.015 
+                 0.2237 
+                 * 0.031 
+                 0.4673 
+                 *** 0.001 
+               
+                 
+               Osteoactivin 
+                 0.2436 
+                 * 0.017 
+                 0.3425 
+                 ** 0.004 
+                 0.3662 
+                 ** 0.005 
+                 0.3554 
+                 ** 0.008 
+                 0.362 
+                 ** 0.007 
+                 0.6423 
+                 *** 0.001 
+               
+                 
+               CRP 
+                 0.1453 
+                 0.091. 
+                 – 
+                 – 
+                 – 
+                 – 
+                 – 
+                 – 
+                 – 
+                 – 
+                 0.3337 
+                 ** 0.005 
+               
+                 
+             
+               
+           
+             
+           *** ,” “ ** ,” “ * ,” and “.” represent P < 0.001, 0.01, 0.05, and 0.1, respectively. –, represents that this variable was removed from the analysis “ . 
+           
+             
+        
+
+           Table 2 
+           Effects of bacterial taxa on cytokines. 
+           
+             
+           Level 
+                 
+                   
+                 Taxa 
+                 
+                   
+                 r 
+                     2 
+                   
+                     
+                 
+                   
+                 P 
+                   
+                     
+                 
+                   
+               
+                 
+             
+               
+             1 
+                 Firmicutes 
+                 0.1756 
+                 0.073. 
+               
+                 
+               1.1 
+                 Firmicutes|Clostridia 
+                 0.2914 
+                 ** 0.004 
+               
+                 
+               1.1.1 
+                 Firmicutes|Clostridia|Clostridiales 
+                 0.3307 
+                 * 0.011 
+               
+                 
+               1.1.1.1 
+                 Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae_[XI] 
+                 0.2004 
+                 * 0.031 
+               
+                 
+               1.1.1.2 
+                 Firmicutes|Clostridia|Clostridiales|Clostridiales_[F-2] 
+                 0.1616 
+                 0.067. 
+               
+                 
+               1.1.1.2.1 
+                 Firmicutes|Clostridia|Clostridiales|Clostridiales_[F-2]|Clostridiales_[F-2][G-1] 
+                 0.1573 
+                 0.088. 
+               
+                 
+               1.1.1.2.1.1 
+                 Firmicutes|Clostridia|Clostridiales|Clostridiales_[F-2]|Clostridiales_[F-2][G-1]|sp._oral_taxon_075 
+                 0.1573 
+                 0.085. 
+               
+                 
+               1.1.1.3 
+                 Firmicutes|Clostridia|Clostridiales|Veillonellaceae 
+                 0.0874 
+                 0.275 
+               
+                 
+               1.1.1.3.1 
+                 Firmicutes|Clostridia|Clostridiales|Veillonellaceae|Selenomonas 
+                 0.1622 
+                 0.08. 
+               
+                 
+               1.1.1.3.1.1 
+                 Firmicutes|Clostridia|Clostridiales|Veillonellaceae|Selenomonas|sputigena_oral_taxon_151 
+                 0.1762 
+                 0.068. 
+               
+                 
+               1.1.1.4 
+                 Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae_[XIII] 
+                 0.0333 
+                 0.65 
+               
+                 
+               1.1.1.4.1 
+                 Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae_[XIII]|Parvimonas 
+                 0.2144 
+                 * 0.04 
+               
+                 
+               1.1.1.4.1.1 
+                 Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae_[XIII]|Parvimonas|micra_oral_taxon_111 
+                 0.2165 
+                 * 0.032 
+               
+                 
+               2 
+                 Bacteroidetes 
+                 0.049 
+                 0.496 
+               
+                 
+               2.1 
+                 Bacteroidetes|Bacteroides 
+                 0.0249 
+                 0.71 
+               
+                 
+               2.1.1 
+                 Bacteroidetes|Bacteroides|Bacteroidales 
+                 0.0344 
+                 0.594 
+               
+                 
+               2.1.1.1 
+                 Bacteroidetes|Bacteroides|Bacteroidales|Porphyromonadaceae 
+                 0.0293 
+                 0.675 
+               
+                 
+               2.1.1.1.1 
+                 Bacteroidetes|Bacteroides|Bacteroidales|Porphyromonadaceae|Tannerella 
+                 0.0567 
+                 0.44 
+               
+                 
+               2.1.1.1.1.1 
+                 Bacteroidetes|Bacteroides|Bacteroidales|Porphyromonadaceae|Tannerella|sp._oral_taxon_286 
+                 0.1629 
+                 0.078. 
+               
+                 
+               3 
+                 Actinobacteria 
+                 0.0541 
+                 0.47 
+               
+                 
+               3.1 
+                 Actinobacteria|Actinobacteria 
+                 0.0523 
+                 0.489 
+               
+                 
+               3.1.1 
+                 Actinobacteria|Actinobacteria|Actinomycetales 
+                 0.0683 
+                 0.381 
+               
+                 
+               3.1.1.1 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Corynebacteriaceae 
+                 0.2406 
+                 * 0.025 
+               
+                 
+               3.1.1.1.1 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Corynebacteriaceae|Corynebacterium 
+                 0.2406 
+                 * 0.02 
+               
+                 
+               3.1.1.1.1.1 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Corynebacteriaceae|Corynebacterium|matruchotii_oral_taxon_666 
+                 0.2377 
+                 * 0.023 
+               
+                 
+               3.1.1.2 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Micrococcaceae 
+                 0.2152 
+                 * 0.033 
+               
+                 
+               3.1.1.2.1 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Micrococcaceae|Rothia 
+                 0.2145 
+                 * 0.03 
+               
+                 
+               3.1.1.3 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Dietziaceae 
+                 0.1739 
+                 0.068. 
+               
+                 
+               3.1.1.3.1 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Dietziaceae|Dietzia 
+                 0.1739 
+                 0.061. 
+               
+                 
+               3.1.1.3.1.1 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Dietziaceae|Dietzia|sp._oral_taxon_368 
+                 0.1739 
+                 0.068. 
+               
+                 
+               3.1.1.3.1.2 
+                 Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|sp._oral_taxon_525 
+                 0.2061 
+                 * 0.042 
+               
+                 
+               4 
+                 Fusobacteria 
+                 0.1929 
+                 * 0.05 
+               
+                 
+               4.1 
+                 Fusobacteria|Fusobacteria 
+                 0.1931 
+                 0.055. 
+               
+                 
+               4.1.1 
+                 Fusobacteria|Fusobacteria|Fusobacteriales 
+                 0.2154 
+                 * 0.036 
+               
+                 
+               4.1.1.1 
+                 Fusobacteria|Fusobacteria|Fusobacteriales|Fusobacteriaceae 
+                 0.1888 
+                 0.057. 
+               
+                 
+               4.1.1.1.1 
+                 Fusobacteria|Fusobacteria|Fusobacteriales|Fusobacteriaceae|Fusobacterium 
+                 0.1888 
+                 * 0.049 
+               
+                 
+               4.1.1.1.1.1 
+                 Fusobacteria|Fusobacteria|Fusobacteriales|Fusobacteriaceae|Fusobacterium|nucleatum_ss_vincentii_oral_taxon_200 
+                 0.1481 
+                 0.085. 
+               
+                 
+               4.1.1.1.1.2 
+                 Fusobacteria|Fusobacteria|Fusobacteriales|Fusobacteriaceae|Fusobacterium|nucleatum_ss_animalis_oral_taxon_420 
+                 0.2007 
+                 * 0.045 
+               
+                 
+               5 
+                 Proteobacteria 
+                 0.2595 
+                 * 0.02 
+               
+                 
+               5.1 
+                 Proteobacteria|Gammaproteobacteria 
+                 0.2523 
+                 * 0.019 
+               
+                 
+               5.1.1 
+                 Proteobacteria|Gammaproteobacteria|Pseudomonadales 
+                 0.2388 
+                 * 0.032 
+               
+                 
+               5.1.1.1 
+                 Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae 
+                 0.2322 
+                 * 0.027 
+               
+                 
+               5.1.1.1.1 
+                 Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas 
+                 0.2322 
+                 * 0.038 
+               
+                 
+               5.1.1.1.1.1 
+                 Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|fluorescens_oral_taxon_612 
+                 0.2387 
+                 * 0.027 
+               
+                 
+               5.2 
+                 Proteobacteria|Epsilonproteobacteria 
+                 0.1816 
+                 0.062. 
+               
+                 
+               5.2.1 
+                 Proteobacteria|Epsilonproteobacteria|Campylobacterales 
+                 0.1735 
+                 0.08. 
+               
+                 
+               5.2.1.1 
+                 Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae 
+                 0.164 
+                 0.089. 
+               
+                 
+               5.2.1.1.1 
+                 Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter 
+                 0.164 
+                 0.094. 
+               
+                 
+             
+               
+           
+             
+           *** ,” “ ** ,” “ * ,” and “.” represent P < 0.001, 0.01, 0.05, and 0.1, respectively “ . 
+           
+             
+        
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="4969~4974" text="MMP-9" location="result" />
+<GENE id="G1" spans="4976~4988" text="osteoactivin" location="result" />
+<GENE id="G2" spans="4990~4994" text="IL-8" location="result" />
+<GENE id="G3" spans="5000~5006" text="MIP-1a" location="result" />
+<GENE id="G4" spans="5119~5122" text="CRP" location="result" />
+<GENE id="G5" spans="5207~5211" text="IL-8" location="result" />
+<GENE id="G6" spans="5213~5219" text="MIP-1a" location="result" />
+<GENE id="G7" spans="5221~5226" text="MMP-9" location="result" />
+<GENE id="G8" spans="5232~5244" text="osteoactivin" location="result" />
+<GENE id="G9" spans="7470~7474" text="IL-8" location="result" />
+<GENE id="G10" spans="7830~7836" text="MIP-1a" location="result" />
+<GENE id="G11" spans="8196~8201" text="MMP-9" location="result" />
+<GENE id="G12" spans="8560~8572" text="Osteoactivin" location="result" />
+<GENE id="G13" spans="8934~8937" text="CRP" location="result" />
+<GENE id="G14" spans="3727~3730" text="CRP" location="result" />
+<GENE id="G15" spans="3828~3832" text="IL-8" location="result" />
+<DISEASE id="D0" spans="62~75" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="310~323" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="430~443" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1296~1309" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1426~1439" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1937~1950" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2593~2606" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2784~2797" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="2905~2918" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2996~3009" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="3163~3176" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="3275~3288" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="3419~3432" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="3548~3561" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="3802~3815" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="4750~4763" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="3735~3783" text="significantly (one-way ANOVA,  P  &amp;lt; 0.05) higher" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G14" geneText="CRP" diseaseID="D14" diseaseText="periodontitis" relationID="R0" relationText="significantly (one-way ANOVA,  P  &amp;lt; 0.05) higher" />
+</TAGS>
+</Genomics_ConceptTask>

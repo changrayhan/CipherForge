@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Anthropometric, biochemical and basal hormonal features of both the groups are summarized in  Table 1 . Both groups were well-matched in terms of age and marriage duration. However, BMI has been found to be significantly greater (p value<0.01) in PCOS group. Therefore comparisons between women with PCOS and non-PCOS were performed after additional adjustment for BMI. Fasting and post-prandial (PP) insulin was found to be significantly higher (p value<0.0001) in PCOS population along with HOMA2-IR values (PCOS: 2.39±0.91 vs. non-PCOS: 1.51±1.34). Fasting levels of homocysteine (µmol/L) was significantly higher (p value<0.0001) in women with PCOS (PCOS: 13.14±5.04vs. non-PCOS: 8.39±2.22) havingprevioushistory of RPL .  ( Table 1 ). Based on characteristic phenotypes, the patients were stratified on the presence or absence of PCOS while subsequent stratification was based on plasma levels of homocysteine (Hcy) and IR.The rate of spontaneous abortion in hyperhomocysteinemic cohort (70.63%) of the PCOS women was significantly higher (p value<0.04) when compared to it's IR-subgroup (56.34%).Moreover, rate of miscarriage between the hyperhomocysteinemic populations of both groups (PCOS:70.63% &non-PCOS: 57.26%), were significantly higher(p value<0.008; p value<0.03) than that of the corresponding normo-homocysteinemic segments (PCOS: 29.36% & non-PCOS: 42.73%) ( Figure 1 ).
+A stepwise linear regression analysis demonstrates homocysteine as the independent variable, resulting in a multiple R of 0.317, with a mean square for the regression 158.76, F = 6.805, p value<0.01. Controlling for other variables, HOMA2-IR (r = 0.196, p value<0.029) and PP insulin (r = 0.421, p value<0.001) levels emerged as the most significant parameters affecting homocysteine levels while BMI (r = 0.113, p value<0.21) proved insignificant affecting levels of homocysteine. A significant correlation was noted between homocysteine levels and a history of prior miscarriage (<2) in women with PCOS (r = 0.343, p value<0.05). The correlation maintains significance even after controlling HOMA2-IR values (r = 0.342, p value<0.02) proving HHcy rather than IR to have a stronger association with history of prior miscarriage in these women.
+To strengthen our outcome we developed a probabilistic graphical model ( Figure 2 ) with the help of Bayesian network. A most likely diagnosis of 34.37% of unconditional probability has been observed in women experiencing miscarriage. However, the presence of plasma homocysteine increased the probability to 43.32%, while in its absence, the conditional miscarriage probability decreased to 29.03%. No substantial changes in the probability were observed with the presence or absence of PCOS (34.48% and 34.28%) or BMI (35.25% and 34.82%). Nevertheless, the presence of HOMA2-IR increased the probability percentage to 37.29% and the absence of the same reduced the percentage to 31.78%.
+The accuracy of the model was analysed by using ROC-AUC values. When using a HOMA2-IR cut-off of 2.1the ROC curve had an AUC of 0.619, with a sensitivity of 80.2% and specificity of 62.1%. The predictive accuracy expressed as the ROC-AUC increased slightly when HHcy has been used with a homocysteine threshold of 12 µmol/l, and the ROC curve had an AUC of 0.778, with a sensitivity of 80.7% and a specificity of 70.6%. The individual ROC curves for the HHcy and/or IR in relation to RPL are depicted in  Figure 3 .
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="248~252" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="301~305" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="314~318" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="467~471" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="511~515" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="535~539" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="649~653" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="655~659" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="679~683" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="836~840" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1009~1013" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="1991~1995" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2135~2139" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="2724~2728" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="3187~3191" text="HHcy" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D15" spans="3379~3383" text="HHcy" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D16" spans="1194~1198" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="1211~1215" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="1344~1348" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="1363~1367" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

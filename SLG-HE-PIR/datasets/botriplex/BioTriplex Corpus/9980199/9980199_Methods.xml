@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Subject Recruitment
+The study was approved by the local IRB committees. After informed consent was obtained blood samples were collected from participants.
+Collection and isolation of PBMCs
+PBMCs were isolated by density gradient with Lymphoprep ™  (Stemcell ™  Technologies) per vendor instructions[ 9 ].
+CyTOF Staining
+Cells were stained with a cocktail of antibodies per our previously published protocol[ 10 ]. In short, cells were stained with Rh103 for viability, washed, blocked with Fc-Block, and incubated with the cocktail of metal-coupled surface antibodies ( Supplementary Table 1 ) for 30 minutes at room temperature. Cells were then fixed in 1.6% formaldehyde and stained with Ir-DNA intercalator solution. Cells were resuspended in water containing 1:10 dilution of EQ beads and run on a Helios CyTOF machine (Fluidigm, South San Francisco, Calif) at the Yale School of Medicine CyTOF Core.
+Data analysis and Dimensionality reduction
+Raw Flow Cytometry Standard (FCS) file were normalized using the Helios2 software and imported into Cytobank (Cytobank Inc.), followed by manual gating of cells positive for both DNA dyes (191 Ir_DNA1, 193Ir_DNA2) of the Intercalator solution applied after fixing (cf.  3.2) . From these double positive events signals with a 140Ce intensity > 1×10 3  were excluded as bead signals. Single viable cells were identified by two consecutive gating steps excluding all events with a relative event length >40 and an intensity > 3×10 1  for the 103Rh intercalating dye applied before fixation (cf.  3.2 ). CD45 +  events were selected as all events with an intensity for 89Y > 1×10 1  and exported as a separate FCS file for each GSD1b patient and each control. The obtained files were imported into the R 4.1.1 based shiny plugin cytofkit2[ 11 ], [ 12 ],. The data loading settings were chosen as follows: Merge Method ceil, Fixed number of cells from each FCS file 50,000, Transformation Method cytofAsinh. Dimensionality reduction was performed following t-Distributed Stochastic Neighbor Embedding (t-SNE) algorithm with a perplexity of 30, with maximal 1000 iterations and 42 was utilized as Seed. Clustering was carried out with Rphenograph with a k value of 30: Cellular Progression was set to NULL. Data was graphed in GraphPadPrism 9.2.0 (GraphPad Software). A two-tailed unpaired t-test was used for the comparisons between groups.
+Mean metal intensity calculations and exclusions
+The mean metal intensity (MMI) values of individual cells calculated from the FCS files and output by cytofkit2 were averaged for each marker for each patient, with surface markers showing an expression value below 0.5 MMI in both groups being excluded from further analysis, as they are within the range of background signal. For the remaining expressed surface markers, a fold change was calculated as MMI of GSD1b divided by MMI of controls followed by a two-tailed unpaired t-test to identify markers significantly changed in individual clusters. CD45 and CD326 (EpCAM) were included in the marker analysis to observe any potential batch dependent effects, as expected none of the annotated clusters showed CD326 expression; for all but one cluster no significant change in CD45 expression was observed.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1551~1555" text="CD45" location="result" />
+<GENE id="G1" spans="2987~2991" text="CD45" location="result" />
+<GENE id="G2" spans="2996~3001" text="CD326" location="result" />
+<GENE id="G3" spans="3003~3008" text="EpCAM" location="result" />
+<GENE id="G4" spans="3147~3152" text="CD326" location="result" />
+<GENE id="G5" spans="3214~3218" text="CD45" location="result" />
+<DISEASE id="D0" spans="1675~1680" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="2847~2852" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cell lines and plasmids
+Human pancreatic carcinoma cell lines AsPC-1, MIA PaCa-2, BxPC-3, PANC-1, CFPAC-1, Panc0403, HuPT-3, and SU86.86 were obtained from Dr. Liewei Wang (Department of Molecular Pharmacology of Experimental Therapeutics, Mayo Clinic). AsPC-1, BxPC-3, HuPT-3, and SU86.86 cells were cultured in RPMI 1640 (Gibco, Life Technologies) supplemented with 10% fetal bovine serum (FBS, Gibco, Life Technologies), 100 U/ml penicillin, and 100 µg/ml streptomycin. MIA PaCa-2, CFPAC-1, Panc0403 and PANC-1 cells were cultured in DMEM under the same conditions. The cells were maintained in a humidified incubator at 37 °C and with 5% CO 2 .
+The pcDNA3-Flag-SMAD4 plasmid (#80888) for overexpressing wild-type SMAD4, and an empty FNpCDNA3 vector (#45346) were purchased from Addgene (Cambridge, MA, USA).
+Driver mutation analysis
+Eight human pancreatic carcinoma cell lines were used to prepare for genomic DNA extraction according to the manufacturer’s instructions (Tiangene Biotech Co., Beijing) Specifically, a panel that contains 207 primers that target 50 tumor genes and tumor suppressor genes for hotspot mutations in tumors was designed (Nuoshai Biotech Co., Beijing). DNA library preparation was performed by two-step PCR in a thermal instrument (BIO-RAD, T100TM) followed by quantification and paired-end sequencing on HiSeqX Ten sequencers (Illumina, San Diego, CA). Raw reads were filtered by removing adaptor sequences if reads were contained by cutadapt (v 1.2.1) and low quality bases from reads 3’ to 5’ ( Q  < 30) by PRINSEQ-lite (v 0.20.3). After data QC and SNP calling, the remaining clean data were mapped to the reference genome by BWA (version 0.7.13-r1126) with default parameters. A Perl script was written to calculate each genotype of the target site. Annovar (2018-04-16) was used to detect genetic variants.
+Preparation of DTLL
+We prepared DTLL according to a previous approach (Patent Publication No. CN101497666A). The producer clones of DTLP (the precursor of DTLL) fusion protein in this study have been deposited it into the China Pharmaceutical Culture Collection (CPCC) with the Accession Number CCPC 101501 ( http://www.cpcc.ac.cn/ ). DTLL is a bispecific fusion protein consisting of ligand-based and antibody-based oligopeptides against EGFR and HER2, and an enediyne antibiotics lidamycin 25 .
+MTS cell proliferation colorimetric assay
+Cells were seeded into 96-well plates at 5000 cells/well, and treated with gemcitabine, DTLL or both at 37 °C for 72 h. Cell viability was measured by the MTS (Cell Titer 96 AQueous One Solution Cell proliferation assay, Promega Corporation, USA) assay according to the manufacturer’s manuals. The assay was performed in triplicate. Cell viability was detected to create drug-response curves and CIs were calculated by the Chou-Talalay method 70 , 71 .
+CyQUANT cell viability assay
+In parallel to the above MTS assay, cell proliferation was confirmed using a CyQUANT® NF cell proliferation assay kit (Thermo Fisher Scientific, Waltham, MA, USA) according to the manufacturer’s protocol. This assay is based on the measurement of cellular DNA content via fluorescent dye binding. Cells were seeded in a 96-well plate (3000 cells/well) and then exposed to a series of concentrations of GEM, DTLL, or GEM + DTLL (10 −14  mol/L) for 72 h. Culture media was removed and 100 uL of the CyQUANT working solution was applied to the cells and incubated for 60 min at 37 °C. The sample fluorescence was measured using a multimodal microplate reader (SpectraMax iD5, Molecular Devices) at 480 nm excitation and 520 nm emission. The assay was performed in triplicate. Cell viability was detected to create drug-response curves and CIs were calculated by the Chou-Talalay method 70 , 72 .
+Calculation of the combination index (CI)
+After analysis of cell proliferation, the combination index (CI) at each drug concentration was calculated by using the Chou-Talalay method. The equation for CI calculation of Chou-Talalay is as follows: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\rm{CI}}}}}}=({{{{{\rm{D}}}}}}1/{{{{{\rm{Dm}}}}}}1)+({{{{{\rm{D}}}}}}2/{{{{{\rm{Dm}}}}}}2)+\alpha ({{{{{\rm{D}}}}}}1\ast {{{{{\rm{D}}}}}}2/D{{{{{\rm{m}}}}}}1\ast Dm2)$$\end{document} CI = ( D 1 / Dm 1 ) + ( D 2 / Dm 2 ) + α ( D 1 * D 2 / D m 1 * D m 2 ) The combination index (CI) concept was introduced initially by Chou T.C. and Talalay P 70 , 72 . The derived combination index equation for the two drugs is: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\rm{CI}}}}}}=({{{{{\rm{D}}}}}})1/({{{{{\rm{Dx}}}}}})1+({{{{{\rm{D}}}}}})2/({{{{{\rm{Dx}}}}}})2$$\end{document} CI = ( D ) 1 / ( Dx ) 1 + ( D ) 2 / ( Dx ) 2 where (Dx) 1, (Dx) 2 = the concentration of the tested substance 1 and the tested substance 2 used in the single treatment that was required to decrease the cell number by x% and (D) 1, (D) 2 = the concentration of the tested substance 1 in combination with the concentration of the tested substance 2 that together decreased the cell number by x%. The CI value quantitatively defines synergism (CI < 1), additive effect (CI = 1) and antagonism (CI > 1).
+Cell cycle arrest
+After treatment with 0.02 µM gemcitabine, 0.1 nM DTLL or their combination for 24 h, AsPC-1 and MIA PaCa-2 cells were fixed with pre-cold 70% ethanol at 4 °C overnight and washed with cold PBS. Then the cells were incubated with 100 μg/ml RNase A (Beyotime Technologies, Shanghai, China) and 50 μg/ml PI at 37 °C for 30 min, and the cell-cycle distribution was analyzed on a FACScan flow cytometer.
+Immunofluorescence
+After being treated with 2 µM gemcitabine, 0.1 nM DTLL and both at 37 °C for 4 h, cells were fixed with 4% paraformaldehyde for 30 min and permeabilized with 0.5% Triton X-100. Then the cells were blocked with 1% BSA for 1 h and incubated with anti-SMAD4 (1:800, Cell Signaling Technology) at 4 °C overnight. Cells were incubated with Alexa Fluor-conjugated secondary antibodies (1:500, Invitrogen) and 5 μg/ml DAPI (Sigma-Aldrich Inc.) for 30 min. Then, the cells were observed with a laser scanning confocal microscope.
+Transfection with plasmid or specific siRNA
+For plasmid transfection, cells were transfected with the aforementioned empty (pcDNA3-Flag) or SMAD4 overexpression (pcDNA3-Flag-SMAD4) vector using Lipofectamine 2000 transfection reagent (Invitrogen, Carlsbad, California, USA) following the protocols of the manufacturer.
+Specific siRNAs against SMAD4 were purchased from RiboBio (Guangdong, China) together with a scrambled siRNA. For siRNA transfection, cells were transfected with a pooled sample of four SMAD4-specific siRNA oligos at a final concentration of 10 nmol/L using Lipofectamine TM  RNAiMAX (Invitrogen, Carlsbad, California, USA) as the transfection reagent according to the manufacturer’s instructions. A scrambled siRNA was applied as a negative control. Approximately 6 h after transfection, the medium was replaced and the cells were further cultured for 48 h for gene expression analysis by Western blot and qRT-PCR assays. The oligonucleotide sequences of four SMAD4-specific siRNAs and scramble siRNA are supplied in Supplementary Table  6 .
+Site-directed mutagenesis
+Plasmids for human SMAD4 overexpression with a point mutant (R100T) were constructed with a wild-type SMAD4 plasmid (PcDNA3-Flag-SMAD4, Addgene) as a DNA template by using a fast mutagenesis system (TransGen, China) according to the manufacturer’s instructions. The resulting mutant SMAD4 plasmid was confirmed by sequencing (Shenggong, Shanghai, China) to verify the presence of the introduced mutations and the absence of additional unwanted mutations.
+Stable transfection for SMAD4 overexpression
+Lentivirus vectors were used to establish stably transfected cell lines. Lentiviruses were produced in HEK293T cells for the stable transfection of the cell lines in accordance with the manufacturer’s instructions. The complete coding sequence of the human wild-type SMAD4 or mutant SMAD4 (R100T) gene from the aforementioned mutant or wild-type SMAD4 overexpression vector was cloned into pLV-EF1-CMV- EGFP/T2A/Puro vectors. An empty vector was transfected as control. A total of 3 × 10 5  BxPC-3 cells in 1 mL of medium with 5 µg/mL polybrene were infected with 1 mL of lentivirus supernatant. After 72 h, 2 μg/ml puromycin was used for selection of a stable cell pool. The efficiency of overexpression in a stable cell line was validated by qRT-PCR and Western blot assays.
+Real-time quantitative reverse transcription-PCR (real-time qRT-PCR)
+Cells were trypsinized, washed in PBS, and collected with centrifugation at 1000 ×  g  for 2 min. Total RNA was extracted using an RNeasy Mini Kit (Qiagen, Valencia, CA) according to the manufacturer’s protocol. RNA concentration and purity were estimated by Nano-300 Micro-Spectrophotometer (Allsheng Co.,Ltd, Hangzhou, China). cDNA was synthesized with a Transcriptor First Strand cDNA Synthesis Kit (Roche, Mannheim, Germany). Real-time qRT-PCR was conducted with a SYBR® Premix Ex Taq™ II kit (TaKaRa, Kusatsu, Japan) according to the manufacturer’s recommendations. mRNA expression was quantified using the 2 −ΔΔCt  method. GAPDH served as an internal control. The PCR conditions were as follows: 42 °C for 5 min, 95 °C for 10 s followed by 40 cycles of 95 °C for 5 s and 60 °C for 34 s. The primers used for real-time qRT-PCR are listed in Supplementary Table  7 .
+Western blot assay
+Cells or tissue samples were processed and lysed in RIPA buffer containing protease inhibitors (Sigma-Aldrich, Carlsbad, CA, USA). Equal amounts of protein were loaded in each lane of an SDS–8–12% polyacrylamide gel. Western blot assays were performed by the standard method using the following primary antibodies: phosphorylated EGFR, EGFR, phosphorylated HER2, HER2, phosphorylated AKT, AKT, phosphorylated mTOR, mTOR, phosphorylated ERK1/2, ERK1/2, PD-L1, phosphorylated Bcl-2, Cyclin D1, phosphorylated γH2AX, phosphorylated SMAD2, SMAD2, phosphorylated SMAD3, SMAD3, SMAD4, TGF-β, ΤΡΙΜ33, Cyclin D3, Cyclin B1, Cyclin E2, CDK2, CDK4, P50, phosphorylated P65, P65, phosphorylated CDC2, phosphorylated Wee1, P21, P27, Cleaved Caspase 8, FADD, BCL-2, MCL1, BAX and β-actin were purchased from Cell Signaling (Danvers, MA, USA). SMAD7 and Lamin B were purchased from Proteintech (Rosemont, IL, USA). The protein levels were quantified using ImageJ software.
+Co-immunoprecipitation (Co-IP) assay
+Cells with/without DTLL induction were washed with PBS and lysed with cell lysis buffer (Cell Signaling Technology, Beverly, MA) containing protease inhibitors on ice for 30 min. After centrifugation at 12,000 ×  g  for 15 min at 4 °C, the supernatant was collected and incubated with SMAD4 antibody (w/w, antibody: total protein = 1:500) or rabbit normal IgG control at 4 °C overnight with rotation, and then further incubated with 20 μL of prewashed protein A/G agarose beads at 4 °C for 2 h. After incubation, the immune complexes were washed with lysis buffer three times, and the proteins were eluted by the addition of SDS sample buffer and incubated at 100 °C for 5 min. These eluates were subjected to Western blot analysis using primary antibodies as mentioned above.
+Nuclear and cytoplasmic protein extractions
+After treatment, the cytoplasmic and nuclear protein fractions were obtained using nuclear and cytoplasmic extraction kits (Thermo Scientific) according to the manufacturer’s instructions. Briefly, after treatment with 2 µM gemcitabine and/or 0.1 nM DTLL for 4 h, cells were harvested and washed, followed by the addition of ice-cold cytoplasmic extraction reagents (CER I and CER II). Then the samples were centrifuged, and the supernatant was collected to obtain the cytoplasmic fraction. The nuclei were resuspended in nuclear protein extraction agent (NER). After centrifugation, the supernatant was collected as the nuclear fraction.
+In vivo therapeutic efficacy
+We used both pancreatic cancer cell line-derived xenograft (CDX) and patient-derived xenograft (PDX) mouse models for the in vivo evaluation of the combination of gemcitabine with DTLL efficacy. PDX models were obtained from the HuPrime® allograft PDX platform of Crown Bioscience Inc (Beijing, China) in which RNA sequencing datasets were available for each selected mouse model. The PDX models were developed and established in immune-deficient mice in Crown Bioscience, under the approval of the Institutional Review Boards of the hospitals and the informed consent from patients. Five-week-old female BALB/c nude mice (Huafukang Bioscience Co, Beijing, China) were subcutaneously inoculated with AsPC-1, MIA PaCa-2, and BxPC-3 cells with stable expression of wild-type and mutant SMAD4 or human pancreatic tumor tissue samples. All experiments were conducted under specific pathogen-free (SPF) conditions. Mice were housed in groups of 5 mice per individually ventilated cage in a 12 h light/dark cycle, with a temperature of 20 ± 2 °C) and relative humidity of 55% ± 15. All mice had access to food and water ad libitum. When tumors reached 150–180 mm 3  in volume, mice were treated with gemcitabine, DTLL and both in CDX models and PDX models. Mice were weighed, and tumors were measured every three or every four days. At the end of the experiments, the mice were sacrificed, and then tumors plus major organs, including the heart, liver, spleen, lung and kidney, were examined histologically. Animal protocols were approved by the Institutional Animal Care and Use Committee of the Institute of Medicinal Biotechnology (IMB), Chinese Academy of Medical Sciences & Peking Union Medical College (CAMS & PUMC).
+TUNEL assay
+Paraffin-embedded sections of tumors were fixed in 4% paraformaldehyde and dewaxed. Then the TUNEL assay (Beyotime Biotechnology, China) was performed according to the instructions of the manufacturer. Finally, the slides were visualized by fluorescence microscopy.
+Immunohistochemistry (IHC)
+Tumor sections of AsPC-1, MIA PaCa-2, PA1233, and PA3142 were deparaffinized, rehydrated, and treated with citrate buffer to retrieve antigens. Subsequently, sections were incubated with Ki-67 antibody (1:400 diluted, Abcam, Cambridge, UK) at 4 °C overnight, followed by incubation with secondary antibody. The results were observed by an inverted microscope using DAB as a chromogenic reagent.
+Proteomic analysis
+The proteomic analysis of the cell samples was conducted using the combination of DIA and a data-dependent acquisition (DDA)-based ion library. After treatment with 2 μM gemcitabine, 0.1 nM DTLL and both at 37 °C for 4 h, cells were harvested and lysed with lysis buffer (8 M urea, 100 mM Tris-HCl pH 7.6, 1 mM PMSF), and then centrifuged at 18,000 ×  g  for 15 min at 4 °C. The extracted protein in the supernatant was quantified using a BCA protein assay kit (Beyotime Biotechnology, China) and digested in trypsin (Promega, Madison, WI) after reduction and alkylation using the FASP (filter aided sample preparation) method. The concentration of digested peptides was determined by measuring the absorbance at 280 nm using a NanoDrop 2000 instrument (Thermo Fisher Scientific, Waltham, MA, USA). An EASY-nLC 1200 chromatography system and an Q Exactive HF mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA) were used for mass spectrometry acquisition and analysis. The DIA analysis was performed according to a previous study 71 . All results were filtered by a Q-value cutoff of 0.01 (corresponding to an FDR of 1%). The  P -value estimator was performed by the Kermel Density Estimator. The area was used for protein quantification. Every peptide was validated with at least three fragments.
+Bioinformatics analysis
+We downloaded a file (TCGA-PAAD.htseq_fpkm.tsv) from the TCGA-PAAD Project of TCGA public datasets on the website ( https://portal.gdc.cancer.gov/repository ) including clinical information on gemcitabine treatment and SMAD4 expression data of pancreatic cancer patients to determine whether SMAD4 expression is clinically correlated with gemcitabine response. Among the 108 patients, 69 samples had a gemcitabine response available. Responsive data were defined as four different types of gemcitabine response data: complete response, partial response, stable disease and clinical progressive disease. First, we analyzed the relationship between SMAD4 expression and gemcitabine response. Second, we plotted the ROC (receiver operating characteristic) curve evaluated with an AUC (area under the curve) and took 2.27 (median expression of all the PAAD patients) as the threshold for SMAD4 expression to define the high (>2.27) or low (<2.27) level, followed with Fisher’s exact test for calculation of the odds ratio and  p -value.
+Statistical analysis
+Data are presented as the mean ± standard deviation (SD). Statistical analysis was performed using SPSS software. A paired-samples  t -test with two-sided was applied for statistical analyses between two groups, and one-way ANOVA with Bonferroni post hoc test was used for multiple comparisons. A value of  p  < 0.05 was considered to be statistically significant.
+Reporting summary
+Further information on research design is available in the  Nature Research Reporting Summary  linked to this article.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="666~671" text="SMAD4" location="result" />
+<GENE id="G1" spans="718~723" text="SMAD4" location="result" />
+<GENE id="G2" spans="6262~6267" text="SMAD4" location="result" />
+<GENE id="G3" spans="6675~6680" text="SMAD4" location="result" />
+<GENE id="G4" spans="6709~6714" text="SMAD4" location="result" />
+<GENE id="G5" spans="6878~6883" text="SMAD4" location="result" />
+<GENE id="G6" spans="7040~7045" text="SMAD4" location="result" />
+<GENE id="G7" spans="7515~7520" text="SMAD4" location="result" />
+<GENE id="G8" spans="7642~7647" text="SMAD4" location="result" />
+<GENE id="G9" spans="7725~7730" text="SMAD4" location="result" />
+<GENE id="G11" spans="7906~7911" text="SMAD4" location="result" />
+<GENE id="G12" spans="8102~8107" text="SMAD4" location="result" />
+<GENE id="G13" spans="8390~8395" text="SMAD4" location="result" />
+<GENE id="G14" spans="8406~8411" text="SMAD4" location="result" />
+<GENE id="G15" spans="8469~8474" text="SMAD4" location="result" />
+<GENE id="G16" spans="10189~10193" text="EGFR" location="result" />
+<GENE id="G17" spans="10195~10199" text="EGFR" location="result" />
+<GENE id="G18" spans="10216~10220" text="HER2" location="result" />
+<GENE id="G19" spans="10222~10226" text="HER2" location="result" />
+<GENE id="G20" spans="10243~10246" text="AKT" location="result" />
+<GENE id="G21" spans="10248~10251" text="AKT" location="result" />
+<GENE id="G22" spans="10268~10272" text="mTOR" location="result" />
+<GENE id="G23" spans="10274~10278" text="mTOR" location="result" />
+<GENE id="G24" spans="10295~10299" text="ERK1" location="result" />
+<GENE id="G25" spans="10303~10307" text="ERK1" location="result" />
+<GENE id="G26" spans="10311~10316" text="PD-L1" location="result" />
+<GENE id="G27" spans="10333~10338" text="Bcl-2" location="result" />
+<GENE id="G28" spans="10340~10349" text="Cyclin D1" location="result" />
+<GENE id="G29" spans="10388~10393" text="SMAD2" location="result" />
+<GENE id="G30" spans="10395~10400" text="SMAD2" location="result" />
+<GENE id="G31" spans="10417~10422" text="SMAD3" location="result" />
+<GENE id="G32" spans="10424~10429" text="SMAD3" location="result" />
+<GENE id="G33" spans="10431~10436" text="SMAD4" location="result" />
+<GENE id="G34" spans="10438~10443" text="TGF-β" location="result" />
+<GENE id="G35" spans="10445~10451" text="ΤΡΙΜ33" location="result" />
+<GENE id="G36" spans="10453~10462" text="Cyclin D3" location="result" />
+<GENE id="G37" spans="10464~10473" text="Cyclin B1" location="result" />
+<GENE id="G38" spans="10475~10484" text="Cyclin E2" location="result" />
+<GENE id="G39" spans="10486~10490" text="CDK2" location="result" />
+<GENE id="G40" spans="10492~10496" text="CDK4" location="result" />
+<GENE id="G41" spans="10498~10501" text="P50" location="result" />
+<GENE id="G42" spans="10518~10521" text="P65" location="result" />
+<GENE id="G43" spans="10523~10526" text="P65" location="result" />
+<GENE id="G44" spans="10543~10547" text="CDC2" location="result" />
+<GENE id="G45" spans="10564~10568" text="Wee1" location="result" />
+<GENE id="G46" spans="10570~10573" text="P21" location="result" />
+<GENE id="G47" spans="10575~10578" text="P27" location="result" />
+<GENE id="G48" spans="10588~10597" text="Caspase 8" location="result" />
+<GENE id="G49" spans="10599~10603" text="FADD" location="result" />
+<GENE id="G50" spans="10605~10610" text="BCL-2" location="result" />
+<GENE id="G51" spans="10612~10616" text="MCL1" location="result" />
+<GENE id="G52" spans="10618~10621" text="BAX" location="result" />
+<GENE id="G53" spans="10626~10633" text="β-actin" location="result" />
+<GENE id="G54" spans="10689~10694" text="SMAD7" location="result" />
+<GENE id="G55" spans="11140~11145" text="SMAD4" location="result" />
+<GENE id="G56" spans="13128~13133" text="SMAD4" location="result" />
+<GENE id="G57" spans="16332~16337" text="SMAD4" location="result" />
+<GENE id="G58" spans="16405~16410" text="SMAD4" location="result" />
+<GENE id="G59" spans="16760~16765" text="SMAD4" location="result" />
+<GENE id="G60" spans="16997~17002" text="SMAD4" location="result" />
+<GENE id="G61" spans="7752~7757" text="SMAD4" location="result" />
+<DISEASE id="D0" spans="31~51" text="pancreatic carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="850~870" text="pancreatic carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="12357~12374" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="16357~16374" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

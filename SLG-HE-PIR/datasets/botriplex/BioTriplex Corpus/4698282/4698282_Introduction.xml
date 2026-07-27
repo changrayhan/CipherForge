@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Breast cancer is the most frequent cancer among women and the second leading cause of cancer-related death after lung cancer in Europe. In addition to genetic variants with high and moderate penetrance, more than 90 common germline genetic variants contributing to breast cancer risk have been identified, comprising about 37 % of the familial relative risk of the disease (Michailidou et al.  2013 ,  2015 ). This suggests that a substantial portion of inherited variation has not yet been identified. In addition, most of the known common susceptibility variants reside in non-coding regions and result in subtle regulation of gene expression. The biological mechanisms through which genetic variants exert their functions are still not entirely understood.
+The ability to evade immune destruction has been increasingly recognized as a key hallmark of tumors (Hanahan and Weinberg  2011 ). Tumor cells may secrete immunosuppressive factors like TGF-β which hampers infiltrating cytotoxic T lymphocytes and natural killer cells (Yang et al.  2010 ). Inflammatory cells like regulatory T cells (Treg cells), a subset of CD4+ T lymphocytes, as well as myeloid-derived suppressor cells (MDSCs) may be recruited into the tumor environment, which are actively immunosuppressive (Lindau et al.  2013 ; Reisfeld  2013 ). Higher prevalence of Treg cells has been found in various cancers (Chang et al.  2010 ; Michel et al.  2008 ; Watanabe et al.  2002 ), including breast cancer (Bates et al.  2006 ). There is evidence that tumor infiltrating Treg cells endowed with immunosuppressive potential are associated with tumor progression and unfavorable prognosis, especially in estrogen receptor (ER)-negative breast cancer (Bates et al.  2006 ; Kim et al.  2013 ; Liu et al.  2012a ). In addition, infiltrating MDSCs were also found in murine mammary tumor models (Aliper et al.  2014 ; Gad et al.  2014 ), but their relevance for breast cancer patients also in terms of prognosis is not well-understood. Furthermore, previous association studies have identified susceptibility alleles for breast cancer in two genes,  TGFBR2  (transforming growth factor beta receptor II) (Michailidou et al.  2013 ) and  CCND1  (cyclin D1) (French et al.  2013 ), which may be involved in immune regulation in cancer patients (Gabrilovich and Nagaraj  2009 ; Krieg and Boyman  2009 ), including those with breast cancer. We hypothesized that immunosuppression pathway genes, particularly those relevant to Treg cell and MDSC functions, may harbor further susceptibility variants associated with breast cancer tumorigenesis, with a possible differential association by ER status.
+In this analysis, we investigated associations between breast cancer risk and single nucleotide polymorphisms (SNPs) in 133 candidate genes in the immunosuppression pathway in individual level data from the Breast Cancer Association Consortium (BCAC). We also assessed associations with breast cancer risk at the gene and pathway levels. Furthermore, we used publicly available datasets through the UCSC Genome Browser ( 2015 ) to examine the putative genetic susceptibility loci for potential regulatory function.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="948~953" text="TGF-β" location="background" />
+<GENE id="G1" spans="1121~1124" text="CD4" location="background" />
+<GENE id="G2" spans="2113~2119" text="TGFBR2" location="background" />
+<GENE id="G3" spans="2122~2165" text="transforming growth factor beta receptor II" location="background" />
+<GENE id="G4" spans="2200~2205" text="CCND1" location="background" />
+<GENE id="G5" spans="2208~2217" text="cyclin D1" location="background" />
+<DISEASE id="D0" spans="1~14" text="Breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="87~93" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="114~125" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="266~279" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1374~1380" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1461~1474" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1703~1716" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1925~1938" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2084~2097" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2289~2295" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2385~2398" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2713~2726" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2865~2878" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2945~2958" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="2057~2079" text="susceptibility alleles" location="background" relation="genetic susceptibility" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="TGFBR2" diseaseID="D8" diseaseText="breast cancer" relationID="R0" relationText="susceptibility alleles" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="transforming growth factor beta receptor II" diseaseID="D8" diseaseText="breast cancer" relationID="R0" relationText="susceptibility alleles" />
+<ENTITY_LINKING id="E2" geneID="G4" geneText="CCND1" diseaseID="D8" diseaseText="breast cancer" relationID="R0" relationText="susceptibility alleles" />
+<ENTITY_LINKING id="E3" geneID="G5" geneText="cyclin D1" diseaseID="D8" diseaseText="breast cancer" relationID="R0" relationText="susceptibility alleles" />
+</TAGS>
+</Genomics_ConceptTask>

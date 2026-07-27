@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Although ChRCC usually appears as a larger tumor, it is relatively inert [ 18 ], and about 5%–10% of patients eventually develop metastases [ 4 ,  19 ], thus increasing the mortality rate of ChRCC. At present, the molecular mechanisms of ChRCC tumorigenesis remain generally vague. Therefore, the etiology and molecular mechanisms of ChRCC are found to be critical for cancer treatment and prevention. The application of chips and bioinformatics has been widely used to discover DEGs in tumorigenesis, diagnosis, and treatment.
+In our study, DEGs were firstly screened from the TCGA database in tumor and normal samples, and then GO and KEGG pathway analyses were performed. A PPI network was established, and top three hub genes were identified by cytoHubba, which include an upregulated gene (CENPA) and downregulated genes (KNG1, AGT). Then, survival analysis showed upregulation of CENPA was associated with lower overall survival of ChRCC patients, while expression of KNG1 or AGT had no statistical influence.
+Studies have shown that kininogen-1 (KNG1) could suppress angiogenesis [ 20 ] and metastasis [ 21 ]. KNG1 was studied as the core gene and downregulated in the glioma cells [ 22 ], which was also identified as a serum biomarker for colorectal cancer [ 23 ]. Overexpression of KNG1 could inhibit cell viability and angiogenesis and promote the apoptosis and G1 phase cell cycle arrest of glioma cells [ 22 ]. In the present study, KNG1 was downregulated in ChRCC, but there was no statistical influence on survival. Thus, the relationship between this gene and the tumor progression needs further verification. Angiotensinogen (AGT) is one of the significant parts of the renin–angiotensin system (RAS), widely known as a blood pressure regulation system [ 24 ]. Decades ago researchers have implicated AGT with an inhibition of human endothelial cell proliferation, cell migration, and angiogenesis in vitro [ 25 ,  26 ]. In breast cancer risk, AGT was involved in postmenopausal women [ 27 ], and the pro-tumor properties of high glucose in breast cancer cells are mainly attributed to inhibition of AGT [ 28 ]. However, an article pointed out AGT was overexpressed in lung adenocarcinoma tissue [ 29 ]. Moreover, the association between polymorphisms in the AGT and lung cancer risk showed no consistent results [ 30 ]. So, the association of AGT with cancer risk has still been inconsistent. In our findings, AGT was downregulated but was not associated with the prognosis.
+Centromere protein-A (CENPA) is a histone-H3 variant that regulates cell division and has been associated with cancer progression [ 31 ]. CENPA was highly expressed in epithelial ovarian cancer [ 32 ], breast cancer [ 33 ], osteosarcoma [ 34 ], and lung adenocarcinoma [ 35 ]. Increase in CENPA by immunohistochemical analysis in breast cancer samples trended towards an adverse outcome [ 8 ]. In hepatocellular carcinoma patients, CSN5 depletion took effective effects through downregulation of SMAD5-related pathways including CENPA, which represented a potential target for therapeutic approaches [ 36 ]. However, the pathological and clinical roles of CENPA in ChRCC remain unclear. Our study has identified CENPA was a key gene and upregulated in ChRCC patients control with normal patients. In addition, survival analysis results suggested that CENPA may be a prognostic indicator for patients with ChRCC.
+Finally, based on those analyses, DEGs were identified and CENPA could be a novel biomarker for early diagnosis, treatment, and prognosis and might play an important role in ChRCC progression. Further comprehensive and in-depth research on this gene will be very valuable.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="796~801" text="CENPA" location="result" />
+<GENE id="G1" spans="828~832" text="KNG1" location="result" />
+<GENE id="G2" spans="834~837" text="AGT" location="result" />
+<GENE id="G3" spans="887~892" text="CENPA" location="result" />
+<GENE id="G4" spans="975~979" text="KNG1" location="result" />
+<GENE id="G5" spans="983~986" text="AGT" location="result" />
+<GENE id="G6" spans="1041~1052" text="kininogen-1" location="result" />
+<GENE id="G7" spans="1054~1058" text="KNG1" location="result" />
+<GENE id="G8" spans="1118~1122" text="KNG1" location="result" />
+<GENE id="G9" spans="1293~1297" text="KNG1" location="result" />
+<GENE id="G10" spans="1447~1451" text="KNG1" location="result" />
+<GENE id="G11" spans="1627~1642" text="Angiotensinogen" location="result" />
+<GENE id="G12" spans="1644~1647" text="AGT" location="result" />
+<GENE id="G13" spans="1819~1822" text="AGT" location="result" />
+<GENE id="G14" spans="1962~1965" text="AGT" location="result" />
+<GENE id="G15" spans="2118~2121" text="AGT" location="result" />
+<GENE id="G16" spans="2162~2165" text="AGT" location="result" />
+<GENE id="G17" spans="2277~2280" text="AGT" location="result" />
+<GENE id="G18" spans="2362~2365" text="AGT" location="result" />
+<GENE id="G19" spans="2429~2432" text="AGT" location="result" />
+<GENE id="G20" spans="2494~2514" text="Centromere protein-A" location="result" />
+<GENE id="G21" spans="2516~2521" text="CENPA" location="result" />
+<GENE id="G22" spans="2632~2637" text="CENPA" location="result" />
+<GENE id="G23" spans="2783~2788" text="CENPA" location="result" />
+<GENE id="G24" spans="2926~2930" text="CSN5" location="result" />
+<GENE id="G25" spans="2990~2995" text="SMAD5" location="result" />
+<GENE id="G26" spans="3023~3028" text="CENPA" location="result" />
+<GENE id="G27" spans="3150~3155" text="CENPA" location="result" />
+<GENE id="G28" spans="3206~3211" text="CENPA" location="result" />
+<GENE id="G29" spans="3345~3350" text="CENPA" location="result" />
+<GENE id="G30" spans="3465~3470" text="CENPA" location="result" />
+<DISEASE id="D0" spans="10~15" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="192~197" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="239~244" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="335~340" text="ChRCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="370~376" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="939~944" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1177~1183" text="glioma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1249~1266" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1404~1410" text="glioma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1473~1478" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1942~1955" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2059~2072" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2187~2206" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2285~2296" text="lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2371~2377" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D15" spans="2605~2611" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="2673~2687" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2696~2709" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2718~2730" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2743~2762" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="2824~2837" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="2891~2915" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3159~3164" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3246~3251" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3399~3404" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="3580~3585" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="913~935" text="lower overall survival" location="result" relation="negative prognostic marker" />
+<RELATION id="R1" spans="1156~1169" text="downregulated" location="result" relation="decreased expression" />
+<RELATION id="R2" spans="1235~1244" text="biomarker" location="result" relation="biomarker" />
+<RELATION id="R3" spans="1456~1469" text="downregulated" location="result" relation="decreased expression" />
+<RELATION id="R4" spans="2170~2183" text="overexpressed" location="result" relation="increased expression" />
+<RELATION id="R7" spans="2642~2658" text="highly expressed" location="result" relation="increased expression" />
+<RELATION id="R8" spans="2865~2880" text="adverse outcome" location="result" relation="negative prognostic marker" />
+<RELATION id="R9" spans="2771~2779" text="Increase" location="result" relation="increased expression" />
+<RELATION id="R10" spans="3231~3242" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R11" spans="3360~3380" text="prognostic indicator" location="result" relation="prognostic indicator" />
+<RELATION id="R5" spans="3488~3517" text="biomarker for early diagnosis" location="result" relation="diagnostic tool" />
+<RELATION id="R12" spans="3488~3501,3534~3543" text="biomarker for ... prognosis" location="result" relation="prognostic indicator" />
+<RELATION id="R13" spans="991~1015" text="no statistical influence" location="result" relation="no relation" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="CENPA" diseaseID="D5" diseaseText="ChRCC" relationID="R0" relationText="lower overall survival" />
+<ENTITY_LINKING id="E1" geneID="G4" geneText="KNG1" diseaseID="D5" diseaseText="ChRCC" relationID="R13" relationText="no statistical influence" />
+<ENTITY_LINKING id="E2" geneID="G5" geneText="AGT" diseaseID="D5" diseaseText="ChRCC" relationID="R13" relationText="no statistical influence" />
+<ENTITY_LINKING id="E3" geneID="G8" geneText="KNG1" diseaseID="D6" diseaseText="glioma" relationID="R1" relationText="downregulated" />
+<ENTITY_LINKING id="E4" geneID="G8" geneText="KNG1" diseaseID="D7" diseaseText="colorectal cancer" relationID="R2" relationText="biomarker" />
+<ENTITY_LINKING id="E5" geneID="G10" geneText="KNG1" diseaseID="D9" diseaseText="ChRCC" relationID="R3" relationText="downregulated" />
+<ENTITY_LINKING id="E6" geneID="G16" geneText="AGT" diseaseID="D12" diseaseText="lung adenocarcinoma" relationID="R4" relationText="overexpressed" />
+<ENTITY_LINKING id="E7" geneID="G22" geneText="CENPA" diseaseID="D16" diseaseText="ovarian cancer" relationID="R7" relationText="highly expressed" />
+<ENTITY_LINKING id="E8" geneID="G22" geneText="CENPA" diseaseID="D17" diseaseText="breast cancer" relationID="R7" relationText="highly expressed" />
+<ENTITY_LINKING id="E9" geneID="G22" geneText="CENPA" diseaseID="D18" diseaseText="osteosarcoma" relationID="R7" relationText="highly expressed" />
+<ENTITY_LINKING id="E10" geneID="G22" geneText="CENPA" diseaseID="D19" diseaseText="lung adenocarcinoma" relationID="R7" relationText="highly expressed" />
+<ENTITY_LINKING id="E11" geneID="G23" geneText="CENPA" diseaseID="D20" diseaseText="breast cancer" relationID="R9" relationText="Increase" />
+<ENTITY_LINKING id="E12" geneID="G23" geneText="CENPA" diseaseID="D20" diseaseText="breast cancer" relationID="R8" relationText="adverse outcome" />
+<ENTITY_LINKING id="E13" geneID="G28" geneText="CENPA" diseaseID="D23" diseaseText="ChRCC" relationID="R10" relationText="upregulated" />
+<ENTITY_LINKING id="E14" geneID="G29" geneText="CENPA" diseaseID="D24" diseaseText="ChRCC" relationID="R11" relationText="prognostic indicator" />
+<ENTITY_LINKING id="E15" geneID="G30" geneText="CENPA" diseaseID="D25" diseaseText="ChRCC" relationID="R5" relationText="biomarker for early diagnosis" />
+<ENTITY_LINKING id="E16" geneID="G30" geneText="CENPA" diseaseID="D25" diseaseText="ChRCC" relationID="R12" relationText="biomarker for ... prognosis" />
+</TAGS>
+</Genomics_ConceptTask>

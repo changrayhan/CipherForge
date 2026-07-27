@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+High expression of IDH1 can predict the malignant progression of colorectal cancer
+We first evaluated the expression pattern of IDH1 in human clinical samples. The expression of IDH1 in the tumor tissues and corresponding adjacent tissues of the 125 CRC patients was determined using immunohistochemistry (Figure  1 A). Quantitative statistical analysis of the expression of IDH1 showed that IDH1 was highly expressed in CRC tissues (Figure  1 B). Further analysis showed that a high-stage CRC tumor was significantly associated with a high IDH1 expression score (p = 0.0152, Figure  1 C). The clinical data of the 87 CRC patients with high IDH1 expression tumors and 38 patients with low IDH1 expression tumors showed that high IDH1 expression was associated with a high-stage tumor (p < 0.001), distant metastasis (p = 0.006) and lymph node metastasis (p = 0.002, Table  1 ). Therefore, the high expression of IDH1 in CRC may be an indicator of malignant features.
+IDH1 promotes the proliferation of colorectal cancer cells and resistance to 5FU
+Next, we explored the effect of IDH1 on tumor growth in CRC cell lines. The CRC cell line, HCT8, stably expressed Flag-IDH1. Cell proliferation assays showed that IDH1 overexpression enhanced the proliferation of HCT8 cells  in vitro  (Figure  2 A and B). Meanwhile, we established two HCT8 cell lines (shIDH1-994 and shIDH1-1404) with stable IDH1 knockdown using shRNA lentiviral plasmids. The results showed that the proliferation of HCT8 cells with IDH1 knockdown using shRNA was significantly slower than that of the control group (Figure  2 C and D). Cell cycle assays using flow cytometry showed that the overexpression of Flag-IDH1 decreased the proportion of HCT8 cells at the G1 phase and increased the proportion at the G2 phase (Figure  2 E and F). Compared with control cells, the cell lines expressing IDH1-shRNA showed a significant increase in the proportion of cells at the G1 phase and a decrease in the proportion of cells at the S phase (Figure  2 G and H), indicating that IDH1 knockdown inhibited G1-S transition in the CRC cell cycle.
+The role of IDH1 in the development of CRC chemoresistance was explored. Compared with the control vector, Flag-IDH1 increased the survival rate of HCT8 cells under different concentrations (0.5, 2 µg/ml) of 5FU treatment (Figure  2 I), indicating that IDH1 overexpression promoted the development of 5FU resistance. The results of the cell invasion assays showed that the invasive ability of HCT8 cells decreased after IDH1 knockdown, and that IDH1-shRNA combined with 5FU treatment further inhibited cell invasion (Figure  2 J and K). These results confirm that IDH1 promotes the proliferation of CRC cells and resistance to 5FU. The combination of IDH1-knockdown and 5FU therapy can enhance the inhibition effect on the malignant behavior of CRC cells.
+Exosomes secreted by 5FU-resistant colorectal cancer cells induce drug resistance
+To study the mechanism by which 5FU resistance develops and is transmitted in colorectal cancer, we established a 5FU-resistant HCT8 cell line, HCT8FU. Cell viability assays were used to evaluate the resistance of HCT8FU cells to 5FU and to show that these cells were more resistant to 5FU than the drug-sensitive HCT8 cell line (Figure  3 A). We attempted to determine whether exosomes are involved in the communication between different subgroups of colorectal cancer cells and the transmission of 5FU resistance. Exosomes (HCT8-exo and HCT8FU-exo) were isolated from HCT8 and HCT8FU cells through ultracentrifugation, and their morphology was observed using a transmission electron microscope (Figure  3 B). Western blotting assays revealed that the exosomal markers, CD63 and TSG101, were expressed by HCT8-exo and HCT8FU-exo (Figure  3 D), indicating successful isolation of the exosomes. Nanoparticle size analysis studies showed that these exosomes were of an average diameter of 100-250 nm (Figure  3 C). Next, 40 μg/ml HCT8-exo or HCT8FU-exo was co-cultured with sensitive HCT8 cells for 24 to 96 h. The results showed that HCT8FU-exo significantly increased HCT8 cell proliferation (Figure  3 E). The 5FU-sensitive HCT8 cells were incubated with 40 μg/ml HCT8-exo or HCT8FU-exo for 48 h and then exposed to 5FU for 48 h. The 5FU resistance of HCT8 cells was enhanced by HCT8FU-exo, compared with HCT8-exo (Figure  3 F). These results suggest that exosomes secreted by 5FU-resistant colorectal cancer cells promoted drug resistance in sensitive colorectal cancer cells.
+High expression of IDH1 in exosomes secreted by 5FU-resistant colorectal cancer cells
+LC-MS/MS was used to obtain the protein expression profile of the exosomes derived from sensitive HCT8 cells (HCT8-exo) and exosomes derived from resistant HCT8FU cells (HCT8FU-exo) to determine differences in exosomal proteins derived from 5FU-resistant colorectal cancer cells and sensitive cells. The iBAQ algorithm was used for the absolute quantification of proteins, and 1,629 differentially expressed proteins were found between HCT8-exo and HCT8FU-exo. Of these, 95 proteins were highly expressed by HCT8-exo, while 1,534 proteins were highly expressed by HCT8FU-exo. Further, KEGG enrichment analysis of the highly expressed proteins in HCT8FU-exo showed that these proteins enriched in 5FU-resistant exosomes were involved in regulation of metabolic pathways, including glycolysis and environmental information pathways (Figure  4 A and  4 B). The KEGG enrichment analysis showed that in HCT8-exo, immune system regulatory proteins and metabolic pathway-related proteins were highly enriched in exosomes derived from sensitive cells (Figure  4 C and  4 D). The proteins highly expressed by HCT8FU-exo included proteins that regulate glucose metabolism, including IDH1 (Figure  4 E), while proteins involved in cell metabolism were highly expressed by HCT8-exo (Figure  4 F). The absolute protein quantification of iBAQ using LC-MS/MS results showed that IDH1 was highly expressed in the exosomes of 5FU-resistant colorectal cancer cells (Figure  4 G). Western blotting assays also demonstrated a high level of IDHI expression in HCT8FU-exo (Figure  4 H). These results indicate that exosomal IDH1 may be involved in the development and transmission of 5FU resistance in colorectal cancer cells.
+Exosomal IDH1 promotes 5FU resistance in colorectal cancer cells
+The viability of the HCT8 cells under 5FU exposure was used to determine whether the exosomal IDH1 derived from resistant cells could induce 5FU resistance in sensitive cells. Exosomes derived from HCT8 cells that expressed Flag-IDH1 were isolated, and exosomal IDH1 was overexpressed (Figure  5 A). Exosomes with high IDH1 expression (HCT8-exo IDH1 ) and control exosomes (HCT8-exo vector ) were co-cultured with HCT8 cells and then exposed to 5FU. The results showed that exosomes with elevated IDH1 expression significantly promoted 5FU resistance in HCT8 cells (Figure  5 B). Exosomes derived from HCT8FU cells (HCT8FU-exo shIDH1-994  and HCT8FU-exo shIDH1-1404 ) with stable IDH1 knockdown were also extracted (Figure  5 C) and co-cultured with HCT8 cells. Exosomes with low levels of IDH1 expression enhanced the sensitivity of HCT8 cells to 5FU (Figure  5 D). The commercial IDH1 inhibitor, ivosidenib, was used to treat HCT8FU cells, and then exosomes were extracted (HCT8FU-exo ivosidenib ) and used to increase the drug sensitivity of HCT8 cells (Figure  5 E). Together, these results indicate that drug-resistant colorectal cancer cells secrete exosomes that confer 5FU resistance to sensitive cells by delivering IDH1.
+Exosomal IDH1-mediated glycometabolism reprogramming is involved in 5FU resistance
+The exosomes derived from drug-resistant cells that delivered IDH1 accelerated the glucose metabolism of the sensitive cells that took them up to achieve 5FU resistance. HCT8 cells that ingested HCT8FU-exo showed significantly increased glucose consumption than those that ingested HCT8-exo (Figure  6 A). HCT8FU-exo also increased levels of intracellular α-KG production in HCT8 cells, compared with HCT8-exo (Figure  6 B). Monitoring of isocitrate dehydrogenase activity showed that IDH1 activity was elevated in HCT8 cells that ingested HCT8FU-exo (Figure  6 C). IDH1 mediates the production of the intracellular reducing metabolite, NADPH, while previous studies have also indicated that NADPH can neutralize tumor cell damage caused by chemotherapy drugs  17 ,  27 . In 5FU-resistant HCT8FU cells, the basal level of NADPH was higher than that of sensitive HCT8 cells (Figure  6 D). 5FU significantly decreased the level of NADPH in HCT8 cells, which gave evidence that the cytotoxicity of 5FU was accompanied by low levels of NADPH (Figure  6 D). When HCT8FU-exo was co-cultured with HCT8 cells treated with 5FU, intracellular NADPH levels did not show a significant change (Figure  6 E). To reverse the effect of exosomal IDH1 on the production of NADPH, we used 5FU to treat HCT8 cells that had internalized HCT8FU-exo shIDH1-994 , HCT8FU-exo shIDH1-1404  (Figure  6 F) or HCT8FU-exo ivosidenib  (Figure  6 G). The results showed that 5FU decreased NADPH levels in HCT8 cells co-cultured with HCT8FU-exo, whose IDH1 activity or content was inhibited (Figure  6 F and  6 G). To revert resistance caused by exosomal IDH1, the IDH1 inhibitor, ivosidenib, and 5FU co-treatment were used. Compared with 5FU, the combination of ivosidenib and 5FU significantly decreased NADPH levels in HCT8FU cells (Figure  6 H). Our data confirmed that drug-resistant cells secrete IDH1-containing exosomes that increase the intracellular NADPH levels of sensitive cells that trigger drug resistance.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="20~24" text="IDH1" location="result" />
+<GENE id="G1" spans="129~133" text="IDH1" location="result" />
+<GENE id="G2" spans="179~183" text="IDH1" location="result" />
+<GENE id="G3" spans="376~380" text="IDH1" location="result" />
+<GENE id="G4" spans="393~397" text="IDH1" location="result" />
+<GENE id="G5" spans="542~546" text="IDH1" location="result" />
+<GENE id="G6" spans="642~646" text="IDH1" location="result" />
+<GENE id="G7" spans="690~694" text="IDH1" location="result" />
+<GENE id="G8" spans="730~734" text="IDH1" location="result" />
+<GENE id="G9" spans="913~917" text="IDH1" location="result" />
+<GENE id="G10" spans="968~972" text="IDH1" location="result" />
+<GENE id="G11" spans="1081~1085" text="IDH1" location="result" />
+<GENE id="G12" spans="1168~1172" text="IDH1" location="result" />
+<GENE id="G13" spans="1212~1216" text="IDH1" location="result" />
+<GENE id="G14" spans="1392~1396" text="IDH1" location="result" />
+<GENE id="G15" spans="1501~1505" text="IDH1" location="result" />
+<GENE id="G16" spans="1683~1687" text="IDH1" location="result" />
+<GENE id="G17" spans="1864~1868" text="IDH1" location="result" />
+<GENE id="G18" spans="2042~2046" text="IDH1" location="result" />
+<GENE id="G19" spans="2118~2122" text="IDH1" location="result" />
+<GENE id="G20" spans="2218~2222" text="IDH1" location="result" />
+<GENE id="G21" spans="2359~2363" text="IDH1" location="result" />
+<GENE id="G22" spans="2526~2530" text="IDH1" location="result" />
+<GENE id="G23" spans="2551~2555" text="IDH1" location="result" />
+<GENE id="G24" spans="2670~2674" text="IDH1" location="result" />
+<GENE id="G25" spans="2757~2761" text="IDH1" location="result" />
+<GENE id="G26" spans="3715~3719" text="CD63" location="result" />
+<GENE id="G27" spans="3724~3730" text="TSG101" location="result" />
+<GENE id="G28" spans="4542~4546" text="IDH1" location="result" />
+<GENE id="G29" spans="5782~5786" text="IDH1" location="result" />
+<GENE id="G30" spans="5973~5977" text="IDH1" location="result" />
+<GENE id="G31" spans="6211~6215" text="IDH1" location="result" />
+<GENE id="G32" spans="6323~6327" text="IDH1" location="result" />
+<GENE id="G33" spans="6473~6477" text="IDH1" location="result" />
+<GENE id="G34" spans="6608~6612" text="IDH1" location="result" />
+<GENE id="G35" spans="6641~6645" text="IDH1" location="result" />
+<GENE id="G36" spans="6698~6702" text="IDH1" location="result" />
+<GENE id="G37" spans="6876~6880" text="IDH1" location="result" />
+<GENE id="G38" spans="7059~7063" text="IDH1" location="result" />
+<GENE id="G39" spans="7169~7173" text="IDH1" location="result" />
+<GENE id="G40" spans="7261~7265" text="IDH1" location="result" />
+<GENE id="G41" spans="7604~7608" text="IDH1" location="result" />
+<GENE id="G42" spans="7619~7623" text="IDH1" location="result" />
+<GENE id="G43" spans="7755~7759" text="IDH1" location="result" />
+<GENE id="G44" spans="8178~8182" text="IDH1" location="result" />
+<GENE id="G45" spans="8259~8263" text="IDH1" location="result" />
+<GENE id="G46" spans="8922~8926" text="IDH1" location="result" />
+<GENE id="G47" spans="9212~9216" text="IDH1" location="result" />
+<GENE id="G48" spans="9325~9329" text="IDH1" location="result" />
+<GENE id="G49" spans="9563~9567" text="IDH1" location="result" />
+<DISEASE id="D0" spans="66~83" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="251~254" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="422~425" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="491~494" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="619~622" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="921~924" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1003~1020" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1105~1108" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1125~1128" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2090~2093" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2145~2148" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2705~2708" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2851~2854" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2897~2914" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3022~3039" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3396~3413" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4436~4453" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4498~4515" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4585~4602" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="4864~4881" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="6032~6049" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="6289~6306" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="6355~6372" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="7503~7520" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1~16" text="High expression" location="result" relation="increased expression" />
+<RELATION id="R1" spans="29~62" text="predict the malignant progression" location="result" relation="negative prognostic marker" />
+<RELATION id="R2" spans="402~418" text="highly expressed" location="result" relation="increased expression" />
+<RELATION id="R3" spans="537~541,547~563" text="high ... expression score" location="result" relation="increased expression" />
+<RELATION id="R4" spans="637~641,647~657" text="high ... expression" location="result" relation="increased expression" />
+<RELATION id="R5" spans="894~909" text="high expression" location="result" relation="increased expression" />
+<RELATION id="R6" spans="935~966" text="indicator of malignant features" location="result" relation="negative prognostic marker" />
+<RELATION id="R7" spans="4523~4538" text="High expression" location="result" relation="increased expression" />
+<RELATION id="R8" spans="5982~5998" text="highly expressed" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="IDH1" diseaseID="D0" diseaseText="colorectal cancer" relationID="R0" relationText="High expression" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="IDH1" diseaseID="D0" diseaseText="colorectal cancer" relationID="R1" relationText="predict the malignant progression" />
+<ENTITY_LINKING id="E2" geneID="G4" geneText="IDH1" diseaseID="D4" diseaseText="CRC" relationID="R2" relationText="highly expressed" />
+<ENTITY_LINKING id="E3" geneID="G5" geneText="IDH1" diseaseID="D5" diseaseText="CRC" relationID="R3" relationText="high ... expression score" />
+<ENTITY_LINKING id="E4" geneID="G6" geneText="IDH1" diseaseID="D6" diseaseText="CRC" relationID="R4" relationText="high ... expression" />
+<ENTITY_LINKING id="E5" geneID="G9" geneText="IDH1" diseaseID="D7" diseaseText="CRC" relationID="R5" relationText="high expression" />
+<ENTITY_LINKING id="E6" geneID="G9" geneText="IDH1" diseaseID="D7" diseaseText="CRC" relationID="R6" relationText="indicator of malignant features" />
+<ENTITY_LINKING id="E7" geneID="G28" geneText="IDH1" diseaseID="D20" diseaseText="colorectal cancer" relationID="R7" relationText="High expression" />
+<ENTITY_LINKING id="E8" geneID="G30" geneText="IDH1" diseaseID="D2" diseaseText="colorectal cancer" relationID="R8" relationText="highly expressed" />
+</TAGS>
+</Genomics_ConceptTask>

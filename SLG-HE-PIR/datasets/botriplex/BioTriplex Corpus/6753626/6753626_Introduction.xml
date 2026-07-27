@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Acute lymphoblastic leukemia (ALL), the most common childhood cancer manifests as a clinically and genetically heterogenous malignancy. Both B-cell and T-cell ALL are primarily initiated by recurrent chromosomal translocations and driven by accumulation of distinct constellations of gross and sub-microscopic somatic genetic alterations including copy number alterations (CNAs), aneuploidy, structural variants, and DNA sequence mutations ( 1 – 4 ). Several of these lesions are important determinants of the risk of treatment failure and disease relapse but a universal agreement for inclusion of these genetic alterations in clinical risk stratification is still lacking. With current treatment protocols, long-term survival approaches 90%; however, a fraction of patients with favorable genetics relapse and refractory disease still poses a significant clinical challenge due to resistance of the recurrent disease to chemotherapy. Therefore, a more robust comprehensive genetic profiling can potentially facilitate better risk stratification and appropriate therapy.
+The specific genetic subtypes in B-ALL are associated with distinct prognostic outcomes e.g., t(9;22)  BCR-ABL1  translocation, MLL gene rearrangements, hypodiploidy, and intrachromosomal amplification of chromosome 21 ( iAMP21 ) predict poor outcome and genetic hallmarks such as  ETV6-RUNX1  and hyperdiploid ALL predict favorable outcome ( 1 ,  5 ). An integrated cytogenetic and molecular genetics approach has been proposed and validated in small cohorts for improved risk stratification in B-ALL and classification of patients into clinically relevant subtypes with potentially important implications for therapy ( 6 – 9 ). In addition to gross chromosomal rearrangements, partial, or complete deletions of the  IKZF1, CDKN2A/B, EBF1 , and  RB1  genes have emerged as independent predictors of poor outcome in B-ALL ( 10 – 12 ).
+In the past two decades, genomic-profiling approaches have provided important insights into the genetic basis of ALL. ALL harbors several recurring regions of genetic alterations, most commonly focal submicroscopic or cryptic lesions that are not evident on conventional cytogenetic analysis ( 13 ). Many of the genes altered in ALL encode proteins with roles in key cellular pathways, including lymphoid development and differentiation (e.g.,  PAX5, IKZF1, EBF1, LEF1 , and  VPREB ), cell-cycle regulation and tumor suppression [ CDKN2A, CDKN2B (INK4/ARF), TP53, PTEN , and  RB1 ], lymphoid signaling ( BTLA, CD200 , and  TOX ), transcription factors and transcriptional coregulators ( ERG, TBL1XR1 , and  CREBBP ), regulation of apoptosis ( BTG1 ), and drug receptor ( NR3C1 ) ( 10 ). Importantly, studies have also identified genetic lesions that define novel subtypes of ALL with distinct gene expression profiles, such as subtypes characterized by rearrangement of  CRLF2  ( 14 ,  15 ), intrachromosomal amplification of chromosome 21 ( 16 ), focal deletions of  ERG  ( 17 ), and  NOTCH1  ( 18 ). Several of these alterations described are clinically relevant in terms of risk stratification of ALL patients.
+Recently, a next-generation sequencing-based Multiplex Ligation-dependent Probe Amplification (MLPA) variant, digitalMLPA (dMLPA) was developed to detect sub-microscopic CNAs, which might be missed by existing conventional, and high-resolution technologies ( 19 ). The available molecular diagnostic tools for detection of these key genetic abnormalities to distinguish various subtypes of ALL include conventional karyotyping, FISH, aCGH, SNP arrays, and conventional MLPA which are tedious and time-consuming. dMLPA allows multiplexing of several targets for accurate copy number detection of multiple genomic targets implicated in ALL. The aim of our study was to evaluate the utility of dMLPA in screening of ALL patients for key CNAs. Here, we present (1) the spectrum of chromosomal abnormalities, and CNAs including gene alterations among B-ALL and T-ALL patients, (2) validation of dMLPA data by conventional MLPA and RT-PCR, (3) correlation of CNAs with Minimal Residual Disease (MRD) status and integration of CNAs with risk stratification in ALL. As far as we know, our study demonstrated the utility of dMLPA in the detection of CNAs in ALL for the first time in Indian patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1176~1179" text="BCR" location="background" />
+<GENE id="G1" spans="1180~1184" text="ABL1" location="background" />
+<GENE id="G2" spans="1355~1359" text="ETV6" location="background" />
+<GENE id="G3" spans="1360~1365" text="RUNX1" location="background" />
+<GENE id="G4" spans="1791~1796" text="IKZF1" location="background" />
+<GENE id="G5" spans="1798~1804" text="CDKN2A" location="background" />
+<GENE id="G6" spans="1808~1812" text="EBF1" location="background" />
+<GENE id="G7" spans="1820~1823" text="RB1" location="background" />
+<GENE id="G8" spans="2353~2357" text="PAX5" location="background" />
+<GENE id="G9" spans="2359~2364" text="IKZF1" location="background" />
+<GENE id="G10" spans="2366~2370" text="EBF1" location="background" />
+<GENE id="G11" spans="2372~2376" text="LEF1" location="background" />
+<GENE id="G12" spans="2384~2389" text="VPREB" location="background" />
+<GENE id="G13" spans="2439~2445" text="CDKN2A" location="background" />
+<GENE id="G14" spans="2447~2453" text="CDKN2B" location="background" />
+<GENE id="G15" spans="2455~2459" text="INK4" location="background" />
+<GENE id="G16" spans="2460~2463" text="ARF" location="background" />
+<GENE id="G17" spans="2466~2470" text="TP53" location="background" />
+<GENE id="G18" spans="2472~2476" text="PTEN" location="background" />
+<GENE id="G19" spans="2484~2487" text="RB1" location="background" />
+<GENE id="G20" spans="2512~2516" text="BTLA" location="background" />
+<GENE id="G21" spans="2518~2523" text="CD200" location="background" />
+<GENE id="G22" spans="2531~2534" text="TOX" location="background" />
+<GENE id="G23" spans="2595~2598" text="ERG" location="background" />
+<GENE id="G24" spans="2600~2607" text="TBL1XR1" location="background" />
+<GENE id="G25" spans="2615~2621" text="CREBBP" location="background" />
+<GENE id="G26" spans="2651~2655" text="BTG1" location="background" />
+<GENE id="G27" spans="2679~2684" text="NR3C1" location="background" />
+<GENE id="G28" spans="2879~2884" text="CRLF2" location="background" />
+<GENE id="G29" spans="2976~2979" text="ERG" location="background" />
+<GENE id="G30" spans="2994~3000" text="NOTCH1" location="background" />
+<DISEASE id="D0" spans="1~29" text="Acute lymphoblastic leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="31~34" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="63~69" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="153~163" text="T-cell ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="142~148,160~163" text="B-cell ... ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1106~1111" text="B-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1384~1387" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1569~1574" text="B-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1889~1894" text="B-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2021~2024" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2237~2240" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2783~2786" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3108~3111" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3512~3515" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3756~3759" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3835~3838" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3968~3973" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3978~3983" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4175~4178" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4271~4274" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1388~1413" text="predict favorable outcome" location="background" relation="positive prognostic marker" />
+<RELATION id="R1" spans="1859~1885" text="predictors of poor outcome" location="background" relation="negative prognostic marker" />
+<RELATION id="R4" spans="2956~2971" text="focal deletions" location="background" relation="associated mutation" />
+<RELATION id="R5" spans="1752~1782" text="partial, or complete deletions" location="background" relation="associated mutation" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="ETV6" diseaseID="D6" diseaseText="ALL" relationID="R0" relationText="predict favorable outcome" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="RUNX1" diseaseID="D6" diseaseText="ALL" relationID="R0" relationText="predict favorable outcome" />
+<ENTITY_LINKING id="E2" geneID="G4" geneText="IKZF1" diseaseID="D8" diseaseText="B-ALL" relationID="R5" relationText="partial, or complete deletions" />
+<ENTITY_LINKING id="E3" geneID="G5" geneText="CDKN2A" diseaseID="D8" diseaseText="B-ALL" relationID="R5" relationText="partial, or complete deletions" />
+<ENTITY_LINKING id="E4" geneID="G6" geneText="EBF1" diseaseID="D8" diseaseText="B-ALL" relationID="R5" relationText="partial, or complete deletions" />
+<ENTITY_LINKING id="E5" geneID="G7" geneText="RB1" diseaseID="D8" diseaseText="B-ALL" relationID="R5" relationText="partial, or complete deletions" />
+<ENTITY_LINKING id="E6" geneID="G4" geneText="IKZF1" diseaseID="D8" diseaseText="B-ALL" relationID="R1" relationText="predictors of poor outcome" />
+<ENTITY_LINKING id="E7" geneID="G5" geneText="CDKN2A" diseaseID="D8" diseaseText="B-ALL" relationID="R1" relationText="predictors of poor outcome" />
+<ENTITY_LINKING id="E8" geneID="G6" geneText="EBF1" diseaseID="D8" diseaseText="B-ALL" relationID="R1" relationText="predictors of poor outcome" />
+<ENTITY_LINKING id="E9" geneID="G7" geneText="RB1" diseaseID="D8" diseaseText="B-ALL" relationID="R1" relationText="predictors of poor outcome" />
+<ENTITY_LINKING id="E10" geneID="G29" geneText="ERG" diseaseID="D11" diseaseText="ALL" relationID="R4" relationText="focal deletions" />
+<ENTITY_LINKING id="E11" geneID="G30" geneText="NOTCH1" diseaseID="D11" diseaseText="ALL" relationID="R4" relationText="focal deletions" />
+</TAGS>
+</Genomics_ConceptTask>

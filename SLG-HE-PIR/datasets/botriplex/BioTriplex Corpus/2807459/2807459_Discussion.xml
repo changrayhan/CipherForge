@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In the present study, we provide new insights into the multiplicity and diversity of CEACAM1, CEACAM5 and CEACAM6 expression and their functions in tumor development and progression. We found, that CEACAM1 but not CEACAM5, 6, or 7 was expressed on the surface of A549 human alveolar lung epithelial cells. However, this CEACAM1 expression was limited to the post-confluent contact inhibited growth stage, whereas proliferating cells did not show any CEACAM expression on the cell surface. In addition to the expression of CEACAM1 in contact-inhibited A549 cells, significant amounts of soluble variants of CEACAM5 and CEACAM6 were released by confluent A549 cells, thus exhibiting a likely source for increased CEACAM5 and CEACAM6 serum levels, which are frequently detected in cancer patients [31] – [33] .
+Further important insights from this study rely on the characterization of two functionally distinct A549 subpopulations, named A549-NT and A549-T. Cells of the A549-NT subpopulation retains the characteristics of a more differentiated, contact-inhibited cell type without tumorigenic effects in the nude mouse system, whereas A549-T cells exhibit a relatively undifferentiated, anchorage-independent cell growth. Accordingly, cells of this subpopulation appear to be highly tumorigenic in nude mice [3] . Loss of contact inhibition and the gain of anchorage-independent cell growth are hallmarks of undifferentiated cancer cells in vitro 6 . Thus, the A549 cell line is an excellent model system to investigate normal and malignant cellular processes and tissue architecture, which are known to be largely established and maintained by members of the CEACAM family. In our study analyses of the two A549 subpopulations reveals that CEACAM1-4L negatively regulates proliferation by maintaining contact inhibition via its ITIM-domain. These findings are in accordance with previous reports describing CEACAM1 as a tumor-suppressor gene [34] . Interestingly, a fraction of tightly confluent A549-T cells also expressed CEACAM6 on the cell surface. These CEACAM6 positive A549-T cells also stained positive for Ki-67 and showed a DNA-based cell cycle profile characteristic for dividing cells, two well-known markers of cellular proliferation. Our data indicate that CEACAM6 expression on the surface of A549 cells abolishes the cell-cell contact-triggered inhibitory signal mediated by CEACAM1. Consequently, we conclude that CEACAM6 expression on the cell surface acts as a potent inducer of cellular proliferation. Moreover, these observations are of central importance for explaining the differences in growth behavior and tumorigenicity of A549-NT and A549-T cells. These findings demonstrate that the interplay between different CEACAMs is crucial for the regulation of cell proliferation and growth arrest.
+Furthermore, over-expression of CEACAM1-4L strengthened contact inhibition and the formation of tightly confluent monolayers which were dependent on the presence of an intact ITIM domain in the cytoplasmic part of CEACAM1-4L. Our data are in accordance with several reports indicating tumor suppressive functions when the CEACAM1-4L gene was over-expressed in prostate, bladder, colon and breast cancer cells. In these studies, over-expression of CEACAM1-4L lead to significantly lower growth rates and less tumorigenicity in both in vitro and in vivo models when compared with un-transfected tumor cells  [32] – [36] . In addition, we found that A549 cells over-expressing the cytoplasmic S-isoform of CEACAM1 on their cell surface completely lost the ability to grow as an epithelial monolayer. These data correspond to a report of Wang et al.  [36] . In this study the authors analyzed tumor tissue and corresponding normal lung tissue from patients with non-small cell lung cancer (NSCLC) and found reduced expression levels of the L-form of CEACAM1 as well as increased levels of the S-form of CEACAM1 in most of the lung cancer tissues 36 . Changes in the isoform ratios of CEACAM1 favoring the S form has already been demonstrated to increase proliferation in cancer cells  [37] ,  [38] . However, in our investigation we did not find a significant difference in the L/S ratio expressed by the two A549 subpopulations that would account for the differences in the observed growth pattern.
+As mentioned above, in contrast to the A549-NT cells, in addition to CEACAM1, about 15 percent of the A549-T cells also expressed CEACAM6 on their cell surface, and the alterations in contact inhibited growth pattern could be reversed in A549-T cells by shRNA mediated knock down of CEACAM6 expression. CEACAM6 expression has already been inversely correlated with cellular differentiation and has been identified as a marker for decreased survival in patients with CEACAM6 expressing cancers. [35] ,  [37] ,  [38]  In a series of experiments, Duxbury and associates have demonstrated that CEACAM6 over-expression in pancreatic cancer is a determinant of cell proliferation and cell invasiveness [39] . On the other hand, targeting CEACAM6 results in decreased tumor growth, and inhibits metastases in a mouse xenograft model [40] . Our results are in accordance with these findings, but in addition we show for the first time that CEACAM6 acts as an inducer of proliferation in A549 cells, putatively by interfering directly or indirectly with the contact-inhibiting signal triggered by CEACAM1-4L. These data also support previous data implying that CEACAM6 over-expression inhibits the tissue architecture surveillance mechanism known as anoikis [41] . In principle A549 cells were able to express GPI anchored CEACAMs as demonstrated by the generation of A549-CEACAM5 cell lines ( Figure 5A ). However, our finding that the survival of detached A549-CEACAM5 cells was significantly decreased was in contrast to the results published by Camacho-Leal and Stanners, who demonstrated that the GPI anchor of CEACAM5 mediates anoikis inhibition [42] . This different result may be based on the fact that A549 cells represent a human cell system endogenously expressing CEACAMs whereas Stanners group utilized L6 rat myoblasts, which normally do not express CEACAM5. In addition, in rat no GPI-linked CEACAMs were described so far.
+Our observations seem to be in contrast to the report of Laack et al., who identified CEACAM1 expression as a prognostic marker for poor outcome in patients with adenocarcinomas of the lung [43] . However, Sienel et al. suggested that the unfavorable prognostic influence of CEACAM1 might be derived from its angiogenic influence leading to an increased angiogenic activity and micro vessel density (MVD) in non-small-cell lung cancer. It is tempting to speculate that the expression of other CEACAMs in NSCLC cells could overcome the CEACAM1-mediated contact inhibition in these cells.
+Taken together, several members of the CEACAM family play important roles in tumorigenesis and the development of metastatic disease [10] ,  [14] . In addition, each CEACAM and each CEACAM splice variant can exhibit distinct functions, and interactions between different CEACAMs seem to play a central role in the fine-tuning of several cellular functions [12] ,  [38] . Nevertheless, in most studies of the role of CEACAM expression in cancer cells, the expression and function of only one CEACAM was investigated [11] ,  [12] ,  [22] ,  [34] – [36] ,  [40] ,  [44] – [52] . The results of our study show that changes in the expression patterns of different CEACAMs can alter their diverse functions on cell-cell interactions leading to changes in differentiation and survival, as well as tumorigenicity. Thus, future studies should focus on the expression patterns and the functional interplay of all CEACAMs and CEACAM isoforms expressed on the investigated tissues.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="86~93" text="CEACAM1" location="result" />
+<GENE id="G1" spans="95~102" text="CEACAM5" location="result" />
+<GENE id="G2" spans="107~114" text="CEACAM6" location="result" />
+<GENE id="G3" spans="199~206" text="CEACAM1" location="result" />
+<GENE id="G4" spans="215~222" text="CEACAM5" location="result" />
+<GENE id="G5" spans="321~328" text="CEACAM1" location="result" />
+<GENE id="G6" spans="523~530" text="CEACAM1" location="result" />
+<GENE id="G7" spans="607~614" text="CEACAM5" location="result" />
+<GENE id="G8" spans="619~626" text="CEACAM6" location="result" />
+<GENE id="G9" spans="712~719" text="CEACAM5" location="background" />
+<GENE id="G10" spans="724~731" text="CEACAM6" location="background" />
+<GENE id="G11" spans="1742~1749" text="CEACAM1" location="result" />
+<GENE id="G12" spans="1909~1916" text="CEACAM1" location="background" />
+<GENE id="G13" spans="2026~2033" text="CEACAM6" location="result" />
+<GENE id="G14" spans="2061~2068" text="CEACAM6" location="result" />
+<GENE id="G15" spans="2273~2280" text="CEACAM6" location="result" />
+<GENE id="G16" spans="2393~2400" text="CEACAM1" location="result" />
+<GENE id="G17" spans="2433~2440" text="CEACAM6" location="result" />
+<GENE id="G18" spans="2852~2859" text="CEACAM1" location="result" />
+<GENE id="G19" spans="3034~3041" text="CEACAM1" location="result" />
+<GENE id="G20" spans="3142~3149" text="CEACAM1" location="background" />
+<GENE id="G21" spans="3267~3274" text="CEACAM1" location="background" />
+<GENE id="G22" spans="3523~3530" text="CEACAM1" location="result" />
+<GENE id="G23" spans="3866~3873" text="CEACAM1" location="background" />
+<GENE id="G24" spans="3919~3926" text="CEACAM1" location="background" />
+<GENE id="G25" spans="4000~4007" text="CEACAM1" location="background" />
+<GENE id="G26" spans="4385~4392" text="CEACAM1" location="result" />
+<GENE id="G27" spans="4446~4453" text="CEACAM6" location="result" />
+<GENE id="G28" spans="4599~4606" text="CEACAM6" location="result" />
+<GENE id="G29" spans="4619~4626" text="CEACAM6" location="background" />
+<GENE id="G30" spans="4782~4789" text="CEACAM6" location="background" />
+<GENE id="G31" spans="4906~4913" text="CEACAM6" location="background" />
+<GENE id="G32" spans="5048~5055" text="CEACAM6" location="background" />
+<GENE id="G33" spans="5248~5255" text="CEACAM6" location="result" />
+<GENE id="G34" spans="5404~5411" text="CEACAM1" location="background" />
+<GENE id="G35" spans="5468~5475" text="CEACAM6" location="background" />
+<GENE id="G36" spans="5923~5930" text="CEACAM5" location="background" />
+<GENE id="G37" spans="6171~6178" text="CEACAM5" location="background" />
+<GENE id="G38" spans="6331~6338" text="CEACAM1" location="background" />
+<GENE id="G39" spans="6520~6527" text="CEACAM1" location="background" />
+<GENE id="G40" spans="6780~6787" text="CEACAM1" location="result" />
+<DISEASE id="D0" spans="779~785" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="1426~1432" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="3209~3222" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="3180~3188,3216~3222" text="prostate ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="3190~3197,3216~3222" text="bladder ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="3199~3204,3216~3222" text="colon ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="3778~3804" text="non-small cell lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="3806~3811" text="NSCLC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="3942~3953" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="4087~4093" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="4801~4807" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D12" spans="4933~4950" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="6407~6434" text="adenocarcinomas of the lung" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="6653~6679" text="non-small-cell lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="6749~6754" text="NSCLC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="7269~7275" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R0" spans="702~711,732~744" text="increased ... serum levels" location="result" relation="increased expression" />
+<RELATION id="R1" spans="3823~3848" text="reduced expression levels" location="background" relation="decreased expression" />
+<RELATION id="R2" spans="3885~3901" text="increased levels" location="background" relation="increased expression" />
+<RELATION id="R3" spans="4746~4764" text="decreased survival" location="background" relation="negative prognostic marker" />
+<RELATION id="R4" spans="4790~4800" text="expressing" location="background" relation="increased expression" />
+<RELATION id="R5" spans="4914~4929" text="over-expression" location="background" relation="increased expression" />
+<RELATION id="R6" spans="6355~6389" text="prognostic marker for poor outcome" location="background" relation="negative prognostic marker" />
+<RELATION id="R7" spans="6484~6516" text="unfavorable prognostic influence" location="background" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G9" geneText="CEACAM5" diseaseID="D0" diseaseText="cancer" relationID="R0" relationText="increased ... serum levels" />
+<ENTITY_LINKING id="E1" geneID="G10" geneText="CEACAM6" diseaseID="D0" diseaseText="cancer" relationID="R0" relationText="increased ... serum levels" />
+<ENTITY_LINKING id="E2" geneID="G23" geneText="CEACAM1" diseaseID="D7" diseaseText="non-small cell lung cancer" relationID="R1" relationText="reduced expression levels" />
+<ENTITY_LINKING id="E3" geneID="G24" geneText="CEACAM1" diseaseID="D7" diseaseText="non-small cell lung cancer" relationID="R2" relationText="increased levels" />
+<ENTITY_LINKING id="E4" geneID="G23" geneText="CEACAM1" diseaseID="D8" diseaseText="NSCLC" relationID="R1" relationText="reduced expression levels" />
+<ENTITY_LINKING id="E5" geneID="G24" geneText="CEACAM1" diseaseID="D8" diseaseText="NSCLC" relationID="R2" relationText="increased levels" />
+<ENTITY_LINKING id="E6" geneID="G23" geneText="CEACAM1" diseaseID="D9" diseaseText="lung cancer" relationID="R1" relationText="reduced expression levels" />
+<ENTITY_LINKING id="E7" geneID="G24" geneText="CEACAM1" diseaseID="D9" diseaseText="lung cancer" relationID="R2" relationText="increased levels" />
+<ENTITY_LINKING id="E8" geneID="G30" geneText="CEACAM6" diseaseID="D11" diseaseText="cancer" relationID="R3" relationText="decreased survival" />
+<ENTITY_LINKING id="E9" geneID="G30" geneText="CEACAM6" diseaseID="D11" diseaseText="cancer" relationID="R4" relationText="expressing" />
+<ENTITY_LINKING id="E10" geneID="G31" geneText="CEACAM6" diseaseID="D12" diseaseText="pancreatic cancer" relationID="R5" relationText="over-expression" />
+<ENTITY_LINKING id="E11" geneID="G38" geneText="CEACAM1" diseaseID="D13" diseaseText="adenocarcinomas of the lung" relationID="R6" relationText="prognostic marker for poor outcome" />
+<ENTITY_LINKING id="E12" geneID="G39" geneText="CEACAM1" diseaseID="D14" diseaseText="non-small-cell lung cancer" relationID="R7" relationText="unfavorable prognostic influence" />
+</TAGS>
+</Genomics_ConceptTask>

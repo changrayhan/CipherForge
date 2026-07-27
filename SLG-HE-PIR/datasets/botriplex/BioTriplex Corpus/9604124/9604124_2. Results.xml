@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Participants’ Demographic and Clinical Characteristics
+This study included 101 patients with HCC who were categorized into HCV G4 mediated HCC ( n  = 64) and HCV G4-related liver cirrhosis ( n  = 37) groups and compared to 20 apparently healthy control volunteers ( Table 1 ). This case-controlled study revealed no significant differences regarding age, gender, or kidney function (serum creatinine results).
+Comparison between the clinical characteristics of the studied HCV G4-related HCC and liver cirrhosis cases and the apparently healthy control group is shown in  Table 2 .
+Body mass index (BMI), serum insulin and insulin resistance, and platelet-to-lymphocyte ratio (PLR), an inflammation prognostic ratio, decreased, whereas TAG/HDL-C and GGT-to-lymphocyte ratio (GLR), an HCC prognostic ratio, increased ( Table 2 ). Moreover, the increased levels of liver function and AFP were all significant between the two groups and the healthy control group ( Table 2 ). The HCC group had a significantly increased percentage of total lymphocytes than the liver cirrhosis group, whereas the percentage of Tc% showed no significant difference when compared within groups. Additionally, the comparison of LAIR-1 expression revealed a significant increase in the post-HCV G4 group compared with the control group. LAIR-1 mean fluorescence intensity (MFI) on Tc and LAIR-1+Tc% were 38.5 (range, 29.3–49.2) and 75.20 (range, 59.3–87.0) in the patients’ groups, whereas their levels in the healthy control group were 22.0 (range, 17.5–31.2) and 13.6 (range, 8.3–19.0), respectively.
+2.2. Participants’ Pathological Characteristics
+The pathological characteristics of the study participants are presented in  Table 3 . Ascites, CHILD score for liver affection severity, lymph node (LN), and lung findings were all significantly different between the liver cirrhotic and HCC groups.
+2.3. LAIR-1 Expression Levels in Patients Groups
+A stratified analysis of disease susceptibility and LAIR-1 expression level is presented in  Table 4 . A summary of the comparison between groups regarding all laboratory analyses is also shown in  Table 4 . No significant difference was noted between groups in gender or BMI. However, significant difference was noted between patients with HCC and patients with liver cirrhosis regarding serum insulin, presence of insulin resistance and liver function ALT, AST, GGT, AFP, serum albumin, GLR, TAG/HDL-C, and LAIR-1 expression. Flow cytometry (FC) results are presented in  Figure 1 .
+2.4. Correlation between the LAIR-1 Expression Level and Patients with HCC and Liver Cirrhosis
+Spearman correlation included all patients ( n  = 101) and revealed that both the frequency of LAIR-1+Tc and LAIR-1 MFI on Tc were positively correlated with AFP ( Table 5 ). LAIR-1 MFI on Tc was positively correlated with insulin resistance and GLR. Moreover, LAIR-1+Tc was positively correlated with liver size and PV patency.
+LAIR-1+Tc was significantly positively correlated with LAIR-1 MFI on Tc ( r  = 0.734,  p  < 0.001).
+AFP levels were positively correlated with inflammation markers (PLR and GLR) ( r  = 0.201,  p  = 0.040 and  r  = 0.214,  p  = 0.032, respectively).
+2.5. ROC Curve for the Discriminative Ability of LAIR-1+Tc% and LAIR-1 MFI on Tc to Differentiate HCV-Related HCC from Liver Cirrhosis
+LAIR-1+Tc% at a cutoff value of ≥73.6 and an AUC of 0.756 can distinguish HCV G4 related HCC progression from HCV G4 related liver cirrhosis with 67.2% sensitivity and 62.2% specificity ( p  < 0.001). LAIR-1 MFI on Tc at a cutoff value of >34.5 and an AUC of 0.651 had the same sensitivity and specificity ( p  = 0.012). AFP at a cutoff value of ≥10.2 ng/mL and an AUC of 0.876 had 82.2% sensitivity and 75.7% specificity ( p  < 0.001) ( Table 6 ,  Figure 2 ).
+2.6. In Silico Biology
+
+           2.6.1. Gene Location 
+           ® : 602992, UniProtKB/Swiss-Prot: Q6GTX8. LAIR-1 gene located in chromosome 19, exon 13. External Ids for LAIR-1 Gene; HGNC: 6477, NCBI Entrez Gene: 3903, Ensembl: ENSG00000167613, OMIM 
+           https://www.genecards.org/Search/Keyword?queryString=LAIR-1  (accessed on 29 July 2022) as presented in  Figure 3  addressing  LAIR-1  gene characteristics, according to  https://www.genecards.org/cgi-bin/carddisp.pl?gene=LAIR1&keywords=LAIR-1 , https:// www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000167613;r=19:54351384-54370558  (accessed on 29 July 2022). 
+        
+
+           2.6.2. Functional Enrichments 
+           Figure 4 ) obtained via the local network cluster (STRING) mixed constitutive signaling using  https://string-db.org/cgi/network?taskId=bZ25wTH8KOIM&sessionId=bOdQ8mhP3zbB  (accessed on 29 July 2022). In the current work functional enrichment ( 
+           Where the reactome pathways are cytokine signaling in the immune system and adaptive immune system, the biological processes are cell activation, regulation of cytokine production, and regulation of cytokine-mediated signaling pathways. The molecular functions are protein tyrosine kinase and phosphatase binding and insulin receptor binding. 
+        
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1211~1217" text="LAIR-1" location="result" />
+<GENE id="G1" spans="1319~1325" text="LAIR-1" location="result" />
+<GENE id="G2" spans="1370~1376" text="LAIR-1" location="result" />
+<GENE id="G3" spans="1888~1894" text="LAIR-1" location="result" />
+<GENE id="G4" spans="1984~1990" text="LAIR-1" location="result" />
+<GENE id="G5" spans="2441~2447" text="LAIR-1" location="result" />
+<GENE id="G6" spans="2546~2552" text="LAIR-1" location="result" />
+<GENE id="G7" spans="2707~2713" text="LAIR-1" location="result" />
+<GENE id="G8" spans="2721~2727" text="LAIR-1" location="result" />
+<GENE id="G9" spans="2873~2879" text="LAIR-1" location="result" />
+<GENE id="G10" spans="2941~2947" text="LAIR-1" location="result" />
+<GENE id="G11" spans="2996~3002" text="LAIR-1" location="result" />
+<GENE id="G12" spans="3239~3245" text="LAIR-1" location="result" />
+<GENE id="G13" spans="3254~3260" text="LAIR-1" location="result" />
+<GENE id="G14" spans="3325~3331" text="LAIR-1" location="result" />
+<GENE id="G15" spans="3526~3532" text="LAIR-1" location="result" />
+<GENE id="G16" spans="3960~3966" text="LAIR-1" location="result" />
+<GENE id="G17" spans="4179~4185" text="LAIR-1" location="result" />
+<DISEASE id="D0" spans="99~102" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="145~148" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="179~194" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="494~497" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="502~517" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="790~793" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="983~986" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1064~1079" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1871~1874" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2273~2276" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2588~2591" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2596~2611" text="Liver Cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="3309~3324" text="Liver Cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="3300~3303" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3414~3417" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3450~3465" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,7 @@
+2026-07-21 18:40:40,780 [INFO] biotriplex_finetune: Logging to baseline/classification_genrel/logs/biotriplex_finetune_all_1784630440.log
+2026-07-21 18:40:40,780 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 18:40:40,780 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:40:40,780 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 18:40:40,780 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 18:40:40,780 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 18:40:42,689 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I

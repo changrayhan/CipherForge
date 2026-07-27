@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Antibodies and Reagents
+The media and media supplements were purchased from Gibco-Life Technology (Eggenstein, Germany) and the chemicals were obtained from Sigma (Taufkirchen, Germany), unless stated differently.
+The hybridoma secreting the mouse mAb 18/20 (specific for human CEACAM1/3/5) was recently described [20] . The mAb Col-1 was purchased from Invitrogen (Carlsbad, CA) and the anti-human CEACAM1 mAb clone 283340 from R&D systems (Minneapolis, MN). Anti-human CEA/CEACAM5 mAb clone CI-P83-1 was obtained from Dianova (Hamburg, Germany). The mAbs 9A6 (specific for CEACAM6) and BAC2 (specific for CEACAM7) were provided by Genovac (Freiburg, Germany). The CEACAM8-specific mAb 80H3 was obtained from Coulter International (Miami, FL). The rabbit anti-CEA (binding CEACAM1/3/4/5/6/7/8) and the polyclonal antibody for Ki-67 were obtained from Dako (Copenhagen, Danmark). The anti-beta-actin-peroxidase antibody (clone AC-15) was purchased from Sigma. FITC- and HRP-coupled secondary goat anti-mouse IgG F(ab) 2  fragments were obtained from Jackson ImmunoResearch (West Grove, PA).
+Cells
+A549 epithelial cells (type II alveolar lung epithelium cells; ATCC CCL85) were cultured in DMEM (GIBCO) supplemented with 10% (v/v) heat inactivated fetal calf serum (FCS) and 4 mM L-glutamine at 37°C in a humidified atmosphere with 5% CO 2 . A549 cells analyzed as growing in log phase were in the mid-logarithmic phase of growth, while confluent cells were cultivated until tight cell-cell contacts were developed. The cell spheroids were collected from the supernatant of tight confluent growing cells. In all cases, cell viability was over 90% as measured by trypan blue exclusion. Changes in the cellular morphology during different growth stages were monitored by standard phase contrast microscopy utilizing the Leica DMIL-system (Leica Microsystems, Wetzlar, Germany) and the ProgRes Capture Pro2.5 analyses software (Jenoptik, Jena, Germany).
+Cell Separation
+The separation of A549 cells into subpopulations was performed as described by Croce et al. Briefly parental exponentially growing cells were harvested by the standard trypsinization procedure and separated by Percoll density gradients (GE Healthcare). Thus, cells were re-suspended in 1.5 ml PBS and carefully layered on top of the Percoll gradient consisting of 1.5 ml of each stock solution of density 1.035, 1.040, 1.050, 1.060, 1.065, 1.070 and 1.080 g/ml prepared according to the manufacturer's protocol. The gradients were centrifuged at room temperature at 800 g for 40 min in a swinging-bucker rotor without using the brake. Fractions of 0.5 ml were collected from the top, and the samples were washed twice with DMEM. The cell number in each fraction was determined by counting in a Neubauer chamber and cell viability was determined by trypan blue exclusion. Cells were then plated and cultured as described above until further use.
+For some experiments, CEACAM6-positive and CEACAM6-negative parental A549 cells were separated using magnetic protein G microbeads (Miltenyi Biotec, Bergisch Gladbach, Germany) coupled with the CEACAM6-specific mAb 9A6. Thus, cells were incubated with protein G-mAb 9A6 microbeads for 1 h in medium on ice. Next, cells were applied to μMAS magnetic sorting columns (Miltenyi Biotec) and the further separation steps were performed according to the manufacturer's protocol. The quality of separation was monitored by flow cytometry.
+Cell Proliferation Assay
+For colorimetric determination of cell proliferation, the A549 cells and A549-CEACAM1-4L transfectants were plated in a 96-well cell culture plate at a density of 25,000 cells/well in triplicate. Following standard cell culture the tetrazolium compound MTS of the CellTiter96 Aqueous One assay (Promega Corp., Madison, WI) was added to each well. Then cells were incubated at 37°C in a humidified 5% CO 2  atmosphere for 4 h. The absorbance of soluble formazan produced by cellular reduction of the MTS was measured at 490 nm using a microplate reader (Tecan, Craislheim, Germany). The quantity of formazan product, as measured by the amount of 490 nm absorbance, is directly proportional to the number of living cells in culture. Experiments were performed in triplicate and the results presented were expressed as the OD at 490 nm.
+Measurement of the Acidification in the Cell Supernatant
+Cell culture acidification was determined utilizing cell-free supernatant fluid for estimating the pH value by the color change of the tracer in the media and by pH-indicator strips pH 5.2 – 7.2 (Merck, Darmstadt, Germany). Media was considered as acidified if the pH decreased from pH 7.3 to below pH 6.5.
+Transfection
+A549 cell lines, permanently expressing CEACAM1-4L, CEACAM1-4S, CEACAM5 and CEACAM6, respectively, were generated. The pRC-CMV-based NEO-resistant expression plasmids encoding either CEACAM1-4L, CEACAM1-4S or a variant of CEACAM1-4L with mutations in the cytoplasmic ITIM (exchange of Y459 to F459 and Y486 to F486), (kindly provided by Prof. W. Zimmermann, University Clinic – Grosshadern, Ludwig-Maximilians-University Munich, Germany), CEACAM5-pRc/CMV (kindly provided by Dr. Grunert, Institute of Immunology, Freiburg, Germany) or CEACAM6-pdKCR-neo (kindly provided by Dr. M. Kuroki, Department of Biochemistry, Fukuoka University, Fukuoka, Japan) were transfected into parental A549 using lipofectamine 2000 according to the manufacturer's protocol (Invitrogen). Stable transfected cells were selected in culture medium containing 1 mg/ml of Geniticinsulfat (G418, Biochrom, Berlin, Germany). The surface expression of CEACAMs in individual clones growing in log phase was determined by flow cytometry. Three independent clones of each transfection were analyzed to confirm consistent behavior and receptor expression.
+Small/Short Hairpin RNA (shRNA) Interference in A549 Cells
+Gene silencing of CEACAM6 was performed with pre-designed SureSilencing™ CEACAM6-shRNA plasmids (Super Array-Bioscience Corporation) containing four pooled shRNA sequences to ensure an effective depletion of CEACAM6 in A549 cells. The shRNA-CEACAM6 sequences were as follows:
+Clone ID 1:  5′-ACGATGCAGGATCCTATGAAT-3′ ;
+Clone ID 2:  5′-AACGATGCAGGATCCTATGAA-3′ ;
+Clone ID 3:  5′-GAACGATGCAGGATCCTATGA-3′ ;
+Clone ID 4:  5′-GTAGAGTGGTGCTGCTTTAAT-3′ ;
+The scrambled  5′-GGAATCTCATTCGATGCATAC-3′  sequence (sh-CON) served as a control. The stable A549 shRNA transfection was carried out with Lipofectamine 2000 (Invitrogen) followed by selection for 2–3 weeks in 1 mg/mL G418-containing medium. Two control clones (sh-CON-A549) and three clones of CEACAM-silenced A549 cells were chosen and further characterized by flow cytometry and Western blot.
+Immunoblot Analysis
+Cells were lysed in RIPA based lysis buffer [50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 1% Triton X-100, 0.5% sodium deoxycholate) supplemented with protease inhibitor cocktail set III (Calbiochem) and PhosSTOP phosphatase inhibitor cocktail (Roche) on ice for 30 min. Lysates were centrifuged at 10,000  g  at 4°C for 15 min and approximately 50 µg of total protein was subjected to SDS-PAGE, blotted to membrane (Schleicher & Schuell, Dassel, Germany) and reacted with anti-CEACAM1, anti-CEACAM5, anti-CEACAM6 and anti Ki67. Anti-beta-actin antibody was used as Western blot loading control.
+Relative and Quantitative Flow Cytometry
+A549 cells (5×10 5 ) were stained with mAbs (20 µg/ml) anti-CEACAM1 (clone 283340), anti-CEACAM5 (Col-1) anti-CEACAM6 (9A6), anti-CEACAM7 (BAC2) and anti-CEACAM8 (80H3) diluted in 3% FCS/PBS for 1 h on ice, washed with ice-cold PBS, and incubated with FITC conjugated anti-mouse F(ab') 2 . Background fluorescence was determined using isotype-matched Ig. For DNA quantification, the cells were fixed in ice cold 80% ethanol and then were incubated for 15 min at 37°C in PBS containing 100 µg/ml DNase-free RNase (Sigma), and 10 µg/ml propidium iodide. The stained cell samples were examined in a FACScalibur flow cytometer (BD Biosciences, San Diego, CA) and the data were analyzed utilizing the CellQuest software. Where applicable, dead cells, identified by PI staining, were excluded from the determination.
+The absolute quantitative expression pattern of the different CEACAM-proteins was determined using QuiFiKit® (Dako, Glostrup, Denmark) according to the manufacturer's protocol. Hence, the calibration-bead suspension coated with known quantities of mouse IgG was incubated in parallel with the samples undergoing secondary staining procedure with FITC conjugated anti-mouse F(ab') 2 . Utilizing the median values of the calibration beads, a calibration curve was constructed and the absolute numbers of CEACAM-molecules per cell were calculated.
+Sandwich-ELISA
+A549 cell culture supernatants were collected from cells grown to confluence plus 6 days (A549confluent). After centrifugation at 10,000×g, the samples were stored at −80°C until further use. The evaluation of CEACAM1, CEACAM5 and CEACAM6 was performed by sandwich-ELISA. In brief, 96-well flat bottom immunoassay MaxiSorpELISA plates (Nunc Maxisorp, Invitrogen) were coated overnight at 4°C with 1 µg/well rabbit anti-human CEA antibody (Dako). After three washes with PBS, plates were blocked with 350 µl/well of PBS/3% BSA for 1 h at room temperature. Thereafter, 100 µl/well of two-fold dilutions of supernatants in PBS/1% BSA were added. As positive antigen controls, cell lysates of Hela, Hela-CEACAM1-4L, Hela-CEACAM5, Hela-CEACAM6, Hela-CEACAM7 and Hela-CEACAM8 cells were added. Plates were then incubated at 4°C overnight. After washing, 1 µg/100 µl/well of mAb anti-CEACAM1 (clone 283340), anti-CEACAM5 (Col-1, CI-P83-1), anti-CEACAM6 (9A6), anti-CEACAM7 (BAC2) or anti-CEACAM8 (80H3) diluted in 1% FCS/PBS was added and incubated for 4 h at room temperature. After washing, HRP-conjugated anti-mouse F(ab')2 was added and incubated for 2 h at room temperature. Finally, the plates were washed 4 times, developed using TMB (Sigma) according to the manufacturer's protocol, and the absorbance was detected at 450 nm in a Sunrise-ELISA reader (Tecan, Crailsheim, Germany). All measurements were determined in triplicates.
+Quantitative RT- PCR
+Specific primers ( table 2 ) were designed to estimate the amount of four different CEACAM1 isoforms: CEACAM1-4L was detected with the CEACAM1-4 sense primer and CEACAM1-L antisense primer, CEACAM1-4S cDNA was amplified with CEACAM1-4 sense primer and CEACAM1-S antisense primer. The CEACAM1-3L cDNA was detected with the CEACAM1-3 sense primer and CEACAM1-L antisense primer and CEACAM1-3S cDNA was ascertained with CEACAM1-3 sense primer and CEACAM1-S antisense primer. The primers were purchased from Eurofins MWG Operon (Ebersberg, Germany). An internal standard for each CEACAM1 isoform was generated utilizing an endpoint PCR using 1 µl cDNA, 0.2 U Taq polymerase (Genecraft, Luedinghausen, Germany), 2 µmol/l dNTP, 3 µl 10x buffer, 0.5 µmol/l of the respective sense and antisense primers ( table 2 ) in a final volume of 30 µl under standard conditions (95°C for 3 min followed by 34 cycles at 95°C for 30 sec, 60°C for 45 sec and 72°C for 30 sec and an extension at 72°C for 8 min). Afterwards the PCR products were purified with PCR purification kit (Qiagen, Hilden, Germany) and cloned in the pDrive cloning vector with the PCR cloning kit (Qiagen, Hilden, Germany) according to the manufacturers protocol. Colonies were picked and the presence of the PCR product in the isolated DNA was verified by sequencing. The appropriate plasmid containing the PCR product was used as a specific qPCR standard.
+
+           10.1371/journal.pone.0008747.t002 
+           Table 2 
+           Primer sequences used in RT-PCR. 
+           
+             
+           
+             
+                 
+                 
+               
+                 
+               Gene 
+                   Primer name 
+                   Sequence 
+                 
+                   
+               
+                 
+               CEACAM1 
+                   CEACAM1-4 
+                   ACC CTG TCA AGA GGG AGG AT 
+ 
+ 
+                 
+                   
+                 
+                   CEACAM1-L 
+                   TGA GGG TTT GTG CTC TGT GA 
+ 
+ 
+                 
+                   
+                 
+                   CEACAM1-3 
+                   TAG TCA CTG ATA ATG CTC TAC C 
+ 
+ 
+                 
+                   
+                 
+                   CEACAM1-S 
+                   GTC CTG AGC TGC CGG TCT 
+ 
+ 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+The total RNA of A549 cells was isolated using the Qiagen RNeasy Kit. Afterwards 1 µg of each sample was reverse transcribed with the QuantiTect Reverse Transcription Kit (Qiagen) in a final volume of 20 µl. For each gene a qPCR was performed by using 1 µl of cDNA, the adequate standard-DNA (10 3 –10 8  molecules) and blanks with the SYBRgreen master mix (Bio-Rad) and suitable primers (see above) in a final volume of 25 µl according to the manufacturers protocol with the IQ5 cycler (Bio-Rad). The qPCR products were visualized using 3% agarose gel/Tris-acetate-EDTA separation and ethidium bromide staining, and then the total amounts of molecules/well were determined using the IQ5 software (Bio-Rad) the GenEx professional software (Multid, Göteborg, Sweden).
+Statistical Analysis
+Where applicable, data are presented as the mean ± SD. Statistical significance was determined using the Student's t-test. Differences were considered to be statistically significant at a  P  value of <0.05.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="279~286" text="CEACAM1" location="background" />
+<GENE id="G1" spans="400~407" text="CEACAM1" location="result" />
+<GENE id="G2" spans="472~475" text="CEA" location="result" />
+<GENE id="G3" spans="476~483" text="CEACAM5" location="result" />
+<GENE id="G4" spans="576~583" text="CEACAM6" location="result" />
+<GENE id="G5" spans="608~615" text="CEACAM7" location="result" />
+<GENE id="G6" spans="667~674" text="CEACAM8" location="result" />
+<GENE id="G7" spans="762~765" text="CEA" location="result" />
+<GENE id="G8" spans="775~782" text="CEACAM1" location="result" />
+<GENE id="G9" spans="828~833" text="Ki-67" location="result" />
+<GENE id="G10" spans="3106~3113" text="CEACAM6" location="result" />
+<GENE id="G11" spans="3547~3554" text="CEACAM1" location="result" />
+<GENE id="G12" spans="2934~2941" text="CEACAM6" location="result" />
+<GENE id="G13" spans="2955~2962" text="CEACAM6" location="result" />
+<GENE id="G14" spans="4720~4727" text="CEACAM1" location="result" />
+<GENE id="G15" spans="4732~4739" text="CEACAM1" location="result" />
+<GENE id="G16" spans="4744~4751" text="CEACAM5" location="result" />
+<GENE id="G17" spans="4756~4763" text="CEACAM6" location="result" />
+<GENE id="G18" spans="4863~4870" text="CEACAM1" location="result" />
+<GENE id="G19" spans="4875~4882" text="CEACAM1" location="result" />
+<GENE id="G20" spans="4902~4909" text="CEACAM1" location="result" />
+<GENE id="G21" spans="5119~5126" text="CEACAM5" location="result" />
+<GENE id="G22" spans="5215~5222" text="CEACAM6" location="result" />
+<GENE id="G23" spans="5604~5611" text="CEACAMs" location="result" />
+<GENE id="G24" spans="5881~5888" text="CEACAM6" location="result" />
+<GENE id="G25" spans="6071~6078" text="CEACAM6" location="result" />
+<GENE id="G26" spans="6104~6111" text="CEACAM6" location="result" />
+<GENE id="G27" spans="7197~7204" text="CEACAM1" location="result" />
+<GENE id="G28" spans="7211~7218" text="CEACAM5" location="result" />
+<GENE id="G29" spans="7225~7232" text="CEACAM6" location="result" />
+<GENE id="G30" spans="7242~7246" text="Ki67" location="result" />
+<GENE id="G31" spans="7416~7423" text="CEACAM1" location="result" />
+<GENE id="G32" spans="7445~7452" text="CEACAM5" location="result" />
+<GENE id="G33" spans="7486~7493" text="CEACAM7" location="result" />
+<GENE id="G34" spans="7510~7517" text="CEACAM8" location="result" />
+<GENE id="G35" spans="8937~8944" text="CEACAM1" location="result" />
+<GENE id="G36" spans="8946~8953" text="CEACAM5" location="result" />
+<GENE id="G37" spans="8958~8965" text="CEACAM6" location="result" />
+<GENE id="G38" spans="9427~9434" text="CEACAM1" location="result" />
+<GENE id="G39" spans="9444~9451" text="CEACAM5" location="result" />
+<GENE id="G40" spans="9458~9465" text="CEACAM6" location="result" />
+<GENE id="G41" spans="9472~9479" text="CEACAM7" location="result" />
+<GENE id="G42" spans="9489~9496" text="CEACAM8" location="result" />
+<GENE id="G43" spans="9604~9611" text="CEACAM1" location="result" />
+<GENE id="G44" spans="9633~9640" text="CEACAM5" location="result" />
+<GENE id="G45" spans="9665~9672" text="CEACAM6" location="result" />
+<GENE id="G46" spans="9685~9692" text="CEACAM7" location="result" />
+<GENE id="G47" spans="9708~9715" text="CEACAM8" location="result" />
+<GENE id="G48" spans="10263~10270" text="CEACAM1" location="result" />
+<GENE id="G49" spans="10281~10288" text="CEACAM1" location="result" />
+<GENE id="G50" spans="10314~10321" text="CEACAM1" location="result" />
+<GENE id="G51" spans="10341~10348" text="CEACAM1" location="result" />
+<GENE id="G52" spans="10369~10376" text="CEACAM1" location="result" />
+<GENE id="G53" spans="10404~10411" text="CEACAM1" location="result" />
+<GENE id="G54" spans="10431~10438" text="CEACAM1" location="result" />
+<GENE id="G55" spans="10463~10470" text="CEACAM1" location="result" />
+<GENE id="G56" spans="10501~10508" text="CEACAM1" location="result" />
+<GENE id="G57" spans="10528~10535" text="CEACAM1" location="result" />
+<GENE id="G58" spans="10559~10566" text="CEACAM1" location="result" />
+<GENE id="G59" spans="10596~10603" text="CEACAM1" location="result" />
+<GENE id="G60" spans="10755~10762" text="CEACAM1" location="result" />
+<GENE id="G61" spans="11994~12001" text="CEACAM1" location="result" />
+<GENE id="G62" spans="12022~12029" text="CEACAM1" location="result" />
+<GENE id="G63" spans="12159~12166" text="CEACAM1" location="result" />
+<GENE id="G64" spans="12296~12303" text="CEACAM1" location="result" />
+<GENE id="G65" spans="12436~12443" text="CEACAM1" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

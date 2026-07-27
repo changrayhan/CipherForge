@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: The ten-year evolutionary trajectory of a highly recurrent paediatric high grade neuroepithelial tumour with MN1:BEND2 fusion.
+Abstract: Astroblastomas are rare brain tumours which predominate in children and young adults, and have a controversial claim as a distinct entity, with no established WHO grade. Reports suggest a better outcome than high grade gliomas, though they frequently recur. Recently, they have been described to overlap with a newly-discovered group of tumours described as’high grade neuroepithelial tumour with MN1 alteration’ (CNS HGNET-MN1), defined by global methylation patterns and strongly associated with gene fusions targeting  MN1 . We have studied a unique case of astroblastoma arising in a 6 year-old girl, with multiple recurrences over a period of 10 years, with the pathognomonic  MN1:BEND2  fusion. Exome sequencing allowed for a phylogenetic reconstruction of tumour evolution, which when integrated with clinical, pathological and radiological data provide for a detailed understanding of disease progression, with initial treatment driving tumour dissemination along four distinct trajectories. Infiltration of distant sites was associated with a later genome doubling, whilst there was evidence of convergent evolution of different lesions acquiring distinct alterations targeting NF-κB. These data represent an unusual opportunity to understand the evolutionary history of a highly recurrent childhood brain tumour, and provide novel therapeutic targets for astroblastoma/CNS HGNET-MN1.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="117~120" text="MN1" location="result" />
+<GENE id="G1" spans="121~126" text="BEND2" location="result" />
+<GENE id="G2" spans="542~545" text="MN1" location="background" />
+<GENE id="G3" spans="569~572" text="MN1" location="background" />
+<GENE id="G4" spans="667~670" text="MN1" location="background" />
+<GENE id="G5" spans="827~830" text="MN1" location="result" />
+<GENE id="G6" spans="831~836" text="BEND2" location="result" />
+<GENE id="G7" spans="1332~1337" text="NF-κB" location="result" />
+<GENE id="G8" spans="1534~1537" text="MN1" location="result" />
+<DISEASE id="D0" spans="145~158" text="Astroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="353~370" text="high grade glioma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="706~719" text="astroblastoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1510~1523" text="astroblastoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="812~825" text="pathognomonic" location="result" relation="diagnostic tool" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="MN1" diseaseID="D2" diseaseText="astroblastoma" relationID="R0" relationText="pathognomonic" />
+<ENTITY_LINKING id="E1" geneID="G6" geneText="BEND2" diseaseID="D2" diseaseText="astroblastoma" relationID="R0" relationText="pathognomonic" />
+</TAGS>
+</Genomics_ConceptTask>

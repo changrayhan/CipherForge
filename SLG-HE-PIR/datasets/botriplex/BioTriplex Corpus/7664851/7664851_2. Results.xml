@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. PAIS Case Report
+The chromosomal analysis of the patient showed a 46,XY karyotype without evidence of mosaicism. At the age of 10, urological examinations revealed the size of penis and testes being smaller, compared to the average at his age: penis length was 25 mm, the right testis 9 mm × 7 mm (0.33 mL), the left one 12 mm × 9 mm (0.565 mL). Pelvic ultrasound investigation did not reveal any structure of Müllerian ducts. The patient was overweight (BMI = 32.2 kg/m 2 ). Later on, at the age of 13, urological examinations revealed the size of penis and testes still smaller compared to the average, namely penis length was 28 mm, the right testis size was 58 mm × 24 mm (7.28 mL), the left one was 60 mm × 21 mm (6.59 mL).
+Hormonal investigations at the age of 10 revealed testosterone, anti-Müllerian hormone (AMH), estradiol, luteinizing hormone (LH), follicle-stimulating hormone (FSH), thyroid-stimulating hormone (TSH), prolactin (PRL), dehydroepiandrosterone sulfate (DHEAS), cortisol, and progesterone within the proper range, in accordance with age ( Table 1 ). The human chorionic gonadotropin (hCG) testosterone stimulation test, performed at the age of 10 and 13, revealed a high response of testosterone, i.e., 8-fold and over 7-fold increase in testosterone concentration, respectively ( Table 1 ). This result indicated correct testosterone biosynthesis.
+Taking into consideration (1) the characteristics of the disorder of sexual development (DSD) phenotype of the patient, (2) his male karyotype, (3) the results of the hCG stimulation tests excluding defects in testosterone biosynthesis, (4) the normal AMH level excluding gonadal dysgenesis, and (5) normal LH and FSH levels excluding hypogonadotropic hypogonadism, we concluded that the patient suffered from PAIS.
+2.2. Identification of the FKBP4:c.956T>C (p.Leu319Pro) Mutation in the Patient
+Since  AR  gene mutations are significantly less frequent in PAIS than in CAIS patients [ 12 ], we proceeded straight away with the whole exome sequencing (WES) analysis in search for the genetic background of PAIS in the patient. While the WES analysis did not reveal any  AR  gene mutation, it uncovered a heterozygous mutation in the  FKBP4  autosomal gene encoding an AR interactor [ 5 ] being a modulator of AR transcriptional activity [ 7 , 8 , 9 , 10 ]. The mutation was a T>C transition NM_002014.4(FKBP4_v001):c.956T>C, causing amino acid substitution NM_002014.4(FKBP4_i001):p.Leu319Pro, hereinafter referred to as FKBP4:c.956T>C (p.Leu319Pro). The patient’s mother was heterozygous for that mutation, while the father carried the wild-type alleles. We confirmed the FKBP4:c.956T>C (p.Leu319Pro) mutation status in all the family members and additionally showed a lack of mutation in the healthy brother by Sanger sequencing ( Figure 1 ).
+Importantly, the mutation was located within one of three tetratricopeptide repeats (TPR), responsible for interaction with several proteins crucial for AR activity. Moreover, the 319 position in which the Leu319Pro substitution occurred is highly conserved among vertebrate Fkbp4 homologues ( Figure 2 ). The FKBP4:c.956T>C (p.Leu319Pro) variant was not present in any single nucleotide polymorphism (SNP) database (gnomAD, 1000G, ExAC) and the Leu319Pro substitution in human FKBP4 protein has been predicted as disease-causing or disrupting the protein function by in silico algorithms: Meta-SNP, MutationTaster, and PolyPhen-2.
+Besides the  FKBP4  gene mutation, six additional heterozygous variants in five genes ( AKR1C4 ,  CYP17A1 ,  FREM2 ,  IL17RD ,  NKD2 ) involved in sexual development were identified in the patient (among them two were identified in distinct alleles of  FREM2  gene). However, three (in  FREM2 ,  IL17RD ,  NKD2  genes) out of the six variants were predicted as neutral using Meta-SNP ( Table 2 ). For that reason, we did not further consider their influence on the patient’s phenotype. The other three variants of  AKR1C4 ,  CYP17A1  or  FREM2  genes were predicted to be disease-causing ( Table 2 ) but mutations of  CYP17A1  and  FREM2  genes caused DSD in karyotypic men only when both alleles of those genes were mutated [ 19 , 20 , 21 ], therefore the heterozygous status of  CYP17A1  and  FREM2  variants in our patient make their contribution to the DSD phenotype unlikely. However, we did not rule out the modifier effect of those variants. Besides, we cannot exclude the contribution of the  AKR1C4  variant to the DSD phenotype, all the more so that heterozygous mutations of this gene have been previously described as potential modifiers of the DSD phenotype [ 22 ].
+The data of whole-exome sequencing of the described patient, his mother and his father are available from the BioProject database (ID PRJNA669263), biosample accessions: SAMN16449689, SAMN16449690, SAMN16449691.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1824~1829" text="FKBP4" location="result" />
+<GENE id="G1" spans="1884~1886" text="AR" location="result" />
+<GENE id="G2" spans="2215~2220" text="FKBP4" location="result" />
+<GENE id="G3" spans="2249~2251" text="AR" location="result" />
+<GENE id="G4" spans="2151~2153" text="AR" location="result" />
+<GENE id="G5" spans="2290~2292" text="AR" location="result" />
+<GENE id="G6" spans="2384~2389" text="FKBP4" location="result" />
+<GENE id="G7" spans="2502~2507" text="FKBP4" location="result" />
+<GENE id="G8" spans="2654~2659" text="FKBP4" location="result" />
+<GENE id="G9" spans="3101~3106" text="Fkbp4" location="result" />
+<GENE id="G10" spans="3304~3309" text="FKBP4" location="result" />
+<GENE id="G11" spans="3471~3476" text="FKBP4" location="result" />
+<GENE id="G12" spans="3546~3552" text="AKR1C4" location="result" />
+<GENE id="G13" spans="3556~3563" text="CYP17A1" location="result" />
+<GENE id="G14" spans="3567~3572" text="FREM2" location="result" />
+<GENE id="G15" spans="3576~3582" text="IL17RD" location="result" />
+<GENE id="G16" spans="3586~3590" text="NKD2" location="result" />
+<GENE id="G17" spans="3711~3716" text="FREM2" location="result" />
+<GENE id="G18" spans="3745~3750" text="FREM2" location="result" />
+<GENE id="G19" spans="3754~3760" text="IL17RD" location="result" />
+<GENE id="G20" spans="3764~3768" text="NKD2" location="result" />
+<GENE id="G21" spans="3973~3979" text="AKR1C4" location="result" />
+<GENE id="G22" spans="3983~3990" text="CYP17A1" location="result" />
+<GENE id="G23" spans="3996~4001" text="FREM2" location="result" />
+<GENE id="G24" spans="4076~4083" text="CYP17A1" location="result" />
+<GENE id="G25" spans="4090~4095" text="FREM2" location="result" />
+<GENE id="G26" spans="4239~4246" text="CYP17A1" location="result" />
+<GENE id="G27" spans="4253~4258" text="FREM2" location="result" />
+<GENE id="G28" spans="4459~4465" text="AKR1C4" location="result" />
+<DISEASE id="D0" spans="1791~1795" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1938~1942" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1951~1955" text="CAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="2087~2091" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="6~10" text="PAIS" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

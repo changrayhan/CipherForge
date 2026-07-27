@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1
+Data sources and processing
+The GSE94648 and GSE119600 microarray data sets were downloaded from the Gene Expression Omnibus (GEO) datasets. The GSE94648 profile includes samples from 75 patients with IBD and 22 healthy controls, whereas GSE119600 contains samples from 188 patients with IBD and 47 healthy controls. The platforms are GPL19109 and GPL10558, respectively. Finally, the batch effect was eliminated using the “SVA” package in R, and the two datasets were subsequently merged. Metalloproteinase-related genes were retrieved from Gene Cards ( https://www.genecards.org/ ). The cut-offs were set as Relevance Score > 0.2 ( Supplementary Table 1 
+ 
+ ).
+2.2
+Analysis of differentially expressed genes
+The “limma” package in R is used to identify various genes. Genes with  P -value < 0.05 and absolute log2FC > 0.6 were considered differentially expressed genes (DEGs). Volcano plots and heatmaps were constructed using “heatmap” and “ggplot2” packages in R, respectively.
+2.3
+Gene set enrichment analysis
+Gene ontology (GO) enrichment analysis, KEGG pathway analysis, and DO method combined with “cluster Profiler” in R and the DOSE program were used to study DEGs. The GSEA technique allows for the identification of the most important functional terms in patients with IBD and control groups. “c2.cp.kegg.v7.0.symbols.gm t” is a criterion used for mymbols.gm t. The gene cluster is considered significantly aggregated if  P  < 0.05 or false issue rate < 0.025.
+2.4
+Candidate diagnostic biomarker screening
+Three machine learning methods are used to predict patients’ conditions to identify the main prognostic variables. The least absolute compression and selection operation (LASSO) is a new approach that uses regularization methods to improve forecast accuracy. In R, the LASSO regression algorithm uses “glmnet” grouping to identify genetic factors that are significantly associated with IBD and control samples. Support vector machine (SVM) is one of the most widely used supervised machine learning methods. The metadata sequences are optimized using recursive feature elimination (RFE) methods to prevent duplicate screening. SVM-RFE was used to screen for suitable features to identify the set of gene pools with the highest discrimination power. Then “randomForest” in R was used to implement the random tree algorithm. Finally, the intersection was obtained through the Venn diagram package.
+2.5
+Discovery of immune cell subtypes
+To quantify the rate of invasive immune cells in the gene expression profile of IBD, a bioinformatics algorithm called CIBERSORT ( https://cibersortx.stanford.edu/ ) was used to estimate the invasion rate of the immune system. The number of an immune cell type was estimated using a reference system containing 22 isoforms (LM22) for 1000 permutations. A total of 22 infiltrating immune cell types were correlated using “corrplot” in R. Violin charts were used to represent the infiltration of immune cells in IBD and control samples using “vioplot” in R.
+2.6
+Correlation analysis between identified genes and infiltrating immune cells
+The relationship between identified genetic markers and invading immune cells was evaluated using Spearman’s hierarchical correlation in R. The correlations were generated using the graphical technique in the “ggplot2” suite.
+2.7
+Construction of the mouse model of chronic colitis and experimental design
+Male C57 mice (22–24 g), aged ~6 weeks, were purchased from Ltd. in Jiangsu, China. After 1 week of acclimatization, the rats were randomly divided into two groups (n = 6 per group): normal control and dextran sulfate (DSS) groups. For the DSS group, 1.5% (w/v) DSS (36000–50000 Da, China Eason Biochemical Technology Co., Ltd.) was prepared by dissolving in sterilized water, filtered through a 0.22-μm filter, and provided to the rats in the DSS group. The DSS solution was reconfigured every other day. Rats in the control group drank sterilized fresh water and bred in the same facility. A mouse model of chronic colitis lasted for three weeks per period, and after three periods, the mice were euthanized. The mice was weighed every two days, and the blood in the feces and changes in character were evaluated. All mice were euthanized by cervical dislocation. The colon was collected, and its length and thickness were measured.
+2.8
+HE staining and histological evaluation of colonic damage
+Colonic tissue was fixed in 4% methylal solution and left overnight. Then the tissue was fixed and embedded in paraffin and cut into slices with a thickness of ~3 mm. Then after dewaxing, dehydrating, HE staining, dehydrating, and making the samples transparent, the slides were covered with a cover slip coated with neutral gum and sealed. The lesions were observed and recorded under an optical microscope. Lesions and inflammatory cell infiltration were evaluated in colon tissue. Then colon damage was determined histologically according to the scoring criteria of the histological examination provided in  Supplementary Table 2 
+ 
+ .
+2.9
+Immunofluorescence
+Immunofluorescence for MMP-9, PTGDS, the activating NK cell receptor CD160 and TLR5 and SLC26A8 on colonic tissue was performed using standard methods. Colonic sections were deparaffinized and rehydrated. Then antigen retrieval was performed by continuous heating with citrate buffer in a pressure cooker at 98°C for 10 min. The sections were then blocked-in normal serum and labeled with primary antibodies in blocking solution overnight at 4°C. After washing with PBS, the sheet was ligated to Alexa Fluor-488 or Cy-3. The sections were then examined with a fluorescence microscope (Olympus DP72 Microscopic imaging system).
+2.10
+Flow cytometry
+The spleen was cut into pieces with sterilized surgical scissors and put into centrifuge tubes, digested with an appropriate amount of trypsin, and centrifuged at 1000 rpm for 5 min. Then 1 × 10 6  cells were collected and resuspended with appropriate amount of flow staining buffer, and 5 μL of each antibody was added to the final reaction volume of 100 μL. Anti-CD16/CD32, -CD8, -CD25, and -CD56 antibodies were purchased from Multisciences. The cells were mixed by shaking and incubated for 20 min in the dark at room temperature. Then 1 mL of flow staining buffer was added to each tube. The tube was centrifuged at 300 ×  g  for 10 min and the supernatant was discarded. Then 500 μL of flow staining buffer was added to the tube to resuspend the cells and a flow cytometer (Beckman Coulter, Inc.) was used for detection.
+2.11
+Western blotting
+Colonic tissue was cut and placed in EP tubes, and RIPA lysis buffer (Epizyme Biomedical Technology, Shanghai, China) was added at 100 mg/mL (containing 1% phosphatase inhibitor and 1% PMSF). The sample was homogenized with a tissue homogenizer until no visible pieces remained. Then lysis was performed on ice for 30 min. The supernatant was collected and total protein concentration was evaluated using a bicinchoninic acid kit (TransGen Biotech, Beijing, China). The samples were run using 12% SDS-PAGE and transferred to polyvinylidene difluoride membranes. Then, the membranes were blocked with QuickBlock Blocking Buffer (Beyotime Biotechnology in Shanghai, China) for 15 min, incubated with diluted primary antibodies overnight at 4°C, washed three times with TBST, and incubated for 1 h with secondary antibodies. TLR5 (19810-1-AP) and SLC26A8 (12776-1-AP) were purchased from Proteintech (Wuhan, China). MMP-9 (TA5228S) was purchased from Abmart Technology (Shanghai, China). PTGDS was purchased from Solarbio Life Science (Beijing, China) and CD160 from Affinity Biosciences (Suzhou, China). Goat anti-rabbit IgG (H+L) HRP (BL003A) was purchased from Biosharp (Hefei, China).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="5080~5085" text="MMP-9" location="result" />
+<GENE id="G1" spans="5087~5092" text="PTGDS" location="result" />
+<GENE id="G2" spans="5126~5131" text="CD160" location="result" />
+<GENE id="G3" spans="5136~5140" text="TLR5" location="result" />
+<GENE id="G4" spans="5145~5152" text="SLC26A8" location="result" />
+<GENE id="G5" spans="6069~6073" text="CD16" location="result" />
+<GENE id="G6" spans="6074~6078" text="CD32" location="result" />
+<GENE id="G7" spans="6081~6084" text="CD8" location="result" />
+<GENE id="G8" spans="6087~6091" text="CD25" location="result" />
+<GENE id="G9" spans="6098~6102" text="CD56" location="result" />
+<GENE id="G10" spans="7375~7379" text="TLR5" location="result" />
+<GENE id="G11" spans="7397~7404" text="SLC26A8" location="result" />
+<GENE id="G12" spans="7466~7471" text="MMP-9" location="result" />
+<GENE id="G13" spans="7538~7543" text="PTGDS" location="result" />
+<GENE id="G14" spans="7606~7611" text="CD160" location="result" />
+<DISEASE id="D0" spans="206~209" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="293~296" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1909~1912" text="IBD" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="2537~2540" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2967~2970" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="3366~3373" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="4015~4022" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

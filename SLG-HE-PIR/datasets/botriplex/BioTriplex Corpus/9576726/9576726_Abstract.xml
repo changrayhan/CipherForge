@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Bone marrow mesenchymal stem cell-derived exosomal miR-21a-5p alleviates renal fibrosis by attenuating glycolysis by targeting PFKM.
+Abstract: Renal fibrosis is a common pathological feature and outcome of almost all chronic kidney diseases, and it is characterized by metabolic reprogramming toward aerobic glycolysis. Mesenchymal stem cell-derived exosomes (MSC-Exos) have been proposed as a promising therapeutic approach for renal fibrosis. In this study, we investigated the effect of MSC-Exos on glycolysis and the underlying mechanisms. We demonstrated that MSC-Exos significantly ameliorated unilateral ureter obstruction (UUO)-induced renal fibrosis by inhibiting glycolysis in tubular epithelial cells (TECs). miRNA sequencing showed that miR-21a-5p was highly enriched in MSC-Exos. Mechanistically, miR-21a-5p repressed the expression of phosphofructokinase muscle isoform (PFKM), a rate-limiting enzyme of glycolysis, thereby attenuating glycolysis in TECs. Additionally, knockdown of miR-21a-5p abolished the renoprotective effect of MSC-Exos. These findings revealed a novel role for MSC-Exos in the suppression of glycolysis, providing a new insight into the treatment of renal fibrosis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="135~139" text="PFKM" location="result" />
+<GENE id="G1" spans="857~891" text="phosphofructokinase muscle isoform" location="result" />
+<GENE id="G2" spans="893~897" text="PFKM" location="result" />
+<DISEASE id="D0" spans="81~95" text="renal fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="151~165" text="Renal fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="225~247" text="chronic kidney disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="437~451" text="renal fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="619~637" text="ureter obstruction" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="652~666" text="renal fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1195~1209" text="renal fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

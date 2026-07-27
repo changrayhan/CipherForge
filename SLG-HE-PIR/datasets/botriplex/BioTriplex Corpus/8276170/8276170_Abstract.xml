@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: PI3K Promotes Basal Cell Carcinoma Growth Through Kinase-Induced p21 Degradation.
+Abstract: Basal cell carcinoma (BCC) is a locally invasive epithelial cancer that is primarily driven by the Hedgehog (HH) pathway. Advanced BCCs are a critical subset of BCCs that frequently acquire resistance to Smoothened (SMO) inhibitors and identifying pathways that bypass SMO could provide alternative treatments for patients with advanced or metastatic BCC. Here, we use a combination of RNA-sequencing analysis of advanced human BCC tumor-normal pairs and immunostaining of human and mouse BCC samples to identify a PI3K pathway expression signature in BCC. Pharmacological inhibition of PI3K activity in BCC cells significantly reduces cell proliferation and HH signaling. However, treatment of  fl/fl Ptch1 ;  Gli1 - ERT2 Cre  mouse BCCs with the PI3K inhibitor BKM120 results in a reduction of tumor cell growth with no significant effect on HH signaling. Downstream PI3K components aPKC and Akt1 showed a reduction in active protein, whereas their substrate, cyclin-dependent kinase inhibitor p21, showed a concomitant increase in protein stability. Our results suggest that PI3K promotes BCC tumor growth by kinase-induced p21 degradation without altering HH signaling.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="PI3K" location="result" />
+<GENE id="G1" spans="73~76" text="p21" location="result" />
+<GENE id="G2" spans="304~314" text="Smoothened" location="background" />
+<GENE id="G3" spans="316~319" text="SMO" location="background" />
+<GENE id="G4" spans="369~372" text="SMO" location="background" />
+<GENE id="G5" spans="687~691" text="PI3K" location="result" />
+<GENE id="G6" spans="802~807" text="Ptch1" location="result" />
+<GENE id="G7" spans="811~815" text="Gli1" location="result" />
+<GENE id="G8" spans="848~852" text="PI3K" location="result" />
+<GENE id="G9" spans="969~973" text="PI3K" location="result" />
+<GENE id="G10" spans="994~998" text="Akt1" location="result" />
+<GENE id="G11" spans="1096~1099" text="p21" location="result" />
+<GENE id="G12" spans="1178~1182" text="PI3K" location="result" />
+<GENE id="G13" spans="1227~1230" text="p21" location="result" />
+<DISEASE id="D0" spans="22~42" text="Basal Cell Carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="100~120" text="Basal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="122~125" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="160~166" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="231~234" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="261~264" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="451~454" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="528~531" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="589~592" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="652~655" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="704~707" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="834~837" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1192~1195" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1183~1191,1196~1208" text="promotes ... tumor growth" location="result" relation="modulator increase disease" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="PI3K" diseaseID="D12" diseaseText="BCC" relationID="R0" relationText="promotes ... tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

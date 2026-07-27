@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Anti-Borrelia Efficacy of Gallic Acid
+Biocidal efficacy of gallic acid against typical motile spirochetes and knob-shaped persisters of  B. burgdorferi  B31 strain are presented in  Figure 1 . The results showed a dose-dependent and time-dependent biocidal effect of gallic acid against motile spirochetes ranging from 5.0–60% after 24 h, 10–65% after 48 h, and 12–98% after 72 h µg/mL ( Figure 1 A,C). A time-dependent killing effect on the latent knob-shaped persisters was also observed that oscillated between 2.0–50% after 24 h, 9.0–61% after 48 h and 10–97% after 72 h of exposure ( Figure 1 B,C). These values corresponded to each other for both tested morphological forms of  B. burgdorferi.  Further study validated the biocidal activity of gallic acid by conducting an experiment, in which motile spirochetes treated with gallic acid at the 250 µg/mL that had earlier shown to be 95–99% biocidal, were allowed to recover in the medium without gallic acid addition. Performed examination revealed the presence of about 11% of recovered motile spirochetes ( Figure 2 A,B). The same concentration showed 23% biocidal activity in biofilm like colonies ( Figure 2 C,D).
+The triple combination of antibiotics (doxycycline + daptomycin + cefoperazone) at the concentration of 30 µg/mL (10 µg/mL, each) was used in our previous study as well by other research groups and showed about 90% of biocidal effect against spirochetes and persisters after 72 h incubation, but was ineffective against biofilm like aggregates grown on collagen surface, and treatment with this triple antibiotic combination resulted in ~11% regrowth of viable cells [ 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 ].
+2.2. Anti-Inflammatory Effect of Gallic Acid against Borrelia burgdorferi-Induced In Vitro Infection
+The anti-inflammatory effect of gallic acid against CD14+ macrophages was evaluated by analyzing production and secretion of cytokines significant in the initial phase of LD by leukocyte exposure to live  B. burgdorferi . The analysis indicated that activation with  B. burgdorferi  at MOI 1:5 resulted in a significant IL1β, IL6, and TNFα secretion, inhibited by gallic acid. Gallic acid significantly reduced the levels of cytokine secretion induced by live  B. burgdorferi  in CD14+ macrophages in dose-dependent fashion ( Figure 3  upper panel).
+Upon treatment with 25–75 µg/mL of gallic acid, the decrease in the secretion of IL1β ranged between 22 and 49%, whereas the decrease in secretion of IL6 and TNFα 10–45% was in a narrower range and oscillated between 17 and 44%. In addition, gallic acid inhibited expression of these cytokines at RNA level at about 0.48 magnitude of change for IL1β, 0.29 magnitude of change for IL6, and 0.48 magnitude of change for TNFα ( Figure 3  lower panel).
+We observed that gallic acid did not reveal cytotoxicity towards CD14+ cells up to 75 μg/mL ( Figure 4 A). In addition, as presented in  Figure 4 B, the activity of NFκB reported cells decreased upon gallic acid treatment at 25–75 µg/mL concentrations.
+In the CD14+ cells incubated with live  B. burgdorferi , gallic acid applied at noncytotoxic concentrations (i.e., 75 μg/mL) reduced level of phosphorylated p65 protein but not total p65 molecule in the range of 19–59%, nor did it affect other components of the NFκB canonical pathway such as p50 and IKKα/β and their expression levels, including p65 protein ( Figure 5  and  Figure S1 ). Despite being overall activated by  B. burgdorferi , the key components of the TLR2/CD14+ pathway, such as TLR2 and its adaptor molecule CD14+, were neither significantly upregulated or downregulated at both mRNA and protein levels.
+However, gallic acid inhibited expression of CD14+ adaptor molecule at mRNA about 0.21 magnitude of change. Inhibition of CD14+ at protein levels was observed about 22–44% whether cell:bacteria ratio of 1:5 or 1:10 was applied ( Figure 6  and  Figure S2 ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1849~1853" text="CD14" location="result" />
+<GENE id="G1" spans="2117~2121" text="IL1β" location="result" />
+<GENE id="G2" spans="2123~2126" text="IL6" location="result" />
+<GENE id="G3" spans="2132~2136" text="TNFα" location="result" />
+<GENE id="G4" spans="2277~2281" text="CD14" location="result" />
+<GENE id="G5" spans="2428~2432" text="IL1β" location="result" />
+<GENE id="G6" spans="2497~2500" text="IL6" location="result" />
+<GENE id="G7" spans="2505~2509" text="TNFα" location="result" />
+<GENE id="G8" spans="2692~2696" text="IL1β" location="result" />
+<GENE id="G9" spans="2727~2730" text="IL6" location="result" />
+<GENE id="G10" spans="2765~2769" text="TNFα" location="result" />
+<GENE id="G11" spans="2861~2865" text="CD14" location="result" />
+<GENE id="G12" spans="2961~2965" text="NFκB" location="result" />
+<GENE id="G13" spans="3056~3060" text="CD14" location="result" />
+<GENE id="G14" spans="3206~3209" text="p65" location="result" />
+<GENE id="G15" spans="3232~3235" text="p65" location="result" />
+<GENE id="G16" spans="3311~3315" text="NFκB" location="result" />
+<GENE id="G17" spans="3342~3345" text="p50" location="result" />
+<GENE id="G18" spans="3350~3354" text="IKKα" location="result" />
+<GENE id="G19" spans="3396~3399" text="p65" location="result" />
+<GENE id="G20" spans="3517~3521" text="TLR2" location="result" />
+<GENE id="G21" spans="3522~3526" text="CD14" location="result" />
+<GENE id="G22" spans="3545~3549" text="TLR2" location="result" />
+<GENE id="G23" spans="3575~3579" text="CD14" location="result" />
+<GENE id="G24" spans="3716~3720" text="CD14" location="result" />
+<GENE id="G25" spans="3793~3797" text="CD14" location="result" />
+<DISEASE id="D0" spans="1968~1970" text="LD" location="result" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

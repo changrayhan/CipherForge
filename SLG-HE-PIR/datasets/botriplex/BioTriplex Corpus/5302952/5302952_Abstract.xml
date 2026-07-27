@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Delphinidin induces apoptosis via cleaved HDAC3-mediated p53 acetylation and oligomerization in prostate cancer cells.
+Abstract: Delphinidin is a major anthocyanidin compound found in various fruits. It has anti-inflammatory, anti-oxidant, and various other biological activities. In this study, we identified the epigenetic modulators that mediate the apoptotic effect of delphinidin in human prostate cancer cells. We found that treatment of LNCaP cells (a p53 wild-type, human prostate cancer cell line) with delphinidin increased caspase-3, −7, and −8 activity, whereas it decreased histone deacetylase activity. Among class I HDACs, the activity of HDAC3 was specifically inhibited by delphinidin. Moreover, the induction of apoptosis by delphinidin was dependent on caspase-mediated cleavage of HDAC3, which results in the acetylation and stabilization of p53. We also observed that delphinidin potently upregulated pro-apoptotic genes that are positively regulated by p53, and downregulated various anti-apoptotic genes. Taken together, these results show that delphinidin induces p53-mediated apoptosis by suppressing HDAC activity and activating p53 acetylation in human prostate cancer LNCaP cells. Therefore, delphinidin may be useful in the prevention of prostate cancer.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="50~55" text="HDAC3" location="result" />
+<GENE id="G1" spans="65~68" text="p53" location="result" />
+<GENE id="G2" spans="467~470" text="p53" location="result" />
+<GENE id="G3" spans="542~551" text="caspase-3" location="result" />
+<GENE id="G4" spans="662~667" text="HDAC3" location="result" />
+<GENE id="G5" spans="809~814" text="HDAC3" location="result" />
+<GENE id="G6" spans="870~873" text="p53" location="result" />
+<GENE id="G7" spans="983~986" text="p53" location="result" />
+<GENE id="G8" spans="1096~1099" text="p53" location="result" />
+<GENE id="G9" spans="1163~1166" text="p53" location="result" />
+<DISEASE id="D0" spans="104~119" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="402~417" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="488~503" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1188~1203" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1275~1290" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

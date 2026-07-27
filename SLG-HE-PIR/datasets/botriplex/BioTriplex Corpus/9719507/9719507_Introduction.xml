@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Bipolar disorder (BD) is a mental disorder that leads to abnormal swings in mood, energy, activity level, attention, and the capability to accomplish daily tasks 1 . BD can be classified into two main categories, namely BD type I and type II with severe and persistent mood elevation in the former type but less severe mood elevation in the latter type 1 . BD, particular type I has been shown to have a strong genetic background 2 . Based on the results of family studies, it seems that a small number of genes with modest effects establish genetic background of BD 2 . In addition, a number of linked chromosomal regions as well as candidate genes have been identified 2 . Moreover, expression assays have shown dysregulation of several genes in the circulation of BD patients or in the postmortem brain samples 3 – 5 . Ubiquitin cycle, synaptic function 3 , apoptosis regulators 5  and vitamin D related genes 6  are among dysregulated genes in BD.
+Nuclear factor kappa B (NF-κB) is an important transcription factor which regulates inflammatory signals. Expression of this transcription factor has been dysregulated in BD. Elevation in the spontaneous levels of NF-κB have been reported in several types of immune cells in adolescents with BD. Moreover, BD patients have exhibited greater upsurges in the NF-κB levels in monocytes after induction with TNF-α. Most notably, the latter observation has been associated with the contemporary severity of depressive symptoms 7 .
+Several non-coding RNAs have exhibited functional association with NF-κB 8 . Association of number of NF-κB-interacting long non-coding RNAs (lncRNAs) with human disorders has been more investigated. LncRNAs represent a group of transcripts with sizes more than 200 nucleotides that contribute in the regulation of gene regulation. These transcripts participate in the pathogenesis of several human disorders through changing expression of genes and influencing activity of signaling pathways 9 , 10 . Among these lncRNAs are ANRIL, CEBPA-DT, H19, NKILA and HNF1A-AS1 whose participation in the pathogenesis of Parkinson's disease 11  and autism spectrum disorder 12  has been assessed. In the current study, we measured expression levels of these lncRNAs in the blood samples of BD patients compared with controls to appraise their possible contribution in this disorder. We hypothesized that expression of these lncRNAs has been changed in the peripheral blood of BD patients due to the abnormalities in gene regulation pathways. Since they are associated with NF-κB signaling, it is possible that they contribute to the pathoetiology of BD. For instance, ANRIL as a constituent of NF-κB pathway can regulate inflammatory response 13 . H19 has been shown to promote atherosclerosis through regulation of MAPK and NF-κB pathways 14 . NKILA has also been identified as an inhibitor of NF-κB, since it inhibits phosphorylation of IκBα and suppresses nuclear translocation of p65 15 . CEBPA-DT is another lncRNA that is transcribed from up-stream of the CEBPA gene regulating its expression  in cis 16 . Notably, expression of CEBPA has also been shown to be regulated by NF-κB p50  17 . Besides, CEBPA contributes to the relocation of histone deacetylases from NF-κB p50 homodimers and induction of expression of NF-κB target genes 18 . Finally, HNF1A-AS1 is an NF-κB-regulated lncRNA that enhances the phosphatase activity of SHP-1 19 . Notably, this phosphatase has a role in the pathogenesis of immune-related disorders 20 .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="953~975" text="Nuclear factor kappa B" location="background" />
+<GENE id="G1" spans="977~982" text="NF-κB" location="background" />
+<GENE id="G2" spans="1167~1172" text="NF-κB" location="background" />
+<GENE id="G3" spans="1310~1315" text="NF-κB" location="background" />
+<GENE id="G4" spans="1357~1362" text="TNF-α" location="background" />
+<GENE id="G5" spans="1546~1551" text="NF-κB" location="background" />
+<GENE id="G6" spans="1581~1586" text="NF-κB" location="background" />
+<GENE id="G7" spans="2542~2547" text="NF-κB" location="background" />
+<GENE id="G8" spans="2794~2799" text="NF-κB" location="background" />
+<GENE id="G9" spans="2864~2869" text="NF-κB" location="background" />
+<GENE id="G10" spans="2953~2956" text="p65" location="background" />
+<GENE id="G12" spans="3149~3154" text="NF-κB" location="background" />
+<GENE id="G13" spans="3239~3244" text="NF-κB" location="background" />
+<GENE id="G14" spans="3245~3248" text="p50" location="background" />
+<GENE id="G15" spans="3291~3296" text="NF-κB" location="background" />
+<GENE id="G16" spans="3340~3345" text="NF-κB" location="background" />
+<DISEASE id="D0" spans="1~17" text="Bipolar disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="19~21" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="167~169" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="221~230" text="BD type I" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="221~223,235~242" text="BD ... type II" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="358~360" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="565~567" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="768~770" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="949~951" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D9" spans="1124~1126" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D10" spans="1245~1247" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D11" spans="1259~1261" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D12" spans="2090~2109" text="Parkinson's disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2118~2142" text="autism spectrum disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D14" spans="2259~2261" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D15" spans="2445~2447" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D16" spans="2619~2621" text="BD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D17" spans="2747~2762" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1128~1163" text="Elevation in the spontaneous levels" location="background" relation="increased expression" />
+<RELATION id="R1" spans="1286~1302" text="greater upsurges" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="NF-κB" diseaseID="D10" diseaseText="BD" relationID="R0" relationText="Elevation in the spontaneous levels" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="NF-κB" diseaseID="D11" diseaseText="BD" relationID="R1" relationText="greater upsurges" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Animals and Models of Colitis
+Experiments were conducted under protocol M/08/124 approved by the Vanderbilt University IACUC and Institutional Biosafety Committee, and the Research and Development Committee of the Veterans Affairs Tennessee Valley Healthcare System. Procedures were performed in accordance with institutional policies, AAALAC guidelines, the AVMA Guidelines on Euthanasia (CO 2  asphyxiation followed by cervical dislocation), NIH regulations (Guide for the Care and Use of Laboratory Animals), and the United States Animal Welfare Act (1966).
+C57BL/6 and C57BL/6  −/− Smox mice ( 23 ) were house-bred in our animal facility. Age-matched male wild-type (WT) and mutant mice (8–12 weeks) were used for two models of colitis: (1) mice were infected by oral gavage with 0.1 ml of LB broth containing 5 × 10 8 
+ C. rodentium  DBS100 ( 24 ) as reported ( 25 – 27 ); feces were collected during the time course of infection and animals were euthanized after 14 days. (2) Animals were treated with 2.5% DSS (mol. wt. 36,000–50,000; TdB Consultancy) in the drinking water for 5 days; DSS was then removed, and mice were kept for 5 more days before euthanasia. In both models, mice were weighed and monitored daily and those that showed extreme distress, became moribund, or lost more than 20% of initial body weight were euthanized. After sacrifice, colons were removed, measured, cut longitudinally, cleaned, weighed, and Swiss-rolled for histology. Three proximal and distal 2-mm pieces were used for RNA and protein analysis and to determine  C. rodentium  colonization by culturing serial dilution of ground tissues on Luria–Bertani agar plates ( 26 ).
+Histological Injury Scores
+Swiss-rolled colons were fixed in formalin and embedded in paraffin, and 5-µm sections were stained with hematoxylin and eosin (H&E) and examined in a blinded manner by gastrointestinal pathologists (M. Blanca Piazuelo and M. Kay Washington). For DSS colitis, inflammation severity (0–3) and inflammation extent (0–3) were each multiplied by the percent involvement (1 = 0–25%, 2 = 25–50%, 3 = 50–75%, and 4 = 75–100%) and added together to yield the inflammation score (0–24); the parameter of crypt damage (0–4) was also multiplied by the percent involvement to yield an epithelial injury score (0–16). These scores were then added together to yield the histological injury score (0–40), as described ( 25 ,  28 ,  29 ). For  C. rodentium  colitis, the histologic injury score (0–21) was the sum of acute and chronic inflammation (0–3 for each) scores multiplied by extent of inflammation (0–3) plus the epithelial injury score (0–3), as described ( 25 ,  26 ).
+Cytokine and Chemokine Analysis
+Snap-frozen colon tissues were homogenized in CelLytic MT Cell Lysis Reagent (Sigma). Total protein concentration was determined by BCA Protein Assay (Pierce). The lysates were then analyzed using the Milliplex MAP Kit (Millipore) on a Luminex FlexMAP 3D instrument as described (Millipore) ( 26 ,  27 ,  30 ).
+Measurement of Polyamines
+The concentration of the three biogenic polyamines was determined by mass spectrometry as reported ( 27 ).
+Statistics
+Figures and statistics were performed using Prism 7.0a software (Graphpad Inc.). All the data represent the mean ± SEM. Data that were not normally distributed were log transformed and distribution was assessed. Student’s  t -test or ANOVA with the Tukey test were used to determine significant differences between two groups or to analyze significant differences among multiple test groups, respectively.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="587~591" text="Smox" location="result" />
+<DISEASE id="D0" spans="733~740" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1945~1952" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="2436~2443" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

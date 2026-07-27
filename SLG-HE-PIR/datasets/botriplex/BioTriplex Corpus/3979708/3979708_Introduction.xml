@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Patients with pancreatic ductal adenocarcinoma (PDAC) have a poor clinical outcome, despite improvements in diagnosis and treatment methods. Resection at an early stage gives a relatively favorable outcome, but PDACs are diagnosed in an advanced stage in most cases  [1] . Indolent neoplasms such as intraductal papillary mucinous neoplasms (IPMNs) also occur in the pancreas  [2]  and sometimes transform into lesions with an invasive character and a poor outcome  [3] ,  [4] . An IPMN is a mucin-producing cystic neoplasm that was first recognized by the World Health Organization (WHO) in 1996 and renamed by the WHO as IPMN in 2000  [5] . Currently, IPMNs are the most common cystic neoplasm of the pancreas, and are classified into gastric, intestinal, pancreatobiliary, and oncocytic types  [2] ,  [6] . We have shown that the outcome of intestinal-type IPMN is poorer than that of gastric-type IPMN, although the outcomes for both IPMNs are significantly better than that with PDAC  [3] ,  [4] . A recent study also showed that the morphological subtype of IPMN is an independent prognostic factor:  i.e.  patients with gastric-type IPMN have a fair prognosis, those with intestinal-type or oncocytic-type IPMN have a relatively less favorable prognosis, and those with pancreatobiliary-type IPMN have the poorest prognosis  [6] .
+Mucins play crucial roles in diagnostic and prognostic prediction and in carcinogenesis and tumor invasion. MUC1 (pan-epithelial membrane mucin), the first cloned mucin, is an important human tumor antigen, second only to WT1 in cancer antigen pilot prioritization using a ranking based on predefined and preweighted criteria  [7] . Our series of immunohistochemistry (IHC) studies has shown a consensus position on mucin expression profiles in pancreatic neoplasms as follows  [8] ,  [9] : high expression of MUC1 is observed in PDACs and is related to a poor outcome  [10] ; intestinal-type IPMNs are MUC1-negative but MUC2 (intestinal secretory mucin)-positive, and sometimes show invasive growth with  de novo  MUC1 expression  [3] ,  [4] ,  [11] ; gastric-type IPMNs that are MUC1-negative and MUC2-negative have a low potential for malignancy  [3] ,  [4] ;  de novo  high MUC4 (tracheobronchial mambrane mucin) expression is associated with a poor outcome in patients with PDAC  [12] ; and MUC4 expression is observed mainly in intestinal-type IPMNs  [13] .
+We have also found that the methylation status, mRNA expression, and mucin core protein expression were well correlated with each other for MUC1, MUC2, and MUC4 in cancer cell lines  [14] ,  [15] ,  [16] ,  [17] . In addition, we have developed a novel DNA methylation analysis method ‘methylation specific electrophoresis (MSE, international patent open: WO 2011/132798)’. The MSE method greatly decreases the amount of input DNA and has high sensitivity, although conventional analytical methods for DNA methylation require a large amount of DNA and have low sensitivity. The lower detection limit for distinguishing different methylation status is under 0.1% and the detectable minimum amount of DNA is 20 pg, which can be obtained from only a few cells, and has high resolution  [18] . Application of this MSE method in analyses of the epigenetic status of  MUC1 ,  MUC2  and  MUC4  in pancreatic juice may be useful for early detection of pancreatic lesion, as further investigated in the current study.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1447~1451" text="MUC1" location="background" />
+<GENE id="G1" spans="1561~1564" text="WT1" location="background" />
+<GENE id="G2" spans="1849~1853" text="MUC1" location="background" />
+<GENE id="G3" spans="1942~1946" text="MUC1" location="background" />
+<GENE id="G4" spans="1960~1964" text="MUC2" location="background" />
+<GENE id="G5" spans="2054~2058" text="MUC1" location="background" />
+<GENE id="G6" spans="2120~2124" text="MUC1" location="background" />
+<GENE id="G7" spans="2138~2142" text="MUC2" location="background" />
+<GENE id="G8" spans="2217~2221" text="MUC4" location="background" />
+<GENE id="G9" spans="2335~2339" text="MUC4" location="background" />
+<GENE id="G10" spans="2543~2547" text="MUC1" location="background" />
+<GENE id="G11" spans="2549~2553" text="MUC2" location="background" />
+<GENE id="G12" spans="2559~2563" text="MUC4" location="background" />
+<GENE id="G13" spans="3265~3269" text="MUC1" location="result" />
+<GENE id="G14" spans="3273~3277" text="MUC2" location="result" />
+<GENE id="G15" spans="3284~3288" text="MUC4" location="result" />
+<DISEASE id="D0" spans="15~47" text="pancreatic ductal adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="49~53" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="212~216" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="343~347" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="301~340" text="intraductal papillary mucinous neoplasm" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="483~487" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="624~628" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="655~659" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="861~865" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="902~906" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="939~943" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="985~989" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1065~1069" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1141~1145" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1214~1218" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="1300~1304" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="1568~1574" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D18" spans="1869~1873" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="1932~1936" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="2105~2109" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="2318~2322" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="2389~2393" text="IPMN" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="2567~2573" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R0" spans="2270~2300" text="associated with a poor outcome" location="background" relation="negative prognostic marker" />
+<RELATION id="R1" spans="2212~2216,2256~2266" text="high ... expression" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G8" geneText="MUC4" diseaseID="D21" diseaseText="PDAC" relationID="R1" relationText="high ... expression" />
+<ENTITY_LINKING id="E1" geneID="G8" geneText="MUC4" diseaseID="D21" diseaseText="PDAC" relationID="R0" relationText="associated with a poor outcome" />
+</TAGS>
+</Genomics_ConceptTask>

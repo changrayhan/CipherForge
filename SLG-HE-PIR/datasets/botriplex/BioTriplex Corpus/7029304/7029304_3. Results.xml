@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Identification of DEGs in ChRCC
+After performing integrated analysis between tumor and normal tissues from the TCGA database, a total of 2608 DEGs were found. Among them, 1518 were upregulated and 1090 were markedly downregulated ( P  < 0.05 and |log(FC)| > 2) The DEGs from the dataset are shown in  Figure 1(a) . Red or green dots represent upregulated or downregulated genes, respectively. The top 100 DEGs were displayed through the heat map ( Figure 1(b) ).
+3.2. GO and KEGG Pathway Enrichment Analyses of These DEGs
+For better understanding of the DEGs, GO analysis was performed in  Figure 2(a)  and divided into biological process (BP), cellular component (CC), and molecular function (MF). The main biological processes that the DEGs were enriched in are presented, including organic anion transport, regulation of membrane potential, and organic acid transport. For the cellular component, the DEGs were particularly enriched in the apical plasma membrane, apical part of the cell and extracellular matrix. According molecular function, DEGs were significantly enriched in receptor ligand activity, receptor regulator activity, and cation transmembrane transporter activity. Then, the KEGG pathways program was used to reveal the critical pathway, in which a total of 10 pathways were identified, such as retinol metabolism, arachidonic acid metabolism, and pentose and glucuronate interconversions ( Figure 2(b) ).
+3.3. PPI Network and Hub Genes Identification
+In order to discover the potential association between these DEGs, a PPI network of DEGs was established in STRING database ( ). Top three hub genes were selected by calculating the degree, betweenness centrality, and Stress of Cytoscape plugin cytoHubba (Figures  3(a)  and  3(b) ). Then, an overview of mRNA levels of hub genes in a variety of cancers based on Oncomine is presented in  Figure 3(c) . As shown in  Figure 3(d) , one upregulated gene was CENPA, and two downregulated genes were KNG1 and AGT.
+3.4. Survival Analysis of Hub Genes
+To further research the survival value of hub genes in ChRCC, this study performed a survival assay according to Oncomine data. As shown in  Figure 4 , only relatively high expression of CENPA was associated with worse prognosis of ChRCC patients ( P  < 0.05), while expression of KNG1 or AGT had no statistically significant effect on patients' overall survival. Thus, CENPA may serve as a potential and novel biomarker for ChRCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1933~1938" text="CENPA" location="result" />
+<GENE id="G1" spans="1973~1977" text="KNG1" location="result" />
+<GENE id="G2" spans="1982~1985" text="AGT" location="result" />
+<GENE id="G3" spans="2210~2215" text="CENPA" location="result" />
+<GENE id="G4" spans="2304~2308" text="KNG1" location="result" />
+<GENE id="G5" spans="2312~2315" text="AGT" location="result" />
+<GENE id="G6" spans="2393~2398" text="CENPA" location="result" />
+<DISEASE id="D0" spans="32~37" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="2078~2083" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="2255~2260" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="2448~2453" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="2434~2443" text="biomarker" location="result" relation="biomarker" />
+<RELATION id="R1" spans="2191~2206" text="high expression" location="result" relation="increased expression" />
+<RELATION id="R2" spans="2236~2251" text="worse prognosis" location="result" relation="negative prognostic marker" />
+<RELATION id="R3" spans="2320~2385" text="no statistically significant effect on patients' overall survival" location="result" relation="no relation" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="CENPA" diseaseID="D2" diseaseText="ChRCC" relationID="R1" relationText="high expression" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="CENPA" diseaseID="D2" diseaseText="ChRCC" relationID="R2" relationText="worse prognosis" />
+<ENTITY_LINKING id="E2" geneID="G4" geneText="KNG1" diseaseID="D2" diseaseText="ChRCC" relationID="R3" relationText="no statistically significant effect on patients' overall survival" />
+<ENTITY_LINKING id="E3" geneID="G5" geneText="AGT" diseaseID="D2" diseaseText="ChRCC" relationID="R3" relationText="no statistically significant effect on patients' overall survival" />
+<ENTITY_LINKING id="E4" geneID="G6" geneText="CENPA" diseaseID="D3" diseaseText="ChRCC" relationID="R0" relationText="biomarker" />
+</TAGS>
+</Genomics_ConceptTask>

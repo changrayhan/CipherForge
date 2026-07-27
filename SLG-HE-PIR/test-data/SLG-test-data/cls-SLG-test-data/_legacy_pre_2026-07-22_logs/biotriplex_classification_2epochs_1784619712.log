@@ -1,0 +1,85 @@
+2026-07-21 15:41:54,309 [INFO] biotriplex_finetune: Logging to /root/autodl-tmp/slg-biotriplex-classification/logs/biotriplex_finetune_all_1784619714.log
+2026-07-21 15:41:54,309 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 15:41:54,309 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:41:54,309 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 15:41:54,309 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:41:54,309 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 15:41:56,279 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:01<05:53,  1.22s/it]Loading weights:  11%|█▏        | 33/291 [00:01<00:08, 31.44it/s]Loading weights:  15%|█▌        | 44/291 [00:01<00:06, 37.13it/s]Loading weights:  18%|█▊        | 53/291 [00:01<00:05, 42.19it/s]Loading weights:  21%|██        | 61/291 [00:01<00:06, 37.96it/s]Loading weights:  24%|██▎       | 69/291 [00:02<00:05, 43.86it/s]Loading weights:  26%|██▌       | 76/291 [00:02<00:04, 47.74it/s]Loading weights:  29%|██▉       | 85/291 [00:02<00:05, 41.10it/s]Loading weights:  32%|███▏      | 94/291 [00:02<00:04, 42.07it/s]Loading weights:  35%|███▌      | 103/291 [00:02<00:03, 49.31it/s]Loading weights:  38%|███▊      | 112/291 [00:03<00:04, 41.55it/s]Loading weights:  42%|████▏     | 121/291 [00:03<00:04, 37.93it/s]Loading weights:  43%|████▎     | 126/291 [00:03<00:04, 39.67it/s]Loading weights:  45%|████▌     | 131/291 [00:03<00:03, 41.41it/s]Loading weights:  47%|████▋     | 136/291 [00:03<00:04, 35.96it/s]Loading weights:  51%|█████     | 148/291 [00:04<00:03, 42.43it/s]Loading weights:  54%|█████▍    | 157/291 [00:04<00:03, 38.23it/s]Loading weights:  57%|█████▋    | 166/291 [00:04<00:02, 46.09it/s]Loading weights:  59%|█████▉    | 172/291 [00:04<00:02, 41.93it/s]Loading weights:  62%|██████▏   | 181/291 [00:04<00:02, 50.57it/s]Loading weights:  64%|██████▍   | 187/291 [00:04<00:01, 52.12it/s]Loading weights:  66%|██████▋   | 193/291 [00:05<00:02, 42.47it/s]Loading weights:  69%|██████▉   | 202/291 [00:05<00:02, 38.07it/s]Loading weights:  73%|███████▎  | 211/291 [00:05<00:01, 40.17it/s]Loading weights:  74%|███████▍  | 216/291 [00:05<00:01, 41.34it/s]Loading weights:  76%|███████▋  | 222/291 [00:05<00:01, 44.97it/s]Loading weights:  79%|███████▊  | 229/291 [00:05<00:01, 41.00it/s]Loading weights:  80%|████████  | 234/291 [00:06<00:01, 42.12it/s]Loading weights:  82%|████████▏ | 240/291 [00:06<00:01, 39.01it/s]Loading weights:  85%|████████▍ | 247/291 [00:06<00:00, 45.34it/s]Loading weights:  87%|████████▋ | 252/291 [00:06<00:01, 37.81it/s]Loading weights:  91%|█████████ | 265/291 [00:06<00:00, 46.13it/s]Loading weights:  93%|█████████▎| 270/291 [00:07<00:00, 30.43it/s]Loading weights:  94%|█████████▍| 274/291 [00:11<00:03,  4.65it/s]Loading weights:  95%|█████████▌| 277/291 [00:12<00:03,  4.13it/s]Loading weights:  98%|█████████▊| 284/291 [00:12<00:01,  5.12it/s]Loading weights: 100%|██████████| 291/291 [00:12<00:00, 22.53it/s]
+2026-07-21 15:42:09,894 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 13.6s
+2026-07-21 15:42:16,777 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 15:42:16,798 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 15:42:20,101 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:42:31,581 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 15:42:31,581 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 15:42:31,582 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 15:42:31,582 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:42:32,118 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 15:42:32,118 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 15:42:32,119 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 15:42:32,134 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 15:42:32,134 [INFO] biotriplex_finetune: Stage 0 complete in 37.8s
+2026-07-21 15:42:32,134 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:42:32,134 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 15:42:32,135 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:42:33,124 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 15:42:33,158 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-21 15:42:33,169 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/biotriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 15:42:33,177 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-21 15:42:33,180 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/biotriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 15:42:33,188 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-21 15:42:33,190 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/biotriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 15:42:33,191 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 15:42:33,191 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 15:42:38,314 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:42:47,690 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 15:42:47,699 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 15:42:47,699 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 15:42:47,717 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 15:42:47,717 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 15:42:47,722 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+2026-07-21 15:42:47,723 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 15:42:47,723 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-21 15:42:47,732 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 15:42:47,733 [INFO] src.model.model_splitting: Using SDPA for U shard
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 676, in <module>
+    main()
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 661, in main
+    all_results["1"] = run_stage1(args, logger)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 444, in run_stage1
+    protocol = HeterogeneousProtocol(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/heterogeneous_protocol.py", line 156, in __init__
+    self.party_u = PartyU(
+                   ^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_u.py", line 56, in __init__
+    self._setup_submodel(model_path)
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_u.py", line 76, in _setup_submodel
+    self.model = load_u_submodel(
+                 ^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/model/model_splitting.py", line 649, in load_u_submodel
+    model.to(device, dtype=torch.bfloat16)
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+           ^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 31.36 GiB of which 94.31 MiB is free. Process 853144 has 24.42 GiB memory in use. Including non-PyTorch memory, this process has 6.84 GiB memory in use. Of the allocated memory 6.34 GiB is allocated by PyTorch, and 11.80 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

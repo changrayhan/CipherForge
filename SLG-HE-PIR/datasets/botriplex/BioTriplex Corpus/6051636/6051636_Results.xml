@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Demographic data and surgical parameters of the 26 acquired cholesteatoma patients (comprising of 15 children and 11 adults) recruited into our study were described previously [ 18 ]. To broaden our analysis, patients were divided into two groups according to their age: a pediatric (younger than 18 years old) and an adult (above 18 years) group then both groups were further classified based on the clinical data into primary acquired (nonrecurrent) and recurrent groups. Analyzing the extent of cholesteatoma, we have found that smaller regions of the middle ear were affected in the nonrecurrent cases compared to the recurrent cases, the extension of cholesteatoma to more than 2 anatomical regions was more common in recurrent samples. Based on the clinical data, the extent of bone destruction was also greater in recurrent cases than in nonrecurrent samples. Out of the examined 26 cases of acquired cholesteatoma, the auditory ossicular chain was destroyed in 24 patients, sound ossicular chain was observed only in 2 cases. The recurrence was more common in childhood cholesteatoma than in adult cases.
+To investigate the expression of target genes, the normalized mRNA levels measured in cholesteatoma samples were compared to those of normal skin samples of control individuals.Although the KRT1 and KRT10 genes located on different chromosomes (KRT1: 12q12-q13; KRT10: 17q21) they are expressed together during the terminal differentiation of keratinocytes in a coordinated fashion, their protein products form functional dimers during IF formation. According to our expectation, the PPIA normalized expression of two genes showed identical expression patterns, however, the expression level of KRT10 was higher than that of KRT1 (data not shown). The assessment of our RT-PCR data showed that mRNA expression was significantly different between the stratified groups (Kruskal-Wallis (K-W)  P =  0.004 and K-W P = 0.0031 for KRT1 and KRT10, respectively). In samples of the pediatric recurrent group KRT10 expression level was significantly higher compared to that of the adult recurrent group (μ±SD = 3.106 ± 3.150 and μ±SD = 0,172 ± 0.166, respectively; the K-W test followed by Dunn’s P< 0.01). The effect size of KRT10 gene in this comparison is 1.27. KRT10 mRNA expression was also significantly higher in the control samples compared to that of the adult recurrent group (μ±SD = 2.287 ± 1.270 and μ±SD = 0,172 ± 0.166, respectively; the K-W test followed by Dunn’s P< 0.05), ( Fig 1A ). The effect size of KRT10 is -2.33.
+The difference in KRT19 expression was not significantly different between control, recurrent and nonrecurrent samples, the lowest expression level was observed in samples of the two recurrent groups (μ±SD = 6.750 × 10 −4  ± 7.730 × 10 −4  and μ±SD = 2.209 × 10 −2  ± 0.047, in the pediatric and adult groups, respectively) ( Fig 1B ).
+In case of MMP9 mRNA expression was significantly elevated in recurrent cholesteatoma samples compared to the normal skin (μ±SD = 1.351 × 10 −1  ± 0.276 for recurrent cases and μ±SD = 1.046 × 10 −1  ± 0.2336 for control samples; the K-W test followed by Dunn’s P< 0.05) ( Fig 2A ). The effect size of MMP9 gene is 0.90. Following stratification significant differences in MMP9 mRNA expression was no longer observed between all age groups and control samples. The highest MMP9 expression was measured in adult and pediatric recurrent samples, the lowest was observed in the adult nonrecurrent group (μ±SD = 1.517 × 10 −1  ± 2.401 × 10 −1 , μ±SD = 1.205 × 10 −1  ± 3.211 × 10 −1  and μ±SD = 4.022 × 10 −3  ± 4.379 × 10 −3 , respectively).
+The expression of the TP53 gene was higher in the recurrent cases (μ±SD = 8.132 × 10 −3  ± 9.274 × 10 −3 ) than in nonrecurrent ones (μ±SD = 5.632 × 10 −3  ± 2.808 × 10 −3 ). The highest TP53 expression after stratification was found in samples of children with recurrent cholesteatoma (μ±SD = 1.068 × 10 −2  ± 1.204 × 10 −2 ) and a somewhat lower level was observed in the adult nonrecurrent group (μ±SD = 7.269 × 10 −3  ± 5.256 × 10 −3 ). However, mRNA expression in the stratified groups was not significantly different from one another ( Fig 2B ).
+We have to note, that some of our data sets contain outliers (especially KRT19 and MMP9), and those can affect the outcome of tests. We did not want to reduce the number of data points by trimming our data, especially since outliers are not necessarily bad data, they may represent variability in the measurement indicating skewness in the distribution of our expression values.
+During the sample collection period of our study a pediatric patient developed recurrent cholesteatoma. It gave us a chance to compare expression levels of all the studied genes between the primer and recurrent cholesteatoma samples of the same person. The calculated fold changes are shown in ( Fig 3 ), all genes had an elevated expression level in the recurrent sample with the exception of KRT19 which had a much reduced expression.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1304~1308" text="KRT1" location="result" />
+<GENE id="G1" spans="1313~1318" text="KRT10" location="result" />
+<GENE id="G2" spans="1359~1363" text="KRT1" location="result" />
+<GENE id="G3" spans="1709~1714" text="KRT10" location="result" />
+<GENE id="G4" spans="1739~1743" text="KRT1" location="result" />
+<GENE id="G5" spans="1939~1943" text="KRT1" location="result" />
+<GENE id="G6" spans="1948~1953" text="KRT10" location="result" />
+<GENE id="G7" spans="2014~2019" text="KRT10" location="result" />
+<GENE id="G8" spans="2231~2236" text="KRT10" location="result" />
+<GENE id="G9" spans="2270~2275" text="KRT10" location="result" />
+<GENE id="G10" spans="2526~2531" text="KRT10" location="result" />
+<GENE id="G11" spans="2560~2565" text="KRT19" location="result" />
+<GENE id="G12" spans="2889~2893" text="MMP9" location="result" />
+<GENE id="G13" spans="3179~3183" text="MMP9" location="result" />
+<GENE id="G14" spans="3638~3642" text="TP53" location="result" />
+<GENE id="G15" spans="3803~3807" text="TP53" location="result" />
+<GENE id="G16" spans="4241~4246" text="KRT19" location="result" />
+<GENE id="G17" spans="4251~4255" text="MMP9" location="result" />
+<GENE id="G18" spans="4941~4946" text="KRT19" location="result" />
+<DISEASE id="D0" spans="61~74" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="499~512" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="657~670" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="909~922" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1079~1092" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2950~2963" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1200~1213" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="3888~3901" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="4636~4649" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="4758~4771" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="2894~2936" text="mRNA expression was significantly elevated" location="result" relation="increased expression" />
+<RELATION id="R1" spans="3795~3802,3808~3818" text="highest ... expression" location="result" relation="increased expression" />
+<RELATION id="R2" spans="4964~4982" text="reduced expression" location="result" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="MMP9" diseaseID="D5" diseaseText="cholesteatoma" relationID="R0" relationText="mRNA expression was significantly elevated" />
+<ENTITY_LINKING id="E1" geneID="G15" geneText="TP53" diseaseID="D7" diseaseText="cholesteatoma" relationID="R1" relationText="highest ... expression" />
+<ENTITY_LINKING id="E2" geneID="G18" geneText="KRT19" diseaseID="D9" diseaseText="cholesteatoma" relationID="R2" relationText="reduced expression" />
+</TAGS>
+</Genomics_ConceptTask>

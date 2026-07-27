@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+To date, improving the efficacy of first-line chemotherapeutic agents through targeted agents, gene therapy, and combinational treatments has important clinical significance. Gemcitabine is considered as the first-line drug for PDAC and has a poor response rate of ~20% with a median survival of 6 months 34 , 35 . Even if gemcitabine was combined with other agents to improve efficacy for PDAC, the results are still very limited with a few weeks-months of increase in patient survival time generally 36 – 38 . Most failures in gemcitabine-based regimens in PDAC were attributed to drug resistance and subsequent relapse or metastasis 39 – 42 . In light of this, it would provide promising insights into clinical applications to develop therapeutic strategies for pancreatic cancer.
+In the present study, we first reported that DTLL was able to improve the gemcitabine efficacy of pancreatic cancer and overcome its resistance as an ADC-like immunotherapeutic agent. Our laboratory had previously reported that DTLL exhibited potent effectiveness in a variety of cells and xenograft tumors including ovarian, esophageal, and pancreatic cancer 24 – 26 . However, the use of DTLL for combinational therapy has not been explored. Our results showed that the combination of gemcitabine plus DTLL had synergistic effects on both gemcitabine-resistant and gemcitabine-sensitive mouse models of PDAC (Figs.  2 ,  5 ,  6 ). Furthermore, we identified a critical role of SMAD4 in mediating the responses of pancreatic cancer cells to gemcitabine chemotherapy. Based on differences in genetic status and protein expression of SMAD4 as well as drug susceptibilities between AsPC-1 and MIA PaCa-2 cells, we chose these two lines as models of SMAD4-deficient/gemcitabine-resistant and SMAD4-sufficient/gemcitabine-sensitive PDAC, respectively. The results demonstrated that the combination treatment produced a significantly synergistic inhibitory effect on tumor cell growth, especially on SMAD4-defficient/gemcitabine-resistant AsPC-1 cells or xenografted tumors (Figs.  2 ,  5 ). To predict the enhanced effect of DTLL on gemcitabine sensitivity for clinical implementation in the future, two PA1233 and PA3142 PDX models based on their SMAD4 profiles were utilized to evaluate pharmacological efficacy (Fig.  6 ), confirming our observations from the CDX models. The in vitro and in vivo results from BxPC-3 stably transfected cells containing empty, mutant and wild-type SMAD4 overexpression vectors further demonstrated that SMAD4-deficient/sufficient cells showed distinct resistant/sensitive responses to gemcitabine (Fig.  7  and Supplementary Table  2 ), because of differences in wild-type and mutant SMAD4 protein expression. Another report also demonstrated that MIA-PaCa-2 tended to be the cell line with the highest intrinsic chemosensitivity, whereas PANC-1 and AsPC-1 were the cell lines with the most distinct intrinsic chemoresistance. Their results further confirmed our findings 43 .
+SMAD4 (also known as DPC4) was identified on the basis of frequent homozygous deletions and mutations 44 , serves as the central mediator of TGF-β/SMADs signaling and functions as a tumor suppressor with over 50% of SMAD4 loss or inactivation in PDAC 45 , 46 , among which homozygous deletion and inactivation of SMAD4 were found in ~30% and 20% of pancreatic cancer patients, respectively. SMAD4 loss was directly associated with poor prognosis 47 , 48 , short survival rate 49 , metastasis 50 , and radioresistance 51  in pancreatic carcinoma patients. SMAD4 was associated with drug resistance to 5’-fluorouracil in colon cancers 52  or gemcitabine in hepatocellular carcinoma 53 . However, few studies have reported the correlation between SMAD4 and gemcitabine resistance in pancreatic cancer. The impact of SMAD4 loss on chemoresistance has not been fully characterized. Consequently, few therapeutic agents have been developed to overcome chemoresistance.
+Interestingly, in the present study, we found that SMAD4 expression and bioactivity of AsPC-1/BxPC3-Mut and MIA PaCa-2/BxPC3-WT cells were distinct although DTLL or its combination treatment had inhibitory effects on both lines. In AsPC-1 cells deficient in SMAD4, we observed reactivation of SMAD4 with nuclear translocation to form a SMAD2/3/4 complex in the nucleus, and a decrease in SMAD7 expression (Fig.  3b–d ), similar to the findings in Fig.  8D . The SMAD complex in the nucleus then regulates the expression of different genes through interaction with DNA and DNA-binding proteins and acts as a tumor suppressor, eventually inhibiting tumor growth 54 , 55 . This result indicated that the combination treatment significantly inhibited PDAC tumor growth in a SMAD4-deficient/gemcitabine-resistant model predominantly through a SMAD4-dependent signaling pathway.
+In contrast, the combination treatment obviously inhibited SMAD4 activity in MIA PaCa-2 cells (Fig. 3b–d ), consistent with the results verified in BxPC3-WT cells (Fig.  8d ). Our findings demonstrated that the combination treatment enhanced antineoplastic activities via blockage of AKT/mTOR signaling pathways in gemcitabine-sensitive PDAC models. A previous study demonstrated that SMAD4 inhibited tumor metastasis in patients with colon cancer through multiple processes including the inhibition of apoptosis, epithelial–mesenchymal transition (EMT), and the PI3K/AKT signaling pathway 56 . Their findings indicated an association between SMAD4 and the AKT pathway. In the present study, we also observed decreases in the expression of both SMAD4 and AKT/mTOR signaling (Fig.  3 a,  b ), suggesting that AKT/mTOR signaling blockade by DTLL or the combination treatment in SMAD4-sufficient PDAC cells might be attributed to not only blockade of EGFR/HER2 signaling, but also decreased SMAD4.
+As shown in the schematic illustration model in Fig.  9 , we investigated different action mechanisms of mutant and wild-type SMAD4 on the PDAC drug response with/without DTLL induction (shown in Fig.  8 ). Our findings demonstrated that the  SMAD4  genetic status of PDAC is responsible for SMAD4 protein levels, which determine different cellular susceptibilities. Moreover, DTLL significantly altered the half-life time and protein levels of mutant and wild-type SMAD4 by inhibiting protein degradation at different velocities and changing the interaction of SMAD4 with TRIM33 (Fig.  8a–c ). In addition, DTLL predominantly enhanced the expression of apoptotic proteins (BAX, FADD) in BxPC3-Mut cells but promoted decreases mainly in antiapoptotic proteins (Bcl-2 and MCL1) of the BxPC3-WT line (Fig.  8d–g ) through the regulation of upstream NF-κB transcriptional activity. Moreover, NF-κB expression was controlled as a target of either mutant or wild-type SMAD4, and the interaction of those two proteins in BxPC3-Mut and BxPC3-WT cell lines exhibited differently in an opposite direction (Fig.  8 h,  i ). The trends in protein expression affected by DTLL (including NF-kB, TRIM33 and apoptosis-relevant proteins) were mainly attributed to SMAD4 protein levels based on its genetic status. In addition,  SMAD4  genetic status significantly impacted the difference in proteomic profiles between BxPC3-Mut and BxPC3-WT cells (Fig.  8j ). RRM2 protein expression was obviously reduced along with decreased mutant SMAD4 in BxPC3-Mut cells, which is also partially responsible for gemcitabine resistance. DTLL alone or its combination treatment significantly triggered an increase in RRM2 expression, interpreting its mechanism of action on enhanced BxPC3-Mut cellular susceptibility mediated by increased SMAD4.
+Consequently, all the above findings suggested that DTLL is capable of sensitizing either gemcitabine-resistant or gemcitabine-sensitive cells to gemcitabine efficacy (or even other chemotherapeutic agents) through distinct action mechanisms according to different SMAD4 profiles. As shown in the schematic illustration model (Fig.  9 ), the mechanistic studies implied that DTLL combinational treatment might not only prevent neoplastic proliferation via blockage of ATK/mTOR signaling and anti-apoptotic proteins (Bcl-2 and MCL1) mediated by impaired NF-κB function if given to SMAD4-sufficient/gemcitabine-sensitive PDAC cells, but also restore the bioactivity of SMAD4 as a tumor suppressor to trigger its downstream NF-κB-regulated signaling of cell apoptosis in SMAD4-deficient/gemcitabine-resistant tumors. The inhibitory effectiveness of DTLL alone or in combination with gemcitabine revealed that it functions as a double-edged sword in PDAC tumor growth, with totally different drug responsive behaviors and molecular action mechanisms on synergistic efficacy between gemcitabine-resistant and gemcitabine-sensitive PDAC. We speculate that DTLL seems to act as a module of the SMAD4 driver that normalizes its function as a tumor suppressor according to SMAD4 protein level and genetic status in PDAC, and then adjusts NF-κB, TRIM33, gemcitabine-metabolic enzymes (such as RRM2) and proteomic profiles of PDAC cells, which explains the synergistic effect on tumor growth of DTLL in combination with gemcitabine. Further deeper mechanistic studies are necessary to verify our findings in the future. Fig. 9 Schematic illustration model of the DTLL action mechanism along with mutant and wild-type SMAD4 in PDAC cells. There were different action mechanisms of mutant and wild-type SMAD4 on the PDAC drug response with/without DTLL induction. The SMAD4 genetic status of PDAC is responsible for SMAD4 protein levels which determine different cellular susceptibilities. DTLL seems to act as a module of the SMAD4 driver that normalizes its function as a tumor suppressor according to SMAD4 level and genetic status in PDAC, and then adjusts NF-κB, TRIM33, gemcitabine-metabolic enzymes (such as RRM2) and proteomic profiles of PDAC cells, which explains the synergistic effect on tumor growth of DTLL in combination with gemcitabine. Specifically, DTLL contributes to decreases mainly in AKT/mTOR signaling and anti-apoptotic proteins (Bcl-2 and MCL1) by impaired NF-κB function in WT-SMAD4/GEM-sensitive PDAC cells. However, DTLL predominantly enhances the expression of apoptotic BAX and FADD by restoring SMAD4 bioactivity to trigger downstream NF-κB-regulated signaling in Mut-SMAD4/GEM-resistant cells. Moreover, NF-κB expression was regulated as a SMAD4 target in these two types of cells, and the interaction between these two proteins was different in an opposite direction. In addition, SMAD4 status significantly impacted the proteomic profiles, especially RRM2 expression. As a result, DTLL in combination with chemotherapeutic agents shows synergistic effects by either enhancing sensitivity or overcoming resistance in PDAC cells via wild-type or mutant SMAD4-mediation, respectively. Note: WT indicates wild type and Mut represents mutant (R100T mutation) SMAD4. (+), sufficient expression; (−), deficient expression.
+In the current precision medicine treatment era, diverse genetic alterations in cancer subclones with unique hydrogenous signatures are responsible for the therapeutic resistance of pancreatic cancers as one of the biggest challenges. The most common mutations in PDAC occur in  KRAS, TP53, CDKN2A , and  SMAD4  driver genes 57 – 60 . In contrast to other oncogenes (such as mutated BRAF or EGFR), effective therapies that directly target those four driver genes are still unavailable in PDAC. Consequently, there is an urgent need to develop biomarkers or therapeutic approaches for the selection of adaptive PDAC patients. Given the critical effect of p53-related pathways on pancreatic cancers, reactivation of p53 has been investigated to sensitize tumors to chemotherapy in a number of preclinical studies 61 – 64 . A study on cell lines suggested that the mutant p53 activator, PRIMA-1, accelerated apoptosis and sensitized tumor cells to chemotherapy 65 . The combination of p53 transduction by Ad5CMV-p53 with two genotoxic drugs (gemcitabine and cisplatin), under a correct schedule of administration, appears to be a very promising therapy for human pancreatic cancer 66 . Researchers recently revealed a p53-dependent interaction between cancer cells and CAFs during the response to gemcitabine/abraxane, also suggesting that combining biomarkers of GOF (gain of function) mutant p53 with high HSPG2 stromal deposition may be used in the future to identify patients 67 . Undoubtedly, activation of tumor suppressors for the treatment of human cancer has been a long sought, yet elusive, strategy. A recent study also provided an example of a “tumor suppressor reactivation” approach. They found that the tumor suppressor PTEN was reactivated for cancer treatment through inhibition of the MYC-WWP1 pathway, and further identified a derivative of cruciferous vegetables (I3C) as a potent WWP1 inhibitor via PTEN reactivation, leading to suppression of tumorigenesis 68 . Our findings with a similar therapeutic approach for PDAC might provide important insight into clinical implementation via SMAD4 reactivation induced by DTLL combination treatment. Moreover, regardless of whether SMAD4 expression is sufficient, the synergistic effect of DTLL combination treatment on PDAC might enhance the therapeutic benefits of gemcitabine for patients. Furthermore, our findings may expand the translational avenue for cancer treatments. A previous study demonstrated a precision treatment strategy for EZH2-aberrant tumors that was based on tumor-intrinsic MLL1 expression and concurrent inhibition of epigenetic crosstalk and feedback MAPK activation 69 . For clinical application in the future, our approach might also require biomarkers to identify possible PDAC responders based on tumor-intrinsic SMAD4 status for rational combination regimens with either AKT or TGF-β inhibitors.
+Inevitably, there are several limitations in our study. First, we investigated the role of SMAD4 in mediating the cellular response in both SMAD4-deficient and SMAD4-sufficient PDAC. Mechanistically, we only studied the EGFR, AKT, NF-kB, and SMAD4-mediated signaling pathways, but more key drivers (such as PTEN, TP53, and KRAS) and their potential crosstalk need to be further investigated. Second, DTLL or the combination treatment increased the expression of PD-L1 in mutant SMAD4 tumors but reduced its expression in wild-type tumors, which might promote or inhibit immune escape in vitro and in vivo, respectively. However, whether the exact mechanisms of tumor immune escape and SMAD4-mediated activation or inhibition occur is unclear, which needs further investigation. Third, based on differences in SMAD4 expression and its genetic status, distinct molecular mechanisms were observed. More functional studies are needed to evaluate and characterize the effects of the combination treatment on autophagy, angiogenesis, and epithelial-mesenchymal transition (EMT), in addition to the influences on cell proliferation, apoptosis and transcriptional activity. CRIPS/Cas9 depleted cells or transgenic mouse models would be more helpful in the future to further confirm and deeply interpret SMAD4 roles in PDAC chemoresistance. Furthermore, SMAD4 might regulate its downstream genes via a SMAD4-miRNA-downstream gene axis (such as AKT, E-cadherin, and Vimentin) 56 , further influencing PDAC. Fourth, due to financial limitations, we chose only three to four mice in the PDX models, as well as BxPC-3 stably transfected cell lines or CDX models for functional characterization instead of PDX models. More cell lines or PDX models need to be further selected. In addition, deeper investigation is necessary to fully elucidate the molecular mechanisms of SMAD4 in the functional regulation of NF-κB-mediated signaling, TRIM33-mediated self-control of protein degradation and the RRM2-relevant pharmacokinetic pathway in PDAC progression and drug resistance. More specifically, further functional studies such as splicing regulation with both  trans-  and  cis -regulatory effects, need to be investigated. We demonstrated that SMAD4 status significantly impacted the proteomic profiles of BxPC3-Mut/gemcitabine-resistant and BxPC3-WT/gemcitabine-sensitive cells. The crosstalk between cancer cells and the tumor microenvironment plays an important role in resistance to therapy. More studies need to be conducted to determine whether SMAD4-mediated chemo-sensitization is involved in the tumor microenvironment or immunodeficiency. Finally, clinical validation to identify the molecular profiles of SMAD4 and its relevant proteins and to predict the drug response of PDAC patients is essential in the future.
+Taken together, we demonstrated the synergism of gemcitabine and DTLL in both gemcitabine-sensitive and gemcitabine-resistant PDAC and identified the critical role of SMAD4 in mediating the cellular responses of pancreatic cancer to chemotherapy. SMAD4 genetic status is responsible for SMAD4 protein levels, and its R100T mutation contributes to loss of SMAD4 protein and function with rapid protein degradation, leading to resistance to gemcitabine of PDAC cells. DTLL altered the protein half-life time and level of mutant and wild-type SMAD4 by inhibiting protein degradation at different velocities and changing the interaction of SMAD4 with TRIM33 distinctly. Further studies implied that DTLL combinational treatment might not only prevent neoplastic proliferation via blockage of ATK/mTOR signaling and anti-apoptotic proteins mediated by impaired NF-κB function in SMAD4-sufficient/gemcitabine-sensitive PDAC cells, but also restore the bioactivity of SMAD4 as a tumor suppressor to trigger its downstream NF-κB-regulated signaling of cell apoptosis and enhance the gemcitabine-related enzyme RRM2 in SMAD4-deficient/gemcitabine-resistant tumors. Our findings may reveal a potential combination therapy for overcoming resistance of PDAC mediated by SMAD4, which paves the way toward a long-sought tumor suppressor reactivation approach and lays the foundation for future precision medicine as the first step.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1464~1469" text="SMAD4" location="result" />
+<GENE id="G1" spans="1618~1623" text="SMAD4" location="result" />
+<GENE id="G2" spans="1732~1737" text="SMAD4" location="result" />
+<GENE id="G3" spans="1774~1779" text="SMAD4" location="result" />
+<GENE id="G4" spans="1980~1985" text="SMAD4" location="result" />
+<GENE id="G5" spans="2229~2234" text="SMAD4" location="result" />
+<GENE id="G6" spans="2465~2470" text="SMAD4" location="result" />
+<GENE id="G7" spans="2520~2525" text="SMAD4" location="result" />
+<GENE id="G8" spans="2701~2706" text="SMAD4" location="result" />
+<GENE id="G9" spans="2994~2999" text="SMAD4" location="background" />
+<GENE id="G10" spans="3015~3019" text="DPC4" location="background" />
+<GENE id="G12" spans="3210~3215" text="SMAD4" location="background" />
+<GENE id="G13" spans="3307~3312" text="SMAD4" location="background" />
+<GENE id="G14" spans="3385~3390" text="SMAD4" location="background" />
+<GENE id="G15" spans="3549~3554" text="SMAD4" location="background" />
+<GENE id="G16" spans="3738~3743" text="SMAD4" location="background" />
+<GENE id="G17" spans="3807~3812" text="SMAD4" location="background" />
+<GENE id="G18" spans="4008~4013" text="SMAD4" location="result" />
+<GENE id="G19" spans="4215~4220" text="SMAD4" location="result" />
+<GENE id="G20" spans="4250~4255" text="SMAD4" location="result" />
+<GENE id="G21" spans="4293~4298" text="SMAD2" location="result" />
+<GENE id="G22" spans="4345~4350" text="SMAD7" location="result" />
+<GENE id="G23" spans="4727~4732" text="SMAD4" location="result" />
+<GENE id="G24" spans="4795~4800" text="SMAD4" location="result" />
+<GENE id="G25" spans="4889~4894" text="SMAD4" location="result" />
+<GENE id="G26" spans="5215~5220" text="SMAD4" location="background" />
+<GENE id="G27" spans="5473~5478" text="SMAD4" location="background" />
+<GENE id="G28" spans="5575~5580" text="SMAD4" location="result" />
+<GENE id="G29" spans="5706~5711" text="SMAD4" location="result" />
+<GENE id="G30" spans="5778~5782" text="EGFR" location="result" />
+<GENE id="G31" spans="5783~5787" text="HER2" location="result" />
+<GENE id="G32" spans="5642~5646" text="mTOR" location="result" />
+<GENE id="G33" spans="5818~5823" text="SMAD4" location="result" />
+<GENE id="G34" spans="5951~5956" text="SMAD4" location="result" />
+<GENE id="G35" spans="6068~6073" text="SMAD4" location="result" />
+<GENE id="G36" spans="6117~6122" text="SMAD4" location="result" />
+<GENE id="G37" spans="6291~6296" text="SMAD4" location="result" />
+<GENE id="G38" spans="6387~6392" text="SMAD4" location="result" />
+<GENE id="G39" spans="6398~6404" text="TRIM33" location="result" />
+<GENE id="G40" spans="6499~6502" text="BAX" location="result" />
+<GENE id="G41" spans="6504~6508" text="FADD" location="result" />
+<GENE id="G42" spans="6586~6591" text="Bcl-2" location="result" />
+<GENE id="G43" spans="6596~6600" text="MCL1" location="result" />
+<GENE id="G44" spans="6672~6677" text="NF-κB" location="result" />
+<GENE id="G45" spans="6714~6719" text="NF-κB" location="result" />
+<GENE id="G46" spans="6788~6793" text="SMAD4" location="result" />
+<GENE id="G47" spans="7000~7005" text="NF-kB" location="result" />
+<GENE id="G48" spans="7007~7013" text="TRIM33" location="result" />
+<GENE id="G49" spans="7073~7078" text="SMAD4" location="result" />
+<GENE id="G50" spans="7137~7142" text="SMAD4" location="result" />
+<GENE id="G51" spans="7269~7273" text="RRM2" location="result" />
+<GENE id="G52" spans="7343~7348" text="SMAD4" location="result" />
+<GENE id="G53" spans="7634~7639" text="SMAD4" location="result" />
+<GENE id="G54" spans="7906~7911" text="SMAD4" location="result" />
+<GENE id="G55" spans="8113~8117" text="mTOR" location="result" />
+<GENE id="G56" spans="8157~8162" text="Bcl-2" location="result" />
+<GENE id="G57" spans="8167~8171" text="MCL1" location="result" />
+<GENE id="G58" spans="8194~8199" text="NF-κB" location="result" />
+<GENE id="G59" spans="8221~8226" text="SMAD4" location="result" />
+<GENE id="G60" spans="8362~8367" text="NF-κB" location="result" />
+<GENE id="G61" spans="8409~8414" text="SMAD4" location="result" />
+<GENE id="G62" spans="8828~8833" text="SMAD4" location="result" />
+<GENE id="G63" spans="8905~8910" text="SMAD4" location="result" />
+<GENE id="G64" spans="8970~8975" text="NF-κB" location="result" />
+<GENE id="G65" spans="8977~8983" text="TRIM33" location="result" />
+<GENE id="G66" spans="9024~9028" text="RRM2" location="result" />
+<GENE id="G67" spans="9347~9352" text="SMAD4" location="result" />
+<GENE id="G68" spans="9431~9436" text="SMAD4" location="result" />
+<GENE id="G69" spans="9496~9501" text="SMAD4" location="result" />
+<GENE id="G70" spans="9544~9549" text="SMAD4" location="result" />
+<GENE id="G71" spans="9655~9660" text="SMAD4" location="result" />
+<GENE id="G72" spans="9732~9737" text="SMAD4" location="result" />
+<GENE id="G73" spans="9789~9794" text="NF-κB" location="result" />
+<GENE id="G74" spans="9796~9802" text="TRIM33" location="result" />
+<GENE id="G75" spans="9843~9847" text="RRM2" location="result" />
+<GENE id="G76" spans="10040~10044" text="mTOR" location="result" />
+<GENE id="G77" spans="10084~10089" text="Bcl-2" location="result" />
+<GENE id="G78" spans="10094~10098" text="MCL1" location="result" />
+<GENE id="G79" spans="10112~10117" text="NF-κB" location="result" />
+<GENE id="G80" spans="10133~10138" text="SMAD4" location="result" />
+<GENE id="G81" spans="10230~10233" text="BAX" location="result" />
+<GENE id="G82" spans="10238~10242" text="FADD" location="result" />
+<GENE id="G83" spans="10256~10261" text="SMAD4" location="result" />
+<GENE id="G84" spans="10296~10301" text="NF-κB" location="result" />
+<GENE id="G85" spans="10329~10334" text="SMAD4" location="result" />
+<GENE id="G86" spans="10366~10371" text="NF-κB" location="result" />
+<GENE id="G87" spans="10402~10407" text="SMAD4" location="result" />
+<GENE id="G88" spans="10544~10549" text="SMAD4" location="result" />
+<GENE id="G89" spans="10615~10619" text="RRM2" location="result" />
+<GENE id="G90" spans="10815~10820" text="SMAD4" location="result" />
+<GENE id="G91" spans="10918~10923" text="SMAD4" location="result" />
+<GENE id="G92" spans="11634~11637" text="p53" location="background" />
+<GENE id="G93" spans="11694~11697" text="p53" location="background" />
+<GENE id="G94" spans="11849~11852" text="p53" location="background" />
+<GENE id="G95" spans="11864~11871" text="PRIMA-1" location="background" />
+<GENE id="G96" spans="11962~11965" text="p53" location="background" />
+<GENE id="G97" spans="11989~11992" text="p53" location="background" />
+<GENE id="G98" spans="12195~12198" text="p53" location="background" />
+<GENE id="G99" spans="12371~12374" text="p53" location="background" />
+<GENE id="G100" spans="12385~12390" text="HSPG2" location="background" />
+<GENE id="G101" spans="12712~12716" text="PTEN" location="background" />
+<GENE id="G102" spans="12878~12882" text="WWP1" location="background" />
+<GENE id="G103" spans="12897~12901" text="PTEN" location="background" />
+<GENE id="G104" spans="13084~13089" text="SMAD4" location="result" />
+<GENE id="G105" spans="13174~13179" text="SMAD4" location="result" />
+<GENE id="G106" spans="13485~13489" text="EZH2" location="background" />
+<GENE id="G107" spans="13540~13544" text="MLL1" location="background" />
+<GENE id="G108" spans="13785~13790" text="SMAD4" location="result" />
+<GENE id="G109" spans="13960~13965" text="SMAD4" location="result" />
+<GENE id="G110" spans="14009~14014" text="SMAD4" location="result" />
+<GENE id="G111" spans="14029~14034" text="SMAD4" location="result" />
+<GENE id="G112" spans="14089~14093" text="EGFR" location="result" />
+<GENE id="G113" spans="14100~14105" text="NF-kB" location="result" />
+<GENE id="G114" spans="14111~14116" text="SMAD4" location="result" />
+<GENE id="G115" spans="14176~14180" text="PTEN" location="result" />
+<GENE id="G116" spans="14182~14186" text="TP53" location="result" />
+<GENE id="G117" spans="14192~14196" text="KRAS" location="result" />
+<GENE id="G118" spans="14331~14336" text="PD-L1" location="result" />
+<GENE id="G119" spans="14347~14352" text="SMAD4" location="result" />
+<GENE id="G120" spans="14554~14559" text="SMAD4" location="result" />
+<GENE id="G121" spans="14678~14683" text="SMAD4" location="result" />
+<GENE id="G122" spans="15164~15169" text="SMAD4" location="result" />
+<GENE id="G123" spans="15214~15219" text="SMAD4" location="result" />
+<GENE id="G124" spans="15262~15267" text="SMAD4" location="result" />
+<GENE id="G125" spans="15304~15307" text="AKT" location="background" />
+<GENE id="G126" spans="15309~15319" text="E-cadherin" location="background" />
+<GENE id="G127" spans="15325~15333" text="Vimentin" location="background" />
+<GENE id="G128" spans="15726~15731" text="SMAD4" location="result" />
+<GENE id="G129" spans="15764~15769" text="NF-κB" location="result" />
+<GENE id="G130" spans="15790~15796" text="TRIM33" location="result" />
+<GENE id="G131" spans="16098~16103" text="SMAD4" location="result" />
+<GENE id="G132" spans="16405~16410" text="SMAD4" location="result" />
+<GENE id="G133" spans="16570~16575" text="SMAD4" location="result" />
+<GENE id="G134" spans="16847~16852" text="SMAD4" location="result" />
+<GENE id="G135" spans="16927~16932" text="SMAD4" location="result" />
+<GENE id="G136" spans="16967~16972" text="SMAD4" location="result" />
+<GENE id="G137" spans="17035~17040" text="SMAD4" location="result" />
+<GENE id="G138" spans="17220~17225" text="SMAD4" location="result" />
+<GENE id="G139" spans="17316~17321" text="SMAD4" location="result" />
+<GENE id="G140" spans="17327~17333" text="TRIM33" location="result" />
+<GENE id="G141" spans="17536~17541" text="NF-κB" location="result" />
+<GENE id="G142" spans="17554~17559" text="SMAD4" location="result" />
+<GENE id="G143" spans="17593~17597" text="PDAC" location="result" />
+<GENE id="G144" spans="17641~17646" text="SMAD4" location="result" />
+<GENE id="G145" spans="17695~17700" text="NF-κB" location="result" />
+<GENE id="G146" spans="17782~17786" text="RRM2" location="result" />
+<GENE id="G147" spans="17790~17795" text="SMAD4" location="result" />
+<GENE id="G149" spans="17938~17943" text="SMAD4" location="result" />
+<GENE id="G150" spans="8308~8313" text="SMAD4" location="result" />
+<GENE id="G151" spans="11363~11367" text="BRAF" location="background" />
+<GENE id="G152" spans="11371~11375" text="EGFR" location="background" />
+<GENE id="G153" spans="15850~15854" text="RRM2" location="background" />
+<DISEASE id="D0" spans="229~233" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="391~395" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="560~564" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="766~783" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="883~900" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1102~1109,1138~1144" text="ovarian ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1111~1121,1138~1144" text="esophageal ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1127~1144" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1390~1394" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1500~1517" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1813~1817" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="3240~3244" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3343~3360" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3518~3538" text="pancreatic carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3613~3625" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3649~3673" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3774~3791" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4704~4708" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="5167~5171" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="5265~5277" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="5723~5727" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="5964~5968" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="6093~6097" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="8260~8264" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="8587~8591" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="8767~8771" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="8947~8951" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="9056~9060" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="9356~9360" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="9444~9448" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="9520~9524" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="9766~9770" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="9875~9879" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="10153~10157" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="10780~10784" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="11060~11066" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D38" spans="11162~11179" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="11244~11248" text="PDAC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D40" spans="11259~11263" text="KRAS" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="11265~11269" text="TP53" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="11271~11277" text="CDKN2A" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="11285~11290" text="SMAD4" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D46" spans="11468~11472" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D47" spans="11590~11594" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D48" spans="11658~11675" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D49" spans="12140~12157" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D50" spans="12229~12235" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D51" spans="12534~12540" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D52" spans="13014~13018" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D53" spans="13262~13266" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D54" spans="13401~13407" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D55" spans="13744~13748" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D56" spans="14046~14050" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D57" spans="15179~15183" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D58" spans="15360~15364" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D59" spans="15891~15895" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D60" spans="16256~16262" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D61" spans="16638~16642" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D62" spans="16806~16810" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D63" spans="16892~16909" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D64" spans="17134~17138" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D65" spans="17921~17925" text="PDAC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="3216~3236" text="loss or inactivation" location="background" relation="decreased expression" />
+<RELATION id="R1" spans="3450~3469" text="short survival rate" location="background" relation="negative prognostic marker" />
+<RELATION id="R2" spans="3425~3439" text="poor prognosis" location="background" relation="negative prognostic marker" />
+<RELATION id="R3" spans="3495~3510" text="radioresistance" location="background" relation="therapy resistance" />
+<RELATION id="R4" spans="3575~3590" text="drug resistance" location="background" relation="therapy resistance" />
+<RELATION id="R6" spans="15184~15199" text="chemoresistance" location="result" relation="therapy resistance" />
+<RELATION id="R7" spans="5221~5247" text="inhibited tumor metastasis" location="background" relation="modulator decrease disease" />
+<RELATION id="R8" spans="3391~3395" text="loss" location="background" relation="decreased expression" />
+<RELATION id="R9" spans="3267~3303" text="homozygous deletion and inactivation" location="background" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="SMAD4" diseaseID="D11" diseaseText="PDAC" relationID="R0" relationText="loss or inactivation" />
+<ENTITY_LINKING id="E1" geneID="G13" geneText="SMAD4" diseaseID="D12" diseaseText="pancreatic cancer" relationID="R9" relationText="homozygous deletion and inactivation" />
+<ENTITY_LINKING id="E2" geneID="G14" geneText="SMAD4" diseaseID="D14" diseaseText="pancreatic carcinoma" relationID="R8" relationText="loss" />
+<ENTITY_LINKING id="E3" geneID="G14" geneText="SMAD4" diseaseID="D14" diseaseText="pancreatic carcinoma" relationID="R2" relationText="poor prognosis" />
+<ENTITY_LINKING id="E4" geneID="G14" geneText="SMAD4" diseaseID="D14" diseaseText="pancreatic carcinoma" relationID="R1" relationText="short survival rate" />
+<ENTITY_LINKING id="E5" geneID="G14" geneText="SMAD4" diseaseID="D14" diseaseText="pancreatic carcinoma" relationID="R3" relationText="radioresistance" />
+<ENTITY_LINKING id="E6" geneID="G15" geneText="SMAD4" diseaseID="D16" diseaseText="hepatocellular carcinoma" relationID="R4" relationText="drug resistance" />
+<ENTITY_LINKING id="E7" geneID="G15" geneText="SMAD4" diseaseID="D15" diseaseText="colon cancer" relationID="R4" relationText="drug resistance" />
+<ENTITY_LINKING id="E8" geneID="G26" geneText="SMAD4" diseaseID="D20" diseaseText="colon cancer" relationID="R7" relationText="inhibited tumor metastasis" />
+<ENTITY_LINKING id="E9" geneID="G122" geneText="SMAD4" diseaseID="D57" diseaseText="PDAC" relationID="R6" relationText="chemoresistance" />
+</TAGS>
+</Genomics_ConceptTask>

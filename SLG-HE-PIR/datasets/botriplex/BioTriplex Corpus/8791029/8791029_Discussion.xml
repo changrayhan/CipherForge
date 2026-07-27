@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Motor neurons express PGRN at very high levels ( Ryan et al., 2009 ) and are distinguished by the size of their cell bodies and the length of their axons. Based on results for NSC-34, PGRN may contribute to maintaining their morphology, as high PGRN expression clearly led to cell body enlargement and promoted axon extension, whereas PGRN depleted cells were unable to enlarge, and extensions were often unusually branched and poorly condensed. This, together with the previously reported dependency of NSC-34 cells upon PGRN for survival in the absence of trophic support from serum ( Ryan et al., 2009 ), implies a marked trophic effect for PGRN on NSC-34 cells.
+The morphological response to PGRN expression correlated well with molecular phenotypes that included mRNA pathways associated with the regulation of the cytoskeleton. This was further supported by changes in cell adhesion pathways in the proteome of NSC-34/hPGRN and NSC-34/shPGRN cells. PGRN depletion also impacted pathways associated with synaptic structure and function with presynaptic pathways particularly sensitive to PGRN depletion. These observations in NSC-34 cells are consistent with  in vivo  observations, where PGRN exerts complex roles in maintaining synaptic structure and connections ( Tapia et al., 2011 ;  Petkau et al., 2012 ;  Petoukhov et al., 2013 ;  Uesaka et al., 2018 ). Importantly, synaptic defects precede the onset of overt neuropathology in  Grn  knockout mice ( Petkau et al., 2012 ), but it is unclear how PGRN influences synaptic structure. Synaptic pruning by microglia ( Lui et al., 2016 ), and sortilin-mediated PGRN synaptic strengthening between climbing fibers and Purkinje cells during development ( Uesaka et al., 2018 ), have been reported. The results from NSC-34 cells suggest that additional cell-autonomous mechanisms may also be involved.
+Progranulin depletion in NSC-34 cells altered the expression of genes involved in lipid metabolism, although there was no global change in the levels of the quantitatively dominant lipid classes such as di- and triacyl glycerides and phosphatidylserines. Alterations in these lipid classes have, however, been observed in  Grn–/–  and  Grn +/− mouse brains, probably as the result of lysosomal abnormalities ( Evers et al., 2017 ). In contrast, lipids in the less abundant cholesterol ester, ceramide and phosphatidic acid families were elevated in PGRN-depleted NSC-34 cells. Increased ceramide expression is possibly due, in part, to increased CER2 (ceramide synthase 2) expression. There is increasing evidence, however, that PGRN intervenes at several key points in ceramide and sphingolipid metabolism. It modulates the activity of at least two enzymes involved in sphingolipid metabolism, glucocerebrosidase (GBA) ( Jian et al., 2016a , b ;  Arrant et al., 2019 ;  Valdez et al., 2020 ), and hexosaminidase A ( Chen Y. et al., 2018 ). In addition, it binds to prosaposin, and regulates its trafficking and processing to saponins ( Zhou et al., 2017 ;  Valdez et al., 2020 ) which are non-enzymatic lysosomal proteins that promote sphingolipid catabolism. Ceramides play important roles in neurodegeneration ( Cutler et al., 2004 ), and it will be important to determine to what extent they may contribute to the survival and morphological defects of NSC-34/shPGRN cells.
+Although PGRN exercises a strong cell autonomous trophic action in NSC-34 cells, it remains unclear how this is exerted. Since extracellular PGRN replicated these actions, binding to membrane proteins is probably required, and we chose, therefore, to further investigate the properties of PGRN binding to NSC-34 cell membrane proteins. Several putative PGRN receptors and binding proteins have been proposed. Among them are heparan sulfate proteoglycans ( Gonzalez et al., 2003 ;  Yip et al., 2014 ), EphA2 ( Neill et al., 2016 ), Tumor necrosis factor receptor 2 ( Tang et al., 2011 ), Toll-like receptor-9 ( Park et al., 2011 ), notch receptors ( Altmann et al., 2016 ), components of lysosomal trafficking such as sortilin ( Hu et al., 2010 ) and prosaposin ( Zhou et al., 2015 ), and lysosomal enzymes involved in lipid and protein metabolism ( Paushter et al., 2018 ). Reconciling these diverse binding proteins into an integrated model of PGRN action is challenging, particularly since PGRN may interact with more than one membrane protein at the same time. We employed LRC, a membrane interactomic strategy to obtain an unbiased survey of membrane-bound PGRN binding proteins in live NSC-34 cells, and thereby probe the nature and range of PGRN binding to membrane proteins. PGRN captured multiple membrane proteins ( Figure 6  and  Supplementary Table 3 ), of which several (12 of 33) have equal or stronger enrichment for PGRN binding than the classic receptor ligand insulin had for its receptor, although with lower  p  values. GNPTA (N-acetylglucosamine-1-phosphotransferase subunits alpha/beta), for example, has a log2 fold enrichment of 8.31 (or 317 in natural numbers), compared to a log2 fold enrichment of 2.23 for the insulin receptor. The lower  p  values in the PGRN versus the insulin arm are probably due to the capture of fewer unique peptides per protein than for the insulin receptor. Although some captured proteins may be false positives, the strong enrichment of PGRN binding to its putative partners, often greater than that of insulin for its receptor, together with the identification of established PGRN proteins such as sortilin, and the limited number of proteins in the PGRN capture set (33) versus the set of all glycoproteins identified (1746), suggests that the observed multiplicity of binding is an authentic reflection of how PGRN interacts with NSC-34 cells. The multiplicity of binding partners in the same cell type is consistent with reports, noted above, of multiple putative PGRN binding proteins, and suggests that PGRN may act on complexes or networks of binding proteins, rather than single dedicated receptors, as has, indeed been found for its interaction with lysosomal proteins ( Paushter et al., 2018 ;  Cui et al., 2019 ).
+Most predicted PGRN membrane-protein partners in NSC-34 cells were located either within the plasma membrane (19/33 proteins) or the ER/Golgi/lysosome compartments (12 proteins). The enrichment of GO terms for lysosomal transport in predicted protein interaction networks supports the role of PGRN in lysosomal functions. Interestingly, however, neither the transcriptomic nor proteomic analyses detected a consistent effect of PGRN depletion on lysosomal biogenesis, even though this was strongly upregulated in PGRN knockout models ( Tanaka et al., 2017 ). Other  in vitro  cellular systems where PGRN was depleted rather than deleted similarly displayed little transcriptional evidence for a lysosomal phenotype ( Rosen et al., 2011 ). Additional stimuli may, therefore, be required to trigger changes in lysosome mRNA and protein expression in such cells. PGRN is a modular protein, composed of seven and a half granulin subunits, and is digested in lysosomes down to its constituent modules, which are released as granulin peptides ( Salazar et al., 2015 ;  Holler et al., 2017 ). This is unlikely to be a factor in the LRC experiments, however, which were conducted at 4°C, conditions that make lysosomal uptake and proteolysis unlikely. It will be interesting in future experiments to compare how the membrane interactomes of the different lysosomal granulin peptides compare to that of intact PGRN. Importantly, the lack of a strong lysosome signal in the mRNA and proteomic data suggests that PGRN exerts some biological effects independently of lysosomal protein biogenesis.
+The highest scoring PGRN-binding plasma membrane protein was the tetraspanin, TSPAN4, with another tetraspanin, TSPAN31, also captured. Tetraspanins are scaffold proteins that potentiate integrin and RTK signaling by assembling molecular microdomains within the plasma membrane ( Termini and Gillette, 2017 ), although little is known about their role in neurons. RET, the RTK signaling subunit of neurotrophic GDNF receptor, was also identified among the putative cell membrane PGRN-binding proteins, although its PGRN-binding signal (2.37-fold) was less prominent than the binding of the classic RTK ligand insulin to its receptor. PGRN expressing cells displayed enhanced RET tyrosine phosphorylation in RTK antibody arrays and Western blot assays, however, this was, at least in part, due to increased RET expression. The relative significance of PGRN interaction with RET versus the change in RET expression levels remain to be determined. Interestingly, GFRA2, an accessory subunit of the GDNF receptor that presents GDNF to RET, was recently identified as an important genetic risk factor for FTD-GRN ( Pottier et al., 2018 ), supporting an interaction between RET and PGRN signaling. In addition to RET, NSC-34/hPGRN cells displayed enhanced phosphorylation of several other RTKs, and a similar pattern of multi-RTK activation, although for a different set of receptors, was seen in the epithelial MDA cell line. Thus, rather than target a specific receptor, high PGRN expression appears to raise the “tone” of RTK activity, that is, to mediate a general enhancement of RTK activation. The mechanisms by which PGRN achieves this remain to be defined.
+Unlike RET expression, which was decreased in PGRN depleted NSC-34 cells, many other neurotrophic receptors were upregulated, including RTKs, notably the nerve growth factor receptor, and molecules in the Wnt pathway, especially FZD3, a wnt receptor family member, as well as in the notch, and semaphorin signaling pathways. The upregulation of multiple neurotrophic receptors in NSC-34/shPGRN cells may be a compensatory mechanism to maintain neurotrophic homeostasis in response to the reduced trophic support that would otherwise be supplied by PGRN as has been suggested previously for the wnt-signaling pathway ( Rosen et al., 2011 ;  Alquezar et al., 2014 ;  de la Encarnacion et al., 2016 ). In support of this hypothesis, FZD3, is required for axon development in dorsal motor neurons ( Hua et al., 2013 ). Compensatory activation of alternate receptor-based neurotrophic pathways may contribute to the surprising lack of a strong FTD-like phenotype in heterozygous  Grn +/− mice ( Filiano et al., 2013 ).
+In conclusion, the response to PGRN expression in NSC-34 cells is complex. PGRN expression elicited cell-autonomous neurotrophic effects on cell size and axon-like extension, and supported the expression of genes for cytoskeletal regulation, and synaptic formation. This appears to be independent of pathways of lysosome biogenesis even though PGRN bound to membrane proteins in the ER/Golgi/lysosome compartments. PGRN was predicted to bind multiple cell surface proteins. The activity of RTK receptors, including RET, was increased in PGRN-rich NSC-34 cells. In conditions of PGRN insufficiency, however, the reduction in PGRN may be partially offset by enhanced expression of other neurotrophic receptors. The multiplicity of PGRN interactions with membrane proteins make it unlikely that its neurotrophic actions are mediated through a simple linear receptor signaling pathway. It may instead act through interaction with networks or complexes of membrane protein interactions. Understanding the roles of these pathways in PGRN action, and how they interrelate, and their relevance to the pathology of PGRN insufficiency will provide insights toward improved neurosupportive therapies in neurodegenerative diseases.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="23~27" text="PGRN" location="background" />
+<GENE id="G1" spans="185~189" text="PGRN" location="background" />
+<GENE id="G2" spans="246~250" text="PGRN" location="background" />
+<GENE id="G3" spans="336~340" text="PGRN" location="background" />
+<GENE id="G4" spans="523~527" text="PGRN" location="background" />
+<GENE id="G5" spans="645~649" text="PGRN" location="background" />
+<GENE id="G6" spans="697~701" text="PGRN" location="background" />
+<GENE id="G7" spans="926~930" text="PGRN" location="background" />
+<GENE id="G8" spans="944~948" text="PGRN" location="background" />
+<GENE id="G9" spans="956~960" text="PGRN" location="background" />
+<GENE id="G10" spans="1094~1098" text="PGRN" location="background" />
+<GENE id="G11" spans="1195~1199" text="PGRN" location="background" />
+<GENE id="G12" spans="1443~1446" text="Grn" location="background" />
+<GENE id="G13" spans="1509~1513" text="PGRN" location="background" />
+<GENE id="G14" spans="1619~1623" text="PGRN" location="background" />
+<GENE id="G15" spans="1857~1868" text="Progranulin" location="background" />
+<GENE id="G16" spans="2180~2183" text="Grn" location="background" />
+<GENE id="G17" spans="2193~2196" text="Grn" location="background" />
+<GENE id="G18" spans="2406~2410" text="PGRN" location="background" />
+<GENE id="G19" spans="2503~2507" text="CER2" location="background" />
+<GENE id="G20" spans="2509~2528" text="ceramide synthase 2" location="background" />
+<GENE id="G21" spans="2586~2590" text="PGRN" location="background" />
+<GENE id="G22" spans="2752~2770" text="glucocerebrosidase" location="background" />
+<GENE id="G23" spans="2772~2775" text="GBA" location="background" />
+<GENE id="G24" spans="2923~2933" text="prosaposin" location="background" />
+<GENE id="G25" spans="3322~3326" text="PGRN" location="background" />
+<GENE id="G26" spans="3343~3347" text="PGRN" location="background" />
+<GENE id="G27" spans="3475~3479" text="PGRN" location="result" />
+<GENE id="G28" spans="3623~3627" text="PGRN" location="result" />
+<GENE id="G29" spans="3687~3691" text="PGRN" location="background" />
+<GENE id="G30" spans="3835~3840" text="EphA2" location="background" />
+<GENE id="G31" spans="3865~3897" text="Tumor necrosis factor receptor 2" location="background" />
+<GENE id="G32" spans="3921~3941" text="Toll-like receptor-9" location="background" />
+<GENE id="G33" spans="4051~4059" text="sortilin" location="background" />
+<GENE id="G34" spans="4084~4094" text="prosaposin" location="background" />
+<GENE id="G35" spans="4279~4283" text="PGRN" location="result" />
+<GENE id="G36" spans="4326~4330" text="PGRN" location="result" />
+<GENE id="G37" spans="4495~4499" text="PGRN" location="result" />
+<GENE id="G38" spans="4581~4585" text="PGRN" location="result" />
+<GENE id="G39" spans="4616~4620" text="PGRN" location="result" />
+<GENE id="G40" spans="4765~4769" text="PGRN" location="result" />
+<GENE id="G41" spans="4873~4878" text="GNPTA" location="result" />
+<GENE id="G42" spans="4880~4940" text="N-acetylglucosamine-1-phosphotransferase subunits alpha/beta" location="result" />
+<GENE id="G43" spans="5117~5121" text="PGRN" location="result" />
+<GENE id="G44" spans="5071~5087" text="insulin receptor" location="result" />
+<GENE id="G45" spans="5326~5330" text="PGRN" location="result" />
+<GENE id="G46" spans="5466~5470" text="PGRN" location="result" />
+<GENE id="G47" spans="5488~5496" text="sortilin" location="result" />
+<GENE id="G48" spans="5540~5544" text="PGRN" location="result" />
+<GENE id="G49" spans="5702~5706" text="PGRN" location="result" />
+<GENE id="G50" spans="5857~5861" text="PGRN" location="background" />
+<GENE id="G51" spans="5898~5902" text="PGRN" location="background" />
+<GENE id="G52" spans="6129~6133" text="PGRN" location="result" />
+<GENE id="G53" spans="6407~6411" text="PGRN" location="result" />
+<GENE id="G54" spans="6542~6546" text="PGRN" location="result" />
+<GENE id="G55" spans="6627~6631" text="PGRN" location="background" />
+<GENE id="G56" spans="6713~6717" text="PGRN" location="background" />
+<GENE id="G57" spans="6974~6978" text="PGRN" location="background" />
+<GENE id="G58" spans="7515~7519" text="PGRN" location="result" />
+<GENE id="G59" spans="7616~7620" text="PGRN" location="result" />
+<GENE id="G60" spans="7719~7723" text="PGRN" location="result" />
+<GENE id="G61" spans="7777~7783" text="TSPAN4" location="result" />
+<GENE id="G62" spans="7811~7818" text="TSPAN31" location="result" />
+<GENE id="G63" spans="8063~8066" text="RET" location="result" />
+<GENE id="G64" spans="8110~8114" text="GDNF" location="result" />
+<GENE id="G65" spans="8178~8182" text="PGRN" location="result" />
+<GENE id="G66" spans="8214~8218" text="PGRN" location="result" />
+<GENE id="G67" spans="8333~8337" text="PGRN" location="result" />
+<GENE id="G68" spans="8550~8554" text="PGRN" location="result" />
+<GENE id="G69" spans="8659~8664" text="GFRA2" location="background" />
+<GENE id="G70" spans="8597~8600" text="RET" location="background" />
+<GENE id="G71" spans="8572~8575" text="RET" location="background" />
+<GENE id="G72" spans="8694~8698" text="GDNF" location="background" />
+<GENE id="G73" spans="8722~8726" text="GDNF" location="background" />
+<GENE id="G74" spans="8730~8733" text="RET" location="background" />
+<GENE id="G75" spans="8867~8870" text="RET" location="result" />
+<GENE id="G76" spans="8875~8879" text="PGRN" location="result" />
+<GENE id="G77" spans="9171~9175" text="PGRN" location="result" />
+<GENE id="G78" spans="9317~9321" text="PGRN" location="result" />
+<GENE id="G79" spans="9365~9368" text="RET" location="result" />
+<GENE id="G80" spans="9404~9408" text="PGRN" location="result" />
+<GENE id="G81" spans="9587~9591" text="FZD3" location="result" />
+<GENE id="G82" spans="9747~9751" text="PGRN" location="result" />
+<GENE id="G83" spans="9906~9910" text="PGRN" location="background" />
+<GENE id="G84" spans="10088~10092" text="FZD3" location="background" />
+<GENE id="G85" spans="10333~10336" text="Grn" location="background" />
+<GENE id="G86" spans="10403~10407" text="PGRN" location="result" />
+<GENE id="G87" spans="10447~10451" text="PGRN" location="result" />
+<GENE id="G88" spans="10716~10720" text="PGRN" location="result" />
+<GENE id="G89" spans="10787~10791" text="PGRN" location="result" />
+<GENE id="G90" spans="10887~10890" text="RET" location="result" />
+<GENE id="G91" spans="10908~10913" text=" PGRN" location="result" />
+<GENE id="G92" spans="10950~10954" text="PGRN" location="result" />
+<GENE id="G93" spans="10996~11000" text="PGRN" location="result" />
+<GENE id="G94" spans="11101~11105" text="PGRN" location="result" />
+<GENE id="G95" spans="11399~11403" text="PGRN" location="result" />
+<GENE id="G96" spans="11478~11482" text="PGRN" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

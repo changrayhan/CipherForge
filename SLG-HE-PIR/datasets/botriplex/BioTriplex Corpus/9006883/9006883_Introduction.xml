@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Hepatocellular carcinoma (HCC) is the sixth most common cancer and the fourth cause of cancer-related mortality worldwide ( 1 ). The currently FDA-approved available therapies include the multikinase inhibitors sorafenib ( 2 ), regorafenib ( 3 ), lenvatinib ( 4 ), and cabozantinib ( 5 ); the VEGFR2 antagonist ramucirumab ( 6 ), the immune checkpoint inhibitors pembrolizumab ( 7 ) and nivolumab ( 8 ) [alone or in combination with ipilimumab ( 9 )], and the combination of atezolizumab and bevacizumab ( 10 ). Unfortunately, the survival benefits conferred by these treatments are typically limited to a few months. One grand challenge for identifying personalized and effective treatment options in HCC is the limited number of druggable mutations found in an average HCC patient ( 1 ). A compelling and underexplored strategy to identify novel drug targets and implement precision medicine for HCC patient is the discovery of aberrant protein targets not readily detected by genomic analyses that could serve as effective and selective drug targets.
+Recent advancements in mass spectrometry (MS) technology have enabled the rapid expansion of global proteomic datasets that quantify almost the entirety of expressed proteins in primary tumor cohorts ( 11 – 18 ). The resulting proteomes of primary tumor cohorts provide ample opportunities for investigating protein-level aberrations that may be of clinical utility as prognostic biomarkers or therapeutic targets, including PAK1/PTK2/RIPK2 in breast cancer ( 19 ) and Rb phosphoprotein in colorectal cancer ( 13 ). However, protein aberrations have historically remained less characterized than genomic aberrations and systematic analyses to identify such targets are urgently needed ( 20 – 23 ). Further, upon the computational prioritization of protein targets, validation of their therapeutic viability requires a wide array of functional models representing inter-tumor heterogeneity observed across human tumors ( 24 ).
+Herein, we identify and validate protein expression-driven therapeutic targets in HCC by utilizing recently generated global MS proteomic data from two human cohorts. Multiple kinases and other proteins showed up-regulated tumor expression and/or overexpression in primary tumors, and many of these targets show little evidence of DNA or RNA level alterations. Several targets including FGFR4 kinase and Hsp proteins further showed expression-driven dependency where the HCC cell lines with high protein expression were vulnerable to their respective targeting inhibitors. Overall, these results suggest that proteomic-based approaches could identify precision targets in HCC and cancer cases lacking actionable mutations.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="294~300" text="VEGFR2" location="background" />
+<GENE id="G1" spans="1480~1484" text="PAK1" location="background" />
+<GENE id="G2" spans="1485~1489" text="PTK2" location="background" />
+<GENE id="G3" spans="1490~1495" text="RIPK2" location="background" />
+<GENE id="G4" spans="2368~2373" text="FGFR4" location="result" />
+<DISEASE id="D0" spans="1~25" text="Hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="27~30" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="57~63" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="88~94" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="703~706" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="772~775" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="899~902" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1499~1512" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1545~1562" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2063~2066" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2452~2455" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2653~2656" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2661~2667" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

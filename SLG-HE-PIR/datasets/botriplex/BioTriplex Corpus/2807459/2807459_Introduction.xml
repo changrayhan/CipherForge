@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Lung cancer is the most common cause of cancer and cancer related mortality worldwide [1] . Tumor-progression is characterized by the invasion of tumor cells into the surrounding tissue. Their ability to form metastases in distant organs is a poor prognostic factor indicating disease dissemination [2] . The vast majority of primary lung tumors are carcinomas, derived from epithelial cells. Although their genetic and phenotypic properties are still not well defined [3] – [5] , various cell adhesion molecules (CAMs) appear to play a critical role in the processes of invasion and metastasis [6] ,  [7] . Normally CAMs tightly orchestrate tissue structure by their ability to mediate cell-cell interaction and contact inhibition. Contact inhibition describes the process of arresting proliferation when cells come into contact with each other. Thus, the cells remain in a confluent layer with no piling up or dissociation of cells from the monolayer. In the case of malignant transformation, alterations of CAM expression and function occur. Members of the carcinoembryonic antigen (CEA) related cell adhesion molecule (CEACAM) family are known to be deregulated in various tumors, and represent one example of such proteins. CEACAMs are expressed in normal epithelia, angiogenically activated endothelia, and haematopoetic cells, and mediate homotypic and heterotypic cell-cell interactions [8] – [10] . The functions mediated by CEACAMs differ widely depending on the growth stage and activation status of the cell. A number of CEACAM family members have been found to be involved in the processes of cancerous growth and invasion defining them as either tumor suppressors or as poor prognostic markers for the progression of malignancies [10] – [13] . CEACAMs belong to the immunoglobulin (Ig) superfamily and thus appear as highly glycosylated proteins with the typical N-terminal variable Ig-like domain followed by 0 to 6 constant Ig-like domains, and either a hydrophobic transmembrane domain with a cytoplasmic tail (CEACAM1-CEACAM4), or a glycosylphosphatidylinositol (GPI) lipid moiety (CEACAM5-CEACAM8) [14] – [16] . In epithelia, four distinct CEACAMs have been demonstrated, namely CEACAM1, CEACAM5, CEACAM6 and CEACAM7 [15] . Furthermore, CEACAM1 occurs in four major splice variants with either three or four Ig domains and either a short (S) or a long (L) cytoplasmic domain consisting of 12 aa or 73 aa residues, respectively, giving the following variants: CEACAM1-3S, CEACAM1-4S, CEACAM1-3L and CEACAM1-4L [15] ,  [17] . The cytoplasmic domain of CEACAM1-3/4L possesses an immunoreceptor tyrosine-based inhibition motif (ITIM) which contains two tyrosine residues that can recruit and activate SH2 domain-containing tyrosine kinases and tyrosine phosphatases [18] ,  [19] . The interactions of CEACAM1-L with these enzymes play an important role for regulating signaling cascades and cellar functions  [18] ,  [20] . Although CEACAM1-S lacks tyrosine residues in its cytoplasmic domain, it also mediates cell-cell interactions [9] ,  [21] .
+Different members of the CEACAM family or the different isoforms of CEACAM1 can have different activities [8] ,  [14] . However, little is known about the differential expression patterns of CEACAMs and their role for cell-cell interactions in pulmonary epithelial cells. Interestingly, Laack et al. identified CEACAM1 expression as a novel prognostic marker in adenocarcinomas of the lung. In this study patients with adenocarcinomas expressing CEACAM1 had a significantly worse overall and disease-free survival in comparison with those who had a CEACAM1-negative tumor [22] . In addition, Sienel et al. reported that elevated CEACAM-1 expression in primary non small cell lung cancer (NSCLC) correlates with lung cancer progression [13] . The human lung adenocarcinoma cell line A549 represents a well established model for pulmonary epithelial cells [20] ,  [23] – [25] . Although these cells are known to expresses CEACAM1 [20] ,  [26] ,  [27] , the exact expression pattern and function of CEACAMs in this cell line are not yet defined. Like other carcinoma cell lines, A549 cells are a non-homogenous cell population with several subpopulations, each with various characteristics [3] ,  [28] ,  [29] . Interestingly, Croce et al. reported specific findings about morphological and functional heterogeneity in four different A549 subpopulations [3] . They demonstrated that three A549 subpopulations, which represented the non-tumorigenic (NT) A549 cells with retained characteristics of more differentiated adenocarcinomas, formed well spread monolayers, exhibited decent contact inhibition, and were not tumorigenic in a nude mice system. In contrast, cells of a fourth, more undifferentiated subpopulation, also demonstrated normal cobblestone-like epithelial growth during proliferation to a confluent monolayer, however, some cells overcame contact inhibition and exhibited anchorage independent growth on top of the A549 monolayer. Importantly, cells of this population were demonstrated to be tumorigenic in nude mice and thus were named tumorigenic (T) A549 cells [3] .
+These observations prompted us to investigate the relationships of the expression pattern and function of different CEACAMs with proliferation and contact mediated growth inhibition in A549 cells. In addition, the role of the CEACAM1-L and -S splice variants and the cytoplasmic ITIM domain in cellular morphology and growth behavior were studied. Our results suggest that the expression pattern and the interplay of CEACAM1 with different CEACAMs are of central importance for the regulation of proliferation and contact inhibition. Thus, CEACAM mediated functions appear to be important regulators of the invasive and metastatic behavior of tumor cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2029~2036" text="CEACAM1" location="background" />
+<GENE id="G1" spans="2037~2044" text="CEACAM4" location="background" />
+<GENE id="G2" spans="2101~2108" text="CEACAM5" location="background" />
+<GENE id="G3" spans="2109~2116" text="CEACAM8" location="background" />
+<GENE id="G4" spans="2199~2206" text="CEACAM1" location="background" />
+<GENE id="G5" spans="2208~2215" text="CEACAM5" location="background" />
+<GENE id="G6" spans="2217~2224" text="CEACAM6" location="background" />
+<GENE id="G7" spans="2229~2236" text="CEACAM7" location="background" />
+<GENE id="G8" spans="2257~2264" text="CEACAM1" location="background" />
+<GENE id="G9" spans="2479~2486" text="CEACAM1" location="background" />
+<GENE id="G10" spans="2491~2498" text="CEACAM1" location="background" />
+<GENE id="G11" spans="2503~2510" text="CEACAM1" location="background" />
+<GENE id="G12" spans="2518~2525" text="CEACAM1" location="background" />
+<GENE id="G13" spans="2570~2577" text="CEACAM1" location="background" />
+<GENE id="G14" spans="2817~2824" text="CEACAM1" location="background" />
+<GENE id="G15" spans="2949~2956" text="CEACAM1" location="background" />
+<GENE id="G16" spans="3132~3139" text="CEACAM1" location="background" />
+<GENE id="G17" spans="3375~3382" text="CEACAM1" location="background" />
+<GENE id="G18" spans="3510~3517" text="CEACAM1" location="background" />
+<GENE id="G19" spans="3613~3620" text="CEACAM1" location="background" />
+<GENE id="G20" spans="3693~3701" text="CEACAM-1" location="background" />
+<GENE id="G21" spans="3984~3991" text="CEACAM1" location="background" />
+<GENE id="G22" spans="5374~5381" text="CEACAM1" location="result" />
+<GENE id="G23" spans="5565~5572" text="CEACAM1" location="result" />
+<DISEASE id="D0" spans="1~12" text="Lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="41~47" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="351~360" text="carcinoma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="3426~3453" text="adenocarcinomas of the lung" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="3483~3497" text="adenocarcinoma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="3724~3750" text="non small cell lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="3752~3757" text="NSCLC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="3775~3786" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="3816~3835" text="lung adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="4118~4127" text="carcinoma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="4578~4592" text="adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="3405~3422" text="prognostic marker" location="background" relation="prognostic indicator" />
+<RELATION id="R1" spans="3499~3509" text="expressing" location="background" relation="increased expression" />
+<RELATION id="R2" spans="3538~3577" text="worse overall and disease-free survival" location="background" relation="negative prognostic marker" />
+<RELATION id="R3" spans="3684~3692,3702~3712" text="elevated ... expression" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G17" geneText="CEACAM1" diseaseID="D3" diseaseText="adenocarcinomas of the lung" relationID="R0" relationText="prognostic marker" />
+<ENTITY_LINKING id="E1" geneID="G18" geneText="CEACAM1" diseaseID="D4" diseaseText="adenocarcinoma" relationID="R1" relationText="expressing" />
+<ENTITY_LINKING id="E2" geneID="G18" geneText="CEACAM1" diseaseID="D4" diseaseText="adenocarcinoma" relationID="R2" relationText="worse overall and disease-free survival" />
+<ENTITY_LINKING id="E3" geneID="G20" geneText="CEACAM-1" diseaseID="D5" diseaseText="non small cell lung cancer" relationID="R3" relationText="elevated ... expression" />
+<ENTITY_LINKING id="E4" geneID="G20" geneText="CEACAM-1" diseaseID="D6" diseaseText="NSCLC" relationID="R3" relationText="elevated ... expression" />
+</TAGS>
+</Genomics_ConceptTask>

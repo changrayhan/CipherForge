@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Otitis Media (OM) is an inflammatory process that affects middle ear and represents the most common infection in the paediatric population. The disease, in acute form—Acute Otitis Media (OMA), makes necessary the use of antibiotics to avoid serious problems [ 1 , 2 ]. 15% of children between 2 and 7 years of age suffer from OM, and the prevalence of the disease decreases by age increase [ 1 , 2 ]. Otitis Media with effusion (OME) represents the chronic form of OM and is an important cause of hearing loss. Bad auditory functions have a negative impact on children’s speech and cognitive development [ 3 ]. There are several risk factors that predispose children to the development of OME, such as absence of breastfeeding, adenoid hypertrophy and adenoiditis, environmental smoke exposure, male gender, genetic predisposition and ethnicity, recurrent upper respiratory tract infection (URI), immunodeficiency, functional immaturity of the Eustachian tube, and gastroesophageal reflux [ 4 ].
+In almost 37% of children with URI, OM can arise as complication of the infection [ 5 ]. In case of bacterial infection, OM can be persistent or relapsing despite adequate antimicrobial therapy.
+Several studies have investigated the potential role of common vitamins (such as vitamin D) and oral supplements (such as echinacea, hyaluronic acid, lactobacillus, and xylitol) to reduce the number of URI and OM [ 6 , 7 ].
+The aim of this prospective case-control study was to evaluate the efficacy of using a nutraceutical containing Boswellia serrata, bromelain, zinc, magnesium, honey, and tyndallized Lactobacillus (acidophulus and casei) to treat upper respiratory inflammation and middle-ear-related problems in the paediatric population.
+The supplement Flogostop ®  Duo contains elements that reduce local inflammation (bromelain, zinc, and magnesium), others that stimulate local and systemic immune answer (honey and tyndallized Lactobacillus), and other molecules that contrast pain, which is very common in OM (Boswellia and bromelain). Because of these characteristics, we hypothesize that this nutraceutical could be used as supporting therapy for the treatment of both URI and OM.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1~13" text="Otitis Media" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="15~17" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="174~186" text="Otitis Media" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="402~414" text="Otitis Media" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="466~468" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="729~748" text="adenoid hypertrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="753~764" text="adenoiditis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="966~989" text="gastroesophageal reflux" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1033~1035" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1118~1120" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2011~2013" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2184~2186" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The single-nucleotide polymorphism (SNP) is the most frequent variation in human genome [ 1 ]. The human PON1 gene, encoded by the chromosome 7p21-22, contains 8 introns and 9 exons [ 2 ,  3 ]. PON1 is a kind of liver-induced sugar protease involved in anti-inflammatory and antioxidative mechanisms [ 4 ]. Cancer is often associated with oxidative stress, an outcome of which is a disruption in the balance between the systemic effects of toxic reactive species and the body's capacity to metabolize the excess free radicals and/or to repair the damage that they generate [ 5 ]. PON1 gene polymorphism has been proved to be related to malignant tumors [ 6 ,  7 ]. Breast cancer is the most frequently diagnosed cancer globally and is the leading cause of cancer-related deaths in women [ 8 ,  9 ]. It was proved that serum PON1 activity decreased in patients with breast cancer [ 10 ]. PON1 SNPs differences may affect the activities of PON1 enzyme and may lead to susceptibility of multiple diseases [ 11 ]. These associations deserve our discussion over the relation of PON1 SNPs and susceptibility to breast diseases. This research aims to explore the association of PON1 rs662 and rs705382 with the risk of breast fibroadenoma (BF) and breast cancer (BC) in females of Guangxi in southern China. In this research, we studied the association between SNPs of PON1 (rs662, rs705382) and genetic susceptibility of BF and BC in females of Guangxi. The results displayed that significant associations with BF and BC risk were observed for the rs662 SNP.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="106~110" text="PON1" location="background" />
+<GENE id="G1" spans="195~199" text="PON1" location="background" />
+<GENE id="G2" spans="581~585" text="PON1" location="background" />
+<GENE id="G3" spans="825~829" text="PON1" location="background" />
+<GENE id="G4" spans="888~892" text="PON1" location="background" />
+<GENE id="G5" spans="939~943" text="PON1" location="background" />
+<GENE id="G6" spans="1074~1078" text="PON1" location="background" />
+<GENE id="G7" spans="1172~1176" text="PON1" location="result" />
+<GENE id="G8" spans="1363~1367" text="PON1" location="result" />
+<DISEASE id="D0" spans="308~314" text="Cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="666~679" text="Breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="713~719" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="757~763" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="866~879" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1213~1232" text="breast fibroadenoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1234~1236" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1242~1255" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1257~1259" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1416~1418" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1423~1425" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1506~1508" text="BF" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1513~1515" text="BC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

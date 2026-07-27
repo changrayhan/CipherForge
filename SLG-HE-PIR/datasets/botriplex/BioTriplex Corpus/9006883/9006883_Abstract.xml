@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Proteomic Analyses Identify Therapeutic Targets in Hepatocellular Carcinoma.
+Abstract: Hepatocellular carcinoma (HCC) is the fourth cause of cancer-related mortality worldwide. While many targeted therapies have been developed, the majority of HCC tumors do not harbor clinically actionable mutations. Protein-level aberrations, especially those not evident at the genomic level, present therapeutic opportunities but have rarely been systematically characterized in HCC. In this study, we performed proteogenomic analyses of 260 primary tumors from two HBV-related HCC patient cohorts with global mass-spectrometry (MS) proteomics data. Combining tumor-normal and inter-tumor analyses, we identified overexpressed targets including PDGFRB, FGFR4, ERBB2/3, CDK6 kinases and MFAP5, HMCN1, and Hsp proteins in HCC, many of which showed low frequencies of genomic and/or transcriptomic aberrations. Protein expression of FGFR4 kinase and Hsp proteins were significantly associated with response to their corresponding inhibitors. Our results provide a catalog of protein targets in HCC and demonstrate the potential of proteomics approaches in advancing precision medicine in cancer types lacking druggable mutations.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="741~747" text="PDGFRB" location="result" />
+<GENE id="G1" spans="749~754" text="FGFR4" location="result" />
+<GENE id="G2" spans="756~761" text="ERBB2" location="result" />
+<GENE id="G3" spans="765~769" text="CDK6" location="result" />
+<GENE id="G4" spans="782~787" text="MFAP5" location="result" />
+<GENE id="G5" spans="789~794" text="HMCN1" location="result" />
+<GENE id="G6" spans="926~931" text="FGFR4" location="result" />
+<DISEASE id="D0" spans="59~83" text="Hepatocellular Carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="95~119" text="Hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="121~124" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="149~155" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="252~255" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="475~478" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="574~577" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="816~819" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1087~1090" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1181~1187" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R0" spans="709~722" text="overexpressed" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="PDGFRB" diseaseID="D7" diseaseText="HCC" relationID="R0" relationText="overexpressed" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="FGFR4" diseaseID="D7" diseaseText="HCC" relationID="R0" relationText="overexpressed" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="ERBB2" diseaseID="D7" diseaseText="HCC" relationID="R0" relationText="overexpressed" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="CDK6" diseaseID="D7" diseaseText="HCC" relationID="R0" relationText="overexpressed" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="MFAP5" diseaseID="D7" diseaseText="HCC" relationID="R0" relationText="overexpressed" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="HMCN1" diseaseID="D7" diseaseText="HCC" relationID="R0" relationText="overexpressed" />
+</TAGS>
+</Genomics_ConceptTask>

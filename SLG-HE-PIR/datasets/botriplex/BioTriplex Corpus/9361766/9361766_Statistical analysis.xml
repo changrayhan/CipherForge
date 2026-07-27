@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+All statistical analysis was conducted by using R version 4.0.5 and GraphPad Prism software. All data represented as the mean ± SEM. Bacterial taxonomic analyses and comparisons were conducted between two groups using Wilcoxon rank sum test. P value was corrected with the Benjamini-Hochberg method; 64  *P < .05, **P < .01, ***P < .001, ****P < .0001 and n.s. indicates not significant (P > .05).
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

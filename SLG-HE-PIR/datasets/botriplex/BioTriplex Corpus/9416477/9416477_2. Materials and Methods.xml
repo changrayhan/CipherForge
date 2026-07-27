@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Case Presentation
+The timing of the clinical presentation of the present case is shown in  Figure 1 A.
+A 17-year-old female was incidentally diagnosed in 2012 with a 2.7 cm left adrenal mass suggestive of adenoma. The patient came to our attention in 2014. The lesion had increased to 3.6 cm in size. Urine tests showed high levels of urinary Metanephrine (MNu: 488 mcg/day, normal value (nv) < 320) and urinary Normetanephrine (NMNu: 65,125 mcg/day, nv < 390), indicating Pheo. No alteration in urinary Methoxytyramine levels (MTXu: nv < 460) and blood count were observed (white blood cells 6.28 × 10 3 /µL normal value (nv) 4.00–11.00, red blood cells 5.09 × 10 6 /µL normal value (nv) 3.8–5.00, hemoglobin 14.5 g/dL nv 12.0–16.0, hematocrit 43.4% nv 35.0–48.8, platelets 287 × 10 3 /µL normal value (nv) 150–450).
+The patient was subjected to left laparoscopic adrenalectomy in June 2014 and the post-operative course was uneventful. Histologic examination revealed Pheo ( Figure 2 A). There was no evidence of capsular or vascular invasion and necrosis. The mitotic count was lower than 3 per 10 high-power fields (HPFs) and atypical figures were not seen. A  Pheochromocytoma of the Adrenal Gland Scaled Score  (PASS) of 3 was assigned and the Ki67 proliferation index was <1%. A para-aortic lymph node was positive for the presence of chromaffin tissue ( Figure 2 B) and metastatic Pheo was diagnosed.
+Post-operative urinary metanephrine levels remained high (MNu 51 mcg/day, NMNu 882 mcg/day, and MTXu 116 mcg/day). Subsequent controls revealed an increase in NMNu up to 1346 mcg/day in October 2015 with a negative CT scan and MRI. The patient underwent  18 F-fluoro-dihydroxy-pheylalanine ( 18 F-DOPA) positron emission tomography (PET) and  68 Ga-DOTATATE ( Figure 3 A) that revealed an increased uptake of para-aortic and retrocrural lymph nodes. The disease remained stable with a progressive increase in urinary NMN levels up to 2391 mcg/day. In June 2020, on account of the tumor burden and increasing levels of urinary NMN, peptide receptor radionuclide therapy (PRRT) with  177 Lu-DOTATATE was initiated after egg preservation. PRRT was interrupted after four cycles due to a rapid increase in platelets (up to 2348 × 10 3 /µL, nv 150–450). In January 2021, 68 Ga-DOTATATE showed a reduced tracer uptake ( Figure 3 B). Further investigations, including bone marrow biopsy and genetic analysis, were carried out. A standard karyotype identified the presence of the Philadelphia chromosome (BCR/Abl), the hallmark of CML, and therapy with Imatinib was prescribed (200 mg bid). The erythropoietin level rose mildly (34.7 mlU/mL, the normal value being 4.3–29). During therapy, red blood cell count and hematocrit and hemoglobin levels remained stable, and the last control resulted 3.70 × 10 6 /μL, 37%, and 12.2 g/dL, respectively. Mean corpuscular volume (MCV), mean cell hemoglobin (MCH), and ferritin were normal (85.3 fl, 28.5 pg and 13 ng/mL, respectively).
+2.2. Genetic Analysis
+Genomic and tumor DNA of the patient were extracted using the QIAsymphony CDN kit (Qiagen, Hilden, Germany). DNA quality and quantity were measured by Qubit ds HS Assay on Qubit 2.0 Fluorimeter (Thermo Fisher Scientific, Waltham, MA, USA).
+According to the guidelines for genetic screening of PPGL, our patient was proposed for NGS targeting. Using the online DesignStudio software (Illumina, San Diego, CA, USA), probes were designed to cover the following genes:  PHD2  ( EGLN1 ),  EPAS1 ,  FH ,  KIF1B β,  MAX ,  NF1 ,  RET ,  SDHA ,  SDHAF2 ,  SDHB ,  SDHC ,  SDHD ,  TMEM127 , and  VHL , including exon–intron boundaries.
+2.3. SNP-CGH Array
+To exclude the presence of pathogenic Copy Number Variants (CNVs) and loss of heterozygosity (LOH) in tumor samples, Illumina Infinium 850k Bead Chip CGH/SNP Microarray was performed according to the manufacturer’s instructions.
+2.4. Whole Exome Sequencing and Bioinformatics Analysis
+We decided to perform whole exome sequencing (WES) on blood and tumor DNA to sequence all coding genes in order to detect other variants in genes not included in our panel.
+To construct DNA libraries, we used a strategy based on enzymatic fragmentation to produce dsDNA fragments followed by end repair, A-tailing, adapter ligation and library amplification (Kapa Biosystems, Wilmington, MA, USA). Libraries were hybridized with the protocol SeqCap EZ Exome v3 (Nimblegen, Roche, Basel, Switzerland) and sequenced by NextSeQ550 platform (Illumina Inc., San Diego, CA, USA).
+2.5. 3 D Variant Prediction
+To reveal the possible structural consequences of the identified variant, a 3D model of the truncated PHD2 protein was generated using the Phyre2 (Protein Homology Fold Recognition Engine) server created by the Structural Bioinformatics Group, Imperial College, London. Phyre2 uses the alignment of hidden Markov models via an HH search—an open-source software program for protein sequence searching—to significantly improve alignment accuracy ( http://www.sbg.bio.ic.ac.uk/~phyre2/html/page.cgi?id=index , accessed on 13 June 2022) [ 36 ]. This was followed by I-TASSER (Iterative Threading ASSEmbly Refinement— https://zhanglab.ccmb.med.umich.edu/I-TASSER/ , accessed on 13 August 2022) [ 37 ] to evaluate function the predictions and possible interactions of truncated PHD2 protein with other proteins and GRAMM v1.03, a program for protein docking to predict the structure of possible complexes ( http://vakser.compbio.ku.edu/resources/gramm/grammx/ , accessed on 13 August 2022) [ 38 , 39 ]. The generated *.pdb files were loaded and visualized with ChemDraw software to envisage a 3D structure (version 8; Cambridge Software; PerkinElmer, Inc., Waltham, MA, USA).
+2.6. PHD2 Immunohistochemistry
+PHD2 expression was assessed by probing formalin-fixed and paraffin-embedded tissue sections with mouse monoclonal antibody anti-PHD2 at 10 µg/mL (Abcam Cat#ab103432, RRID: AB_10710680). This antibody specifically recognizes a synthetic peptide corresponding to amino acids 1–24 of human PHD2 and is therefore capable of recognizing both the  wild-type  ( wt)  protein and the mutant/truncated form. Antigen retrieval was achieved using Epitope Retrieval Solution Citrate buffer (10 mM, pH 6; Dako, Glostrup, Denmark) in a thermostatic bath. Immunohistochemical analysis was performed using EnVision FLEX Systems and 3,3′-diaminobenzidine as the chromogen in a Dako Autostainer Link48 Instrument (Dako). Negative controls were incubated without the primary antibody. The sections were lightly counterstained with Mayer’s hematoxylin and mounted with Permount.
+2.7. Western Blot Analysis
+Dissected tumor tissues or human healthy adrenal samples (100 mg) were chopped in lysis buffer, incubated for 30 min on ice, and centrifuged at 10,000×  g  for 15 min at 4 °C. Proteins were quantified by Coomassie Blue-reagent (Bio-Rad, Hercules, CA, USA) [ 40 ] and 40 μg of proteins was separated by SDS/PAGE then transferred onto PVDF (Immobilon, Millipore, Burlington, MA, USA), as previously described [ 41 ]. Bound antibodies detected by ECL reagents (Immobilon, Millipore, Burlington, MA, USA) were analyzed with a Biorad ChemiDoc Imaging System (Bio-Rad, Quantity-One Software). HIF2α polyclonal antibody was supplied by Novus Biologicals (Bio-Techne, Minneapolis, MN, USA), while anti-GAPDH monoclonal antibody and anti-rabbit and anti-mouse secondary antibodies conjugated to horseradish peroxidase were from Santa Cruz Biotechnology (Santa Cruz, CA, USA).
+2.8. RNA Isolation and Quantitative Real-Time PCR
+Five different sample tissues obtained from pheochromocytoma (PHEO) and two from paraganglioma (PGL) were lysed for mRNA extraction. mRNA was isolated from frozen tissue using the RNeasy Mini Kit (Qiagen, Hilden, Germany), as previously described [ 42 , 43 ].
+For each RNA sample, cDNA was obtained by reverse transcription PCR starting from 250 ng of RNA in 50 μL final volume reaction (Taqman RT-PCR kit; Applied Biosystems, Foster City, CA, USA) through the following cycling conditions: 10 min at 25 °C, 30 min at 48 °C, 3 min at 95 °C, and then held at 4 °C. Further quantitative real-time PCR (qRT-PCR) was carried out using primers and probes from Applied Biosystems for the gene transcripts human  PHD2  (Hs00254392_m1) and  GAPDH  (4352934). RT-PCR reactions were performed in triplicate for each gene on an ABI Prism 7900 Sequence Detector (Applied Biosystems). The number of target genes, normalized to the endogenous reference gene (human  GAPDH ) and relative to a calibrator (Stratagene, San Diego, CA, USA), was calculated by 2 −ΔΔCt .
+Informed consent was obtained from the patient and the manuscript was written following the CARE guidelines.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1256~1260" text="Ki67" location="result" />
+<GENE id="G1" spans="3472~3476" text="PHD2" location="result" />
+<GENE id="G2" spans="3480~3485" text="EGLN1" location="result" />
+<GENE id="G3" spans="3490~3495" text="EPAS1" location="result" />
+<GENE id="G4" spans="3499~3501" text="FH" location="result" />
+<GENE id="G5" spans="3505~3510" text="KIF1B" location="result" />
+<GENE id="G6" spans="3515~3518" text="MAX" location="result" />
+<GENE id="G7" spans="3522~3525" text="NF1" location="result" />
+<GENE id="G8" spans="3529~3532" text="RET" location="result" />
+<GENE id="G9" spans="3536~3540" text="SDHA" location="result" />
+<GENE id="G10" spans="3544~3550" text="SDHAF2" location="result" />
+<GENE id="G11" spans="3554~3558" text="SDHB" location="result" />
+<GENE id="G12" spans="3562~3566" text="SDHC" location="result" />
+<GENE id="G13" spans="3570~3574" text="SDHD" location="result" />
+<GENE id="G14" spans="3578~3585" text="TMEM127" location="result" />
+<GENE id="G15" spans="3593~3596" text="VHL" location="result" />
+<GENE id="G16" spans="5311~5315" text="PHD2" location="result" />
+<GENE id="G17" spans="5714~5718" text="PHD2" location="result" />
+<GENE id="G18" spans="5740~5744" text="PHD2" location="result" />
+<GENE id="G19" spans="5869~5873" text="PHD2" location="result" />
+<GENE id="G20" spans="6028~6032" text="PHD2" location="result" />
+<GENE id="G21" spans="7214~7219" text="HIF2α" location="result" />
+<GENE id="G22" spans="7321~7326" text="GAPDH" location="result" />
+<GENE id="G23" spans="8250~8254" text="PHD2" location="result" />
+<GENE id="G24" spans="8277~8282" text="GAPDH" location="result" />
+<GENE id="G25" spans="8496~8501" text="GAPDH" location="result" />
+<DISEASE id="D0" spans="211~218" text="adenoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="479~483" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="976~980" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="1171~1187" text="Pheochromocytoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="1395~1399" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="7588~7604" text="pheochromocytoma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="7606~7610" text="PHEO" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="7625~7638" text="paraganglioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="7640~7643" text="PGL" location="result" disease1="disease of cellular proliferation" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

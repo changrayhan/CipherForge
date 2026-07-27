@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Androgen response element of the glycine N-methyltransferase gene is located in the coding region of its first exon.
+Abstract: Androgen plays an important role in the pathogenesis of PCa (prostate cancer). Previously, we identified GNMT (glycine N-methyltransferase) as a tumour susceptibility gene and characterized its promoter region. Besides, its enzymatic product-sarcosine has been recognized as a marker for prognosis of PCa. The goals of this study were to determine whether  GNMT  is regulated by androgen and to map its AREs (androgen response elements). Real-time PCR analyses showed that R1881, a synthetic AR (androgen receptor) agonist induced GNMT expression in AR-positive LNCaP cells, but not in AR-negative DU145 cells.  In silico  prediction showed that there are four putative AREs in  GNMT -ARE1, ARE2 and ARE3 are located in the intron 1 and ARE4 is in the intron 2. Consensus ARE motif deduced from published AREs was used to identify the fifth ARE-ARE5 in the coding region of exon 1. Luciferase reporter assay found that only ARE5 mediated the transcriptional activation of R1881. ARE3 overlaps with a YY1 [Yin and Yang 1 (motif (CaCCATGTT, +1118/+1126)] that was further confirmed by antibody supershift and ChIP (chromatin immunoprecipitation) assays. EMSA (electrophoretic mobility shift assay) and ChIP assay confirmed that AR interacts with ARE5  in vitro  and  in vivo . In summary,  GNMT  is an AR-targeted gene with its functional ARE located at +19/+33 of the first exon. These results are valuable for the study of the influence of androgen on the gene expression of GNMT especially in the pathogenesis of cancer.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="41~68" text="glycine N-methyltransferase" location="result" />
+<GENE id="G1" spans="240~244" text="GNMT" location="background" />
+<GENE id="G2" spans="246~273" text="glycine N-methyltransferase" location="background" />
+<GENE id="G3" spans="492~496" text="GNMT" location="result" />
+<GENE id="G4" spans="666~670" text="GNMT" location="result" />
+<GENE id="G5" spans="685~687" text="AR" location="result" />
+<GENE id="G6" spans="721~723" text="AR" location="result" />
+<GENE id="G7" spans="814~818" text="GNMT" location="result" />
+<GENE id="G8" spans="1423~1427" text="GNMT" location="result" />
+<GENE id="G9" spans="1435~1437" text="AR" location="result" />
+<GENE id="G10" spans="1610~1614" text="GNMT" location="result" />
+<DISEASE id="D0" spans="191~194" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="196~211" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="436~439" text="PCa" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1649~1655" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

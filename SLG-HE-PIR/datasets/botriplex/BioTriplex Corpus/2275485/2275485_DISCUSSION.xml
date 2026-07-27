@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cell line studies demonstrate that the PI3K cascade may influence the development of HRPC, suggesting this pathway may provide a novel therapeutic target for prostate cancer. However, to translate this into the clinic, we are required to provide evidence that this pathway is upregulated in the development of clinical HRPC and also identify what proteins would make the best targets and most effectively identify patients suitable for therapy.
+It is well established in the literature that there is a link between Akt activation and development of HRPC. Cell line work demonstrates that Akt activity increases during androgen ablation to stimulate cell growth and survival when androgen reliance is weaker, and therefore promote development of HRPC ( et al , 2003 Gao  ;  et al , 2003 Ghosh  ;  et al , 2003 Lin  ). Work using human prostate tissue confirms that pAkt 473  is expressed in PIN and invasive prostate cancer, and staining intensity positively correlated with PSA levels and Gleason grades ( et al , 2003 Ghosh  ;  Altomare and Testa, 2005 ;  Majumder and Sellers, 2005 ). In addition, a large study of 640 radical prostatectomy specimens demonstrated that high levels of pAkt was predictive of biochemical recurrence ( et al , 2003 Ayala  ). Although in our current cohort we did not observe a significant association with pAkt 473  and biochemical recurrence (pAkt 473 ;  P =0.151, results not shown), the Kaplan–Meier curves did separate and the difference in the median time to biochemical recurrence in the two groups was 1.8 year compared to 2.4 years, suggesting that significance might have been meet if a larger cohort had been used. As the previous study was conducted on a cohort of 640 patient samples and our cohort contained only 68 patients, we performed a power calculation to assess what cohort size would have been required. This calculation suggested that a cohort of 200 patients would have been sufficient to reach significance. It is therefore not surprising that a significant result was achieved on a cohort of 640 samples. However the design of our study was to mirror the cell line experiments and investigate if changes in protein expression of members of the PI3K/Akt cascade were involved in the transition from hormone-sensitive to -refractory disease; therefore, we felt that it was not necessary to increase that cohort size. The strength of this study was the use of the paired samples, by doing so we observed that an increase in expression of multiple members of the pathway was linked to time to recurrence and disease-specific survival. In addition, if only primary tumours had been used, we would not have observed that pAR 210  was linked to survival, as marked expression was only observe in hormone-refractory tumours. In the current study, we observe that an increase in pAkt 473  expression, fully activated Akt and an increase in pAR 210  was associated with decreased survival. Providing further evidence that activation of the PI3K/Akt cascade is associated with development of HRPC.
+Cell line data suggest that phosphorylation of AR by Akt at serine 210 results in an increase in AR translational activity when androgen levels are low, and, in addition, activated Akt, over a longer period, has been demonstrated to upregulated AR expression in LNCaP cells ( et al , 2002 Manin  ;  et al , 2005 Yang  ). The impact of both these actions of Akt on the AR will serve to increase the sensitivity of the AR to androgens, enabling transcription of AR-regulated genes even when androgens levels are very low, similar to those experienced during chemical or surgical castration. This therefore provides a mechanism for the development of HRPC. In the current cohort, HRPCs express significantly higher levels of pAR 210  compared to hormone-sensitive tumours; the median histoscore of refractory tumours is 103 histoscore units compared to 35 histoscore units for sensitive tumours,  P =<0.0001. Approximately 42% of patients have an increase in pAR 210  expression, and these patients have a significantly shorter survival period than those with no increase in expression. In addition, expression levels of pAR 210  and AR strongly correlate with pAkt 473  expression levels only in the refractory tumours, suggesting that it is only when androgen levels are low that this pathway is activated. These results provide additional evidence that the PI3K/Akt pathway is upregulated during development of HRPC, resulting in phosphorylation of the AR and sensitisation to circulating adrenal androgens. Cell line studies demonstrate that this occurs  in vitro ; however, the current data demonstrate for the first time that this may be one possible mechanism allowing development of HRPC in the clinical setting ( Figure 5 ).
+The protein mTOR is also downstream of Akt and was also investigated in this study as it has previously been to HRPC ( et al , 2003 Bubley  ). Akt can phosphorylate mTOR directly at threonine 2446 and serine 2448, but can also activate mTOR indirectly via phosphorylation of TSC2 ( Majumder and Sellers, 2005 ). In the current cohort, pAkt 473  expression correlates with pmTOR 2448  expression; however, expression levels or changes in expression levels of pmTOR 2448  do not correlate with any clinical parameters in our cohort. This suggests that mTOR may not be involved in the development of HRPC. This was surprising as stimulation of mTOR ultimately results in increase protein synthesis and enhances translation of proteins involved in growth control via turning off 4EBP and activating S6Kinase. Although Akt has been demonstrated to phosphorylate mTOR directly, the role of these phosphorylation sites remains unclear. Phosphorylation of mTOR by Akt at serine 2448 might not correlate with mTOR activation, therefore, pmTOR 2448  may not necessary be involved with the development of HRPC, and a more appropriate marker of mTOR activation could be S6Kinase ( Ruggero and Sonenberg, 2005 ).
+In summary, they current study demonstrates a role for the PI3K/Akt/AR pathway in the development of HRPC; however, now that drugs are being developed to target specific components of pathways, it is necessary to identify the proteins in the individual pathways that would make the most appropriate targets. Results from the current study suggest that a larger portion of tumours would respond to drugs targeting Akt activation in contrast to PI3K or PTEN. Methods currently being explored for inhibition of Akt activation include Akt antibodies, similar to humanised trastuzamab (Herceptin), ATP-competitive inhibitors and PDK1 inhibitors ( et al , 2005 Cheng  ). In addition to Akt being the appropriate target for therapy, Akt in combination with pAR 210  might be the appropriate marker for identifying patients most likely to respond to drugs that target Akt activation. Phosphorylation of Akt and AR are clearly linked with decreased survival, those patients who have an increase in pAtk 473  and/or pAR 210  have median overall survival period of 3.98 years compared to 6.68 years, this is a survival difference of almost 3 years, and approximately 50% of the patients in our study have an increase in pAkt 473  and/or pAR 210  expression, suggesting that the majority of patients likely to respond to Akt inhibition will be identified by these markers. This study emphasises the need for a rational approach for new drug design, and the progress already made in breast cancer demonstrates the effectiveness of such an approach.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="516~519" text="Akt" location="background" />
+<GENE id="G1" spans="589~592" text="Akt" location="background" />
+<GENE id="G2" spans="866~869" text="Akt" location="background" />
+<GENE id="G3" spans="1188~1191" text="Akt" location="result" />
+<GENE id="G4" spans="1340~1343" text="Akt" location="result" />
+<GENE id="G5" spans="2674~2676" text="AR" location="result" />
+<GENE id="G6" spans="2829~2832" text="Akt" location="result" />
+<GENE id="G7" spans="2866~2869" text="Akt" location="result" />
+<GENE id="G8" spans="2890~2892" text="AR" location="result" />
+<GENE id="G9" spans="3092~3094" text="AR" location="background" />
+<GENE id="G10" spans="3098~3101" text="Akt" location="background" />
+<GENE id="G11" spans="3142~3144" text="AR" location="background" />
+<GENE id="G12" spans="3226~3229" text="Akt" location="background" />
+<GENE id="G13" spans="3290~3292" text="AR" location="background" />
+<GENE id="G14" spans="3402~3406" text="Akt " location="result" />
+<GENE id="G15" spans="3413~3415" text="AR" location="result" />
+<GENE id="G16" spans="3462~3464" text="AR" location="result" />
+<GENE id="G17" spans="4002~4004" text="AR" location="result" />
+<GENE id="G18" spans="4164~4166" text="AR" location="result" />
+<GENE id="G19" spans="4176~4178" text="AR" location="result" />
+<GENE id="G20" spans="4204~4207" text="Akt" location="result" />
+<GENE id="G21" spans="4498~4500" text="AR" location="result" />
+<GENE id="G22" spans="4788~4792" text="mTOR" location="background" />
+<GENE id="G23" spans="4815~4818" text="Akt" location="background" />
+<GENE id="G24" spans="4919~4922" text="Akt" location="background" />
+<GENE id="G25" spans="4941~4945" text="mTOR" location="background" />
+<GENE id="G26" spans="5012~5016" text="mTOR" location="background" />
+<GENE id="G27" spans="5051~5055" text="TSC2" location="background" />
+<GENE id="G28" spans="5111~5115" text="pAkt" location="result" />
+<GENE id="G29" spans="5149~5153" text="mTOR" location="result" />
+<GENE id="G30" spans="5235~5239" text="mTOR" location="result" />
+<GENE id="G31" spans="5326~5330" text="mTOR" location="result" />
+<GENE id="G32" spans="5417~5421" text="mTOR" location="result" />
+<GENE id="G33" spans="5590~5593" text="Akt" location="background" />
+<GENE id="G34" spans="5633~5637" text="mTOR" location="result" />
+<GENE id="G35" spans="5724~5728" text="mTOR" location="result" />
+<GENE id="G36" spans="5732~5735" text="Akt" location="result" />
+<GENE id="G37" spans="5776~5780" text="mTOR" location="result" />
+<GENE id="G38" spans="5805~5809" text="mTOR" location="result" />
+<GENE id="G39" spans="5909~5913" text="mTOR" location="background" />
+<GENE id="G40" spans="6389~6392" text="Akt" location="result" />
+<GENE id="G41" spans="6419~6423" text="PI3K" location="result" />
+<GENE id="G42" spans="6427~6431" text="PTEN" location="result" />
+<GENE id="G43" spans="6484~6487" text="Akt" location="background" />
+<GENE id="G44" spans="6507~6510" text="Akt" location="background" />
+<GENE id="G45" spans="6600~6604" text="PDK1" location="background" />
+<GENE id="G46" spans="6656~6659" text="Akt" location="result" />
+<GENE id="G47" spans="6702~6705" text="Akt" location="result" />
+<GENE id="G48" spans="6727~6729" text="AR" location="result" />
+<GENE id="G49" spans="6836~6839" text="Akt" location="result" />
+<GENE id="G50" spans="6871~6874" text="Akt" location="result" />
+<GENE id="G51" spans="6879~6881" text="AR" location="result" />
+<GENE id="G52" spans="6983~6985" text="AR" location="result" />
+<GENE id="G53" spans="7186~7189" text="Akt" location="result" />
+<GENE id="G54" spans="7203~7205" text="AR" location="result" />
+<GENE id="G55" spans="7285~7288" text="Akt" location="result" />
+<GENE id="G56" spans="3768~3770" text="AR" location="result" />
+<DISEASE id="D0" spans="86~90" text="HRPC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="320~324" text="HRPC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="550~554" text="HRPC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="746~750" text="HRPC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="908~923" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="3039~3043" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="3693~3697" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="3722~3727" text="HRPCs" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="4456~4460" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="4733~4737" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="4888~4892" text="HRPC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="5373~5377" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="5870~5874" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="6077~6081" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="7446~7459" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="503~507" text="link" location="background" relation="relation undefined" />
+<RELATION id="R1" spans="723~742" text="promote development" location="background" relation="modulator increase disease" />
+<RELATION id="R2" spans="878~887" text="expressed" location="background" relation="increased expression" />
+<RELATION id="R3" spans="3728~3763" text="express significantly higher levels" location="result" relation="increased expression" />
+<RELATION id="R5" spans="5331~5369" text="may not be involved in the development" location="result" relation="no relation" />
+<RELATION id="R6" spans="5816~5866" text="may not necessary be involved with the development" location="result" relation="no relation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="Akt" diseaseID="D2" diseaseText="HRPC" relationID="R0" relationText="link" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="Akt" diseaseID="D4" diseaseText="prostate cancer" relationID="R2" relationText="expressed" />
+<ENTITY_LINKING id="E2" geneID="G1" geneText="Akt" diseaseID="D3" diseaseText="HRPC" relationID="R1" relationText="promote development" />
+<ENTITY_LINKING id="E3" geneID="G56" geneText="AR" diseaseID="D7" diseaseText="HRPCs" relationID="R3" relationText="express significantly higher levels" />
+<ENTITY_LINKING id="E4" geneID="G31" geneText="mTOR" diseaseID="D12" diseaseText="HRPC" relationID="R5" relationText="may not be involved in the development" />
+<ENTITY_LINKING id="E5" geneID="G38" geneText="mTOR" diseaseID="D13" diseaseText="HRPC" relationID="R6" relationText="may not necessary be involved with the development" />
+</TAGS>
+</Genomics_ConceptTask>

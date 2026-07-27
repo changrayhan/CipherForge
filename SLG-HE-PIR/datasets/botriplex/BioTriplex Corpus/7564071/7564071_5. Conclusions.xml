@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The tumor specificity and ease of access of Kv10.1 make it an attractive candidate for cancer treatment. However, the clinical development of Kv10.1-directed therapies has faced difficulties due to the incomplete understanding of the underlying molecular mechanisms. Here, we attempted to bridge that gap and broaden our very limited knowledge on the implication of ion channels in cell growth. Furthermore, understanding the molecular mechanisms causing the different effects of functional inhibition or gene-silencing mediated downregulation of Kv10.1 can help to tailor cancer treatment to tumor phenotype. Therefore, although the current work in cell lines cannot be directly translated to the clinical scenario, we are persuaded that Kv10.1 will be a relevant oncological target in the future.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="45~51" text="Kv10.1" location="result" />
+<GENE id="G1" spans="143~149" text="Kv10.1" location="background" />
+<GENE id="G2" spans="548~554" text="Kv10.1" location="result" />
+<GENE id="G3" spans="740~746" text="Kv10.1" location="result" />
+<DISEASE id="D0" spans="88~94" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R0" spans="74~87,95~104" text="candidate for ... treatment" location="background" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="Kv10.1" diseaseID="D0" diseaseText="cancer" relationID="R0" relationText="candidate for ... treatment" />
+</TAGS>
+</Genomics_ConceptTask>

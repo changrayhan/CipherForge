@@ -1,0 +1,106 @@
+{
+  "attack_results": [
+    {
+      "attack_id": "M2",
+      "sub_attack": "rank_fingerprint",
+      "metric": "rho_spectral_at_lora_rank",
+      "value": 0.0,
+      "chance_level": 9.518839981543875,
+      "std_err": 0.0,
+      "p_value": 1.0,
+      "ci": null,
+      "n_samples": 800,
+      "n_positive": 0,
+      "verdict": "INCONCLUSIVE",
+      "notes": "ρ(r=8)=0.000 (null 95% quantile=9.519, σ_mp=0.0000e+00, n_above_thr=0/32). Permutation p=1.0000e+00. no rank edge; consistent with no LoRA [consistency gate] ρ_real=0.000 vs ρ_self=9.318, gap=-9.318 (consistency_z=-9.32σ) <0.5σ ⇒ single-statistic verdict underpowered; rerun with larger warmup_steps (current n_pre=800, n_post=800)."
+    },
+    {
+      "attack_id": "M2",
+      "sub_attack": "direction_fingerprint",
+      "metric": "projection_energy_in_deltaW",
+      "value": 0.0,
+      "chance_level": 0.0,
+      "std_err": 0.0,
+      "p_value": 1.0,
+      "ci": null,
+      "n_samples": 800,
+      "n_positive": 0,
+      "verdict": "INCONCLUSIVE",
+      "notes": "‖Δa_t projected on empirical ΔW top-r‖²=0.0000e+00 (null 95% quantile=0.0000e+00, p=1.0000e+00). Principal angle to post-update top-r = 83.47°. [consistency gate] observed=0.0000e+00 vs pre-self background=1.6213e-04, gap_z=-1.00σ <0.5σ ⇒ underpowered; rerun with larger warmup_steps (current n_pre=800)."
+    },
+    {
+      "attack_id": "M2",
+      "sub_attack": "result_s_correlation",
+      "metric": "result_s_label_correlation",
+      "value": 0.09167453646659851,
+      "chance_level": 0.00026041666666666666,
+      "std_err": 0.0,
+      "p_value": 0.00024080010189209133,
+      "ci": [
+        0.0,
+        0.00024080010189209133
+      ],
+      "n_samples": 1600,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "Max |r|=0.0917 (min p=2.4080e-04), Binomial aggregate: 9/192 p<0.05 (p=4.9312e-01)."
+    },
+    {
+      "attack_id": "M2",
+      "sub_attack": "z_t_effective_rank",
+      "metric": "z_t_effective_rank",
+      "value": 41.0,
+      "chance_level": 8.0,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 1600,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "Z_t effective rank=41, LoRA rank=8; far from LoRA rank."
+    },
+    {
+      "attack_id": "M2",
+      "sub_attack": "theoretical_analysis",
+      "metric": "direct_inversion_feasible",
+      "value": 0.0,
+      "chance_level": 0.5,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 800,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "Direct inversion of Z @ V^T not feasible: V^T shape=(128256,2048), incompatible for standard matrix inversion."
+    },
+    {
+      "attack_id": "M2",
+      "sub_attack": "m2_aggregate",
+      "metric": "m2_aggregate",
+      "value": 0.0,
+      "chance_level": 1.0,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 800,
+      "n_positive": 0,
+      "verdict": "INCONCLUSIVE",
+      "notes": "Aggregate of rank=INCONCLUSIVE, direction=INCONCLUSIVE, result_s=PRIVACY_PRESERVED."
+    }
+  ],
+  "metadata": {
+    "suite_version": "2.0",
+    "attacks_run": [
+      "M2"
+    ],
+    "n_steps": 200,
+    "n_eval_steps": 50,
+    "batch_size": 4,
+    "seed": 42,
+    "project_root": "/root/autodl-tmp/SLG-HE-PIR",
+    "hf_model": "/root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da",
+    "data_dir": "/root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc",
+    "use_gpu": true,
+    "timestamp": "20260727_142105"
+  }
+}

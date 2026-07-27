@@ -1,0 +1,47 @@
+{
+  "stage0_summary": {
+    "model": "Llama-3.1-8B-Instruct",
+    "vocab_size": 128256,
+    "hidden_dim": 4096,
+    "poly_degree": 4096,
+    "plain_bits": 30,
+    "scale": 10000,
+    "coefficient_modulus_bits": [36, 36, 37],
+    "bfv_secret_key": {
+      "status": "never persisted to disk; held only in CryptoMWorker pool memory",
+      "size_bytes": null,
+      "note": "SEAL SecretKey is dropped from main process right after creation; only loaded into CryptoMWorker spawn pool. Default SEAL sk serialization is ~67 KB for N=4096 (estimated)."
+    },
+    "bfv_public_key": {
+      "path": "/root/autodl-tmp/slg-bfv-cache/bfv_pk.bin",
+      "size_bytes": 196721
+    },
+    "bfv_encrypted_v_matrix_db": {
+      "path": "/root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin",
+      "n_entries": 128256,
+      "vec_dim": 4096,
+      "size_bytes": 16825776464,
+      "size_gb": 15.67,
+      "build_time_s": 0.0,
+      "loaded_from_cache": true
+    },
+    "s3pir_hint_table": {
+      "path": "/root/autodl-tmp/slg-bfv-cache/s3pir_hints/hint_table.json",
+      "n_entries": 128256,
+      "partition_size": 256,
+      "n_partitions": 501,
+      "lam": 80,
+      "size_bytes": 1575491,
+      "size_kb": 1538.6
+    },
+    "init_time_s_observed": 0.0114,
+    "init_note": "Measured wall time during bfv_meta.json write. The actual offline build of the 15.67 GB encrypted V database is much slower but is cached on disk after first run."
+  },
+  "estimated_offline_cost": {
+    "v_matrix_build_seconds_first_run": "O(vocab_size * vec_dim * poly_degree * coeff_primes) ≈ ~600-1500s on RTX 5090 (estimated, encrypted via BFV)",
+    "v_matrix_build_seconds_warm_start": "0.011s (cache hit)",
+    "hint_table_build_seconds": "~25s for n_entries=128256, n_partitions=501, lam=80 (estimated; small payload)",
+    "bfv_keygen_seconds": "~3s (SEAL KeyGenerator for N=4096)"
+  },
+  "source": "scripts/function-tests/offline_prep_overhead.py + /root/autodl-tmp/slg-bfv-cache/{bfv_pk.bin,bfv_ct_db_*,bfv_keys.json,bfv_meta.json,s3pir_hints/hint_table.json}"
+}

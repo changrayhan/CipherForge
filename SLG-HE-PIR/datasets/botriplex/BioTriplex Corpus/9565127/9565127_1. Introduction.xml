@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Data available on the impact of the coronavirus disease 2019 (COVID-19) pandemic on mortality from chronic obstructive pulmonary disease (COPD) are sparse and contradictory. Before the pandemic, mortality from COPD was steadily declining among males in the United States and Europe, whereas limited or no variation was observed among females [ 1 , 2 , 3 ]. In spite of mortality rates decreasing globally, COPD still represented the third leading cause of death worldwide [ 4 , 5 ]. However, standard mortality statistics based on the underlying cause of death (UCOD) largely underestimate COPD-related mortality due to two main mechanisms: COPD is underdiagnosed and underreported on death certificates [ 6 ]; when reported, COPD is rarely listed as the UCOD [ 7 ]. The so-called multiple cause of death (MCOD) approach partially overcomes such a limit by analyzing all of the conditions mentioned in the certificate irrespective of their selection as the UCOD. Historically, MCOD data on COPD have been reported in a limited number of countries, including the US [ 8 , 9 ], Brazil [ 10 ], England and Wales [ 11 , 12 ], France [ 13 ], Spain [ 14 ], Italy [ 7 ], China [ 15 ], and Australia [ 16 ].
+MCOD-based analyses are warranted to assess the impact of the pandemic on COPD-related mortality, as COVID-19 represents a competing cause of death in statistics focused on the UCOD. Unfavorable COVID-19-related outcomes have been consistently reported in patients with COPD, including increased risks of hospitalization, intensive care unit admission, and death [ 17 ]. Despite barriers to healthcare access during the pandemic, a reduced incidence of acute exacerbations of COPD due to the reduced transmission of other respiratory pathogens has been observed [ 18 ]. In countries with very limited diffusion of COVID-19 through 2020, mortality from COPD dropped [ 19 ], while in countries that experienced huge consequences of the pandemic, deaths from COPD assessed as the UCOD did not change substantially or even slightly declined in 2020, along with the emergency of COVID-19 as a leading cause of death behind heart disease and cancer [ 18 , 20 , 21 , 22 ].
+Only an MCOD approach allows an assessment of the impact of the COVID-19 epidemic waves on mortality related to underlying chronic conditions at the population level. To our knowledge, such analyses have not been conducted yet for COPD. A proper estimate of COPD-related mortality during the pandemic’s first year is warranted to better understand the impact of subsequent COVID-19 vaccination campaigns on patients with COPD and to contribute, by providing evidence, to favor a rapid public health response and an improved management of future pandemic scenarios. For this purpose, we investigated mortality records in the Veneto region (Northeastern Italy, about 4.9 million inhabitants), one of the first and hardest hit areas by the pandemic [ 23 ]. 
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="37~61" text="coronavirus disease 2019" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="63~71" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="100~137" text="chronic obstructive pulmonary disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="139~143" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="211~215" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="407~411" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="591~595" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="642~646" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="727~731" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="991~995" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1275~1279" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="1302~1310" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D12" spans="1396~1404" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D13" spans="1471~1475" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="1677~1681" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="1815~1823" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D16" spans="1853~1857" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="1957~1961" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="2075~2083" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D19" spans="2119~2132" text="heart disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="2137~2143" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D21" spans="2231~2239" text="COVID-19" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D22" spans="2398~2402" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="2425~2429" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="2540~2548" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D25" spans="2588~2592" text="COPD" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

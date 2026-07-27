@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Since its introduction in 1957, 5FU has been a first-choice drug for CRC chemotherapy. However, resistance to 5FU develops as treatment time increases, disrupting its successful anti-tumor effect. It is generally believed that 5FU resistance is associated with enhanced DNA repair and accelerated drug metabolism. The catabolism of 5FU relies on dihydropyrimidine dehydrogenase (DPD). Abnormal glucose and lipid metabolism and histone-related transcription can increase DPD expression in CRC cells, leading to 5FU resistance  28 . Clinically, 5FU is often used in combination with oxaliplatin, irinotecan, and other drugs to increase its therapeutic effect  29 , but the development of drug resistance cannot be avoided. Studies have shown that DNA polymerase ζ REV7 upregulation contributes to 5FU and oxaliplatin resistance when used in combination  30 . Therefore, other types of solutions are needed to avoid the development of 5FU resistance in CRC.
+The Warburg effect, which is based on abnormal glucose metabolism, promotes drug resistance in CRC. Chemotherapy in CRC also reprograms the metabolic pathways of surviving tumor cells. These surviving cells, namely drug-resistant cells, undergo a series of changes that enhance their malignant phenotypes, including a tumor stem cell-like phenotype, which leads to tumor metastasis and tumor immunosuppression  31 ,  32 . PDK2 was highly expressed in 5FU resistant cells, while dichloroacetate or miRNA targeting PDK2 enhanced CRC cell sensitivity to 5FU  33 . LncRNA XIST promoted glycolysis and 5FU chemoresistance in CRC by increasing PKM2 levels  34 . These metabolic enzymes act as direct regulators of glucose metabolism and are responsible for CRC chemoresistance. Our study revealed that IDH1, a key enzyme involved in glucose metabolism, enhanced CRC cell growth and 5FU resistance. Therefore, IDH1-related tumor metabolism may be a target for the treatment of 5FU-resistant CRC.
+Previous studies have confirmed that IDH1 mediates chemoresistance in ovarian cancer and endometrial cancer  35 ,  36 , while there is a lack of research on chemoresistance in colorectal cancer. Most studies have focused on the activation of IDH1 R132 mutations, which are often found in many types of tumors. IDH1 R132 promotes tumor progression and treatment tolerance, which can be mainly attributed to its abnormal metabolite 2-hydroxyglutarate. Anti-apoptotic genes can be targeted to inhibit tumors carrying IDH1 mutations  37 . A previous study  38  and our data showed that unmutated IDH1 was highly expressed in tumor tissues and was accompanied by an increase in the production of α-KG and NADPH. This indicates that the upregulation of IDH1 can reprogram the metabolic state of tumor cells, enhancing tumor growth and chemoresistance. Despite being a subtype of isocitrate dehydrogenase, IDH1 is not involved in the oxidative phosphorylation, which takes place in mitochondria. IDH1 is mainly located in the cytoplasm and peroxisomes and maintains the reducing internal environment by producing reducing substances, such as NADPH  39 . We speculated that IDH1 was delivered to sensitive CRC cells via exosomes, which in turn increased the viability of cells under 5FU treatment through the accumulation of NADPH. This novel form of tumor metabolic reprogramming will have an effect on tumor phenotype.
+We found that exosomes transmitted the IDH1 protein to sensitive cells and promoted CRC cell resistance to 5FU. A previous study revealed that the 5FU-resistant CRC cell line RKO/R secretes exosomes that enhance 5FU resistance in RKO cells. This process relies on the phosphorylated STAT3 protein in exosomes  40 . Therefore, exosomal proteins are critical disseminators of 5FU resistance in CRC cells. Apart from the exosomes secreted by drug-resistant cells, other components in the tumor microenvironment also produce other 5FU resistance-inducing exosomal proteins that are delivered to CRC cells. In the tumor microenvironment, cancer-associated fibroblasts (CAFs) secrete exosomes that carry Wnt, which promote CRC cell differentiation into tumor stem cells  41 . These exosomal proteins are regarded as effective targets to reverse CRC resistance, and further research is needed to explore the mechanisms involved. Apart from the exosomal proteins derived from resistant cells that were identified through our exosomal proteomics results, other exosomal proteins that cause 5FU resistance in CRC cells also need to be identified. Additionally, CAFs also transmit miRNA-encapsulated exosomes to CRC cells to enhance tumor cell invasiveness and 5FU resistance  42 . Multiple exosomal miRNAs, including miRNA-125b, miR-21, and miR-210, are involved in CRC cell resistance to 5FU and serve as biomarkers of the malignant phenotype and the therapeutic effect of CRC  43 - 45 . Therefore, the complete elucidation of exosomal proteins or RNAs that cause 5FU resistance will allow for the advancement of tumor treatment methods.
+In summary, our data proves that enhanced expression of IDH1 in CRC tissues can mediate the rapid growth of CRC cells and the occurrence of chemoresistance. Exosomes secreted by 5FU-resistant CRC cells contribute to the growth of sensitive CRC cells and the development of 5FU resistance. This resistance depends on the communication between resistant and sensitive cells, which is mediated by exosomal IDH1. Exosomal IDH1 can increase the concentration of metabolites of α-KG and NADPH in sensitive cells, ensuring CRC cell survival in a 5FU environment. IDH1 and exosomal IDH1 are potential targets for CRC treatment and drug resistance.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="347~378" text="dihydropyrimidine dehydrogenase" location="background" />
+<GENE id="G1" spans="380~383" text="DPD" location="background" />
+<GENE id="G2" spans="471~474" text="DPD" location="background" />
+<GENE id="G3" spans="1378~1382" text="PDK2" location="background" />
+<GENE id="G4" spans="1469~1473" text="PDK2" location="background" />
+<GENE id="G5" spans="1594~1598" text="PKM2" location="background" />
+<GENE id="G6" spans="1752~1756" text="IDH1" location="background" />
+<GENE id="G7" spans="1859~1863" text="IDH1" location="background" />
+<GENE id="G8" spans="1982~1986" text="IDH1" location="background" />
+<GENE id="G9" spans="2187~2191" text="IDH1" location="background" />
+<GENE id="G10" spans="2255~2259" text="IDH1" location="background" />
+<GENE id="G11" spans="2459~2463" text="IDH1" location="background" />
+<GENE id="G12" spans="2537~2541" text="IDH1" location="background" />
+<GENE id="G13" spans="2692~2696" text="IDH1" location="background" />
+<GENE id="G14" spans="2844~2848" text="IDH1" location="background" />
+<GENE id="G15" spans="2934~2938" text="IDH1" location="background" />
+<GENE id="G16" spans="3111~3115" text="IDH1" location="result" />
+<GENE id="G17" spans="3397~3401" text="IDH1" location="result" />
+<GENE id="G18" spans="3641~3646" text="STAT3" location="background" />
+<GENE id="G19" spans="5043~5047" text="IDH1" location="result" />
+<GENE id="G20" spans="5390~5394" text="IDH1" location="result" />
+<GENE id="G21" spans="5405~5409" text="IDH1" location="result" />
+<GENE id="G22" spans="5543~5547" text="IDH1" location="result" />
+<GENE id="G23" spans="5561~5565" text="IDH1" location="result" />
+<DISEASE id="D0" spans="70~73" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="489~492" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="951~954" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1051~1054" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1072~1075" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1483~1486" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1576~1579" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1707~1710" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1812~1815" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1940~1943" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2015~2029" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2034~2052" text="endometrial cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2121~2138" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3143~3146" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3442~3445" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3519~3522" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3750~3753" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3949~3952" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3991~3997" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D19" spans="4075~4078" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4197~4200" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="4457~4460" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="4559~4562" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4714~4717" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="4822~4825" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="5051~5054" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="5095~5098" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="5503~5506" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="5592~5595" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="1996~2011" text="chemoresistance" location="background" relation="therapy resistance" />
+<RELATION id="R2" spans="5020~5039" text="enhanced expression" location="result" relation="increased expression" />
+<RELATION id="R3" spans="5580~5591,5596~5605" text="targets for ... treatment" location="result" relation="therapeutic target" />
+<RELATION id="R4" spans="5610~5625" text="drug resistance" location="result" relation="therapy resistance" />
+<ENTITY_LINKING id="E0" geneID="G8" geneText="IDH1" diseaseID="D10" diseaseText="ovarian cancer" relationID="R1" relationText="chemoresistance" />
+<ENTITY_LINKING id="E1" geneID="G8" geneText="IDH1" diseaseID="D11" diseaseText="endometrial cancer" relationID="R1" relationText="chemoresistance" />
+<ENTITY_LINKING id="E2" geneID="G19" geneText="IDH1" diseaseID="D25" diseaseText="CRC" relationID="R2" relationText="enhanced expression" />
+<ENTITY_LINKING id="E3" geneID="G22" geneText="IDH1" diseaseID="D28" diseaseText="CRC" relationID="R3" relationText="targets for ... treatment" />
+<ENTITY_LINKING id="E4" geneID="G22" geneText="IDH1" diseaseID="D28" diseaseText="CRC" relationID="R4" relationText="drug resistance" />
+<ENTITY_LINKING id="E5" geneID="G23" geneText="IDH1" diseaseID="D28" diseaseText="CRC" relationID="R3" relationText="targets for ... treatment" />
+<ENTITY_LINKING id="E6" geneID="G23" geneText="IDH1" diseaseID="D28" diseaseText="CRC" relationID="R4" relationText="drug resistance" />
+</TAGS>
+</Genomics_ConceptTask>

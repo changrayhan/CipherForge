@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+There were several limitations. First, this study only included the publications from 2003 to 2022 (as of September 8), and it was possible to miss some important and landmark studies before 2002; Secondly, because the literature of 2022 was incomplete and some unpublished hot spots may not be included, and some results of this study may change after being included in the data for the whole year of 2022, so what is necessary to carry out follow-up research to evaluate the results more objectively; Finally, although we used various software to analyze the content of countries, institutions, authors, keywords, and references, the analysis still could not provide a comprehensive overview of NDDS for PC-related literature. However, we believe that the current literature-based bibliometric studies may, to the greatest extent, allow scholars to understand the research hotspots and development trends of NDDS for PC.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="707~709" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="920~922" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

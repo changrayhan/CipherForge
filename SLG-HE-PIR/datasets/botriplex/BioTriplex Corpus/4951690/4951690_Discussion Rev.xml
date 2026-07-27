@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Many ILDs are triggered by oxidative insults to the airways, but regulation of extracellular antioxidant proteins has gained little attention in this context. In the present study, we show that levels of the antioxidant protein GPX3 are increased in BALF and tissue during bleomycin-induced lung fibrosis, as well as in BALF of some HP and sarcoidosis patients and in total lung homogenates of IPF patients. GPX3 was expressed by bronchial epithelial cells and interstitial fibroblasts. While GPX3 localized mainly to the basement membrane of the bronchial epithelium and endothelium in healthy mouse and human tissue, we found localization also to the interstitial ECM in fibrotic tissue compartments. Finally, GPX3 expression in bronchial epithelial cells and fibroblasts was downregulated by TNF-α, but upregulated in a cell-type-specific manner by TGF-β and menadione, respectively.
+As one of the lung-abundant extracellular antioxidant proteins 33 , GPX3 has the potential to fulfil an important protective function in the lung, but regulation and localization of GPX3 in ILD has received little attention. The mouse model of bleomycin-induced lung fibrosis is typically used as a model for ILD. Using this model we found that Gpx3 was expressed by bronchial epithelial cells, secreted in active form into the ELF, and upregulated in lung fibrosis both in BALF and in lung tissue. In samples from IPF patients, we found significant upregulation of GPX3 in total tissue homogenates. Furthermore, we could show that primary human bronchial epithelial cells und fibroblasts express GPX3 in culture. This is in agreement with a number of previous studies that showed expression of GPX3 by bronchial epithelial cells and presence in the ELF 36 47 . More recent studies employing immunofluorescent stainings, however, failed to show expression in bronchial epithelial cells and fibroblasts, and presence of Gpx3 in the lung was mostly attributed to serum Gpx3 supplied primarily by the kidneys 32 33 48 . Our data highlight that GPX3 is expressed and secreted by mouse and human bronchial epithelial cells already under physiological conditions and increased in mouse and human lung fibrosis.
+In mouse and human lung tissue sections, our results demonstrate localization of GPX3 to the subepithelial and subendothelial basement membrane, in agreement with previous studies showing association of GPX3 with the basement membrane 32 33 48 . It has been proposed that also this basement membrane-associated GPX3 is mostly kidney-derived 32 , whereas our results suggest that bronchial epithelial cells secrete GPX3 and thus contribute to the subepithelial basement membrane-associated population. This is further underlined by the detection of GPX3 in ELF following lung injury, both in the mouse model of bleomycin-induced lung fibrosis and in ILD, in particular in HP and sarcoidosis. However in our small cohort, GPX3 levels were neither significantly associated with a particular ILD nor correlated with lung function, as proposed by the animal study. However, clearly a larger patient cohort would be necessary to ultimately rule out possible correlations.
+Importantly, we show, to our knowledge for the first time, that in bleomycin-induced lung fibrosis, HP, and IPF, GPX3 additionally localizes to the interstitial matrix in lung fibrosis. This raises the possibility that GPX3 might protect interstitial fibrotic ECM from oxidative damage with a potential impact on the resolvability of fibrotic matrix. Hence, the function of ECM-bound GPX3 clearly warrants further investigation.
+In IPF patients, interestingly, GPX3 levels were significantly increased in total lung homogenate, but consistently low in BALF. This might argue for an altered compartmentalization of GPX3 in IPF,  e.g.  a specific increase of fibroblast-specific  GPX3  expression or a spatial shift from apically secreted soluble GPX3 to interstitial matrix-associated GPX3, reminiscent of what has been observed in a mouse model of influenza pneumonia 33 .
+In the mouse model of bleomycin-induced lung fibrosis, Gpx3 levels in tissue and BALF were increased in the inflammatory (day 3–7) and fibrotic (day 14–28) phase 35 46 , but had returned to baseline after resolution of fibrosis at day 56. Levels of Gpx3 as well as Gpx activity in BALF were highest in the inflammatory phase (day 7) of bleomycin-induced lung fibrosis, suggesting upregulation by inflammatory rather than profibrotic mediators ( cf .  Fig. 1B,C,E ). Also, GPX3 has been found upregulated in the ELF of individuals with asthma and chronic beryllium disease, the latter an ILD characterized by granulomatous lung inflammation, similar to sarcoidosis 47 49 . Equally, our own data show higher levels of GPX3 in ILD typically associated with an inflammatory component (HP, sarcoidosis) than in ILD which are considered less associated with inflammation as IPF and SRIF ( cf .  Fig. 3 ). This lead us to investigate whether TNF-α as a classical proinflammatory cytokine and TGF-β as central profibrotic stimulus regulated GPX3 expression in primary human bronchial epithelial cells and fibroblasts.
+In both lung cell types TNF-α strongly suppressed GPX3 expression. This was an unexpected result insofar that GPX3 is considered a classical Nrf2-induced gene and TNF-α has repeatedly been reported to upregulate other Nrf2 target genes in various cell types including leukocytes of the myeloid lineage, vascular endothelial cells, and osteoblasts 50 51 52 53 54 . However, to our knowledge, only one study has assessed the effect of TNF-α on GPX3 expression and shown that, in adipose tissue, GPX3 expression is markedly decreased by TNF-α, in agreement with our observation 55 .
+This is the first study to show that GPX3 is regulated by TGF-β in a cell-type-specific manner. TGF-β treatment led to a moderate upregulation of GPX3 secretion in phBEC, but to downregulation of GPX3 on both transcript and protein level in phLF. TGF-β has been shown to inactivate Nrf2 and repress expression of various Nrf2 target genes in both mesenchymal cells and epithelial cells 56 57 , but also upregulation of antioxidant genes by TGF-β has been reported 58 59 . Our results emphasize the importance of the cellular context for modulation of the oxidative stress response by TGF-β.
+Interestingly, menadione appeared to be more effective as inducer of the oxidative stress response in phLF than in phBEC. 10 μM menadione, a concentration which has been shown to upregulate GPX3 transcription in an immortalized bronchial epithelial cell line 60 , consistently induced expression of both GPX3 and NQO1 in phLF while the effects in phBEC were more variable.
+In summary, our  in vitro  results suggest, that TGF-β and oxidative stress contribute to increased GPX3 expression in lung fibrosis in a cell-type-specific manner, upregulating GPX3 in bronchial epithelial cells and interstitial fibroblasts, respectively. In contrast, our findings uniformly rule out TNF-α as positive regulator of GPX3 in ILD. Clearly, other factors important for ILD pathogenesis, not assessed in the present study, might play a role in regulation of GPX3 expression, as  e.g.  hypoxia, other proinflammatory mediators, or cigarette smoke 49 61 . As to the latter, it is worth mentioning that in all ILD patients assessed in this study, there was a non-significant trend ( cf .  Fig. 3E ) for never-smokers to exhibit higher GPX3 levels in BALF than patients with a smoking history. Similarly, albeit also in a small cohort, Comhair  et al . reported that never-smoking patients with chronic beryllium disease (CBD) displayed higher extracellular GPX activity in BALF than ex-smoking CBD patients 49 .
+In conclusion, we demonstrate that, under normal conditions, GPX3 is expressed and secreted in active form into the ELF by bronchial epithelial cells. In addition to localization to basement membranes reported previously, GPX3 can be expressed by lung fibroblasts and associate with interstitial fibrotic ECM, suggesting a protective anti-oxidant function in this compartment. Our findings further indicate that TGF-β and oxidative stress, but not TNF-α, contribute to upregulation of GPX3 in lung fibrosis in a cell-type-specific manner.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="229~233" text="GPX3" location="result" />
+<GENE id="G1" spans="409~413" text="GPX3" location="result" />
+<GENE id="G2" spans="494~498" text="GPX3" location="result" />
+<GENE id="G3" spans="713~717" text="GPX3" location="result" />
+<GENE id="G4" spans="796~801" text="TNF-α" location="result" />
+<GENE id="G5" spans="853~858" text="TGF-β" location="result" />
+<GENE id="G6" spans="956~960" text="GPX3" location="background" />
+<GENE id="G7" spans="1070~1074" text="GPX3" location="result" />
+<GENE id="G8" spans="1233~1237" text="Gpx3" location="result" />
+<GENE id="G9" spans="1454~1458" text="GPX3" location="result" />
+<GENE id="G10" spans="1585~1589" text="GPX3" location="result" />
+<GENE id="G11" spans="1683~1687" text="GPX3" location="background" />
+<GENE id="G12" spans="1907~1911" text="Gpx3" location="background" />
+<GENE id="G13" spans="1955~1959" text="Gpx3" location="background" />
+<GENE id="G14" spans="2029~2033" text="GPX3" location="result" />
+<GENE id="G15" spans="2274~2278" text="GPX3" location="result" />
+<GENE id="G16" spans="2396~2400" text="GPX3" location="result" />
+<GENE id="G17" spans="2504~2508" text="GPX3" location="result" />
+<GENE id="G18" spans="2607~2611" text="GPX3" location="result" />
+<GENE id="G19" spans="2741~2745" text="GPX3" location="result" />
+<GENE id="G20" spans="2913~2917" text="GPX3" location="result" />
+<GENE id="G21" spans="3272~3276" text="GPX3" location="result" />
+<GENE id="G22" spans="3378~3382" text="GPX3" location="result" />
+<GENE id="G23" spans="3543~3547" text="GPX3" location="result" />
+<GENE id="G24" spans="3620~3624" text="GPX3" location="result" />
+<GENE id="G25" spans="3773~3777" text="GPX3" location="result" />
+<GENE id="G26" spans="3837~3841" text="GPX3" location="result" />
+<GENE id="G27" spans="3904~3908" text="GPX3" location="result" />
+<GENE id="G28" spans="3943~3947" text="GPX3" location="result" />
+<GENE id="G29" spans="4087~4091" text="Gpx3" location="result" />
+<GENE id="G30" spans="4281~4285" text="Gpx3" location="result" />
+<GENE id="G31" spans="4504~4508" text="GPX3" location="background" />
+<GENE id="G32" spans="4748~4752" text="GPX3" location="result" />
+<GENE id="G33" spans="4967~4972" text="TNF-α" location="result" />
+<GENE id="G34" spans="5017~5022" text="TGF-β" location="result" />
+<GENE id="G35" spans="5065~5069" text="GPX3" location="result" />
+<GENE id="G36" spans="5166~5171" text="TNF-α" location="result" />
+<GENE id="G37" spans="5192~5196" text="GPX3" location="result" />
+<GENE id="G38" spans="5252~5256" text="GPX3" location="background" />
+<GENE id="G39" spans="5283~5287" text="Nrf2" location="background" />
+<GENE id="G40" spans="5305~5310" text="TNF-α" location="background" />
+<GENE id="G41" spans="5360~5364" text="Nrf2" location="background" />
+<GENE id="G42" spans="5575~5580" text="TNF-α" location="background" />
+<GENE id="G43" spans="5584~5588" text="GPX3" location="background" />
+<GENE id="G44" spans="5635~5639" text="GPX3" location="background" />
+<GENE id="G45" spans="5676~5681" text="TNF-α" location="background" />
+<GENE id="G46" spans="5759~5763" text="GPX3" location="result" />
+<GENE id="G47" spans="5780~5785" text="TGF-β" location="result" />
+<GENE id="G48" spans="5818~5823" text="TGF-β" location="result" />
+<GENE id="G49" spans="5868~5872" text="GPX3" location="result" />
+<GENE id="G50" spans="5918~5922" text="GPX3" location="result" />
+<GENE id="G51" spans="5969~5974" text="TGF-β" location="result" />
+<GENE id="G52" spans="6004~6008" text="Nrf2" location="result" />
+<GENE id="G53" spans="6043~6047" text="Nrf2" location="result" />
+<GENE id="G54" spans="6162~6167" text="TGF-β" location="result" />
+<GENE id="G55" spans="6306~6311" text="TGF-β" location="result" />
+<GENE id="G56" spans="6503~6507" text="GPX3" location="result" />
+<GENE id="G57" spans="6617~6621" text="GPX3" location="result" />
+<GENE id="G58" spans="6626~6630" text="NQO1" location="result" />
+<GENE id="G59" spans="6735~6740" text="TGF-β" location="result" />
+<GENE id="G60" spans="6786~6790" text="GPX3" location="result" />
+<GENE id="G61" spans="6864~6868" text="GPX3" location="result" />
+<GENE id="G62" spans="6988~6993" text="TNF-α" location="result" />
+<GENE id="G63" spans="7019~7023" text="GPX3" location="result" />
+<GENE id="G64" spans="7157~7161" text="GPX3" location="result" />
+<GENE id="G65" spans="7431~7435" text="GPX3" location="result" />
+<GENE id="G66" spans="7769~7773" text="GPX3" location="result" />
+<GENE id="G67" spans="7930~7934" text="GPX3" location="result" />
+<GENE id="G68" spans="8120~8125" text="TGF-β" location="result" />
+<GENE id="G69" spans="8156~8161" text="TNF-α" location="result" />
+<GENE id="G70" spans="8193~8197" text="GPX3" location="result" />
+<DISEASE id="D0" spans="6~9" text="ILD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="292~305" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="341~352" text="sarcoidosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="395~398" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1078~1081" text="ILD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1150~1163" text="lung fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1197~1200" text="ILD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1340~1353" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1403~1406" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2178~2191" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2821~2834" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2842~2845" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2871~2882" text="sarcoidosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2981~2984" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="3244~3257" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="3267~3270" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="3330~3343" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="3591~3594" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="3781~3784" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="4072~4085" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="4386~4399" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="4567~4573" text="asthma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="4619~4622" text="ILD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="4684~4695" text="sarcoidosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="4756~4759" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="4817~4828" text="sarcoidosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="4838~4841" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D28" spans="4900~4903" text="IPF" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D29" spans="6805~6818" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D30" spans="7027~7030" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D31" spans="7069~7072" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D32" spans="7306~7309" text="ILD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D33" spans="7590~7615" text="chronic beryllium disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D34" spans="7617~7620" text="CBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D35" spans="4578~4603" text="chronic beryllium disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D36" spans="7690~7693" text="CBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D37" spans="8201~8214" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="238~247" text="increased" location="result" relation="increased expression" />
+<RELATION id="R1" spans="1325~1336" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R2" spans="1438~1450" text="upregulation" location="result" relation="increased expression" />
+<RELATION id="R3" spans="2149~2158" text="increased" location="result" relation="increased expression" />
+<RELATION id="R4" spans="3625~3660" text="levels were significantly increased" location="result" relation="increased expression" />
+<RELATION id="R5" spans="4524~4535" text="upregulated" location="result" relation="increased expression" />
+<RELATION id="R6" spans="4731~4744" text="higher levels" location="result" relation="increased expression" />
+<RELATION id="R7" spans="6776~6785,6791~6801" text="increased ... expression" location="result" relation="increased expression" />
+<RELATION id="R8" spans="8177~8189" text="upregulation" location="result" relation="increased expression" />
+<RELATION id="R9" spans="4092~4098,4118~4132" text="levels ... were increased" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="GPX3" diseaseID="D1" diseaseText="lung fibrosis" relationID="R0" relationText="increased" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="GPX3" diseaseID="D2" diseaseText="sarcoidosis" relationID="R0" relationText="increased" />
+<ENTITY_LINKING id="E2" geneID="G0" geneText="GPX3" diseaseID="D3" diseaseText="IPF" relationID="R0" relationText="increased" />
+<ENTITY_LINKING id="E3" geneID="G8" geneText="Gpx3" diseaseID="D7" diseaseText="lung fibrosis" relationID="R1" relationText="upregulated" />
+<ENTITY_LINKING id="E4" geneID="G9" geneText="GPX3" diseaseID="D8" diseaseText="IPF" relationID="R2" relationText="upregulation" />
+<ENTITY_LINKING id="E5" geneID="G14" geneText="GPX3" diseaseID="D9" diseaseText="lung fibrosis" relationID="R3" relationText="increased" />
+<ENTITY_LINKING id="E6" geneID="G24" geneText="GPX3" diseaseID="D17" diseaseText="IPF" relationID="R4" relationText="levels were significantly increased" />
+<ENTITY_LINKING id="E7" geneID="G31" geneText="GPX3" diseaseID="D21" diseaseText="asthma" relationID="R5" relationText="upregulated" />
+<ENTITY_LINKING id="E8" geneID="G31" geneText="GPX3" diseaseID="D35" diseaseText="chronic beryllium disease" relationID="R5" relationText="upregulated" />
+<ENTITY_LINKING id="E9" geneID="G32" geneText="GPX3" diseaseID="D25" diseaseText="ILD" relationID="R6" relationText="higher levels" />
+<ENTITY_LINKING id="E10" geneID="G60" geneText="GPX3" diseaseID="D29" diseaseText="lung fibrosis" relationID="R7" relationText="increased ... expression" />
+<ENTITY_LINKING id="E11" geneID="G70" geneText="GPX3" diseaseID="D37" diseaseText="lung fibrosis" relationID="R8" relationText="upregulation" />
+<ENTITY_LINKING id="E12" geneID="G29" geneText="Gpx3" diseaseID="D19" diseaseText="lung fibrosis" relationID="R9" relationText="levels ... were increased" />
+</TAGS>
+</Genomics_ConceptTask>

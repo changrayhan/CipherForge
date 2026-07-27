@@ -1,0 +1,11 @@
+2026-07-21 12:36:28,616 [INFO] biotriplex_finetune: Logging to /root/autodl-tmp/SLG-HE-PIR/baseline/generation_ner/logs/biotriplex_finetune_all_1784608588.log
+2026-07-21 12:36:28,617 [INFO] biotriplex_finetune: Task: generation, stage: all
+2026-07-21 12:36:28,617 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 12:36:28,617 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 12:36:28,617 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 12:36:28,617 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 12:36:30,652 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 12:36:38,655 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 8.0s
+2026-07-21 12:36:41,221 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 12:36:41,233 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 12:36:43,582 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin

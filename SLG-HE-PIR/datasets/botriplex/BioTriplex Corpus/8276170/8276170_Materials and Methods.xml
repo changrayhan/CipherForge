@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Ethics Statement
+Human clinical studies were approved by the Ethics Committee of the University of California, Irvine. All human studies were performed in strict adherence to the Institutional Review Board (IRB) guidelines of the University of California, Irvine (2009–7083).
+Data Availability Statement
+The data that supports the findings of this study are available in GEO at  http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc-GSE58375 , reference number GSE58375.
+RNA-Sequencing Analysis
+RNA-sequencing data were obtained from patient-matched advanced human BCC patients ( 22 ). RNA-sequencing data were aligned as previously described ( 22 ). The NCBI Reference Sequence databases were used as reference annotations to calculate the values of reads per kilobase of transcript per million mapped reads for known transcripts (RPKM). RPKM values were then log2-transformed, and heat map analysis was used to visualize the differential gene expression. Pathway enrichment terms from the RNA sequencing data were obtained using Enrichr ( 45 ).
+Human Samples
+Written informed consent was obtained for all archived human samples and was reviewed by the University of California, Irvine IRB. Human normal epidermis and BCC samples were collected from the UC Irvine Medical Center. Paraffinized samples were sectioned with a rotary microtome (Leica RM2155) at 7 μm for analysis. Samples were deparaffinized as described by Abcam, and antigen retrieval was performed using Tris-EDTA buffer (10 nM Tris base, 1 mM EDTA, 0.05% Tween-20, pH 9.0) at 60°C overnight.
+Cell Culture
+ASZ001 cells ( 46 ) were grown in 154CF medium (Life Technologies) containing 2% Fetal Bovine Serum (FBS; Life Technologies) chelated overnight with Chelex® 100 Resin (Bio-Rad), 1% Penicillin-Streptomycin (P/S; Life Technologies), and 0.07 mM CaCl 2 . NIH3T3 cells (ATCC, CRL-1658) were grown in DMEM medium (Life Technologies) containing 10% FBS and 1% Penicillin-Streptomycin.
+RT-qPCR
+ASZ001 cells at confluence were serum-starved with dimethyl sulfoxide (DMSO; Fisher Scientific) or varying concentrations of LY294002 (1 μM, 5 μM, 25 μM, and 100 μM; Fisher Scientific) or BKM120 (250 nM, 1.25 μM, 6.25 μM, and 31.25 μM; Fisher Scientific) for 24 hours. RNA was purified using Direct-zol RNA MiniPrep Plus (Zymo Research). Quantitative real-time polymerase chain reaction (RT-qPCR) was performed using the iTaq Universal SYBR Green 1-Step Kit (Bio-Rad) on the StepOnePlus Real-time PCR System (Applied BioSystem) using primers for  Gli1  (forward: 5’-GCAGGTG TGAGGCC AGGTAG TGACGA TG-3’, reverse: 5’-CGCGGG CAGCAC TGAGGA CTTGTC-3’) and  Gapdh  (forward: 5’-AATGAA TACGGC TACAGC AACAGG GTG-3’, reverse: 5’-AATTGT GAGGGA GATGCT CAGTGT TGGG-3’). Fold change in  Gli1  mRNA expression was measured using ΔΔCt analysis with  Gapdh  as an internal control. Experiments were run in triplicates and were repeated three times.
+MTT Assay
+ASZ001 cells were seeded at 2000 cells/well into 96-well plates. After 48 hours, cells were treated with DMSO or varying concentrations of LY294002 (1 μM, 5 μM, 25 μM, and 100 μM) or BKM120 (250 nM, 1.25 μM, 6.25 μM, and 31.25 μM) for 2, 4, and 6 days. Growth assays were performed with MTT (Sigma-Aldrich) per manufacturer’s protocol. Plates were analyzed using the BioTek uQuant MQX200 Microplate Reader (BioTek). Experiments were run in 6 wells and were repeated three times.
+Mice
+All mice were housed under standard conditions, and animal care was in compliance with the protocols approved by the Institutional Animal Care and Use Committee (IACUC) at the University of California, Irvine.  fl/fl ; Gli1-Cre ERT2 Ptch1  mice were administered with 100 μL of 10 mg/mL tamoxifen (Sigma) intraperitoneally for three consecutive days at six weeks of age. After five weeks when BCC microtumors have developed, mice were treated with 100 μL of DMSO or BKM120 (10 mg/kg) intraperitoneally for seven consecutive days. At the end of treatment, mice were euthanized and collected for their back skin. Collected skin samples were fixed with 4% paraformaldehyde (PFA; Electron Microscopy Sciences) for 30 minutes at room temperature, washed with DPBS (Life Technologies), immersed in 30% sucrose at 4°C overnight, and frozen in Tissue-Tek OCT Compound (Sakura Finetek). Samples were then cryo-sectioned using the CryoStar NX50 Cryostat (Thermo Fisher Scientific) at 14 μm for analysis. Five mice were used for each treatment condition.
+Microtumor Assessment
+Skin sections were stained with hematoxylin and eosin (H&E; Richard-Allan Scientific) per standardized protocol. Stained sections were imaged at 200x magnification using the AmScope microscope with the AmScope MU500B digital camera. Tumor sizes were measured using ImageJ. BCC tumors display characteristic features such as peripheral basal palisading and are connected to the upper and lower bulge of the hair follicle, but not the infundibulum or matrix cells of anagen hair follicles. Microtumors were assessed as the total tumor size per square area. More than 50 tumors were measured from each of the five mice. Palpable macrotumors do not form in this genetic background unless additional genetic insults occur.
+Immunofluorescence
+Skin sections were blocked using 10% Bovine Serum Albumin (BSA; Fisher Scientific) and 0.1% Triton X-100 (Fisher Scientific) in DPBS for 1 hour at room temperature. Sections were immunostained per standardized protocol using the following antibody dilutions: rabbit anti-PI3K (1:100, Abcam, ab40776), rabbit anti-GLI1 (1:500, Santa Cruz Biotechnology, sc-20687), rabbit anti-p-T304 GLI1 (1:200) ( 47 ), rabbit anti-AKT (1:400, Cell Signaling, 4691S), rabbit anti-p-T308 AKT (1:400, Cell Signaling, 13038S), rabbit anti-p21 (1:250, Cell Signaling, 2947S), and rabbit anti-p-T145 p21 (1:250, GeneTex, GTX32376). Sections were mounted in Prolong Diamond AntiFade Mountant with DAPI (Invitrogen). Immunostained sections were imaged using the Zeiss LSM700 confocal microscope (Zeiss) with 63x oil immersion objective. Pixel intensities were measured and averaged over five distinct tumors for each skin section using ImageJ. Images were arranged using ImageJ and Adobe Illustrator.
+Statistics
+Statistical analyses were done with two-tailed t-test or one-way and two-way ANOVA using GraphPad Prism.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2504~2508" text="Gli1" location="result" />
+<GENE id="G1" spans="2609~2614" text="Gapdh" location="result" />
+<GENE id="G2" spans="2731~2735" text="Gli1" location="result" />
+<GENE id="G3" spans="2792~2797" text="Gapdh" location="result" />
+<GENE id="G4" spans="3603~3607" text="Gli1" location="result" />
+<GENE id="G5" spans="3617~3622" text="Ptch1" location="result" />
+<GENE id="G6" spans="5500~5504" text="GLI1" location="result" />
+<GENE id="G7" spans="5564~5568" text="T304" location="result" />
+<GENE id="G10" spans="5706~5709" text="p21" location="result" />
+<GENE id="G12" spans="5765~5768" text="p21" location="result" />
+<DISEASE id="D0" spans="562~565" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1216~1219" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="3777~3780" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="4723~4726" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

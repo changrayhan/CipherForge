@@ -1,0 +1,16 @@
+[compat] patched inspect.getsourcefile/getabsfile to swallow AttributeError/TypeError on non-string filename (torch.library + bitsandbytes + py3.12 fix)
+[compat] stubbed bitsandbytes to bypass broken torch.library register_fake on Python 3.12 (bf16 LoRA path doesn't use bnb)
+[compat] WARNING: could not patch peft bnb probes: No module named 'peft'
+[compat] WARNING: cannot import modeling_llama: No module named 'transformers'
+[compat] accelerate stub error: No module named 'accelerate'
+/root/miniconda3/lib/python3.12/importlib/__init__.py:90: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  return _bootstrap._gcd_import(name[level:], package, level)
+[compat] stubbed 10 missing llama_recipes.datasets modules (import-time pacifier, never used at runtime)
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "recipes/quickstart/finetuning/finetuning.py", line 4, in <module>
+    import fire
+ModuleNotFoundError: No module named 'fire'

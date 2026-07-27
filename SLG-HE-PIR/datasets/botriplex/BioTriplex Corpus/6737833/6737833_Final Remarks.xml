@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Flow cytometry has been central to enhancing our understanding of PIDs. It has enabled diagnoses and provided mechanistic insights into disease pathogenesis in many PIDs. For example, the severe reduction in Th17 cells and memory B cells in  STAT3 DN ,  ZNF341 -, and  DOCK8 -deficient patients explains susceptibility to recurrent opportunistic bacterial and fungal infections, and impaired long-lived protective humoral immunity, respectively. While our focus has been on lymphocyte populations, flow cytometry has been used to identify other populations such as monocytes (CD14 + ), dendritic cell (DC) subsets [plasmacytoid DCs (pDCs; lineage − HLA-DR + CD123 + ), CD1c +  myeloid DCs (CD1c +  mDCs; lineage − HLA-DR + CD11c + CD1c + ), and CD141 +  mDC (CD141 +  mDC; lineage − HLA-DR + CD11c + CD141 + )], and innate lymphoid cells [(ILCs), ILC1, ILC2, and ILC precursors (ILCPs)]. Beyond deep immunophenotypic analysis by examining expression of specific cell surface molecules, flow cytometry has also been used to diagnose PIDs by assessing expression of specific intracellular proteins (SAP, DOCK8, XIAP, BTK) as well as quantifying cytokine-induced STAT phosphorylation and Ag-receptor induced calcium flux. As we move toward the next generation of flow cytometers, which are capable of simultaneously detecting upward of 28 fluorochromes, the future is looking brighter, fluorescent even, in terms of the applicability of flow cytometry in the study and diagnosis of PIDs.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="243~248" text="STAT3" location="background" />
+<GENE id="G1" spans="255~261" text="ZNF341" location="background" />
+<GENE id="G2" spans="270~275" text="DOCK8" location="background" />
+<GENE id="G3" spans="577~581" text="CD14" location="background" />
+<GENE id="G4" spans="659~664" text="CD123" location="background" />
+<GENE id="G5" spans="670~673" text="CD1" location="background" />
+<GENE id="G6" spans="691~694" text="CD1" location="background" />
+<GENE id="G7" spans="724~728" text="CD11" location="background" />
+<GENE id="G8" spans="732~735" text="CD1" location="background" />
+<GENE id="G9" spans="746~751" text="CD141" location="background" />
+<GENE id="G10" spans="760~765" text="CD141" location="background" />
+<GENE id="G11" spans="793~797" text="CD11" location="background" />
+<GENE id="G12" spans="801~806" text="CD141" location="background" />
+<GENE id="G13" spans="848~852" text="ILC1" location="background" />
+<GENE id="G14" spans="854~858" text="ILC2" location="background" />
+<GENE id="G15" spans="1098~1101" text="SAP" location="background" />
+<GENE id="G16" spans="1103~1108" text="DOCK8" location="background" />
+<GENE id="G17" spans="1110~1114" text="XIAP" location="background" />
+<GENE id="G18" spans="1116~1119" text="BTK" location="background" />
+<DISEASE id="D0" spans="67~70" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="166~169" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1033~1036" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1480~1483" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

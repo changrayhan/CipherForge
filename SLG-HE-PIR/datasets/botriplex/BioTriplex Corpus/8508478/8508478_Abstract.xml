@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Dietary Acid Load Is Positively Associated with the Incidence of Hyperuricemia in Middle-Aged and Older Korean Adults: Findings from the Korean Genome and Epidemiology Study.
+Abstract: Hyperuricemia has been associated with a number of chronic diseases, such as type 2 diabetes mellitus, hypertension, and cardiovascular diseases. Dietary acid load plays a key role in regulating uric acid levels. We hypothesized that potential renal acid load (PRAL) and net endogenous acid production (NEAP) score would be positively associated with the incidence of hyperuricemia. Data from the Health Examinees study, a part of the Korean Genome and Epidemiology Study were used. The PRAL and NEAP scores were calculated to evaluate the dietary acid load. Hyperuricemia was defined as follows: >7.0 mg/dL and >6.0 mg/dL of serum uric acid levels in men and women, respectively. Multivariable Cox proportional hazard models were used to estimate hazard ratios (HRs) and 95% confidence intervals (CIs) for the incidence of hyperuricemia. We identified 2500 new cases of hyperuricemia during a mean follow-up of 5.0 years (223,552 person years). The participants in the highest quartiles of the PRAL and NEAP score had 21% (HR: 1.21, 95% CI: 1.07–1.35,  p  for trend <0.0001) and 17% (HR: 1.17, 95% CI: 1.04–1.31,  p  for trend <0.0001) higher risks for hyperuricemia, respectively, than those in the lowest quartiles, after adjusting for covariates. In this prospective cohort study, a higher dietary acid load was positively associated with a higher incidence of hyperuricemia in Korean adults. This suggests that an alkaline diet may be an effective strategy to reduce the future risk of elevated uric acid levels.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="73~86" text="Hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D1" spans="193~206" text="Hyperuricemia" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D2" spans="270~294" text="type 2 diabetes mellitus" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="296~308" text="hypertension" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D4" spans="561~574" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D5" spans="752~765" text="Hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D6" spans="1017~1030" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D7" spans="1064~1077" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D8" spans="1347~1360" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D9" spans="1558~1571" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Mining of Characteristic Immune-Related Genes Based on the Survival and Prognosis Results of Lung Adenocarcinoma Patients
+First, a series of data downloaded from TCGA and ImmPort databases were pre-processed (see Materials and Methods). Survival data for each immune-related gene were subjected to univariate Cox proportional hazards regression model analysis using the survival coxph function of the R package, with the significance threshold set as  p  < 0.05, as shown in  Table S7 . Eventually, 134 immune-related genes that were significantly differentially expressed with respect to prognosis were discovered, and the top 20 are shown in  Table 1 . Similarly, our results indicated that, T, N, and stage were also significantly correlated with prognosis, with log-rank  p -values of 0.0002, 9.371E−06, and 2.15E−08, respectively ( Table 2 ). Moreover, the univariate Cox model was used to select significant immune-related genes for multivariate Cox proportional hazards regression model analysis, with T, N, and stage used as the co-variants for this model. Finally, 64 significant immune-related genes were obtained (see  Table S8 ), and immune-related genes ( n  = 64) from the training set samples that were significant based on both univariate and multivariate analyses were selected as characteristic biomarkers for further analysis.
+
+           Table 1 
+           Top 20 immune-related genes regarding prognosis. 
+           
+             
+           Genes 
+                 
+                   
+                 Symbol 
+                 
+                   
+                 p  value 
+                 
+                   
+                 HR 
+                 
+                   
+                 Low 95%CI 
+                 
+                   
+                 High 95%CI 
+                 
+                   
+               
+                 
+             
+               
+             ENSG00000111321.9 
+                 AC005840.1 
+                 3.92E−08 
+                 1.0105 
+                 1.0068 
+                 1.0144 
+               
+                 
+               ENSG00000067182.6 
+                 TNFRSF1A 
+                 1.35E−07 
+                 1.0075 
+                 1.0047 
+                 1.0103 
+               
+                 
+               ENSG00000172819.15 
+                 RARG 
+                 1.52E−07 
+                 1.0207 
+                 1.0129 
+                 1.0286 
+               
+                 
+               ENSG00000197747.7 
+                 S100A10 
+                 4.96E−07 
+                 1.0006 
+                 1.0004 
+                 1.0009 
+               
+                 
+               ENSG00000107984.8 
+                 DKK1 
+                 1.88E−06 
+                 1.0054 
+                 1.0031 
+                 1.0076 
+               
+                 
+               ENSG00000188643.9 
+                 S100A16 
+                 7.47E−06 
+                 1.0011 
+                 1.0006 
+                 1.0016 
+               
+                 
+               ENSG00000087191.11 
+                 PSMC5 
+                 1.13E−05 
+                 1.0136 
+                 1.0075 
+                 1.0198 
+               
+                 
+               ENSG00000185033.13 
+                 SEMA4B 
+                 4.28E−05 
+                 1.0026 
+                 1.0013 
+                 1.0038 
+               
+                 
+               ENSG00000108671.8 
+                 PSMD11 
+                 4.46E−05 
+                 1.0110 
+                 1.0057 
+                 1.0163 
+               
+                 
+               ENSG00000006831.9 
+                 ADIPOR2 
+                 6.08E−05 
+                 1.0159 
+                 1.0081 
+                 1.0238 
+               
+                 
+               ENSG00000163191.5 
+                 S100A11 
+                 7.34E−05 
+                 1.0002 
+                 1.0001 
+                 1.0003 
+               
+                 
+               ENSG00000174564.11 
+                 IL20RB 
+                 7.38E−05 
+                 1.0092 
+                 1.0046 
+                 1.0139 
+               
+                 
+               ENSG00000150630.3 
+                 VEGFC 
+                 0.000148 
+                 1.0105 
+                 1.0050 
+                 1.0159 
+               
+                 
+               ENSG00000011422.10 
+                 PLAUR 
+                 0.000281 
+                 1.0072 
+                 1.0033 
+                 1.0111 
+               
+                 
+               ENSG00000101000.4 
+                 PROCR 
+                 0.000312 
+                 1.0051 
+                 1.0023 
+                 1.0080 
+               
+                 
+               ENSG00000160691.17 
+                 SHC1 
+                 0.000379 
+                 1.0027 
+                 1.0012 
+                 1.0042 
+               
+                 
+               ENSG00000184009.8 
+                 ACTG1 
+                 0.00058 
+                 1.0001 
+                 1.0000 
+                 1.0002 
+               
+                 
+               ENSG00000213281.4 
+                 NRAS 
+                 0.000666 
+                 1.0111 
+                 1.0047 
+                 1.0176 
+               
+                 
+               ENSG00000167772.10 
+                 ANGPTL4 
+                 0.000838 
+                 1.0027 
+                 1.0011 
+                 1.0043 
+               
+                 
+               ENSG00000095539.14 
+                 SEMA4G 
+                 0.000883 
+                 1.0199 
+                 1.0081 
+                 1.0319 
+               
+                 
+             
+               
+           
+             
+        
+
+           Table 2 
+           Prognostic differences among clinical features. 
+           
+             
+           Clinical features 
+                 
+                   
+                 Sample size/death 
+                 
+                   
+                 p- value Log rank  
+                 
+                   
+               
+                 
+             
+               
+             T 
+                 249/95 
+                 0.0002 
+               
+                 
+               N 
+                 245/94 
+                 9.371E−06 
+               
+                 
+               M 
+                 183/77 
+                 0.1468 
+               
+                 
+               Stage 
+                 248/94 
+                 2.15E−08 
+               
+                 
+               Age 
+                 347/93 
+                 0.9433 
+               
+                 
+               Gender 
+                 250/95 
+                 0.1767 
+               
+                 
+             
+               
+           
+             
+        
+Employing Immune-Related Genes for Hierarchical Clustering of Lung Adenocarcinoma Subtypes and Clinical Feature Analysis
+Pheatmap from the R software package was used for hierarchical cluster analysis of the immune-related genes that were significant based on both single-factor and multi-factor analyses, and similarity distances between samples were calculated according to the Euclidean distance, as shown in  Figure 1A . These samples could be mainly clustered into two clusters, namely, Cluster1 and Cluster2. Among them, the proportion of samples associated with lymph node metastasis from Cluster1 was 47%, whereas that in Cluster2 was 26%; the difference between these two clusters was significant (chi-square test,  p  < 0.001). The proportion of samples exhibiting T1 invasion in Cluster1 was 22.6%, whereas that in Cluster2 was 39.8%, and this difference was also statistically significant (chi-square test,  p  < 0.001). The proportion of early-stage samples (Stage I and Stage II) in Cluster1 was 72.3%, whereas that in Cluster2 was 84.8%, and this difference was statistically significant (chi-square test,  p  < 0.001). Furthermore, the difference in prognosis between Cluster1 and Cluster2 was also analyzed, as presented in  Figure 1B . There was also a significant difference in their prognoses ( p  < 0.001). These results suggested that immune-related genes could be used to predict prognosis in lung adenocarcinoma patients.
+Screening of Prognosis-Specific Immune-Related Genes and Construction of the Prognosis Prediction Model
+At present, 64 immune-related genes have been recognized, which can be used to predict and distinguish prognostic differences between Cluster1 and Cluster2; however, this large number represents a disadvantage for clinical detection. Therefore, the number of immune-related genes was further narrowed such that high accuracy was maintained. The LASSO algorithm is a shrinkage estimate that can be used to construct a penalty function and obtain a relatively refined model; here, some coefficients can be shrunk and some are set to zero. Consequently, it preserves the advantages of subset shrinkage and is a biased estimate that can be utilized to process the multi-collinear data, which can estimate parameters while realizing variable selection, thus solving the multi-collinearity issue in regression analysis. In this study, glmnet from the R software package was used for LASSO Cox regression analysis. First, the change in trajectory of each independent variable was analyzed, as presented in  Figure 2A , and this suggested that more independent variables had coefficients approaching zero with a gradual increase in lambda. Moreover, 3-fold cross-validation was also employed for model construction, and the confidence interval under each lambda is presented in  Figure 2B . This revealed that the optimal model could be attained at lambda = 0.0711. As a result, this value was selected as the final model, which included 14 genes, and the model formula is shown in section Materials and Methods.
+Based on this, samples in each training set were substituted into the formula to calculate the sample RiskScore. The RiskScore distribution of Cluster1 and Cluster2 was then plotted, as shown in  Figure 3A . It can be observed that the RiskScore in Cluster1 samples was generally greater than that in Cluster2 samples, whereas the OS in Cluster1 samples was remarkably lower than that in Cluster2, suggesting that samples with a high RiskScore had a poorer prognosis. Further, survivalROC of the R software package was adopted to perform ROC analysis of the prognostic classification of RiskScore. The 1-, 3-, 5-, and 10-years prognosis prediction classification efficiencies were analyzed, as shown in  Figure 3B . It could be seen that the model demonstrated a high area under the curve (AUC), with an average value > 0.8.
+Functional Annotations of Prognosis-Specific Immune-Related Genes and Signaling Pathway Enrichment 1
+The immune relationships among these 14 genes were then analyzed, as shown in  Table 3 . It could be observed that 8 (57%) were related to Cytokine_Receptors. Subsequently, clusterProfiler of the R software package was used to perform KEGG enrichment analysis of these 14 genes with a threshold of  p  < 0.05. Finally, 10 significantly enriched pathways were obtained, as presented in  Figure 4 . Six genes were enriched in the cytokine–cytokine receptor interactions, whereas three were enriched in human T-cell leukemia virus 1 infection.
+
+           Table 3 
+           The immune relationships of the 14 genes. 
+           
+             
+           ENSG 
+                 
+                   
+                 Symbol 
+                 
+                   
+                 Name 
+                 
+                   
+                 Category 
+                 
+                   
+               
+                 
+             
+               
+             ENSG00000108671 
+                 PSMD11 
+                 Proteasome (prosome, macropain) 26s subunit, non-atpase, 11 
+                 Antigen_Processing_and_Presentation 
+               
+                 
+               ENSG00000196262 
+                 PPIA 
+                 Peptidylprolyl isomerase a (cyclophilin a) 
+                 Antimicrobials 
+               
+                 
+               ENSG00000240972 
+                 MIF 
+                 Macrophage migration inhibitory factor (glycosylation-inhibiting factor) 
+                 Antimicrobials 
+               
+                 
+               ENSG00000112175 
+                 BMP5 
+                 Bone morphogenetic protein 5 
+                 Cytokines 
+               
+                 
+               ENSG00000107984 
+                 DKK1 
+                 Dickkopf homolog 1 (xenopus laevis) 
+                 Cytokines 
+               
+                 
+               ENSG00000100311 
+                 PDGFB 
+                 Platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog) 
+                 Cytokines 
+               
+                 
+               ENSG00000167772 
+                 ANGPTL4 
+                 Angiopoietin-like 4 
+                 Cytokine_Receptors 
+               
+                 
+               ENSG00000115590 
+                 IL1R2 
+                 Interleukin 1 receptor, type ii 
+                 Cytokine_Receptors 
+               
+                 
+               ENSG00000174564 
+                 IL20RB 
+                 Interleukin 20 receptor beta 
+                 Cytokine_Receptors 
+               
+                 
+               ENSG00000111321 
+                 LTBR 
+                 Lymphotoxin beta receptor (tnfr superfamily, member 3) 
+                 Cytokine_Receptors 
+               
+                 
+               ENSG00000258839 
+                 MC1R 
+                 Melanocortin 1 receptor (alpha melanocyte stimulating hormone receptor) 
+                 Cytokine_Receptors 
+               
+                 
+               ENSG00000151090 
+                 THRB 
+                 Thyroid hormone receptor, beta (erythroblastic leukemia viral (v-erb-a) oncogene homolog 2, avian) 
+                 Cytokine_Receptors 
+               
+                 
+               ENSG00000048462 
+                 TNFRSF17 
+                 Tumor necrosis factor receptor superfamily, member 17 
+                 Cytokine_Receptors 
+               
+                 
+               ENSG00000067182 
+                 TNFRSF1A 
+                 Tumor necrosis factor receptor superfamily, member 1a 
+                 Cytokine_Receptors 
+               
+                 
+             
+               
+           
+             
+        
+Correlation Between the RiskScore and the Clinical Features of Training Set Samples and Signaling Pathways
+First, the difference in the prediction accuracy between the RiskScore-based prognosis prediction model and the clinical feature-based model was compared. Specifically, the differences in prognosis prediction were analyzed from single-factor and multi-factor points of view based on age, sex, stage, T and N values, and RiskScore. The results are presented in  Table 4  and suggest that the RiskScore had the smallest significant predictive  p  value.
+
+           Table 4 
+           Multivariable Cox regression analysis. 
+           
+             
+           
+                 p  value 
+                 
+                   
+                 HR 
+                 
+                   
+                 Low 95% CI 
+                 
+                   
+                 High 95% CI 
+                 
+                   
+               
+                 
+             
+               
+             14-immune-related genes risk score 
+                 3.77E−15 
+                 5.7654 
+                 3.7256 
+                 8.9221 
+               
+                 
+               Age 
+                 0.9432 
+                 1.0008 
+                 0.9778 
+                 1.0244 
+               
+                 
+               Gender 
+                 0.1780 
+                 1.3193 
+                 0.8814 
+                 1.9748 
+               
+                 
+               AJCC stage 
+                 
+                 
+                 
+                 
+               
+                 
+               Stage I–II vs III–IV 
+                 6.34E−06 
+                 2.8262 
+                 1.800 
+                 4.4371 
+               
+                 
+               AJCC stage T 
+                 
+                 
+                 
+                 
+               
+                 
+               T1-vs-T2 
+                 0.4913 
+                 1.1817 
+                 0.7345 
+                 1.9011 
+               
+                 
+               T1-vs-T3 
+                 0.0014 
+                 1.7572 
+                 1.2421 
+                 2.4860 
+               
+                 
+               T1-vs-T4 
+                 0.0464 
+                 1.5087 
+                 1.0065 
+                 2.2617 
+               
+                 
+               AJCC stage N 
+                 
+                 
+                 
+                 
+               
+                 
+               N0 vs N1–N3 
+                 1.86E−06 
+                 2.7910 
+                 1.8304 
+                 4.2558 
+               
+                 
+             
+               
+           
+             
+        
+Subsequently, the RiskScore distribution among different clinical stages, invasion degrees, and lymph node metastasis degrees was analyzed, as shown in  Figure 5 . The RiskScores among different stages were statistically significant, and a higher stage was associated with a higher RiskScore. Similar phenomena could also be observed for invasion degree and lymph node metastasis degree, which revealed that the RiskScore was potentially associated with the clinical stage.
+Furthermore, the stage was incorporated into the model to construct the multivariate regression model. The 5-year survival predicted ROC curves of the three single models, namely, stage, RiskScore, and stage+RiskScore, were compared as presented in  Figure 6A . Clearly, the AUC values followed the order stage+RiskScore > RiskScore > stage, and the stage+RiskScore value was significantly higher than those in the other two models. The respective median RiskScores of the three models were then used as thresholds to divide the samples into high- and low-risk groups, and a K–M curve was plotted, as shown in  Figures 6B–D . Obviously, the stage+RiskScore model was associated with the most significant difference in prognosis. Based on this, the clinical features including age, sex, T, N, and stage were combined with the RiskScore to construct the nomogram model and to plot the 1-, 3-, and 5-years survival predicted by the ROC curves ( Figures 7A–C ).
+Finally, the ssGSEA function of GSVA in the R software package was used to analyze the KEGG functional enrichment score of each sample in the training set. The respective correlations with RiskScores were also calculated based on the enrichment score of each pathway in each sample, and the top 20 most related KEGG pathways were selected. Clustering analysis was performed according to enrichment scores, as presented in  Figure 8A . Clearly, most samples were enriched in pathways closely correlated with tumorigenesis, such as P53, cell cycle, and DNA repair. These pathways could group the samples into two clusters, namely, Cluster1 and Cluster2. The RiskScore of Cluster2 was higher than that of Cluster1 and the RiskScore distribution of the two clusters was analyzed, as displayed in  Figure 8C . The RiskScore of Cluster2 samples was remarkably higher than that of Cluster1. Meanwhile, the correlations between these 20 pathways and RiskScore are presented in  Figure 8B . Based on this, seven pathways had a negative correlation, whereas 13 had a positive correlation, with an average correlation coefficient of 0.388.
+Test Set Sample Verification
+Subsequently, to further verify the stability and reliability of the prognostic prediction model, expression profile data of these 14 genes were extracted from the test set and substituted into the model for verification. The RiskScore of each sample was calculated, and the ROC curves were plotted based on these values; as presented in  Figure 9A , the AUC was > 0.7. Furthermore, the median was used to divide the samples into high- and low-risk groups and to analyze the difference in prognosis between the two groups, as presented in  Figure 9B . Clearly, there was a significant difference in prognosis between these two clusters with a  p -value of 0.00563. Moreover, the prognosis for low-risk samples was remarkably superior to that for the other samples, which was consistent with the training set data. In summary, the prognosis model constructed based on the expression profiles of these 14 prognosis-specific immune-related genes had high predictive accuracy and stability to identify immune features.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2143~2151" text="TNFRSF1A" location="result" />
+<GENE id="G1" spans="2341~2345" text="RARG" location="result" />
+<GENE id="G2" spans="2534~2541" text="S100A10" location="result" />
+<GENE id="G3" spans="2730~2734" text="DKK1" location="result" />
+<GENE id="G4" spans="2923~2930" text="S100A16" location="result" />
+<GENE id="G5" spans="3120~3125" text="PSMC5" location="result" />
+<GENE id="G6" spans="3315~3321" text="SEMA4B" location="result" />
+<GENE id="G7" spans="3510~3516" text="PSMD11" location="result" />
+<GENE id="G8" spans="3705~3712" text="ADIPOR2" location="result" />
+<GENE id="G9" spans="3901~3908" text="S100A11" location="result" />
+<GENE id="G10" spans="4098~4104" text="IL20RB" location="result" />
+<GENE id="G12" spans="4488~4493" text="PLAUR" location="result" />
+<GENE id="G13" spans="4682~4687" text="PROCR" location="result" />
+<GENE id="G14" spans="4877~4881" text="SHC1" location="result" />
+<GENE id="G15" spans="5070~5075" text="ACTG1" location="result" />
+<GENE id="G16" spans="5263~5267" text="NRAS" location="result" />
+<GENE id="G17" spans="5457~5464" text="ANGPTL4" location="result" />
+<GENE id="G18" spans="5654~5660" text="SEMA4G" location="result" />
+<GENE id="G19" spans="11920~11926" text="PSMD11" location="result" />
+<GENE id="G20" spans="12143~12147" text="PPIA" location="result" />
+<GENE id="G21" spans="12326~12329" text="MIF" location="result" />
+<GENE id="G22" spans="12538~12542" text="BMP5" location="result" />
+<GENE id="G23" spans="12166~12192" text="Peptidylprolyl isomerase a" location="result" />
+<GENE id="G24" spans="12194~12207" text="cyclophilin a" location="result" />
+<GENE id="G25" spans="11945~12004" text="Proteasome (prosome, macropain) 26s subunit, non-atpase, 11" location="result" />
+<GENE id="G26" spans="12348~12386" text="Macrophage migration inhibitory factor" location="result" />
+<GENE id="G27" spans="12561~12589" text="Bone morphogenetic protein 5" location="result" />
+<GENE id="G28" spans="12702~12706" text="DKK1" location="result" />
+<GENE id="G29" spans="12873~12878" text="PDGFB" location="result" />
+<GENE id="G30" spans="12897~12992" text="Platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog)" location="result" />
+<GENE id="G31" spans="13105~13112" text="ANGPTL4" location="result" />
+<GENE id="G32" spans="13131~13150" text="Angiopoietin-like 4" location="result" />
+<GENE id="G33" spans="13272~13277" text="IL1R2" location="result" />
+<GENE id="G35" spans="13449~13455" text="IL20RB" location="result" />
+<GENE id="G37" spans="13474~13502" text="Interleukin 20 receptor beta" location="result" />
+<GENE id="G38" spans="13624~13628" text="LTBR" location="result" />
+<GENE id="G39" spans="13647~13701" text="Lymphotoxin beta receptor (tnfr superfamily, member 3)" location="result" />
+<GENE id="G40" spans="13823~13827" text="MC1R" location="result" />
+<GENE id="G41" spans="13846~13917" text="Melanocortin 1 receptor (alpha melanocyte stimulating hormone receptor)" location="result" />
+<GENE id="G42" spans="14039~14043" text="THRB" location="result" />
+<GENE id="G43" spans="14062~14160" text="Thyroid hormone receptor, beta (erythroblastic leukemia viral (v-erb-a) oncogene homolog 2, avian)" location="result" />
+<GENE id="G44" spans="14282~14290" text="TNFRSF17" location="result" />
+<GENE id="G45" spans="14309~14362" text="Tumor necrosis factor receptor superfamily, member 17" location="result" />
+<GENE id="G46" spans="14484~14492" text="TNFRSF1A" location="result" />
+<GENE id="G47" spans="14511~14564" text="Tumor necrosis factor receptor superfamily, member 1a" location="result" />
+<GENE id="G48" spans="4293~4298" text="VEGFC" location="result" />
+<GENE id="G49" spans="13296~13327" text="Interleukin 1 receptor, type ii" location="result" />
+<DISEASE id="D0" spans="94~113" text="Lung Adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

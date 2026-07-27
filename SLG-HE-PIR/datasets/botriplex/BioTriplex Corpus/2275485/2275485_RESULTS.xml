@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Patients
+A total of 68 prostate cancer patients (diagnosed between 1984 and 2000) were included in this study with matched hormone-sensitive (hormone-sensitive tissue was obtained from 26 patients by TRUS-guided biopsy and the remaining 42 by TURP) and -refractory prostate tumours (all obtained by TURP) available for analysis (136 tumours in total). Patients in this cohort were diagnosed with locally advanced (50) or metastatic prostate cancer (18) and subsequently received surgery and androgen deprivation therapy (26 subcapsular bilateral orchidectomy, 44 GnRH analogue and 2 had both). Forty-five of the sixty-eight patients also received antiandrogen therapy, and this included all those who received GnRH analogues. At initial diagnosis, the median age was 70 (66–74) years and 26% of patients had metastatic disease. The median time to biochemical relapse was 2.32 (1.48–4.00) years, and the percentage of patients with metastatic disease had increased to 57%. Sixty-one patients (89.7%) died during follow-up and median survival for these patients was 4.34 (2.94–6.63) years. Seven patients were alive at last follow-up; the median time of follow-up for all 68 patients was 4.34 (2.86–6.74) years.
+Protein expression patterns
+Akt1, pAkt 473  and pmTOR 2448  protein expression was observed in the cell membrane, cytoplasm or nucleus. mTOR expression was observed at the membrane and cytoplasm, and PI3K, Akt2 and Akt3 expression was observed only in the cytoplasm. Nuclear expression was observed for pAR 210  ( Figure 1 ;  Table 1 ). To assess the level of agreement between observers, ICCCs were calculated for each antibody at each location using SPSS; all ICCC values in this study were >0.7 (which is classed as excellent) ( Table 1 ).
+
+           Protein expression levels and changes in protein expression 
+           Table 1 ). The Wilcoxon signed-rank test was used to compare expression levels in the hormone-sensitive tumours compared to hormone-refractory tumours. Using this method, only pAR 210  significantly increased with the development of hormone-refractory disease. The median expression of pAR 210  in hormone-sensitive tumours was 35 (0–85) increasing to 103 (50–169) in hormone-refractory tumours ( P <0.0001) ( Table 1 ). This demonstrates an increase in AR phosphorylation at the Akt consensus site in the transition from hormone-sensitive to -refractory disease. The median expression levels for all proteins investigated were calculated for hormone-sensitive and -refractory tumours ( 
+           Table 1 ). Using this technique, it was observed that 42% of patients investigated in this study had an increase in pAR 210  expression in the transition from hormone-sensitive to -refractory disease ( Figure 1 ). The nature of our cohort, however (matched hormone-sensitive and -refractory tumours for each patient), allowed us to establish if there was a change in protein expression levels in the transition from hormone-sensitive to -refractory disease for each individual patient. By examining the change in protein expression for each patient, we were able to create subgroups of patients whose tumours exhibited either a fall or rise in protein expression for all proteins investigated ( 
+        
+
+           Are protein expression levels in hormone-sensitive or -refractory tumours associated with relapse or survival? 
+           Table 1 . When expression levels of each protein investigated in the hormone-sensitive tumours were divided into high or low expression (levels above or below the median), none of the proteins investigated were associated with time to relapse or disease-specific survival. The histoscores used as a cutoff for each analysis was the median histoscore; the median histoscore for each protein investigated is given in  
+           210  was associated with quicker time to death from relapse ( Figure 2A ;  P =0.003, HR=2.85 (95% CI: 1.38–5.87)) and quicker disease-specific survival ( Figure 2B ;  P =0.0136, HR=2.33 (95% CI: 1.16–4.66). Median survival from time of relapse for those patients with tumours that expressed low levels of pAR 210  was 3.42 (IQR: 2.82–4.02) years compared to 1.40 (IQR: 0.85–1.95) years for those who had tumours that expressed high levels of pAR 210 , and the median disease-specific survival for those patients with tumours that expressed low levels of pAR 210  was 8.57 (IQR: 5.41–11.73) years compared to 5.82 (IQR: 3.18–8.46) years for those who had tumours that expressed high levels of pAR 210 . This represents a survival difference of almost 3 years for patients expressing high levels of pAR 210  in their hormone-refractory tumour. When expression levels of each protein investigated in the hormone-refractory tumours were divided into high or low expression (levels above or below the median), only pAR 
+        
+
+           Are changes in protein expression in the transition from hormone-sensitive to -refractory disease associated with relapse or survival? 
+           Table 1 . Using this method, an increase in PI3K ( Figure 3A ;  P =0.014, HR=2.11 (95% CI: 1.14–3.91)) was associated with quicker time to relapse. The median time to relapse for those patients whose tumours have a decrease or no change in PI3K expression was 2.57 (IQR: 1.74–3.40) years compared to 1.36 (IQR: 1.20–2.72) years for those patients whose tumours had an increase in PI3K expression. When expression levels in hormone-sensitive or -refractory tumours were used to investigate a link between activation of the PI3K pathway and development of hormone-refractory disease, only AR phosphorylated at the Akt consensus site was associated with survival. However due to the nature of the current cohort, we were also able to investigate if those patients whose tumours exhibit an increase or rise in expression of members of the pathway in the transition from hormone-sensitive to -refractory disease were more likely to relapse or die quicker. The cutoff histoscore selected to separate subgroups of patients is displayed in  
+           210  ( Figure 3B ;  P <0.0001, HR=4.18 (95% CI: 1.99–8.74)) was associated with quicker time to death from relapse, the median survival from biochemical relapse for those patients whose tumours had a decrease or no change in pAR 210  expression was 3.46 (IQR: 1.39–5.53) years compared to 1.25 (IQR: 0.83–1.67) years for those patients whose tumours had an increase in pAR 210  expression. A rise in pAR 
+           473  ( Figure 3C ;  P =0.0019, HR=2.89 (95% CI: 1.43–5.8)) and pAR 210  ( Figure 3D ;  P =0.0015, HR=2.86 (95% CI: 1.45–5.67)) were associated with shorter disease-specific survival. The median survival from diagnosis for those patients whose tumours had no change or decrease in pAkt 473  was 6.68 (IQR: 6.22–7.14) years compare to 4.15 (IQR: 2.65–65) years for those patients whose tumours had an increase in pAkt 473  expression, and the median survival from diagnosis for those patients whose tumours had a decrease or no change in expression of pAR 210  was 6.95 (IQR: 4.07–9.83) years compared to 4.36 (IQR: 1.67–7.10) years for those patients whose tumours had an increase in pAR 210  expression. Therefore, an increase in expression in the transition from hormone-sensitive to -refractory disease of phosphorylated members of this pathway was associated with a reduction in median survival of 2.5–3 years. A rise in pAkt 
+        
+
+           Correlations between active members of the pathway 
+           Figure 4A ). However, in the hormone-refractory tumours pAkt 473  correlated with pAR 210  ( r s =0.711,  P <0.001) ( Figure 4B ) and pmTOR 2448  ( r s =0.489,  P =0.003).  Table 2  shows the individual histoscores for pAkt and PI3K in patients with and without pAR 210  increases; no changes in median expression levels was observed between the groups. In hormone-sensitive tumours, expression levels of the phosphorylated proteins did not correlate; no correlation was made between Akt activation and AR phosphorylation ( 
+        
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1239~1243" text="Akt1" location="result" />
+<GENE id="G1" spans="1246~1249" text="Akt" location="result" />
+<GENE id="G2" spans="1260~1264" text="mTOR" location="result" />
+<GENE id="G3" spans="1347~1351" text="mTOR" location="result" />
+<GENE id="G4" spans="1411~1415" text="PI3K" location="result" />
+<GENE id="G5" spans="1417~1421" text="Akt2" location="result" />
+<GENE id="G6" spans="1426~1430" text="Akt3" location="result" />
+<GENE id="G7" spans="1515~1517" text="AR" location="result" />
+<GENE id="G8" spans="2015~2017" text="AR" location="result" />
+<GENE id="G9" spans="2125~2127" text="AR" location="result" />
+<GENE id="G10" spans="2292~2294" text="AR" location="result" />
+<GENE id="G11" spans="2318~2321" text="Akt" location="result" />
+<GENE id="G12" spans="2654~2656" text="AR" location="result" />
+<GENE id="G13" spans="4111~4113" text="AR" location="result" />
+<GENE id="G14" spans="4248~4250" text="AR" location="result" />
+<GENE id="G15" spans="4360~4362" text="AR" location="result" />
+<GENE id="G16" spans="4498~4500" text="AR" location="result" />
+<GENE id="G17" spans="4603~4605" text="AR" location="result" />
+<GENE id="G18" spans="5032~5036" text="PI3K" location="result" />
+<GENE id="G19" spans="5228~5232" text="PI3K" location="result" />
+<GENE id="G20" spans="5368~5372" text="PI3K" location="result" />
+<GENE id="G21" spans="5510~5514" text="PI3K" location="result" />
+<GENE id="G22" spans="5575~5577" text="AR" location="result" />
+<GENE id="G23" spans="5600~5603" text="Akt" location="result" />
+<GENE id="G24" spans="6259~6261" text="AR" location="result" />
+<GENE id="G25" spans="6403~6405" text="AR" location="result" />
+<GENE id="G26" spans="6434~6436" text="AR" location="result" />
+<GENE id="G27" spans="6730~6733" text="Akt" location="result" />
+<GENE id="G28" spans="6861~6864" text="Akt" location="result" />
+<GENE id="G29" spans="7000~7002" text="AR" location="result" />
+<GENE id="G30" spans="7133~7135" text="AR" location="result" />
+<GENE id="G31" spans="7374~7377" text="Akt" location="result" />
+<GENE id="G32" spans="7520~7523" text="Akt" location="result" />
+<GENE id="G33" spans="7598~7602" text="mTOR" location="result" />
+<GENE id="G34" spans="7683~7686" text="Akt" location="result" />
+<GENE id="G35" spans="7726~7728" text="AR" location="result" />
+<GENE id="G36" spans="7947~7950" text="Akt" location="result" />
+<GENE id="G37" spans="7966~7968" text="AR" location="result" />
+<DISEASE id="D0" spans="24~39" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="433~448" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

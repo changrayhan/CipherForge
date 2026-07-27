@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Tissue samples collection
+From 2013 to 2018, HCC tissues and peri-tumor tissues of 49 patients who had not received local or systemic therapy prior to surgery were acquired from Sichuan Academy of Medical Sciences and Sichuan Provincial People’s Hospital. Samples were frozen in liquid nitrogen at once and stored at –80 °C. All patients signed the informed consent. All protocols were approved by the Ethics Committee of Sichuan Academy of Medical Sciences and Sichuan Provincial People’s Hospital.
+Cell culture
+HCC cell lines (HepG2, Huh-7, HCCLM3, MHCC-97H) and normal liver epithelial cell line (THLE-3) were obtained from Shanghai Institute of Cell Biology (Shanghai, China) and maintained at 37 °C in 5% CO 2 . Cells were cultured in RPMI-1640 (Thermo Fisher Scientific, Waltham, MA, USA) containing 10% fetal bovine serum (FBS; Thermo Fisher Scientific), streptomycin (100 μg/ml) and penicillin (100 U/ml). SAG was obtained from Sigma-Aldrich (St. Louis, MO, USA).
+RNA extraction and quantitative reverse transcription PCR (RT-qPCR)
+RT-qPCR analysis was carried out as described previously 25 . GAPDH/U6 was used as internal control.
+Cell transfection
+HCCLM3 or MHCC-97H cells were plated in six-well plates for transfection with Lipofectamine2000 (Invitrogen, Carlsbad, CA, USA). Short hairpin RNAs (shRNAs) against circZNF609 (sh-circZNF609#1/2), miR-15a/15b-5p mimics, miR-15a/15b-5p inhibitor, along with sh-NC, NC mimics and NC inhibitor were constructed by Obio Technology (Shanghai, China). GLI2 overexpressing plasmid and empty pcDNA3.1 vector were also obtained from Obio Technology. After 48 h, cells were collected.
+Microarray and KEGG analyses
+Differentially expressed genes (DEGs) were screened out after silencing circZNF609 by whole genome microarray expression profiling in line with the threshold of log2 (fold change) >2 and  P -value < 0.05. KEGG analysis was performed to identify the related enriched pathways in response to circZNF609 depletion.
+Nucleic acid electrophoresis
+The complementary DNA (cDNA) and genomic DNA (gDNA) PCR products of circZNF609 were determined using TE buffer AGAR gels (Thermo Fisher Scientific). DL600 (KeyGen, Nanjing, China) was set as DNA marker. The electrophoretic voltage (110 V) was adopted to separate the DNA half an hour, followed by UV irradiation.
+Actinomycin D and RNase R treatment assay
+Actinomycin D (Merck-Millipore, Darmstadt, Germany) and RNase R (Epicenter Biotechnologies; Madison, WI, USA) were used for treating cells, followed by RT-qPCR analysis.
+Cell counting kit-8
+Transfected cells in 96-well plates were cultured with CCK-8 solution (Dojindo, Tokyo, Japan) for indicated times, absorbance at 450 nm was determined using a microplate reader (Bio-Tek Instruments, Winooski, VT, USA).
+Colony formation assay
+Transfected cells were plated into 6-well plates for two weeks. Colonies were fixed and stained. Colony numbers (≥50 cells) were counted.
+Sphere formation assay
+Transfected HCCLM3 or MHCC-97H cells were added into 96-well plates, followed by cultivation. The spheroids were photographed via an optical microscope (Olympus, Tokyo, Japan).
+Flow cytometry analysis
+Apoptosis rate was analyzed using a FACSCalibur™ fow cytometer (BD Biosciences) as per previously mentioned 26 .
+TUNEL assay
+Apoptosis of HCCLM3 or MHCC-97H cells after transfection were assessed by TUNEL as mentioned before 27 .
+Western blot analysis
+As previously described 28 , primary antibodies against Bcl-2 (ab32124), Bax (ab32503), cleaved caspase-3 (ab2302), total-caspase-3 (ab13847), cleaved caspase-6 (ab2326), total-caspase-6 (ab185645), cleaved caspase-9 (ab2324), total-caspase-9 (ab32539), cleaved PARP (ab32064), total-PARP (P7605), E-cadherin (ab1416), N-cadherin (ab76057), MMP2 (ab97779), MMP7 (ab205525), OCT4 (ab181557), Nanog (ab218524), Twist (ab187008), GLI2 (ab26056), GLI1 (ab240088), GLI3 (ab6050), GLI4 (ab158532), and GAPDH (ab8245), were purchased from Abcam (Cambridge, USA) or Sigma-Aldrich.
+Transwell assay
+To assessing invasion and migration of cells, transwell assay was conducted as described 29 .
+Subcellular fractionation
+Using NE-PER Nuclear and Cytoplasmic Extraction Reagents (Thermo Fisher Scientific), cytoplasm and nucleus were extracted from HCCLM3 or MHCC-97H cells prior to RT-qPCR.
+Fluorescence in situ hybridization (FISH) analysis
+A PARIS kit (Life Technologies) was utilized to separate nuclear and cytosolic fraction. RNA FISH probes were then produced by Bogu based on the manufacturer’s instructions. The assay was performed as previously described 30 .
+RNA immunoprecipitation (RIP) assay
+The relationship among circZNF609, miR-15a-5p, miR-15b-5p, and GLI2 was investigated via RIP assay. The experiment process was carried out in strict accordance with instructions 31 .
+RNA pull-down assay
+Briefly, miR-15a-5p biotin probe, miR-15a-5p no-biotin probe or miR-15b-5p biotin probe, miR-15b-5p no-biotin probe were separately synthesized by Thermo Fisher Scientific. The biotinylated microRNA (miRNA) was incubated overnight with cell lysates (Millipore, Billerica, MA, USA), followed by adding streptavidin magnetic beads (Millipore). Finally, RT-qPCR was used to detect the expression levels.
+Dual-luciferase reporter assay
+The wild-type or mutant binding site of miR-15a/b-5p in circZNF609 sequence was synthesized and sub-cloned into pmirGLO dual-luciferase vector (Promega, Madison, WI, USA). Then, circZNF609-WT/Mut vector was co-transfected with transfected plasmids into cells via Lipofectamine2000 (Invitrogen). After 48 h, Dual-luciferase Reporter assay system (Promega) was employed to evaluate the relative luciferase activity.
+Tumor xenograft model
+Six Nude mice (male, aged 4–6 weeks) purchased from Shi Laike Company (Shanghi, China) were randomly divided into two groups. According to the guidelines for the Care and Use of Laboratory Animals of Beijing University, animal experiments were strictly conducted as described previously 32 . After injection for 4 weeks, mice were sacrificed. Tumor was surgically removed, followed by further HE, Ki67, PCNA, E-cadherin, N-cadherin, or OCT4 staining. The in vivo experiments were approved by the Ethics Committee of Sichuan Academy of Medical Sciences and Sichuan Provincial People’s Hospital.
+Statistical analysis
+Results were presented as mean ± SD and imported into GraphPad Prism 7.0 (GraphPad Software, La Jolla, CA, USA). All experiments were repeated three times. Student’s  t -test, one-way or two-way analysis of variance was employed for the differences.  P  < 0.05 indicated the difference was statistically significant. Spearman’s correlation analysis found the correlation between the expression of circZNF609, miR-15a-5p, miR-15b-5p, and GLI2.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1506~1510" text="GLI2" location="result" />
+<GENE id="G1" spans="3462~3467" text="Bcl-2" location="result" />
+<GENE id="G2" spans="3479~3482" text="Bax" location="result" />
+<GENE id="G3" spans="3502~3511" text="caspase-3" location="result" />
+<GENE id="G4" spans="3528~3537" text="caspase-3" location="result" />
+<GENE id="G5" spans="3557~3566" text="caspase-6" location="result" />
+<GENE id="G6" spans="3583~3592" text="caspase-6" location="result" />
+<GENE id="G7" spans="3613~3622" text="caspase-9" location="result" />
+<GENE id="G8" spans="3639~3648" text="caspase-9" location="result" />
+<GENE id="G9" spans="3668~3672" text="PARP" location="result" />
+<GENE id="G10" spans="3690~3694" text="PARP" location="result" />
+<GENE id="G11" spans="3704~3714" text="E-cadherin" location="result" />
+<GENE id="G12" spans="3725~3735" text="N-cadherin" location="result" />
+<GENE id="G13" spans="3747~3751" text="MMP2" location="result" />
+<GENE id="G14" spans="3763~3767" text="MMP7" location="result" />
+<GENE id="G15" spans="3780~3784" text="OCT4" location="result" />
+<GENE id="G16" spans="3797~3802" text="Nanog" location="result" />
+<GENE id="G17" spans="3815~3820" text="Twist" location="result" />
+<GENE id="G18" spans="3833~3837" text="GLI2" location="result" />
+<GENE id="G19" spans="3849~3853" text="GLI1" location="result" />
+<GENE id="G20" spans="3866~3870" text="GLI3" location="result" />
+<GENE id="G21" spans="3881~3885" text="GLI4" location="result" />
+<GENE id="G22" spans="3902~3907" text="GAPDH" location="result" />
+<GENE id="G23" spans="4662~4666" text="GLI2" location="result" />
+<GENE id="G24" spans="6067~6071" text="Ki67" location="result" />
+<GENE id="G25" spans="6073~6077" text="PCNA" location="result" />
+<GENE id="G26" spans="6079~6089" text="E-cadherin" location="result" />
+<GENE id="G27" spans="6091~6101" text="N-cadherin" location="result" />
+<GENE id="G28" spans="6106~6110" text="OCT4" location="result" />
+<GENE id="G29" spans="6722~6726" text="GLI2" location="result" />
+<DISEASE id="D0" spans="514~517" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

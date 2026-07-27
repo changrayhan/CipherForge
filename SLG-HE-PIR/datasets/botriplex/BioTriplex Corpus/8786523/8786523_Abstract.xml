@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Effects of Hypoxic Environment on Periodontal Tissue through the ROS/TXNIP/NLRP3 Inflammasome Pathway.
+Abstract: There is low evidence for the possible association between obstructive sleep apnea-hypopnea syndrome (OSAHS) and periodontitis, necessitating further research. This study was aimed at investigating this association. For the in vitro study, 8-day-old Wistar rats were divided into the unilateral nasal obstruction group (UNO) and the sham surgery group (SHAM). Rats in the former group were subjected to UNO by cauterization of the external nostril at the age of 8 days. Immunofluorescence analysis, quantitative real-time polymerase chain reaction, and western blot were performed to assess the expression of thioredoxin-interacting protein (TXNIP), NLR family pyrin domain-containing 3 (NLRP3) inflammasome-associated factors, and interleukin-1 β  (IL-1 β ). Throughout the experimental period, the weights of rats in the two groups were similar. The mRNA and protein expression of  TXNIP  and  IL-1β  was significantly higher in the UNO than in the SHAM groups. Compared with SHAM, NLRP3 inflammasome-associated factors were activated in the UNO group. For the in vitro study, a cellular hypoxia model was established by treating human periodontal ligament cells (HPDLCs) with cobalt chloride. The studies showed that hypoxia can induce an excessive production and accumulation of reactive oxygen species (ROS) in HPDLCs and induce abnormal expression of TNXIP, NLRP3 inflammasome-related factors, and IL-1 β . More importantly, N-acetylcysteine induced reduction of ROS in HPDLCs, downregulated TXNIP expression, inhibited the expression and aggregation of NLRP3 inflammasome-related factors, and abrogated the inflammatory response to hypoxia. In conclusion, hypoxia-induced ROS can activate the TXNIP/NLRP3 inflammasome signaling pathway in response to oxidative stress, resulting in the increased expression of inflammatory factors in HPDLCs. Our findings provide evidence for the mechanism underlying the possible association between OSAHS and periodontal disease.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="730~761" text="thioredoxin-interacting protein" location="result" />
+<GENE id="G1" spans="763~768" text="TXNIP" location="result" />
+<GENE id="G2" spans="771~807" text="NLR family pyrin domain-containing 3" location="result" />
+<GENE id="G3" spans="809~814" text="NLRP3" location="result" />
+<GENE id="G4" spans="853~868" text="interleukin-1 β" location="result" />
+<GENE id="G5" spans="871~877" text="IL-1 β" location="result" />
+<GENE id="G6" spans="1005~1010" text="TXNIP" location="result" />
+<GENE id="G7" spans="1017~1022" text="IL-1β" location="result" />
+<GENE id="G8" spans="1105~1110" text="NLRP3" location="result" />
+<GENE id="G9" spans="1478~1483" text="TNXIP" location="result" />
+<GENE id="G10" spans="1485~1490" text="NLRP3" location="result" />
+<GENE id="G11" spans="1525~1531" text="IL-1 β" location="result" />
+<GENE id="G12" spans="1619~1624" text="TXNIP" location="result" />
+<GENE id="G13" spans="1681~1686" text="NLRP3" location="result" />
+<GENE id="G14" spans="1821~1826" text="TXNIP" location="result" />
+<GENE id="G15" spans="1827~1832" text="NLRP3" location="result" />
+<DISEASE id="D0" spans="180~203" text="obstructive sleep apnea" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="234~247" text="periodontitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="2072~2091" text="periodontal disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

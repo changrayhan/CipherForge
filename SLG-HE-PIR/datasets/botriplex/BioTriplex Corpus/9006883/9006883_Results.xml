@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+HCC Proteomics Cohorts
+To test whether or not proteomics data could provide interesting drug targets for HCC we compiled genomic and global MS proteomic data from two cohorts of hepatitis B virus (HBV)-related hepatocellular carcinoma patients ( Figure 1A ). (1) The HCC-Gao cohort: the Gao et al., 2019 study of 159 cases with matched-normal samples ( 25 ), and (2) The HCC-Jiang cohort: the Jiang et al., 2019 study of 101 cases and 98 matched-normal samples ( 16 ). We applied standardized normalization procedure and quality-control criteria (Methods) and retained 6,452 quantified proteins in the HCC-Gao dataset and 4,500 proteins in the HCC-Jiang dataset. We also obtained a list of genes with corresponding drug compounds from the Drug-Gene Interaction database (DGIdb) ( 26 ); overlapping quantified proteins with this DGIdb druggable gene list, we identified 1,143 and 900 currently-druggable proteins in these HCC datasets, respectively. Given the higher coverage and larger sample size of the HCC-Gao cohort dataset, we present the HCC-Gao cohort’s findings as primary results and present the HCC-Jiang cohort’s findings second and confirmatory.
+Oncogenic kinases are established therapeutic targets in multiple cancer types, and we further retained kinase proteins for subsequent analyses. Based on a previously curated list of 683 human kinase proteins ( 19 ,  27 ), the HCC-Gao and HCC-Jiang datasets included 298 and 197 well-quantified kinase proteins, respectively. Additionally, we annotated the proteins using ten oncogenic signaling pathways curated by TCGA PanCanAtlas, including the Cell Cycle, HIPPO signaling, MYC signaling, NOTCH signaling, oxidative stress response/NRF2, PI3K signaling, TGFβ signaling, receptor-tyrosine kinase (RTK)/RAS/MAP-Kinase signaling, TP53, and β-catenin/WNT signaling pathways ( 28 ).
+Differentially Expressed Proteins
+For each cancer cohort, we performed a tumor-vs-normal paired analysis to identify differentially-expressed proteins (tumor-DEPs) by adjusting for potential confounding variables including age and gender using  limma  implementation in R (v3.42.2). DEP results from the HCC-Gao and HCC-Jiang cohorts showed concordance ( Figure S1 ). In the HCC-Gao cohort, we identified 265 significant kinase DEPs ( limma  differential expression test based on the empirical Bayes moderation of the t-statistics, false discovery rate [FDR] < 0.05), of which 31 were annotated within an oncogenic signaling pathway. Among the kinase DEPs in the HCC-Gao cohort, 9 showed over 2-fold of up-regulation in tumors, namely, MAPK1 (log2-fold-change [FC] = 1.9, FDR = 7.3e-44), GSK3B (FC = 1.6, FDR = 1.5e-44), RPS6KA3 (FC = 2.1, FDR = 2.3e-32), STK3 (FC = 1.4, FDR = 1. 4e-22), CSNK1D (FC = 1, FDR = 2.9e-28), CDK2 (FC = 1.2, FDR = 2.5e-14), CDK4 (FC = 1.2, FDR = 2e-11), ERBB3 (FC = 1.1, FDR = 6e-12), and FGFR4 (FC = 1.1, FDR = 3.5e-9) ( Figure 1B ). Many of these kinases also showed significant up-regulation in tumors of the HCC-Jiang cohort, where for example FGFR4 kinase was also among the top-significant DEPs (FC = 2, FDR = 0.03) ( Figure 1B ).
+Among the non-kinase proteins, we found 5,426 DEPs (FDR < 0.05) in HCC-Gao, of which 69 were annotated within an oncogenic signaling pathway. Among these, 18 showed over 2-fold of up-regulation, including THBS2 (FC = 6.1, FDR = 1.7e-33), APH1A (FC = 3.1, FDR = 3.6e-59), RHEB (FC = 2.7, FDR = 3e-52), SHC1 (FC = 2.8, FDR = 1.3e-48), and CHD4 (FC = 1.7, FDR = 6.8e-55) ( Figure 1C ). Notably, THBS2 protein was also significantly differentially-expressed (FC = 1.2, FDR = 1.3e-4) in the HCC-Jiang cohort ( Figure 1C ). HDAC1 and HDAC2 proteins showed up-regulation in tumors of both cohorts. The differential expression analyses discovered multiple proteins up-regulated in tumors compared to normal samples, and additional approaches are required to pinpoint therapeutic candidates.
+Protein Overexpression of Currently-Druggable Proteins
+Many established protein targets in cancer (ex. HER2, EGFR, BRAF) are overexpressed in a fraction of tumor samples where their inhibition may show efficacy. To identify such overexpressed proteins in global MS proteomics data, we applied our recently-developed OverexPressed Protein and Transcript target Identifier (OPPTI) algorithm ( 29 ) (Methods), which is tailored to detect overexpressed proteins from global MS proteomic cohorts that may show varied quantitative distributions due to different technical platforms.
+Applying OPPTI to the HCC-Gao cohort, we identified 46 kinases that showed significant enrichment of marker overexpression (OPPTI permutation test for overexpressed markers, FDR < 0.05), including CDK6 (Protein overexpression rate [PRO] = 18.9%, FDR = 1.6e-07), EGFR (PRO = 11.9%, FDR = 0.006), and ERBB2 (PRO = 11.3%, FDR = 0.013) ( Figure 2A ). In the HCC-Jiang cohort, we identified 33 kinases that showed significant enrichment of protein overexpression (FDR < 0.05), including CDK6 (PRO = 19.2%, FDR = 5.4e-05) and PDGFRB (PRO = 24.4%, FDR = 9.5e-07) ( Figure 2A  and  Figure S2 ). To ensure the robustness of the identified targets, we calculated the concordance of overexpression frequency observed in the HCC-Gao and HCC-Jiang cohorts. The kinase overexpression rates identified by OPPTI showed a high correlation between the two cohorts (Pearson correlation test, R = 0.44, p = 5e-10), where CDK6 and PDGFRB displayed the largest overexpression rates among the potential HCC drug targets ( Figure S3 ). Despite the intrinsic and technical MS differences between the two HCC cohorts, the coherency provided cross-validating evidence for the identified targets. Among the non-kinase proteins, 1,329 markers were significantly overexpressed (OPPTI permutation test, FDR < 0.05) in the HCC-Gao cohort, and among them 359 were DGIdb druggable genes. In HCC-Jiang cohort, 641 markers were significantly overexpressed (FDR < 0.05), and among them 161 were DGIdb druggable genes. Overall, we identified 100 non-kinase DGIdb druggable proteins that were significantly overexpressed (FDR < 0.05) in both HCC cohorts, including POSTN, CYP3A5, ANXA3, ENO2, and VCAM1 ( Figure 2C  and  Figure S3 ).
+While both DEP and overexpressed proteins present plausible methods to identify expression-based therapeutic targets, it remains unclear whether targets discovered by the two approaches overlap. We intersected the significant DEPs and the significant overexpressed markers to enhance confidence of identifying therapeutic targets ( Figure 3C ). In the HCC-Gao cohort, 187 kinases were quantified among the DGIdb druggable genes and 75 of them showed positive values in both differential expression and protein overexpression ( Figure 3A ). Among these, 3 kinases showed significant DE (limma differential expression test based on the empirical Bayes moderation of the t-statistics, FC ≥ 1, FDR < 0.05) and overexpression (OPPTI permutation test, FDR < 0.05), namely, NME1 (FC = 1.4, FDR = 5.0e-16; PRO = 18.2%, FDR = 1.6e-07), FGFR4 (FC = 1.1, FDR = 3.5e-09; PRO = 12.6%, FDR = 0.0026), ERBB3 (FC = 1.1, FDR = 6.0e-12; PRO = 10.7%, FDR = 0.027), as the RAS pathway (with FGFR4 and ERBB3 kinases) showed the most significant dysregulation. Other notable kinases were CDK6 from Cell Cycle pathway (FC = 0.8, FDR = 2.1e-4; PRO = 18.9%, FDR = 1.6e-07), and PDK1 from PI3K pathway (FC = 0.8, FDR = 1.5e-05; PRO = 12.6%, FDR = 0.0026).
+Among the non-kinase targets we found 951 DGIdb druggable proteins quantified in the HCC-Gao cohort tumors, and 336 of them showed positive values in both differential expression and protein overexpression ( Figure 3B ). Among these, 68 kinases showed significant DE (FC ≥ 1, FDR < 0.05) and overexpression (FDR < 0.05), including, TXN (FC = 5.6, FDR = 2.7e-32; PRO = 22%, FDR = < 1e-100), POSTN (FC = 5, FDR = 4.6e-17; PRO = 22%, FDR = < 1e-100), and F5 (FC = 1.9, FDR = 8.5e-26; PRO = 13.8%, FDR = 4.1e-4). In HCC-Jiang cohort we found 774 quantified DGIdb druggable proteins, and 366 of them showed positive values in both differential expression and protein overexpression ( Figure S4 ). Notably, 6 proteins showed significant DE (FC ≥ 1, FDR < 0.05) and overexpression (FDR < 0.05), including, POSTN and F5 (FC = 1.2, FDR = 1.5e-08; PRO = 34.2%, FDR = < 1e-100; and FC = 1.1, FDR = 2.3e-14; PRO = 16.5%, FDR = 7.8e-4, respectively), which were also identified in the HCC-Gao cohort. Several of the kinases have corresponding inhibitor drugs in clinical trials, and it remains to be validated whether the inhibitions of other DEP- and OPPTI-identified targets could serve as treatment strategies.
+Comparison Between DNA, RNA, and Protein-Level Alterations
+Protein-level overexpression can arise from genomic alterations (i.e., copy-number amplification) but they may also arise post-transcriptionally and thus not readily observed at DNA or RNA levels. To examine these two competing hypotheses, we systematically compared the frequency of patients showing protein overexpression versus those carrying genomic mutations or transcriptomic aberrations. In the HCC-Gao cohort, we identified the fraction of cases having one or more recurrent missense or truncating mutations in the same genes. We then compared the fraction of HCC cases carrying these somatic mutations with those showing protein overexpression detected by OPPTI ( Figure 4A ). There were 127 genes with genomic alterations in the oncogenic signaling pathways with available protein quantification. HCC is known for the lack of actionable mutations, and as expected, no overexpressed kinases showed a genomic alteration rate greater than 5%. We thus investigated protein-level events that may arise independent of mutations. Five kinases from RAS pathway showed substantial protein up-regulation (PRO > 10%) with limited genomic alterations (likely driver), namely, ERBB2 (PRO = 11.3%, DNA = 0%), ERBB3 (PRO = 10.7%, DNA = 0%), PDGFRB (PRO = 10.1%, DNA = 0%), EGFR (PRO = 11.9%, DNA = 0%), and FGFR4 (PRO = 12.6%, DNA = 0%). ( Figures 4A, B ). Other proteins showing higher protein overexpression vs. driver genomic alteration rates include MFAP5 (PRO = 27.7%, DNA = 0%), HMCN1 (PRO = 22.6%, DNA = 4.4%), FHL1 (PRO = 15.7%, DNA = 0%), and EGFL7 (PRO = 15.7%, DNA = 0%). ( Figure 4B ).
+We next compared protein overexpression to their respective mRNA overexpression by applying OPPTI with the same parameters to the RNA-Seq data available for the HCC-Gao cohort (Methods). We found two proteins with substantial rates of mRNA overexpression and protein overexpression, MFAP5 (mRNA overexpression rate [RNA] = 40%, PRO = 28%) and HMCN1 (RNA = 20%, PRO = 22.6%). We also found 4 proteins that showed significant protein up-regulation (PRO ≥ 10%) and higher (≥ 2-fold) protein overexpression rate than transcriptomic alteration rate, including CDK6 (RNA = 8.8%, PRO = 18.9%), FHL1 (RNA = 3.2%, PRO = 15.7%), FGFR4 (RNA = 6.1%, PRO = 12.6%), ERBB3 (RNA = 4.7%, PRO = 10.7%). ( Figure 4C ). Our results confirm the paucity of targets with genomic alteration in HCC and further demonstrate that a proteomic approach can uniquely identify a considerable fraction of overexpressed targets showing apparent aberrations at the protein level but not readily identified at the mRNA level.
+Validation of Therapeutic Efficacy Using Drug Screen Data
+To validate the therapeutic potential of the protein targets that we identified in the primary tumor cohorts, we integrated the  in vitro  drug screen data of 31 anticancer agents on 34 human HCC cell lines available from Caruso et al. ( 30 ). For each drug, we analyzed the association between baseline protein expression levels (measured by Reverse Phase Protein Assay [RPPA]) and cell viability after treatment to identify expression-driven dependencies (Methods), where a negative association suggested HCC cells with high protein expression showed lower viability and were more vulnerable to the targeting drug. We first analyzed expression-driven dependencies of 40 genes encoding kinases that were known targets (antibodies) of the 31 screened compounds ( 30 ). We found several drug-protein associations ( Figure 5A ). FGFR4 expression was negatively associated with viability of cells treated with BLU.9931 compound (FC = -5.15, p-value [p] = 0.02,  Figure 5B ), validating the FGFR4 inhibitor’s efficacy in HCCs with up-regulated FGF19-FGFR4 signaling ( 31 ). FGFR4 protein expression was also orthogonally detected by immunohistochemistry (IHC) of HCC patient tumor samples in the human pathology atlas project ( Figure 5C ). MTOR expression (P.mTOR.Ser2448) was suggestively associated with the drug responses of Rapamycin (FC = -1.5, p = 0.12) and PF.04691502 (FC = -1.7, p = 0.19) ( Figure S5A ). Among the non-kinase targets, we found two associations between the expression of HSP90AB1 (Hsp90.beta) and the drug responses to Hsp90 protein inhibitors Tanespimycin (FC = -1.5, p = 0.04) and Alvespimycin (FC = -1.3, p = 0.07) ( Figure 5B  and  Figure S5B ). These results highlight FGFR4 and Hsp (HSP90AB4P) proteins as candidate therapeutic targets showing both up-regulation in HCC tumors and expression-driven dependencies.
+FGFR4 is a receptor for the growth factor FGF19, whose up-regulation is thought to promote proliferation and tumorigenesis. The FGFR inhibitor BLU.9931 was previously shown to be effective against HCC xenograft tumors with amplified FGF19 ( 31 ). FGF19 protein expression (as evaluated by IHC) was further used to stratify patients for another selective FGFR4 inhibitor fisogatinib (BLU-554), where 17% (N=11/66) of the FGF19-positive patients responded compared to 0% (N=0/32) of the FGF19-negative patients ( 32 ). However, we did not observe a correlation between FGF19 upregulation and response to BLU.9931 in the human HCC cell lines ( Figure 5D ), which may be explained by the poor correlation between the FGFR4 and FGF19 protein expressions ( Figure 5E ). Analyzing data from the primary HCC tumor cohort, we also observed a lack of correlation between FGFR4 protein or mRNA expression and FGF19 gene expression levels ( Figure S6 ). Phosphorylation data also showed a lack of correlation between FGFR4 (s573) phosphorylation and FGF19 gene expression levels but a strong correlation to FGFR4 protein expression (R = 0.57, p = 8.9E-13,  Figure S6 ). These results imply that response to FGFR4 inhibitors and patient selection may be improved by using FGFR4 biomarkers in addition to FGF19 alone, and mechanistic intricacies in FGFR4/FGF19 signaling remain to be further determined.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2576~2581" text="MAPK1" location="result" />
+<GENE id="G2" spans="2628~2633" text="GSK3B" location="result" />
+<GENE id="G3" spans="2661~2668" text="RPS6KA3" location="result" />
+<GENE id="G4" spans="2696~2700" text="STK3" location="result" />
+<GENE id="G6" spans="2729~2735" text="CSNK1D" location="result" />
+<GENE id="G7" spans="2761~2765" text="CDK2" location="result" />
+<GENE id="G8" spans="2793~2797" text="CDK4" location="result" />
+<GENE id="G9" spans="2823~2828" text="ERBB3" location="result" />
+<GENE id="G10" spans="2858~2863" text="FGFR4" location="result" />
+<GENE id="G11" spans="3017~3022" text="FGFR4" location="result" />
+<GENE id="G12" spans="3311~3316" text="THBS2" location="result" />
+<GENE id="G13" spans="3344~3349" text="APH1A" location="result" />
+<GENE id="G14" spans="3377~3381" text="RHEB" location="result" />
+<GENE id="G15" spans="3443~3447" text="CHD4" location="result" />
+<GENE id="G16" spans="3498~3503" text="THBS2" location="result" />
+<GENE id="G17" spans="3624~3629" text="HDAC1" location="result" />
+<GENE id="G18" spans="3634~3639" text="HDAC2" location="result" />
+<GENE id="G19" spans="3992~3996" text="HER2" location="background" />
+<GENE id="G20" spans="3998~4002" text="EGFR" location="background" />
+<GENE id="G21" spans="4004~4008" text="BRAF" location="background" />
+<GENE id="G22" spans="4663~4667" text="CDK6" location="result" />
+<GENE id="G23" spans="4728~4732" text="EGFR" location="result" />
+<GENE id="G24" spans="4765~4770" text="ERBB2" location="result" />
+<GENE id="G25" spans="4948~4952" text="CDK6" location="result" />
+<GENE id="G26" spans="4986~4992" text="PDGFRB" location="result" />
+<GENE id="G27" spans="5367~5371" text="CDK6" location="result" />
+<GENE id="G28" spans="5376~5382" text="PDGFRB" location="result" />
+<GENE id="G29" spans="6092~6097" text="POSTN" location="result" />
+<GENE id="G30" spans="6099~6105" text="CYP3A5" location="result" />
+<GENE id="G31" spans="6107~6112" text="ANXA3" location="result" />
+<GENE id="G32" spans="6114~6118" text="ENO2" location="result" />
+<GENE id="G33" spans="6124~6129" text="VCAM1" location="result" />
+<GENE id="G34" spans="6928~6932" text="NME1" location="result" />
+<GENE id="G35" spans="6988~6993" text="FGFR4" location="result" />
+<GENE id="G36" spans="7048~7053" text="ERBB3" location="result" />
+<GENE id="G37" spans="7132~7137" text="FGFR4" location="result" />
+<GENE id="G38" spans="7142~7147" text="ERBB3" location="result" />
+<GENE id="G39" spans="7227~7231" text="CDK6" location="result" />
+<GENE id="G40" spans="7314~7318" text="PDK1" location="result" />
+<GENE id="G41" spans="7781~7786" text="POSTN" location="result" />
+<GENE id="G42" spans="8190~8195" text="POSTN" location="result" />
+<GENE id="G43" spans="9825~9830" text="ERBB2" location="result" />
+<GENE id="G44" spans="9856~9861" text="ERBB3" location="result" />
+<GENE id="G45" spans="9887~9893" text="PDGFRB" location="result" />
+<GENE id="G46" spans="9919~9923" text="EGFR" location="result" />
+<GENE id="G47" spans="9953~9958" text="FGFR4" location="result" />
+<GENE id="G48" spans="10100~10105" text="MFAP5" location="result" />
+<GENE id="G49" spans="10131~10136" text="HMCN1" location="result" />
+<GENE id="G50" spans="10164~10168" text="FHL1" location="result" />
+<GENE id="G51" spans="10198~10203" text="EGFL7" location="result" />
+<GENE id="G52" spans="10527~10532" text="MFAP5" location="result" />
+<GENE id="G53" spans="10587~10592" text="HMCN1" location="result" />
+<GENE id="G54" spans="10799~10803" text="CDK6" location="result" />
+<GENE id="G55" spans="10831~10835" text="FHL1" location="result" />
+<GENE id="G56" spans="10863~10868" text="FGFR4" location="result" />
+<GENE id="G57" spans="10896~10901" text="ERBB3" location="result" />
+<GENE id="G58" spans="12120~12125" text="FGFR4" location="result" />
+<GENE id="G59" spans="12280~12285" text="FGFR4" location="result" />
+<GENE id="G60" spans="12333~12338" text="FGF19" location="result" />
+<GENE id="G61" spans="12339~12344" text="FGFR4" location="result" />
+<GENE id="G62" spans="12363~12368" text="FGFR4" location="result" />
+<GENE id="G63" spans="12530~12534" text="MTOR" location="result" />
+<GENE id="G64" spans="12786~12794" text="HSP90AB1" location="result" />
+<GENE id="G65" spans="12834~12839" text="Hsp90" location="result" />
+<GENE id="G66" spans="12989~12994" text="FGFR4" location="result" />
+<GENE id="G67" spans="13004~13013" text="HSP90AB4P" location="result" />
+<GENE id="G68" spans="13134~13139" text="FGFR4" location="background" />
+<GENE id="G69" spans="13176~13181" text="FGF19" location="background" />
+<GENE id="G70" spans="13381~13386" text="FGF19" location="result" />
+<GENE id="G71" spans="13488~13493" text="FGFR4" location="result" />
+<GENE id="G72" spans="13554~13559" text="FGF19" location="result" />
+<GENE id="G73" spans="13619~13624" text="FGF19" location="result" />
+<GENE id="G74" spans="13701~13706" text="FGF19" location="result" />
+<GENE id="G75" spans="13847~13852" text="FGFR4" location="result" />
+<GENE id="G76" spans="13857~13862" text="FGF19" location="result" />
+<GENE id="G77" spans="13995~14000" text="FGFR4" location="result" />
+<GENE id="G78" spans="14032~14037" text="FGF19" location="result" />
+<GENE id="G79" spans="14139~14144" text="FGFR4" location="result" />
+<GENE id="G80" spans="14172~14177" text="FGF19" location="result" />
+<GENE id="G81" spans="14229~14234" text="FGFR4" location="result" />
+<GENE id="G82" spans="14329~14334" text="FGFR4" location="result" />
+<GENE id="G83" spans="14393~14398" text="FGFR4" location="result" />
+<GENE id="G84" spans="14425~14430" text="FGF19" location="result" />
+<GENE id="G85" spans="14469~14474" text="FGFR4" location="result" />
+<GENE id="G86" spans="14475~14480" text="FGF19" location="result" />
+<DISEASE id="D0" spans="1~4" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="106~109" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="211~235" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="268~271" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="603~606" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="372~375" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="645~648" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="922~925" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1006~1009" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1045~1048" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1106~1109" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1225~1231" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D12" spans="1386~1389" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1398~1401" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1883~1889" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D15" spans="2144~2147" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2156~2159" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2215~2218" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2503~2506" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2981~2984" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3173~3176" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3592~3595" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3980~3986" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D23" spans="4488~4491" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="4820~4823" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="5179~5182" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="5191~5194" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="5446~5449" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="5545~5548" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="5823~5826" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="6513~6516" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="7476~7479" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="8363~8366" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="9053~9056" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="9219~9222" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="9458~9461" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="10405~10408" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="11485~11488" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="12310~12313" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="12452~12455" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D40" spans="13087~13090" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="13331~13334" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="13758~13761" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="13930~13933" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="13070~13083" text="up-regulation" location="result" relation="increased expression" />
+<RELATION id="R2" spans="13037~13056" text="therapeutic targets" location="result" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G66" geneText="FGFR4" diseaseID="D40" diseaseText="HCC" relationID="R2" relationText="therapeutic targets" />
+<ENTITY_LINKING id="E1" geneID="G67" geneText="HSP90AB4P" diseaseID="D40" diseaseText="HCC" relationID="R2" relationText="therapeutic targets" />
+<ENTITY_LINKING id="E2" geneID="G66" geneText="FGFR4" diseaseID="D40" diseaseText="HCC" relationID="R1" relationText="up-regulation" />
+<ENTITY_LINKING id="E3" geneID="G67" geneText="HSP90AB4P" diseaseID="D40" diseaseText="HCC" relationID="R1" relationText="up-regulation" />
+</TAGS>
+</Genomics_ConceptTask>

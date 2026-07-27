@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Patient
+Sixty-eight patients with matched hormone-sensitive and -refractory tumour pairs were retrospectively selected for analysis. All tumours had patient identification removed, including block number and hospital number and were coded to make the database anonymous. Ethical approval was obtained from the Multicentre Research Ethics Committee for Scotland (MREC/01/0/36) and Local Research and Ethical Committees. Patients were only selected for analysis if they initially responded to hormone treatment (in the form of subcapsular bilateral orchidectomy or maximum androgen blockade), but subsequently relapsed (two consecutive rises in PSA greater than 10%) and had a pre- and posthormone relapse tissue sample available for analysis.
+Immunohistochemistry
+All IHC was performed on 5  μ m, archival formalin-fixed, paraffin-embedded prostate tumour sections on separate slides. Immunohistochemistry for PI3K (p110 catalytic subunit), Akt1–3, phosphorylated Akt at threonine 473 (pAkt 473 ), mTOR, phosphorylated mTOR at serine 2448 (mTOR 2448 ) and phosphorylated AR at serine 210 (pAR 210 ) were performed as follows: antigen retrieval was performed using heat treatment under pressure in a Tris EDTA buffer (5 m M  Trizma Base, 1 m M  EDTA, pH 8: Akt1–3 and pAR 210 ) or citrate buffer (PI3K and mTOR) for 5 min or by heating to 96°C for 20 min in citrate buffer (pAkt 308 , pAkt 308  and pmTOR 2448 ). Nonspecific background staining was blocked using either 2.5% horse serum in TBS for 20 min (PI3K and pAR 210 ), in 1% casein for 10 min (Akt1–3, mTOR and pmTOR 2448 ) or in Serum Free Block (Dako A/S, Glostrup, Denmark) for 10 min (pAkt 473 ). Phosphatidylinositol 3-OH kinase (Cell Signalling Technology, Beverly, MA, USA), Akt1–3 (Santa Cruz Biotechnology Inc., Santa Cruz, CA, USA), pAkt 473  (Cell Signalling Technology), mTOR (Santa Cruz Biotechnology Inc.), pmTOR 2448  (Cell Signalling Technology) and pAR 210  (Imgenex, San Diego, CA, USA) antibodies were used at the following concentrations (1, 1, 2, 2, 4, 5, 2 and 50  μ g ml −1 ). Phosphorylated AR at serine 210 was incubated for 1 h at 25°C and all other antibodies were incubated overnight at 4°C. For the mTOR antibody only, incubation with rabbit anti-goat antibody (Dako A/S) (1 : 4000) for 1 h at room temperature was also required. Staining for PI3K, pAkt 308 , pAkt 473 , mTOR and pmTOR 2448  was developed using EnVision plus kit (Dako A/S) and staining for Akt1–3 and pAR 210  was developed using LSAB kit (Dako A/S) and 3,3-diaminobenzidine tetrahydrochloride (DAB; Vector Laboratories, CA, USA). Nuclei were counterstained with haematoxylin before mounting. A positive and a negative control were included in each IHC run, negative controls were incubated with an isotype-matched control antibody at a concentration of 1 mg ml −1 . Positive control slides were breast tissue known to express PI3K, Akt and mTor, BPH tissue known to express AR and MCF-7 and LNCaP cell pellets. Antibody specificity was confirmed by western blotting. In addition, phosphorylated antibodies were confirmed to detect only the phosphorylated forms using calf intestinal alkaline phosphatase to destroy phosphorylated proteins. Two identical slides had IHC performed on them, the only difference being that one was previously treated with calf intestinal alkaline phosphatase, the untreated slide expressed the phosphorylate protein and the treated slide did not, this technique confirms that the antibody is only detecting the phosphorylated form of the protein and not the unphosphorylated form.
+Tissue staining intensity was scored blind by two independent observers using a weighted histoscore method ( et al , 2003 Fraser  ) also known as the Hscore system ( et al , 1986 McCarty  ). Histoscores were calculated from the sum of (1 × % cells staining weakly positive)+(2 × % cell staining moderately positive)+(3 × % cells staining strongly positive) with a maximum of 300. The interclass correlation coefficient (ICCC) for each protein was calculated to confirm consistency between observers, and the mean of the two observers' scores were used for analysis. Changes in staining between pre- and posthormone-refractory cases were defined as an increase or decrease with the 95% confidence interval (CI) for the difference in interobserver variation, which is the mean difference between the histoscores that each observer assigns for protein expression plus 2 s.d. Change in expression of PI3K, Akt1–3, mTOR, pmTOR 2448  and pAR 210  are shown in  Table 1 .
+Statistical analysis
+Interclass correlation coefficients were used to confirm consistency between observers. Protein expression data were not normally distributed and are shown as median and interquartile ranges. Wilcoxon signed-rank tests were used to compare expression between pre- and posthormone-refractory tumours. Survival analyses were conducted using Kaplan–Meier method, and curves were compared with the log-rank test. Hazard ratios (HRs) were calculated using Cox regression analysis. Correlations between members of the pathway were performed using a Spearman's rank test.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="910~914" text="PI3K" location="result" />
+<GENE id="G1" spans="941~945" text="Akt1" location="result" />
+<GENE id="G2" spans="964~967" text="Akt" location="result" />
+<GENE id="G3" spans="987~990" text="Akt" location="result" />
+<GENE id="G4" spans="998~1002" text="mTOR" location="result" />
+<GENE id="G5" spans="1019~1023" text="mTOR" location="result" />
+<GENE id="G6" spans="1071~1073" text="AR" location="result" />
+<GENE id="G7" spans="1505~1509" text="PI3K" location="result" />
+<GENE id="G8" spans="1515~1517" text="AR" location="result" />
+<GENE id="G9" spans="1550~1554" text="Akt1" location="result" />
+<GENE id="G10" spans="1558~1562" text="mTOR" location="result" />
+<GENE id="G11" spans="1568~1572" text="mTOR" location="result" />
+<GENE id="G12" spans="1646~1649" text="Akt" location="result" />
+<GENE id="G13" spans="1878~1882" text="mTOR" location="result" />
+<GENE id="G14" spans="1839~1843" text="mTOR" location="result" />
+<GENE id="G15" spans="1923~1925" text="AR" location="result" />
+<GENE id="G16" spans="2071~2073" text="AR" location="result" />
+<GENE id="G17" spans="2184~2188" text="mTOR" location="result" />
+<GENE id="G18" spans="2328~2332" text="PI3K" location="result" />
+<GENE id="G19" spans="2335~2338" text="Akt" location="result" />
+<GENE id="G20" spans="2346~2349" text="Akt" location="result" />
+<GENE id="G21" spans="2356~2360" text="mTOR" location="result" />
+<GENE id="G22" spans="2366~2370" text="mTOR" location="result" />
+<GENE id="G23" spans="2443~2447" text="Akt1" location="result" />
+<GENE id="G24" spans="2455~2457" text="AR" location="result" />
+<GENE id="G25" spans="2880~2884" text="PI3K" location="result" />
+<GENE id="G26" spans="2886~2889" text="Akt" location="result" />
+<GENE id="G27" spans="2894~2898" text="mTor" location="result" />
+<GENE id="G28" spans="2928~2930" text="AR" location="result" />
+<GENE id="G30" spans="4460~4464" text="PI3K" location="result" />
+<GENE id="G31" spans="4466~4470" text="Akt1" location="result" />
+<GENE id="G32" spans="4474~4478" text="mTOR" location="result" />
+<GENE id="G33" spans="4481~4485" text="mTOR" location="result" />
+<GENE id="G34" spans="4497~4499" text="AR" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

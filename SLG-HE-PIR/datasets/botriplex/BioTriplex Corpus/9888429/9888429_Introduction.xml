@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The global incidence of inflammatory bowel disease (IBD) is increasing yearly ( 1 ). IBD includes intestinal autoimmune diseases, inflammation, stimulation of inflammatory cells, with the release of inflammatory cytokines, activation of immune cells, and abnormal changes in intestinal microvascular endothelial cell function, which affect immune cell function and the stability of the intestinal environment and lead to cell and tissue damage ( 2 ). In recent years, it is generally believed that a part of colorectal cancer can progress from IBD ( 3 ,  4 ). The inflammatory response of the colon is a major factor in the development of colorectal cancer ( 5 ). Studies on the treatment of IBD provide insights for the prevention and treatment of colorectal cancer. However, due to the increasing incidence, long course, and delayed healing in IBD, its diagnosis, treatment, and prognosis have become a challenge ( 6 ).
+Although IBD can be triggered by various factors, the immune response appears critical for the onset of IBD ( 7 ,  8 ). As the largest immune organ of mammals, the gut contains many types of immune cells, including B cells, T cells, dendritic cells, macrophages, eosinophils, and mast cells ( 7 ,  9 ). When the intestinal barrier is damaged, bacterial infection occurs, which affects the process of IBD ( 10 ). A focus of our research includes identifying the immune cells that play a role in the pathogenesis of IBD. At present, therapy for IBD mostly involves inhibiting intestinal inflammation ( 11 ). Immunotherapy that can regulate the intestinal barrier also provides a new idea for treating IBD.
+MMPs are enzymes with specific biological activities ( 12 ). MMPs participate in many activities related to maintaining their own stability and play a wide range of roles in the development of disease ( 13 ). MMPs can regulate inflammation at all levels. They can regulate the migration of inflammatory cells from the artery to the inflammatory zone and process ECM components, growth factors, cytokines, and chemokines, thus regulating the uptake of inflammatory cells and access to the inflammatory zone ( 14 – 16 ). The inflammatory marker role of metalloproteinases can help in the diagnosis and treatment of some inflammatory diseases ( 17 ), especially rheumatoid arthritis ( 18 ,  19 ); however, the role of MMPs in IBD has not been elucidated, and the value of MMPs in the immunotherapy of IBD is rarely demonstrated. Notably, the relationship between MMPs and immune cells may be much more complex than understood ( 20 ). Studies have demonstrated high expression of MMP-3 ( 21 ), MMP-9 ( 22 ,  23 ), and MMP-13 ( 24 ) in damaged colonic mucosa. This gives us confidence to further demonstrate the relationship between other MMPs and IBD.
+To evaluate the potential impact of MMPs on IBD, machine learning was used to identify five MMP-related disease markers. The expression of MMP-9, PTGDS, SLC26A8, and CD160 in colitis was increased in the IBD mouse model, whereas the expression of TLR5 was downregulated. In addition, the findings revealed that MMPs regulated the occurrence and development of IBD through CD8.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2603~2608" text="MMP-3" location="background" />
+<GENE id="G1" spans="2617~2622" text="MMP-9" location="background" />
+<GENE id="G2" spans="2641~2647" text="MMP-13" location="background" />
+<GENE id="G3" spans="2914~2919" text="MMP-9" location="result" />
+<GENE id="G4" spans="2921~2926" text="PTGDS" location="result" />
+<GENE id="G5" spans="2928~2935" text="SLC26A8" location="result" />
+<GENE id="G6" spans="2941~2946" text="CD160" location="result" />
+<GENE id="G7" spans="3022~3026" text="TLR5" location="result" />
+<GENE id="G8" spans="3147~3150" text="CD8" location="result" />
+<DISEASE id="D0" spans="25~51" text="inflammatory bowel disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="53~56" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="86~89" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="509~526" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="545~548" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="640~657" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="693~696" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="750~767" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="847~850" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="932~935" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1027~1030" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="1323~1326" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="1437~1440" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="1466~1469" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="1622~1625" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="2286~2306" text="rheumatoid arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="2350~2353" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="2425~2428" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="2770~2773" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="2819~2822" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="2950~2957" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="2979~2982" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="3135~3138" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="2900~2910,2958~2971" text="expression ... was increased" location="result" relation="increased expression" />
+<RELATION id="R1" spans="3008~3018,3027~3044" text="expression ... was downregulated" location="result" relation="decreased expression" />
+<RELATION id="R2" spans="3091~3131" text="regulated the occurrence and development" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="MMP-9" diseaseID="D20" diseaseText="colitis" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="MMP-9" diseaseID="D21" diseaseText="IBD" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E2" geneID="G4" geneText="PTGDS" diseaseID="D20" diseaseText="colitis" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E3" geneID="G4" geneText="PTGDS" diseaseID="D21" diseaseText="IBD" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E4" geneID="G5" geneText="SLC26A8" diseaseID="D20" diseaseText="colitis" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="SLC26A8" diseaseID="D21" diseaseText="IBD" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E6" geneID="G6" geneText="CD160" diseaseID="D20" diseaseText="colitis" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E7" geneID="G6" geneText="CD160" diseaseID="D21" diseaseText="IBD" relationID="R0" relationText="expression ... was increased" />
+<ENTITY_LINKING id="E8" geneID="G7" geneText="TLR5" diseaseID="D20" diseaseText="colitis" relationID="R1" relationText="expression ... was downregulated" />
+<ENTITY_LINKING id="E9" geneID="G7" geneText="TLR5" diseaseID="D21" diseaseText="IBD" relationID="R1" relationText="expression ... was downregulated" />
+<ENTITY_LINKING id="E10" geneID="G8" geneText="CD8" diseaseID="D22" diseaseText="IBD" relationID="R2" relationText="regulated the occurrence and development" />
+</TAGS>
+</Genomics_ConceptTask>

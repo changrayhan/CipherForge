@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Recurrent pregnancy loss in polycystic ovary syndrome: role of hyperhomocysteinemia and insulin resistance.
+Abstract: Recurrent pregnancy loss (RPL) in polycystic ovary syndrome (PCOS), which occurs in ∼50% of total pregnancies is a frequent obstetric complication. Among the several hypotheses, insulin resistance (IR), obesity and hyperhomocysteinemia (HHcy) play significant role/s in RPL. This study was conducted to assess the link between elevated levels of homocysteine and IR in PCOS-associated women with RPL in Kolkata, India. A retrospective study was conducted of one hundred and twenty six PCOS women (<30 years) who experienced two or more spontaneous abortions during the first trimester presenting to Institute of Reproductive Medicine (IRM) in Kolkata during the period of March 2008 through February 2011. One hundred and seventeen non-PCOS subjects with matching age range were randomly chosen as controls. Incidence of HHcy and IR was 70.63% (n = 89) and 56.34% (n = 71), respectively, in RPL-affected PCOS population which was significantly higher (p<0.04; p<0.0001) when compared to the non-PCOS set (HHcy: 57.26%; IR: 6.83%). Rates of miscarriage were significantly higher (p<0.008; p<0.03) in hyperhomocysteinemia-induced miscarriage when compared to the normohomocysteinemic segment (PCOS: 70.63% vs.29.36% & non-PCOS: 57.26% vs. 42.73%) along with the insulin resistant (p<0.04; p<0.0001) population (PCOS: 70.63% vs. 56.34% & non-PCOS: 57.26% vs. 6.83%) in both groups. A probabilistic causal model evaluated HHcy as the strongest plausible factor for diagnosis of RPL. A probability percentage of 43.32% in the cases of HHcy- mediated RPL suggests its increased tendency when compared to IR mediated miscarriage (37.29%), further supported by ROC-AUC (HHcy: 0.778 vs.  IR: 0.601) values. Greater susceptibility towards HHcy may increase the incidence for miscarriage in women in India and highlights the need to combat the condition in RPL control programs in the subcontinent.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="36~61" text="polycystic ovary syndrome" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="71~91" text="hyperhomocysteinemia" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="160~185" text="polycystic ovary syndrome" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="187~191" text="PCOS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="329~336" text="obesity" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D5" spans="341~361" text="hyperhomocysteinemia" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="363~367" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="495~499" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="611~615" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="862~866" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="947~951" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="1030~1034" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="1121~1125" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="1225~1245" text="hyperhomocysteinemia" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D14" spans="1465~1469" text="PCOS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="1544~1548" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D16" spans="1656~1660" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D17" spans="1855~1859" text="HHcy" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

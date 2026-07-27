@@ -1,0 +1,48 @@
+2026-07-21 15:00:12,341 [INFO] biotriplex_finetune: Logging to /root/autodl-tmp/slg-biotriplex-classification/logs/biotriplex_finetune_1_1784617212.log
+2026-07-21 15:00:12,342 [INFO] biotriplex_finetune: Task: classification, stage: 1
+2026-07-21 15:00:12,342 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:00:12,342 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 15:00:12,342 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:00:15,421 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 15:00:15,674 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 15:00:15,685 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 15:00:15,693 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 15:00:15,696 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 15:00:15,704 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 15:00:15,707 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 15:00:15,707 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 15:00:15,707 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 15:00:19,669 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:00:28,175 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 15:00:28,184 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 15:00:28,184 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 15:00:28,200 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 15:00:28,201 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 15:00:28,205 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+2026-07-21 15:00:28,205 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 15:00:28,207 [INFO] src.model.model_splitting: Using SDPA for U shard
+2026-07-21 15:00:49,808 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda
+2026-07-21 15:00:49,816 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+2026-07-21 15:00:49,816 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 15:00:49,817 [INFO] src.model.model_splitting: Using SDPA for M shard
+2026-07-21 15:01:08,531 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (gradient_checkpointing=True, deepspeed_zero=disabled)
+2026-07-21 15:01:08,541 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 15:01:08,542 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=734, peak_lr=1.00e-04
+2026-07-21 15:01:08,542 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 15:01:08,542 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 15:01:08,543 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 15:01:08,729 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-21 15:01:08,743 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 15:01:08,743 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 15:01:08,743 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 40.5s (single CUDA context)
+2026-07-21 15:01:08,744 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 15:01:24,316 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 15:01:24,316 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 15:01:40,181 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 15:01:40,181 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 15:01:42,115 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 15:01:42,115 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 73.9s
+2026-07-21 15:01:42,116 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=1, batch=1, lr=0.0001, wd=0
+2026-07-21 15:01:42,116 [INFO] src.training.trainer: Starting training: epochs=1, patience=999, train=734, val=134
+2026-07-21 15:01:58,523 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=0 n_tokens=2048 K=1 chunks of ~3072
+2026-07-21 15:02:21,255 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=1 n_tokens=2048 K=1 chunks of ~3072

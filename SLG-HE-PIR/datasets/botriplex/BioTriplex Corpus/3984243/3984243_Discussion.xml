@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The EGF family is composed of an interacting network of receptors and ligands that must be considered as a whole to understand the regulation of signaling in the EGF family. We determined the regulation pattern of the EGF family in tumor tissue from patients with gastric cancer as well as the matched adjacent normal tissue from the same patients.
+We found the signaling potential of EGFR to be upregulated in the tumor tissue through upregulation of all the EGFR activating ligands, and we also found upregulation of HER2 in tumor tissue that was very close to being significant (p = 0.0520). This is in good agreement with existing data that show that both EGFR and HER2 are associated with poor prognosis in gastric cancer  [19] . The importance of HER2 in gastric cancer is demonstrated by the fact that the HER2 inhibiting antibody Herceptin is the only approved agent for targeted treatment of gastric cancer  [24] .
+For HER3, we did not observe any expressional regulation on the mRNA level. However, a few studies on HER3 in gastric cancer have ascribed a role for HER3 in gastric cancer. HER3 has been associated with poor survival, and positive HER3 protein expression was detected by immunohistochemistry in 18.6% of gastric cancer samples compared to only 2.0% of nontumorous samples  [25] – [27] . We did not find a higher HER3 expression in gastric cancer compared to normal tissue in our study. However, a difference in the methods used in the studies (immunohistochemistry vs RT-qPCR) might account for some of the discrepancies in the results. In addition, we were able to describe the regulation pattern in each patient rather than in a pool of cancer patients and a pool of control persons, and this could also account for a difference in the results obtained in the two studies.
+We found a marked downregulation of both HER4 and its activating ligand NRG4 in tumor tissue. Our results are strengthened by the fact that we also found a downregulation when we used additional assays to quantify the specific isoforms of HER4. Using immunohistochemistry, we confirmed that normal gastric tissue is positive for HER4, whereas cancerous tissue has very low or no HER4 staining.
+The decreased expression of HER4 mRNA expression in the tumor tissue can be ascribed to a decrease in the number of cells expressing HER4 or to a decrease in HER4 expression in all the HER4 expressing cells. From our immunohistochemical stainings, we observe that in the gastric cancers only minor clusters with tumor cells had a positive immunoreaction to HER4, whereas the vast majority of tumor cells were completely negative. This indicates that it is the number of cell that expresses HER4 that is decreased in the tumors. In contrast to the tumor tissue, the normal tissue had very strong immunoreactions to HER4. Interestingly, it is especially mucus-producing cells and hydrochloric acid-producing parietal cell that express HER4 protein.
+The role of HER4 in cancerous disease is controversial. In bladder cancer, RT-qPCR quantification of HER4 and its ligands show that HER4 is associated with better survival. In particular, the co-expression of HER4 together with its specific ligand, NRG4, is highly correlated with better survival  [28] . Likewise, HER4 is associated with better overall and disease-free survival in cervix cancer  [29] . In laryngeal squamous cell carcinoma, HER4 is lost in late stage tumors  [30] , and HER4 is mainly found in low-stage and non-metastatic xenograft tumors in pancreatic cancer  [31] .
+On the other hand, HER4 protein expression as determined by immunohistochemistry has been associated with distal metastasis and a decreased survival rate in oral squamous cell carcinomas  [32] . In a study of colorectal cancer in which the protein expression pattern was also determined by immunohistochemistry, early-stage patients had a lower percentage of HER4 overexpression than late-stage patients  [33] . In malignancies of the central nervous system, HER4 also possesses a tumor-promoting role  [34] ,  [35] .
+Not much is known about the role of HER4 in gastric cancer. No HER4 mRNA expression was detected in two gastric cancer cell lines  [36] . HER4 protein expression as detected by immunohistochemistry has been found to correlate with early stage, lower grade, and absence of lymph node metastases in gastric cancer  [25] . This is in very good agreement with another study that investigated gene expression profiles in long-term survivors from metastatic gastric cancer treated with chemotherapy in which the authors indicated a possible role of HER4 upregulation in these patients  [37] . Together with our present results, these data further indicate that HER4 signaling has a protective function against carcinogenesis in the gastric region. One study found the HER4 gene to be frequently amplified in gastric cancer  [38] . However, the results of our studies indicate that this does not translate to the HER4 expression level since we found a downregulation of HER4 mRNA and protein expression rather than an upregulation.
+Even though we did not find the expression of EGFR to be regulated, the signaling potential through this receptor is increased by the upregulation of all its ligands. This includes the ligands shared with HER4: HB-EGF, betacellulin, and epiregulin. In addition to autocrine EGFR activation, upregulation of these ligands potentially results in increased activity of HER4. Activation of the EGFR pathway is indeed a way for the cells to become increasingly carcinogenic. However, considering HER4 to have anti-carcinogenic functions, a concomitant activation of this receptor would halt the proliferative advantage of EGFR activation. One could speculate that this potential activation of HER4 is avoided by the concomitant downregulation of the receptor and its specific ligand NRG4.
+In patients with bladder cancer, the combined HER4/NRG4 signaling unit can be growth inhibitory, and the co-expression of HER4 together with NRG4 is highly correlated to better survival if the two proteins act together rather than individually  [28] .
+We have also performed an analysis to compare the HER4 expression to patient survival. We did observe a trend towards high HER4 expression being correlated to a better survival (results not shown), however, due to a limitation in the number of patients included in the study, this result was not found to be significant and further studies will have to elucidate if a correlation between HER4 expression and survival can be found in gastric cancer. A correlation of the expression level of the EGF receptors to the presence of lymph node metastases and the tumor invasiveness showed only HER2 to correlate inversely to these parameters whereas no correlation was found for the remaining EGF family (results not shown).
+In conclusion, our results suggest a new role for HER4 in gastric cancer. Interestingly, we found both HER4 and its specific ligand NRG4 to be downregulated in cancerous tissue. This is accompanied by an increased signaling potential of EGFR through upregulation of all its ligands and an upregulation of HER2.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="386~390" text="EGFR" location="result" />
+<GENE id="G1" spans="461~465" text="EGFR" location="result" />
+<GENE id="G2" spans="520~524" text="HER2" location="background" />
+<GENE id="G3" spans="661~665" text="EGFR" location="background" />
+<GENE id="G4" spans="670~674" text="HER2" location="background" />
+<GENE id="G5" spans="754~758" text="HER2" location="result" />
+<GENE id="G6" spans="814~818" text="HER2" location="background" />
+<GENE id="G7" spans="929~933" text="HER3" location="result" />
+<GENE id="G8" spans="1027~1031" text="HER3" location="background" />
+<GENE id="G9" spans="1075~1079" text="HER3" location="background" />
+<GENE id="G10" spans="1099~1103" text="HER3" location="background" />
+<GENE id="G11" spans="1157~1161" text="HER3" location="background" />
+<GENE id="G12" spans="1338~1342" text="HER3" location="result" />
+<GENE id="G13" spans="1842~1846" text="HER4" location="result" />
+<GENE id="G14" spans="1873~1877" text="NRG4" location="result" />
+<GENE id="G15" spans="2040~2044" text="HER4" location="result" />
+<GENE id="G16" spans="2130~2134" text="HER4" location="result" />
+<GENE id="G17" spans="2180~2184" text="HER4" location="result" />
+<GENE id="G18" spans="2223~2227" text="HER4" location="result" />
+<GENE id="G19" spans="2328~2332" text="HER4" location="result" />
+<GENE id="G20" spans="2353~2357" text="HER4" location="result" />
+<GENE id="G21" spans="2380~2384" text="HER4" location="result" />
+<GENE id="G22" spans="2552~2556" text="HER4" location="result" />
+<GENE id="G23" spans="2685~2689" text="HER4" location="result" />
+<GENE id="G24" spans="2809~2813" text="HER4" location="result" />
+<GENE id="G25" spans="2928~2932" text="HER4" location="result" />
+<GENE id="G26" spans="2954~2958" text="HER4" location="background" />
+<GENE id="G27" spans="3043~3047" text="HER4" location="background" />
+<GENE id="G28" spans="3074~3078" text="HER4" location="background" />
+<GENE id="G29" spans="3151~3155" text="HER4" location="background" />
+<GENE id="G30" spans="3191~3195" text="NRG4" location="background" />
+<GENE id="G31" spans="3257~3261" text="HER4" location="background" />
+<GENE id="G32" spans="3385~3389" text="HER4" location="background" />
+<GENE id="G33" spans="3431~3435" text="HER4" location="background" />
+<GENE id="G34" spans="3549~3553" text="HER4" location="background" />
+<GENE id="G35" spans="3889~3893" text="HER4" location="background" />
+<GENE id="G36" spans="3989~3993" text="HER4" location="background" />
+<GENE id="G37" spans="4084~4088" text="HER4" location="background" />
+<GENE id="G38" spans="4111~4115" text="HER4" location="background" />
+<GENE id="G39" spans="4186~4190" text="HER4" location="background" />
+<GENE id="G40" spans="4591~4595" text="HER4" location="background" />
+<GENE id="G41" spans="4703~4707" text="HER4" location="result" />
+<GENE id="G42" spans="4810~4814" text="HER4" location="background" />
+<GENE id="G43" spans="4954~4958" text="HER4" location="result" />
+<GENE id="G44" spans="5011~5015" text="HER4" location="result" />
+<GENE id="G45" spans="5119~5123" text="EGFR" location="result" />
+<GENE id="G46" spans="5278~5282" text="HER4" location="result" />
+<GENE id="G47" spans="5287~5290" text="EGF" location="result" />
+<GENE id="G48" spans="5292~5304" text="betacellulin" location="result" />
+<GENE id="G49" spans="5310~5320" text="epiregulin" location="result" />
+<GENE id="G50" spans="5347~5351" text="EGFR" location="result" />
+<GENE id="G51" spans="5439~5443" text="HER4" location="result" />
+<GENE id="G52" spans="5463~5467" text="EGFR" location="result" />
+<GENE id="G53" spans="5564~5568" text="HER4" location="result" />
+<GENE id="G54" spans="5690~5694" text="EGFR" location="result" />
+<GENE id="G55" spans="5761~5765" text="HER4" location="result" />
+<GENE id="G56" spans="5851~5855" text="NRG4" location="result" />
+<GENE id="G57" spans="5903~5907" text="HER4" location="background" />
+<GENE id="G58" spans="5908~5912" text="NRG4" location="background" />
+<GENE id="G59" spans="5979~5983" text="HER4" location="background" />
+<GENE id="G60" spans="5998~6002" text="NRG4" location="background" />
+<GENE id="G61" spans="6159~6163" text="HER4" location="result" />
+<GENE id="G62" spans="6232~6236" text="HER4" location="result" />
+<GENE id="G63" spans="6497~6501" text="HER4" location="result" />
+<GENE id="G64" spans="6697~6701" text="HER2" location="result" />
+<GENE id="G65" spans="6878~6882" text="HER4" location="result" />
+<GENE id="G66" spans="6931~6935" text="HER4" location="result" />
+<GENE id="G67" spans="6960~6964" text="NRG4" location="result" />
+<GENE id="G68" spans="7065~7069" text="EGFR" location="result" />
+<GENE id="G69" spans="7133~7137" text="HER2" location="result" />
+<DISEASE id="D0" spans="265~279" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="713~727" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="762~776" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="902~916" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1035~1049" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1083~1097" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1230~1244" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1357~1371" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1665~1671" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="2466~2480" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="3001~3015" text="bladder cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="3325~3338" text="cervix cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3350~3383" text="laryngeal squamous cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3504~3521" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3687~3716" text="oral squamous cell carcinomas" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3739~3756" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="4092~4106" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="4152~4166" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4345~4359" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4500~4514" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4850~4864" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="5874~5888" text="bladder cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="6542~6556" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="6886~6900" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="695~709" text="poor prognosis" location="background" relation="negative prognostic marker" />
+<RELATION id="R1" spans="880~898" text="targeted treatment" location="background" relation="therapeutic target" />
+<RELATION id="R2" spans="1066~1070" text="role" location="background" relation="relation undefined" />
+<RELATION id="R4" spans="3098~3113" text="better survival" location="background" relation="positive prognostic marker" />
+<RELATION id="R5" spans="3223~3238" text="better survival" location="background" relation="positive prognostic marker" />
+<RELATION id="R6" spans="3281~3321" text="better overall and disease-free survival" location="background" relation="positive prognostic marker" />
+<RELATION id="R8" spans="3660~3683" text="decreased survival rate" location="background" relation="negative prognostic marker" />
+<RELATION id="R9" spans="3894~3908" text="overexpression" location="background" relation="increased expression" />
+<RELATION id="R10" spans="4108~4110,4116~4131" text="No ... mRNA expression" location="background" relation="decreased expression" />
+<RELATION id="R11" spans="4596~4608" text="upregulation" location="background" relation="increased expression" />
+<RELATION id="R13" spans="6027~6042" text="better survival" location="background" relation="positive prognostic marker" />
+<RELATION id="R14" spans="6869~6873" text="role" location="result" relation="relation undefined" />
+<RELATION id="R15" spans="1148~1156,1162~1180" text="positive ... protein expression" location="background" relation="increased expression" />
+<RELATION id="R16" spans="4076~4080" text="role" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="EGFR" diseaseID="D1" diseaseText="gastric cancer" relationID="R0" relationText="poor prognosis" />
+<ENTITY_LINKING id="E1" geneID="G4" geneText="HER2" diseaseID="D1" diseaseText="gastric cancer" relationID="R0" relationText="poor prognosis" />
+<ENTITY_LINKING id="E2" geneID="G6" geneText="HER2" diseaseID="D3" diseaseText="gastric cancer" relationID="R1" relationText="targeted treatment" />
+<ENTITY_LINKING id="E3" geneID="G9" geneText="HER3" diseaseID="D5" diseaseText="gastric cancer" relationID="R2" relationText="role" />
+<ENTITY_LINKING id="E4" geneID="G11" geneText="HER3" diseaseID="D6" diseaseText="gastric cancer" relationID="R15" relationText="positive ... protein expression" />
+<ENTITY_LINKING id="E5" geneID="G28" geneText="HER4" diseaseID="D10" diseaseText="bladder cancer" relationID="R4" relationText="better survival" />
+<ENTITY_LINKING id="E6" geneID="G31" geneText="HER4" diseaseID="D11" diseaseText="cervix cancer" relationID="R6" relationText="better overall and disease-free survival" />
+<ENTITY_LINKING id="E8" geneID="G34" geneText="HER4" diseaseID="D14" diseaseText="oral squamous cell carcinomas" relationID="R8" relationText="decreased survival rate" />
+<ENTITY_LINKING id="E9" geneID="G35" geneText="HER4" diseaseID="D15" diseaseText="colorectal cancer" relationID="R9" relationText="overexpression" />
+<ENTITY_LINKING id="E10" geneID="G37" geneText="HER4" diseaseID="D16" diseaseText="gastric cancer" relationID="R16" relationText="role" />
+<ENTITY_LINKING id="E11" geneID="G38" geneText="HER4" diseaseID="D17" diseaseText="gastric cancer" relationID="R10" relationText="No ... mRNA expression" />
+<ENTITY_LINKING id="E12" geneID="G40" geneText="HER4" diseaseID="D19" diseaseText="gastric cancer" relationID="R11" relationText="upregulation" />
+<ENTITY_LINKING id="E13" geneID="G59" geneText="HER4" diseaseID="D21" diseaseText="bladder cancer" relationID="R13" relationText="better survival" />
+<ENTITY_LINKING id="E14" geneID="G60" geneText="NRG4" diseaseID="D21" diseaseText="bladder cancer" relationID="R13" relationText="better survival" />
+<ENTITY_LINKING id="E15" geneID="G65" geneText="HER4" diseaseID="D23" diseaseText="gastric cancer" relationID="R14" relationText="role" />
+</TAGS>
+</Genomics_ConceptTask>

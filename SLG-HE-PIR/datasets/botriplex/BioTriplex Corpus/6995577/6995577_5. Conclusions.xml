@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In conclusion, this mechanistic investigation using biochemical assays suggested that BME inhibited TTR amyloidogenesis by attenuating the rate-limiting step in TTR amyloidogenesis pathway, that is the dissociation homotetramers into monomeric constituents by binding at the thyroxine-binding sites of and possibly stabilizing the native tetramer. Although these studies unveiled the potential of BME in countering the causative mechanism of ATTR pathology, further investigations are warranted, such as determining its potency and safety profile in disease animal models.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="101~104" text="TTR" location="result" />
+<GENE id="G1" spans="162~165" text="TTR" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

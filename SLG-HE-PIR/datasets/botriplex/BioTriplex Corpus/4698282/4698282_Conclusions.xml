@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Overall, our data provide strong evidence that common variation in the immunosuppression pathway is associated with breast cancer susceptibility. The strongest candidates for mediating this association were  STAT3 ,  IL5,  and  GM - CSF , but we cannot exclude the possibility of multiple alleles each with effects too small to confirm.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="209~214" text="STAT3" location="result" />
+<GENE id="G1" spans="218~221" text="IL5" location="result" />
+<GENE id="G2" spans="229~237" text="GM - CSF" location="result" />
+<DISEASE id="D0" spans="117~130" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

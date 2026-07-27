@@ -1,0 +1,112 @@
+{
+  "sites": [
+    {
+      "file": "src/parties/party_m.py",
+      "line": 101,
+      "function": "__init__",
+      "severity": "CRITICAL",
+      "description": "unconditional pickle.loads",
+      "has_secret_key": true
+    },
+    {
+      "file": "src/parties/party_u.py",
+      "line": 112,
+      "function": "__init__",
+      "severity": "CRITICAL",
+      "description": "unconditional pickle.loads",
+      "has_secret_key": true
+    },
+    {
+      "file": "src/parties/party_s.py",
+      "line": 84,
+      "function": "__init__",
+      "severity": "CRITICAL",
+      "description": "unconditional pickle.loads",
+      "has_secret_key": true
+    },
+    {
+      "file": "src/parties/heterogeneous_protocol.py",
+      "line": 762,
+      "function": "_split_into_chunks",
+      "severity": "CRITICAL",
+      "description": "torch.load (may contain pickled objects)",
+      "has_secret_key": true
+    },
+    {
+      "file": "src/parties/crypto_workers/crypto_m.py",
+      "line": 65,
+      "function": "init_state",
+      "severity": "CRITICAL",
+      "description": "unconditional pickle.loads",
+      "has_secret_key": true
+    },
+    {
+      "file": "src/parties/crypto_workers/crypto_u.py",
+      "line": 70,
+      "function": "init_state",
+      "severity": "CRITICAL",
+      "description": "unconditional pickle.loads",
+      "has_secret_key": true
+    },
+    {
+      "file": "src/parties/crypto_workers/crypto_s.py",
+      "line": 77,
+      "function": "init_state",
+      "severity": "CRITICAL",
+      "description": "unconditional pickle.loads",
+      "has_secret_key": true
+    },
+    {
+      "file": "src/training/evaluation.py",
+      "line": 49,
+      "function": "evaluate_test_set",
+      "severity": "HIGH",
+      "description": "torch.load (may contain pickled objects)",
+      "has_secret_key": false
+    },
+    {
+      "file": "src/training/trainer.py",
+      "line": 190,
+      "function": "_safe_letter_split",
+      "severity": "HIGH",
+      "description": "torch.load (may contain pickled objects)",
+      "has_secret_key": false
+    },
+    {
+      "file": "src/training/trainer.py",
+      "line": 687,
+      "function": "_safe_letter_split",
+      "severity": "HIGH",
+      "description": "torch.load (may contain pickled objects)",
+      "has_secret_key": false
+    },
+    {
+      "file": "src/training/checkpoint.py",
+      "line": 73,
+      "function": "__init__",
+      "severity": "HIGH",
+      "description": "torch.load (may contain pickled objects)",
+      "has_secret_key": false
+    },
+    {
+      "file": "src/training/checkpoint.py",
+      "line": 87,
+      "function": "__init__",
+      "severity": "HIGH",
+      "description": "torch.load (may contain pickled objects)",
+      "has_secret_key": false
+    },
+    {
+      "file": "src/core/key_remapping.py",
+      "line": 51,
+      "function": "remap_lora_keys",
+      "severity": "HIGH",
+      "description": "torch.load (may contain pickled objects)",
+      "has_secret_key": false
+    }
+  ],
+  "poc_result": "returncode=0\nstdout='P6_EXPLOITED\\n'\nstderr='PICKLE_LOADED\\n'\n",
+  "total_sites": 13,
+  "critical_sites": 7,
+  "high_sites": 6
+}

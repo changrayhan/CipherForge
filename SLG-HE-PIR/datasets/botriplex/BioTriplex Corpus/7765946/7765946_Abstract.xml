@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Cell Fusion of Mesenchymal Stem/Stromal Cells and Breast Cancer Cells Leads to the Formation of Hybrid Cells Exhibiting Diverse and Individual (Stem Cell) Characteristics.
+Abstract: Cancer is one of the most common diseases worldwide, and treatment bears many challenges such as drug and radioresistance and formation of metastases. These difficulties are due to tumor heterogeneity, which has many origins. One may be cell fusion, a process that is relevant in both physiological (e.g., wound healing) and pathophysiological (cancer and viral infection) processes. In this study, we examined if cell fusion between mesenchymal stem/stromal cells (MSCs) and breast cancer (BC) cells occurs and if newly generated hybrid cells may exhibit cancer stem/initiating cell (CS/IC) characteristics. Therefore, several methods such as mammosphere assay, AldeRed assay, flow cytometry (CD24, CD44, CD104) and Western blot analysis (of epithelial to mesenchymal transition markers such as SNAIL, SLUG and Twist) were applied. In short, four different hybrid clones, verified by short tandem repeat (STR) analysis, were analyzed; each expressed an individual phenotype that seemed not to be explicitly related to either a more stem cell or cancer cell phenotype. These results show that cancer cells and MSCs are able to fuse spontaneously in vitro, thereby giving rise to hybrid cells with new properties, which likely indicate that cell fusion may be a trigger for tumor heterogeneity.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="884~888" text="CD24" location="result" />
+<GENE id="G1" spans="890~894" text="CD44" location="result" />
+<GENE id="G2" spans="896~901" text="CD104" location="result" />
+<GENE id="G3" spans="986~991" text="SNAIL" location="result" />
+<GENE id="G4" spans="993~997" text="SLUG" location="result" />
+<GENE id="G5" spans="1002~1007" text="Twist" location="result" />
+<DISEASE id="D0" spans="58~71" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="190~196" text="Cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="535~541" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="666~679" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="681~683" text="BC" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="746~752" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="1236~1242" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1283~1289" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

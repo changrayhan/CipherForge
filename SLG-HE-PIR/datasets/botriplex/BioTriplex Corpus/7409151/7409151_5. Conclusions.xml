@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Our results indicate that the positive expression of KIF14 and Mieap and negative expression of EZR at the tips of the torpedo-like structures is associated with a high frequency of breast cancer metastasis. The underlying mechanism most likely consists of the joint involvement of KIF14- and Mieap-positive cells as well as EZR-negative cells in the realization of breast cancer invasion. In other words, KIF14, Mieap, and EZR can be considered as markers of breast cancer invasion. Altogether, these results again indicate the important role of intratumor morphological heterogeneity in breast cancer prognosis and its potential attractivity as a useful model for the identification of prognostic markers.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="54~59" text="KIF14" location="result" />
+<GENE id="G1" spans="64~69" text="Mieap" location="result" />
+<GENE id="G2" spans="97~100" text="EZR" location="result" />
+<GENE id="G3" spans="283~288" text="KIF14" location="result" />
+<GENE id="G4" spans="294~299" text="Mieap" location="result" />
+<GENE id="G5" spans="326~329" text="EZR" location="result" />
+<GENE id="G6" spans="407~412" text="KIF14" location="result" />
+<GENE id="G7" spans="414~419" text="Mieap" location="result" />
+<GENE id="G8" spans="425~428" text="EZR" location="result" />
+<DISEASE id="D0" spans="183~196" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="367~380" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="461~474" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="590~603" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="147~182,197~207" text="associated with a high frequency of ... metastasis" location="result" relation="negative prognostic marker" />
+<RELATION id="R1" spans="450~460,475~483" text="markers of ... invasion" location="result" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="KIF14" diseaseID="D0" diseaseText="breast cancer" relationID="R0" relationText="associated with a high frequency of ... metastasis" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="Mieap" diseaseID="D0" diseaseText="breast cancer" relationID="R0" relationText="associated with a high frequency of ... metastasis" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="EZR" diseaseID="D0" diseaseText="breast cancer" relationID="R0" relationText="associated with a high frequency of ... metastasis" />
+<ENTITY_LINKING id="E3" geneID="G6" geneText="KIF14" diseaseID="D2" diseaseText="breast cancer" relationID="R1" relationText="markers of ... invasion" />
+<ENTITY_LINKING id="E4" geneID="G8" geneText="EZR" diseaseID="D2" diseaseText="breast cancer" relationID="R1" relationText="markers of ... invasion" />
+<ENTITY_LINKING id="E5" geneID="G7" geneText="Mieap" diseaseID="D2" diseaseText="breast cancer" relationID="R1" relationText="markers of ... invasion" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,20 @@
+2026-07-24 16:06:47,351 [INFO] attack_suite: Log file: SLG-attack-test/results/run_20260724_160647/attack_test.log
+2026-07-24 16:06:47,351 [INFO] attack_suite: ============================================================
+2026-07-24 16:06:47,351 [INFO] attack_suite: Protocol initialisation (GPU mode with Llama-3.2-1B)
+2026-07-24 16:06:47,351 [INFO] attack_suite: ============================================================
+2026-07-24 16:06:47,351 [INFO] attack_suite: Python path updated: /home/changrayhan/hCode/SLG-HE-PIR-code/SLG-HE-PIR
+2026-07-24 16:06:50,771 [INFO] attack_suite: Loading dataset...
+2026-07-24 16:06:50,786 [INFO] attack_suite: Loaded dataset: train=4909, val=543, test=500
+2026-07-24 16:06:50,786 [INFO] attack_suite: Model path: /home/changrayhan/hCode/SLG-HE-PIR-code/hf_cache/models--unsloth--Llama-3.2-1B
+2026-07-24 16:06:50,786 [INFO] attack_suite: Initializing tokenizer...
+2026-07-24 16:06:53,052 [WARNING] attack_suite: GPU protocol init failed: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece or tiktoken installed to convert a slow tokenizer to a fast one.
+2026-07-24 16:06:53,052 [WARNING] attack_suite: Falling back to synthetic data mode
+2026-07-24 16:06:53,055 [INFO] attack_suite: ============================================================
+2026-07-24 16:06:53,055 [INFO] attack_suite: Protocol initialisation (simplified mode)
+2026-07-24 16:06:53,055 [INFO] attack_suite: ============================================================
+2026-07-24 16:06:53,055 [ERROR] attack_suite: Dataset not found or load failed: No module named 'data.trecqc_dataset'
+2026-07-24 16:06:53,055 [ERROR] attack_suite: Protocol init failed: No module named 'data.trecqc_dataset'

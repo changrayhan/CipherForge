@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In the past few years, HCC has been diagnosed as the most prevalent primary hepatic malignant tumor inducing many health problems worldwide 1 , 2 . Abundant evidence has unveiled the critical impact that circRNA elicits on the initiation and progression of different kinds of diseases, particularly in human malignancies, including breast cancer 18 , osteosarcoma 19 , oral mucosal melanoma 33 , non-small cell lung cancer 20 , and HCC 21 . Although an existing research concerning breast cancer have elucidated the key regulatory role of circZNF609 on cell growth and metastasis 24 , the underlying regulatory function of circZNF609 on the tumorigenesis of HCC still needs exploration. Therefore, this study was the first attempt to make clear the function that circZNF609 exerted on HCC tumorigenesis and development. To achieve this purpose, the dramatically upregulated expression of circZNF609 was detected and then circular structure of it was confirmed in HCC, followed by functional assays concerning the biological role of circZNF609 in tumorigenesis and development of HCC. The results elucidated that knockdown of circZNF609 impaired HCC cell proliferation, metastasis and stemness whereas facilitated cell apoptosis.
+Subsequently, the downstream target genes of circZNF609 with significant differences in expression were found to be closely related to Hedgehog pathway through microarray and KEGG analyses. Then we speculated that Hedgehog pathway might participate in the regulation of circZNF609 in HCC due to the existing studies, which have revealed that Hedgehog pathway was associated with the tumorigenesis and development of tumors, such as osteosarcoma 34  and retinoblastoma 35 . Afterwards, SAG (an agonist of Hedgehog pathway) was used to test the above speculation and then a series of experiments delineated that the addition of SAG could partially rescue circZNF609 knockdown-mediated function on HCC cell proliferation, metastasis, stemness, as well as cell apoptosis, which implied that the activation of Hedgehog pathway could promote HCC progression.
+Subsequently, GLI2 (a key protein molecule concerning Hedgehog pathway) was found to be lowered by circZNF609 knockdown in HCCLM3 and MHCC-97H cells. Considering the close relation of GLI2 to Hedgehog pathway and the significant role of GLI2 in gastric cancer 36 , GLI2 was treated as another object of this study. In the follow-up test, circZNF609 was discovered to take a bigger proportion in cytoplasm than nucleus in HCC, indicating its post-transcriptional regulation of target gene expression. Thus, we boldly conjectured that circZNF609 might mediate the activation of Hedgehog pathway through post-transcriptional regulation of certain miRNA to mediate GLI2 expression in HCC. Then miR-15a-5p and miR-15b-5p were screened out because of their evidently downregulation in HCC cells. Following assays elucidated that there was a negative correlation between miR-15a-5p/15b-5p and circZNF609 (or GLI2), and a positive correlation between circZNF609 and GLI2 in HCC. Besides, miR-15a-5p/15b-5p was validated to bind with circZNF609 (or GLI2) in HCC. To further proof the molecular mechanism of circZNF609 in HCC, rescue experiments were applied and revealed that GLI2 overexpression or miR-15a-5p/15b-5p inhibition rescued circZNF609 silencing-mediated function on HCC progression in different degrees. Final in vivo assays further confirmed the oncogenic role of circZNF609 in the in vivo tumorigenesis of HCC.
+In conclusion, circZNF609 enhances HCC cell proliferation, metastasis, and stemness by activating the Hedgehog pathway through the regulation of miR-15a-5p/15b-5p and GLI2 expressions, providing a new clue for investigators to explore better therapies for HCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2097~2101" text="GLI2" location="result" />
+<GENE id="G1" spans="2267~2271" text="GLI2" location="background" />
+<GENE id="G2" spans="2320~2324" text="GLI2" location="result" />
+<GENE id="G3" spans="2348~2352" text="GLI2" location="result" />
+<GENE id="G4" spans="2744~2748" text="GLI2" location="result" />
+<GENE id="G5" spans="3041~3045" text="GLI2" location="result" />
+<GENE id="G6" spans="2984~2988" text="GLI2" location="result" />
+<GENE id="G7" spans="3123~3127" text="GLI2" location="result" />
+<GENE id="G8" spans="3250~3254" text="GLI2" location="result" />
+<GENE id="G9" spans="3666~3670" text="GLI2" location="result" />
+<DISEASE id="D0" spans="24~27" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="333~346" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="352~364" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="370~391" text="oral mucosal melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="397~423" text="non-small cell lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="433~436" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="483~496" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="659~662" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="786~789" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="964~967" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1080~1083" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1146~1149" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1514~1517" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1662~1674" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1683~1697" text="retinoblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1925~1928" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2066~2069" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2328~2342" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="2763~2766" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2862~2865" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3049~3052" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3132~3135" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3195~3198" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3352~3355" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3494~3497" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="3534~3537" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="3755~3758" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="2300~2316" text="significant role" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="GLI2" diseaseID="D17" diseaseText="gastric cancer" relationID="R0" relationText="significant role" />
+</TAGS>
+</Genomics_ConceptTask>

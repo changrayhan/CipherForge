@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Animals
+Seven-week-old male C57BL/6 mice were purchased from Charles River (Orient Bio, Seongnam, South Korea). All animals were housed in a controlled environment (12/12 h light/dark cycle; 22 ± 1 °C) and given ad libitum access to food and water. All the animal experiments were approved by the Animal Experimental Ethics Committee of the Kyung Hee University (permit number: KHUASP (SE)-16-033) and were performed according to the local guidelines.
+Cell culture
+Human alveolar epithelial A549 cells and primary human lung fibroblasts were purchased from ATCC (Manassas, VA, USA) and Lonza (Walkersville, MD, USA), respectively. A549 cells were cultured in Dulbecco’s modified Eagle’s medium (DMEM, 4.5 g/L glucose) (Life Technologies, USA) supplemented with 10% fetal bovine serum. Primary human lung fibroblasts were cultured in Fibroblast Cell Basal Medium and growth supplements from Lonza.
+Reagents and antibodies
+Recombinant human TGF-β1 protein was purchased from R&D Systems (Minneapolis, MN, USA). BLM was acquired from Nippon Kayaku (Tokyo, Japan). Dulbecco’s modified Eagle’s medium (DMEM), fetal bovine serum (FBS), penicillin, and streptomycin were purchased from Life Technologies (Grand Island, NY, USA). Antibodies against phospho-Smad2/3, Smad2/3, phospho-p38, and p38 were obtained from Cell Signaling Technology (Boston, MA, USA). Antibodies against E-cadherin and α-SMA and β-actin were purchased, respectively, from Abcam (Cambridge, MA, USA) and Santa Cruz Biotechnology (Dallas, TX, USA). Horseradish peroxidase-conjugated anti-rabbit and anti-goat secondary antibodies were obtained from Cell Signaling Technology and Santa Cruz Biotechnology, respectively.
+Preparation of PM014
+Medical plants of the seven species that constitute PM014 were prepared by Hanlim Pharm Co. LTD (Yongin, Korea) as described previously 11 . Briefly, each herb was mixed, dissolved, and extracted using a reflex condenser presented in Supplementary Table  1 . Undesirable materials were removed by filtering (Sigma, St. Louis, USA). Then, the solvent was evaporated under vacuum and dried extract powder was collected as PM014. 20 mg/ml of PM014 was dissolved in HPLC-graded methanol and filtered using Minisart RC15 (Sartorius Stedium Biotech, Germany). For administration, PM014 was further diluted in PBS at different concentration. The quantities of standard materials in 1 g of the final PM014 extract were: Paeoniflorin >0.43 mg, Schizandrin >0.12 mg, Baicalin >7.26 mg, and Amygdalin >2.48 mg. Quantification of standard materials in PM014 was performed by high performance liquid chromatography (HPLC) system.
+Bleomycin-induced pulmonary fibrosis mouse model
+Pulmonary fibrosis was induced using bleomycin treatment (5 mg/kg or 2 mg/kg) as described previously 14 . Briefly, male C57BL/6 mice were randomly divided into four groups: a Control group, a bleomycin (BLM) group, a BLM + PM014 group and a BLM + DEX (dexamethasone, 0.45 mg/kg). In the BLM + PM014 group, mice in three subgroups were treated with PM014 at a dose of 50, 100, or 200 mg/kg. At day 0, the mice were lightly anesthetized using isoflurane, and BLM was dissolved in 40 µl of PBS and administered intratracheally as previously described 39 . To test preventive effect, on day 2 after BLM challenge PM014 was administered orally daily for 12 days (inflammatory phase) on mice given 5 mg/kg of BLM and 21 days (fibrotic phase) on mice received 2 mg/kg of BLM, respectively. Further, to test therapeutic effect of PM014, mice were examined under two different administration schedules. One group received with 5 mg/kg of BLM was administered once daily with PM014 (200 mg/kg) from day 7 to day 14 after BLM challenge. The second group given with 5 mg/kg of BLM was treated once daily with PM014 (200 mg/kg) from day 10 to day 21 after BLM exposure. All mice were killed 24 h after the last injection and the lungs were harvested for the assays described below.
+Chromatography conditions
+A high performance liquid chromatography (HPLC) system was equipped with variable wavelength detector (VWD, SHMADZU, Japan). Chromatographic separation was performed on C18 column (250 mm × 4.6 mm, 5.0 μm; YMC Co., Ltd., Kyoto, Japan) at 30 °C. The mobile phases were acetonitrile (A) and 0.1% H 3 PO 4  in H 2 O (B), with the following gradient (A to B): 10–90% (0–2 min), 13–87% (2.1–6.5 min), 16.5–83.5% (7.5–8.5 min), 80-20% (21 min), 100-0% (21.1-24 min), 10–90% (24.1–26 min). The flow rate and injection volume were 1.5 ml/min and 50 μl, respectively. The chromatogram was recorded at 280 and 232 nm.
+Analysis of bronchoalveolar lavage fluid
+After all animal were sacrificed, bronchoalveolar lavage fluid (BALF) was collected by washing three times with 1 ml of phosphate buffered saline (PBS) in the lung. BALF samples were centrifuged at 300 g for 5 min at 4 °C, and the cell pellets were re-suspended in 1 ml of PBS. The total live-cell count was performed using a hemocytometer. Then, the cells were cytospun into a microscope slide and stained with a Diff-Quick Staining kit (Thermo Fisher Scientific, Waltham, MA, USA). The BALF cells were obtained by counting leukocytes under light microscopy.
+Histopathological staining
+Left lungs were detached from the mice and were immediately fixed with 4% paraformaldehyde before embedding with paraffin wax and routine processing. Serial paraffin sections (5 μm) were prepared using a microtome, and deparaffinized tissue sections were stained with hematoxylin and eosin (H&E, Sigma, St. Louis, USA) to evaluate morphological changes in lungs. The severity of lung fibrosis was evaluated using Masson’s trichrome staining (Sigma, St. Louis, USA). Masson’s staining was carried out in order to differentiate collagen from other fibers by staining nuclei in black, cytoplasm and muscles in red, and collagen in blue.
+
+           Histopathological scoring 
+           40 . The score was based on 13-point scale, which evaluates airway inflammation (4 points), vascular inflammation (4 points), and parenchymal inflammation (5 points). All scoring was performed blinded and an average score was assigned to each lung. To evaluate the score of pulmonary inflammation from H&E stained tissues, inflammation was quantified by a set of custom-designed criteria as described previously 
+        
+
+           Ashcroft scoring 
+           41 . Criteria for grading fibrosis were as follows: Grade 0, normal lung; Grade 1, minimal fibrous thickening of alveolar or bronchiolar walls; Grade 2–3, moderate thickening of walls without obvious damage to lung architecture; Grade 4–5, increased fibrosis with definite damage to lung structure and formation of fibrous bands or small fibrous masses; Grade 6–7, severe distortion of structure and large fibrous areas (honeycomb lung is placed in this category); Grade 8, total fibrous obliteration of the fields. To determine the severity of pulmonary fibrosis, each field was semi-quantitatively assessed, as described previously with minor modifications 
+        
+
+           Morphometric analysis of collagen 
+           42 , 43 . Briefly, images of Masson’s trichrome-stained specimens were captured with on a digital camera and digitalized at 2560 × 1920 pixel spatial resolution with a global magnification of 400. By adjusting image contrast and threshold, the images were processed to detect areas of blue-stained collagen on each field. The fractional area of fibrosis are given as proportion of collagen area of the total area (%). The average percent area of fibrosis was generated from five non-overlapping fields per section and assigned to each animal. To quantify collagen deposition, we adopted a previously described image analysis-based system with minor modifications 
+        
+Hydroxyproline assay
+The collagen content in the lung was quantified by a hydroxyproline assay. 10 mg of lung tissue was hydrolyzed in 6N HCl at 120 °C for 3 h, followed by dried overnight. The samples were centrifuged 10,000 g for 20 min at 4 °C and the supernatants were collected. The hydroxyproline content was determined using a kit (Hydroxyproline Assay Kit, Sigma) according to the manufacturer’s instructions. The absorbance of each sample at 550 nm wavelength was measured using a standard curve (Hyproxyproline standards (0–10 μg/ml).
+Enzyme-linked immunosorbent assay
+TNF-α, IL-6, IL-1β, TGF-β1, IL-17A, and IL-23 levels in lung homogenates were determined using a quantitative sandwich enzyme-linked immunosorbent assay (ELISA) according to the manufacturer’s instructions (BD sciences, San Diego, CA, USA). Briefly, right lung samples were homogenized in 50 mM potassium phosphate buffer containing protease inhibitors (Roche, Germany) and centrifuged at 12,000 rpm for 15 min at 4 °C. The supernatants were collected and stored −80 °C until use. OD (optical density) of each sample after color development was measured with a microplate reader (SOFT max PRO software, Sunnyvale, CA, USA) at 450 nm.
+Quantitative Real-time PCR
+Total RNA was extracted from lung tissues and cells using Easy Blue TM  (Intron Company, Seongnam, South Korea). First-strand cDNA was synthesized with a cDNA synthesis kit (Bioneer Corporation, Daejeon, South Korea). Then, the mRNA levels of TGF-β1, E-cadherin, α-SMA, vimentin, Slug, Snail, and type I collagen were analyzed in a LightCycler 96 (Roche, Basel, Switzerland) with SYBR Green qPCR Mastermix (Bioline Reagents Ltd., London, United Kingdom) in a total volume of 20 μl Relative levels of mRNA expression were normalized to β-actin expression for each gene. Primers are listed in Supplementary Table  2 .
+Western blotting
+Samples of mice lung tissues and cells were homogenized in RIPA buffer (Cell Signaling, Boston, MA, USA) in the presence of a protease inhibitor cocktail (Roche, Basel, Switzerland). Approximately 30 μg of total protein was separated by SDS-PAGE, then transferred to a nitrocellulose membrane (EMD Millipore, Billerica, MA, USA). The membranes were blocked with 5% BSA (bovine serum albumin) for 0.5 h, followed by incubation with appropriate primary antibodies overnight at 4 °C. Then, after washes with TBST (20 mM Tris-HCl at pH 7.4, 150 mM NaCl, 0.05% Tween-20), the membranes were incubated with HRP-labeled secondary antibodies and visualized with enhanced chemiluminescence reagents (DoGen, Seoul, South Korea). The results were analyzed using the ImageJ densitometry system.
+Immunofluorescence staining
+The cells were seeded on glass slides and treated as described above. Then, the samples were washed with PBS, fixed with 4% paraformaldehyde for 10 min and permeabilized with 0.2% Triton X-100 in PBS. After blocking with 5% BSA, the cells were stained with the appropriate primary antibodies at 4 °C overnight. After incubation, the samples were washed and incubated with Alexa Fluor 594- or 488-conjugated antibody (Life Technologies, USA). The nuclei were stained with DAPI. Then, the samples were washed with PBS and mounted with anti-fade solution (Vector Laboratories, Burlingame, CA, USA). Fluorescent images were acquired with a Zeiss LSM5 confocal microscope (Carl Zeiss, Jena, Germany).
+Wound healing assay
+Wound healing assay as performed as previously described with the minor modification 27 . Briefly, A549 or HLF cells were grown on 6-well plates until they formed a confluent monolayer. A scratch was made using a sterile 200 μl micropipette tip and cells were washed with PBS and treated TGF-β1 or PM014. The cell migration was tracked over time and imaged by phase contrast microscopy after 48 hours of treatment. The scratch assay was performed on 4 replicate cultures for each condition. Each culture was imaged at different 3 location at 3 locations. The percentage of original width was estimated by measuring the width between the edges of the scratch would in the distinctive area of each image using Image J software.
+Statistical analysis
+Data were expressed as the means ± SE. A one-way analysis of variance (ANOVA) followed by the Newman-Keuls test was performed. All experiments were performed with at least three biological replicates, and  P  < 0.05 was considered statistically significant.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="940~946" text="TGF-β1" location="result" />
+<GENE id="G1" spans="1250~1255" text="Smad2" location="result" />
+<GENE id="G2" spans="1259~1264" text="Smad2" location="result" />
+<GENE id="G3" spans="1276~1279" text="p38" location="result" />
+<GENE id="G4" spans="1285~1288" text="p38" location="result" />
+<GENE id="G5" spans="1372~1382" text="E-cadherin" location="result" />
+<GENE id="G6" spans="1397~1404" text="β-actin" location="result" />
+<GENE id="G7" spans="8330~8335" text="TNF-α" location="result" />
+<GENE id="G8" spans="8337~8341" text="IL-6" location="result" />
+<GENE id="G9" spans="8343~8348" text="IL-1β" location="result" />
+<GENE id="G10" spans="8350~8356" text="TGF-β1" location="result" />
+<GENE id="G11" spans="8358~8364" text="IL-17A" location="result" />
+<GENE id="G12" spans="8370~8375" text="IL-23" location="result" />
+<GENE id="G13" spans="9234~9240" text="TGF-β1" location="result" />
+<GENE id="G14" spans="9242~9252" text="E-cadherin" location="result" />
+<GENE id="G15" spans="9261~9269" text="vimentin" location="result" />
+<GENE id="G16" spans="9271~9275" text="Slug" location="result" />
+<GENE id="G17" spans="9277~9282" text="Snail" location="result" />
+<GENE id="G18" spans="9288~9303" text="type I collagen" location="result" />
+<GENE id="G19" spans="9526~9533" text="β-actin" location="result" />
+<GENE id="G20" spans="11439~11445" text="TGF-β1" location="result" />
+<DISEASE id="D0" spans="2641~2659" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="2672~2690" text="Pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="5583~5596" text="lung fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="6896~6914" text="pulmonary fibrosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

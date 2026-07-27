@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Experimental model and subject details
+
+           Mice 
+           ad libitum . The day of vaginal plug detection was defined E0.5, while the day of birth was assigned as P0. Both female and male mice underwent light stimulation and multi-site electrophysiological recordings at P8-10 after transfection with light-sensitive proteins by IUE at E15.5. For monitoring of projections, tracers were injected at P7 and monitored in their distribution along the axonal tracts at P10. For specifically addressing interneurons by light, the Dlx5/6-Cre drive line (Tg(dlx5a-cre)1Mekk/J, Jackson Laboratory) was crossed with either ArchT (Ai40(RCL-ArchT/EGFP)-D, Jackson Laboratory) or ChETA (R26-CAG-LSL-2XChETA-tdTomato, Jackson Laboratory) reporter line. All experiments were performed in compliance with the German laws and the guidelines of the European Union for the use of animals in research and were approved by the local ethical committee (111/12, 132/12). Timed-pregnant C57Bl/6J mice from the animal facility of the University Medical Center Hamburg-Eppendorf were housed individually in breeding cages at a 12 hr light/12 hr dark cycle and fed  
+        
+Methods details
+
+           Surgical procedures 
+           In utero electroporation 
+             Figure 5—figure supplement 1A ) and 0.1% fast green dye at a volume of 0.75–1.25 µl were injected into the right lateral ventricle of individual embryos using pulled borosilicate glass capillaries with a sharp and long tip. Plasmid DNA was purified with NucleoBond (Macherey-Nagel, Germany). 2A encodes for a ribosomal skip sentence, splitting the fluorescent protein tDimer2 from the opsin during gene translation. Two different IUE protocols were used to target pyramidal neurons in CA1 area of either dHP or i/vHP. To target dHP, each embryo within the uterus was placed between the electroporation tweezer-type paddles (5 mm diameter, Protech, TX, USA) that were oriented at a 25° leftward angle from the midline and a 0° angle downward from anterior to posterior. Electrode pulses (35 V, 50 ms) were applied five times at intervals of 950 ms controlled by an electroporator (CU21EX, BEX, Japan) ( Figure 5—figure supplement 1B (i)) ( Baumgart and Grebe, 2015 ). To target i/vHP, a tri-polar approach was used ( Szczurkowska et al., 2016 ). Each embryo within the uterus was placed between the electroporation tweezer-type paddles (5 mm diameter, both positive poles, Protech, TX, USA) that were oriented at 90° leftward angle from the midline and a 0° angle downward from anterior to posterior. A third custom build negative pole was positioned on top of the head roughly between the eyes. Electrode pulses (30 V, 50 ms) were applied six times at intervals of 950 ms controlled by an electroporator (CU21EX, BEX, Japan). By these means, neural precursor cells from the subventricular zone, which radially migrate into the HP, were transfected. Uterine horns were placed back into the abdominal cavity after electroporation. The abdominal cavity was filled with warm sterile PBS (37°C) and abdominal muscles and skin were sutured individually with absorbable and non-absorbable suture thread, respectively. After recovery, pregnant mice were returned to their home cages, which were half placed on a heating blanket for two days after surgery. Starting one day before and until two days after surgery, timed-pregnant C57Bl/6J mice received on a daily basis additional wet food supplemented with 2–4 drops Metacam (0.5 mg/ml, Boehringer-Ingelheim, Germany). At E15.5 randomly assigned pregnant mice were injected subcutaneously with buprenorphine (0.05 mg/kg body weight) 30 min before surgery. The surgery was performed on a heating blanket and toe pinch and breathing were monitored throughout. Under isoflurane anesthesia (induction: 5%, maintenance: 3.5%) the eyes of the dam were covered with eye ointment to prevent damage before the uterine horns were exposed and moistened with warm sterile phosphate buffered saline (PBS, 37°C). Solution containing 1.25 µg/µl DNA [pAAV-CAG-ChR2(E123T/T159C)−2A-tDimer2, or pAAV-CAG-tDimer2)] ( 
+           
+             
+           Retrograde and anterograde tracing 
+             For retrograde tracing, mice were injected at P7 with Fluorogold (Fluorochrome, LLC, USA) unilaterally into the PFC using iontophoresis. The pups were placed in a stereotactic apparatus and kept under anesthesia with isoflurane (induction: 5%, maintenance: 2.5%) for the entire procedure. A 10 mm incision of the skin on the head was performed with small scissors. The bone above the PFC (0.5 mm anterior to bregma, 0.3 mm right to the midline) was carefully removed using a syringe. A glass capillary (≈20 µm tip diameter) was filled with ≈1 µL of 5% Fluorogold diluted in sterile water by capillary forces, and a silver wire was inserted such that it was in contact with the Fluorogold solution. For anterograde tracing, mice were injected at P7 with the anterograde tracer biotinylated dextran amine (BDA) (Thermo Fisher Scientific, USA) unilaterally into i/vHP using iontophoresis and surgery protocols as described above. The bone above i/vHP (0.7 mm anterior to lambda, 2.3 mm right to the midline) was carefully removed using a syringe. A glass capillary (≈30 µm tip diameter) was filled with ≈1 µL of 5% BDA diluted in 0.125 M phosphate buffer by capillary forces, and a silver wire was inserted such that it was in contact with the BDA solution. For both anterograde and retrograde tracing, the positive pole of the iontophoresis device was attached to the silver wire, the negative one was attached to the skin of the neck. The capillary was carefully lowered into the PFC (≈1.5 mm dorsal from the dura) or HP (≈1.5 mm dorsal from the dura). Iontophoretically injection by applying anodal current to the pipette (6 s on/off current pulses of 6 µA) was done for 5 min. Following injection, the pipette was left in place for at least 5 min and then slowly retracted. The scalp was closed by application of tissue adhesive glue and the pups were left on a heating pad for 10–15 min to fully recover before they were given back to the mother. The pups were perfused at P10. 
+           
+             
+           Surgical preparation for acute electrophysiological recording and light delivery 
+             For recordings in non-anesthetized state, 0.5% bupivacain/1% lidocaine was locally applied on the neck muscles. For recordings under anesthesia, mice were injected i.p. with urethane (1 mg/g body weight; Sigma-Aldrich, MO, USA) prior to surgery. For both groups, under isoflurane anesthesia (induction: 5%, maintenance: 2.5%) the head of the pup was fixed into a stereotaxic apparatus using two plastic bars mounted on the nasal and occipital bones with dental cement. The bone above the PFC (0.5 mm anterior to bregma, 0.5 mm right to the midline for layer V/VI), hippocampus (2.0 mm posterior to bregma, 1.0 mm right to the midline for dHP, 3.5 mm posterior to bregma, 3.5 mm right to the midline for i/vHP) was carefully removed by drilling a hole of <0.5 mm in diameter. After a 10–20 min recovery period on a heating blanket mice were moved to the setup for electrophysiological recording. Throughout the surgery and recording session the mouse was positioned on a heating pad with the temperature kept at 37°C. 
+           
+             
+           Perfusion 
+             Mice were anesthetized with 10% ketamine (aniMedica, Germany)/2% xylazine (WDT, Germany) in 0.9% NaCl solution (10 µg/g body weight, i.p.) and transcardially perfused with Histofix (Carl Roth, Germany) containing 4% paraformaldehyde for 30–40 min. Brains were postfixed in 4% paraformaldehyde for 24 hr. 
+           
+             
+        
+Behavioral testing
+
+           Examination of developmental milestones 
+           Mouse pups were tested for their somatic development and reflexes at P2, P5 and P8. Weight, body and tail length were assessed. Surface righting reflex was quantified as time (max 30 s) until the pup turned over with all four feet on the ground after being placed on its back. Cliff aversion reflex was quantified as time (max 30 s) until the pup withdrew after snout and forepaws were positioned over an elevated edge. Vibrissa placing was rated positive if the pup turned its head after gently touching the whiskers with a toothpick. 
+        
+Electrophysiology
+
+           Electrophysiological recording 
+           str pyr ,where sharp-waves reverse ( Bitzenhofer and Hanganu-Opatz, 2014 ), was used to minimize any non-stationary effects of the large amplitude events. For the analysis of hippocampal firing, two channels below and two channels above this site were additionally considered. A one-shank electrode (NeuroNexus, MI, USA) containing 1 × 16 recording sites (0.4–0.8 MΩ impedance, 100 mm spacing) was inserted into the layer V/VI of PFC. One-shank optoelectrodes (NeuroNexus, MI, USA) containing 1 × 16 recordings sites (0.4–0.8 MΩ impedance, 50 mm spacing) aligned with an optical fiber (105 mm diameter) ending 200 μm above the top recording site was inserted into either dHP or i/vHP. A silver wire was inserted into the cerebellum and served as ground and reference electrode. A recovery period of 10 min following insertion of electrodes before acquisition of data was provided. Extracellular signals were band-pass filtered (0.1–9,000 Hz) and digitized (32 kHz) with a multichannel extracellular amplifier (Digital Lynx SX; Neuralynx, Bozeman, MO, USA) and the Cheetah acquisition software (Neuralynx). Spontaneous (i.e. not induced by light stimulation) activity was recorded for 15 min at the beginning and end of each recording session as baseline activity. Only the baseline prior to stimulation epochs was used for data analysis. The position of recording electrodes in PL and CA1 area of dHP or i/vHP was confirmed after histological assessment post-mortem. For the analysis of prelimbic LFP, the recording site centered in PL was used, whereas for the analysis of spiking activity two channels above and two channels below this site were additionally considered. Recording site in cingulate or infralimbic sub-divisions of the PL were excluded from analysis. For the analysis of hippocampal LFP, the recording site located in  
+        
+
+           Light stimulation 
+           2  at the fiber tip. For each frequency used (4, 8 and 16 Hz), stimuli (3 ms pulse length, 3 s stimulation duration, 6 s inter stimulation interval) were repeated (30 times) in a randomized order. Pulsed (laser on-off) light or ramp (linearly increasing power) stimulations were performed with an arduino uno (Arduino, Italy) controlled diode laser (473 nm or 600 nm; Omicron, Austria). Laser power was adjusted to trigger neuronal spiking in response to >25% of 3-ms-long light pulses at 16 Hz. Resulting light power was in the range of 20–40 mW/mm 
+        
+Histology
+
+           Immunohistochemistry 
+           Brains were sectioned coronally at 50 µm. Free-floating slices were permeabilized and blocked with PBS containing 0.2% Triton X 100 (Sigma-Aldrich, MO, USA), 10% normal bovine serum (Jackson Immuno Research, PA, USA) and 0.02% sodium azide. Subsequently, slices were incubated overnight with mouse monoclonal Alexa Fluor-488 conjugated antibody against NeuN (1:200, MAB377X, Merck Millipore, MA, USA) or rabbit polyclonal primary antibody against GABA (1:1,000, A2052; Sigma-Aldrich), followed by 2 hr incubation with Alexa Fluor-488 goat anti-rabbit IgG secondary antibody (1:500, A11008; Merck Millipore). Slices were transferred to glass slides and covered with Fluoromount (Sigma-Aldrich, MO, USA). 
+           For 3.3’-diaminobenzidie (DAB) staining sections (prepared as described above) were rinsed in PBS (0.125 M, pH 7.4–7.6) for 10 min, treated with peroxide solution (3% peroxide, 10% methanol in 0.125 M PB) for 10 min to quench any endogenous peroxidases within the tissue, and rinsed again. Subsequently, the sections were washed in PBS containing 0.5% Triton-X and incubated with avidin biotinylated enzyme complex (ABC, VECTASTAIN ABC Kit, USA) at room temperature or overnight at 4°C. After rinsing in Tris-HCl (pH 7.4), the sections were further incubated with DAB working buffer (DAB peroxidase substrate kit, Vector Laboratories, USA) at room temperature for 2–10 min. After the signal was detected, all sections were rinsed with Tris-HCl. 
+        
+
+           Imaging 
+           Wide field fluorescence was performed to reconstruct the recording electrode position in brain slices of electrophysiologically investigated pups and to localize tDimer2 expression in pups after IUE. High magnification images were acquired with a confocal microscope (DM IRBE, Leica, Germany) to quantify tDimer2 expression and immunopositive cells (1–4 brain slices/investigated mouse). For DAB staining, brightfield images were obtained using Zeiss imager M1 microscope (Zeiss, Oberkochen, Germany) and enhanced using the National Institutes of Health (NIH) Image program. 
+        
+Quantification and statistical analysis
+
+           Immunohistochemistry quantification 
+           All images were similarly analyzed with ImageJ. For quantification of fluorogold tracing automatic cell counting was done using custom-written tools. To quantify tDimer2, NeuN and GABA-positive neurons, manual counting was performed, since the high neuronal density in str. pyr. prevented reliable automatic counting. 
+        
+
+           Spectral analysis of LFP 
+           Data were imported and analyzed offline using custom-written tools in the Matlab environment (MathWorks). Data were processed as follows: band-pass filtered (500–5,000 Hz) to analyze MUA and low-pass filtered (<1,400 Hz) using a third-order Butterworth filter before downsampling to 3.2 kHz to analyze LFP. All filtering procedures were performed in a manner preserving phase information. 
+        
+
+           Detection of oscillatory activity 
+           Cichon et al., 2014 ) and confirmed by visual inspection. Briefly, deflections of the root mean square of band-pass filtered signals (1–100 Hz) exceeding a variance-depending threshold were assigned as network oscillations. The threshold was determined by a Gaussian fit to the values ranging from 0 to the global maximum of the root-mean-square histogram. If two oscillations occurred within 200 ms of each other, they were considered as one. Only oscillations lasting >1 s was included. The detection and of discontinuous patterns of activity in the neonatal PL and HP were performed using a modified version of the previously developed algorithm for unsupervised analysis of neonatal oscillations ( 
+        
+
+           Detection of sharpwaves 
+           Sharpwaves were detected by subtracting the filtered signal (1–300 Hz) from the recording sites 100 µm above and 100 µm below the recording site in str. pyr. Sharpwaves were then detected as peaks above five times the standard deviation of the subtracted signal. 
+        
+
+           Power spectral density 
+           Power spectral density was calculated using the Welch’s method. Briefly, segments of the recorded signal were glued together (1 s segments for oscillatory activity; 300 ms segments for sharpwave pre/post comparison; 100 ms segments for ripple comparison; 3 s for light evoked activity) and power were then calculated using non-overlapping windows. Time–frequency plots were calculated by transforming the data using Morlet continuous wavelet. 
+        
+
+           Coherence 
+           Nolte et al., 2004 ). Briefly, the imaginary coherence was calculated by taking the imaginary component of the cross-spectral density between the two signals and normalized by the power spectral density of each. The computation of the imaginary coherence C over frequency (f) for the power spectral density P of signal X and Y was performed according to the formula: C X Y f = I m P X Y ( f ) 2 P X X f P Y Y ( f ) Coherence was calculated using the imaginary coherency method ( 
+        
+
+           General partial directed coherence 
+           Baccala et al., 2007 ). gPDC is based on linear Granger causality measure. The method attempts to describe the causal relationship between multivariate time series based on the decomposition of multivariate partial coherences computed from multivariate autoregressive models. The LFP signal was divided into segments containing the oscillatory activity. Signal was de-noised using wavelets with the Matlab wavelet toolbox. After de-noising, gPDC was calculated using the gPDC algorithm previously described ( 
+        
+
+           Single unit activity analysis 
+           SUA was detected and clustered using Offline Sorter (Plexon, TC, USA). 1–4 single units were detected at each recording site. Subsequently, data were imported and analyzed using custom-written tools in the Matlab software (MathWorks). The firing rate temporally related to SPWs was calculated by aligning all units to the detected SPWs. For assessing the phase locking of units to LFP, we firstly used the Rayleigh test for non-uniformity of circular data to identify the units significantly locked to network oscillations. The phase was calculated by extracting the phase component using the Hilbert transform of the filtered signal at each detected spike. Spikes occurring in a 15 ms-long time window after the start of a light pulse were considered to be light-evoked. Stimulation efficacy was calculated as the probability of at least one spike occurring in this period. 
+        
+
+           Statistical analysis 
+           Supplementary file 1 . Statistical analyses were performed using SPSS Statistics 21 (IBM, NY, USA) or Matlab. Data were tested for normal distribution by the Shapiro–Wilk test. Normally distributed data were tested for significant differences (*p<0.05, **p<0.01 and ***p<0.001) using paired t-test, unpaired t-test or one-way repeated-measures analysis of variance with Bonferroni-corrected post hoc analysis. Not normally distributed data were tested with the nonparametric Mann–Whitney U-test. The circular statistics toolbox was used to test for significant differences in the phase locking data. Data are presented as mean ±SEM. No statistical measures were used to estimate sample size since effect size was unknown. Investigators were not blinded to the group allocation during the experiments. Unsupervised analysis software was used if possible to preclude investigator biases. Summary of performed statistical analysis is summarized in  
+        
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

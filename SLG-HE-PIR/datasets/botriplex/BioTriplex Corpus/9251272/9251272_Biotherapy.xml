@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+
+Mesenchymal Stem Cell Therapy
+
+Mesenchymal stem cells (MSCs) are pluripotent adult stem cells with the ability to self‐renew and differentiate into a variety of tissues, including bone marrow mesenchymal stem cells (BM‐MSCs), cartilage mesenchymal stem cells, muscle mesenchymal stem cells, and adipose mesenchymal stem cells. 62 
+ 
+ ,  63 
+ 
+ ,  64 
+ 
+  In the past few decades, the scientific community has devoted a lot of energy to the study of MCSs in order to apply them to the field of IDD, and some progress has been made.
+
+Molecular Mechanisms of Mesenchymal Stem Cells in  IDD 
+
+In 2003, Sakai  et al . 65 
+ 
+  found that BM‐MSCs can slow down rabbit IDD, which laid a theoretical foundation for the follow‐up study of BM‐MSCs in IDD. One of the applications of MSCs in the treatment of intervertebral disc degeneration is implanting cells directly into the damaged intervertebral disc. However, the degenerative intervertebral disc is characterized by hypoxia, 66 
+ 
+ ,  67 
+ 
+  low glucose, 67 
+ 
+  increased acidity, 66 
+ 
+ ,  67 
+ 
+  high osmotic pressure, 68 
+ 
+  mechanical load, 69 
+ 
+ ,  70 
+ 
+  and increased inflammatory factors, 71 
+ 
+ ,  72 
+ 
+  which has a great effect on the survival of MSCs in the intervertebral disc. 73 
+ 
+  At the same time, it is also a significant challenge for MSCs in the treatment of intervertebral disc degeneration. Therefore, it is thought that embedding cells with some kind of scaffold and implanting intervertebral disc can promote the inoculation, proliferation, and differentiation of MSCs. In one study 74 
+ 
+  rabbit BM‐MSCs were loaded with novel nanofibre sponge microspheres to regenerate NP. The results showed that the complex of this material and BM‐MSCs could promote BM‐MSCs to differentiate into NP phenotype, produce ECM, maintain IVD height, and prevent IVD calcification.
+The molecular mechanism of MSCs in the treatment of IDD is very complex. Xu  et al . 75 
+ 
+  found that overexpression of BMP7 can promote BM‐MSCs to differentiate into NPCs, promote the differentiation and proliferation of NPCs in rabbit IVD, and restore the homeostasis of ECM. At the same time, these effects can be inhibited by Smad1 silencing. Yang  et al . 76 
+ 
+  found that BM‐MSCs can secrete an anti‐inflammatory protein, TSG‐6, which can inhibit TLR2/NF‐κB pathway to reduce the production of inflammatory factors IL‐6 and TNF‐α, and then delay the inflammatory response in IDD. Growth differentiation factor 6 (GDF6) was found that could promote MSCs differentiation towards NPC type and increase ECM components expression. 77 
+ 
+ 
+
+
+Mesenchymal Stem Cell‐related Research in Treating  IDD 
+
+As mentioned earlier, MSCs is a very potential site for the treatment of IDD. At present, there have been corresponding clinical trials and case reports on the use of MSCs in the treatment of patients with IDD. Kumar  et al . 78 
+ 
+  conducted a 12‐month phase 1 clinical trial in which autologous adipose‐derived mesenchymal stem cells were obtained from 10 patients and injected into the IVD tissue of patients in conjunction with a hyaluronic acid derivative Tissuefill. Finally, the VAS pain score and ODI score of six patients improved significantly, of which three patients had intervertebral disc rehydration. Pettine  et al . 79 
+ 
+  recruited 26 patients to receive autologous BM‐MSCs injections. Pain symptoms were alleviated in all subjects, and eight patients improved a Pfirrmann grade. They also suggested that the efficacy of the treatment was related to the concentration of the cells injected. Elabd  et al . 80 
+ 
+  recruited five patients to receive autologous BM‐MSCs. All patients were followed up for more than 4 years, and all patients showed overall improvement in symptoms, which indicated that BM‐MSCs therapy was safe in the long term.
+Although encouraging achievements have been made in the application of MSCs in the treatment of IDD, there are still some problems. First of all, we still need to further study the molecular mechanism of MSCs in the treatment of intervertebral disc degeneration, including their targets and signal pathways, some biomolecules that can promote the efficacy of MSCs and establish a complete molecular mechanism structure. Finally, a large number of high‐quality clinical studies are still needed to test the feasibility and safety of MSCs therapy.
+Recent studies have explored how to use mesenchymal stem cells and gene therapy to prevent, slow down, or even reverse IDD, and may provide a new direction for the treatment of IDD. A brief overview of this section will be given below.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2179~2184" text="Smad1" location="background" />
+<GENE id="G1" spans="2279~2284" text="TSG‐6" location="background" />
+<GENE id="G2" spans="2372~2376" text="IL‐6" location="background" />
+<GENE id="G3" spans="2381~2386" text="TNF‐α" location="background" />
+<GENE id="G4" spans="2470~2474" text="GDF6" location="background" />
+<GENE id="G5" spans="2437~2468" text="Growth differentiation factor 6" location="background" />
+</TAGS>
+</Genomics_ConceptTask>

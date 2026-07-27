@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+ : Fu, B.  et al . GRAM domain-containing protein 1A (GRAMD1A) promotes the expansion of hepatocellular carcinoma stem cell and hepatocellular carcinoma growth through STAT5.  Sci. Rep. 
+ 6 , 31963; doi: 10.1038/srep31963 (2016).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="20~53" text="GRAM domain-containing protein 1A" location="result" />
+<GENE id="G1" spans="55~62" text="GRAMD1A" location="result" />
+<DISEASE id="D0" spans="90~114" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="129~153" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

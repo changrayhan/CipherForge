@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>SLG-HE-PIR Attack Test Report</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 2rem; }
+    h1 { color: #2c3e50; }
+    .meta { background: white; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+    .summary-cards { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .card { background: white; border-radius: 8px; padding: 1rem; min-width: 140px; box-shadow: 0 1px 4px rgba(0,0,0,.1); text-align: center; }
+    .card .num { font-size: 2rem; font-weight: bold; }
+    .card .label { font-size: 0.85rem; color: #7f8c8d; }
+    .card.ok    .num { color: #2ecc71; }
+    .card.warn  .num { color: #e74c3c; }
+    .card.maybe .num { color: #95a5a6; }
+    table { border-collapse: collapse; background: white; width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+    th { background: #34495e; color: white; padding: 0.6rem 0.5rem; text-align: left; font-size: 0.85rem; }
+    td { padding: 0.5rem; border-bottom: 1px solid #ecf0f1; font-size: 0.9rem; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: #f5f7fa; }
+    .attack-id { font-weight: bold; color: #2980b9; }
+    .sub-attack { color: #7f8c8d; font-size: 0.85rem; }
+    .metric { color: #8e44ad; }
+    .value { font-weight: bold; }
+    .chance, .std_err { color: #7f8c8d; }
+    .pval, .ci { font-family: monospace; font-size: 0.8rem; background: #ecf0f1; padding: 0.1rem 0.3rem; border-radius: 3px; }
+    .verdict { font-weight: bold; }
+    .notes { color: #7f8c8d; font-size: 0.85rem; max-width: 200px; }
+  </style>
+</head>
+<body>
+  <h1>SLG-HE-PIR Attack Test Report</h1>
+
+  <div class="summary-cards">
+    <div class="card ok">
+      <div class="num">3</div>
+      <div class="label">Privacy Preserved</div>
+    </div>
+    <div class="card warn">
+      <div class="num">0</div>
+      <div class="label">Leak Detected</div>
+    </div>
+    <div class="card maybe">
+      <div class="num">11</div>
+      <div class="label">Inconclusive</div>
+    </div>
+    <div class="card">
+      <div class="num">14</div>
+      <div class="label">Total Tests</div>
+    </div>
+  </div>
+
+  <div class="meta">
+    <strong>Timestamp:</strong> 2026-07-24T13:07:30.993269<br/>
+    <strong>Model:</strong> <br/>
+    <strong>Dataset:</strong> <br/>
+    <strong>N Steps:</strong> 20<br/>
+    <strong>Seed:</strong> 42<br/>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Attack ID</th>
+        <th>Sub-attack</th>
+        <th>Metric</th>
+        <th>Value</th>
+        <th>Chance</th>
+        <th>Std Err</th>
+        <th>p-value</th>
+        <th>CI</th>
+        <th>N</th>
+        <th>Verdict</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+            <tr>
+              <td class="attack-id">P1-1</td>
+              <td class="sub-attack"></td>
+              <td class="metric">coeff_modulus_bits</td>
+              <td class="value">109.0000</td>
+              <td class="chance">128.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">poly=4096, coeff=[36, 36, 37], total=109 bits。恰在 128-bit 理论边界，无裕量。建议用 lwe-estimator 精确测算（pip install lwe-estimator）。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P1-6</td>
+              <td class="sub-attack"></td>
+              <td class="metric">plainmodulus_consistency</td>
+              <td class="value">1.0000</td>
+              <td class="chance">1.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">PlainModulus 一致性需跨 Stage 测试（plain_bits=30 vs 32）。当前 _infer_plain_modulus 在 bits=30 时用 (1<<30)+27，bits=32 时走 fallback (1<<bits)，可能导致密钥不一致。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P2-4</td>
+              <td class="sub-attack"></td>
+              <td class="metric">seed_disclosure</td>
+              <td class="value">1.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">seed 泄露后 M+S 可重建 r_t，分离 V_y。需门限 PRG。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P5</td>
+              <td class="sub-attack"></td>
+              <td class="metric">chunk_tokens_bounds_check</td>
+              <td class="value">1.0000</td>
+              <td class="chance">1.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">OOM DoS 需运行时测试，静态分析无法覆盖；建议增加 chunk_tokens 上限校验。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P7</td>
+              <td class="sub-attack"></td>
+              <td class="metric">tmp_residue_files</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#2ecc71">&#x2714; PRIVACY_PRESERVED</td>
+              <td class="notes">发现 0 个残留临时文件: []</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P9</td>
+              <td class="sub-attack"></td>
+              <td class="metric">log_contains_structural_info</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">29</td>
+              <td class="verdict" style="color:#2ecc71">&#x2714; PRIVACY_PRESERVED</td>
+              <td class="notes">最新日志包含 n_tokens/chunk_time 信息=False</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P10</td>
+              <td class="sub-attack"></td>
+              <td class="metric">deepspeed_distributed_initialized</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">DeepSpeed ZeRO 初始化需运行时检测；建议在 _setup_deepspeed_zero 后清理 torch.distributed。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P11</td>
+              <td class="sub-attack"></td>
+              <td class="metric">attack_dumps_exists</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#2ecc71">&#x2714; PRIVACY_PRESERVED</td>
+              <td class="notes">attack_dumps 目录存在且非空=False。TrainerConfig.dump_attacks 默认为 False，若被误启用则 g_H 落盘。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P12</td>
+              <td class="sub-attack"></td>
+              <td class="metric">expected_shape_check_strict</td>
+              <td class="value">0.0000</td>
+              <td class="chance">1.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">party_m.py:418-422 expected_shape 不匹配仅 warn，建议改为 AssertionError。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">P13</td>
+              <td class="sub-attack"></td>
+              <td class="metric">backup_hint_file_exists</td>
+              <td class="value">0.0000</td>
+              <td class="chance">1.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">backup_hint_table.json 不存在，跳过</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">M1</td>
+              <td class="sub-attack"></td>
+              <td class="metric">availability</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">协议默认不返回 logits 给 U，需 MockPartyU(logits回流=True)。query_budgets=[100, 1000, 5000]，distill_T=1.0。</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">M2</td>
+              <td class="sub-attack"></td>
+              <td class="metric">availability</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">缺少 H_M 数据</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">M4</td>
+              <td class="sub-attack"></td>
+              <td class="metric">availability</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">缺少 losses 或 is_member 数据</td>
+            </tr>
+            
+            <tr>
+              <td class="attack-id">M5</td>
+              <td class="sub-attack"></td>
+              <td class="metric">availability</td>
+              <td class="value">0.0000</td>
+              <td class="chance">0.0000</td>
+              <td class="std_err">0.0000</td>
+              <td></td>
+              <td></td>
+              <td class="n-samples">0</td>
+              <td class="verdict" style="color:#95a5a6">&#x2753; INCONCLUSIVE</td>
+              <td class="notes">缺少 g_accum 或 prg_outputs 数据</td>
+            </tr>
+            
+    </tbody>
+  </table>
+</body>
+</html>

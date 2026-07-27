@@ -1,0 +1,16 @@
+===========================================
+[wait_then_run_f1] start: 2026-07-19 23:46:28
+[wait_then_run_f1] waiting for NER PID 423417 + parent 423402 to exit
+[wait_then_run_f1] 2026-07-19 23:46:28 NER still running, elapsed=29:41
+[wait_then_run_f1] 2026-07-19 23:51:28 NER still running, elapsed=34:41
+[wait_then_run_f1] 2026-07-19 23:56:28 NER still running, elapsed=39:41
+[wait_then_run_f1] 2026-07-20 00:01:28 NER still running, elapsed=44:41
+[wait_then_run_f1] 2026-07-20 00:06:28 NER still running, elapsed=49:41
+[wait_then_run_f1] 2026-07-20 00:11:28 NER still running, elapsed=54:41
+[wait_then_run_f1] 2026-07-20 00:16:28 NER still running, elapsed=59:41
+[wait_then_run_f1] 2026-07-20 00:20:28 NER python PID 423417 已消失
+[wait_then_run_f1] 2026-07-20 00:20:28 NER parent bash PID 423402 已退出
+[wait_then_run_f1] 2026-07-20 00:20:28 GPU 显存回收等待中（90s 渐降）...
+[wait_then_run_f1] 2026-07-20 00:20:28 GPU free=32110MiB used=0MiB
+[wait_then_run_f1] 2026-07-20 00:20:28 GPU 几乎空闲（used=0MiB），可以执行 F1
+[wait_then_run_f1] 2026-07-20 00:20:28 >>> 开始执行 evaluate_f1.py --split val

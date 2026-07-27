@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Downregulation of Kv10.1 Partially Activates the DNA Damage-Induced Checkpoint in the Absence of DNA Damage
+Since Kv10.1 downregulation leads to a delay in the progression of cells through the G2/M phase [ 22 ], we investigated the status of DNA damage-induced checkpoint by assessing the abundance of DDR proteins.
+HeLa cells were transfected with either control (scrambled,  Scr -) or  KCNH1 -siRNA, synchronized at the G1/S border using a double thymidine block, and then allowed to proceed through the cell cycle. The cells were collected throughout the entire duration of the cycle and used to determine the abundance of DDR proteins by immunoblotting ( Figure 1 A–C). Analysis of the images revealed an increase in some of the DDR components in Kv10.1-deficient (KD) HeLa cells. The active phosphorylated forms of ATR (Ser42) [ 42 , 43 ] and CHK1 (Ser345, a phosphorylation site for ATR [ 44 , 45 ]) were more abundant in Kv10.1 KD cells ( Figure 1 A,B). The total level of phosphorylated (p-) ATR normalized for actin was doubled in KD cells (0.41 ± 0.03 a.u. vs. 0.20 ± 0.01 a.u. in control;  Figure 1 A). p-CHK1 was increased by 60% upon Kv10.1 knockdown (0.14 ± 0.03 a.u. vs. 0.09 ± 0.02 a.u. in control;  Figure 1 B). The total level of CHK2 was increased by approximately 70% in Kv10.1-deficient HeLa cells (0.24 ± 0.01 a.u. in the KD vs. 0.14 ± 0.01 a.u. in controls;  Figure 1 C). However, we observed no significant differences in the expression of phosphorylated BRCA1 (Ser1524—A phosphorylation site for ATR [ 46 ]), total CHK1, p21, and p-histone H2A.X (Ser139;  Figure S1 ).
+To elucidate whether the activation of components of the checkpoint actually responded to increased DNA damage, we studied the presence and extent of DNA lesions using single-cell gel electrophoresis, also known as the comet assay [ 47 ]. The analysis of DNA comets in asynchronously growing HeLa and hTERT RPE1 cells did not reveal any significant changes in the magnitude of DNA damage between the control and the Kv10.1 knockdown group ( Figure 1 D–H). The observed differences in the DNA damage-induced checkpoint components upon Kv10.1 depletion are hence independent of DNA damage.
+2.2. Kv10.1 Downregulation Leads to Activation of Spindle Assembly Checkpoint and Decreased Occurrence of Lagging Chromosomes in HeLa Cells
+Although the initiation of DDR occurs in the nucleus, some of the DNA damage-induced checkpoint proteins are also localized at centrosomes and are linked to SAC during mitosis, independently of DNA damage [ 48 , 49 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 ]. We, therefore, set out experiments to investigate a possible activation of SAC upon Kv10.1 knockdown. HeLa cells were transfected with  Scr - or  KCNH1 -siRNA and synchronized at the G1/S border using a double thymidine block. Samples of synchronized cells were collected at the indicated time-points and analyzed by immunoblotting ( Figure 2 A–G). Densitometry analysis of the immunoblots showed a 20% increase in CDC20 in Kv10.1 KD cells (0.28 ± 0.05 a.u.) compared to the control group (0.23 ± 0.04 a.u.;  Figure 2 A). Similarly, MAD2 was 27% higher in Kv10.1 deficient HeLa cells (0.26 ± 0.02 a.u.) compared to the control cells (0.19 ± 0.02 a.u.;  Figure 2 B).
+We also tested the status of the APC/C complex, a direct target of the MCC. The APC/C protein CDC27 (cell division cycle protein 27) was downregulated by 20% in Kv10.1 KD (0.24 ± 0.02 a.u.) with respect to the control cells (0.30 ± 0.03 a.u.;  Figure 2 C). Notably, the most significant difference between the groups occurred six hours after the release (a 60% decrease: 0.45 ± 0.09 a.u. in controls vs. 0.28 ± 0.05 a.u. in KD cells;  Figure 2 C).
+The APC/C activity requires CDC27 [ 60 ], and the absence of CDC27 would originate a compensatory upregulation of other factors. The kinase WEE1 is a plausible candidate for such an upregulation. WEE1 inactivates the cyclin B1/CDK1 complex both at the entry into mitosis [ 61 ] and at the metaphase-to-anaphase transition [ 62 ]. WEE1 expression was increased by 30% in Kv10.1-deficient cells (0.16 ± 0.01 a.u.) compared to the control group (0.12 ± 0.01 a.u.;  Figure 2 D). Previously, we have shown that Kv10.1 downregulation in HeLa delays the degradation of cyclin A2 during G2/M phase [ 22 ]. Interestingly, cyclin A2 degradation has been suggested as a reporter for SAC activity—the higher the rate of MCC formation, the later cyclin A2 is degraded [ 63 , 64 ]. Additionally, in line with our previous observations [ 22 ], slightly broader peaks of CDC20 and WEE1 at the G2/M phase hint to extended and stronger SAC activity and the prevention of premature activation of APC/C in the absence of Kv10.1.
+Besides MCC, other factors can reinforce the SAC signal. For instance, pVHL (von Hippel-Lindau protein) enhances SAC response by increasing MAD2 levels, which in turn reduces chromosome instability [ 64 , 65 ]. Immunoblot analysis showed a moderate increase in the total levels of pVHL in Kv10.1 KD cells (0.34 ± 0.03 a.u. vs. 0.27 ± 0.02 a.u. in control;  Figure 2 E). While MCC detects unattached kinetochores [ 25 ], the accuracy of already-formed kinetochore-MT attachments is modulated by the AURKB (Aurora kinase B)—PLK1 (Polo-like kinase 1)—MCAK (mitotic centromere-associated kinesin) axis [ 66 ]. We assessed the involvement of this pathway by monitoring changes in its expression during the cell cycle in synchronized HeLa cells transiently transfected with either  Scr - or  KCNH1 -siRNA ( Figure 2 F,G). Interestingly, the total amount of AURKB was downregulated by 35% in Kv10.1-deficient HeLa cells (0.29 ± 0.03 a.u.) compared to control cells (0.40 ± 0.06 a.u.;  Figure 2 F). The localization of AURKB at the kinetochores is a crucial step in recruiting the SAC components [ 67 ] led by MAD2 [ 68 ]. Moreover, CHK1 and CHK2 help to correctly localize and activate AURKB, BUBR1, MAD1 at kinetochores [ 69 , 70 , 71 , 72 ]. Hence, although we observe a decrease in total AURKB in Kv10.1-deficient cells ( Figure 2 F), we can speculate that the amount of “effective” AURKB at the kinetochores may increase due to upregulation of both phosphorylated CHK1 ( Figure 1 B) and MAD2 ( Figure 2 B). Even a marginal loss of PLK1 activity impairs chromosome congression [ 66 , 73 ]. Like AURKB, PLK1 was 30% lower in Kv10.1 KD cells (0.11 ± 0.01 a.u. vs. 0.16 ± 0.02 a.u. in control cells;  Figure 2 G). However, the decreased total amount of PLK1 did not correlate with the enzymatic activity measured during the G2/M phase. A moderately higher PLK1 activity was detected both in Kv10.1-deficient HeLa ( Figure 2 H, left grey panel) and hTERT RPE1 cells ( Figure 2 H, right blue panel). As expected, cells synchronized at G1/S showed low overall PLK1 activity ( Figure 2 I). Thus, increased PLK1 enzymatic activity upon Kv10.1 loss in mitotic cells ( Figure 2 H) can contribute to the strength of SAC by modulating the kinetochore-MT attachments and facilitating the recruitment of MCC to kinetochores.
+The upregulation of major components of SAC in synchronized HeLa cells depleted of Kv10.1 (summarized in  Table 1 ) raises two questions. (i) Are SAC components upregulated due to chromosome misalignment during metaphase? And (ii) Does the more robust and prolonged SAC in Kv10.1 KD cells decrease the occurrence of lagging chromosomes? We approached these questions using HeLa cells transfected with either  Scr - or  KCNH1 -siRNA again, and synchronized at the metaphase, to study chromosome alignment, and at anaphase—for the occurrence of lagging chromosomes. Bipolar mitotic spindle, kinetochores, and DNA were visualized in fixed synchronized cells using a confocal fluorescence microscope ( Figure 2 J,L). Kv10.1 knockdown had almost no effect on the number of defective metaphases, which are characterized by the presence of misaligned chromosomes or damaged DNA ( Figure 2 J,K). In contrast,  KCNH1 -siRNA-treated HeLa cells had approximately 20% less lagging chromosomes (29.32 ± 0.45%, than the control cells (35.78 ± 0.45%;  Figure 2 L,M), suggesting a more efficient error-correction of kinetochore-MT attachments in KD cells.
+Altogether, the data indicate a moderate activation of SAC in the KD cells, sufficient to reduce the occurrence of lagging chromosomes.
+2.3. Kv10.1 Knockdown Leads to Mitotic Spindle Tilting and Increased Microtubule Plus-End Growth
+One of the causes of SAC activation can be an altered positioning of the mitotic spindle. HeLa cells with a larger tilting of the mitotic spindle require more time for biorientation of sister kinetochores due to prolonged activation of the spindle checkpoint [ 74 ]. Moreover, both PLK1 and pVHL, altered in Kv10.1-depleted cells, modulate the positioning of the mitotic spindle [ 75 , 76 , 77 , 78 , 79 , 80 , 81 ]. We measured the mitotic spindle angle in HeLa cells synchronized at metaphase ( Figure 3 A). The mitotic spindle angle was determined as the angle between the line connecting the two poles and the growing substrate ( Figure 3 B). As predicted, the mitotic spindle angle almost doubled in the Kv10.1 KD HeLa cells (17.20°) compared to the controls (9.68°;  Figure 3 C).
+To understand the exact mechanism underlying the effect of Kv10.1 expression on SAC activity and mitotic spindle positioning, we studied the behavior of MTs. It is well-established that both SAC and spindle orientation on one side and MT dynamics on the other are highly interdependent [ 26 , 82 , 83 ]. We studied the effect of Kv10.1 KD on MT dynamics in cells treated with DME (dimethylenastron). DME is an Eg5 kinesin inhibitor that induces the formation of monopolar prometaphase spindles without affecting the assembly rates of MT plus-tips [ 84 ]. Yet, cells with altered MT dynamics and mitotic spindle angle form asymmetric monopolar spindles [ 85 , 86 ]. HeLa cells were treated with 2.5 µM DME, and the mitotic spindles were inspected under a fluorescence microscope for the presence of asymmetric monopolar spindles ( Figure 3 D). Kv10.1-deficient HeLa cells displayed more asymmetric monopolar spindles (33%) than the control group (24.20%;  Figure 3 E). The DME-assay has also been suggested as a screen-test for an altered mitotic spindle angle [ 86 ]. The DME-assay confirms the results from the direct measurement of the mitotic angle in metaphase-arrested cells: Kv10.1 downregulation is associated with an increased mitotic spindle angle.
+To further validate the initial observation of increased MT dynamics in Kv10.1 KD cells, we measured the MT plus-end growth rates directly in living cells with transient Kv10.1 downregulation (upper blue panel,  Figure 3 F–I;  Videos S1 and S2 ) or upregulation (lower green panel,  Figure 3 F–I;  Videos S3 and S4 ). The growing MTs were detected by expressing EB3-tdTomato (end-binding protein 3 tandem dimer tomato fluorescent protein) and monitored in cells synchronized in prometaphase. The MT plus-end growth speed, growth length, and dynamicity were then computed with the U-Track software. It should be noted that we excluded the visibly asymmetric monopolar spindles from the analysis to ensure an unbiased assessment of MT dynamics. Due to that, however, cells with the most substantial effects are discarded, and our analysis display only minor changes in MT dynamics under the described conditions. Nevertheless, the growth speed was increased by 8.5% in Kv10.1 KD HeLa cells (20.77 µm·min −1  vs. 19.12 µm·min −1  in control cells; upper blue panel,  Figure 3 G). Similar to the growth speed, the frequency rate of switching from growth to shrinkage and vice-versa, known as dynamicity, was also increased in knockdown cells (top blue panel,  Figure 3 H). The displacement of the growing tip (growth length), was increased only by 3.6% upon Kv10.1 downregulation (upper blue panel,  Figure 3 I). Equivalent results were obtained in hTERT RPE1 cells with transient downregulation of Kv10.1 ( Figure S2 ).
+Opposite to Kv10.1 downregulation, overexpression of the channel globally reduced the MT dynamics (lower green panel,  Figure 3 G–I;  Videos S3 and S4 ). The growth speed, dynamicity, and growth length were also lower in pKCNH1-WT-expressing cells compared to the cells transfected with the empty vector. This result strongly suggests that the alteration of MT dynamics is directly dependent on Kv10.1.
+Despite the negative correlation between the MT dynamics and Kv10.1 expression, the causal relationship between Kv10.1 presence and the observed phenotypes remains to be defined. Whether the changes in the expression levels of regulatory proteins appear first, altering the MT behavior, or if the Kv10.1-dependent changes in MT dynamicity lead to mitotic spindle tilting and subsequently to SAC activation remains to be elucidated. We, nevertheless, favor the possibility that Kv10.1 participates in G2/M regulation by modulating the MT behavior, since spindle orientation is not affected by SAC inhibition [ 74 ].
+2.4. Block of Kv10.1 or ORAI1 Currents Reduces Microtubule Dynamics
+The absence of Kv10.1 abolishes both its canonical function (flow of K + ) and any possible non-canonical function, such as its participation in supramolecular complexes. K +  currents hyperpolarize the membrane and, therefore, increase the driving force for Ca 2+  [ 87 ], which controls MT dynamicity both in vitro and in vivo [ 37 , 38 , 88 , 89 , 90 ]. Ca 2+  ions also regulate many MT-associated proteins present on the growing tips [ 40 , 91 ]. Besides, there is evidence that Kv10.1 interacts functionally with the Ca 2+  channel ORAI1 and participates in store-independent Ca 2+  entry (SICE) [ 41 , 92 ]. Thus, we tested the possible implication of such a functional tandem in MT growth during the G2/M phase.
+We first studied the colocalization of Kv10.1 and ORAI1 in mitotic cells using proximity ligation assay (PLA). As shown in  Figure 4 A, using Kv10.1 and ORAI1-directed antibodies, the PLA gave rise to a signal, indicating the proximity of the two channels also in mitotic cells (zoomed-in inset,  Figure 4 A).
+Further, we studied the effect of each of the channel conductance on MT dynamics in live-cell imaging experiments, as before. To block Kv10.1, we used the only specific blocker available, the monoclonal antibody mAb56 [ 15 ]. For ORAI1 inhibition, we used AnCoA4, a potent drug directed against the C-terminus of ORAI1 [ 93 ]. As controls, we used either the vehicle for AnCoA4 DMSO (dimethyl sulfoxide) or non-specific mouse immunoglobulin of the same isotype as mAb56—IgG (immunoglobulin G) κ2b. The results are presented in  Figure 4 B–E and  Videos S5–S10 . Analysis of the time-lapse series showed that both AncoA4 and mAb56 significantly reduced all MT behavioral parameters: growth speed, dynamicity, and growth length (left grey and middle turquoise panels,  Figure 4 C–E). The effects were not additive: mAb56 and AnCoA4 combination treatment resulted in a smaller reduction in growth speed (right purple panel,  Figure 4 C). MT dynamicity was reduced by 10.7% in the cells exposed to AnCoA4 (left grey panel,  Figure 4 D), and by 8.7% in cells treated with mAb56 (middle turquoise panel,  Figure 4 D). Simultaneous treatment of the cells with AnCoA4 and mAb56 decreased MT dynamicity slightly less than each blocker alone (right purple panel,  Figure 4 D). The effect was similar on growth length, which was shortened by 14.1% in AnCoA4 (left grey panel,  Figure 4 E), 4.5% in mAb56 (middle turquoise panel,  Figure 4 E), and 9% in the combination (right purple panel,  Figure 4 E).
+In summary, AnCoA4 produced significant reductions of all parameters of MT dynamics, and mAb56 still induced significant but smaller effects than AnCoA4. The combined treatment showed no additivity, suggesting a shared mechanism for both blockers and, therefore, a common pathway influenced by Kv10.1 and ORAI1. This observation would be compatible with MT growth regulation by Ca 2+  entering the cell through ORAI1 in a Kv10.1-dependent manner. It is essential to point out that the changes induced by channel blockade are opposite to those caused by channel knockdown. Possible reasons for this difference are discussed below.
+2.5. Kv10.1 Regulates Intracellular [Ca 2+ ] Oscillations
+We have shown that Kv10.1 and ORAI1 are in proximity, and that block of currents of either of them results in altered MT behavior during prometaphase, raising the possibility that Kv10.1 activity induces changes in cytosolic [Ca 2+ ] through the functional interaction with ORAI1.
+We tested the effect of blockade of ORAI1 or Kv10.1, and knockdown of Kv10.1, on the behavior of intracellular [Ca 2+ ] during the G2/M transition in HeLa cells. As above, ORAI1 block was achieved by AnCoA4 treatment (using DMSO as a control); Kv10.1 was blocked by mAb56 (mouse IgG κ2b as a control); and Kv10.1 was transiently downregulated by  KCNH1 -siRNA (non-targeting  Scr -siRNA—control). Before imaging, the cells were loaded with the intracellular Ca 2+  indicator Fluo-4AM, and the fluorescent signal was recorded over 120 min, which roughly corresponds to the entire duration of M-phase ( Figure 5 A,  Videos S11–S16 ). The recorded signal was then normalized for photobleaching ( Figure 5 B). The area under the curve (AUC) and the width and the height of local maxima in the spectrum were determined, as shown in  Figure 5 C. The mean AUC, which indicates the relative intracellular Ca 2+  concentration, was 16.7% smaller in AnCoA4-treated cells (left grey panel,  Figure 5 D). The block of Kv10.1 currents also reduced the relative amount of intracellular Ca 2+ , although by only 3.8% (middle turquoise panel,  Figure 5 D). In comparison, the average intracellular [Ca 2+ ] was elevated by 10% in Kv10.1 KD cells (right blue panel,  Figure 5 D). Changes both in width ( Figure 5 E) and in the prominence of the peaks ( Figure 5 F) can explain differences in AUCs. The block of either of the channels resulted in narrower peaks (left grey and middle turquoise panels,  Figure 5 E). In contrast, the height of the peaks was not significantly affected (left grey and middle turquoise panels,  Figure 5 F). Opposingly, Kv10.1 silencing produced more prominent spikes (right blue panel,  Figure 5 F), but did not change the duration of the peaks (right blue panel,  Figure 5 G).
+Calcium signals are not only encoded in the absolute magnitude of changes but also the frequency and amplitude of calcium oscillations [ 94 ]. Therefore, using the same normalized recordings, we calculated the changes in the frequency of intracellular Ca 2+  oscillations converting the time domain of the signal into the frequency domain by Fast Fourier transform ( Figure 5 G). The block of ORAI1 significantly suppressed calcium oscillations. The absolute frequencies were already smaller in AnCoA4-treated cells ( Figure 5 H). Considering the relative power of each frequency, the average frequency of Ca 2+  oscillations was 62.5% lower in ORAI1 blocked cells (3.45 mHz) than in the DMSO-treated cells (9.19 mHz; left grey panel,  Figure 5 I). As shown in  Figure 5 H,I (middle turquoise panel), the antibody-mediated block of Kv10.1 did not affect the frequency of oscillations, while Kv10.1 downregulation increased the average frequency of Ca 2+  oscillations (right blue panel,  Figure 5 H). The weighted average frequency was higher in Kv10.1 KD (6.86 mHz) compared to the control group (6.32 mHz; right blue panel,  Figure 5 I).
+As already mentioned, MT growth is affected by Ca 2+  ions: Tubulin polymerization is inhibited in the presence of high [Ca 2+ ] in vitro [ 37 , 38 ]. Therefore, Ca 2+  oscillations would induce transitions from MT growth to MT shrinkage. A decrease of Ca 2+  entry and oscillations would result in reduced dynamicity, while faster oscillations would accelerate the switching between MT growth and shrinkage. The block of ORAI1 decreases both the total cytosolic [Ca 2+ ] and the frequency of cytosolic Ca 2+  oscillations. The block of Kv10.1 has a similar effect, albeit less intense. The block of either of the channels shortens the duration of Ca 2+  peaks, and thereby the absolute amount of Ca 2+  ions entering the cell.
+In contrast, siRNA-mediated downregulation of Kv10.1 has opposite effects on intracellular Ca 2+ , substantially increasing intracellular [Ca 2+ ] and frequency of Ca 2+  oscillations. Therefore, Kv10.1 current is required for regulating the duration of Ca 2+  spikes, while the frequency is dependent not on the current but the physical presence of Kv10.1. Thus, our data strongly suggest that the origin of changes in MT dynamics under the different treatments reported here correlate to the effects on intracellular Ca 2+  dynamics. Additionally, the mitotic spindles of Kv10.1 and ORAI1-inhibited cells appeared smaller and deteriorated ( Figure 4 A), which is in good agreement with the previously described effect of Ca 2+  chelation on the mitotic spindle [ 39 ].
+Differences between the effect of functional blockade and knockdown of the target are known for other proteins, like AURKB [ 95 ]. Our current observation of opposite effects of functional inhibition and depletion of Kv10.1 on MT dynamics and intracellular Ca 2+  oscillations is also reminiscent of our previous results on the role of Kv10.1 in primary cilium homeostasis [ 21 ]. While the potassium current is necessary for primary cilium disassembly, the overexpression of the channel prevents reciliation in a way independent of the canonical function of the channel, since a non-permeant mutant also produces the effect, as does the C-terminal cytoplasmic domain without the transmembrane segments (see Figure EV3 in [ 21 ]). Similarly, abolishing the ability of Kv10.1 to conduct ions through mutagenesis is not enough to completely inhibit its tumor-promoting activity [ 96 ]. Furthermore, a non-conducting Kv10.1 splice variant (E65, found in cancer cell lines), activates CDK1 when injected into Xenopus oocytes [ 97 ]. The depletion of Kv10.1 would, thus decrease both the full length and the spliced forms of the channel and prevent E65-mediated CDK1 activation. In contrast, this effect would not occur when the channel function is inhibited.
+Since canonic store-operated Ca 2+  entry is not active during mitosis [ 98 ], the possible source of Ca 2+  in dividing cells is SICE. Both membrane expression and activity of ORAI1 are dependent on SPCA2 (Secretory Pathway Ca 2+ -ATPase) [ 99 , 100 , 101 ]. Recently, it has been shown that SPCA2 also enhances Kv10.1 membrane expression, suggesting a new model of SICE [ 92 ]. In this scenario, it is tempting to speculate that the supramolecular complex between SPCA2, ORAI1, and Kv10.1 participates in providing the Ca 2+  required for MT growth. Kv10.1, which is inhibited by Ca 2+ -calmodulin [ 102 , 103 ], would provide the negative control segment of the trio, terminating the signal.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="24~30" text="Kv10.1" location="result" />
+<GENE id="G1" spans="120~126" text="Kv10.1" location="result" />
+<GENE id="G2" spans="394~399" text="KCNH1" location="result" />
+<GENE id="G3" spans="757~763" text="Kv10.1" location="result" />
+<GENE id="G4" spans="826~829" text="ATR" location="result" />
+<GENE id="G5" spans="854~858" text="CHK1" location="result" />
+<GENE id="G6" spans="895~898" text="ATR" location="result" />
+<GENE id="G7" spans="934~940" text="Kv10.1" location="result" />
+<GENE id="G8" spans="1006~1009" text="ATR" location="result" />
+<GENE id="G9" spans="1122~1126" text="CHK1" location="result" />
+<GENE id="G10" spans="1153~1159" text="Kv10.1" location="result" />
+<GENE id="G11" spans="1254~1258" text="CHK2" location="result" />
+<GENE id="G12" spans="1297~1303" text="Kv10.1" location="result" />
+<GENE id="G13" spans="1485~1490" text="BRCA1" location="result" />
+<GENE id="G14" spans="1527~1530" text="ATR" location="result" />
+<GENE id="G15" spans="1546~1550" text="CHK1" location="result" />
+<GENE id="G16" spans="1552~1555" text="p21" location="result" />
+<GENE id="G17" spans="1571~1576" text="H2A.X" location="result" />
+<GENE id="G18" spans="2016~2022" text="Kv10.1" location="result" />
+<GENE id="G19" spans="2134~2140" text="Kv10.1" location="result" />
+<GENE id="G20" spans="2193~2199" text="Kv10.1" location="result" />
+<GENE id="G21" spans="2680~2686" text="Kv10.1" location="result" />
+<GENE id="G22" spans="2742~2747" text="KCNH1" location="result" />
+<GENE id="G23" spans="3011~3016" text="CDC20" location="result" />
+<GENE id="G24" spans="3020~3026" text="Kv10.1" location="result" />
+<GENE id="G25" spans="3129~3133" text="MAD2" location="result" />
+<GENE id="G26" spans="3152~3158" text="Kv10.1" location="result" />
+<GENE id="G27" spans="3356~3361" text="CDC27" location="result" />
+<GENE id="G28" spans="3363~3393" text="cell division cycle protein 27" location="result" />
+<GENE id="G29" spans="3423~3429" text="Kv10.1" location="result" />
+<GENE id="G30" spans="3738~3743" text="CDC27" location="result" />
+<GENE id="G31" spans="3771~3776" text="CDC27" location="result" />
+<GENE id="G32" spans="3850~3854" text="WEE1" location="result" />
+<GENE id="G33" spans="3906~3910" text="WEE1" location="result" />
+<GENE id="G34" spans="4040~4044" text="WEE1" location="result" />
+<GENE id="G35" spans="4080~4086" text="Kv10.1" location="result" />
+<GENE id="G36" spans="4216~4222" text="Kv10.1" location="result" />
+<GENE id="G37" spans="4272~4281" text="cyclin A2" location="result" />
+<GENE id="G38" spans="4323~4332" text="cyclin A2" location="result" />
+<GENE id="G39" spans="4443~4452" text="cyclin A2" location="result" />
+<GENE id="G40" spans="4565~4570" text="CDC20" location="result" />
+<GENE id="G41" spans="4575~4579" text="WEE1" location="result" />
+<GENE id="G42" spans="4711~4717" text="Kv10.1" location="result" />
+<GENE id="G43" spans="4790~4794" text="pVHL" location="result" />
+<GENE id="G44" spans="4859~4863" text="MAD2" location="result" />
+<GENE id="G45" spans="5000~5004" text="pVHL" location="result" />
+<GENE id="G46" spans="5008~5014" text="Kv10.1" location="result" />
+<GENE id="G47" spans="5217~5222" text="AURKB" location="result" />
+<GENE id="G48" spans="5224~5239" text="Aurora kinase B" location="result" />
+<GENE id="G49" spans="5241~5245" text="PLK1" location="result" />
+<GENE id="G50" spans="5247~5265" text="Polo-like kinase 1" location="result" />
+<GENE id="G51" spans="5267~5271" text="MCAK" location="result" />
+<GENE id="G52" spans="5273~5310" text="mitotic centromere-associated kinesin" location="result" />
+<GENE id="G53" spans="5495~5498" text="Scr" location="result" />
+<GENE id="G54" spans="5505~5510" text="KCNH1" location="result" />
+<GENE id="G55" spans="5570~5575" text="AURKB" location="result" />
+<GENE id="G56" spans="5604~5610" text="Kv10.1" location="result" />
+<GENE id="G57" spans="5730~5735" text="AURKB" location="result" />
+<GENE id="G58" spans="5821~5825" text="MAD2" location="result" />
+<GENE id="G59" spans="5844~5848" text="CHK1" location="result" />
+<GENE id="G60" spans="5853~5857" text="CHK2" location="result" />
+<GENE id="G61" spans="5898~5903" text="AURKB" location="result" />
+<GENE id="G62" spans="5905~5910" text="BUBR1" location="result" />
+<GENE id="G63" spans="5912~5916" text="MAD1" location="result" />
+<GENE id="G64" spans="6003~6008" text="AURKB" location="result" />
+<GENE id="G65" spans="6098~6103" text="AURKB" location="result" />
+<GENE id="G66" spans="6180~6184" text="CHK1" location="result" />
+<GENE id="G67" spans="6203~6207" text="MAD2" location="result" />
+<GENE id="G68" spans="6247~6251" text="PLK1" location="result" />
+<GENE id="G69" spans="6310~6315" text="AURKB" location="result" />
+<GENE id="G70" spans="6317~6321" text="PLK1" location="result" />
+<GENE id="G71" spans="6339~6345" text="Kv10.1" location="result" />
+<GENE id="G72" spans="6465~6469" text="PLK1" location="result" />
+<GENE id="G73" spans="6568~6572" text="PLK1" location="result" />
+<GENE id="G74" spans="6603~6609" text="Kv10.1" location="result" />
+<GENE id="G75" spans="6666~6670" text="RPE1" location="result" />
+<GENE id="G76" spans="6769~6773" text="PLK1" location="result" />
+<GENE id="G77" spans="6814~6818" text="PLK1" location="result" />
+<GENE id="G78" spans="6843~6849" text="Kv10.1" location="result" />
+<GENE id="G79" spans="7109~7115" text="Kv10.1" location="result" />
+<GENE id="G80" spans="7299~7305" text="Kv10.1" location="result" />
+<GENE id="G81" spans="7435~7438" text="Scr" location="result" />
+<GENE id="G82" spans="7445~7450" text="KCNH1" location="result" />
+<GENE id="G83" spans="7739~7745" text="Kv10.1" location="result" />
+<GENE id="G84" spans="7928~7933" text="KCNH1" location="result" />
+<GENE id="G85" spans="8307~8313" text="Kv10.1" location="result" />
+<GENE id="G86" spans="8681~8685" text="PLK1" location="result" />
+<GENE id="G87" spans="8690~8694" text="pVHL" location="result" />
+<GENE id="G88" spans="8707~8713" text="Kv10.1" location="result" />
+<GENE id="G89" spans="9108~9114" text="Kv10.1" location="result" />
+<GENE id="G90" spans="9244~9250" text="Kv10.1" location="result" />
+<GENE id="G91" spans="9514~9520" text="Kv10.1" location="result" />
+<GENE id="G92" spans="10028~10034" text="Kv10.1" location="result" />
+<GENE id="G93" spans="10366~10372" text="Kv10.1" location="result" />
+<GENE id="G94" spans="10515~10521" text="Kv10.1" location="result" />
+<GENE id="G95" spans="10613~10619" text="Kv10.1" location="result" />
+<GENE id="G96" spans="11410~11416" text="Kv10.1" location="result" />
+<GENE id="G97" spans="11797~11803" text="Kv10.1" location="result" />
+<GENE id="G98" spans="11938~11944" text="Kv10.1" location="result" />
+<GENE id="G99" spans="11972~11978" text="Kv10.1" location="result" />
+<GENE id="G100" spans="12355~12361" text="Kv10.1" location="result" />
+<GENE id="G101" spans="12424~12430" text="Kv10.1" location="result" />
+<GENE id="G102" spans="12475~12481" text="Kv10.1" location="result" />
+<GENE id="G103" spans="12660~12666" text="Kv10.1" location="result" />
+<GENE id="G104" spans="12840~12846" text="Kv10.1" location="result" />
+<GENE id="G105" spans="12992~12998" text="Kv10.1" location="result" />
+<GENE id="G106" spans="13002~13007" text="ORAI1" location="result" />
+<GENE id="G107" spans="13061~13067" text="Kv10.1" location="result" />
+<GENE id="G108" spans="13530~13536" text="Kv10.1" location="result" />
+<GENE id="G109" spans="13584~13589" text="ORAI1" location="result" />
+<GENE id="G110" spans="13805~13811" text="Kv10.1" location="result" />
+<GENE id="G111" spans="13816~13821" text="ORAI1" location="result" />
+<GENE id="G112" spans="13908~13914" text="Kv10.1" location="result" />
+<GENE id="G113" spans="13919~13924" text="ORAI1" location="result" />
+<GENE id="G114" spans="14211~14217" text="Kv10.1" location="result" />
+<GENE id="G115" spans="14306~14311" text="ORAI1" location="result" />
+<GENE id="G116" spans="14389~14394" text="ORAI1" location="result" />
+<GENE id="G117" spans="15863~15869" text="Kv10.1" location="result" />
+<GENE id="G118" spans="15874~15879" text="ORAI1" location="result" />
+<GENE id="G119" spans="15980~15985" text="ORAI1" location="result" />
+<GENE id="G120" spans="15991~15997" text="Kv10.1" location="result" />
+<GENE id="G121" spans="16204~16210" text="Kv10.1" location="result" />
+<GENE id="G122" spans="16276~16282" text="Kv10.1" location="result" />
+<GENE id="G123" spans="16287~16292" text="ORAI1" location="result" />
+<GENE id="G124" spans="16437~16443" text="Kv10.1" location="result" />
+<GENE id="G125" spans="16531~16536" text="ORAI1" location="result" />
+<GENE id="G126" spans="16574~16579" text="ORAI1" location="result" />
+<GENE id="G127" spans="16583~16589" text="Kv10.1" location="result" />
+<GENE id="G128" spans="16608~16614" text="Kv10.1" location="result" />
+<GENE id="G129" spans="16710~16715" text="ORAI1" location="result" />
+<GENE id="G130" spans="16782~16788" text="Kv10.1" location="result" />
+<GENE id="G131" spans="16844~16850" text="Kv10.1" location="result" />
+<GENE id="G132" spans="16885~16890" text="KCNH1" location="result" />
+<GENE id="G133" spans="16914~16917" text="Scr" location="result" />
+<GENE id="G134" spans="17544~17550" text="Kv10.1" location="result" />
+<GENE id="G135" spans="17752~17758" text="Kv10.1" location="result" />
+<GENE id="G136" spans="18170~18176" text="Kv10.1" location="result" />
+<GENE id="G137" spans="18722~18727" text="ORAI1" location="result" />
+<GENE id="G138" spans="18974~18979" text="ORAI1" location="result" />
+<GENE id="G139" spans="19375~19381" text="Kv10.1" location="result" />
+<GENE id="G140" spans="19891~19896" text="ORAI1" location="result" />
+<GENE id="G141" spans="20006~20012" text="Kv10.1" location="result" />
+<GENE id="G142" spans="20393~20399" text="Kv10.1" location="result" />
+<GENE id="G143" spans="20771~20777" text="Kv10.1" location="result" />
+<GENE id="G144" spans="20782~20787" text="ORAI1" location="result" />
+<GENE id="G145" spans="21085~21090" text="AURKB" location="result" />
+<GENE id="G146" spans="21185~21191" text="Kv10.1" location="result" />
+<GENE id="G147" spans="21304~21310" text="Kv10.1" location="result" />
+<GENE id="G148" spans="21736~21742" text="Kv10.1" location="result" />
+<GENE id="G149" spans="21882~21888" text="Kv10.1" location="result" />
+<GENE id="G150" spans="21949~21953" text="CDK1" location="result" />
+<GENE id="G151" spans="22014~22020" text="Kv10.1" location="result" />
+<GENE id="G152" spans="22125~22129" text="CDK1" location="result" />
+<GENE id="G153" spans="22400~22405" text="ORAI1" location="result" />
+<GENE id="G154" spans="22423~22428" text="SPCA2" location="result" />
+<GENE id="G155" spans="22516~22521" text="SPCA2" location="result" />
+<GENE id="G156" spans="22689~22694" text="SPCA2" location="background" />
+<GENE id="G157" spans="22536~22542" text="Kv10.1" location="background" />
+<GENE id="G158" spans="22696~22701" text="ORAI1" location="result" />
+<GENE id="G159" spans="22707~22713" text="Kv10.1" location="result" />
+<GENE id="G160" spans="22775~22781" text="Kv10.1" location="result" />
+<GENE id="G161" spans="20547~20553" text="Kv10.1" location="result" />
+<DISEASE id="D2" spans="21919~21925" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

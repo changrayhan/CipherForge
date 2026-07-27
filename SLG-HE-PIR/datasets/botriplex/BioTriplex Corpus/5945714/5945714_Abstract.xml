@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Risk of Second Primary Female Genital Malignancies in Women with Breast Cancer: a SEER Analysis.
+Abstract: 
+           Electronic supplementary material 
+           The online version of this article (10.1007/s12672-018-0330-0) contains supplementary material, which is available to authorized users. 
+        
+Breast cancer survivors are at an increased risk of second primary cancers, and the risk factors for the latter may have clinical significance. The aims of our study were to evaluate the incidences and risk factors of second primary female genital cancers (corpus uteri, cervix uteri plus ovary) in a large cohort of breast cancer survivors. Using the Surveillance, Epidemiology, and End Results (SEER) database, we examined the standardized incidence ratio (SIR) and risk factors for second primary female genital cancers observed between 2000 and 2014. Breast cancer survivors had increased SIRs for second corpus uteri cancers and second ovarian cancers and a decreased SIR for second cervical cancers (SIR 1.17, 1.12, and 0.64, respectively). Risk factors of second corpus uteri cancers were the age at first cancer diagnosis, race (black vs. white, aHR = 1.142 95% CI 1.005–1.298), and progesterone receptor (PR) status (PR+ vs. PR−, aHR = 1.131 95% CI 1.004–1.273). In addition, the risk of second ovarian cancer was positively associated with age while inversely associated with race (black vs. white, aHR = 0.691 95% CI 0.555–0.859) and estrogen receptor (ER) status (ER+ vs. ER−, aHR = 0.655 95% CI 0.544–0.788). Age, race, and hormone receptor status are risk factors of developing second female genital cancers among breast cancer survivors. Older age, black race, and a PR+ status in survivors are associated with a higher risk of second corpus uteri cancers. Additionally, older age and an ER− status should increase vigilance for potential second ovarian cancers.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="73~86" text="Breast Cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="319~332" text="Breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="386~392" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="567~573" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="636~649" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="834~840" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="874~887" text="Breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="928~947" text="corpus uteri cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1007~1022" text="cervical cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1089~1108" text="corpus uteri cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1132~1138" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="1323~1337" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1633~1639" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D15" spans="1647~1660" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="1769~1788" text="corpus uteri cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="1880~1894" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="960~974" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

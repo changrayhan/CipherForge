@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cancer is characterized by dysregulated metabolic activity leading to enhanced cell growth and proliferation 1 , 2 . The most well-understood metabolic perturbations in cancer cells include the Warburg effect 3  (glucose metabolism) and glutamine metabolism 4 . Alterations in lipid metabolism in cancer are also becoming increasingly recognized. In fact, several decades ago, tumors were found to synthesize fatty acids de novo 5  and to exhibit a shift toward fatty-acid synthesis 6 ; in contrast, most normal human cells prefer exogenous sources of fatty acids. Indeed, tumors show heightened de novo fatty-acid synthesis to sustain growth and proliferation, because lipids are not only components of biological membranes, but also have important roles in signal transduction 7 . Consistently, reducing fatty-acid availability by blocking fatty-acid synthesis pathways (e.g., through inhibition of the enzymes FASN, ACLY, ACC, and SCD) has demonstrated antitumor activity in different cancer types 8 – 10 . At the regulatory level, hyperactive fatty-acid synthesis and lipogenesis pathways in cancer are often associated with dysregulation of sterol regulatory element-binding proteins (SREBPs) 11 , which control the expression of factors involved in the uptake and synthesis of cholesterol, fatty acids, and phospholipids 12 – 14 . Of the two mammalian SREBP genes, SREBF1 mainly regulates the expression of factors required for fatty-acid synthesis, while SREBF2 is responsible for cholesterol homeostasis 12 , 15 . SREBF1 has strong protumor functions in several cancer types, including prostate, breast, and liver cancers 11 . SREBF inhibitors, such as Fatostatin and betulin, markedly suppress tumor cell growth and viability 16 – 19 . The levels and activities of SREBF1 are tightly controlled by endogenous sterol levels via negative feedback regulation. In cancer cells, SREBF1 protein is also stabilized and activated by the PI3K/Akt/mTOR signaling pathway 20 , 21 . However, cancer-specific epigenomic regulation of SREBF1 remains unclear.
+Squamous cell carcinomas (SCCs) are malignancies derived from stratified squamous epithelium of multiple organs, including esophagus (ESCC), head and neck (HNSC), lung (LUSC), cervix (CESC), and skin (SSCC). Several common forms of SCC, such as ESCC and LUSC, are especially lethal and have very few, if any, effective therapeutic targets. Despite arising from various anatomical locations, SCCs share many genomic characteristics specific to the squamous cell lineage. For example, one of the most notable abnormalities specific to SCC is genetic lesions targeting squamous cell differentiation factors (TP63, SOX2, ZNF750, and NOTCH family members) 22 – 28 . As one of the most well-established master transcription factors (TFs), TP63 plays an essential role in both normal squamous differentiation and SCC development. Indeed, we and others have shown that in normal development, TP63 controls squamous cell identity 29 , while amplification and overexpression of TP63 promotes SCC tumorigenesis and progression 30 – 33 . Mechanistically, TP63 occupies and controls hundreds to thousands of  cis -regulatory elements (particularly enhancers and super-enhancers), and orchestrates gene regulatory networks for cell-type-specific functions 30 – 33 . However, the vast majority of previous mechanistic studies have been performed using cell line models in vitro. To identify putative in vivo TP63-target genes and signaling pathways in pan-SCC patients, in the current study we initially performed Gene Set Enrichment Analysis (GSEA) using SCC patient samples. This unbiased analysis identified fatty-acid metabolism as one of the most significantly enriched pathways downstream of TP63 across different types of SCCs. In addition, SREBF1 was pinpointed as the central mediator between TP63 and fatty-acid metabolism.
+These results are of great potential interest, considering that dysregulated fatty-acid metabolism is a metabolic hallmark of cancer 7 . However, how fatty-acid metabolism is dysregulated in the context of SCC is not well understood. Moreover, whether and how TP63 regulates SCC cell biology by controlling fatty-acid metabolism remains unexplored. In addition, the regulatory relationship between TP63 and SREBF1 is unknown, and how SREBF1 is epigenetically activated in cancer in general remains unclear.
+In this work, we perform epigenomic, metabolomic and transcriptomic analyses in SCC and elucidate that SREBF1 acts as a central mediator linking TP63 with fatty-acid metabolism. Moreover, we find that SREBF1 cooperates with TP63/KLF5 to regulate hundreds of  cis -regulatory elements across the SCC-specific epigenome, which converges on activating cancer-promoting pathways, uncovering SREBF1 as a potential therapeutic target and prognostic marker in SCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="914~918" text="FASN" location="background" />
+<GENE id="G1" spans="920~924" text="ACLY" location="background" />
+<GENE id="G2" spans="926~929" text="ACC" location="background" />
+<GENE id="G3" spans="935~938" text="SCD" location="background" />
+<GENE id="G4" spans="1372~1378" text="SREBF1" location="background" />
+<GENE id="G5" spans="1463~1469" text="SREBF2" location="background" />
+<GENE id="G6" spans="1523~1529" text="SREBF1" location="background" />
+<GENE id="G7" spans="1775~1781" text="SREBF1" location="background" />
+<GENE id="G8" spans="1884~1890" text="SREBF1" location="background" />
+<GENE id="G9" spans="2031~2037" text="SREBF1" location="background" />
+<GENE id="G10" spans="2660~2664" text="TP63" location="background" />
+<GENE id="G11" spans="2666~2670" text="SOX2" location="background" />
+<GENE id="G12" spans="2672~2678" text="ZNF750" location="background" />
+<GENE id="G13" spans="2788~2792" text="TP63" location="background" />
+<GENE id="G14" spans="2939~2943" text="TP63" location="background" />
+<GENE id="G15" spans="3023~3027" text="TP63" location="background" />
+<GENE id="G16" spans="3098~3102" text="TP63" location="background" />
+<GENE id="G17" spans="3448~3452" text="TP63" location="result" />
+<GENE id="G18" spans="3738~3742" text="TP63" location="result" />
+<GENE id="G19" spans="3788~3794" text="SREBF1" location="result" />
+<GENE id="G20" spans="3842~3846" text="TP63" location="result" />
+<GENE id="G21" spans="4272~4276" text="TP63" location="background" />
+<GENE id="G22" spans="4281~4287" text="SREBF1" location="background" />
+<GENE id="G23" spans="4308~4314" text="SREBF1" location="background" />
+<GENE id="G24" spans="4484~4490" text="SREBF1" location="result" />
+<GENE id="G25" spans="4526~4530" text="TP63" location="result" />
+<GENE id="G26" spans="4582~4588" text="SREBF1" location="result" />
+<GENE id="G27" spans="4605~4609" text="TP63" location="result" />
+<GENE id="G28" spans="4610~4614" text="KLF5" location="result" />
+<GENE id="G29" spans="4768~4774" text="SREBF1" location="result" />
+<GENE id="G30" spans="4134~4138" text="TP63" location="background" />
+<DISEASE id="D0" spans="298~304" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="1~7" text="Cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="1097~1103" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="1571~1577" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="1595~1603,1623~1629" text="prostate ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1605~1611,1623~1629" text="breast ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1617~1622,1623~1629" text="liver ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1870~1876" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="1990~1996" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="2055~2078" text="Squamous cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2081~2084" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2287~2290" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2446~2449" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2588~2591" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2861~2864" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3037~3040" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3496~3499" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3596~3599" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3769~3772" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4000~4006" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D20" spans="4080~4083" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="4149~4152" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4346~4352" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D24" spans="4461~4464" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="4676~4679" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="4730~4736" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D27" spans="4834~4837" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="989~995" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D29" spans="170~176" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R0" spans="2812~2819,2865~2876" text="role in ... development" location="background" relation="pathological role" />
+<RELATION id="R1" spans="4790~4808" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R2" spans="4813~4830" text="prognostic marker" location="result" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G13" geneText="TP63" diseaseID="D14" diseaseText="SCC" relationID="R0" relationText="role in ... development" />
+<ENTITY_LINKING id="E1" geneID="G29" geneText="SREBF1" diseaseID="D27" diseaseText="SCC" relationID="R1" relationText="therapeutic target" />
+<ENTITY_LINKING id="E2" geneID="G29" geneText="SREBF1" diseaseID="D27" diseaseText="SCC" relationID="R2" relationText="prognostic marker" />
+</TAGS>
+</Genomics_ConceptTask>

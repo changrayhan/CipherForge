@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Clinicopathological and Molecular Characteristics of Pleomorphic Invasive Lobular Carcinoma.
+Abstract: Pleomorphic invasive lobular carcinoma (PILC) is a distinct morphological and biologically aggressive variant of invasive lobular carcinoma (ILC). We hypothesized that was due to de novo activation of PI3K/Akt/mTOR pathway in PILC resulting in higher proliferation rate and markers of cell cycle activation. We identified PILC and ILC tumors and tested for PI3K/Akt/mTOR pathway activation by immunohistochemistry (PTEN and pS6K1) and gene expression analysis (by Nanostring nCounter system). Proliferation index (Ki67) was elevated in 85% of PILCs compared to 20% of ILCs ( p  < 0.007). PTEN expression was high in all while pS6K1 was high in 8/9 PILCs compared to 3/9 ILCs ( p  < 0.007). Gene expression analysis shows that PILCs have overexpression of genes involved in cell cycle proliferation, cellular proliferation, DNA damage, and repair genes but no difference in PI3K/Akt/mTOR pathway genes. PILCs are a biologically distinct group of ILC, and clinicopathological characteristics suggest they would have a more clinically aggressive behavior. In addition, our results indicate that PI3k/Akt/mTOR pathway and cell cycle proliferation are activated in majority of these tumors. Further studies are needed to investigate these mechanisms as there are approved therapies available that may benefit PILCs.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="526~530" text="PTEN" location="result" />
+<GENE id="G1" spans="535~540" text="pS6K1" location="result" />
+<GENE id="G2" spans="625~629" text="Ki67" location="result" />
+<GENE id="G3" spans="699~703" text="PTEN" location="result" />
+<GENE id="G4" spans="737~742" text="pS6K1" location="result" />
+<GENE id="G5" spans="781~784" text="ILC" location="result" />
+<DISEASE id="D0" spans="73~99" text="Invasive Lobular Carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="123~149" text="invasive lobular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="224~250" text="invasive lobular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="252~255" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="442~445" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="679~682" text="ILC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,199 @@
+2026-07-27 18:20:34,058 [INFO] test_3step_cls: Logging to /root/autodl-tmp/SLG-HE-PIR/test-data/3step-cls-test/logs/3step_test_1785147634.log
+2026-07-27 18:20:37,384 [INFO] test_3step_cls: Loading BioTriplex classification dataset ...
+2026-07-27 18:20:37,421 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 18:20:37,435 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-27 18:20:37,444 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-27 18:20:37,447 [INFO] src.data.biotriplex_dataset: Wrote gold file → /root/autodl-tmp/SLG-HE-PIR/datasets/biotriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-27 18:20:37,448 [INFO] test_3step_cls: Datasets: train=734 val=134
+2026-07-27 18:20:37,448 [INFO] test_3step_cls: Using n_entries=128256 (from meta=/root/autodl-tmp/slg-bfv-cache/bfv_meta.json)
+2026-07-27 18:20:37,448 [INFO] test_3step_cls: Building BFV backend (pk_path=/root/autodl-tmp/slg-bfv-cache/bfv_pk.bin) ...
+2026-07-27 18:20:37,459 [INFO] src.core.bfv_privselect_v2_adapter: Loaded public key from cache: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+2026-07-27 18:20:42,285 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-27 18:20:52,848 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-27 18:20:52,849 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-27 18:20:52,849 [INFO] test_3step_cls: BFV keys ready; sk_M dropped from main process
+2026-07-27 18:20:52,865 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-27 18:20:52,865 [INFO] test_3step_cls: Hint table ready
+2026-07-27 18:20:52,865 [INFO] test_3step_cls: Constructing HeterogeneousProtocol ...
+2026-07-27 18:20:52,865 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+2026-07-27 18:20:53,025 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 18:20:53,025 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-27 18:20:53,033 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-27 18:20:53,035 [WARNING] src.model.model_splitting: FlashAttention2 not installed — will use SDPA fallback
+2026-07-27 18:20:53,078 [WARNING] src.model.model_splitting: SageAttention not installed — will use SDPA fallback: No module named 'sageattention'
+2026-07-27 18:20:53,079 [INFO] src.model.model_splitting: Using SDPA for U shard
+2026-07-27 18:21:18,518 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=SDPA, gradient_checkpointing=True)
+2026-07-27 18:21:18,525 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+2026-07-27 18:21:18,529 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+2026-07-27 18:21:18,529 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 18:21:18,529 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-27 18:21:18,531 [INFO] src.model.model_splitting: Using SDPA for M shard
+2026-07-27 18:21:40,415 [INFO] src.model.model_splitting: DeepSpeed ZeRO-1 will be configured in PartyM (gradient checkpointing enabled)
+2026-07-27 18:21:40,415 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=ZeRO-1)
+2026-07-27 18:21:40,422 [INFO] src.core.bfv_privselect_v2_adapter: Generated new BFV keys
+2026-07-27 18:21:40,423 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-27 18:21:40,425 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=734, peak_lr=1.00e-04
+2026-07-27 18:21:40,426 [WARNING] src.parties.party_m: DeepSpeed not installed; install with: pip install deepspeed
+2026-07-27 18:21:40,426 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-27 18:21:40,426 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-27 18:21:40,427 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-27 18:21:40,652 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-27 18:21:40,672 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-27 18:21:40,672 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-27 18:21:40,672 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 47.8s (single CUDA context)
+2026-07-27 18:21:40,673 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-27 18:21:56,699 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-27 18:21:56,699 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-27 18:22:12,701 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-27 18:22:12,701 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-27 18:22:14,724 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-27 18:22:14,724 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 81.9s
+2026-07-27 18:22:14,724 [INFO] test_3step_cls: ============================================================
+2026-07-27 18:22:14,725 [INFO] test_3step_cls: Running 3 training steps ...
+2026-07-27 18:22:14,725 [INFO] test_3step_cls: ============================================================
+2026-07-27 18:22:26,586 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=0 n_tokens=512 K=1 chunks of ~1024
+2026-07-27 18:22:30,386 [INFO] test_3step_cls: [Step 1/3] loss=123904.0000 time=15659.9ms gpu_mem=23104MB
+2026-07-27 18:22:32,537 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=1 n_tokens=512 K=1 chunks of ~1024
+2026-07-27 18:22:35,824 [INFO] test_3step_cls: [Step 2/3] loss=123904.0000 time=5438.0ms gpu_mem=24090MB
+2026-07-27 18:22:37,854 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=2 n_tokens=512 K=1 chunks of ~1024
+2026-07-27 18:22:41,085 [INFO] test_3step_cls: [Step 3/3] loss=123392.0000 time=5260.6ms gpu_mem=24090MB
+2026-07-27 18:22:41,086 [INFO] test_3step_cls: Training steps complete. avg_loss=123733.3333 avg_step_time=8786.2ms
+2026-07-27 18:22:41,086 [INFO] test_3step_cls: ============================================================
+2026-07-27 18:22:41,086 [INFO] test_3step_cls: Running validation epoch ...
+2026-07-27 18:22:41,086 [INFO] test_3step_cls: ============================================================
+2026-07-27 18:22:43,175 [INFO] test_3step_cls: [Val batch 0] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:43,333 [INFO] test_3step_cls: [Val batch 1] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:43,475 [INFO] test_3step_cls: [Val batch 2] n=1 preds=['e)'] labs=['d)']
+2026-07-27 18:22:43,621 [INFO] test_3step_cls: [Val batch 3] n=1 preds=['e)'] labs=['d)']
+2026-07-27 18:22:43,782 [INFO] test_3step_cls: [Val batch 4] n=1 preds=['e)'] labs=['d)']
+2026-07-27 18:22:43,924 [INFO] test_3step_cls: [Val batch 5] n=1 preds=['e)'] labs=['d)']
+2026-07-27 18:22:44,071 [INFO] test_3step_cls: [Val batch 6] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:44,218 [INFO] test_3step_cls: [Val batch 7] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:44,362 [INFO] test_3step_cls: [Val batch 8] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:44,516 [INFO] test_3step_cls: [Val batch 9] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:44,662 [INFO] test_3step_cls: [Val batch 10] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:44,805 [INFO] test_3step_cls: [Val batch 11] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:44,963 [INFO] test_3step_cls: [Val batch 12] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:45,106 [INFO] test_3step_cls: [Val batch 13] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:45,248 [INFO] test_3step_cls: [Val batch 14] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:45,396 [INFO] test_3step_cls: [Val batch 15] n=1 preds=['f)'] labs=['a)']
+2026-07-27 18:22:45,551 [INFO] test_3step_cls: [Val batch 16] n=1 preds=['e)'] labs=['a)']
+2026-07-27 18:22:45,694 [INFO] test_3step_cls: [Val batch 17] n=1 preds=['e)'] labs=['a)']
+2026-07-27 18:22:45,839 [INFO] test_3step_cls: [Val batch 18] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:45,987 [INFO] test_3step_cls: [Val batch 19] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:46,135 [INFO] test_3step_cls: [Val batch 20] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:46,283 [INFO] test_3step_cls: [Val batch 21] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:46,426 [INFO] test_3step_cls: [Val batch 22] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:46,575 [INFO] test_3step_cls: [Val batch 23] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:46,723 [INFO] test_3step_cls: [Val batch 24] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:46,872 [INFO] test_3step_cls: [Val batch 25] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:47,015 [INFO] test_3step_cls: [Val batch 26] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:47,158 [INFO] test_3step_cls: [Val batch 27] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:47,302 [INFO] test_3step_cls: [Val batch 28] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:47,445 [INFO] test_3step_cls: [Val batch 29] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:47,595 [INFO] test_3step_cls: [Val batch 30] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:47,747 [INFO] test_3step_cls: [Val batch 31] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:47,906 [INFO] test_3step_cls: [Val batch 32] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:48,054 [INFO] test_3step_cls: [Val batch 33] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:48,202 [INFO] test_3step_cls: [Val batch 34] n=1 preds=['b)'] labs=['a)']
+2026-07-27 18:22:48,351 [INFO] test_3step_cls: [Val batch 35] n=1 preds=['a)'] labs=['a)']
+2026-07-27 18:22:48,495 [INFO] test_3step_cls: [Val batch 36] n=1 preds=['a)'] labs=['a)']
+2026-07-27 18:22:48,642 [INFO] test_3step_cls: [Val batch 37] n=1 preds=['a)'] labs=['a)']
+2026-07-27 18:22:48,802 [INFO] test_3step_cls: [Val batch 38] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:48,949 [INFO] test_3step_cls: [Val batch 39] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:49,092 [INFO] test_3step_cls: [Val batch 40] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:49,235 [INFO] test_3step_cls: [Val batch 41] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:49,377 [INFO] test_3step_cls: [Val batch 42] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:49,532 [INFO] test_3step_cls: [Val batch 43] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:49,675 [INFO] test_3step_cls: [Val batch 44] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:49,818 [INFO] test_3step_cls: [Val batch 45] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:49,960 [INFO] test_3step_cls: [Val batch 46] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:50,115 [INFO] test_3step_cls: [Val batch 47] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:50,259 [INFO] test_3step_cls: [Val batch 48] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:50,402 [INFO] test_3step_cls: [Val batch 49] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:50,559 [INFO] test_3step_cls: [Val batch 50] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:50,703 [INFO] test_3step_cls: [Val batch 51] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:50,847 [INFO] test_3step_cls: [Val batch 52] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:50,989 [INFO] test_3step_cls: [Val batch 53] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:51,146 [INFO] test_3step_cls: [Val batch 54] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:51,290 [INFO] test_3step_cls: [Val batch 55] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:51,434 [INFO] test_3step_cls: [Val batch 56] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:51,578 [INFO] test_3step_cls: [Val batch 57] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:51,722 [INFO] test_3step_cls: [Val batch 58] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:51,866 [INFO] test_3step_cls: [Val batch 59] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:52,010 [INFO] test_3step_cls: [Val batch 60] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:52,155 [INFO] test_3step_cls: [Val batch 61] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:52,307 [INFO] test_3step_cls: [Val batch 62] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:52,457 [INFO] test_3step_cls: [Val batch 63] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:52,607 [INFO] test_3step_cls: [Val batch 64] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:52,757 [INFO] test_3step_cls: [Val batch 65] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:52,907 [INFO] test_3step_cls: [Val batch 66] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:22:53,057 [INFO] test_3step_cls: [Val batch 67] n=1 preds=['a)'] labs=['c)']
+2026-07-27 18:22:53,207 [INFO] test_3step_cls: [Val batch 68] n=1 preds=['d)'] labs=['c)']
+2026-07-27 18:22:53,356 [INFO] test_3step_cls: [Val batch 69] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:53,506 [INFO] test_3step_cls: [Val batch 70] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:53,655 [INFO] test_3step_cls: [Val batch 71] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:53,813 [INFO] test_3step_cls: [Val batch 72] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:53,964 [INFO] test_3step_cls: [Val batch 73] n=1 preds=['f)'] labs=['c)']
+2026-07-27 18:22:54,113 [INFO] test_3step_cls: [Val batch 74] n=1 preds=['a)'] labs=['c)']
+2026-07-27 18:22:54,267 [INFO] test_3step_cls: [Val batch 75] n=1 preds=['a)'] labs=['c)']
+2026-07-27 18:22:54,416 [INFO] test_3step_cls: [Val batch 76] n=1 preds=['d)'] labs=['c)']
+2026-07-27 18:22:54,568 [INFO] test_3step_cls: [Val batch 77] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:54,730 [INFO] test_3step_cls: [Val batch 78] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:54,880 [INFO] test_3step_cls: [Val batch 79] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:55,029 [INFO] test_3step_cls: [Val batch 80] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:55,177 [INFO] test_3step_cls: [Val batch 81] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:55,326 [INFO] test_3step_cls: [Val batch 82] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:55,488 [INFO] test_3step_cls: [Val batch 83] n=1 preds=['e)'] labs=['d)']
+2026-07-27 18:22:55,638 [INFO] test_3step_cls: [Val batch 84] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:55,783 [INFO] test_3step_cls: [Val batch 85] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:55,932 [INFO] test_3step_cls: [Val batch 86] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:56,082 [INFO] test_3step_cls: [Val batch 87] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:56,231 [INFO] test_3step_cls: [Val batch 88] n=1 preds=['d)'] labs=['c)']
+2026-07-27 18:22:56,377 [INFO] test_3step_cls: [Val batch 89] n=1 preds=['d)'] labs=['d)']
+2026-07-27 18:22:56,527 [INFO] test_3step_cls: [Val batch 90] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:56,678 [INFO] test_3step_cls: [Val batch 91] n=1 preds=['a)'] labs=['c)']
+2026-07-27 18:22:56,828 [INFO] test_3step_cls: [Val batch 92] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:56,976 [INFO] test_3step_cls: [Val batch 93] n=1 preds=['a)'] labs=['c)']
+2026-07-27 18:22:57,136 [INFO] test_3step_cls: [Val batch 94] n=1 preds=['a)'] labs=['c)']
+2026-07-27 18:22:57,284 [INFO] test_3step_cls: [Val batch 95] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:57,433 [INFO] test_3step_cls: [Val batch 96] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:57,582 [INFO] test_3step_cls: [Val batch 97] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:57,732 [INFO] test_3step_cls: [Val batch 98] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:22:57,879 [INFO] test_3step_cls: [Val batch 99] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:58,028 [INFO] test_3step_cls: [Val batch 100] n=1 preds=['c)'] labs=['a)']
+2026-07-27 18:22:58,177 [INFO] test_3step_cls: [Val batch 101] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:58,327 [INFO] test_3step_cls: [Val batch 102] n=1 preds=['c)'] labs=['a)']
+2026-07-27 18:22:58,476 [INFO] test_3step_cls: [Val batch 103] n=1 preds=['c)'] labs=['a)']
+2026-07-27 18:22:58,625 [INFO] test_3step_cls: [Val batch 104] n=1 preds=['c)'] labs=['e)']
+2026-07-27 18:22:58,776 [INFO] test_3step_cls: [Val batch 105] n=1 preds=['b)'] labs=['c)']
+2026-07-27 18:22:58,929 [INFO] test_3step_cls: [Val batch 106] n=1 preds=['c)'] labs=['a)']
+2026-07-27 18:22:59,079 [INFO] test_3step_cls: [Val batch 107] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:22:59,230 [INFO] test_3step_cls: [Val batch 108] n=1 preds=['g)'] labs=['d)']
+2026-07-27 18:22:59,380 [INFO] test_3step_cls: [Val batch 109] n=1 preds=['a)'] labs=['a)']
+2026-07-27 18:22:59,530 [INFO] test_3step_cls: [Val batch 110] n=1 preds=['a)'] labs=['d)']
+2026-07-27 18:22:59,680 [INFO] test_3step_cls: [Val batch 111] n=1 preds=['a)'] labs=['e)']
+2026-07-27 18:22:59,831 [INFO] test_3step_cls: [Val batch 112] n=1 preds=['c)'] labs=['e)']
+2026-07-27 18:22:59,981 [INFO] test_3step_cls: [Val batch 113] n=1 preds=['c)'] labs=['e)']
+2026-07-27 18:23:00,131 [INFO] test_3step_cls: [Val batch 114] n=1 preds=['f)'] labs=['c)']
+2026-07-27 18:23:00,291 [INFO] test_3step_cls: [Val batch 115] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:00,438 [INFO] test_3step_cls: [Val batch 116] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:00,585 [INFO] test_3step_cls: [Val batch 117] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:00,731 [INFO] test_3step_cls: [Val batch 118] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:00,891 [INFO] test_3step_cls: [Val batch 119] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:01,034 [INFO] test_3step_cls: [Val batch 120] n=1 preds=['e)'] labs=['b)']
+2026-07-27 18:23:01,180 [INFO] test_3step_cls: [Val batch 121] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:23:01,323 [INFO] test_3step_cls: [Val batch 122] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:23:01,481 [INFO] test_3step_cls: [Val batch 123] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:23:01,624 [INFO] test_3step_cls: [Val batch 124] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:01,770 [INFO] test_3step_cls: [Val batch 125] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:23:01,913 [INFO] test_3step_cls: [Val batch 126] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:02,074 [INFO] test_3step_cls: [Val batch 127] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:23:02,217 [INFO] test_3step_cls: [Val batch 128] n=1 preds=['g)'] labs=['e)']
+2026-07-27 18:23:02,360 [INFO] test_3step_cls: [Val batch 129] n=1 preds=['e)'] labs=['a)']
+2026-07-27 18:23:02,507 [INFO] test_3step_cls: [Val batch 130] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:02,662 [INFO] test_3step_cls: [Val batch 131] n=1 preds=['g)'] labs=['c)']
+2026-07-27 18:23:02,805 [INFO] test_3step_cls: [Val batch 132] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:23:02,950 [INFO] test_3step_cls: [Val batch 133] n=1 preds=['g)'] labs=['a)']
+2026-07-27 18:23:02,950 [INFO] test_3step_cls: Validation complete: 134 samples
+2026-07-27 18:23:03,003 [INFO] test_3step_cls: Results saved → /root/autodl-tmp/SLG-HE-PIR/test-data/3step-cls-test/3step_test_results.json

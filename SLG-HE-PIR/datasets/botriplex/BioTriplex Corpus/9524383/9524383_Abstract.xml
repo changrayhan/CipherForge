@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Calcifying fibrous tumor.
+Abstract: Calcifying fibrous tumor is a rare benign mesenchymal neoplasm. The etiology and pathogenesis of this tumor are uncertain. It has wide anatomical distribution. The tumor is most commonly found in the soft tissues of the extremities in younger individuals. However, in middle-aged patients, it tends to affect the visceral locations more commonly. In visceral location, it can mimic aggressive lesions clinically. The purpose of this report is to describe a case of calcifying fibrous tumor in a 71-year-old female with a history of breast carcinoma who was found to have an incidental small bowel mass on her follow-up. Clinically and radiologically, the mass was suspicious for either metastatic disease or gastrointestinal stromal tumor.
+The patient underwent open small bowel resection, and a 6.5 cm segment of the small bowel was sent to pathology. Grossly, a 2.0 cm tan-pink smooth round submucosal polyploid mass protruding into the lumen, mimicking a gastrointestinal stromal tumor, was identified. The tumor was hard and serially sectioned to reveal a white, calcified cut surface. Microscopically, the tumor appeared hypocellular and composed of scant spindle cells embedded in a dense, hyalinized and calcified collagenous stroma. Immunohistochemical stains for pan-cytokeratin, DOG1, desmin, S100, CD34, and MUC4 were negative, and a diagnosis of the calcifying fibrous tumor was rendered.
+This case provides a rare gross specimen image of calcifying fibrous tumor and highlights the importance of knowledge of rare entities in providing an accurate diagnosis for entities that can mimic other lesions.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1333~1337" text="DOG1" location="result" />
+<GENE id="G1" spans="1339~1345" text="desmin" location="result" />
+<GENE id="G2" spans="1347~1351" text="S100" location="result" />
+<GENE id="G3" spans="1353~1357" text="CD34" location="result" />
+<GENE id="G4" spans="1363~1367" text="MUC4" location="result" />
+<DISEASE id="D0" spans="576~592" text="breast carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

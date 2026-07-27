@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Interplay and cooperation between SREBF1 and master transcription factors regulate lipid metabolism and tumor-promoting pathways in squamous cancer.
+Abstract: Squamous cell carcinomas (SCCs) comprise one of the most common histologic types of human cancer. Transcriptional dysregulation of SCC cells is orchestrated by  tumor protein p63 (TP63) , a master transcription factor (TF) and a well-researched SCC-specific oncogene. In the present study, both Gene Set Enrichment Analysis (GSEA) of SCC patient samples and in vitro loss-of-function assays establish fatty-acid metabolism as a key pathway downstream of TP63. Further studies identify  sterol regulatory element binding transcription factor 1 (SREBF1)  as a central mediator linking TP63 with fatty-acid metabolism, which regulates the biosynthesis of fatty-acids, sphingolipids (SL), and glycerophospholipids (GPL), as revealed by liquid chromatography tandem mass spectrometry (LC-MS/MS)-based lipidomics. Moreover, a feedback co-regulatory loop consisting of SREBF1/TP63/ Kruppel like factor 5 (KLF5)  is identified, which promotes overexpression of all three TFs in SCCs. Downstream of SREBF1, a non-canonical, SCC-specific function is elucidated: SREBF1 cooperates with TP63/KLF5 to regulate hundreds of cis-regulatory elements across the SCC epigenome, which converge on activating cancer-promoting pathways. Indeed, SREBF1 is essential for SCC viability and migration, and its overexpression is associated with poor survival in SCC patients. Taken together, these data shed light on mechanisms of transcriptional dysregulation in cancer, identify specific epigenetic regulators of lipid metabolism, and uncover SREBF1 as a potential therapeutic target and prognostic marker in SCC.
+The relevance and underlying molecular mechanisms of epigenetic regulation in squamous cell carcinomas (SCC) await further characterization. Here, the authors show a transcriptional regulatory loop involving SREBF1, TP63 and KLF5 driving tumourigenesis in SCC through fatty acid, ERBB and mTOR pathway regulation.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="42~48" text="SREBF1" location="result" />
+<GENE id="G1" spans="328~345" text="tumor protein p63" location="background" />
+<GENE id="G2" spans="347~351" text="TP63" location="background" />
+<GENE id="G3" spans="621~625" text="TP63" location="result" />
+<GENE id="G4" spans="653~709" text="sterol regulatory element binding transcription factor 1" location="result" />
+<GENE id="G5" spans="711~717" text="SREBF1" location="result" />
+<GENE id="G6" spans="750~754" text="TP63" location="result" />
+<GENE id="G7" spans="1029~1035" text="SREBF1" location="result" />
+<GENE id="G8" spans="1036~1040" text="TP63" location="result" />
+<GENE id="G9" spans="1042~1063" text="Kruppel like factor 5" location="result" />
+<GENE id="G10" spans="1065~1069" text="KLF5" location="result" />
+<GENE id="G11" spans="1157~1163" text="SREBF1" location="result" />
+<GENE id="G12" spans="1219~1225" text="SREBF1" location="result" />
+<GENE id="G13" spans="1242~1246" text="TP63" location="result" />
+<GENE id="G14" spans="1247~1251" text="KLF5" location="result" />
+<GENE id="G16" spans="1390~1396" text="SREBF1" location="result" />
+<GENE id="G17" spans="1685~1691" text="SREBF1" location="result" />
+<GENE id="G18" spans="1964~1970" text="SREBF1" location="result" />
+<GENE id="G19" spans="1972~1976" text="TP63" location="result" />
+<GENE id="G20" spans="1981~1985" text="KLF5" location="result" />
+<DISEASE id="D0" spans="149~155" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="167~190" text="Squamous cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="193~196" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="257~263" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="298~301" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="412~415" text="SCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="501~504" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1137~1140" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1182~1185" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1311~1314" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1355~1361" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="1414~1417" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1502~1505" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1604~1610" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D14" spans="1751~1754" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1834~1857" text="squamous cell carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="1860~1863" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2012~2015" text="SCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1451~1465" text="overexpression" location="result" relation="increased expression" />
+<RELATION id="R1" spans="1485~1498" text="poor survival" location="result" relation="negative prognostic marker" />
+<RELATION id="R2" spans="1707~1725" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R3" spans="1730~1747" text="prognostic marker" location="result" relation="prognostic indicator" />
+<ENTITY_LINKING id="E0" geneID="G16" geneText="SREBF1" diseaseID="D11" diseaseText="SCC" relationID="R0" relationText="overexpression" />
+<ENTITY_LINKING id="E1" geneID="G16" geneText="SREBF1" diseaseID="D12" diseaseText="SCC" relationID="R1" relationText="poor survival" />
+<ENTITY_LINKING id="E2" geneID="G17" geneText="SREBF1" diseaseID="D14" diseaseText="SCC" relationID="R2" relationText="therapeutic target" />
+<ENTITY_LINKING id="E3" geneID="G17" geneText="SREBF1" diseaseID="D14" diseaseText="SCC" relationID="R3" relationText="prognostic marker" />
+</TAGS>
+</Genomics_ConceptTask>

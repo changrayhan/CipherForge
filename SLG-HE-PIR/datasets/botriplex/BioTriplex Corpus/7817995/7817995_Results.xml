@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+ –/–  MEFs Show Mitochondrial Impairment
+Since previous studies indicate that SO 3 2–  impacts mitochondrial function ( Vincent et al., 2004 ;  Zhang et al., 2004 ;  Grings et al., 2014 ), we first tested whether SO-deficient MEF cells ( Figure 1A ) generated from  Suox –/–  mice (Kohl et al. unpublished results) exhibited signs of mitochondrial damage. We cultured WT and  Suox –/–  MEFs in either glucose- or galactose-containing medium, thereby forcing the cells to rely on oxidative phosphorylation (OXPHOS) as the main energy source in absence of glucose (galactose-containing medium). After growing the cells for 24 h, we analyzed cell survival using the MTT assay ( Figure 1B ). While the absence of glucose had no effect on the viability of WT cells, survival of  Suox –/–  cells was reduced to less than 50% in galactose, which indicates mitochondrial damage. We then measured intracellular ATP levels under the same conditions and again found no effect on WT MEFs, while  Suox –/–  cells exhibited a severe reduction of ATP levels in galactose-containing medium (∼20% of control), thus showing that  Suox –/–  MEFs are impaired in their ability to produce ATP via OXPHOS ( Figure 1C ). An essential component of OXPHOS is the generation of a proton gradient by different complexes of the respiratory chain (I, III, and IV). We therefore analyzed the mitochondrial membrane potential in WT and  Suox –/–  cells via TMRM staining and found that  Suox –/–  cells have a mild, but significant reduction in their membrane potential relative to WT ( Figure 1D ).
+Mitochondrial Morphology Is Altered in  Suox –/–  MEFs
+Next, we visualized mitochondrial morphology in WT and  Suox –/– cells after staining with MitoTracker Red CMXRos ( Figure 2A ). We observed that mitochondria in  Suox –/–  MEFs formed a tightly interconnected and hypertubular network distinct from WT MEF cells. We quantified 100 cells per genotype and categorized the mitochondrial network as either fragmented (disturbed, dot-like network, almost no tubules present) normal (both tubules and dot-like mitochondria present) or hyperfused (highly interconnected tubules, no dot-like mitochondria present). We found that for WT cells 81% had a normal mitochondrial network, while 6% displayed fragmented mitochondria, and 13% were hyperfused ( Figure 2B ). In contrast, only 30% of the  Suox –/–  cells had a normal mitochondrial network, while 4% had a fragmented network, and 66% had a hyperfused network. To complement these light microscopic studies, we performed TEM and again found the mitochondria in the KO cells to be abnormally elongated compared to WT ( Figure 2C ). Quantification of the cross-sectional area of 50 individual mitochondria confirmed that mitochondria from  Suox –/–  MEFs were on average more than twice as large than WT mitochondria ( Figure 2D ). Finally, TEM revealed that the elongated mitochondria also showed a much more electron dense matrix structure than WT mitochondria.
+ –/–  Mitochondria Are Less Motile Than WT
+Mitochondria have a high degree of motility, which enables them to distribute throughout the cytoplasm and facilitates both fusion and fission processes. To measure mitochondrial mobility, we acquired time-lapse videos of mitochondrial movements in an environmental chamber at 37°C over a period of 5 min. The first and last image of each video were colored red or green and overlaid. Yellow pixels represented mitochondria that remained stationary over the 5 min period, while red and green pixels were quantified as a proxy measure of mitochondrial motility ( Yi et al., 2004 ;  Figure 3A ). Our quantification showed that  Suox –/–  mitochondria moved less than WT mitochondria ( Figure 3B ). We also measured the total amount of mitochondria per cell and found no statistically significant difference, although  Suox –/–  cells tend to have less mitochondrial content than WT cells ( Figure 3C ).
+Sulfite Treatment Leads to Abnormal Mitochondrial Morphology
+We reasoned that the alterations in mitochondrial morphology observed in  Suox –/–  cells could be a direct result of intracellular SO 3 2–  accumulation. To test whether SO 3 2–  affects mitochondrial morphology, we treated human WT fibroblasts with escalating doses of SO 3 2–  concentrations and assessed for changes in mitochondrial morphology after 1 h of treatment ( Figure 4A ). Addition of 10 or 50 μM SO 3 2–  led to an increase in the percentage of cells with hyperfused mitochondria ( Figure 4B ). While we found that ∼11% of untreated WT cells were hyperfused, addition of 10 or 50 μM SO 3 2–  resulted in ∼32% and 23% hyperfused cells, respectively. We also observed that treatment with higher SO 3 2–  concentrations lead to a higher percentage of fragmented mitochondria. Around 50% of the cells displayed fragmented mitochondria after treatment with 500 μM SO 3 2– , whereas untreated cells showed fragmented mitochondria in ∼4% of all analyzed cells. In turn, the number of cells categorized to harbor a normal mitochondrial network were significantly reduced in all SO 3 2– -treated cells, regardless of the respective concentration. While 84% of untreated cells had a normal mitochondrial network, this percentage was reduced to ∼57% for SO 3 2–  concentrations up to 100 μM and ∼50% for 250 and 500 μM SO 3 2–  treatments. These data show that SO 3 2–  directly influences mitochondrial morphology in a dose-dependent manner.
+MoCD Patient Derived Fibroblasts Recapitulate the Mitochondrial Phenotype of  Suox –/–  MEF Cells
+Finally, we analyzed mitochondrial morphology in fibroblasts derived from various MoCD patients that are impaired in different genes important for Moco biosynthesis, namely  MOCS1A ,  MOCS1B ,  MOCS2 , and  GPHN  ( Figure 4C ). We found that cell lines derived from patients with disease causing mutations in  MOCS1  or  MOCS2 ∼70% contained a hyperfused mitochondrial network, whereas this was only the case for 30% of the cells for WT fibroblasts ( Figure 4D ). In cells derived from patients with disease causing mutations in the  GPHN  gene, 45% were characterized as hyperfused. In turn, ∼60% of WT cells displayed a normal mitochondrial network, while this phenotype could only be found in ∼25–30% of all patient cells regardless of the affected gene. The percentage of cells with a fragmented mitochondrial network varied between 1% and 10% for the  MOCS1/2  and WT cell lines. Remarkably, only 1% of the cells deficient in  MOCS2  were fragmented, whereas 25% of the cells affected in  GPHN  showed fragmented mitochondria. In summary, these data confirm a disturbed mitochondrial network in different patient cell lines of MoCD that can collectively be traced back to SO 3 2–  accumulation.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="267~271" text="Suox" location="background" />
+<GENE id="G1" spans="377~381" text="Suox" location="result" />
+<GENE id="G2" spans="775~779" text="Suox" location="result" />
+<GENE id="G3" spans="985~989" text="Suox" location="result" />
+<GENE id="G4" spans="1113~1117" text="Suox" location="result" />
+<GENE id="G5" spans="1407~1411" text="Suox" location="result" />
+<GENE id="G6" spans="1457~1461" text="Suox" location="result" />
+<GENE id="G7" spans="1610~1614" text="Suox" location="result" />
+<GENE id="G8" spans="1681~1685" text="Suox" location="result" />
+<GENE id="G9" spans="1788~1792" text="Suox" location="result" />
+<GENE id="G10" spans="2362~2366" text="Suox" location="result" />
+<GENE id="G11" spans="2760~2764" text="Suox" location="result" />
+<GENE id="G12" spans="3653~3657" text="Suox" location="result" />
+<GENE id="G13" spans="3843~3847" text="Suox" location="result" />
+<GENE id="G14" spans="4063~4067" text="Suox" location="result" />
+<GENE id="G15" spans="5513~5517" text="Suox" location="result" />
+<GENE id="G16" spans="5707~5713" text="MOCS1A" location="result" />
+<GENE id="G17" spans="5717~5723" text="MOCS1B" location="result" />
+<GENE id="G18" spans="5727~5732" text="MOCS2" location="result" />
+<GENE id="G19" spans="5740~5744" text="GPHN" location="result" />
+<GENE id="G20" spans="5843~5848" text="MOCS1" location="result" />
+<GENE id="G21" spans="5854~5859" text="MOCS2" location="result" />
+<GENE id="G22" spans="6067~6071" text="GPHN" location="result" />
+<GENE id="G23" spans="6390~6395" text="MOCS1" location="result" />
+<GENE id="G24" spans="6465~6470" text="MOCS2" location="result" />
+<GENE id="G25" spans="6527~6531" text="GPHN" location="result" />
+<DISEASE id="D0" spans="6665~6669" text="MoCD" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="5435~5439" text="MoCD" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

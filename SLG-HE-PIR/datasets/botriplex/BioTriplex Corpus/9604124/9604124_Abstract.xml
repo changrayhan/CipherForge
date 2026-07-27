@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Cytotoxic T Cell Expression of Leukocyte-Associated Immunoglobulin-Like Receptor-1 (LAIR-1) in Viral Hepatitis C-Mediated Hepatocellular Carcinoma.
+Abstract: Virus-related hepatocellular carcinoma (HCC) pathogenesis involves liver inflammation, therefore, despite successful treatment, hepatitis C virus (HCV) may progress to HCC from initiated liver cirrhosis. Cytotoxic T cells (Tcs) are known to be involved in HCV-related cirrhotic complications and HCC pathogenesis. The inhibitory checkpoint leukocyte-associated immunoglobulin-like receptor-1 (LAIR-1) is expressed on Tcs. Therefore, we aimed to determine whether the Tc expression level of LAIR-1 is associated with HCC progression and to evaluate LAIR-1 expression as a noninvasive biomarker for HCC progression in the context of liver cirrhosis related to HCV genotype 4 (G4) in Egyptian patients’ peripheral venous blood liquid biopsy. A total of 64 patients with HCC and 37 patients with liver cirrhosis were enrolled in this case-controlled study, and their LAIR-1 expression on Tc related to the progression of liver cirrhosis was examined and compared to that of the apparently healthy control group ( n  = 20). LAIR-1 expression was analyzed using flow cytometry. Results: The HCC group had significantly higher LAIR-1 expression on Tc and percentage of Tc positive for LAIR-1 (LAIR-1+Tc%) than the HCV G4-related liver cirrhosis group. LAIR-1+Tc% was correlated with the HCC surrogate tumor marker AFP ( r  = 0.367,  p  = 0.001) and insulin resistance and inflammation prognostic ratios/indices. A receiver operating characteristic (ROC) curve revealed that adding LAIR-1+Tc% to AFP can distinguish HCC transformation in the Egyptian patients’ cohort. Upregulated LAIR-1 expression on Tc could be a potential screening noninvasive molecular marker for chronic inflammatory HCV G4 related liver cirrhosis. Moreover, LAIR-1 expression on Tc may be one of the players involved in the progression of liver cirrhosis to HCC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="39~90" text="Leukocyte-Associated Immunoglobulin-Like Receptor-1" location="result" />
+<GENE id="G1" spans="92~98" text="LAIR-1" location="result" />
+<GENE id="G2" spans="506~557" text="leukocyte-associated immunoglobulin-like receptor-1" location="background" />
+<GENE id="G3" spans="559~565" text="LAIR-1" location="background" />
+<GENE id="G4" spans="656~662" text="LAIR-1" location="result" />
+<GENE id="G5" spans="714~720" text="LAIR-1" location="result" />
+<GENE id="G6" spans="1029~1035" text="LAIR-1" location="result" />
+<GENE id="G7" spans="1185~1191" text="LAIR-1" location="result" />
+<GENE id="G8" spans="1344~1350" text="LAIR-1" location="result" />
+<GENE id="G9" spans="1352~1358" text="LAIR-1" location="result" />
+<GENE id="G10" spans="1411~1417" text="LAIR-1" location="result" />
+<GENE id="G11" spans="1640~1646" text="LAIR-1" location="result" />
+<GENE id="G12" spans="1739~1745" text="LAIR-1" location="result" />
+<GENE id="G13" spans="1890~1896" text="LAIR-1" location="result" />
+<GENE id="G14" spans="1286~1292" text="LAIR-1" location="result" />
+<DISEASE id="D0" spans="130~154" text="Hepatocellular Carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="180~204" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="206~209" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="334~337" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="462~465" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="682~685" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="353~368" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="763~766" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="797~812" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="933~936" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="958~973" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="1083~1098" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="1251~1254" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1446~1449" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1674~1677" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1863~1878" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="1971~1986" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="1990~1993" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="1388~1403" text="liver cirrhosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="1940~1967" text="involved in the progression" location="result" relation="pathological role" />
+<RELATION id="R1" spans="1279~1285,1293~1303" text="higher ... expression" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G14" geneText="LAIR-1" diseaseID="D12" diseaseText="HCC" relationID="R1" relationText="higher ... expression" />
+<ENTITY_LINKING id="E1" geneID="G13" geneText="LAIR-1" diseaseID="D16" diseaseText="liver cirrhosis" relationID="R0" relationText="involved in the progression" />
+<ENTITY_LINKING id="E2" geneID="G13" geneText="LAIR-1" diseaseID="D17" diseaseText="HCC" relationID="R0" relationText="involved in the progression" />
+</TAGS>
+</Genomics_ConceptTask>

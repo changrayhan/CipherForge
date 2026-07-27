@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cell lines, plasmids, and agents
+The human colorectal cancer cell line, HCT8, was purchased from the National Collection of Authenticated Cell Cultures (Shanghai, China) and cultured in RPMI-1640 (Gibco, MA, USA) containing 10% FBS (Gibco). The 5FU resistant cell line, HCT8FU, was purchased from OBIO Technology (Shanghai, China) and maintained in a medium containing 0.5 μg/ml 5FU. The IDH1 gene was cloned into a pLenti-CMV-EGFP-3FLAG-Puro vector and stably expressed in HCT8 cells using a lentivirus. The lentivirus of shRNA-NC (sense 5'-GATCCGTTCTCCGAACGTGTCACGTTTCAAGAGAACGTGACACGTTCGGAGAACTTTTTTG-3', antisense 5'-AATTCAAAAAAGTTCTCCGAACGTGTCACGTTCTCTTGAAACGTGACACGTTCGGAGAACG-3'), shRNA-IDH1-994 (sense 5'-GATCCGCAGTACAAGTCCCAGTTTGATTCAAGAGATCAAACTGGGACTTGTACTGCTTTTTTG-3, antisense 5'-AATTCAAAAAAGCAGTACAAGTCCCAGTTTGATCTCTTGAATCAAACTGGGACTTGTACTGCG-3') and shRNA-IDH1-1404 (sense 5'-GATCCGCTTCATGACCAAGGACTTGGTTCAAGAGACCAAGTCCTTGGTCATGAAGCTTTTTTG-3', antisense 5'-AATTCAAAAAAGCTTCATGACCAAGGACTTGGTCTCTTGAACCAAGTCCTTGGTCATGAAGCG-3') were used for stable IDH1 knockdown. 5FU and Ivosidenib were purchased from Selleck Chemicals (Shanghai, China). The antibodies, anti-Flag (Sigma, MO, USA), IDH1 (R&D Systems, MN, USA), CD63 (Proteintech, Wuhan, China), TSG101 (ABclonal, Wuhan, China), and β-actin (Cell Signaling Technology, MA, US) were also used in this study.
+Immunohistochemistry
+Tissue microarrays (No. COC1261 and COC1601) from 125 patients with colorectal cancer were purchased from Shanghai Superbiotek Inc. All experimental procedures were approved by the Human Ethics Committee of Shanghai University of Medicine and Health Sciences. Before incubation with the anti-IDH1 (1:500) antibody, the tissue chip was treated with 3% H 2 O 2  to block endogenous peroxidase activity. The tissue chip was incubated with the HRP-conjugated secondary antibody, and positive signals were observed using diaminobenzidine (DAB) staining. Two independent researchers scored the expression of IDH1 in each tissue based on distribution and intensity. The scores for the percentage of stained cells were 0 (0-5%), 1 (5-25%), 2 (25-50%), and 3 (50-100%). The scores for staining intensity were 0 (no staining), 1 (weak), 2 (medium), and 3 (strong). The product of the two scores were used as the expression score of IDH1 expression. Each cancer tissue was classified into either the high expression (score ≥ 6) or low expression (score <6) group.
+Cell proliferation and drug toxicity assays
+HCT8 or HCT8FU cells were seeded into 96-well plates at a density of 1 × 10 4  cells/well and treated with the required concentration of 5FU or ivosidenib. After being cultured for 24-96 h, 10 μl of CCK-8 solution (Bimake, Shanghai, China) was added. Absorbance at 450 nm was determined and used to evaluate the viability of the cells.
+Cell cycle analysis
+The digested HCT8 cell suspension was fixed using cold 70% ethanol for 24 h. Then, the cells were incubated with RNase A-containing propidium iodide solution (BD Bioscience, CA, USA) at 4 °C in the dark for 15 minutes. A flow cytometer (BD) and Modfit LT software (version 3.1, Topsham, ME, USA) were used to analyze the cell cycle.
+Cell invasion assay
+200 μl of DMEM resuspension containing 6×10 4  cells was added to the upper chamber of the Transwell chamber (Corning, NY, USA). 600 μl of complete medium with serum was added to the lower chamber. After 24 h, the cells in the lower chamber that had not migrated were removed, and the migrated cells were stained with 0.1% crystal violet, and images were captured under a microscope.
+Western blotting assays
+RIPA buffer (Keygenbio, Nanjing, China) was used to lyse the cells. The BCA protein assay kit (Yeason, Shanghai, China) was used to quantify total protein in the cell lysates or exosomes. Then, 40 μg of protein was separated using SDS-PAGE and transferred onto a PVDF membrane. The membrane was blocked using 5% milk for 1 hour and stained with a primary antibody overnight. Then, the membrane was incubated with an HRP-labeled secondary antibody for 1 h. An automated bioluminescence imaging system (Tanon, Shanghai, China) was used to obtain results.
+Exosomes isolation and identification
+The cell culture solution was centrifuged at 120,000 g for 90 minutes using an OptimaTM XPN-100 ultracentrifuge (Beckman Coulter) to obtain exosomes derived from the HCT8 and HCT8FU cells. The exosomes were resuspended in PBS and placed on a copper grid, fixed with 1% glutaraldehyde, and treated with uranyl acetate. The images of the exosomal samples were observed under a transmission electron microscope (FEI Tecnai G2 Spirit TEM, USA) at 80 kV. ZetaView PMX 110 (Particle Metrix, Meerbusch, Germany) was used to measure the size distribution and concentration of the exosomes.
+LC/MS-MS
+The exosomal proteins derived from HCT8 and HCT8FU cells were precipitated with cold acetone and dried. 100 μg of protein was digested with trypsin, and the purified peptides were separated using a Durashell C18 analytical column and identified through mass spectrometry using anh AB SCIEX nanoLC-MS/MS (Triple TOF 5600 plus). MaxQuant v1.5 database was used for proteome identification and label-free quantification. The iBAQ algorithm was used for absolute protein quantification of the exosomal samples  25 .
+IDH1 activity and metabolite assay
+HCT8 cells were lysed with RIPA buffer. The activity of isocitrate dehydrogenase in the cell lysates was measured using an IDH assay kit (MAK072, Sigma-Aldrich, SL, USA) as instructed by the manufacturer. A-ketoglutarate assay kit (MAK054, Sigma-Aldrich) and NADP/NADPH quantification kit (MAK038, Sigma-Aldrich) were used to measure the content of α-KG, total NADP+ and NADPH in the cell lysate. Glucose uptake was measured following previously used experimental protocols  26 . The total number of cells was used as a reference for data standardization.
+Statistical analysis
+All statistical analyses were performed using either Graphpad Prism 7.0 (CA, USA) and SPSS 20.0 software (IL, USA). One-way analysis of variance (ANOVA) and Bonferroni post-hoc test were used to analyze statistical differences between multiple groups. A P-value of < 0.05 was considered to indicate statistical significant.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="389~393" text="IDH1" location="result" />
+<GENE id="G1" spans="695~699" text="IDH1" location="result" />
+<GENE id="G2" spans="872~876" text="IDH1" location="result" />
+<GENE id="G3" spans="1062~1066" text="IDH1" location="result" />
+<GENE id="G4" spans="1685~1689" text="IDH1" location="result" />
+<GENE id="G5" spans="1995~1999" text="IDH1" location="result" />
+<GENE id="G6" spans="2315~2319" text="IDH1" location="result" />
+<GENE id="G7" spans="5301~5305" text="IDH1" location="result" />
+<DISEASE id="D0" spans="44~61" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1461~1478" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="2337~2343" text="cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

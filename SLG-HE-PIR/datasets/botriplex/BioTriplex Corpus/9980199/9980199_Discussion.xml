@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+To date, the etiology of the immunodeficiency state and hyper-inflammatory intestinal condition observed in GSD1b remain unclear. Here, we utilize CyTOF technology to provide an in-depth overview of the innate and adaptive immune landscape in patients with GSD1b. Although our sample size was small, analysis of cell proportions in GSD1b patients showed little variability, indicating a robust assessment of significant changes not driven by variation within our groups. We were able to detect and assess 32 immune populations in both the innate and adaptive compartment, illuminating changes in GSD1b at a previously unprecedented depth.
+Neutropenia is a key characteristic in patients harboring mutations in patients harboring deleterious mutations in  SLC37A4  leading to GSD1b. Although blood sample processing using lymphoprep gradient eliminates most circulating neutrophils, we still found small remaining neutrophil populations that showed upregulation of CD45RO and downregulation of CD45RA in patients with GSD1b, indicating an impairment in neutrophil function or lack of activation. A link to increased apoptosis in these neutrophils has been suggested in the past, along with a possible inability to switch to a glycolytic metabolism after activation in a hypoglycemic environment[ 18 ]. Furthermore, we show major changes in other immune cell populations. In line with the findings of Melis  et al .[ 8 ] we observe a decrease in NK cells in GSD1b patients. The mechanism how GSD1b causes NK cell reduction is unclear, but might also be related to impaired glycolytic function in a hypoglycemic enviorment[ 19 ]. This is similar to the effect reported for lymphopenia and impairment of Warburg shift for T cells in GSD1b[ 8 ], although NK cells do not seem to undergo the switch to glycolytic energy generation as rapid as T cells[ 19 ]. As such, we observed a down-regulation in CD16 in NK cells in patients with GSD1b, likely due to the failure to sustain expansion and effector function in a hypoglycemic environment.
+The strong reduction in anti-inflammatory MΦ (M2-like) is not explainable with the hypoglycemic environment being insufficient for sustaining a stable population after activation, because anti-inflammatory MΦ have been reported to rely mostly on oxidative phosphorylation (OXPHOS) to meet their needs while also maintaining some glycolytic activity[ 20 ], [ 21 ]. However, it is difficult to determine the association between the inflammatory state (M1-/M2-like) and effect of MΦ based on their surface marker expression (HLA-DR high  vs. HLA-DR low  in our case) alone. Some MΦ populations (e.g. M1-like) are known to undergo a switch to Warburg metabolism[ 20 ], [ 21 ]. Further characterization of MΦ populations, inflammatory status, and mode of activation in GSD1b patients might therefore be required.
+We also observed a trend of increasing percentages of naïve T cells in GSD1b, consistent with the observation by Melis  et al . of T cell dysregulation due to an impairment in glycolysis. However, we could not confirm their observation of a reduction in overall memory T cell levels. More striking is the observed transition from effector memory to central memory in T cells, a change that is predicted to result from the Warburg shift. Effector memory T cells, especially emT c  (cluster 27), were significantly reduced in GSD1b and, in contrast to cm T cells, are reported to rely heavily on glycolysis to meet their energy needs[ 22 ]-[ 24 ]. On the contrary, central memory T cells (cluster 11) were significantly increased in GSD1b and are reported to preferably perform oxidative phosphorylation, mainly fueled by fatty acid oxidation.[ 22 ]–[ 24 ] Our data shows a shift away from effector memory and towards the central memory T cell populations in GSD1b, which can be explained by the hypoglycemic conditions and impaired glycolysis in GSD1b favoring central memory over effector memory T cell phenotype.
+We observed no significant changes in the B cell compartment similar to Melis  et al .[ 8 ]. Naive B cells rely on OXPHOS with only a moderate increase of glycolysis upon activation[ 25 ], [ 26 ], explaining their ability to differentiate and form stable effector and memory populations, even in hypoglycemic conditions.
+The reason for the global downregulation of myeloid markers in GSD1b remains unclear. The upregulation of CXCR3 in multiple clusters might indicate increased activation and targeting to inflamed tissue in GSD1b, especially the lung[ 27 ].
+Although one explanation of the altered immune landscape is the hypoglycemia environment, this by itself cannot solely explain the immune phenotype observed in patients with GSD1b. An important comparison should be made to patients with GSD1a, resulting from  G6PC  mutations, that also suffer from severe recurrent hypoglycemia, but do not develop neutropenia or IBD. Therefore, it is likely that deleterious  SLC37A4  mutations impair immune function via additional mechanisms. Immunometabolomic Seahorse data on GSD1b T cells is sparse, but Melis  et al . observed impaired glycolysis engagement in GSD1b patients[ 8 ]. Our results are in line with this conclusion, that glycolysis could explain the low levels of effector memory T cells and high levels of central memory T cells in GSD1b patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="756~763" text="SLC37A4" location="background" />
+<GENE id="G1" spans="1895~1899" text="CD16" location="result" />
+<GENE id="G2" spans="4385~4390" text="CXCR3" location="result" />
+<GENE id="G3" spans="4778~4782" text="G6PC" location="background" />
+<GENE id="G4" spans="4929~4936" text="SLC37A4" location="result" />
+<DISEASE id="D0" spans="109~114" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="258~263" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="333~338" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="597~602" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="776~781" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="1018~1023" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="1457~1462" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="1491~1496" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="1730~1735" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="1929~1934" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="2800~2805" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="2915~2920" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="3368~3373" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="3575~3580" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D14" spans="3801~3806" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D15" spans="3889~3894" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D16" spans="4342~4347" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D17" spans="4484~4489" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D18" spans="4692~4697" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D19" spans="4755~4760" text="GSD1a" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D20" spans="4882~4885" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="5033~5038" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D22" spans="5120~5125" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D23" spans="5304~5309" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R1" spans="730~751,765~775" text="deleterious mutations ... leading to" location="background" relation="causative mutation" />
+<RELATION id="R2" spans="4369~4381" text="upregulation" location="result" relation="increased expression" />
+<RELATION id="R3" spans="4762~4776,4784~4793" text="resulting from ... mutations" location="background" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="SLC37A4" diseaseID="D4" diseaseText="GSD1b" relationID="R1" relationText="deleterious mutations ... leading to" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="CXCR3" diseaseID="D17" diseaseText="GSD1b" relationID="R2" relationText="upregulation" />
+<ENTITY_LINKING id="E2" geneID="G3" geneText="G6PC" diseaseID="D19" diseaseText="GSD1a" relationID="R3" relationText="resulting from ... mutations" />
+</TAGS>
+</Genomics_ConceptTask>

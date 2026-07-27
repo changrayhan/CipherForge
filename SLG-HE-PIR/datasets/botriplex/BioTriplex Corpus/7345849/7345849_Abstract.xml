@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Metabolic Endotoxemia, Feeding Studies and the Use of the Limulus Amebocyte (LAL) Assay; Is It Fit for Purpose?
+Abstract: The Limulus amebocyte assay (LAL) is increasingly used to quantify metabolic endotoxemia (ME), particularly in feeding studies. However, the assay was not intended to assess plasma at levels typically seen in ME. We aimed to optimize and validate the LAL assay under a range of pre-treatment conditions against the well-established lipopolysaccharide binding protein assay (LBP). Fifteen healthy overweight and obese males aged 28.8 ± 9.1years provided plasma. The LAL assay employed a range of pre-treatments; 70 °C for 15 and 30 min and 80 °C for 15 and 30 min, ultrasonication (70 °C for 10 min and then 40 °C for 10 min), and dilution (1:50, 1:75, 1:100, and 1:200 parts) or diluted using 0.5% pyrosperse. Seventeen different plasma pre-treatment methods employed prior to the use of the LAL analytical technique failed to show any relationships with either LBP, or body mass index (BMI; obesity), the biological trigger for ME ( p  > 0.05 for all). As expected, BMI positively correlated with LBP (r = 0.523,  p  = 0.052. No relationships were observed between LAL with any of the sample pre-treatments and LBP or BMI. In its current form, the LAL assay is unsuitable for detecting levels of endotoxin typically seen in ME.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1022~1029" text="obesity" location="result" disease1="disease of metabolism" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

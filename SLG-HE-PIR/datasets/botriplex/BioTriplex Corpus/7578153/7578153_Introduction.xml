@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Panic disorder (PD) is one of the most common anxiety disorders, with lifetime prevalence rates of 2.1–4.7% (Baxter et al.  2014 ) and a 12-month prevalence of 1.8% (Goodwin et al.  2005 ). PD is characterized by sudden, unexpected and recurrent panic attacks, i.e., episodes of extreme fear (American Psychiatric Association  2013 ). PD is often comorbid with major depressive disorder (MDD; Gorman and Coplan  1996 ): Lifetime prevalence rates of comorbid MDD in PD are estimated at about 30–40% (Fava et al.  2000 ; Lamers et al.  2011 ; Kessler et al.  2015 ), similar to the lifetime prevalence rates of comorbid MDD in the group of anxiety disorders as a whole (Kessler et al.  2006 ).
+The monoamine oxidase A (MAOA)—metabolizing catecholamines such as norepinephrine and serotonin and being a target of potent antidepressants such as tranylcypromine—has been suggested as a key player in the pathogenesis of anxiety and mood disorders (for review see Ziegler and Domschke  2018 ). On an epigenetic level,  MAOA  hypomethylation has been reported in patients with PD (Domschke et al.  2012 ; Ziegler et al.  2016 ), acrophobia (Schiele et al.  2018 ), and MDD (Melas et al.  2013 ; Melas and Forsell  2015 ). Moreover,  MAOA  hypomethylation has been observed to be predictive of response to pharmacological treatment in MDD (Domschke et al.  2012 ) and to be modifiable by psychotherapeutic interventions in anxiety disorders (Ziegler et al.  2016 ; Schiele and Domschke  2018 ; Schiele et al.  2018 ; for review see Schiele et al.  2020 ).
+Recent studies have highlighted the Krüppel-like factor 11 (KLF11; alias TGFB-Inducible Early Growth Response Protein 2 [TIEG2]) as a novel transcriptional activator of  MAOA  gene expression (for review see Duncan et al.  2012 ). KLF11 is a member of the Sp/KLF family of zinc finger transcription factors and regulates the transcription of neuronal genes by binding to distinct sequences within the target gene promoter region, triggering RNA polymerase II (Pol II)-mediated transcriptional initiation (Ou et al.  2004 ; Harris et al.  2015 ). The  MAOA  promoter contains four Sp1-binding sites which have been reported to be a target of KLF11. Accordingly, KLF11 transfection has been observed to result in a twofold increase in  MAOA  mRNA expression (Grunewald et al.  2012 ). Further support for a KLF11–MAOA pathway emerges from a study showing elevated KLF11 protein levels correlating with increased MAOA levels in postmortem brain samples of MDD patients (Harris et al.  2015 ).
+Given these close links between KLF11 and MAOA function, the  KLF11  ( TIEG2 ) gene on chromosome 2p25.1 might constitute a prime, yet uninvestigated candidate gene in the panic disorder/MDD spectrum. Thus, in the present study, we for the first time examined  KLF11  DNA methylation levels in (1) patients with panic disorder in a case–control design taking into account comorbidity with MDD, and (2) in an independent sample of patients with MDD by comparing symptom subtypes (i.e., anxious vs. non-anxious depression) in an effort to for the first time explore the role of KLF11 on an epigenetic level in anxiety and affective disorders.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="697~716" text="monoamine oxidase A" location="background" />
+<GENE id="G1" spans="718~722" text="MAOA" location="background" />
+<GENE id="G2" spans="1014~1018" text="MAOA" location="background" />
+<GENE id="G3" spans="1227~1231" text="MAOA" location="background" />
+<GENE id="G4" spans="1585~1607" text="Krüppel-like factor 11" location="background" />
+<GENE id="G5" spans="1609~1614" text="KLF11" location="background" />
+<GENE id="G6" spans="1622~1668" text="TGFB-Inducible Early Growth Response Protein 2" location="background" />
+<GENE id="G7" spans="1670~1675" text="TIEG2" location="background" />
+<GENE id="G8" spans="1719~1723" text="MAOA" location="background" />
+<GENE id="G9" spans="1780~1785" text="KLF11" location="background" />
+<GENE id="G10" spans="2100~2104" text="MAOA" location="background" />
+<GENE id="G11" spans="2190~2195" text="KLF11" location="background" />
+<GENE id="G12" spans="2210~2215" text="KLF11" location="background" />
+<GENE id="G13" spans="2283~2287" text="MAOA" location="background" />
+<GENE id="G14" spans="2354~2359" text="KLF11" location="background" />
+<GENE id="G15" spans="2360~2364" text="MAOA" location="background" />
+<GENE id="G16" spans="2411~2416" text="KLF11" location="background" />
+<GENE id="G17" spans="2459~2463" text="MAOA" location="background" />
+<GENE id="G18" spans="2571~2576" text="KLF11" location="background" />
+<GENE id="G19" spans="2581~2585" text="MAOA" location="background" />
+<GENE id="G20" spans="2601~2606" text="KLF11" location="background" />
+<GENE id="G21" spans="2610~2615" text="TIEG2" location="background" />
+<GENE id="G22" spans="2800~2805" text="KLF11" location="result" />
+<GENE id="G23" spans="3115~3120" text="KLF11" location="result" />
+<DISEASE id="D0" spans="1~15" text="Panic disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="17~19" text="PD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="191~193" text="PD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D3" spans="336~338" text="PD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="362~387" text="major depressive disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D5" spans="389~392" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="459~462" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="466~468" text="PD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="619~622" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D9" spans="1071~1073" text="PD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D10" spans="1163~1166" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D11" spans="1328~1331" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D12" spans="2502~2505" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D13" spans="2711~2725" text="panic disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D14" spans="2726~2729" text="MDD" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D15" spans="2928~2931" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D16" spans="2983~2986" text="MDD" location="result" disease1="disease of mental health" disease2="-" />
+<RELATION id="R1" spans="1273~1324" text="predictive of response to pharmacological treatment" location="background" relation="prognostic indicator" />
+<RELATION id="R2" spans="2402~2410,2417~2431" text="elevated ... protein levels" location="background" relation="increased expression" />
+<RELATION id="R3" spans="2449~2458,2464~2470" text="increased ... levels" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="MAOA" diseaseID="D11" diseaseText="MDD" relationID="R1" relationText="predictive of response to pharmacological treatment" />
+<ENTITY_LINKING id="E1" geneID="G16" geneText="KLF11" diseaseID="D12" diseaseText="MDD" relationID="R2" relationText="elevated ... protein levels" />
+<ENTITY_LINKING id="E2" geneID="G17" geneText="MAOA" diseaseID="D12" diseaseText="MDD" relationID="R3" relationText="increased ... levels" />
+</TAGS>
+</Genomics_ConceptTask>

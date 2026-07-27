@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The animal model of this experiment lacks anatomical factors of upper airway stenosis, making it significantly different from human OSAHS. In future experiments, we will continue to study how to establish animal models that are closer to the pathogenesis of human OSAHS. The effect of UNO modeling on periodontitis was not determined in this study. This part of the experiment will be supplemented in future studies to explore whether OSASH can aggravate the severity of periodontitis.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="302~315" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="472~485" text="periodontitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

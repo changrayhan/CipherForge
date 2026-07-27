@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: An Immune-Related Signature Predicts Survival in Patients With Lung Adenocarcinoma.
+Abstract: We investigated the local immune status and its prognostic value in lung adenocarcinoma. In total, 513 lung adenocarcinoma samples from TCGA and ImmPort databases were collected and analyzed. The R package coxph was employed to mine immune-related genes that were significant prognostic indicators using both univariate and multivariate analyses. The R software package glmnet was then used for Lasso Cox regression analysis, and a prognosis prediction model was constructed for lung adenocarcinoma; clusterProfiler was selected for functional gene annotations and KEGG enrichment analysis. Finally, correlations between the RiskScore and clinical features or signaling pathways were established. Sixty-four immune-related genes remarkably correlated with patient prognosis and were further applied. Samples were hierarchically clustered into two subgroups. Accordingly, the LASSO regression algorithm was employed to screen the 14 most representative immune-related genes ( PSMD11, PPIA, MIF, BMP5, DKK1, PDGFB, ANGPTL4, IL1R2, THRB, LTBR, TNFRSF1, TNFRSF17, IL20RB , and  MC1R ) with respect to patient prognosis. Then, the prognosis prediction model for lung adenocarcinoma patients (namely, the RiskScore equation) was constructed, and the training set samples were incorporated to evaluate the efficiency of this model to predict and classify patient prognosis. Subsequently, based on functional annotations and KEGG pathway analysis, the 14 immune-related genes were mainly enriched in pathways closely associated with lung adenocarcinoma and its immune microenvironment, such as cytokine–cytokine receptor interaction and human T-cell leukemia virus 1 infection. Furthermore, correlations between the RiskScore and clinical features of the training set samples and signaling pathways (such as p53, cell cycle, and DNA repair) were also demonstrated. Finally, the test set sample data were employed for independent testing and verifying the model. We established a prognostic prediction RiskScore model based on the expression profiles of 14 immune-related genes, which shows high prediction accuracy and stability in identifying immune features. This could provide clinical guidance for the diagnosis and prognosis of different immunophenotypes, and suggest multiple targets for precise advanced lung adenocarcinoma therapy based on subtype-specific immune molecules.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1077~1083" text="PSMD11" location="result" />
+<GENE id="G1" spans="1085~1089" text="PPIA" location="result" />
+<GENE id="G2" spans="1091~1094" text="MIF" location="result" />
+<GENE id="G3" spans="1096~1100" text="BMP5" location="result" />
+<GENE id="G4" spans="1102~1106" text="DKK1" location="result" />
+<GENE id="G5" spans="1108~1113" text="PDGFB" location="result" />
+<GENE id="G6" spans="1115~1122" text="ANGPTL4" location="result" />
+<GENE id="G7" spans="1124~1129" text="IL1R2" location="result" />
+<GENE id="G8" spans="1131~1135" text="THRB" location="result" />
+<GENE id="G9" spans="1137~1141" text="LTBR" location="result" />
+<GENE id="G10" spans="1143~1150" text="TNFRSF1" location="result" />
+<GENE id="G11" spans="1152~1160" text="TNFRSF17" location="result" />
+<GENE id="G12" spans="1162~1168" text="IL20RB" location="result" />
+<GENE id="G13" spans="1176~1180" text="MC1R" location="result" />
+<DISEASE id="D0" spans="71~90" text="Lung Adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="170~189" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="205~224" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="581~600" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1259~1278" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1627~1646" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1744~1752" text="leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

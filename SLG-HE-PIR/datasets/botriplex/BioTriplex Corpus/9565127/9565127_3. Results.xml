@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Overall, COPD was mentioned in 43,780 death certificates from 2008 to 2020, corresponding to 7.2% of all of the registered deaths among residents aged ≥ 40 years. The proportional mortality for COPD as MCOD declined from 8.2% in 2008 to 6.3% in 2019, and it remained almost unchanged in 2020 (6.2%). In contrast, COPD as the UCOD did not show major changes in proportional mortality from 2008 to 2019 but decreased from 2.6% in 2019 to 2.1% in 2020 ( Table 1 ).
+Age-standardized mortality rates related to COPD (MCOD analysis) declined throughout the pre-pandemic period, without changes in trend from 2008 to 2019, as also confirmed by the joinpoint analysis. This decrease was more pronounced among men (APC −4.9%, 95% CI −5.5%, −4.2%) compared to women (APC −3.1%, 95% CI −3.8%, −2.5%). In 2020, an increase was observed in COPD-related mortality, similar in both sexes ( Figure 1 ). In the UCOD analysis, a decrease in mortality was observed up to 2016; thereafter, the mortality rates remained substantially unvaried and decreased again in 2020. This was confirmed among women by the joinpoint analysis that identified two distinct pre-pandemic trends, with rates declining in 2008–2016 (APC −2.3%, 95% CI −3.8%, −0.8%), followed by a non-significant increase in 2016–2019 (APC +3.0%; 95% CI −4.0%, +10.5%). A similar overall pattern, but with a non-significant change in trend, was present among men. 
+The reasons for the diverging behavior of the MCOD and UCOD trends can be explained by the data shown in  Table 2 , which report, only among deaths that mention COPD, the proportion where the disease itself was selected as the UCOD (first row), and the proportion of mention (MCOD) and selection as the UCOD of the most common comorbidities. COPD was selected as the UCOD in 34% of death certificates reporting the disease in 2008–2012 and in 35% in 2013–2017; the increase to 42% in 2018–2019 corresponded to the adoption of new software applying updated selection rules. In 2020, a drop to 34% was due to COVID-19 acting as a strong competing cause for the UCOD, selected in 13% of all death certificates with a mention of COPD. It must be noted that among all deaths registered in the region with COVID-19 as the UCOD ( n  = 5965), COPD was reported in the certificate as a comorbidity in 7.3% of cases ( n  = 441, data not shown). Among comorbidities of COPD, a persistent reduction in ischemic heart diseases was observed from 2008–2012 to 2018–2019 (UCOD: from 16% to 10%; MCOD: from 30% to 23%) as well as for cerebrovascular diseases (MCOD: from 15% to 11%).
+The number of deaths from COPD as the UCOD declined by 8% in 2020 compared to the 2018–2019 average; a minor peak in the monthly number of deaths from COPD was observed in April, corresponding to the first epidemic wave ( Figure 2 ). MCOD analyses showed a greater impact of the pandemic: the number of COPD-related deaths in 2020 increased by 14% (95% CI 10–18%). This increase was related to excess mortality during the first epidemic wave in March-May (+20%, 95% CI 12–28%) and to an even larger excess during the second wave in October–December (+49%, 95% CI 41–58%).
+The time series analyses based on MCOD confirmed the increase in COPD-related mortality ( Supplementary Table S1 ): with respect to those predicted by the SARIMA model, the overall standardized mortality rate observed in 2020 was 16.0% higher. Excess mortality was larger in males (16.8%) than in females (12.3%).
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="10~14" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="195~199" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="314~318" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="507~511" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="828~832" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1570~1574" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1751~1755" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2016~2024" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D8" spans="2134~2138" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2209~2217" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D10" spans="2244~2248" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2367~2371" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2526~2549" text="cerebrovascular disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2602~2606" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2727~2731" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="2879~2883" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="3213~3217" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

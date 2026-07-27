@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Recent evidence has suggested that changes in the epigenetic mechanisms, such as DNA methylation [ 1 ], histone modifications [ 2 ], and micro RNA (miRNA) expression [ 3 ] contribute to the development of atherosclerosis. Homocysteine (Hcy), a toxic non-protein forming thiol-containing amino acid, is formed from methionine as a result of cellular methylation reactions [ 4 ]. Elevated plasma homocysteine levels are known to be a risk factor for atherosclerosis [ 5 ], resulting in cardiovascular diseases. It has been reported that cystathionine-β-synthase (CBS)-deficient mice present severe accumulation of tissue Hcy and protein arginine hypomethylation [ 6 ]. In addition, some miRNAs that regulate DNA methylation and acetylation are activated during hyperhomocysteinemia (HHcy) [ 7 ]. Hence, Hcy plays an important role in post-translational modifications by inhibiting the expression of key genes such as FABP4 [ 5 ] and ABCA1 [ 8 ]. However, the underlying mechanisms of epigenetic regulation in Hcy-induced atherosclerosis are poorly understood.
+miRNAs belong to a class of highly-conserved small non-coding RNAs (~22 nucleotides), and are generated from 70–100 nucleotides hairpin precursors. The miRNAs post-transcriptionally regulate gene expression by binding to the 3’-untranslated regions (3’-UTR) of the mRNA transcripts, and eventually induce translational repression or transcript degradation. Depending on the function of the target gene products, miRNAs are involved in diverse biological processes, including cell survival, proliferation and apoptosis. Particularly, the importance of miRNA as a contributing risk factor in the pathogenesis of atherosclerosis has been well documented. Fang et al. demonstrated that endothelial miRNAs, namely miR-92a are differentially expressed between athero-susceptible aortic arch and nearby athero-protected descending thoracic aorta in normal swine [ 9 ]. In addition, miR188 has been shown to be involved in Hcy-induced cardiac remodeling [ 10 ]. Furthermore, our previous study also proves that miR-124 is involved in Hcy-induced atherosclerosis [ 11 ]. These studies indicate that miRNAs have emerged as important pathophysiological mediators of the vascular system. Moreover, miRNAs have also been closely correlated with other epigenetic mechanisms, such as histone modifications that together contribute to the pathogenesis of atherosclerosis [ 12 ,  13 ].
+Histone modifications mainly include acetylation, methylation, phosphorylation, ubiquitination, sumoylation, ADP-ribosylation, deamination and proline isomerization. Histone methylation is one of the well-studied modifications, which is mediated by histone methyltransferase and associated with activation or repression of gene transcription. The H3 histone tail of amino acids mostly comprise of lysine and arginine [ 14 ]. Trimethylation of histone H3 at lysine 27 (H3K27me3) is an epigenetic mark associated with gene silencing, and often found in the promoter of developmental genes [ 15 ]. Enhancer of zeste homolog 2 (EZH2) histone methyltransferase, a catalytic subunit of Polycomb repressive complex 2 (PRC2), is responsible for catalyzing the methylation of H3K27, thereby resulting in gene silencing [ 16 ]. EZH2 plays an essential role in epigenetic maintenance and has been implicated in regulating multiple cellular processes during certain diseases [ 17 ], such as cancer and atherosclerosis [ 18 ]. However, studies reporting the mechanisms of HHcy in atherogenesis via histone methylation are limited. Recent findings have provided evidence that endogenous miRNAs that target gene promoters form epigenetic remodeling complexes and suppress gene expression by fostering histone methylation (H3K27) [ 19 ]. In addition, EZH2 is regulated at the posttranscriptional level by the aberrant expression of miRNAs [ 20 ]. However, the role of miRNAs in EZH2 regulation in Hcy-induced atherosclerosis has not yet been fully elucidated.
+Hcy is known to be associated with aberrant methylation, therefore the role of epigenetic mechanisms in atherosclerosis need to be further explored. Hence, the main aim of this study was to elucidate the epigenetic mechanisms comprising miRNA vs. histone methylation in atherosclerosis under elevated levels of Hcy.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="536~560" text="cystathionine-β-synthase" location="background" />
+<GENE id="G1" spans="562~565" text="CBS" location="background" />
+<GENE id="G2" spans="916~921" text="FABP4" location="background" />
+<GENE id="G3" spans="932~937" text="ABCA1" location="background" />
+<GENE id="G4" spans="3023~3050" text="Enhancer of zeste homolog 2" location="background" />
+<GENE id="G5" spans="3052~3056" text="EZH2" location="background" />
+<GENE id="G8" spans="3246~3250" text="EZH2" location="background" />
+<GENE id="G9" spans="3763~3767" text="EZH2" location="background" />
+<GENE id="G10" spans="3890~3894" text="EZH2" location="background" />
+<DISEASE id="D0" spans="206~221" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="449~464" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="485~508" text="cardiovascular diseases" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="760~780" text="hyperhomocysteinemia" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="782~786" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="1020~1035" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1669~1684" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2097~2112" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="2398~2413" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="3407~3413" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="3418~3433" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="3487~3491" text="HHcy" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="3495~3508" text="atherogenesis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="3921~3936" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="4242~4257" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="4076~4091" text="atherosclerosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="3314~3327" text="implicated in" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G8" geneText="EZH2" diseaseID="D9" diseaseText="cancer" relationID="R0" relationText="implicated in" />
+<ENTITY_LINKING id="E1" geneID="G8" geneText="EZH2" diseaseID="D10" diseaseText="atherosclerosis" relationID="R0" relationText="implicated in" />
+</TAGS>
+</Genomics_ConceptTask>

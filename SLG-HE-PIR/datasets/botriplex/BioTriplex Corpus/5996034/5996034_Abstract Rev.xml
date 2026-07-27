@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Distinct Immunomodulatory Effects of Spermine Oxidase in Colitis Induced by Epithelial Injury or Infection.
+Abstract: Polyamines have been implicated in numerous biological processes, including inflammation and carcinogenesis. Homeostatic regulation leads to interconversion of the polyamines putrescine and the downstream metabolites spermidine and spermine. The enzyme spermine oxidase (SMOX), which back-converts spermine to spermidine, contributes to regulation of polyamine levels, but can also have other effects. We have implicated SMOX in gastric inflammation and carcinogenesis due to infection by the pathogen  Helicobacter pylori . In addition, we reported that SMOX can be upregulated in humans with inflammatory bowel disease. Herein, we utilized  Smox -deficient mice to examine the role of SMOX in two murine colitis models,  Citrobacter rodentium  infection and dextran sulfate sodium (DSS)-induced epithelial injury. In  C. rodentium -infected wild-type (WT) mice, there were marked increases in colon weight/length and histologic injury, with mucosal hyperplasia and inflammatory cell infiltration; these changes were ameliorated in  −/− Smox  mice. In contrast, with DSS,  −/− Smox  mice exhibited substantial mortality, and increased body weight loss, colon weight/length, and histologic damage. In  C. rodentium -infected WT mice, there were increased colonic levels of the chemokines CCL2, CCL3, CCL4, CXCL1, CXCL2, and CXCL10, and the cytokines IL-6, TNF-α, CSF3, IFN-γ, and IL-17; each were downregulated in  −/− Smox  mice. In DSS colitis, increased levels of IL-6, CSF3, and IL-17 were further increased in  −/− Smox  mice. In both models, putrescine and spermidine were increased in WT mice; in  −/− Smox  mice, the main effect was decreased spermidine and spermidine/spermine ratio. With  C. rodentium , polyamine levels correlated with histologic injury, while with DSS, spermidine was inversely correlated with injury. Our studies indicate that SMOX has immunomodulatory effects in experimental colitis  via  polyamine flux. Thus, SMOX contributes to the immunopathogenesis of  C. rodentium  infection, but is protective in DSS colitis, indicating the divergent effects of spermidine.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="379~395" text="spermine oxidase" location="background" />
+<GENE id="G1" spans="397~401" text="SMOX" location="background" />
+<GENE id="G2" spans="547~551" text="SMOX" location="background" />
+<GENE id="G3" spans="681~685" text="SMOX" location="background" />
+<GENE id="G4" spans="769~773" text="Smox" location="result" />
+<GENE id="G5" spans="813~817" text="SMOX" location="result" />
+<GENE id="G6" spans="1164~1168" text="Smox" location="result" />
+<GENE id="G7" spans="1204~1208" text="Smox" location="result" />
+<GENE id="G8" spans="1545~1549" text="Smox" location="result" />
+<GENE id="G9" spans="1646~1650" text="Smox" location="result" />
+<GENE id="G10" spans="1735~1739" text="Smox" location="result" />
+<GENE id="G11" spans="1983~1987" text="SMOX" location="result" />
+<GENE id="G12" spans="2069~2073" text="SMOX" location="result" />
+<GENE id="G13" spans="1414~1418" text="CCL2" location="result" />
+<GENE id="G14" spans="1420~1424" text="CCL3" location="result" />
+<GENE id="G15" spans="1426~1430" text="CCL4" location="result" />
+<GENE id="G16" spans="1432~1437" text="CXCL1" location="result" />
+<GENE id="G17" spans="1439~1444" text="CXCL2" location="result" />
+<GENE id="G18" spans="1450~1456" text="CXCL10" location="result" />
+<GENE id="G19" spans="1476~1480" text="IL-6" location="result" />
+<GENE id="G20" spans="1482~1487" text="TNF-α" location="result" />
+<GENE id="G21" spans="1489~1493" text="CSF3" location="result" />
+<GENE id="G22" spans="1495~1500" text="IFN-γ" location="result" />
+<GENE id="G23" spans="1506~1511" text="IL-17" location="result" />
+<GENE id="G24" spans="1593~1597" text="IL-6" location="result" />
+<GENE id="G25" spans="1599~1603" text="CSF3" location="result" />
+<GENE id="G26" spans="1609~1614" text="IL-17" location="result" />
+<DISEASE id="D0" spans="65~72" text="Colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="720~746" text="inflammatory bowel disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="832~839" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1564~1571" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2033~2040" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2166~2173" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="693~704" text="upregulated" location="background" relation="increased expression" />
+<RELATION id="R1" spans="2148~2158" text="protective" location="result" relation="modulator decrease disease" />
+<RELATION id="R2" spans="1573~1589" text="increased levels" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="SMOX" diseaseID="D1" diseaseText="inflammatory bowel disease" relationID="R0" relationText="upregulated" />
+<ENTITY_LINKING id="E1" geneID="G24" geneText="IL-6" diseaseID="D3" diseaseText="colitis" relationID="R2" relationText="increased levels" />
+<ENTITY_LINKING id="E2" geneID="G25" geneText="CSF3" diseaseID="D3" diseaseText="colitis" relationID="R2" relationText="increased levels" />
+<ENTITY_LINKING id="E3" geneID="G26" geneText="IL-17" diseaseID="D3" diseaseText="colitis" relationID="R2" relationText="increased levels" />
+<ENTITY_LINKING id="E5" geneID="G12" geneText="SMOX" diseaseID="D5" diseaseText="colitis" relationID="R1" relationText="protective" />
+</TAGS>
+</Genomics_ConceptTask>

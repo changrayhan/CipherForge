@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The ECS is a lipid signaling system comprising all the molecular machinery needed to properly activate the cannabinoid receptors. There is a vast array of CB1 and CB2 receptor-mediated signal transduction mechanisms that undoubtedly contributes to the diverse biological processes influenced by cannabinoids. Indeed, endogenous cannabinoid biosynthesis and cannabinoid receptor-mediated signal transduction is altered by a number of hormones and neuromodulators. At the cellular level, cannabinoids decrease stimulus-secretion coupling, and electrochemical transmission between neurons  via  presynaptic, trans-synaptic and postsynaptic mechanisms. At the central nervous system level, cannabinoids are involved in learning and memory, antinociception, motor function, energy balance, stress, thermoregulation, reproduction, drug reward and immunomodulation.
+Regarding energy homeostasis, the ECS is strategically located in all the key points involved in food intake and energy expenditure. It is perhaps one of the few that can coordinate all the players involved in energy balance, thus being an interesting target in all the diseases related to an imbalanced energy homeostasis like obesity and eating disorders. The etiology of eating disorders is currently unknown and the molecular systems involved are still largely a mystery. However, an increasing body of evidence points to an important role of brain circuits related with feeding behavior, especially those related with the reward system, where the ECS has an important role. Recent findings, starting from human genetic association studies and including other molecular, physiological and pathophysiological studies, are suggestive of a deregulation of the ECS in eating disorders that is still not completely understood. In clinical practice cannabinoid agonists are being used safely and successfully in other diseases in which weight gain is needed, like cachexia in AIDS patients but, however, the trials on the therapeutic validity of cannabinoids on eating disorders are very scarce and the results are inconclusive. Taken together, all these considerations encourage the development of new clinical trials for assessing cannabinoid agonists in the management of eating disorders.
+Intrinsically rewarding stimuli and psychoactive drugs activate the same mesolimbic dopaminergic reward pathway and the CB1 receptor has a key role in the control of this reward pathway. Additionally, the FAAH enzyme indirectly modulates the CB1 receptor activity by ending the cannabinoids action, thus suggesting that it could have a role in regulating reward pathways. A FAAH SNP has been associated with drug addiction and some other evidences suggest a role for this enzyme in drug-abuse. Collectively, the findings have led to the idea of FAAH as a possible target for abstinence treatment by controlling its activity and also its expression. However, further studies are needed to provide more knowledge about the role of FAAH in drug-abuse and addiction and the putative therapeutic value of compounds capable of modulating the activity of this enzyme.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="156~159" text="CB1" location="background" />
+<GENE id="G1" spans="164~167" text="CB2" location="background" />
+<GENE id="G2" spans="2371~2374" text="CB1" location="background" />
+<GENE id="G3" spans="2456~2460" text="FAAH" location="background" />
+<GENE id="G4" spans="2493~2496" text="CB1" location="background" />
+<GENE id="G5" spans="2625~2629" text="FAAH" location="background" />
+<GENE id="G6" spans="2796~2800" text="FAAH" location="background" />
+<GENE id="G7" spans="2980~2984" text="FAAH" location="result" />
+<DISEASE id="D0" spans="1234~1249" text="eating disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="1728~1743" text="eating disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D2" spans="1934~1938" text="AIDS" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="2659~2673" text="drug addiction" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D4" spans="1188~1195" text="obesity" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D5" spans="1200~1215" text="eating disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D6" spans="2020~2035" text="eating disorder" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D7" spans="2233~2248" text="eating disorder" location="result" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="2988~2992,3003~3012" text="drug ... addiction" location="result" disease1="disease of mental health" disease2="-" />
+<RELATION id="R0" spans="2643~2658" text="associated with" location="background" relation="relation undefined" />
+<RELATION id="R1" spans="2972~2976" text="role" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="FAAH" diseaseID="D3" diseaseText="drug addiction" relationID="R0" relationText="associated with" />
+<ENTITY_LINKING id="E1" geneID="G7" geneText="FAAH" diseaseID="D8" diseaseText="drug ... addiction" relationID="R1" relationText="role" />
+</TAGS>
+</Genomics_ConceptTask>

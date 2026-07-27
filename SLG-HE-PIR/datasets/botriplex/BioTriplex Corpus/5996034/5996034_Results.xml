@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Attenuation of  C. rodentium -Induced Colitis with  Smox  Deletion
+We previously reported that the SMOX inhibitor MDL 72527 reduces  H. pylori -induced gastritis and carcinogenesis ( 19 ). To now determine the role of SMOX in another infectious model of the gastrointestinal tract, we infected WT and  −/− Smox  mice with  C. rodentium , the rodent equivalent of enteropathogenic  Escherichia coli  that causes colitis in mice ( 7 ,  26 ).  C. rodentium  colonization of the colon and levels in the feces were not affected by the deletion of  Smox  (Figure  1 A; Figure S1 in Supplementary Material). When infected with  C. rodentium , WT mice did not increase their weight to the same degree as uninfected animals (Figure  1 B); by contrast, infected  −/− Smox  mice gained weight as uninfected mice, and there was a significant difference between the body weight of infected WT and infected  Smox- deficient mice at day 8 and 10 post-infection (Figure  1 B). Moreover, colon weight-to-length ratio, an indicator of inflammation that was increased in infected animals, was significantly attenuated by 59.3 ± 3.8% in infected  −/− Smox  mice compared with infected WT mice (Figure  1 C). H&E staining of the colons of  C. rodentium -infected WT mice demonstrated an effacement of the brush border, hyperplasia, severe mucosal inflammation, and submucosal edema (Figure  1 D). However, the histologic damage was markedly attenuated in infected  −/− Smox  mice (Figure  1 D). Using a comprehensive scoring system to quantify the degree of inflammation and epithelial damage ( 25 ,  26 ), we found a significant reduction in histologic injury in  −/− Smox  mice compared with WT animals (Figure  1 E). There was no detectable inflammation or epithelial injury in uninfected  −/− Smox  or WT mice (Figure  1 D).
+  Deletion Exacerbates Colitis in the DSS Model
+We next treated WT and  −/− Smox  mice with DSS to assess the role of SMOX in a second model of experimental colitis. We used a model of injury and recovery, caused by this epithelial-damaging agent ( 28 ,  29 ). Surprisingly, we observed profound mortality beginning on day 6 of the 10-day protocol in the  −/− Smox  mice, which was not observed in DSS-treated WT animals (Figure  2 A). Contrary to the  C. rodentium  model, the weight-to-length ratio of the colon was increased in  −/− Smox  mice compared with WT mice treated with DSS (Figure  2 B). WT and  −/− Smox  mice began losing weight on day 6 and day 4 after starting DSS, respectively (Figure  2 C). However, in accordance with the increased mortality,  −/− Smox  mice lost more body weight than WT mice (Figure  2 C). Moreover, we observed increased overall histological injury in DSS-treated  −/− Smox  mice compared with WT mice with DSS colitis, with increased colonic inflammation, epithelial damage/crypt loss, and crypt abscesses (Figures  2 D,E).
+The Deletion of  Smox  Affects the Mucosal Immune Response During Colitis
+To further assess the role of SMOX on the immune response during colitis, we analyzed the synthesis of mediators of the inflammatory response in the colonic mucosa. As shown in Table S1 in Supplementary Material and Figure  3 A, the infection of WT mice with  C. rodentium  led to an increased production of the innate cytokines IL-6, TNF-α, and CSF3 (also known as G-CSF), as well as the prototype Th1 cytokine IFN-γ, and the Th17 cytokine IL-17. Each of these cytokines was less abundant in the colons of  C. rodentium -infected  −/− Smox  mice compared with infected WT animals (Figure  3 A). Similarly, the chemokines CCL2, CCL3, CCL4, CXCL1, CXCL2, and CXCL10 were significantly increased in the colon of  C. rodentium -infected WT mice compared with uninfected animals (Table S1 in Supplementary Material); these chemokines were not significantly increased in the mucosa of  Smox -deficient mice during the infection and were decreased from the levels in the WT mice (Table S1 in Supplementary Material).
+IL-6, CSF3, TNF-α, and IL-17 were also induced in the colon of DSS-treated WT mice compared to untreated animals (Figure  3 B); the levels of induction were comparable to those observed in  C. rodentium  colitis (Figure  3 A). However, IFN-γ was not increased in the colonic mucosa in DSS-induced colitis (Figure  3 B). Notably, the effectors induced with DSS treatment, except TNF-α, were further increased in  Smox -deficient mice that were treated with DSS (Figure  3 B). The level of IFN-γ in the colon was not modulated in animals with  Smox  deletion (Figure  3 B). Only the chemokines CCL2 and CXCL1 were significantly more abundant in the colon of DSS-treated animals, and there was no difference between WT and  −/− Smox  mice (Table S2 in Supplementary Material).
+Spermidine and Spermine Concentrations Are Regulated by SMOX in Colitis
+To further understand the role of SMOX, we analyzed the effect of  Smox  deletion on polyamine concentrations in the colon during  C. rodentium  and DSS-induced colitis. First, we found that  Smox  mRNA expression was significantly induced by 2.25 ± 0.35-fold in the colon of WT animals treated with DSS compared with untreated mice (Figure  4 A); however,  Smox  upregulation was not observed during  C. rodentium  infection (Figure  4 A). The deletion of  Smox  was associated with a complete elimination of  Smox  gene expression in the mouse colons in all of the naïve and colitis conditions (Figure  4 A). The colonic levels of putrescine were higher in both WT and  Smox -deficient mice infected with  C. rodentium  or treated with DSS compared with control animals, and there was no significant difference between WT and  −/− Smox  mice (Figure  4 B). Spermidine concentration was also increased in both  C. rodentium  and DSS colitis tissues (Figure  4 C). Notably, spermidine levels were significantly reduced by 31 and 54% in  −/− Smox  mice during  C. rodentium  infection and DSS treatment, respectively (Figure  4 C). We did not observe an increase of spermine concentration in the colon of mice with either form of colitis, but there was more spermine in  Smox -deficient mice than in WT animals in the  C. rodentium  model (Figure  4 D). There was a modest increase in spermine in  Smox -deficient mice treated with DSS, which did not reach statistical significance. Finally, the spermidine/spermine ratio was significantly increased in  C. rodentium -infected or DSS-treated WT mice when compared with controls (Figure  4 E). This ratio was significantly reduced in  −/− Smox  mice that were uninfected/untreated, infected with  C. rodentium , or treated with DSS compared with WT animals (Figure  4 D). These results indicate that polyamine synthesis and metabolism is enhanced during colitis and that deletion of  Smox  mainly leads to a diminution of spermidine concentration in the colon, which can likely be attributed to reduced back conversion of spermine to spermidine.
+To gain more insight into the role of polyamines in the establishment of  C. rodentium  and DSS colitis, we correlated the histopathology score with the concentration of each polyamine for each WT mouse. In the  C. rodentium  infection model, we found a positive and significant correlation between putrescine, spermidine, and spermine concentration with the injury score (Figure  5 A). In contrast, we found that spermidine level in the colon was inversely correlated with histologic injury score in the DSS model (Figure  5 B); thus, more spermidine is associated with decreased DSS colitis (Figure  5 B). There were no significant associations between the concentration of putrescine or spermine with DSS-mediated injury (Figure  5 B). These data suggest that increased polyamine synthesis is deleterious for  C. rodentium -induced colitis, whereas spermidine protects mice during DSS-induced colitis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="53~57" text="Smox" location="result" />
+<GENE id="G1" spans="100~104" text="SMOX" location="result" />
+<GENE id="G2" spans="219~223" text="SMOX" location="result" />
+<GENE id="G3" spans="307~311" text="Smox" location="result" />
+<GENE id="G4" spans="544~548" text="Smox" location="result" />
+<GENE id="G5" spans="758~762" text="Smox" location="result" />
+<GENE id="G6" spans="895~899" text="Smox" location="result" />
+<GENE id="G7" spans="1132~1136" text="Smox" location="result" />
+<GENE id="G8" spans="1449~1453" text="Smox" location="result" />
+<GENE id="G9" spans="1649~1653" text="Smox" location="result" />
+<GENE id="G10" spans="1777~1781" text="Smox" location="result" />
+<GENE id="G11" spans="1885~1889" text="Smox" location="result" />
+<GENE id="G12" spans="1927~1931" text="SMOX" location="result" />
+<GENE id="G13" spans="2169~2173" text="Smox" location="result" />
+<GENE id="G14" spans="2345~2349" text="Smox" location="result" />
+<GENE id="G15" spans="2422~2426" text="Smox" location="result" />
+<GENE id="G16" spans="2578~2582" text="Smox" location="result" />
+<GENE id="G17" spans="2719~2723" text="Smox" location="result" />
+<GENE id="G18" spans="2892~2896" text="Smox" location="result" />
+<GENE id="G19" spans="2979~2983" text="SMOX" location="result" />
+<GENE id="G20" spans="3278~3282" text="IL-6" location="result" />
+<GENE id="G21" spans="3284~3289" text="TNF-α" location="result" />
+<GENE id="G22" spans="3295~3299" text="CSF3" location="result" />
+<GENE id="G23" spans="3315~3320" text="G-CSF" location="result" />
+<GENE id="G24" spans="3361~3366" text="IFN-γ" location="result" />
+<GENE id="G25" spans="3390~3395" text="IL-17" location="result" />
+<GENE id="G26" spans="3485~3489" text="Smox" location="result" />
+<GENE id="G27" spans="3571~3575" text="CCL2" location="result" />
+<GENE id="G28" spans="3577~3581" text="CCL3" location="result" />
+<GENE id="G29" spans="3583~3587" text="CCL4" location="result" />
+<GENE id="G30" spans="3589~3594" text="CXCL1" location="result" />
+<GENE id="G31" spans="3596~3601" text="CXCL2" location="result" />
+<GENE id="G32" spans="3607~3613" text="CXCL10" location="result" />
+<GENE id="G33" spans="3830~3834" text="Smox" location="result" />
+<GENE id="G34" spans="3960~3964" text="IL-6" location="result" />
+<GENE id="G35" spans="3966~3970" text="CSF3" location="result" />
+<GENE id="G36" spans="3972~3977" text="TNF-α" location="result" />
+<GENE id="G37" spans="3983~3988" text="IL-17" location="result" />
+<GENE id="G38" spans="4196~4201" text="IFN-γ" location="result" />
+<GENE id="G40" spans="4338~4343" text="TNF-α" location="result" />
+<GENE id="G41" spans="4372~4376" text="Smox" location="result" />
+<GENE id="G42" spans="4448~4453" text="IFN-γ" location="result" />
+<GENE id="G43" spans="4502~4506" text="Smox" location="result" />
+<GENE id="G44" spans="4552~4556" text="CCL2" location="result" />
+<GENE id="G45" spans="4561~4566" text="CXCL1" location="result" />
+<GENE id="G46" spans="4685~4689" text="Smox" location="result" />
+<GENE id="G47" spans="4790~4794" text="SMOX" location="result" />
+<GENE id="G48" spans="4840~4844" text="SMOX" location="result" />
+<GENE id="G49" spans="4873~4877" text="Smox" location="result" />
+<GENE id="G51" spans="4998~5002" text="Smox" location="result" />
+<GENE id="G52" spans="5164~5168" text="Smox" location="result" />
+<GENE id="G53" spans="5264~5268" text="Smox" location="result" />
+<GENE id="G54" spans="5317~5321" text="Smox" location="result" />
+<GENE id="G55" spans="5478~5482" text="Smox" location="result" />
+<GENE id="G56" spans="5639~5643" text="Smox" location="result" />
+<GENE id="G57" spans="5847~5851" text="Smox" location="result" />
+<GENE id="G58" spans="6076~6080" text="Smox" location="result" />
+<GENE id="G59" spans="6203~6207" text="Smox" location="result" />
+<GENE id="G60" spans="6493~6497" text="Smox" location="result" />
+<GENE id="G61" spans="6738~6742" text="Smox" location="result" />
+<DISEASE id="D0" spans="39~46" text="Colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="153~162" text="gastritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="412~419" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1966~1973" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2761~2768" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2941~2948" text="Colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="3014~3021" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="4257~4264" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="4798~4805" text="Colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="4967~4974" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="5383~5390" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="5740~5747" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="6035~6042" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="6708~6715" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="6996~7003" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="7485~7492" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="7735~7742" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="7796~7803" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="1832~1839" text="Colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="4164~4171" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

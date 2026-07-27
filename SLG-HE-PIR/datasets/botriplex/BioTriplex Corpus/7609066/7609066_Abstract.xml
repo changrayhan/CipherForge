@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Mapping endothelial-cell diversity in cerebral cavernous malformations at single-cell resolution.
+Abstract: Cerebral cavernous malformation (CCM) is a rare neurovascular disease that is characterized by enlarged and irregular blood vessels that often lead to cerebral hemorrhage. Loss-of-function mutations to any of three genes results in CCM lesion formation; namely,  KRIT1 ,  CCM2 , and  PDCD10 (CCM3) . Here, we report for the first time in-depth single-cell RNA sequencing, combined with spatial transcriptomics and immunohistochemistry, to comprehensively characterize subclasses of brain endothelial cells (ECs) under both normal conditions and after deletion of  Pdcd10  ( Ccm3)  in a mouse model of CCM. Integrated single-cell analysis identifies arterial ECs as refractory to CCM transformation. Conversely, a subset of angiogenic venous capillary ECs and respective resident endothelial progenitors appear to be at the origin of CCM lesions. These data are relevant for the understanding of the plasticity of the brain vascular system and provide novel insights into the molecular basis of CCM disease at the single cell level.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="379~384" text="KRIT1" location="background" />
+<GENE id="G1" spans="388~392" text="CCM2" location="background" />
+<GENE id="G2" spans="400~406" text="PDCD10" location="background" />
+<GENE id="G3" spans="408~412" text="CCM3" location="background" />
+<GENE id="G4" spans="680~686" text="Pdcd10" location="result" />
+<GENE id="G5" spans="690~694" text="Ccm3" location="result" />
+<DISEASE id="D2" spans="46~77" text="cerebral cavernous malformation" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="116~147" text="Cerebral cavernous malformation" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="149~152" text="CCM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="717~720" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="795~798" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="949~952" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1110~1113" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="348~351" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="288~314" text="Loss-of-function mutations" location="background" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="KRIT1" diseaseID="D9" diseaseText="CCM" relationID="R0" relationText="Loss-of-function mutations" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="CCM2" diseaseID="D9" diseaseText="CCM" relationID="R0" relationText="Loss-of-function mutations" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="PDCD10" diseaseID="D9" diseaseText="CCM" relationID="R0" relationText="Loss-of-function mutations" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="CCM3" diseaseID="D9" diseaseText="CCM" relationID="R0" relationText="Loss-of-function mutations" />
+</TAGS>
+</Genomics_ConceptTask>

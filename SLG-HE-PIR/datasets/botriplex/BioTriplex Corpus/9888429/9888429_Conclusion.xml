@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The findings of this study show that patients with IBD and healthy controls have significantly different gene expression, identifying the role of metalloproteinases in IBD. Moreover, the results provide insights into immune cell activation through metalloproteinases in IBD. However, more in-depth research is needed in future studies.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="52~55" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="169~172" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="271~274" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

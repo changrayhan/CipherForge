@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Rapid Identification of Key Copy Number Alterations in B- and T-Cell Acute Lymphoblastic Leukemia by Digital Multiplex Ligation-Dependent Probe Amplification.
+Abstract: Recurrent clonal genetic alterations are the hallmark of Acute Lymphoblastic Leukemia (ALL) and govern the risk stratification, response to treatment and clinical outcome. In this retrospective study conducted on ALL patient samples, the purpose was to estimate the copy number alterations (CNAs) in ALL by digitalMLPA (dMLPA), validation of the dMLPA data by conventional MLPA and RT-PCR, and correlation of CNAs with Minimal Residual Disease (MRD) status. The ALL patient samples ( n  = 151; B-ALL,  n  = 124 cases and T-ALL,  n  = 27 cases) were assessed for CNAs by dMLPA for detection of sub-microscopic CNAs and ploidy status. This assay allowed detection of ploidy changes and CNAs by multiplexing of karyotyping probes and probes covering 54 key gene targets implicated in ALL. Using the dMLPA assay, CNAs were detected in ~89% ( n  = 131) of the cases with 66% of the cases harboring ≥3 CNAs. Deletions in  CDKN2A/B, IKZF1 , and  PAX5  genes were detectable in a quarter of these cases. Heterozygous and homozygous gene deletions, and duplications were observed in genes involved in cell cycle control, tumor suppression, lineage differentiation, lymphoid signaling, and transcriptional regulators with implications in treatment response and survival outcome. Distinct CNAs profiles were evident in B-ALL and T-ALL cases. Additionally, the dMLPA assay could reliably identify ploidy status and copy number-based gene fusions ( SIL-TAL1, NUP214-ABL, EBF1-PDGFRB ). Cases of B-ALL with no detectable recurrent genetic abnormalities could potentially be risk stratified based on the CNA profile. In addition to the commonly used gene deletions for risk assessment ( IKZF1, EBF1, CDKN2A/B ), we identified a broader spectrum of gene alterations (gains of-  RUNX1, LEF1, NR3C2, PAR1, PHF6;  deletions of-  NF1, SUZ12, MTAP ) that significantly correlated with the status of MRD clearance. The CNAs detected by dMLPA were validated by conventional MLPA and showed high concordance ( r  = 0.99). Our results demonstrated dMLPA to be a robust and reliable alternative for rapid detection of key CNAs in newly diagnosed ALL patients. Integration of ploidy status and CNAs detected by dMLPA with cytogenetic and clinical risk factors holds great potential in further refinement of patient risk stratification and response to treatment in ALL.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1093~1099" text="CDKN2A" location="result" />
+<GENE id="G1" spans="1103~1108" text="IKZF1" location="result" />
+<GENE id="G2" spans="1116~1120" text="PAX5" location="result" />
+<GENE id="G3" spans="1613~1616" text="SIL" location="result" />
+<GENE id="G4" spans="1617~1621" text="TAL1" location="result" />
+<GENE id="G5" spans="1623~1629" text="NUP214" location="result" />
+<GENE id="G6" spans="1630~1633" text="ABL" location="result" />
+<GENE id="G7" spans="1635~1639" text="EBF1" location="result" />
+<GENE id="G8" spans="1640~1646" text="PDGFRB" location="result" />
+<GENE id="G9" spans="1849~1854" text="IKZF1" location="result" />
+<GENE id="G10" spans="1856~1860" text="EBF1" location="result" />
+<GENE id="G11" spans="1862~1868" text="CDKN2A" location="result" />
+<GENE id="G12" spans="1939~1944" text="RUNX1" location="result" />
+<GENE id="G13" spans="1946~1950" text="LEF1" location="result" />
+<GENE id="G14" spans="1952~1957" text="NR3C2" location="result" />
+<GENE id="G15" spans="1959~1963" text="PAR1" location="result" />
+<GENE id="G16" spans="1965~1969" text="PHF6" location="result" />
+<GENE id="G17" spans="1987~1990" text="NF1" location="result" />
+<GENE id="G18" spans="1992~1997" text="SUZ12" location="result" />
+<GENE id="G19" spans="1999~2003" text="MTAP" location="result" />
+<DISEASE id="D0" spans="70~105" text="T-Cell Acute Lymphoblastic Leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="63~65,77~105" text="B- ... Acute Lymphoblastic Leukemia" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="234~262" text="Acute Lymphoblastic Leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="264~267" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="390~393" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="639~642" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="958~961" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1485~1490" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1495~1500" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1659~1664" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2297~2300" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2514~2517" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

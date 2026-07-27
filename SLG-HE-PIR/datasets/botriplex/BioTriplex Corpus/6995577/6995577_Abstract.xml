@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Transthyretin Anti-Amyloidogenic and Fibril Disrupting Activities of Bacopa monnieri (L.) Wettst (Brahmi) Extract.
+Abstract: The homotetrameric plasma protein transthyretin (TTR), is responsible for a series of debilitating and often fatal disorders in humans known as transthyretin amyloidosis. Currently, there is no cure for TTR amyloidosis and treatment options are rare. Thus, the identification and development of effective and safe therapeutic agents remain a research imperative. The objective of this study was to determine the effectiveness of  Bacopa monnieri  extract (BME) in the modulation of TTR amyloidogenesis and disruption of preformed fibrils. Using aggregation assays and transmission electron microscopy, it was found that BME abrogated the formation of human TTR aggregates and mature fibrils but did not dis-aggregate pre-formed fibrils. Through acid-mediated and urea-mediated denaturation assays, it was revealed that BME mitigated the dissociation of folded human TTR and L55P TTR into monomers. ANS binding and glutaraldehyde cross-linking assays showed that BME binds at the thyroxine-binding site and possibly enhanced the quaternary structural stability of native TTR. Together, our results suggest that BME bioactives prevented the formation of TTR fibrils by attenuating the disassembly of tetramers into monomers. These findings open up the possibility of further exploration of BME as a potential resource of valuable anti-TTR amyloidosis therapeutic ingredients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="167~180" text="transthyretin" location="result" />
+<GENE id="G1" spans="182~185" text="TTR" location="background" />
+<GENE id="G2" spans="8~21" text="Transthyretin" location="background" />
+<GENE id="G3" spans="615~618" text="TTR" location="result" />
+<GENE id="G4" spans="790~793" text="TTR" location="result" />
+<GENE id="G5" spans="999~1002" text="TTR" location="result" />
+<GENE id="G6" spans="1012~1015" text="TTR" location="result" />
+<GENE id="G7" spans="1203~1206" text="TTR" location="result" />
+<GENE id="G8" spans="1285~1288" text="TTR" location="result" />
+<DISEASE id="D0" spans="277~302" text="transthyretin amyloidosis" location="background" disease1="disease of anatomical entity" disease2="disease of metabolism" />
+<DISEASE id="D1" spans="336~351" text="TTR amyloidosis" location="background" disease1="disease of anatomical entity" disease2="disease of metabolism" />
+<DISEASE id="D2" spans="1466~1481" text="TTR amyloidosis" location="result" disease1="disease of anatomical entity" disease2="disease of metabolism" />
+<RELATION id="R0" spans="191~206" text="responsible for" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="TTR" diseaseID="D0" diseaseText="transthyretin amyloidosis" relationID="R0" relationText="responsible for" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="transthyretin" diseaseID="D0" diseaseText="transthyretin amyloidosis" relationID="R0" relationText="responsible for" />
+</TAGS>
+</Genomics_ConceptTask>

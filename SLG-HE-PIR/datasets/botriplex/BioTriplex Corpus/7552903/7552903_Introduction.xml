@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+According to GLOBOCAN 2018, pancreatic cancer (PaC) is the 11th most common cancer, estimated to have caused 432,242 deaths in 2018 ( 1 ). Currently, available treatment options for PaC are surgical resection, chemotherapy, and radiotherapy ( 2 ), among which surgical resection is considered the mainstay of curative treatment and is associated with better long-term survival ( 3 ). Nevertheless, 80-90% of patients with PaC are diagnosed at an advanced stage and with unresectable tumors, and the 5-year survival rate of PaC is as low as 5% ( 4 ). Identification of poor prognostic factors in PaC may provide valuable prognostic information for selecting appropriate treatment protocols. Although factors like tumor stage, grading, lymph node ratio, surgical margin, and tumor size have been identified as prognostic factors in PaC ( 5 , 6 ), it is of great importance to identify new biological or pathological indicators related to the survival of patients with PaC.
+Diabetes mellitus (DM) is a group of metabolic disorders characterized by hyperglycemia resulting from insufficient insulin secretion, resistance to insulin action, or both ( 7 ), posing an increasingly serious threat to human health worldwide with an estimated global prevalence of 592 million by 2035 ( 8 ). DM is known as a possible risk factor and/or an early manifestation of PaC, being concurrently present in 50-80% of patients with PaC ( 9 , 10 ). Accumulating evidence suggests that concurrent diagnosis of DM is associated with increased risk of cancer recurrence and mortality in patients with colorectal, breast, liver, endometrial, and gastric cancers as well as leukemia ( 11 ). Nevertheless, how DM affects the clinical outcome and survival of patients with PaC remains controversial. Some studies reported that the presence of DM does not have a statistically significant effect on the overall survival (OS) or the mortality of PaC ( 11 , 12 ), whereas others found a significant association between DM and reduced survival in PaC ( 13 ). Therefore, the characterization of a reliable indicator related to survival and clinical outcome is required for predicting prognosis and selecting appropriate therapeutic strategies for patients with PaC and DM.
+Systemic chemotherapy is used for advanced PaC after surgery or unresectable metastatic PaC, which significantly extends OS and improves patient outcome ( 14 ). Intrinsic or acquired resistance to chemotherapy remains the major cause of treatment failure ( 15 ). The drug efflux protein P-glycoprotein (P-gp) and drug-metabolizing enzyme cytochrome P450 3A4 (CYP3A4) are both expressed in the intestinal mucosa and serve as barriers to oral drug delivery by regulating pharmacokinetic and pharmacodynamic interactions during the process of drug absorption and metabolism ( 16 , 17 ). P-gp and CYP3A4 are overexpressed in a number of different cancers such as ovarian, breast, and colon cancers, and some studies showed that they are associated with resistance to therapy and/or poor prognosis ( 18 , 19 ). In patients with coexisting PaC and DM, alterations of P-gp and CYP3A4 may become more complicated due to the hyperglycemic environment and diabetes medications ( 20 ). A recent study showed that the expression of intestinal P-gp was significantly increased with the progression of diabetes in rats (induced by low dose streptozotocin and high-fat diet), resulting in a significant decrease in the intestinal uptake and peroral bioavailability of the P-gp/CYP substrates verapamil and atorvastatin ( 21 ). Peroral bioavailability of drugs is a primary concern for patients with coexisting PaC and DM who are usually prescribed with multiple drugs for effective management of blood glucose levels and cancer progression. Little is known with respect to the expression patterns of intestinal P-gp and CYP3A4 in PaC patients in the context of DM, as well as their correlation with patient prognosis.
+In the present study, we retrospectively reviewed the records of patients with PaC admitted to The First People's Hospital of Changzhou, Jiangsu, China from January 2011 to November 2019, and identified 24 patients with PaC and DM and 24 with PaC but without DM. The protein expression of P-gp and CYP3A4 in the duodenum tissue of each patient was determined. The association between P-gp/CYP3A expression and the presence of DM as well as between survival time and DM presence/P-gp expression were assessed. Our findings may provide a new understanding of the value of intestinal P-gp expression in evaluating the prognosis in PaC patients with DM.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2527~2541" text="P-glycoprotein" location="background" />
+<GENE id="G1" spans="2543~2547" text="P-gp" location="background" />
+<GENE id="G2" spans="2578~2597" text="cytochrome P450 3A4" location="background" />
+<GENE id="G3" spans="2599~2605" text="CYP3A4" location="background" />
+<GENE id="G4" spans="2824~2828" text="P-gp" location="background" />
+<GENE id="G5" spans="2833~2839" text="CYP3A4" location="background" />
+<GENE id="G6" spans="3101~3105" text="P-gp" location="background" />
+<GENE id="G7" spans="3110~3116" text="CYP3A4" location="background" />
+<GENE id="G8" spans="3271~3275" text="P-gp" location="background" />
+<GENE id="G9" spans="3497~3501" text="P-gp" location="background" />
+<GENE id="G10" spans="3502~3505" text="CYP" location="background" />
+<GENE id="G11" spans="3836~3840" text="P-gp" location="background" />
+<GENE id="G12" spans="3845~3851" text="CYP3A4" location="background" />
+<GENE id="G13" spans="4232~4236" text="P-gp" location="result" />
+<GENE id="G14" spans="4241~4247" text="CYP3A4" location="result" />
+<GENE id="G15" spans="4327~4331" text="P-gp" location="result" />
+<GENE id="G16" spans="4332~4337" text="CYP3A" location="result" />
+<GENE id="G17" spans="4421~4425" text="P-gp" location="result" />
+<GENE id="G18" spans="4524~4528" text="P-gp" location="result" />
+<DISEASE id="D0" spans="29~46" text="pancreatic cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="48~51" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="77~83" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="183~186" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="423~426" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="524~527" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="596~599" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="831~834" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="967~970" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="972~989" text="Diabetes mellitus" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="991~993" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D11" spans="1282~1284" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="1353~1356" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1412~1415" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1488~1490" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D15" spans="1528~1534" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="1577~1587,1629~1635" text="colorectal ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="1589~1595,1629~1635" text="breast ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="1597~1602,1629~1635" text="liver ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="1604~1615,1629~1635" text="endometrial ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="1621~1635" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="1648~1656" text="leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="1683~1685" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D23" spans="1745~1748" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="1815~1817" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D25" spans="1916~1919" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="1988~1990" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D27" spans="2015~2018" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="2228~2231" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="2236~2238" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D30" spans="2283~2286" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="2328~2331" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="2883~2889" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D33" spans="2899~2906,2926~2932" text="ovarian ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="2908~2914,2926~2932" text="breast ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="2920~2932" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="3074~3077" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="3082~3084" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D38" spans="3635~3638" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="3643~3645" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D40" spans="3746~3752" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D41" spans="3855~3858" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="3886~3888" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D43" spans="4022~4025" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D44" spans="4163~4166" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D45" spans="4171~4173" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D46" spans="4186~4189" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D47" spans="4202~4204" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D48" spans="4369~4371" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D49" spans="4409~4411" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D50" spans="4571~4574" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D51" spans="4589~4591" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R3" spans="2844~2857" text="overexpressed" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G4" geneText="P-gp" diseaseID="D32" diseaseText="cancer" relationID="R3" relationText="overexpressed" />
+<ENTITY_LINKING id="E1" geneID="G5" geneText="CYP3A4" diseaseID="D32" diseaseText="cancer" relationID="R3" relationText="overexpressed" />
+</TAGS>
+</Genomics_ConceptTask>

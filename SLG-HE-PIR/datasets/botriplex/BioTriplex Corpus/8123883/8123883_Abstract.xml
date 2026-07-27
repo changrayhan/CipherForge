@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Mesenchymal Stem Cells Antagonize IFN-Induced Proinflammatory Changes and Growth Inhibition Effects via Wnt/β-Catenin and JAK/STAT Pathway in Human Outer Root Sheath Cells and Hair Follicles.
+Abstract: Mesenchymal stem cell therapy (MSCT) has been shown to be a new therapeutic option for treating alopecia areata (AA). Outer root sheath cells (ORSCs) play key roles in maintaining the hair follicle structure and supporting the bulge area. In human ORSCs (hORSCs), the mechanism for this process has not been extensively studied. In this study, we aimed to examine the influence of human hematopoietic mesenchymal stem cells (hHMSCs) in the hORSCs in vitro model of AA and determine the mechanisms controlling efficacy. Interferon-gamma (IFN-γ) pretreatment was used to induce an in vitro model of AA in hORSCs. The effect of MSCT on the viability and migration of hORSCs was examined using co-cultures, the MTT assay, and migration assays. We investigated the expression of molecules related to the Wnt/β-catenin pathway, JAK/STAT pathway, and growth factors in hHMSC-treated hORSCs by reverse transcription-polymerase chain reaction (RT-PCR) and Western blot analyses. hHMSCs increased hORSC viability and migration when they were co-cultured. hHMSCs reverted IFN-γ-induced expression—including NLRP3, ASC, caspase-1, CXCL-9 through 11, IL-1β, and IL-15—and upregulated several growth factors and hair stem cell markers. hHMSCs activated several molecules in the Wnt/β-catenin signaling pathway, such as in the Wnt families, β-catenin, phosphorylated GSK-3β and cyclin D1, and suppressed the expression of DKK1 induced by IFN-γ in hORSCs. hHMSCs suppressed the phosphorylation of JAK1 to 3, STAT1, and STAT3 compared to the controls and IFN-γ-pretreated hORSCs. These results demonstrate that hHMSCs increased hORSC viability and migration in the in vitro AA model. Additionally, MSCT definitely stimulated anagen survival and hair growth in an HF organ culture model. MSCT appeared to be associated with the Wnt/β-catenin and JAK/STAT pathways in hORSCs.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="729~745" text="Interferon-gamma" location="result" />
+<GENE id="G1" spans="747~752" text="IFN-γ" location="result" />
+<GENE id="G2" spans="1271~1276" text="IFN-γ" location="result" />
+<GENE id="G3" spans="1306~1311" text="NLRP3" location="result" />
+<GENE id="G4" spans="1313~1316" text="ASC" location="result" />
+<GENE id="G5" spans="1318~1327" text="caspase-1" location="result" />
+<GENE id="G6" spans="1329~1335" text="CXCL-9" location="result" />
+<GENE id="G7" spans="1348~1353" text="IL-1β" location="result" />
+<GENE id="G8" spans="1359~1364" text="IL-15" location="result" />
+<GENE id="G9" spans="1536~1545" text="β-catenin" location="result" />
+<GENE id="G10" spans="1562~1568" text="GSK-3β" location="result" />
+<GENE id="G11" spans="1573~1582" text="cyclin D1" location="result" />
+<GENE id="G12" spans="1617~1621" text="DKK1" location="result" />
+<GENE id="G13" spans="1633~1638" text="IFN-γ" location="result" />
+<GENE id="G14" spans="1691~1695" text="JAK1" location="result" />
+<GENE id="G15" spans="1702~1707" text="STAT1" location="result" />
+<GENE id="G16" spans="1713~1718" text="STAT3" location="result" />
+<GENE id="G17" spans="1748~1753" text="IFN-γ" location="result" />
+<DISEASE id="D0" spans="306~321" text="alopecia areata" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="323~325" text="AA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="675~677" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="807~809" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1867~1869" text="AA" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,96 @@
+2026-07-21 14:10:32,138 [INFO] biotriplex_finetune: Logging to baseline/classification_genrel/logs/biotriplex_finetune_all_1784614232.log
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: Stage 0 complete in 0.0s
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 14:10:32,139 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 14:10:35,336 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 14:10:35,549 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 14:10:35,561 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 14:10:35,569 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 14:10:35,571 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 14:10:35,578 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-21 14:10:35,581 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 14:10:35,581 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 14:10:35,582 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 14:10:39,596 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 14:10:48,057 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 14:10:48,066 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 14:10:48,066 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 14:10:48,083 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 14:10:48,083 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 14:10:48,091 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+2026-07-21 14:10:48,092 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 14:11:09,647 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda
+2026-07-21 14:11:09,655 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+2026-07-21 14:11:09,655 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 14:11:28,704 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (gradient_checkpointing=True)
+2026-07-21 14:11:28,713 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 14:11:28,714 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=734, peak_lr=1.00e-04
+2026-07-21 14:11:28,714 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 14:11:28,714 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 14:11:28,715 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 14:11:31,556 [INFO] src.model.model_splitting: Loaded S V matrix: (128256, 4096) on cuda
+2026-07-21 14:11:31,569 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 14:11:31,571 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 14:11:31,571 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 43.5s (single CUDA context)
+2026-07-21 14:11:31,571 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 14:11:47,148 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 14:11:47,149 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 14:12:02,695 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 14:12:02,695 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 14:12:04,626 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 14:12:04,626 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 76.5s
+2026-07-21 14:12:04,627 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=1, batch=1, lr=0.0001, wd=0
+2026-07-21 14:12:04,627 [INFO] src.training.trainer: Starting training: epochs=1, patience=999, train=734, val=134
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 676, in <module>
+    main()
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 661, in main
+    all_results["1"] = run_stage1(args, logger)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/scripts/biotriplex_finetune.py", line 499, in run_stage1
+    result = trainer.train()
+             ^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/training/trainer.py", line 244, in train
+    epoch_metrics = self._run_epoch(epoch)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/training/trainer.py", line 304, in _run_epoch
+    result = self.ipc.step_train_chunked(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/heterogeneous_protocol.py", line 395, in step_train_chunked
+    u_result = self.party_u.forward_train(batch)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_u.py", line 167, in forward_train
+    if attention_mask is not None:
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/src/parties/party_u.py", line 213, in _u_forward
+    """
+        
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 316, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 266, in forward
+    cos, sin = position_embeddings
+    ^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object

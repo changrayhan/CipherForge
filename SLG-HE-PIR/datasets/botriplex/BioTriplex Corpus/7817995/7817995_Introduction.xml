@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Mitochondrial sulfite oxidase (SO) catalyzes the terminal step in the catabolism of cysteine and methionine, the oxidation of toxic sulfite (SO 3 2– ) to sulfate (SO 4 2– ), thereby passing two electrons to cytochrome  c  ( Johnson and Rajagopalan, 1979 ). The cellular concentration of cysteine is tightly controlled by its synthesis and degradation ( Stipanuk and Ueki, 2011 ), the latter proceeding through two distinct pathways. The first, often referred to as the oxidative pathway, yields taurine, and SO 4 2–  as the main end products ( Kohl et al., 2018 ). The second pathway involves enzymatic reactions that regulate the formation and clearance of H 2 S, an important signaling molecule in mammals, and terminates in the production of thiosulfate and SO 4 2– . SO 3 2–  is a common metabolic intermediate in both catabolic pathways, that, if not removed by SO, can lead to various toxic effects ( Vincent et al., 2004 ;  Zhang et al., 2004 ;  de Moura Alvorcem et al., 2017 ).
+In man, the inherited loss of SO activity is caused by two different genetic mechanisms. First, SO may be impaired by mutations in the  SUOX  gene, thus leading to isolated sulfite oxidase deficiency (ISOD). Second, SO may be compromised by mutations in the molybdenum cofactor (Moco) biosynthetic genes ( MOCS1, MOCS2, MOCS3, GPHN ), thereby leading to Moco deficiency (MoCD) and loss of the Moco dependent SO activity ( Kohl et al., 2018 ). Typically, MoCD and ISOD patients present in the neonatal period with identical clinical phenotypes, including encephalopathy, intractable seizures, feeding difficulties, and movement abnormalities. Disease progression involves psychomotor retardation due to progressive cerebral atrophy and ventricular dilatation, often resulting in fatal outcome within their first years of life ( Schwarz, 2016 ). The most prominent biochemical hallmark of MoCD and ISOD is the accumulation of SO 3 2–  and the sulfite-cysteine adduct S-sulfocysteine in patient urine or plasma ( Mudd et al., 1967 ). However, the disorders are distinguishable on the biochemical level due to the accumulation of xanthine and hypoxanthine, substrates of xanthine oxidase, another Moco enzyme, and diminished levels of uric acid in MoCD, but not ISOD ( Schwarz et al., 2009 ;  Schwahn et al., 2015 ).
+Recently, we discovered a new mechanism underlying the neurodegeneration in SO deficiencies as we found that S-sulfocysteine can act as an NMDA receptor agonist and therefore leads to excitotoxic neuronal cell death ( Kumar et al., 2017 ). SO 3 2–  toxicity has also been investigated in multiple studies, which indicate a disturbance of mitochondrial functions in neurons and kidney cells ( Vincent et al., 2004 ;  Zhang et al., 2004 ;  Grings et al., 2014 ). In particular, exogenous SO 3 2–  decreased intracellular ATP levels, impaired cellular respiration and inhibited the mitochondrial enzymes glutamate dehydrogenase and malate dehydrogenase. Recently, impairment of mitochondrial respiration has also been shown in various patient cell lines with defects in cysteine catabolism ( Grings et al., 2019 ).
+Mitochondria are dynamic organelles constantly undergoing the processes of fusion and fission ( Wai and Langer, 2016 ). The balance of fusion and fission can be influenced in either direction by a multitude of different factors including cellular respiration, ROS formation or the metabolic state of the cell, causing mitochondria to become hypertubular or fragmented. While the effect of SO 3 2–  on cellular bioenergetics and mitochondrial enzymes has been investigated before, the influence of SO 3 2–  on mitochondrial dynamics and morphology remains to be determined. In this study, we used SO deficient ( Suox –/– ) mouse embryonic fibroblast (MEF) cells to characterize mitochondrial morphology and function in SO deficiencies to shed light on the role of mitochondria in the disease pathology of ISOD and MoCD.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="15~30" text="sulfite oxidase" location="background" />
+<GENE id="G1" spans="1124~1128" text="SUOX" location="background" />
+<GENE id="G2" spans="1294~1299" text="MOCS1" location="background" />
+<GENE id="G3" spans="1301~1306" text="MOCS2" location="background" />
+<GENE id="G4" spans="1308~1313" text="MOCS3" location="background" />
+<GENE id="G5" spans="1315~1319" text="GPHN" location="background" />
+<GENE id="G6" spans="3724~3728" text="Suox" location="result" />
+<DISEASE id="D0" spans="1152~1187" text="isolated sulfite oxidase deficiency" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="1189~1193" text="ISOD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="1359~1363" text="MoCD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="1451~1455" text="ISOD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="1875~1879" text="MoCD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="1884~1888" text="ISOD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="2232~2236" text="MoCD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="2246~2250" text="ISOD" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="3917~3921" text="ISOD" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="3926~3930" text="MoCD" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R0" spans="1106~1115,1141~1151" text="mutations ... leading to" location="background" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="SUOX" diseaseID="D0" diseaseText="isolated sulfite oxidase deficiency" relationID="R0" relationText="mutations ... leading to" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="SUOX" diseaseID="D1" diseaseText="ISOD" relationID="R0" relationText="mutations ... leading to" />
+</TAGS>
+</Genomics_ConceptTask>

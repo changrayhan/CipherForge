@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Glycogen Storage Disease type 1 (GSD1), also known as Von Gierke disease, is an autosomal recessive[ 1 ] disease, characterized by repeated episodes of hypoglycemia due to inability to break down glycogen storage. The prevalence of GSD1 ranges from 1 in 20,000[ 2 ] to 1 in 400,000[ 3 ] depending on study and the ethnic background of subjects. GSD1 can be further divided into two categories, GSD1a, resulting from a mutation in the glucose-6-phosphatase catalytic subunit 1 ( G6PC7 )[ 4 ], leading to a deficiency of glucose-6-phosphatase catalytic activity, and GSD1b, resulting from mutations in the glucose-6-phosphate (G6P) exchanger  SLC37A4 [ 4 ], blocking the transport of G6P into the endoplasmic reticulum. Both mutations lead to an inadequate conversion of G6P into glucose, impacting glycogenolysis and gluconeogenesis pathways, with subsequent hypoglycemia and buildup of glycogen and adipose tissue in liver and kidneys[ 4 ]. Clinical manifestations are typically noticeable after 3 to 4 months of age and include hepatomegaly, nephromegaly, hypoglycemic seizures, and failure to thrive[ 1 ], [ 4 ]. Patients with GSD1 also suffer from short stature with thin extremities, delayed puberty and a protuberant abdomen caused by the massive hepatomegaly[ 4 ]. Interestingly, a significant number of patients with GSD1b suffer from inflammatory bowel disease (IBD), typically with a Crohn’s disease phenotype[ 5 ], [ 6 ].
+A unique phenotype in patients with GSD1b is reoccurring infections, that traditionally have been attributed to either associated neutropenia or dysfunctional chemotaxis and intracellular bacterial killing of neutrophils. The cause of neutropenia in GSD1b patients remains unclear. Evidence suggests that the decreased neutrophil abundance and activity is a consequence of increased apoptosis of neutrophils in affected individuals[ 7 ]. However, the neutropenia alone cannot solely explain the immunodeficiency state in this disorder, since GCSF therapy doesn’t necessarily eliminate the risk of infections. Therefore, it is likely that the susceptibility to infections is likely attributed to additional effects on other immune subsets. As such, Melis and colleauges[ 8 ] were able to observe lymphopenia in patients with GSD1b, but not in GSD1a patients, with a reduction in CD4 +  T cells, CD8 +  T cells, and natural killer (NK) cells, compared to controls.
+We hypothesized that patients with GSD1b exhibit a broad range of immune dysregulation, beside in the neutrophil compartment, leading to an immunodeficiency phenotype with inflammatory features. In the present study, we utilized Cytometry by Time of Flight (CyTOF) to perform deep immunophenotyping of peripheral blood mononuclear cells (PBMCs) obtained from 6 patients with GSD1b and 3 control subjects to show dysregulation in several immune populations in patients with GSD1b.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="435~476" text="glucose-6-phosphatase catalytic subunit 1" location="background" />
+<GENE id="G1" spans="479~484" text="G6PC7" location="background" />
+<GENE id="G2" spans="642~649" text="SLC37A4" location="background" />
+<GENE id="G3" spans="2311~2314" text="CD4" location="background" />
+<GENE id="G4" spans="2327~2330" text="CD8" location="background" />
+<DISEASE id="D0" spans="1~32" text="Glycogen Storage Disease type 1" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="34~38" text="GSD1" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="55~73" text="Von Gierke disease" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="233~237" text="GSD1" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="346~350" text="GSD1" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="395~400" text="GSD1a" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="566~571" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D7" spans="1130~1134" text="GSD1" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="1325~1330" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="1343~1369" text="inflammatory bowel disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1371~1374" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="1394~1409" text="Crohn’s disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="1469~1474" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="1683~1688" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D14" spans="2257~2262" text="GSD1b" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D15" spans="2275~2280" text="GSD1a" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D16" spans="2431~2436" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D17" spans="2771~2776" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D18" spans="2869~2874" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<RELATION id="R0" spans="402~427" text="resulting from a mutation" location="background" relation="causative mutation" />
+<RELATION id="R1" spans="573~597" text="resulting from mutations" location="background" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="glucose-6-phosphatase catalytic subunit 1" diseaseID="D5" diseaseText="GSD1a" relationID="R0" relationText="resulting from a mutation" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="G6PC7" diseaseID="D5" diseaseText="GSD1a" relationID="R0" relationText="resulting from a mutation" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="SLC37A4" diseaseID="D6" diseaseText="GSD1b" relationID="R1" relationText="resulting from mutations" />
+</TAGS>
+</Genomics_ConceptTask>

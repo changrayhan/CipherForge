@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260727_144756",
+  "attacks": [
+    "L1"
+  ],
+  "n_steps": 50,
+  "gpu_used": true,
+  "verdicts": {
+    "LEAK_DETECTED": 0,
+    "PRIVACY_PRESERVED": 7,
+    "INCONCLUSIVE": 0
+  },
+  "output_dir": "/root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/dp-ablation/run_20260727_144756"
+}

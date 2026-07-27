@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: 	
+Abstract: Cell line studies demonstrate that the PI3K/Akt pathway is upregulated in hormone-refractory prostate cancer (HRPC) and can result in phosphorylation of the androgen receptor (AR). The current study therefore aims to establish if this has relevance to the development of clinical HRPC. Immunohistochemistry was employed to investigate the expression and phosphorylation status of Akt and AR in matched hormone-sensitive and -refractory prostate cancer tumours from 68 patients. In the hormone-refractory tissue, only phosphorylated AR (pAR) was associated with shorter time to death from relapse ( P =0.003). However, when an increase in expression in the transition from hormone-sensitive to -refractory prostate cancer was investigated, an increase in expression of PI3K was associated with decreased time to biochemical relapse ( P =0.014), and an increase in expression of pAkt 473  and pAR 210  were associated with decreased disease-specific survival ( P =0.0019 and 0.0015, respectively). Protein expression of pAkt 473  and pAR 210  also strongly correlated ( P <0.001, c.c.=0.711) in the hormone-refractory prostate tumours. These results provide evidence using clinical specimens, that upregulation of the PI3K/Akt pathway is associated with phosphorylation of the AR during development of HRPC, suggesting that this pathway could be a potential therapeutic target.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="300~317" text="androgen receptor" location="background" />
+<GENE id="G1" spans="319~321" text="AR" location="background" />
+<GENE id="G2" spans="523~526" text="Akt" location="result" />
+<GENE id="G3" spans="531~533" text="AR" location="result" />
+<GENE id="G4" spans="675~677" text="AR" location="result" />
+<GENE id="G5" spans="911~915" text="PI3K" location="result" />
+<GENE id="G6" spans="1021~1024" text="Akt" location="result" />
+<GENE id="G7" spans="1035~1037" text="AR" location="result" />
+<GENE id="G8" spans="680~682" text="AR" location="result" />
+<GENE id="G9" spans="1162~1165" text="Akt" location="result" />
+<GENE id="G10" spans="1176~1178" text="AR" location="result" />
+<GENE id="G11" spans="1418~1420" text="AR" location="result" />
+<DISEASE id="D0" spans="107~122" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="236~251" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="579~594" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="848~863" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="253~257" text="HRPC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="423~427" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1443~1447" text="HRPC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="994~1016" text="increase in expression" location="result" relation="increased expression" />
+<RELATION id="R2" spans="1064~1073,1091~1099" text="decreased ... survival" location="result" relation="negative prognostic marker" />
+<RELATION id="R4" spans="1499~1517" text="therapeutic target" location="result" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G6" geneText="Akt" diseaseID="D3" diseaseText="prostate cancer" relationID="R1" relationText="increase in expression" />
+<ENTITY_LINKING id="E1" geneID="G7" geneText="AR" diseaseID="D3" diseaseText="prostate cancer" relationID="R1" relationText="increase in expression" />
+<ENTITY_LINKING id="E2" geneID="G6" geneText="Akt" diseaseID="D3" diseaseText="prostate cancer" relationID="R2" relationText="decreased ... survival" />
+<ENTITY_LINKING id="E3" geneID="G7" geneText="AR" diseaseID="D3" diseaseText="prostate cancer" relationID="R2" relationText="decreased ... survival" />
+<ENTITY_LINKING id="E4" geneID="G11" geneText="AR" diseaseID="D6" diseaseText="HRPC" relationID="R4" relationText="therapeutic target" />
+</TAGS>
+</Genomics_ConceptTask>

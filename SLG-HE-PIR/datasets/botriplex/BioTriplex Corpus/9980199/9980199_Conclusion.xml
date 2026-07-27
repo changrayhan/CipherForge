@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In conclusion, the study presented here is to our knowledge the first to provide a detailed view of the immune landscape in GSD1b using a high-parameter panel. The alterations observed demonstrate that the underlying dysregulations of the immune system go much deeper than the commonly recognized neutropenia and affect multiple populations across all arms of the immune system, likely influencing the clinical manifestations of GSD1b such as recurrent infections and IBD. We speculate that the mechanism of the immune dysregulation in GSD1b is partially mediated by a failure of anaerobic glycolysis-dependent immune populations to differentiate and proliferate in the hypoglycemic environment commonly present in GSD1b patients, leading to immune deficiency associated with this rare disease. Further studies should address more specifically whether these immune defects are the result of metabolic defects, and whether specific interventions (e.g. SGLT2 inhibitors) ameliorate also these immune defects.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="125~130" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="430~435" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="469~472" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="537~542" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="716~721" text="GSD1b" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

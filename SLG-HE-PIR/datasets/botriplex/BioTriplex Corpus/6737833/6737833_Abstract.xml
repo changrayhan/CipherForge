@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Flow Cytometric-Based Analysis of Defects in Lymphocyte Differentiation and Function Due to Inborn Errors of Immunity.
+Abstract: The advent of flow cytometry has revolutionized the way we approach our research and answer specific scientific questions. The flow cytometer has also become a mainstream diagnostic tool in most hospital and pathology laboratories around the world. In particular the application of flow cytometry has been instrumental to the diagnosis of primary immunodeficiencies (PIDs) that result from monogenic mutations in key genes of the hematopoietic, and occasionally non-hematopoietic, systems. The far-reaching applicability of flow cytometry is in part due to the remarkable sensitivity, down to the single-cell level, of flow-based assays and the extremely user-friendly platforms that enable comprehensive analysis, data interpretation, and importantly, robust and rapid methods for diagnosing PIDs. A prime example is the absence of peripheral blood B cells in patients with agammaglobulinemia due to mutations in  BTK  or related genes in the BCR signaling pathway. Similarly, the development of intracellular staining protocols to detect expression of SAP, XIAP, or DOCK8 expedites the rapid diagnosis of the X-linked lymphoproliferative diseases or an autosomal recessive form of hyper-IgE syndrome (HIES), respectively. It has also become evident that distinct cohorts of PID patients exhibit unique “lymphocyte phenotypic signatures” that are often diagnostic even prior to identifying the genetic lesion. Flow cytometry-based sorting provides a technique for separating specific subsets of immune cells such that they can be studied in isolation. Thus, flow-based assays can be utilized to measure immune cell function in patients with PIDs, such as degranulation by cytotoxic cells, cytokine expression by many immune cells (i.e., CD4 +  and CD8 +  T cells, macrophages etc.), B-cell differentiation, and phagocyte respiratory burst  in vitro . These assays can also be performed using unfractionated PBMCs, provided the caveat that the composition of lymphocytes between healthy donors and the PID patients under investigation is recognized. These functional deficits can assist not only in the clinical diagnosis of PIDs, but also reveal mechanisms of disease pathogenesis. As we move into the next generation of multiparameter flow cytometers, here we review some of our experiences in the use of flow cytometry in the study, diagnosis, and unraveling the pathophysiology of PIDs.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1052~1055" text="BTK" location="background" />
+<GENE id="G1" spans="1191~1194" text="SAP" location="background" />
+<GENE id="G2" spans="1196~1200" text="XIAP" location="background" />
+<GENE id="G3" spans="1205~1210" text="DOCK8" location="background" />
+<GENE id="G4" spans="1875~1878" text="CD4" location="background" />
+<GENE id="G5" spans="1886~1889" text="CD8" location="background" />
+<DISEASE id="D3" spans="476~502" text="primary immunodeficiencies" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="503~507" text="(PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="930~933" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1413~1416" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1779~1782" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="2139~2142" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2262~2265" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2522~2525" text="PID" location="background" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In summary, the genotype distributions of the  AGT  M235T polymorphism influenced the risk of essential hypertension in south Indian women and  ACE  DD is a risk in south Indian male population. MDR analysis reveals that if both TT and DD genotypes are present, prevalence of EHT is higher in the present study. The haplotype based MDR analysis suggests that we had adequate power to detect the functional relationship of the best factor model, increasing the risk of essential hypertension associated with combined genetic variations. This is the first report to evaluate the simultaneous association of  ACE ,  AGTR1 , and  AGT  gene polymorphisms in essential hypertension by haplotype based analyses and gender specific association in south India. Future studies are required to consider the joint effects of several candidate genes to dissect the genetic framework and gender specific association of essential hypertension.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="48~51" text="AGT" location="result" />
+<GENE id="G1" spans="145~148" text="ACE" location="result" />
+<GENE id="G2" spans="607~610" text="ACE" location="result" />
+<GENE id="G3" spans="614~619" text="AGTR1" location="result" />
+<GENE id="G4" spans="627~630" text="AGT" location="result" />
+<DISEASE id="D0" spans="95~117" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="469~491" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="654~676" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="906~928" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="277~280" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="72~91" text="influenced the risk" location="result" relation="genetic susceptibility" />
+<RELATION id="R1" spans="591~602" text="association" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="AGT" diseaseID="D0" diseaseText="essential hypertension" relationID="R0" relationText="influenced the risk" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="ACE" diseaseID="D3" diseaseText="essential hypertension" relationID="R1" relationText="association" />
+<ENTITY_LINKING id="E2" geneID="G3" geneText="AGTR1" diseaseID="D3" diseaseText="essential hypertension" relationID="R1" relationText="association" />
+<ENTITY_LINKING id="E3" geneID="G4" geneText="AGT" diseaseID="D3" diseaseText="essential hypertension" relationID="R1" relationText="association" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In this study, the potential of detection of Copy Number Alterations by dMLPA assay and its integration with cytogenetic profiling for an improved genetic risk stratification of ALL patients was evaluated. After categorization of patients into cytogenetic risk groups as determined by recurrent chromosomal abnormalities, CNA profiles obtained by dMLPA could further aid in refining the classification of risk groups and prediction of clinical outcome. The previous study by Benard-Slagter et al. ( 19 ) demonstrated dMLPA as a robust and reliable tool for genetic characterization of ALL patients. We found this to be the case as we were able to detect CNAs in ~89% of our cases with dMLPA assay as opposed to conventional MLPA where almost 50% of the cases harboring rare (<10% cases) yet relevant CNAs are missed as limited targets are covered and multiple assays have to be performed. Moreover, dMLPA could detect ≥3 CNAs in 66% of our cases whereas that reported by conventional MLPA were shown in only 10% of the cases ( 6 ). Our study provides a validation of dMLPA assay and takes the previous study by Benard-Slagter et al. ( 19 ) to the next level for its potential translation into routine diagnostics and genetic risk stratification of ALL.
+CNAs detected by dMLPA were validated by available MLPA assays that showed high concordance between the two methods [as also shown by ( 19 )]. The multiplexing of ~600 probes in a single reaction of dMLPA rarely resulted in false positive or false negative results as confirmed by conventional MLPA assays. Indeed, a wide range of genomic targets could be analyzed for CNAs with less hands-on time and easier data analysis. With a limit of detection of CNAs in samples carrying 25–30% of neoplastic cells ( 19 ), in two B-ALL cases the blast percent was borderline (20–30%), which could have resulted in failure to detect CNAs.
+Distinct CNA profiles were evident in B-ALL and T-ALL with both mutually exclusive and co-occurring genes. The dominance pattern of key genes affected in B-ALL cases was similar to earlier studies from India ( IKZF1, CDKN2A/B, PAX5, ETV6 ) ( 8 ,  9 ,  12 ) and different from that reported by other groups where deletions in  CDKN2A/B  and  ETV6  were dominant ( 6 ). The new gene targets such as  BTLA, CD200, VPREB1  which are associated with inferior event-free and overall survival;  DMD  with relapse,  TBL1XR1  and  TP53  with chemo-resistance;  EZH2 , PAR1 region, and  P2RY8-CRLF2  with poor prognosis;  CASP8AP2, NF1 , and  SUZ12  associated with poor response to induction therapy are included in this dMLPA panel and useful for further risk stratification in cytogenetically good risk B-ALL cases. In contrast, cases with T-ALL but not B-ALL harbored deletions in  PTEN, PHF6 , and  TOX  genes. Inactivation of  PTEN  frequently occurs in T-ALL and may be associated with chemotherapy resistance and poor prognosis. The CNA profiles obtained using the dMLPA assay were potentially relevant in facilitating risk stratification of cases without recurrent or detectable genetic abnormalities and classical genetic alterations in our cases.
+In the cases with hyperdiploidy, isolated CNAs were noted as deletions in  CDKN2A/B, IKZF1, CASP8AP2, ERG, RAG2, ETV6, CTCF, TBL1XR1 , and  VPREB1  genes, which could potentially introduce heterogeneity in this good risk category. As described by Benard-Slagter et al. ( 19 ) a rare intragenic deletion of  ERG  exons 5–9 was detected in two of our cases and a single deletion in exon 5 was also noted. Few cases harbored partial chromosomal deletions in Chromosomes 7 and 9 but we did not detect any case of hypodiploidy. Absence of deletions in  CDKN2A/B, IKZF1, PAR1 , and  BTG1  in cases with  ETV6-RUNX1  genetic abnormality indicated certain genetic predisposition of the combination of gene targets, which might be affected with the primary genetic abnormality. Two cases with a deletion in the  EBF1  gene showed co-occurrence of deletions in  NR3C2, PAX5, RAG2 , and  VPREB1  or deletions in multiple other genes ( CD200, BTLA, CASP8AP2, MYB ) influencing the risk stratification of these good risk category. Unlike reported in the previous study by Benard-Slagter et al. ( 19 ), which showed the presence of homozygous deletion of  CD200  and heterozygous deletion of  BTLA , we identified a case of ALL relapse with heterozygous deletion of  CD200  and a homozygous deletion of  BTLA . One case of B-ALL with  iAMP21  amplification showed homozygous deletion of  CD200  and  BTLA  and gene deletions in  RB1, TP53, CTCF  as has been reported earlier ( 24 ). An isolated case of intragenic amplification of  PAX5  gene with MRD positive status may define a novel, relapse-prone subtype of B-cell precursor ALL with a poor outcome but this need to be validated in larger cohort.
+B-ALL with t(9;22) BCR-ABL1 chromosomal translocation is epidemiologically more prevalent in adults (~25%) and accounts for 2–4% of cases in children. These patients belong to the high risk category depending on the age, WBC count and response to therapy. In the majority of childhood cases, a p190 BCR-ABL1 fusion transcript is observed and p210 is rare. The distinct CNA profile observed in patients with p190 and p210 isoforms could be further evaluated using dMLPA. The cases with p210 isoform primarily harbored deletions in  IKZF1  gene whereas samples with p190 isoform had  IKZF1  plus profile ( CDKN2A/B, PAX5 , and other genes) associated with MRD-dependent very-poor prognostic profile in BCP ALL.
+Several other common gene deletions, such as  CDKN2A/2B, IKZF1, PAX5, ETV6, RB1 , and  BTG1  have also been described in ALL patients ( 6 ,  25 ). Deletions in the  IKZF1  gene have been associated with relapse and poor clinical outcome in several studies. In ~80% of pediatric and 60–90% of adult  BCR-ABL1  positive ALL cases, partial or complete gene deletions of  IKZF1  are detected. Eighty percent of the B-ALL with  BCR-ABL1  chromosomal abnormality showed  IKZF1  deletions in our cohort. Partial gene deletions of  IKZF1  frequently affect exons 4–7 and was seen in majority of our cases ( n  = 10), but a rare smaller deletion, affecting a region upstream of  IKZF1  gene was detected which was not reported by Benard-Slagter et al. ( 19 ). Also, deletions of  IKZF1  exon 4–8 associated with poor outcome although are rare but were seen in two of our samples in which this gene was affected. Earlier studies have reported the prognostic relevance of deletions in  IKZF1  and  EBF1  genes which are associated with MRD positivity ( 6 ,  9 ,  12 ). In our retrospective study, since  IKZF1  deletions were primarily detected in  BCR-ABL1  positive B-ALL cases, these cases were risk stratified into the poor risk category and were given intensive chemotherapy. This could have resulted in skewing of the correlation between  IKZF1  and other gene deletions and MRD clearance in our cases. Individual poor risk chromosomal abnormalities were too rare to reliably test for correlation.
+We successfully detected intrachromosomal fusions with copy number imbalance ( SIL-TAL1, NUP214-ABL, EBF1-PDGFRB ) in a few cases, which could potentially benefit from treatment with tyrosine kinase inhibitors ( 26 – 28 ). The  NUP214-ABL1  fusion gene is demonstrated to be amplified as multiple (5–50) episomal copies in 6% of T-cell acute lymphoblastic leukemia (T-ALL) and has been reported as a rare subtype of B-cell precursor (ALL) that could benefit from tyrosine kinase inhibitors ( 29 – 31 ).  EBFI-PDGFRB  gene fusion is reported in <1% of B-ALL, Philadelphia like ALL subtype, which also benefit from tyrosine kinase therapy ( 26 ,  32 ). Deletion of the  PTEN  gene was exclusively detected in T-ALL cases, which is associated with resistance to chemotherapy and early treatment failure ( 33 ). Deletion in  NF1  and  SUZ12  in T-ALL are associated with poor response to induction chemotherapy ( 34 ). We also observed  NF1  and  SUZ12  deletions in two MRD positive cases of B-ALL suggesting that although rare, these can have implications in treatment outcome.
+Gene duplication is a recurring phenomenon in cancer and a major driving force in the gain of biological functions that leads to over-expression and alteration of gene expression patterns. This emerged as a strong correlation in our MRD positive cases which predominantly showed gain of copies of several genes including  LEF1, RUNX1, PAR1, NR3C2, PHF6 , and  CASP8AP2 . Over-expression of  LEF1  has been reported to predict unfavorable outcome and the standard-risk B-ALL patients with high  LEF1  expression can possibly benefit from early treatment modifications and alternative molecular therapies, such as agents targeting the  Wnt  signaling pathway ( 35 ). Amplification of  RUNX1  is associated with a poor outcome in childhood ALL ( 16 ). Currently, FISH with probes directed to  RUNX1  is the only reliable method of detection of duplication of 21q with amplification of  RUNX1  in ALL. We could reliably detect  RUNX1  amplification in 27% of our cases and thus, dMLPA provides an alternate platform for its detection. Gene duplication of the  PAR1  region has been reported to be associated with  KMT2A-AFF1  cases and a similar profile was also observed in two of our cases ( 36 ).
+Risk stratification algorithms are regularly revisited for better refinement and monitoring of prognostic factors. Our findings demonstrated the significance of both cytogenetics and CNAs for prognostication. Integration of CNAs with cytogenetic risk stratification allowed identification of subgroups with variable outcomes in the MRD positive high risk group and MRD negative intermediate category because CNAs were detected that are associated with poor prognosis. These intermediate risk group patients can therefore be considered for de-intensification or intensification of chemotherapy. Patients with genetic profiles associated with poor prognosis could be considered for targeted or alternative modalities. MRD status combined with molecular genetic profiling maybe valuable in monitoring and clinical management of these patients. Since chromosomal abnormalities are insufficient to initiate leukemia, the detection of cooperating genetic lesions guide a better risk prognostication, aid in disease monitoring and predict the probability of relapse. However, few limitations remain in this technology such as it is restricted to probe sequence specificity, and silent copy number changes such as inversions or translocations and sequence changes (SNPs, indels) remain undetected. In conclusion, dMLPA is a robust, reliable and a valuable alternative technology for rapid identification of key CNAs in ALL patients, which warrants evaluation in larger cohorts.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2092~2097" text="IKZF1" location="background" />
+<GENE id="G1" spans="2099~2105" text="CDKN2A" location="background" />
+<GENE id="G2" spans="2109~2113" text="PAX5" location="background" />
+<GENE id="G3" spans="2115~2119" text="ETV6" location="background" />
+<GENE id="G4" spans="2208~2214" text="CDKN2A" location="background" />
+<GENE id="G5" spans="2223~2227" text="ETV6" location="background" />
+<GENE id="G6" spans="2280~2284" text="BTLA" location="result" />
+<GENE id="G7" spans="2286~2291" text="CD200" location="result" />
+<GENE id="G8" spans="2293~2299" text="VPREB1" location="result" />
+<GENE id="G9" spans="2370~2373" text="DMD" location="result" />
+<GENE id="G10" spans="2390~2397" text="TBL1XR1" location="result" />
+<GENE id="G11" spans="2404~2408" text="TP53" location="result" />
+<GENE id="G12" spans="2434~2438" text="EZH2" location="result" />
+<GENE id="G13" spans="2441~2445" text="PAR1" location="result" />
+<GENE id="G14" spans="2459~2464" text="P2RY8" location="result" />
+<GENE id="G15" spans="2465~2470" text="CRLF2" location="result" />
+<GENE id="G16" spans="2494~2502" text="CASP8AP2" location="result" />
+<GENE id="G17" spans="2504~2507" text="NF1" location="result" />
+<GENE id="G18" spans="2515~2520" text="SUZ12" location="result" />
+<GENE id="G20" spans="2758~2762" text="PTEN" location="result" />
+<GENE id="G21" spans="2764~2768" text="PHF6" location="result" />
+<GENE id="G22" spans="2776~2779" text="TOX" location="result" />
+<GENE id="G23" spans="2805~2809" text="PTEN" location="result" />
+<GENE id="G25" spans="3205~3211" text="CDKN2A" location="result" />
+<GENE id="G26" spans="3215~3220" text="IKZF1" location="result" />
+<GENE id="G27" spans="3222~3230" text="CASP8AP2" location="result" />
+<GENE id="G28" spans="3232~3235" text="ERG" location="result" />
+<GENE id="G29" spans="3237~3241" text="RAG2" location="result" />
+<GENE id="G30" spans="3243~3247" text="ETV6" location="result" />
+<GENE id="G31" spans="3249~3253" text="CTCF" location="result" />
+<GENE id="G32" spans="3255~3262" text="TBL1XR1" location="result" />
+<GENE id="G33" spans="3270~3276" text="VPREB1" location="result" />
+<GENE id="G34" spans="3437~3440" text="ERG" location="result" />
+<GENE id="G35" spans="3677~3684" text=" CDKN2A" location="result" />
+<GENE id="G36" spans="3688~3693" text="IKZF1" location="result" />
+<GENE id="G37" spans="3695~3699" text="PAR1" location="result" />
+<GENE id="G38" spans="3707~3711" text="BTG1" location="result" />
+<GENE id="G39" spans="3728~3732" text="ETV6" location="result" />
+<GENE id="G40" spans="3733~3738" text="RUNX1" location="result" />
+<GENE id="G41" spans="3933~3937" text="EBF1" location="result" />
+<GENE id="G42" spans="3982~3987" text="NR3C2" location="result" />
+<GENE id="G43" spans="3989~3993" text="PAX5" location="result" />
+<GENE id="G44" spans="3995~3999" text="RAG2" location="result" />
+<GENE id="G45" spans="4007~4013" text="VPREB1" location="result" />
+<GENE id="G46" spans="4054~4059" text="CD200" location="result" />
+<GENE id="G47" spans="4061~4065" text="BTLA" location="result" />
+<GENE id="G48" spans="4067~4075" text="CASP8AP2" location="result" />
+<GENE id="G49" spans="4077~4080" text="MYB" location="result" />
+<GENE id="G50" spans="4272~4277" text="CD200" location="background" />
+<GENE id="G51" spans="4309~4313" text="BTLA" location="background" />
+<GENE id="G52" spans="4383~4388" text="CD200" location="result" />
+<GENE id="G53" spans="4504~4509" text="CD200" location="result" />
+<GENE id="G54" spans="4516~4520" text="BTLA" location="result" />
+<GENE id="G55" spans="4545~4548" text="RB1" location="background" />
+<GENE id="G56" spans="4550~4554" text="TP53" location="background" />
+<GENE id="G57" spans="4556~4560" text="CTCF" location="background" />
+<GENE id="G58" spans="4648~4652" text="PAX5" location="result" />
+<GENE id="G59" spans="4837~4840" text="BCR" location="result" />
+<GENE id="G60" spans="4841~4845" text="ABL1" location="result" />
+<GENE id="G61" spans="5117~5120" text="BCR" location="result" />
+<GENE id="G62" spans="5121~5125" text="ABL1" location="result" />
+<GENE id="G63" spans="5349~5354" text="IKZF1" location="result" />
+<GENE id="G64" spans="5400~5405" text="IKZF1" location="result" />
+<GENE id="G65" spans="5422~5428" text="CDKN2A" location="result" />
+<GENE id="G66" spans="5432~5436" text="PAX5" location="result" />
+<GENE id="G67" spans="5573~5579" text="CDKN2A" location="background" />
+<GENE id="G68" spans="5584~5589" text="IKZF1" location="background" />
+<GENE id="G69" spans="5591~5595" text="PAX5" location="background" />
+<GENE id="G70" spans="5597~5601" text="ETV6" location="background" />
+<GENE id="G71" spans="5603~5606" text="RB1" location="background" />
+<GENE id="G72" spans="5614~5618" text="BTG1" location="background" />
+<GENE id="G73" spans="5692~5697" text="IKZF1" location="background" />
+<GENE id="G74" spans="5826~5829" text="BCR" location="background" />
+<GENE id="G75" spans="5830~5834" text="ABL1" location="background" />
+<GENE id="G76" spans="5895~5900" text="IKZF1" location="background" />
+<GENE id="G77" spans="5950~5953" text="BCR" location="result" />
+<GENE id="G78" spans="5954~5958" text="ABL1" location="result" />
+<GENE id="G79" spans="5992~5997" text="IKZF1" location="result" />
+<GENE id="G80" spans="6051~6056" text="IKZF1" location="result" />
+<GENE id="G81" spans="6197~6202" text="IKZF1" location="result" />
+<GENE id="G82" spans="6298~6303" text="IKZF1" location="result" />
+<GENE id="G83" spans="6502~6507" text="IKZF1" location="background" />
+<GENE id="G84" spans="6514~6518" text="EBF1" location="background" />
+<GENE id="G85" spans="6620~6625" text="IKZF1" location="result" />
+<GENE id="G86" spans="6665~6668" text="BCR" location="result" />
+<GENE id="G87" spans="6669~6673" text="ABL1" location="result" />
+<GENE id="G88" spans="6861~6866" text="IKZF1" location="result" />
+<GENE id="G89" spans="7099~7102" text="SIL" location="result" />
+<GENE id="G91" spans="7109~7115" text="NUP214" location="result" />
+<GENE id="G92" spans="7116~7119" text="ABL" location="result" />
+<GENE id="G93" spans="7121~7125" text="EBF1" location="result" />
+<GENE id="G94" spans="7126~7132" text="PDGFRB" location="result" />
+<GENE id="G95" spans="7248~7254" text="NUP214" location="result" />
+<GENE id="G96" spans="7255~7259" text="ABL1" location="result" />
+<GENE id="G97" spans="7103~7107" text="TAL1" location="background" />
+<GENE id="G98" spans="7524~7528" text="EBFI" location="background" />
+<GENE id="G99" spans="7529~7535" text="PDGFRB" location="background" />
+<GENE id="G100" spans="7688~7692" text="PTEN" location="result" />
+<GENE id="G101" spans="7841~7844" text="NF1" location="background" />
+<GENE id="G102" spans="7851~7856" text="SUZ12" location="background" />
+<GENE id="G103" spans="7953~7956" text="NF1" location="result" />
+<GENE id="G104" spans="7963~7968" text="SUZ12" location="result" />
+<GENE id="G105" spans="8418~8422" text="LEF1" location="result" />
+<GENE id="G106" spans="8424~8429" text="RUNX1" location="result" />
+<GENE id="G107" spans="8431~8435" text="PAR1" location="result" />
+<GENE id="G108" spans="8437~8442" text="NR3C2" location="result" />
+<GENE id="G109" spans="8444~8448" text="PHF6" location="result" />
+<GENE id="G110" spans="8456~8464" text="CASP8AP2" location="result" />
+<GENE id="G111" spans="8487~8491" text="LEF1" location="background" />
+<GENE id="G112" spans="8590~8594" text="LEF1" location="background" />
+<GENE id="G113" spans="8779~8784" text="RUNX1" location="background" />
+<GENE id="G114" spans="8886~8891" text="RUNX1" location="background" />
+<GENE id="G115" spans="8979~8984" text="RUNX1" location="background" />
+<GENE id="G116" spans="9020~9025" text="RUNX1" location="result" />
+<GENE id="G117" spans="9152~9156" text="PAR1" location="result" />
+<GENE id="G119" spans="9206~9211" text="KMT2A" location="result" />
+<GENE id="G120" spans="9212~9216" text="AFF1" location="result" />
+<GENE id="G121" spans="4420~4424" text="BTLA" location="result" />
+<DISEASE id="D0" spans="179~182" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="586~589" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1249~1252" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1774~1779" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1920~1925" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1930~1935" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="2036~2041" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2678~2683" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2715~2720" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2729~2734" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2832~2837" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="4340~4343" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="4439~4444" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="4746~4749" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="4818~4823" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="5648~5651" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="5522~5525" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="5845~5848" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="5938~5943" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="6684~6689" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="7386~7391" text="T-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="7349~7384" text="T-cell acute lymphoblastic leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="7454~7457" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="7571~7576" text="B-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="7596~7599" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="7727~7732" text="T-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="7861~7866" text="T-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="8009~8014" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="8142~8148" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D32" spans="8564~8569" text="B-ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="8833~8836" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="8989~8992" text="ALL" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="10194~10202" text="leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="10703~10706" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R8" spans="2744~2753" text="deletions" location="result" relation="associated mutation" />
+<RELATION id="R9" spans="2788~2800" text="Inactivation" location="result" relation="associated mutation" />
+<RELATION id="R11" spans="2893~2907" text="poor prognosis" location="result" relation="negative prognostic marker" />
+<RELATION id="R12" spans="2865~2888" text="chemotherapy resistance" location="result" relation="therapy resistance" />
+<RELATION id="R13" spans="2538~2572" text="poor response to induction therapy" location="result" relation="therapy resistance" />
+<RELATION id="R14" spans="2629~2648" text="risk stratification" location="result" relation="prognostic indicator" />
+<RELATION id="R15" spans="4357~4378" text="heterozygous deletion" location="result" relation="associated mutation" />
+<RELATION id="R16" spans="4396~4415" text="homozygous deletion" location="result" relation="associated mutation" />
+<RELATION id="R17" spans="4480~4499" text="homozygous deletion" location="background" relation="associated mutation" />
+<RELATION id="R18" spans="4531~4540" text="deletions" location="result" relation="associated mutation" />
+<RELATION id="R19" spans="4757~4769" text="poor outcome" location="result" relation="negative prognostic marker" />
+<RELATION id="R21" spans="5486~5514" text="very-poor prognostic profile" location="result" relation="negative prognostic marker" />
+<RELATION id="R22" spans="5553~5562" text="deletions" location="background" relation="associated mutation" />
+<RELATION id="R24" spans="5856~5890" text="partial or complete gene deletions" location="result" relation="associated mutation" />
+<RELATION id="R26" spans="6627~6636" text="deletions" location="result" relation="associated mutation" />
+<RELATION id="R27" spans="7671~7679" text="Deletion" location="background" relation="associated mutation" />
+<RELATION id="R28" spans="7765~7791" text="resistance to chemotherapy" location="background" relation="therapy resistance" />
+<RELATION id="R29" spans="7796~7819" text="early treatment failure" location="background" relation="therapy resistance" />
+<RELATION id="R30" spans="7887~7926" text="poor response to induction chemotherapy" location="background" relation="therapy resistance" />
+<RELATION id="R31" spans="7970~7979" text="deletions" location="result" relation="associated mutation" />
+<RELATION id="R32" spans="8061~8094" text="implications in treatment outcome" location="result" relation="prognostic indicator" />
+<RELATION id="R35" spans="8584~8588,8596~8606" text="high ... expression" location="background" relation="increased expression" />
+<RELATION id="R36" spans="8807~8819" text="poor outcome" location="background" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G16" geneText="CASP8AP2" diseaseID="D7" diseaseText="B-ALL" relationID="R13" relationText="poor response to induction therapy" />
+<ENTITY_LINKING id="E1" geneID="G17" geneText="NF1" diseaseID="D7" diseaseText="B-ALL" relationID="R13" relationText="poor response to induction therapy" />
+<ENTITY_LINKING id="E2" geneID="G18" geneText="SUZ12" diseaseID="D7" diseaseText="B-ALL" relationID="R13" relationText="poor response to induction therapy" />
+<ENTITY_LINKING id="E3" geneID="G16" geneText="CASP8AP2" diseaseID="D7" diseaseText="B-ALL" relationID="R14" relationText="risk stratification" />
+<ENTITY_LINKING id="E4" geneID="G17" geneText="NF1" diseaseID="D7" diseaseText="B-ALL" relationID="R14" relationText="risk stratification" />
+<ENTITY_LINKING id="E5" geneID="G18" geneText="SUZ12" diseaseID="D10" diseaseText="T-ALL" relationID="R14" relationText="risk stratification" />
+<ENTITY_LINKING id="E6" geneID="G20" geneText="PTEN" diseaseID="D8" diseaseText="T-ALL" relationID="R8" relationText="deletions" />
+<ENTITY_LINKING id="E7" geneID="G21" geneText="PHF6" diseaseID="D8" diseaseText="T-ALL" relationID="R8" relationText="deletions" />
+<ENTITY_LINKING id="E8" geneID="G22" geneText="TOX" diseaseID="D8" diseaseText="T-ALL" relationID="R8" relationText="deletions" />
+<ENTITY_LINKING id="E9" geneID="G23" geneText="PTEN" diseaseID="D10" diseaseText="T-ALL" relationID="R9" relationText="Inactivation" />
+<ENTITY_LINKING id="E10" geneID="G23" geneText="PTEN" diseaseID="D10" diseaseText="T-ALL" relationID="R12" relationText="chemotherapy resistance" />
+<ENTITY_LINKING id="E11" geneID="G23" geneText="PTEN" diseaseID="D10" diseaseText="T-ALL" relationID="R11" relationText="poor prognosis" />
+<ENTITY_LINKING id="E12" geneID="G52" geneText="CD200" diseaseID="D11" diseaseText="ALL" relationID="R15" relationText="heterozygous deletion" />
+<ENTITY_LINKING id="E13" geneID="G121" geneText="BTLA" diseaseID="D11" diseaseText="ALL" relationID="R16" relationText="homozygous deletion" />
+<ENTITY_LINKING id="E14" geneID="G53" geneText="CD200" diseaseID="D13" diseaseText="B-ALL" relationID="R17" relationText="homozygous deletion" />
+<ENTITY_LINKING id="E15" geneID="G54" geneText="BTLA" diseaseID="D13" diseaseText="B-ALL" relationID="R17" relationText="homozygous deletion" />
+<ENTITY_LINKING id="E16" geneID="G55" geneText="RB1" diseaseID="D13" diseaseText="B-ALL" relationID="R18" relationText="deletions" />
+<ENTITY_LINKING id="E17" geneID="G56" geneText="TP53" diseaseID="D13" diseaseText="B-ALL" relationID="R18" relationText="deletions" />
+<ENTITY_LINKING id="E18" geneID="G57" geneText="CTCF" diseaseID="D13" diseaseText="B-ALL" relationID="R18" relationText="deletions" />
+<ENTITY_LINKING id="E19" geneID="G58" geneText="PAX5" diseaseID="D15" diseaseText="ALL" relationID="R19" relationText="poor outcome" />
+<ENTITY_LINKING id="E20" geneID="G64" geneText="IKZF1" diseaseID="D18" diseaseText="ALL" relationID="R21" relationText="very-poor prognostic profile" />
+<ENTITY_LINKING id="E21" geneID="G67" geneText="CDKN2A" diseaseID="D17" diseaseText="ALL" relationID="R22" relationText="deletions" />
+<ENTITY_LINKING id="E22" geneID="G68" geneText="IKZF1" diseaseID="D17" diseaseText="ALL" relationID="R22" relationText="deletions" />
+<ENTITY_LINKING id="E23" geneID="G69" geneText="PAX5" diseaseID="D17" diseaseText="ALL" relationID="R22" relationText="deletions" />
+<ENTITY_LINKING id="E24" geneID="G70" geneText="ETV6" diseaseID="D17" diseaseText="ALL" relationID="R22" relationText="deletions" />
+<ENTITY_LINKING id="E25" geneID="G71" geneText="RB1" diseaseID="D17" diseaseText="ALL" relationID="R22" relationText="deletions" />
+<ENTITY_LINKING id="E26" geneID="G72" geneText="BTG1" diseaseID="D17" diseaseText="ALL" relationID="R22" relationText="deletions" />
+<ENTITY_LINKING id="E27" geneID="G76" geneText="IKZF1" diseaseID="D19" diseaseText="ALL" relationID="R24" relationText="partial or complete gene deletions" />
+<ENTITY_LINKING id="E28" geneID="G85" geneText="IKZF1" diseaseID="D21" diseaseText="B-ALL" relationID="R26" relationText="deletions" />
+<ENTITY_LINKING id="E29" geneID="G100" geneText="PTEN" diseaseID="D28" diseaseText="T-ALL" relationID="R27" relationText="Deletion" />
+<ENTITY_LINKING id="E30" geneID="G100" geneText="PTEN" diseaseID="D28" diseaseText="T-ALL" relationID="R28" relationText="resistance to chemotherapy" />
+<ENTITY_LINKING id="E31" geneID="G100" geneText="PTEN" diseaseID="D28" diseaseText="T-ALL" relationID="R29" relationText="early treatment failure" />
+<ENTITY_LINKING id="E32" geneID="G101" geneText="NF1" diseaseID="D29" diseaseText="T-ALL" relationID="R30" relationText="poor response to induction chemotherapy" />
+<ENTITY_LINKING id="E33" geneID="G102" geneText="SUZ12" diseaseID="D29" diseaseText="T-ALL" relationID="R30" relationText="poor response to induction chemotherapy" />
+<ENTITY_LINKING id="E34" geneID="G103" geneText="NF1" diseaseID="D30" diseaseText="B-ALL" relationID="R31" relationText="deletions" />
+<ENTITY_LINKING id="E35" geneID="G104" geneText="SUZ12" diseaseID="D30" diseaseText="B-ALL" relationID="R31" relationText="deletions" />
+<ENTITY_LINKING id="E36" geneID="G103" geneText="NF1" diseaseID="D30" diseaseText="B-ALL" relationID="R32" relationText="implications in treatment outcome" />
+<ENTITY_LINKING id="E37" geneID="G104" geneText="SUZ12" diseaseID="D30" diseaseText="B-ALL" relationID="R32" relationText="implications in treatment outcome" />
+<ENTITY_LINKING id="E38" geneID="G112" geneText="LEF1" diseaseID="D32" diseaseText="B-ALL" relationID="R35" relationText="high ... expression" />
+<ENTITY_LINKING id="E39" geneID="G113" geneText="RUNX1" diseaseID="D33" diseaseText="ALL" relationID="R36" relationText="poor outcome" />
+</TAGS>
+</Genomics_ConceptTask>

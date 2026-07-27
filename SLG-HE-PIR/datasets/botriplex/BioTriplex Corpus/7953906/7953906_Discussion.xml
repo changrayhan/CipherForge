@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The clinical spectrum of ARDS encompasses very severe forms of the disease characterized by a profound respiratory failure. These manifestations are often related to dysregulated immune reactions elicited by different insults. The quality and magnitude of such responses may vary according to the causative agent of the illness. Thus, particular immune profiles of local and circulating cytokines may serve as readouts to differentiate between specific causes of ARDS. Here, we demonstrate that CXCL17 can be detected in post-mortem human lung specimens from patients with pandemic influenza A(H1N1) and COVID-19. Furthermore, serum levels of CXCL17 are differentially regulated during influenza and COVID-19, pointing to a possible diagnostic value for the chemokine. Importantly, we found that CXCL17 is not elevated in the serum of PTB patients neither. Although individuals with this disease rarely present with ARDS, the fact that only influenza but not PTB or COVID-19 patients showed high CXCL17 levels remarks the specific diagnostic potential of this chemokine during influenza.
+Chemokines can be divided into homeostatic or inflammatory depending on their expression patterns ( 13 ). CXCL17 is considered a “dual” chemokine because it exhibits characteristics of both homeostatic and inflammatory chemokines. It is constitutively expressed in the mucosa of the respiratory tract with potential functions in lung defenses ( 14 ) and is known to chemoattract macrophages ( 4 ). This chemokine was the last member of the C-X-C motif chemokine ligand family to be reported ( 1 ), and as such, its role during respiratory inflammation or infections is not well understood. We should note that bioinformatics analyses of public gene expression databases indicate that CXCL17 is the highest expressed chemokine in the normal trachea and bronchus and among the highest expressed chemokines in the normal human lung ( 2 ). These observations strongly suggest important homeostatic functions for CXCL17 in the respiratory tract. Previous studies have shown that CXCL17 is strongly upregulated in idiopathic pulmonary fibrosis ( 2 ). This, along with data from our current study indicates that CXCL17 is very likely to have important functions in the pathogenesis of inflammatory/infectious diseases of the lung as well. Past studies have provided indirect evidence about a possible role of CXCL17 in immunity against respiratory infections. For instance, it has been shown that CXCL17 has a potent bactericidal activity over bacteria causative of respiratory infections ( 2 ). The expression of the  CXCL17  gene was also found upregulated in group 3 innate lymphoid cells isolated from lung tissues of patients with tuberculosis (TB) ( 15 ), suggesting a role for CXCL17 against  Mycobacterium tuberculosis  (Mtb) infection. However, CXCL17 plays redundant activities during anti-Mtb immunity in murine models ( 16 ). In this context, our study represents the first direct evaluation of the expression of CXCL17 during respiratory infections in humans.
+Our analyses of lung autopsy specimens suggest that the influenza A(H1N1) pdm09 virus and SARS-CoV-2 stimulate the local production of CXCL17 in the pulmonary tissue. Indeed, although these findings were made only in two patients who died of influenza and two with COVID-19, the pattern of expression observed during both infections differ from what it is observed at steady state. In this regard, using non-infected human lung specimens, we previously demonstrated that CXCL17 is detected only at the luminal surface of alveolar epithelial cells ( 2 ). Conversely, here we found that lungs infected with influenza and SARS-CoV-2 express CXCL17 in the whole cytoplasm of pneumocytes, as well as in infiltrating macrophages. This is further supported by a recent paper demonstrating a high induction of CXCL17 in the BAL of COVID-19 ( 17 ). However, we found that the magnitude of CXCL17 expression in the serum was also robust during influenza but minimal in COVID-19 patients. These are contrasting observations, although we must consider that the lung tissue specimens in our study were obtained post-mortem. Therefore, our immunohistochemical analysis evaluated the expression of CXCL17 only during the latest phases of viral infection, whereas serum chemokine determinations captured early responses against COVID-19 and influenza. Analysis of CXCL17 expression in lung biopsy specimens obtained early during the infection would have clarified this point. Despite this, we speculate that lung and serum CXCL17 levels may increase as the infection with SARS-CoV-2 progresses in patients with severe disease. Whether longitudinal changes in serum CXCL17 levels could have a prognostic value in COVID-19 should be investigated in future studies.
+Our findings may be also explained by possible different abilities of influenza and SARS-CoV-2 virus strains to induce local CXCL17 production and translocation to the blood according to their virulence. Indeed, previous research showed that the infection of human bronchial epithelial cells, human tracheobronchial epithelial cells, and human alveolar A549 cells with seasonal influenza A(H3N2) virus, promotes robust upregulation of  CXCL17 . However, the infection with more virulent A(H5N1) and A(H7N9) influenza virus subtypes induces minor changes in the expression of  CXCL17  ( 18 ). Similarly, in a yet unpublished experiment available from the Influenza Research Database (IRD), the infection of 2B-4cells/sorted Calu-3 cells with a wild type strain of the 2002-2003 SARS-CoV (icSARS CoV) did not stimulate strong expression of  CXCL17  ( 19 ). In contrast, the infection with icSARS ExoNI and icSARS dNSP16, which are attenuated mutant strains of SARS-CoV, upregulated the expression of  CXCL17 .
+Notably, we also demonstrated that these differences could be harnessed for clinical applications, as serum CXCL17 levels determined at hospital admission are useful to distinguish between influenza and COVID-19 in patients with ARDS. This is important, especially at settings of high circulation of pandemic influenza A(H1N1) virus strains, as it is highly likely that both diseases will converge during the upcoming flu season. During such a predicted scenario, the differentiation of influenza and COVID-19 by clinical characteristics may be complicated. Indeed, our results and previous studies show that only a few non-specific symptoms and routine laboratory tests are useful for this diagnostic dilemma ( 20 – 22 ). However, the discrimination of the causative pathogen has direct therapeutic implications, including the selection of the adequate anti-viral drug. Thus, novel biomarkers with high diagnostic value to distinguish influenza and COVID-19 are urgently needed.
+Another striking finding of our study is that serum levels of CXCL17 impact on pandemic influenza A(H1N1)-associated mortality. In this sense, it is known that several chemokines participate in the immune response against influenza viruses ( 23 ,  24 ). Most of them are produced in high amounts and mediate pathology due to their pro-inflammatory properties ( 25 ,  26 ). Our data indicate that the production of CXCL17 is also highly potentiated during the early stages of pandemic influenza A(H1N1), as the serum levels reported here are as high as those found in other inflammatory and human autoimmune disorders ( 2 ,  11 ). Moreover, we demonstrate that both macrophages and lung epithelial cells can become sources of CXCL17 after infection with the influenza A(H1N1) pdm09 virus.
+CXCL17 normally mediates the recruitment of myeloid cells to the lung ( 4 ). Cell subtypes responding to this chemokine include DCs, monocytes, and macrophages ( 1 ,  4 ,  27 ). However, we should note that the nature of the myeloid cells recruited by CXCL17  in vivo  has not been established in humans, although the fact that CXCL17 is a mucosal chemokine expressed only in the respiratory and digestive tracts suggests that it is recruiting unique population(s) of myeloid cells to mucosal tissues which remain to be functionally characterized. Increased and sustained recruitment of myeloid cells to the lungs is associated with immunopathology and mortality in influenza ( 23 ,  24 ). Accordingly, our data indicate that influenza patients with higher CXCL17 levels have lower survival, suggesting a possible pathogenic role for this chemokine. We should also mention that CXCL17 also mediates anti-inflammatory activities ( 25 ,  26 ). Thus, our findings may reflect a regulatory mechanism for the cytokine storm underlying severe influenza,  via  the production of high levels of anti-inflammatory mediators.
+The role of innate immune cells responding to CXCL17 in COVID-19 is unknown, but recent studies have found that the numbers of circulating DCs and monocytes are reduced in patients with severe SARS-CoV-2 infection as compared to patients with milder forms of the disease ( 28 ). In contrast, we found a high number of macrophages in the lung autopsy specimens of patients that died of COVID-19. Together, these data point to a possible role for chemokines involved in the recruitment of myeloid cells to the lungs during COVID-19, and CXCL17 is an excellent candidate to mediate this recruitment ( 4 ). However, whether CXCL17 plays a pathogenic or protective role during influenza or COVID-19 is not apparent from our data.
+A caveat of our study is that CXCL17 levels were assessed only in influenza patients with severe pandemic influenza A(H1N1), but not in individuals with milder forms of the disease nor in persons with seasonal influenza infections. Hence, future studies must validate our results in other cohorts of influenza patients. Also, we measured serum levels of CXCL17 in COVID-19 patients only at the time of hospital admission. Thus, the analysis of additional time points is required to draw conclusions on the prognostic role of this chemokine in COVID-19. Finally, our findings in PTB patients indicate that CXCL17 is not highly released from the lung to the serum during Mtb infection. This, along with previous results from our group ( 16 ), may indicate a minimal role for this chemokine during PTB. Nonetheless, more studies are necessary to rule out a contribution of CXCL17 to the immunity against Mtb.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="496~502" text="CXCL17" location="result" />
+<GENE id="G1" spans="644~650" text="CXCL17" location="result" />
+<GENE id="G2" spans="797~803" text="CXCL17" location="result" />
+<GENE id="G3" spans="997~1003" text="CXCL17" location="result" />
+<GENE id="G4" spans="1195~1201" text="CXCL17" location="background" />
+<GENE id="G5" spans="1773~1779" text="CXCL17" location="background" />
+<GENE id="G6" spans="1997~2003" text="CXCL17" location="background" />
+<GENE id="G7" spans="2063~2069" text="CXCL17" location="background" />
+<GENE id="G8" spans="2194~2200" text="CXCL17" location="background" />
+<GENE id="G9" spans="2391~2397" text="CXCL17" location="background" />
+<GENE id="G10" spans="2479~2485" text="CXCL17" location="background" />
+<GENE id="G11" spans="2601~2607" text="CXCL17" location="background" />
+<GENE id="G12" spans="2766~2772" text="CXCL17" location="background" />
+<GENE id="G13" spans="2836~2842" text="CXCL17" location="background" />
+<GENE id="G14" spans="3007~3013" text="CXCL17" location="background" />
+<GENE id="G15" spans="3190~3196" text="CXCL17" location="background" />
+<GENE id="G16" spans="3526~3532" text="CXCL17" location="background" />
+<GENE id="G17" spans="3693~3699" text="CXCL17" location="background" />
+<GENE id="G18" spans="3857~3863" text="CXCL17" location="background" />
+<GENE id="G19" spans="3935~3941" text="CXCL17" location="background" />
+<GENE id="G20" spans="4238~4244" text="CXCL17" location="result" />
+<GENE id="G21" spans="4403~4409" text="CXCL17" location="result" />
+<GENE id="G22" spans="4562~4568" text="CXCL17" location="result" />
+<GENE id="G23" spans="4704~4710" text="CXCL17" location="result" />
+<GENE id="G24" spans="4927~4933" text="CXCL17" location="result" />
+<GENE id="G25" spans="5238~5244" text="CXCL17" location="result" />
+<GENE id="G26" spans="5378~5384" text="CXCL17" location="background" />
+<GENE id="G27" spans="5641~5647" text="CXCL17" location="background" />
+<GENE id="G28" spans="5801~5807" text="CXCL17" location="result" />
+<GENE id="G29" spans="5918~5924" text="CXCL17" location="result" />
+<GENE id="G32" spans="6852~6858" text="CXCL17" location="result" />
+<GENE id="G33" spans="7515~7521" text="CXCL17" location="result" />
+<GENE id="G34" spans="7578~7584" text="CXCL17" location="background" />
+<GENE id="G35" spans="7830~7836" text="CXCL17" location="result" />
+<GENE id="G36" spans="7906~7912" text="CXCL17" location="result" />
+<GENE id="G37" spans="8335~8341" text="CXCL17" location="result" />
+<GENE id="G38" spans="8456~8462" text="CXCL17" location="background" />
+<GENE id="G39" spans="8740~8746" text="CXCL17" location="background" />
+<GENE id="G40" spans="9229~9235" text="CXCL17" location="background" />
+<GENE id="G41" spans="9314~9320" text="CXCL17" location="result" />
+<GENE id="G42" spans="9449~9455" text="CXCL17" location="result" />
+<GENE id="G43" spans="9773~9779" text="CXCL17" location="result" />
+<GENE id="G45" spans="10024~10030" text="CXCL17" location="result" />
+<GENE id="G46" spans="10289~10295" text="CXCL17" location="result" />
+<GENE id="G47" spans="7204~7210" text="CXCL17" location="result" />
+<DISEASE id="D0" spans="26~30" text="ARDS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="104~123" text="respiratory failure" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="464~468" text="ARDS" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="583~592" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D4" spans="605~613" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D5" spans="687~696" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D6" spans="701~709" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D7" spans="836~839" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D8" spans="917~921" text="ARDS" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D9" spans="942~951" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D10" spans="960~963" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D11" spans="967~975" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D12" spans="1078~1087" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D13" spans="2097~2126" text="idiopathic pulmonary fibrosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2718~2730" text="tuberculosis" location="background" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D15" spans="2732~2734" text="TB" location="background" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D16" spans="3111~3120" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D17" spans="3297~3306" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D18" spans="3660~3669" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D19" spans="3320~3328" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D20" spans="3878~3886" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D21" spans="3989~3998" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D22" spans="4014~4022" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D23" spans="4367~4375" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D24" spans="4380~4389" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D25" spans="4751~4759" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D26" spans="4872~4881" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D27" spans="5309~5318" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D28" spans="5999~6008" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D29" spans="6039~6043" text="ARDS" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D30" spans="6760~6768" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D31" spans="6746~6755" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D32" spans="6878~6887" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D34" spans="7274~7283" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D35" spans="8615~8624" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D36" spans="8750~8758" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D37" spans="9079~9087" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D38" spans="9215~9223" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D39" spans="9366~9375" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D40" spans="9379~9387" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D41" spans="9525~9534" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D42" spans="9485~9494" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D43" spans="9629~9638" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D44" spans="9783~9791" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D45" spans="9962~9970" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D46" spans="9997~10000" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D48" spans="10214~10217" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D50" spans="6013~6021" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D51" spans="6311~6319" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<RELATION id="R1" spans="655~679" text="differentially regulated" location="result" relation="dysregulation" />
+<RELATION id="R2" spans="1032~1052" text="diagnostic potential" location="result" relation="diagnostic tool" />
+<RELATION id="R3" spans="2073~2093" text="strongly upregulated" location="result" relation="increased expression" />
+<RELATION id="R4" spans="2629~2640" text="upregulated" location="background" relation="increased expression" />
+<RELATION id="R5" spans="3839~3853" text="high induction" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="CXCL17" diseaseID="D5" diseaseText="influenza" relationID="R1" relationText="differentially regulated" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="CXCL17" diseaseID="D6" diseaseText="COVID-19" relationID="R1" relationText="differentially regulated" />
+<ENTITY_LINKING id="E2" geneID="G3" geneText="CXCL17" diseaseID="D12" diseaseText="influenza" relationID="R2" relationText="diagnostic potential" />
+<ENTITY_LINKING id="E3" geneID="G7" geneText="CXCL17" diseaseID="D13" diseaseText="idiopathic pulmonary fibrosis" relationID="R3" relationText="strongly upregulated" />
+<ENTITY_LINKING id="E4" geneID="G11" geneText="CXCL17" diseaseID="D14" diseaseText="tuberculosis" relationID="R4" relationText="upregulated" />
+<ENTITY_LINKING id="E5" geneID="G11" geneText="CXCL17" diseaseID="D15" diseaseText="TB" relationID="R4" relationText="upregulated" />
+<ENTITY_LINKING id="E6" geneID="G18" geneText="CXCL17" diseaseID="D20" diseaseText="COVID-19" relationID="R5" relationText="high induction" />
+</TAGS>
+</Genomics_ConceptTask>

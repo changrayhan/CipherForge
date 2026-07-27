@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Ethics approval and consent to participate
+Ethical approval was given by the institutional review board at the Nagoya University. The need for informed consent was waived by the retrospective design of the study based on anonym data.
+At our hospital, a working group for the establishment of the NF1 in-hospital medical care network was formed in 2013 by members of pediatrics, neurosurgery, orthopedics, and genetic counselors who have been involved in NF1 medical care. This working group discussed and decided the outlines of medical care network for NF1: departments in charge of medical treatment; flowchart of medical treatment by multiple departments; symptoms that should be noted in medical treatment for NF1 patients according to age. In this process, we had the cooperation of a pediatric/clinical geneticist instructor (S. M.) at the Aichi Developmental Disability Center as an advisor. With the consent of the chairman of each department involved in NF1 medical care, the NF1 in-hospital medical care network of Nagoya University Hospital was established. This network is managed by the director of the Genome Medical Center.
+In January 2014, we started multidisciplinary medical care through the NF1 in-hospital medical care network (Fig.  1 ). For example, if the patient is 15 years old or younger, pediatrics, ophthalmology, neurosurgery, orthopedics are regarded as essential departments, and the items to be treated in each department are evaluated (Table  1 ). If the patient/family wishes, genetic counseling will be provided by a certified genetic counselor. In addition to the four core departments, the network consists of dermatologists, plastic surgeons, psychiatrists, genetic counselors, child life specialists, and medical social workers (Table  2 ). We distribute pamphlets explaining this NF1 medical care network to related hospitals and clinics of our hospital and have them refer NF1 patients to our hospital. Figure 1 Medical treatment flow for NF1 patients under 15 years old in our institution. Table 1 Items to be evaluated by each department in NF1 patients up to 15 years old. Department Mandatory or not Items Pediatrics Mandatory Physical/mental developmental retardation, high blood pressure, exophthalmos, sexual maturity Ophthalmology Mandatory Sight, intraocular pressure, iris nodule, optic nerve glioma Neurosurgery Mandatory Brain tumor, hydrocephalus, optic nerve glioma Orthopedics Mandatory Scoliosis, limb dysplasia, deep-seated neurofibroma, MPNST Dermatology, Plastic Surgery, Psychiatry, Otorhinolaryngology, Others If patient/family wish Skin lesions, cutaneous neurofibromatosis, diffuse neurofibromatosis, developmental disability, hearing, explanation/support to family members, etc Table 2 Medical staff involved in NF1 medical care and related items. Medical staff Genetic counselor Consultation on heredity, patient/family support Child life specialist Partner of childhood, mental support before and after surgery Medical social worker Explanation of the medical insurance system, assistance for various economic, psychological and social problems
+Since the NF1 in-hospital medical care network was launched in January 2014, medical records of NF1 patients who have been seen in this network have been prospectively created. Orthopedic oncologists (Y.N., K.I.) have been in charge of preparing these medical records. The contents are the date of the first visit to our hospital, age at the time of the first visit, gender, family history (including whether familial NF1 or non-familial NF1 is present), the department in which the examination is to be performed and NF1-related signs/symptoms in each department. Based on this record, we investigated the progress of this in-hospital NF1 medical care network since its start. We also conducted an epidemiological survey of NF1-related symptoms in orthopedics from the medical records. This practice and research was conducted in accordance with the principles set out in the Declaration of Helsinki.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="297~300" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D1" spans="455~458" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D2" spans="555~558" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D3" spans="715~718" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D4" spans="964~967" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D5" spans="986~989" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D6" spans="1211~1214" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D7" spans="1821~1824" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D8" spans="1915~1918" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D9" spans="1981~1984" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D10" spans="2085~2088" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D11" spans="2388~2401" text="hydrocephalus" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2403~2421" text="optic nerve glioma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2444~2453" text="Scoliosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2483~2495" text="neurofibroma" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D15" spans="2497~2502" text="MPNST" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2620~2637" text="neurofibromatosis" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D17" spans="2647~2664" text="neurofibromatosis" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D18" spans="2778~2781" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D19" spans="3123~3126" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D20" spans="3209~3212" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D21" spans="3531~3534" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D22" spans="3551~3554" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D23" spans="3631~3634" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D24" spans="3749~3752" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+<DISEASE id="D25" spans="3838~3841" text="NF1" location="result" disease1="genetic disease" disease2="syndrome" />
+</TAGS>
+</Genomics_ConceptTask>

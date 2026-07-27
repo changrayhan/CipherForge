@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The purpose of this research is to penetrate the role of ARGs in COAD and construct a prognostic model of COAD patients with ARGs, which can be used as a method for the prognosis of COAD patients. We also identified the pathways involved in ARGs related to the occurrence of COAD, which can be used to study the role of autophagy in COAD.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="66~70" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="107~111" text="COAD" location="result" disease1="disease of cellular proliferation" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="183~187" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="276~280" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="334~338" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

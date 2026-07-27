@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+This work was supported by Damon Runyon-Rachleff Innovation Award (DR52-18) and NIH/NCI R37 Merit Award (R37CA230636) to AL, as well as NIGMS R35GM138113 to KH The Tisch Cancer Institute and related research facilities are supported by P30 CA196521.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="171~177" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

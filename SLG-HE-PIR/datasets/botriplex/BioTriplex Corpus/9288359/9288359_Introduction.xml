@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Hepatocellular carcinoma (HCC) is the fourth most common cause of cancer-related death worldwide and second most common in Taiwan [ 1 ,  2 ]. For patients with advanced HCC, the prognosis is poor. Sorafenib, a multiple kinase inhibitor, has been the only approved drug for a decade, but the efficacy is limited [ 3 ]. Recently, several drugs including lenvatinib, regorafenib, cabozantinib, and ramucirumab have been approved for the treatment of advanced HCC [ 4 – 7 ].Particularly, the combination of atezolizumab (anti-PD-L1) and bevacizumab (anti-VEGF monoclonal antibody)provided longer survival benefit than sorafenib and has become a new standard therapy in first-line treatment for advanced HCC [ 8 ]. However, little is known for the combination of multi-kinase inhibitor and anti-PD-1.
+Lenvatinib is a multi-tyrosine kinase inhibitor that affects `1–4, platelet-derived growth factor receptor-alpha (PDGFRa), RET, and KIT [ 9 ]. By blocking these pathways, it reduces angiogenesis and suppresses tumor growth. Its potent inhibition of FGFR pathway is considered the primary mechanism for controlling liver cancer. In REFLECT study, lenvatinib demonstrated better response and longer PFS, and non-inferiority of survival than that of sorafenib [ 4 ].
+Immune checkpoint inhibitors have been widely studied in various cancers. Nivolumab and pembrolizumab, two anti-PD-1 agents, become breakthrough therapies in the second-line treatment of advanced HCC [ 10 ,  11 ]. However, in a phase 3 clinical trial (CheckMate-459), nivolumab failed to prove its superiority to sorafenib in the first-line treatment [ 12 ]. Therefore, to explore a potential drug for combination becomes the future development for nivolumab.
+At present, more and more evidence has shown that VEGF pathway inhibitors have immunomodulatory effects [ 13 ]. The combination of VEGF pathway inhibitors and anti-PD-L1 improves treatment efficacy and becomes standard treatment in HCC [ 8 ]. Many multi-kinase inhibitors that block VEGF pathway have been proved to have immunomodulatory effects, including lenvatinib [ 14 ]. Lenvatinib, a potent FGFR inhibitor, not only suppressed the progression of HCC, but also activated the immune response in tumor microenvironment [ 15 ]. Therefore, lenvatinib is potential for the combination of anti-PD-1. However, only a Phase 1 clinical trial showed the efficacy of lenvatinib combined with nivolumab, and no real-world data is reported to respond to the clinical trial [ 16 ]. Hence, the purpose of this study is to explore the clinical efficacy and side effects of lenvatinib combined with nivolumab in the real-world settings.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="864~909" text="platelet-derived growth factor receptor-alpha" location="background" />
+<GENE id="G1" spans="911~917" text="PDGFRa" location="background" />
+<GENE id="G2" spans="920~923" text="RET" location="background" />
+<GENE id="G3" spans="929~932" text="KIT" location="background" />
+<DISEASE id="D0" spans="1~25" text="Hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="27~30" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="67~73" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="170~173" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="700~703" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1111~1123" text="liver cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1326~1332" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1457~1460" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1953~1956" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2173~2176" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

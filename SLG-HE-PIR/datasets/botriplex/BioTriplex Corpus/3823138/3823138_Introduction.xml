@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Facioscapulohumeral muscular dystrophy (FSHD1A: OMIM #158900) is one of the most common hereditary muscle disorders, affecting seven individuals in 100,000 ( http://www.orpha.net ), and is associated with contractions of the  D4Z4  repeat array in the 4q35 subtelomeric region [ 1 – 3 ]. In non-affected individuals, this array comprises 11–100 tandem copies of the 3.3-kb  D4Z4  element, whereas in patients with FSHD, only 1–10  D4Z4  copies are left [ 1 ,  3 ], and at least one  D4Z4  copy is necessary to develop the disorder [ 4 ]. A similar DNA hypomethylation associated with an open chromatin structure is observed both on contracted  D4Z4  arrays in FSHD1A and on normal-size arrays in FSHD1B (OMIM #158901) [ 5 – 7 ]. Our group has identified the double homeobox 4 ( DUX4)  gene within each  D4Z4  unit [ 8 ] but detection of its mRNA proved very difficult because of its very low abundance and high GC content (discussed in supporting information of [ 9 ]). We could identify stable  DUX4  mRNAs in FSHD muscle cells and show that they were transcribed from the most distal  D4Z4  unit of the repeat array and extended to a polyadenylation signal in the flanking  pLAM  region [ 9 ]. Those findings were confirmed by other groups which further demonstrated this polyadenylation site was required for  DUX4  mRNA stabilization and to develop FSHD from a contracted allele [ 10 ]. The full-length mRNA ( DUX4-fl ) transcribed from this distal  D4Z4  unit contains the entire  DUX4  open-reading frame (ORF) [ 9 ,  11 ,  12 ]. In addition, a shorter transcript ( DUX4-s ) that might express a protein limited to its double homeodomain was described [ 11 ]. The  DUX4-fl  mRNA was detected in most FSHD muscle cells and biopsies, whereas the  DUX4-s  mRNA was detected both in healthy control and some FSHD samples [ 11 ]. The  DUX4-fl  mRNA was also detected in FSHD1B muscle cells [ 11 ]. In addition, we have characterized a  DUX4  homologue mapped 42 kb centromeric of the  D4Z4  repeat array and named  DUX4c . The encoded protein is expressed in healthy muscle cells and induced in FSHD [ 13 ]. Because it activates myoblast proliferation and inhibits their differentiation, DUX4c might be involved in muscle regeneration, and changes in its expression could contribute to the FSHD pathology [ 13 – 15 ]. In aggregate, our discovery of the functional  DUX4  and  DUX4c  genes in repeated DNA elements has contributed to the obsolescence of the ‘junk DNA’ concept [ 16 ].
+Detection of the DUX4 protein proved a technical challenge because of its particularly low abundance. Our initial detection in primary FSHD but not control myoblast cultures [ 9 ] was confirmed by Snider  et al . who found it was in fact expressed at a relatively abundant level in very few nuclei (1/1000 myoblasts) [ 11 ]. DUX4 overexpression in cell cultures led to cell death [ 17 ]. Intriguingly, myotubes, but not myoblasts, were somehow protected against DUX4-induced cell death [ 18 – 20 ]. The DUX4 protein is a transcription factor that targets a large set of genes, some of which encode other transcription factors that in turn target additional genes [ 9 ,  18 ,  19 ,  21 ]. Indeed, DUX4 directly activates the  PITX1  (Paired-like homeodomain transcription factor 1) gene which is specifically induced 10- to 15-fold in FSHD muscles as compared with 11 other neuromuscular disorders [ 9 ]. The PITX1 protein itself is a homeodomain transcription factor involved in hindlimb identity specification during embryogenesis, and can induce adult muscle atrophy [ 22 ]. A large number of genes were identified in the deregulation cascade caused by DUX4 overexpression either in mouse C2C12 cells [ 18 ] or human primary myoblasts [ 21 ]. DUX4 expression in myoblast cultures recapitulated key features of the FSHD molecular phenotype,  i.e . repression of MyoD and its target genes leading to diminished myogenic differentiation, repression of glutathione oxydo-reduction pathway components resulting in increased sensitivity to oxidative stress, muscle atrophy and activation of germline-specific genes [ 18 ,  19 ,  21 ]. We have recently demonstrated the DUX4 causal role in the atrophy process by gain and loss of function experiments in primary human myoblasts followed by differentiation to myotubes. DUX4 overexpression induced hypomorphic myotube formation associated with the induction of E3 ubiquitin ligases (MURF1 and Atrogin1) typical of muscle atrophy, whereas RNA interference or antisense oligonucleotides targeting the DUX4 mRNA reversed this phenotype [ 16 ]. In addition, DUX4 overexpression in mouse muscles  in vivo  caused a TP53-dependent myopathy requiring the DUX4 DNA binding domain [ 23 ]. In aggregate, these studies confirmed the major role played by DUX4 in the pathological mechanism of FSHD through the initiation of a large transcription deregulation cascade (reviewed in [ 20 ]). The question that still remained unclear was how such a scarce protein could lead to the muscle pathology in FSHD.
+In the present study, we focused on DUX4 protein expression and degradation in FSHD myotubes. Barro  et al . have established a panel of primary CD56 +  myoblasts derived from patients with FSHD and matched healthy individuals (controls). These FSHD myoblasts fused and differentiated into myotubes with morphological abnormalities: they were either thin ‘atrophic’ myotubes or disorganized ones with clusters of non-aligned nuclei. Both phenotypes were found in different proportions in each myotube culture derived from a patient with FSHD. A myotube is a multinucleated syncitium in which nuclei share a large cytoplasm. Both muscle-specific or housekeeping genes are transcribed in stochastic pulses that occur independently in individual myonuclei [ 25 ]. The mRNAs expressed from a given myonucleus are translated in its adjacent cytoplasmic domain, and if the synthesized proteins carry a nuclear localization signal (NLS), they are imported into this active nucleus. As initially shown with a beta-galactosidase protein fused to a NLS, these proteins can also be imported at a reduced level into nuclei on either side of the source of expression [ 26 ]. This diffusion phenomenon was confirmed by several research groups [ 25 ,  27 ,  28 ], but was never described in pathological myotubes. In this study we have investigated DUX4 and PITX1 expression in myotubes from affected and non-affected muscles of patients with different age or gender. Our results suggest that as described for other muscle transcription factors, the DUX4 protein appears in a single nucleus where the gene is likely stochastically activated and diffuses to adjacent myonuclei. We propose that this DUX4 expression pulse initiates a transcriptional amplification cascade [ 19 ] that progressively extends in consecutive myonuclei to the whole myotube causing the FSHD pathological phenotype.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="759~776" text="double homeobox 4" location="background" />
+<GENE id="G1" spans="779~783" text="DUX4" location="background" />
+<GENE id="G2" spans="997~1001" text="DUX4" location="background" />
+<GENE id="G3" spans="1314~1318" text="DUX4" location="background" />
+<GENE id="G4" spans="1415~1419" text="DUX4" location="background" />
+<GENE id="G5" spans="1487~1491" text="DUX4" location="background" />
+<GENE id="G6" spans="1573~1577" text="DUX4" location="background" />
+<GENE id="G7" spans="1672~1676" text="DUX4" location="background" />
+<GENE id="G8" spans="1752~1756" text="DUX4" location="background" />
+<GENE id="G9" spans="1837~1841" text="DUX4" location="background" />
+<GENE id="G10" spans="1938~1942" text="DUX4" location="background" />
+<GENE id="G11" spans="2017~2021" text="DUX4" location="background" />
+<GENE id="G12" spans="2190~2194" text="DUX4" location="background" />
+<GENE id="G13" spans="2367~2371" text="DUX4" location="background" />
+<GENE id="G14" spans="2378~2382" text="DUX4" location="background" />
+<GENE id="G15" spans="2503~2507" text="DUX4" location="background" />
+<GENE id="G16" spans="2811~2815" text="DUX4" location="background" />
+<GENE id="G17" spans="2948~2952" text="DUX4" location="background" />
+<GENE id="G18" spans="2989~2993" text="DUX4" location="background" />
+<GENE id="G19" spans="3182~3186" text="DUX4" location="background" />
+<GENE id="G20" spans="3211~3216" text="PITX1" location="background" />
+<GENE id="G21" spans="3219~3265" text="Paired-like homeodomain transcription factor 1" location="background" />
+<GENE id="G22" spans="3394~3399" text="PITX1" location="background" />
+<GENE id="G23" spans="3641~3645" text="DUX4" location="background" />
+<GENE id="G24" spans="3731~3735" text="DUX4" location="background" />
+<GENE id="G25" spans="3849~3853" text="MyoD" location="background" />
+<GENE id="G26" spans="4151~4155" text="DUX4" location="background" />
+<GENE id="G27" spans="4300~4304" text="DUX4" location="background" />
+<GENE id="G28" spans="4413~4418" text="MURF1" location="background" />
+<GENE id="G29" spans="4423~4431" text="Atrogin1" location="background" />
+<GENE id="G30" spans="4529~4533" text="DUX4" location="background" />
+<GENE id="G31" spans="4584~4588" text="DUX4" location="background" />
+<GENE id="G32" spans="4640~4644" text="TP53" location="background" />
+<GENE id="G33" spans="4678~4682" text="DUX4" location="background" />
+<GENE id="G34" spans="4773~4777" text="DUX4" location="background" />
+<GENE id="G35" spans="5058~5062" text="DUX4" location="result" />
+<GENE id="G36" spans="5101~5105" text="FSHD" location="background" />
+<GENE id="G37" spans="6356~6360" text="DUX4" location="background" />
+<GENE id="G38" spans="6365~6370" text="PITX1" location="background" />
+<GENE id="G39" spans="6557~6561" text="DUX4" location="background" />
+<GENE id="G40" spans="6705~6709" text="DUX4" location="background" />
+<DISEASE id="D0" spans="1~39" text="Facioscapulohumeral muscular dystrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="41~47" text="FSHD1A" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="415~419" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="661~667" text="FSHD1A" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="697~703" text="FSHD1B" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1354~1358" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1707~1711" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1811~1815" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1012~1016" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1872~1878" text="FSHD1B" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2097~2101" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2292~2296" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2621~2625" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="3320~3324" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="3540~3554" text="muscle atrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="3802~3806" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="4040~4054" text="muscle atrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="4444~4458" text="muscle atrophy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="4655~4663" text="myopathy" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="4811~4815" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="5016~5020" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="5212~5216" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="5267~5271" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="5559~5563" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="6869~6873" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="2274~2287" text="contribute to" location="background" relation="pathological role" />
+<RELATION id="R1" spans="3294~3316" text="induced 10- to 15-fold" location="background" relation="increased expression" />
+<RELATION id="R3" spans="3875~3885" text="leading to" location="background" relation="pathological role" />
+<RELATION id="R4" spans="4589~4603" text="overexpression" location="background" relation="increased expression" />
+<RELATION id="R6" spans="4752~4762" text="major role" location="background" relation="pathological role" />
+<RELATION id="R7" spans="4785~4807" text="pathological mechanism" location="background" relation="pathological role" />
+<RELATION id="R8" spans="6857~6864" text="causing" location="result" relation="pathological role" />
+<RELATION id="R2" spans="3527~3533" text="induce" location="background" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="DUX4" diseaseID="D11" diseaseText="FSHD" relationID="R0" relationText="contribute to" />
+<ENTITY_LINKING id="E1" geneID="G20" geneText="PITX1" diseaseID="D13" diseaseText="FSHD" relationID="R1" relationText="induced 10- to 15-fold" />
+<ENTITY_LINKING id="E3" geneID="G25" geneText="MyoD" diseaseID="D16" diseaseText="muscle atrophy" relationID="R3" relationText="leading to" />
+<ENTITY_LINKING id="E4" geneID="G31" geneText="DUX4" diseaseID="D18" diseaseText="myopathy" relationID="R4" relationText="overexpression" />
+<ENTITY_LINKING id="E5" geneID="G34" geneText="DUX4" diseaseID="D19" diseaseText="FSHD" relationID="R6" relationText="major role" />
+<ENTITY_LINKING id="E6" geneID="G34" geneText="DUX4" diseaseID="D19" diseaseText="FSHD" relationID="R7" relationText="pathological mechanism" />
+<ENTITY_LINKING id="E7" geneID="G40" geneText="DUX4" diseaseID="D24" diseaseText="FSHD" relationID="R8" relationText="causing" />
+<ENTITY_LINKING id="E8" geneID="G22" geneText="PITX1" diseaseID="D14" diseaseText="muscle atrophy" relationID="R2" relationText="induce" />
+</TAGS>
+</Genomics_ConceptTask>

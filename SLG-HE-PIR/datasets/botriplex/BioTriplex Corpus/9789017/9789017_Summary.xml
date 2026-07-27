@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+There is an increased usage of TRT in the aging male population mostly due to LOH, a condition associated with important health deteriorations. Since prostate is a target organ for androgens and the anti-androgenic strategies that are used to treat and palliate BPH and PC, the possible influence of TRT on prostate health becomes apparent.
+The present review summarizes existing data on the associations between endogenous hormone concentrations and prostate growth and concludes that circulating concentrations of androgens do not appear to be associated with the risk of development of BPH. On the contrary, TRT appears to be associated with improvement of BPH associated symptoms. It becomes obvious that other factors than androgens are crucial for development of clinical BPH, such as the metabolic syndrome and its components, inflammation, and cellular senescence.
+Analysis of existing data on the associations between endogenous hormone concentrations and PC, indicates that circulating androgens do not appear to be associated with the risk of PC initiation or progression. The explanation for this apparent controversy with the efficacy of anti-androgen strategies of PC, could relate to the prostate AR saturation model, which can explain why physiological levels of testosterone do not affect PC cells. PSA levels are in general lower in men with LOH and may mask a cancer. Therefore, monitoring of PSA before and during TRT is recommended. Patients on TRT should be treated as eugonadal men regarding prostate check-up, meaning that MRI and biopsies should be performed with the same indications (at the same PSA values). TRT of hypogonadal men does not in general increase the risk for PC. Men with low-risk PC or patients cured from PC, and with hypogonadism, could probably safely be treated with TRT, while in patients with advanced prostate cancer a more restricted attitude to TRT is reasonable.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1213~1215" text="AR" location="result" />
+<DISEASE id="D0" spans="271~273" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="966~968" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1055~1057" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1180~1182" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1307~1309" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1380~1386" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="1702~1704" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1724~1726" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1750~1752" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1763~1775" text="hypogonadism" location="result" disease1="disease of anatomical entity" disease2="syndrome" />
+<DISEASE id="D10" spans="1852~1867" text="prostate cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

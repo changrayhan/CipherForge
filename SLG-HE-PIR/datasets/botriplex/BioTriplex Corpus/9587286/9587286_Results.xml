@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Elevated HDAC6 expression in colon cancer cells promotes the M2 polarization of macrophages
+To evaluate the correlation between HDAC6 expression and macrophage M2 polarization in the colon cancer immune microenvironment, we first collected tissue samples from 52 patients with stage II-IV colon cancer for multiplex immunohistochemistry (mIHC) analysis (Fig.  1A ). The median value was selected to separate specimens into groups with low and high HDAC6 expression. The data showed that HDAC6 expression was positively correlated with colon cancer metastasis and the tumor stage (Table  1 ), and that the proportion of infiltrating CD163 + CD68 +  macrophages was higher in the high-HDAC6 expression group (Fig.  1B ), suggesting that the level of HDAC6 expression in tumor cells is related to the proportion of M2 macrophage infiltration. To further explore the effect of HDAC6 on macrophage polarization, we utilized an in vitro co-culture model of stable HDAC6-knockdown colon cancer cells and macrophages from healthy donors (Fig.  1C–E ). HDAC6 knockdown in HCT116 cells significantly increased the proportion of CD86 + CD206 -  macrophages and decreased the proportion of CD86 - CD206 +  macrophages (Fig.  1F ). QPCR results further showed the expression of M2-related genes (CD206, Arg-1, and IL-10) significantly decreased and M1-related genes (CD86, INOS) increased in macrophages when HDAC6 was knockdown in HCT116 cells (Fig.  1G ). To detect the effect of HDAC6 on macrophage polarization in vivo, we subcutaneously injected CT26-shCtrl or CT26-shHDAC6 cells suspension into BALB/c mice ( n  = 12). After 22 days, the proportion of infiltrating M2 macrophages in mouse tumors was significantly decreased when HDAC6 was knocked down in CT26 cells (Fig.  1H–I ). These results support the hypothesis that HDAC6 in colon cancer promotes macrophage polarization towards the M2-like phenotype. Fig. 1 Elevated HDAC6 expression in colon cancer cells promotes the M2 polarization of macrophages. A  HDAC6 protein expression in colon cancer and M2 macrophage infiltration in the microenvironment were evaluated using an mIHC platform (panel: CK/HDAC6/CD68/CD163). Representative mIHC images are shown, scale bar, 50 μm.  B  Fifty-two patients were divided into two groups according to HDAC6 expression using the median value as the cut-off, and then the proportion of CD68 + CD163 + /CD68 +  cells were calculated.  C ,  D  Construction of HCT116 cell line with stable HDAC6 knockdown. Tubastatin A HCl is HDAC6 selective inhibitor and tubulin is the deacetylation substrate of HDAC6.  E  Schema of the construction of an in vitro model of stable HDAC6 knockdown colon cancer cells cocultured with macrophages derived from PBMCs.  F  Flow cytometry was used to assess the surface expression of CD11b, CD86 and CD206 in shCtrl- and shHDAC6-treated HCT116 cells.  G  QPCR detected expression of M1 and M2 polarization related genes of cocultured macrophages in shCtrl- and shHDAC6-treated HCT116 cells.  H  Construction of CT26 cell line with stable HDAC6 knockdown.  I  CT26-shCtrl or CT26-shHDAC6 cells suspension were subcutaneously injected into BALB/c mice (3 × 10 6  cells per mouse,  n  = 12). After 22 days, flow cytometry was used to assess the surface markers of macrophage polarization in mouse tumor tissues. H6 is the abbreviation of HDAC6. Data were shown as the mean ± SD of three independent experiments, * P  < 0.05; ** P  < 0.01; *** P  < 0.001; **** P  < 0.0001. Table 1 χ 2 test). Relationship of HDAC6 expression with metastasis ( HDAC6 expression Variable Low High P value Age – – 0.4022 ≤60 years 13 16 – >60 years 13 10 – Gender – – 0.0479  Male 12 19 –  Female 14 7 – Lymph node metastasis – – 0.012  Negative 19 10 –  Positive 7 16 – Distant metastasis – – 0.0385  Negative 21 14 –  Positive 5 12 –  Stage – – 0.0006  I, II 16 4 –  III, IV 10 22 –
+HDAC6 promotes sIL-6R release in colon cancer cells by increasing the protease activity of ADAM17
+To determine the possible pathway by which HDAC6 affects macrophage polarization in the colon cancer microenvironment, we used a human inflammatory antibody array kit to analyze the culture medium of HCT116 cells exposed to different treatment conditions (Supplemental Fig.  1A ). The results showed that sIL-6R contents in conditioned cell medium of HDAC6-knockdown cells or cells treated with a selective HDAC6 inhibitor, Tubastatin A HCl were significantly lower than that in the control group (Fig.  2A  and Supplemental Fig.  1B ). It has been reported that sIL-6R can activate IL-6/IL-6R/gp130 signaling pathway and promote M2 macrophage polarization [ 21 ,  32 ]. We firstly detected the phosphorylation of STAT3 in the macrophages cocultured with HCT116 cells. Compared to control cells, the phosphorylation of STAT3 in macrophages significantly decreased after cocultured with HDAC6 knockdown group (Fig.  2B ). To validate the chip results, we measured the sIL-6R contents in cell culture medium collected from HCT116 and HT29 cells using ELISA. The results showed that the levels of sIL-6R were significantly decreased when HDAC6 was knocked down or inhibited by using selective inhibitor (Fig.  2C ). In addition, the sIL-6R content was restored after HDAC6 overexpression (Fig.  2D ). The above experimental results show that HDAC6 can promote sIL-6R release in colon cancer cells, which may be one of the reasons why HDAC6 promotes macrophage M2 polarization. Fig. 2 HDAC6 promotes sIL-6R release in colon cancer cells by increasing the activity of ADAM17. A  Left, analysis of cytokine levels in the culture medium of HCT116 cells stably expressing shCtrl or shHDAC6 or treated with the HDAC6 inhibitor Tubastatin A HCl by using the AAH-INF-3 RayBiotech antibody chip. Right, the quantified average signal value of sIL-6R.  B  Western blot analysis of the total protein expression and phosphorylation level of STAT3 in macrophages cocultured with HCT116 cells.  C ,  D  SIL-6R contents in the culture medium of HCT116 and HT29 cells in the indicated groups determined by ELISA.  E ,  F  qRT-PCR analysis of the mRNA expression levels of mIL-6R and sIL-6R in HCT116 cells with stable HDAC6 knockdown.  G  Western blot analysis of mIL-6R protein levels in HCT116 and HT29 cells with stable knockdown of HDAC6.  H  Western blot analysis of ADAM17 protein levels in HCT116 and HT29 cells with stable HDAC6 knockdown.  I  Detection of the cleavage activity of ADAM17 (TACE Substrate IV, Fluorogenic) in  G . AD17 is the abbreviation of ADAM17; H6 is the abbreviation of HDAC6; T is the abbreviation of Tubastatin A HCl. CM is the abbreviation of conditioned medium. Data were shown as the mean ± SD of three independent experiments; ns no significance, *** P  < 0.001; **** P  < 0.0001.
+To further explore the pathway by which HDAC6 affects sIL-6R release, we subjected stable HDAC6-knockdown HCT116 cells to qRT-PCR analysis and found that HDAC6 knockdown did not affect the mRNA transcription levels of sIL-6R or mIL-6R (Fig.  2E, F ). In addition, HDAC6 knockdown did not affect the protein expression of mIL-6R in colon cancer cells (Fig.  2G ). Since the majority of sIL-6R is derived from proteolysis mediated by the metalloprotease ADAM17 [ 13 – 15 ], we knocked down ADAM17 with siRNA to verify its regulatory effect on sIL-6R release in colon cancer cells. The results confirmed that ADAM17 shed IL-6R in HCT116 cells (Supplemental Fig.  2A, B ). Furthermore, knockdown of ADAM17 in HCT116 cells inhibited M2 polarization of cocultured macrophages (Supplemental Fig.  2C, D ). To explore whether HDAC6 could affect ADAM17 expression and its activity, we measured the levels of the protein expression of ADAM17 and the cutting substrate peptides in colon cancer cells. The results showed that ADAM17 activity was significantly reduced after HDAC6 knockdown, while the protein expression of ADAM17 remains unchanged (Fig.  2H, I ). Therefore, we confirmed that HDAC6 affects sIL-6R release in colon cancer cells by regulating the activity of ADAM17.
+HDAC6 promotes sIL-6R release by activating the TAK1-p38-ADAM17 axis
+The activity of ADAM17 is affected by many factors [ 33 ]. Phosphorylation of the threonine residue at position 735 (T735) in the intracellular domain has been confirmed to promote the protease activity of ADAM17, which is mediated by ERK1/2 and p38 MAPK [ 34 ,  35 ]. Therefore, the phosphorylation of ADAM17 (T735) was assessed in HDAC6 knockdown cells. The results showed that HDAC6 knockdown inhibited the phosphorylation of ADAM17 at T735 and upstream kinase (Fig.  3A ). Thus, HDAC6 may regulate ADAM17 activity by affecting the intracellular phosphorylation of ADAM17 to promote the release of sIL-6R. However, previous studies showed no evidence that ADAM17 is a direct substrate of HDAC6. HDAC6 may indirectly regulate phosphorylation through interaction with any unknown kinases. Fig. 3 HDAC6 promotes sIL-6R release by activating the TAK1–p38–ADAM17 axis. A  Western blot analysis of the total protein expression and phosphorylation of ADAM17, ERK1/2 and p38. GAPDH was used as an internal reference protein.  B  Schematic of the experimental procedure used to analysis of HDAC6 interacting proteins. The unique peptides and peptide-spectrum matches of TAK1 are 4, which is credible.  C . Stable knockdown of TAK1 in HCT116 cells.  D ,  E  Analysis of sIL-6R levels in the cell media by ELISA  D  and detection of ADAM17 activity  E  in HCT116 cells after TAK1 knockdown.  F  Flow cytometry assessed CD11b, CD86 and CD206 expression of cocultured macrophages in shCtrl- and shTAK1-treated HCT116 cells.  G  QPCR detected the expression of M1 and M2 polarization related genes of cocultured macrophages in shCtrl- and shTAK1-treated HCT116 cells.  H  Treatment with the TAK1 selective inhibitor Takinib decreased TAK1 phosphorylation in HCT116 cells.  I ,  J  Analysis of sIL-6R levels in the supernatants by ELISA  I  and detection of ADAM17 activity  J  in HCT116 cells after treated with Takinib.  K  Western blot analysis of TAK1 total protein expression and phosphorylation in HCT116 and HT29 cells with stable HDAC6 knockdown. Data were shown as the mean ± SD of three independent experiments, * P  < 0.05; ** P  < 0.01; *** P  < 0.001; **** P  < 0.0001.
+To further explore the mechanism more directly, protein mass spectrometry was used to detect proteins that can interact with HDAC6 in HCT116 cells. The mass spectrometry results did not show that HDAC6 interacts with p38, ERK, or ADAM17. However, the kinase TAK1, which is upstream of the MAPK signaling pathway, was specifically enriched in the HDAC6-overexpression group (Fig.  3B ). To evaluate whether TAK1 was involved in the regulatory axis of sIL-6R release, we measured the ADAM17 activity and sIL-6R content when TAK1 was stably knocked down with shRNA as well as kinase activity inhibition by the selective inhibitor Takinib. As we expected, ADAM17 activity and sIL-6R secretion in HCT116 cells with TAK1 knockdown (Fig.  3C–E ) or activity inhibition (Fig.  3H–J ) were significantly reduced compared with those in control cells. Furthermore, knockdown of TAK1 in HCT116 cells inhibited M2 polarization of cocultured macrophages (Fig.  3F, G ). To clarify whether HDAC6 is upstream of TAK1, we further examined the protein expression and phosphorylation of TAK1 in HCT116 and HT29 cells. Compared to control cells, shHDAC6-treated cells showed no significant difference in total TAK1 protein expression but exhibited a significant decrease in TAK1 phosphorylation (Fig.  3K ). Therefore, HDAC6 promotes sIL-6R secretion possibly by regulating the kinase activity of TAK1 to activate its downstream signaling pathways.
+Inhibition of TAK1 activation blocks the HDAC6-induced activation of the TAK1-ADAM17 axis, release of sIL-6R and macrophage M2 polarization
+We further verified whether HDAC6 affects downstream phenotypes by promoting TAK1 phosphorylation and activation. HDAC6 was firstly overexpressed in HCT116 or HT29 cells and then the cells were treated with the TAK1 selective inhibitor Takinib. The results indicated that the phosphorylation of TAK1, p38, and ADAM17 was significantly increased after HDAC6 overexpression and was restored to normal levels after treatment with Takinib (Fig.  4A ). Similarly, the content of sIL-6R in the conditioned media of HCT116 cells increased when HDAC6 was overexpressed, and consistently decreased when treated with Takinib (Fig.  4B ). Takinib could further inhibit the increase in the M2 polarization of macrophages induced by HDAC6 (Fig.  4C, D ). In addition, the M2 polarization of macrophages was also reduced in the group treated with Takinib alone compared with the control group. In summary, these results show that the activation of TAK1 and downstream signal transduction play a critical role in the process, which HDAC6 promotes the release of sIL-6R and the polarization of M2 macrophages in colon cancer. Fig. 4 Inhibition of TAK1 activation blocks the HDAC6-induced activation of the TAK1–ADAM17 axis, release of sIL-6R and macrophage M2 polarization. A  Western blot analysis of the phosphorylated and total protein expression of TAK1, ADAM17, and p38 in colon cancer cells treated with DMSO or Takinib (TAK1 selective inhibitor) after transfection with the empty vector or an HDAC6 overexpression plasmid.  B  Analysis of sIL-6R contents in the supernatants of HCT116 and HT29 cells in the indicated groups by ELISA.  C  Flow cytometry was used to evaluate the surface expression of CD11b, CD86, and CD206 of cocultured macrophages in the indicated groups. The statistical graphs (right) show the percentages of CD86 + CD206 −  and CD86 − CD206 +  cells among CD11b +  cells.  D  QPCR detected the expression of M1 and M2 polarization related genes of cocultured macrophages in the indicated groups. Data were shown as the mean ± SD of three independent experiments, * P  < 0.05; ** P  < 0.01; *** P  < 0.001; **** P  < 0.0001.
+HDAC6 interacts with TAK1
+To figure out how HDAC6 influences TAK1 phosphorylation and activation, coimmunoprecipitation was primarily used to verify the interaction between HDAC6 and TAK1. Flag-tagged HDAC6 was co-expressed with HA-TAK1 in HEK293T cells, and a significant fraction of HA-TAK1 could be co-precipitated with an anti-Flag antibody (Fig.  5A ). Flag-HDAC6 could also be pulled down by HA-TAK1 (Fig.  5B ). Further, reversible coimmunoprecipitation confirmed the interaction between endogenous expressed TAK1 and HDAC6 (Fig.  5C, D ). In addition, to identify the definitive binding domain between HDAC6 and TAK1, we used a series of truncated fragments of the two proteins and found that the 1-840 aa region of HDAC6, which contains two deacetylase activity domains, binds full-length TAK1. Similarly, the 1-300 aa region of TAK1, which includes the kinase domain, bound full-length HDAC6 (Fig.  5E, F ). These interaction domains provided evidence that HDAC6 may regulate TAK1 activation depending on its deacetylase domain. In HCT116 cells, HA-tagged TAK1 was coexpressed with HDAC6-Flag and HDAC6 deacetylase mutants (HDAC6-H216/611A-Flag) [ 36 ]. We found that the level of phosphorylated TAK1 was significantly increased after HDAC6 overexpression, while TAK1 phosphorylation did not change in the group expressing the HDAC6 deacetylase mutants, which have lacked deacetylation ability, compared with the control group (Fig.  5G ). Taken together, these results suggest that HDAC6 may regulate the kinase activity of TAK1 through deacetylation TAK1. Fig. 5 HDAC6 interacts with TAK1. A ,  B  Interaction between HDAC6 and TAK1 was assessed by co-expressing the proteins in HEK293T cells.  C ,  D  Analysis of the endogenous interaction between TAK1 and HDAC6 in HCT116 cells by immunoprecipitation.  E ,  F  Binding domains between HDAC6 and TAK1 were determined using constructs expressing full-length and truncated HDAC6 and TAK1.  G . Phosphorylation of exogenously expressed HA-TAK1 evaluated after transfection with the empty vector, Flag-HDAC6-WT or Flag-HDAC6-H216/611A. Whole-cell lysates were immunoprecipitated with an anti-HA antibody, and the precipitated proteins were probed with a p-TAK1(T184/187) antibody. WCL is the abbreviation of whole-cell lysate. WT is the abbreviation of wild type.
+HDAC6 promotes TAK1 phosphorylation by deacetylating it at T178
+Previous studies have shown that the acetyltransferase YopJ can catalyze the acetylation of serine and threonine residues in the kinase domain of TAK1, thereby preventing the phosphorylation of these sites and activating the downstream signaling pathways [ 31 ]. In addition, the analysis of posttranslational modifications by mass spectrometry revealed that lysine residues in TAK1 were acetylated, but the effect of lysine acetylation on the function of TAK1 has not been studied [ 31 ]. Since the acetylation of lysine residues is more common and easier to detect, we first tested whether lysine residues in TAK1 can be acetylated. Unexpectedly, the endogenous immunoprecipitation results showed that the acetylation of lysine residues in TAK1 was almost undetectable, indicating that HDAC6 may not regulate lysine acetylation of TAK1 (Supplemental Fig.  3A ). To identify the acetylated functional sites of TAK1, we immunoprecipitated endogenous TAK1 from HCT116 cells and performed mass spectrometry assay. The mass spectrometric analysis suggested the acetylation site of TAK1 is T178 (threonine 178), which locates in the kinase domain. Sequence alignments in different species revealed that that T178 is a highly evolutionarily conserved residue, indicating the potentially critical role for T178 in the function of TAK1 (Fig.  6A ). Fig. 6 HDAC6 upregulates TAK1 phosphorylation by deacetylating TAK1 at T178. A  T178 in TAK1 is evolutionarily conserved.  B  Acetylation of the T178 residue of TAK1 as mimicked (left, wild type TAK1; right, T178Ac TAK1). The related sites are marked in the picture.  C ,  D  HA-tagged TAK1 was coexpressed with the empty vector or Flag-HDAC6, and an HA-tagged TAK1 acetylation mimic mutant (left, T178Q) or deacetylation mimic mutant (right, T178R) was coexpressed with the empty vector or Flag-HDAC6. After the transfection of HCT116 cells, total cell lysates were immunoprecipitated with an anti-HA antibody, and the precipitated proteins were probed with a p-TAK1 (T184/187) antibody.  E  HA-tagged TAK1-T178R or vector was overexpressed in HCT116 cells.  F  Analysis of sIL-6R levels in the cell media by ELISA.  G  Flow cytometry assessed the surface expression of CD11b, CD86 and CD206 of cocultured macrophages in the indicated groups.  H  QPCR detected the expression of M1 and M2 polarization related genes of cocultured macrophages in the indicated groups. Data were shown as the mean ± SD of three independent experiments, * P  < 0.05; ** P  < 0.01; *** P  < 0.001.
+It has been reported that the phosphorylation of T178, T184, and T187 residues of TAK1 is important for TAK1-mediated signal transduction [ 28 ,  37 ,  38 ]. Since the T184 and T187 residues are the key sites of TAK1 activation, these two sites were used to detect the phosphorylation of TAK1. We simulated the acetylation of TAK1 at T178 to preliminarily predict the corresponding effect on TAK1 activation. The AlphaFold model was performed to predict the protein structure of TAK1, and it was found that the addition of an acetyl group on the T178 residue of TAK1 could change the spatial conformations of the T184 and T187 sites. Moreover, spatially, the three sites are relatively close, and the acetylation of T178 may affect the phosphorylation modification of the other two sites or their interaction with other molecules, further affecting the phosphorylation and activation of TAK1 (Fig.  6B ). To further examine the associated effects, we mutated the T178 residue to a glutamine residue (to mimic acetylation) (T178Q) or an arginine residue (to mimic deacetylation) (T178R). The results showed that when the T178 residue of TAK1 was mutated, the HDAC6-mediated regulation of TAK1 phosphorylation was abolished, indicating that HDAC6 exerts its effect by acting on the T178 residue. In addition, in the absence of HDAC6, the phosphorylation of the T178R mutant was increased, while that of the T178Q mutant was decreased, showing that deacetylation at T178 promotes the phosphorylation of TAK1 (Fig.  6C, D ). To further elucidate the function of deacetylation of T178, we overexpressed vector or TAK1-T178R to mimic TAK1 deacetylation in HCT116 cells (Fig.  6E ). In this situation, HCT116 cells with overexpression of TAK1-T178R released more sIL-6R than the vector group (Fig.  6F ) and promoted polarization of cocultured macrophages to M2 subtype (Fig.  6G, H ). Collectively, the above results indicate that HDAC6-mediated T178 deacetylation positively regulates TAK1 phosphorylation.
+Phosphorylation of TAK1 is positively correlated with HDAC6 expression in colon cancer
+Our findings demonstrate that HDAC6 promotes the phosphorylation and activation of TAK1 by deacetylating it in colon cancer cells. Thus, we investigated the protein levels of phosphorylated TAK1, TAK1, and HDAC6 in human colon cancer. We performed a western blot analysis of 38 fresh postoperative colon cancer tissue specimens (Fig.  7A  and Supplemental Fig.  4A ). In these 38 samples, HDAC6 expression was significantly positively associated with phosphorylated TAK1 ( r  = 0.5889,  p  < 0.001; Fig.  7B ). Moreover, the proportion of infiltrating CD163 + CD68 +  macrophages was higher in the high-phosphorylated TAK1 expression group and high-HDAC6 expression group (Fig.  7C, D ). These clinical data indicate that TAK1 phosphorylation is positively correlated with HDAC6 expression and is related to the proportion of M2 macrophage infiltration in colon cancer specimens. To further verify the regulatory axis in vivo, we detected the critical nodes in tumor tissues of xenograft mouse model originating from HCT116-shCtrl and HCT116-shHDAC6 cells by western blot. The results showed that knockdown of HDAC6 inhibited phosphorylation of TAK1, p38, and ADAM17 in colon cancer xenograft mouse model, which were consistent with results in vitro (Fig.  7E ). Therefore, the phosphorylation of TAK1 and HDAC6 may be potential biomarkers for human colon cancers. Fig. 7 TAK1 phosphorylation is positively correlated with HDAC6 expression in colon cancer. A  Protein was extracted from 38 fresh postoperative colon cancer tissues for western blot analysis of p-TAK1, TAK1, and HDAC6 protein levels. Relative protein levels were normalized by GAPDH. Thirteen samples are shown.  B  Quantification of the intensities of the indicated proteins was performed using ImageJ software, followed by Pearson’s correlation coefficient analysis.  C ,  D  M2 macrophage infiltration in the 38 colon cancer tissues was evaluated using an mIHC platform (panel: CD68/CD163). Patients were divided into two groups according to p-TAK1/TAK1 or HDAC6/GAPDH expression based on western blot analyses of tissue proteins, and then the proportion of CD163 + CD68 + /CD68 +  cells were calculated. Representative mIHC images are shown, scale bar, 50 μm.  E  Western blot analysis of the phosphorylated and total protein expression of TAK1, ADAM17, and p38 in xenograft mouse models (BALB/c nude) originating from HCT116-shCtrl and HCT116-shHDAC6 cells.  F  Working model. WCL is the abbreviation of whole-cell lysate. Data were shown as the mean ± SD, * P  < 0.05; ** P  < 0.01.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="10~15" text="HDAC6" location="result" />
+<GENE id="G1" spans="129~134" text="HDAC6" location="result" />
+<GENE id="G2" spans="449~454" text="HDAC6" location="result" />
+<GENE id="G3" spans="488~493" text="HDAC6" location="result" />
+<GENE id="G4" spans="633~638" text="CD163" location="result" />
+<GENE id="G5" spans="641~645" text="CD68" location="result" />
+<GENE id="G6" spans="684~689" text="HDAC6" location="result" />
+<GENE id="G7" spans="749~754" text="HDAC6" location="result" />
+<GENE id="G8" spans="874~879" text="HDAC6" location="result" />
+<GENE id="G9" spans="959~964" text="HDAC6" location="result" />
+<GENE id="G10" spans="1045~1050" text="HDAC6" location="result" />
+<GENE id="G11" spans="1119~1123" text="CD86" location="result" />
+<GENE id="G12" spans="1126~1131" text="CD206" location="result" />
+<GENE id="G13" spans="1179~1183" text="CD86" location="result" />
+<GENE id="G14" spans="1186~1191" text="CD206" location="result" />
+<GENE id="G15" spans="1284~1289" text="CD206" location="result" />
+<GENE id="G16" spans="1355~1359" text="CD86" location="result" />
+<GENE id="G17" spans="1397~1402" text="HDAC6" location="result" />
+<GENE id="G18" spans="1470~1475" text="HDAC6" location="result" />
+<GENE id="G19" spans="1561~1566" text="HDAC6" location="result" />
+<GENE id="G20" spans="1723~1728" text="HDAC6" location="result" />
+<GENE id="G21" spans="1817~1822" text="HDAC6" location="result" />
+<GENE id="G22" spans="1919~1924" text="HDAC6" location="result" />
+<GENE id="G23" spans="2006~2011" text="HDAC6" location="result" />
+<GENE id="G24" spans="2151~2156" text="HDAC6" location="result" />
+<GENE id="G25" spans="2157~2161" text="CD68" location="result" />
+<GENE id="G26" spans="2162~2167" text="CD163" location="result" />
+<GENE id="G27" spans="2291~2296" text="HDAC6" location="result" />
+<GENE id="G28" spans="2374~2378" text="CD68" location="result" />
+<GENE id="G29" spans="2381~2386" text="CD163" location="result" />
+<GENE id="G30" spans="2390~2394" text="CD68" location="result" />
+<GENE id="G31" spans="2475~2480" text="HDAC6" location="result" />
+<GENE id="G32" spans="2512~2517" text="HDAC6" location="result" />
+<GENE id="G33" spans="2584~2589" text="HDAC6" location="result" />
+<GENE id="G34" spans="2653~2658" text="HDAC6" location="result" />
+<GENE id="G35" spans="2800~2804" text="CD11" location="result" />
+<GENE id="G36" spans="2807~2811" text="CD86" location="result" />
+<GENE id="G37" spans="2816~2821" text="CD206" location="result" />
+<GENE id="G38" spans="2839~2844" text="HDAC6" location="result" />
+<GENE id="G39" spans="2979~2984" text="HDAC6" location="result" />
+<GENE id="G40" spans="3054~3059" text="HDAC6" location="result" />
+<GENE id="G41" spans="3075~3079" text="CT26" location="result" />
+<GENE id="G42" spans="3090~3094" text="CT26" location="result" />
+<GENE id="G43" spans="3097~3102" text="HDAC6" location="result" />
+<GENE id="G44" spans="3351~3356" text="HDAC6" location="result" />
+<GENE id="G45" spans="3521~3526" text="HDAC6" location="result" />
+<GENE id="G46" spans="3556~3561" text="HDAC6" location="result" />
+<GENE id="G47" spans="3878~3883" text="HDAC6" location="result" />
+<GENE id="G48" spans="3894~3899" text="IL-6R" location="result" />
+<GENE id="G49" spans="3969~3975" text="ADAM17" location="result" />
+<GENE id="G50" spans="4019~4024" text="HDAC6" location="result" />
+<GENE id="G51" spans="4176~4182" text="HCT116" location="result" />
+<GENE id="G52" spans="4282~4287" text="IL-6R" location="result" />
+<GENE id="G53" spans="4327~4332" text="HDAC6" location="result" />
+<GENE id="G54" spans="4383~4388" text="HDAC6" location="result" />
+<GENE id="G55" spans="4690~4695" text="STAT3" location="result" />
+<GENE id="G56" spans="4795~4800" text="STAT3" location="result" />
+<GENE id="G57" spans="4862~4867" text="HDAC6" location="result" />
+<GENE id="G58" spans="5240~5245" text="HDAC6" location="result" />
+<GENE id="G59" spans="5315~5320" text="HDAC6" location="result" />
+<GENE id="G60" spans="5407~5412" text="HDAC6" location="result" />
+<GENE id="G61" spans="5457~5462" text="HDAC6" location="result" />
+<GENE id="G62" spans="5539~5545" text="ADAM17" location="result" />
+<GENE id="G63" spans="5652~5657" text="HDAC6" location="result" />
+<GENE id="G64" spans="5678~5683" text="HDAC6" location="result" />
+<GENE id="G65" spans="5901~5906" text="STAT3" location="result" />
+<GENE id="G66" spans="6174~6179" text="HDAC6" location="result" />
+<GENE id="G67" spans="6292~6297" text="HDAC6" location="result" />
+<GENE id="G68" spans="6328~6334" text="ADAM17" location="result" />
+<GENE id="G69" spans="6387~6392" text="HDAC6" location="result" />
+<GENE id="G70" spans="6446~6452" text="ADAM17" location="result" />
+<GENE id="G71" spans="6454~6458" text="TACE" location="result" />
+<GENE id="G72" spans="6522~6528" text="ADAM17" location="result" />
+<GENE id="G73" spans="6556~6561" text="HDAC6" location="result" />
+<GENE id="G74" spans="6813~6818" text="HDAC6" location="result" />
+<GENE id="G75" spans="6863~6868" text="HDAC6" location="result" />
+<GENE id="G76" spans="6927~6932" text="HDAC6" location="result" />
+<GENE id="G77" spans="7037~7042" text="HDAC6" location="result" />
+<GENE id="G78" spans="7159~7164" text="IL-6R" location="result" />
+<GENE id="G79" spans="7225~7231" text="ADAM17" location="result" />
+<GENE id="G80" spans="7261~7267" text="ADAM17" location="result" />
+<GENE id="G81" spans="7315~7320" text="IL-6R" location="result" />
+<GENE id="G82" spans="7468~7474" text="ADAM17" location="result" />
+<GENE id="G83" spans="7591~7596" text="HDAC6" location="result" />
+<GENE id="G84" spans="7610~7616" text="ADAM17" location="result" />
+<GENE id="G85" spans="7698~7704" text="ADAM17" location="result" />
+<GENE id="G86" spans="7743~7755" text="colon cancer" location="result" />
+<GENE id="G87" spans="7787~7793" text="ADAM17" location="result" />
+<GENE id="G88" spans="7835~7840" text="HDAC6" location="result" />
+<GENE id="G89" spans="7884~7890" text="ADAM17" location="result" />
+<GENE id="G90" spans="7954~7959" text="HDAC6" location="result" />
+<GENE id="G91" spans="8035~8041" text="ADAM17" location="result" />
+<GENE id="G92" spans="8043~8048" text="HDAC6" location="result" />
+<GENE id="G93" spans="8059~8064" text="IL-6R" location="result" />
+<GENE id="G94" spans="8091~8095" text="TAK1" location="result" />
+<GENE id="G95" spans="8096~8099" text="p38" location="result" />
+<GENE id="G96" spans="8100~8106" text="ADAM17" location="result" />
+<GENE id="G97" spans="8128~8134" text="ADAM17" location="result" />
+<GENE id="G98" spans="8318~8324" text="ADAM17" location="result" />
+<GENE id="G99" spans="8347~8351" text="ERK1" location="result" />
+<GENE id="G100" spans="8358~8361" text="p38" location="result" />
+<GENE id="G101" spans="8415~8421" text="ADAM17" location="result" />
+<GENE id="G102" spans="8445~8450" text="HDAC6" location="result" />
+<GENE id="G103" spans="8492~8497" text="HDAC6" location="result" />
+<GENE id="G104" spans="8541~8547" text="ADAM17" location="result" />
+<GENE id="G105" spans="8595~8600" text="HDAC6" location="result" />
+<GENE id="G106" spans="8614~8620" text="ADAM17" location="result" />
+<GENE id="G107" spans="8680~8686" text="ADAM17" location="result" />
+<GENE id="G108" spans="8771~8777" text="ADAM17" location="result" />
+<GENE id="G109" spans="8803~8808" text="HDAC6" location="result" />
+<GENE id="G110" spans="8810~8815" text="HDAC6" location="result" />
+<GENE id="G111" spans="8909~8914" text="HDAC6" location="result" />
+<GENE id="G112" spans="8925~8930" text="IL-6R" location="result" />
+<GENE id="G113" spans="8957~8961" text="TAK1" location="result" />
+<GENE id="G114" spans="8962~8965" text="p38" location="result" />
+<GENE id="G115" spans="8966~8972" text="ADAM17" location="result" />
+<GENE id="G116" spans="9059~9065" text="ADAM17" location="result" />
+<GENE id="G117" spans="9067~9071" text="ERK1" location="result" />
+<GENE id="G118" spans="9078~9081" text="p38" location="result" />
+<GENE id="G119" spans="9083~9088" text="GAPDH" location="result" />
+<GENE id="G120" spans="9196~9201" text="HDAC6" location="result" />
+<GENE id="G121" spans="9276~9280" text="TAK1" location="result" />
+<GENE id="G122" spans="9332~9336" text="TAK1" location="result" />
+<GENE id="G123" spans="9376~9381" text="IL-6R" location="result" />
+<GENE id="G124" spans="9437~9443" text="ADAM17" location="result" />
+<GENE id="G125" spans="9479~9483" text="TAK1" location="result" />
+<GENE id="G126" spans="9523~9527" text="CD11" location="result" />
+<GENE id="G127" spans="9530~9534" text="CD86" location="result" />
+<GENE id="G128" spans="9539~9544" text="CD206" location="result" />
+<GENE id="G129" spans="9599~9603" text="TAK1" location="result" />
+<GENE id="G130" spans="9792~9796" text="TAK1" location="result" />
+<GENE id="G131" spans="9835~9839" text="TAK1" location="result" />
+<GENE id="G132" spans="9958~9964" text="ADAM17" location="result" />
+<GENE id="G133" spans="10051~10055" text="TAK1" location="result" />
+<GENE id="G134" spans="10138~10143" text="HDAC6" location="result" />
+<GENE id="G135" spans="10408~10413" text="HDAC6" location="result" />
+<GENE id="G136" spans="10479~10484" text="HDAC6" location="result" />
+<GENE id="G137" spans="10500~10503" text="p38" location="result" />
+<GENE id="G138" spans="10505~10508" text="ERK" location="result" />
+<GENE id="G139" spans="10513~10519" text="ADAM17" location="result" />
+<GENE id="G140" spans="10541~10545" text="TAK1" location="result" />
+<GENE id="G141" spans="10629~10634" text="HDAC6" location="result" />
+<GENE id="G142" spans="10689~10693" text="TAK1" location="result" />
+<GENE id="G143" spans="10734~10739" text="IL-6R" location="result" />
+<GENE id="G144" spans="10765~10771" text="ADAM17" location="result" />
+<GENE id="G145" spans="10805~10809" text="TAK1" location="result" />
+<GENE id="G146" spans="10935~10941" text="ADAM17" location="result" />
+<GENE id="G147" spans="10993~10997" text="TAK1" location="result" />
+<GENE id="G148" spans="11150~11154" text="TAK1" location="result" />
+<GENE id="G149" spans="10956~10961" text="IL-6R" location="result" />
+<GENE id="G150" spans="11258~11263" text="HDAC6" location="result" />
+<GENE id="G151" spans="11279~11283" text="TAK1" location="result" />
+<GENE id="G152" spans="11351~11355" text="TAK1" location="result" />
+<GENE id="G153" spans="11473~11477" text="TAK1" location="result" />
+<GENE id="G154" spans="11537~11541" text="TAK1" location="result" />
+<GENE id="G155" spans="11582~11587" text="HDAC6" location="result" />
+<GENE id="G156" spans="11660~11664" text="TAK1" location="result" />
+<GENE id="G157" spans="11726~11730" text="TAK1" location="result" />
+<GENE id="G158" spans="11753~11758" text="HDAC6" location="result" />
+<GENE id="G159" spans="11785~11789" text="TAK1" location="result" />
+<GENE id="G160" spans="11790~11796" text="ADAM17" location="result" />
+<GENE id="G161" spans="11815~11820" text="IL-6R" location="result" />
+<GENE id="G162" spans="11880~11885" text="HDAC6" location="result" />
+<GENE id="G163" spans="11929~11933" text="TAK1" location="result" />
+<GENE id="G164" spans="11966~11971" text="HDAC6" location="result" />
+<GENE id="G165" spans="12063~12067" text="TAK1" location="result" />
+<GENE id="G166" spans="12147~12151" text="TAK1" location="result" />
+<GENE id="G167" spans="12153~12156" text="p38" location="result" />
+<GENE id="G168" spans="12203~12208" text="HDAC6" location="result" />
+<GENE id="G169" spans="12327~12332" text="IL-6R" location="result" />
+<GENE id="G170" spans="12389~12394" text="HDAC6" location="result" />
+<GENE id="G171" spans="12572~12577" text="HDAC6" location="result" />
+<GENE id="G172" spans="12786~12790" text="TAK1" location="result" />
+<GENE id="G173" spans="12869~12874" text="HDAC6" location="result" />
+<GENE id="G174" spans="12983~12987" text="TAK1" location="result" />
+<GENE id="G175" spans="13010~13015" text="HDAC6" location="result" />
+<GENE id="G176" spans="13042~13046" text="TAK1" location="result" />
+<GENE id="G177" spans="13047~13053" text="ADAM17" location="result" />
+<GENE id="G178" spans="13072~13077" text="IL-6R" location="result" />
+<GENE id="G179" spans="13189~13193" text="TAK1" location="result" />
+<GENE id="G180" spans="13195~13201" text="ADAM17" location="result" />
+<GENE id="G181" spans="13207~13210" text="p38" location="result" />
+<GENE id="G182" spans="13263~13267" text="TAK1" location="result" />
+<GENE id="G183" spans="13336~13341" text="HDAC6" location="result" />
+<GENE id="G184" spans="13383~13388" text="IL-6R" location="result" />
+<GENE id="G185" spans="13543~13547" text="CD11" location="result" />
+<GENE id="G186" spans="13550~13554" text="CD86" location="result" />
+<GENE id="G187" spans="13560~13565" text="CD206" location="result" />
+<GENE id="G188" spans="13672~13676" text="CD86" location="result" />
+<GENE id="G189" spans="13679~13684" text="CD206" location="result" />
+<GENE id="G190" spans="13692~13696" text="CD86" location="result" />
+<GENE id="G191" spans="13699~13704" text="CD206" location="result" />
+<GENE id="G192" spans="13720~13724" text="CD11" location="result" />
+<GENE id="G193" spans="13988~13993" text="HDAC6" location="result" />
+<GENE id="G194" spans="14009~14013" text="TAK1" location="result" />
+<GENE id="G195" spans="14032~14037" text="HDAC6" location="result" />
+<GENE id="G196" spans="14049~14053" text="TAK1" location="result" />
+<GENE id="G197" spans="14161~14166" text="HDAC6" location="result" />
+<GENE id="G198" spans="14171~14175" text="TAK1" location="result" />
+<GENE id="G199" spans="14189~14194" text="HDAC6" location="result" />
+<GENE id="G200" spans="14220~14224" text="TAK1" location="result" />
+<GENE id="G201" spans="14276~14280" text="TAK1" location="result" />
+<GENE id="G202" spans="14351~14356" text="HDAC6" location="result" />
+<GENE id="G203" spans="14389~14393" text="TAK1" location="result" />
+<GENE id="G204" spans="14504~14508" text="TAK1" location="result" />
+<GENE id="G205" spans="14513~14518" text="HDAC6" location="result" />
+<GENE id="G206" spans="14598~14603" text="HDAC6" location="result" />
+<GENE id="G207" spans="14608~14612" text="TAK1" location="result" />
+<GENE id="G208" spans="14712~14717" text="HDAC6" location="result" />
+<GENE id="G209" spans="14786~14790" text="TAK1" location="result" />
+<GENE id="G210" spans="14826~14830" text="TAK1" location="result" />
+<GENE id="G211" spans="14884~14889" text="HDAC6" location="result" />
+<GENE id="G212" spans="14955~14960" text="HDAC6" location="result" />
+<GENE id="G213" spans="14974~14978" text="TAK1" location="result" />
+<GENE id="G214" spans="15054~15058" text="TAK1" location="result" />
+<GENE id="G215" spans="15080~15085" text="HDAC6" location="result" />
+<GENE id="G216" spans="15095~15100" text="HDAC6" location="result" />
+<GENE id="G217" spans="15122~15127" text="HDAC6" location="result" />
+<GENE id="G218" spans="15194~15198" text="TAK1" location="result" />
+<GENE id="G219" spans="15233~15238" text="HDAC6" location="result" />
+<GENE id="G220" spans="15261~15265" text="TAK1" location="result" />
+<GENE id="G221" spans="15325~15330" text="HDAC6" location="result" />
+<GENE id="G222" spans="15481~15486" text="HDAC6" location="result" />
+<GENE id="G223" spans="15523~15527" text="TAK1" location="result" />
+<GENE id="G224" spans="15550~15554" text="TAK1" location="result" />
+<GENE id="G225" spans="15563~15568" text="HDAC6" location="result" />
+<GENE id="G226" spans="15584~15588" text="TAK1" location="result" />
+<GENE id="G227" spans="15618~15623" text="HDAC6" location="result" />
+<GENE id="G228" spans="15628~15632" text="TAK1" location="result" />
+<GENE id="G229" spans="15750~15754" text="TAK1" location="result" />
+<GENE id="G230" spans="15759~15764" text="HDAC6" location="result" />
+<GENE id="G231" spans="15838~15843" text="HDAC6" location="result" />
+<GENE id="G232" spans="15848~15852" text="TAK1" location="result" />
+<GENE id="G233" spans="15923~15928" text="HDAC6" location="result" />
+<GENE id="G234" spans="15933~15937" text="TAK1" location="result" />
+<GENE id="G235" spans="15988~15992" text="TAK1" location="result" />
+<GENE id="G236" spans="16050~16055" text="HDAC6" location="result" />
+<GENE id="G237" spans="16067~16072" text="HDAC6" location="result" />
+<GENE id="G238" spans="16204~16208" text="TAK1" location="result" />
+<GENE id="G239" spans="16312~16317" text="HDAC6" location="result" />
+<GENE id="G240" spans="16327~16331" text="TAK1" location="result" />
+<GENE id="G241" spans="16522~16526" text="TAK1" location="result" />
+<GENE id="G242" spans="16754~16758" text="TAK1" location="result" />
+<GENE id="G243" spans="16832~16836" text="TAK1" location="result" />
+<GENE id="G244" spans="16987~16991" text="TAK1" location="result" />
+<GENE id="G245" spans="17118~17122" text="TAK1" location="result" />
+<GENE id="G246" spans="17164~17169" text="HDAC6" location="result" />
+<GENE id="G247" spans="17209~17213" text="TAK1" location="result" />
+<GENE id="G248" spans="17287~17291" text="TAK1" location="result" />
+<GENE id="G249" spans="17326~17330" text="TAK1" location="result" />
+<GENE id="G250" spans="17454~17458" text="TAK1" location="result" />
+<GENE id="G251" spans="17700~17704" text="TAK1" location="result" />
+<GENE id="G252" spans="17725~17730" text="HDAC6" location="result" />
+<GENE id="G253" spans="17743~17747" text="TAK1" location="result" />
+<GENE id="G254" spans="17781~17785" text="TAK1" location="result" />
+<GENE id="G255" spans="17806~17810" text="TAK1" location="result" />
+<GENE id="G256" spans="18004~18008" text="TAK1" location="result" />
+<GENE id="G257" spans="18055~18060" text="HDAC6" location="result" />
+<GENE id="G258" spans="18079~18083" text="TAK1" location="result" />
+<GENE id="G259" spans="18214~18219" text="HDAC6" location="result" />
+<GENE id="G260" spans="18381~18385" text="TAK1" location="result" />
+<GENE id="G261" spans="18421~18425" text="TAK1" location="result" />
+<GENE id="G262" spans="18589~18593" text="CD11" location="result" />
+<GENE id="G263" spans="18596~18600" text="CD86" location="result" />
+<GENE id="G264" spans="18605~18610" text="CD206" location="result" />
+<GENE id="G265" spans="18978~18982" text="TAK1" location="result" />
+<GENE id="G266" spans="19000~19004" text="TAK1" location="result" />
+<GENE id="G267" spans="19108~19112" text="TAK1" location="result" />
+<GENE id="G268" spans="19184~19188" text="TAK1" location="result" />
+<GENE id="G269" spans="19222~19226" text="TAK1" location="result" />
+<GENE id="G270" spans="19288~19292" text="TAK1" location="result" />
+<GENE id="G271" spans="19375~19379" text="TAK1" location="result" />
+<GENE id="G272" spans="19458~19462" text="TAK1" location="result" />
+<GENE id="G273" spans="20032~20036" text="TAK1" location="result" />
+<GENE id="G274" spans="20054~20059" text="HDAC6" location="result" />
+<GENE id="G275" spans="20083~20087" text="TAK1" location="result" />
+<GENE id="G276" spans="20135~20140" text="HDAC6" location="result" />
+<GENE id="G277" spans="20221~20226" text="HDAC6" location="result" />
+<GENE id="G278" spans="20396~20400" text="TAK1" location="result" />
+<GENE id="G279" spans="20504~20508" text="TAK1" location="result" />
+<GENE id="G280" spans="20524~20528" text="TAK1" location="result" />
+<GENE id="G281" spans="20627~20631" text="TAK1" location="result" />
+<GENE id="G282" spans="20653~20658" text="IL-6R" location="result" />
+<GENE id="G283" spans="20821~20826" text="HDAC6" location="result" />
+<GENE id="G284" spans="20876~20880" text="TAK1" location="result" />
+<GENE id="G285" spans="20917~20921" text="TAK1" location="result" />
+<GENE id="G286" spans="20952~20957" text="HDAC6" location="result" />
+<GENE id="G287" spans="21015~21020" text="HDAC6" location="result" />
+<GENE id="G288" spans="21068~21072" text="TAK1" location="result" />
+<GENE id="G289" spans="21175~21179" text="TAK1" location="result" />
+<GENE id="G290" spans="21181~21185" text="TAK1" location="result" />
+<GENE id="G291" spans="21191~21196" text="HDAC6" location="result" />
+<GENE id="G292" spans="21374~21379" text="HDAC6" location="result" />
+<GENE id="G293" spans="21451~21455" text="TAK1" location="result" />
+<GENE id="G294" spans="21537~21542" text="CD163" location="result" />
+<GENE id="G295" spans="21545~21549" text="CD68" location="result" />
+<GENE id="G296" spans="21603~21607" text="TAK1" location="result" />
+<GENE id="G297" spans="21634~21639" text="HDAC6" location="result" />
+<GENE id="G298" spans="21707~21711" text="TAK1" location="result" />
+<GENE id="G299" spans="21758~21763" text="HDAC6" location="result" />
+<GENE id="G300" spans="22095~22100" text="HDAC6" location="result" />
+<GENE id="G301" spans="22130~22134" text="TAK1" location="result" />
+<GENE id="G302" spans="22136~22139" text="p38" location="result" />
+<GENE id="G303" spans="22145~22151" text="ADAM17" location="result" />
+<GENE id="G304" spans="22282~22286" text="TAK1" location="result" />
+<GENE id="G305" spans="22291~22296" text="HDAC6" location="result" />
+<GENE id="G306" spans="22357~22361" text="TAK1" location="result" />
+<GENE id="G307" spans="22408~22413" text="HDAC6" location="result" />
+<GENE id="G308" spans="22547~22551" text="TAK1" location="result" />
+<GENE id="G309" spans="22553~22557" text="TAK1" location="result" />
+<GENE id="G310" spans="22563~22568" text="HDAC6" location="result" />
+<GENE id="G311" spans="22628~22633" text="GAPDH" location="result" />
+<GENE id="G312" spans="22932~22936" text="CD68" location="result" />
+<GENE id="G313" spans="22937~22942" text="CD163" location="result" />
+<GENE id="G314" spans="22998~23002" text="TAK1" location="result" />
+<GENE id="G315" spans="23003~23007" text="TAK1" location="result" />
+<GENE id="G316" spans="23011~23016" text="HDAC6" location="result" />
+<GENE id="G317" spans="23017~23022" text="GAPDH" location="result" />
+<GENE id="G318" spans="23112~23117" text="CD163" location="result" />
+<GENE id="G319" spans="23120~23124" text="CD68" location="result" />
+<GENE id="G320" spans="23128~23132" text="CD68" location="result" />
+<GENE id="G321" spans="23295~23299" text="TAK1" location="result" />
+<GENE id="G322" spans="23301~23307" text="ADAM17" location="result" />
+<GENE id="G323" spans="23313~23316" text="p38" location="result" />
+<GENE id="G324" spans="23401~23406" text="HDAC6" location="result" />
+<GENE id="G325" spans="22029~22034" text="HDAC6" location="result" />
+<DISEASE id="D0" spans="30~42" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="184~196" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="290~302" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="536~548" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="975~987" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1826~1838" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1939~1951" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2034~2046" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2669~2681" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="3911~3923" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="5351~5363" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="5490~5502" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="7104~7116" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="7986~7998" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="12948~12960" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="13214~13226" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="20972~20984" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="21096~21108" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="21206~21218" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="21283~21295" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="21841~21853" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="22155~22167" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="22335~22347" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="22428~22440" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="22495~22507" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="22866~22878" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="22314~22324" text="biomarkers" location="result" relation="biomarker" />
+<ENTITY_LINKING id="E0" geneID="G304" geneText="TAK1" diseaseID="D24" diseaseText="colon cancer" relationID="R0" relationText="biomarkers" />
+<ENTITY_LINKING id="E1" geneID="G305" geneText="HDAC6" diseaseID="D24" diseaseText="colon cancer" relationID="R0" relationText="biomarkers" />
+</TAGS>
+</Genomics_ConceptTask>

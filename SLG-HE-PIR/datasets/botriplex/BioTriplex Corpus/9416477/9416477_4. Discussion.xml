@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Here, we describe a novel nonsense  PHD2  germline variant in a patient affected by metastatic Pheo and CML with no evidence of polycythemia.
+The first case of a  PHD2  missense variant observed in a 30-year-old patient with polycythemia and abdominal PGL was reported in 2008 [ 34 ]. In 2014, a novel  PHD2  germline missense variant was detected in a patient affected by Pheo [ 45 ]. More recently, a novel  PHD2  germline missense variant was found in a patient with PPGL and polycythemia [ 35 ]. None of these patients presented metastatic disease.
+In contrast, nonsense variants in the  PHD2  gene were exclusively described in patients over 35 years of age suffering from polycythemia without chromaffin diseases [ 46 , 47 ]. We cannot exclude that in our case the absence of polycythemia could be explained by the younger age of the patient.
+The  PHD2  variants so far described in association with polycythemia are all heterozygous [ 48 ], suggesting that a partial loss of PHD2 activity is sufficient to induce polycythemia. Although only a few of the  PHD2  variants have been reported, including those associated with tumors other than Pheo, a larger number of patients are needed to understand the exact function of heterozygous variants.
+The  PHD2  gene encodes prolyl hydroxylase domain-containing protein-2 (PHD2), catalyzing the post-translational modification of hypoxia-inducible transcription factors that play an essential role in oxygen homeostasis. Prolyl hydroxylation is a basic regulatory event that targets HIF subunits for proteasomal demolition via the Von Hippel–Lindau ubiquitylation complex [ 47 ]. At the physiological oxygen level (normoxia), PHD hydroxylates proline residues on HIF-α subunits leading to their destabilization by promoting ubiquitination via the Von Hippel–Lindau (VHL) ubiquitin ligase and subsequent proteasomal degradation. In hypoxia, the O 2 -dependent hydroxylation of HIF-α subunits by PHD is reduced, resulting in HIF-α accumulation, dimerization with HIF-β, and migration into the nucleus to induce an adaptive transcriptional response. Variants in the  PHD2  gene determine a pseudohypoxia status. Indeed, PHD2 is unable to hydroxylate HIF-α, with the consequent stabilization of HIF-α subunits which are recognized as contributing to the pathogenesis of hereditary PPGLs [ 48 ].
+As expected, our patient showed a lower expression of PHD2 and higher levels of HIF2α compared to the healthy adrenal tissues, confirming that PHD2 down-regulation results in HIF2α stabilization [ 49 ].
+In our patient, we identified the new variant (c.153G>A) in the  PHD2  gene that introduces a stop codon, resulting in the production of a truncated protein which could explain the unexpected clinical status.
+This variant is not reported in any SNV database. The gene constraint (gnomAD) indicates a strong probability of being LoF intolerant (oe-score: 0.06); therefore, it was considered pathogenic. In addition, we did not identify any exonic/splicing variants in the other coding regions.
+We also evaluated CNVs/LOH through SNP-CGH arrays, which allowed for the exclusion of any possible genomic rearrangements and also reinforced data from the literature reporting that haploinsufficiency and partial deregulation of  PHD2  is sufficient to cause polycythemia [ 49 ].
+Computational analysis indicated two possible effects of the truncated peptide. Firstly, an interaction between the truncated peptide and wild-type PHD2 protein was hypothesized. The truncated protein reduces the propensity to generate PHD2 dimerization-blocking establishment of the disulfide bond among DSBH domains and subsequently hindering HIF-1α activation by increasing glucose flux and lactate production (the Warburg effect) under oxidative stress. This interference could have a protective effect, decreasing tumor growth, as seen in our patient. Secondly, the interaction and inhibition of the transcriptional regulation of NCoR2 were considered, which would lead to the activation of HDAC3 and repression of nuclear receptors such as the thyroid hormone receptor and the retinoic acid receptor. HDAC3 is recruited by enhancers to modulate both the epigenome and nearby gene expression and is the only endogenous histone deacetylase that has a unique role in modulating the transcriptional activities of nuclear receptors.
+Moreover, the heterozygous nonsense variant in the  PHD2  gene, as well as the residual mRNA produced by the wild-type allele, may act in a dominant-negative fashion to lower protein activity, possibly leading to a non-canonical-associated phenotype with metastatic Pheo, but with no clinical signs of polycythemia.
+At genetic analysis, the patient’s father was positive for the known  PHD2  variant. CT scan and metanephrine assays proved negative. To date, considering the rarity of  PHD2  variants, the penetrance of this variant is unknown. An incomplete penetrance could be assumed, such as that of  SDHB  germline variants (9–75%) [ 50 ]. Indeed, in the previously reported cases, it was not possible to study the transmission of the disease [ 34 , 35 , 45 ].
+On the other hand, autosomal dominant inheritance has been reported in patients affected by  PHD2  variants and polycythemia [ 51 ].
+In summary, the role of  PHD2  heterozygous state as the driver gene associated with an unusual phenotype could depend on its relative abundance in a specific tissue, its interplaying among the three isoforms, as well as other genetic and epigenetic mechanisms.
+We can neither exclude the presence of other variants in the non-coding or regulatory regions nor epigenetic alteration that, in association with the nonsense variant in the  PHD2  gene, may contribute to the development of the patient’s phenotype.
+In agreement with the literature [ 52 ], we demonstrated that the  PHD2  variant led to HIF stabilization and its consequent activation through a significant increase in HIF2α expression in the mutated tumor. Focusing on HIF activation, we suggest a possible correlation between HIF upregulation and response to CML therapy. Considering the presence of the Philadelphia chromosome, we have not assumed a possible relationship between PPRT therapy and CML. In the literature, there are no data on this correlation.
+In CML cell populations, HIF-responsive genes are upregulated by BCR/Abl [ 53 ]. Under low oxygen conditions, HIF supports the maintenance of stem cell potential, promoting the expansion of the mutated progenitor and an increased production of BCR/Abl protein [ 54 ]. This mechanism could be maintained in pseudohypoxia conditions. In CML murine models, HIF-1α genetic knockout prevents CML development by impairing cell cycle progression and inducing apoptosis in leukemia stem cells (LSCs) [ 55 ]. Therefore, HIF-1α is a critical factor in CML. LSCs, selected under low oxygen tension, are tyrosine kinase inhibitor (TKI)-insensitive [ 56 ] and HIF-1α-dependent signaling is relevant to LSC maintenance in CML [ 57 ]. This establishes HIF targeting as a possible strategy for CML treatment in patients who are insensitive to Imatinib and other TKI inhibitors [ 58 ]. Our patient was given Imatinib only recently. Future studies are necessary in order to verify the response to TKI inhibitors in  PHD2 -mutated patients. The description of an unusual clinical feature through NGS DNA analysis can significantly increase the diagnostic rate and improve patient management regardless of specific clinical signs.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="37~41" text="PHD2" location="result" />
+<GENE id="G1" spans="164~168" text="PHD2" location="background" />
+<GENE id="G2" spans="304~308" text="PHD2" location="background" />
+<GENE id="G3" spans="411~415" text="PHD2" location="background" />
+<GENE id="G4" spans="593~597" text="PHD2" location="background" />
+<GENE id="G5" spans="855~859" text="PHD2" location="background" />
+<GENE id="G6" spans="983~987" text="PHD2" location="background" />
+<GENE id="G7" spans="1063~1067" text="PHD2" location="background" />
+<GENE id="G8" spans="1257~1261" text="PHD2" location="background" />
+<GENE id="G10" spans="1324~1328" text="PHD2" location="background" />
+<GENE id="G11" spans="1817~1820" text="VHL" location="background" />
+<GENE id="G12" spans="2115~2119" text="PHD2" location="background" />
+<GENE id="G13" spans="2168~2172" text="PHD2" location="background" />
+<GENE id="G14" spans="2396~2400" text="PHD2" location="result" />
+<GENE id="G15" spans="2422~2427" text="HIF2α" location="result" />
+<GENE id="G16" spans="2485~2489" text="PHD2" location="result" />
+<GENE id="G17" spans="2517~2522" text="HIF2α" location="result" />
+<GENE id="G18" spans="2610~2614" text="PHD2" location="result" />
+<GENE id="G19" spans="3268~3272" text="PHD2" location="background" />
+<GENE id="G20" spans="3466~3470" text="PHD2" location="result" />
+<GENE id="G21" spans="3554~3558" text="PHD2" location="result" />
+<GENE id="G22" spans="3663~3669" text="HIF-1α" location="result" />
+<GENE id="G23" spans="3953~3958" text="NCoR2" location="result" />
+<GENE id="G24" spans="4014~4019" text="HDAC3" location="result" />
+<GENE id="G25" spans="4125~4130" text="HDAC3" location="result" />
+<GENE id="G26" spans="4404~4408" text="PHD2" location="result" />
+<GENE id="G29" spans="4738~4742" text="PHD2" location="result" />
+<GENE id="G30" spans="4838~4842" text="PHD2" location="result" />
+<GENE id="G31" spans="5211~5215" text="PHD2" location="background" />
+<GENE id="G32" spans="5276~5280" text="PHD2" location="result" />
+<GENE id="G33" spans="5688~5692" text="PHD2" location="result" />
+<GENE id="G34" spans="5829~5833" text="PHD2" location="result" />
+<GENE id="G35" spans="5932~5937" text="HIF2α" location="result" />
+<GENE id="G36" spans="6787~6793" text="HIF-1α" location="result" />
+<GENE id="G37" spans="6923~6929" text="HIF-1α" location="background" />
+<GENE id="G38" spans="7274~7278" text="PHD2" location="result" />
+<GENE id="G39" spans="1276~1322" text="prolyl hydroxylase domain-containing protein-2" location="background" />
+<DISEASE id="D0" spans="96~100" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="105~108" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="129~141" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="226~238" text="polycythemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="253~256" text="PGL" location="background" disease1="disease of cellular proliferation" disease2="genetic disease" />
+<DISEASE id="D5" spans="374~378" text="Pheo" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="480~492" text="polycythemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="679~691" text="polycythemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="783~795" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="907~919" text="polycythemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1021~1033" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="3297~3309" text="polycythemia" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="6074~6077" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="6213~6216" text="CML" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="6279~6282" text="CML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="6611~6614" text="CML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="6663~6666" text="CML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="6818~6821" text="CML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="6984~6987" text="CML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="7054~7057" text="CML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="1148~1152" text="Pheo" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D21" spans="4618~4622" text="Pheo" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D22" spans="4654~4666" text="polycythemia" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="43~59" text="germline variant" location="result" relation="associated mutation" />
+<RELATION id="R1" spans="170~186" text="missense variant" location="background" relation="associated mutation" />
+<RELATION id="R2" spans="310~335" text="germline missense variant" location="background" relation="associated mutation" />
+<RELATION id="R3" spans="417~442" text="germline missense variant" location="background" relation="associated mutation" />
+<RELATION id="R4" spans="567~584" text="nonsense variants" location="background" relation="associated mutation" />
+<RELATION id="R5" spans="890~901" text="association" location="background" relation="relation undefined" />
+<RELATION id="R6" spans="967~982,988~1020" text="partial loss of ... activity is sufficient to induce" location="background" relation="causative inhibition" />
+<RELATION id="R7" spans="3220~3238" text="haploinsufficiency" location="background" relation="associated mutation" />
+<RELATION id="R8" spans="3243~3263" text="partial deregulation" location="background" relation="dysregulation" />
+<RELATION id="R9" spans="6799~6814" text="critical factor" location="result" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="PHD2" diseaseID="D0" diseaseText="Pheo" relationID="R0" relationText="germline variant" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="PHD2" diseaseID="D1" diseaseText="CML" relationID="R0" relationText="germline variant" />
+<ENTITY_LINKING id="E2" geneID="G1" geneText="PHD2" diseaseID="D3" diseaseText="polycythemia" relationID="R1" relationText="missense variant" />
+<ENTITY_LINKING id="E3" geneID="G1" geneText="PHD2" diseaseID="D4" diseaseText="PGL" relationID="R1" relationText="missense variant" />
+<ENTITY_LINKING id="E4" geneID="G2" geneText="PHD2" diseaseID="D5" diseaseText="Pheo" relationID="R2" relationText="germline missense variant" />
+<ENTITY_LINKING id="E5" geneID="D6" geneText="polycythemia" diseaseID="G3" diseaseText="PHD2" relationID="R3" relationText="germline missense variant" />
+<ENTITY_LINKING id="E6" geneID="G4" geneText="PHD2" diseaseID="D7" diseaseText="polycythemia" relationID="R4" relationText="nonsense variants" />
+<ENTITY_LINKING id="E7" geneID="G5" geneText="PHD2" diseaseID="D9" diseaseText="polycythemia" relationID="R5" relationText="association" />
+<ENTITY_LINKING id="E8" geneID="G6" geneText="PHD2" diseaseID="D10" diseaseText="polycythemia" relationID="R6" relationText="partial loss of ... activity is sufficient to induce" />
+<ENTITY_LINKING id="E9" geneID="G19" geneText="PHD2" diseaseID="D11" diseaseText="polycythemia" relationID="R7" relationText="haploinsufficiency" />
+<ENTITY_LINKING id="E10" geneID="G19" geneText="PHD2" diseaseID="D11" diseaseText="polycythemia" relationID="R8" relationText="partial deregulation" />
+<ENTITY_LINKING id="E11" geneID="G36" geneText="HIF-1α" diseaseID="D17" diseaseText="CML" relationID="R9" relationText="critical factor" />
+</TAGS>
+</Genomics_ConceptTask>

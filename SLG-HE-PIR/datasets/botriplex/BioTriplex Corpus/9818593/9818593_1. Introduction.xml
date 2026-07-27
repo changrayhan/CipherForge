@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Hypertension, or high blood pressure, is a serious medical condition that leads to vascular disease, which is the leading cause of death worldwide [ 1 ]. The molecular process by which hypertension impacts health is complicated. Simply stated, the sympathetic nervous system (SNS) induces the release of renin, also known as angiotensinogenase, from the kidney, which then hydrolyzes angiotensinogen to produce angiotensin I (Ang I), which is then hydrolyzed by lung angiotensin-converting enzymes (ACEs), yielding angiotensin II (Ang II), a key factor in hypertension and myocardial remodeling. Ang II is a major bioactive peptide contributing to the renin–angiotensin system (RAS) and increases blood pressure by activating the angiotensin II type 1 receptor (AT1R), leading to vascular smooth muscle contraction [ 2 ]. Ang II has also been reported to stimulate transforming growth factor-β (TGF-β) into a potent stimulator of collagen-producing cardiac fibroblasts [ 3 , 4 ]. Hypertension provokes oxidative stress by activating a major ROS-producing enzyme, nicotinamide adenine dinucleotide phosphate (NADPH) oxidase, which then activates the redox-sensitive transcription factor nuclear factor kappa B (NF-κB). The activated NF-κB is then translocated to the nucleus and promotes the transcription of several inflammation-associated genes [ 5 ]. Finally, prolonged hypertension with tissue damage may result in the accumulation of collagen type I (Col I) and collagen type III (Col III), which are biomarkers of changed cardiac structure and fibrosis [ 6 ]. Thus, hypertension has extensive impacts on gene networks involving inflammation, antioxidant enzymes, and fibrosis. The low-grade inflammation resulting from hypertension can chronically damage cells and organs within the body, leading to other health complications such as stroke, renal failure, and dementia [ 7 ].
+Jasmine rice is Thailand’s primary export rice and is renowned for its distinctive flavor and texture. Jasmine rice is typically consumed as white rice; however, white Jasmine rice has a low nutritive value and bioactive compounds with a high glycemic index due to the intensive milling, which removes the rice husk, germ, and bran. By contrast, brown Jasmine rice with the rice germ has a high nutritive value and bioactive compounds with a low glycemic index [ 8 ]. Parboiling germinated brown rice increases the bioactive compounds, especially γ-aminobutyric acid (GABA) and total phenolics [ 9 ]. Previous studies demonstrated that parboiled germinated brown rice (PGBR), produced from Khao Dawk Mali 105 ( Oryza sativa  L. ssp.  indica  cv. KDML 105) had a higher nutritive value and more bioactive components such as GABA, ferulic acid, γ-oryzanol, γ-tocotrienol, and fiber than brown rice (BR) and white rice (WR) [ 10 ]. PGBR also prevented carbon tetrachloride (CCl 4 )-induced liver oxidative stress and injury by enhancing the antioxidant capacities in rats [ 9 ]. The consumption of PGBR made from KDML 105 also reduced liver inflammation and fibrosis in vivo [ 11 ].
+The modulation of oxidative stress, inflammation, and fibrosis might be a therapeutic target for hypertension, but the efficacy of PGBR as an anti-hypertensive agent that reduces oxidative stress and inflammation remains questionable. Therefore, this study explored the anti-hypertensive effects of PGBR on a network of genes involved in hypertension complications and cardiac structure. The genes were divided into four groups, including (i) the renin–angiotensin system, such as AT1R; (ii) the TGF-β, collagen type I (Col I), and collagen type III (Col III) genes, which are involved in fibrosis; (iii) the NADPH oxidase (NOX4) gene, which is involved in oxidative stress production; and (iv) antioxidant enzymes and nitric oxide-producing enzymes (glutathione peroxidase (GPx), catalase (CAT), superoxide dismutase (SOD), and endothelial nitric oxide synthase (eNOS)). To strengthen the evidence of PGBR as a promising hypertensive agent, we also investigated the cardiac structure in hypertensive rats. Our findings can be used to enhance the development of functional foods derived from PBGR as a strategy for controlling hypertension.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="326~344" text="angiotensinogenase" location="background" />
+<GENE id="G1" spans="305~310" text="renin" location="background" />
+<GENE id="G2" spans="385~400" text="angiotensinogen" location="background" />
+<GENE id="G3" spans="500~503" text="ACE" location="background" />
+<GENE id="G4" spans="731~761" text="angiotensin II type 1 receptor" location="background" />
+<GENE id="G5" spans="763~767" text="AT1R" location="background" />
+<GENE id="G6" spans="3545~3549" text="AT1R" location="result" />
+<GENE id="G7" spans="3673~3686" text="NADPH oxidase" location="result" />
+<GENE id="G8" spans="3688~3692" text="NOX4" location="result" />
+<GENE id="G9" spans="3815~3837" text="glutathione peroxidase" location="result" />
+<GENE id="G10" spans="3845~3853" text="catalase" location="result" />
+<GENE id="G11" spans="3855~3858" text="CAT" location="result" />
+<GENE id="G12" spans="3861~3881" text="superoxide dismutase" location="result" />
+<GENE id="G13" spans="3883~3886" text="SOD" location="result" />
+<GENE id="G14" spans="3893~3926" text="endothelial nitric oxide synthase" location="result" />
+<GENE id="G15" spans="3928~3932" text="eNOS" location="result" />
+<DISEASE id="D0" spans="1~13" text="Hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="84~100" text="vascular disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="186~198" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="557~569" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="981~993" text="Hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1373~1385" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1725~1737" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1868~1876" text="dementia" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D8" spans="3161~3173" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="3402~3414" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="4191~4203" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

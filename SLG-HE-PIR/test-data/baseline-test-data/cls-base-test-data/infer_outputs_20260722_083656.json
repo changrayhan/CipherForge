@@ -1,0 +1,4688 @@
+{
+  "9489697_Discussion_sentence_2_gene_SMAD4_disease_PDAC_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      7.375,
+      4.34375,
+      3.34375,
+      3.984375,
+      2.890625,
+      -0.173828125,
+      3.171875
+    ],
+    "probs": [
+      0.887740969657898,
+      0.042838189750909805,
+      0.015759289264678955,
+      0.02990587428212166,
+      0.010017214342951775,
+      0.0004675971285905689,
+      0.01327065285295248
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Discussion_sentence_2_gene_SMAD4_disease_pancreatic cancer_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      6.5625,
+      4.21875,
+      2.9375,
+      3.796875,
+      2.21875,
+      -0.6484375,
+      3.21875
+    ],
+    "probs": [
+      0.8099897503852844,
+      0.07773235440254211,
+      0.0215854961425066,
+      0.050978124141693115,
+      0.01051993016153574,
+      0.000598148675635457,
+      0.02859613671898842
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Discussion_sentence_2_gene_SMAD4_disease_pancreatic carcinoma_relation_negative prognostic marker": {
+    "answer": "a)",
+    "logits": [
+      6.78125,
+      4.375,
+      3.140625,
+      4.40625,
+      2.46875,
+      -0.4296875,
+      3.421875
+    ],
+    "probs": [
+      0.7947239279747009,
+      0.0716465413570404,
+      0.020850330591201782,
+      0.0739208459854126,
+      0.010649305768311024,
+      0.0005868754233233631,
+      0.027622198686003685
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Discussion_sentence_2_gene_SMAD4_disease_pancreatic carcinoma_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      6.78125,
+      4.375,
+      3.140625,
+      4.40625,
+      2.46875,
+      -0.4296875,
+      3.421875
+    ],
+    "probs": [
+      0.7947239279747009,
+      0.0716465413570404,
+      0.020850330591201782,
+      0.0739208459854126,
+      0.010649305768311024,
+      0.0005868754233233631,
+      0.027622198686003685
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Discussion_sentence_2_gene_SMAD4_disease_pancreatic carcinoma_relation_therapy resistance": {
+    "answer": "a)",
+    "logits": [
+      6.78125,
+      4.375,
+      3.140625,
+      4.40625,
+      2.46875,
+      -0.4296875,
+      3.421875
+    ],
+    "probs": [
+      0.7947239279747009,
+      0.0716465413570404,
+      0.020850330591201782,
+      0.0739208459854126,
+      0.010649305768311024,
+      0.0005868754233233631,
+      0.027622198686003685
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Discussion_sentence_2_gene_SMAD4_disease_colon cancer_relation_therapy resistance": {
+    "answer": "e)",
+    "logits": [
+      5.40625,
+      5.34375,
+      3.421875,
+      4.8125,
+      6.15625,
+      0.80859375,
+      3.5
+    ],
+    "probs": [
+      0.20388007164001465,
+      0.1915276050567627,
+      0.028026683256030083,
+      0.11259327828884125,
+      0.43161413073539734,
+      0.002054177923128009,
+      0.030304070562124252
+    ],
+    "predicted_relation": "therapy"
+  },
+  "9489697_Discussion_sentence_2_gene_SMAD4_disease_hepatocellular carcinoma_relation_therapy resistance": {
+    "answer": "e)",
+    "logits": [
+      4.59375,
+      4.75,
+      2.375,
+      3.59375,
+      6.15625,
+      0.10107421875,
+      3.234375
+    ],
+    "probs": [
+      0.1301322877407074,
+      0.1521400511264801,
+      0.014151230454444885,
+      0.04787299409508705,
+      0.6208264231681824,
+      0.0014562662690877914,
+      0.03342073783278465
+    ],
+    "predicted_relation": "therapy"
+  },
+  "9489697_Discussion_sentence_4_gene_SMAD4_disease_colon cancer_relation_modulator decrease disease": {
+    "answer": "a)",
+    "logits": [
+      6.0,
+      4.03125,
+      3.671875,
+      3.578125,
+      3.484375,
+      2.1875,
+      4.03125
+    ],
+    "probs": [
+      0.6375920176506042,
+      0.08902779221534729,
+      0.06215141341090202,
+      0.056589506566524506,
+      0.051525332033634186,
+      0.014086242765188217,
+      0.08902779221534729
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Discussion_sentence_8_gene_SMAD4_disease_PDAC_relation_therapy resistance": {
+    "answer": "a)",
+    "logits": [
+      8.125,
+      6.90625,
+      5.6875,
+      5.375,
+      4.65625,
+      2.265625,
+      5.4375
+    ],
+    "probs": [
+      0.6455919146537781,
+      0.1908366084098816,
+      0.05641119182109833,
+      0.041271310299634933,
+      0.020114030689001083,
+      0.001841890625655651,
+      0.04393308237195015
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Results_sentence_1_gene_KRAS_disease_PDAC_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      5.90625,
+      4.53125,
+      3.9375,
+      3.390625,
+      3.046875,
+      -0.41796875,
+      3.40625
+    ],
+    "probs": [
+      0.6194002032279968,
+      0.15660889446735382,
+      0.08648764342069626,
+      0.050055209547281265,
+      0.03549445793032646,
+      0.00111019192263484,
+      0.05084346607327461
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Results_sentence_1_gene_TP53_disease_PDAC_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.34375,
+      5.0625,
+      4.15625,
+      3.546875,
+      3.09375,
+      -0.3359375,
+      3.625
+    ],
+    "probs": [
+      0.6423123478889465,
+      0.17836369574069977,
+      0.07206545025110245,
+      0.03918130323290825,
+      0.02490515261888504,
+      0.0008068538154475391,
+      0.042365092784166336
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Results_sentence_1_gene_CDKN2A_disease_PDAC_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.09375,
+      4.375,
+      3.828125,
+      3.46875,
+      3.234375,
+      -0.455078125,
+      3.515625
+    ],
+    "probs": [
+      0.6710744500160217,
+      0.1203170195221901,
+      0.06963414698839188,
+      0.04861247166991234,
+      0.03845562785863876,
+      0.0009608393884263933,
+      0.050945430994033813
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Results_sentence_1_gene_SMAD4_disease_PDAC_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.90625,
+      5.3125,
+      4.71875,
+      3.828125,
+      3.609375,
+      0.51171875,
+      4.5
+    ],
+    "probs": [
+      0.6710387468338013,
+      0.1363297998905182,
+      0.07528845965862274,
+      0.03089832328259945,
+      0.0248274989426136,
+      0.0011210835073143244,
+      0.06049598380923271
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Results_sentence_2_gene_SMAD4_disease_pancreatic cancer_relation_therapy resistance": {
+    "answer": "c)",
+    "logits": [
+      5.8125,
+      5.21875,
+      6.90625,
+      5.28125,
+      4.6875,
+      0.2490234375,
+      2.0625
+    ],
+    "probs": [
+      0.18256250023841858,
+      0.10082059353590012,
+      0.545030951499939,
+      0.10732296109199524,
+      0.05926936864852905,
+      0.0007002037018537521,
+      0.004293458536267281
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9489697_Introduction_sentence_1_gene_KRAS_disease_PDAC_relation_causative mutation": {
+    "answer": "a)",
+    "logits": [
+      7.75,
+      6.4375,
+      5.75,
+      5.59375,
+      3.859375,
+      0.95703125,
+      4.0625
+    ],
+    "probs": [
+      0.6382318139076233,
+      0.17177776992321014,
+      0.08637528121471405,
+      0.07388069480657578,
+      0.01304071769118309,
+      0.0007158624357543886,
+      0.01597782038152218
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_CDKN2A_disease_PDAC_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      7.03125,
+      5.125,
+      3.21875,
+      4.625,
+      1.8671875,
+      -0.81640625,
+      2.15625
+    ],
+    "probs": [
+      0.7845434546470642,
+      0.11661197245121002,
+      0.01733282394707203,
+      0.07072874158620834,
+      0.004486349876970053,
+      0.000306494883261621,
+      0.005990063305944204
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_TP53_disease_PDAC_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      8.875,
+      7.53125,
+      5.78125,
+      6.375,
+      3.6875,
+      1.109375,
+      4.34375
+    ],
+    "probs": [
+      0.7117137312889099,
+      0.18566162884235382,
+      0.03226315230131149,
+      0.058421019464731216,
+      0.003975600469857454,
+      0.0003018125134985894,
+      0.007663169875741005
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_SMAD4_disease_PDAC_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      8.875,
+      7.5625,
+      6.125,
+      6.65625,
+      3.921875,
+      1.796875,
+      4.78125
+    ],
+    "probs": [
+      0.6819419264793396,
+      0.1835421770811081,
+      0.0435950867831707,
+      0.07415774464607239,
+      0.00481540197506547,
+      0.0005751177668571472,
+      0.011372458189725876
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_PTEN_disease_PDAC_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      7.78125,
+      6.5,
+      4.625,
+      5.15625,
+      2.75,
+      0.44921875,
+      3.5625
+    ],
+    "probs": [
+      0.7069052457809448,
+      0.19630049169063568,
+      0.03010365553200245,
+      0.051208045333623886,
+      0.004616545047610998,
+      0.0004624880093615502,
+      0.010403545573353767
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_BRCA2_disease_PDAC_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      9.125,
+      7.90625,
+      5.84375,
+      6.0625,
+      3.78125,
+      1.9140625,
+      4.9375
+    ],
+    "probs": [
+      0.7139533162117004,
+      0.21104419231414795,
+      0.026831258088350296,
+      0.0333920419216156,
+      0.003411211771890521,
+      0.0005272292182780802,
+      0.010840808041393757
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_TP53_disease_PDAC_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      8.875,
+      7.53125,
+      5.78125,
+      6.375,
+      3.6875,
+      1.109375,
+      4.34375
+    ],
+    "probs": [
+      0.7117137312889099,
+      0.18566162884235382,
+      0.03226315230131149,
+      0.058421019464731216,
+      0.003975600469857454,
+      0.0003018125134985894,
+      0.007663169875741005
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_SMAD4_disease_pancreatic cancer_relation_therapy resistance": {
+    "answer": "a)",
+    "logits": [
+      8.5625,
+      7.59375,
+      6.21875,
+      6.5,
+      3.609375,
+      1.578125,
+      4.78125
+    ],
+    "probs": [
+      0.6122043132781982,
+      0.23236654698848724,
+      0.058751463890075684,
+      0.07783304899930954,
+      0.004322963301092386,
+      0.0005670493701472878,
+      0.013954696245491505
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_1_gene_SMAD4_disease_pancreatic cancer_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      8.5625,
+      7.59375,
+      6.21875,
+      6.5,
+      3.609375,
+      1.578125,
+      4.78125
+    ],
+    "probs": [
+      0.6122043132781982,
+      0.23236654698848724,
+      0.058751463890075684,
+      0.07783304899930954,
+      0.004322963301092386,
+      0.0005670493701472878,
+      0.013954696245491505
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9489697_Introduction_sentence_2_gene_EGFR_disease_PDAC_relation_therapeutic target": {
+    "answer": "e)",
+    "logits": [
+      5.0,
+      4.25,
+      3.640625,
+      5.125,
+      7.53125,
+      1.1796875,
+      3.140625
+    ],
+    "probs": [
+      0.0640646293759346,
+      0.030261989682912827,
+      0.016453159973025322,
+      0.07259474694728851,
+      0.8052417039871216,
+      0.0014043576084077358,
+      0.00997934490442276
+    ],
+    "predicted_relation": "therapy"
+  },
+  "9489697_Introduction_sentence_3_gene_EGFR_disease_pancreatic cancer_relation_increased expression": {
+    "answer": "e)",
+    "logits": [
+      6.9375,
+      6.40625,
+      6.875,
+      5.75,
+      7.40625,
+      3.0625,
+      5.125
+    ],
+    "probs": [
+      0.21671946346759796,
+      0.12740279734134674,
+      0.20358906686306,
+      0.06609570235013962,
+      0.34631669521331787,
+      0.004497868940234184,
+      0.03537847846746445
+    ],
+    "predicted_relation": "therapy"
+  },
+  "9489697_Introduction_sentence_3_gene_HER2_disease_pancreatic cancer_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.53125,
+      5.9375,
+      7.3125,
+      4.78125,
+      6.0,
+      4.09375,
+      5.0
+    ],
+    "probs": [
+      0.208257794380188,
+      0.11501087993383408,
+      0.4548768699169159,
+      0.03618977963924408,
+      0.12242844700813293,
+      0.01819736324250698,
+      0.04503890872001648
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9489697_Abstract_sentence_1_gene_SMAD4_disease_PDAC_relation_therapeutic target": {
+    "answer": "a)",
+    "logits": [
+      5.90625,
+      4.8125,
+      3.546875,
+      4.28125,
+      4.125,
+      0.7421875,
+      3.203125
+    ],
+    "probs": [
+      0.535477876663208,
+      0.17936262488365173,
+      0.05059155076742172,
+      0.10544184595346451,
+      0.09018918871879578,
+      0.003062088042497635,
+      0.035874780267477036
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_5_gene_PD-L1_disease_lymphoma_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      5.46875,
+      5.1875,
+      2.28125,
+      3.296875,
+      2.671875,
+      -0.431640625,
+      3.03125
+    ],
+    "probs": [
+      0.4851551949977875,
+      0.3662143647670746,
+      0.020024744793772697,
+      0.0552900992333889,
+      0.029594656080007553,
+      0.0013285368913784623,
+      0.042392387986183167
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_5_gene_PD-1_disease_lymphoma_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      6.65625,
+      6.0625,
+      6.25,
+      5.1875,
+      4.59375,
+      2.03125,
+      4.0625
+    ],
+    "probs": [
+      0.37589913606643677,
+      0.2075912207365036,
+      0.2504028081893921,
+      0.08653689920902252,
+      0.04779021441936493,
+      0.003685185220092535,
+      0.028094416484236717
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_7_gene_IL-19_disease_lymphoma_relation_increased expression": {
+    "answer": "d)",
+    "logits": [
+      9.125,
+      7.6875,
+      10.125,
+      10.75,
+      6.28125,
+      3.609375,
+      5.25
+    ],
+    "probs": [
+      0.10968272387981415,
+      0.026051931083202362,
+      0.29814857244491577,
+      0.5570148229598999,
+      0.006384300068020821,
+      0.00044129876187071204,
+      0.0022763924207538366
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_7_gene_IL-19_disease_NHL_relation_increased expression": {
+    "answer": "d)",
+    "logits": [
+      9.25,
+      7.625,
+      9.875,
+      10.4375,
+      6.25,
+      3.546875,
+      5.4375
+    ],
+    "probs": [
+      0.15578152239322662,
+      0.030675197020173073,
+      0.2910381853580475,
+      0.5107879042625427,
+      0.007755904458463192,
+      0.0005196132115088403,
+      0.0034416618291288614
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_8_gene_CXCR3_disease_lymphoma_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      5.875,
+      5.03125,
+      2.359375,
+      3.59375,
+      1.796875,
+      -0.8203125,
+      2.46875
+    ],
+    "probs": [
+      0.6198392510414124,
+      0.26658955216407776,
+      0.01842733658850193,
+      0.06332056224346161,
+      0.010499578900635242,
+      0.0007665522862225771,
+      0.02055717632174492
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_8_gene_PD-L1_disease_lymphoma_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.3125,
+      5.875,
+      3.3125,
+      4.625,
+      2.796875,
+      0.1318359375,
+      3.15625
+    ],
+    "probs": [
+      0.5115612149238586,
+      0.33028873801231384,
+      0.025469131767749786,
+      0.09462931007146835,
+      0.015208314172923565,
+      0.0010584475239738822,
+      0.02178490348160267
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_8_gene_PD-1_disease_lymphoma_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.34375,
+      5.625,
+      3.09375,
+      4.4375,
+      2.625,
+      -0.1181640625,
+      3.140625
+    ],
+    "probs": [
+      0.5743056535720825,
+      0.27989423274993896,
+      0.022268246859312057,
+      0.08536291122436523,
+      0.013935113325715065,
+      0.0008969525806605816,
+      0.023336920887231827
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_9_gene_CXCR3_disease_cancer_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      7.625,
+      6.40625,
+      6.125,
+      7.625,
+      4.875,
+      1.5625,
+      3.671875
+    ],
+    "probs": [
+      0.38399791717529297,
+      0.11350956559181213,
+      0.08568152040243149,
+      0.38399791717529297,
+      0.024548165500164032,
+      0.000894166820216924,
+      0.007370695937424898
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_9_gene_PD-L1_disease_cancer_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      7.78125,
+      6.8125,
+      6.53125,
+      7.59375,
+      6.09375,
+      2.484375,
+      4.46875
+    ],
+    "probs": [
+      0.3674437999725342,
+      0.13946594297885895,
+      0.10527441650629044,
+      0.3046216070652008,
+      0.06797026842832565,
+      0.0018398709362372756,
+      0.013384140096604824
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_9_gene_PD-1_disease_cancer_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      7.8125,
+      6.78125,
+      6.375,
+      7.8125,
+      6.34375,
+      2.34375,
+      4.34375
+    ],
+    "probs": [
+      0.3496910035610199,
+      0.12468616664409637,
+      0.08305889368057251,
+      0.3496910035610199,
+      0.0805034413933754,
+      0.0014744719956070185,
+      0.010894956067204475
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_9_gene_PD-L1_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      6.78125,
+      5.5,
+      5.21875,
+      6.875,
+      4.5625,
+      1.015625,
+      2.78125
+    ],
+    "probs": [
+      0.3682183027267456,
+      0.10225053131580353,
+      0.07718274742364883,
+      0.40440869331359863,
+      0.040041882544755936,
+      0.0011537885293364525,
+      0.006744153331965208
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_9_gene_CXCR3_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      6.1875,
+      4.90625,
+      4.71875,
+      6.59375,
+      3.5625,
+      0.3203125,
+      2.078125
+    ],
+    "probs": [
+      0.32250064611434937,
+      0.08955519646406174,
+      0.07424386590719223,
+      0.4841307997703552,
+      0.023361867293715477,
+      0.0009129425161518157,
+      0.0052948263473808765
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_9_gene_PD-1_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      6.375,
+      5.09375,
+      4.84375,
+      6.65625,
+      4.375,
+      0.76171875,
+      2.546875
+    ],
+    "probs": [
+      0.3356296718120575,
+      0.09320098906755447,
+      0.07258500903844833,
+      0.4446370601654053,
+      0.04542253538966179,
+      0.0012247381964698434,
+      0.007300065830349922
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_10_gene_IL-19_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "a)",
+    "logits": [
+      8.5,
+      6.84375,
+      4.96875,
+      5.96875,
+      4.78125,
+      1.5703125,
+      4.53125
+    ],
+    "probs": [
+      0.7441467642784119,
+      0.14202289283275604,
+      0.021779917180538177,
+      0.05920394882559776,
+      0.01805618591606617,
+      0.0007280036224983633,
+      0.014062170870602131
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_10_gene_IL-19_disease_lymphoma_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      8.5,
+      6.84375,
+      4.96875,
+      5.96875,
+      4.78125,
+      1.5703125,
+      4.53125
+    ],
+    "probs": [
+      0.7441467642784119,
+      0.14202289283275604,
+      0.021779917180538177,
+      0.05920394882559776,
+      0.01805618591606617,
+      0.0007280036224983633,
+      0.014062170870602131
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_11_gene_PD-L1_disease_melanoma_relation_modulator increase disease": {
+    "answer": "a)",
+    "logits": [
+      6.46875,
+      6.3125,
+      5.46875,
+      6.03125,
+      5.25,
+      1.3515625,
+      4.40625
+    ],
+    "probs": [
+      0.3032507300376892,
+      0.2593840956687927,
+      0.11155971139669418,
+      0.19579339027404785,
+      0.08964074403047562,
+      0.0018173373537138104,
+      0.038554005324840546
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_11_gene_PD-L1_disease_colon carcinoma_relation_modulator increase disease": {
+    "answer": "a)",
+    "logits": [
+      5.875,
+      5.8125,
+      4.375,
+      5.0,
+      5.125,
+      0.44140625,
+      4.0
+    ],
+    "probs": [
+      0.31157559156417847,
+      0.2926981747150421,
+      0.06952191144227982,
+      0.1298840343952179,
+      0.14717788994312286,
+      0.0013607667060568929,
+      0.04778166487812996
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_11_gene_CXCR3_disease_melanoma_relation_modulator increase disease": {
+    "answer": "a)",
+    "logits": [
+      5.9375,
+      5.1875,
+      4.5625,
+      5.375,
+      3.921875,
+      2.28125,
+      4.25
+    ],
+    "probs": [
+      0.378926157951355,
+      0.17899203300476074,
+      0.09580753743648529,
+      0.21590562164783478,
+      0.05048702657222748,
+      0.009787355549633503,
+      0.07009429484605789
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_11_gene_CXCR3_disease_colon carcinoma_relation_modulator increase disease": {
+    "answer": "a)",
+    "logits": [
+      6.59375,
+      6.0,
+      4.5,
+      5.53125,
+      4.28125,
+      1.296875,
+      4.40625
+    ],
+    "probs": [
+      0.4469703435897827,
+      0.2468404769897461,
+      0.055077552795410156,
+      0.1544688194990158,
+      0.0442560575902462,
+      0.002238077577203512,
+      0.05014868453145027
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_12_gene_IL-19_disease_lymphoma_relation_increased expression": {
+    "answer": "d)",
+    "logits": [
+      8.3125,
+      6.65625,
+      7.84375,
+      8.6875,
+      5.375,
+      2.546875,
+      4.75
+    ],
+    "probs": [
+      0.29796236753463745,
+      0.05686711147427559,
+      0.18646009266376495,
+      0.4335326850414276,
+      0.015791427344083786,
+      0.0009336461662314832,
+      0.008452541194856167
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_12_gene_IL-19_disease_lymphoma_relation_biomarker": {
+    "answer": "d)",
+    "logits": [
+      8.3125,
+      6.65625,
+      7.84375,
+      8.6875,
+      5.375,
+      2.546875,
+      4.75
+    ],
+    "probs": [
+      0.29796236753463745,
+      0.05686711147427559,
+      0.18646009266376495,
+      0.4335326850414276,
+      0.015791427344083786,
+      0.0009336461662314832,
+      0.008452541194856167
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_PDL1_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      7.875,
+      6.4375,
+      6.84375,
+      8.5,
+      5.8125,
+      1.9375,
+      4.46875
+    ],
+    "probs": [
+      0.27584171295166016,
+      0.06551814824342728,
+      0.09835439175367355,
+      0.5153401494026184,
+      0.035069338977336884,
+      0.0007278408738784492,
+      0.009148383513092995
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_PDL1_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      7.875,
+      6.4375,
+      6.84375,
+      8.5,
+      5.8125,
+      1.9375,
+      4.46875
+    ],
+    "probs": [
+      0.27584171295166016,
+      0.06551814824342728,
+      0.09835439175367355,
+      0.5153401494026184,
+      0.035069338977336884,
+      0.0007278408738784492,
+      0.009148383513092995
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_CD36_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      6.65625,
+      5.03125,
+      4.78125,
+      6.875,
+      3.8125,
+      0.609375,
+      3.0625
+    ],
+    "probs": [
+      0.37273743748664856,
+      0.07339634746313095,
+      0.05716113746166229,
+      0.46387922763824463,
+      0.021695921197533607,
+      0.000881614163517952,
+      0.010248427279293537
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_CD36_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      6.65625,
+      5.03125,
+      4.78125,
+      6.875,
+      3.8125,
+      0.609375,
+      3.0625
+    ],
+    "probs": [
+      0.37273743748664856,
+      0.07339634746313095,
+      0.05716113746166229,
+      0.46387922763824463,
+      0.021695921197533607,
+      0.000881614163517952,
+      0.010248427279293537
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_PD-1_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      7.875,
+      6.21875,
+      6.875,
+      8.75,
+      6.40625,
+      2.140625,
+      4.59375
+    ],
+    "probs": [
+      0.2364829182624817,
+      0.0451335534453392,
+      0.08699721097946167,
+      0.5672930479049683,
+      0.054441459476947784,
+      0.0007645261939615011,
+      0.00888732448220253
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_PD-1_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      7.875,
+      6.21875,
+      6.875,
+      8.75,
+      6.40625,
+      2.140625,
+      4.59375
+    ],
+    "probs": [
+      0.2364829182624817,
+      0.0451335534453392,
+      0.08699721097946167,
+      0.5672930479049683,
+      0.054441459476947784,
+      0.0007645261939615011,
+      0.00888732448220253
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_PD-1_disease_lymphoma_relation_increased expression": {
+    "answer": "d)",
+    "logits": [
+      7.875,
+      6.21875,
+      6.875,
+      8.75,
+      6.40625,
+      2.140625,
+      4.59375
+    ],
+    "probs": [
+      0.2364829182624817,
+      0.0451335534453392,
+      0.08699721097946167,
+      0.5672930479049683,
+      0.054441459476947784,
+      0.0007645261939615011,
+      0.00888732448220253
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_PD-L1_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      7.5,
+      5.875,
+      6.40625,
+      8.3125,
+      5.84375,
+      1.5703125,
+      3.96875
+    ],
+    "probs": [
+      0.2494894415140152,
+      0.04912738502025604,
+      0.0835684984922409,
+      0.5622331500053406,
+      0.047615896910429,
+      0.0006634705350734293,
+      0.007302133832126856
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_CXCR3_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      7.25,
+      6.46875,
+      5.59375,
+      7.46875,
+      5.0625,
+      2.34375,
+      4.84375
+    ],
+    "probs": [
+      0.32227328419685364,
+      0.14754745364189148,
+      0.061506934463977814,
+      0.4010755717754364,
+      0.036158062517642975,
+      0.002384882653132081,
+      0.029053818434476852
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_13_gene_IL-19_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      7.53125,
+      6.34375,
+      6.28125,
+      8.25,
+      4.71875,
+      1.734375,
+      4.59375
+    ],
+    "probs": [
+      0.2659967839717865,
+      0.0811244323849678,
+      0.07620935142040253,
+      0.5457899570465088,
+      0.015974348410964012,
+      0.0008078403770923615,
+      0.014097312465310097
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_PD-L1_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      7.21875,
+      6.84375,
+      6.5625,
+      7.46875,
+      6.59375,
+      2.9375,
+      5.71875
+    ],
+    "probs": [
+      0.23461374640464783,
+      0.16124752163887024,
+      0.12171600759029388,
+      0.30125001072883606,
+      0.12557968497276306,
+      0.0032436216715723276,
+      0.052349403500556946
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_PD-1_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "e)",
+    "logits": [
+      6.96875,
+      6.625,
+      6.28125,
+      7.0,
+      7.15625,
+      3.03125,
+      5.65625
+    ],
+    "probs": [
+      0.21103478968143463,
+      0.1496460735797882,
+      0.106114961206913,
+      0.21773377060890198,
+      0.2545565664768219,
+      0.004114523530006409,
+      0.05679924786090851
+    ],
+    "predicted_relation": "therapy"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_CXCR3_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "a)",
+    "logits": [
+      7.21875,
+      6.75,
+      6.0,
+      6.9375,
+      5.4375,
+      2.640625,
+      5.53125
+    ],
+    "probs": [
+      0.32895752787590027,
+      0.20585636794567108,
+      0.0972396582365036,
+      0.2483101636171341,
+      0.05540548637509346,
+      0.0033797563519328833,
+      0.06085102632641792
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_CD36_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "a)",
+    "logits": [
+      7.53125,
+      7.0625,
+      6.09375,
+      7.09375,
+      5.5625,
+      3.125,
+      5.71875
+    ],
+    "probs": [
+      0.35410377383232117,
+      0.2215924859046936,
+      0.08410701900720596,
+      0.2286265790462494,
+      0.049443963915109634,
+      0.004320365376770496,
+      0.057805851101875305
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_IL-19_disease_lymphoma_relation_prognostic indicator": {
+    "answer": "d)",
+    "logits": [
+      6.53125,
+      6.09375,
+      4.96875,
+      6.84375,
+      4.3125,
+      0.984375,
+      4.125
+    ],
+    "probs": [
+      0.29197975993156433,
+      0.1885162740945816,
+      0.0612022802233696,
+      0.399088978767395,
+      0.03175131976604462,
+      0.0011386113474145532,
+      0.026322772726416588
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_PD-L1_disease_lymphoma_relation_modulator increase disease": {
+    "answer": "d)",
+    "logits": [
+      7.21875,
+      6.84375,
+      6.5625,
+      7.46875,
+      6.59375,
+      2.9375,
+      5.71875
+    ],
+    "probs": [
+      0.23461374640464783,
+      0.16124752163887024,
+      0.12171600759029388,
+      0.30125001072883606,
+      0.12557968497276306,
+      0.0032436216715723276,
+      0.052349403500556946
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_CXCR3_disease_lymphoma_relation_modulator increase disease": {
+    "answer": "a)",
+    "logits": [
+      7.21875,
+      6.75,
+      6.0,
+      6.9375,
+      5.4375,
+      2.640625,
+      5.53125
+    ],
+    "probs": [
+      0.32895752787590027,
+      0.20585636794567108,
+      0.0972396582365036,
+      0.2483101636171341,
+      0.05540548637509346,
+      0.0033797563519328833,
+      0.06085102632641792
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_4. Discussion Rev_sentence_16_gene_IL-19_disease_lymphoma_relation_modulator increase disease": {
+    "answer": "d)",
+    "logits": [
+      6.53125,
+      6.09375,
+      4.96875,
+      6.84375,
+      4.3125,
+      0.984375,
+      4.125
+    ],
+    "probs": [
+      0.29197975993156433,
+      0.1885162740945816,
+      0.0612022802233696,
+      0.399088978767395,
+      0.03175131976604462,
+      0.0011386113474145532,
+      0.026322772726416588
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_3. Results_sentence_8_gene_IL-19_disease_lymphoma_relation_increased expression": {
+    "answer": "d)",
+    "logits": [
+      9.1875,
+      7.1875,
+      9.625,
+      10.5,
+      5.6875,
+      3.03125,
+      4.21875
+    ],
+    "probs": [
+      0.1553063690662384,
+      0.021018432453274727,
+      0.2405432015657425,
+      0.5770331621170044,
+      0.004689845722168684,
+      0.00032927884603850543,
+      0.0010796638671308756
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_3. Results_sentence_23_gene_CXCR3_disease_lymphoma_relation_diagnostic tool": {
+    "answer": "d)",
+    "logits": [
+      6.40625,
+      4.75,
+      5.46875,
+      7.4375,
+      4.09375,
+      0.6953125,
+      2.421875
+    ],
+    "probs": [
+      0.22183005511760712,
+      0.04233700782060623,
+      0.08686989545822144,
+      0.6221377849578857,
+      0.02196415141224861,
+      0.0007341617601923645,
+      0.004126941319555044
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_3. Results_sentence_23_gene_PDL-1_disease_lymphoma_relation_diagnostic tool": {
+    "answer": "d)",
+    "logits": [
+      6.5,
+      5.40625,
+      5.6875,
+      7.125,
+      4.875,
+      1.640625,
+      3.125
+    ],
+    "probs": [
+      0.2573448717594147,
+      0.08619973063468933,
+      0.11419609189033508,
+      0.48078352212905884,
+      0.050674207508563995,
+      0.001995794242247939,
+      0.008805857971310616
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_3. Results_sentence_23_gene_PD-1_disease_lymphoma_relation_diagnostic tool": {
+    "answer": "d)",
+    "logits": [
+      6.53125,
+      5.25,
+      5.78125,
+      8.125,
+      5.03125,
+      1.5,
+      3.09375
+    ],
+    "probs": [
+      0.14421617984771729,
+      0.04004738852381706,
+      0.06812290102243423,
+      0.7098569273948669,
+      0.032178979367017746,
+      0.0009418242843821645,
+      0.004635821562260389
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_3. Results_sentence_23_gene_CXC3_disease_lymphoma_relation_diagnostic tool": {
+    "answer": "d)",
+    "logits": [
+      6.375,
+      5.1875,
+      5.28125,
+      7.125,
+      4.625,
+      1.53125,
+      3.109375
+    ],
+    "probs": [
+      0.25146064162254333,
+      0.0766911655664444,
+      0.0842287614941597,
+      0.5323421955108643,
+      0.043697308748960495,
+      0.0019808707293123007,
+      0.009599024429917336
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "9886470_Abstract_sentence_0_gene_PD-L1_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "c)",
+    "logits": [
+      6.1875,
+      5.34375,
+      6.4375,
+      6.03125,
+      4.0,
+      1.46875,
+      3.828125
+    ],
+    "probs": [
+      0.2641960680484772,
+      0.11362931877374649,
+      0.33923447132110596,
+      0.22597886621952057,
+      0.029641976580023766,
+      0.0023583010770380497,
+      0.024961048737168312
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_Abstract_sentence_0_gene_PD-1_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "c)",
+    "logits": [
+      6.4375,
+      5.4375,
+      6.875,
+      6.03125,
+      4.15625,
+      1.59375,
+      3.96875
+    ],
+    "probs": [
+      0.2647198736667633,
+      0.0973849967122078,
+      0.41000616550445557,
+      0.1763414591550827,
+      0.02704283781349659,
+      0.002085319720208645,
+      0.02241929993033409
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_Abstract_sentence_0_gene_CXCR3_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "a)",
+    "logits": [
+      6.03125,
+      5.21875,
+      5.4375,
+      5.53125,
+      3.78125,
+      1.546875,
+      4.25
+    ],
+    "probs": [
+      0.34630343317985535,
+      0.15367121994495392,
+      0.19124692678451538,
+      0.21004365384578705,
+      0.03650011122226715,
+      0.00390766654163599,
+      0.05832701548933983
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_Abstract_sentence_0_gene_CD36_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "a)",
+    "logits": [
+      5.40625,
+      5.03125,
+      4.5,
+      5.0625,
+      2.625,
+      0.68359375,
+      3.6875
+    ],
+    "probs": [
+      0.32780709862709045,
+      0.22529831528663635,
+      0.1324460357427597,
+      0.23245005309581757,
+      0.020311256870627403,
+      0.002914706477895379,
+      0.05877257138490677
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_Abstract_sentence_0_gene_IL-19_disease_lymphoma_relation_negative prognostic marker": {
+    "answer": "c)",
+    "logits": [
+      5.3125,
+      4.65625,
+      5.4375,
+      5.03125,
+      2.453125,
+      -0.1474609375,
+      2.21875
+    ],
+    "probs": [
+      0.2846026122570038,
+      0.147649884223938,
+      0.32249701023101807,
+      0.21482931077480316,
+      0.01630902849137783,
+      0.0012106203939765692,
+      0.012901503592729568
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_1. Introduction_sentence_1_gene_PD-L1_disease_HL_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.34375,
+      5.15625,
+      6.71875,
+      3.4375,
+      4.03125,
+      -0.8203125,
+      2.078125
+    ],
+    "probs": [
+      0.3414735198020935,
+      0.10414353013038635,
+      0.4968410134315491,
+      0.018671905621886253,
+      0.03381045535206795,
+      0.00026426775730215013,
+      0.004795342218130827
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_1. Introduction_sentence_1_gene_PD-L1_disease_NHL_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.9375,
+      6.03125,
+      7.84375,
+      4.8125,
+      4.46875,
+      -0.19921875,
+      2.8125
+    ],
+    "probs": [
+      0.24389396607875824,
+      0.09854207187891006,
+      0.6036433577537537,
+      0.02912897989153862,
+      0.020655538886785507,
+      0.0001939829089678824,
+      0.003942178562283516
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_1. Introduction_sentence_1_gene_PD-1_disease_HL_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      7.0625,
+      6.03125,
+      8.0,
+      4.5625,
+      4.59375,
+      -0.062255859375,
+      3.140625
+    ],
+    "probs": [
+      0.24404917657375336,
+      0.08701841533184052,
+      0.6232014298439026,
+      0.02003277838230133,
+      0.02066868543624878,
+      0.0001964423863682896,
+      0.004833132494240999
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_1. Introduction_sentence_1_gene_PD-1_disease_NHL_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      7.6875,
+      6.6875,
+      8.875,
+      5.4375,
+      5.25,
+      0.5703125,
+      3.859375
+    ],
+    "probs": [
+      0.2056727409362793,
+      0.0756627693772316,
+      0.6743749380111694,
+      0.02167774736881256,
+      0.01797148399055004,
+      0.00016680975386407226,
+      0.004473455715924501
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_1. Introduction_sentence_1_gene_PD-L1_disease_lymphoma_relation_therapeutic target": {
+    "answer": "c)",
+    "logits": [
+      8.1875,
+      7.53125,
+      8.25,
+      6.875,
+      7.1875,
+      3.578125,
+      6.59375
+    ],
+    "probs": [
+      0.29125359654426575,
+      0.15110038220882416,
+      0.31003785133361816,
+      0.07838984578847885,
+      0.10714621841907501,
+      0.0029003152158111334,
+      0.059171758592128754
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_1. Introduction_sentence_1_gene_PD-1_disease_lymphoma_relation_therapeutic target": {
+    "answer": "c)",
+    "logits": [
+      8.5625,
+      8.0,
+      8.75,
+      7.40625,
+      8.75,
+      4.8125,
+      7.40625
+    ],
+    "probs": [
+      0.21574555337429047,
+      0.12292811274528503,
+      0.2602388262748718,
+      0.06788735836744308,
+      0.2602388262748718,
+      0.005073849111795425,
+      0.06788735836744308
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9886470_1. Introduction_sentence_2_gene_CXCR3_disease_lymphoma_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      5.96875,
+      4.125,
+      5.25,
+      1.5625,
+      2.8125,
+      -2.0625,
+      0.80859375
+    ],
+    "probs": [
+      0.5860167741775513,
+      0.09272131323814392,
+      0.28560176491737366,
+      0.00714989984408021,
+      0.02495560236275196,
+      0.00019053839787375182,
+      0.0033642067573964596
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9886470_1. Introduction_sentence_4_gene_IL-19_disease_NHL_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      9.9375,
+      8.25,
+      10.4375,
+      10.25,
+      6.40625,
+      2.921875,
+      4.0
+    ],
+    "probs": [
+      0.23621979355812073,
+      0.043696269392967224,
+      0.38946059346199036,
+      0.32287415862083435,
+      0.006913753692060709,
+      0.0002120650460710749,
+      0.0006232937448658049
+    ],
+    "predicted_relation": "expression change"
+  },
+  "9416477_5. Conclusions_sentence_0_gene_PHD2_disease_Pheo_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.65625,
+      4.5,
+      3.171875,
+      4.59375,
+      3.65625,
+      0.18359375,
+      3.625
+    ],
+    "probs": [
+      0.7282501459121704,
+      0.08430107682943344,
+      0.02233755961060524,
+      0.09258662164211273,
+      0.036257438361644745,
+      0.0011252310359850526,
+      0.03514191508293152
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_5. Conclusions_sentence_0_gene_PHD2_disease_CML_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      7.0625,
+      5.03125,
+      3.875,
+      4.875,
+      4.09375,
+      1.03125,
+      4.4375
+    ],
+    "probs": [
+      0.7087910175323486,
+      0.09297314286231995,
+      0.029255297034978867,
+      0.07952415198087692,
+      0.03640880808234215,
+      0.0017028626753017306,
+      0.051344651728868484
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_0_gene_PHD2_disease_Pheo_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.4375,
+      4.0625,
+      3.25,
+      4.8125,
+      2.78125,
+      -0.296875,
+      3.5
+    ],
+    "probs": [
+      0.7086079120635986,
+      0.06591080874204636,
+      0.029247740283608437,
+      0.1395331770181656,
+      0.01830276846885681,
+      0.0008427603170275688,
+      0.037554845213890076
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_0_gene_PHD2_disease_CML_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.78125,
+      4.96875,
+      4.03125,
+      5.28125,
+      3.390625,
+      0.59765625,
+      4.6875
+    ],
+    "probs": [
+      0.621396541595459,
+      0.1014401987195015,
+      0.039724551141262054,
+      0.13865230977535248,
+      0.0209333673119545,
+      0.001281941425986588,
+      0.07657107710838318
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_1_gene_PHD2_disease_polycythemia_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.71875,
+      4.46875,
+      2.875,
+      4.0625,
+      2.84375,
+      -0.009765625,
+      3.109375
+    ],
+    "probs": [
+      0.8025406002998352,
+      0.08458715677261353,
+      0.017184922471642494,
+      0.05634719505906105,
+      0.016656197607517242,
+      0.0009600852499715984,
+      0.021723778918385506
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_1_gene_PHD2_disease_PGL_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      7.59375,
+      5.09375,
+      3.234375,
+      4.34375,
+      3.328125,
+      0.13671875,
+      3.25
+    ],
+    "probs": [
+      0.8611381649971008,
+      0.07068652659654617,
+      0.011010836809873581,
+      0.033389948308467865,
+      0.01209303829818964,
+      0.0004971933085471392,
+      0.01118423230946064
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_1_gene_PHD2_disease_Pheo_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      7.21875,
+      4.46875,
+      2.296875,
+      3.703125,
+      2.515625,
+      0.251953125,
+      3.453125
+    ],
+    "probs": [
+      0.8817522525787354,
+      0.05636853352189064,
+      0.006423968821763992,
+      0.02621380425989628,
+      0.0079947579652071,
+      0.0008311992278322577,
+      0.020415330305695534
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_2_gene_PHD2_disease_polycythemia_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      8.5,
+      6.0625,
+      4.53125,
+      6.3125,
+      4.28125,
+      1.25,
+      5.0625
+    ],
+    "probs": [
+      0.7898613810539246,
+      0.06901731342077255,
+      0.014926042407751083,
+      0.08861999213695526,
+      0.011624413542449474,
+      0.0005609393119812012,
+      0.025390053167939186
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_3_gene_PHD2_disease_polycythemia_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.625,
+      6.09375,
+      3.875,
+      4.625,
+      3.9375,
+      0.59375,
+      3.609375
+    ],
+    "probs": [
+      0.7498949766159058,
+      0.16217616200447083,
+      0.01763583905994892,
+      0.037335071712732315,
+      0.01877325214445591,
+      0.0006627768743783236,
+      0.013521866872906685
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_3_gene_PHD2_disease_polycythemia_relation_causative inhibition": {
+    "answer": "a)",
+    "logits": [
+      7.625,
+      6.09375,
+      3.875,
+      4.625,
+      3.9375,
+      0.59375,
+      3.609375
+    ],
+    "probs": [
+      0.7498949766159058,
+      0.16217616200447083,
+      0.01763583905994892,
+      0.037335071712732315,
+      0.01877325214445591,
+      0.0006627768743783236,
+      0.013521866872906685
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_8_gene_PHD2_disease_polycythemia_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      7.5625,
+      5.84375,
+      4.4375,
+      5.5625,
+      3.25,
+      0.6953125,
+      3.953125
+    ],
+    "probs": [
+      0.714248776435852,
+      0.12805774807929993,
+      0.03138190135359764,
+      0.09666305780410767,
+      0.009570938535034657,
+      0.0007438200409524143,
+      0.01933382824063301
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_8_gene_PHD2_disease_polycythemia_relation_dysregulation": {
+    "answer": "a)",
+    "logits": [
+      7.5625,
+      5.84375,
+      4.4375,
+      5.5625,
+      3.25,
+      0.6953125,
+      3.953125
+    ],
+    "probs": [
+      0.714248776435852,
+      0.12805774807929993,
+      0.03138190135359764,
+      0.09666305780410767,
+      0.009570938535034657,
+      0.0007438200409524143,
+      0.01933382824063301
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_4. Discussion_sentence_16_gene_HIF-1\u03b1_disease_CML_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.21875,
+      4.84375,
+      3.890625,
+      3.140625,
+      3.703125,
+      0.59765625,
+      4.5
+    ],
+    "probs": [
+      0.8046137690544128,
+      0.0748407393693924,
+      0.028853675350546837,
+      0.013629510998725891,
+      0.023920537903904915,
+      0.001071724109351635,
+      0.053070031106472015
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_0_gene_PHD2_disease_Pheochromocytoma_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      5.65625,
+      3.734375,
+      2.53125,
+      4.0625,
+      2.25,
+      -0.474609375,
+      3.125
+    ],
+    "probs": [
+      0.662984311580658,
+      0.09701604396104813,
+      0.029129497706890106,
+      0.1346934288740158,
+      0.021988097578287125,
+      0.00144179945345968,
+      0.05274670198559761
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_0_gene_PHD2_disease_Chronic Myeloid Leukemia_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.125,
+      4.53125,
+      3.28125,
+      4.375,
+      3.09375,
+      0.1787109375,
+      3.90625
+    ],
+    "probs": [
+      0.62705397605896,
+      0.12739375233650208,
+      0.03649891912937164,
+      0.10896564275026321,
+      0.03025866486132145,
+      0.00164007768034935,
+      0.06818895787000656
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_PHD2_disease_Pheo_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.15625,
+      3.578125,
+      2.0,
+      3.125,
+      1.5703125,
+      -0.5546875,
+      2.640625
+    ],
+    "probs": [
+      0.84675532579422,
+      0.06428246200084686,
+      0.01326543465256691,
+      0.04086041450500488,
+      0.00863198284059763,
+      0.0010309433564543724,
+      0.025173373520374298
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_PHD2_disease_chronic myeloid leukemia_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.40625,
+      4.53125,
+      3.125,
+      2.75,
+      2.3125,
+      0.7578125,
+      4.5625
+    ],
+    "probs": [
+      0.716749370098114,
+      0.10991708189249039,
+      0.02693633735179901,
+      0.01851305551826954,
+      0.011952927336096764,
+      0.002525120507925749,
+      0.1134062185883522
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_PHD2_disease_CML_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.5625,
+      4.40625,
+      3.40625,
+      2.984375,
+      2.5,
+      1.1171875,
+      4.875
+    ],
+    "probs": [
+      0.7179909348487854,
+      0.08311348408460617,
+      0.030575741082429886,
+      0.02005206048488617,
+      0.012353716418147087,
+      0.0030992014799267054,
+      0.13281497359275818
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_EGLN1_disease_Pheo_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      5.9375,
+      3.75,
+      2.0,
+      2.984375,
+      1.6796875,
+      -0.33203125,
+      3.015625
+    ],
+    "probs": [
+      0.7976076602935791,
+      0.08948910236358643,
+      0.01555087324231863,
+      0.041616298258304596,
+      0.011288723908364773,
+      0.001509963651187718,
+      0.04293733835220337
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_EGLN1_disease_chronic myeloid leukemia_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.375,
+      4.84375,
+      3.1875,
+      2.59375,
+      2.3125,
+      0.9453125,
+      4.5
+    ],
+    "probs": [
+      0.6871531009674072,
+      0.1486072838306427,
+      0.028362194076180458,
+      0.015663092955946922,
+      0.011823121458292007,
+      0.003012798959389329,
+      0.10537834465503693
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_EGLN1_disease_CML_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.625,
+      4.65625,
+      3.296875,
+      2.96875,
+      2.40625,
+      1.0703125,
+      4.84375
+    ],
+    "probs": [
+      0.7202875018119812,
+      0.10057467222213745,
+      0.02582971192896366,
+      0.018604442477226257,
+      0.010600492358207703,
+      0.0027869921177625656,
+      0.12131620943546295
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_PHD2_disease_CML_relation_causative mutation": {
+    "answer": "a)",
+    "logits": [
+      6.5625,
+      4.40625,
+      3.40625,
+      2.984375,
+      2.5,
+      1.1171875,
+      4.875
+    ],
+    "probs": [
+      0.7179909348487854,
+      0.08311348408460617,
+      0.030575741082429886,
+      0.02005206048488617,
+      0.012353716418147087,
+      0.0030992014799267054,
+      0.13281497359275818
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_Abstract_sentence_1_gene_EGLN1_disease_CML_relation_causative mutation": {
+    "answer": "a)",
+    "logits": [
+      6.625,
+      4.65625,
+      3.296875,
+      2.96875,
+      2.40625,
+      1.0703125,
+      4.84375
+    ],
+    "probs": [
+      0.7202875018119812,
+      0.10057467222213745,
+      0.02582971192896366,
+      0.018604442477226257,
+      0.010600492358207703,
+      0.0027869921177625656,
+      0.12131620943546295
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_1. Introduction_sentence_6_gene_PHD2_disease_polycythemia_relation_causative mutation": {
+    "answer": "a)",
+    "logits": [
+      5.1875,
+      3.28125,
+      0.7890625,
+      1.953125,
+      0.8828125,
+      -1.84375,
+      1.1484375
+    ],
+    "probs": [
+      0.8114768862724304,
+      0.12061526626348495,
+      0.009978355839848518,
+      0.03195986524224281,
+      0.010959080420434475,
+      0.0007172045879997313,
+      0.014293335378170013
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_1. Introduction_sentence_7_gene_PHD2_disease_Pheo_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.9375,
+      4.53125,
+      3.65625,
+      5.09375,
+      3.375,
+      0.2578125,
+      3.828125
+    ],
+    "probs": [
+      0.7351807355880737,
+      0.06627855449914932,
+      0.027629010379314423,
+      0.11632248014211655,
+      0.02085547335445881,
+      0.0009235123288817704,
+      0.0328102633357048
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_1. Introduction_sentence_7_gene_PHD2_disease_chronic myeloid leukemia_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      6.4375,
+      4.90625,
+      3.828125,
+      4.875,
+      3.6875,
+      0.55078125,
+      4.28125
+    ],
+    "probs": [
+      0.5945587754249573,
+      0.12858235836029053,
+      0.04374794289469719,
+      0.1246262863278389,
+      0.03800886869430542,
+      0.0016505372477695346,
+      0.06882517784833908
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9416477_1. Introduction_sentence_7_gene_PHD2_disease_CML_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      7.03125,
+      5.5625,
+      4.15625,
+      5.25,
+      3.875,
+      0.984375,
+      5.0625
+    ],
+    "probs": [
+      0.6098905801773071,
+      0.14040479063987732,
+      0.03440767154097557,
+      0.10272233188152313,
+      0.02597227320075035,
+      0.0014425386907532811,
+      0.08515980839729309
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Introduction Rev_sentence_3_gene_EGFR_disease_gastric cancer_relation_causative mutation": {
+    "answer": "a)",
+    "logits": [
+      7.34375,
+      6.53125,
+      4.8125,
+      4.46875,
+      4.53125,
+      0.99609375,
+      5.65625
+    ],
+    "probs": [
+      0.5474922060966492,
+      0.24294818937778473,
+      0.043558210134506226,
+      0.03088739700615406,
+      0.032879460602998734,
+      0.0009585745283402503,
+      0.10127587616443634
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Introduction Rev_sentence_3_gene_HER2_disease_gastric cancer_relation_causative mutation": {
+    "answer": "a)",
+    "logits": [
+      7.21875,
+      7.125,
+      5.53125,
+      5.5625,
+      5.9375,
+      1.53125,
+      5.28125
+    ],
+    "probs": [
+      0.3688013553619385,
+      0.3357974588871002,
+      0.06822139024734497,
+      0.07038696855306625,
+      0.10241243243217468,
+      0.0012495183618739247,
+      0.053130876272916794
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Discussion_sentence_1_gene_EGFR_disease_gastric cancer_relation_negative prognostic marker": {
+    "answer": "c)",
+    "logits": [
+      8.125,
+      7.5625,
+      8.25,
+      8.1875,
+      6.09375,
+      3.46875,
+      5.96875
+    ],
+    "probs": [
+      0.24851775169372559,
+      0.14160114526748657,
+      0.2816075086593628,
+      0.2645457684993744,
+      0.03259843587875366,
+      0.002361422637477517,
+      0.028768017888069153
+    ],
+    "predicted_relation": "expression change"
+  },
+  "3984243_Discussion_sentence_1_gene_HER2_disease_gastric cancer_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      8.125,
+      7.71875,
+      8.25,
+      8.4375,
+      8.375,
+      4.4375,
+      6.90625
+    ],
+    "probs": [
+      0.1732865273952484,
+      0.1154337078332901,
+      0.19635935127735138,
+      0.23685459792613983,
+      0.22250430285930634,
+      0.004338143393397331,
+      0.051223400980234146
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "3984243_Discussion_sentence_1_gene_HER2_disease_gastric cancer_relation_therapeutic target": {
+    "answer": "d)",
+    "logits": [
+      8.125,
+      7.71875,
+      8.25,
+      8.4375,
+      8.375,
+      4.4375,
+      6.90625
+    ],
+    "probs": [
+      0.1732865273952484,
+      0.1154337078332901,
+      0.19635935127735138,
+      0.23685459792613983,
+      0.22250430285930634,
+      0.004338143393397331,
+      0.051223400980234146
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "3984243_Discussion_sentence_2_gene_HER3_disease_gastric cancer_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      6.65625,
+      6.78125,
+      6.3125,
+      6.28125,
+      4.0625,
+      1.671875,
+      5.46875
+    ],
+    "probs": [
+      0.25535544753074646,
+      0.28935563564300537,
+      0.1810741424560547,
+      0.17550306022167206,
+      0.019085073843598366,
+      0.0017476666253060102,
+      0.07787901163101196
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "3984243_Discussion_sentence_2_gene_HER3_disease_gastric cancer_relation_increased expression": {
+    "answer": "b)",
+    "logits": [
+      6.65625,
+      6.78125,
+      6.3125,
+      6.28125,
+      4.0625,
+      1.671875,
+      5.46875
+    ],
+    "probs": [
+      0.25535544753074646,
+      0.28935563564300537,
+      0.1810741424560547,
+      0.17550306022167206,
+      0.019085073843598366,
+      0.0017476666253060102,
+      0.07787901163101196
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "3984243_Discussion_sentence_5_gene_HER4_disease_bladder cancer_relation_positive prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      6.5625,
+      5.78125,
+      6.1875,
+      7.75,
+      4.1875,
+      1.03125,
+      3.34375
+    ],
+    "probs": [
+      0.17982451617717743,
+      0.0823296532034874,
+      0.12359145283699036,
+      0.5896218419075012,
+      0.016726285219192505,
+      0.0007122911047190428,
+      0.007193884812295437
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "3984243_Discussion_sentence_5_gene_HER4_disease_cervix cancer_relation_positive prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      5.6875,
+      5.96875,
+      4.0625,
+      6.125,
+      2.734375,
+      -0.55078125,
+      2.40625
+    ],
+    "probs": [
+      0.24025540053844452,
+      0.3182866871356964,
+      0.04730909317731857,
+      0.3721148371696472,
+      0.012535660527646542,
+      0.00046926914365030825,
+      0.00902909878641367
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "3984243_Discussion_sentence_6_gene_HER4_disease_oral squamous cell carcinomas_relation_negative prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      8.1875,
+      6.96875,
+      7.78125,
+      8.25,
+      6.0,
+      1.6953125,
+      3.484375
+    ],
+    "probs": [
+      0.31755951046943665,
+      0.09387040138244629,
+      0.21154023706912994,
+      0.3380403220653534,
+      0.035629186779260635,
+      0.0004811759281437844,
+      0.002879279898479581
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "3984243_Discussion_sentence_6_gene_HER4_disease_colorectal cancer_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      7.46875,
+      6.75,
+      8.0625,
+      7.71875,
+      5.8125,
+      4.21875,
+      5.15625
+    ],
+    "probs": [
+      0.20363308489322662,
+      0.09924283623695374,
+      0.36873185634613037,
+      0.2614700496196747,
+      0.038864050060510635,
+      0.00789571087807417,
+      0.02016240358352661
+    ],
+    "predicted_relation": "expression change"
+  },
+  "3984243_Discussion_sentence_7_gene_HER4_disease_gastric cancer_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      9.4375,
+      7.75,
+      8.8125,
+      6.03125,
+      5.75,
+      5.1875,
+      8.25
+    ],
+    "probs": [
+      0.47671493887901306,
+      0.08818340301513672,
+      0.2551671266555786,
+      0.015810411423444748,
+      0.011934325098991394,
+      0.006799973081797361,
+      0.1453898549079895
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Discussion_sentence_7_gene_HER4_disease_gastric cancer_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      9.4375,
+      7.75,
+      8.8125,
+      6.03125,
+      5.75,
+      5.1875,
+      8.25
+    ],
+    "probs": [
+      0.47671493887901306,
+      0.08818340301513672,
+      0.2551671266555786,
+      0.015810411423444748,
+      0.011934325098991394,
+      0.006799973081797361,
+      0.1453898549079895
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Discussion_sentence_7_gene_HER4_disease_gastric cancer_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      9.4375,
+      7.75,
+      8.8125,
+      6.03125,
+      5.75,
+      5.1875,
+      8.25
+    ],
+    "probs": [
+      0.47671493887901306,
+      0.08818340301513672,
+      0.2551671266555786,
+      0.015810411423444748,
+      0.011934325098991394,
+      0.006799973081797361,
+      0.1453898549079895
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Discussion_sentence_9_gene_HER4_disease_bladder cancer_relation_positive prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      7.875,
+      6.59375,
+      8.25,
+      9.3125,
+      5.75,
+      3.734375,
+      4.90625
+    ],
+    "probs": [
+      0.14026126265525818,
+      0.0389491468667984,
+      0.20407894253730774,
+      0.5905219912528992,
+      0.016751820221543312,
+      0.002231963910162449,
+      0.00720486743375659
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "3984243_Discussion_sentence_9_gene_NRG4_disease_bladder cancer_relation_positive prognostic marker": {
+    "answer": "d)",
+    "logits": [
+      7.90625,
+      6.71875,
+      8.1875,
+      9.1875,
+      5.53125,
+      3.15625,
+      4.5
+    ],
+    "probs": [
+      0.15709097683429718,
+      0.047910045832395554,
+      0.2081117480993271,
+      0.5657063722610474,
+      0.014611737802624702,
+      0.0013591033639386296,
+      0.0052099754102528095
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "3984243_Discussion_sentence_11_gene_HER4_disease_gastric cancer_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.5625,
+      6.96875,
+      7.21875,
+      5.75,
+      4.21875,
+      2.5,
+      5.8125
+    ],
+    "probs": [
+      0.3787861168384552,
+      0.20918557047843933,
+      0.26859959959983826,
+      0.06183513253927231,
+      0.013372786343097687,
+      0.002397608244791627,
+      0.06582316011190414
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Abstract_sentence_0_gene_HER4_disease_gastric cancer_relation_decreased expression": {
+    "answer": "c)",
+    "logits": [
+      6.21875,
+      5.71875,
+      7.0,
+      5.8125,
+      2.84375,
+      0.28125,
+      3.375
+    ],
+    "probs": [
+      0.2196866124868393,
+      0.13324666023254395,
+      0.4798396825790405,
+      0.14634284377098083,
+      0.007517262361943722,
+      0.0005796690820716321,
+      0.012787294574081898
+    ],
+    "predicted_relation": "expression change"
+  },
+  "3984243_Abstract_sentence_0_gene_NRG4_disease_gastric cancer_relation_decreased expression": {
+    "answer": "c)",
+    "logits": [
+      6.75,
+      6.375,
+      7.25,
+      6.1875,
+      3.0625,
+      0.5625,
+      3.234375
+    ],
+    "probs": [
+      0.2523587942123413,
+      0.1734434813261032,
+      0.41606929898262024,
+      0.14378970861434937,
+      0.00631767837330699,
+      0.0005185866029933095,
+      0.007502428721636534
+    ],
+    "predicted_relation": "expression change"
+  },
+  "3984243_Abstract_sentence_1_gene_EGFR_disease_gastric cancer_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      6.78125,
+      5.90625,
+      3.515625,
+      3.109375,
+      3.0,
+      0.3203125,
+      3.640625
+    ],
+    "probs": [
+      0.645962655544281,
+      0.26927730441093445,
+      0.02465837635099888,
+      0.016426019370555878,
+      0.014724190346896648,
+      0.0010098523925989866,
+      0.02794160135090351
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Abstract_sentence_1_gene_HER2_disease_gastric cancer_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.75,
+      6.875,
+      5.34375,
+      4.09375,
+      3.703125,
+      0.578125,
+      3.953125
+    ],
+    "probs": [
+      0.635513961315155,
+      0.264921635389328,
+      0.057293325662612915,
+      0.016414811834692955,
+      0.011106817051768303,
+      0.00048799949581734836,
+      0.014261435717344284
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Abstract_sentence_1_gene_HER4_disease_gastric cancer_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      7.1875,
+      6.3125,
+      6.84375,
+      3.703125,
+      3.125,
+      0.04736328125,
+      2.453125
+    ],
+    "probs": [
+      0.4579954445362091,
+      0.1909209042787552,
+      0.32476741075515747,
+      0.014048058539628983,
+      0.00788024626672268,
+      0.00036302724038250744,
+      0.0040248362347483635
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Abstract_sentence_1_gene_HER4_disease_gastric cancer_relation_decreased expression": {
+    "answer": "a)",
+    "logits": [
+      7.1875,
+      6.3125,
+      6.84375,
+      3.703125,
+      3.125,
+      0.04736328125,
+      2.453125
+    ],
+    "probs": [
+      0.4579954445362091,
+      0.1909209042787552,
+      0.32476741075515747,
+      0.014048058539628983,
+      0.00788024626672268,
+      0.00036302724038250744,
+      0.0040248362347483635
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3984243_Results_sentence_4_gene_HER4_disease_gastric cancer_relation_decreased expression": {
+    "answer": "c)",
+    "logits": [
+      6.875,
+      5.46875,
+      8.0625,
+      3.578125,
+      3.734375,
+      0.2353515625,
+      3.609375
+    ],
+    "probs": [
+      0.21534696221351624,
+      0.05277303606271744,
+      0.7060954570770264,
+      0.007967537268996239,
+      0.00931499432772398,
+      0.00028156329062767327,
+      0.00822045374661684
+    ],
+    "predicted_relation": "expression change"
+  },
+  "3984243_Results_sentence_4_gene_NRG4_disease_gastric cancer_relation_decreased expression": {
+    "answer": "c)",
+    "logits": [
+      5.96875,
+      4.78125,
+      7.15625,
+      3.421875,
+      3.34375,
+      -0.57421875,
+      2.296875
+    ],
+    "probs": [
+      0.21001823246479034,
+      0.06405194103717804,
+      0.6886232495307922,
+      0.01644989848136902,
+      0.015213670209050179,
+      0.00030246961978264153,
+      0.005340500269085169
+    ],
+    "predicted_relation": "expression change"
+  },
+  "3984243_Results_sentence_7_gene_HER4_disease_gastric cancer_relation_decreased expression": {
+    "answer": "c)",
+    "logits": [
+      6.125,
+      5.34375,
+      6.5,
+      4.78125,
+      3.34375,
+      0.72265625,
+      3.046875
+    ],
+    "probs": [
+      0.3043026328086853,
+      0.13931988179683685,
+      0.4427576959133148,
+      0.07938207685947418,
+      0.018854895606637,
+      0.0013711898354813457,
+      0.01401176955550909
+    ],
+    "predicted_relation": "expression change"
+  },
+  "7578153_Introduction_sentence_1_gene_MAOA_disease_MDD_relation_prognostic indicator": {
+    "answer": "a)",
+    "logits": [
+      9.9375,
+      8.25,
+      9.3125,
+      6.3125,
+      6.09375,
+      2.515625,
+      6.65625
+    ],
+    "probs": [
+      0.5535613894462585,
+      0.10239856690168381,
+      0.29630008339881897,
+      0.014751911163330078,
+      0.011853493750095367,
+      0.000331044546328485,
+      0.020803529769182205
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Introduction_sentence_2_gene_KLF11_disease_MDD_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      6.78125,
+      5.5,
+      6.4375,
+      4.125,
+      3.828125,
+      1.4140625,
+      4.5625
+    ],
+    "probs": [
+      0.44992437958717346,
+      0.12493948638439178,
+      0.31904417276382446,
+      0.03158964961767197,
+      0.023475434631109238,
+      0.0020999046973884106,
+      0.048927005380392075
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Introduction_sentence_2_gene_MAOA_disease_MDD_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.90625,
+      5.84375,
+      7.03125,
+      3.890625,
+      4.125,
+      1.3046875,
+      4.65625
+    ],
+    "probs": [
+      0.37053412199020386,
+      0.12805317342281342,
+      0.41987016797065735,
+      0.018161799758672714,
+      0.0229586660861969,
+      0.0013680454576388001,
+      0.039054010063409805
+    ],
+    "predicted_relation": "expression change"
+  },
+  "7578153_Discussion_sentence_1_gene_KLF11_disease_MDD_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      5.9375,
+      4.84375,
+      6.1875,
+      3.515625,
+      3.375,
+      0.1513671875,
+      2.75
+    ],
+    "probs": [
+      0.35345736145973206,
+      0.11839339137077332,
+      0.4538482427597046,
+      0.03137112408876419,
+      0.027255704626441002,
+      0.00108505436219275,
+      0.014588928781449795
+    ],
+    "predicted_relation": "expression change"
+  },
+  "7578153_Discussion_sentence_1_gene_MAOA_disease_MDD_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      6.96875,
+      5.875,
+      6.9375,
+      4.0625,
+      4.09375,
+      0.345703125,
+      3.1875
+    ],
+    "probs": [
+      0.40993496775627136,
+      0.13731101155281067,
+      0.3973225951194763,
+      0.0224154070019722,
+      0.02312694862484932,
+      0.0005449570016935468,
+      0.0093441316857934
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Discussion_sentence_10_gene_KLF11_disease_MDD_relation_epigenetic marker": {
+    "answer": "a)",
+    "logits": [
+      7.21875,
+      6.15625,
+      6.5,
+      6.1875,
+      4.4375,
+      1.9609375,
+      4.1875
+    ],
+    "probs": [
+      0.43385156989097595,
+      0.14993509650230408,
+      0.21144236624240875,
+      0.1546945422887802,
+      0.026881879195570946,
+      0.002258927095681429,
+      0.020935628563165665
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Discussion_sentence_10_gene_KLF11_disease_PD_relation_epigenetic marker": {
+    "answer": "a)",
+    "logits": [
+      6.40625,
+      5.3125,
+      5.90625,
+      5.03125,
+      4.375,
+      3.28125,
+      4.53125
+    ],
+    "probs": [
+      0.3963862955570221,
+      0.1327727735042572,
+      0.24042044579982758,
+      0.100222148001194,
+      0.05199456587433815,
+      0.01741599850356579,
+      0.060787808150053024
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_0_gene_Kr\u00fcppel-like factor 11_disease_panic disorder_relation_biomarker": {
+    "answer": "a)",
+    "logits": [
+      8.0,
+      6.84375,
+      7.09375,
+      7.6875,
+      4.625,
+      2.765625,
+      5.59375
+    ],
+    "probs": [
+      0.3875943720340729,
+      0.12196197360754013,
+      0.15660227835178375,
+      0.2835701107978821,
+      0.013262749649584293,
+      0.002065937966108322,
+      0.03494269400835037
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_0_gene_KLF11_disease_panic disorder_relation_biomarker": {
+    "answer": "a)",
+    "logits": [
+      7.78125,
+      6.78125,
+      6.75,
+      7.28125,
+      4.5625,
+      3.015625,
+      5.8125
+    ],
+    "probs": [
+      0.3969632685184479,
+      0.1460346281528473,
+      0.14154161512851715,
+      0.2407703995704651,
+      0.015880528837442398,
+      0.003381159855052829,
+      0.05542849004268646
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_1_gene_monoamine oxidase A_disease_PD_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      7.15625,
+      6.40625,
+      5.0625,
+      4.03125,
+      3.84375,
+      1.546875,
+      4.90625
+    ],
+    "probs": [
+      0.5602192878723145,
+      0.2646288573741913,
+      0.06903255730867386,
+      0.02461431734263897,
+      0.02040598727762699,
+      0.0020522840786725283,
+      0.059046678245067596
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_1_gene_monoamine oxidase A_disease_MDD_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      7.75,
+      7.15625,
+      5.15625,
+      4.59375,
+      3.96875,
+      1.78125,
+      5.3125
+    ],
+    "probs": [
+      0.561070442199707,
+      0.3098525404930115,
+      0.04193397983908653,
+      0.023893259465694427,
+      0.01278914138674736,
+      0.0014349018456414342,
+      0.04902578890323639
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_1_gene_MAOA_disease_PD_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.90625,
+      6.21875,
+      4.4375,
+      3.828125,
+      3.171875,
+      1.2890625,
+      4.84375
+    ],
+    "probs": [
+      0.5592132806777954,
+      0.28119009733200073,
+      0.0473601408302784,
+      0.025749262422323227,
+      0.013358540832996368,
+      0.0020326562225818634,
+      0.07109599560499191
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_1_gene_MAOA_disease_MDD_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      7.71875,
+      7.0625,
+      5.25,
+      4.625,
+      3.890625,
+      1.859375,
+      5.5
+    ],
+    "probs": [
+      0.5611156821250916,
+      0.29110297560691833,
+      0.047521255910396576,
+      0.025436295196413994,
+      0.012204468250274658,
+      0.0016008777311071754,
+      0.06101850047707558
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_1_gene_Kr\u00fcppel-like factor 11_disease_MDD_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      5.03125,
+      4.03125,
+      6.375,
+      4.625,
+      2.875,
+      -0.498046875,
+      1.734375
+    ],
+    "probs": [
+      0.16599877178668976,
+      0.061067529022693634,
+      0.6363382935523987,
+      0.11057901382446289,
+      0.019215751439332962,
+      0.0006588123505935073,
+      0.0061417231336236
+    ],
+    "predicted_relation": "expression change"
+  },
+  "7578153_Abstract_sentence_1_gene_KLF11_disease_MDD_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      4.90625,
+      4.125,
+      6.375,
+      4.15625,
+      2.75,
+      -0.828125,
+      1.8125
+    ],
+    "probs": [
+      0.1553199142217636,
+      0.07111063599586487,
+      0.6746789216995239,
+      0.07336793094873428,
+      0.017979584634304047,
+      0.0005021340912207961,
+      0.007040906697511673
+    ],
+    "predicted_relation": "expression change"
+  },
+  "7578153_Abstract_sentence_1_gene_TIEG2_disease_MDD_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      5.4375,
+      4.5625,
+      6.75,
+      4.1875,
+      3.28125,
+      -0.2734375,
+      2.3125
+    ],
+    "probs": [
+      0.1791529804468155,
+      0.0746820718050003,
+      0.665634036064148,
+      0.05132818594574928,
+      0.02073846198618412,
+      0.0005929190083406866,
+      0.007871432229876518
+    ],
+    "predicted_relation": "expression change"
+  },
+  "7578153_Abstract_sentence_1_gene_KLF11_disease_PD_relation_no relation": {
+    "answer": "a)",
+    "logits": [
+      5.8125,
+      4.875,
+      4.9375,
+      3.703125,
+      3.109375,
+      3.328125,
+      5.21875
+    ],
+    "probs": [
+      0.3798803985118866,
+      0.14876329898834229,
+      0.15835770964622498,
+      0.04608472064137459,
+      0.02545039914548397,
+      0.03167353570461273,
+      0.20978988707065582
+    ],
+    "predicted_relation": "pathological"
+  },
+  "7578153_Abstract_sentence_1_gene_KLF11_disease_MDD_relation_epigenetic marker": {
+    "answer": "c)",
+    "logits": [
+      4.90625,
+      4.125,
+      6.375,
+      4.15625,
+      2.75,
+      -0.828125,
+      1.8125
+    ],
+    "probs": [
+      0.1553199142217636,
+      0.07111063599586487,
+      0.6746789216995239,
+      0.07336793094873428,
+      0.017979584634304047,
+      0.0005021340912207961,
+      0.007040906697511673
+    ],
+    "predicted_relation": "expression change"
+  },
+  "7578153_Abstract_sentence_1_gene_KLF11_disease_PD_relation_epigenetic marker": {
+    "answer": "a)",
+    "logits": [
+      5.8125,
+      4.875,
+      4.9375,
+      3.703125,
+      3.109375,
+      3.328125,
+      5.21875
+    ],
+    "probs": [
+      0.3798803985118866,
+      0.14876329898834229,
+      0.15835770964622498,
+      0.04608472064137459,
+      0.02545039914548397,
+      0.03167353570461273,
+      0.20978988707065582
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4951690_Results Rev_sentence_0_gene_Gpx3_disease_pulmonary fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      8.125,
+      6.625,
+      9.25,
+      5.21875,
+      4.90625,
+      1.78125,
+      4.0625
+    ],
+    "probs": [
+      0.22639819979667664,
+      0.050516270101070404,
+      0.6973555684089661,
+      0.012379543855786324,
+      0.009057068265974522,
+      0.00039793975884094834,
+      0.003895396599546075
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Results Rev_sentence_3_gene_GPX3_disease_sarcoidosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      7.625,
+      5.65625,
+      7.90625,
+      4.59375,
+      3.6875,
+      0.369140625,
+      2.640625
+    ],
+    "probs": [
+      0.39374443888664246,
+      0.05497904121875763,
+      0.5216266512870789,
+      0.019000248983502388,
+      0.007676794659346342,
+      0.0002779935603030026,
+      0.0026948084123432636
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Results Rev_sentence_3_gene_GPX3_disease_IPF_relation_decreased expression": {
+    "answer": "c)",
+    "logits": [
+      7.375,
+      6.0,
+      7.8125,
+      4.90625,
+      3.25,
+      -0.1533203125,
+      1.8671875
+    ],
+    "probs": [
+      0.3439834713935852,
+      0.08697263896465302,
+      0.5327720046043396,
+      0.029132183641195297,
+      0.005559975281357765,
+      0.00018493947573006153,
+      0.0013948418200016022
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Results Rev_sentence_4_gene_GPX3_disease_IPF_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.71875,
+      4.5625,
+      6.78125,
+      4.28125,
+      2.9375,
+      -0.390625,
+      1.7421875
+    ],
+    "probs": [
+      0.43513429164886475,
+      0.05037045106291771,
+      0.4631980359554291,
+      0.03802160918712616,
+      0.00991852954030037,
+      0.0003556812589522451,
+      0.0030014400836080313
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Results Rev_sentence_7_gene_GPX3_disease_lung fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      7.78125,
+      6.28125,
+      8.3125,
+      3.921875,
+      4.34375,
+      0.333984375,
+      2.859375
+    ],
+    "probs": [
+      0.3349766731262207,
+      0.07474340498447418,
+      0.5698145627975464,
+      0.007061701267957687,
+      0.010767808184027672,
+      0.00019530269491951913,
+      0.0024404586292803288
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Results Rev_sentence_7_gene_GPX3_disease_IPF_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.0,
+      4.4375,
+      6.46875,
+      1.640625,
+      2.875,
+      -1.7109375,
+      0.11279296875
+    ],
+    "probs": [
+      0.3487294018268585,
+      0.07309764623641968,
+      0.557267963886261,
+      0.004458985291421413,
+      0.015322099439799786,
+      0.00015619635814800858,
+      0.0009676248882897198
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_0_gene_GPX3_disease_lung fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      5.0625,
+      4.03125,
+      5.96875,
+      2.90625,
+      3.140625,
+      -0.31640625,
+      2.84375
+    ],
+    "probs": [
+      0.23769718408584595,
+      0.08475354313850403,
+      0.588306188583374,
+      0.02751544862985611,
+      0.034782782196998596,
+      0.0010964649263769388,
+      0.025848370045423508
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_0_gene_GPX3_disease_sarcoidosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.28125,
+      5.53125,
+      6.875,
+      4.0625,
+      3.4375,
+      -0.3671875,
+      3.140625
+    ],
+    "probs": [
+      0.28615283966064453,
+      0.13516902923583984,
+      0.5181558132171631,
+      0.031117675825953484,
+      0.016656091436743736,
+      0.0003708670847117901,
+      0.012377755716443062
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_0_gene_GPX3_disease_IPF_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      5.8125,
+      4.03125,
+      5.78125,
+      2.96875,
+      3.203125,
+      -1.4765625,
+      1.984375
+    ],
+    "probs": [
+      0.4363226890563965,
+      0.0734887346625328,
+      0.42289844155311584,
+      0.025397025048732758,
+      0.03210484981536865,
+      0.00029799446929246187,
+      0.009490176104009151
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4951690_Discussion Rev_sentence_1_gene_Gpx3_disease_lung fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.375,
+      5.78125,
+      7.59375,
+      3.03125,
+      3.265625,
+      -0.0869140625,
+      3.265625
+    ],
+    "probs": [
+      0.19757641851902008,
+      0.10911206156015396,
+      0.6683924198150635,
+      0.0069753010757267475,
+      0.00881760660558939,
+      0.00030857554520480335,
+      0.00881760660558939
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_1_gene_GPX3_disease_IPF_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      7.15625,
+      5.125,
+      7.90625,
+      3.671875,
+      3.703125,
+      0.0869140625,
+      2.703125
+    ],
+    "probs": [
+      0.3009343445301056,
+      0.0394739955663681,
+      0.637078046798706,
+      0.0092305364087224,
+      0.009523545391857624,
+      0.0002560343418736011,
+      0.0035035163164138794
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_1_gene_GPX3_disease_lung fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.8125,
+      6.0625,
+      8.0625,
+      3.21875,
+      3.421875,
+      0.302734375,
+      3.734375
+    ],
+    "probs": [
+      0.19718317687511444,
+      0.09314273297786713,
+      0.6882368922233582,
+      0.005421556998044252,
+      0.006642631255090237,
+      0.000293571938527748,
+      0.009079399518668652
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_4_gene_GPX3_disease_IPF_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.65625,
+      5.28125,
+      7.1875,
+      4.75,
+      3.890625,
+      1.109375,
+      2.984375
+    ],
+    "probs": [
+      0.31300875544548035,
+      0.07914100587368011,
+      0.5324458479881287,
+      0.04652459919452667,
+      0.01969975419342518,
+      0.0012206166284158826,
+      0.007959420792758465
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_5_gene_Gpx3_disease_lung fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.59375,
+      5.0,
+      6.8125,
+      3.390625,
+      3.578125,
+      0.265625,
+      3.15625
+    ],
+    "probs": [
+      0.38891395926475525,
+      0.0790126621723175,
+      0.4840112328529358,
+      0.01580352708697319,
+      0.019062692299485207,
+      0.0006943584303371608,
+      0.012501617893576622
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_5_gene_GPX3_disease_asthma_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.21875,
+      4.375,
+      6.25,
+      2.96875,
+      2.90625,
+      -0.69140625,
+      1.984375
+    ],
+    "probs": [
+      0.43847107887268066,
+      0.06937620043754578,
+      0.452389657497406,
+      0.01700136810541153,
+      0.015971308574080467,
+      0.0004374195996206254,
+      0.006352947559207678
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_5_gene_GPX3_disease_chronic beryllium disease_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      6.84375,
+      4.9375,
+      6.375,
+      2.796875,
+      2.84375,
+      -0.82421875,
+      2.359375
+    ],
+    "probs": [
+      0.5488579869270325,
+      0.08158045262098312,
+      0.343466579914093,
+      0.009592339396476746,
+      0.01005268469452858,
+      0.00025662765256129205,
+      0.006193279288709164
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4951690_Discussion Rev_sentence_5_gene_GPX3_disease_ILD_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      7.09375,
+      5.09375,
+      6.9375,
+      3.515625,
+      3.484375,
+      0.30859375,
+      3.125
+    ],
+    "probs": [
+      0.4840962290763855,
+      0.06551530212163925,
+      0.41406944394111633,
+      0.01351984590291977,
+      0.013103884644806385,
+      0.0005472374032251537,
+      0.009147985838353634
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4951690_Discussion Rev_sentence_9_gene_GPX3_disease_lung fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      5.8125,
+      4.5625,
+      6.34375,
+      2.453125,
+      3.3125,
+      -0.6875,
+      1.75
+    ],
+    "probs": [
+      0.32019326090812683,
+      0.09173691272735596,
+      0.54466712474823,
+      0.011128950864076614,
+      0.026283064857125282,
+      0.0004813911218661815,
+      0.005509229376912117
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Discussion Rev_sentence_10_gene_GPX3_disease_lung fibrosis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      6.125,
+      5.75,
+      7.09375,
+      3.984375,
+      4.1875,
+      1.953125,
+      4.5625
+    ],
+    "probs": [
+      0.20795996487140656,
+      0.14292865991592407,
+      0.5479015111923218,
+      0.02445220947265625,
+      0.02995947189629078,
+      0.003207431873306632,
+      0.04359077289700508
+    ],
+    "predicted_relation": "expression change"
+  },
+  "4951690_Abstract_sentence_1_gene_GPX3_disease_ILD_relation_increased expression": {
+    "answer": "a)",
+    "logits": [
+      6.71875,
+      5.53125,
+      6.25,
+      3.109375,
+      3.296875,
+      0.013427734375,
+      2.765625
+    ],
+    "probs": [
+      0.4972883462905884,
+      0.1516643762588501,
+      0.31119510531425476,
+      0.013460978865623474,
+      0.016237039119005203,
+      0.0006088689551688731,
+      0.009545263834297657
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3660299_Introduction_sentence_1_gene_PAI-1_disease_hyperinsulinemia_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      5.75,
+      5.1875,
+      4.65625,
+      3.546875,
+      3.0625,
+      0.796875,
+      3.71875
+    ],
+    "probs": [
+      0.45014992356300354,
+      0.2564876973628998,
+      0.15078133344650269,
+      0.04972240701317787,
+      0.03063308633863926,
+      0.003178647253662348,
+      0.05904681980609894
+    ],
+    "predicted_relation": "pathological"
+  },
+  "3660299_Introduction_sentence_1_gene_PAI-1_disease_hypertension_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      6.46875,
+      6.40625,
+      5.21875,
+      4.5625,
+      3.078125,
+      0.83203125,
+      4.5625
+    ],
+    "probs": [
+      0.39055731892585754,
+      0.3668946623802185,
+      0.11189655214548111,
+      0.05805116146802902,
+      0.013156943954527378,
+      0.0013921592617407441,
+      0.05805116146802902
+    ],
+    "predicted_relation": "pathological"
+  },
+  "9524383_DISCUSSION_sentence_5_gene_MUC4_disease_sarcoma_relation_increased expression": {
+    "answer": "d)",
+    "logits": [
+      7.03125,
+      5.34375,
+      7.15625,
+      7.40625,
+      3.375,
+      1.53125,
+      3.875
+    ],
+    "probs": [
+      0.2600359320640564,
+      0.04810180887579918,
+      0.294659286737442,
+      0.37835001945495605,
+      0.006716517265886068,
+      0.0010627072770148516,
+      0.011073664762079716
+    ],
+    "predicted_relation": "diagnosis"
+  },
+  "4016835_5. Discussion_sentence_2_gene_AGT_disease_hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      6.9375,
+      7.0,
+      3.9375,
+      4.28125,
+      3.8125,
+      0.85546875,
+      3.6875
+    ],
+    "probs": [
+      0.44062814116477966,
+      0.4690462052822113,
+      0.02193758450448513,
+      0.0309369508177042,
+      0.019359847530722618,
+      0.0010061890352517366,
+      0.017085006460547447
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_3. Results Rev_sentence_4_gene_AGT_disease_EHT_relation_genetic susceptibility": {
+    "answer": "b)",
+    "logits": [
+      4.75,
+      5.5,
+      1.7734375,
+      2.09375,
+      1.25,
+      -1.015625,
+      1.421875
+    ],
+    "probs": [
+      0.3023550510406494,
+      0.6400856375694275,
+      0.015410351566970348,
+      0.02122865431010723,
+      0.009130330756306648,
+      0.0009474102407693863,
+      0.010842536576092243
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_3. Results Rev_sentence_4_gene_ACE_disease_EHT_relation_genetic susceptibility": {
+    "answer": "b)",
+    "logits": [
+      5.46875,
+      6.0625,
+      2.703125,
+      2.78125,
+      2.421875,
+      -0.26171875,
+      2.34375
+    ],
+    "probs": [
+      0.3293326795101166,
+      0.5963444113731384,
+      0.0207271259278059,
+      0.022411368787288666,
+      0.01564565673470497,
+      0.0010688675101846457,
+      0.014469867572188377
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_3. Results Rev_sentence_5_gene_ACE_disease_EHT_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.03125,
+      6.46875,
+      3.25,
+      3.671875,
+      2.6875,
+      0.14453125,
+      4.28125
+    ],
+    "probs": [
+      0.5864170789718628,
+      0.3341304063796997,
+      0.013366897590458393,
+      0.02038208208978176,
+      0.007616228424012661,
+      0.000598883896600455,
+      0.037488389760255814
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4016835_3. Results Rev_sentence_5_gene_AGT_disease_EHT_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.59375,
+      6.6875,
+      3.4375,
+      3.84375,
+      2.859375,
+      0.10595703125,
+      4.5
+    ],
+    "probs": [
+      0.6676012873649597,
+      0.26973530650138855,
+      0.010458773002028465,
+      0.015700478106737137,
+      0.005866839550435543,
+      0.00037377479020506144,
+      0.030263463035225868
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4016835_1. Introduction_sentence_1_gene_AGT_disease_hypertension_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.6875,
+      7.125,
+      4.0625,
+      3.59375,
+      3.078125,
+      0.5,
+      4.21875
+    ],
+    "probs": [
+      0.60423743724823,
+      0.3442841172218323,
+      0.01610238291323185,
+      0.010076613165438175,
+      0.006017020437866449,
+      0.00045678942115046084,
+      0.0188255924731493
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4016835_1. Introduction_sentence_1_gene_AGT_disease_essential hypertension_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.5,
+      7.375,
+      3.765625,
+      3.515625,
+      3.1875,
+      0.4921875,
+      4.0625
+    ],
+    "probs": [
+      0.507243812084198,
+      0.4476410746574402,
+      0.01211708877235651,
+      0.00943679828196764,
+      0.006797070614993572,
+      0.00045894691720604897,
+      0.01630532555282116
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4016835_1. Introduction_sentence_2_gene_ACE_disease_essential hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      8.5,
+      8.6875,
+      5.28125,
+      4.5625,
+      4.21875,
+      1.78125,
+      5.90625
+    ],
+    "probs": [
+      0.42453742027282715,
+      0.5120899081230164,
+      0.0169836338609457,
+      0.008277161978185177,
+      0.005869387183338404,
+      0.0005128613556735218,
+      0.03172960504889488
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_1. Introduction_sentence_3_gene_AGTR1_disease_hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      9.75,
+      10.25,
+      6.1875,
+      6.21875,
+      4.3125,
+      3.25,
+      7.71875
+    ],
+    "probs": [
+      0.3516938090324402,
+      0.5798450708389282,
+      0.009976785629987717,
+      0.010293482802808285,
+      0.001529989647679031,
+      0.00052875024266541,
+      0.04613218829035759
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_1. Introduction_sentence_4_gene_AGT_disease_hypertension_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      6.1875,
+      6.15625,
+      3.8125,
+      4.75,
+      3.4375,
+      1.1328125,
+      4.9375
+    ],
+    "probs": [
+      0.37642374634742737,
+      0.36484238505363464,
+      0.0350128635764122,
+      0.08940847218036652,
+      0.024063963443040848,
+      0.0024013426154851913,
+      0.10784721374511719
+    ],
+    "predicted_relation": "pathological"
+  },
+  "4016835_1. Introduction_sentence_4_gene_ACE_disease_hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      6.0625,
+      6.3125,
+      4.0,
+      5.15625,
+      3.515625,
+      1.1328125,
+      4.5625
+    ],
+    "probs": [
+      0.32011446356773376,
+      0.41103509068489075,
+      0.040697984397411346,
+      0.12933792173862457,
+      0.025073301047086716,
+      0.002314031356945634,
+      0.07142718881368637
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_1. Introduction_sentence_4_gene_AGTR1_disease_hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      6.0,
+      6.25,
+      3.859375,
+      4.6875,
+      3.640625,
+      1.2890625,
+      5.125
+    ],
+    "probs": [
+      0.31337249279022217,
+      0.40237826108932495,
+      0.03684675693511963,
+      0.0843430683016777,
+      0.029607200995087624,
+      0.0028192056342959404,
+      0.13063310086727142
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_6. Conclusion_sentence_0_gene_AGT_disease_essential hypertension_relation_genetic susceptibility": {
+    "answer": "b)",
+    "logits": [
+      5.8125,
+      6.875,
+      2.828125,
+      3.984375,
+      3.609375,
+      -0.0859375,
+      3.3125
+    ],
+    "probs": [
+      0.23254907131195068,
+      0.6729030013084412,
+      0.011760261841118336,
+      0.03737403452396393,
+      0.025686772540211678,
+      0.0006380514823831618,
+      0.01908878982067108
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_6. Conclusion_sentence_0_gene_ACE_disease_essential hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      5.46875,
+      6.75,
+      2.65625,
+      3.640625,
+      3.265625,
+      -0.470703125,
+      3.0625
+    ],
+    "probs": [
+      0.19899898767471313,
+      0.7166228890419006,
+      0.01195081789046526,
+      0.031982049345970154,
+      0.02198091894388199,
+      0.00052405777387321,
+      0.017940303310751915
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_6. Conclusion_sentence_0_gene_AGTR1_disease_essential hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      6.34375,
+      7.34375,
+      3.546875,
+      4.03125,
+      4.21875,
+      0.83984375,
+      4.6875
+    ],
+    "probs": [
+      0.23851247131824493,
+      0.648344099521637,
+      0.01454935409128666,
+      0.02361593209207058,
+      0.028486251831054688,
+      0.000970945751760155,
+      0.045520901679992676
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_6. Conclusion_sentence_0_gene_AGT_disease_essential hypertension_relation_relation undefined": {
+    "answer": "b)",
+    "logits": [
+      5.8125,
+      6.875,
+      2.828125,
+      3.984375,
+      3.609375,
+      -0.0859375,
+      3.3125
+    ],
+    "probs": [
+      0.23254907131195068,
+      0.6729030013084412,
+      0.011760261841118336,
+      0.03737403452396393,
+      0.025686772540211678,
+      0.0006380514823831618,
+      0.01908878982067108
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "4016835_Abstract_sentence_1_gene_ACE_disease_essential hypertension_relation_genetic susceptibility": {
+    "answer": "b)",
+    "logits": [
+      6.09375,
+      6.40625,
+      3.515625,
+      4.21875,
+      3.265625,
+      0.94140625,
+      3.921875
+    ],
+    "probs": [
+      0.3603626787662506,
+      0.4925573468208313,
+      0.027357367798686028,
+      0.05526340380311012,
+      0.021305939182639122,
+      0.0020849963184446096,
+      0.04106827452778816
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "5302952_RESULTS_sentence_5_gene_HDAC3_disease_cancer_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.6875,
+      5.21875,
+      5.53125,
+      3.875,
+      4.9375,
+      1.796875,
+      5.65625
+    ],
+    "probs": [
+      0.4666827321052551,
+      0.10743647068738937,
+      0.14684823155403137,
+      0.028026476502418518,
+      0.08109729737043381,
+      0.0035079249646514654,
+      0.16640084981918335
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5302952_INTRODUCTION_sentence_4_gene_HDAC3_disease_prostate cancer_relation_decreased expression": {
+    "answer": "c)",
+    "logits": [
+      6.21875,
+      5.0,
+      6.25,
+      4.125,
+      5.34375,
+      2.625,
+      4.84375
+    ],
+    "probs": [
+      0.3176858723163605,
+      0.09390777349472046,
+      0.32777032256126404,
+      0.039146583527326584,
+      0.13243117928504944,
+      0.00873478315770626,
+      0.08032356947660446
+    ],
+    "predicted_relation": "expression change"
+  },
+  "5302952_DISCUSSION_sentence_4_gene_p53_disease_cancer_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      8.0,
+      5.84375,
+      4.5625,
+      4.5,
+      3.609375,
+      0.3125,
+      4.28125
+    ],
+    "probs": [
+      0.8228986263275146,
+      0.09525743126869202,
+      0.02645203471183777,
+      0.024849385023117065,
+      0.010198166593909264,
+      0.00037731797783635557,
+      0.01996704190969467
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5302952_DISCUSSION_sentence_4_gene_p53_disease_cancer_relation_associated mutation": {
+    "answer": "a)",
+    "logits": [
+      8.0,
+      5.84375,
+      4.5625,
+      4.5,
+      3.609375,
+      0.3125,
+      4.28125
+    ],
+    "probs": [
+      0.8228986263275146,
+      0.09525743126869202,
+      0.02645203471183777,
+      0.024849385023117065,
+      0.010198166593909264,
+      0.00037731797783635557,
+      0.01996704190969467
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5302952_DISCUSSION_sentence_5_gene_p53_disease_prostate cancer_relation_causative activation": {
+    "answer": "a)",
+    "logits": [
+      5.625,
+      4.96875,
+      5.34375,
+      4.25,
+      5.5625,
+      4.15625,
+      4.84375
+    ],
+    "probs": [
+      0.2407357543706894,
+      0.12489206343889236,
+      0.18171687424182892,
+      0.06086752936244011,
+      0.22615031898021698,
+      0.055420517921447754,
+      0.11021685600280762
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5996034_Abstract Rev_sentence_1_gene_SMOX_disease_inflammatory bowel disease_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      5.0,
+      4.09375,
+      5.375,
+      0.66796875,
+      2.640625,
+      -2.65625,
+      -0.376953125
+    ],
+    "probs": [
+      0.3365028202533722,
+      0.1359594166278839,
+      0.4896087050437927,
+      0.004421925637871027,
+      0.0317925363779068,
+      0.000159192131832242,
+      0.0015552765689790249
+    ],
+    "predicted_relation": "expression change"
+  },
+  "5996034_Abstract Rev_sentence_1_gene_IL-6_disease_colitis_relation_increased expression": {
+    "answer": "b)",
+    "logits": [
+      6.3125,
+      6.5625,
+      6.1875,
+      3.9375,
+      4.4375,
+      2.59375,
+      4.71875
+    ],
+    "probs": [
+      0.2747012674808502,
+      0.3527234196662903,
+      0.24242302775382996,
+      0.025551199913024902,
+      0.04212680459022522,
+      0.006665428634732962,
+      0.05580894649028778
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "5996034_Abstract Rev_sentence_1_gene_CSF3_disease_colitis_relation_increased expression": {
+    "answer": "b)",
+    "logits": [
+      6.21875,
+      6.8125,
+      5.75,
+      4.59375,
+      4.4375,
+      1.328125,
+      4.0
+    ],
+    "probs": [
+      0.2552224397659302,
+      0.46214810013771057,
+      0.15971411764621735,
+      0.05025627464056015,
+      0.04298647120594978,
+      0.001918436260893941,
+      0.027754150331020355
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "5996034_Abstract Rev_sentence_1_gene_IL-17_disease_colitis_relation_increased expression": {
+    "answer": "b)",
+    "logits": [
+      6.25,
+      6.71875,
+      5.84375,
+      4.40625,
+      4.59375,
+      2.375,
+      4.53125
+    ],
+    "probs": [
+      0.26224285364151,
+      0.41906288266181946,
+      0.17469139397144318,
+      0.04149284586310387,
+      0.05004992336034775,
+      0.005442676600068808,
+      0.047017551958560944
+    ],
+    "predicted_relation": "modulatory"
+  },
+  "5996034_Abstract Rev_sentence_1_gene_SMOX_disease_colitis_relation_modulator decrease disease": {
+    "answer": "a)",
+    "logits": [
+      6.875,
+      6.46875,
+      5.46875,
+      4.0625,
+      4.4375,
+      1.046875,
+      4.3125
+    ],
+    "probs": [
+      0.4675752818584442,
+      0.3114722669124603,
+      0.11458424478769302,
+      0.028080077841877937,
+      0.04085627198219299,
+      0.0013763504102826118,
+      0.036055535078048706
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5996034_Introduction_sentence_1_gene_SMOX_disease_gastric carcinoma_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      7.46875,
+      5.8125,
+      5.0,
+      3.75,
+      2.609375,
+      1.65625,
+      5.65625
+    ],
+    "probs": [
+      0.678518533706665,
+      0.12949752807617188,
+      0.05746418237686157,
+      0.016463764011859894,
+      0.005262134596705437,
+      0.0020287337247282267,
+      0.11076510697603226
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5996034_Introduction_sentence_2_gene_SMOX_disease_cancer_relation_relation undefined": {
+    "answer": "a)",
+    "logits": [
+      7.4375,
+      6.3125,
+      3.640625,
+      3.75,
+      2.78125,
+      0.48046875,
+      5.25
+    ],
+    "probs": [
+      0.6689953804016113,
+      0.21719099581241608,
+      0.015012785792350769,
+      0.016747971996665,
+      0.006356813013553619,
+      0.0006368290050886571,
+      0.0750592052936554
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5996034_Introduction_sentence_2_gene_SMOX_disease_colitis_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      7.46875,
+      6.875,
+      4.625,
+      4.3125,
+      3.640625,
+      2.515625,
+      5.8125
+    ],
+    "probs": [
+      0.5339855551719666,
+      0.29489484429359436,
+      0.031081685796380043,
+      0.022739846259355545,
+      0.011614378541707993,
+      0.0037706363946199417,
+      0.10191293060779572
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5996034_Discussion_sentence_1_gene_SMOX_disease_ulcerative colitis_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      9.1875,
+      8.375,
+      9.375,
+      5.5,
+      4.25,
+      1.6953125,
+      4.90625
+    ],
+    "probs": [
+      0.3708418309688568,
+      0.16456007957458496,
+      0.4473206698894501,
+      0.009283844381570816,
+      0.0026598661206662655,
+      0.00020671551465056837,
+      0.00512702576816082
+    ],
+    "predicted_relation": "expression change"
+  },
+  "5996034_Discussion_sentence_1_gene_SMOX_disease_UC_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      8.75,
+      7.75,
+      9.1875,
+      5.21875,
+      4.0625,
+      1.2890625,
+      4.6875
+    ],
+    "probs": [
+      0.33636412024497986,
+      0.12374144047498703,
+      0.5209709405899048,
+      0.009844808839261532,
+      0.003097806591540575,
+      0.0001934486354002729,
+      0.005787464324384928
+    ],
+    "predicted_relation": "expression change"
+  },
+  "5996034_Discussion_sentence_2_gene_SMOX_disease_colitis_relation_pathological role": {
+    "answer": "a)",
+    "logits": [
+      6.8125,
+      5.96875,
+      5.25,
+      3.5,
+      3.15625,
+      0.390625,
+      4.4375
+    ],
+    "probs": [
+      0.5566067695617676,
+      0.23939359188079834,
+      0.1166711151599884,
+      0.02027440071105957,
+      0.014376701787114143,
+      0.0009048229549080133,
+      0.05177249759435654
+    ],
+    "predicted_relation": "pathological"
+  },
+  "5996034_Discussion_sentence_5_gene_SMOX_disease_UC_relation_increased expression": {
+    "answer": "c)",
+    "logits": [
+      7.0625,
+      5.4375,
+      7.25,
+      4.0625,
+      3.96875,
+      -0.006103515625,
+      3.15625
+    ],
+    "probs": [
+      0.3969469666481018,
+      0.0781634971499443,
+      0.4788094758987427,
+      0.019762827083468437,
+      0.017994258552789688,
+      0.00033796910429373384,
+      0.007984903641045094
+    ],
+    "predicted_relation": "expression change"
+  }
+}

@@ -1,0 +1,8 @@
+2026-07-22 12:08:54,805 [INFO] biotriplex_eval: Building dataset from datasets/botriplex/Preprocessed BioTriplex (split=test)
+2026-07-22 12:08:54,814 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetGeneration[test]: 174 samples from datasets/botriplex/Preprocessed BioTriplex/
+2026-07-22 12:08:54,821 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/botriplex/Preprocessed BioTriplex/test_gold_ner.txt
+2026-07-22 12:08:54,821 [INFO] biotriplex_eval: Dataset size: 174
+2026-07-22 12:08:54,986 [INFO] biotriplex_eval: Loading base model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-22 12:09:02,128 [INFO] biotriplex_eval: Attaching PEFT adapter from baseline/generation_ner/checkpoints
+2026-07-22 12:48:47,756 [INFO] biotriplex_eval: Wrote inference outputs → baseline/generation_ner/logs/infer_outputs_20260722_120853.json
+2026-07-22 12:48:48,476 [INFO] biotriplex_eval: Wrote metrics → baseline/generation_ner/logs/ner_evaluate_metrics.json

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In the present study, we compared the protein levels of P-gp and CYP3A4 in duodenum tissues between patients with PaC with/without DM and found that P-gp, but not CYP3A4, was significantly upregulated in the DM group  vs  the non-DM group, suggesting a possible positive correlation between duodenal expression of P-gp and the presence of DM in patients with PaC. Despite the negative results of the association analyses of patient survival with DM and duodenal P-gp levels, our findings may provide new clues for a better understanding of the chemoresistance-related genetic alterations in PaC in the context of DM.
+P-gp protein expression was different in the DM and non-DM groups, suggesting that the expression of the P-gp protein was affected by DM and that drug resistance might theoretically be different. Although P-gp was first identified in drug-resistant cancer cells, it is also expressed in a wide variety of normal tissues (small intestine, liver, and kidney) as well as in blood-tissue barriers ( 23 ), serving as an efflux transporter against the entry of toxic xenobiotics, such as therapeutic drugs, dietary compounds, and environmental toxins, into the tissues ( 24 ). Previous studies suggest that the expression of P-gp changes in various pathological conditions at different tissue levels ( 25 , 26 ). With reference to DM, Yeh et al. ( 25 ) reported that hyperglycemia suppresses renal P-gp expression in rats, whereas another group has observed the overexpression of P-gp in the blood-brain barrier of streptozotocin-induced diabetic rats ( 27 ). As peroral bioavailability of drugs will be primarily affected by intestinal P-gp and patients with PaC and DM are usually prescribed multiple medications, it is of great importance to evaluate the intestinal P-gp expression in these patients. In this study, the upregulation of duodenal P-gp expression in patients with PaC and DM was higher than that in patients with PaC but without DM, which was consistent with a recent study showing that intestinal P-gp can be significantly increased along with the progression of DM in rats ( 21 ). As an ATP-mediated transporter, the ATPase enzyme is required for the function of P-gp ( 28 ), but we did not measure the ATPase activity in this retrospective cohort study, which should be addressed in the future.
+Elevated expression of P-gp in response to chemotherapy has been reported in different malignancies, and P-gp was first identified in chemotherapy-resistant cancer cells. For example, a dramatic increase in P-gp expression from 15 to 43% was observed in breast tumor biopsies following treatment with conventional chemotherapy ( 29 ). Likewise, in a multiple myeloma study, P-gp expression was 6% at diagnosis, which increased to 43% after treatment ( 30 ). In addition, the expression of P-gp is associated with the survival of patients with cancer. Indeed, a shorter OS in patients with acute myelogenous leukemia was associated with upregulated P-gp expression ( 31 ). Similarly, patients with PaC and high P-gp expression in PaC tissues have shorter survival compared with those with weak or moderate expression of P-gp ( 32 ). Paradoxically, in the same report, it was also observed that the survival of patients with high expression of P-gp was not significantly different from that of those without detectable P-gp expression ( 32 ).
+Therefore, based on the association between duodenal P-gp levels and DM in patients with PaC, we explored whether DM or duodenal P-gp expression could affect the survival of patients with PaC. We observed shorter survival in the DM and high P-gp expression groups compared with the non-DM and low P-gp expression groups, but the differences between the groups were not significant, possibly due to the small sample size of this study and the impossibility of adjusting for confounding factors. Furthermore, most of the patients in this study were treated with metformin, the first-line drug for type-2 diabetes ( 33 ). In addition to its hypoglycemic effects, metformin has been shown to inhibit chemotherapy resistance in a variety of solid tumors, including PaC ( 34 - 36 ). The mechanisms include decreased microvessel density, leakage, and hypoxia ( 34 ), enhancement of the effects of anti-proliferation drugs ( 35 ), and inhibition of chemoresistance ( 36 ). Those effects could improve the survival of the patients and might have contributed to the lack of a significant difference between the DM and non-DM groups in the present study. Indeed, metformin is associated with improved survival in patients with solid tumors ( 37 - 40 ). Future studies should seek to include patients with PaC and DM but without treatment for DM with metformin.
+The primary limitation of the present study is that it had a small sample size from a single center. In addition, it was a retrospective cohort study, resulting in selection biases. The data that could be analyzed were limited to those available from the medical charts. Furthermore, based on the available data, it was impossible to determine the causal relationship between DM and PaC with any certitude. Thus, the prognostic value of DM and P-gp in PaC remains disputable ( 11 - 13 ), and a larger sample size may be required for further confirmation of the results of the present study.
+In conclusion, our study showed that the protein levels of duodenal P-gp were significantly elevated in PaC patients with DM compared with those without DM. Although there was no significant difference between patient survival and DM or P-gp levels, our results may still be helpful for a better understanding of drug resistance-related gene dysregulation in PaC patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="57~61" text="P-gp" location="result" />
+<GENE id="G1" spans="66~72" text="CYP3A4" location="result" />
+<GENE id="G2" spans="164~170" text="CYP3A4" location="result" />
+<GENE id="G3" spans="150~154" text="P-gp" location="result" />
+<GENE id="G4" spans="315~319" text="P-gp" location="result" />
+<GENE id="G5" spans="463~467" text="P-gp" location="result" />
+<GENE id="G6" spans="618~622" text="P-gp" location="result" />
+<GENE id="G7" spans="723~727" text="P-gp" location="result" />
+<GENE id="G8" spans="823~827" text="P-gp" location="background" />
+<GENE id="G9" spans="1237~1241" text="P-gp" location="background" />
+<GENE id="G10" spans="1410~1414" text="P-gp" location="background" />
+<GENE id="G11" spans="1492~1496" text="P-gp" location="background" />
+<GENE id="G12" spans="1649~1653" text="P-gp" location="background" />
+<GENE id="G13" spans="1781~1785" text="P-gp" location="result" />
+<GENE id="G14" spans="1860~1864" text="P-gp" location="background" />
+<GENE id="G15" spans="2027~2031" text="P-gp" location="background" />
+<GENE id="G16" spans="2194~2198" text="P-gp" location="background" />
+<GENE id="G17" spans="2350~2354" text="P-gp" location="background" />
+<GENE id="G18" spans="2432~2436" text="P-gp" location="background" />
+<GENE id="G19" spans="2534~2538" text="P-gp" location="background" />
+<GENE id="G20" spans="2701~2705" text="P-gp" location="background" />
+<GENE id="G21" spans="2816~2820" text="P-gp" location="background" />
+<GENE id="G22" spans="2975~2979" text="P-gp" location="background" />
+<GENE id="G23" spans="3037~3041" text="P-gp" location="background" />
+<GENE id="G24" spans="3269~3273" text="P-gp" location="background" />
+<GENE id="G25" spans="3344~3348" text="P-gp" location="background" />
+<GENE id="G26" spans="3421~3425" text="P-gp" location="background" />
+<GENE id="G27" spans="3497~3501" text="P-gp" location="result" />
+<GENE id="G28" spans="3609~3613" text="P-gp" location="result" />
+<GENE id="G29" spans="3665~3669" text="P-gp" location="result" />
+<GENE id="G30" spans="5162~5166" text="P-gp" location="background" />
+<GENE id="G31" spans="5546~5550" text="P-gp" location="result" />
+<GENE id="G32" spans="5377~5381" text="P-gp" location="result" />
+<DISEASE id="D0" spans="115~118" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="132~134" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="209~211" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="231~233" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="340~342" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="360~363" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="447~449" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="592~595" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="614~616" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D12" spans="663~665" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D13" spans="674~676" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D14" spans="752~754" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D15" spans="867~873" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D16" spans="1343~1345" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D17" spans="1672~1675" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="1680~1682" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D19" spans="1893~1896" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="1901~1903" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D21" spans="1942~1945" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="1958~1960" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D23" spans="2093~2095" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D24" spans="2484~2490" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D25" spans="2677~2693" text="multiple myeloma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="2870~2876" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D27" spans="2934~2942" text="leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="3024~3027" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="3056~3059" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="3437~3439" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D31" spans="3457~3460" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="3482~3484" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D34" spans="3597~3599" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D35" spans="3654~3656" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D36" spans="3963~3978" text="type-2 diabetes" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D37" spans="4128~4131" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="4469~4471" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D39" spans="4480~4482" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D40" spans="4662~4665" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="4670~4672" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D42" spans="4699~4701" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D43" spans="5094~5096" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D44" spans="5101~5104" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D45" spans="5155~5157" text="DM" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D46" spans="5170~5173" text="PaC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D49" spans="5431~5433" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D50" spans="5462~5464" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D51" spans="5540~5542" text="DM" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D52" spans="5668~5671" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D54" spans="5413~5416" text="PaC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="176~201" text="significantly upregulated" location="result" relation="increased expression" />
+<RELATION id="R1" spans="2461~2483" text="chemotherapy-resistant" location="background" relation="therapy resistance" />
+<RELATION id="R2" spans="2844~2864" text="survival of patients" location="background" relation="negative prognostic marker" />
+<RELATION id="R3" spans="2963~2974,2980~2990" text="upregulated ... expression" location="background" relation="increased expression" />
+<RELATION id="R4" spans="3032~3036,3042~3052" text="high ... expression" location="background" relation="increased expression" />
+<RELATION id="R5" spans="3073~3089" text="shorter survival" location="background" relation="negative prognostic marker" />
+<RELATION id="R6" spans="3573~3589" text="shorter survival" location="result" relation="negative prognostic marker" />
+<RELATION id="R7" spans="3604~3608,3614~3624" text="high ... expression" location="result" relation="increased expression" />
+<RELATION id="R8" spans="5387~5409" text="significantly elevated" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="P-gp" diseaseID="D3" diseaseText="DM" relationID="R0" relationText="significantly upregulated" />
+<ENTITY_LINKING id="E1" geneID="G18" geneText="P-gp" diseaseID="D24" diseaseText="cancer" relationID="R1" relationText="chemotherapy-resistant" />
+<ENTITY_LINKING id="E2" geneID="G21" geneText="P-gp" diseaseID="D26" diseaseText="cancer" relationID="R2" relationText="survival of patients" />
+<ENTITY_LINKING id="E3" geneID="G22" geneText="P-gp" diseaseID="D27" diseaseText="leukemia" relationID="R3" relationText="upregulated ... expression" />
+<ENTITY_LINKING id="E4" geneID="G23" geneText="P-gp" diseaseID="D29" diseaseText="PaC" relationID="R4" relationText="high ... expression" />
+<ENTITY_LINKING id="E5" geneID="G23" geneText="P-gp" diseaseID="D29" diseaseText="PaC" relationID="R5" relationText="shorter survival" />
+<ENTITY_LINKING id="E6" geneID="G28" geneText="P-gp" diseaseID="D34" diseaseText="DM" relationID="R6" relationText="shorter survival" />
+<ENTITY_LINKING id="E7" geneID="G28" geneText="P-gp" diseaseID="D34" diseaseText="DM" relationID="R7" relationText="high ... expression" />
+<ENTITY_LINKING id="E8" geneID="G32" geneText="P-gp" diseaseID="D54" diseaseText="PaC" relationID="R8" relationText="significantly elevated" />
+</TAGS>
+</Genomics_ConceptTask>

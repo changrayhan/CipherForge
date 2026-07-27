@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Lp25 membrane protein from pathogenic Leptospira spp. is associated with rhabdomyolysis and oliguric acute kidney injury in a guinea pig model of leptospirosis.
+Abstract: Acute kidney injury (AKI) from leptospirosis is frequently nonoliguric with hypo- or normokalemia. Higher serum potassium levels are observed in non-survivor patients and may have been caused by more severe AKI, metabolic disarrangement, or rhabdomyolysis. An association between the creatine phosphokinase (CPK) level and maximum serum creatinine level has been observed in these patients, which suggests that rhabdomyolysis contributes to severe AKI and hyperkalemia. LipL32 and Lp25 are conserved proteins in pathogenic strains of  Leptospira  spp., but these proteins have no known function. This study evaluated the effect of these proteins on renal function in guinea pigs. Lp25 is an outer membrane protein that appears responsible for the development of oliguric AKI associated with hyperkalemia induced by rhabdomyolysis (e.g., elevated CPK, uric acid and serum phosphate). This study is the first characterization of a leptospiral outer membrane protein that is associated with severe manifestations of leptospirosis. Therapeutic methods to attenuate this protein and inhibit rhabdomyolysis-induced AKI could protect animals and patients from severe forms of this disease and decrease mortality.
+Rhabdomyolysis is a syndrome that results from the disruption of skeletal muscle integrity, leading to a massive release of the intracellular contents into the blood stream, including myoglobin, creatine phosphokinase, aspartate transaminase, lactate dehydrogenase, aldolase, and electrolytes. Complications of rhabdomyolysis include acute kidney injury (AKI), hyperkalemia, hyperphosphatemia, and hypovolemia, which may result in death without early treatment. The most frequent causes of this syndrome are trauma, excessive muscle activity, drugs, toxins, electrolyte imbalance, muscle ischemia, metabolic disorders, and infectious diseases. Among leptospirosis cases, the AKI induced by rhabdomyolysis has been described almost exclusively in patients with severe form of leptospirosis. However, the role of rhabdomyolysis in the pathogenesis of AKI due to leptospiral infection is not understood.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D1" spans="154~167" text="leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="210~223" text="leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="2035~2048" text="leptospirosis" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D4" spans="2160~2173" text="leptospirosis" location="result" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+We previously showed that the  TET1  gene is preferentially methylated in CIMP-positive and  BRAF  mutant CRCs and adenomas, which suggests  TET1  is one of the genes affected by CIMP-related hypermethylation [ 18 ]. From those results, however, we could not determine whether  TET1  methylation is merely a consequence of CIMP or whether loss of  TET1  contributed to aberrant DNA methylation. To test the effect of long-term  TET1  depletion, we selected two CRC cell lines in which  TET1  is unmethylated and expressed. HCT116 cells are a MSI-positive cell line in which the mismatch repair genes  MLH1  and  MSH3  are mutated [ 27 ]. Aberrant DNA methylation is heavy in HCT116 cells (possibly CIMP-positive) [ 28 ], but they retain wild-type  BRAF  and show  KRAS  mutation instead. Colo320DM is a MSS cell line in which  TP53  is mutated and both  KRAS  and  BRAF  are wild-type. What causes  TET1  to be overexpressed in Colo320DM cells is unclear, but a recent study in human bronchial epithelial cells showed that KRAS activation suppresses  TET1  expression, which in turn triggers DNA hypermethylation and cellular transformation [ 29 ]. That finding appears consistent with our observation that the two CRC cell lines with wild-type  KRAS  had the highest  TET1  expression levels (CaCO2 and Colo320DM), although the biological relevance of the TET1 upregulation in these cells remains to be clarified.
+We obtained several unexpected results from the stable  TET1  knockdown CRC cells. For instance, we detected no significant changes in 5-hmC levels after  TET1  depletion. In addition, depletion of  TET1  had no effect on CRC cell proliferation, though in one recent study  TET1  exerted tumor suppressive effects in CRC cells [ 16 ]. One possible explanation for this apparent discrepancy is that, during the long-term culture needed to establish stable knockdown clones, the reduction in 5-hmC was compensated via another mechanism, though we observed no upregulation of other  TET  family members in the knockdown cells (data not shown). Alternatively, the sensitivity of our dot blot analysis may not have been sufficient to detect changes in 5-hmC levels at the respective loci. These results may thus indicate a limitation of our study, in which we could not fully recapitulate the  TET1  downregulation in primary CRC.
+Infinium BeadChip analysis revealed that levels of 5-mC were increased at as many as 15000 CpG sites in  TET1 -depleted Colo320DM cells (approximately 3.3% of the CpG sites covered by HumanMethylation450 BeadChip). We also noted that the genes exhibiting methylation changes were strongly associated with “development” and were expressed at lower levels in CRC cells. This may be consistent with the recent finding that TET proteins are key regulators of stem cell differentiation [ 30 ]. Our observations also appear to correspond with the earlier report that methylation-prone genes are downregulated in cancer and that they function in developmental processes [ 31 ]. Similarly, in gastric mucosa, genes susceptible to aberrant methylation induced by  Helicobacter pylori  infection are expressed at lower levels than the methylation-resistant genes [ 32 ].
+Despite the apparent effects on DNA methylation,  TET1  depletion exerted only moderate effects on gene expression. Methylation changes induced by  TET1  depletion were located at various positions within the genome in Colo320DM cells. In many of the affected genes, the numbers of CpG sites with methylation changes were relatively small and perhaps insufficient to affect gene expression. Nevertheless, both methylation and expression of a subset of important tumor-related genes were significantly altered in  TET1 -depleted CRC cells.  HTATIP2  (also known as  TIP30  or  CC3 ) was first identified as a metastasis suppressor in breast cancer [ 33 ] and was often found to be downregulated in various cancers. This downregulation of  HTATIP2  is reportedly associated with promoter CpG island methylation in HCC, CRC, esophageal squamous cell carcinoma and glioma [ 34 – 38 ].  HAS2 , which encodes hyaluronan synthase 2, is overexpressed in multiple tumor types, including breast and prostate cancer [ 39 ,  40 ], and HAS2 reportedly promotes cancer cell invasion and metastasis [ 41 ,  42 ]. It was recently shown that treating pancreatic ductal carcinoma cells with 5-aza-dC leads to increased expression of  HAS2 , suggesting an epigenetic mechanism is involved in regulating  HAS2  in cancer cells [ 43 ].
+In contrast to the genes mentioned above, we found that increased methylation in the gene body of  GRB10  is associated with its upregulated expression in  TET1  knockdown Colo320DM cells. GRB10 was first identified as an epidermal growth factor receptor (EGFR) binding protein [ 44 ], and subsequent studies revealed that GRB10 also interacts with multiple receptor tyrosine kinases and intracellular kinases. Expression of  GRB10  is upregulated in melanoma, cervical cancer and AML [ 45 – 47 ]. GRB10 interacts with oncogenic Bcr-Abl in chronic myelogenous leukemia [ 48 ], and with active Raf-1 to promote cell survival [ 49 ], and it also binds with FLT3 to enhance AML cell proliferation [ 47 ], which is suggestive of oncogenicity. By contrast, GRB10 also acts as a tumor suppressor by negatively regulating phosphatidylinositol 3-kinase and insulin signaling [ 50 ], and is silenced in association with promoter methylation in renal cancer [ 51 ]. Recent studies have shown that elevated methylation in the gene body region is positively associated with gene expression [ 52 – 54 ]. Thus, gene body methylation may be a mechanism by which to upregulate  GRB10  in cancer cells, although the function of  GRB10  in CRC remains to be clarified.
+Although  TET1  knockdown had only limited effects on DNA methylation in HCT116 cells, it appears responses to 5-aza-dC may be attenuated by  TET1  depletion in CRC cells. The magnitude of DNA demethylation and re-expression of epigenetically silenced tumor suppressor genes induced by 5-aza-dC were lower in  TET1 -depleted than control HCT116 cells. Moreover, the effects of 5-aza-dC on gene expression profiles were significantly diminished by  TET1  depletion in both HCT116 and Colo320DM cells. These results suggest that the pharmacological effect of 5-aza-dC may be, at least in part, dependent of TET1. While we were preparing this manuscript, another group reported that TET2 is required for DNA demethylation by 5-azacytidine in HCC cells [ 23 ]. They showed that 5-azacytidine treatment significantly increased expression of  TET2  and  TET3  in HCC cells, and  TET2  knockdown disrupted the generation of 5-hmC by 5-azacytidine, suggesting that 5-azacytidine could trigger TET2-dependent active demethylation. It is thus possible that TET1 plays a similar role in CRC cells treated with 5-aza-dC.
+Another recent study showed that TET1 acts as a tumor suppressor by regulating the Wnt signaling pathway in CRC [ 16 ]. In CRC cells, re-expressed TET1 targets the  DKK  and  SFRP  genes, which encode upstream inhibitors of Wnt signaling. TET1 upregulates their expression by reducing 5-mC and increasing 5-hmC at their promoter regions [ 16 ]. Our results indicate that TET1 may participate in the 5-aza-dC-induced restoration of  DKK  and  SFRP  genes in CRC cells.
+In summary, we have shown that depleting  TET1  may induce DNA methylation in CRC cells, suggesting downregulation of  TET1  may facilitate the accumulation of aberrant DNA methylation during the development of CRC. Our results also indicate that TET1 may contribute to the pharmacological effect of a DNMT inhibitor, suggesting that restoration of TET1 function would be a useful strategy for the treatment of CRC.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="32~36" text="TET1" location="background" />
+<GENE id="G1" spans="142~146" text="TET1" location="background" />
+<GENE id="G2" spans="279~283" text="TET1" location="result" />
+<GENE id="G3" spans="349~353" text="TET1" location="result" />
+<GENE id="G4" spans="429~433" text="TET1" location="result" />
+<GENE id="G5" spans="487~491" text="TET1" location="result" />
+<GENE id="G6" spans="602~606" text="MLH1" location="background" />
+<GENE id="G7" spans="613~617" text="MSH3" location="background" />
+<GENE id="G8" spans="765~769" text="KRAS" location="background" />
+<GENE id="G9" spans="828~832" text="TP53" location="background" />
+<GENE id="G10" spans="855~859" text="KRAS" location="background" />
+<GENE id="G11" spans="749~753" text="BRAF" location="background" />
+<GENE id="G12" spans="866~870" text="BRAF" location="background" />
+<GENE id="G13" spans="1024~1028" text="KRAS" location="background" />
+<GENE id="G14" spans="1052~1056" text="TET1" location="background" />
+<GENE id="G15" spans="1247~1251" text="KRAS" location="result" />
+<GENE id="G16" spans="1270~1274" text="TET1" location="result" />
+<GENE id="G17" spans="1358~1362" text="TET1" location="result" />
+<GENE id="G18" spans="1472~1476" text="TET1" location="result" />
+<GENE id="G19" spans="1571~1575" text="TET1" location="result" />
+<GENE id="G20" spans="1615~1619" text="TET1" location="result" />
+<GENE id="G21" spans="1690~1694" text="TET1" location="result" />
+<GENE id="G23" spans="2305~2309" text="TET1" location="result" />
+<GENE id="G24" spans="2447~2451" text="TET1" location="result" />
+<GENE id="G26" spans="3253~3257" text="TET1" location="result" />
+<GENE id="G27" spans="3351~3355" text="TET1" location="result" />
+<GENE id="G28" spans="3716~3720" text="TET1" location="result" />
+<GENE id="G29" spans="3743~3750" text="HTATIP2" location="background" />
+<GENE id="G30" spans="3768~3773" text="TIP30" location="background" />
+<GENE id="G31" spans="3779~3782" text="CC3" location="background" />
+<GENE id="G32" spans="3941~3948" text="HTATIP2" location="background" />
+<GENE id="G33" spans="4085~4089" text="HAS2" location="background" />
+<GENE id="G34" spans="4106~4127" text="hyaluronan synthase 2" location="background" />
+<GENE id="G35" spans="4226~4230" text="HAS2" location="background" />
+<GENE id="G36" spans="4419~4423" text="HAS2" location="background" />
+<GENE id="G37" spans="4488~4492" text="HAS2" location="background" />
+<GENE id="G38" spans="4674~4678" text="TET1" location="result" />
+<GENE id="G39" spans="4740~4772" text="epidermal growth factor receptor" location="background" />
+<GENE id="G40" spans="4774~4778" text="EGFR" location="background" />
+<GENE id="G41" spans="4617~4622" text="GRB10" location="result" />
+<GENE id="G42" spans="4707~4712" text="GRB10" location="background" />
+<GENE id="G43" spans="4841~4846" text="GRB10" location="background" />
+<GENE id="G44" spans="4944~4949" text="GRB10" location="background" />
+<GENE id="G45" spans="5016~5021" text="GRB10" location="background" />
+<GENE id="G46" spans="5111~5116" text="Raf-1" location="background" />
+<GENE id="G47" spans="5173~5177" text="FLT3" location="background" />
+<GENE id="G48" spans="5270~5275" text="GRB10" location="background" />
+<GENE id="G49" spans="5680~5685" text="GRB10" location="result" />
+<GENE id="G50" spans="5730~5735" text="GRB10" location="result" />
+<GENE id="G51" spans="5779~5783" text="TET1" location="result" />
+<GENE id="G52" spans="5911~5915" text="TET1" location="result" />
+<GENE id="G53" spans="6079~6083" text="TET1" location="result" />
+<GENE id="G54" spans="6217~6221" text="TET1" location="result" />
+<GENE id="G55" spans="6374~6378" text="TET1" location="result" />
+<GENE id="G56" spans="6449~6453" text="TET2" location="background" />
+<GENE id="G57" spans="6606~6610" text="TET2" location="background" />
+<GENE id="G58" spans="6617~6621" text="TET3" location="background" />
+<GENE id="G59" spans="6642~6646" text="TET2" location="background" />
+<GENE id="G60" spans="6754~6758" text="TET2" location="background" />
+<GENE id="G61" spans="6816~6820" text="TET1" location="result" />
+<GENE id="G62" spans="6911~6915" text="TET1" location="background" />
+<GENE id="G63" spans="7025~7029" text="TET1" location="background" />
+<GENE id="G64" spans="7043~7046" text="DKK" location="background" />
+<GENE id="G65" spans="7053~7057" text="SFRP" location="background" />
+<GENE id="G66" spans="7117~7121" text="TET1" location="background" />
+<GENE id="G67" spans="7249~7253" text="TET1" location="result" />
+<GENE id="G68" spans="7310~7313" text="DKK" location="result" />
+<GENE id="G69" spans="7320~7324" text="SFRP" location="result" />
+<GENE id="G70" spans="7388~7392" text="TET1" location="result" />
+<GENE id="G71" spans="7465~7469" text="TET1" location="result" />
+<GENE id="G72" spans="7593~7597" text="TET1" location="result" />
+<GENE id="G73" spans="7695~7699" text="TET1" location="result" />
+<GENE id="G74" spans="900~904" text="TET1" location="background" />
+<DISEASE id="D0" spans="107~110" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="116~123" text="adenoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="462~465" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="1216~1219" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1488~1491" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1638~1641" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1733~1736" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2337~2340" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2948~2954" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="3731~3734" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="3836~3849" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="3908~3914" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="4015~4018" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="4020~4023" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="4025~4059" text="esophageal squamous cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="4064~4070" text="glioma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="4181~4187,4201~4207" text="breast ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4192~4207" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4337~4364" text="pancreatic ductal carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4497~4503" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D21" spans="4969~4977" text="melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="4979~4994" text="cervical cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4999~5002" text="AML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="5058~5086" text="chronic myelogenous leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="5189~5192" text="AML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="5453~5465" text="renal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="5690~5696" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D29" spans="5740~5743" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="5930~5933" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="6508~6511" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="6626~6629" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="6845~6848" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="6986~6989" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="7001~7004" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="7335~7338" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="7424~7427" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D38" spans="7557~7560" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="7757~7760" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D40" spans="2699~2702" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="2311~2325" text="downregulation" location="result" relation="decreased expression" />
+<RELATION id="R2" spans="3883~3896" text="downregulated" location="background" relation="decreased expression" />
+<RELATION id="R3" spans="3811~3832" text="metastasis suppressor" location="background" relation="modulator decrease disease" />
+<RELATION id="R4" spans="4132~4145" text="overexpressed" location="background" relation="increased expression" />
+<RELATION id="R5" spans="4954~4965" text="upregulated" location="background" relation="increased expression" />
+<RELATION id="R6" spans="5400~5408" text="silenced" location="background" relation="decreased expression" />
+<RELATION id="R7" spans="5668~5678" text="upregulate" location="result" relation="increased expression" />
+<RELATION id="R10" spans="7542~7553" text="development" location="result" relation="pathological role" />
+<RELATION id="R11" spans="7727~7753" text="strategy for the treatment" location="result" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G23" geneText="TET1" diseaseID="D8" diseaseText="CRC" relationID="R1" relationText="downregulation" />
+<ENTITY_LINKING id="E1" geneID="G29" geneText="HTATIP2" diseaseID="D11" diseaseText="breast cancer" relationID="R3" relationText="metastasis suppressor" />
+<ENTITY_LINKING id="E2" geneID="G29" geneText="HTATIP2" diseaseID="D12" diseaseText="cancer" relationID="R2" relationText="downregulated" />
+<ENTITY_LINKING id="E3" geneID="G33" geneText="HAS2" diseaseID="D17" diseaseText="breast ... cancer" relationID="R4" relationText="overexpressed" />
+<ENTITY_LINKING id="E4" geneID="G33" geneText="HAS2" diseaseID="D18" diseaseText="prostate cancer" relationID="R4" relationText="overexpressed" />
+<ENTITY_LINKING id="E5" geneID="G44" geneText="GRB10" diseaseID="D21" diseaseText="melanoma" relationID="R5" relationText="upregulated" />
+<ENTITY_LINKING id="E6" geneID="G44" geneText="GRB10" diseaseID="D22" diseaseText="cervical cancer" relationID="R5" relationText="upregulated" />
+<ENTITY_LINKING id="E7" geneID="G44" geneText="GRB10" diseaseID="D23" diseaseText="AML" relationID="R5" relationText="upregulated" />
+<ENTITY_LINKING id="E8" geneID="G48" geneText="GRB10" diseaseID="D27" diseaseText="renal cancer" relationID="R6" relationText="silenced" />
+<ENTITY_LINKING id="E9" geneID="G49" geneText="GRB10" diseaseID="D28" diseaseText="cancer" relationID="R7" relationText="upregulate" />
+<ENTITY_LINKING id="E10" geneID="G71" geneText="TET1" diseaseID="D38" diseaseText="CRC" relationID="R10" relationText="development" />
+<ENTITY_LINKING id="E11" geneID="G73" geneText="TET1" diseaseID="D39" diseaseText="CRC" relationID="R11" relationText="strategy for the treatment" />
+</TAGS>
+</Genomics_ConceptTask>

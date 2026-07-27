@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Gastric cancer is the third leading cause of cancer-related deaths in men and the fifth leading cause in women. Gastric cancer accounted for approximately 990,000 new registered cases and 738,000 deaths worldwide in 2008  [1] . Infection with  Helicobacter pylori , diet, smoking and alcohol consumption are major determinants influencing the risk of getting gastric cancer  [2] ,  [3] .
+The epidermal growth factor (EGF) family is a complex network of tyrosine kinase receptors and ligands interacting to induce various signaling cascades. The family includes the four receptors EGFR (HER1), HER2 (ErbB2), HER3 (ErbB3), and HER4 (ErbB4)  [4] . By alternative splicing, HER4 is expressed in a number of isoforms. In the juxtamembraneous area of HER4, inclusion of either exon 15b or exon 16 results in the JMa or JMb isoforms, respectively  [5] – [7] . The JMa isoform and not the JMb isoform can be processed to release a soluble HER4 intracellular domain (ICD) that localizes in the cytoplasm, nucleus, and mitochondria  [8] ,  [9] . Alternative splicing in the cytoplasmic region of HER4 gives rise to the CYT1 and CYT2 isoforms. Skipping of exon 26 results in a receptor (CYT2) lacking 16 of the amino acids of the full-length receptor (CYT1)  [10] .
+The ligands of the EGF family are epidermal growth factor (EGF), transforming growth factor-α (TGF-α), and amphiregulin (AR) that are specific for EGFR; heparin-binding EGF-like growth factor (HB-EGF), betacellulin (BTC), and epiregulin (EPR) that bind both EGFR and HER4; neuregulin 1 (NRG1) and NRG2 that bind both HER3 and HER4; and finally NRG3 and NRG4 that are specific for HER4  [11] . When binding an activating ligand, the receptors make homo- and hetero-dimers. The composition of dimerization partners and activating ligands determines the signal to be transduced inside the cell  [12] ,  [13] . The EGFR family plays various roles in the growth and maintenance of numerous tissues, among others by regulating cell division, apoptosis, differentiation, and migration. Deregulation of signaling from this system is connected to development and growth of cancers  [14] – [17] .
+EGFR and HER2 are well-known oncogenes in gastric cancer  [18] ,  [19] . The HER2 inhibiting antibody trastuzumab successfully improves prognosis when added to the chemotherapy regimen in patients with HER2-positive advanced gastric cancers  [20] . A number of clinical trials have also been conducted to test the usability of EGFR inhibitors in gastric cancer  [21] ,  [22] . HER3 and HER4 could potentially also be important in the etiology of gastric cancer; however, information about their roles in this disease is sparse. Indeed, little is known about the expression pattern of the complete EGF system. Because of the interactive nature of the EGF receptors and ligands, clarification of the mechanisms of regulation of the EGF family members demands considering all the receptors and their ligands together.
+To investigate the expression pattern of the EGF receptors and ligands in gastric cancer, we obtained tissue from the tumor and the adjacent normal tissue from the same patient undergoing surgery for gastric cancer. We used paired tissue samples to ensure against the inter-individual variation that exists in the baseline expression of the EGF system. Using RT-qPCR, we quantified the mRNA expression of the four EGF receptors including the HER4 splicing isoforms and the ligands activating these receptors.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="581~585" text="EGFR" location="background" />
+<GENE id="G1" spans="587~591" text="HER1" location="background" />
+<GENE id="G2" spans="594~598" text="HER2" location="background" />
+<GENE id="G3" spans="600~605" text="ErbB2" location="background" />
+<GENE id="G4" spans="608~612" text="HER3" location="background" />
+<GENE id="G5" spans="614~619" text="ErbB3" location="background" />
+<GENE id="G6" spans="626~630" text="HER4" location="background" />
+<GENE id="G7" spans="632~637" text="ErbB4" location="background" />
+<GENE id="G8" spans="671~675" text="HER4" location="background" />
+<GENE id="G9" spans="746~750" text="HER4" location="background" />
+<GENE id="G10" spans="932~936" text="HER4" location="background" />
+<GENE id="G11" spans="1087~1091" text="HER4" location="background" />
+<GENE id="G12" spans="1290~1313" text="epidermal growth factor" location="background" />
+<GENE id="G13" spans="1315~1318" text="EGF" location="background" />
+<GENE id="G14" spans="1321~1349" text="transforming growth factor-α" location="background" />
+<GENE id="G15" spans="1351~1356" text="TGF-α" location="background" />
+<GENE id="G16" spans="1363~1375" text="amphiregulin" location="background" />
+<GENE id="G19" spans="1409~1447" text="heparin-binding EGF-like growth factor" location="background" />
+<GENE id="G20" spans="1449~1455" text="HB-EGF" location="background" />
+<GENE id="G21" spans="1458~1470" text="betacellulin" location="background" />
+<GENE id="G22" spans="1403~1407" text="EGFR" location="background" />
+<GENE id="G23" spans="1472~1475" text="BTC" location="background" />
+<GENE id="G24" spans="1482~1492" text="epiregulin" location="background" />
+<GENE id="G25" spans="1514~1518" text="EGFR" location="background" />
+<GENE id="G26" spans="1523~1527" text="HER4" location="background" />
+<GENE id="G27" spans="1529~1541" text="neuregulin 1" location="background" />
+<GENE id="G28" spans="1543~1547" text="NRG1" location="background" />
+<GENE id="G29" spans="1553~1557" text="NRG2" location="background" />
+<GENE id="G30" spans="1573~1577" text="HER3" location="background" />
+<GENE id="G31" spans="1582~1586" text="HER4" location="background" />
+<GENE id="G32" spans="1600~1604" text="NRG3" location="background" />
+<GENE id="G33" spans="1609~1613" text="NRG4" location="background" />
+<GENE id="G34" spans="1636~1640" text="HER4" location="background" />
+<GENE id="G35" spans="1867~1871" text="EGFR" location="background" />
+<GENE id="G36" spans="2143~2147" text="EGFR" location="background" />
+<GENE id="G37" spans="2152~2156" text="HER2" location="background" />
+<GENE id="G38" spans="2220~2224" text="HER2" location="background" />
+<GENE id="G39" spans="2345~2349" text="HER2" location="background" />
+<GENE id="G40" spans="2470~2474" text="EGFR" location="background" />
+<GENE id="G41" spans="2520~2524" text="HER3" location="background" />
+<GENE id="G42" spans="2529~2533" text="HER4" location="background" />
+<DISEASE id="D0" spans="1~15" text="Gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="46~52" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="113~127" text="Gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="360~374" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="2120~2126" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="2185~2199" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="2368~2382" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2489~2503" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2589~2603" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="3032~3046" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="3158~3172" text="gastric cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="2172~2181" text="oncogenes" location="background" relation="causative mutation" />
+<ENTITY_LINKING id="E0" geneID="G36" geneText="EGFR" diseaseID="D5" diseaseText="gastric cancer" relationID="R0" relationText="oncogenes" />
+<ENTITY_LINKING id="E1" geneID="G37" geneText="HER2" diseaseID="D5" diseaseText="gastric cancer" relationID="R0" relationText="oncogenes" />
+</TAGS>
+</Genomics_ConceptTask>

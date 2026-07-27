@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Classical invasive lobular carcinoma (ILC) is a well-established subtype of invasive breast cancer with a reported incidence of 10-15% [ 1 ]. One of the key distinguishing features of ILC is lack of E-cadherin expression noted on immunohistochemistry (IHC). Some of the reported histological subtypes of ILC are solid, alveolar, mixed, apocrine, signet-ring, histiocytoid, and tubulolobular. Pleomorphic invasive lobular carcinoma (PILC) is one category of ILC that represents approximately 15% of ILCs [ 2 ,  3 ]. It was first reported in 1982 by Dixon et al. who reported on 103 ILCs, some of which had nuclear pleomorphism in clusters of tumor cells [ 4 ]. Although PILC has been recognized by the World Health Organization as a distinct subtype of ILC since 2003, the clinicopathological features and prognosis of PILC are still unclear. Histologically, PILCs have more nuclear contour irregularity, increased hyperchromasia, and more frequent mitoses ( Figure 1 ). Molecular profiling of PILC is similar to ILC in that E-cadherin expression is diminished/absent due to alterations of the  CDH1  gene on chromosome 16 [ 5 ]. Similar to ILCs, they have expression of estrogen receptor (ER) and progesterone receptor (PR); however, PILCs have been reported to have acquired further molecular alterations such as gain of HER2/neu, amplification of c-myc, and loss of p53 [ 3 ,  6 ,  7 ]. Chromosomal and array-based comparative genomic hybridization (aCGH) analysis has shown increased genomic complexity in PILC [ 8 ]. Clinically, they tend to have higher grade and stage at presentation [ 9 ]. Data regarding prognosis of PILC's is conflicting with some reporting them to be more aggressive and to have a worse prognosis compared to ILC, but others do not report such difference [ 9 – 12 ]. PILCs tend to have histologically more aggressive morphology suggesting they are also likely biologically distinct from ILCs. Based on the histopathological and clinical characteristics, we hypothesized that PILCs would have a higher incidence of de novo activation of phosphoinositide 3 kinase/Akt/mammalian (or mechanistic) target of rapamycin (PI3K/Akt/mTOR) pathway resulting in a higher proliferation rate and markers of cell cycle. To tests this hypothesis, we conducted a retrospective tumor tissue translational study comparing clinicopathological and molecular characteristics of PILC and ILC at our institution. To test our hypothesis, we extracted clinicopathological data, assessed expression of antigen Ki67 (marker for cell proliferation) on ILCs, and PILCs by IHC. Activation of the PI3k/Akt/mTOR pathway was evaluated by quantifying protein expression of phosphatase and tensin homolog (PTEN) and phosphorylated-S6 kinase1 (p-S6K1). PTEN is a negative regulator of the PI3K pathway, and its loss/decreased expression (by mutation or allelic imbalance) activates downstream signaling. Loss (or decrease) of the PTEN expression has been reported to be associated with PI3K pathway activation in more than 50% of estrogen receptor positive (ER+) breast tumors [ 13 ]. Since the PI3K pathway can be activated by other mechanisms in addition to PTEN loss, we hypothesized that evaluation of pS6K1 may be a better predictor of activation of this pathway compared to the PTEN protein expression alone. S6K1 is one of the best characterized downstream targets of PI3K/Akt/mTOR pathway, and its activation is regulated by various mTORC1- and PI3K-mediated phosphorylation events [ 14 ].
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="200~210" text="E-cadherin" location="background" />
+<GENE id="G1" spans="1025~1035" text="E-cadherin" location="background" />
+<GENE id="G2" spans="1095~1099" text="CDH1" location="background" />
+<GENE id="G3" spans="1323~1327" text="HER2" location="background" />
+<GENE id="G4" spans="1328~1331" text="neu" location="background" />
+<GENE id="G5" spans="1350~1355" text="c-myc" location="background" />
+<GENE id="G6" spans="1369~1372" text="p53" location="background" />
+<GENE id="G7" spans="1737~1740" text="ILC" location="background" />
+<GENE id="G8" spans="1915~1918" text="ILC" location="background" />
+<GENE id="G9" spans="2393~2396" text="ILC" location="result" />
+<GENE id="G10" spans="2511~2515" text="Ki67" location="result" />
+<GENE id="G11" spans="2551~2554" text="ILC" location="result" />
+<GENE id="G12" spans="2666~2696" text="phosphatase and tensin homolog" location="result" />
+<GENE id="G13" spans="2698~2702" text="PTEN" location="result" />
+<GENE id="G14" spans="2723~2733" text="S6 kinase1" location="result" />
+<GENE id="G15" spans="2737~2741" text="S6K1" location="result" />
+<GENE id="G16" spans="2744~2748" text="PTEN" location="background" />
+<GENE id="G17" spans="2921~2925" text="PTEN" location="background" />
+<GENE id="G18" spans="3151~3155" text="PTEN" location="background" />
+<GENE id="G20" spans="3275~3279" text="PTEN" location="result" />
+<GENE id="G21" spans="3306~3310" text="S6K1" location="result" />
+<GENE id="G22" spans="3444~3448" text="PI3K" location="result" />
+<GENE id="G23" spans="3198~3202" text="S6K1" location="result" />
+<DISEASE id="D0" spans="11~37" text="invasive lobular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="39~42" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="86~99" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="185~188" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="305~308" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="405~431" text="invasive lobular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="458~461" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="499~502" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="582~585" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="753~756" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1013~1016" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1141~1144" text="ILC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="192~199,211~221" text="lack of ... expression" location="background" relation="decreased expression" />
+<RELATION id="R1" spans="1036~1067" text="expression is diminished/absent" location="background" relation="decreased expression" />
+<RELATION id="R2" spans="1075~1093,1101~1105" text="alterations of the ... gene" location="background" relation="associated mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="E-cadherin" diseaseID="D3" diseaseText="ILC" relationID="R0" relationText="lack of ... expression" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="E-cadherin" diseaseID="D10" diseaseText="ILC" relationID="R1" relationText="expression is diminished/absent" />
+<ENTITY_LINKING id="E3" geneID="G2" geneText="CDH1" diseaseID="D10" diseaseText="ILC" relationID="R2" relationText="alterations of the ... gene" />
+</TAGS>
+</Genomics_ConceptTask>

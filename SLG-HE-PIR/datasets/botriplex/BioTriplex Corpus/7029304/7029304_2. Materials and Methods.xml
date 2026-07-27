@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Identification of DEGs from TCGA Database
+The TCGA database contains exhaustive, multidimensional maps of key cancer genome changes in various cancers [ 14 ], which was selected for our study. All data have been collected and analyzed by the R language. Samples were then subjected to differential expression analysis using the edgeR package. Genes with log fold-change (FC)| > 2 and  P  < 0.05 were considered to be DEGs.
+2.2. GO and KEGG Pathway Analysis
+On the basis of DEGs, gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were performed by using the R package clusterProfiler [ 15 ]. GO enrichment analysis is analyzed in three aspects: biological process (BP), molecular function (MF), and cellular component (CC). The KEGG database stores a wealth of information about genomes, biological pathways, chemicals and drugs, and diseases, which is widely used to identify functional and metabolic pathways associated with the overlapping DEGs [ 16 ]. A  P -value of was <0.05 identified as significant difference.
+2.3. PPI Network and Relative Expression of Hub Genes
+The PPI network for screening genes was established through the STRING online database, and an interaction score of ≥0.4 was set. Then, the results were visualized by the Cytoscape software (version 3.6.1,  http://www.cytoscape.org/ ). The hub genes by calculating the degree, betweenness centrality, and Stress were screened in CytoHubba. To further validate the mRNA levels in ChRCC, we examined the relative expression of the hub genes in Oncomine, which is an online platform that provides cancer microarray datasets and data exploration capabilities to validate the expression of specific genes in a variety of cancers, thereby helping discover the potential genes involved in tumorigenesis and progression.  P  < 0.05 represented a statistically significant threshold.
+2.4. Survival Analysis of Hub Genes
+For hub genes that were significantly associated with survival, the relationship between mRNA expression level and overall survival were estimated using the online tool UALCAN ( http://ualcan.path.uab.edu ), which is a convenient, interactive web resource for analyzing cancer transcriptome data based on the Oncomine dataset [ 17 ].
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="149~155" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="1505~1510" text="ChRCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="116~122" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="1620~1626" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

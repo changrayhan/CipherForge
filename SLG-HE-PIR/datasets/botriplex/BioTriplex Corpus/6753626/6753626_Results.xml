@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Distribution Frequency of CNAs in ALL
+The frequency distribution of CNAs detected in B-ALL ( n  = 121) were predominantly heterozygous or homozygous deletions in  IKZF1  (22%) and  CDKN2A/B  (22%) followed by  PAX5  (19%) ( Figure 2A ,  Supplementary Table S1 ). Deletions were also detected in  MLLT3  (14%) , MTAP  (14%) , ETV6  (14%), and deletions in other gene targets were observed in <10% of the B-ALL cases. Gene duplications were observed in  RUNX1  (~32% cases),  ERG  (~30% cases),  PHF6  (20%), and  PTEN  (19%) genes and the following genes showed only duplication and no deletion was noted in any patient sample-  TOX, ABL1, NUP214, NOTCH, PTEN, LMO1, LMO2, CD44, SPRED1, NF1, PTPN2 , and  PHF6  genes ( Figure 2A ). In the 27 T-ALL cases (18% of total ALL cases), deletions were noted in 59% ( n  = 16) cases primarily in the  CDKN2A/B  gene locus followed by  MTAP  (~33%), 15% in  MLLT3/ PTEN/ JAK2 , and <10% in  PAR1, IKZF1, EZH2, EBF1 , and  PHF6  ( Figure 2A ;  Supplementary Table S1 ).
+Of the 148 ALL samples, no CNAs were detected in 9 samples (~6%) [B-ALL ( n  = 5), T-ALL ( n  = 2), and ETP-ALL ( n  = 2)]. Noticeably, 66% of the cases showed ≥3 CNAs, ~10% had 2 CNAs and ~13% had only 1 CNA ( Figure 2B ). Interestingly, in ~5% ( n  = 8 cases) of the samples, which harbored recurrent chromosomal abnormalities including  BCR-ABL1  ( n  = 1),  KMT2A-AFF1  ( n  = 2), and  E2A-PBX  ( n  = 5), no CNAs were detected. Copy number alterations identified were on an average of 5.6 somatic CNAs per sample (5.8 in B-cell precursor ALL and 3.8 in T-cell ALL) for the 54 gene targets covered.
+Spectrum of CNAs and Prognostic Significance in B-ALL
+For risk evaluation, B-ALL cases (~82% of total ALL cases) were categorized by cytogenetic risk groups as patients with good-risk (GR) genetic abnormalities ( n  = 33, ~27%), poor-risk (PR) abnormalities ( n  = 25; ~21%), and the remaining 52% ( n  = 63) of the cases as intermediate cytogenetic risk (IR) group ( Figure 3 ). In the category of Good Risk (GR) genetic abnormalities (High hyperdiploidy and  ETV6-RUNX1 ), 16% ( n  = 19) of the B-ALL cases were assigned Hyperdiploidy status as determined by the karyotyping probes in the dMLPA assay. Only chromosomes for which all karyotyping probes showed increased read ratios of greater than the cut-off of 1.3 and above were considered as heterozygous gain or >1.75 as homozygous gain whereas partial chromosomal gain were excluded. Concordance of hyperdiploidy status could be demonstrated in three cases where simultaneous conventional karyotyping data was available ( Supplementary Table S2 ). Non-random gain of chromosomes X, 4, 6, 10, 14, 17, 18, and 21 was commonly observed with exceptions of gain of chromosomes 1, 5, 7, and 8 in a few cases ( Supplementary Figure S1 ). In cases with hyperdiploidy, isolated CNAs were noted as deletions in  CDKN2A/B, MTAP, IKZF1, CASP8AP2, ERG, RAG2, ETV6, CTCF, TBL1XR1 , and  VPREB1  genes, which could potentially introduce heterogeneity for risk stratification in this good risk category ( Supplementary Table S2 ).
+The other GR category comprised 12% ( n  = 14 cases) of the B-ALL cases with  ETV6-RUNX1  genetic abnormality ( Figure 3 ), wherein predominant CNAs were observed as gene deletions in the  ETV6  gene indicating rearrangements and fusions ( Figure 4 ). In addition, deletions were also observed in  PAX5  (3 cases),  IGHM  (6 cases),  VPREB1  (6 cases),  EBF1 , and  MYB  (2 cases) genes. No case with  ETV6-RUNX1  harbored deletions in  IKZF1, PAR1 , or  BTG1 . An isolated case within this category showed a deletion in the  RB1  gene. Two cases with a deletion in the  EBF1  gene showed co-occurrence of deletions in  NR3C2, PAX5, RAG2 , and  VPREB1  or deletions in multiple other genes ( CD200, BTLA, CASP8AP2 , and  MYB ). Also, gene duplications were detected in  RUNX1, ERG, PHF6 , and  PTEN  genes in a few cases ( Figure 4 ).
+In the poor risk (PR) category, the dominant CNAs detected in B-ALL with  BCR-ABL  genetic abnormalities  ( 14%;  n  = 17 cases) ( Figure 3 ) were deletions in  IKZF1  (~82%;  n  = 14 cases) and  CDKN2A/B  locus (~53%;  n  = 9 cases) ( Figure 4 ). Majority of the cases showed partial or complete deletion of the exonic region of  IKZF1  gene but in one case heterozygous deletion in the genomic region immediately upstream of  IKZF1  gene was noted. Mutually exclusive deletions in  BTG1, IGHM, PAX5 , and  VPREB1  genes were also present in almost 25% of the cases. The  BCR-ABL  isoform (p210) was detected in the five samples and the remaining 12 samples showed the p190 isoform. Interestingly, the CNA profile observed in the cases with p190 isoform were more heterogenous as compared to the cases with p210; the latter harbored only  IKZF1  or  CDKN2A/B  gene deletions ( Figure 4 ). One case also harbored a rare  NUP214-ABL1  intrachromosomal rearrangement, a rare entity seen in B-ALL.
+In the other poor risk (PR) category of B-ALL with  KMT2A-AFF1  (5%;  n  = 6 cases) genetic abnormalities ( Figure 3 ), gene deletions were detected in  IKZF1, CDKN2A/B, TP53, IKZF3 , and  VPREB1  genes. No gene deletions were detected in three cases. Interestingly, four cases harbored gene duplications in  DMD  and  PHF6  genes ( Figure 4 ). One case of B-ALL with iAMP21 amplification showed gene deletions in  RB1, TP53, CTCF, CD200, and BTLA  ( Figure 4 ;  Supplementary Figure S2 ). Intrachromosomal  EBF1-PDGFRB  rearrangement was detected by dMLPA in two cases, which also carried deletions in  SUZ12, BTG1, BTLA , and  TP53  genes associated with poor risk ( Figure 4 ;  Supplementary Figure S2 ).
+Contrary to the GR category with  ETV6-RUNX1  genetic abnormality, cases in the intermediate risk category with  E2A-PBX  (8%;  n  = 10 cases) ( Figure 3 ) chromosomal abnormality rarely showed any gene deletions. Three out of ten cases showed deletions in  RB1  and  PAX5  genes with co-occurrence of  TBL1XR1  or  BTG1  or  CDKN2A/B, CASP8AP2 , and  JAK2  gene deletions ( Figure 4 ).
+The remaining ~42% cases with no detectable cytogenetic abnormalities were classified as intermediate-risk group and further evaluated based on CNAs (loss or gain) detected by dMLPA. Of these, 16% ( n  = 20 cases) showed deletions in  IKZF1/PAR1/EBF1/RB1/ERG , and 8% ( n  = 10) of these cases carried deletions in  CDKN2A/B  locus, which are associated with poor risk ( Figure 3 ). Within this subgroup, one case also harbored a  NUP214-ABL1  intrachromosomal rearrangement, a rare entity seen in B-ALL. The remaining 13% ( n  = 16 cases) displayed substantial heterogeneity in the CNAs detected ( Figure 4 ). Strikingly, ~50% of these cases showed duplications in  RUNX1  and  ERG  and two cases in  DMD, MYB , and  CASP8AP2 . Four cases harbored a deletion in the  VPREB1  gene, and two cases showed gene deletions in  EZH2  and  EPHA1 . Interestingly, intragenic amplification of exon 2–5 of the  PAX5  gene was detected in one patient sample that was also MRD positive.
+The CNAs (both gene deletions and duplications) were correlated with post-induction MRD status, which was available for 92 cases of which 27% ( n  = 25) cases were MRD positive (≥0.01%) and the remaining 73% ( n  = 67) were MRD negative ( Table 1 ). In addition to the previously described CNAs of prognostic relevance ( IKZF1, CDKN2A, BTG1, EBF1, PAX5, ETV6, RB1 ), we observed a correlation between deletions in  NF1  and  SUZ12  and duplications in  LEF1, NR3C2, RUNX1 , and  PAR1  region and MRD positivity ( Table 2 ). A trend of correlation was also seen for  PHF6  and  CASP8AP2  gene duplication and MRD positivity.
+
+           Table 2 
+           Correlation of Minimal Residual Disease status with Deletions and Duplications in individual genes/loci. 
+           
+             
+           CNA in genes 
+                 
+                   
+                 MRD − 
+                 
+                   
+                 MRD+ 
+                 
+                   
+                 p ) Fisher's exact ( 
+                 
+                   
+                 FDR (p. adj.) 
+                 
+                   
+                 CNA in Genes 
+                 
+                   
+                 MRD − 
+                 
+                   
+                 MRD+ 
+                 
+                   
+                 p ) Fisher's exact ( 
+                 
+                   
+                 FDR (p. adj.) 
+                 
+                   
+               
+                 
+             
+               
+             IKZF1 deletion 
+                 13 
+                 6 
+                 0.77 
+                 1 
+                 LEF1 gain 
+                 2 
+                 6 
+                 * 0.005 
+                 
+                   
+                 0.08 
+                 
+                   
+               
+                 
+               IKZF wt 
+                 54 
+                 19 
+                 
+                 
+                 LEF1 wt 
+                 64 
+                 19 
+                 
+                 
+               
+                 
+               CDKN2A/B deletion 
+                 18 
+                 2 
+                 0.08 
+                 
+                   
+                 0.7 
+                 NR3C2 gain 
+                 3 
+                 6 
+                 * 0.010 
+                 
+                   
+                 0.08 
+                 
+                   
+               
+                 
+               CDKN2A/B wt 
+                 48 
+                 22 
+                 
+                 
+                 NR3C2 wt 
+                 62 
+                 18 
+                 
+                 
+               
+                 
+               BTG1 Deletion 
+                 4 
+                 1 
+                 1 
+                 1 
+                 RUNX1 gain 
+                 14 
+                 12 
+                 * 0.015 
+                 
+                   
+                 0.08 
+                 
+                   
+               
+                 
+               BTG1 wt 
+                 61 
+                 24 
+                 
+                 
+                 RUNX1 wt 
+                 50 
+                 11 
+                 
+                 
+               
+                 
+               EBF1 deletion 
+                 3 
+                 0 
+                 0.55 
+                 0.95 
+                 PAR1 gain 
+                 10 
+                 9 
+                 * 0.042 
+                 
+                   
+                 0.17 
+               
+                 
+               EBF1 wt 
+                 58 
+                 25 
+                 
+                 
+                 PAR1 wt 
+                 56 
+                 16 
+                 
+                 
+               
+                 
+               PAX5 deletion 
+                 16 
+                 3 
+                 0.38 
+                 0.86 
+                 PHF6 gain 
+                 10 
+                 8 
+                 0.081 
+                 0.25 
+               
+                 
+               PAX5 wt 
+                 49 
+                 20 
+                 
+                 
+                 PHF6 wt 
+                 57 
+                 17 
+                 
+                 
+               
+                 
+               ETV6 deletion 
+                 13 
+                 4 
+                 0.77 
+                 1 
+                 CASP8AP2 gain 
+                 6 
+                 6 
+                 0.092 
+                 0.25 
+               
+                 
+               ETV6 wt 
+                 53 
+                 21 
+                 
+                 
+                 CASP8AP2 wt 
+                 57 
+                 19 
+                 
+                 
+               
+                 
+               Rb1 deletion 
+                 3 
+                 0 
+                 0.56 
+                 0.95 
+                 PTPN2 gain 
+                 2 
+                 3 
+                 0.122 
+                 0.28 
+               
+                 
+               Rb1 wt 
+                 64 
+                 25 
+                 
+                 
+                 PTPN2 wt 
+                 65 
+                 22 
+                 
+                 
+               
+                 
+               MLLT3 deletion 
+                 12 
+                 2 
+                 0.33 
+                 0.86 
+                 MYB gain 
+                 7 
+                 6 
+                 0.177 
+                 0.35 
+               
+                 
+               MLLT3 wt 
+                 54 
+                 23 
+                 
+                 
+                 MYB wt 
+                 58 
+                 19 
+                 
+                 
+               
+                 
+               MTAP deletion 
+                 16 
+                 2 
+                 0.14 
+                 0.79 
+                 PTEN gain 
+                 9 
+                 6 
+                 0.224 
+                 0.4 
+               
+                 
+               MTAP wt 
+                 50 
+                 23 
+                 
+                 
+                 PTEN wt 
+                 58 
+                 19 
+                 
+                 
+               
+                 
+               NF1+SUZ12 del. 
+                 0 
+                 2 
+                 0.06 
+                 
+                   
+                 0.7 
+                 TOX gain 
+                 5 
+                 4 
+                 0.261 
+                 0.42 
+               
+                 
+               NF1+SUZ12 wt 
+                 61 
+                 19 
+                 
+                 
+                 TOX wt 
+                 59 
+                 21 
+                 
+                 
+               
+                 
+               EPHA1 deletion 
+                 2 
+                 2 
+                 0.3 
+                 0.86 
+                 ADD3 gain 
+                 3 
+                 3 
+                 0.34 
+                 0.47 
+               
+                 
+               EPHA1 wt 
+                 64 
+                 23 
+                 
+                 
+                 ADD3 wt 
+                 63 
+                 22 
+                 
+                 
+               
+                 
+               EZH2 deletion 
+                 2 
+                 2 
+                 0.3 
+                 0.86 
+                 IGHM gain 
+                 10 
+                 6 
+                 0.35 
+                 0.47 
+               
+                 
+               EZH2 wt 
+                 64 
+                 23 
+                 
+                 
+                 IGHM wt 
+                 49 
+                 16 
+                 
+                 
+               
+                 
+               VPREB deletion 
+                 13 
+                 7 
+                 0.41 
+                 0.86 
+                 DMD gain 
+                 6 
+                 4 
+                 0.446 
+                 0.55 
+               
+                 
+               VPREB wt 
+                 53 
+                 18 
+                 
+                 
+                 DMD wt 
+                 61 
+                 20 
+                 
+                 
+               
+                 
+               CD200/BTLA deletion 
+                 4 
+                 1 
+                 1 
+                 1 
+                 PDGFRB gain 
+                 3 
+                 0 
+                 0.5 
+                 0.57 
+               
+                 
+               CD200/BTLA wt 
+                 62 
+                 23 
+                 
+                 
+                 PDGFRB wt 
+                 64 
+                 25 
+                 
+                 
+               
+                 
+               TBL1XR1 deletion 
+                 5 
+                 1 
+                 1 
+                 1 
+                 NR3C1 gain 
+                 4 
+                 0 
+                 0.57 
+                 0.61 
+               
+                 
+               TBL1XR1 wt 
+                 62 
+                 23 
+                 
+                 
+                 NR3C1 wt 
+                 62 
+                 24 
+                 
+                 
+               
+                 
+               IGHM deletion 
+                 8 
+                 3 
+                 1 
+                 1 
+                 LMO1 gain 
+                 4 
+                 2 
+                 0.668 
+                 0.67 
+               
+                 
+               IGHM wt 
+                 49 
+                 16 
+                 
+                 
+                 LMO1 wt 
+                 61 
+                 23 
+                 
+                 
+               
+                 
+             
+               
+           
+             
+           * 
+               and bold p < 0.05 were considered statistically significant . 
+             
+               
+             p values showing a trend of correlation are shown in bold . 
+           
+             
+        
+Frequency Distribution and Prognostic Value of CNAs in T-ALL
+Intrachromosomal fusions were detected in ~19% cases, with five cases showing a  SIL-TAL1  fusion and two cases showed  NUP214-ABL  genetic rearrangement ( Figure 5A ;  Supplementary Figure S3 ). All cases with  SIL-TAL1  fusion and one case with  NUP214-ABL  also carried  CDKN2A/B  gene deletions ( Figure 5B ). Deletions in  CDKN2A/B, IKZF1 , and  EZH2  were mutually exclusive. Two cases showed  NF1/ SUZ12  deletions associated with poor risk. Four cases including two cases of ETP-ALL did not show any CNAs (not shown in the heat map  Figure 5B ).
+Validation of dMLPA by Conventional MLPA and RT-PCR
+The CNAs detected by dMLPA were confirmed by conventional MLPA assays (P202, P335, P327, and P383) as per the availability of samples ( n  = 117). The reference range data showed a normal distribution in each case, and a narrow variation in the mean and SD in the reference samples (Mean ± 2SD or 99% CI, Mean ± 3SD or 95% CI;  p  = 0.05), dosage quotient ranging from 0.8 to 1.2 (representative read ratios,  Supplementary Figure S4 ). The degree of concordance between the conventional MLPA and dMLPA assays for the detection of listed genes indicating the number of samples tested is shown in  Supplementary Table S3 . The Pearson's correlation coefficient was calculated to determine the efficiency of dMLPA and conventional MLPA and a positive correlation ( r  = 0.99) between the two assay methods was observed. Heterozygous deletion in  EZH2  gene was detected in three cases by conventional MLPA as opposed to one case by dMLPA.
+Chromosomal abnormalities including  BCR-ABL1, KMT2A-AFF1, E2A-PBX , and  ETV6-RUNX1  were detected by RT-PCR and a few positive cases were also confirmed by FISH (FISH data was available for the following number of cases  BCR-ABL1  = 12/17;  KMT2A-AFF1  = 5/6;  E2A-PBX  = 7/10; and  ETV6-RUNX1  = 9/14). Intrachromosomal gene fusion,  STIL-TAL1  detected in five T-ALL cases was also validated by RT-PCR and conventional MLPA ( Supplementary Figure S4 ). Also, positive cases for  NUP214-ABL1  were confirmed by conventional MLPA (P383 probemix).
+In ALL samples, an average of 900 single reads of 100 nucleotides was generated with minimal variability relative to reference samples that showed a standard deviation below 0.1 (maximum 0.06) across all target probes. Of the 151 ALL samples, three were excluded from the analysis as high variability in read ratios was observed ( Figure 1 ). This could be attributed to the presence of impurities in the DNA samples. The characteristics of ALL patients including gender, age, total leukocyte counts, laboratory parameters ( n  = 148), and clinical features ( n  = 92) are mentioned in  Table 1 .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="164~169" text="IKZF1" location="result" />
+<GENE id="G1" spans="182~188" text="CDKN2A" location="result" />
+<GENE id="G2" spans="211~215" text="PAX5" location="result" />
+<GENE id="G3" spans="297~302" text="MLLT3" location="result" />
+<GENE id="G4" spans="312~316" text="MTAP" location="result" />
+<GENE id="G5" spans="326~330" text="ETV6" location="result" />
+<GENE id="G6" spans="453~458" text="RUNX1" location="result" />
+<GENE id="G7" spans="475~478" text="ERG" location="result" />
+<GENE id="G8" spans="495~499" text="PHF6" location="result" />
+<GENE id="G9" spans="513~517" text="PTEN" location="result" />
+<GENE id="G10" spans="629~632" text="TOX" location="result" />
+<GENE id="G11" spans="634~638" text="ABL1" location="result" />
+<GENE id="G12" spans="640~646" text="NUP214" location="result" />
+<GENE id="G13" spans="648~653" text="NOTCH" location="result" />
+<GENE id="G14" spans="655~659" text="PTEN" location="result" />
+<GENE id="G15" spans="661~665" text="LMO1" location="result" />
+<GENE id="G16" spans="667~671" text="LMO2" location="result" />
+<GENE id="G17" spans="673~677" text="CD44" location="result" />
+<GENE id="G18" spans="679~685" text="SPRED1" location="result" />
+<GENE id="G19" spans="687~690" text="NF1" location="result" />
+<GENE id="G20" spans="692~697" text="PTPN2" location="result" />
+<GENE id="G21" spans="705~709" text="PHF6" location="result" />
+<GENE id="G22" spans="843~849" text="CDKN2A" location="result" />
+<GENE id="G23" spans="899~904" text="MLLT3" location="result" />
+<GENE id="G24" spans="906~910" text="PTEN" location="result" />
+<GENE id="G25" spans="911~916" text=" JAK2" location="result" />
+<GENE id="G26" spans="932~936" text="PAR1" location="result" />
+<GENE id="G27" spans="938~943" text="IKZF1" location="result" />
+<GENE id="G28" spans="945~949" text="EZH2" location="result" />
+<GENE id="G29" spans="951~955" text="EBF1" location="result" />
+<GENE id="G30" spans="963~967" text="PHF6" location="result" />
+<GENE id="G31" spans="1350~1353" text="BCR" location="result" />
+<GENE id="G32" spans="1354~1358" text="ABL1" location="result" />
+<GENE id="G33" spans="1371~1377" text=" KMT2A" location="result" />
+<GENE id="G34" spans="1378~1382" text="AFF1" location="result" />
+<GENE id="G35" spans="1400~1403" text="E2A" location="result" />
+<GENE id="G36" spans="1404~1407" text="PBX" location="result" />
+<GENE id="G37" spans="2074~2078" text="ETV6" location="result" />
+<GENE id="G38" spans="2079~2084" text="RUNX1" location="result" />
+<GENE id="G39" spans="2872~2878" text="CDKN2A" location="result" />
+<GENE id="G40" spans="2882~2886" text="MTAP" location="result" />
+<GENE id="G41" spans="2888~2893" text="IKZF1" location="result" />
+<GENE id="G42" spans="2895~2903" text="CASP8AP2" location="result" />
+<GENE id="G43" spans="2905~2908" text="ERG" location="result" />
+<GENE id="G44" spans="2910~2914" text="RAG2" location="result" />
+<GENE id="G45" spans="2916~2920" text="ETV6" location="result" />
+<GENE id="G46" spans="2922~2926" text="CTCF" location="result" />
+<GENE id="G47" spans="2928~2935" text="TBL1XR1" location="result" />
+<GENE id="G48" spans="2943~2949" text="VPREB1" location="result" />
+<GENE id="G49" spans="3163~3167" text="ETV6" location="result" />
+<GENE id="G50" spans="3168~3173" text="RUNX1" location="result" />
+<GENE id="G51" spans="3274~3278" text="ETV6" location="result" />
+<GENE id="G52" spans="3383~3387" text="PAX5" location="result" />
+<GENE id="G53" spans="3401~3405" text="IGHM" location="result" />
+<GENE id="G54" spans="3419~3425" text="VPREB1" location="result" />
+<GENE id="G55" spans="3439~3443" text="EBF1" location="result" />
+<GENE id="G56" spans="3451~3454" text="MYB" location="result" />
+<GENE id="G57" spans="3487~3491" text="ETV6" location="result" />
+<GENE id="G58" spans="3492~3497" text="RUNX1" location="result" />
+<GENE id="G59" spans="3522~3527" text="IKZF1" location="result" />
+<GENE id="G60" spans="3529~3533" text="PAR1" location="result" />
+<GENE id="G61" spans="3540~3544" text="BTG1" location="result" />
+<GENE id="G62" spans="3611~3614" text="RB1" location="result" />
+<GENE id="G63" spans="3656~3660" text="EBF1" location="result" />
+<GENE id="G64" spans="3705~3710" text="NR3C2" location="result" />
+<GENE id="G65" spans="3712~3716" text="PAX5" location="result" />
+<GENE id="G66" spans="3718~3722" text="RAG2" location="result" />
+<GENE id="G67" spans="3730~3736" text="VPREB1" location="result" />
+<GENE id="G68" spans="3777~3782" text="CD200" location="result" />
+<GENE id="G69" spans="3784~3788" text="BTLA" location="result" />
+<GENE id="G70" spans="3790~3798" text="CASP8AP2" location="result" />
+<GENE id="G71" spans="3806~3809" text="MYB" location="result" />
+<GENE id="G72" spans="3855~3860" text="RUNX1" location="result" />
+<GENE id="G73" spans="3862~3865" text="ERG" location="result" />
+<GENE id="G74" spans="3867~3871" text="PHF6" location="result" />
+<GENE id="G75" spans="3879~3883" text="PTEN" location="result" />
+<GENE id="G76" spans="3994~3997" text="BCR" location="result" />
+<GENE id="G77" spans="3998~4001" text="ABL" location="result" />
+<GENE id="G78" spans="4081~4086" text="IKZF1" location="result" />
+<GENE id="G79" spans="4116~4122" text="CDKN2A" location="result" />
+<GENE id="G80" spans="4251~4256" text="IKZF1" location="result" />
+<GENE id="G81" spans="4348~4353" text="IKZF1" location="result" />
+<GENE id="G82" spans="4404~4408" text="BTG1" location="result" />
+<GENE id="G83" spans="4410~4414" text="IGHM" location="result" />
+<GENE id="G84" spans="4416~4420" text="PAX5" location="result" />
+<GENE id="G85" spans="4428~4434" text="VPREB1" location="result" />
+<GENE id="G86" spans="4493~4496" text="BCR" location="result" />
+<GENE id="G87" spans="4497~4500" text="ABL" location="result" />
+<GENE id="G88" spans="4760~4765" text="IKZF1" location="result" />
+<GENE id="G89" spans="4771~4777" text="CDKN2A" location="result" />
+<GENE id="G90" spans="4841~4847" text="NUP214" location="result" />
+<GENE id="G91" spans="4848~4852" text="ABL1" location="result" />
+<GENE id="G92" spans="4967~4972" text="KMT2A" location="result" />
+<GENE id="G93" spans="4973~4977" text="AFF1" location="result" />
+<GENE id="G94" spans="5068~5073" text="IKZF1" location="result" />
+<GENE id="G95" spans="5075~5081" text="CDKN2A" location="result" />
+<GENE id="G96" spans="5085~5089" text="TP53" location="result" />
+<GENE id="G97" spans="5091~5096" text="IKZF3" location="result" />
+<GENE id="G98" spans="5104~5110" text="VPREB1" location="result" />
+<GENE id="G99" spans="5224~5227" text="DMD" location="result" />
+<GENE id="G100" spans="5234~5238" text="PHF6" location="result" />
+<GENE id="G101" spans="5330~5333" text="RB1" location="result" />
+<GENE id="G102" spans="5335~5339" text="TP53" location="result" />
+<GENE id="G103" spans="5341~5345" text="CTCF" location="result" />
+<GENE id="G104" spans="5347~5352" text="CD200" location="result" />
+<GENE id="G105" spans="5358~5362" text="BTLA" location="result" />
+<GENE id="G106" spans="5423~5427" text="EBF1" location="result" />
+<GENE id="G107" spans="5428~5434" text="PDGFRB" location="result" />
+<GENE id="G108" spans="5519~5524" text="SUZ12" location="result" />
+<GENE id="G109" spans="5526~5530" text="BTG1" location="result" />
+<GENE id="G110" spans="5532~5536" text="BTLA" location="result" />
+<GENE id="G111" spans="5544~5548" text="TP53" location="result" />
+<GENE id="G112" spans="5657~5661" text="ETV6" location="result" />
+<GENE id="G113" spans="5662~5667" text="RUNX1" location="result" />
+<GENE id="G114" spans="5736~5739" text="E2A" location="result" />
+<GENE id="G115" spans="5881~5884" text="RB1" location="result" />
+<GENE id="G116" spans="5891~5895" text="PAX5" location="result" />
+<GENE id="G117" spans="5926~5933" text="TBL1XR1" location="result" />
+<GENE id="G118" spans="5939~5943" text="BTG1" location="result" />
+<GENE id="G119" spans="5949~5955" text="CDKN2A" location="result" />
+<GENE id="G120" spans="5959~5967" text="CASP8AP2" location="result" />
+<GENE id="G121" spans="5975~5979" text="JAK2" location="result" />
+<GENE id="G122" spans="6245~6250" text="IKZF1" location="result" />
+<GENE id="G123" spans="6251~6255" text="PAR1" location="result" />
+<GENE id="G124" spans="6256~6260" text="EBF1" location="result" />
+<GENE id="G125" spans="6261~6264" text="RB1" location="result" />
+<GENE id="G126" spans="6265~6268" text="ERG" location="result" />
+<GENE id="G127" spans="6326~6332" text="CDKN2A" location="result" />
+<GENE id="G128" spans="6441~6447" text="NUP214" location="result" />
+<GENE id="G129" spans="6448~6452" text="ABL1" location="result" />
+<GENE id="G130" spans="6677~6682" text="RUNX1" location="result" />
+<GENE id="G131" spans="6689~6692" text="ERG" location="result" />
+<GENE id="G132" spans="6712~6715" text="DMD" location="result" />
+<GENE id="G133" spans="6717~6720" text="MYB" location="result" />
+<GENE id="G134" spans="6728~6736" text="CASP8AP2" location="result" />
+<GENE id="G135" spans="6778~6784" text="VPREB1" location="result" />
+<GENE id="G136" spans="6832~6836" text="EZH2" location="result" />
+<GENE id="G137" spans="6843~6848" text="EPHA1" location="result" />
+<GENE id="G138" spans="6911~6915" text="PAX5" location="result" />
+<GENE id="G139" spans="7306~7311" text="IKZF1" location="result" />
+<GENE id="G140" spans="7313~7319" text="CDKN2A" location="result" />
+<GENE id="G141" spans="7321~7325" text="BTG1" location="result" />
+<GENE id="G142" spans="7327~7331" text="EBF1" location="result" />
+<GENE id="G143" spans="7333~7337" text="PAX5" location="result" />
+<GENE id="G144" spans="7339~7343" text="ETV6" location="result" />
+<GENE id="G145" spans="7345~7348" text="RB1" location="result" />
+<GENE id="G146" spans="7400~7403" text="NF1" location="result" />
+<GENE id="G147" spans="7410~7415" text="SUZ12" location="result" />
+<GENE id="G148" spans="7438~7442" text="LEF1" location="result" />
+<GENE id="G149" spans="7444~7449" text="NR3C2" location="result" />
+<GENE id="G150" spans="7451~7456" text="RUNX1" location="result" />
+<GENE id="G152" spans="7551~7555" text="PHF6" location="result" />
+<GENE id="G153" spans="7562~7570" text="CASP8AP2" location="result" />
+<GENE id="G154" spans="8522~8527" text="IKZF1" location="result" />
+<GENE id="G155" spans="8639~8643" text="LEF1" location="result" />
+<GENE id="G156" spans="8864~8868" text="IKZF" location="result" />
+<GENE id="G157" spans="8968~8972" text="LEF1" location="result" />
+<GENE id="G158" spans="9104~9110" text="CDKN2A" location="result" />
+<GENE id="G159" spans="9264~9269" text="NR3C2" location="result" />
+<GENE id="G160" spans="9490~9496" text="CDKN2A" location="result" />
+<GENE id="G161" spans="9598~9603" text="NR3C2" location="result" />
+<GENE id="G162" spans="9735~9739" text="BTG1" location="result" />
+<GENE id="G163" spans="9847~9852" text="RUNX1" location="result" />
+<GENE id="G164" spans="10075~10079" text="BTG1" location="result" />
+<GENE id="G165" spans="10179~10184" text="RUNX1" location="result" />
+<GENE id="G166" spans="10316~10320" text="EBF1" location="result" />
+<GENE id="G167" spans="10434~10438" text="PAR1" location="result" />
+<GENE id="G168" spans="10622~10626" text="EBF1" location="result" />
+<GENE id="G169" spans="10726~10730" text="PAR1" location="result" />
+<GENE id="G170" spans="10862~10866" text="PAX5" location="result" />
+<GENE id="G171" spans="10981~10985" text="PHF6" location="result" />
+<GENE id="G172" spans="11129~11133" text="PAX5" location="result" />
+<GENE id="G173" spans="11233~11237" text="PHF6" location="result" />
+<GENE id="G174" spans="11369~11373" text="ETV6" location="result" />
+<GENE id="G175" spans="11485~11493" text="CASP8AP2" location="result" />
+<GENE id="G176" spans="11636~11640" text="ETV6" location="result" />
+<GENE id="G177" spans="11740~11748" text="CASP8AP2" location="result" />
+<GENE id="G178" spans="11880~11883" text="Rb1" location="result" />
+<GENE id="G179" spans="11997~12002" text="PTPN2" location="result" />
+<GENE id="G180" spans="12145~12148" text="Rb1" location="result" />
+<GENE id="G181" spans="12248~12253" text="PTPN2" location="result" />
+<GENE id="G182" spans="12385~12390" text="MLLT3" location="result" />
+<GENE id="G183" spans="12505~12508" text="MYB" location="result" />
+<GENE id="G184" spans="12651~12656" text="MLLT3" location="result" />
+<GENE id="G185" spans="12756~12759" text="MYB" location="result" />
+<GENE id="G186" spans="12891~12895" text="MTAP" location="result" />
+<GENE id="G187" spans="13010~13014" text="PTEN" location="result" />
+<GENE id="G188" spans="13156~13160" text="MTAP" location="result" />
+<GENE id="G189" spans="13260~13264" text="PTEN" location="result" />
+<GENE id="G190" spans="13396~13399" text="NF1" location="result" />
+<GENE id="G191" spans="13400~13405" text="SUZ12" location="result" />
+<GENE id="G192" spans="13552~13555" text="TOX" location="result" />
+<GENE id="G193" spans="13698~13701" text="NF1" location="result" />
+<GENE id="G194" spans="13702~13707" text="SUZ12" location="result" />
+<GENE id="G195" spans="13807~13810" text="TOX" location="result" />
+<GENE id="G196" spans="13942~13947" text="EPHA1" location="result" />
+<GENE id="G197" spans="14060~14064" text="ADD3" location="result" />
+<GENE id="G198" spans="14206~14211" text="EPHA1" location="result" />
+<GENE id="G199" spans="14311~14315" text="ADD3" location="result" />
+<GENE id="G200" spans="14447~14451" text="EZH2" location="result" />
+<GENE id="G201" spans="14564~14568" text="IGHM" location="result" />
+<GENE id="G202" spans="14711~14715" text="EZH2" location="result" />
+<GENE id="G203" spans="14815~14819" text="IGHM" location="result" />
+<GENE id="G204" spans="14951~14956" text="VPREB" location="result" />
+<GENE id="G205" spans="15071~15074" text="DMD" location="result" />
+<GENE id="G206" spans="15217~15222" text="VPREB" location="result" />
+<GENE id="G207" spans="15322~15325" text="DMD" location="result" />
+<GENE id="G208" spans="15457~15462" text="CD200" location="result" />
+<GENE id="G209" spans="15463~15467" text="BTLA" location="result" />
+<GENE id="G210" spans="15575~15581" text="PDGFRB" location="result" />
+<GENE id="G211" spans="15722~15727" text="CD200" location="result" />
+<GENE id="G212" spans="15728~15732" text="BTLA" location="result" />
+<GENE id="G213" spans="15832~15838" text="PDGFRB" location="result" />
+<GENE id="G214" spans="15970~15977" text="TBL1XR1" location="result" />
+<GENE id="G215" spans="16085~16090" text="NR3C1" location="result" />
+<GENE id="G216" spans="16232~16239" text="TBL1XR1" location="result" />
+<GENE id="G217" spans="16339~16344" text="NR3C1" location="result" />
+<GENE id="G218" spans="16476~16480" text="IGHM" location="result" />
+<GENE id="G219" spans="16588~16592" text="LMO1" location="result" />
+<GENE id="G220" spans="16735~16739" text="IGHM" location="result" />
+<GENE id="G221" spans="16839~16843" text="LMO1" location="result" />
+<GENE id="G222" spans="17389~17392" text="SIL" location="result" />
+<GENE id="G223" spans="17428~17434" text="NUP214" location="result" />
+<GENE id="G224" spans="17435~17438" text="ABL" location="result" />
+<GENE id="G225" spans="17520~17523" text="SIL" location="result" />
+<GENE id="G226" spans="17524~17528" text="TAL1" location="result" />
+<GENE id="G227" spans="17556~17562" text="NUP214" location="result" />
+<GENE id="G228" spans="17563~17566" text="ABL" location="result" />
+<GENE id="G229" spans="17582~17588" text="CDKN2A" location="result" />
+<GENE id="G230" spans="17636~17642" text="CDKN2A" location="result" />
+<GENE id="G231" spans="17646~17651" text="IKZF1" location="result" />
+<GENE id="G232" spans="17659~17663" text="EZH2" location="result" />
+<GENE id="G233" spans="17708~17711" text="NF1" location="result" />
+<GENE id="G234" spans="17713~17718" text="SUZ12" location="result" />
+<GENE id="G235" spans="18758~18762" text="EZH2" location="result" />
+<GENE id="G236" spans="18888~18891" text="BCR" location="result" />
+<GENE id="G237" spans="18892~18896" text="ABL1" location="result" />
+<GENE id="G238" spans="18898~18903" text="KMT2A" location="result" />
+<GENE id="G239" spans="18904~18908" text="AFF1" location="result" />
+<GENE id="G240" spans="18910~18913" text="E2A" location="result" />
+<GENE id="G241" spans="18914~18917" text="PBX" location="result" />
+<GENE id="G242" spans="18925~18929" text="ETV6" location="result" />
+<GENE id="G243" spans="18930~18935" text="RUNX1" location="result" />
+<GENE id="G244" spans="19074~19077" text="BCR" location="result" />
+<GENE id="G245" spans="19078~19082" text="ABL1" location="result" />
+<GENE id="G246" spans="19094~19099" text="KMT2A" location="result" />
+<GENE id="G247" spans="19100~19104" text="AFF1" location="result" />
+<GENE id="G248" spans="19114~19117" text="E2A" location="result" />
+<GENE id="G249" spans="19118~19121" text="PBX" location="result" />
+<GENE id="G250" spans="19136~19140" text="ETV6" location="result" />
+<GENE id="G251" spans="19141~19146" text="RUNX1" location="result" />
+<GENE id="G252" spans="19188~19192" text="STIL" location="result" />
+<GENE id="G253" spans="19193~19197" text="TAL1" location="result" />
+<GENE id="G254" spans="19334~19340" text="NUP214" location="result" />
+<GENE id="G255" spans="19341~19345" text="ABL1" location="result" />
+<DISEASE id="D0" spans="35~38" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="86~91" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="404~409" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="742~747" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="768~771" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1021~1024" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1076~1081" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1093~1098" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1118~1121" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1661~1666" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1688~1693" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2110~2115" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3145~3150" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3982~3987" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="4908~4913" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="4955~4960" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="5272~5277" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="6508~6513" text="B-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="17302~17307" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="17393~17397" text="TAL1" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="17795~17798" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="19216~19221" text="T-ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="19630~19633" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="19841~19844" text="ALL" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="4067~4076" text="deletions" location="result" relation="associated mutation" />
+<RELATION id="R1" spans="5040~5049" text="deletions" location="result" relation="associated mutation" />
+<RELATION id="R2" spans="5316~5325" text="deletions" location="result" relation="associated mutation" />
+<RELATION id="R3" spans="123~159" text="heterozygous or homozygous deletions" location="result" relation="associated mutation" />
+<RELATION id="R4" spans="264~273" text="Deletions" location="result" relation="associated mutation" />
+<RELATION id="R5" spans="4928~4951" text="poor risk (PR) category" location="result" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="IKZF1" diseaseID="D1" diseaseText="B-ALL" relationID="R3" relationText="heterozygous or homozygous deletions" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="CDKN2A" diseaseID="D1" diseaseText="B-ALL" relationID="R3" relationText="heterozygous or homozygous deletions" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="PAX5" diseaseID="D1" diseaseText="B-ALL" relationID="R3" relationText="heterozygous or homozygous deletions" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="MLLT3" diseaseID="D2" diseaseText="B-ALL" relationID="R4" relationText="Deletions" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="MTAP" diseaseID="D2" diseaseText="B-ALL" relationID="R4" relationText="Deletions" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="ETV6" diseaseID="D2" diseaseText="B-ALL" relationID="R4" relationText="Deletions" />
+<ENTITY_LINKING id="E6" geneID="G78" geneText="IKZF1" diseaseID="D14" diseaseText="B-ALL" relationID="R0" relationText="deletions" />
+<ENTITY_LINKING id="E7" geneID="G79" geneText="CDKN2A" diseaseID="D14" diseaseText="B-ALL" relationID="R0" relationText="deletions" />
+<ENTITY_LINKING id="E8" geneID="G92" geneText="KMT2A" diseaseID="D16" diseaseText="B-ALL" relationID="R5" relationText="poor risk (PR) category" />
+<ENTITY_LINKING id="E9" geneID="G93" geneText="AFF1" diseaseID="D16" diseaseText="B-ALL" relationID="R5" relationText="poor risk (PR) category" />
+<ENTITY_LINKING id="E10" geneID="G94" geneText="IKZF1" diseaseID="D16" diseaseText="B-ALL" relationID="R1" relationText="deletions" />
+<ENTITY_LINKING id="E11" geneID="G95" geneText="CDKN2A" diseaseID="D16" diseaseText="B-ALL" relationID="R1" relationText="deletions" />
+<ENTITY_LINKING id="E12" geneID="G96" geneText="TP53" diseaseID="D16" diseaseText="B-ALL" relationID="R1" relationText="deletions" />
+<ENTITY_LINKING id="E13" geneID="G97" geneText="IKZF3" diseaseID="D16" diseaseText="B-ALL" relationID="R1" relationText="deletions" />
+<ENTITY_LINKING id="E14" geneID="G98" geneText="VPREB1" diseaseID="D16" diseaseText="B-ALL" relationID="R1" relationText="deletions" />
+<ENTITY_LINKING id="E15" geneID="G101" geneText="RB1" diseaseID="D17" diseaseText="B-ALL" relationID="R2" relationText="deletions" />
+<ENTITY_LINKING id="E16" geneID="G102" geneText="TP53" diseaseID="D17" diseaseText="B-ALL" relationID="R2" relationText="deletions" />
+<ENTITY_LINKING id="E17" geneID="G103" geneText="CTCF" diseaseID="D17" diseaseText="B-ALL" relationID="R2" relationText="deletions" />
+<ENTITY_LINKING id="E18" geneID="G104" geneText="CD200" diseaseID="D17" diseaseText="B-ALL" relationID="R2" relationText="deletions" />
+<ENTITY_LINKING id="E19" geneID="G105" geneText="BTLA" diseaseID="D17" diseaseText="B-ALL" relationID="R2" relationText="deletions" />
+</TAGS>
+</Genomics_ConceptTask>

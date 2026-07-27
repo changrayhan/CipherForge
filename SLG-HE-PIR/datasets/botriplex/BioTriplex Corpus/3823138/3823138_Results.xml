@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Exogenous DUX4 proteins are detected in consecutive nuclei of individual myotubes
+In a first experiment, we wanted to optimize immunostaining conditions that would allow DUX4 detection in very few myonuclei. We used an FSHD primary myoblast line (dFSHD12) that forms mostly disorganized myotubes but also some atrophic ones [ 24 ]. We transfected these cells at the myoblast stage with a  DUX4  or  EGFP  expression vector at a very low efficiency and induced fusion into myotubes 5 hrs later. The immunofluorescence was performed 3 days later with MAb 9A12, a monoclonal antibody we had previously developed against the DUX4 carboxy-terminal region [ 9 ].
+As expected, only 12% and 16% of the transfected cells expressed high levels of EGFP or DUX4 respectively (data not shown). About 58% of EGFP-expressing nuclei were present in myoblasts and 42% in myotubes. Surprisingly, the majority (88%) of the DUX4-positive nuclei were found in pluri-nucleated cells (myotubes) and only 12% in cells containing a single nucleus (myoblasts). The DUX4 immunostaining followed an intensity gradient in consecutive nuclei of a given myotube ( Fig. 1 ). DUX4 was detected either in disorganized myotubes containing myonuclei clusters (>10 nuclei) ( Fig. 1 A and B) or in atrophic myotubes with a small number of aligned nuclei (from two to eight nuclei) ( Fig. 1 C and D). A similar staining pattern was observed using a rabbit serum directed against a DUX4-specific peptide (data not shown, Ab #314; [ 17 ]). In these experiments, when DUX4 was found in at least one myotube nucleus, the consecutive myonuclei were often also DUX4 positive. These intensity gradients suggested that the  DUX4  mRNA transcribed in one myonucleus was translated in the adjacent cytoplasm domain into proteins that could be imported in several neighbouring nuclei, a diffusion mechanism previously described for other muscle proteins [ 25 – 28 ,  30 ].
+The endogenous DUX4 protein is expressed in differentiating FSHD myoblasts
+We have previously immunodetected the DUX4 protein with MAb 9A12 in primary cell cultures derived from FSHD muscles but not from healthy controls [ 9 ]. We have now further demonstrated this antibody specificity (see  Figure S1 , and RNA interference experiment  Figure S2 ) and used it to detect DUX4 on Western blots prepared with three additional FSHD and two control primary myoblast lines. DUX4 was detected not only in extracts of confluent myoblasts confirming our previous data [ 24 ] but also in differentiated myotubes ( Fig. S3 ). Intriguingly, we detected a very weak signal in one control sample (CTL3 diff) prepared from cells grown 6 days in the differentiation medium ( Fig. S3A ).
+DUX4 was detected in differentiated FSHD primary myoblast cultures whether they presented a higher proportion of either disorganized or atrophic myotubes ( Fig. 2 ,  Table 1 ). The DUX4-positive nuclei were counted in triplicate in 10 random fields and found significantly higher in the atrophic and disorganized FSHD myotube cultures than in the controls ( Fig. 2 B, ** P  < 0.01). The number of nuclei with a strong DUX4 immunofluorescence was the highest in the atrophic FSHD cultures (** P  < 0.01). The average of DUX4 nuclear staining intensity was about threefold lower and similar in control and disorganized FSHD cultures, except for a single atrophic myotube found in the latter ( Fig. 2 C). The DUX4 expression level differed in individual FSHD primary myoblast lines with no correlation with the non-affected or affected (*) status of the muscle it had been derived from ( Figs S1 ,  S3  and  Table 1 ). All the data concerning the FSHD and control primary myoblast lines used in this study (muscle type, myotube phenotype, etc.) are summarized in  Table 1  and  Table S1  respectively.
+
+           Table 1 
+           D4Z4  units; site of the muscle biopsy (T:  trapezius ; Q: quadriceps ( vastus lateralis ); FB: femoral biceps); score on the Brooke–Vignos scale defining the clinical status of upper and lower limb muscles, respectively, where high values define affected muscles and low values define non-affected muscles [ 44 ,  45 ]; predominant phenotype of the derived myotubes and MFI (myoblasts fusion index: ratio between the nuclei present in myotubes  versus  the total number of nuclei in a given microscope field; the proportion of atrophied myotubes in a culture is inversely correlated with the MFI). DUX4 protein detection is indicated (+) as well as the number of days in differentiation medium (diff) and the method used (WB: immunodetection on Western blot; IF: immunofluorescence). The information about the patients and the morphological characteristics of each FSHD cell line was previously determined in [ 24 ] Summary of data about DUX4 expression in FSHD primary myoblasts. Name of the FSHD cell line (NB: ‘line’ refers to the myoblast population derived from a single biopsy); age and gender of the patient (M: male; F: female); number of  
+           
+             
+           # Code 
+                 Age 
+                 Gender 
+                 D4Z4  units 
+                 Muscle type (Brooke-Vignos scale) 
+                 Myotubes phenotype (MFI) 
+                 DUX4 expression (Methods) 
+                 Differentiation state (Figures) 
+               
+                 
+             
+               
+             * aFSHD1 
+                 30 
+                 M 
+                 5 
+                 T(4-5) 
+                 Atrophic (18%) 
+                 ++(IF, WB) 
+                 Fig. S3A )-IF: diff 4 ( Figs 4 B,  5 B,  S1A ) -WB: aligned myoblasts ( 
+               
+                 
+               aFSHD3 
+                 32 
+                 F 
+                 7 
+                 Q(1-1) 
+                 Atrophic (37%) 
+                 +(IF,WB) 
+                 Fig. S2A ); diff 4 ( Fig. 5 C)-IF: diff 4 ( Figs 2 A,  4 E, S4A) -WB: diff 3 ( 
+               
+                 
+               aFSHD5 
+                 53 
+                 M 
+                 6 
+                 Q(2-3) 
+                 Atrophic (42%) 
+                 +(WB) 
+                 Fig. S3B ) Diff 4 and diff 8 ( 
+               
+                 
+               a/dFSHD7 
+                 53 
+                 M 
+                 9 
+                 FB(2-2) 
+                 Atrophic (49%) 
+                 +(WB) 
+                 Fig. S3A ) Aligned myoblasts ( 
+               
+                 
+               dFSHD12 
+                 38 
+                 F 
+                 7 
+                 Q(1-1) 
+                 Disorganized (60%) 
+                 +(IF, WB) 
+                 Fig. S3B )-IF: diff 4 ( Figs 1 ,  2 A,  4 C/D,  5 B,  S1B ,  S4A-C ); diff 5 ( Fig. 3 ) -WB: diff 4 ( 
+               
+                 
+               * dFSHD13 
+                 42 
+                 F 
+                 8 
+                 Q(4-4) 
+                 Disorganized (70%) 
+                 +(IF) 
+                 Figs 4 A,  5 A,  S1B ) -IF: diff 4 ( 
+               
+                 
+             
+               
+           
+             
+           # 
+               et al ., [ 24 ]. All these samples were characterized in Barro  
+             
+               
+             * 
+               myoblasts derived from affected muscle. 
+             
+               
+           
+             
+        
+The endogenous DUX4 protein is expressed in myoblasts and in consecutive myotube nuclei
+A co-immunostaining was performed with MAb 9A12 and a rabbit serum directed against desmin to determine whether DUX4-positive nuclei belonged to either isolated myoblasts or myotubes. A total of 5% of the nuclei stained for DUX4 among which 16% were in non-fused myoblasts found in the vicinity of myotubes. Among these DUX4-positive myoblasts, 77% presented the staining as nuclear foci ( Fig. 3 A and B). Again, when DUX4 was detected in at least one myotube nucleus, it also was in the adjacent myonuclei. In myotubes, the DUX4 staining appeared either in clusters of nuclei with various intensities ( Fig. 3 C) or in aligned nuclei with a clear intensity gradient ( Fig. 3 D). Some DUX4-positive nuclei presented an abnormal morphology that might reflect its toxicity. However, no overt apoptosis markers could be detected in these nuclei ( Fig. S4 ).
+DUX4 and PITX1 are either coexpressed or expressed in distinct nuclei of FSHD myotubes
+We have previously shown that DUX4 overexpression induced the endogenous  Pitx1  gene in mouse C2C12 cells and that the induced Pitx1 nuclear protein colocalized with DUX4 [ 9 ]. In the present study, we detected the endogenous DUX4 and PITX1 proteins in human FSHD primary myotubes by a co-immunofluorescence using MAb 9A12 and a rabbit serum against PITX1 [ 9 ] ( Fig. 4 ). About 4% of the nuclei were positive for DUX4 in both atrophic ( Fig. 4 B and E) and disorganized FSHD myotubes ( Fig. 4 A, C and D). PITX1 staining was found in 5% of the nuclei either in the DUX4-positive nuclei with partial colocalization (1%) ( Fig. 4 A, merge pictures) or in different nuclei (4%) ( Fig. 4 B–E, merge pictures and arrows). Like DUX4, PITX1 was often detected in consecutive myonuclei ( Fig. 4 A, C–E). In a given myotube, the PITX1-positive nuclei were often localized close to a DUX4-positive nucleus ( Fig. 4 D and E).
+The DUX4 and PITX1 protein half-lifes are regulated by the proteasome
+The staining patterns we observed above for DUX4 and the product of its  PITX1  target gene suggested a dynamic expression regulated by proteolysis. As previously mentioned [ 9 ] and according to the PESTfind software ( http://emboss.bioinformatics.nl/cgi-bin/emboss/epestfind ), the PITX1 protein harbours a PEST motif ( Fig. S5A ),  i.e . a sequence enriched in proline (P), glutamic acid (E), serine (S) and threonine (T) that targets proteins for rapid degradation by the proteasome [ 31 ]. Although PITX1 was immunodetected in standard conditions ( Figs. 4  and  5 Aa'), we could improve its labelling by addition of MG132 to the culture medium for 5 hrs prior to cell harvest. In the presence of this proteasome inhibitor, PITX1 presented a different intranuclear staining pattern ( Fig. 5 Ab' and B, enlarged inset). Interestingly, as was observed for DUX4, some nuclei presented a strong PITX1 labelling that progressively decreased in the consecutive nuclei ( Fig. 5 Ab'). These data suggested a gradual diffusion within a given myotube of both DUX4 and PITX1 proteins in nuclei adjacent to an initial single nucleus where their gene had been activated. As mentioned above, we observed either partial DUX4/PITX1 colocalization or mutually exclusive labelling ( Fig. 5 B, arrows and dotted arrows).
+DUX4 detection was improved by MG132 addition even though it only displayed poorly predicted PEST motifs in its carboxyl-terminal domain. However, the PEST score (a combination of enrichment in D, E, P, S and T residues and hydrophobicity) of some DUX4 residues was just below the threshold score (5.0) ( Fig. S5B ). In addition, according to the Protparam software ( http://www.expasy.ch/tools/protparam.html ), the DUX4 protein is considered unstable with an instability index of 71.36.
+To confirm a DUX4 stabilization by the proteasome inhibition, we prepared a Western blot with nuclear extracts of proliferating primary myoblasts or myotubes either treated with MG132 or not, and we immunodetected DUX4 with MAb 9A12 ( Fig. 5 C). Regardless of MG132 treatment, a much stronger 52-kD band was detected in differentiated as compared with proliferating myoblasts. The cultures treated with the proteasome inhibitor presented a stronger DUX4 signal intensity in this experiment. In addition, lower molecular weight bands detected with MAb 9A12 on this Western blot had a decreased intensity upon MG132 treatment, thus showing they resulted from proteolysis ( Fig. 5 C: red braces).
+The DUX4 protein is expressed in FSHD muscle biopsies
+To this date, no report of DUX4 protein detection in FSHD muscle biopsies has been published ([ 11 ], reviewed in [ 20 ]). This is indeed a technical challenge as the DUX4 protein is unstable and likely expressed in pulses in very few nuclei. For this experiment we used needle biopsies from different muscles (deltoid, trapezius, quadriceps) of two patients with FSHD and a matching control. We prepared Western blots with biopsy protein extracts and could immunodetect the 52-kD band with MAb 9A12 in the FSHD samples but not in the control ( Fig. 6 A). As expected, DUX4 was observed in total and nuclear but not cytoplasmic extracts. A lower molecular weight band, which most likely corresponded to a DUX4 proteolysis product, was observed and was stronger in the nuclear extracts than in the total extracts probably because of a longer experimental procedure ( Fig. 6 A). In addition, we characterized the immunodetected protein by 2-D gel electrophoresis (isoelectrofocusing and polyacrylamide-SDS gel) followed by a transfer to a Western blot and immunodetection with MAb 9A12. Owing to the limited material obtained from each biopsy, we used a sample obtained from another patient with FSHD. A single spot was observed at the expected isoelectric point (8.6) and molecular weight (52 kD) of DUX4 (F6 in  Fig. 6 B) as previously reported for an FSHD myoblast culture [ 32 ]. Intriguingly, in the same experimental conditions we could not detect DUX4 in an affected FSHD muscle (F15* in  Fig. 6 B). As described in the supporting information, DUX4 was detected in two additional FSHD muscle biopsies but not in one control, and in some FSHD surplus obtained from scapular fixation ( Figs S6A and B ). The characteristics of all the FSHD muscle biopsies tested in this study are shown in  Table S2 .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="11~15" text="DUX4" location="result" />
+<GENE id="G1" spans="171~175" text="DUX4" location="result" />
+<GENE id="G2" spans="390~394" text="DUX4" location="result" />
+<GENE id="G3" spans="622~626" text="DUX4" location="background" />
+<GENE id="G4" spans="746~750" text="DUX4" location="result" />
+<GENE id="G5" spans="905~909" text="DUX4" location="result" />
+<GENE id="G6" spans="1040~1044" text="DUX4" location="result" />
+<GENE id="G7" spans="1144~1148" text="DUX4" location="result" />
+<GENE id="G8" spans="1443~1447" text="DUX4" location="result" />
+<GENE id="G9" spans="1527~1531" text="DUX4" location="result" />
+<GENE id="G10" spans="1617~1621" text="DUX4" location="result" />
+<GENE id="G11" spans="1678~1682" text="DUX4" location="result" />
+<GENE id="G12" spans="1939~1943" text="DUX4" location="result" />
+<GENE id="G13" spans="2037~2041" text="DUX4" location="background" />
+<GENE id="G14" spans="2296~2300" text="DUX4" location="result" />
+<GENE id="G15" spans="2394~2398" text="DUX4" location="result" />
+<GENE id="G16" spans="2697~2701" text="DUX4" location="result" />
+<GENE id="G17" spans="2878~2882" text="DUX4" location="result" />
+<GENE id="G18" spans="3115~3119" text="DUX4" location="result" />
+<GENE id="G19" spans="3216~3220" text="DUX4" location="result" />
+<GENE id="G20" spans="3403~3407" text="DUX4" location="result" />
+<GENE id="G21" spans="4427~4431" text="DUX4" location="result" />
+<GENE id="G22" spans="4767~4771" text="DUX4" location="result" />
+<GENE id="G23" spans="5212~5216" text="DUX4" location="result" />
+<GENE id="G24" spans="7529~7535" text="desmin" location="result" />
+<GENE id="G25" spans="7557~7561" text="DUX4" location="result" />
+<GENE id="G26" spans="7669~7673" text="DUX4" location="result" />
+<GENE id="G27" spans="7765~7769" text="DUX4" location="result" />
+<GENE id="G28" spans="7864~7868" text="DUX4" location="result" />
+<GENE id="G29" spans="7971~7975" text="DUX4" location="result" />
+<GENE id="G30" spans="8131~8135" text="DUX4" location="result" />
+<GENE id="G31" spans="8301~8305" text="DUX4" location="result" />
+<GENE id="G32" spans="8310~8315" text="PITX1" location="result" />
+<GENE id="G33" spans="8418~8422" text="DUX4" location="background" />
+<GENE id="G34" spans="8462~8467" text="Pitx1" location="background" />
+<GENE id="G35" spans="8516~8521" text="Pitx1" location="background" />
+<GENE id="G36" spans="8555~8559" text="DUX4" location="background" />
+<GENE id="G37" spans="8616~8620" text="DUX4" location="result" />
+<GENE id="G38" spans="8625~8630" text="PITX1" location="result" />
+<GENE id="G39" spans="8649~8653" text="FSHD" location="result" />
+<GENE id="G40" spans="8740~8745" text="PITX1" location="result" />
+<GENE id="G41" spans="8805~8809" text="DUX4" location="result" />
+<GENE id="G42" spans="8898~8903" text="PITX1" location="result" />
+<GENE id="G43" spans="8957~8961" text="DUX4" location="result" />
+<GENE id="G44" spans="9114~9118" text="DUX4" location="result" />
+<GENE id="G45" spans="9120~9125" text="PITX1" location="result" />
+<GENE id="G46" spans="9212~9217" text="PITX1" location="result" />
+<GENE id="G47" spans="9266~9270" text="DUX4" location="result" />
+<GENE id="G48" spans="9311~9315" text="DUX4" location="result" />
+<GENE id="G49" spans="9320~9325" text="PITX1" location="result" />
+<GENE id="G50" spans="9421~9425" text="DUX4" location="result" />
+<GENE id="G51" spans="9450~9455" text="PITX1" location="result" />
+<GENE id="G52" spans="9661~9666" text="PITX1" location="background" />
+<GENE id="G53" spans="9881~9886" text="PITX1" location="result" />
+<GENE id="G54" spans="10106~10111" text="PITX1" location="result" />
+<GENE id="G55" spans="10236~10240" text="DUX4" location="result" />
+<GENE id="G56" spans="10273~10278" text="PITX1" location="result" />
+<GENE id="G57" spans="10431~10435" text="DUX4" location="result" />
+<GENE id="G58" spans="10440~10445" text="PITX1" location="result" />
+<GENE id="G59" spans="10587~10591" text="DUX4" location="result" />
+<GENE id="G60" spans="10592~10597" text="PITX1" location="result" />
+<GENE id="G61" spans="10684~10688" text="DUX4" location="result" />
+<GENE id="G62" spans="10932~10936" text="DUX4" location="result" />
+<GENE id="G63" spans="11101~11105" text="DUX4" location="result" />
+<GENE id="G64" spans="11186~11190" text="DUX4" location="result" />
+<GENE id="G65" spans="11387~11391" text="DUX4" location="result" />
+<GENE id="G66" spans="11622~11626" text="DUX4" location="result" />
+<GENE id="G67" spans="11871~11875" text="DUX4" location="result" />
+<GENE id="G68" spans="11948~11952" text="DUX4" location="result" />
+<GENE id="G69" spans="12088~12092" text="DUX4" location="result" />
+<GENE id="G71" spans="12490~12494" text="DUX4" location="result" />
+<GENE id="G72" spans="12626~12630" text="DUX4" location="result" />
+<GENE id="G73" spans="13220~13224" text="DUX4" location="result" />
+<GENE id="G74" spans="13373~13377" text="DUX4" location="result" />
+<GENE id="G75" spans="13470~13474" text="DUX4" location="result" />
+<DISEASE id="D0" spans="220~224" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="249~253" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1984~1988" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="2102~2106" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="2349~2353" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="2733~2737" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="3010~3014" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="3171~3175" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="3314~3318" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="3448~3452" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="3641~3645" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="4694~4698" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="4786~4790" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="4822~4826" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="5369~5373" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="5664~5668" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="5964~5968" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="6215~6219" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="6465~6469" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="6796~6800" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="7372~7376" text="DUX4" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="8374~8378" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="8862~8866" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="11900~11904" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D24" spans="11974~11978" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D25" spans="12285~12289" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D26" spans="12428~12432" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D27" spans="13115~13119" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D28" spans="13273~13277" text="FSHD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D29" spans="13393~13397" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D30" spans="13506~13510" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D31" spans="13563~13567" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D32" spans="13659~13663" text="FSHD" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

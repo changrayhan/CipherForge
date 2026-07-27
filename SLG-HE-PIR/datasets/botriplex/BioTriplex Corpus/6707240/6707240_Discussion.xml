@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Chemo-resistance is a major obstacle to therapeutic success of osteosarcoma. Although neo-adjuvant chemotherapy has considerably improved the prognosis of osteosarcoma patients since the past four decades, about two out of five patients will experience relapse or/and recurrence within five years after diagnosis.
+In the present study, we showed a strong positive correlation between MT2A/MT2 mRNA level and cell sensitivity to a panel of chemotherapeutic drugs currently used in clinical practice 10 , as assessed by half maximal inhibitory concentration (IC50) values. These data are consistent with the correlation we previously reported between MT2A mRNA level in chemo-naive biopsy, and tumour response to chemotherapy thereafter (based on Huvos scoring of tumour necrosis), and overall survival of patients 7 . Taken together, our data showed that MT2A contributes to chemotherapy resistance in osteosarcoma, and could be considered as a predictive indicator at diagnosis for osteosarcoma responsiveness to current chemotherapy regimen, whatever their mechanism of action.
+We also investigated the possible role of MT2A in metastatic dissemination. We did not detect any correlation between MT2/MT2A level and  in vitro  cell motility using a panel of cell lines. These data are consistent with our previous study reporting no modification in cell motility or invasion capacity of MT2A-overexpressing cells or MT2A-silenced cells compared to parental cells 7 . Moreover, we did not detect any influence of MT2 silencing on primary tumour spreading to the lungs in our Cell line-Derived Xenograft (CDX) model, either in the average metastatic foci surface or number, suggesting that MT2A level may only influence cell responsiveness to toxics and not the invasion process.
+In response to chemotherapeutic drugs, cancer cells could adopt several strategies to develop their resistance such as the control of the transmembrane entry/efflux of the compounds; the activation of DNA repair machinery (ERCC1 and 2, NER genes…); the adaptation of the drug target (dihydrofolate reductase (DHFR), topoisomerase…); or the synthesis of detoxication proteins (gluthation-S-transferase (GST), metallothioneins…) for example (reviewed in 11 ). Such adaptive behaviour has been reported in osteosarcoma. Indeed, an up-regulation of DHFR and MDR1 (multidrug resistance protein 1) have been reported to be associated with an enhanced chemo-resistance to methotrexate and doxorubicin 12 . Increased expression of P-glycoprotein in tumour cells was significantly associated with poor survival in patients with osteosarcoma 13 – 16 . An overexpression of GSTπ, Hsp27, LRP (lung resistance-related protein) as well as MTs has been detected in osteosarcoma tumours with poor histologic response to pre-operative chemotherapy 17 . However, no statistical differences could be detected in terms of response to treatment and patient outcome. This apparent contradiction with our data could be related to the specificity of the molecular tools. Almost all studies focused on an immuno-histochemical detection of MTs in FFPE tissue samples. However, the MTs antibodies that are commonly used for such IHC staining do not distinguish between the different highly homologous isoforms of the MT superfamily. This could minimize the impact of the variations of one or a few of the isoforms.
+In our panel of osteosarcoma cell models, IC50 values were heterogeneous from one cell line to another, but overall correlated to the MT2/MT2A mRNA level. We also observed that all tested drugs induce MT2/MT2A expression, independently of the genomic alterations detectable in the cell lines. Such adaptive process could explain why tumours become resistant as cycles of chemotherapy progress. The evaluation of MT2A mRNA level would inform about the innate resistance status when measured at diagnosis, and about the acquired resistance linked to an adaptive process if monitored during treatment.
+We also focused here on the possible complementary role of the glutathione pathway in the observed MT2A-related chemo-resistance. GST catalyses the conjugation of toxic electrophilic chemicals to the tri-peptide glutathione (GSH) in order to facilitate their rapid clearance from the cell 18 . Increased GST expression has been associated with a resistant phenotype to conventional chemotherapy in different cancer types (reviewed in 19 ). Some GST polymorphisms are correlated to clinical outcome of osteosarcoma patients 20 . In our panel of osteosarcoma cell lines we did not observe any variation in intracellular GSH levels after exposure to chemotherapy with the exception of a decrease for etoposide, that is known to undergo glutathione conjugation 21  and to increase GSH export 22 . In addition, the GSH levels are comparable in cells modified with non-relevant shRNA sequences or silenced for MT2/MT2A, even under chemotherapy treatment. Taken together, these data are consistent with our hypothesis that the detoxication process triggered by osteosarcoma cells incubated in the presence of chemotherapeutic drugs is mainly metallothionein-dependent.
+The second significant finding of our study is the proof of concept that MT2A could also be a valuable therapeutic target to improve osteosarcoma sensitivity to chemotherapy. We showed that MT2/MT2A silencing enhanced cytotoxic action of current chemotherapeutic drugs on osteosarcoma cells  in vitro , reflected by the lowering of IC50 values for all tested drugs. More importantly, we showed that MT2 silencing led to higher cytotoxic effects of drugs in preclinical Cell line-Derived Xenograft (CDX) models. This fully confirmed our hypothesis that MT2 targeting rendered tumours significantly more sensitive to chemotherapy. Taken together, these data show that MT2A could be considered as a therapeutic target to prevent or reduce osteosarcoma resistance to chemotherapy. Not many strategies of targeting MT isoforms have reached the clinical practice as therapeutic agents (reviewed in 6 ). Further investigations are required to identify a physiological and clinically safe strategy to prevent MT2A neo-synthesis under treatment or to reduce MT2A levels in case of high basal content.
+In summary, this study identified the key role of high MT2A expression level in the resistance of osteosarcoma cells to chemotherapeutic drugs. In effect, we revealed a negative correlation between MT2A level and drug efficacy (IC50 values), and anti-tumour effects for various chemotherapeutic drugs when cells were silenced for MT2A. Our results thus support a model whereby MT2A contributed to lowering the drug cytotoxic effects and could be a valuable therapeutic target to improve osteosarcoma sensitivity to chemotherapy. In conclusion, we demonstrated that MT2A could be considered as a predictive biomarker of the efficacy of chemotherapy for patients with osteosarcoma, and as a potential therapeutic target to develop novel treatment strategy to prevent or de-escalate chemo-resistance in osteosarcoma.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="385~389" text="MT2A" location="result" />
+<GENE id="G1" spans="390~393" text="MT2" location="result" />
+<GENE id="G2" spans="650~654" text="MT2A" location="background" />
+<GENE id="G3" spans="855~859" text="MT2A" location="result" />
+<GENE id="G4" spans="1122~1126" text="MT2A" location="result" />
+<GENE id="G5" spans="1198~1201" text="MT2" location="result" />
+<GENE id="G6" spans="1202~1206" text="MT2A" location="result" />
+<GENE id="G7" spans="1388~1392" text="MT2A" location="result" />
+<GENE id="G8" spans="1417~1421" text="MT2A" location="result" />
+<GENE id="G9" spans="1513~1516" text="MT2" location="result" />
+<GENE id="G10" spans="1689~1693" text="MT2A" location="result" />
+<GENE id="G11" spans="2002~2007" text="ERCC1" location="result" />
+<GENE id="G12" spans="2324~2328" text="DHFR" location="background" />
+<GENE id="G13" spans="2333~2337" text="MDR1" location="background" />
+<GENE id="G14" spans="2339~2369" text="multidrug resistance protein 1" location="background" />
+<GENE id="G15" spans="2502~2516" text="P-glycoprotein" location="background" />
+<GENE id="G16" spans="2642~2646" text="GSTπ" location="background" />
+<GENE id="G17" spans="2648~2653" text="Hsp27" location="background" />
+<GENE id="G18" spans="2655~2658" text="LRP" location="background" />
+<GENE id="G19" spans="2660~2691" text="lung resistance-related protein" location="background" />
+<GENE id="G20" spans="3501~3504" text="MT2" location="result" />
+<GENE id="G21" spans="3505~3509" text="MT2A" location="result" />
+<GENE id="G22" spans="3568~3571" text="MT2" location="result" />
+<GENE id="G23" spans="3572~3576" text="MT2A" location="result" />
+<GENE id="G24" spans="3779~3783" text="MT2A" location="result" />
+<GENE id="G25" spans="4065~4069" text="MT2A" location="result" />
+<GENE id="G26" spans="4870~4873" text="MT2" location="result" />
+<GENE id="G27" spans="4874~4878" text="MT2A" location="result" />
+<GENE id="G28" spans="5201~5205" text="MT2A" location="result" />
+<GENE id="G29" spans="5318~5321" text="MT2" location="result" />
+<GENE id="G30" spans="5322~5326" text="MT2A" location="result" />
+<GENE id="G31" spans="5527~5530" text="MT2" location="result" />
+<GENE id="G32" spans="5680~5683" text="MT2" location="result" />
+<GENE id="G33" spans="5794~5798" text="MT2A" location="result" />
+<GENE id="G34" spans="6129~6133" text="MT2A" location="result" />
+<GENE id="G35" spans="6177~6181" text="MT2A" location="result" />
+<GENE id="G36" spans="6275~6279" text="MT2A" location="result" />
+<GENE id="G37" spans="6418~6422" text="MT2A" location="result" />
+<GENE id="G38" spans="6550~6554" text="MT2A" location="result" />
+<GENE id="G39" spans="6597~6601" text="MT2A" location="result" />
+<GENE id="G40" spans="6785~6789" text="MT2A" location="result" />
+<DISEASE id="D0" spans="64~76" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="156~168" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="902~914" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="983~995" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1818~1824" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="2282~2294" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2598~2610" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2729~2741" text="osteosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="3383~3395" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="4374~4380" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="4467~4479" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="4510~4522" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="5020~5032" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="5261~5273" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="5400~5412" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="5864~5876" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="6318~6330" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="6707~6719" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="6886~6898" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="7020~7032" text="osteosarcoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="875~898" text="chemotherapy resistance" location="result" relation="therapy resistance" />
+<RELATION id="R1" spans="945~978" text="predictive indicator at diagnosis" location="result" relation="prognostic indicator" />
+<RELATION id="R2" spans="2478~2498" text="Increased expression" location="background" relation="increased expression" />
+<RELATION id="R3" spans="2551~2580" text="associated with poor survival" location="background" relation="negative prognostic marker" />
+<RELATION id="R4" spans="2624~2638" text="overexpression" location="background" relation="increased expression" />
+<RELATION id="R5" spans="5231~5249" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R6" spans="5824~5842" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R7" spans="6304~6314,6337~6362" text="resistance ... to chemotherapeutic drugs" location="result" relation="therapy resistance" />
+<RELATION id="R8" spans="6677~6695" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R9" spans="6815~6835" text="predictive biomarker" location="result" relation="prognostic indicator" />
+<RELATION id="R10" spans="6919~6937" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R11" spans="2755~2809" text="poor histologic response to pre-operative chemotherapy" location="background" relation="therapy resistance" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="MT2A" diseaseID="D2" diseaseText="osteosarcoma" relationID="R0" relationText="chemotherapy resistance" />
+<ENTITY_LINKING id="E1" geneID="G3" geneText="MT2A" diseaseID="D3" diseaseText="osteosarcoma" relationID="R1" relationText="predictive indicator at diagnosis" />
+<ENTITY_LINKING id="E2" geneID="G15" geneText="P-glycoprotein" diseaseID="D7" diseaseText="osteosarcoma" relationID="R2" relationText="Increased expression" />
+<ENTITY_LINKING id="E3" geneID="G15" geneText="P-glycoprotein" diseaseID="D7" diseaseText="osteosarcoma" relationID="R3" relationText="associated with poor survival" />
+<ENTITY_LINKING id="E4" geneID="G16" geneText="GSTπ" diseaseID="D8" diseaseText="osteosarcoma" relationID="R4" relationText="overexpression" />
+<ENTITY_LINKING id="E5" geneID="G17" geneText="Hsp27" diseaseID="D8" diseaseText="osteosarcoma" relationID="R4" relationText="overexpression" />
+<ENTITY_LINKING id="E6" geneID="G18" geneText="LRP" diseaseID="D8" diseaseText="osteosarcoma" relationID="R4" relationText="overexpression" />
+<ENTITY_LINKING id="E7" geneID="G19" geneText="lung resistance-related protein" diseaseID="D8" diseaseText="osteosarcoma" relationID="R4" relationText="overexpression" />
+<ENTITY_LINKING id="E8" geneID="G16" geneText="GSTπ" diseaseID="D8" diseaseText="osteosarcoma" relationID="R11" relationText="poor histologic response to pre-operative chemotherapy" />
+<ENTITY_LINKING id="E9" geneID="G17" geneText="Hsp27" diseaseID="D8" diseaseText="osteosarcoma" relationID="R11" relationText="poor histologic response to pre-operative chemotherapy" />
+<ENTITY_LINKING id="E10" geneID="G18" geneText="LRP" diseaseID="D8" diseaseText="osteosarcoma" relationID="R11" relationText="poor histologic response to pre-operative chemotherapy" />
+<ENTITY_LINKING id="E11" geneID="G19" geneText="lung resistance-related protein" diseaseID="D8" diseaseText="osteosarcoma" relationID="R11" relationText="poor histologic response to pre-operative chemotherapy" />
+<ENTITY_LINKING id="E12" geneID="G28" geneText="MT2A" diseaseID="D14" diseaseText="osteosarcoma" relationID="R5" relationText="therapeutic target" />
+<ENTITY_LINKING id="E13" geneID="G33" geneText="MT2A" diseaseID="D16" diseaseText="osteosarcoma" relationID="R6" relationText="therapeutic target" />
+<ENTITY_LINKING id="E14" geneID="G36" geneText="MT2A" diseaseID="D17" diseaseText="osteosarcoma" relationID="R7" relationText="resistance ... to chemotherapeutic drugs" />
+<ENTITY_LINKING id="E15" geneID="G39" geneText="MT2A" diseaseID="D18" diseaseText="osteosarcoma" relationID="R8" relationText="therapeutic target" />
+<ENTITY_LINKING id="E16" geneID="G40" geneText="MT2A" diseaseID="D19" diseaseText="osteosarcoma" relationID="R9" relationText="predictive biomarker" />
+<ENTITY_LINKING id="E17" geneID="G40" geneText="MT2A" diseaseID="D20" diseaseText="osteosarcoma" relationID="R10" relationText="therapeutic target" />
+</TAGS>
+</Genomics_ConceptTask>

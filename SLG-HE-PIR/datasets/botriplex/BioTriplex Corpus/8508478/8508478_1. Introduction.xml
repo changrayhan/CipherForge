@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Hyperuricemia, an elevated serum level of uric acid, is associated with numerous comorbidities, including renal [ 1 , 2 ] and cardiovascular diseases [ 2 , 3 ], metabolic syndrome [ 4 ], hypertension [ 5 , 6 ], diabetes mellitus [ 7 ], and obesity [ 8 ]. For example, an analysis of the National Health and Nutrition Examination Survey indicated that U.S. adults with serum uric acid levels of ≥10 mg/dL had several comorbidities, such as chronic kidney disease stage ≥2, hypertension, obesity, heart failure, diabetes, myocardial infarction, and stroke [ 9 ]. Thus, the presence of hyperuricemia should prompt the investigation of comorbidities [ 9 ].
+The risk factors for hyperuricemia include reduced urate excretion, endogenous overproduction due to increased levels of purine degradation, or a combination of both [ 10 ]. Urate production is increased by endogenous purine production, high cell turnover states (for example, hemodialysis), and decreased excretion due to metabolic acidosis and renal insufficiency [ 11 ]. Importantly, the serum uric acid level is affected by a diet rich in purine. All meats, organ meats, and seafood are rich in purine [ 12 ], and high consumption of meat and seafood is associated with the development of hyperuricemia [ 13 , 14 ]. Dairy intake has also been associated with decreased uric acid levels via increased uric acid excretion [ 15 ].
+Researchers have focused on the role of dietary acid load in relation to uric acid levels. A large, representative, population-based study of German adults showed a positive association between dietary acid load and serum uric acid levels [ 10 ]. In Japanese women, a low dietary acid load reflected a higher consumption of fruits and vegetables (alkaline diet) than an acidic diet, resulting in a low serum uric acid level via a high excretion of renal uric acid [ 16 ]. Therefore, dietary acid load may be suggested as a major modifiable factor that influences serum uric acid levels.
+Two indices, the potential renal acid load (PRAL) and net endogenous acid production (NEAP) score, were established to estimate the dietary acid load. The PRAL includes dietary calcium, phosphorus, magnesium, potassium, and protein, whereas the NEAP score evaluates diet acidity based on dietary protein and potassium [ 17 , 18 ]. Highly acid-generating foods, such as animal proteins, increase the net production of nonvolatile acids [ 19 ]. When the body pH reaches the lowest point of the normal range owing to this change in the dietary acid load, mild metabolic acidosis occurs [ 20 , 21 , 22 ].
+If the background and knowledge regarding the association between dietary acid load and hyperuricemia can be established, the potential utility of the dietary acid load in preventing hyperuricemia in advance may become crucial. To address these issues, we aimed to estimate the association between PRAL and NEAP scores and the incidence of hyperuricemia in middle-aged and older Korean adults. Furthermore, we assessed the food group intake according to the incidence of hyperuricemia.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1~14" text="Hyperuricemia" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D1" spans="188~200" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="212~229" text="diabetes mellitus" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="241~248" text="obesity" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D4" spans="440~462" text="chronic kidney disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="473~485" text="hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="487~494" text="obesity" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D7" spans="511~519" text="diabetes" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="521~542" text="myocardial infarction" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="584~597" text="hyperuricemia" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D10" spans="675~688" text="hyperuricemia" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D11" spans="2662~2675" text="hyperuricemia" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D12" spans="2757~2770" text="hyperuricemia" location="background" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D13" spans="2914~2927" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+<DISEASE id="D14" spans="3045~3058" text="hyperuricemia" location="result" disease1="disease of metabolism" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

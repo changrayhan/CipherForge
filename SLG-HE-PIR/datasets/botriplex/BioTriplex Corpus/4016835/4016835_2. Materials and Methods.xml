@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Study Population
+Blood sample (5 mL) were collected from patients ( n  = 211) and control subjects ( n  = 211) between the age of 30 and 70 years from the clinics after informed consent form was obtained from all the participating volunteers. Patients were diagnosed in accordance with JNC 7 guidelines [ 32 ] and hypertension was defined as systolic BP (SBP) of ≥140 mm Hg and/or diastolic BP (DBP) of ≥90 mm Hg or prior diagnosis of essential hypertension by a physician or current use of antihypertensive medication or individual having a history of hypertension. All the cases included in the study were of essential hypertension as diagnosed by the physician. Cases with secondary forms of hypertension, myocardial infarction, and cerebrovascular incidents or other systemic diseases and any major illness in last six month before the sample collection were excluded. Normotensive individuals ( n  = 211) with SBP ≤ 120 mm Hg and DBP ≤ 80 mm Hg with matched age, sex, and location were selected as controls. Control individuals were also devoid of associated conditions like vascular diseases, diabetes, and other systemic diseases or under any medication and BMI of ≤25 kg/m 2 . This study was approved by Institutional Ethical Committee. Clinical data and family history were recorded in the questionnaire for all the participants. All the participants belonged to Dravidian ancestry living in Tamil Nadu, south India. All the patients' samples were collected from the Outpatients Department of Government Hospitals of Tamil Nadu, south India. Control samples were also collected from the volunteers living in same place and origin. Genomic DNA was extracted using modified Miller's protocol [ 33 ] and it was quantified spectrophotometrically by OD 260 /OD 280  ratio. Genotyping was performed with PCR-RFLP and allele specific primer methods. Primer, restriction enzyme and PCR conditions are shown in Supplementary Table 1 in Supplementary Material available online at  http://dx.doi.org/10.1155/2014/538053 .
+2.2. Statistical Analysis
+Differences in the  ACE ,  AGTR1 , and  AGT  genotype frequencies between the cases and controls were compared using chi-square statistics. The odds ratio (OR) and 95% confidence interval (CI) were used as a measure of the strength of the association between genotype frequencies. Statistical significance accepted level was  P  < 0.05. The frequencies of the marker alleles were estimated by allele counting method and tested for Hardy-Weinberg equilibrium (HWE). All the statistical calculations were carried out using PLINK 1.07 [ 34 ] and STATA 11.0. Power of the study was calculated using PS-Power and sample size calculation [ 35 ].
+MDR (multidimensionality reduction) analysis was performed using MDR software [ 36 ] to determine the genotypic combination that may confer high or low risk for EHT and also to determine the single most predictive genetic (gene-gene/gene-environment) model for EHT. Briefly, the MDR was comprised of two steps. First, the best combination of multifactors was chosen. Second, the combinations of genotypes are classified into high- and low-risk groups [ 37 ]. Interaction analysis was performed in the open source MDR software package (v.2.0) available at  http://www.epistasis.org/  [ 38 ].
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="2072~2075" text="ACE" location="result" />
+<GENE id="G1" spans="2079~2084" text="AGTR1" location="result" />
+<GENE id="G2" spans="2092~2095" text="AGT" location="result" />
+<DISEASE id="D0" spans="320~332" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="441~463" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="559~571" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="617~639" text="essential hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="701~713" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="715~736" text="myocardial infarction" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1086~1102" text="vascular disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1105~1113" text="diabetes" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="2953~2956" text="EHT" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

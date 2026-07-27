@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+2.1. Data Acquiring and Preprocessing
+A total of 232 ARGs found from the Human Autophagy Portal ( http://www.autophagy.lu/index  HTML) contain all the ARGs in the human genome. RNA sequencing and clinical records of 398 tumor samples and 39 healthy samples were extracted from the TCGA database. The data used in the GO enrichment comes from the Cistrome project ( http://www.cistrome.org/ ). The data used in the KEGG enrichment comes from the KEGG project ( http://www.kegg.jp/ ).
+2.2. Choosing Discrepantly Expressed ARGs in COAD
+The ARG expression of 398 tumor samples and 39 normal samples was averaged, and the limma package of R language was used to analyze the expression difference of each gene in tumor and normal samples. The threshold is ∣log2 fold change (FC) > 1, and adjusted  P  value <0.05. Next, we integrated the discrepant data of expressed ARGs in tumor and healthy colon tissues with their corresponding clinical information for further analysis.
+2.3. Enrichment Analysis of ARGs
+To investigate the potential tumor-associated molecular mechanism of ARGs, we used the R language to annotate the GO function and the enrichment analysis of the KEGG pathway. The R package includes Goplot, DOSE, ggplot2, enrichplot, clusterProfiler, and BiocManager, with a  P  value of 0.05. The formula of the  Z -score is  Z − score = U − D / T , where  U  represents upregulated genes enriched in GO,  D  represents downregulated genes enriched in GO, and  T  means the number of genes enriched in the pathway.
+2.4. Construction of the Prognostic Model
+The 38 ARGs with differential expression in COAD tissues and normal tissues were analyzed by univariate Cox regression, and 24 ARGs were found to be significantly related to prognosis ( P  < 0.05). Then, we used a multivariate Cox analysis to adjust the gene parameters in each model to avoid overfitting. The remaining eight ARGs were elements to construct the prognosis model.
+The risk calculation method of the ARG model is Riskscore = ∑ i =1 n v i c i ,
+where  v i  represents the expression of the gene  i ,  c i  is the regression coefficient of the gene  i  calculated by multivariate Cox regression analysis, and  n  represents the total number of independent indicators.
+2.5. Verify the Accuracy of the Model
+Based on the median risk score of samples, we divided the patients into low-risk and high-risk groups. K-M survival curve was used to evaluate the statistical divergence between the two groups. We also used the ROC curves to test the fitting of the model.
+2.6. Statistical Analysis
+Strawberry Perl ( http://strawberryperl.com/ ) was used to organize data. R4.0.2 ( https://www.r-project.org/ ) was used for most statistical analysis and graphic rendering. K-M curve was drawn to describe the diversity of survival rate in high-risk group and low-risk groups. The fitting performance of the model was evaluated by the area under the curve (AUC) of the multi-ROC curve. The statistical graphs and statistical information of genes and clinical traits in the model are provided by UALCAN ( http://ualcan.path.uab.edu/ ). The statistical charts of model risk score and clinical parameters are drawn by SPSS26.0.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="529~533" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1604~1608" text="COAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

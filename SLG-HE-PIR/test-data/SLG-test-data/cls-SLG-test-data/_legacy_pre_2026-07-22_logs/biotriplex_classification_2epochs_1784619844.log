@@ -1,0 +1,123 @@
+2026-07-21 15:44:06,475 [INFO] biotriplex_finetune: Logging to /root/autodl-tmp/slg-biotriplex-classification/logs/biotriplex_finetune_all_1784619846.log
+2026-07-21 15:44:06,475 [INFO] biotriplex_finetune: Task: classification, stage: all
+2026-07-21 15:44:06,475 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:44:06,475 [INFO] biotriplex_finetune: STAGE 0: Offline Preparation
+2026-07-21 15:44:06,475 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:44:06,475 [INFO] biotriplex_finetune: [Stage0] Step 1: Building BFV Encrypted DB ...
+2026-07-21 15:44:08,617 [INFO] src.scripts.build_encrypted_db: Loading model from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:01<06:24,  1.33s/it]Loading weights:  10%|▉         | 28/291 [00:01<00:09, 26.64it/s]Loading weights:  15%|█▍        | 43/291 [00:01<00:07, 33.58it/s]Loading weights:  19%|█▊        | 54/291 [00:01<00:06, 38.19it/s]Loading weights:  22%|██▏       | 63/291 [00:02<00:05, 39.49it/s]Loading weights:  24%|██▍       | 70/291 [00:02<00:06, 33.71it/s]Loading weights:  26%|██▌       | 76/291 [00:02<00:05, 36.81it/s]Loading weights:  29%|██▉       | 85/291 [00:02<00:05, 34.75it/s]Loading weights:  31%|███       | 90/291 [00:03<00:06, 32.55it/s]Loading weights:  33%|███▎      | 96/291 [00:03<00:05, 36.79it/s]Loading weights:  35%|███▍      | 101/291 [00:03<00:04, 38.71it/s]Loading weights:  36%|███▋      | 106/291 [00:03<00:06, 30.11it/s]Loading weights:  38%|███▊      | 112/291 [00:03<00:05, 34.04it/s]Loading weights:  42%|████▏     | 121/291 [00:03<00:05, 32.57it/s]Loading weights:  45%|████▌     | 132/291 [00:04<00:03, 39.94it/s]Loading weights:  48%|████▊     | 139/291 [00:04<00:03, 44.00it/s]Loading weights:  49%|████▉     | 144/291 [00:04<00:03, 38.98it/s]Loading weights:  54%|█████▍    | 157/291 [00:04<00:03, 39.97it/s]Loading weights:  57%|█████▋    | 166/291 [00:05<00:03, 36.72it/s]Loading weights:  60%|██████    | 176/291 [00:05<00:02, 45.64it/s]Loading weights:  63%|██████▎   | 184/291 [00:05<00:02, 38.11it/s]Loading weights:  66%|██████▋   | 193/291 [00:05<00:02, 39.82it/s]Loading weights:  69%|██████▉   | 202/291 [00:05<00:02, 42.52it/s]Loading weights:  71%|███████   | 207/291 [00:05<00:01, 42.82it/s]Loading weights:  73%|███████▎  | 213/291 [00:06<00:01, 45.70it/s]Loading weights:  76%|███████▌  | 220/291 [00:06<00:01, 41.74it/s]Loading weights:  79%|███████▊  | 229/291 [00:06<00:01, 43.60it/s]Loading weights:  80%|████████  | 234/291 [00:06<00:01, 37.66it/s]Loading weights:  84%|████████▎ | 243/291 [00:06<00:01, 47.35it/s]Loading weights:  86%|████████▌ | 249/291 [00:07<00:01, 34.73it/s]Loading weights:  90%|█████████ | 262/291 [00:07<00:00, 43.18it/s]Loading weights:  92%|█████████▏| 267/291 [00:07<00:00, 39.11it/s]Loading weights:  94%|█████████▍| 274/291 [00:07<00:00, 33.05it/s]Loading weights:  96%|█████████▌| 278/291 [00:07<00:00, 34.15it/s]Loading weights:  98%|█████████▊| 284/291 [00:07<00:00, 38.80it/s]Loading weights: 100%|██████████| 291/291 [00:07<00:00, 36.70it/s]
+2026-07-21 15:44:17,260 [INFO] src.scripts.build_encrypted_db: Loaded V matrix: shape=(128256, 4096), dtype=float32, loaded in 8.6s
+2026-07-21 15:44:20,146 [INFO] src.scripts.build_encrypted_db: Initializing BFV context: poly_degree=4096, plain_bits=30, scale=10000.0
+2026-07-21 15:44:20,157 [INFO] src.scripts.build_encrypted_db: BFV backend initialized in 0.0s
+2026-07-21 15:44:23,403 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:44:38,317 [INFO] src.scripts.build_encrypted_db: Saved public key to /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin (196.7 KB)
+2026-07-21 15:44:38,318 [INFO] src.scripts.build_encrypted_db: Saved metadata to /root/autodl-tmp/slg-bfv-cache/bfv_meta.json
+2026-07-21 15:44:38,318 [INFO] src.scripts.build_encrypted_db: Saved keys metadata to /root/autodl-tmp/slg-bfv-cache/bfv_keys.json
+2026-07-21 15:44:38,318 [INFO] src.scripts.build_encrypted_db: === Stage 0 Step 1 Complete ===
+  Entries encrypted: 128256
+  Total time: 0.0s
+  Public key: /root/autodl-tmp/slg-bfv-cache/bfv_pk.bin
+  Database: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:44:39,082 [INFO] biotriplex_finetune: [Stage0] Encrypted DB: 16.83 GB in 0.0s
+2026-07-21 15:44:39,082 [INFO] biotriplex_finetune: [Stage0] Step 2: Building S3PIR hints ...
+2026-07-21 15:44:39,087 [INFO] src.scripts.build_s3pir_hints: Hint table cache hit: /root/autodl-tmp/slg-bfv-cache/hint_table.json
+2026-07-21 15:44:39,102 [INFO] biotriplex_finetune: [Stage0] S3PIR hints: /root/autodl-tmp/slg-bfv-cache/s3pir_hints in 0.0s
+2026-07-21 15:44:39,102 [INFO] biotriplex_finetune: Stage 0 complete in 32.6s
+2026-07-21 15:44:39,102 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:44:39,102 [INFO] biotriplex_finetune: STAGE 1: Three-Party LoRA Fine-Tuning (CLASSIFICATION)
+2026-07-21 15:44:39,102 [INFO] biotriplex_finetune: ============================================================
+2026-07-21 15:44:40,194 [INFO] biotriplex_finetune: [Stage1] Loading BioTriplex dataset (task=classification) ...
+2026-07-21 15:44:40,230 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[train]: 734 samples from datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-21 15:44:40,240 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/biotriplex/Preprocessed BioTriplex/train_gold_general_qa.txt
+2026-07-21 15:44:40,249 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[val]: 134 samples from datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-21 15:44:40,251 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/biotriplex/Preprocessed BioTriplex/val_gold_general_qa.txt
+2026-07-21 15:44:40,258 [INFO] src.data.biotriplex_dataset: BioTriplexQADatasetClassification[test]: 203 samples from datasets/biotriplex/Preprocessed BioTriplex/
+2026-07-21 15:44:40,261 [INFO] src.data.biotriplex_dataset: Wrote gold file → datasets/biotriplex/Preprocessed BioTriplex/test_gold_general_qa.txt
+2026-07-21 15:44:40,261 [INFO] biotriplex_finetune: [Stage1] Datasets ready: train=734 val=134 test=203
+2026-07-21 15:44:40,261 [INFO] biotriplex_finetune: [Stage1] Building BFV backend ...
+2026-07-21 15:44:45,187 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB cache hit: /root/autodl-tmp/slg-bfv-cache/bfv_ct_db_n128256_d4096_p4096.bin
+2026-07-21 15:44:54,006 [INFO] src.core.bfv_privselect_v2_adapter: Encrypted DB dropped from main process (workers retain their copies)
+2026-07-21 15:44:54,015 [INFO] src.core.bfv_privselect_v2_adapter: Secret key dropped from main process
+2026-07-21 15:44:54,015 [INFO] biotriplex_finetune: [Stage1] sk_M dropped from shared backend — only M will hold it
+2026-07-21 15:44:54,034 [INFO] src.core.s3pir_hints: Loaded hint table from cache: n_entries=128256, partitions=501, lam=80
+2026-07-21 15:44:54,034 [INFO] biotriplex_finetune: [Stage1] Constructing HeterogeneousProtocol ...
+2026-07-21 15:44:54,039 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyU ...
+[U-device] device=cuda
+2026-07-21 15:44:54,039 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 15:44:54,039 [INFO] src.model.model_splitting: Loading safetensor weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I (one-time load)
+2026-07-21 15:44:54,048 [INFO] src.model.model_splitting: Loaded 291 weights from /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 15:44:54,049 [INFO] src.model.model_splitting: Using SDPA for U shard
+2026-07-21 15:45:16,708 [INFO] src.model.model_splitting: Loaded U submodel: embed + 16 layers on cuda (attn=sdpa, gradient_checkpointing=True)
+2026-07-21 15:45:16,716 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyM ...
+[M-device] device=cuda
+2026-07-21 15:45:16,716 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 15:45:16,716 [INFO] src.model.model_splitting: Using cached safetensor weights for /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+2026-07-21 15:45:16,717 [INFO] src.model.model_splitting: Using SDPA for M shard
+2026-07-21 15:45:35,870 [INFO] src.model.model_splitting: Loaded M submodel: 16 layers + 224 LoRA params on cuda (attn=sdpa, gradient_checkpointing=True, deepspeed_zero=disabled)
+2026-07-21 15:45:35,879 [INFO] src.parties.party_m: PartyM BFV secret key loaded
+2026-07-21 15:45:35,880 [INFO] src.parties.party_m: PartyM LR scheduler: cosine_with_warmup, warmup=200, total=1468, peak_lr=1.00e-04
+2026-07-21 15:45:35,880 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] constructing PartyS ...
+2026-07-21 15:45:35,880 [INFO] src.parties.party_s: PartyS device: cuda (V matrix stays on GPU for fast matmul)
+2026-07-21 15:45:35,881 [INFO] src.model.model_splitting: Detected model: arch=llama num_layers=32 hidden=4096 vocab=128256 u_layers=16
+2026-07-21 15:45:36,068 [INFO] src.model.model_splitting: Loaded S submodel: lm_head (4096, 128256) on cuda
+2026-07-21 15:45:36,081 [INFO] src.parties.party_s: PartyS loaded V matrix: shape=(128256, 4096)
+2026-07-21 15:45:36,082 [INFO] src.parties.party_s: PartyS BFV public key set (from M)
+2026-07-21 15:45:36,082 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] U/M/S ready in 42.0s (single CUDA context)
+2026-07-21 15:45:36,082 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoUWorker pool (n=8) ...
+2026-07-21 15:45:51,991 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_u.CryptoUWorker ready: n_workers=8
+2026-07-21 15:45:51,992 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoMWorker pool (n=8) ...
+2026-07-21 15:46:07,566 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_m.CryptoMWorker ready: n_workers=8
+2026-07-21 15:46:07,566 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] starting CryptoSWorker pool (n=1) ...
+2026-07-21 15:46:09,559 [INFO] src.parties.crypto_workers.pool: [CryptoWorkerPool] src.parties.crypto_workers.crypto_s.CryptoSWorker ready: n_workers=1
+2026-07-21 15:46:09,560 [INFO] src.parties.heterogeneous_protocol: [HeterogeneousProtocol] all worker pools ready; total init 75.5s
+2026-07-21 15:46:09,560 [INFO] biotriplex_finetune: [Stage1] Starting training: epochs=2, batch=1, lr=0.0001, wd=0
+2026-07-21 15:46:09,560 [INFO] src.training.trainer: Starting training: epochs=2, patience=999, train=734, val=134
+/root/miniconda3/lib/python3.12/site-packages/torch/utils/checkpoint.py:86: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+2026-07-21 15:47:00,121 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=0 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 15:48:10,999 [WARNING] src.parties.party_s: GPU OOM/Error in compute_a_t_gpu — falling back to CPU (batch=1, seq=10000, vocab=128256, hidden=4096, available=5.5GB, estimated=7.4GB).
+2026-07-21 15:50:20,847 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=1 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 15:51:31,003 [WARNING] src.parties.party_s: GPU OOM/Error in compute_a_t_gpu — falling back to CPU (batch=1, seq=10000, vocab=128256, hidden=4096, available=5.5GB, estimated=7.4GB).
+2026-07-21 15:53:41,500 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=2 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 15:54:52,805 [WARNING] src.parties.party_s: GPU OOM/Error in compute_a_t_gpu — falling back to CPU (batch=1, seq=10000, vocab=128256, hidden=4096, available=5.5GB, estimated=7.4GB).
+2026-07-21 15:57:09,389 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=3 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 15:58:18,654 [WARNING] src.parties.party_s: GPU OOM/Error in compute_a_t_gpu — falling back to CPU (batch=1, seq=10000, vocab=128256, hidden=4096, available=5.5GB, estimated=7.4GB).
+2026-07-21 16:00:50,170 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=4 n_tokens=10000 K=4 chunks of ~3072
+2026-07-21 16:02:01,787 [WARNING] src.parties.party_s: GPU OOM/Error in compute_a_t_gpu — falling back to CPU (batch=1, seq=10000, vocab=128256, hidden=4096, available=5.5GB, estimated=7.4GB).
+2026-07-21 16:04:16,143 [INFO] src.parties.heterogeneous_protocol: step_train_chunked: step=5 n_tokens=10000 K=4 chunks of ~3072
+Process SpawnPoolWorker-7:
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/miniconda3/lib/python3.12/multiprocessing/queues.py", line 399, in put
+    self._writer.send_bytes(obj)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 420, in _send_bytes
+    self._send(header)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/root/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/miniconda3/lib/python3.12/multiprocessing/queues.py", line 399, in put
+    self._writer.send_bytes(obj)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 420, in _send_bytes
+    self._send(header)
+  File "/root/miniconda3/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+/root/miniconda3/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 18 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

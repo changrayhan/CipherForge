@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Positive and negative cooperativity of TNF and Interferon-γ in regulating synovial fibroblast function and B cell survival in fibroblast/B cell co-cultures.
+Abstract: Synovial fibroblasts (SF) were reported to produce B cell activating factor (BAFF) in response to stimulation with interferon-γ (IFN-γ) or tumor necrosis factor (TNF). However, the influence of these pro-inflammatory cytokines on other receptors/ligands of the TNF superfamily or associated cytokine receptors in SF has not been investigated yet. Here we show the differential regulation of BAFF (CD257), Fn14 (CD266), TACI (CD267), BAFF-R (CD268), BCMA (CD269), CD40 ligand (CD40L, CD154), IFN-γR (CD119), Leptin receptor (ObR, CD295), VCAM-1 (CD106) and membrane TGF-β in isolated SF and the impact of IFN-γ/TNF co-incubation on proliferation, IL-6 and IL-8 production. In addition, the impact of differentially stimulated SF on B cell survival in co-cultures was assessed. Surface cytokines and cytokine receptors were detected by flow cytometry. Soluble cytokine receptors and cytokines were quantified by ELISA. Proliferation was assessed by cell titer blue. Murine B cell survival in fibroblast/ B cell co-cultures was determined by annexin V/propidium iodide staining and flow cytometry. IFN-γ together with TNF synergistically and significantly increased the cell surface levels of BAFF, Fn14, TACI, BAFF-R, BCMA, CD40L, ObR and IFN-γR in rheumatoid arthritis SF after 72 h incubation. Soluble BAFF was only induced by IFN-γ and inhibited by TNF. Addition of TWEAK had no influence on proliferation or IL-8 production but decreased TNF-induced IL-6 production, whereas APRIL, BAFF and leptin did not modulate TNF or TNF/IFN-γ-induced proliferation or cytokine production. Proliferation was increased by TNF and further enhanced by the addition of IFN-γ. In co-culture experiments, SF stimulated with TNF/IFN but not TNF or IFN-γ alone increased shedding of VCAM-1 and expression of membrane TGFβ, which was associated with reduced survival of murine B cells. IFN-γ and TNF regulate the expression of TNF family member cytokines and associated receptors. Ligation of IFN-γR and Fn14 under pro-inflammatory conditions modulated IL-6/IL-8 production and proliferation. In B cell/SF co-cultures, the combination of TNF/IFN reduced B cell survival possibly via enhanced VCAM-1 shedding and/or increased TGF-β production. IFN-γ is necessary for the observed effects on B cell survival and SF cytokine production and emphasizes its anti-inflammatory role in rheumatoid arthritis.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="47~50" text="TNF" location="result" />
+<GENE id="G1" spans="55~67" text="Interferon-γ" location="result" />
+<GENE id="G2" spans="226~250" text="B cell activating factor" location="background" />
+<GENE id="G3" spans="252~256" text="BAFF" location="background" />
+<GENE id="G4" spans="290~302" text="interferon-γ" location="background" />
+<GENE id="G5" spans="304~309" text="IFN-γ" location="background" />
+<GENE id="G6" spans="314~335" text="tumor necrosis factor" location="background" />
+<GENE id="G7" spans="337~340" text="TNF" location="background" />
+<GENE id="G8" spans="566~570" text="BAFF" location="result" />
+<GENE id="G9" spans="572~577" text="CD257" location="result" />
+<GENE id="G10" spans="580~584" text="Fn14" location="result" />
+<GENE id="G11" spans="586~591" text="CD266" location="result" />
+<GENE id="G12" spans="594~598" text="TACI" location="result" />
+<GENE id="G13" spans="600~605" text="CD267" location="result" />
+<GENE id="G14" spans="608~614" text="BAFF-R" location="result" />
+<GENE id="G15" spans="616~621" text="CD268" location="result" />
+<GENE id="G16" spans="624~628" text="BCMA" location="result" />
+<GENE id="G17" spans="630~635" text="CD269" location="result" />
+<GENE id="G19" spans="638~649" text="CD40 ligand" location="result" />
+<GENE id="G20" spans="651~656" text="CD40L" location="result" />
+<GENE id="G21" spans="658~663" text="CD154" location="result" />
+<GENE id="G22" spans="674~679" text="CD119" location="result" />
+<GENE id="G23" spans="682~697" text="Leptin receptor" location="result" />
+<GENE id="G24" spans="699~702" text="ObR" location="result" />
+<GENE id="G25" spans="704~709" text="CD295" location="result" />
+<GENE id="G26" spans="712~718" text="VCAM-1" location="result" />
+<GENE id="G27" spans="720~725" text="CD106" location="result" />
+<GENE id="G28" spans="779~784" text="IFN-γ" location="result" />
+<GENE id="G29" spans="785~788" text="TNF" location="result" />
+<GENE id="G30" spans="821~825" text="IL-6" location="result" />
+<GENE id="G31" spans="830~834" text="IL-8" location="result" />
+<GENE id="G32" spans="1270~1275" text="IFN-γ" location="result" />
+<GENE id="G33" spans="1290~1293" text="TNF" location="result" />
+<GENE id="G34" spans="1365~1369" text="BAFF" location="result" />
+<GENE id="G35" spans="1371~1375" text="Fn14" location="result" />
+<GENE id="G36" spans="1377~1381" text="TACI" location="result" />
+<GENE id="G37" spans="1383~1389" text="BAFF-R" location="result" />
+<GENE id="G38" spans="1502~1507" text="IFN-γ" location="result" />
+<GENE id="G39" spans="1525~1528" text="TNF" location="result" />
+<GENE id="G40" spans="1585~1589" text="IL-8" location="result" />
+<GENE id="G41" spans="1615~1618" text="TNF" location="result" />
+<GENE id="G42" spans="1627~1631" text="IL-6" location="result" />
+<GENE id="G43" spans="1652~1657" text="APRIL" location="result" />
+<GENE id="G44" spans="1659~1663" text="BAFF" location="result" />
+<GENE id="G45" spans="1668~1674" text="leptin" location="result" />
+<GENE id="G46" spans="1692~1695" text="TNF" location="result" />
+<GENE id="G47" spans="1699~1702" text="TNF" location="result" />
+<GENE id="G48" spans="1703~1708" text="IFN-γ" location="result" />
+<GENE id="G49" spans="1786~1789" text="TNF" location="result" />
+<GENE id="G50" spans="1830~1835" text="IFN-γ" location="result" />
+<GENE id="G51" spans="1883~1886" text="TNF" location="result" />
+<GENE id="G52" spans="1899~1902" text="TNF" location="result" />
+<GENE id="G53" spans="1906~1911" text="IFN-γ" location="result" />
+<GENE id="G54" spans="1940~1946" text="VCAM-1" location="result" />
+<GENE id="G55" spans="2042~2047" text="IFN-γ" location="result" />
+<GENE id="G56" spans="2052~2055" text="TNF" location="result" />
+<GENE id="G57" spans="2083~2086" text="TNF" location="result" />
+<GENE id="G58" spans="2149~2155" text="IFN-γR" location="result" />
+<GENE id="G59" spans="2160~2164" text="Fn14" location="result" />
+<GENE id="G60" spans="2209~2213" text="IL-6" location="result" />
+<GENE id="G61" spans="2214~2218" text="IL-8" location="result" />
+<GENE id="G62" spans="2294~2297" text="TNF" location="result" />
+<GENE id="G63" spans="2348~2354" text="VCAM-1" location="result" />
+<GENE id="G64" spans="2399~2404" text="IFN-γ" location="result" />
+<DISEASE id="D0" spans="2534~2554" text="rheumatoid arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

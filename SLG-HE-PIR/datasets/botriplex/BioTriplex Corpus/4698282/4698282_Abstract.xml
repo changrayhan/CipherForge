@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Genetic variation in the immunosuppression pathway genes and breast cancer susceptibility: a pooled analysis of 42,510 cases and 40,577 controls from the Breast Cancer Association Consortium.
+Abstract: 
+           Electronic supplementary material 
+           The online version of this article (doi:10.1007/s00439-015-1616-8) contains supplementary material, which is available to authorized users. 
+        
+Immunosuppression plays a pivotal role in assisting tumors to evade immune destruction and promoting tumor development. We hypothesized that genetic variation in the immunosuppression pathway genes may be implicated in breast cancer tumorigenesis. We included 42,510 female breast cancer cases and 40,577 controls of European ancestry from 37 studies in the Breast Cancer Association Consortium ( 2015 ) with available genotype data for 3595 single nucleotide polymorphisms (SNPs) in 133 candidate genes. Associations between genotyped SNPs and overall breast cancer risk, and secondarily according to estrogen receptor (ER) status, were assessed using multiple logistic regression models. Gene-level associations were assessed based on principal component analysis. Gene expression analyses were conducted using RNA sequencing level 3 data from The Cancer Genome Atlas for 989 breast tumor samples and 113 matched normal tissue samples. SNP rs1905339 (A>G) in the  STAT3  region was associated with an increased breast cancer risk (per allele odds ratio 1.05, 95 % confidence interval 1.03–1.08;  p  value = 1.4 × 10 −6 ). The association did not differ significantly by ER status. On the gene level, in addition to  TGFBR2  and  CCND1 ,  IL5  and  GM - CSF  showed the strongest associations with overall breast cancer risk ( p  value = 1.0 × 10 −3  and 7.0 × 10 −3 , respectively). Furthermore,  STAT3  and  IL5  but not  GM - CSF  were differentially expressed between breast tumor tissue and normal tissue ( p  value = 2.5 × 10 −3 , 4.5 × 10 −4  and 0.63, respectively). Our data provide evidence that the immunosuppression pathway genes  STAT3, IL5,  and  GM - CSF  may be novel susceptibility loci for breast cancer in women of European ancestry.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1384~1389" text="STAT3" location="result" />
+<GENE id="G1" spans="1636~1642" text="TGFBR2" location="result" />
+<GENE id="G2" spans="1649~1654" text="CCND1" location="result" />
+<GENE id="G3" spans="1658~1661" text="IL5" location="result" />
+<GENE id="G4" spans="1668~1676" text="GM - CSF" location="result" />
+<GENE id="G5" spans="1817~1822" text="STAT3" location="result" />
+<GENE id="G6" spans="1829~1832" text="IL5" location="result" />
+<GENE id="G7" spans="1843~1851" text="GM - CSF" location="result" />
+<GENE id="G8" spans="2062~2067" text="STAT3" location="result" />
+<GENE id="G9" spans="2069~2072" text="IL5" location="result" />
+<GENE id="G10" spans="2080~2088" text="GM - CSF" location="result" />
+<DISEASE id="D0" spans="69~82" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="162~175" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="637~650" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="692~705" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="776~789" text="Breast Cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="971~984" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1268~1274" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1431~1444" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1725~1738" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2127~2140" text="breast cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1421~1430,1445~1449" text="increased ... risk" location="result" relation="genetic susceptibility" />
+<RELATION id="R1" spans="1699~1724,1739~1743" text="associations with overall ... risk" location="result" relation="genetic susceptibility" />
+<RELATION id="R2" spans="2103~2122" text="susceptibility loci" location="result" relation="genetic susceptibility" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="STAT3" diseaseID="D7" diseaseText="breast cancer" relationID="R0" relationText="increased ... risk" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="TGFBR2" diseaseID="D8" diseaseText="breast cancer" relationID="R1" relationText="associations with overall ... risk" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="CCND1" diseaseID="D8" diseaseText="breast cancer" relationID="R1" relationText="associations with overall ... risk" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="IL5" diseaseID="D8" diseaseText="breast cancer" relationID="R1" relationText="associations with overall ... risk" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="GM - CSF" diseaseID="D8" diseaseText="breast cancer" relationID="R1" relationText="associations with overall ... risk" />
+<ENTITY_LINKING id="E5" geneID="G8" geneText="STAT3" diseaseID="D9" diseaseText="breast cancer" relationID="R2" relationText="susceptibility loci" />
+<ENTITY_LINKING id="E6" geneID="G9" geneText="IL5" diseaseID="D9" diseaseText="breast cancer" relationID="R2" relationText="susceptibility loci" />
+<ENTITY_LINKING id="E7" geneID="G10" geneText="GM - CSF" diseaseID="D9" diseaseText="breast cancer" relationID="R2" relationText="susceptibility loci" />
+</TAGS>
+</Genomics_ConceptTask>

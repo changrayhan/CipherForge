@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Constitutive activation of PI3K signaling is one of the most frequent gene mutations in human cancer [ 1 , 2 ] and results in the activation of the downstream signaling molecule Akt, which signals cell proliferation and survival. In colorectal cancer (CRC),  PIK3CA , which encodes PI3K catalytic alpha polypeptide, is frequently amplified or mutated. Because the mutated PIK3CA plays an important role in cancer cell survival, proliferation, and metabolism,  PIK3CA  is suggested as a therapeutic target in CRC [ 3 ]. Additionally, inappropriate activation of the Wnt pathway has also been observed in CRC as well as many other cancers [ 4 – 6 ]. This Wnt pathway activation results in the nuclear translocation of β-catenin and the modulation of the T-cell factor/lymphoid enhancer factor (TCF/LEF) transcriptional activity to promote cell proliferation [ 7 ]. The two signaling pathways of PI3K/Akt and Wnt/β-catenin cross-talk through glycogen synthase kinase 3β (GSK3β). GSK3β is a component of the β-catenin destruction complex, which also includes axin, adenomatous polyposis coli (APC), and casein kinase 1. In the absence of Wnt, β-catenin is phosphorylated by GSK3β and undergoes proteosomal degradation. In the presence of Wnt, the activated Frizzled receptor with Dishevelled disrupts assembly of the β-catenin destruction complex, and β-catenin is stabilized in the cytosol [ 8 ]. Additionally, phosphorylation of GSK3β by PI3K/Akt in the presence of growth factors results in the inhibition of GSK3β kinase activity [ 9 – 11 ], which leads to stabilization of β-catenin. Therefore, β-catenin phosphorylation and degradation via GSK3β activation constitute one of the anti-cancer action mechanisms of PI3K/Akt inhibitors. In addition, axin, by acting as a β-catenin scaffold protein, regulates the efficiency of the β-catenin destruction complex [ 12 ]. GSK3β is stably bound to axin, which is the least abundant core component of the β-catenin destruction complex [ 12 – 14 ]. Furthermore, GSK3β binding of axin directs axin to target β-catenin and shields GSK3β from the action of Akt [ 15 ]. The axin levels are regulated by tankyrase, which induces axin ubiquitinylation and proteosomal degradation. Studies with XAV939, a selective and potent tankyrase inhibitor, have demonstrated that it stabilizes axin levels and promotes β-catenin destruction [ 16 , 17 ]. It has also been reported tankyrase 1 is overexpressed in a variety of cancers [ 18 – 20 ], and XAV939 has been shown to be an effective anti-cancer agent for CRC and other cancers [ 21 ]. Furthermore, the inhibition of the Wnt/β-catenin pathway by tankyrase inhibitors enhances the efficacy of EGFR inhibitor for the treatment of lung cancer [ 22 ], which suggests that tankyrase inhibitors could be used as adjuvant cancer treatments.
+Macrolides have numerous biological activities, including the modulation of inflammation [ 23 ] and of the proliferation of B16-F10 murine melanoma cells [ 24 ]. In a previous study, we reported that the 7- O -succinyl derivative of macrolactin A (SMA) inhibits class I PI3K enzyme activity and its downstream signaling pathway, PI3K/Akt/mTOR/p70S6k,  in vitro  and  in vivo  [ 25 ]. In the present study, we report that SMA inhibits tankyrase in addition to inhibiting the PI3K/Akt pathway. Moreover, the study demonstrates that this dual inhibitory effect of SMA effectively suppresses the nuclear β-catenin level and TCF/LEF transcriptional activity  in vitro  and in a mouse xenograft tumor model.
+]]></TEXT>
+<TAGS>
+<GENE id="G1" spans="179~182" text="Akt" location="background" />
+<GENE id="G2" spans="260~266" text="PIK3CA" location="background" />
+<GENE id="G3" spans="283~315" text="PI3K catalytic alpha polypeptide" location="background" />
+<GENE id="G4" spans="373~379" text="PIK3CA" location="background" />
+<GENE id="G5" spans="461~467" text="PIK3CA" location="background" />
+<GENE id="G6" spans="940~967" text="glycogen synthase kinase 3β" location="background" />
+<GENE id="G7" spans="969~974" text="GSK3β" location="background" />
+<GENE id="G8" spans="977~982" text="GSK3β" location="background" />
+<GENE id="G9" spans="1005~1014" text="β-catenin" location="background" />
+<GENE id="G10" spans="1056~1060" text="axin" location="background" />
+<GENE id="G11" spans="1062~1088" text="adenomatous polyposis coli" location="background" />
+<GENE id="G12" spans="1090~1093" text="APC" location="background" />
+<GENE id="G13" spans="1100~1115" text="casein kinase 1" location="background" />
+<GENE id="G14" spans="1140~1149" text="β-catenin" location="background" />
+<GENE id="G15" spans="1171~1176" text="GSK3β" location="background" />
+<GENE id="G16" spans="1314~1323" text="β-catenin" location="background" />
+<GENE id="G17" spans="1349~1358" text="β-catenin" location="background" />
+<GENE id="G18" spans="1428~1433" text="GSK3β" location="background" />
+<GENE id="G19" spans="1437~1441" text="PI3K" location="background" />
+<GENE id="G20" spans="1442~1445" text="Akt" location="background" />
+<GENE id="G21" spans="1509~1514" text="GSK3β" location="background" />
+<GENE id="G22" spans="1575~1584" text="β-catenin" location="background" />
+<GENE id="G23" spans="1597~1606" text="β-catenin" location="background" />
+<GENE id="G24" spans="1643~1648" text="GSK3β" location="background" />
+<GENE id="G26" spans="1715~1719" text="PI3K" location="background" />
+<GENE id="G27" spans="1720~1723" text="Akt" location="background" />
+<GENE id="G28" spans="1749~1753" text="axin" location="background" />
+<GENE id="G29" spans="1770~1779" text="β-catenin" location="background" />
+<GENE id="G30" spans="1830~1839" text="β-catenin" location="background" />
+<GENE id="G31" spans="1868~1873" text="GSK3β" location="background" />
+<GENE id="G32" spans="1893~1897" text="axin" location="background" />
+<GENE id="G33" spans="1949~1958" text="β-catenin" location="background" />
+<GENE id="G34" spans="2005~2010" text="GSK3β" location="background" />
+<GENE id="G35" spans="2022~2026" text="axin" location="background" />
+<GENE id="G36" spans="2050~2059" text="β-catenin" location="background" />
+<GENE id="G37" spans="2072~2077" text="GSK3β" location="background" />
+<GENE id="G38" spans="2097~2100" text="Akt" location="background" />
+<GENE id="G39" spans="2113~2117" text="axin" location="background" />
+<GENE id="G40" spans="2142~2151" text="tankyrase" location="background" />
+<GENE id="G41" spans="2167~2171" text="axin" location="background" />
+<GENE id="G42" spans="2262~2271" text="tankyrase" location="background" />
+<GENE id="G43" spans="2320~2324" text="axin" location="background" />
+<GENE id="G44" spans="2345~2354" text="β-catenin" location="background" />
+<GENE id="G45" spans="2406~2415" text="tankyrase" location="background" />
+<GENE id="G46" spans="2751~2760" text="tankyrase" location="background" />
+<GENE id="G47" spans="3021~3063" text="7- O -succinyl derivative of macrolactin A" location="background" />
+<GENE id="G50" spans="3251~3260" text="tankyrase" location="result" />
+<GENE id="G52" spans="3417~3426" text="β-catenin" location="result" />
+<DISEASE id="D0" spans="95~101" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="234~251" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="253~256" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="407~413" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="509~512" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="604~607" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="630~636" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="1687~1693" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="2451~2457" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="2522~2528" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="2539~2542" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2553~2559" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D12" spans="2798~2804" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="2956~2964" text="melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R2" spans="344~351" text="mutated" location="background" relation="associated mutation" />
+<RELATION id="R3" spans="365~372" text="mutated" location="background" relation="associated mutation" />
+<RELATION id="R4" spans="389~403" text="important role" location="background" relation="relation undefined" />
+<RELATION id="R5" spans="487~505" text="therapeutic target" location="background" relation="therapeutic target" />
+<RELATION id="R6" spans="2421~2434" text="overexpressed" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="PIK3CA" diseaseID="D1" diseaseText="colorectal cancer" relationID="R2" relationText="mutated" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="PIK3CA" diseaseID="D2" diseaseText="CRC" relationID="R2" relationText="mutated" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="PI3K catalytic alpha polypeptide" diseaseID="D1" diseaseText="colorectal cancer" relationID="R2" relationText="mutated" />
+<ENTITY_LINKING id="E4" geneID="G3" geneText="PI3K catalytic alpha polypeptide" diseaseID="D2" diseaseText="CRC" relationID="R2" relationText="mutated" />
+<ENTITY_LINKING id="E5" geneID="G4" geneText="PIK3CA" diseaseID="D3" diseaseText="cancer" relationID="R3" relationText="mutated" />
+<ENTITY_LINKING id="E6" geneID="G4" geneText="PIK3CA" diseaseID="D3" diseaseText="cancer" relationID="R4" relationText="important role" />
+<ENTITY_LINKING id="E7" geneID="G5" geneText="PIK3CA" diseaseID="D4" diseaseText="CRC" relationID="R5" relationText="therapeutic target" />
+<ENTITY_LINKING id="E8" geneID="G45" geneText="tankyrase" diseaseID="D8" diseaseText="cancer" relationID="R6" relationText="overexpressed" />
+</TAGS>
+</Genomics_ConceptTask>

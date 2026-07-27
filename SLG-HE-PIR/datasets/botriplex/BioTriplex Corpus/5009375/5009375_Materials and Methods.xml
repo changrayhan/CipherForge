@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Ethics statement
+All the clinical specimens were obtained with informed consent and approved by the First Affiliated Hospital of Sun Yat-sen University Ethics Committee, Informed consent was obtained from all patients involved in this study. Animal experiments were reviewed and approved by the Institutional Animal Care and Use Committee of Sun Yat-sen University. All the experiments were performed in accordance with the approved guidelines of the Institutional Research Ethics Committee of Sun Yat-Sen University.
+Tissue specimens and cell culture
+A total of 96 human advanced HCC specimens were obtained from Department of Medical Oncology, the First Affiliated Hospital of Sun Yat-sen University. The detailed information was shown in  Supplemental Table 1 . Human HCC cells Huh7 and HepG2 were obtained from American Type Culture Collection (ATCC), and growth in DMEM medium supplanted with 10% FBS (GIBCO) and 1% penicillin-streptomycin (Hyclone).
+Vectors, oligonucleotides and transfection
+The CDS of GRAMD1A was amplified form cDNA of human embryonic stem cell, and cloned into the pMSCV-Puro vector (indicated as GRAMD1A), the empty vector was used as negative control (indicated as Vector). small inference RNAs (siRNA) of GRAMD1A (indicated as siGRAMD1A) and their Scramble control were purchased from RiboBio Co. Ltd. The siRNAs were modified with 2′-OMe. The Vectors and oligonucleotides was transfected into Hun-7 and HepG2 using lipofectamine 2000 (Invitrogen).
+Quantitative real-time PCR
+Total RNA was isolated using Trizol reagent (Life Technologies), cDNA was synthesized using PrimeScript RT Master Mix (Takara). Quantitative real-time PCR was performed using SYBR Green PCR Master Mix (Takara) on a ABI Prism 7500 Sequence Detection system (Applied Biosystems). The quantitative real-time PCR reactions were carried out in triplicate. GAPDH was used as an endogenous control to normalize the amount of mRNA in each sample. The relative expression was calculated with the 2 −ΔΔCt  method. The primers for these genes were shown in  Supplemental Table 2 .
+Western blot
+Tumor cells were homogenized with PIPA buffer (50 mM Tris (pH 8.0), 150 mM NaCl, 0.5% sodium deoxycholate, 0.1% SDS, 1% NP40 and 1 mM EDTA) supplemented with cocktail protease inhibitor (Roche). Western blot was performed according to the standard methods. The following antibodies were used: GRAMD1A (Sigma, HPA008852), caspase-3 (Cell Signaling Technology, #9662), poly(ADP-ribose) polymerase (PARP) (Cell Signaling Technology, #9542), BCL-XL (Cell Signaling Technology, #2762), CD133 (Miltenyi Biotec, 130-092-395), CD90 (Abcam, ab133350), STAT5 (Cell Signaling Technology, #9363), β-actin (Abcam, ab8226) and GAPDH (Abcam, ab8245).
+Luciferase reporter assay
+The promoter sequence of STAT5 was amplified from genomic DNA prepared from 293T cells using PCR, and cloned into psi-CHECK2 vector (Promega). The vector was cotransfected into indicated cells with GRAMD1A overexpression vector or siRNAs of GRAMD1A using lipofectamine 2000 (Invitrogen). The luciferase activity was measured after 48 h of transfection using Dual Luciferase Assay (Promega) according to the manufacturer’s protocol.
+Soft agar growth ability assay
+Soft agar growth ability assay was performed according to previously reported method 13 .
+Apoptosis assay
+Cells were treated with various concentrations of Doxorubicin (0.5 uM and 1.0 uM, respectively) for 48 h. Following treatment, cells were harvested and stained with 0.1% Trypan blue, cell number was counted with a microscope. For TUNEL assay, slides were plated in six-well plates, then cells were seeded in the plates, and treated with 1.0 uM Doxorubicin for 48 h, after treatment, The TUMEL assay was performed using  In situ  Direct DNA Fragmentation Assay Kit (Abcam, ab66108) according to the instructions of manufacturer.
+Immunohistochemistry (IHC)
+IHC was performed according to previous methods 14 15 . Anti-GRAMD1A antibody (Sigma, HPA008852) was used. The tissue sections were scored using two-blinded method. The proportion of tumor cells was scored as follows: Score 0, no positive cells; Score 1, 1–10% positive cells; Score 2, 11~50% positive cells; Score 3, 51–80% positive cells; Score 4, mane than 80% positive cells. The intensity of protein expression was shown as follows: 0 (no staining); 1 (weak staining, light yellow); 2 (moderate staining, yellowish brown) and 3 (strong staining, brown).
+The staining index (SI) was calculated as the product of the staining intensity and the proportion of positive cell scores (scored as 0, 1, 2, 3, 4, 6, 8, 9 or 12). Cut-off values for GRAMD1A expression were chosen based on a measurement of heterogeneity using the log-rank test with respect to overall survival.
+Hepatosphere formation assay
+200 Huh-7 or HepG2 cells were seeded in Ultra Low Attachment 6-well plates (Corning) and maintained with DMEM/F12 medium (Life Technologies) supplemented with 20 ng/ml human recombinant epidermal growth factor (Sigma), 10 ng/ml human recombinant basic fibroblast growth factor (bFGF, Millipore), 4 ug/ml insulin (Sigma), B27 (Life Technologies), 500 U/ml penicillin, 500 ug/ml streptomycin and 1% methylcellulose. Spheres were incubated in suspension for 2 weeks and counted under a microscope.
+Side population (SP) assay
+Cells were resuspended at the density of 1 × 10 6 /ml in DMEM (Life Technologies), supplementing with 2% Fetal calf serum (FCS) (Life Technologies) and HEPES buffer (Life Technologies), and incubated with 5 ug/ml Hoechst 33342 dye in the presence or absence of Verapamil for 90 min at 37 °C with intermittent shaking. Then cells were washed using cold HBSS with 2% FCS and 10 mmol/L HEPES following centrifugation at 4 °C, and resuspended in cold HBSS with 2% FCS and 10 mmol/L HEPES. PI (propidium iodide) was added to gate viable cells. Cells were analyzed using a FACS Vantage-SE (BD).
+Animal studies
+BALB/c-nu mice were purchased from the Experimental Animal Center of the Guangzhou University of Chinese Medicine. Xenograft tumors were established by subcutaneous injection of different number (1 × 10 5 , 1 × 10 4  and 1 × 10 3 ) Huh-7 cells into the flank of female BALB/C nude mice about 4-to-5 week old. Tumor sizes were measured every 6 days by calipers, tumor volumes were calculated according to the formula V = L × W 2  × 0.5 (L: tumor length, W: tumor width). On day 31, animals were euthanized and tumors were excised. For orthotopic transplantation mouse model, 5 × 10 6  Hub-7 cells with GRAMD1A knockdown or negative control were transplanted into the liver of mouse (n = 8) respectively, the mouse was fed for 40 days, the survival of mice was observed. The blood of mouse was extracted to investigate the concentration of ALT and AST.
+Statistical analysis
+All statistical analyses were performed with SPSS 19.0 software (SPSS) or Excel (Microsoft). GRAMD1A expression data was downloaded from The Cancer Genome Atlas (TCGA) ( https://gdc-portal.nci.nih.gov/projects/TCGA-LIHC ). The Chi-square test and Fisher’s Exact test were performed to analyze the correlation between GRAMD1A levels and HCC clinical features. The Spearman correlation analysis was used to confirm the correlation between GRAMD1A levels and clinical features. Independent prognostic factors were examined by the Cox proportional hazards stepwise regression model. Survival curve was plotted by Kaplan-Meier survival analysis and compared by the log-rank test. Gene set enrichment analysis (GSEA) analysis was performed using online website ( http://software.broadinstitute.org/gsea/index.jsp ) 16 . Results were showed as the Mean ± SEM. A two-tailed paired student’s t test was used to assess the significant difference of two groups of data. A  p  value of less than 0.05 was considered statistical significance.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1011~1018" text="GRAMD1A" location="result" />
+<GENE id="G1" spans="1125~1132" text="GRAMD1A" location="result" />
+<GENE id="G2" spans="1236~1243" text="GRAMD1A" location="result" />
+<GENE id="G3" spans="1260~1267" text="GRAMD1A" location="result" />
+<GENE id="G4" spans="1858~1863" text="GAPDH" location="result" />
+<GENE id="G5" spans="2383~2390" text="GRAMD1A" location="result" />
+<GENE id="G6" spans="2411~2420" text="caspase-3" location="result" />
+<GENE id="G7" spans="2457~2484" text="poly(ADP-ribose) polymerase" location="result" />
+<GENE id="G8" spans="2486~2490" text="PARP" location="result" />
+<GENE id="G9" spans="2528~2534" text="BCL-XL" location="result" />
+<GENE id="G10" spans="2703~2708" text="GAPDH" location="result" />
+<GENE id="G11" spans="2633~2638" text="STAT5" location="result" />
+<GENE id="G12" spans="2609~2613" text="CD90" location="result" />
+<GENE id="G13" spans="2571~2576" text="CD133" location="result" />
+<GENE id="G14" spans="2675~2682" text="β-actin" location="result" />
+<GENE id="G15" spans="2777~2782" text="STAT5" location="result" />
+<GENE id="G16" spans="2950~2957" text="GRAMD1A" location="result" />
+<GENE id="G17" spans="2993~3000" text="GRAMD1A" location="result" />
+<GENE id="G18" spans="3937~3944" text="GRAMD1A" location="result" />
+<GENE id="G19" spans="6504~6511" text="GRAMD1A" location="result" />
+<GENE id="G20" spans="6868~6875" text="GRAMD1A" location="result" />
+<GENE id="G21" spans="7092~7099" text="GRAMD1A" location="result" />
+<GENE id="G22" spans="7212~7219" text="GRAMD1A" location="result" />
+<DISEASE id="D0" spans="582~585" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="772~775" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="6916~6922" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="7111~7114" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

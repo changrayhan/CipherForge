@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Arrhythmogenic right ventricular dysplasia (ARVD) is caused by mutations in genes coding for components of desmosomes in the myocardium. We describe a case of ARVD in a 36-year-old woman who presented with an unusual sensation in her chest due to non-sustaining ventricular tachycardia (VT), which her smartwatch failed to pick up. Wearables can passively measure pulse rate from the wrist using photoplethysmography (PPG). Longitudinal pulse data could be analyzed to assess pulse irregularity and variability to identify potential irregular heart rhythms. However, the utilization of wearables or arrhythmia detection algorithms may not be without risks. Patients using smartwatches for ambulatory heart monitoring should know that the absence of an irregular pulse notification does not exclude possible arrhythmias.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1~43" text="Arrhythmogenic right ventricular dysplasia" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D1" spans="45~49" text="ARVD" location="background" disease1="disease of anatomical entity" disease2="genetic disease" />
+<DISEASE id="D2" spans="160~164" text="ARVD" location="result" disease1="disease of anatomical entity" disease2="genetic disease" />
+</TAGS>
+</Genomics_ConceptTask>

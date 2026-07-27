@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Mice
+C57BL6 and DBA/1 mice (6–8 weeks of age) were procured from Jackson Laboratories (Bar Harbor, ME, USA). All animals were maintained at the animal care facility of the Eugene Applebaum College of Pharmacy and Health Sciences. Experiments were conducted in accordance to the guidelines of the Institutional Animal Care and Use Committee (IACUC), Wayne State University.
+ACAID induction  via  the AC injection of type II collagen
+We used the Hamilton automatic dispensing apparatus (Hamilton, Whittier, CA, USA) to induce ACAID in C57BL6 and DBA/1 mice as described in our previous publications [ 7 , 19 ]. Isoflurane anaesthesia (2–3% isoflurane with oxygen supply) is used to anaesthetize C57BL6 and DBA/1 mice. The AC of the eye is injected with about 50–100 μg of CII in 10 mM acetic acid (in 5 μl; Sigma-Aldrich, St. Louis, MO, USA). Controls are the mice injected with 10 mM acetic acid alone  via  AC injection. This was followed by a subcutaneous immunization of 250 μg of CII (Sigma-Aldrich) on day 7. The CII was emulsified 1:1 in complete Freund's adjuvant (CFA; Sigma-Aldrich). Of the CII/CFA emulsion, 200 μl was injected to each animal. Either a DTH assay or a LAT assay was performed on day 14 after the AC injection of CII as explained below.
+Generation of ACAID APCs
+As described previously, ACAID APCs were generated  in vitro  [ 7 , 19 ]. ACAID APCs from C57BL6 and DBA/1 mice were generated as described before [ 20 ]. Briefly, at concentrations of TGF-β2 that are similar to those present in the aqueous humor of the eye, APCs (2 × 10 6  cells/ml) were cultured overnight in complete RPMI 1640 with 10 mg/ml CII and 2–5 ng/ml TGF-β2 (R&D Systems).
+  generation of ACAID Tregs
+An  in vitro  spleen cell culture system that we previously used to generate Tregs that express the same properties and surface markers as Tregs produced  in vivo  has been used [ 7 , 19 ]. Functional Tregs can directly inhibit DTH responses [ 21 ]. To a 100 mm Petri dish containing 5 × 10 7  spleen cells harvested from normal C57BL6 and DBA/1 mice, CII-specific ACAID APCs (5 × 10 6 ) were added and incubated for 5–7 days at 37°C before testing for the presence of Tregs.
+Immunization by subcutaneous injection
+Subcutaneous injection of 250 μg of CII (Sigma-Aldrich) emulsified 1:1 in complete Freund's adjuvant (CFA; Sigma-Aldrich) was used to perform mice immunization. Each mouse received 200 μl of the CII/CFA emulsion.
+DTH assay
+Delayed-type hypersensitivity responses are inhibited in association with ACAID induction [ 22 – 26 ]. DTH assays were performed in a similar manner as previously described [ 17 ]. Briefly, left ear pinnae were injected intradermally with ∼500 μg of CII in 20 μl. Right ear pinnae were injected with 20 μl of 10 mM acetic acid (internal control). Seven days after the subcutaneous immunization with CII/CFA, DTH assays were performed. The engineer's micrometer (Mitutoyo, Japan) was used to perform ear swelling measurements before and 24 h after CII injection. The results were measured as: specific ear swelling = (24 h measurement − 0 hr measurement) for left ear − (24 h measurement − 0 hr measurement) for right ear. Results after 48 h were calculated in a similar manner: specific ear swelling = (48 h measurement − 0 hr measurement) for left ear − (48 h measurement − 0 hr measurement) for right ear.
+LAT assay
+Details of the LAT assay have been previously described [ 7 , 17 , 19 ]. Putative Tregs (1 × 10 6  cells in 10 μl) with spleen cells (1 × 10 6  cells in 10 μl) collected from subcutaneously immunized donors and 500 μg CII were injected to the left ear pinnae of naïve mice. After 24 and 48 h, inhibition of ear swelling responses induced by immune spleen cells was tested to confirm the presence of Tregs. The presence of Tregs will reduce ear swelling responses that are generated when antigen is added to immune spleen cells. For both the LAT and DTH assays, we used five mice per group.
+Statistics
+Statistical significance was determined using Student's  t -test. Data were expressed as mean ± SD.  P  values <0.05 were considered significant.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

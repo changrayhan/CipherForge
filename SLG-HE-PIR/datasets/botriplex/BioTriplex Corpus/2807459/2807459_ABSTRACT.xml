@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Deregulation of the CEACAM expression pattern causes undifferentiated cell growth in human lung adenocarcinoma cells.
+Abstract: CEACAM1, CEA/CEACAM5, and CEACAM6 are cell adhesion molecules (CAMs) of the carcinoembryonic antigen (CEA) family that have been shown to be deregulated in lung cancer and in up to 50% of all human cancers. However, little is known about the functional impact of these molecules on undifferentiated cell growth and tumor progression. Here we demonstrate that cell surface expression of CEACAM1 on confluent A549 human lung adenocarcinoma cells plays a critical role in differentiated, contact-inhibited cell growth. Interestingly, CEACAM1-L, but not CEACAM1-S, negatively regulates proliferation via its ITIM domain, while in proliferating cells no CEACAM expression is detectable. Furthermore, we show for the first time that CEACAM6 acts as an inducer of cellular proliferation in A549 cells, likely by interfering with the contact-inhibiting signal triggered by CEACAM1-4L, leading to undifferentiated anchorage-independent cell growth. We also found that A549 cells expressed significant amounts of non-membrane anchored variants of CEACAM5 and CEACAM6, representing a putative source for the increased CEACAM5/6 serum levels frequently found in lung cancer patients. Taken together, our data suggest that post-confluent contact inhibition is established and maintained by CEACAM1-4L, but disturbances of CEACAM1 signalling by CEACAM1-4S and other CEACAMs lead to undifferentiated cell growth and malignant transformation.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="136~143" text="CEACAM1" location="result" />
+<GENE id="G1" spans="145~148" text="CEA" location="background" />
+<GENE id="G2" spans="149~156" text="CEACAM5" location="background" />
+<GENE id="G3" spans="162~169" text="CEACAM6" location="background" />
+<GENE id="G4" spans="522~529" text="CEACAM1" location="background" />
+<GENE id="G5" spans="667~674" text="CEACAM1" location="result" />
+<GENE id="G6" spans="686~693" text="CEACAM1" location="result" />
+<GENE id="G7" spans="863~870" text="CEACAM6" location="result" />
+<GENE id="G8" spans="1001~1008" text="CEACAM1" location="result" />
+<GENE id="G9" spans="1173~1180" text="CEACAM5" location="result" />
+<GENE id="G10" spans="1185~1192" text="CEACAM6" location="result" />
+<GENE id="G11" spans="1243~1250" text="CEACAM5" location="result" />
+<GENE id="G12" spans="1413~1420" text="CEACAM1" location="result" />
+<GENE id="G13" spans="1445~1452" text="CEACAM1" location="result" />
+<GENE id="G14" spans="1467~1474" text="CEACAM1" location="result" />
+<DISEASE id="D0" spans="99~118" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="292~303" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="334~340" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="554~573" text="lung adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1286~1297" text="lung cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="277~288" text="deregulated" location="background" relation="dysregulation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="CEACAM1" diseaseID="D2" diseaseText="lung cancer" relationID="R0" relationText="deregulated" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="CEA" diseaseID="D2" diseaseText="lung cancer" relationID="R0" relationText="deregulated" />
+<ENTITY_LINKING id="E2" geneID="G2" geneText="CEACAM5" diseaseID="D2" diseaseText="lung cancer" relationID="R0" relationText="deregulated" />
+<ENTITY_LINKING id="E3" geneID="G3" geneText="CEACAM6" diseaseID="D2" diseaseText="lung cancer" relationID="R0" relationText="deregulated" />
+</TAGS>
+</Genomics_ConceptTask>

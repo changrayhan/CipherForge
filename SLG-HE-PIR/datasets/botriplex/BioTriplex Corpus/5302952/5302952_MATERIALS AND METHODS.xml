@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cell culture and reagents
+The human prostate cancer cell lines LNCaP, PC3, and DU145, were obtained from the American Type Culture Collection and were cultured in RPMI supplemented with 10% fetal bovine serum (FBS) and 1% antibiotics-antimycotics in a humidified 5% CO 2  atmosphere at 37 °C. Cells were treated with delphinidin (Sigma-Aldrich, St. Louis, MD, USA). RPMI, antibiotics-antimycotics, FBS, and the Lipofectamine 2000 transfection reagent were purchased from Thermo-Fischer Scientific (Waltham, MA, USA).
+Cell viability assay
+Cell viability was determined using the conventional MTT reduction assay. Briefly, 5 × 10 3  – 1 × 10 4  cells were seeded per well in 96-well plates. After a 12-hour incubation, cells were incubated with or without delphinidin (50, 100, or 150 mM) for another 24 h. Afterwards, cells were treated with 15 mL of MTT solution (2 mg/mL) for 90 min at 37 °C. The absorbance was measured at 570 nm in a Model 550 micro plate reader (BIO-RAD Laboratories, Hercules, CA, USA), whereas a reference wavelength of 630 nm was used. All results of MTT assays are presented as the means (± standard deviation) of three independent experiments.
+RNAi experiments
+The siRNAs used in this study were purchased from Bioneer Corporation (Daejeon, Korea), and had the following sequences: HDAC1 siRNA, 5′-GAGUCAAAACAGAGGAUGA-3′; HDAC3 siRNA, 5′-GAGCUUCAAUAUCCCUCUA-3′. After a 12-hour incubation of LNCaP cells in RPMI not containing FBS or antibiotics, transfection was carried out using Lipofectamine 2000 with 100 pmol non-specific siRNA, HDAC1 siRNA, or HDAC3 siRNA, according to the manufacturer's instructions. After 4 h, the medium was changed and cells were incubated for another 2 days.
+TUNEL assay
+TUNEL assay was performed using the HT Titer TACS Assay Kit (Trevigen, Gaithersburg, MD, USA) according to the manufacturer's instructions. LNCaP cells were fixed with 3.7% buffered formaldehyde solution for 5 min and washed with PBS. Cells were then permeabilized in 100% methanol for 20 min, washed twice with PBS, digested with proteinase K for 15 min, quenched with 3% hydrogen peroxide, washed with distilled water, labeled and incubated with deoxynucleotidyl transferase at 37 °C for 90 min, and then treated with stop buffer. Afterwards, cells were incubated in the presence of TACS-Sapphire substrate for 30 min. The colorimetric reaction was stopped with 0.2 N HCl and measured in a multiplex microplate reader at 450 nm absorbance.
+Caspase activity assay
+Delphinidin-induced caspase activation was evaluated using Caspase-Glo −3/-7 and total caspase kits (Promega, Madison, WI, USA) according to the manufacturer's instructions. Briefly, LNCaP, PC3, and DU145 cells (4,000 cells per well in 100 μL media) were plated in 96-well, white-walled, clear-bottom plates (Lonza, Basel, Switzerland). The cells were then treated with delphinidin. After 24 h, 100 μL of assay reagent was added to each well. The plate was incubated in the dark for 60 min, and afterwards the luminescence was measured using a SpectraMAX 250 Optima plate reader (Molecular Devices, Sunnyvale, CA, USA).
+HDAC activity assays
+The histone deacetylase (HDAC) activity assay was carried out using a commercially available kit (Biovision, San Franscisco, CA, USA) according to the manufacturer's instructions. In order to perform activity assays for specific HDACs, HDAC1, HDAC2, HDAC3, and HDAC8 proteins were first immunoprecipitated using anti-HDAC1, anti-HDAC2, anti-HDAC3, and anti-HDAC8 from LNCaP nuclear extracts. Immunoprecipitated complexes were collected and washed with HDAC assay buffer (50 mM Tris pH 8.0, 10% glycerol, 0.1 mM EDTA).
+Western blot analysis
+After a 12-hour treatment with delphinidin, prostate cancer cells were washed with cold PBS, scraped off, and harvested. Cell extracts were prepared with lysis buffer (50 mM Tris-Cl pH 7.5, 150 mM sodium chloride, 1% NP40, 10 mM sodium fluoride, 10 mM sodium pyrophosphate, and protease inhibitors just before use) and incubated for 30 min on ice. The lysates were centrifuged at 20,000  × g  for 10 min at 4 °C. Cell lysate proteins were separated by SDS-PAGE using 8% and 12% gels, and then transferred to nitrocellulose membranes. The membranes were blocked by incubating them for 2 h in 5%  w/v  non-fat milk in PBST. Blocked membranes were incubated with the primary antibody for 2 h or overnight at 4 °C. After washing with 1X PBST, the membranes were incubated with the secondary HRP-conjugated antibody for 1 h. The membranes were then subjected to western blot analysis and were visualized in the developer apparatus. The antibody against HDAC3 (N-terminal detection antibody) was manufactured by ATgen (Seongnam, Korea). HDAC1, HDAC2, HDA3, HDAC8, caspase-3, caspase-7, caspase-8, caspase-9, p53, p21, BAX, and PARP-1 antibodies were purchased from Santa Cruz Biotechnology (Dallas, TX, USA). Acetylated-p53 (Lys373) antibody was purchased from Merck Millipore (Darmstadt, Germany). Flag and β-actin antibodies were purchased from Sigma-Aldrich. Secondary anti-mouse and anti-rabbit antibodies were purchased from Pierce (Rockford, IL, USA).
+RNA extraction and quantitative reverse transcription-PCR
+Total RNA was isolated with the RNA Easy-spin kit (Intron, Korea) according to the manufacturer's instructions, and reverse transcribed with random primers using the StrataScript reverse transcriptase kit (Stratagene, La Jolla, CA, USA) according to the manufacturer's protocol. All samples were normalized to  GAPDH  and expressed as fold changes. All reactions were done in triplicate. The relative expression levels and standard deviations were calculated using the comparative quantification method. The primers used were the following:  p53 , 5′- CCCAAGCAATGGATGATTTGA-3′ and 5′-GGCATTCTGGGAGCTTCATCT-3′;  p21 , 5′- GTGG AGAGCATTCCATCCCT-3′ and 5′- TGGATGCAGCT TCCTCTCTG-3′;  PUMA , 5′-ACTGTGAATCC TGTGCTCTGCC-3′ and 5′- CAAATGAATGCCA GTGGTCACAC-3′;  Bax , 5′- TCTACTTTGCCAGCAA ACTGGTGC-3′ and 5′- TGTCCAGCCCATGATGGTT CTGAT-3′;  Noxa , 5′- CCGTGTGTAGTTGGCATCTC-3′ and 5′-CCCACTCAGCGACAGAGC-3′.
+Reporter assays
+In order to determine the transcriptional activity of the promoters of  p21 ,  Bax , and  Noxa , LNCaP cells were transiently co-transfected with pSV40 and one of three reporter constructs (p21-Luc, Bax-Luc, or Noxa-Luc) The Renilla luciferase reporter plasmid was included as an internal control. Cells were harvested, total cell extracts were prepared, and dual luciferase activity was measured according to the manufacturer's instructions (Promega). All reporter activities were normalized to  Renilla  luciferase activity and are presented as the mean (± standard deviation) of three independent experiments.
+p53 protein crosslinking assay
+The stability of endogenous p53 was measured in LNCaP cells undergoing delphinidin-induced apoptosis. Cells were prepared with lysis buffer (50 mM Tris-Cl (pH 7.5), 150 mM sodium chloride, 1% NP40, 10 mM sodium fluoride, 10 mM sodium pyrophosphate, and protease inhibitors just before use) and were then incubated for 30 min on ice. For immunoprecipitation, after treatment with delphinidin for 24 h, LNCaP cells were washed and harvested with cold PBS. Cell lysates were prepared with lysis buffer (50 mM Tris-Cl (pH 7.5), 150 mM sodium chloride, 1% NP40, 10 mM sodium fluoride, 10 mM sodium pyrophosphate, and protease inhibitors) for 30 min on ice, and then centrifuged at 13,000 rpm for 10 min at 4 °C. The total cell lysate protein was incubated with anti-p53 (DO-1) (Santa Cruz Biotechnology) and 20 μL of protein A/G agarose for 2 h at 4°C. After washing three times with agarose bead washing buffer, glutaraldehyde (Sigma-Aldrich) was added to end up with three different conditions: no glutaraldehyde; glutaraldehyde at a final concentrations of 0.002%; and glutaraldehyde at a final concentration of 0.004%. After incubating for 20 min at 37 °C, the crosslinking reaction was terminated by adding 2X loading buffer. The samples were then heated at 100 °C for 5 min, separated by SDS-PAGE on 8% gels, and transferred to nitrocellulose membranes [ 30 ,  42 ]. The blocked membranes were incubated with anti-p53 antibody at 4 °C for 2 h. The membranes were then subjected to western blot analysis and visualized in the developer apparatus.
+Statistical analysis
+Statistical analysis was performed using Student's  t -test and the SPSS software (SPSS Inc., Chicago, IL, USA). A statistical threshold of  P  < 0.05 was considered statistically significant.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1309~1314" text="HDAC1" location="result" />
+<GENE id="G1" spans="1349~1354" text="HDAC3" location="result" />
+<GENE id="G2" spans="1562~1567" text="HDAC1" location="result" />
+<GENE id="G3" spans="1578~1583" text="HDAC3" location="result" />
+<GENE id="G4" spans="3370~3375" text="HDAC1" location="result" />
+<GENE id="G5" spans="3377~3382" text="HDAC2" location="result" />
+<GENE id="G6" spans="3384~3389" text="HDAC3" location="result" />
+<GENE id="G7" spans="3395~3400" text="HDAC8" location="result" />
+<GENE id="G8" spans="3451~3456" text="HDAC1" location="result" />
+<GENE id="G9" spans="3463~3468" text="HDAC2" location="result" />
+<GENE id="G10" spans="3475~3480" text="HDAC3" location="result" />
+<GENE id="G11" spans="3491~3496" text="HDAC8" location="result" />
+<GENE id="G12" spans="4622~4627" text="HDAC3" location="result" />
+<GENE id="G13" spans="4705~4710" text="HDAC1" location="result" />
+<GENE id="G14" spans="4712~4717" text="HDAC2" location="result" />
+<GENE id="G15" spans="4719~4723" text="HDA3" location="result" />
+<GENE id="G16" spans="4725~4730" text="HDAC8" location="result" />
+<GENE id="G17" spans="4732~4741" text="caspase-3" location="result" />
+<GENE id="G18" spans="4743~4752" text="caspase-7" location="result" />
+<GENE id="G19" spans="4754~4763" text="caspase-8" location="result" />
+<GENE id="G20" spans="4765~4774" text="caspase-9" location="result" />
+<GENE id="G21" spans="4776~4779" text="p53" location="result" />
+<GENE id="G22" spans="4781~4784" text="p21" location="result" />
+<GENE id="G23" spans="4786~4789" text="BAX" location="result" />
+<GENE id="G24" spans="4795~4801" text="PARP-1" location="result" />
+<GENE id="G25" spans="4888~4891" text="p53" location="result" />
+<GENE id="G26" spans="4976~4983" text="β-actin" location="result" />
+<GENE id="G27" spans="5495~5500" text="GAPDH" location="result" />
+<GENE id="G28" spans="5726~5729" text="p53" location="result" />
+<GENE id="G29" spans="5795~5798" text="p21" location="result" />
+<GENE id="G30" spans="5865~5869" text="PUMA" location="result" />
+<GENE id="G31" spans="5940~5943" text="Bax" location="result" />
+<GENE id="G32" spans="6018~6022" text="Noxa" location="result" />
+<GENE id="G33" spans="6171~6174" text="p21" location="result" />
+<GENE id="G34" spans="6178~6181" text="Bax" location="result" />
+<GENE id="G35" spans="6189~6193" text="Noxa" location="result" />
+<GENE id="G36" spans="6289~6292" text="p21" location="result" />
+<GENE id="G37" spans="6298~6301" text="Bax" location="result" />
+<GENE id="G38" spans="6310~6314" text="Noxa" location="result" />
+<GENE id="G39" spans="6712~6715" text="p53" location="result" />
+<GENE id="G40" spans="6771~6774" text="p53" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

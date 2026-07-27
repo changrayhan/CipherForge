@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+5.1.
+FAAH Enzymes
+Just as CB1 receptor activation is integral to the process of endocannabinoid system (ECS) signaling, so too are the levels of the endogenous ligands and the enzymes that terminate their action. The best known mechanism to end the endocannabinoid signaling is by enzymatic hydrolysis [ 222 ]. Here we will focus in the role of the FAAH enzyme that is mainly responsible for the degradation of AEA, controlling its levels to indirectly modulate the CB1 receptor activity that is crucial in regulating reward pathways ([ 223 ], reviewed in [ 18 ]). There is mounting evidence showing that mutations in FAAH gene may result in the dysregulation of endogenous cannabinoid signaling, thus producing alterations in the various biological processes with which they are involved [ 190 , 224 ]. Despite these advances, the FAAH role in addiction has yet to be explained in depth, although there are some studies and reviews that have clarified some aspects (see[ 187 ] for review). In this report, we explore more recent studies and provide updated information about the link between FAAH and addiction.
+FAAH is an endoplasmic reticulum localized enzyme that belongs to the family of serine hydrolases [ 222 , 225 ]. They degrade bioactive fatty acid amides like the sleep-inducing substance oleamide and the endogenous cannabinoids AEA and 2-AG [ 49 ] to terminate the signaling and thus the function of these molecules. This family of proteins has the amidase signature (AS) that contains a highly conserved 130 amino acid sequence known as the AS sequence. AS enzymes catalyze the hydrolysis of amide bonds (CO-NH2), although this family has evolved and diverged regarding substrate specificity and function [ 226 ].
+There are two human FAAH enzymes: FAAH-1 and FAAH-2. The FAAH-2 enzyme was identified by Wei and co-workers [ 225 ], and it is present in primates, marsupials and other vertebrates, not including mice or rats. The FAAH-2 gene resides on chromosome Xp11.21 and it is 202.4 Kb in length. The gene has three transcripts; two of them are processed transcripts that do not encode a bioactive protein product, with the other transcript containing eleven exons and ultimately translated into the FAAH-2 protein that is 532 amino acids in length. It has many regulatory elements, within them, we can find three microRNA (target prediction): hsa-miR-367; hsa-miR-25 and hsa-miR-363. FAAH-2 gene presents 36 variations producing alterations in essential intronic splice site, giving synonymous coding or modifying the sequence non-coding gene, untranslated regions or introns but it also has some variations affecting coding sequences resulting in amino acid changes with benign phenotype or non demonstrated deleterious sift ( www.ensemble.org/Ref:ENST00000374900 ).
+FAAH-1 gene was characterized in 1997 by Gaing and Cravatt [ 227 ]. The gene resides on mouse chromosome 4D1 [ 228 ] and on human chromosome 1p35-34 [ 49 ]. In humans, the gene is 19.5 Kb in length and has seven transcripts, two of which are protein coding. One encodes a peptide fragment 151 amino acids in length that is not well characterized. The other transcript includes fifteen exons [ 49 ] and it is translated into the FAAH-1 protein containing 579 amino acids. This gene presents many regulatory elements, within them there are five microRNA (target prediction): hsa-miR-574-5p; hsa-miR-604; hsa-miR-502-5p; hsa-miR-671-5p and hsa-miR-943. FAAH-1 gene has 231 variations resulting in gain of stop codon, frameshift, amino acid changes, silent mutations in coding regions and also some variations in non-coding sequences and untranslated regions ( www.ensemble.org/Ref:ENSG00000117480 ). We will focus on a specific single nucleotide polymorphism (SNP) involved in addiction.
+The two enzymes share 20% sequence identity and both are expressed in kidney, liver, lung and prostate. The FAAH-2 enzyme is the most abundant isoform in the heart and ovary, whereas the FAAH-1 enzyme is the most prevalent isoform in the brain, small intestine and testis [ 225 ]. There are also some differences in their activity because FAAH-2 hydrolyzes more efficiently the monounsaturated acyl chains (e.g., oleamide) but degrades AEA and PEA with rates only 30–40% those of FAAH-1 [ 187 ]. FAAH-1 preferentially hydrolyzes polyunsaturated substrates like AEA, oleamide, palmitic amide and myristic amide to their corresponding acids [ 187 ], and also degrades 2-AG to glycerol and arachidonic acid [ 49 ].
+5.2.
+FAAH-1 Polymorphism and Addiction
+The FAAH-1 enzyme has been studied in much more detail. As we said above, this isoform is the most prevalent in the brain, so it probably has a critical role in modulating reward pathways. There are many researchers trying to find a direct link between this gene and drug abuse. However drug addiction is a neurobehavioral disorder of complex origin and the genetic factors are only responsible of the 40–60% of the total risk [ 229 ]. Within these genetic factors we can find dopamine receptors [ 230 ], nicotinic acetylcholine receptors [ 231 ] or histamine receptor [ 232 ]. Related to FAAH-1 gene, most of the studies are focused on a single-nucleotide polymorphism (SNP) in the enzyme, a SNP represents a change in a single base pair in a specific position along the genome that may or may not be functionally relevant [ 49 ]. In the FAAH-1 enzyme, the SNP means a missense mutation in the amidase domain.
+The FAAH-1 SNP (dbSNP rs324420; previously rs57947754), is located in exon three (c.385C>A) and it is linked with addiction and obesity [ 224 , 233 - 235 ] showing, once more, a relation between these two disorders. It leads to an exchange of proline for threonine at protein position 129 (P129T), and produces a decrease in FAAH expression and net activity [ 236 ]. The allele A at rs324420 was found to be associated with street drug abuse and addictive traits [ 161 ] in Caucasians and African-Americans, but not in Japanese or other Asian populations [ 49 ].
+The loss of function produced by the SNP leads to higher endocannabinoids levels that could ameliorate craving and withdrawal symptoms [ 49 ] and there is burgeoning evidence showing enhanced anxiolytic and antidepressant effects mediated by AEA [ 45 ] that is the main endocannabinoid hydrolyzed by this enzyme. These effects have been tested in pharmacological and genetic FAAH inhibition studies showing that the reduced anxiety behavior is mediated by CB1 receptors [ 237 ] that are, as it is explained in Section 3.2, crucial in reward pathways control [ 18 , 188 ].
+5.3.
+Studies of FAAH in Addiction and Future Prospects
+The studies of FAAH enzyme as a possible treatment for withdrawal symptoms could be divided in pharmacological and genetic studies. Genetic studies are focused mainly in knock out animals and pharmacological studies are pointing to the use of FAAH inhibitors.  Table 3  summarizes the more recent pharmacological and genetic studies with FAAH enzyme that are going to be explained in this section.
+Mice lacking FAAH enzyme (FAAH-/-) are more responsive to exogenous cannabinoids [ 49 ], and they show 15-fold augmented brain levels of anandamide [ 238 ]. Due to the well known anxiolytic and antidepressant effects of the endogenous cannabinoid AEA [ 191 ], these animals experience less negative effects during abstinence. Some studies prove that FAAH-/- mice show higher alcohol consumption owing to decreased acute ethanol intoxication [ 239 ]. The A allele of human SNP produces similar effects to those found in FAAH-/- animals making people nearly five times more likely to drug abuse [ 49 , 190 , 240 ] because they also have less negative effects during abstinence. Furthermore C/C individuals display more severe withdrawal symptoms and experience more negative effects when they are abstinent than A/A and A/C individuals [ 240 ]. Moreover, some studies report that short-interference RNA (siRNA) are able to knockdown the expression of FAAH [ 241 ] thus widening the possibilities of genetic manipulation treatments. Another possibility in gene studies is the use of microRNA (miRNA). These are very small RNA molecules able to modulate the expression of many genes, within them, FAAH-1 and FAAH-2 genes have many miRNA as regulatory elements (see Section 5.1 for details). Some groups are now focused in the study of these molecules that control the expression of alcohol-relevant genes [ 242 ]. However, gene therapy is at its very first steps and many aspects have to be improved such as sustained gene expression, vector delivery or cell specificity.
+The studies with the FAAH inhibitors phenylmethylsulphonyl fluoride (PMSF) or cyclohexylcarbamic acid 3-carbamoyl biphenyl-3-yl ester (URB597) show suppression of cocaine-seeking behavior [ 191 ]. URB597 is able to produce higher alcohol consumption because the increased endocannabinoid signaling decreases acute alcohol intoxication [ 239 ] and it also enhances the expression of nicotine conditioned place preference [ 243 ] because they experience less negative effects when they are abstinent. Moreover, in favor of FAAH inhibition as possible treatment for drug addiction, there are some evidences to suggest that FAAH inhibitors  per se  do not have risk of abuse, do not trigger relapse to drug abuse, and are better tolerated than some CB1 receptor antagonist [ 192 ].
+Collectively, this leads to the idea of FAAH as a possible target for abstinence treatment by controlling its activity and also its expression. To modulate the activity, several classes of inhibitors have been examined, including reversible (e.g., trifluoromethyl ketones; α-ketoheterocycles) and irreversible (e.g., fluorophosphonates; carbamates; ureas) compounds [ 244 ]. As mentioned above, FAAH inhibitors have shown a safer profile than CB1 receptors antagonists like rimonabant, which has psychiatric side effects [ 192 ]. Among them, the best known is URB597 but the pharmacological profile of carbamate URB532, α-keto heterocycle OL-135, PSMF, and the most potent of them all, JP104 (which shares carbamate and α-keto heterocycle features) [ 225 ], should be evaluated in the framework of addiction.
+Another possibility is to control FAAH enzyme expression by modulating its promoter activation. There is some evidence in humans that the FAAH gene promoter is downregulated by estrogen and glucocorticoids by binding to estrogen and glucocorticoid receptors sites independently of the presence of ligands [ 245 ], and upregulated by leptin, progesterone [ 246 ] and the follicle-stimulating hormone [ 247 ]. Thus, the modulation of these hormones could represent another approach to indirectly modify the activity and expression of FAAH in the context of potential treatment for abstinent drug abusers. FAAH inhibition or downregulation should be useful not to avoid addiction but to ameliorate craving, seeking behavior and other withdrawal symptoms.
+Further studies are needed to provide more knowledge about the role of FAAH in addiction and also to develop safer inhibitors that exhibit fewer possible side effects, and to improve the delivery and efficacy of siRNA interventions. All of this should be accompanied by social programs to make drug addiction and withdrawal treatments more effective and long-lasting.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="6~10" text="FAAH" location="background" />
+<GENE id="G1" spans="27~30" text="CB1" location="background" />
+<GENE id="G2" spans="350~354" text="FAAH" location="background" />
+<GENE id="G3" spans="467~470" text="CB1" location="background" />
+<GENE id="G4" spans="619~623" text="FAAH" location="background" />
+<GENE id="G5" spans="833~837" text="FAAH" location="background" />
+<GENE id="G6" spans="1094~1098" text="FAAH" location="background" />
+<GENE id="G7" spans="1114~1118" text="FAAH" location="background" />
+<GENE id="G8" spans="1750~1754" text="FAAH" location="background" />
+<GENE id="G9" spans="1764~1770" text="FAAH-1" location="background" />
+<GENE id="G10" spans="1775~1781" text="FAAH-2" location="background" />
+<GENE id="G11" spans="1787~1793" text="FAAH-2" location="background" />
+<GENE id="G12" spans="1944~1950" text="FAAH-2" location="background" />
+<GENE id="G13" spans="2219~2225" text="FAAH-2" location="background" />
+<GENE id="G14" spans="2788~2794" text="FAAH-1" location="background" />
+<GENE id="G15" spans="3881~3887" text="FAAH-2" location="background" />
+<GENE id="G16" spans="3960~3966" text="FAAH-1" location="background" />
+<GENE id="G17" spans="4112~4118" text="FAAH-2" location="background" />
+<GENE id="G18" spans="4253~4259" text="FAAH-1" location="background" />
+<GENE id="G19" spans="4269~4275" text="FAAH-1" location="background" />
+<GENE id="G20" spans="4528~4534" text="FAAH-1" location="background" />
+<GENE id="G21" spans="5113~5119" text="FAAH-1" location="background" />
+<GENE id="G22" spans="5363~5369" text="FAAH-1" location="background" />
+<GENE id="G23" spans="5439~5445" text="FAAH-1" location="background" />
+<GENE id="G24" spans="5760~5764" text="FAAH" location="background" />
+<GENE id="G25" spans="6373~6377" text="FAAH" location="background" />
+<GENE id="G26" spans="6454~6457" text="CB1" location="background" />
+<GENE id="G27" spans="6586~6590" text="FAAH" location="background" />
+<GENE id="G28" spans="6640~6644" text="FAAH" location="background" />
+<GENE id="G29" spans="6963~6967" text="FAAH" location="background" />
+<GENE id="G30" spans="7036~7040" text="FAAH" location="background" />
+<GENE id="G31" spans="7049~7053" text="FAAH" location="background" />
+<GENE id="G32" spans="7373~7377" text="FAAH" location="background" />
+<GENE id="G33" spans="7542~7546" text="FAAH" location="background" />
+<GENE id="G34" spans="7972~7976" text="FAAH" location="background" />
+<GENE id="G35" spans="8216~8222" text="FAAH-1" location="background" />
+<GENE id="G36" spans="8227~8233" text="FAAH-2" location="background" />
+<GENE id="G37" spans="8612~8616" text="FAAH" location="background" />
+<GENE id="G38" spans="9211~9215" text="FAAH" location="background" />
+<GENE id="G39" spans="9336~9339" text="CB1" location="background" />
+<GENE id="G40" spans="9409~9413" text="FAAH" location="background" />
+<GENE id="G41" spans="9764~9768" text="FAAH" location="background" />
+<GENE id="G42" spans="9812~9815" text="CB1" location="background" />
+<GENE id="G43" spans="10212~10216" text="FAAH" location="background" />
+<GENE id="G44" spans="10316~10320" text="FAAH" location="background" />
+<GENE id="G45" spans="10710~10714" text="FAAH" location="background" />
+<GENE id="G46" spans="10781~10785" text="FAAH" location="background" />
+<GENE id="G47" spans="11001~11005" text="FAAH" location="background" />
+<DISEASE id="D0" spans="4811~4825" text="drug addiction" location="background" disease1="disease of mental health" disease2="-" />
+<DISEASE id="D1" spans="5563~5570" text="obesity" location="background" disease1="disease of metabolism" disease2="-" />
+<RELATION id="R0" spans="5537~5548" text="linked with" location="background" relation="relation undefined" />
+<ENTITY_LINKING id="E0" geneID="G23" geneText="FAAH-1" diseaseID="D1" diseaseText="obesity" relationID="R0" relationText="linked with" />
+</TAGS>
+</Genomics_ConceptTask>

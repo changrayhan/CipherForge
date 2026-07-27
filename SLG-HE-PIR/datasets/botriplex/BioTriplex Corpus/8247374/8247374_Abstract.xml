@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Exosomal IDH1 increases the resistance of colorectal cancer cells to 5-Fluorouracil.
+Abstract: Chemoresistance challenges the clinical treatment of colorectal cancer and requires an urgent solution. Isocitrate dehydrogenase 1 (IDH1) is a key enzyme involved in glucose metabolism that mediates the malignant transformation of tumors. However, the mechanisms by which IDH1 is involved in colorectal cancer cell proliferation and drug resistance induction remain unclear. In this study, we found that IDH1 was highly expressed in human colorectal cancer tissues and could be used to indicate a high-grade tumor.  In vitro  gene overexpression and knockdown were used to determine whether IDH1 promoted the proliferation of the colorectal cancer cell line HCT8 and resistance to 5-Fluorouracil (5FU). Further studies have shown that the 5FU-resistant cell line, HCT8FU, secreted exosomes that contained a high level of IDH1 protein. The exosomal IDH1 derived from 5FU-resistant cells enhanced the resistance of 5FU-sensitive cells. Metabolic assays revealed that exosomes derived from 5FU-resistant cells promoted a decrease in the level of IDH1-mediated NADPH, which is associated with the development of 5FU resistance in colorectal cancer cells. Therefore, exosomal IDH1 may be the transmitter and driver of chemoresistance in colorectal cancer and a potential chemotherapy target.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="17~21" text="IDH1" location="background" />
+<GENE id="G1" spans="207~233" text="Isocitrate dehydrogenase 1" location="background" />
+<GENE id="G2" spans="235~239" text="IDH1" location="background" />
+<GENE id="G3" spans="375~379" text="IDH1" location="background" />
+<GENE id="G4" spans="507~511" text="IDH1" location="result" />
+<GENE id="G5" spans="694~698" text="IDH1" location="result" />
+<GENE id="G6" spans="924~928" text="IDH1" location="result" />
+<GENE id="G7" spans="951~955" text="IDH1" location="result" />
+<GENE id="G8" spans="1146~1150" text="IDH1" location="result" />
+<GENE id="G9" spans="1274~1278" text="IDH1" location="result" />
+<DISEASE id="D0" spans="50~67" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="156~173" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="395~412" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="542~559" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="733~750" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1229~1246" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1335~1352" text="colorectal cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="1316~1331" text="chemoresistance" location="result" relation="therapy resistance" />
+<ENTITY_LINKING id="E0" geneID="G9" geneText="IDH1" diseaseID="D6" diseaseText="colorectal cancer" relationID="R0" relationText="chemoresistance" />
+</TAGS>
+</Genomics_ConceptTask>

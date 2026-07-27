@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Roles and Interplay of SARS-CoV-2 Serology With Clinical Stages of Disease in COVID-19.
+Abstract: Background
+Currently, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) serology is recommended only for seroprevalence. We think it could be useful in differentiating coronavirus disease 2019 (COVID-19) stages, which could in terms of helping improve our therapeutic interventions.
+Methods
+The medical records of adult patients admitted to the hospital with probable COVID-19 were extracted and analyzed. We excluded patients with no serology and no clear outcome at the end of data collection. Patient demographics, medical history, and biochemical and clinical data were retrieved.
+Results
+A total of 202 patients were included; 57% were males, the majority were Hispanic (45%), followed by African Americans (22%). Hypertension is the most common comorbidity, followed by diabetes mellitus and chronic kidney disease. We classified them into three groups based on their serology: subacute stage (47 patients) with both immunoglobulin M (IgM) and IgG negative; acute stage (116 patients) with IgM positive and late-stage (39 patients) with IgM negative and IgG positive. We found that elevated lactate dehydrogenase (LDH) and ferritin were present in the IgM+ and IgM-/IgG+ subgroups (p-value of 0.0061 and p-value 0.0013, respectively) while C-reactive protein (CRP) and D-dimer were more elevated in the IgM-/IgG- and IgM+ subgroups (P <0.0001 and p-value of 0.0452, respectively). The IgM+ group had the worst prognosis, with high mortality despite receiving remdesivir and dexamethasone.
+Conclusion
+Our findings suggest that the use of serology in patients hospitalized with COVID-19 could predict prognosis; this will need to be validated in a larger prospective study.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1363~1381" text="C-reactive protein" location="result" />
+<GENE id="G1" spans="1383~1386" text="CRP" location="result" />
+<DISEASE id="D0" spans="86~94" text="COVID-19" location="" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D1" spans="285~309" text="coronavirus disease 2019" location="" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D2" spans="311~319" text="COVID-19" location="" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="485~493" text="COVID-19" location="" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D4" spans="836~848" text="Hypertension" location="" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="893~910" text="diabetes mellitus" location="" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D6" spans="915~937" text="chronic kidney disease" location="" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1699~1707" text="COVID-19" location="" disease1="disease by infectious agent" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

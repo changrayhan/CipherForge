@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Aural cholesteatoma is a consequence of chronic middle ear inflammation. Cholesteatoma—previously called as pearl tumor due to its characteristic pocket-like appearance—itself is a keratinous cystic lesion localized in an ectopic position in the middle ear. Histologicaly the epithelial pocket of cholesteatoma is an epidermal cyst enclosed by multilayered keratinized epithelium. Since keratin produced by the keratinized epithelium accumulates inside the pocket which cannot be emptied, the size of the pocket is continuously growing. The locally invasive nature of cholesteatoma—its proliferation and growth—affects various parts of the middle ear to varying degrees, frequently leading to expansive ossicular chain destruction, hearing loss, otorrhea, dizziness, and intracranial complications. To date, cholesteatoma is a microsurgical challenge for the ear, nose and throat specialists. Recurrence is common even after successful surgical treatment, especially in childhood cases [ 1 – 2 ].
+Despite of the large number of studies the precise ethiopathogenesis of cholesteatoma is still not clarified, however, numerous theories about the formation of cholesteatoma had been presented in the literature. Based on these studies in terms of etiology cholesteatoma could be classified into two types: acquired and the congenital.
+The congenital type is a developmental disorder, during tissue migration in the temporal region separated keratinized squamous epithelial cells or islands became trapped into an abnormal mesodermic region behind the intact tympanic membrane during embryogenesis. Conventionally six basic theories are suggested about the pathogenesis of the acquired cholesteatoma and the formation of epithelial pockets [ 1 – 5 ].
+Since the origin of cholesteatoma is still disputed numerous molecular studies have been carried out to find molecular defects that might explain its etiopathogenesis. The presence of various growth factors, inflammatory regulatory mediators, HPV viruses, factors responsible for bone destruction, angiogenesis and differentiation had been detected in cholesteatoma, all these factors may play a role in the formation and aggressive behavior of cholesteatoma [ 6 – 9 ].
+Interestingly, a few recent publications suggested the possibility, that based on its invasive and destructive spread and frequent recurrence, cholesteatoma is a keratinous cyst behaving like a tumor. Results of the latest cytogenetic research might moderately support this idea since several research groups have found chromosomal abnormalities in cholesteatoma samples. Numerical abnormalities of Chr7, Chr8 and Chr17 were detected [ 10 – 12 ]. However, according to our knowledge only a single case of malignant transformation of cholesteatoma was reported in the literature [ 13 ].
+Beside the cytogenetic studies, newly developed high throughput molecular methods were also applied to recognize differently expressed genes and proteins in cholesteatoma samples. Using DNA microarray a gene expression pattern somewhat similar to tumor samples was recognized. Several tumor relevant genes, numerous differently expressed genes coding for interleukins, cytokeratins responsible for the induced inflammatory pathways seen in cholesteatoma, and protein degrading enzymes were detected [ 14 – 16 ]. The observed gene expression patterns might explain the aggressive behavior and local destruction caused by the development of cholesteatoma.
+Overexpression of proteins involved in inflammation, response to bacteria, and/or protein degradation and participating in cancer pathways were found in a large scale proteomic study of cholesteatoma. The same study showed a keratin expression pattern suggesting lower grade of cell differentiation in cholesteatoma [ 17 ].
+The purpose of our study was to investigate the mRNA expression patterns of five selected genes—KRT1, KRT10, KRT19, MMP9, and TP53—which might have an influence on the pathogenesis of cholesteatoma, and to identify differences in the multiple gene expression profiles in cholesteatoma and control skin samples. Another aim was to validate some of the findings of the high throughput studies in a smaller group of patients.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3878~3882" text="KRT1" location="result" />
+<GENE id="G1" spans="3884~3889" text="KRT10" location="result" />
+<GENE id="G2" spans="3891~3896" text="KRT19" location="result" />
+<GENE id="G3" spans="3898~3902" text="MMP9" location="result" />
+<GENE id="G4" spans="3908~3912" text="TP53" location="result" />
+<DISEASE id="D0" spans="7~20" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="74~87" text="Cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="298~311" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="569~582" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="747~755" text="otorrhea" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="809~822" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1070~1083" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1158~1171" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="1254~1267" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1683~1696" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1768~1781" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2100~2113" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2193~2206" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2361~2374" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2567~2580" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="2751~2764" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="2961~2974" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="3244~3257" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="3443~3456" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="3581~3587" text="cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3644~3657" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="3760~3773" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D22" spans="3966~3979" text="cholesteatoma" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D23" spans="4053~4066" text="cholesteatoma" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

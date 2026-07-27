@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+3.1. Subjects
+The study included 50 healthy individuals and 78 lymphoma patients. Normal controls included thirty-six males and fourteen females. Healthy volunteers ranged in age from 24 to 81 years old. Seventy-eight lymphoma subjects ranged in age from 11 to 81 years, including 39 males and 39 females. The criteria for all subjects are listed in (Supplementary Table  1 ).
+After therapy and follow-up, there were 34 lymphoma patients with extranodal involvement and 44 without extranodal involvement. Patients with extranodal involvement had a mean age of 42.81 ± 7.6, ranging from 11 to 81, while those without extranodal involvement had a mean age of 42 ± 16.1, ranging from 18 to 75. Supplementary Table  2  reveals no significant differences regarding age, lymphoma types, and subtypes between patients without extranodal involvement ( N  = 34) and patients with extranodal involvement ( N  = 34). Lymphoma patients with and without extranodal involvement revealed statistical significance regarding sex ( P  = 0.039), stage ( P  < 0.001), recurrence ( P  < 0.001), and death ( P  = 0.018). Among lymphoma subjects with extranodal involvement, 73.5% had a recurrence, and 20.6% died. 26.5% of patients with extranodal involvement presented with stage III diseases, while 58.8% had stage IV diseases. Only 2.9% of patients with extranodal involvement had stage I, and 11.8% had stage II (Supplementary Table  2 ).
+The different extranodal involvement sites in lymphoma patients are shown in  Table 1 . Bone marrow involvement and lymph vessel infiltration were found in 33.3% and 21.8% of patients, respectively. 12.8% of patients presented with lung involvement, while approximately 10.3% had spleen infiltration. Furthermore, 9% of lymphoma patients showed liver involvement. Only 1.3% of patients had involvement of the intestine, thyroid, or central nervous system ( Table 1 ).
+3.2. High PD-L1/PD-1 Expression in Circulating CD36+ and CXCR3+ Lymphocytes in Newly Diagnosed Lymphoma Patients
+Flow cytometric analysis investigated CD36 and CXCR3 expression in peripheral lymphocytes in 78 newly diagnosed lymphoma patients and 50 healthy controls. Lymphocyte gating was shown in Supplementary Figures  1-4 . CD36 and CXCR3 positive lymphocytes were found in small percentages in healthy controls (median: 4.2% (range: 3.5–5.7) and median: 11.2% (range: 9.7–13.2)). High pretherapy CXCR3+% and CD36+% of cells were observed in lymphoma patients than in normal volunteers (median: 40% vs. 11.2%; 13% vs. 4.2%,  P  < 0.001) ( Table 2 ).
+The study then examined whether peripheral CD36 and CXCR3 positive lymphocytes expressed PD-L1 and PD-1. Compared to healthy controls, newly diagnosed lymphoma patients had higher PD-L1+CXCR3+% and PD-1+CXCR3+% (32% vs. 1.1%; 10% vs. 0.7%,  P  < 0.001). Interestingly, PD-L1+CD36+% and PD-1+CD36+% in newly diagnosed lymphoma subjects were significantly higher than in healthy volunteers (median: 8% vs. 1%; 5 vs. 0.2,  P  < 0.001) ( Table 2 ).
+3.3. Coexpression of PD-L1/PD-1 with CXCR3+/CD36 Defines Extranodal Involvement in Lymphoma
+Extranodal involvement of lymphoma indicates an inferior prognosis for lymphoma. PD-L1/PD-1 coexpression with CXCR3/CD36 in circulating lymphocytes was investigated in posttherapy lymphoma patients with extranodal involvement ( n  = 34) or without extranodal involvement ( n  = 44) ( Figure 1 ). Posttherapy 34 lymphoma patients with extranodal involvement were characterized by higher percentages of peripheral CXCR3 positive lymphocytes than those in posttherapy 44 patients without extranodal involvement (median: 78% vs. 26%,  P  < 0.001) ( Figure 1 ). When considering circulating CD36+ lymphocytes, CD36+% was lower in extranodal involvement compared with subjects without extranodal involvement (median: 27% vs. 55.5%,  P  < 0.001) ( Figure 1 ).
+Lymphoma subjects with extranodal involvement had higher PD-L1+CXCR3+% and PD-1+CXCR3+% compared with subjects without extranodal involvement (median 65% vs. 4%; 12.2% vs. 2%,  P  < 0.001, respectively) (Figures  1(a) – 1(d) ). Furthermore, PD-L1+CD36% and PD-1+CD36+% were significantly higher in subjects with extranodal involvement compared with patients without extranodal involvement (median 22 vs. 8,  P  = 0.004; 5.8% vs. 1%,  P  < 0.001) (Figures  1(e) – 1(h) ).
+A significant increase in posttherapy PD-L1/PD-1 coexpression with CXCR3/CD36 in circulating lymphocytes was detected in the extranodal involvement group compared with the pretherapy samples of the same group (Supplementary Table  3 ). However, lymphoma patients without extranodal involvement had a lower posttherapy PDL-1/PD-1 coexpression with CXCR3/CD36 than in the pretherapy samples of the same patients (Supplementary Table  4 ).
+3.4. IL-19 in Lymphoma Patients
+Newly diagnosed 78 lymphoma patients had significantly higher IL-19 levels than normal volunteers (median = 237 vs. 7.2 pg/mL,  P  < 0.001). Moreover, lymphoma patients had higher posttherapy IL-19 levels than the normal controls (median: 219 vs. 7,  P  < 0.001) ( Figure 2(a) ).
+Posttherapy IL-19 levels were detected in lymphoma patients with extranodal involvement, and the median level was 628 pg/mL (range: 439-817.3), which was significantly higher than that of subjects without extranodal invasion with a median of 46.5 pg/mL (range: 33-137.5) ( P  < 0.001) ( Figure 2(b) ). Interestingly, compared to patients without extranodal involvement, lymphoma patients with extranodal involvement had higher pretherapy IL-19 levels (median: 525 vs. 100,  P  < 0.001) ( Figure 2(b) ).
+3.5. Coexpression of PD-L1/PD-1 with CXCR3+/CD36 and IL-19 Defines Lymphoma Clinical Outcome
+Patients with CR had significantly lower pretherapy IL-19, CXCR3+%, and PD-L1+CXCR3+% compared to the PR, recurrence, and refractory groups ( P  < 0.05). Furthermore, compared to the PR, recurrence, and refractory groups, the CR group had a significant reduction in posttherapy IL-19, CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% ( P  < 0.05). Additionally, PD-L1+CD36+% and PD-1+CD36+% were significantly lower in subjects with CR compared to the other groups. Contrarily, comparing the CR group to the other groups, there was a substantial rise in posttherapy CD36+% ( P  < 0.001,  P  < 0.001, and  P  = 0.010) ( Table 3 ).
+The CR group showed a significant reduction in pretherapy PD-1+CXCR3+% and posttherapy PD-L1+CXCR3+% compared to the PR group and recurrence group ( P  < 0.001). However, no significant difference was observed when subjects with CR were compared to the treatment-refractory patients ( P  = 0.092 and  P  = 0.055). In addition, the CR patients' PD-L1+CD36+% and PD-1+CD36+ % were significantly lower than those in the PR group ( P  = 0.037 and  P  = 0.002). However, no significant difference was detected between the CR group and the recurrence group or the refractory group ( P  > 0.05) ( Table 3 ).
+Pretherapy IL-19 levels, CXCR3+%, and PD-L1+CXCR3+% in lymphoma patients with recurrence were statistically higher than in the PR patients ( P  < 0.001). Additionally, the recurrence group's posttherapy IL-19 levels, PD-L1+CXCR3+, and PD-1+CXCR3+% were significantly higher than those of PR patients ( P  = 0.018,  P  = 0.013, and  P  = 0.011) ( Table 3 ). Furthermore, pretherapy PD-1+CD36+% and posttherapy CD36+% in patients with recurrence were significantly lower than in PR patients ( P  = 0.022 and  P  = 0.002). However, no significant differences were observed when the treatment-refractory group compared to PR or recurrence groups ( P  > 0.05) ( Table 3 ).
+3.6. Correlation between PDL-1/PD-1 Coexpression with CXCR3/CD36, IL-19, and Laboratory and Clinical Criteria
+The results revealed a positive association between pretherapy CXCR3+%, PD-L1/PD-1+CXCR3%, and LDH ( r  = 0.344,  P  = 0.002;  r  = 0.375,  P  = 0.001;  r  = 0.315,  P  = 0.005, respectively). However, negative associations between CXCR3+%, PD-L1/PD-1+CXCR3%, and albumin levels were identified ( r  = −0.269;  P  = 0.017;  r  = −0.326,  P  = 0.004;  r  = −0.337,  P  = 0.003, respectively). Additionally, there was a negative association between PD-L1+CXCR3+% and hemoglobin ( r  = −0.254,  P  = 0.025) ( Table 4 ).
+CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% were positively correlated with hepatomegaly ( r  = 0.464,  P  < 0.001;  r  = 0.398,  P  < 0.001,  r  = 0.335,  P  = 0.003). Data revealed that CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% positively correlated with lymphoma stages ( r  = 0.498,  P  < 0.001;  r  = 0.437,  P  < 0.001,  r  = 0.333,  P  = 0.002) ( Table 4 ). Moreover, CXCR3+% and PD-L1+CXCR3+% associated positively with both splenomegaly ( r  = 0.348,  P  = 0.002;  r  = 0.268,  P  = 0.018) and general lymphadenopathy ( r  = 0.362,  P  = 0.001;  r  = 0.304,  P  = 0.007). Furthermore, CXCR3+% and PD-L1+CXCR3+% positively correlated with BCR-ABL ( r  = 0.262,  P  = 0.020;  r  = 0.271,  P  = 0.016). Additionally, CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% had a significant association with lymphoma recurrence ( r  = 0.645,  P  < 0.001;  r  = 0.676,  P  < 0.001;  r  = 0.310,  P  = 0.006) ( Table 4 ). CD36+%, PD-L1+CXCR3+%, and PD-1+CD36+% were associated with some of clinical parameters but without significance ( P  > 0.05) ( Table 4 ).
+Interestingly, pretherapy IL-19 was positively correlated with LDH levels ( r  = 0.349 and  P  = 0.002), hepatomegaly ( r  = 0.362 and  P  = 0.001), and splenomegaly ( r  = 0.231 and  P  = 0.042). Furthermore, pretherapy IL-19 levels were significantly associated with lymphedema, general lymphadenopathy, and recurrence ( r  = 0.426,  P  < 0.001;  r  = 0.239,  P  = 0.035;  r  = 0.641,  P  < 0.001) ( Table 4 ).
+3.7. Coexpression of PD-L1/PD-1 and CXCR3/CD36 and IL-19 Is Associated with Extranodal Involvement
+Posttherapy CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% were positively associated with extranodal involvement ( r  = 0.771,  P  < 0.001;  r  = 0.793,  P  < 0.001;  r  = 0.528,  P  < 0.001). CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% had a positive association with bone marrow involvement ( r  = 0.645,  P  < 0.001;  r  = 0.676,  P  < 0.001;  r  = 0.369,  P  < 0.001). Moreover, CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% were positively associated with lymph vessel involvement ( r  = 0.499,  P  < 0.001;  r  = 0.487,  P  < 0.001;  r  = 0.272,  P  = 0.016). Additionally, a significant association between CXCR3+%, PD-L1+CXCR3+%, PD-1+CXCR3+%, and lung involvement was identified ( r  = 0.277,  P  = 0.014;  r  = 0.286,  P  = 0.011;  r  = 0.235,  P  = 0.038) ( Table 5 ).
+Posttherapy PD-L1+CD36+% and PD-L1+CD36+% were positively correlated with extranodal involvement ( r  = 0.333,  P  = 0.003;  r  = 0.469,  P  < 0.001), while CD36+% had a negative association with extranodal involvement ( r  = −0.792 and  P  < 0.001). Of interest, PD-L1+CD36+% and PD-1+CD36+% were positively correlated with bone marrow infiltration ( r  = 0.312,  P  = 0.005;  r  = 0.390,  P  < 0.001). PD-1+CD36+% was positively correlated with lung involvement ( r  = 0.234;  P  = 0.040). CD36% was negatively correlated with bone marrow and lymph vessel involvement ( r  = −0.633,  P  < 0.001;  r  = −0.386,  P  < 0.001). Furthermore, percentages of CD36+ lymphocytes were correlated with spleen infiltration ( r  = 0.327;  P  = 0.004) ( Table 5 ).
+IL-19 concentrations and extranodal involvement were positively correlated ( r  = 0.848;  P  < 0.001). IL-19 levels are positively associated with bone marrow and lymph vessel involvement ( r  = 0.637,  P  < 0.001;  r  = 0.437,  P  < 0.001). Similarly, a positive association between posttherapy IL-19 levels and lung involvement was identified ( r  = 0.278;  P  = 0.014) ( Table 5 ).
+3.8. Prognostic Value of PD-L1/PD-1 Coexpression with CXCR3/CD36 and IL-19
+The effect of the markers on EFS was assessed using Kaplan-Meier statistics ( Figure 3 ). Survival tree analysis identified that CXCR3+ and PD-L1+CXCR3+ staining percentages more than 50% were considered high, whereas those ≤50% were regarded as low staining. PD-1+CXCR3+ and PD-L1+CD36+ staining percentages more than 7% were considered high, whereas those ≤7% were regarded as low staining.
+There was a high reduction in EFS in lymphoma patients with high percentages of pre- and posttherapy CXCR3+ lymphocytes ( P  < 0.001) (Figures  3(a)  and  3(e) ). Moreover, pre- and posttherapy PD-L1+CXCR3+ lymphocytes were negatively associated with EFS ( P  < 0.001) (Figures  3(b)  and  3(f) ). Patients' EFS was significantly decreased when their initial PD-1+CXCR3+ lymphocyte percentages were high ( P  = 0.022) ( Figure 3(c) ). High pre-T IL-19 levels were associated with inferior EFS ( P  < 0.001) ( Figure 3(d) ). A prolonged EFS was predicted by low posttherapy PD-L1+CD36+% and PD-1+CD36+% ( P  < 0.001) (Figures  3(g)  and  3(h) ).
+The effect of the immune markers on overall survival and recurrence-free survival was determined using Kaplan-Meier statistics (data not shown). Patients with low pre- and posttherapy CXCR3+%, PD-L1+CXC3+%, and PD-1+CXCR3+% do better than those with a high percentage. Furthermore, low PD-L1+CD36+% and PD-L1+CD36+% predicted a more prolonged survival and recurrence-free time.
+3.9. Diagnostic Utility of PD-L1/PD-1 Coexpression with CXCR3/CD36 and IL-19 in Identifying Extranodal Involvement
+
+ Figure 4  shows the ROC analysis for predicting extranodal involvement in lymphoma. Pretherapy CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% could predict extranodal involvement with AUCs of 0.982, 0.981, and 0.764 (95% CI = 0.922 − 0.999; 0.921–0.999; 0.654-0.853;  P  < 0.001, respectively) (Figures  4(a) – 4(c) ). Pretherapy CXCR3+%, PD-L1+CXCR3+%, and PD-1+CXCR3+% cut-offs were >41, >33, and >11, respectively. Moreover, pretherapy CXCR3+%, PDL-1+CXCR3+%, and PD-1+CXC3+% sensitivities were 97.06%, 97.06%, and 61.67%, and the specificities were 97.73%, 97.73%, and 79.55%. Pretherapy CXCR3+% and PDL-1+CXCR3+ had the best sensitivity and specificity. Pretherapy IL-19 levels could predict extranodal involvement with an AUC of 0.909 (95% CI = 0.822 − 0.962,  P  < 0.001). The pretherapy IL-19 cut-off was >209 pg/mL, with specificity and sensitivity 75% and 91.18% ( Figure 4(d) ).
+Posttherapy CXCR3+%, PDL-1+CXCR3+%, and PD-1+CXC3+% could diagnose lymphoma patients with extranodal involvement. Posttherapy CXCR3+%, PDL-1+CXCR3+%, and PD-1+CXC3+% AUCs were 0.949, 0.961, and 0.805 ( P  < 0.001) at a cutoff >49, >40, and >3, respectively (Figures  5(a) – 5(c) ). Posttherapy PD-1+CXCR3+% had the best sensitivity of 100%, while PD-L1+CXCR3+% and CXCR3+% had the best specificity of 100%.
+Moreover, the AUC values of the posttherapy CD36+%, PDL-1+CD36+%, and PD-1+CD36+% for extranodal involvement diagnosis were 0.961, 0.694, and 0.769 (95% CI = 0.890 − 0.992; 0.579-0.793; 0.659-0.857, respectively). Posttherapy CD36+%, PDL-1+CD36+%, and PD-1+CD36+% had cutoff levels ≤37, > 11, and>3 ( P  < 0.001,  P  = 0.002, and  P  < 0.001). Posttherapy CD36+% had the best sensitivity of 100% and the best specificity of 95.45% (Figures  5(d) – 5(f) ).
+The posttherapy IL-19 AUC was 0.993 (95% CI = 0.941–1.000,  P  < 0.001), with a cutoff >280 pg/mL for diagnosis of extranodal involvement. IL-19 showed 100% sensitivity and 97.73% specificity ( Figure 5(g) ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1900~1905" text="PD-L1" location="result" />
+<GENE id="G1" spans="1906~1910" text="PD-1" location="result" />
+<GENE id="G2" spans="1937~1941" text="CD36" location="result" />
+<GENE id="G3" spans="1947~1952" text="CXCR3" location="result" />
+<GENE id="G4" spans="2041~2045" text="CD36" location="result" />
+<GENE id="G5" spans="2050~2055" text="CXCR3" location="result" />
+<GENE id="G6" spans="2218~2222" text="CD36" location="result" />
+<GENE id="G7" spans="2227~2232" text="CXCR3" location="result" />
+<GENE id="G8" spans="2391~2396" text="CXCR3" location="result" />
+<GENE id="G9" spans="2403~2407" text="CD36" location="result" />
+<GENE id="G10" spans="2587~2591" text="CD36" location="result" />
+<GENE id="G11" spans="2596~2601" text="CXCR3" location="result" />
+<GENE id="G12" spans="2633~2638" text="PD-L1" location="result" />
+<GENE id="G13" spans="2643~2647" text="PD-1" location="result" />
+<GENE id="G14" spans="2724~2729" text="PD-L1" location="result" />
+<GENE id="G15" spans="2742~2746" text="PD-1" location="result" />
+<GENE id="G16" spans="2730~2735" text="CXCR3" location="result" />
+<GENE id="G17" spans="2813~2818" text="PD-L1" location="result" />
+<GENE id="G18" spans="2819~2823" text="CD36" location="result" />
+<GENE id="G19" spans="2830~2834" text="PD-1" location="result" />
+<GENE id="G20" spans="2835~2839" text="CD36" location="result" />
+<GENE id="G21" spans="3010~3015" text="PD-L1" location="result" />
+<GENE id="G22" spans="3026~3031" text="CXCR3" location="result" />
+<GENE id="G23" spans="3033~3037" text="CD36" location="result" />
+<GENE id="G24" spans="3162~3167" text="PD-L1" location="result" />
+<GENE id="G25" spans="3168~3172" text="PD-1" location="result" />
+<GENE id="G26" spans="3191~3196" text="CXCR3" location="result" />
+<GENE id="G27" spans="3197~3201" text="CD36" location="result" />
+<GENE id="G28" spans="3493~3498" text="CXCR3" location="result" />
+<GENE id="G29" spans="3667~3671" text="CD36" location="result" />
+<GENE id="G30" spans="3686~3690" text="CD36" location="result" />
+<GENE id="G31" spans="3891~3896" text="PD-L1" location="result" />
+<GENE id="G32" spans="3897~3902" text="CXCR3" location="result" />
+<GENE id="G33" spans="3909~3913" text="PD-1" location="result" />
+<GENE id="G34" spans="3914~3919" text="CXCR3" location="result" />
+<GENE id="G35" spans="4075~4080" text="PD-L1" location="result" />
+<GENE id="G36" spans="4081~4085" text="CD36" location="result" />
+<GENE id="G37" spans="4091~4095" text="PD-1" location="result" />
+<GENE id="G38" spans="4096~4100" text="CD36" location="result" />
+<GENE id="G39" spans="4343~4348" text="PD-L1" location="result" />
+<GENE id="G40" spans="4349~4353" text="PD-1" location="result" />
+<GENE id="G41" spans="4372~4377" text="CXCR3" location="result" />
+<GENE id="G42" spans="4378~4382" text="CD36" location="result" />
+<GENE id="G43" spans="4550~4558" text="lymphoma" location="result" />
+<GENE id="G44" spans="4629~4633" text="PD-1" location="result" />
+<GENE id="G45" spans="4652~4657" text="CXCR3" location="result" />
+<GENE id="G46" spans="4658~4662" text="CD36" location="result" />
+<GENE id="G48" spans="4836~4841" text="IL-19" location="result" />
+<GENE id="G49" spans="4966~4971" text="IL-19" location="result" />
+<GENE id="G50" spans="5578~5583" text="PD-L1" location="result" />
+<GENE id="G51" spans="5584~5588" text="PD-1" location="result" />
+<GENE id="G52" spans="5594~5599" text="CXCR3" location="result" />
+<GENE id="G53" spans="5601~5605" text="CD36" location="result" />
+<GENE id="G54" spans="5610~5615" text="IL-19" location="result" />
+<GENE id="G55" spans="5702~5707" text="IL-19" location="result" />
+<GENE id="G56" spans="5709~5714" text="CXCR3" location="result" />
+<GENE id="G57" spans="5722~5727" text="PD-L1" location="result" />
+<GENE id="G58" spans="5728~5733" text="CXCR3" location="result" />
+<GENE id="G59" spans="5935~5940" text="CXCR3" location="result" />
+<GENE id="G60" spans="5928~5933" text="IL-19" location="result" />
+<GENE id="G61" spans="5944~5949" text="PD-L1" location="result" />
+<GENE id="G62" spans="5950~5955" text="CXCR3" location="result" />
+<GENE id="G63" spans="5963~5967" text="PD-1" location="result" />
+<GENE id="G64" spans="5968~5973" text="CXCR3" location="result" />
+<GENE id="G65" spans="6004~6009" text="PD-L1" location="result" />
+<GENE id="G66" spans="6010~6014" text="CD36" location="result" />
+<GENE id="G67" spans="6021~6025" text="PD-1" location="result" />
+<GENE id="G68" spans="6026~6030" text="CD36" location="result" />
+<GENE id="G69" spans="6208~6212" text="CD36" location="result" />
+<GENE id="G70" spans="6330~6334" text="PD-1" location="result" />
+<GENE id="G71" spans="6335~6340" text="CXCR3" location="result" />
+<GENE id="G72" spans="6359~6364" text="PD-L1" location="result" />
+<GENE id="G73" spans="6365~6370" text="CXCR3" location="result" />
+<GENE id="G74" spans="6616~6621" text="PD-L1" location="result" />
+<GENE id="G75" spans="6622~6626" text="CD36" location="result" />
+<GENE id="G76" spans="6633~6637" text="PD-1" location="result" />
+<GENE id="G77" spans="6638~6642" text="CD36" location="result" />
+<GENE id="G78" spans="6898~6903" text="CXCR3" location="result" />
+<GENE id="G79" spans="6911~6916" text="PD-L1" location="result" />
+<GENE id="G80" spans="6917~6922" text="CXCR3" location="result" />
+<GENE id="G81" spans="6928~6936" text="lymphoma" location="result" />
+<GENE id="G82" spans="7090~7095" text="PD-L1" location="result" />
+<GENE id="G83" spans="7096~7101" text="CXCR3" location="result" />
+<GENE id="G84" spans="7108~7112" text="PD-1" location="result" />
+<GENE id="G85" spans="7113~7118" text="CXCR3" location="result" />
+<GENE id="G86" spans="7254~7258" text="PD-1" location="result" />
+<GENE id="G87" spans="7259~7263" text="CD36" location="result" />
+<GENE id="G88" spans="7282~7286" text="CD36" location="result" />
+<GENE id="G89" spans="7566~7571" text="PDL-1" location="result" />
+<GENE id="G90" spans="7572~7576" text="PD-1" location="result" />
+<GENE id="G91" spans="7595~7600" text="CXCR3" location="result" />
+<GENE id="G92" spans="7601~7605" text="CD36" location="result" />
+<GENE id="G93" spans="7607~7612" text="IL-19" location="result" />
+<GENE id="G94" spans="7714~7719" text="CXCR3" location="result" />
+<GENE id="G95" spans="7723~7728" text="PD-L1" location="result" />
+<GENE id="G96" spans="7729~7733" text="PD-1" location="result" />
+<GENE id="G97" spans="7734~7739" text="CXCR3" location="result" />
+<GENE id="G98" spans="7883~7888" text="CXCR3" location="result" />
+<GENE id="G99" spans="7892~7897" text="PD-L1" location="result" />
+<GENE id="G100" spans="7898~7902" text="PD-1" location="result" />
+<GENE id="G101" spans="7903~7908" text="CXCR3" location="result" />
+<GENE id="G102" spans="8098~8103" text="PD-L1" location="result" />
+<GENE id="G103" spans="8104~8109" text="CXCR3" location="result" />
+<GENE id="G104" spans="8168~8173" text="CXCR3" location="result" />
+<GENE id="G105" spans="8177~8182" text="PD-L1" location="result" />
+<GENE id="G106" spans="8183~8188" text="CXCR3" location="result" />
+<GENE id="G107" spans="8196~8200" text="PD-1" location="result" />
+<GENE id="G108" spans="8201~8206" text="CXCR3" location="result" />
+<GENE id="G109" spans="8353~8358" text="CXCR3" location="result" />
+<GENE id="G110" spans="8362~8367" text="PD-L1" location="result" />
+<GENE id="G111" spans="8368~8373" text="CXCR3" location="result" />
+<GENE id="G112" spans="8381~8385" text="PD-1" location="result" />
+<GENE id="G113" spans="8386~8391" text="CXCR3" location="result" />
+<GENE id="G114" spans="8539~8544" text="CXCR3" location="result" />
+<GENE id="G115" spans="8551~8556" text="PD-L1" location="result" />
+<GENE id="G116" spans="8557~8562" text="CXCR3" location="result" />
+<GENE id="G117" spans="8758~8763" text="CXCR3" location="result" />
+<GENE id="G118" spans="8770~8775" text="PD-L1" location="result" />
+<GENE id="G119" spans="8776~8781" text="CXCR3" location="result" />
+<GENE id="G120" spans="8811~8814" text="BCR" location="result" />
+<GENE id="G121" spans="8887~8892" text="CXCR3" location="result" />
+<GENE id="G122" spans="8896~8901" text="PD-L1" location="result" />
+<GENE id="G123" spans="8902~8907" text="CXCR3" location="result" />
+<GENE id="G124" spans="8915~8919" text="PD-1" location="result" />
+<GENE id="G125" spans="8920~8925" text="CXCR3" location="result" />
+<GENE id="G126" spans="9075~9079" text="CD36" location="result" />
+<GENE id="G127" spans="9083~9088" text="PD-L1" location="result" />
+<GENE id="G128" spans="9089~9094" text="CXCR3" location="result" />
+<GENE id="G129" spans="9102~9106" text="PD-1" location="result" />
+<GENE id="G130" spans="9107~9111" text="CD36" location="result" />
+<GENE id="G131" spans="9240~9245" text="IL-19" location="result" />
+<GENE id="G132" spans="9435~9440" text="IL-19" location="result" />
+<GENE id="G133" spans="9648~9653" text="PD-L1" location="result" />
+<GENE id="G134" spans="9654~9658" text="PD-1" location="result" />
+<GENE id="G135" spans="9663~9668" text="CXCR3" location="result" />
+<GENE id="G136" spans="9669~9673" text="CD36" location="result" />
+<GENE id="G137" spans="9678~9683" text="IL-19" location="result" />
+<GENE id="G138" spans="9738~9743" text="CXCR3" location="result" />
+<GENE id="G139" spans="9747~9752" text="PD-L1" location="result" />
+<GENE id="G140" spans="9753~9758" text="CXCR3" location="result" />
+<GENE id="G141" spans="9766~9770" text="PD-1" location="result" />
+<GENE id="G142" spans="9771~9776" text="CXCR3" location="result" />
+<GENE id="G143" spans="9914~9919" text="CXCR3" location="result" />
+<GENE id="G144" spans="9923~9928" text="PD-L1" location="result" />
+<GENE id="G145" spans="9929~9934" text="CXCR3" location="result" />
+<GENE id="G146" spans="9942~9946" text="PD-1" location="result" />
+<GENE id="G147" spans="9947~9952" text="CXCR3" location="result" />
+<GENE id="G148" spans="10101~10106" text="CXCR3" location="result" />
+<GENE id="G149" spans="10110~10115" text="PD-L1" location="result" />
+<GENE id="G150" spans="10116~10121" text="CXCR3" location="result" />
+<GENE id="G151" spans="10129~10133" text="PD-1" location="result" />
+<GENE id="G152" spans="10134~10139" text="CXCR3" location="result" />
+<GENE id="G153" spans="10327~10332" text="CXCR3" location="result" />
+<GENE id="G154" spans="10336~10341" text="PD-L1" location="result" />
+<GENE id="G155" spans="10342~10347" text="CXCR3" location="result" />
+<GENE id="G156" spans="10351~10355" text="PD-1" location="result" />
+<GENE id="G157" spans="10356~10361" text="CXCR3" location="result" />
+<GENE id="G158" spans="10505~10510" text="PD-L1" location="result" />
+<GENE id="G159" spans="10511~10515" text="CD36" location="result" />
+<GENE id="G160" spans="10522~10527" text="PD-L1" location="result" />
+<GENE id="G161" spans="10528~10532" text="CD36" location="result" />
+<GENE id="G162" spans="10650~10654" text="CD36" location="result" />
+<GENE id="G163" spans="10757~10762" text="PD-L1" location="result" />
+<GENE id="G164" spans="10763~10767" text="CD36" location="result" />
+<GENE id="G165" spans="10774~10778" text="PD-1" location="result" />
+<GENE id="G166" spans="10779~10783" text="CD36" location="result" />
+<GENE id="G167" spans="10897~10901" text="PD-1" location="result" />
+<GENE id="G168" spans="10902~10906" text="CD36" location="result" />
+<GENE id="G169" spans="10985~10989" text="CD36" location="result" />
+<GENE id="G170" spans="11147~11151" text="CD36" location="result" />
+<GENE id="G171" spans="11246~11251" text="IL-19" location="result" />
+<GENE id="G172" spans="11349~11354" text="IL-19" location="result" />
+<GENE id="G173" spans="11542~11547" text="IL-19" location="result" />
+<GENE id="G174" spans="11656~11661" text="PD-L1" location="result" />
+<GENE id="G175" spans="11662~11666" text="PD-1" location="result" />
+<GENE id="G176" spans="11685~11690" text="CXCR3" location="result" />
+<GENE id="G177" spans="11691~11695" text="CD36" location="result" />
+<GENE id="G178" spans="11700~11705" text="IL-19" location="result" />
+<GENE id="G179" spans="11835~11840" text="CXCR3" location="result" />
+<GENE id="G180" spans="11846~11851" text="PD-L1" location="result" />
+<GENE id="G181" spans="11852~11857" text="CXCR3" location="result" />
+<GENE id="G182" spans="11966~11970" text="PD-1" location="result" />
+<GENE id="G183" spans="11971~11976" text="CXCR3" location="result" />
+<GENE id="G184" spans="11982~11987" text="PD-L1" location="result" />
+<GENE id="G185" spans="11988~11992" text="CD36" location="result" />
+<GENE id="G186" spans="12200~12205" text="CXCR3" location="result" />
+<GENE id="G187" spans="12293~12298" text="PD-L1" location="result" />
+<GENE id="G188" spans="12299~12304" text="CXCR3" location="result" />
+<GENE id="G189" spans="12545~12550" text="IL-19" location="result" />
+<GENE id="G190" spans="12672~12677" text="PD-L1" location="result" />
+<GENE id="G191" spans="12678~12682" text="CD36" location="result" />
+<GENE id="G192" spans="12458~12462" text="PD-1" location="result" />
+<GENE id="G193" spans="12463~12468" text="CXCR3" location="result" />
+<GENE id="G194" spans="12689~12693" text="PD-1" location="result" />
+<GENE id="G195" spans="12694~12698" text="CD36" location="result" />
+<GENE id="G196" spans="12928~12933" text="CXCR3" location="result" />
+<GENE id="G197" spans="12937~12942" text="PD-L1" location="result" />
+<GENE id="G198" spans="12955~12959" text="PD-1" location="result" />
+<GENE id="G199" spans="12960~12965" text="CXCR3" location="result" />
+<GENE id="G200" spans="13030~13035" text="PD-L1" location="result" />
+<GENE id="G201" spans="13036~13040" text="CD36" location="result" />
+<GENE id="G202" spans="13047~13052" text="PD-L1" location="result" />
+<GENE id="G203" spans="13053~13057" text="CD36" location="result" />
+<GENE id="G204" spans="13149~13154" text="PD-L1" location="result" />
+<GENE id="G205" spans="13155~13159" text="PD-1" location="result" />
+<GENE id="G206" spans="13178~13183" text="CXCR3" location="result" />
+<GENE id="G207" spans="13184~13188" text="CD36" location="result" />
+<GENE id="G208" spans="13193~13198" text="IL-19" location="result" />
+<GENE id="G209" spans="13334~13339" text="CXCR3" location="result" />
+<GENE id="G210" spans="13343~13348" text="PD-L1" location="result" />
+<GENE id="G211" spans="13349~13354" text="CXCR3" location="result" />
+<GENE id="G212" spans="13362~13366" text="PD-1" location="result" />
+<GENE id="G213" spans="13367~13372" text="CXCR3" location="result" />
+<GENE id="G214" spans="13563~13568" text="CXCR3" location="result" />
+<GENE id="G215" spans="13572~13577" text="PD-L1" location="result" />
+<GENE id="G216" spans="13578~13583" text="CXCR3" location="result" />
+<GENE id="G217" spans="13591~13595" text="PD-1" location="result" />
+<GENE id="G218" spans="13596~13601" text="CXCR3" location="result" />
+<GENE id="G219" spans="13672~13677" text="CXCR3" location="result" />
+<GENE id="G220" spans="13681~13686" text="PDL-1" location="result" />
+<GENE id="G221" spans="13687~13692" text="CXCR3" location="result" />
+<GENE id="G222" spans="13700~13704" text="PD-1" location="result" />
+<GENE id="G223" spans="13825~13830" text="CXCR3" location="result" />
+<GENE id="G224" spans="13837~13842" text="PDL-1" location="result" />
+<GENE id="G225" spans="13843~13848" text="CXCR3" location="result" />
+<GENE id="G226" spans="13903~13908" text="IL-19" location="result" />
+<GENE id="G227" spans="14028~14033" text="IL-19" location="result" />
+<GENE id="G228" spans="14135~14140" text="CXCR3" location="result" />
+<GENE id="G229" spans="14144~14149" text="PDL-1" location="result" />
+<GENE id="G230" spans="14150~14155" text="CXCR3" location="result" />
+<GENE id="G231" spans="14163~14167" text="PD-1" location="result" />
+<GENE id="G232" spans="14249~14254" text="CXCR3" location="result" />
+<GENE id="G233" spans="14258~14263" text="PDL-1" location="result" />
+<GENE id="G234" spans="14264~14269" text="CXCR3" location="result" />
+<GENE id="G235" spans="14277~14281" text="PD-1" location="result" />
+<GENE id="G236" spans="14282~14286" text="CXC3" location="result" />
+<GENE id="G237" spans="2747~2752" text="CXCR3" location="result" />
+<GENE id="G238" spans="14417~14421" text="PD-1" location="result" />
+<GENE id="G239" spans="14422~14427" text="CXCR3" location="result" />
+<GENE id="G240" spans="14470~14475" text="PD-L1" location="result" />
+<GENE id="G241" spans="14476~14481" text="CXCR3" location="result" />
+<GENE id="G242" spans="14488~14493" text="CXCR3" location="result" />
+<GENE id="G243" spans="14574~14578" text="CD36" location="result" />
+<GENE id="G244" spans="14582~14587" text="PDL-1" location="result" />
+<GENE id="G245" spans="14588~14592" text="CD36" location="result" />
+<GENE id="G246" spans="14600~14604" text="PD-1" location="result" />
+<GENE id="G247" spans="14605~14609" text="CD36" location="result" />
+<GENE id="G248" spans="14756~14760" text="CD36" location="result" />
+<GENE id="G249" spans="14764~14769" text="PDL-1" location="result" />
+<GENE id="G250" spans="14770~14774" text="CD36" location="result" />
+<GENE id="G251" spans="14782~14786" text="PD-1" location="result" />
+<GENE id="G252" spans="14787~14791" text="CD36" location="result" />
+<GENE id="G253" spans="14886~14890" text="CD36" location="result" />
+<GENE id="G254" spans="14168~14172" text="CXC3" location="result" />
+<DISEASE id="D0" spans="64~72" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="219~227" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="421~429" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="766~774" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="907~915" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1106~1114" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1468~1476" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1742~1750" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1985~1993" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2115~2123" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2436~2444" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2695~2703" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2861~2869" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="3072~3080" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="3107~3115" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3152~3160" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3261~3269" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3392~3400" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3834~3842" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="4756~4764" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="4793~4801" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="4925~4933" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="5096~5104" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="5424~5432" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="5624~5632" text="Lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="8421~8429" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="8963~8971" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="12136~12144" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="13313~13321" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="14190~14198" text="lymphoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R2" spans="14181~14189" text="diagnose" location="result" relation="diagnostic tool" />
+<RELATION id="R3" spans="4829~4835,4842~4848" text="higher ... levels" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G48" geneText="IL-19" diseaseID="D20" diseaseText="lymphoma" relationID="R3" relationText="higher ... levels" />
+<ENTITY_LINKING id="E1" geneID="G231" geneText="PD-1" diseaseID="D30" diseaseText="lymphoma" relationID="R2" relationText="diagnose" />
+<ENTITY_LINKING id="E2" geneID="G230" geneText="CXCR3" diseaseID="D30" diseaseText="lymphoma" relationID="R2" relationText="diagnose" />
+<ENTITY_LINKING id="E3" geneID="G254" geneText="CXC3" diseaseID="D30" diseaseText="lymphoma" relationID="R2" relationText="diagnose" />
+<ENTITY_LINKING id="E4" geneID="G229" geneText="PDL-1" diseaseID="D30" diseaseText="lymphoma" relationID="R2" relationText="diagnose" />
+<ENTITY_LINKING id="E5" geneID="G228" geneText="CXCR3" diseaseID="D30" diseaseText="lymphoma" relationID="R2" relationText="diagnose" />
+</TAGS>
+</Genomics_ConceptTask>

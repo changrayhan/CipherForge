@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Abdominal aortic aneurysm (AAA) is a complex disease that develops due to the interaction of environmental risk factors and genetic predisposition [ 1 , 2 , 3 , 4 ]. In addition to an individual’s DNA sequence, other mechanisms can control gene expression, and influence the resulting phenotype of health or disease. The process of controlling gene expression through these alternative methods is known as epigenetics and includes RNA associated silencing, histone modifications and DNA methylation [ 5 ]. DNA methylation, the most well studied epigenetic modification, is a process in which a methyl group is added to a region where a cytosine nucleotide is located next to a guanine nucleotide that is linked by a phosphate. A cluster of CpGs is called a CpG island (CpGI) [ 5 , 6 ]. CpGIs are methylated by a group of enzymes called DNA methyltransferases. Classically, insertion of methyl groups at CpGIs was thought to block the binding of transcription factors to promoters and therefore result in repressed gene expression. More recent investigations have demonstrated that DNA methylation in other regions of the genome, including the gene bodies, are likely to influence gene expression, thus necessitating a comprehensive analysis of all DNA methylation sites [ 7 , 8 , 9 ].
+Despite uncertainty in its precise role, there is accumulating evidence implicating DNA methylation in several common chronic human disease states such as cancer, diabetes, autoimmune disorders and atherosclerosis [ 10 , 11 , 12 , 13 , 14 ]. Cigarette smoking has proven to be a powerful environmental modifier of DNA methylation [ 15 ] and is a potential mechanism by which tobacco can affect gene expression. The role of smoking in the development of AAA is well known and a recent meta-analysis demonstrated that smoking is also associated with increased AAA growth and rupture risk [ 16 , 17 ]. Moreover, AAA in both man as well as animal models is characterized by an extensive involvement of the immune system with contributions from a variety of immune cell types [ 1 , 18 , 19 , 20 ]. Despite the potential relationship between cigarette smoking, AAA formation, inflammation and DNA methylation, no investigation has examined the role of DNA methylation in AAA. In this current study, we analyzed the genome-wide DNA methylation profile of patients with AAA using peripheral blood mononuclear cells (PBMC), which have been used for methylation studies in other inflammatory disorders such as inflammatory bowel disease, rheumatoid arthritis, systemic lupus erythematosis and Sjögren’s syndrome [ 21 , 22 , 23 , 24 , 25 ]. We hypothesize that alterations in DNA methylation are responsible for AAA development and progression.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1~26" text="Abdominal aortic aneurysm" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="28~31" text="AAA" location="background" disease1="disease of anatomical entity" disease2="" />
+<DISEASE id="D2" spans="1441~1447" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="1449~1457" text="diabetes" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="1484~1499" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1739~1742" text="AAA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1844~1847" text="AAA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1895~1898" text="AAA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="2141~2144" text="AAA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="2251~2254" text="AAA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="2348~2351" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2486~2512" text="inflammatory bowel disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2514~2534" text="rheumatoid arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2536~2564" text="systemic lupus erythematosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2687~2690" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

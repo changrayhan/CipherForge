@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+IBD is an autoimmune disease of the intestine and includes ulcerative colitis and Crohn’s disease ( 25 ). As an important causative factor of colorectal cancer, IBD has attracted global attention. However, due to the increasing incidence, long course, and delayed healing in IBD, its diagnosis, treatment, and prognosis have become a challenge. The main feature of IBD is the chronic inflammatory reaction in the intestine ( 26 ), which induces immune stimulation of the mucosa and makes the intestinal environment abnormal ( 27 ,  28 ). Therefore, the immune function of the intestinal barrier is crucial for the prevention and resolution of intestinal inflammatory diseases.
+MMPs are a group of proteolytic enzymes containing active zinc. MMPs can be divided into groups based on the structure of the catalytic region ( 29 ). They are classified according to substrate and fragment homology, such as collagenases, gelatinases, stromelysins, elastases, and membrane-type MMPs ( 30 ). Dysregulation of MMP expression can cause tissue damage and persistent inflammation. Some studies have demonstrated the antitumor effects of MMPs. Various MMPs are associated with the poor prognosis of tumors ( 31 ). Cancer cells can evade the immune system by using MMPs to ensure the survival of metastatic cells ( 32 ). In addition to the regulatory role of MMPs in cancer, MMPs are also involved in the inflammatory response of many inflammatory diseases, such as sepsis ( 33 ), atherosclerosis ( 34 ,  35 ), and arthritis ( 36 ).
+In this study, a mouse model of chronic IBD induced by DSS was constructed to evaluate the relationship between immune cells in IBD and MMPs. Histologically, chronic colitis is characterized by shortened colon length and loss of goblet cells and crypts. Additionally, some mice may have adenomatous polyps and tumor-like changes. During the 9 weeks of modeling, mice showed weight loss and mucus and blood in stool. Some mice showed adenomatous changes due to the proliferation and swelling of the perianal mucosa, and obvious redness, swelling, and irregular prolapse in the anus. The histological score was statistically different from that of the control group. Thus, the model of chronic IBD was validated.
+In this study, a clustering approach was used to identify the types of differentially expressed metalloproteinase-related genes. Toll-type receptors (TLRs) are an important source of IBD. TLR is a natural immune system receptor that contributes to the pathogenic mechanisms of IBD, including immune response, genetics, and microbiology ( 37 ). The TLR signal transduction pathway can induce various factors involved in defense, such as inflammatory factors, chemokines, and antigen presenting factors ( 38 ,  39 ). Inflammatory cytokines play a crucial role in multiple processes of IBD development, when TLR pathway is activated, immune cells will produce a large number of pro-inflammatory factors, such as IL-1β, IL-6.This was also verified in our experiment. According to the results of Western Blot, the expression of inflammatory cytokines in the DSS group was significantly higher than that in the other.
+On this basis, CD160, MMP-9, PTGDS, SLC26A8, and TLR5 were selected as indicators of tumor detection. A survey by Marônek et al. ( 40 ) showed that reduced MMP-9 in patients with IBD is a risk factor in patients with IBD and infection ( 41 ). Liu et al. studied MMP-9 in excreta using nanoparticles ( 42 ). A study reported that TLR5 plays a key role in the inflammatory response in the intestine through animal tests on TLR5 and that disruption of TLR5 signaling triggers the TNFR2 signaling pathway, which leads to an inflammatory response in the intestine ( 43 ). CD160 activates natural killer cells with specific domains, making it a novel therapeutic target in the fight against atherosclerosis, autoimmune diseases, and many cancers ( 44 ). In recent years, researchers have shown that CD160 is associated with the recovery of COVID-19 patients ( 45 ). PTGDS have been shown to be selectively expressed in cancers, including ovarian cancer ( 46 ) and melanoma ( 47 ) with overexpression, gastric cancer ( 48 ) and lung cancer ( 49 ) with low expression. This selective expression also indicates that PTGDS has a more complex mechanism and potential research value. A study has shown that SLC26A8 is a susceptibility gene for hereditary non-polyposis colorectal cancer ( 50 ), which also provides reference for our subsequent research on the development of IBD for colorectal cancer. In this study, high levels of MMP-9, PTGDS, SLC26A8, and CD160 and reduced levels of TLR5 protein in patients with IBD (identified using WB and immunofluorescence analysis) suggest that these are clinically significant in IBD.
+In the pathogenesis of many chronic diseases, both innate and adaptive immune functions are affected to some extent. A comparison of different cell types identified high levels of plasma cells, T-cell CD4 naive, T-cell CD4 memory, and eosinophils. Mitsialis et al. ( 51 ) reported that the abundance of HLA-DR+CD38+ T lymphocytes increased in colonic mucosal samples from patients with IBD, where T-regulatory cells were also present. Based on the relationship of the five antigens different cell types, we suggest that there are differences in the function of CD4 of neutrophils and T cells in the pathogenesis of IBD, which is related to the non-homogeneity of cells. However, all but CD8 were ineffective at elevated expression levels in IBD. Recent data show that CD8+ T lymphocytes (Tc1) and CD8+ (Tc17) play an important role in the development of IBD ( 52 ).
+In conclusion, the findings of this study show that MMPS-related genes, namely MMP-9, CD160, PTGDS, SLC26A8, and TLR5, regulate the occurrence and development of IBD. These findings provide insights into future research on the mechanism of IBD. In addition, bioinformatics and mouse model studies revealed that MMP-related genes can participate in the progression of IBD by regulating CD8 cells. However, the detailed mechanism of action of MMPs in IBD is unknown and requires further investigation.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="3159~3164" text="CD160" location="result" />
+<GENE id="G1" spans="3166~3171" text="MMP-9" location="result" />
+<GENE id="G2" spans="3173~3178" text="PTGDS" location="result" />
+<GENE id="G3" spans="3180~3187" text="SLC26A8" location="result" />
+<GENE id="G4" spans="3193~3197" text="TLR5" location="result" />
+<GENE id="G5" spans="3300~3305" text="MMP-9" location="background" />
+<GENE id="G6" spans="3323~3326" text="IBD" location="background" />
+<GENE id="G7" spans="3361~3364" text="IBD" location="background" />
+<GENE id="G8" spans="3406~3411" text="MMP-9" location="background" />
+<GENE id="G9" spans="3473~3477" text="TLR5" location="background" />
+<GENE id="G10" spans="3565~3569" text="TLR5" location="background" />
+<GENE id="G11" spans="3593~3597" text="TLR5" location="background" />
+<GENE id="G12" spans="3711~3716" text="CD160" location="background" />
+<GENE id="G13" spans="3937~3942" text="CD160" location="background" />
+<GENE id="G14" spans="4004~4009" text="PTGDS" location="background" />
+<GENE id="G15" spans="4251~4256" text="PTGDS" location="background" />
+<GENE id="G16" spans="4339~4346" text="SLC26A8" location="background" />
+<GENE id="G17" spans="4564~4569" text="MMP-9" location="result" />
+<GENE id="G18" spans="4571~4576" text="PTGDS" location="result" />
+<GENE id="G19" spans="4578~4585" text="SLC26A8" location="result" />
+<GENE id="G20" spans="4591~4596" text="CD160" location="result" />
+<GENE id="G21" spans="4619~4623" text="TLR5" location="result" />
+<GENE id="G22" spans="4962~4965" text="CD4" location="background" />
+<GENE id="G23" spans="4980~4983" text="CD4" location="background" />
+<GENE id="G24" spans="5071~5075" text="CD38" location="background" />
+<GENE id="G25" spans="5322~5325" text="CD4" location="background" />
+<GENE id="G26" spans="5448~5451" text="CD8" location="background" />
+<GENE id="G27" spans="5529~5532" text="CD8" location="background" />
+<GENE id="G28" spans="5558~5561" text="CD8" location="background" />
+<GENE id="G29" spans="5706~5711" text="MMP-9" location="result" />
+<GENE id="G30" spans="5713~5718" text="CD160" location="result" />
+<GENE id="G31" spans="5720~5725" text="PTGDS" location="result" />
+<GENE id="G32" spans="5727~5734" text="SLC26A8" location="result" />
+<GENE id="G33" spans="5740~5744" text="TLR5" location="result" />
+<DISEASE id="D0" spans="1~4" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="60~78" text="ulcerative colitis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="83~98" text="Crohn’s disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="143~160" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="162~165" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="276~279" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="366~369" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="1203~1209" text="Cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="1469~1484" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="1503~1512" text="arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="1687~1694" text="colitis" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="2213~2216" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="2415~2418" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="2509~2512" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="2815~2818" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="3829~3844" text="atherosclerosis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="3876~3882" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D17" spans="3846~3864" text="autoimmune disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="11~29" text="autoimmune disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D19" spans="1649~1652" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D20" spans="1561~1564" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D21" spans="3978~3986" text="COVID-19" location="background" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D22" spans="4057~4063" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D23" spans="4076~4090" text="ovarian cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="4102~4110" text="melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="4139~4153" text="gastric cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="4165~4176" text="lung cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="4401~4418" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="4507~4510" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D29" spans="4515~4532" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="4649~4652" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D31" spans="4756~4759" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D32" spans="5147~5150" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D33" spans="5376~5379" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D34" spans="5502~5505" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D35" spans="5615~5618" text="IBD" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D36" spans="5789~5792" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D37" spans="5867~5870" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D38" spans="5994~5997" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D40" spans="6076~6079" text="IBD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R1" spans="4123~4137" text="overexpression" location="background" relation="increased expression" />
+<RELATION id="R2" spans="4189~4203" text="low expression" location="background" relation="decreased expression" />
+<RELATION id="R3" spans="3789~3807" text="therapeutic target" location="background" relation="therapeutic target" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="CD160" diseaseID="D15" diseaseText="atherosclerosis" relationID="R3" relationText="therapeutic target" />
+<ENTITY_LINKING id="E1" geneID="G12" geneText="CD160" diseaseID="D17" diseaseText="autoimmune disease" relationID="R3" relationText="therapeutic target" />
+<ENTITY_LINKING id="E2" geneID="G12" geneText="CD160" diseaseID="D16" diseaseText="cancer" relationID="R3" relationText="therapeutic target" />
+<ENTITY_LINKING id="E3" geneID="G14" geneText="PTGDS" diseaseID="D23" diseaseText="ovarian cancer" relationID="R1" relationText="overexpression" />
+<ENTITY_LINKING id="E4" geneID="G14" geneText="PTGDS" diseaseID="D24" diseaseText="melanoma" relationID="R1" relationText="overexpression" />
+<ENTITY_LINKING id="E5" geneID="G14" geneText="PTGDS" diseaseID="D25" diseaseText="gastric cancer" relationID="R2" relationText="low expression" />
+<ENTITY_LINKING id="E6" geneID="G14" geneText="PTGDS" diseaseID="D26" diseaseText="lung cancer" relationID="R2" relationText="low expression" />
+</TAGS>
+</Genomics_ConceptTask>

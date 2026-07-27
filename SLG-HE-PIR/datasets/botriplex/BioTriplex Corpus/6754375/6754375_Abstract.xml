@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: LINC01232 exerts oncogenic activities in pancreatic adenocarcinoma via regulation of TM9SF2.
+Abstract: Pancreatic adenocarcinoma (PAAD), one of the most prevailing malignant tumors in digestive system, is identified as one of the main culprits of cancer-associated mortality. Despite long intergenic non-protein coding RNA 1232 (LINC01232) is found to be upregulated in TCGA PAAD tissues and associated with poor prognosis, the potential of LINC01232 in PAAD progression still needs more explorations. In this study, LINC01232 was chosen to be the research object in PAAD cellular processes. Functionally, loss-of function assays were carried out and the experimental results indicated that suppression of LINC01232 hindered the deterioration of PAAD by affecting cell proliferation and migration. Furthermore, relationship between LINC01232 and its nearby gene transmembrane 9 superfamily member 2 (TM9SF2) was investigated. The same expression pattern of TM9SF2 in TCGA PAAD samples was observed. It was found that upregulation of LINC01232 could be a crucial factor for the dysregulation of TM9SF2. Mechanistically, LINC01232 recruited EIF4A3 to boost TM9SF2 mRNA stability. Besides, our findings demonstrated that the transcriptional activation of LINC01232 and TM9SF2 was mediated by SP1. Therefore, we concluded that LINC01232 executed carcinogenic properties in PAAD progression via regulation of TM9SF2. In conclusion, this study was the first to unveil the role and molecular mechanism of LINC01232, suggesting LINC01232 as a promising molecular target for pancreatic cancer treatment.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="93~99" text="TM9SF2" location="result" />
+<GENE id="G1" spans="870~906" text="transmembrane 9 superfamily member 2" location="result" />
+<GENE id="G2" spans="908~914" text="TM9SF2" location="result" />
+<GENE id="G3" spans="965~971" text="TM9SF2" location="result" />
+<GENE id="G4" spans="1102~1108" text="TM9SF2" location="result" />
+<GENE id="G5" spans="1147~1153" text="EIF4A3" location="result" />
+<GENE id="G6" spans="1163~1169" text="TM9SF2" location="result" />
+<GENE id="G7" spans="1274~1280" text="TM9SF2" location="result" />
+<GENE id="G8" spans="1297~1300" text="SP1" location="result" />
+<GENE id="G9" spans="1412~1418" text="TM9SF2" location="result" />
+<DISEASE id="D0" spans="49~74" text="pancreatic adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="111~136" text="Pancreatic adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="138~142" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="255~261" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="383~387" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="462~466" text="PAAD" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="575~579" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="754~758" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="980~984" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1377~1381" text="PAAD" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1574~1591" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

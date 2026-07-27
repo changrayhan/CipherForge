@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+During the pandemic’s first year, the age-standardized mortality rates related to COPD increased by 16%, reverting the downward trend observed during 2008–2019. In contrast, the number of deaths from COPD as the underlying cause declined in 2020 due to COVID-19 acting as a competing cause. Only multiple causes of death data allowed us to measure to which extent the pandemic waves in 2020, in the absence of vaccination, affected COPD-related mortality. The results of the present study represent a necessary step for a more accurate estimate of the subsequent positive impact of COVID-19 vaccination on COPD patients. To this purpose, future analyses extended to 2021–2022 data are warranted. 
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="83~87" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="201~205" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="254~262" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D3" spans="433~437" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="583~591" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="-" />
+<DISEASE id="D5" spans="607~611" text="COPD" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,88 @@
+[compat] stubbed LlamaFlashAttention2 -> LlamaAttention
+[compat] stubbed LlamaSdpaAttention -> LlamaAttention
+[compat] stubbed LLAMA_INPUTS_DOCSTRING = ""
+[compat] re-exported _prepare_4d_causal_attention_mask
+[compat] re-exported _prepare_4d_attention_mask
+[compat] patched LlamaConfig.__setattr__ to coerce use_cache=None -> False
+[compat] patched LlamaForCausalLM.from_pretrained to force-enable gradient_checkpointing_enable + enable_input_require_grads
+[compat] stubbed accelerate.utils.is_ccl_available -> False
+/root/miniconda3/lib/python3.12/importlib/__init__.py:90: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  return _bootstrap._gcd_import(name[level:], package, level)
+[compat] stubbed 10 missing llama_recipes.datasets modules (import-time pacifier, never used at runtime)
+Warning: unknown parameter num_of_shots
+Warning: unknown parameter data_path
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 7040.71it/s]
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "recipes/quickstart/finetuning/finetuning.py", line 8, in <module>
+    fire.Fire(main)
+  File "/root/miniconda3/lib/python3.12/site-packages/fire/core.py", line 135, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/fire/core.py", line 468, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SLG-HE-PIR/baseline/llama-rec/src/llama_recipes/finetuning.py", line 254, in main
+    model = get_peft_model(model, peft_config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/mapping_func.py", line 122, in get_peft_model
+    return MODEL_TYPE_TO_PEFT_MODEL_MAPPING[peft_config.task_type](
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/peft_model.py", line 1955, in __init__
+    super().__init__(model, peft_config, adapter_name, **kwargs)
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/peft_model.py", line 129, in __init__
+    self.base_model = cls(model, {adapter_name: peft_config}, adapter_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/tuners/tuners_utils.py", line 315, in __init__
+    self.inject_adapter(self.model, adapter_name, low_cpu_mem_usage=low_cpu_mem_usage, state_dict=state_dict)
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/tuners/tuners_utils.py", line 913, in inject_adapter
+    self._create_and_replace(
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/tuners/lora/model.py", line 269, in _create_and_replace
+    new_module = self._create_new_module(lora_config, adapter_name, target, device_map=device_map, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/tuners/lora/model.py", line 392, in _create_new_module
+    from .bnb import dispatch_bnb_8bit
+  File "/root/miniconda3/lib/python3.12/site-packages/peft/tuners/lora/bnb.py", line 19, in <module>
+    import bitsandbytes as bnb
+  File "/root/miniconda3/lib/python3.12/site-packages/bitsandbytes/__init__.py", line 12, in <module>
+    from . import _ops, research, utils
+  File "/root/miniconda3/lib/python3.12/site-packages/bitsandbytes/_ops.py", line 25, in <module>
+    @register_fake("bitsandbytes::int8_mixed_scaled_mm")
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/library.py", line 1023, in register
+    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/library.py", line 193, in _register_fake
+    source = torch._library.utils.get_source(_stacklevel + 1)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/_library/utils.py", line 54, in get_source
+    frame = inspect.getframeinfo(sys._getframe(stacklevel))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/inspect.py", line 1707, in getframeinfo
+    lines, lnum = findsource(frame)
+                  ^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/inspect.py", line 1083, in findsource
+    module = getmodule(object, file)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/inspect.py", line 1006, in getmodule
+    f = getabsfile(module)
+        ^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/inspect.py", line 975, in getabsfile
+    _filename = getsourcefile(object) or getfile(object)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/inspect.py", line 951, in getsourcefile
+    if any(filename.endswith(s) for s in all_bytecode_suffixes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/inspect.py", line 951, in <genexpr>
+    if any(filename.endswith(s) for s in all_bytecode_suffixes):
+           ^^^^^^^^^^^^^^^^^
+AttributeError: type object '__file__' has no attribute 'endswith'
+--> Model /root/autodl-tmp/hf_cache/Llama-3-1-8B-I
+
+--> /root/autodl-tmp/hf_cache/Llama-3-1-8B-I has 8030.261248 Million params
+

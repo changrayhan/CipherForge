@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+By examining genome-wide DNA methylation in the peripheral blood mononuclear cells from AAA patients, we have identified locus-specific alterations at two genes,  CNN2  and  SERPINB9 , with biologic plausibility. These findings are novel and should prove valuable to researchers investigating the mechanisms of cardiovascular disease.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="164~168" text="CNN2" location="result" />
+<GENE id="G1" spans="175~183" text="SERPINB9" location="result" />
+<DISEASE id="D0" spans="89~92" text="AAA" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="312~334" text="cardiovascular disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R0" spans="122~148" text="locus-specific alterations" location="result" relation="associated mutation" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="CNN2" diseaseID="D0" diseaseText="AAA" relationID="R0" relationText="locus-specific alterations" />
+<ENTITY_LINKING id="E1" geneID="G1" geneText="SERPINB9" diseaseID="D0" diseaseText="AAA" relationID="R0" relationText="locus-specific alterations" />
+</TAGS>
+</Genomics_ConceptTask>

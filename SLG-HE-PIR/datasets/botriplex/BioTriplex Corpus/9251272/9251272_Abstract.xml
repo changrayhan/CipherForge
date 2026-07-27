@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Treatment of Intervertebral Disc Degeneration.
+Abstract: Intervertebral disc degeneration (IDD) causes a variety of signs and symptoms, such as low back pain (LBP), intervertebral disc herniation, and spinal stenosis, which contribute to high social and economic costs. IDD results from many factors, including genetic factors, aging, mechanical injury, malnutrition, and so on. The pathological changes of IDD are mainly composed of the senescence and apoptosis of nucleus pulposus cells (NPCs), the progressive degeneration of extracellular matrix (ECM), the fibrosis of annulus fibrosus (AF), and the inflammatory response. At present, IDD can be treated by conservative treatment and surgical treatment based on patients' symptoms. However, all of these can only release the pain but cannot reverse IDD and reconstruct the mechanical function of the spine. The latest research is moving towards the field of biotherapy. Mesenchymal stem cells (MSCs) are regard as the potential therapy of IDD because of their ability to self‐renew and differentiate into a variety of tissues. Moreover, the non‐coding RNAs (ncRNAs) are found to regulate many vital processes in IDD. There have been many successes in the in vitro and animal studies of using biotherapy to treat IDD, but how to transform the experimental data to real therapy which can apply to humans is still a challenge. This article mainly reviews the treatment strategies and research progress of IDD and indicates that there are many problems that need to be solved if the new biotherapy is to be applied to clinical treatment of IDD. This will provide reference and guidance for clinical treatment and research direction of IDD.
+The clinical treatment of IDD includes conservative therapy and surgical therapy. Currently, treatments based on MSCs and ncRNAs are regarded as potential targets. Some ncRNAs verified by clinical trials can be used in gene therapy, and drugs targeting those ncRNAs can also be designed to treat IDD. 
+
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="209~224" text="spinal stenosis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

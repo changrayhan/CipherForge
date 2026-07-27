@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: EGFR activation triggers cellular hypertrophy and lysosomal disease in NAGLU-depleted cardiomyoblasts, mimicking the hallmarks of mucopolysaccharidosis IIIB.
+Abstract: Mucopolysaccharidosis (MPS) IIIB is an inherited lysosomal storage disease caused by the deficiency of the enzyme α- N -acetylglucosaminidase (NAGLU) required for heparan sulfate (HS) degradation. The defective lysosomal clearance of undigested HS results in dysfunction of multiple tissues and organs. We recently demonstrated that the murine model of MPS IIIB develops cardiac disease, valvular abnormalities, and ultimately heart failure. To address the molecular mechanisms governing cardiac dysfunctions in MPS IIIB, we generated a model of the disease by silencing NAGLU gene expression in H9C2 rat cardiomyoblasts. NAGLU-depleted H9C2 exhibited accumulation of abnormal lysosomes and a hypertrophic phenotype. Furthermore, we found the specific activation of the epidermal growth factor receptor (EGFR), and increased phosphorylation levels of extracellular signal-regulated kinases (ERKs) in NAGLU-depleted H9C2. The inhibition of either EGFR or ERKs, using the selective inhibitors AG1478 and PD98059, resulted in the reduction of both lysosomal aberration and hypertrophy in NAGLU-depleted H9C2. We also found increased phosphorylation of c-Src and a reduction of the hypertrophic response in NAGLU-depleted H9C2 transfected with a dominant-negative c-Src. However, c-Src phosphorylation remained unaffected by AG1478 treatment, posing c-Src upstream EGFR activation. Finally, heparin-binding EGF-like growth factor (HB-EGF) protein was found overexpressed in our MPS IIIB cellular model, and its silencing reduced the hypertrophic response. These results indicate that both c-Src and HB-EGF contribute to the hypertrophic phenotype of NAGLU-depleted cardiomyoblasts by synergistically activating EGFR and subsequent signaling, thus suggesting that EGFR pathway inhibition could represent an effective therapeutic approach for MPS IIIB cardiac disease.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="EGFR" location="result" />
+<GENE id="G1" spans="79~84" text="NAGLU" location="result" />
+<GENE id="G2" spans="290~317" text="α- N -acetylglucosaminidase" location="background" />
+<GENE id="G3" spans="319~324" text="NAGLU" location="background" />
+<GENE id="G4" spans="747~752" text="NAGLU" location="result" />
+<GENE id="G5" spans="798~803" text="NAGLU" location="result" />
+<GENE id="G6" spans="946~978" text="epidermal growth factor receptor" location="result" />
+<GENE id="G7" spans="980~984" text="EGFR" location="result" />
+<GENE id="G8" spans="1076~1081" text="NAGLU" location="result" />
+<GENE id="G9" spans="1122~1126" text="EGFR" location="result" />
+<GENE id="G10" spans="1261~1266" text="NAGLU" location="result" />
+<GENE id="G11" spans="1325~1330" text="c-Src" location="result" />
+<GENE id="G12" spans="1379~1384" text="NAGLU" location="result" />
+<GENE id="G13" spans="1436~1441" text="c-Src" location="result" />
+<GENE id="G14" spans="1452~1457" text="c-Src" location="result" />
+<GENE id="G15" spans="1522~1527" text="c-Src" location="result" />
+<GENE id="G16" spans="1537~1541" text="EGFR" location="result" />
+<GENE id="G17" spans="1761~1766" text="c-Src" location="result" />
+<GENE id="G18" spans="1822~1827" text="NAGLU" location="result" />
+<GENE id="G19" spans="1883~1887" text="EGFR" location="result" />
+<GENE id="G20" spans="1935~1939" text="EGFR" location="result" />
+<GENE id="G21" spans="1563~1601" text="heparin-binding EGF-like growth factor" location="result" />
+<GENE id="G23" spans="1771~1777" text="HB-EGF" location="result" />
+<GENE id="G24" spans="1603~1609" text="HB-EGF" location="result" />
+<DISEASE id="D0" spans="58~75" text="lysosomal disease" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D1" spans="138~164" text="mucopolysaccharidosis IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D2" spans="176~208" text="Mucopolysaccharidosis (MPS) IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D3" spans="225~250" text="lysosomal storage disease" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D4" spans="529~537" text="MPS IIIB" location="background" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D5" spans="547~562" text="cardiac disease" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="688~696" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D8" spans="1650~1658" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D9" spans="2013~2021" text="MPS IIIB" location="result" disease1="disease of metabolism" disease2="genetic disease" />
+<DISEASE id="D10" spans="2022~2037" text="cardiac disease" location="result" disease1="disease of anatomical entity" disease2="-" />
+<RELATION id="R1" spans="13~32" text="activation triggers" location="result" relation="causative activation" />
+<RELATION id="R2" spans="251~275" text="caused by the deficiency" location="background" relation="causative inhibition" />
+<RELATION id="R0" spans="1629~1642" text="overexpressed" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="EGFR" diseaseID="D0" diseaseText="lysosomal disease" relationID="R1" relationText="activation triggers" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="α- N -acetylglucosaminidase" diseaseID="D2" diseaseText="Mucopolysaccharidosis (MPS) IIIB" relationID="R2" relationText="caused by the deficiency" />
+<ENTITY_LINKING id="E2" geneID="G3" geneText="NAGLU" diseaseID="D2" diseaseText="Mucopolysaccharidosis (MPS) IIIB" relationID="R2" relationText="caused by the deficiency" />
+<ENTITY_LINKING id="E3" geneID="G2" geneText="α- N -acetylglucosaminidase" diseaseID="D3" diseaseText="lysosomal storage disease" relationID="R2" relationText="caused by the deficiency" />
+<ENTITY_LINKING id="E4" geneID="G3" geneText="NAGLU" diseaseID="D3" diseaseText="lysosomal storage disease" relationID="R2" relationText="caused by the deficiency" />
+<ENTITY_LINKING id="E5" geneID="G21" geneText="heparin-binding EGF-like growth factor" diseaseID="D8" diseaseText="MPS IIIB" relationID="R0" relationText="overexpressed" />
+<ENTITY_LINKING id="E6" geneID="G24" geneText="HB-EGF" diseaseID="D8" diseaseText="MPS IIIB" relationID="R0" relationText="overexpressed" />
+</TAGS>
+</Genomics_ConceptTask>

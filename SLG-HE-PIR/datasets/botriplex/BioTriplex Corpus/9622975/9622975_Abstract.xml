@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Nano-drug delivery system for pancreatic cancer: A visualization and bibliometric analysis.
+Abstract: 
+ Background:  Nano drug delivery system (NDDS) can significantly improve the delivery and efficacy of drugs against pancreatic cancer (PC) in many ways. The purpose of this study is to explore the related research fields of NDDS for PC from the perspective of bibliometrics.
+
+ Methods:  Articles and reviews on NDDS for PC published between 2003 and 2022 were obtained from the Web of Science Core Collection. CiteSpace, VOSviewer, R-bibliometrix, and Microsoft Excel were comprehensively used for bibliometric and visual analysis.
+
+ Results:  A total of 1329 papers on NDDS for PC were included. The number of papers showed an upward trend over the past 20 years. The United States contributed the most papers, followed by China, and India. Also, the United States had the highest number of total citations and H-index. The institution with the most papers was Chinese Acad Sci, which was also the most important in international institutional cooperation. Professors Couvreur P and Kazuoka K made great achievements in this field.  JOURNAL OF CONTROLLED RELEASE  published the most papers and was cited the most. The topics related to the tumor microenvironment such as “tumor microenvironment”, “tumor penetration”, “hypoxia”, “exosome”, and “autophagy”, PC treatment-related topics such as “immunotherapy”, “combination therapy”, “alternating magnetic field/magnetic hyperthermia”, and “ultrasound”, and gene therapy dominated by “siRNA” and “miRNA” were the research hotspots in the field of NDDS for PC.
+
+ Conclusion:  This study systematically uncovered a holistic picture of the performance of NDDS for PC-related literature over the past 20 years. We provided scholars to understand key information in this field with the perspective of bibliometrics, which we believe may greatly facilitate future research in this field.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="38~55" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="227~244" text="pancreatic cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="246~248" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="690~692" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="431~433" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1369~1371" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1617~1619" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1722~1724" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="344~346" text="PC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

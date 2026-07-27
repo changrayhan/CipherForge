@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+OM with effusion is a common infectious disease caused by several factors such as viruses, bacteria, and Eustachian tube dysfunction. In OM, the inflammatory process in the ME caused by bacteria involves macrophages and several cytokines ( Barzilai et al., 1999 ). Endotoxins are known to trigger inflammation in the ME and stimulate macrophages to secrete TNF-α and IL-1 ( Willett et al., 1998 ). A previous study has reported that the expression of IL-6 and TNF-α plays an important role in the development of OM in an animal model with effusion ( Johnson et al., 1994 ). In particular, the treatment for OM consists of vaccination and antibiotics. The incorporation of pneumococcal conjugate vaccines has reduced the incidence of OM. However, some serotypes of pneumococci are not covered by the current vaccines, are increasing ( Kaur et al., 2017 ). Moreover, multidrug-resistant pneumococci may lead to recurrent AOM ( Gavrilovici et al., 2022 ). Consequently, finding an effective and safe therapeutic strategy for OM is an ongoing process.
+Recently, the efficiency of LED irradiation in increasing tissue blood perfusion, ameliorating post-inflammatory hyperpigmentation, reducing the wound diameter, and promoting the healing of inflammatory conditions such as arthritis has been reported ( Dall Agnol et al., 2009 ;  Li et al., 2010 ;  Wu and Persinger, 2011 ;  Kuboyama et al., 2014 ). Furthermore, LED irradiation was found to decrease the formation of inflammatory cells and the expression of inflammatory cytokines in a collagen-induced Achilles tendonitis rat model ( Xavier et al., 2010 ). The LED device used in this study has a structure that directly irradiates light to the inflamed site of the ME at wavelengths highly effective for inflammation. Phototherapy has been introduced for treating otologic diseases. A 632 nm diode laser effectively killed  S. pneumonia ,  H. influenzae , and  M. catarrhalis  in OM ( Jung et al., 2009 ). An 808 nm diode laser was used to prevent noise-induced hearing loss ( Lee et al., 2019 ). There are several advantages in using LEDs compared with lasers, such as safety, portability, ability to irradiate large tissue areas at the same time, incorporation of wearable technology, and a much lower cost per mW.
+PBM utilizes red and red/IR irradiation to stimulate healing, relieve pain, and reduce inflammation. Previously, LED irradiation has shown anti-inflammatory effects on collagen-induced arthritis in mice ( Kuboyama et al., 2014 ) and  P. gingivalis  LPS-treated human gingival fibroblasts ( Choi et al., 2012 ). In the present study, rats were administrated with LPS to induce OM, and the ability of red/NIR LED irradiation in reducing inflammation was examined. We confirmed that AOM was successfully established in the rats based on the presence of inflammation in the tympanic membrane and the thickened ME mucosa. Red/NIR LED irradiation significantly reduced the inflammatory response in the tympanic membrane and the ME mucosal thickness, demonstrating that red/NIR LED irradiation ameliorated LPS-induced AOM in the ME of the rats.
+Pro-inflammatory cytokines regulate the pathogenesis of OM by initiating an inflammatory response to infection and may cause the transformation from acute to chronic OM. Elevated concentrations of IL-1β, IL-6, and TNF-α in children may be correlated with OM; in particular, IL-6, a marker of a bacterial infection, can induce C-reactive protein (CRP) production and appears to play a vital role in inflammation in OM ( Yellon et al., 1995 ). LED irradiation has been found to be effective for the suppression of pro-inflammatory cytokines, suggesting that LED therapy could be an effective strategy in ameliorating diseases associated with inflammation ( Nomura et al., 2001 ;  Kuboyama et al., 2014 ). Therefore, restricting the secretion of pro-inflammatory cytokines may be an effective approach for the treatment of OM. In the present study, the expression levels of IL-1β, IL-6, and TNF-α were significantly increased in the LPS group, which was in agreement with histological findings; red/NIR LED irradiation significantly inhibited the secretion of these pro-inflammatory cytokines, demonstrating that red/NIR LED irradiation could treat OM by impeding pro-inflammatory cytokine release.
+Severe diseases can emerge due to an inadequate cytokine response, and cytokines are recognized as regulators in the immunopathology of an ever-increasing number of diseases including OM. Adequate cytokine production is essential for the development of protective immunity ( Choi et al., 2012 ). Therefore, regulation of cytokines is essential for all infectious diseases including OM.
+Excessive ROS production is associated with inflammation, aging, and human diseases ( Snezhkina et al., 2019 ). In several human diseases, OM is correlated with ROS levels, and the IL-17 pathway is known to be associated with ROS levels in OM with effusion ( Abdelhafeez and Mohamed, 2021 ). Specifically, ROS is associated with MAPK signaling, which is known as a master regulator of inflammation. JNK and p38 are activated by ROS, and ERK1/2 promotes ROS generation ( Genestra, 2007 ). In agreement with previous findings, we found that the MAPK signaling pathway was activated after LPS stimulation, resulting in the high expression levels of phosphorylated p38, ERK1/2, and JNK, which were reduced by red/NIR LED irradiation. Therefore, the study demonstrated that the amelioration of AOM by LED irradiation may be associated with MAPK suppression.
+The use of MAPK inhibitors has been regarded as an attractive treatment strategy because of their ability in reducing both the synthesis and signaling of pro-inflammatory cytokines. In particular, potent anti-inflammatory drugs inhibiting both p38 MAPK and JNK can suppress macrophage inflammatory cytokines, including IL-1β, IL-6, TNF-α, and macrophage inflammatory protein 1α and 1β ( Bianchi et al., 1996 ;  Cohen et al., 1996 ). Taken together, our results showed that red/NIR LED irradiation significantly inhibited pro-inflammatory cytokine levels and MAPK activity upregulated by LPS, suggesting that red/NIR LED irradiation may be an effective method for the treatment of OM.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="358~363" text="TNF-α" location="background" />
+<GENE id="G1" spans="368~372" text="IL-1" location="background" />
+<GENE id="G2" spans="452~456" text="IL-6" location="background" />
+<GENE id="G3" spans="461~466" text="TNF-α" location="background" />
+<GENE id="G4" spans="3303~3308" text="IL-1β" location="background" />
+<GENE id="G5" spans="3310~3314" text="IL-6" location="background" />
+<GENE id="G6" spans="3320~3325" text="TNF-α" location="background" />
+<GENE id="G7" spans="3380~3384" text="IL-6" location="background" />
+<GENE id="G8" spans="3977~3982" text="IL-1β" location="result" />
+<GENE id="G9" spans="3984~3988" text="IL-6" location="result" />
+<GENE id="G10" spans="3994~3999" text="TNF-α" location="result" />
+<GENE id="G11" spans="5087~5090" text="JNK" location="background" />
+<GENE id="G12" spans="5095~5098" text="p38" location="background" />
+<GENE id="G13" spans="5125~5129" text="ERK1" location="background" />
+<GENE id="G14" spans="5349~5352" text="p38" location="result" />
+<GENE id="G15" spans="5354~5358" text="ERK1" location="result" />
+<GENE id="G16" spans="5366~5369" text="JNK" location="result" />
+<GENE id="G17" spans="5785~5788" text="p38" location="background" />
+<GENE id="G18" spans="5798~5801" text="JNK" location="background" />
+<GENE id="G19" spans="5860~5865" text="IL-1β" location="background" />
+<GENE id="G20" spans="5867~5871" text="IL-6" location="background" />
+<GENE id="G21" spans="5873~5878" text="TNF-α" location="background" />
+<DISEASE id="D0" spans="1~3" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="138~140" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="513~515" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="608~610" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="734~736" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1023~1025" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1931~1933" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2644~2646" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="3162~3164" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="3272~3274" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="3361~3363" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="3520~3522" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="3926~3928" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="4252~4254" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="4486~4488" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D15" spans="4684~4686" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D16" spans="4827~4829" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D17" spans="4928~4930" text="OM" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D18" spans="6221~6223" text="OM" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Research ethics and review board approval for Personalized OncoGenomics was granted by the University of British Columbia Research Ethics Committee. Informed written consent for molecular workup and ensuing treatment recommendations was obtained from each patient prior to commencement. Consent for surgical procedures and biopsies were obtained in the traditional manner at the institutions where the procedures were performed.
+Fresh frozen biopsies were obtained by image-guided core needle biopsy (patient 1) or intraoperatively, prior to cytoreductive surgery and hyperthermic intraperitoneal chemotherapy (patient 2). Tissue was embedded in optimal cutting temperature (OCT) and serially sectioned. Intermittent hematoxylin and eosin (H&E) stained slides were reviewed for tumor content and cellularity. DNA and RNA extractions were performed to create genomic and transcriptomic libraries. DNA was similarly extracted from formalin-fixed paraffin embedded (FFPE) blocks, where available, with additional genomic library construction. Lastly, genomic libraries are created from peripherally drawn blood as reference.
+Paired-end reads from all libraries were generated on an Illumina HiSeq2000 sequencer. Focused deep amplicon sequencing of both tumor specimens and blood was performed using the AmpliSeq Cancer panel (v2.0) on the Ion Torrent PGM platform.[ 31 ] A combination of established analytical pipeline and custom bioinformatic tools was used for identifying somatic nucleotide and copy number aberrations. These are described in detail in supplemental methods ( S1 Text ).
+All imaging, procedures, and routine histology were performed in a clinical setting in accord with the standards of practice at the participating institutions. Additional ancillary tests performed outside of routine standard of practice include BAP1, MET and p16 IHC and FISH for 9p21 deletion and  MET  amplification.
+Immunohistochemistry for the p16 protein was performed using CINtec E6H4 mouse monoclonal antibody (Roche; Basel, Switzerland). Primary antibody was diluted 1:3 in addition to factory dilution. Heat induced epitope retrieval was performed in CC1 buffer for 32 minutes. Visualization was with Ventana Optiview DAB (Roche, Basel, Switzerland) on the Ventana Benchmark system.
+Immunohistochemical staining for MET was performed using the rabbit monoclonal antibody SP44 (Ventana medical systems; Tuscon, USA). No additional dilution was used, and heat-induced epitope retrieval was performed in CC1 buffer. Visualization was carried out using the Ventana Ultramap DAB Ventana Discovery XT system.
+IHC for BAP1 was performed as previously described [ 32 ] using mouse monoclonal anti-human BAP1 clone C-4 (Santa Cruz Biotechnology, Inc., Dallas, TX), which was used at 1:400 on slides pretreated for 20 minutes in a steamer in pH 9 Tris-EDTA buffer. BAP1 was detected using the Ultravision detection system (Thermo Scientific, Waltham, MA). BAP1 staining produces a nuclear signal in all non-neoplastic cells, creating a useful internal control. BAP1 loss was identified by a homogenous loss of nuclear staining in tumor cells. Non-nuclear staining was disregarded. All slides were scored as either BAP1 lost or intact.
+FISH for  CDKN2A  (p16) and MET were performed on 4 micron sections from FFPE blocks and visualized using a Metasystems Fluorescence microscope platform as previously described[ 33 ], using a  CDKN2A  (p16) gene probe cocktail and a  MET  gene probe cocktail (Cymogen DX, New Windsor, NY). The  CDKN2A  gene probe cocktail is consists of an orange fluor labeled ~298kB probe that spans the  CDKN2A  gene at 9p21.3 and a green fluor labeled centromeric chromosome 9 (CC9) probe. The  MET  gene probe cocktail consists of an orange fluor labeled ~440 kB probe that spans the  MET  gene at 7q31.2 and a green fluor labeled centromeric chromosome 7 (CC7) probe. For  CDKN2A , 50–100 cells are scored for a homozygous deletion pattern (0 orange and 1–2 green signals) and the threshold for homozygous deletion is 12% positive cells. For  MET , the orange and green signals for 60 cells are counted and the MET:CC7 ratio is calculated. The threshold for  MET  amplification is a MET:CC7 ratio≥2.0. For a more detailed description, see  S1 Text .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1834~1838" text="BAP1" location="result" />
+<GENE id="G1" spans="1840~1843" text="MET" location="result" />
+<GENE id="G2" spans="1888~1891" text="MET" location="result" />
+<GENE id="G3" spans="1848~1851" text="p16" location="result" />
+<GENE id="G4" spans="1937~1940" text="p16" location="result" />
+<GENE id="G5" spans="2315~2318" text="MET" location="result" />
+<GENE id="G6" spans="2610~2614" text="BAP1" location="result" />
+<GENE id="G7" spans="2694~2698" text="BAP1" location="result" />
+<GENE id="G8" spans="2854~2858" text="BAP1" location="result" />
+<GENE id="G9" spans="2945~2949" text="BAP1" location="result" />
+<GENE id="G10" spans="3050~3054" text="BAP1" location="result" />
+<GENE id="G11" spans="3203~3207" text="BAP1" location="result" />
+<GENE id="G12" spans="3234~3240" text="CDKN2A" location="result" />
+<GENE id="G13" spans="3243~3246" text="p16" location="result" />
+<GENE id="G14" spans="3252~3255" text="MET" location="result" />
+<GENE id="G15" spans="3417~3423" text="CDKN2A" location="result" />
+<GENE id="G16" spans="3458~3461" text="MET" location="result" />
+<GENE id="G17" spans="3519~3525" text="CDKN2A" location="result" />
+<GENE id="G18" spans="3615~3621" text="CDKN2A" location="result" />
+<GENE id="G19" spans="3707~3710" text="MET" location="result" />
+<GENE id="G20" spans="3798~3801" text="MET" location="result" />
+<GENE id="G21" spans="3887~3893" text="CDKN2A" location="result" />
+<GENE id="G22" spans="4057~4060" text="MET" location="result" />
+<GENE id="G23" spans="4125~4128" text="MET" location="result" />
+<GENE id="G24" spans="4173~4176" text="MET" location="result" />
+<GENE id="G25" spans="4197~4200" text="MET" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

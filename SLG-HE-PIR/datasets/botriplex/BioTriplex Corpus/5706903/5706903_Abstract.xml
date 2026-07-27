@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Lentiviral CRISPR/Cas9 nickase vector mediated BIRC5 editing inhibits epithelial to mesenchymal transition in ovarian cancer cells.
+Abstract: BIRC5 encodes the protein survivin, a member of the inhibitor of apoptosis family. Survivin is highly expressed in a variety of cancers but has very low expression in the corresponding normal tissues, and its expression is often associated with tumor metastasis and chemoresistance. We report that survivin was highly expressed in ovarian cancer and strongly correlated with patient overall poor survival. For the first time, we provide experimental evidence that survivin is involved in epithelial to mesenchymal transition (EMT) in ovarian cancer cells. Lentiviral CRISPR/Cas9 nickase vector mediated BIRC5 gene editing led to the inhibition of EMT by upregulating epithelial cell marker, cytokeratin 7 and downregulating mesenchymal markers: snail2, β-catenin, and vimentin in both ovarian cancer SKOV3 and OVCAR3 cells. Consistent with this molecular approach, pharmacological treatment of ovarian cancer cells using a small molecule survivin inhibitor, YM155 also inhibited EMT in these ovarian cancer cell lines. Overexpression of BIRC5 promoted EMT in SKOV3 cells. Using molecular or pharmacological approaches, we found that cell proliferation, migration, and invasion were significantly inhibited following BIRC5 disruption in both cell lines. Inhibition of BIRC5 expression also sensitized cell responses to paclitaxel treatment. Moreover, loss of BIRC5 expression attenuated TGFβ signaling in both SKOV3 and OVCAR3 cells. Collectively, our studies demonstrated that disruption of BIRC5 expression inhibited EMT by attenuating the TGFβ pathway in ovarian cancer cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="55~60" text="BIRC5" location="result" />
+<GENE id="G1" spans="150~155" text="BIRC5" location="background" />
+<GENE id="G2" spans="176~184" text="survivin" location="background" />
+<GENE id="G3" spans="233~241" text="Survivin" location="background" />
+<GENE id="G4" spans="448~456" text="survivin" location="result" />
+<GENE id="G5" spans="614~622" text="survivin" location="result" />
+<GENE id="G6" spans="753~758" text="BIRC5" location="result" />
+<GENE id="G7" spans="841~854" text="cytokeratin 7" location="result" />
+<GENE id="G8" spans="895~901" text="snail2" location="result" />
+<GENE id="G9" spans="903~912" text="β-catenin" location="result" />
+<GENE id="G10" spans="918~926" text="vimentin" location="result" />
+<GENE id="G11" spans="1088~1096" text="survivin" location="result" />
+<GENE id="G12" spans="1187~1192" text="BIRC5" location="result" />
+<GENE id="G13" spans="1366~1371" text="BIRC5" location="result" />
+<GENE id="G14" spans="1417~1422" text="BIRC5" location="result" />
+<GENE id="G15" spans="1508~1513" text="BIRC5" location="result" />
+<GENE id="G16" spans="1641~1646" text="BIRC5" location="result" />
+<DISEASE id="D0" spans="118~132" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="278~284" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="481~495" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="684~698" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="935~949" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1044~1058" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1142~1156" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1707~1721" text="ovarian cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="245~261" text="highly expressed" location="background" relation="increased expression" />
+<RELATION id="R1" spans="461~477" text="highly expressed" location="result" relation="increased expression" />
+<RELATION id="R2" spans="525~554" text="patient overall poor survival" location="result" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G3" geneText="Survivin" diseaseID="D1" diseaseText="cancer" relationID="R0" relationText="highly expressed" />
+<ENTITY_LINKING id="E1" geneID="G4" geneText="survivin" diseaseID="D2" diseaseText="ovarian cancer" relationID="R1" relationText="highly expressed" />
+<ENTITY_LINKING id="E2" geneID="G5" geneText="survivin" diseaseID="D2" diseaseText="ovarian cancer" relationID="R2" relationText="patient overall poor survival" />
+</TAGS>
+</Genomics_ConceptTask>

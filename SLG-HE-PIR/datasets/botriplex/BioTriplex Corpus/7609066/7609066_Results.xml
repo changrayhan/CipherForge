@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Endothelial cell heterogeneity across normal and CCM conditions
+To study the EC subpopulation(s) that form lesions in CCM, we used  Cdh5 (PAC)-Cre-ER T2 / f/f Ccm3 / Cldn5 (BAC)-GFP mice for EC-specific recombination ( Wang et al., 2010 ). Following a single tamoxifen injection administered to the pups on their first day after birth, by P8 these mice develop CCM lesions in the brain that resemble human cavernomas ( Figure 1A–C ;  Figure 1—figure supplement 1 ). ECs were isolated and enriched (CD45- and CD31+) from the brain of both  Cre -negative ( Pdcd10- wt) and  Cre -positive ( Pdcd10 -ko) littermates and processed for droplet-based scRNA-seq. ScRNA-seq libraries were prepared using the 10× Genomics platform, and the R toolkit Seurat (version 3) (see Materials and methods) was used for integrated data analysis ( Figure 1A ).
+After quality control, 15,057 cells from two  Pdcd10- wt mice and 17,204 cells from two  Pdcd10- ko mice were analyzed jointly. Through unsupervised clustering, 17 cell clusters (C) were distinguished and visualized using ‘uniform manifold approximation and projection’ (UMAP) ( Figure 1D–F ). Based on the expression of a panel of known brain endothelial marker genes ( Figure 1G ;  Figure 1—figure supplement 2A,B ), four clusters were identified as mixed with non-ECs (C10, C11, C15, C16). While the identity of C15 remains unclear, two clusters were identified as enriched in pericytes (C11) and microglia (C16) ( Figure 1—figure supplement 2C ;  Supplementary file 1 ). Cluster 10 (C10), instead, appeared to be a mixture of ECs and astrocytes, as marker genes of both of these cell types were highly expressed in this population ( Figure 1—figure supplement 2C ;  Supplementary file 1 ).
+The remaining 13 endothelial subpopulations were then characterized on the basis of the overall expression levels of the reported endothelial marker genes ( Figure 1H,I ;  Supplementary file 1 ;  Figure 1—figure supplement 2E ). These were categorized into six groups of ECs, as venous (C9), arterial (C8), capillary (C0, C3, C4, C5), tip (C1, C6), mitotic/capillary (C2, C7), and tip/capillary (C12, C13, C14) cells ( Figure 1H,J ). The capillary ECs were further distinguished into venous (C2, C4, C7) and arterial (C3, C5) ( Figure 1I,J ;  Sabbagh et al., 2018 ).
+In our mouse model, CCM lesion formation correlated with deletion of the  Pdcd10  gene. All of the endothelial subpopulations except C13 showed significant down-regulation of  Pdcd10  expression after  Pdcd10  deletion ( Figure 1—figure supplement 2D ). As expected, the mixed endothelial and non-EC clusters (C10, C11, C15, C16) did not show  Pdcd10  down-regulation. Therefore, these five clusters were excluded from further analysis ( Figure 1—figure supplement 2D ).
+Pdcd10 deletion induces specific transcriptional profiles in distinct endothelial subpopulations
+To determine whether the formation of cavernomas occurs for specific subpopulations of ECs, we analyzed the changes in gene expression between the  Pdcd10 -wt and  Pdcd10 -ko ECs in each cluster. The comparisons between the total numbers of differentially expressed genes (DEGs) indicated that the venous/venous capillary ECs in C9 were highly modified by  Pdcd10  deletion, while the arterial ECs in C8 were essentially not affected ( Figure 2A ). Also, the arterial- capillary ECs of C3 and C5 were minimally affected by  Pdcd10  deletion ( Figure 2A ). Furthermore, this analysis also showed that the tip cell C1 and C6 and the mitotic/venous capillary C7 and capillary C0  Pdcd10 -ko EC clusters showed strong modifications to their gene expression, which indicated that  Pdcd10  deletion was particularly significant in these cells, as compared to the other cell clusters.
+Lesion marker genes
+The transcription factors  Klf4  and  Klf2  are key drivers of the  Pdcd10-ko  phenotype, and they are up-regulated in brain ECs after  Pdcd10  deletion ( Maddaluno et al., 2013 ;  Zhou et al., 2016 ;  Cuttano et al., 2016 ). Here, both  Klf4  and  Klf2  were up-regulated in the  Pdcd10 -ko ECs compared to the  Pdcd10 -wt ECs in almost all of the clusters (C0–C7, C9). The exceptions here were the arterial C8 ECs, which were not affected (further commented below), and the tip/capillary C12 and C14 ECs, which showed significant up-regulation of only  Klf2  ( Figure 2B ). The greatest up-regulation of  Klf4  and  Klf2  was seen for the tip cell clusters C1 and C6.  Pdcd10 -wt arterial ECs of C8 showed significantly higher expression of  Klf4  and  Klf2  compared with  Pdcd10 -wt ECs of all the other clusters (average logFC, 0.72, 0.55, respectively; padj <0.05 for both), and there were no differences in  Klf4  or  Klf2  expression between the  Pdcd10 -wt and  Pdcd10 -ko ECs.
+Next, we asked how the reported lesion-marker genes are regulated within each cluster from the  Pdcd10 -wt ECs to the  Pdcd10 -ko ECs ( Figure 2C ;  Supplementary file 2 , references). For the  Pdcd10-ko , the venous/venous capillary C9 ECs showed up-regulation of most of the lesion-marker genes, followed by the mitotic/venous capillary C7 and tip cell C1 and C6 ECs. Moreover, we analyzed enrichment of CCM-related genes (‘cerebral cavernous malformation’ gene set from Rare Diseases GeneRIF library) among DEGs by using EnrichR (see Materials and methods). Here, the DEGs from cluster C9 showed the greatest overlap with the CCM gene set (12 of 51 CCM genes) ( Figure 2D ;  Supplementary file 3 ). Once again, these observations strongly support the hypothesis that the venous/venous capillary C9 EC cluster is the strongest candidate cell cluster for contributions to the most advanced lesion development after  Pdcd10  deletion.
+CCM-related biological processes
+To determine the functional impact of  Pdcd10  deletion in the different endothelial subpopulations, we analyzed the biological processes associated to the DEGs (as average |logFC| > 0.3) between the  Pdcd10-wt  and  Pdcd10-ko  using the Gene Set Enrichment Analysis (GSEA) software and the ‘hallmark’ gene sets from the Molecular Signatures Databases (version 7.0). In the absence of  Pdcd10  in the venous/venous capillary C9 and tip cell C1 and C6 ECs, the biological processes implicated in CCM pathology were mainly altered, which included angiogenesis, cell differentiation, coagulation, immune responses, and cell apoptosis ( Figure 2E ;  Supplementary file 4 ). In a previous study, we reported that ECs undergo endothelial-to-mesenchymal transition that is mediated through increased TGFβ signaling ( Maddaluno et al., 2013 ). This process is relevant for the development of vascular lesions, and is further confirmed here by this single-cell analysis ( Supplementary file 4 ).
+State of BBB maturation and permeability
+In patients with CCM, the BBB is impaired ( Clatterbuck, 2001 ;  Mikati et al., 2015 ), as reported here in this murine  Pdcd10 -depletion model, where there was significant increase in vascular permeability to endogenous immunoglobulins ( Figure 2F , cerebellum;  Figure 2—figure supplement 1A , cerebrum). Coherent with this, the expression levels of many regulators of BBB formation and maturation that cooperate to establish the BBB (e.g.  Foxf2 ,  Foxq1 ,  Ppard ,  Zic3 ) ( Hupe et al., 2017 ) were decreased in the potential lesion-forming C9 and C6 clusters ( Figure 2G , pink). Transporters that finely tune BBB functions ( Figure 2G , green) were also diffusely down-regulated in the  Pdcd10 -ko cells, with the C9, C6, and C7 ECs as the most affected. Of note, three transporters (i.e.  Slc2a1  or  Glut1 ,  Slc9a3r2 ,  Slc6a6 ) were all up-regulated in the  Pdcd10 -ko cells of the C1, C6, C7, C9, and C12 ECs. Interestingly, enhancement of glucose transport mediated by  Slc2a1  supports glycolytic metabolism in ECs of tumor vessels ( Rohlenova et al., 2018 ). All of these functions indicated were minimally or not modified in the arterial C8  Pdcd10 -ko ECs ( Figure 2A–G ) and in the putative arterial-capillary C3 and C5 ECs ( Figure 1J ), which were only partially affected by the  Pdcd10  deletion ( Figure 2A–G ).
+As previous reports have shown disrupted endothelial cell-to-cell junctions in CCM lesions ( Bravi et al., 2016 ), we investigated the gene expression levels of other key junctional components. Among the panel of junctional molecules investigated ( Figure 2—figure supplement 1B ), only  Cldn5  expression was down-regulated in the C1, C6, and C9 ECs. Little or no changes were seen for the expression of other adherens and tight-junction components ( Figure 2—figure supplement 1B ). However, the tight-junction proteins Claudin-5, and Cingulin, as well as the adherens junction VE-cadherin were not correctly localized at the cell-to-cell contacts in the ECs of the cavernomas of the  Pdcd10 -ko mice ( Figure 2—figure supplement 1C–E ).
+In summary here, we have identified four endothelial subpopulations that are particularly affected by the deletion of the  Pdcd10  gene: the venous/venous capillary C9, tip cell C1 and C6, and mitotic/venous capillary C7 EC clusters. Among these, under the  Pdcd10-ko  conditions here, the venous/venous capillary C9 ECs represent the strongest candidate to form the most advanced lesions, or the most progressed lesion areas. The venous nature of the ECs in the cavernomas was further confirmed by expression of the venous marker COUP-TFII in vivo in the CCM lesions.  Figure 2H  shows the ECs in a large cavernoma that can be seen to be strongly positive for the venous marker COUP-TFII, which is encoded by  Nr2f2 .
+Arterial differentiation prevents ECs from forming CCM lesions
+Despite the successful deletion of the  Pdcd10  gene ( Figure 1—figure supplement 2D ), gene expression of the arterial ECs (C8) in the  Pdcd10 -ko mice was almost unchanged from the effects of  Pdcd10  deletion. Indeed, in the comparison of the  Pdcd10 -wt and  Pdcd10 -ko mice, these arterial ECs showed the following: the lowest total number of DEGs ( Figure 2A ); no increase in  Klf4  and  Klf2  expression ( Figure 2B ); no, or minimal, signs of increased expression of lesion markers ( Figure 2C–E ); and no, or minimal, decreases in BBB markers and BBB transporters ( Figure 2G ).
+Unique marker genes that are conserved between  Pdcd10 -wt and  Pdcd10 -ko cells specify the particularity of the transcriptome of each cluster (see Materials and methods). Therefore, to investigate the features of these arterial ECs that might promote their refractoriness to lesion formation, we identified the unique marker genes that were expressed in this C8 cluster (threshold: specificity average logFC >0.25; padj <0.05) ( Figure 3A ). Annotation of these genes according to Mouse Genome Informatics and PubMed (see Materials and methods) included homeostasis regulators (23 genes), oncosuppressors (12 genes), positive regulators of angiogenesis (nine genes), inhibitors of TGFβ signaling (seven genes), inflammation and response to stress (eight genes), inhibitors of angiogenesis (six genes), and positive regulators of BBB maturation and maintenance (six genes) ( Figure 3A ;  Supplementary file 5 , references). As several of these processes are indeed de-regulated in CCM malformations ( Clatterbuck, 2001 ;  Labauge et al., 2007 ;  Abdelilah-Seyfried et al., 2020 ;  Maddaluno et al., 2013 ;  Bravi et al., 2016 ;  Bravi et al., 2015 ), we speculate that the overexpression of at least some of these genes, alone or in concert, might contribute to maintenance of the normal phenotype of  Pdcd10 -deleted arterial ECs. Out of a total of 111 unique marker genes that were highly expressed in the C8 EC cluster, 80 had potential preventive functions, five had potential promotive functions, and 13 had potential dual functions, which depended on the cellular context ( Figure 3A,B ). These specific functions of the C8 cluster might also be supported by the group of four regulators of DNA remodeling (i.e.  Chd3 ,  Gadd45g ,  Hey1 ,  Mapk3 ) and 10 transcriptional factors ( Gata2 ,  Lmo7 ,  Mecom ,  Msx1 ,  Notch1 ,  Notch4 ,  Smad7 ,  Sox13 ,  Sox17 ,  Sox18 ) that were uniquely up-regulated in these arterial C8 ECs ( Figure 3D ). Notably, the levels of expression of  Klf2  and  Klf4  do not directly correlate with the resistance to  Pdcd10  deletion. As indicated above,  Klf2  and  Klf4  show the highest expression in arterial C8 ECs, with no difference between  Pdcd10 -wt and  Pdcd10 -ko. This suggests that high levels of  Klf2 / Klf4  are not sufficient per se to trigger the  Pdcd10  phenotype.
+To further understand the differences in the responses to the  Pdcd10  deletion between C8 and the other EC clusters, we annotated the few genes that were uniquely differentially expressed in the  Pdcd10 -ko ECs of the arterial C8 cluster only in comparison to  Pdcd10 -wt ECs of C8 (unique DEGs; six genes upregulated and one gene downregulated) ( Figure 3C ). Most of these have potential preventive roles against lesion formation, as they positively regulate processes that are dysfunctional in  Pdcd10 -deleted ECs and might contribute to the refractoriness of arterial  Pdcd10 -ko ECs to express a mutant phenotype. In particular,  Fbln2 ,  Fbln5 ,  Tmem100 , and  Nebl  cooperate in BBB protection, vascular differentiation, and maintenance of vascular integrity and mechano-sensation ( Supplementary file 6 , references). These four genes, and also  Stmn2 , are markers of arterial ECs in adult mice ( Vanlandewijck et al., 2018 ). Furthermore,  Emp2  promotes HIF-1-alpha dependent vascular endothelial growth factor production and assembly of capillary-like tubes ( Supplementary file 6 ).
+Among the few uniquely differentially expressed genes between the  Pdcd10-wt  and the  Pdcd10-ko  in these arterial C8 ECs,  Slco2a1  was the only one that was down-regulated in the  Pdcd10-ko . These lower levels of this transporter might have preventive activity on the arterial ECs ( Supplementary file 6 ).
+Taken together, it appears that these arterial ECs selectively express genes that positively regulate processes that are altered after the  Pdcd10  deletion. We hypothesize that these genes can counteract the effects of the  Pdcd10  deletion, and thus prevent lesion formation.
+It remains to be explored how microenvironmental cues (e.g. heterotypic cell-cell, cell-matrix interactions, type of shear stress  Li et al., 2019 ) contribute to shape the arterial transcriptome and confer resistance to the effects of  Pdcd10  deletion.
+Cluster 9 Pdcd10-ko shares venous and angiogenic (mitotic and tip cell) traits
+The number of  Pdcd10 -ko cells was significantly increased over the respective  Pdcd10 -wt cells for C9 (4.8-fold), C12 (4.0-fold), and C14 (2.8-fold) ( Figure 1E,F ;  Figure 4A ).
+Cluster nine enrichment in the  Pdcd10 -ko cells is likely due to sustained proliferation, as indicated by the greater proportion of the  Pdcd10 -ko cells (vs.  Pdcd10 -wt) that expressed mitotic markers ( Figure 4B ). Furthermore,  Pdcd10 -ko cells of C9 expressed significantly higher levels of several mitotic markers that regulate different phases of mitosis ( Figure 4C ), including: G2/M ( Ccnb2 ); mitotic spindle orientation ( Cenpa ); sister chromatid segregation ( Top2a ); and exit from mitosis ( Ube2s, Ube2c, Birc5 ) (see references in  Supplementary file 1 ).
+In addition to showing mitotic features, the scRNA-seq data reported in previous sections supported the concept that the  Pdcd10 -ko ECs of C9 take part in the development of lesions. Accordingly, increased numbers of mitotic ECs (i.e. co-expression of Ki-67 and ERG  Birdsey et al., 2015 ;  Booth and Earnshaw, 2017 ) were seen for cavernomas, but not in the pseudo-normal vessels of the  Pdcd10-ko  brain ( Figure 4D , representative immunofluorescence;  Figure 4E , quantification;  Video 1 ).
+To validate the scRNA-seq data in situ, the Visium technology (also known as Spatial Transcriptomics) was applied. We first assessed the quality of the data obtained by manual annotation of the Visium clusters (see Materials and methods). Briefly, the diverse anatomical regions of the cerebellum were identified ( Figure 4—figure supplement 1A ; e.g. internal granular layer, red; external granular layer, orange; molecular layer, green). The spots that expressed pan-endothelial and lesion-endothelial markers were then identified ( Figure 4—figure supplement 1B ), among which those that co-expressed  Mki67  were counted. This analysis of the Visium data confirmed enhanced proliferation specifically in the ECs of the cavernomas ( Figure 4F,G ).
+For the tip cell traits, as the other crucial phenotype in angiogenesis, increased proportions of the  Pdcd10 -ko cells expressed a set of tip cell markers in C9 (i.e.  Plaur ,  Apln ,  Mmrn2 ) and C12 (i.e.  Plaur ) ( Figure 5A ). Moreover, the expression levels of some tip cell markers were also significantly increased in the  Pdcd10 -ko cells of several of the clusters. While tip cell clusters C1 and C6 showed the greatest number of up-regulated tip cell markers ( Figure 5B ), C9  Pdcd10 -ko cells showed up-regulated expression of only a few tip cell markers ( Figure 5B ,  Mcam ,  Apln ,  Plaur ). Conversely, C9  Pdcd10 -ko cells showed up-regulation of a large set of tumor tip cell markers ( Zhao et al., 2018 ), which were less modified in C1 and C6 ( Figure 5C ). According to the enhanced expression of the tip cell marker  Plaur  in the  Pdcd10 -ko cells of C9 (as well as in various other clusters), uPAR (encoded by  Plaur ) was highly expressed both in overt lesions and in pseudo-normal vessels of the brains from the  Pdcd10 -ko mice, as shown in  Figure 5D , and quantified in  Figure 5E .
+Furthermore, the Visium analysis allowed identification and quantification of the numbers of spots that co-expressed tip cell markers and either pan-EC markers or lesion-EC markers. Here, both combinations showed strong increases in the  Pdcd10-ko  sections ( Figure 5—figure supplement 1A,B ).
+We then localized the tip cells in the  Pdcd10 -wt and  Pdcd10 -ko brain vessels as ECs with filopodia using CD93 membrane staining ( Lugano et al., 2018 ). In the  Pdcd10 -wt cerebellum, the tip cells were seen to be located at the ends of and along small vessels, thus marking angiogenic sprouts, as expected in the brains of P8 pups. In the corresponding areas of the  Pdcd10 -ko cerebellum, tip cells were seen at the end of and along pseudo-normal vessels, and also in cavernomas ( Figure 5F , upper panels). However, considering both pseudo-normal vessels and cavernomas, the densities of the tip cells were similar in the  Pdcd10 -wt and  Pdcd10 -ko brains ( Figure 5G ).
+To circumvent the anatomical complexities of the brain vasculature, and to more precisely evaluate the number of tip cells in the  Pdcd10 -ko central nervous system tissue, the retinas were examined. The P8 retina still presents a relatively flat vascular plexus, which facilitates the identification and quantification of the tip cells ( Figure 5F , bottom panels). The tip cells at the vascular front were significantly denser in the retinas from the  Pdcd10-ko  than for the  Pdcd10-wt  ( Figure 5H , tip cells at front), while the numbers of filopodia per tip cell were comparable for the  Pdcd10-wt  and  Pdcd10-ko  ( Figure 5H , filopodia/cell). However, the  Pdcd10 -wt tip cells showed typical elongated cell bodies, while about 15 to 30% of the  Pdcd10 -ko tip cells were not extended and appeared blocked within the dense cell layer ( Figure 5H , tip-like cells). Similarly, the blocked tip-like cells only represented 10% in the  Pdcd10-wt  ( Figure 5H , tip-like cells).
+Consistent with the impaired tip cell phenotype, radial expansion of the vascular network was significantly inhibited in the  Pdcd10 -ko retina ( Figure 5I , quantification in  Figure 5J ). It remains to be explored whether these tip-like cells have features of the recently described breach cells of lung tumor vessels ( Goveia et al., 2020 ).
+Of particular interest, in the  Pdcd10 -ko retina, there were cells with filopodia also in the walls of the veins proximal to the optic nerves ( Figure 5F , rear, asterisks;  Video 2 ). In this region, the tip cells were never observed in the wall of  Pdcd10 -wt veins.
+All in all, these data indicate that the  Pdcd10 -ko cells of C9 (i.e. venous/venous capillary) are more mitotic than the respective  Pdcd10 -wt cells. Tip cell traits were also expressed in the  Pdcd10 -ko cells of C9, although they did not show a normal profile. These data were also validated using the Visium analysis, where 15 to 30% of the lesion ECs contained spots that were positive for both tip cell and mitotic-cell markers ( Figure 5—figure supplement 1B,C ).
+These data thus support the model that the  Pdcd10 -ko cells in C9 develop aberrant tip cell and mitotic characters, while the  Pdcd10 -ko cells in the other clusters mainly acquire abnormal tip cell traits. This angiogenic (tip cell/mitotic) phenotype is, indeed, defective, as network elongation is impaired, and cell proliferation is enhanced. The combination of high cell proliferation and low cell motility might explain the formation of the cavernomas (see also  Castro et al., 2019 ).
+Venous/venous capillary Pdcd10-ko cells represent a reservoir of mitotic and abnormal tip cells that can support defective angiogenesis after Pdcd10 deletion
+To further characterize the cellular heterogeneity and the state transitions during lesion formation, endothelial lineage trajectories were de-novo reconstructed based on the clusters that were mainly affected by  Pdcd10  deletion (i.e. C1, C6, C7, C9). Using both  Pdcd10-ko  and  Pdcd10-wt  data, Single-cell Trajectories Reconstruction, Exploration and Mapping (STREAM) ( Chen et al., 2019 ) was used to infer a trajectory structure that recapitulated the endothelial lineage differentiation during vascular development, with tip cells (C1, C6) defined on branches S4–S3 and S5–S3, respectively ( Figure 6A ), and venous/venous capillary (C9) and mitotic/capillary (C7) cells on branches S0–S2 and S0–S1 ( Figure 6A ). A fifth branch acted as a connecting segment ( Figure 6A , S3–S0). Finally, although separated, the S4 and S1 ends appeared to be connected by a small number of C1 cells in the three-dimensional views of the trajectories ( Figure 6—figure supplement 1A,B ). This might explain the apparent separation of C1 in the flat view, and it suggests a continuum between these two branches that is interrupted by the constraints imposed by the two-dimensional view.
+In particular, when the  Pdcd10-wt  and  Pdcd10-ko  were separated, we observed the following:
+
+           Pdcd10 -ko cells ( Figure 6B , blue), which mainly belonged to C9 ( Figure 6A ); these thus represent a uniquely formed and potentially pathological endothelial lineage ( Figure 6B , red arrow,  Figure 6C ). The branch S0–S2 was exclusively composed of  
+           
+             
+           Pdcd10-ko  cells, which again mainly belonged to C9, with a negligible contribution of only four  Pdcd10 -wt ECs ( Figure 6B , black arrow,  Figure 6C ). The connecting branch (S3–S0) contained mainly  
+           
+             
+           Pdcd10 -ko cells ( Figure 6B , blue) compared to the  Pdcd10 -wt cells ( Figure 6B , orange) on each branch suggested that many  Pdcd10 -ko cells had not reached the end of their lineage differentiation; i.e. the  Pdcd10 -ko cells were either delayed in lineage differentiation or they were on-hold at different immature stages. The widespread distribution of the  
+           
+             
+           Klf4 ,  Ly6a , and  Thbd  ( Maddaluno et al., 2013 ;  Lopez-Ramirez et al., 2019 ) was higher for the  Pdcd10 -ko cells specific to the S0–S2 and S3–S0 branches, even if not exclusively limited to these branches ( Figure 6D ). The expression of typical lesion markers  
+           
+             
+           Pdcd10 -ko cells that belonged to C9 showed the highest heterogeneity, as these were distributed along three different branches (i.e. S0–S2, S3–S0, S0–S1) ( Figure 6C ). To investigate the high heterogeneity of these  Pdcd10 -ko cells, multiple comparisons were performed, followed by Gene Ontology (GO) enrichment analysis of the DEGs ( Figure 6—figure supplement 1C ). Consistent with the data reported int  Figures 2 – 5 , the cells in S0–S2 showed strong down-regulation of BBB transporters and increased negative regulation of cell-cell adhesion, compared to those of S0–S1 ( Figure 6—figure supplement 1C ). Moreover, the  Pdcd10 -ko cells in S3–S0 were more involved in sprouting angiogenesis with enhanced membrane and actin dynamics, increased metabolic activity, and dysregulated responses to growth factor stimulation, compared to those of S0–S2 and S0–S1 ( Figure 6—figure supplement 1C ). 
+           
+             
+           Pdcd10 -ko cells of C9 showed enhanced mitotic and aberrant tip cell characteristics compared to the  Pdcd10 -wt cells in the same cluster ( Figures 4  and  5 ). This angiogenic character of mitotic and tip cells was also evident by comparisons of the gene expression levels of a selection of mitotic and tip cell markers for the  Pdcd10 -wt and  Pdcd10 -ko cells in the trajectory ( Figure 6—figure supplement 1D ). Finally, the  
+           
+             
+        
+In summary here, the C9  Pdcd10 -ko cells in the newly formed  Pdcd10-ko  specific branch of S0–S2 highly expressed typical cavernoma markers, they were mainly mitotic, and they also had pathological tip cell traits. All in all, these can be envisaged as ECs of typical cavernoma lesions.
+A small proportion of the C9  Pdcd10 -ko cells in S3–S0 was also apparently more tip cell specialized. However, these cells failed to reach the states of the trajectories where fully specialized tip cells are located (i.e. S4–S3, S5–S3).
+Venous-resident Pdcd10-ko endothelial progenitor cells support the formation of cavernomas
+We then investigated the transcription factors that were differentially expressed by the C9  Pdcd10 -ko cells for the different branches from the STREAM analysis. The  Pdcd10 -ko cells for S0–S2  versus  S0–S1 showed increased expression of the transcriptional stimulator of progenitor cell proliferation and differentiation,  Tcf15  ( Davies et al., 2013 ;  Figure 6—figure supplement 1E ). As previously reported ( Maddaluno et al., 2013 ),  Id1  was up-regulated in  Pdcd10-ko  ECs of lesions, and it was consistently strongly increased in the S0–S2 branch ( Figure 6—figure supplement 2A ). Remarkably,  Id1  inhibits  Tcf15 -mediated progenitor cell differentiation, but not  Tcf15 -mediated proliferation of progenitor cells ( Davies et al., 2013 ).
+Considering that our group recently reported that cavernomas have clonal origins from expansion of  Pdcd10 -ko progenitor cells ( Malinverno et al., 2019 ), we investigated the distribution of cells that expressed progenitor cell markers in the STREAM-generated trajectories. We therefore quantified each branch for the proportions of cells positive for  Bst1 ,  Peg3 ,  Procr , and  Cd200  (i.e. reported markers of resident endothelial progenitor cells  Malinverno et al., 2017 ;  Wakabayashi et al., 2018 ;  Yu et al., 2016 ). The proportions of  Pdcd10 -ko cells that were positive for  Bst1  or  Peg3  were highly, and specifically, increased in the S0–S2 and S3–S0 branches ( Figure 6E , arrows). In contrast, the proportions of  Pdcd10 -wt and  Pdcd10 -ko cells positive for  Procr  and  Cd200  were similar across all of the branches of the trajectory ( Figure 6E , lower panels). The only exception was the high proportion of  Procr -positive  Pdcd10 -wt cells in the S3–S0 branch, although this might be biased by the very low number of  Pdcd10 -wt cells in this branch (i.e. only four cells).
+We then asked whether the increased number of  Pdcd10 -ko progenitor cells might be sustained by their increased proliferation. As shown in  Figure 6F , co-expression of progenitor cell markers and  Mki67  in  Pdcd10 -wt cells was limited to the cells in the S0–S1 branch (orange bars), where mitotic C7 cells were located ( Figure 6A ). Conversely, there were increased proportions of  Mki67 -positive  Pdcd10 -ko progenitor cells in all of the branches, with the strongest increases seen for S0–S2 ( Figure 6F , blue bars), compared to the  Pdcd10-wt . Moreover, the expression levels of  Bst1  were specifically high in the  Pdcd10 -ko cells of the S0–S2 branch, while the expression of the other progenitor cell markers in the  Pdcd10 -ko cells was high, but more similar across all of the branches of the trajectory ( Figure 6—figure supplement 2B ). Interestingly,  Id1  expression was high in  Bst1 -positive cells in the S0–S2 branch, which suggested that differentiation in these resident progenitor cells can be inhibited ( Figure 6—figure supplement 2C ) as mentioned above and shown by  Davies et al., 2013 .
+These data indicate that  Bst1 -positive and  Peg3 -positive resident endothelial progenitor cells were specifically concentrated in the branches that were most affected by  Pdcd10  deletion. Interestingly, the key driver genes of the CCM phenotype,  Klf4  and  Klf2,  were highly expressed in  Pdcd10 -ko progenitor cells of the S0–S2 branch that were also positive for  Bst1 ,  Peg3 ,  Procr , and  Cd200 , and also for these cells of the other branches ( Figure 6G ;  Figure 6—figure supplement 2D , respectively). This supports the concept that  Klf4  and  Klf2  are early response genes to  Pdcd10  deletion in these types of resident endothelial progenitor cells.
+Colocalization of  Bst1  and the cavernoma transcripts  Klf2 ,  Klf4 , and  Ly6a  using Visium ( Figure 7A,B ) showed concentration of  Bst1  progenitor cell transcripts at the level of cavernomas and mulberry lesions ( Figure 7A ). Similarly, we also confirmed the presence of  Bst1 -positive cells in the lesions through in-situ hybridization in brain sections of the  Pdcd10-wt  and  Pdcd10-ko  ( Figure 7C ;  Malinverno et al., 2017 ).
+In the analysis of the clusters identified in this scRNA-seq analysis, after  Pdcd10  deletion the proportions of  Bst1 -positive cells increased in all of the capillary-vein clusters (C2, C4, C7), with the greatest expression in the venous/venous capillary C9 ( Figure 7D ;  Bst1 -positive cells, 39.9%), which is in agreement with the data reported in  Figure 6E . In contrast, the proportions of  Bst1 -positive cells did not increase in only the arterial C8 and arterial capillary C3 and C5  Pdcd10 -ko cells, in comparison with the respective  Pdcd10-wt  ( Figure 7D ). Therefore,  Bst1  appears to be a preferential physiological marker of vein-resident progenitor cells that is particularly increased in venous clusters after  Pdcd10  deletion, with no increase in arterial clusters ( Figure 7D ).
+Although  Peg3  appears to be a more general marker of resident endothelial progenitor cells in  Pdcd10 -wt cells, it showed highest expression in venous C9  Pdcd10 -ko cells ( Peg3 -positive cells vs. wt, 24.0% vs. 9.3%). The venous-capillary C7  Pdcd10 -ko cells showed the second highest increase ( Figure 7D ). As for  Bst1 , the proportions of  Peg3 -positive cells did not increase in any of the artery and arterial capillary clusters, which suggests that  Pdcd10  deletion can induce endothelial proliferation at different maturation stages. These data are in agreement with the resistance to expression of the  Pdcd10  mutant phenotype of arterial ECs and with the high susceptibility of the venous ECs described above.
+The  Procr -positive and  Cd200 -positive cells ( Figure 7D ) were ubiquitously expressed in the  Pdcd10-wt  venous and arterial clusters, and did not significantly increase after  Pdcd10  deletion at the developmental stage examined (8dpn), in agreement with the trajectory data of  Figure 6E .
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="133~137" text="Cdh5" location="result" />
+<GENE id="G1" spans="160~164" text="Ccm3" location="result" />
+<GENE id="G2" spans="167~172" text="Cldn5" location="result" />
+<GENE id="G3" spans="499~503" text="CD45" location="result" />
+<GENE id="G4" spans="509~513" text="CD31" location="result" />
+<GENE id="G5" spans="556~562" text="Pdcd10" location="result" />
+<GENE id="G6" spans="589~595" text="Pdcd10" location="result" />
+<GENE id="G7" spans="887~893" text="Pdcd10" location="result" />
+<GENE id="G8" spans="930~936" text="Pdcd10" location="result" />
+<GENE id="G9" spans="2376~2382" text="Pdcd10" location="result" />
+<GENE id="G10" spans="2646~2652" text="Pdcd10" location="result" />
+<GENE id="G11" spans="2504~2510" text="Pdcd10" location="result" />
+<GENE id="G12" spans="2478~2484" text="Pdcd10" location="result" />
+<GENE id="G13" spans="2773~2779" text="Pdcd10" location="result" />
+<GENE id="G14" spans="3018~3024" text="Pdcd10" location="result" />
+<GENE id="G15" spans="3034~3040" text="Pdcd10" location="result" />
+<GENE id="G16" spans="3227~3233" text="Pdcd10" location="result" />
+<GENE id="G17" spans="3394~3400" text="Pdcd10" location="result" />
+<GENE id="G18" spans="3547~3553" text="Pdcd10" location="result" />
+<GENE id="G19" spans="3646~3652" text="Pdcd10" location="result" />
+<GENE id="G20" spans="3795~3799" text="Klf4" location="result" />
+<GENE id="G21" spans="3806~3810" text="Klf2" location="result" />
+<GENE id="G22" spans="3836~3842" text="Pdcd10" location="result" />
+<GENE id="G23" spans="3904~3910" text="Pdcd10" location="result" />
+<GENE id="G24" spans="4006~4010" text="Klf4" location="result" />
+<GENE id="G25" spans="4017~4021" text="Klf2" location="result" />
+<GENE id="G26" spans="4049~4055" text="Pdcd10" location="result" />
+<GENE id="G27" spans="4081~4087" text="Pdcd10" location="result" />
+<GENE id="G28" spans="4323~4327" text="Klf2" location="result" />
+<GENE id="G29" spans="4375~4379" text="Klf4" location="result" />
+<GENE id="G30" spans="4386~4390" text="Klf2" location="result" />
+<GENE id="G31" spans="4439~4445" text="Pdcd10" location="result" />
+<GENE id="G32" spans="4512~4516" text="Klf4" location="result" />
+<GENE id="G33" spans="4523~4527" text="Klf2" location="result" />
+<GENE id="G34" spans="4544~4550" text="Pdcd10" location="result" />
+<GENE id="G35" spans="4683~4687" text="Klf4" location="result" />
+<GENE id="G36" spans="4693~4697" text="Klf2" location="result" />
+<GENE id="G37" spans="4723~4729" text="Pdcd10" location="result" />
+<GENE id="G38" spans="4739~4745" text="Pdcd10" location="result" />
+<GENE id="G39" spans="4851~4857" text="Pdcd10" location="result" />
+<GENE id="G40" spans="4874~4880" text="Pdcd10" location="result" />
+<GENE id="G41" spans="4949~4955" text="Pdcd10" location="result" />
+<GENE id="G42" spans="5672~5678" text="Pdcd10" location="result" />
+<GENE id="G43" spans="5690~5693" text="CCM" location="result" />
+<GENE id="G44" spans="5762~5768" text="Pdcd10" location="result" />
+<GENE id="G45" spans="5924~5930" text="Pdcd10" location="result" />
+<GENE id="G46" spans="5940~5946" text="Pdcd10" location="result" />
+<GENE id="G47" spans="6109~6115" text="Pdcd10" location="result" />
+<GENE id="G48" spans="6872~6878" text="Pdcd10" location="result" />
+<GENE id="G49" spans="7195~7200" text="Foxf2" location="result" />
+<GENE id="G50" spans="7204~7209" text="Foxq1" location="result" />
+<GENE id="G51" spans="7213~7218" text="Ppard" location="result" />
+<GENE id="G52" spans="7222~7226" text="Zic3" location="result" />
+<GENE id="G53" spans="7446~7452" text="Pdcd10" location="result" />
+<GENE id="G54" spans="7549~7555" text="Slc2a1" location="result" />
+<GENE id="G55" spans="7561~7566" text="Glut1" location="result" />
+<GENE id="G56" spans="7570~7578" text="Slc9a3r2" location="result" />
+<GENE id="G57" spans="7582~7588" text="Slc6a6" location="result" />
+<GENE id="G58" spans="7621~7627" text="Pdcd10" location="result" />
+<GENE id="G59" spans="7735~7741" text="Slc2a1" location="result" />
+<GENE id="G60" spans="7910~7916" text="Pdcd10" location="result" />
+<GENE id="G61" spans="8052~8058" text="Pdcd10" location="result" />
+<GENE id="G62" spans="8374~8379" text="Cldn5" location="result" />
+<GENE id="G63" spans="8608~8617" text="Claudin-5" location="result" />
+<GENE id="G64" spans="8623~8631" text="Cingulin" location="result" />
+<GENE id="G65" spans="8666~8677" text="VE-cadherin" location="result" />
+<GENE id="G66" spans="8773~8779" text="Pdcd10" location="result" />
+<GENE id="G67" spans="8949~8955" text="Pdcd10" location="result" />
+<GENE id="G68" spans="9084~9090" text="Pdcd10" location="result" />
+<GENE id="G69" spans="9357~9366" text="COUP-TFII" location="result" />
+<GENE id="G70" spans="9505~9514" text="COUP-TFII" location="result" />
+<GENE id="G71" spans="9537~9542" text="Nr2f2" location="result" />
+<GENE id="G72" spans="9648~9654" text="Pdcd10" location="result" />
+<GENE id="G73" spans="9745~9751" text="Pdcd10" location="result" />
+<GENE id="G74" spans="9803~9809" text="Pdcd10" location="result" />
+<GENE id="G75" spans="9855~9861" text="Pdcd10" location="result" />
+<GENE id="G76" spans="9871~9877" text="Pdcd10" location="result" />
+<GENE id="G77" spans="9992~9996" text="Klf4" location="result" />
+<GENE id="G78" spans="10003~10007" text="Klf2" location="result" />
+<GENE id="G79" spans="10245~10251" text="Pdcd10" location="result" />
+<GENE id="G80" spans="10261~10267" text="Pdcd10" location="result" />
+<GENE id="G81" spans="11500~11506" text="Pdcd10" location="result" />
+<GENE id="G82" spans="11917~11921" text="Chd3" location="result" />
+<GENE id="G83" spans="11925~11932" text="Gadd45g" location="result" />
+<GENE id="G84" spans="11936~11940" text="Hey1" location="result" />
+<GENE id="G85" spans="11944~11949" text="Mapk3" location="result" />
+<GENE id="G86" spans="11985~11990" text="Gata2" location="result" />
+<GENE id="G87" spans="11994~11998" text="Lmo7" location="result" />
+<GENE id="G88" spans="12002~12007" text="Mecom" location="result" />
+<GENE id="G89" spans="12011~12015" text="Msx1" location="result" />
+<GENE id="G90" spans="12019~12025" text="Notch1" location="result" />
+<GENE id="G91" spans="12029~12035" text="Notch4" location="result" />
+<GENE id="G92" spans="12039~12044" text="Smad7" location="result" />
+<GENE id="G93" spans="12048~12053" text="Sox13" location="result" />
+<GENE id="G94" spans="12057~12062" text="Sox17" location="result" />
+<GENE id="G95" spans="12066~12071" text="Sox18" location="result" />
+<GENE id="G96" spans="12184~12188" text="Klf2" location="result" />
+<GENE id="G97" spans="12195~12199" text="Klf4" location="result" />
+<GENE id="G98" spans="12251~12257" text="Pdcd10" location="result" />
+<GENE id="G99" spans="12290~12294" text="Klf2" location="result" />
+<GENE id="G100" spans="12301~12305" text="Klf4" location="result" />
+<GENE id="G101" spans="12383~12389" text="Pdcd10" location="result" />
+<GENE id="G102" spans="12399~12405" text="Pdcd10" location="result" />
+<GENE id="G103" spans="12446~12450" text="Klf2" location="result" />
+<GENE id="G104" spans="12453~12457" text="Klf4" location="result" />
+<GENE id="G105" spans="12501~12507" text="Pdcd10" location="result" />
+<GENE id="G106" spans="12583~12589" text="Pdcd10" location="result" />
+<GENE id="G107" spans="12717~12723" text="Pdcd10" location="result" />
+<GENE id="G108" spans="12782~12788" text="Pdcd10" location="result" />
+<GENE id="G109" spans="13019~13025" text="Pdcd10" location="result" />
+<GENE id="G110" spans="13095~13101" text="Pdcd10" location="result" />
+<GENE id="G111" spans="13157~13162" text="Fbln2" location="result" />
+<GENE id="G112" spans="13166~13171" text="Fbln5" location="result" />
+<GENE id="G113" spans="13175~13182" text="Tmem100" location="result" />
+<GENE id="G114" spans="13190~13194" text="Nebl" location="result" />
+<GENE id="G115" spans="13377~13382" text="Stmn2" location="result" />
+<GENE id="G116" spans="13473~13477" text="Emp2" location="result" />
+<GENE id="G117" spans="13686~13692" text="Pdcd10" location="result" />
+<GENE id="G118" spans="13706~13712" text="Pdcd10" location="result" />
+<GENE id="G119" spans="13744~13751" text="Slco2a1" location="result" />
+<GENE id="G120" spans="14070~14076" text="Pdcd10" location="result" />
+<GENE id="G121" spans="14155~14161" text="Pdcd10" location="result" />
+<GENE id="G122" spans="14445~14451" text="Pdcd10" location="result" />
+<GENE id="G123" spans="14473~14479" text="Pdcd10" location="result" />
+<GENE id="G124" spans="14557~14563" text="Pdcd10" location="result" />
+<GENE id="G125" spans="14623~14629" text="Pdcd10" location="result" />
+<GENE id="G126" spans="14756~14762" text="Pdcd10" location="result" />
+<GENE id="G127" spans="14862~14868" text="Pdcd10" location="result" />
+<GENE id="G128" spans="14957~14963" text="Pdcd10" location="result" />
+<GENE id="G129" spans="15120~15125" text="Ccnb2" location="result" />
+<GENE id="G130" spans="15159~15164" text="Cenpa" location="result" />
+<GENE id="G131" spans="15199~15204" text="Top2a" location="result" />
+<GENE id="G132" spans="15232~15237" text="Ube2s" location="result" />
+<GENE id="G133" spans="15239~15244" text="Ube2c" location="result" />
+<GENE id="G134" spans="15246~15251" text="Birc5" location="result" />
+<GENE id="G135" spans="15420~15426" text="Pdcd10" location="result" />
+<GENE id="G136" spans="15551~15556" text="Ki-67" location="result" />
+<GENE id="G137" spans="15688~15694" text="Pdcd10" location="result" />
+<GENE id="G138" spans="16400~16405" text="Mki67" location="result" />
+<GENE id="G139" spans="16649~16655" text="Pdcd10" location="result" />
+<GENE id="G140" spans="16877~16883" text="Pdcd10" location="result" />
+<GENE id="G141" spans="17035~17041" text="Pdcd10" location="result" />
+<GENE id="G142" spans="17170~17176" text="Pdcd10" location="result" />
+<GENE id="G143" spans="17386~17391" text="Plaur" location="result" />
+<GENE id="G144" spans="17401~17407" text="Pdcd10" location="result" />
+<GENE id="G145" spans="17464~17468" text="uPAR" location="result" />
+<GENE id="G146" spans="17482~17487" text="Plaur" location="result" />
+<GENE id="G147" spans="17586~17592" text="Pdcd10" location="result" />
+<GENE id="G148" spans="17897~17903" text="Pdcd10" location="result" />
+<GENE id="G149" spans="17994~18000" text="Pdcd10" location="result" />
+<GENE id="G150" spans="18010~18016" text="Pdcd10" location="result" />
+<GENE id="G151" spans="18063~18067" text="CD93" location="result" />
+<GENE id="G152" spans="18119~18125" text="Pdcd10" location="result" />
+<GENE id="G153" spans="18326~18332" text="Pdcd10" location="result" />
+<GENE id="G154" spans="18584~18590" text="Pdcd10" location="result" />
+<GENE id="G155" spans="18600~18606" text="Pdcd10" location="result" />
+<GENE id="G156" spans="18764~18770" text="Pdcd10" location="result" />
+<GENE id="G157" spans="19087~19093" text="Pdcd10" location="result" />
+<GENE id="G158" spans="19112~19118" text="Pdcd10" location="result" />
+<GENE id="G159" spans="19227~19233" text="Pdcd10" location="result" />
+<GENE id="G160" spans="19299~19305" text="Pdcd10" location="result" />
+<GENE id="G161" spans="19388~19394" text="Pdcd10" location="result" />
+<GENE id="G162" spans="19574~19580" text="Pdcd10" location="result" />
+<GENE id="G163" spans="19742~19748" text="Pdcd10" location="result" />
+<GENE id="G164" spans="19993~19999" text="Pdcd10" location="result" />
+<GENE id="G165" spans="20213~20219" text="Pdcd10" location="result" />
+<GENE id="G166" spans="20273~20279" text="Pdcd10" location="result" />
+<GENE id="G167" spans="20365~20371" text="Pdcd10" location="result" />
+<GENE id="G168" spans="20427~20433" text="Pdcd10" location="result" />
+<GENE id="G169" spans="20747~20753" text="Pdcd10" location="result" />
+<GENE id="G170" spans="21219~21225" text="Pdcd10" location="result" />
+<GENE id="G171" spans="21337~21343" text="Pdcd10" location="result" />
+<GENE id="G172" spans="21567~21573" text="Pdcd10" location="result" />
+<GENE id="G173" spans="21619~21625" text="Pdcd10" location="result" />
+<GENE id="G174" spans="21635~21641" text="Pdcd10" location="result" />
+<GENE id="G175" spans="22556~22562" text="Pdcd10" location="result" />
+<GENE id="G176" spans="22572~22578" text="Pdcd10" location="result" />
+<GENE id="G177" spans="22638~22644" text="Pdcd10" location="result" />
+<GENE id="G178" spans="22930~22936" text="Pdcd10" location="result" />
+<GENE id="G179" spans="23170~23176" text="Pdcd10" location="result" />
+<GENE id="G180" spans="23224~23230" text="Pdcd10" location="result" />
+<GENE id="G181" spans="23299~23305" text="Pdcd10" location="result" />
+<GENE id="G182" spans="23573~23577" text="Klf4" location="result" />
+<GENE id="G183" spans="23581~23585" text="Ly6a" location="result" />
+<GENE id="G184" spans="23593~23597" text="Thbd" location="result" />
+<GENE id="G185" spans="23676~23682" text="Pdcd10" location="result" />
+<GENE id="G186" spans="23880~23886" text="Pdcd10" location="result" />
+<GENE id="G187" spans="24098~24104" text="Pdcd10" location="result" />
+<GENE id="G188" spans="24509~24515" text="Pdcd10" location="result" />
+<GENE id="G189" spans="24820~24826" text="Pdcd10" location="result" />
+<GENE id="G190" spans="24922~24928" text="Pdcd10" location="result" />
+<GENE id="G191" spans="25151~25157" text="Pdcd10" location="result" />
+<GENE id="G192" spans="25167~25173" text="Pdcd10" location="result" />
+<GENE id="G193" spans="25312~25318" text="Pdcd10" location="result" />
+<GENE id="G194" spans="25350~25356" text="Pdcd10" location="result" />
+<GENE id="G195" spans="25606~25612" text="Pdcd10" location="result" />
+<GENE id="G196" spans="25830~25836" text="Pdcd10" location="result" />
+<GENE id="G197" spans="25998~26004" text="Pdcd10" location="result" />
+<GENE id="G198" spans="26073~26079" text="Pdcd10" location="result" />
+<GENE id="G199" spans="26232~26237" text="Tcf15" location="result" />
+<GENE id="G200" spans="26375~26381" text="Pdcd10" location="result" />
+<GENE id="G201" spans="26528~26533" text="Tcf15" location="result" />
+<GENE id="G202" spans="26586~26591" text="Tcf15" location="result" />
+<GENE id="G203" spans="26761~26767" text="Pdcd10" location="background" />
+<GENE id="G204" spans="27016~27020" text="Bst1" location="result" />
+<GENE id="G205" spans="27024~27028" text="Peg3" location="result" />
+<GENE id="G206" spans="27032~27037" text="Procr" location="result" />
+<GENE id="G207" spans="27045~27050" text="Cd200" location="result" />
+<GENE id="G208" spans="27211~27217" text="Pdcd10" location="result" />
+<GENE id="G209" spans="27252~27256" text="Bst1" location="result" />
+<GENE id="G210" spans="27262~27266" text="Peg3" location="result" />
+<GENE id="G211" spans="27397~27403" text="Pdcd10" location="result" />
+<GENE id="G212" spans="27413~27419" text="Pdcd10" location="result" />
+<GENE id="G213" spans="27444~27449" text="Procr" location="result" />
+<GENE id="G214" spans="27456~27461" text="Cd200" location="result" />
+<GENE id="G215" spans="27597~27602" text="Procr" location="result" />
+<GENE id="G216" spans="27614~27620" text="Pdcd10" location="result" />
+<GENE id="G217" spans="27709~27715" text="Pdcd10" location="result" />
+<GENE id="G218" spans="27812~27818" text="Pdcd10" location="result" />
+<GENE id="G219" spans="27964~27969" text="Mki67" location="result" />
+<GENE id="G220" spans="27975~27981" text="Pdcd10" location="result" />
+<GENE id="G221" spans="28152~28157" text="Mki67" location="result" />
+<GENE id="G222" spans="28169~28175" text="Pdcd10" location="result" />
+<GENE id="G223" spans="28308~28314" text="Pdcd10" location="result" />
+<GENE id="G224" spans="28356~28360" text="Bst1" location="result" />
+<GENE id="G225" spans="28393~28399" text="Pdcd10" location="result" />
+<GENE id="G226" spans="28497~28503" text="Pdcd10" location="result" />
+<GENE id="G227" spans="28637~28640" text="Id1" location="result" />
+<GENE id="G228" spans="28666~28670" text="Bst1" location="result" />
+<GENE id="G229" spans="28912~28916" text="Bst1" location="result" />
+<GENE id="G230" spans="28932~28936" text="Peg3" location="result" />
+<GENE id="G231" spans="29060~29066" text="Pdcd10" location="result" />
+<GENE id="G232" spans="29137~29141" text="Klf4" location="result" />
+<GENE id="G233" spans="29148~29152" text="Klf2" location="result" />
+<GENE id="G234" spans="29181~29187" text="Pdcd10" location="result" />
+<GENE id="G235" spans="29258~29262" text="Bst1" location="result" />
+<GENE id="G236" spans="29266~29270" text="Peg3" location="result" />
+<GENE id="G237" spans="29274~29279" text="Procr" location="result" />
+<GENE id="G238" spans="29287~29292" text="Cd200" location="result" />
+<GENE id="G239" spans="29436~29440" text="Klf4" location="result" />
+<GENE id="G240" spans="29447~29451" text="Klf2" location="result" />
+<GENE id="G241" spans="29482~29488" text="Pdcd10" location="result" />
+<GENE id="G242" spans="29575~29579" text="Bst1" location="result" />
+<GENE id="G243" spans="29612~29616" text="Klf2" location="result" />
+<GENE id="G244" spans="29620~29624" text="Klf4" location="result" />
+<GENE id="G245" spans="29632~29636" text="Ly6a" location="result" />
+<GENE id="G246" spans="29835~29839" text="Bst1" location="result" />
+<GENE id="G247" spans="29927~29933" text="Pdcd10" location="result" />
+<GENE id="G248" spans="29943~29949" text="Pdcd10" location="result" />
+<GENE id="G249" spans="30074~30080" text="Pdcd10" location="result" />
+<GENE id="G250" spans="30111~30115" text="Bst1" location="result" />
+<GENE id="G251" spans="30272~30276" text="Bst1" location="result" />
+<GENE id="G252" spans="30492~30498" text="Pdcd10" location="result" />
+<GENE id="G253" spans="30545~30551" text="Pdcd10" location="result" />
+<GENE id="G254" spans="30583~30587" text="Bst1" location="result" />
+<GENE id="G255" spans="30730~30736" text="Pdcd10" location="result" />
+<GENE id="G256" spans="30811~30815" text="Peg3" location="result" />
+<GENE id="G257" spans="30898~30904" text="Pdcd10" location="result" />
+<GENE id="G258" spans="30959~30965" text="Pdcd10" location="result" />
+<GENE id="G259" spans="30978~30982" text="Peg3" location="result" />
+<GENE id="G260" spans="31049~31055" text="Pdcd10" location="result" />
+<GENE id="G261" spans="31124~31128" text="Bst1" location="result" />
+<GENE id="G262" spans="31264~31270" text="Pdcd10" location="result" />
+<GENE id="G263" spans="31420~31426" text="Pdcd10" location="result" />
+<GENE id="G264" spans="31534~31539" text="Procr" location="result" />
+<GENE id="G265" spans="31555~31560" text="Cd200" location="result" />
+<GENE id="G266" spans="31627~31633" text="Pdcd10" location="result" />
+<GENE id="G267" spans="31710~31716" text="Pdcd10" location="result" />
+<DISEASE id="D0" spans="50~53" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="119~122" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="362~365" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="2322~2325" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="5161~5164" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D8" spans="5384~5387" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D9" spans="6218~6221" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D10" spans="6768~6771" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D11" spans="8165~8168" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D12" spans="9382~9385" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D13" spans="9596~9599" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D14" spans="11179~11182" text="CCM" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

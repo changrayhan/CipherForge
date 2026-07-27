@@ -1,0 +1,52 @@
+2026-07-27 10:16:24,601 [INFO] attack_suite: Log file: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_101624/attack_test.log
+2026-07-27 10:16:24,601 [INFO] attack_suite: ============================================================
+2026-07-27 10:16:24,601 [INFO] attack_suite: Protocol initialisation (GPU mode, Llama-3.1-8B-I)
+2026-07-27 10:16:24,601 [INFO] attack_suite: ============================================================
+2026-07-27 10:16:24,603 [INFO] attack_suite: Patched _build_seal_context for poly_degree=2048
+2026-07-27 10:16:25,416 [INFO] attack_suite: Loading tokenizer from /root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da
+2026-07-27 10:16:28,833 [INFO] attack_suite: Loading TREC-QC dataset from /root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc
+2026-07-27 10:16:28,855 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543, test=100
+2026-07-27 10:16:28,856 [INFO] attack_suite: Building BFV backend (poly_degree=2048, plain_bits=30, scale=10000.0, hidden_dim=2048)
+2026-07-27 10:16:28,862 [INFO] attack_suite: Building encrypted database …
+2026-07-27 10:16:28,862 [INFO] attack_suite: Loading hint table …
+2026-07-27 10:16:28,877 [INFO] attack_suite: Constructing HeterogeneousProtocol …
+2026-07-27 10:16:36,585 [INFO] attack_suite: PartyM BFV secret key loaded (poly_degree=2048)
+2026-07-27 10:16:38,334 [INFO] attack_suite: GPU protocol initialisation successful!
+2026-07-27 10:16:38,334 [INFO] attack_suite: ============================================================
+2026-07-27 10:16:38,335 [INFO] attack_suite: Phase 2: Attack Data Collection
+2026-07-27 10:16:38,335 [INFO] attack_suite: ============================================================
+2026-07-27 10:16:38,343 [INFO] attack_suite: Registered attack: M1 (U-side Model Inference (Evaluation Phase))
+2026-07-27 10:16:38,346 [INFO] attack_suite: ============================================================
+2026-07-27 10:16:38,346 [INFO] attack_suite: Collecting real attack data via AttackProtocolWrapper
+2026-07-27 10:16:38,346 [INFO] attack_suite: ============================================================
+2026-07-27 10:16:38,347 [INFO] attack_suite: Running 10 training steps …
+2026-07-27 10:16:44,057 [INFO] attack_suite: Training step 1/10 completed (bundles=1)
+2026-07-27 10:16:58,628 [INFO] attack_suite: Training step 6/10 completed (bundles=6)
+2026-07-27 10:17:10,618 [INFO] attack_suite: Collecting evaluation predictions for M-1 …
+2026-07-27 10:17:15,126 [INFO] attack_suite: M1: Saved offline data to /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_101624/m1
+2026-07-27 10:17:15,467 [INFO] attack_suite: ============================================================
+2026-07-27 10:17:15,467 [INFO] attack_suite: Phase 3: Running Attacks
+2026-07-27 10:17:15,467 [INFO] attack_suite: ============================================================
+2026-07-27 10:17:15,467 [INFO] attack_suite: Running M1 …
+2026-07-27 10:17:15,468 [INFO] attack_suite:   [OK] M1/prediction_consistency | confidence_variance=0.0034 (chance=0.1000) | n=100 | Confidence variance=0.0034, mean=0.0866. Low variance: predictions appear uniform
+2026-07-27 10:17:15,468 [INFO] attack_suite:   [OK] M1/distillation_convergence | query_budget_utilisation=0.1000 (chance=nan) | n=100 | Used 100/1000 queries (10.0% of budget). Without iterative training, single-pass surrogate accuracy is the meaningful signal.
+2026-07-27 10:17:15,468 [INFO] attack_suite:   [??] M1/surrogate_model | accuracy=0.0000 (chance=0.0000) | n=0 | Insufficient paired data for surrogate training (need ≥500 samples, have 100)
+2026-07-27 10:17:15,468 [INFO] attack_suite:   [OK] M1/information_leakage | prediction_diversity_6bucket=0.4241 (chance=0.5000) | n=100 | Prediction diversity (6-bucket)=0.4241, deviation from uniform=1.0400; vocab-token entropy=0.4539 (n_distinct_tokens=10) for cross-comparison. Limited diversity in coarse-class buckets
+2026-07-27 10:17:15,468 [INFO] attack_suite: ============================================================
+2026-07-27 10:17:15,468 [INFO] attack_suite: Phase 4: Generating Reports
+2026-07-27 10:17:15,468 [INFO] attack_suite: ============================================================
+2026-07-27 10:17:15,468 [INFO] attack_suite: JSON results: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_101624/attack_results.json
+2026-07-27 10:17:15,468 [INFO] attack_suite: Summary: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/summary_20260727_101624.json
+2026-07-27 10:17:15,469 [INFO] attack_suite: Log copied: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/log_20260727_101624.log
+2026-07-27 10:17:15,469 [INFO] attack_suite: ============================================================
+2026-07-27 10:17:15,469 [INFO] attack_suite: SUMMARY
+2026-07-27 10:17:15,469 [INFO] attack_suite: ============================================================
+2026-07-27 10:17:15,469 [INFO] attack_suite: GPU Used: Yes
+2026-07-27 10:17:15,469 [INFO] attack_suite: Total verdicts: 4
+2026-07-27 10:17:15,469 [INFO] attack_suite:   LEAK_DETECTED:     0
+2026-07-27 10:17:15,469 [INFO] attack_suite:   PRIVACY_PRESERVED: 3
+2026-07-27 10:17:15,469 [INFO] attack_suite:   INCONCLUSIVE:      1
+2026-07-27 10:17:15,469 [INFO] attack_suite: All attacks indicate privacy is preserved.
+2026-07-27 10:17:15,469 [INFO] attack_suite: ============================================================
+2026-07-27 10:17:15,469 [INFO] attack_suite: Output directory: /root/autodl-tmp/SLG-HE-PIR/test-data/attack-test-data/run_20260727_101624
+2026-07-27 10:17:15,469 [INFO] attack_suite: ============================================================

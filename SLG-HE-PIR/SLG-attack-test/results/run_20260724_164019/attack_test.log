@@ -1,0 +1,9 @@
+2026-07-24 16:40:19,886 [INFO] attack_suite: Log file: SLG-attack-test/results/run_20260724_164019/attack_test.log
+2026-07-24 16:40:19,886 [INFO] attack_suite: Using synthetic data mode
+2026-07-24 16:40:19,886 [INFO] attack_suite: ============================================================
+2026-07-24 16:40:19,886 [INFO] attack_suite: Protocol initialisation (simplified mode)
+2026-07-24 16:40:19,886 [INFO] attack_suite: ============================================================
+2026-07-24 16:40:21,751 [INFO] attack_suite: Loaded TREC-QC: train=4909, val=543
+2026-07-24 16:40:21,751 [INFO] attack_suite: ============================================================
+2026-07-24 16:40:21,751 [INFO] attack_suite: Phase 1: Attack Data Collection
+2026-07-24 16:40:21,751 [INFO] attack_suite: ============================================================

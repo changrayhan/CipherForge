@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: Parboiled Germinated Brown Rice Improves Cardiac Structure and Gene Expression in Hypertensive Rats.
+Abstract: Hypertension leads to oxidative stress, inflammation, and fibrosis. The suppression of these indicators may be one treatment approach. Parboiled germinated brown rice (PGBR), obtained by steaming germinated Jasmine rice, reduces oxidative stress and inflammation in vivo. PGBR contains more bioactive compounds than brown rice (BR) and white rice (WR). Anti-hypertensive benefits of PGBR have been predicted, but research is lacking. The anti-hypertensive effects of PGBR were investigated in the downstream gene network of hypertension pathogenesis, including the renin–angiotensin system, fibrosis, oxidative stress production, and antioxidant enzymes in  N -nitro-L-arginine methyl ester (L-NAME)-induced hypertensive rats. To strengthen our findings, the cardiac structure was also studied. PGBR-exposed rats showed significant reductions in systolic blood pressure (SBP) compared to the hypertensive group. WR did not reduce SBP because of the loss of bioactive compounds during intensive milling. PGBR also reduced the expression of the angiotensin type 1 receptor (AT1R), transforming growth factor-β (TGF-β), and nicotinamide adenine dinucleotide phosphate (NADPH) oxidase (NOX4), which contribute to the renin–angiotensin system, fibrosis, and oxidative stress production, respectively. Losartan (Los, an anti-hypertensive drug)-treated rats also exhibited similar gene expression, implying that PGBR may reduce hypertension using the same downstream target as Los. Our data also indicated that PGBR reduced cardiac lesions, such as the cardiomyopathy induced by L-NAME. This is the first report on the anti-hypertensive effects of PGBR in vivo by the suppression of the renin response, fibrosis, and improved cardiac structure.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1162~1189" text="angiotensin type 1 receptor" location="result" />
+<GENE id="G1" spans="1191~1195" text="AT1R" location="result" />
+<GENE id="G2" spans="1301~1305" text="NOX4" location="result" />
+<DISEASE id="D0" spans="119~131" text="Hypertension" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="643~655" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1540~1552" text="hypertension" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1665~1679" text="cardiomyopathy" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

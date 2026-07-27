@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PI3K appears to operate at distinct levels within the HH pathway depending on context. For instance, upregulation of the PI3K/AKT pathway promotes HH signaling in embryonic fibroblasts ( 41 ), esophageal cancer ( 42 ), and breast cancer ( 43 ). Alternatively, the PI3K/AKT pathway promotes tumor cell growth independent of GLI1 activity in neuroblastomas ( 44 ), suggesting that PI3K/AKT either operates in parallel to or downstream of the HH pathway in this context. Our results show HH signaling is dependent on PI3K signaling in BCC cells grown in culture, but not in BCC tumors. This discrepancy between cell culture and three-dimensional (3D) growth conditions is a relatively common phenomenon and has been shown for the AKT-MTOR pathway, where inhibition of AKT resulted in elevated ERK signaling in cell culture but reduced signaling in 3D culture ( 59 ). Why this occurs in our system remains unclear, but one explanation could be that BCC tumors receive an abundance of signals from the surrounding niche that are absent in cell culture and can compensate for the loss of PI3K signaling to maintain HH pathway activation. Another possibility could be that higher  in vivo  dosage of drug could eventually suppress HH signaling, although the current dosage is able to inhibit tumor growth. Nevertheless, PI3K likely operates downstream or in parallel to the HH pathway in BCC, similar to our results for MTOR in  fl/fl ; Gli1-Cre ERT2 Ptch1  BCCs ( 48 ) and consistent with models where MTOR acts downstream of the HH pathway in  +/− Ptch1 / SKH-1  BCCs ( 60 ).
+p21 is a potent universal cyclin-dependent kinase inhibitor that is activated downstream of p53 upon DNA damage or other cellular stresses and promotes G1 cell cycle arrest, which can lead to senescence or apoptosis ( 61 ). When p53 is present, p21 and p53 can act together to help correct DNA damage and preserve genome stability. However, when p53 is disrupted, p21 can promote genomic instability and escape from senescence ( 62 ). p21 degradation is facilitated by aPKC- and AKT1-dependent phosphorylation at T145 ( 56 – 58 ). As aPKC and AKT1 are both overexpressed in BCC and are required for tumor growth ( 29 ,  63 ), our results suggest that BCCs activate both kinases downstream of PI3K to promote cell cycle progression and continued tumor growth. PI3K inhibition significantly suppresses aPKC and Akt1 activity, likely leading to enhanced p21 stability, suppression of proliferation, and enhanced apoptosis.
+Targeting the PI3K pathway in the clinic may be a viable option for BCC patients. In addition to the present study showing BKM120 efficacy on  fl/fl ; Gli1-Cre ERT2 Ptch1  BCCs, inhibition of the PI3K/AKT/MTOR pathway has been shown to suppress irradiated  +/- ; Krt14 CreER2 ; p53 fl/fl Ptch1  BCCs with XL765, but not XL147 or GDC-0941 ( 64 ). In addition, suppressing MTOR activity using everolimus can suppress  fl/fl ; Gli1-Cre ERT2 Ptch1  BCCs through an aPKC-dependent process ( 48 ) and has been used in the clinic for compassionate treatment of BCCs in elderly patients who refused surgery and did not respond to alternative treatments ( 65 ). Combination therapy may also be crucial to treat advanced BCC patients. For instance, PI3K/MTOR inhibition can delay therapeutic resistance against SMO inhibitors in mouse models of cancer, including BKM120 cotreatment in HH-driven medulloblastoma ( 36 ) or cotreatment with the MTOR inhibitor RAD-001 in esophageal adenocarcinoma ( 37 ). In addition, SMO inhibitor-resistant mouse medulloblastoma are still sensitive to PI3K inhibition ( 66 ) and combination therapy with the GLI inhibitor GANT61 and PI3K/MTOR inhibitor PI103 synergistically inhibited tumors in a HH-driven rhabdomyosarcoma mouse model ( 67 ). Altogether, PI3K pathway-targeted therapies, solely or in combination with HH pathway inhibitors, may broaden our repository for treating advanced and SMO inhibitor-resistant BCCs.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~5" text="PI3K" location="background" />
+<GENE id="G1" spans="324~328" text="GLI1" location="background" />
+<GENE id="G2" spans="515~519" text="PI3K" location="result" />
+<GENE id="G3" spans="1314~1318" text="PI3K" location="background" />
+<GENE id="G4" spans="1414~1418" text="MTOR" location="background" />
+<GENE id="G5" spans="1431~1435" text="Gli1" location="background" />
+<GENE id="G6" spans="1445~1450" text="Ptch1" location="background" />
+<GENE id="G7" spans="1497~1501" text="MTOR" location="background" />
+<GENE id="G8" spans="1544~1549" text="Ptch1" location="background" />
+<GENE id="G9" spans="1572~1575" text="p21" location="background" />
+<GENE id="G10" spans="1664~1667" text="p53" location="background" />
+<GENE id="G11" spans="1801~1804" text="p53" location="background" />
+<GENE id="G12" spans="1817~1820" text="p21" location="background" />
+<GENE id="G13" spans="1825~1828" text="p53" location="background" />
+<GENE id="G14" spans="1918~1921" text="p53" location="background" />
+<GENE id="G15" spans="1936~1939" text="p21" location="background" />
+<GENE id="G16" spans="2007~2010" text="p21" location="background" />
+<GENE id="G17" spans="2051~2055" text="AKT1" location="background" />
+<GENE id="G18" spans="2115~2119" text="AKT1" location="background" />
+<GENE id="G19" spans="2264~2268" text="PI3K" location="result" />
+<GENE id="G20" spans="2331~2335" text="PI3K" location="result" />
+<GENE id="G21" spans="2381~2385" text="Akt1" location="result" />
+<GENE id="G22" spans="2423~2426" text="p21" location="result" />
+<GENE id="G23" spans="2643~2647" text="Gli1" location="background" />
+<GENE id="G24" spans="2657~2662" text="Ptch1" location="background" />
+<GENE id="G25" spans="2780~2785" text="Ptch1" location="background" />
+<GENE id="G26" spans="2863~2867" text="MTOR" location="background" />
+<GENE id="G27" spans="2755~2760" text="Krt14" location="background" />
+<GENE id="G28" spans="2916~2920" text="Gli1" location="background" />
+<GENE id="G29" spans="2930~2935" text="Ptch1" location="background" />
+<GENE id="G30" spans="3231~3235" text="PI3K" location="background" />
+<GENE id="G31" spans="3236~3240" text="MTOR" location="background" />
+<GENE id="G32" spans="3293~3296" text="SMO" location="background" />
+<GENE id="G33" spans="3424~3428" text="MTOR" location="background" />
+<GENE id="G34" spans="3497~3500" text="SMO" location="background" />
+<GENE id="G35" spans="3566~3570" text="PI3K" location="background" />
+<GENE id="G36" spans="3647~3651" text="PI3K" location="background" />
+<GENE id="G37" spans="3652~3656" text="MTOR" location="background" />
+<GENE id="G38" spans="3909~3912" text="SMO" location="result" />
+<DISEASE id="D0" spans="194~211" text="esophageal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="224~237" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="341~354" text="neuroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="533~536" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="572~575" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="946~949" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1382~1385" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1452~1455" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1559~1562" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2146~2149" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2223~2226" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2560~2563" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2664~2667" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2787~2790" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2937~2940" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3046~3049" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3203~3206" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="3327~3333" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D18" spans="3377~3392" text="medulloblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3450~3475" text="esophageal adenocarcinoma" location="background" disease1="disease of cellular proliferation" disease2="" />
+<DISEASE id="D20" spans="3527~3542" text="medulloblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3721~3737" text="rhabdomyosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3933~3936" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="2129~2142" text="overexpressed" location="background" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G18" geneText="AKT1" diseaseID="D9" diseaseText="BCC" relationID="R0" relationText="overexpressed" />
+</TAGS>
+</Genomics_ConceptTask>

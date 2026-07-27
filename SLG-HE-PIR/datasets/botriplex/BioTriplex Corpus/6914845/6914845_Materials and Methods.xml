@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Pre-processing of Preliminary Sample Data and Primary Screening of Lung Adenocarcinoma Immune-Related Genes
+The latest clinical follow-up information was downloaded using TCGA GDC API, as shown in  Table S1 . Moreover, RNA-Seq samples were downloaded and the immune-related gene set was downloaded from the ImmPort database, which covered 1811 genes.
+First, the tumor tissues were pre-processed, by the following steps: (1) removing samples with no clinical data, (2) removing the normal tissue sample data, (3) removing the genes of FPKM < 1 from all samples, (4) preserving only the expression profiles of immune-related genes, and (5) filtering out genes with exceeding low abundance. From this, 513 samples concerning 897 immune-related genes were utilized to further analyze the model. The clinical characteristics of the patients enrolled in the study are presented in  Table S2 . Next, the 513 samples were divided into a training set ( n  = 256) and a test set ( n  = 257) such that the two populations satisfied the following criteria: (1) samples were randomly divided into training and testing sets; (2) age distribution, clinical stage, follow-up time, and ratio of death between the two groups were similar. The final training set data are presented in  Table S3 , clinical follow-up information is shown in  Table S4 , testing set data are displayed in  Table S5 , and clinical follow-up information is illustrated in  Table S6 .
+Univariate and Multifactor Survival Analysis of the Training Set Immune-Related Genes
+All immune-related genes, as well as the survival data, were analyzed by the univariate and multivariate Cox proportional hazards regression model using the survival coxph function of the R package, and  p  < 0.05 was used as the significance level. The immune-related genes from the training set samples that were significant based on both univariate and multivariate analyses were selected as characteristic biomarkers for further analysis.
+Molecular Subtyping of Lung Adenocarcinoma, Screening of Prognosis-Specific Immune-Related Genes, and Construction of the Prognostic Prediction Model
+First, the pheatmap from R software package ( 15 ) was used for the hierarchical clustering analysis of immune-related genes that were significant based on both univariate and multivariate analyses, and the similarity distances between the samples were calculated based on the Euclidean distance.
+Moreover, glmnet from the R software package ( 16 ) was used for the LASSO Cox regression analysis, and the prognostic prediction model was constructed, which included 14 immune-related genes. The formula is as follows:
+
+           Risk Score 
+                   = 
+                   0.06 
+                     
+                   × 
+                    ENSG00000108671  
+                   + 
+                     
+                   0.611 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000196262  
+                   + 
+                     
+                   0.233 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000240972 
+                   + 
+                     
+                   − 
+                   0.139 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000112175  
+                   + 
+                     
+                   0.132 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000107984 
+                   + 
+                     
+                   0.169 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000100311  
+                   + 
+                     
+                   0.055 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000167772 
+                   + 
+                     
+                   0.295 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000115590  
+                   + 
+                     
+                   0.11 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000174564  
+                   + 
+                     
+                   0.488 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000111321  
+                   + 
+                     
+                   0.098 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000258839 
+                   + 
+                     
+                   0.121 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000151090  
+                   + 
+                     
+                   − 
+                   0.008 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000048462  
+                   + 
+                     
+                   0.524 
+                 
+                   
+               
+                 
+                                          
+                   × 
+                    ENSG00000067182 
+                   . 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+Next, the expression profile data of the corresponding genes were extracted from the training set and substituted into the model to calculate the RiskScore of each sample. Based on this, survivalROC from the R software package ( 17 ) was further utilized for the receiver operating characteristic (ROC) curve analysis of the high- and low-risk prognostic classifications of the RiskScore. For this, the 1-, 3-, 5-, and 10-years prognostic prediction efficacies were analyzed.
+Functional Annotations and Signaling Pathway Enrichment Analysis of the Prognosis-Specific Immune-Related Genes
+clusterProfiler from the R software package ( 18 ) was selected for functional gene annotations and KEGG enrichment analysis based on the aforementioned 14 prognosis-specific immune-related genes.
+Correlations Between the RiskScore and Clinical Features of Training Set Samples and Signaling Pathways
+First, the distributions of the RiskScore among different clinical stages, invasion degrees, and lymph node metastasis degrees were analyzed. Next, stage classification was incorporated into the model to construct a multivariate regression model; 5-year survival predicted by the ROC curves for three models, namely, stage, RiskScore, and stage+RiskScore, were then compared. The median risk score of each model was used as the threshold to divide the samples into high- and low-risk groups to draw the Kaplan–Meier (KM) curve to evaluate differences in prognostic classifications among the three models. Then, the ssGSEA function of the R software package GSVA ( 19 ) was utilized to analyze the KEGG functional enrichment score of each sample in the training set. The correlation with the RiskScore was calculated based on the enrichment score of each sample for each pathway, and the top 20 most related KEGG pathways were selected for clustering analysis based on their enrichment scores.
+Test Set Sample Verification
+The expression profile data of prognosis-specific immune-related genes were extracted from the test set and substituted into the model for calculation. The predicted results were calculated, and the prediction accuracy of this prognosis classification model, as well as the stability of immune feature recognition, was verified and analyzed.
+Statistical Analysis
+The TCGA dataset was randomly divided in half into a training and testing set, where the training set was analyzed to identify potential prognostic genes and the testing set and entire set were used for validation.
+First, Univariate Cox proportional hazards regression analysis was used to evaluate the association between the expression of immune-associated genes and patient overall survival (OS). Genes with a  p -value of < 0.05 based on the log-rank test were selected as candidate variables. Second, the least absolute shrinkage and selection operator (LASSO)-Cox method was applied to reduce the number of candidate genes and to select the most significant immune-associated genes to build a prognostic risk score model. The formula of the risk score model is described as follows:
+
+           Riskscore 
+                   = 
+                   ∑ 
+                       
+                         
+                       i 
+                         = 
+                         0 
+                       
+                         
+                       n 
+                       
+                         
+                     
+                       
+                   
+                     
+                   β 
+                   i 
+                     
+                       
+                     * 
+                     
+                       
+                   
+                     
+                   χ 
+                   i 
+                 
+                   
+               
+                 
+             
+               
+           
+             
+        
+where βi refers to the coefficients of each gene and χi represents the expression value of the gene (FPKM). The risk score model was calculated for each patient and used to classify each patient into a low- or high-risk group based on the median risk score of the training dataset as the cutoff. Patients in the low-risk group had a higher OS, and those included in the high-risk group had a lower OS. KM survival curves and log-rank tests were used to assess differences in OS between the predicted high- and low-risk groups. The sensitivity and specificity of the diagnostic and prognostic prediction models were analyzed by the ROC curve and quantified based on the area under the ROC curve (AUC). All statistical tests were two-sided and  p -values < 0.05 were considered statistically significant. All statistical analyses were performed using R software (version 3.5.0) and Bio-conductor.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="68~87" text="Lung Adenocarcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

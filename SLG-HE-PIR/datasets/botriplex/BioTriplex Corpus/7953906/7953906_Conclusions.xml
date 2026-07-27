@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In conclusion, our study provides preliminary evidence supporting a diagnostic potential of CXCL17 to distinguish severe pandemic influenza A(H1N1) from COVID-19 and other respiratory infections like PTB. In addition, we show that this chemokine may be useful as a prognostic biomarker in influenza patients, as serum levels of CXCL17 are associated with higher risk of renal failure and mortality. Finally, we found some possible cellular sources of CXCL17 during influenza. Future studies are required to better understand the function of this chemokine in lung defenses against the influenza A(H1N1) pdm09 virus and better evaluated a possible participation in immunity against SARS-CoV-2.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="93~99" text="CXCL17" location="result" />
+<GENE id="G1" spans="329~335" text="CXCL17" location="result" />
+<GENE id="G2" spans="452~458" text="CXCL17" location="result" />
+<DISEASE id="D0" spans="131~140" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D1" spans="154~162" text="COVID-19" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D2" spans="201~204" text="PTB" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D3" spans="290~299" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D4" spans="371~384" text="renal failure" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D5" spans="466~475" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<DISEASE id="D6" spans="586~595" text="influenza" location="result" disease1="disease by infectious agent" disease2="disease of anatomical entity" />
+<RELATION id="R0" spans="69~89" text="diagnostic potential" location="result" relation="diagnostic tool" />
+<RELATION id="R1" spans="340~367" text="associated with higher risk" location="result" relation="negative prognostic marker" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="CXCL17" diseaseID="D0" diseaseText="influenza" relationID="R0" relationText="diagnostic potential" />
+<ENTITY_LINKING id="E1" geneID="G0" geneText="CXCL17" diseaseID="D1" diseaseText="COVID-19" relationID="R0" relationText="diagnostic potential" />
+<ENTITY_LINKING id="E2" geneID="G1" geneText="CXCL17" diseaseID="D4" diseaseText="renal failure" relationID="R1" relationText="associated with higher risk" />
+</TAGS>
+</Genomics_ConceptTask>

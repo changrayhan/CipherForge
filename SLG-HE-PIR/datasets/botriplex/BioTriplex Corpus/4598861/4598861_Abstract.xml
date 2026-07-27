@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: EZH2-mediated loss of miR-622 determines CXCR4 activation in hepatocellular carcinoma.
+Abstract: The CXC chemokine receptor 4 (CXCR4) exerts a variety of functions at different steps of hepatocellular carcinoma (HCC) progression. The molecular mechanisms and therapeutic value of CXCR4 in the development of HCC remain undefined. Here we show that aberrant CXCR4 overexpression is associated with poor prognosis and aggressive characteristics of HCC. Suppression of CXCR4 activity via CXCR4 knockdown, AMD3100 or neutralizing antibody administration inhibits hepatoma cell tumorigenesis  in vitro  and  in vivo . CXCR4 overexpression displays the opposite effects. Using Mir library screening we identify miR-622 as a regulator of CXCR4. Further studies show that miR-622 directly target the 3′ untranslated region of CXCR4 and is transcriptionally repressed by EZH2-induced H3K27 trimethylation and promoter methylation. EZH2/miR-622 promotes tumorigenesis through CXCR4. EZH2-mediated loss of miR-622 is found to correlate with CXCR4 overexpression and unfavourable prognosis in HCC patients. This study establishes EZH2/miR-622/CXCR4 as a potential adverse prognostic factor and therapeutic target for HCC patients.
+
+ Chemokines and their receptors have key roles in tumorigenesis. Here, the authors demonstrate that CXRC4 is overexpressed in hepatocellular carcinoma and is associated with poor prognosis and, mechanistically CXCR4 is increased in expression via EZH2 repression of microRNA-622.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~12" text="EZH2" location="result" />
+<GENE id="G1" spans="49~54" text="CXCR4" location="background" />
+<GENE id="G2" spans="109~133" text="CXC chemokine receptor 4" location="background" />
+<GENE id="G3" spans="135~140" text="CXCR4" location="result" />
+<GENE id="G4" spans="288~293" text="CXCR4" location="result" />
+<GENE id="G5" spans="365~370" text="CXCR4" location="result" />
+<GENE id="G6" spans="474~479" text="CXCR4" location="result" />
+<GENE id="G7" spans="493~498" text="CXCR4" location="result" />
+<GENE id="G8" spans="621~626" text="CXCR4" location="result" />
+<GENE id="G9" spans="739~744" text="CXCR4" location="result" />
+<GENE id="G10" spans="826~831" text="CXCR4" location="result" />
+<GENE id="G11" spans="870~874" text="EZH2" location="result" />
+<GENE id="G12" spans="930~934" text="EZH2" location="result" />
+<GENE id="G13" spans="974~979" text="CXCR4" location="result" />
+<GENE id="G14" spans="981~985" text="EZH2" location="result" />
+<GENE id="G15" spans="1038~1043" text="CXCR4" location="result" />
+<GENE id="G16" spans="1126~1130" text="EZH2" location="result" />
+<GENE id="G17" spans="1139~1144" text="CXCR4" location="result" />
+<GENE id="G18" spans="1328~1333" text="CXRC4" location="result" />
+<GENE id="G19" spans="1438~1443" text="CXCR4" location="result" />
+<GENE id="G20" spans="1475~1479" text="EZH2" location="result" />
+<DISEASE id="D0" spans="69~93" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="194~218" text="hepatocellular carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="220~223" text="HCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="316~319" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="454~457" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1089~1092" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1213~1216" text="HCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="1354~1378" text="hepatocellular carcinoma" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="55~65" text="activation" location="result" relation="increased expression" />
+<RELATION id="R1" spans="142~171" text="exerts a variety of functions" location="background" relation="pathological role" />
+<RELATION id="R2" spans="371~385" text="overexpression" location="result" relation="increased expression" />
+<RELATION id="R3" spans="405~419" text="poor prognosis" location="result" relation="negative prognostic marker" />
+<RELATION id="R4" spans="1044~1058" text="overexpression" location="result" relation="increased expression" />
+<RELATION id="R5" spans="1063~1085" text="unfavourable prognosis" location="result" relation="negative prognostic marker" />
+<RELATION id="R6" spans="1160~1185" text="adverse prognostic factor" location="result" relation="negative prognostic marker" />
+<RELATION id="R7" spans="1190~1208" text="therapeutic target" location="result" relation="therapeutic target" />
+<RELATION id="R8" spans="1337~1350" text="overexpressed" location="result" relation="increased expression" />
+<RELATION id="R9" spans="1402~1416" text="poor prognosis" location="result" relation="negative prognostic marker" />
+<RELATION id="R10" spans="267~284" text="therapeutic value" location="result" relation="therapeutic target" />
+<RELATION id="R11" spans="301~312" text="development" location="result" relation="pathological role" />
+<ENTITY_LINKING id="E0" geneID="G1" geneText="CXCR4" diseaseID="D0" diseaseText="hepatocellular carcinoma" relationID="R0" relationText="activation" />
+<ENTITY_LINKING id="E1" geneID="G2" geneText="CXC chemokine receptor 4" diseaseID="D1" diseaseText="hepatocellular carcinoma" relationID="R1" relationText="exerts a variety of functions" />
+<ENTITY_LINKING id="E2" geneID="G3" geneText="CXCR4" diseaseID="D1" diseaseText="hepatocellular carcinoma" relationID="R1" relationText="exerts a variety of functions" />
+<ENTITY_LINKING id="E3" geneID="G2" geneText="CXC chemokine receptor 4" diseaseID="D2" diseaseText="HCC" relationID="R1" relationText="exerts a variety of functions" />
+<ENTITY_LINKING id="E4" geneID="G3" geneText="CXCR4" diseaseID="D2" diseaseText="HCC" relationID="R1" relationText="exerts a variety of functions" />
+<ENTITY_LINKING id="E5" geneID="G4" geneText="CXCR4" diseaseID="D3" diseaseText="HCC" relationID="R10" relationText="therapeutic value" />
+<ENTITY_LINKING id="E6" geneID="G4" geneText="CXCR4" diseaseID="D3" diseaseText="HCC" relationID="R11" relationText="development" />
+<ENTITY_LINKING id="E7" geneID="G5" geneText="CXCR4" diseaseID="D4" diseaseText="HCC" relationID="R2" relationText="overexpression" />
+<ENTITY_LINKING id="E8" geneID="G5" geneText="CXCR4" diseaseID="D4" diseaseText="HCC" relationID="R3" relationText="poor prognosis" />
+<ENTITY_LINKING id="E9" geneID="G15" geneText="CXCR4" diseaseID="D5" diseaseText="HCC" relationID="R4" relationText="overexpression" />
+<ENTITY_LINKING id="E10" geneID="G15" geneText="CXCR4" diseaseID="D5" diseaseText="HCC" relationID="R5" relationText="unfavourable prognosis" />
+<ENTITY_LINKING id="E11" geneID="G16" geneText="EZH2" diseaseID="D6" diseaseText="HCC" relationID="R6" relationText="adverse prognostic factor" />
+<ENTITY_LINKING id="E12" geneID="G16" geneText="EZH2" diseaseID="D6" diseaseText="HCC" relationID="R7" relationText="therapeutic target" />
+<ENTITY_LINKING id="E13" geneID="G17" geneText="CXCR4" diseaseID="D6" diseaseText="HCC" relationID="R6" relationText="adverse prognostic factor" />
+<ENTITY_LINKING id="E14" geneID="G17" geneText="CXCR4" diseaseID="D6" diseaseText="HCC" relationID="R7" relationText="therapeutic target" />
+<ENTITY_LINKING id="E15" geneID="G18" geneText="CXRC4" diseaseID="D7" diseaseText="hepatocellular carcinoma" relationID="R8" relationText="overexpressed" />
+<ENTITY_LINKING id="E16" geneID="G18" geneText="CXRC4" diseaseID="D7" diseaseText="hepatocellular carcinoma" relationID="R9" relationText="poor prognosis" />
+</TAGS>
+</Genomics_ConceptTask>

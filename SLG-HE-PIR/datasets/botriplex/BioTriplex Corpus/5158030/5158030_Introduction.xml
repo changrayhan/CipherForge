@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Cancers are thought to develop through accumulation of genetic and epigenetic alterations. A well-documented epigenetic alteration in human malignancies is aberrant DNA methylation. In mammals, DNA methylation is catalyzed by DNA methyltransferases (DNMTs), mainly at the C-5 position of cytosine (5-mC) in CpG dinucleotides. Cancer cells typically exhibit two patterns of abnormal DNA methylation: regional hypermethylation and global hypomethylation. Hypermethylation at gene promoter regions, especially CpG islands, is one of the major mechanisms by which tumor-related genes are inactivated in cancer. Moreover, a subset of cancers are characterized by concurrent hypermethylation at a number of CpG islands, which is termed the CpG island methylator phenotype (CIMP) [ 1 ]. The second pattern, global hypomethylation, is also commonly observed in malignancies, and can result in activation of oncogenes and retrotransposons, loss of imprinting and chromosomal instability.
+Evidence emerging in recent years has shown that the ten-eleven translocation (TET) proteins play key roles in the mediation of active DNA demethylation. Members of the TET family (TET1-TET3) are oxoglutarate- and iron-dependent dioxygenases that catalyze the oxidation of 5-mC to generate 5-hydroxymethylcytosine (5-hmC) [ 2 ]. Further, sequential oxidation of 5hmC by TET generates 5-formylcytosine (5-fC) and 5-carboxylcytosine (5-caC), which can be removed by thymine DNA glycosylase. Deamination of 5-hmC by the deaminases AID and APOBEC followed by base-excision repair could also promote active demethylation of DNA.
+The TET proteins and 5-hmC are critical to the regulation of pluripotency and differentiation potential in embryonic stem cells and induced pluripotent stem cells. Recent studies have shown that dysregulation of TET and 5-hmC levels could lead to carcinogenesis. Decreased TET expression and loss of 5-hmC are observed in various human malignancies, including melanoma and breast, lung, hepatic, gastric and esophageal cancers [ 3 – 7 ]. In addition, loss-of-function mutations in  TET2  and a resultant reduction in 5-hmC are observed in myeloid malignancies, including acute myeloid leukemia (AML), chronic myelomonocytic leukemia and myelodysplastic syndrome [ 8 ,  9 ]. There is also an important relationship between TET dysfunction and mutations in isocitrate dehydrogenase (IDH) family genes in several cancers. Somatic mutations in  IDH1  or  IDH2  result in the accumulation of an oncogenic metabolite, 2-hydroxyglutarate (2-HG), which can inhibit TET activity [ 10 ], and  IDH1/2  mutations are strongly associated with the hypermethylator phenotype in glioma and AML [ 11 – 13 ]. This suggests loss of TET function may increase CpG methylation through inhibition of active DNA demethylation.
+A significant reduction of 5-hmC is reportedly observed in approximately 70% of colorectal cancer (CRC) cases [ 14 ]. Decreased  TET1  expression is found in approximately half of CRCs, and it is strongly associated with loss of 5-hmC [ 14 ]. TET1-catalyzed 5-hmC formation regulates gene expression during the differentiation of colonocytes, and altered 5-hmC levels may contribute to tumorigenesis [ 15 ]. TET1 also exhibits tumor suppressor function through regulation of the Wnt signaling pathway in colon cancer cells [ 16 ]. Although  IDH1/2  mutations have not been reported in CRC, whole exome sequencing analysis identified mutations in all three TET family genes in CRC [ 17 ]. Furthermore, we and others recently reported that  TET1  is silenced in association with promoter CpG island hypermethylation in a subset of CRC cell lines [ 18 ].  TET1  methylation is preferentially observed in CIMP-positive primary CRCs as well as in CIMP-positive colorectal adenomas [ 18 ]. Methylation of TET1 CpG island in primary CRC is also reported by another group recently [ 19 ]. These observations suggest that loss of  TET1  function may induce aberrant DNA methylation during the development of CRC, although a direct link between loss of  TET1  and increased CpG methylation has not yet been confirmed in CRC cells. To clarify this issue, we assessed the effect of stable  TET1  knockdown on genome-wide DNA methylation and gene expression profiles in CRC cell lines. We observed that depletion of  TET1  leads to increased methylation at a number of CpG sites in a CRC cell line and may attenuate the effect of DNMT inhibition on gene expression profiles in CRC cells.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1161~1165" text="TET1" location="background" />
+<GENE id="G1" spans="1166~1170" text="TET3" location="background" />
+<GENE id="G3" spans="2445~2449" text="IDH1" location="background" />
+<GENE id="G4" spans="2455~2459" text="IDH2" location="background" />
+<GENE id="G5" spans="2587~2591" text="IDH1" location="background" />
+<GENE id="G6" spans="2936~2940" text="TET1" location="background" />
+<GENE id="G7" spans="3050~3054" text="TET1" location="background" />
+<GENE id="G8" spans="3215~3219" text="TET1" location="background" />
+<GENE id="G9" spans="3348~3352" text="IDH1" location="background" />
+<GENE id="G10" spans="3546~3550" text="TET1" location="background" />
+<GENE id="G11" spans="3660~3664" text="TET1" location="background" />
+<GENE id="G12" spans="3806~3810" text="TET1" location="background" />
+<GENE id="G13" spans="3929~3933" text="TET1" location="background" />
+<GENE id="G14" spans="4051~4055" text="TET1" location="background" />
+<GENE id="G15" spans="4185~4189" text="TET1" location="result" />
+<GENE id="G16" spans="4311~4315" text="TET1" location="result" />
+<GENE id="G17" spans="2086~2090" text="TET2" location="background" />
+<DISEASE id="D0" spans="1~7" text="Cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="327~333" text="Cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="630~636" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="1964~1972" text="melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1977~1983,2023~2029" text="breast ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1985~1989,2023~2029" text="lung ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="1991~1998,2023~2029" text="hepatic ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="2000~2007,2023~2029" text="gastric ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="2012~2022,2023~2029" text="esophageal ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="2175~2197" text="acute myeloid leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="2199~2202" text="AML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2205~2236" text="chronic myelomonocytic leukemia" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2241~2265" text="myelodysplastic syndrome" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2667~2673" text="glioma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2678~2681" text="AML" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="2887~2904" text="colorectal cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2906~2909" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2987~2990" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3311~3323" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3392~3395" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3483~3486" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="3636~3639" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="3730~3733" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="3763~3782" text="colorectal adenomas" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="3833~3836" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="4006~4009" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="4117~4120" text="CRC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="4264~4267" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="4378~4381" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="4471~4474" text="CRC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="2055~2081" text="loss-of-function mutations" location="background" relation="associated mutation" />
+<RELATION id="R2" spans="2595~2628" text="mutations are strongly associated" location="background" relation="associated mutation" />
+<RELATION id="R3" spans="2925~2934,2942~2952" text="Decreased ... expression" location="background" relation="decreased expression" />
+<RELATION id="R4" spans="3555~3563" text="silenced" location="background" relation="decreased expression" />
+<RELATION id="R5" spans="3991~4002" text="development" location="background" relation="pathological role" />
+<RELATION id="R6" spans="4042~4046" text="loss" location="background" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G17" geneText="TET2" diseaseID="D9" diseaseText="acute myeloid leukemia" relationID="R1" relationText="loss-of-function mutations" />
+<ENTITY_LINKING id="E1" geneID="G17" geneText="TET2" diseaseID="D10" diseaseText="AML" relationID="R1" relationText="loss-of-function mutations" />
+<ENTITY_LINKING id="E2" geneID="G17" geneText="TET2" diseaseID="D11" diseaseText="chronic myelomonocytic leukemia" relationID="R1" relationText="loss-of-function mutations" />
+<ENTITY_LINKING id="E3" geneID="G17" geneText="TET2" diseaseID="D12" diseaseText="myelodysplastic syndrome" relationID="R1" relationText="loss-of-function mutations" />
+<ENTITY_LINKING id="E4" geneID="G5" geneText="IDH1" diseaseID="D13" diseaseText="glioma" relationID="R2" relationText="mutations are strongly associated" />
+<ENTITY_LINKING id="E5" geneID="G5" geneText="IDH1" diseaseID="D14" diseaseText="AML" relationID="R2" relationText="mutations are strongly associated" />
+<ENTITY_LINKING id="E6" geneID="G6" geneText="TET1" diseaseID="D17" diseaseText="CRC" relationID="R3" relationText="Decreased ... expression" />
+<ENTITY_LINKING id="E7" geneID="G10" geneText="TET1" diseaseID="D21" diseaseText="CRC" relationID="R4" relationText="silenced" />
+<ENTITY_LINKING id="E8" geneID="G13" geneText="TET1" diseaseID="D25" diseaseText="CRC" relationID="R5" relationText="development" />
+<ENTITY_LINKING id="E9" geneID="G14" geneText="TET1" diseaseID="D26" diseaseText="CRC" relationID="R6" relationText="loss" />
+</TAGS>
+</Genomics_ConceptTask>

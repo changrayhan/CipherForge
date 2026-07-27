@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+In recent years there has been a significant increase of the use of testosterone treatment in men with “late onset hypogonadism” (LOH). From 2010 to 2013 in the US, approximately 80% of the testosterone prescriptions were for men between 40 and 74 years of age [ 1 ]. One reason for this is the awareness that LOH is associated with several significant health problems such as metabolic disorders, sexual dysfunction, osteopenia, and psychological stress [ 2 ]. Testosterone replacement therapy (TRT) has been used with the purpose to improve or even reverse these symptoms [ 3 ,  4 ]. TRT for LOH has however been questioned by the US food and drug administration (FDA) concerning the large increase in testosterone prescriptions, and how to define the group of patients with LOH in order to make more strict treatment recommendations. FDA also had concerns because of some support for an increased risk of cardiac problems, but not due to possible risks for prostate diseases [ 5 ], although conclusive evidence for its safety is still largely lacking.
+The prostate gland is an androgen target organ. In clinical medicine, strategies to minimize the stimulatory influences of androgens are successfully used to treat common prostate disorders such as prostate cancer (PC) and benign prostate hyperplasia (BPH). Consequently, it has long been believed that higher levels of testosterone increase the risk of PC and BPH. Since TRT is increasingly used in the aged male population the influence of such therapy on prostate diseases is of major importance. The aim of the present review was therefore to elucidate and discuss the role of testosterone, aging, and TRT for prostate health.
+]]></TEXT>
+<TAGS>
+<DISEASE id="D0" spans="1254~1269" text="prostate cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="1271~1273" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1410~1412" text="PC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

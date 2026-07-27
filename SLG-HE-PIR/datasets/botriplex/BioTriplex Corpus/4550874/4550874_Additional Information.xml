@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+ : Gonzalez, J.P.,  et al.  Selective Connexin43 Inhibition Prevents Isoproterenol-Induced Arrhythmias and Lethality in Muscular Dystrophy Mice.  Sci. Rep. 
+ 5 , 13490; doi: 10.1038/srep13490 (2015).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="39~49" text="Connexin43" location="result" />
+<DISEASE id="D0" spans="121~139" text="Muscular Dystrophy" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

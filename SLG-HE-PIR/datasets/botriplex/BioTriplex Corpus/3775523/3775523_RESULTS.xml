@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The androgen agonist-R1881 induces GNMT expression in PCa cells
+To investigate the relationship between androgen stimulation and GNMT expression, LNCaP cells that express AR were treated with R1881 for 24 h. Then, the GNMT mRNA expression levels were analysed using real-time PCR. The results showed that compared with the ethanol solvent control, GNMT mRNA expression levels in LNCaP cells were induced by R1881 in a dose-dependent manner (4.3-, 6.8- and 15-folds of induction for 0.1, 1 and 10 nM R1881 treatment, respectively) ( Figure 1 A). Time-course GNMT mRNA induction was also observed between 8 and 24 h after the cells were treated with 2 nM R1881 ( Figure 1 B). In contrast, negative results were obtained in AR-negative DU145 PCa cells ( Figure 1 A). In addition, GNMT mRNA expression levels in C4-2 cells were also induced by R1881 in a dose-dependent manner. The induction was suppressed by an androgen antagonist–bicalutamide in both LNCaP and C4-2 cells ( Figure 1 C). In consistent with previous finding, no effects on GNMT mRNA expression were observed in the other androgen-insensitive cell line-PC3 cells after R1881 treatment. Therefore GNMT can be induced by androgens in PCa cells expressing AR.
+Identification of the potential AREs in  GNMT
+To determine whether GNMT is regulated by AR directly, we tried to identify its responsive elements using  in silico  analyses with MatInspector program. The nucleotide sequences subject to the analysis spanning about 6.4 kb upstream and 3.7 kb downstream of the transcriptional start site of  GNMT . The results showed that there are three putative AREs located in the intron 1 of  GNMT : ARE1 (GTCTCAgccTGTACT) at +266/+280; ARE2 (AGAACAggcACTGCG) at +379/+393; ARE3 (AAACCAccaTGTTCT) at +1114/+1128. In addition, another ARE was found in the intron 2: ARE4 (GTGGCAtctTGTCCC) at +1788/+1802 ( Figure 2 ). Subsequently, we used RGAs to test whether those putative GNMT AREs are really functioning. Two plasmids-p147-intron1 and p147-intron2, which contain either intron 1 or intron 2 sequences at the upstream region of the GNMT core promoter (−133/+14) and luciferase gene were constructed. Subsequently, p147-intron1 or p147-intron2 was used to cotransfected HuH-7 cells with an AR-expressing plasmid-pSG5-AR. After 16 h of transfection, cells were treated with solvent (ethanol) or R1881 for 24 h and then they were harvested for reporter analysis. We did not observe any significant increase of luciferase enzyme activity in HuH-7 cells transfected with either p147-intron1 or p147-intron2 ( Figure 3 A).
+Since none of the putative AREs identified by  in silico  analysis were truly functioning, we decided to locate the AREs using the consensus sequence ( nGnACn nnn nGTnCn ) deduced from those AREs published previously. A putative ARE (ARE5, TGGACAgcgTGTACC at +19/+33) was located in the exon 1 coding region of  GNMT  ( Figure 2 ). To confirm the functionality of ARE5, we subcloned the ARE5 sequence into pGL3-Promoter and pGL3-147 and the resultants plasmids-promoter-ARE5 and p147-ARE5 were used in the RGA. The results showed that compared with the solvent control, R1881 treatment induced approximately 8-fold and 23-fold, respectively, in cells transfected with promoter-ARE5 and p147-ARE5, respectively ( Figure 3 B). In addition, no induction was observed in cells transfected with plasmid containing mutant ARE5 ( Figure 3 B). Furthermore, we confirmed that endogenous AR can mediate R1881 induced reporter activity by transfecting p147-ARE5 into LNCaP cells ( Figure 3 C). Therefore ARE5 (+19/+33) is the potential ARE in  GNMT .
+Identification of a YY1-binding motif in the intron 1 of GNMT at +1118/+1126
+We performed EMSA to evaluate the binding properties of those putative AREs of  GNMT . Complementary oligonucleotide probes were synthesized for wt and mutated putative AREs in intron 1 of  GNMT . Labelled oligonucleotides were incubated with nuclear extracts from COS-1 cells transfected with pSG5-AR and used to determine their capabilities to bind to nuclear proteins. The results showed that among oligonucleotides containing ARE1, ARE2 or ARE3, nuclear proteins only bind to the oligonucleotide containing ARE3 ( Figure 4 A). Since anti-AR antibody did not cause supershift in the EMSA ( Figure 4 A, lane 9), we suspected that the nuclear protein binds to the oligonucleotide containing ARE3 was not AR. We re-examined the sequence and found a putative YY1 binding site (CaCCATGTT, +1118/+1126) overlaps with ARE3. Subsequently, we performed EMSA and found that anti-YY1 antibody caused a supershift ( Figure 4 A, lane 10). In addition, oligonucleotide containing consensus YY1 sequence had positive results with dose-responsive manner in the competition assay ( Figure 4 A, lanes 11 and 12). In contrast, no competition was found in the EMSA using oligonucleotides containing either mutant ARE3/YY1 sequence or consensus ARE ( Figure 4 A, lanes 15–17). In order to further characterize the binding properties of ARE3/YY1 sequence, we performed ChIP assays in LNCap cells. Two representative region of the GNMT gene were investigated. As shown in  Figure 4 (B), YY1 was found to be enriched in the p2 region (+998 to +1185), containing the YY1 binding site (+1118/+1126) in the intron 1 of  GNMT  gene in LNCaP cells. Taken together, these results demonstrate a YY1-binding motif located in the intron 1 of  GNMT  gene.
+Confirmation of the ARE5 of  GNMT  gene by using EMSA
+As showed in  Figure 5 (A), the consensus ARE probe was used as a control to demonstrate the positions of the AR–ARE and anti-AR antibody–AR–ARE complexes in the EMSA. The results show that the wt ARE5 probe was capable of binding the AR present in the nuclear extracts of COS-1 cells ( Figure 5 A, lane 5) and the complex was diminished when excess cold competitors-consensus ARE ( Figure 5 A, lanes 6 and 7) or ARE5 ( Figure 5 A, lanes 8 and 9) were added to the reaction. However, the complex was not diminished when mutant ARE5 was added to the reaction ( Figure 5 A, lanes 10 and 11). Furthermore, a supershift band was observed when anti-AR antibody was added to the reaction ( Figure 5 A, lane 12). These results indicate that the ARE5 in the exon 1 coding region of  GNMT  interacts with AR directly.
+AR binds to ARE5 in response to R1881 treatment  in vivo
+Finally, we employed ChIP assay with PCR to confirm the interaction between AR and ARE5  in vivo . Chromatin fragments were immunoprecipitated by anti-AR antibodies from LNCaP cells which had been treated with R1881 for 4 h. DNA from immunoprecipitated complexes were isolated and amplified by PCR with primers for ARE5 region (+19/+33 in GNMT exon 1). As shown in  Figure 5 (B), a strong signal was observed in R1881-treated cells, while no signal was detected in the cells without R1881 treatment. It indicates that androgen agonist R1881 promotes the interaction between AR and the ARE5 of  GNMT  gene.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="36~40" text="GNMT" location="result" />
+<GENE id="G1" spans="130~134" text="GNMT" location="result" />
+<GENE id="G2" spans="172~174" text="AR" location="result" />
+<GENE id="G3" spans="219~223" text="GNMT" location="result" />
+<GENE id="G4" spans="349~353" text="GNMT" location="result" />
+<GENE id="G5" spans="558~562" text="GNMT" location="result" />
+<GENE id="G6" spans="778~782" text="GNMT" location="result" />
+<GENE id="G7" spans="1038~1042" text="GNMT" location="result" />
+<GENE id="G8" spans="1160~1164" text="GNMT" location="result" />
+<GENE id="G9" spans="1217~1219" text="AR" location="result" />
+<GENE id="G10" spans="1262~1266" text="GNMT" location="result" />
+<GENE id="G11" spans="1288~1292" text="GNMT" location="result" />
+<GENE id="G12" spans="1309~1311" text="AR" location="result" />
+<GENE id="G13" spans="1561~1565" text="GNMT" location="result" />
+<GENE id="G14" spans="1650~1654" text="GNMT" location="result" />
+<GENE id="G15" spans="1932~1936" text="GNMT" location="result" />
+<GENE id="G16" spans="2092~2096" text="GNMT" location="result" />
+<GENE id="G17" spans="2249~2251" text="AR" location="result" />
+<GENE id="G18" spans="2889~2893" text="GNMT" location="result" />
+<GENE id="G19" spans="3455~3457" text="AR" location="result" />
+<GENE id="G20" spans="3610~3614" text="GNMT" location="result" />
+<GENE id="G21" spans="3774~3778" text="GNMT" location="result" />
+<GENE id="G22" spans="3884~3888" text="GNMT" location="result" />
+<GENE id="G23" spans="3993~3995" text="AR" location="result" />
+<GENE id="G24" spans="3637~3640" text="YY1" location="result" />
+<GENE id="G25" spans="3674~3678" text="GNMT" location="result" />
+<GENE id="G26" spans="4236~4238" text="AR" location="result" />
+<GENE id="G27" spans="4399~4401" text="AR" location="result" />
+<GENE id="G28" spans="4452~4455" text="YY1" location="result" />
+<GENE id="G29" spans="4566~4569" text="YY1" location="result" />
+<GENE id="G30" spans="4895~4898" text="YY1" location="result" />
+<GENE id="G31" spans="5017~5020" text="YY1" location="result" />
+<GENE id="G32" spans="5105~5109" text="GNMT" location="result" />
+<GENE id="G33" spans="5161~5164" text="YY1" location="result" />
+<GENE id="G34" spans="5239~5242" text="YY1" location="result" />
+<GENE id="G35" spans="5290~5294" text="GNMT" location="result" />
+<GENE id="G36" spans="5361~5364" text="YY1" location="result" />
+<GENE id="G37" spans="5407~5411" text="GNMT" location="result" />
+<GENE id="G38" spans="5448~5452" text="GNMT" location="result" />
+<GENE id="G39" spans="6248~6252" text="GNMT" location="result" />
+<GENE id="G40" spans="6269~6271" text="AR" location="result" />
+<GENE id="G41" spans="6415~6417" text="AR" location="result" />
+<GENE id="G42" spans="6490~6492" text="AR" location="result" />
+<GENE id="G43" spans="6678~6682" text="GNMT" location="result" />
+<GENE id="G44" spans="6913~6915" text="AR" location="result" />
+<GENE id="G45" spans="6933~6937" text="GNMT" location="result" />
+<DISEASE id="D0" spans="55~58" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="740~743" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="1196~1199" text="PCa" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R0" spans="41~51" text="expression" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G0" geneText="GNMT" diseaseID="D0" diseaseText="PCa" relationID="R0" relationText="expression" />
+</TAGS>
+</Genomics_ConceptTask>

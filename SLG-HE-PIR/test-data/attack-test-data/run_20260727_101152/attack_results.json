@@ -1,0 +1,95 @@
+{
+  "attack_results": [
+    {
+      "attack_id": "L2",
+      "sub_attack": "a_t_mean_anova",
+      "metric": "a_t_class_mean_anova_pvalue",
+      "value": 3.396993633941747e-05,
+      "chance_level": 9.765625e-05,
+      "std_err": 0.0,
+      "p_value": 3.396993633941747e-05,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_samples": 200,
+      "n_positive": 0,
+      "verdict": "LEAK_DETECTED",
+      "notes": "Min p-value across 512 features of a_t: 3.3970e-05. Binomial aggregate: 267/512 features with raw p<0.05 (p=0.0000e+00 under Binomial(n=512, 0.05) null). BH-FDR min p_adj=3.3970e-05. Class means differ across labels (binomial aggregate + FDR)"
+    },
+    {
+      "attack_id": "L2",
+      "sub_attack": "a_t_norm_anova",
+      "metric": "a_t_norm_anova_pvalue",
+      "value": 0.5050373077392578,
+      "chance_level": 0.05,
+      "std_err": 0.0,
+      "p_value": 0.5050373077392578,
+      "ci": null,
+      "n_samples": 200,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "ANOVA p=5.0504e-01, eta²=0.0218: no meaningful norm difference across classes (effect size below 0.10)"
+    },
+    {
+      "attack_id": "L2",
+      "sub_attack": "a_t_kl_divergence",
+      "metric": "a_t_kl_divergence_mean",
+      "value": 0.003848835310037996,
+      "chance_level": 0.1,
+      "std_err": 0.0,
+      "p_value": null,
+      "ci": null,
+      "n_samples": 200,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "KL mean <= 0.1: a_t does not deviate from uniform baseline"
+    },
+    {
+      "attack_id": "L2",
+      "sub_attack": "result_S_mean_anova",
+      "metric": "result_S_class_mean_anova_pvalue",
+      "value": 0.0006142208585515618,
+      "chance_level": 9.765625e-05,
+      "std_err": 0.0,
+      "p_value": 0.0006142208585515618,
+      "ci": [
+        0.0,
+        0.9559218973223719
+      ],
+      "n_samples": 200,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "Min p-value across 512 features of result_S: 6.1422e-04. Binomial aggregate: 17/512 features with raw p<0.05 (p=9.5592e-01 under Binomial(n=512, 0.05) null). BH-FDR min p_adj=6.1422e-04. No systematic mean difference across classes (binomial aggregate)"
+    },
+    {
+      "attack_id": "L2",
+      "sub_attack": "result_S_norm_anova",
+      "metric": "result_S_norm_anova_pvalue",
+      "value": 0.1927090883255005,
+      "chance_level": 0.05,
+      "std_err": 0.0,
+      "p_value": 0.1927090883255005,
+      "ci": null,
+      "n_samples": 200,
+      "n_positive": 0,
+      "verdict": "PRIVACY_PRESERVED",
+      "notes": "ANOVA p=1.9271e-01, eta²=0.0371: no meaningful norm difference across classes (effect size below 0.10)"
+    }
+  ],
+  "metadata": {
+    "suite_version": "2.0",
+    "attacks_run": [
+      "L2"
+    ],
+    "n_steps": 50,
+    "n_eval_steps": 30,
+    "batch_size": 4,
+    "seed": 42,
+    "project_root": "/root/autodl-tmp/SLG-HE-PIR",
+    "hf_model": "/root/autodl-tmp/hf_cache/models--unsloth--Llama-3.2-1B/snapshots/9535bd9b1d1dea6acafbdc4813b728796aeb28da",
+    "data_dir": "/root/autodl-tmp/SLG-HE-PIR/datasets/trec-qc",
+    "use_gpu": true,
+    "timestamp": "20260727_101152"
+  }
+}

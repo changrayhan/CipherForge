@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Culture and identification of mesenchymal stem cells
+Mouse bone marrow MSCs were purchased from Cyagen Biosciences (Suzhou, China) and were routinely cultured in DMEM (Gibco, Carlsbad, CA, USA) supplemented with 10% fetal bovine serum (FBS; HyClone, Logan, UT, USA) and 1% penicillin-streptomycin (Gibco). The morphology of the cells was observed by optical microscopy. Flow cytometry was used to identify cell phenotypes with an MSC surface marker assay kit (Cyagen Biosciences). To verify the osteogenic differentiation and adipogenic differentiation ability, an MSC osteogenic differentiation kit and adipogenic differentiation kit (both from Cyagen Biosciences) were used according to the manufacturer’s instructions.
+Isolation and identification of MSC-Exos
+MSCs were cultured in DMEM with 10% exosome-depleted FBS (SBI, Palo Alto, CA, USA) for 48 h, and the supernatants were subsequently collected. Exosomes were isolated by ultracentrifugation. In brief, the supernatants were centrifuged at 300 ×  g  for 10 min, 2000 ×  g  for 10 min, 10000 ×  g  for 30 min and 100,000 ×  g  for 70 min. The pellets were then resuspended in PBS (Gibco) and stored at −80 °C.
+The morphology of the exosomes was observed by TEM (FEI, Hillsboro, OR, USA). NTA (Particle Metrix, Inning am Ammersee, Germany) was used to assess the size and concentration of the exosomes. Common markers of exosomes (CD9, CD63 and TSG101) and an endoplasmic reticulum marker (calnexin) were assessed by western blot analysis.
+Mouse models and treatments
+Male C57BL/6 mice (6 weeks old; 20–25 g) were purchased from Shanghai Jiesijie Laboratory Animal Co., Ltd. (Shanghai, China) and maintained in a specific pathogen-free-grade animal room. Mice were divided randomly into 4 different groups ( n  = 5): 1) Sham group; 2) UUO group; 3) UUO + L-Exos group; 4) UUO + H-Exos group. The UUO model was established as previously described. Briefly, a midline incision was performed to fully expose the left kidney. The left ureter was carefully separated, ligated and then dissected between the ligatures. In sham mice, the left kidney was also exposed but the ureter was not ligated. Mice were administered PBS, L-Exos or H-Exos via tail vein injection immediately after resuscitation. To investigate the role of miR-21a-5p in MSC-Exos, mice were injected intravenously with PBS, NC-Exos (100 μg), miR-21a-5p inhibitor -Exos, or miR-21a-5p mimic -Exos (100 μg).
+Cell culture and treatments
+The mouse TEC line, TCMK-1, was purchased from FuHeng Biology (Shanghai, China) and cultured in DMEM/F12 (Gibco) supplemented with 10% FBS (HyClone). TCMK-1 cells were incubated with TGF-β1 (PeproTech, Rocky Hill, NJ, USA) at a concentration of 10 ng/ml for 48 h to establish a glycolysis model in vitro. TCMK-1 cells were then treated with MSC-Exos (20 μg) to investigate their effects on glycolysis.
+RNA extraction and quantitative real-time PCR
+Total RNA was extracted from cells or kidney tissues using TRI reagent (Sigma–Aldrich, St. Louis, MO, USA). To extract miRNA from exosomes, the miRNeasy Serum/Plasma Kit (QIAGEN, Redwood City, CA, USA) was used. cDNA was synthesized using a Reverse Transcription Kit (Yeasen Biotechnology, Shanghai, China) or a Stem–Loop miRNA cDNA Synthesis Kit (Vazyme, Nanjing, China). Quantitative real-time PCR (qPCR) was performed using a SYBR Green Master Mix (Yeasen Biotechnology) or a miRNA qPCR kit (Vazyme) in a QuantStudio 5 instrument (Applied Biosystems, Foster City, CA, USA). GAPDH or U6 was used as the endogenous control. The primer sequences are shown in Table S 1 .
+Western blot analysis
+Equal amounts of protein extracted from cells and kidney tissues were subjected to electrophoresis and then transferred to a polyvinylidene fluoride membrane. The primary antibodies against CD9, CD63, TSG101, fibronectin, collagen I, HK2, PFKFB3, PFKM and α-tubulin were obtained from Abcam (Cambridge, UK). The primary antibody against calnexin was purchased from Cell Signaling Technology (Danvers, MA, USA).
+Histologic analysis
+Renal tissues were fixed in 10% formalin, embedded in paraffin and sliced into 5-μm-thick sections. After deparaffinization and rehydration, sections were stained with hematoxylin and eosin (H&E) and Sirius red. The area at the junction of the cortex and medulla in the section was selected for histological analysis. H&E staining was used to assess tubular injury using the following criteria: 0, no damage; 1, <25% damage; 2, 25–50% damage; 3, 50–75% damage; and 4, >75% damage. Sirius red staining was performed to evaluate the deposition of collagenous fibers in the renal interstitium. The positive area (red) of Sirius red staining was semiquantified using ImageJ. All histologic analysis were performed by two independent researchers who were blinded to the groupings.
+Immunohistochemistry staining
+For immunohistochemistry staining, sections were deparaffinized, rehydrated and subjected to antigen retrieval. After inactivation of endogenous peroxidase by 3% hydrogen peroxide, sections were blocked with 10% normal goat serum for 10 min followed by incubation with primary antibodies against fibronectin and HK2 (both from Abcam) at 4 °C overnight. After incubation with biotin-labeled secondary antibody and streptavidin-peroxidase complex (both from Solarbio, Beijing, China), the nuclei were counterstained with hematoxylin (Solarbio). ImageJ was used for semiquantitative analysis of the positive area (brown) of immunohistochemical staining.
+Immunofluorescence staining
+After deparaffinization, rehydration, and blocking with goat serum, kidney sections were incubated with an anti-α-SMA antibody (Abcam) at 4 °C overnight, followed by incubation with Alexa Fluor ®  488-conjugated goat anti-rabbit IgG (Abcam). DAPI (Sigma–Aldrich) was used to visualize the nuclei. The area of α-SMA +  was quantified by ImageJ.
+Glycolysis analysis
+A Seahorse XF96 Extracellular Flux Analyzer (Agilent Technologies, Santa Clara, CA, USA) was used for real-time analysis of ECAR. Seahorse XF calibrant (Agilent Technologies) was added to the utility plate, and the sensor cartridge and utility plate were placed in a non-CO 2  incubator overnight. TCMK-1 cells were seeded in a Seahorse XF96 culture microplate (Agilent Technologies) at a density of 10 5  cells per well overnight. The microplate was replaced with assay media and placed in a CO 2 -free incubator for 1 h followed by the addition of glucose, oligomycin and 2-DG into the injection ports of the sensor cartridge.
+Lactate assay
+The lactate concentration of the cell supernatant and kidney tissues was measured using a lactate assay kit (Nanjing Jiancheng Bioengineering Institute, Nanjing, China) according to the manufacturer’s instructions.
+Exosomal miRNA sequencing
+Library construction and sequencing of exosomal miRNA were performed by Obio Technology Corp., Ltd. (Shanghai, China). miRNAs were extracted with a TruSeq Small RNA Sample Prep Kit (Illumina, San Diego, CA, USA) and sequenced using HiSeq2000/2500 (Illumina).
+Cell transfection
+Bone marrow MSCs were transfected with a miR-21a-5p inhibitor, NC inhibitor, miR-21a-5p mimic, or NC mimic at a concentration of 150 nM using Lipofectamine 3000 (Invitrogen, Carlsbad, CA, USA) according to the manufacturer’s instructions. After 48 h of transfection, qPCR was performed to assess the expression of miR-21a-5p. The miR-21a-5p inhibitor, NC inhibitor, miR-21a-5p mimic, and NC mimic were synthesized by GenePharma (Shanghai, China) using the following sequences: miR-21a-5p inhibitor, 5′-UCAACAUCAGUCUGAUAAGCUA-3′; and NC inhibitor, 5′-CAGUACUUUUGUGUAGUACAA-3′; miR-21a-5p mimic: sense, 5′-UAGCUUAUCAGACUGAUGUUG-3′ and antisense, 5′-AACAUCAGUCUGAUAAGCUAUU-3′; NC mimic: sense, 5′-UUCUCCGAACGUGUCACGUTT-3′ and antisense, 5′-ACGUGACACGUUCGGAGAATT-3′.
+Luciferase reporter assay
+293 T cells were cotransfected with WT or MUT PFKM 3′ UTR luciferase vector and with miR-21a-5p mimic or NC mimic using GP-transfect-Mate (GenePharma). At 48 h after transfection, luciferase activity was assessed using a Dual-Luciferase Reporter Assay System kit (GenePharma).
+Statistical analysis
+Statistical analysis was performed using GraphPad Prism version 8.3.0 (GraphPad Software, San Diego, CA, USA). Data are shown as the mean ± standard deviation (SD). The unpaired Student’s  t  test was used for comparisons between two groups, and one-way ANOVA was used for comparisons among three or more groups.  p  < 0.05 was considered significant.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1390~1393" text="CD9" location="result" />
+<GENE id="G1" spans="1395~1399" text="CD63" location="result" />
+<GENE id="G2" spans="1404~1410" text="TSG101" location="result" />
+<GENE id="G3" spans="1449~1457" text="calnexin" location="result" />
+<GENE id="G4" spans="3788~3791" text="CD9" location="result" />
+<GENE id="G5" spans="3793~3797" text="CD63" location="result" />
+<GENE id="G6" spans="3799~3805" text="TSG101" location="result" />
+<GENE id="G7" spans="3807~3818" text="fibronectin" location="result" />
+<GENE id="G8" spans="3820~3830" text="collagen I" location="result" />
+<GENE id="G9" spans="3832~3835" text="HK2" location="result" />
+<GENE id="G10" spans="3837~3843" text="PFKFB3" location="result" />
+<GENE id="G11" spans="3845~3849" text="PFKM" location="result" />
+<GENE id="G12" spans="3935~3943" text="calnexin" location="result" />
+<GENE id="G13" spans="5131~5142" text="fibronectin" location="result" />
+<GENE id="G14" spans="5147~5150" text="HK2" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

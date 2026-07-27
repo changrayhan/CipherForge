@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Peritoneal Mesothelioma
+Mesotheliomas are malignancies arising from the serous cells forming the mesothelial linings of the pleura, pericardium, and peritoneum. The pleura is the most common site of diagnosis and accounts for the majority of mesotheliomas, while approximately 30% of cases are primary peritoneal in origin.[ 1 ] Peritoneal mesotheliomas in the general population are rare, with an annual incidence of 200–400 cases per year in the United States.[ 2 ] Risk factors for mesothelioma include occupational or industrial exposure to amphibole type asbestos fibers, genetic predisposition, and radiation.[ 3 ] The risk factors for pleural and peritoneal mesotheliomas are similar; however, asbestos exposure is more frequently associated with pleural disease.
+There are three histologic subtypes of mesothelioma: epithelioid, sarcomatoid, and biphasic (mixed epithelioid/sarcomatoid). Epithelioid forms of primary peritoneal mesothelioma treated with cytoreductive surgery and hyperthermic intraperitoneal chemotherapy have reasonably good prognosis, with 5 year survival rate (possibly cures) of 70% for women and 40% for men.[ 4 ] Purely sarcomatous mesotheliomas are rare and sarcomatoid differentiation typically portends a poor prognosis.[ 5 ]
+Molecular understanding of this rare entity has lagged behind the more prevalent human cancers. Much of the molecular information regarding peritoneal mesotheliomas is extrapolated from their pleural counterparts. Homozygous deletion of the 9p21 region has been described in a subset of body cavity mesotheliomas and can be useful for diagnosis and prognosis.[ 6 ] This deletion results in the simultaneous loss of  CDKN2A  (p16) and  ARF  (p14), two key regulators of the cell cycle. Similarly, the  BRCA-associated protein 1 (BAP1)  gene at 3p21 is also commonly lost or inactivated in mesothelioma.[ 7 ] Germline mutations in  BAP1  are known to predispose carriers to mesothelioma,[ 8 ] and other malignancies such as uveal melanoma and clear cell renal carcinoma.[ 9 ]
+Loss of the tumor suppressors  NF2  and  LATS2  have both been described in pleural mesotheliomas[ 10 ].  LATS2  transcribes a regulatory protein in the Hippo signaling pathway, involved in the determination of organ size through the regulation of cellular proliferation and apoptosis. Over-expression of anti-apoptotic factors such as  BCL-XL  has been postulated to play a role in mesothelioma pathogenesis.[ 11 ] Several receptor tyrosine kinases, including  EGFR ,  PDGFR ,  KIT ,  VEGFR , and  MET  may drive mesothelioma growth; however attempts at targeted therapy towards these receptors have been unsuccessful.[ 12 ] Whole-genome analyses of pleural mesothelioma have identified a number of single-nucleotide variations (SNVs), as well as gross chromosomal alterations.[ 13 ] To our knowledge, results from whole-genome analysis of peritoneal mesothelioma have not been previously reported.
+Personalized OncoGenomics
+The Personalized OncoGenomics project at the British Columbia Cancer Agency (Vancouver, Canada) is an ongoing study evaluating the use of comprehensive molecular analyses to guide diagnosis and treatment of patients with advanced malignancies. Patients are referred to the program by their treating oncologists, and are selected based upon tumor type, performance status, and limited treatment options.
+Molecular workup is performed on one or more fresh-frozen tumor biopsies obtained specifically for molecular analyses, as well as archival tissue, typically FFPE (formalin-fixed, paraffin-embedded) blocks and a peripheral blood sample as a germline DNA reference. Molecular analyses include targeted deep sequencing of a panel of cancer-related genes, whole-genome sequencing, and gene expression profiling using RNA Seq (performed on fresh-frozen biopsies only). Data are processed using a well-established bioinformatics pipeline. Each case is presented at a multi-disciplinary conference with oncologists, molecular pathologists, bioinformaticians, and basic scientists. Clinical history, imaging, pathology, and molecular results are reviewed and clinically actionable findings are discussed. The aim of this approach is to provide patients and their oncologists with rational treatment options by linking genomic data with available targeted therapies or active clinical trials.
+To date, more than 100 patients have participated in the Personalized OncoGenomics (POG) study. POG analyses have provided accurate and definitive diagnosis in instances where conventional clinical, radiological, and pathological methods have failed.[ 14 ] From a research perspective, the program has led to the first whole genome sequences of rare tumor types such as appendiceal adenocarcinoma, and in this report, peritoneal mesothelioma. In this report, we review the clinical history and molecular findings from two patients with primary peritoneal mesothelioma and discuss how the POG approach may offer new insights into the biology and clinical management of this difficult to treat disease.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1677~1683" text="CDKN2A" location="background" />
+<GENE id="G1" spans="1696~1699" text="ARF" location="background" />
+<GENE id="G2" spans="1762~1787" text="BRCA-associated protein 1" location="background" />
+<GENE id="G3" spans="1789~1793" text="BAP1" location="background" />
+<GENE id="G4" spans="1891~1895" text="BAP1" location="background" />
+<GENE id="G5" spans="2066~2069" text="NF2" location="background" />
+<GENE id="G6" spans="2076~2081" text="LATS2" location="background" />
+<GENE id="G7" spans="2141~2146" text="LATS2" location="background" />
+<GENE id="G9" spans="2497~2501" text="EGFR" location="background" />
+<GENE id="G10" spans="2505~2510" text="PDGFR" location="background" />
+<GENE id="G11" spans="2514~2517" text="KIT" location="background" />
+<GENE id="G12" spans="2521~2526" text="VEGFR" location="background" />
+<GENE id="G13" spans="2534~2537" text="MET" location="background" />
+<DISEASE id="D0" spans="1~24" text="Peritoneal Mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D1" spans="25~37" text="Mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D2" spans="243~255" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="330~353" text="Peritoneal mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="486~498" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D5" spans="655~679" text="peritoneal mesotheliomas" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D6" spans="811~823" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D7" spans="926~949" text="peritoneal mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D8" spans="1164~1176" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D9" spans="1348~1354" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D10" spans="1401~1424" text="peritoneal mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D11" spans="1560~1572" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D13" spans="1849~1861" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D14" spans="1933~1945" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D15" spans="1983~1997" text="uveal melanoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2002~2028" text="clear cell renal carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="2418~2430" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D20" spans="2549~2561" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D22" spans="2876~2899" text="peritoneal mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D23" spans="3694~3700" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D25" spans="4766~4789" text="peritoneal mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D26" spans="4892~4915" text="peritoneal mesothelioma" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D27" spans="2694~2706" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D28" spans="4718~4744" text="appendiceal adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D30" spans="2119~2131" text="mesothelioma" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<RELATION id="R0" spans="1826~1845" text="lost or inactivated" location="background" relation="causative inhibition" />
+<RELATION id="R2" spans="1868~1886" text="Germline mutations" location="background" relation="associated mutation" />
+<RELATION id="R4" spans="2035~2042" text="Loss of" location="background" relation="decreased expression" />
+<RELATION id="R7" spans="2543~2548,2562~2568" text="drive ... growth" location="background" relation="modulator increase disease" />
+<ENTITY_LINKING id="E0" geneID="G2" geneText="BRCA-associated protein 1" diseaseID="D13" diseaseText="mesothelioma" relationID="R0" relationText="lost or inactivated" />
+<ENTITY_LINKING id="E1" geneID="G4" geneText="BAP1" diseaseID="D14" diseaseText="mesothelioma" relationID="R2" relationText="Germline mutations" />
+<ENTITY_LINKING id="E2" geneID="G3" geneText="BAP1" diseaseID="D13" diseaseText="mesothelioma" relationID="R0" relationText="lost or inactivated" />
+<ENTITY_LINKING id="E4" geneID="G4" geneText="BAP1" diseaseID="D15" diseaseText="uveal melanoma" relationID="R2" relationText="Germline mutations" />
+<ENTITY_LINKING id="E5" geneID="G4" geneText="BAP1" diseaseID="D16" diseaseText="clear cell renal carcinoma" relationID="R2" relationText="Germline mutations" />
+<ENTITY_LINKING id="E10" geneID="G9" geneText="EGFR" diseaseID="D20" diseaseText="mesothelioma" relationID="R7" relationText="drive ... growth" />
+<ENTITY_LINKING id="E11" geneID="G10" geneText="PDGFR" diseaseID="D20" diseaseText="mesothelioma" relationID="R7" relationText="drive ... growth" />
+<ENTITY_LINKING id="E12" geneID="G11" geneText="KIT" diseaseID="D20" diseaseText="mesothelioma" relationID="R7" relationText="drive ... growth" />
+<ENTITY_LINKING id="E13" geneID="G12" geneText="VEGFR" diseaseID="D20" diseaseText="mesothelioma" relationID="R7" relationText="drive ... growth" />
+<ENTITY_LINKING id="E14" geneID="G13" geneText="MET" diseaseID="D20" diseaseText="mesothelioma" relationID="R7" relationText="drive ... growth" />
+<ENTITY_LINKING id="E15" geneID="G5" geneText="NF2" diseaseID="D30" diseaseText="mesothelioma" relationID="R4" relationText="Loss of" />
+<ENTITY_LINKING id="E16" geneID="G6" geneText="LATS2" diseaseID="D30" diseaseText="mesothelioma" relationID="R4" relationText="Loss of" />
+</TAGS>
+</Genomics_ConceptTask>

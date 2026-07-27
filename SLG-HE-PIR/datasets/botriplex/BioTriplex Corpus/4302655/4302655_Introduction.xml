@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+A prominent form of eye-mediated peripheral tolerance is termed anterior chamber-associated immune deviation (ACAID), which can be successfully induced in mice, primates and humans [ 1 ]. Following their entry into the immune privileged anterior chamber (AC) of the eye, antigens are regionally processed before getting picked up and processed by F4/80 +  macrophages [ 2 ] that induce peripheral tolerance mediated  via  secretion of TGF-β in concert with the concomitant down-regulation of CD40 and interleukin-12 [ 3 , 4 ]. These macrophages have been shown to induce an antigen-specific state of immune tolerance by migrating directly to the spleen [ 5 ]  via  bloodstream within the trabecular meshwork [ 6 ], and with the help of splenic accessory immune cells [ 7 , 8 ]. This form of tolerance is mainly characterized by antigen-specific suppression of delayed-type hypersensitivity (DTH) reactions mediated through CD4 +  afferent T regulatory cells (Tregs) and CD8 +  efferent Tregs [ 9 , 10 ]. CD8 +  Tregs have also been proven to play major suppressive roles in various autoimmune diseases.
+Rheumatoid arthritis (RA) is characterized by the chronic inflammation of joints and is an autoimmune disorder which gradually erodes bone and cartilage. Type II collagen (CII)-induced arthritis has proven to be a powerful model of human RA and has helped delineate the roles of cellular and molecular mediators in the pathogenesis of inflammatory joint disease [ 11 ]. Degradation of CII has also been associated with ageing and osteoarthritis [ 12 ]. The clinical significance of CII in RA is well-established [ 13 ]. Studies reported that arthritis could be induced in C57BL/6 mice when immunized with CII [ 14 – 16 ]. CII-mediated ACAID induction resulting from the injection of CII into the AC of the eye or the adoptive transfer of  in vitro -generated CII-specific ACAID antigen-presenting cells (APCs) in Balb/c mice has been recently shown by our group [ 17 , 18 ]. In this study, we aimed to test for CII-induced ACAID in arthritis-prone strains of mice (C57BL/6 and DBA/1). We hypothesized that CII-specific immune tolerance can be induced either through AC injection of CII or the adoptive transfer of  in vitro -generated ACAID macrophages that are specific to CII into C57BL/6 or DBA/1 mice. We tested for ACAID generation following the AC injection of CII or intravenous injection of CII-specific ACAID APCs in C57BL/6 or DBA/1 mice by DTH assays. Further, we examined the regulatory functions of  in vitro -generated CII-specific T cells in C57BL/6 and DBA/1 mice using local adoptive transfer (LAT) assays. This is the first study to report the  in vivo  and  in vitro  generation of CII-specific ACAID-mediated tolerance in DBA/1 and C57BL/6 mice.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="436~441" text="TGF-β" location="background" />
+<GENE id="G1" spans="493~497" text="CD40" location="background" />
+<GENE id="G2" spans="924~927" text="CD4" location="background" />
+<GENE id="G3" spans="971~974" text="CD8" location="background" />
+<GENE id="G4" spans="1005~1008" text="CD8" location="background" />
+<DISEASE id="D0" spans="1104~1124" text="Rheumatoid arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D1" spans="1126~1128" text="RA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="1289~1298" text="arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D3" spans="1342~1344" text="RA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D4" spans="1534~1548" text="osteoarthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D5" spans="1593~1595" text="RA" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D6" spans="1646~1655" text="arthritis" location="background" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D7" spans="2036~2045" text="arthritis" location="result" disease1="disease of anatomical entity" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

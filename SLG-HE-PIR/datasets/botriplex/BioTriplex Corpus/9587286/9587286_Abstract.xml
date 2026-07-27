@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Title: HDAC6-dependent deacetylation of TAK1 enhances sIL-6R release to promote macrophage M2 polarization in colon cancer.
+Abstract: Histone deacetylase 6 (HDAC6), a member of the HDAC family, has been identified as a potential therapeutic target for tumor therapy, but the function and underlying mechanisms of HDAC6 in colon cancer are incompletely characterized. Our study showed that the infiltration ratio of M2 macrophages was increased in colon cancer tissues with high HDAC6 expression. Similarly, the knockdown of HDAC6 in colon cancer cells inhibited cocultured macrophage M2 polarization in vitro. Analysis of the antibody chip revealed that HDAC6 promoted sIL-6R release to enhance macrophage M2 polarization. Mass spectrometry and immunoprecipitation demonstrated that, mechanistically, HDAC6 interacted with transforming growth factor β–activated kinase 1 (TAK1), deacetylated TAK1 at T178 and promoted TAK1 phosphorylation. TAK1-p38 MAPK signaling could further increase the phosphorylation and activity of ADAM17, which is responsible for shedding of IL-6R. Notably, the expression of phosphorylated TAK1 was positively correlated with HDAC6 expression and macrophage M2 polarization in human colon cancer tissues. Our study revealed a new HDAC6-TAK1-ADAM17 regulatory axis that mediates sIL-6R release and macrophage polarization in colon cancer.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="8~13" text="HDAC6" location="result" />
+<GENE id="G1" spans="41~45" text="TAK1" location="result" />
+<GENE id="G2" spans="135~156" text="Histone deacetylase 6" location="background" />
+<GENE id="G3" spans="158~163" text="HDAC6" location="background" />
+<GENE id="G4" spans="314~319" text="HDAC6" location="background" />
+<GENE id="G5" spans="479~484" text="HDAC6" location="result" />
+<GENE id="G6" spans="525~530" text="HDAC6" location="result" />
+<GENE id="G7" spans="655~660" text="HDAC6" location="result" />
+<GENE id="G8" spans="802~807" text="HDAC6" location="result" />
+<GENE id="G9" spans="824~871" text="transforming growth factor β–activated kinase 1" location="result" />
+<GENE id="G10" spans="873~877" text="TAK1" location="result" />
+<GENE id="G11" spans="893~897" text="TAK1" location="result" />
+<GENE id="G12" spans="919~923" text="TAK1" location="result" />
+<GENE id="G13" spans="941~945" text="TAK1" location="result" />
+<GENE id="G14" spans="946~949" text="p38" location="result" />
+<GENE id="G15" spans="1024~1030" text="ADAM17" location="result" />
+<GENE id="G16" spans="1069~1074" text="IL-6R" location="result" />
+<GENE id="G17" spans="1118~1122" text="TAK1" location="result" />
+<GENE id="G18" spans="1154~1159" text="HDAC6" location="result" />
+<GENE id="G19" spans="1258~1263" text="HDAC6" location="result" />
+<GENE id="G20" spans="1264~1268" text="TAK1" location="result" />
+<GENE id="G21" spans="1269~1275" text="ADAM17" location="result" />
+<GENE id="G22" spans="1307~1312" text="IL-6R" location="result" />
+<GENE id="G23" spans="56~61" text="IL-6R" location="result" />
+<DISEASE id="D0" spans="111~123" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="323~335" text="colon cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="448~460" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="534~546" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="1211~1223" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="1352~1364" text="colon cancer" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="474~478,485~495" text="high ... expression" location="result" relation="increased expression" />
+<ENTITY_LINKING id="E0" geneID="G5" geneText="HDAC6" diseaseID="D2" diseaseText="colon cancer" relationID="R1" relationText="high ... expression" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,9 @@
+[
+  {
+    "epoch": 0,
+    "timestamp": 1785154445.7070162,
+    "elapsed_s": 116.04940271377563,
+    "train_loss": 124160.0,
+    "train_steps": 20
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "config": {
+    "poly_degree": 4096,
+    "coeff_primes": 3,
+    "slot_bytes": 8,
+    "hidden_dim": 4096,
+    "per_token_ct_bytes": 98304,
+    "per_token_plain_bytes": 32768
+  },
+  "estimates": {
+    "cls_task_3072_tokens": {
+      "tokens_per_step": 3072,
+      "per_token_ct_bytes": 98304,
+      "per_token_plain_bytes": 32768,
+      "forward_u_to_m_bytes": 301989888,
+      "forward_m_to_s_bytes": 1024,
+      "forward_s_to_u_bytes": 301989888,
+      "backward_u_to_m_bytes": 301989888,
+      "backward_m_to_s_bytes": 100663296,
+      "backward_s_to_u_bytes": 100663296,
+      "total_forward_bytes": 603980800,
+      "total_backward_bytes": 503316480,
+      "total_bytes_per_step": 1107297280
+    },
+    "ner_task_3584_tokens": {
+      "tokens_per_step": 3584,
+      "per_token_ct_bytes": 98304,
+      "per_token_plain_bytes": 32768,
+      "forward_u_to_m_bytes": 352321536,
+      "forward_m_to_s_bytes": 1024,
+      "forward_s_to_u_bytes": 352321536,
+      "backward_u_to_m_bytes": 352321536,
+      "backward_m_to_s_bytes": 117440512,
+      "backward_s_to_u_bytes": 117440512,
+      "total_forward_bytes": 704644096,
+      "total_backward_bytes": 587202560,
+      "total_bytes_per_step": 1291846656
+    }
+  },
+  "source": "scripts/function-tests/comm_overhead_estimate.py"
+}

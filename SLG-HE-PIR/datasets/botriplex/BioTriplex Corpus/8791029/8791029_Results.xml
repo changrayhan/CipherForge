@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Progranulin Expression, Knockdown, and Over-Expression in NSC-34 Cells
+NSC-34 vector control cells, and cells that either stably over-express human PGRN (NSC-34/hPGRN) or under-express murine PGRN (NSC-34/shPGRN) were generated ( Supplementary Figure 1 ). PGRN levels were depleted by approximately 50% in NSC-34/shPGRN cells, a reduction equivalent to that associated with FTD-GRN ( Supplementary Figures 1A,B ). To confirm their neuron-like identity NSC-34 cells were stained for the motor neuron marker SMI32, which recognizes dephosphorylated epitopes of neurofilaments ( Supplementary Figure 1C ). Neither depletion nor over-expression of PGRN altered TDP-43 mRNA or protein expression ( Supplementary Figure 1D ).
+Progranulin Regulates NSC-34 Cell Neurite Outgrowth, Morphology, and Survival
+Progranulin expression had a strong impact on the shape and size of the cell body. At 48 h of culture, cell bodies of NSC-34/hPGRN have greater area and are flattened compared to the controls and NSC-34/shPGRN cells, which are typically small and circular ( Figures 1A,B ). Neurite length was greater in NSC-34/hPGRN cells than control or NSC-34/shPGRN cells when serum was present (10 or 1%). Extension in NSC-34/shPGRN often appeared to be poorly condensed and disorganized, which we refer to as “tortuous” ( Figures 1A,B ). Serum-deprivation stimulates differentiation in NSC-34 cells ( Eggett et al., 2000 ) and, correspondingly, over an 8 day period in the absence of serum, all cells exhibited neurite extension with no significant difference detected in neurite length between NSC-34/hPGRN and NSC-34/shPGRN cells ( Figure 1C ). Extensive cell death occurs in the NSC-34/shPGRN cells after 8 days in serum free medium, at which point measurements were discontinued. PGRN is secreted but also localizes cytoplasmically, due, at least in part, to endocytosis into lysosomes ( Hu et al., 2010 ;  Petoukhov et al., 2013 ;  Zhou et al., 2015 ,  2017 ). Neurons secrete PGRN in an activity dependent manner ( Petoukhov et al., 2013 ). There are in addition multiple paracrine extracellular sources of PGRN including microglia ( Ryan et al., 2009 ;  Hu et al., 2010 ) and de-differentiated Schwann cells ( Hyung et al., 2019 ). We therefore tested whether extracellular PGRN, mimicking the secreted protein, reproduces the morphological and survival phenotypes associated with endogenous PGRN expression. Exogenous PGRN added to the medium reproduced the effects of stable PGRN expression as WT NSC-34 cells displayed longer neurite outgrowth compared to cells cultured without PGRN on nitrocellulose coated plates pre-treated with PGRN in the presence of 10% serum ( Figure 1D ). Cell survival of NSC-34/shPGRN cells in 8-day serum-reduced culture decreased relative to WT NSC-34 cells as expected ( Ryan et al., 2009 ), but adding PGRN to the medium restores NSC-34/shPGRN cell numbers to the levels of control NSC-34 cells ( Figure 1E ).
+Gene Expression Profiling
+Given that the cells undergo active morphological differentiation within 2 days incubation in 1% serum with no loss of viability ( Figure 1 ), all subsequent molecular analyzes were performed under these conditions. Gene expression microarrays were used to identify how the mRNA phenotype of NSC-34 cells responds to PGRN expression levels. The anticipated expression level of PGRN were confirmed in each of the NSC-34/shPGRN, control and NSC-34/hPGRN cell lines prior to the analysis ( Supplementary Figure 2A ). Genes showing statistically significant changes in expression were identified by FlexAarray analysis software. Principal component analysis confirmed that the data from each of NSC-34/shPGRN, NSC-34/hPGRN and vector controls cells segregates independently ( Supplementary Figure 2B ). Among genes that showed the greatest fold down-regulation in NSC-34/shPGRN cells compared to NSC-34/hPGRN cells ( Table 1 ) were several associated with neurotransmission (dopamine decarboxylase, vesicular GABA transporter, alpha-2 adrenergic receptor), cytoskeletal organization (Stathmin 2, FGD2, SRGAP3), and RNA-binding proteins with roles in neuron development, survival, or congenital motor disorders (IGF2BP1, TSHZ1, GLE1).
+
+           TABLE 1 
+           Top 20 down-regulated genes in NSC-34/shPGRN cells compared with NSC-34/hPGRN cells. 
+           
+             
+           Gene symbol 
+                 Gene and implication 
+                 Fold change (down regulated) 
+               
+                 
+             
+               
+             HMCN1 
+                 Hemicentin-1 
+                 6.18 
+               
+                 
+               TTF1 
+                 Transcription termination factor 1 
+                 5.05 
+               
+                 
+               WFDC3 
+                 WAP four-disulfide core domain protein 
+                 5.01 
+               
+                 
+               SDSL 
+                 Serine dehydratase-like 
+                 3.74 
+               
+                 
+               STC1 
+                 stanniocalcin 
+                 3.69 
+               
+                 
+               IGF2BP1 
+                 Insulin-like growth factor 2 mRNA binding protein1 Axonal outgrowth 1 
+                 3.58 
+               
+                 
+               DDC 
+                 dopamine decarboxylase 
+                 3.44 
+               
+                 
+               STRA6 
+                 Stimulated by retinoic acid 6 
+                 3.08 
+               
+                 
+               STMN2 
+                 Stathmin 2 
+                 2.75 
+               
+                 
+               SLC32A1 
+                 Vesicular GABA transporter 
+                 2.65 
+               
+                 
+               FGD2 
+                 RhoGEF and PH domain containing 2 CDC42- specific exchange factor 
+                 2.63 
+               
+                 
+               6430517E21RIK 
+                 Similar to human fam5b 
+                 2.54 
+               
+                 
+               ADRA2A 
+                 Alpha-2-Adrenergic receptor 
+                 2.53 
+               
+                 
+               SRGAP3 
+                 Slit-Robo Rho GTPase-activating protein 3 Severe mental retardation 
+                 2.49 
+               
+                 
+               TSHZ1 
+                 Teashirt zinc finger homeobox 1 Motor neuron development, survival and function 
+                 2.49 
+               
+                 
+               CES1 
+                 Carboxylesterase 1 
+                 2.47 
+               
+                 
+               DKK1 
+                 Dickkopf-related protein 1 
+                 2.47 
+               
+                 
+               4933405K21RIK 
+                 GLE1A and GLE1B RNA export mediator Lethal congenital contracture syndrome and ALS 
+                 2.46 
+               
+                 
+               2310005C01RIK 
+                 neuronal nitric oxide synthase 
+                 2.43 
+               
+                 
+               EG433865 
+                 similar to spermidine/spermine N1-acetyltransferase 
+                 2.42 
+               
+                 
+             
+               
+           
+             
+           Azzouz et al., 2002 ;  Bucheler et al., 2002 ;  Johnson et al., 2003 ), cytoskeletal organization (Stathmin 2, FGD2, SRGAP3) ( Endris et al., 2002 ;  Budhachandra et al., 2008 ;  Hayakawa et al., 2008 ;  Carlson et al., 2011 ;  Klim et al., 2019 ) and RNA-binding proteins with roles in neuron development, survival, or congenital motor disorders (IGF2BP1, TSHZ1, GLE1) ( Nousiainen et al., 2008 ;  Gaynes et al., 2015 ;  Zhang et al., 2018 ;  Chaimowicz et al., 2019 ). Note the presence of genes associated with neurotransmission, cytoskeletal organization, and congenital neurological disorders. Among genes that showed the greatest fold down-regulation in NSC-34/shPGRN cells compared to NSC-34/hPGRN cells were several associated with neurotransmission (dopamine decarboxylase, vesicular GABA transporter, alpha-2 adrenergic receptor) ( 
+ 
+ 
+             
+               
+           
+             
+        
+Ingenuity Pathway analysis identified potential PGRN-sensitive functional networks ( Table 2 ). Among “biological function” networks PGRN knockdown was associated with neurological disease, behavior and nervous system development and function. The strong neurological disease-related signature in the downregulated data set of NSC-34/shPGRN cells implies that they exhibit disease-relevant molecular signals of neuronal disturbance, and this data set was, therefore, prioritized for further analysis. The top five IPA Associated Network Functions for PGRN knockdown cells versus PGRN over-expressors, based on a 1.5-fold cutoff difference for transcript expression, are given in  Table 3 . Details of each of the IPA Associated Network Functions are given in  Supplementary Figure 3 . Manual inspection of IPA network 1 predicts a potential sub-network associated with histone remodeling. Network 2 predicts two sub-networks associated with sterol metabolism and triglyceride metabolism, respectively. Network 4 predicts a sub-network associated with activation of RNA polymerase or RNA processing and Network 5 predicts two possible sub-networks associated with neuronal voltage-activated calcium channel ion-pore structure or regulation, and synaptic neurotransmitter vesicle formation/exocytosis.
+
+           TABLE 2 
+           Ingenuity Pathway Analysis of Top Predicted Biological Functions associated with knockdown or over-expression of PGRN in NSC-34 cells. 
+           
+             
+           Treatment groups 
+                 Top scoring IPA biological functions 
+               
+                 
+               
+                 Diseases and disorders 
+                 Molecular and cellular functions 
+                 Physiological system development and function 
+               
+                 
+             
+               
+             NSC-34/shPGRN vs vector control NSC-34- DOWN 
+                 Neurological Disease 
+                 Cell Morphology 
+                 Behavior 
+               
+                 
+               
+                 p  value 4.95E-06–2.20E-02 
+                 p  value 1.34E-05–1.92E-02 
+                 p  value 5.25E-06–2.04E-02 
+               
+                 
+               
+                 # molecules 128 
+                 # molecules 121 
+                 # molecules 56 
+               
+                 
+               NSC-34/shPGRN vs NSC-34/hPGRN DOWN 
+                 Neurological Disease 
+                 Lipid Metabolism 
+                 Nervous System Development and Function 
+               
+                 
+               
+                 p  value 1.08E-05–1.99E-02 
+                 p  value 1.67E-05–1.87E-02 
+                 p  value 3.89E-06–1.94E-02 
+               
+                 
+               
+                 # molecules 108 
+                 # molecules 74 
+                 # molecules 118 
+               
+                 
+               NSC-34/shPGRN vs vector control NSC-34- UP 
+                 Cardiovascular Disease 
+                 Cellular Growth and Proliferation 
+                 Embryonic Development 
+               
+                 
+               
+                 p  value 1.38E-06–1.23E-02 
+                 p  value 1.11E-05–1.21E-02 
+                 p  value 1.56E-06–1.16E-02 
+               
+                 
+               
+                 # molecules 67 
+                 # molecules 148 
+                 # molecules 106 
+               
+                 
+               NSC-34/shPGRN vs NSC-34/hPGRN - UP 
+                 Cancer 
+                 Cellular Growth and Proliferation 
+                 Cardiovascular System Development and Function 
+               
+                 
+               
+                 p  value 1.98E-09–1.56E-02 
+                 p  value 4.74E-07–1.50E-02 
+                 p  value 2.09E-05–1.56E-02 
+               
+                 
+               
+                 # molecules 172 
+                 # molecules 147 
+                 # molecules 63 
+               
+                 
+             
+               
+           
+             
+           Note that molecules that decrease when PGRN is knocked down have a predicted association with neurological disease, behavior and nervous system development and function. Down regulated gene sets are indicated as DOWN and up-regulated as UP. 
+ 
+ 
+             
+               
+           
+             
+        
+
+           TABLE 3 
+           IPA Associated Network Functions predicted for molecules downregulated by more than 1.5-fold between NSC-34/shPGRN PGRN knockdown and PGRN overexpressing NSC-34/hPGRN cells. 
+           
+             
+           Rank 
+                 ID Associated Network Functions 
+                 Score 
+               
+                 
+             
+               
+             1 
+                 Cell Cycle, Tissue Morphology, Cell-mediated Immune Response 
+                 47 
+               
+                 
+               2 
+                 Lipid Metabolism, Small Molecule Biochemistry, Vitamin and Mineral Metabolism 
+                 39 
+               
+                 
+               3 
+                 Infectious Disease, Cellular Development, Cellular Growth, and Proliferation 
+                 39 
+               
+                 
+               4 
+                 Cell Signaling, Gene Expression, Cell Cycle 
+                 38 
+               
+                 
+               5 
+                 Cell-To-Cell Signaling and Interaction, Nervous System Development and Function, Amino Acid Metabolism 
+                 34 
+               
+                 
+             
+               
+           
+             
+        
+Database for Annotation, Visualization, and Integrated Discovery Bioinformatics Resources were used to determine enrichment of GO terms and provide functional annotation clustering with groups, or clusters, of functionally related GO and KEGG terms ranked by an enrichment score ( Huang da et al., 2009b , a ). The DAVID analyses were stratified into: (i) signals that are downregulated in PGRN knockdown cells versus PGRN overexpressing cells; (ii) signals that are down regulated in PGRN knockdown cells with respect both to PGRN overexpressing cells and control cells (“commons”); (iii) the “neuronal commons,” that is genes extracted from the “common” subset that have a well-defined CNS function assessed by manually surveying their entries in the Uniprot, Genecards and OMIM databases. 657 genes in total go down in the [shPGRN vs hPGRN] gene set. The common gene set [shPGRN vs CTL/hPGRN] contains 264 molecules (40% of all down-regulated genes in the [shPGRN vs hPGRN] gene set). There are 55 genes in the “neuronal commons” gene subset, representing one fifth (20.8%) of the common gene set. Predicted functional annotation clustering is given in  Figure 2A  for clusters with an enrichment score of one or above. The top 10 most enriched individual GO-terms are given in  Figure 2B . Both the cluster analysis and individual GO-terms indicate effects on synaptic function in the NSC-34/shPGRN cells (compare with IPA network 5,  Supplementary Figure 3 ), associated, in particular, with synaptic vesicle cycling and SNARE interactions in vesicular transport and neuron projection. Functional annotation clustering ( Figure 2A ) and the list of top individual GO terms ( Figure 2B ) also show a strong signal for sterol biosynthetic pathways (compare with IPA network 2,  Supplementary Figure 3 ).
+The top GO-terms and annotation clusters that are upregulated in NSC-34/shPGRN cells relative to both control cells and PGRN over-expressing cells (commons-up) are summarized in  Supplementary Table 2 . This revealed several signals for neuron-related terms, but, rather than being centered on synaptic structural functions, as was observed among the down-regulated data set ( Figure 2 ), the up-regulated terms are related to semaphorin signaling and extracellular axon guidance pathways. The GO term “membrane” was enriched in both the down-regulated ( Figure 2B ) and up-regulated transcript data sets ( Supplementary Table 2 ). Among the molecules included in the two “membrane” GO terms (up and down regulated), are many with receptor-like properties ( Table 4 ). Substantially more signals for receptor tyrosine kinase transcripts (AXL, EPHB4, NGFR, and PDGFRB) are up-regulated in NSC-34/shPGRN cells compared to those that are down-regulated (RET). Similarly signals for molecules in the semaphorin-signaling pathway (NRP1, NRP2, PLXNA1, SEMA7A, SEMA6B), Notch-related receptors (NOTCH1 and NOTCH4), and receptors- in the Wnt-signaling pathway (FZD3, FZD7, LGR6) were up-regulated when PGRN was depleted. In comparison, the number of differentially regulated G-protein linked receptor mRNAs in either the up- or the down-regulated groups is similar (5 vs 6). Receptor-like proteins associated with the immune response were down-regulated in NSC-34/shPGRN cells (CD109, CD180, CD40, Fc receptor IgA IgM, CSF2RA, TREML1, and TNFSF8). Although PGRN is a powerful survival agent in NSC-34 cells we did not detect any signals associated with apoptosis or its inhibition in NSC-34/shPGRN cells. This is, however, unsurprising as the conditions chosen for the gene expression analyses were not associated with extensive cell death.
+
+           TABLE 4 
+           A comparison of membrane proteins identified within the GO term “membrane” with receptor-like properties that are either down regulated or up regulated in shPGRN cells relative to both control cells and PGRN over-expressing cells. 
+           
+             
+           
+                 Down regulated 
+                 
+                 Up regulated 
+               
+                 
+               
+ 
+ 
+               
+                 
+               Symbol 
+ 
+ 
+                 Gene name 
+ 
+ 
+                 Symbol 
+ 
+ 
+                 Gene name 
+ 
+ 
+               
+                 
+             
+               
+             
+                 RECEPTOR TYROSINE KINASES 
+ 
+ 
+                 
+                 RECEPTOR TYROSINE KINASES 
+ 
+ 
+               
+                 
+               RET 
+                 Ret proto-oncogene (Ret) 
+                 AXL 
+                 AXL receptor tyrosine kinase (Axl) 
+               
+                 
+               
+                 G-PROTEIN COUPLED 
+ 
+ 
+                 EPHB4 
+                 EPHB4 Epr receptor B4 (Ephb4) 
+               
+                 
+               GPR19 
+                 G protein-coupled receptor 19 (Gpr19) 
+                 NGFR 
+                 Nerve growth factor receptor (Ngfr) 
+               
+                 
+               GPR85 
+                 G protein-coupled receptor 85 (Gpr85) 
+                 PDGFRB 
+                 Platelet derived growth factor receptor, beta polypeptide (Pdgfrb) 
+               
+                 
+               OPRL1 
+                 Opioid receptor-like 1 (Oprl1) 
+                 
+                 G-PROTEIN COUPLED 
+ 
+ 
+               
+                 
+               PTGER3 
+                 Prostaglandin E receptor 3 (subtype EP3) (Ptger3) 
+                 ADRA1D 
+                 Adrenenrgic receptor, alpha 1d (adra1d) 
+               
+                 
+               SSTR2 
+                 Somatostatin receptor 2 (Sstr2) 
+                 GPR82 
+                 G protein-coupled receptor 82 (Gpr82) 
+               
+                 
+               
+                 WNT-SIGNALING 
+ 
+ 
+                 GRM1 
+                 Glutamate receptor, metabotropic 1 (Grm1) 
+               
+                 
+               
+                 Nil 
+                 PTGIR 
+                 Prostaglandin 1 receptor (IP) (Ptgir) 
+               
+                 
+               
+                 SEMAPHORIN-SIGNALING 
+ 
+ 
+                 P2RY6 
+                 Pyrimidinergic receptor P2Y, G-protein coupled 6 (P2ry6) 
+               
+                 
+               
+                 Nil 
+                 TSHR 
+                 Thyroid stimulating hormone receptor (Tshr) 
+               
+                 
+               
+                 NOTCH RECEPTORS 
+ 
+ 
+                 
+                 WNT-SIGNALING 
+ 
+ 
+               
+                 
+               
+                 Nil 
+                 FZD3 
+                 Frizzled class receptor 3 (Fzd3) 
+               
+                 
+               
+                 IMMUNE RECEPTORS 
+ 
+ 
+                 FZD7 
+                 Frizzled class receptor 7 (Fzd 7) 
+               
+                 
+               CD109 
+                 CD109 antigen (Cd109) 
+                 LGR6 
+                 Leucine-rich repeat-containing G protein-coupled receptor 6 (Lgr6) 
+               
+                 
+               CD180 
+                 CD180 antigen (Cd180) 
+                 
+                 SEMAPHORIN-SIGNALING 
+ 
+ 
+               
+                 
+               CD40 
+                 CD40 antigen (Cd40) 
+                 NRP1 
+                 Neuropilin 1 (Nrp1) 
+               
+                 
+               FCAMR 
+                 FC receptor, IgA, IgM, high affinity (Fcamr) 
+                 NRP2 
+                 Neuropilin 2 (Nrp2) 
+               
+                 
+               CSF2RA 
+                 Colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) 
+                 PLXNA1 
+                 Plexin A1 (Plxna1) 
+               
+                 
+               TREML1 
+                 Triggering receptor expressed on myeloid cells-like 1 (Treml1) 
+                 
+                 NOTCH RECEPTORS 
+ 
+ 
+               
+                 
+               TNFSF8 
+                 Tumor necrosis factor (ligand) superfamily, member 8 (Tnfsf8) 
+                 NOTCH1 
+                 Notch 1 (Notch1) 
+               
+                 
+               
+                 OTHERS 
+ 
+ 
+                 NOTCH4 
+                 Notch 4 (Notch4) 
+               
+                 
+               GABRB3 
+                 Gamma-aminobutyric acid (GABA) A receptor, subunit beta 3 (Gabrb3) 
+                 
+                 IMMUNE RECEPTORS 
+ 
+ 
+               
+                 
+               SORCS3 
+                 Sortilin-related VPS10 domain containing receptor 3 (Sorcs3) 
+                 CD200 
+                 CD200 antigen (cd200) 
+               
+                 
+               VLDLR 
+                 Very low density lipoprotein receptor (Vldlr) 
+                 NCR1 
+                 Natural cytotoxicity triggering receptor 1 (Ncr1) 
+               
+                 
+               
+                 
+                 
+                 OTHERS 
+ 
+ 
+               
+                 
+               
+                 
+                 RELL1 
+                 RELT-like 1 (Rell1) 
+               
+                 
+               
+                 
+                 EFNA4 
+                 Ephrin A4 (Efna4) 
+               
+                 
+               
+                 
+                 FGFRL1 
+                 Fibroblast growth factor receptor-like 1 (Fgfrl1) 
+               
+                 
+               
+                 
+                 GFRA3 
+                 Glial cell line derived neurotrophic factor family receptor alpha 3 
+               
+                 
+               
+                 
+                 IGF2R 
+                 Insulin-like growth factor 2 receptor (Igf2r) 
+               
+                 
+               
+                 
+                 SHH 
+                 Sonic hedgehog (Shh) 
+               
+                 
+             
+               
+           
+             
+        
+Validation of Gene Expression
+The reduced expression of genes involved in the neuronal cytoskeleton and neurotransmission in cells with depleted PGRN expression was confirmed by RT-PCR ( Figure 3A ). This is consistent with a role for PGRN expression in the maintenance of a differentiated state in NSC-34 cells ( Figure 3A ). Interestingly, there was often little difference in mRNA expression between control and NSC-34/hPGRN cells. We tested specifically for active growth cone formation using growth associated protein 43 (GAP-43, also called neuromodulin) ( Maier et al., 2013 ), and, for evidence of cholinergic differentiation using vesicular acetylcholine transporter (SLC18A3) and choline acetyl transferase (ChAT) as markers ( Figure 3B ). Expression of GAP-43, and SLC18A3 cells were unchanged between control and NSC-34/hPGRN cells but were decreased in NSC-34/shPGRN, further supporting a role for PGRN in supporting neuron-like structural differentiation in NSC-34 cells. In contrast ChAT mRNA levels, were unaffected by PGRN depletion. Increased expression of neurotrophic receptor transcripts in NSC-34/shPGRN cells was confirmed, with strong signals observed for NGFR (nerve growth factor receptor) and FZD3 (Frizzled 3, a wnt receptor) ( Figure 3C ). A concerted change in genes associated with lipid metabolism was confirmed ( Figure 3D ) with most genes downregulated in NSC-34/shPGRN cells compared to control or NSC-34/hPGRN cells as predicted. Not all lipid metabolism genes were downregulated, however, as mRNA for ceramide synthase 2 (CER2) was strongly upregulated.
+Neither IPA nor DAVID predicted a strong lysosomal response to PGRN depletion even though deletion of PGRN results in altered expression of lysosomal genes and proteins in other cell lines and  Grn  knockout mice ( Tanaka et al., 2017 ;  Huang et al., 2020 ). To evaluate whether PGRN depletion alters lysosome gene expression in NSC-34 cells we measured the relative mRNA levels of the lysosome proteins lysosomal associated membrane protein 1 (LAMP1) and cathepsin D (CTSD). There was no indication of increased expression of these genes in NSC-34/shPGRN cells ( Figure 3E ), and an apparent decrease in expression of cathepsin D, which implies a lack of extensive lysosome biogenesis upon partial PGRN depletion in this model.
+Lipid Groups Are Differentially Regulated in Progranulin Knockdown NSC-34 Cells
+Since the transcriptomic data suggested that lipid metabolic pathways are sensitive to PGRN depletion, we undertook mass spectrometric lipidomic analyses on NSC-34/shPGRN and NSC-34/hPGRN cells. Principal component analysis confirmed that all 3 replicates from the same cell construct segregate separately from the other constructs ( Supplementary Figure 4 ). High or low PGRN expression had no effect on the levels of the quantitatively dominant lipid groups ( Figure 4A ). In contrast, three lipid classes that are quantitatively less abundant, phosphatidic acid, ceramides and cholesteryl ester show upregulation of specific lipid members between high and low PGRN expressors ( Figures 4B–D ).
+Influence of Progranulin on Protein Expression
+The influence of PGRN expression on cellular protein composition was determined comparing NSC-34/hPGRN, NSC-34/shPGRN cells, and control cells, respectively ( Supplementary Figure 5 ). The largest variability was detected between PGRN enriched NSC-34/hPGRN cells and NSC-34/shPGRN knockdown cells. Enrichment of GO and Kegg terms identified functional annotation clusters associated with cell adhesion, and metabolism ( Figures 5A,B ). Functional annotation clusters ( Figure 5C ) and enriched GO terms ( Figure 5D ) for proteins that were overexpressed in NSC-34/shPGRN cells were linked to cell adhesion, RNA binding, RNA processing and metabolism.
+Progranulin Binds to Multiple Membrane Proteins Both on the Cell Surface and in the Endoplasmic Reticulum/Golgi/Lysosome Network
+As the observed PGRN-dependent phenotypes in NSC-34 cells are reproduced by extracellular PGRN ( Figures 1D,E ), implying an action on extracellular membrane proteins ( Chitramuthu et al., 2017a ;  Paushter et al., 2018 ), we therefore extended the proteomic analysis to probe specifically for potential PGRN membrane binding proteins using a LRC proteomic strategy ( Frei et al., 2012 ,  2013 ;  Figure 6A ). In total 1746 glycopeptides were identified and quantified. Of these, the cut-off criterion employed for inclusion as putative PGRN-binders was a log2 fold binding enrichment > 0.6 (which is equivalent to an approximately 1.5-fold change in absolute values), and a  p  value < 0.02 ( Supplementary Table 3 ). This yields 33 proteins. Most of the putative PGRN-binding proteins are associated with the plasma membrane, ER, or lysosome membranes ( Figure 6B ). Applying STRING analysis to this data set generated a potential interaction network of candidate lysosomal PGRN binding proteins that includes sortilin (SORT1, log2 fold enrichment 1.00 or 2 in natural numbers) and prosaposin (PSAP, log2 enrichment 0.716 or 1.64 in natural numbers) ( Figure 6C ). GO analysis of biological processes gave the highest score for lysosomal transport ( Figure 6D ). The presence of ER/Golgi/lysosome proteins is likely to be due to their exposure on the cell surface rather than uptake of labeled PGRN into the cells as the binding experiments were all conducted at 4°C. The highest scoring plasma membrane protein ( Supplementary Table 3 ) was the tetraspanin TSPAN4 (log2 fold enhancement 3.96 or 15.5-fold in natural numbers). A second tetraspanin, TSPAN31 (log2 fold enhancement 1.86 or 3.6-fold in natural numbers), was also captured. Two members of the RTK-family, RET (log2 fold enrichment 1.25 or 2.4-fold in natural numbers), which is the kinase subunit of the glial cell-derived nerve growth factor (GDNF) receptor, and PTK7 (protein tyrosine kinase 7, log2 fold enrichment 0.942875 or 1.92-fold in natural numbers), which is an inactive RTK homolog. In the insulin-binding control arm, multiple peptides for insulin (INSR) were identified (log2 fold enrichment 2.23 or 4.69 in natural values).
+Progranulin Increases Activity of Different Receptor Tyrosine Kinases in Different Cell Types
+Receptor phosphotyrosine antibody arrays were employed to screen for RTKs that are sensitive to PGRN expression levels ( Figure 7A ). RET, PDGFR-alpha (Platelet derived growth factor -alpha), Mer, and weakly, TrkA (high affinity nerve growth factor receptor), MusK (Muscle-Specific Kinase), and EphA3 (EPH Receptor A3) were more highly tyrosine phosphorylated in NSC-34/hPGRN cells than in vector controls or NSC-34/shPGRN knockdown cells ( Figure 7B ). Other reports, using the same phosphotyrosine receptor array screening technique, but analyzing non-neuronal cells, revealed that EphA2 was the likely RTK target for PGRN ( Neill et al., 2016 ). Given that EphA3 phosphorylation is only weakly enhanced by PGRN expression in NSC-343 cells, we tested PGRN in MDA-MD-468 mammary epithelial cells and detected phosphorylation of the insulin receptor, the epidermal growth factor (EGF) receptor, and ErbB2 (an EGF-receptor family member), as well as members of the EphA family of receptors ( Figure 7A ). PGRN expression, therefore, activates different sets of tyrosine kinase receptors in different cell types implying cell context-dependent signaling. The antibody array results were validated by Western blot analyses using phospho-receptor specific antibodies ( Figures 7C,D ). RET expression is greatly reduced in NSC-34/shPGRN cells, suggesting that at least some of the differences observed in receptor RET tyrosine phosphorylation reflect differential expression of the RET protein, as was also predicted from the mRNA microarray analyses.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="1~12" text="Progranulin" location="result" />
+<GENE id="G1" spans="149~153" text="PGRN" location="result" />
+<GENE id="G2" spans="193~197" text="PGRN" location="result" />
+<GENE id="G3" spans="163~167" text="PGRN" location="result" />
+<GENE id="G4" spans="208~212" text="PGRN" location="result" />
+<GENE id="G5" spans="257~261" text="PGRN" location="result" />
+<GENE id="G6" spans="316~320" text="PGRN" location="result" />
+<GENE id="G7" spans="379~382" text="GRN" location="result" />
+<GENE id="G8" spans="507~512" text="SMI32" location="result" />
+<GENE id="G9" spans="645~649" text="PGRN" location="result" />
+<GENE id="G10" spans="658~664" text="TDP-43" location="result" />
+<GENE id="G11" spans="721~732" text="Progranulin" location="result" />
+<GENE id="G12" spans="799~810" text="Progranulin" location="result" />
+<GENE id="G13" spans="925~929" text="PGRN" location="result" />
+<GENE id="G14" spans="1004~1008" text="PGRN" location="result" />
+<GENE id="G15" spans="1111~1115" text="PGRN" location="result" />
+<GENE id="G16" spans="1147~1151" text="PGRN" location="result" />
+<GENE id="G17" spans="1215~1219" text="PGRN" location="result" />
+<GENE id="G18" spans="1591~1595" text="PGRN" location="result" />
+<GENE id="G19" spans="1609~1613" text="PGRN" location="result" />
+<GENE id="G20" spans="1679~1683" text="PGRN" location="result" />
+<GENE id="G21" spans="1772~1776" text="PGRN" location="result" />
+<GENE id="G22" spans="1970~1974" text="PGRN" location="result" />
+<GENE id="G23" spans="2101~2105" text="PGRN" location="result" />
+<GENE id="G24" spans="2269~2273" text="PGRN" location="result" />
+<GENE id="G25" spans="2387~2391" text="PGRN" location="result" />
+<GENE id="G26" spans="2414~2418" text="PGRN" location="result" />
+<GENE id="G27" spans="2472~2476" text="PGRN" location="result" />
+<GENE id="G28" spans="2577~2581" text="PGRN" location="result" />
+<GENE id="G29" spans="2631~2635" text="PGRN" location="result" />
+<GENE id="G30" spans="2706~2710" text="PGRN" location="result" />
+<GENE id="G31" spans="2832~2836" text="PGRN" location="result" />
+<GENE id="G32" spans="2869~2873" text="PGRN" location="result" />
+<GENE id="G33" spans="3283~3287" text="PGRN" location="result" />
+<GENE id="G34" spans="3343~3347" text="PGRN" location="result" />
+<GENE id="G35" spans="3387~3391" text="PGRN" location="result" />
+<GENE id="G36" spans="3413~3417" text="PGRN" location="result" />
+<GENE id="G37" spans="3666~3670" text="PGRN" location="result" />
+<GENE id="G38" spans="3680~3684" text="PGRN" location="result" />
+<GENE id="G39" spans="3835~3839" text="PGRN" location="result" />
+<GENE id="G40" spans="3866~3870" text="PGRN" location="result" />
+<GENE id="G42" spans="4046~4056" text="Stathmin 2" location="result" />
+<GENE id="G43" spans="4058~4062" text="FGD2" location="result" />
+<GENE id="G44" spans="4064~4070" text="SRGAP3" location="result" />
+<GENE id="G45" spans="4173~4180" text="IGF2BP1" location="result" />
+<GENE id="G46" spans="4182~4187" text="TSHZ1" location="result" />
+<GENE id="G47" spans="4189~4193" text="GLE1" location="result" />
+<GENE id="G48" spans="4268~4272" text="PGRN" location="result" />
+<GENE id="G49" spans="4301~4305" text="PGRN" location="result" />
+<GENE id="G50" spans="4527~4532" text="HMCN1" location="result" />
+<GENE id="G51" spans="4551~4563" text="Hemicentin-1" location="result" />
+<GENE id="G52" spans="4637~4641" text="TTF1" location="result" />
+<GENE id="G53" spans="4660~4694" text="Transcription termination factor 1" location="result" />
+<GENE id="G54" spans="4768~4773" text="WFDC3" location="result" />
+<GENE id="G55" spans="4792~4830" text="WAP four-disulfide core domain protein" location="result" />
+<GENE id="G56" spans="4904~4908" text="SDSL" location="result" />
+<GENE id="G57" spans="4927~4950" text="Serine dehydratase-like" location="result" />
+<GENE id="G58" spans="5024~5028" text="STC1" location="result" />
+<GENE id="G59" spans="5047~5060" text="stanniocalcin" location="result" />
+<GENE id="G60" spans="5134~5141" text="IGF2BP1" location="result" />
+<GENE id="G61" spans="5160~5210" text="Insulin-like growth factor 2 mRNA binding protein1" location="result" />
+<GENE id="G62" spans="5303~5306" text="DDC" location="result" />
+<GENE id="G63" spans="5421~5426" text="STRA6" location="result" />
+<GENE id="G64" spans="5444~5474" text=" Stimulated by retinoic acid 6" location="result" />
+<GENE id="G65" spans="5548~5553" text="STMN2" location="result" />
+<GENE id="G66" spans="5571~5582" text=" Stathmin 2" location="result" />
+<GENE id="G67" spans="5656~5663" text="SLC32A1" location="result" />
+<GENE id="G68" spans="5782~5786" text="FGD2" location="result" />
+<GENE id="G69" spans="6072~6078" text="ADRA2A" location="result" />
+<GENE id="G70" spans="6097~6124" text="Alpha-2-Adrenergic receptor" location="result" />
+<GENE id="G71" spans="6198~6204" text="SRGAP3" location="result" />
+<GENE id="G72" spans="6223~6264" text="Slit-Robo Rho GTPase-activating protein 3" location="result" />
+<GENE id="G73" spans="6364~6369" text="TSHZ1" location="result" />
+<GENE id="G74" spans="6388~6419" text="Teashirt zinc finger homeobox 1" location="result" />
+<GENE id="G75" spans="6541~6545" text="CES1" location="result" />
+<GENE id="G76" spans="6564~6582" text="Carboxylesterase 1" location="result" />
+<GENE id="G77" spans="6656~6660" text="DKK1" location="result" />
+<GENE id="G78" spans="6679~6705" text="Dickkopf-related protein 1" location="result" />
+<GENE id="G79" spans="6811~6816" text="GLE1A" location="result" />
+<GENE id="G80" spans="6821~6826" text="GLE1B" location="result" />
+<GENE id="G81" spans="7406~7416" text="Stathmin 2" location="result" />
+<GENE id="G82" spans="7418~7422" text="FGD2" location="result" />
+<GENE id="G83" spans="7424~7430" text="SRGAP3" location="result" />
+<GENE id="G84" spans="7655~7662" text="IGF2BP1" location="result" />
+<GENE id="G85" spans="7664~7669" text="TSHZ1" location="result" />
+<GENE id="G86" spans="7671~7675" text="GLE1" location="result" />
+<GENE id="G87" spans="7976~7980" text="PGRN" location="result" />
+<GENE id="G89" spans="8007~8011" text="PGRN" location="result" />
+<GENE id="G90" spans="8267~8271" text="PGRN" location="result" />
+<GENE id="G91" spans="8352~8356" text="PGRN" location="result" />
+<GENE id="G92" spans="8555~8559" text="PGRN" location="result" />
+<GENE id="G93" spans="8770~8774" text="PGRN" location="result" />
+<GENE id="G94" spans="8798~8802" text="PGRN" location="result" />
+<GENE id="G95" spans="9664~9668" text="PGRN" location="result" />
+<GENE id="G96" spans="10620~10624" text="PGRN" location="result" />
+<GENE id="G97" spans="10636~10640" text="PGRN" location="result" />
+<GENE id="G98" spans="11173~11177" text="PGRN" location="result" />
+<GENE id="G99" spans="11735~11739" text="PGRN" location="result" />
+<GENE id="G100" spans="11751~11755" text="PGRN" location="result" />
+<GENE id="G101" spans="12380~12384" text="PGRN" location="result" />
+<GENE id="G102" spans="12794~12798" text="PGRN" location="result" />
+<GENE id="G103" spans="12799~12803" text="PGRN" location="result" />
+<GENE id="G104" spans="12818~12822" text="PGRN" location="result" />
+<GENE id="G105" spans="12846~12850" text="PGRN" location="result" />
+<GENE id="G106" spans="14311~14315" text="PGRN" location="result" />
+<GENE id="G107" spans="14339~14343" text="PGRN" location="result" />
+<GENE id="G108" spans="14406~14410" text="PGRN" location="result" />
+<GENE id="G109" spans="14448~14452" text="PGRN" location="result" />
+<GENE id="G110" spans="14750~14754" text="PGRN" location="result" />
+<GENE id="G111" spans="14759~14763" text="PGRN" location="result" />
+<GENE id="G112" spans="14798~14802" text="PGRN" location="result" />
+<GENE id="G113" spans="14811~14815" text="PGRN" location="result" />
+<GENE id="G114" spans="14883~14887" text="PGRN" location="result" />
+<GENE id="G115" spans="14892~14896" text="PGRN" location="result" />
+<GENE id="G116" spans="15319~15323" text="PGRN" location="result" />
+<GENE id="G117" spans="15802~15806" text="PGRN" location="result" />
+<GENE id="G118" spans="15848~15852" text="PGRN" location="result" />
+<GENE id="G119" spans="16566~16569" text="AXL" location="result" />
+<GENE id="G120" spans="16571~16576" text="EPHB4" location="result" />
+<GENE id="G121" spans="16578~16582" text="NGFR" location="result" />
+<GENE id="G122" spans="16588~16594" text="PDGFRB" location="result" />
+<GENE id="G123" spans="16625~16629" text="PGRN" location="result" />
+<GENE id="G124" spans="16679~16682" text="RET" location="result" />
+<GENE id="G125" spans="16754~16758" text="NRP1" location="result" />
+<GENE id="G126" spans="16760~16764" text="NRP2" location="result" />
+<GENE id="G127" spans="16766~16772" text="PLXNA1" location="result" />
+<GENE id="G128" spans="16774~16780" text="SEMA7A" location="result" />
+<GENE id="G129" spans="16782~16788" text="SEMA6B" location="result" />
+<GENE id="G130" spans="16816~16822" text="NOTCH1" location="result" />
+<GENE id="G131" spans="16827~16833" text="NOTCH4" location="result" />
+<GENE id="G132" spans="16881~16885" text="FZD3" location="result" />
+<GENE id="G133" spans="16887~16891" text="FZD7" location="result" />
+<GENE id="G134" spans="16893~16897" text="LGR6" location="result" />
+<GENE id="G135" spans="16922~16926" text="PGRN" location="result" />
+<GENE id="G136" spans="17186~17190" text="PGRN" location="result" />
+<GENE id="G137" spans="17198~17203" text="CD109" location="result" />
+<GENE id="G138" spans="17205~17210" text="CD180" location="result" />
+<GENE id="G139" spans="17212~17216" text="CD40" location="result" />
+<GENE id="G140" spans="17239~17245" text="CSF2RA" location="result" />
+<GENE id="G141" spans="17247~17253" text="TREML1" location="result" />
+<GENE id="G142" spans="17259~17265" text="TNFSF8" location="result" />
+<GENE id="G143" spans="17277~17281" text="PGRN" location="result" />
+<GENE id="G144" spans="17413~17417" text="PGRN" location="result" />
+<GENE id="G145" spans="17750~17754" text="PGRN" location="result" />
+<GENE id="G146" spans="17796~17800" text="PGRN" location="result" />
+<GENE id="G147" spans="18394~18397" text="RET" location="result" />
+<GENE id="G148" spans="18436~18439" text="Ret" location="result" />
+<GENE id="G149" spans="18459~18462" text="AXL" location="result" />
+<GENE id="G150" spans="18511~18514" text="Axl" location="result" />
+<GENE id="G151" spans="18624~18629" text="EPHB4" location="result" />
+<GENE id="G152" spans="18648~18653" text="EPHB4" location="result" />
+<GENE id="G153" spans="18671~18676" text="Ephb4" location="result" />
+<GENE id="G154" spans="18728~18733" text="GPR19" location="result" />
+<GENE id="G155" spans="18752~18781" text="G protein-coupled receptor 19" location="result" />
+<GENE id="G156" spans="18783~18788" text="Gpr19" location="result" />
+<GENE id="G157" spans="18808~18812" text="NGFR" location="result" />
+<GENE id="G158" spans="18831~18859" text="Nerve growth factor receptor" location="result" />
+<GENE id="G159" spans="18861~18865" text="Ngfr" location="result" />
+<GENE id="G160" spans="18917~18922" text="GPR85" location="result" />
+<GENE id="G161" spans="18941~18970" text="G protein-coupled receptor 85" location="result" />
+<GENE id="G162" spans="18972~18977" text="Gpr85" location="result" />
+<GENE id="G163" spans="18997~19003" text="PDGFRB" location="result" />
+<GENE id="G164" spans="19081~19087" text="Pdgfrb" location="result" />
+<GENE id="G165" spans="19139~19144" text="OPRL1" location="result" />
+<GENE id="G166" spans="19163~19185" text="Opioid receptor-like 1" location="result" />
+<GENE id="G167" spans="19187~19192" text="Oprl1" location="result" />
+<GENE id="G168" spans="19302~19308" text="PTGER3" location="result" />
+<GENE id="G169" spans="19369~19375" text="Ptger3" location="result" />
+<GENE id="G170" spans="19395~19401" text="ADRA1D" location="result" />
+<GENE id="G171" spans="19452~19458" text="adra1d" location="result" />
+<GENE id="G172" spans="19510~19515" text="SSTR2" location="result" />
+<GENE id="G173" spans="19559~19564" text="Sstr2" location="result" />
+<GENE id="G174" spans="19584~19589" text="GPR82" location="result" />
+<GENE id="G175" spans="19608~19637" text="G protein-coupled receptor 82" location="result" />
+<GENE id="G176" spans="19639~19644" text="Gpr82" location="result" />
+<GENE id="G177" spans="19750~19754" text="GRM1" location="result" />
+<GENE id="G178" spans="19809~19813" text="Grm1" location="result" />
+<GENE id="G179" spans="19905~19910" text="PTGIR" location="result" />
+<GENE id="G180" spans="19960~19965" text="Ptgir" location="result" />
+<GENE id="G181" spans="20078~20083" text="P2RY6" location="result" />
+<GENE id="G182" spans="20152~20157" text="P2ry6" location="result" />
+<GENE id="G183" spans="20249~20253" text="TSHR" location="result" />
+<GENE id="G184" spans="20310~20314" text="Tshr" location="result" />
+<GENE id="G185" spans="20548~20552" text="FZD3" location="result" />
+<GENE id="G186" spans="20598~20602" text="Fzd3" location="result" />
+<GENE id="G187" spans="20711~20715" text="FZD7" location="result" />
+<GENE id="G188" spans="20761~20766" text="Fzd 7" location="result" />
+<GENE id="G189" spans="20818~20823" text="CD109" location="result" />
+<GENE id="G190" spans="20857~20862" text="Cd109" location="result" />
+<GENE id="G191" spans="20842~20847" text="CD109" location="result" />
+<GENE id="G192" spans="20882~20886" text="LGR6" location="result" />
+<GENE id="G193" spans="20966~20970" text="Lgr6" location="result" />
+<GENE id="G194" spans="20905~20964" text="Leucine-rich repeat-containing G protein-coupled receptor 6" location="result" />
+<GENE id="G195" spans="21022~21027" text="CD180" location="result" />
+<GENE id="G196" spans="21061~21066" text="Cd180" location="result" />
+<GENE id="G197" spans="21179~21183" text="CD40" location="result" />
+<GENE id="G198" spans="21216~21220" text="Cd40" location="result" />
+<GENE id="G199" spans="21202~21206" text="CD40" location="result" />
+<GENE id="G200" spans="21240~21244" text="NRP1" location="result" />
+<GENE id="G201" spans="21263~21275" text="Neuropilin 1" location="result" />
+<GENE id="G202" spans="21277~21281" text="Nrp1" location="result" />
+<GENE id="G203" spans="21333~21338" text="FCAMR" location="result" />
+<GENE id="G204" spans="21395~21400" text="Fcamr" location="result" />
+<GENE id="G205" spans="21420~21424" text="NRP2" location="result" />
+<GENE id="G206" spans="21443~21455" text="Neuropilin 2" location="result" />
+<GENE id="G207" spans="21457~21461" text="Nrp2" location="result" />
+<GENE id="G208" spans="21513~21519" text="CSF2RA" location="result" />
+<GENE id="G209" spans="21639~21645" text="PLXNA1" location="result" />
+<GENE id="G210" spans="21675~21681" text="Plxna1" location="result" />
+<GENE id="G211" spans="21733~21739" text="TREML1" location="result" />
+<GENE id="G212" spans="21758~21811" text="Triggering receptor expressed on myeloid cells-like 1" location="result" />
+<GENE id="G213" spans="21813~21819" text="Treml1" location="result" />
+<GENE id="G214" spans="21927~21933" text="TNFSF8" location="result" />
+<GENE id="G215" spans="22006~22012" text="Tnfsf8" location="result" />
+<GENE id="G216" spans="22032~22038" text="NOTCH1" location="result" />
+<GENE id="G217" spans="22066~22072" text="Notch1" location="result" />
+<GENE id="G218" spans="22057~22064" text="Notch 1" location="result" />
+<GENE id="G219" spans="22171~22177" text="NOTCH4" location="result" />
+<GENE id="G220" spans="22196~22203" text="Notch 4" location="result" />
+<GENE id="G221" spans="22205~22211" text="Notch4" location="result" />
+<GENE id="G222" spans="22263~22269" text="GABRB3" location="result" />
+<GENE id="G223" spans="22347~22353" text="Gabrb3" location="result" />
+<GENE id="G224" spans="22462~22468" text="SORCS3" location="result" />
+<GENE id="G225" spans="22540~22546" text="Sorcs3" location="result" />
+<GENE id="G226" spans="22566~22571" text="CD200" location="result" />
+<GENE id="G227" spans="22590~22595" text="CD200" location="result" />
+<GENE id="G228" spans="22605~22610" text="cd200" location="result" />
+<GENE id="G229" spans="22662~22667" text="VLDLR" location="result" />
+<GENE id="G230" spans="22725~22730" text="Vldlr" location="result" />
+<GENE id="G231" spans="22750~22754" text="NCR1" location="result" />
+<GENE id="G232" spans="22773~22815" text="Natural cytotoxicity triggering receptor 1" location="result" />
+<GENE id="G233" spans="22817~22821" text="Ncr1" location="result" />
+<GENE id="G234" spans="23024~23029" text="RELL1" location="result" />
+<GENE id="G235" spans="23048~23059" text="RELT-like 1" location="result" />
+<GENE id="G236" spans="23061~23066" text="Rell1" location="result" />
+<GENE id="G237" spans="23154~23159" text="EFNA4" location="result" />
+<GENE id="G238" spans="23178~23187" text="Ephrin A4" location="result" />
+<GENE id="G239" spans="23189~23194" text="Efna4" location="result" />
+<GENE id="G240" spans="23282~23288" text="FGFRL1" location="result" />
+<GENE id="G241" spans="23307~23347" text="Fibroblast growth factor receptor-like 1" location="result" />
+<GENE id="G242" spans="23349~23355" text="Fgfrl1" location="result" />
+<GENE id="G243" spans="23443~23448" text="GFRA3" location="result" />
+<GENE id="G244" spans="23621~23626" text="IGF2R" location="result" />
+<GENE id="G245" spans="23684~23689" text="Igf2r" location="result" />
+<GENE id="G246" spans="23645~23682" text="Insulin-like growth factor 2 receptor" location="result" />
+<GENE id="G247" spans="23777~23780" text="SHH" location="result" />
+<GENE id="G248" spans="23799~23813" text="Sonic hedgehog" location="result" />
+<GENE id="G249" spans="23815~23818" text="Shh" location="result" />
+<GENE id="G250" spans="24065~24069" text="PGRN" location="result" />
+<GENE id="G251" spans="24155~24159" text="PGRN" location="result" />
+<GENE id="G252" spans="24343~24347" text="PGRN" location="result" />
+<GENE id="G253" spans="24417~24445" text="growth associated protein 43" location="result" />
+<GENE id="G254" spans="24447~24453" text="GAP-43" location="result" />
+<GENE id="G255" spans="24467~24479" text="neuromodulin" location="result" />
+<GENE id="G256" spans="24597~24604" text="SLC18A3" location="result" />
+<GENE id="G257" spans="24684~24690" text="GAP-43" location="result" />
+<GENE id="G258" spans="24696~24703" text="SLC18A3" location="result" />
+<GENE id="G259" spans="24753~24757" text="PGRN" location="result" />
+<GENE id="G260" spans="24795~24799" text="PGRN" location="result" />
+<GENE id="G261" spans="24831~24835" text="PGRN" location="result" />
+<GENE id="G262" spans="24955~24959" text="PGRN" location="result" />
+<GENE id="G263" spans="25041~25045" text="PGRN" location="result" />
+<GENE id="G264" spans="25100~25104" text="NGFR" location="result" />
+<GENE id="G265" spans="25106~25134" text="nerve growth factor receptor" location="result" />
+<GENE id="G266" spans="25140~25144" text="FZD3" location="result" />
+<GENE id="G267" spans="25146~25156" text="Frizzled 3" location="result" />
+<GENE id="G268" spans="25320~25324" text="PGRN" location="result" />
+<GENE id="G269" spans="25362~25366" text="PGRN" location="result" />
+<GENE id="G270" spans="25459~25478" text="ceramide synthase 2" location="result" />
+<GENE id="G271" spans="25480~25484" text="CER2" location="result" />
+<GENE id="G272" spans="25575~25579" text="PGRN" location="result" />
+<GENE id="G273" spans="25614~25618" text="PGRN" location="result" />
+<GENE id="G274" spans="25706~25709" text="Grn" location="result" />
+<GENE id="G275" spans="25792~25796" text="PGRN" location="result" />
+<GENE id="G276" spans="25958~25963" text="LAMP1" location="result" />
+<GENE id="G277" spans="25917~25956" text="lysosomal associated membrane protein 1" location="result" />
+<GENE id="G278" spans="25969~25980" text="cathepsin D" location="result" />
+<GENE id="G279" spans="25982~25986" text="CTSD" location="result" />
+<GENE id="G280" spans="26064~26068" text="PGRN" location="result" />
+<GENE id="G281" spans="26132~26143" text="cathepsin D" location="result" />
+<GENE id="G282" spans="26212~26216" text="PGRN" location="result" />
+<GENE id="G283" spans="26287~26298" text="Progranulin" location="result" />
+<GENE id="G284" spans="26409~26413" text="PGRN" location="result" />
+<GENE id="G285" spans="26488~26492" text="PGRN" location="result" />
+<GENE id="G286" spans="26505~26509" text="PGRN" location="result" />
+<GENE id="G287" spans="26694~26698" text="PGRN" location="result" />
+<GENE id="G288" spans="26985~26989" text="PGRN" location="result" />
+<GENE id="G289" spans="27032~27043" text="Progranulin" location="result" />
+<GENE id="G290" spans="27083~27087" text="PGRN" location="result" />
+<GENE id="G291" spans="27164~27168" text="PGRN" location="result" />
+<GENE id="G292" spans="27179~27183" text="PGRN" location="result" />
+<GENE id="G293" spans="27296~27300" text="PGRN" location="result" />
+<GENE id="G294" spans="27318~27322" text="PGRN" location="result" />
+<GENE id="G295" spans="27342~27346" text="PGRN" location="result" />
+<GENE id="G296" spans="27632~27636" text="PGRN" location="result" />
+<GENE id="G297" spans="27717~27728" text="Progranulin" location="result" />
+<GENE id="G298" spans="27862~27866" text="PGRN" location="result" />
+<GENE id="G299" spans="27936~27940" text="PGRN" location="result" />
+<GENE id="G300" spans="28150~28154" text="PGRN" location="result" />
+<GENE id="G301" spans="28383~28387" text="PGRN" location="result" />
+<GENE id="G302" spans="28611~28615" text="PGRN" location="result" />
+<GENE id="G303" spans="28674~28676" text="ER" location="result" />
+<GENE id="G304" spans="28822~28826" text="PGRN" location="result" />
+<GENE id="G305" spans="28858~28866" text="sortilin" location="result" />
+<GENE id="G306" spans="28868~28873" text="SORT1" location="result" />
+<GENE id="G307" spans="28930~28940" text="prosaposin" location="result" />
+<GENE id="G308" spans="28942~28946" text="PSAP" location="result" />
+<GENE id="G309" spans="29242~29246" text="PGRN" location="result" />
+<GENE id="G310" spans="29406~29412" text="TSPAN4" location="result" />
+<GENE id="G311" spans="29497~29504" text="TSPAN31" location="result" />
+<GENE id="G312" spans="29484~29495" text="tetraspanin" location="result" />
+<GENE id="G313" spans="29616~29619" text="RET" location="result" />
+<GENE id="G314" spans="29755~29759" text="GDNF" location="result" />
+<GENE id="G315" spans="29775~29779" text="PTK7" location="result" />
+<GENE id="G316" spans="29781~29806" text="protein tyrosine kinase 7" location="result" />
+<GENE id="G317" spans="29964~29971" text="insulin" location="result" />
+<GENE id="G318" spans="29973~29977" text="INSR" location="result" />
+<GENE id="G319" spans="30050~30061" text="Progranulin" location="result" />
+<GENE id="G320" spans="30240~30244" text="PGRN" location="result" />
+<GENE id="G321" spans="30278~30281" text="RET" location="result" />
+<GENE id="G322" spans="30283~30294" text="PDGFR-alpha" location="result" />
+<GENE id="G323" spans="30296~30333" text="Platelet derived growth factor -alpha" location="result" />
+<GENE id="G324" spans="30336~30339" text="Mer" location="result" />
+<GENE id="G325" spans="30353~30357" text="TrkA" location="result" />
+<GENE id="G326" spans="30404~30408" text="MusK" location="result" />
+<GENE id="G327" spans="30439~30444" text="EphA3" location="result" />
+<GENE id="G328" spans="30515~30519" text="PGRN" location="result" />
+<GENE id="G329" spans="30562~30566" text="PGRN" location="result" />
+<GENE id="G330" spans="30728~30733" text="EphA2" location="result" />
+<GENE id="G331" spans="30764~30768" text="PGRN" location="result" />
+<GENE id="G332" spans="30804~30809" text="EphA3" location="result" />
+<GENE id="G333" spans="30853~30857" text="PGRN" location="result" />
+<GENE id="G334" spans="30897~30901" text="PGRN" location="result" />
+<GENE id="G335" spans="31043~31048" text="ErbB2" location="result" />
+<GENE id="G336" spans="31148~31152" text="PGRN" location="result" />
+<GENE id="G337" spans="31425~31428" text="RET" location="result" />
+<GENE id="G338" spans="31471~31475" text="PGRN" location="result" />
+<GENE id="G339" spans="31621~31624" text="RET" location="result" />
+<DISEASE id="D0" spans="375~378" text="FTD" location="result" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D1" spans="6890~6893" text="ALS" location="result" disease1="disease of anatomical entity" disease2="-" />
+<DISEASE id="D2" spans="11779~11785" text="Cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+</TAGS>
+</Genomics_ConceptTask>

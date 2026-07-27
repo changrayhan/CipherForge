@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+miR-146a expression was upregulated in human OS tissues
+To confirm the expression level of miR-146a in human OS tissues, we used the 2015 The cancer Genome Atlas (TCGA) gene sequencing data ( https://genome-cancer.ucsc.edu/ ) to examine miR-146a expression in OS tissues, indicating that miR-146a was highly expressed in OS tissues (n=237) compared to the adjacent normal tissues (n=25) (Figure  1A ). miR-146a expression was also upregulated in OS tissues (n=25) compared with the pair-matched normal tissues (n-25) (Figure  1B ). To uncover the link between miR-146a expression and tumor growth in OS tissues, we detected the expression of miR-146a in OS with tumor size ≥3cm (n=74) or tumor size <3cm (n=119), indicating that miR-146a expression was substantially upregulated in OS with tumor size ≥3cm compared with those with tumor size <3cm (Figure  1C ).
+The correlation of miR-146a expression with clinicopathologic features and prognosis of OS patients
+We further analysed the association of miR-146a expression with clinicopathologic characteristics and prognosis of OS patients. As indicated in Table  1 , miR-146a expression was positively associated with tumor size ( P =0.004), but had no correlation with age, gender, lymph node infiltration and distant metastasis in OS patients (each  P >0.05). According to the overall survival time, survival status and miR-146a expression level, we used the cutoff finder ( http://molpath.charite.de/cutoff/load.jsp ) to define the high expression level (cutoff ≥ 5.509) or low expression level (cutoff <5.509) of miR-146a in OS tissues (Figure  1D ). We then analyzed the association between miR-146a high expression and overall survival and recurrence in OS patients by using Kaplan-Meier and Multivariate analysis, indicating that miR-146a expression was not an independent prognostic factor for overall survival ( Supplementary Table 1 ) and tumor recurrence ( Supplementary Table 2 ) in OS patients. Overall survival curve demonstrated that OS patients with miR-146a high expression had no difference in comparison with the patients with miR-146a low expression (Figure  1E ), but the recurrence curve showed that the patients with miR-146a high expression had higher tumor recurrence rate than the patients with miR-146a low expression (Figure  1F ).
+
+           Table 1 
+           The correlation of miR-146a expression with clinicopathological factors of OS patients 
+           
+             
+           Variables 
+                 Cases (n) 
+                 miR-146a low 
+                 Expression high 
+                 P  value 
+               
+                 
+               Total 
+                 193 
+                 131 
+                 62 
+               
+                 
+             
+               
+             Age (years) 
+                 
+                 
+                 
+                 
+               
+                 
+                ≥20 
+                 83 
+                 61 
+                 22 
+                 
+               
+                 
+                < 20 
+                 110 
+                 70 
+                 40 
+                 0.148 
+               
+                 
+               Gender 
+                 
+                 
+                 
+                 
+               
+                 
+                Male 
+                 89 
+                 57 
+                 32 
+                 
+               
+                 
+                Female 
+                 104 
+                 74 
+                 30 
+                 0.293 
+               
+                 
+               Tumor size (cm) 
+                 
+                 
+                 
+                 
+               
+                 
+                ≥3 
+                 74 
+                 41 
+                 33 
+                 
+               
+                 
+                <3 
+                 119 
+                 90 
+                 29 
+                 0.004 
+               
+                 
+               Lymph node infiltration 
+                 
+                 
+                 
+                 
+               
+                 
+                No 
+                 97 
+                 69 
+                 28 
+                 
+               
+                 
+                Yes 
+                 96 
+                 62 
+                 34 
+                 0.331 
+               
+                 
+               Distant metastases 
+                 
+                 
+                 
+                 
+               
+                 
+                No 
+                 168 
+                 115 
+                 53 
+                 
+               
+                 
+                Yes 
+                 25 
+                 16 
+                 9 
+                 0.657 
+               
+                 
+             
+               
+           
+             
+        
+The effects of miR-146a on OS cell growth
+Having verified the positive correlation of miR-146a expression with tumor size of OS patients (Figure  1C  and Table  1 ), we then explored the functions of miR-146a in OS growth. We first examined the expression levels of miR-146a in different OS cell lines (U-2 OS, Saos-2, MG-63, SW-1353, HOS and 143B), and found that miR-146a was highly expressed in U-2 OS and Saos-2 cell lines but lowly expressed in MG-63 and HOS cell lines (Figure  2A ). Then, miR-146a shRNA vector was transfect intro U-2 OS and Saos-2 cell lines with miR-146a high expression. After transfection for 48h, miR-146a expression levels were determined by qRT-PCR, indicating a decreased miR-146a expression in sh-miR-146a group compared to NC group (Figure  2B ). Then, MTT and colony formation assays showed that knockdown of miR-146a significantly reduced cell proliferation activity (Figure  2C  and  2D ) and colony formation (Figure  2E ) in OS cells.
+Meanwhile, miR-146a overexpression vector was used to transfect into MG-63 and HOS cell lines with miR-146a low expression. After transfection for 48h, miR-146a expression levels were markedly increased in miR-146a group compared with NC group (Figure  3A ). MTT and colony formation assays showed that overexpression of miR-146a promoted cell growth of MG-63 and HOS cells (Figure  3B  and  3C ).
+ZNRF3 was a target gene of miR-146a in OS cells
+To confirm the molecular mechanism by which miR-146a regulates cell growth in OS cells, we identified the potential target genes of miR-146a by using prediction websites ( http://starbase.sysu.edu.cn/targetSite.phpfor ). As shown in Figure  4A , under the stringent conditions including very high stringency (≥5), cancer types (≥5) and prediction software (≥3), six target genes were identified to have the potential to bind with miR-146a, of which zinc and ring finger 3 (ZNRF3) was considered as the most suitable candidate target gene of the miR-146a due to its highest binding force ( Supplementary Table 3 ). To further verify whether miR-146a directly binds to the 3’ UTR of ZNRF3, the wild type 3’ UTR or the mutant 3’ UTR target sequences of ZNRF3 (Figure  4B ) were cloned into the luciferase reporter vector in MG-63 and HOS cells. It was demonstrated that miR-146a decreased the expression levels of ZNRF3 in OS cells (Figure  4C ). Moreover, miR-146a overexpression lowered the luciferase activity of wild type 3` UTR of ZNRF3 in OS cells, but had no effect on that of mutation 3` UTR of ZNRF3 (Figure  4D ).
+ZNRF3 suppressed cell proliferation and colony formation of OS cells
+To demonstrate the association of miR-146a expression with ZNRF3 in OS tissues, we first measured the expression level of ZNRF3 in OS tissues (n=237) and adjacent normal tissues (n=25) by TCGA data, which uncovered that ZNRF3 expression was substantially downregulated in OS tissues (Figure  5A ). ZNRF3 expression was also decreased in OS tissues compared with pair-matched normal tissues (Figure  5B ). The correlation analysis showed the negative correlation of miR-146a with ZNRF3 expression in OS tissues (Figure  5C ). Furthermore, we constructed the ZNRF3 overexpression stably transfected MG-63 and HOS cell lines, and confirmed its transfection efficiency by qRT-PCR and western blotting assays (Figure  5D ). Then, ectopic expression of ZNRF3 significantly repressed cell proliferation (Figure  5E ) and colony formation (Figure  5F ), but knockdown of ZNRF3 by sh-ZNRF3 (Figure  5G ) promoted cell proliferation in OS cells (Figure  5H ).
+ZNRF3 rescued the proliferation-promoting effects of miR-146a via GSK-3β/β-catenin pathway
+To uncover the molecular mechanism by which ZNRF3 rescues the proliferation-promoting effects induced by miR-146a, we co-transfected ZNRF3 and miR-146a overexpression vectors into MG-63 and HOS cells, indicating that ZNRF3 overexpression reduced miR-146a-induced cell proliferation (Figure  6A ). Moreover, the expression levels of GSK-3β and β-catenin as potential downstream factors of ZNRF3 were detected by Western blot, indicating that miR-146a increased the activity of GSK-3β/β-catenin pathway, but this effect was reversed by ZNRF3 in OS cells (Figure  6B ). Then, we co-transfected sh-ZNRF3 and miR-146a knockdown vectors into OS U2-OS and Saos-2 cells, and found that knockdown of ZNRF3 attenuated the effects of sh-miR-146a induced increased expression of ZNRF3 (Figure  6C  and  6D ) and decreased proliferation of OS cells (Figure  6E ).
+miR-146a knockdown inhibited xenograft tumor growth
+Having confirmed the proliferation-promoting role of miR-146a in OS cells  in vitro,  we further verified the effects of miR-146a on OS cell growth  in vivo . A subcutaneous U-2OS tumor model was esbablished to assess the growth activity of xenograft tumors affected by miR-146a. During the 3 weeks’ investigation, the tumor length and width of the xenograft tumors was examined every other day. We found that the proliferation rates of tumors were significantly decreased by sh-miR-146a (Figure  7A  and  7B ). The average weight and volumes in sh-miR-146a group were lowered compared with those in NC group (Figure  7C  and  7D ). Further, western blotting analysis showed that knockdown of miR-146a downregulated the expression of ZNRF3 in xenograft tumor tissues (Figure  7E ).
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="6302~6307" text="ZNRF3" location="result" />
+<GENE id="G2" spans="6823~6828" text="ZNRF3" location="result" />
+<GENE id="G3" spans="7031~7036" text="ZNRF3" location="result" />
+<GENE id="G4" spans="6799~6821" text="zinc and ring finger 3" location="result" />
+<GENE id="G5" spans="7100~7105" text="ZNRF3" location="result" />
+<GENE id="G6" spans="7261~7266" text="ZNRF3" location="result" />
+<GENE id="G7" spans="7383~7388" text="ZNRF3" location="result" />
+<GENE id="G8" spans="7450~7455" text="ZNRF3" location="result" />
+<GENE id="G9" spans="7471~7476" text="ZNRF3" location="result" />
+<GENE id="G10" spans="7599~7604" text="ZNRF3" location="result" />
+<GENE id="G11" spans="7662~7667" text="ZNRF3" location="result" />
+<GENE id="G12" spans="7760~7765" text="ZNRF3" location="result" />
+<GENE id="G13" spans="7838~7843" text="ZNRF3" location="result" />
+<GENE id="G14" spans="8019~8024" text="ZNRF3" location="result" />
+<GENE id="G16" spans="8097~8102" text="ZNRF3" location="result" />
+<GENE id="G17" spans="8287~8292" text="ZNRF3" location="result" />
+<GENE id="G18" spans="8403~8408" text="ZNRF3" location="result" />
+<GENE id="G19" spans="8415~8420" text="ZNRF3" location="result" />
+<GENE id="G20" spans="8490~8495" text="ZNRF3" location="result" />
+<GENE id="G21" spans="8625~8630" text="ZNRF3" location="result" />
+<GENE id="G22" spans="8714~8719" text="ZNRF3" location="result" />
+<GENE id="G23" spans="8798~8803" text="ZNRF3" location="result" />
+<GENE id="G24" spans="8913~8919" text="GSK-3β" location="result" />
+<GENE id="G25" spans="8924~8933" text="β-catenin" location="result" />
+<GENE id="G26" spans="8969~8974" text="ZNRF3" location="result" />
+<GENE id="G27" spans="9115~9120" text="ZNRF3" location="result" />
+<GENE id="G28" spans="9175~9180" text="ZNRF3" location="result" />
+<GENE id="G29" spans="9272~9277" text="ZNRF3" location="result" />
+<GENE id="G30" spans="9348~9353" text="ZNRF3" location="result" />
+<GENE id="G31" spans="10218~10223" text="ZNRF3" location="result" />
+<DISEASE id="D0" spans="46~48" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="110~112" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="143~149" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D3" spans="208~214" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D4" spans="261~263" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="322~324" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="447~449" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="601~603" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="655~657" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="783~785" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="951~953" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="1078~1080" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="1284~1286" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="1580~1582" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="1711~1713" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="1946~1948" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="2000~2002" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D17" spans="2418~2420" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="4957~4959" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="5055~5057" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="5142~5144" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="5218~5220" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="5237~5239" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of mental health" />
+<DISEASE id="D23" spans="5332~5334" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="5472~5474" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="5894~5896" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="6341~6343" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D27" spans="6428~6430" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="6664~6670" text="cancer" location="result" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D30" spans="7270~7272" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="7392~7394" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="7531~7533" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="7608~7610" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="7671~7673" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D35" spans="7812~7814" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D36" spans="7877~7879" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D37" spans="8039~8041" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D39" spans="8466~8468" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D40" spans="9124~9126" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D41" spans="9217~9219" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D42" spans="9223~9225" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D43" spans="9408~9410" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D44" spans="9549~9551" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D45" spans="9617~9619" text="OS" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<RELATION id="R1" spans="7766~7808" text="expression was substantially downregulated" location="result" relation="decreased expression" />
+<RELATION id="R2" spans="7844~7873" text="expression was also decreased" location="result" relation="decreased expression" />
+<ENTITY_LINKING id="E0" geneID="G12" geneText="ZNRF3" diseaseID="D35" diseaseText="OS" relationID="R1" relationText="expression was substantially downregulated" />
+<ENTITY_LINKING id="E1" geneID="G13" geneText="ZNRF3" diseaseID="D36" diseaseText="OS" relationID="R2" relationText="expression was also decreased" />
+</TAGS>
+</Genomics_ConceptTask>

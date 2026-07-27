@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Detection of  B. suis  Strain 2 Antibodies in Serum
+The ovine sera were collected for serological testing 1 day before inoculation and at 7, 14, 21, 30, 60 and 90 dpi.  Table 1  compares the results of RBT and cELISA obtained with the serum of 21 sheep. The specific anti- B. suis  IgG antibody was detected in the sera of sheep immunized with  B.suis  S2, whereas no specific reactivity was observed in the control group.  B. suis  antigen-specific serum IgG was detected by RBT and cELISA at the 7 dpi. The IgG antibodies peaked by day 14 after the first immunization and remained the level from 14 dpi to 90 dpi ( Table 1 ). These results demonstrated that  B.suis  S2 was able to elicit the  B. suis  specific antibody response.
+
+           Table 1 
+           n  = 21) with  B.suis  S2. Results of Rose Bengal Test (RBT) and cELISA in sheep ( 
+           
+             
+           Sheep 
+ name 
+                 Days post-immunization 
+ (dpi) 
+                 RBT 
+ result 
+                 cELISA 
+ PI value 
+ (mean ±SD) 
+               
+                 
+             
+               
+             C_379 
+                 
+                 - 
+                 23.73 ± 6.12 
+               
+                 
+               C_515 
+                 0 
+                 - 
+                 36.37 ± 3.27 
+               
+                 
+               C_587 
+                 
+                 - 
+                 36.30 ± 7.57 
+               
+                 
+               E1_239 
+                 
+                 - 
+                 22.79 ± 1.64 
+               
+                 
+               E1_273 
+                 7 
+                 - 
+                 64.09 ± 4.59 
+               
+                 
+               E1_283 
+                 
+                 + 
+                 81.71 ± 2.56 
+               
+                 
+               E2_231 
+                 
+                 ++ 
+                 87.63 ± 1.42 
+               
+                 
+               E2_237 
+                 14 
+                 ++ 
+                 87.25 ± 2.07 
+               
+                 
+               E2_265 
+                 
+                 +++ 
+                 88.76 ± 1.83 
+               
+                 
+               E3_221 
+                 
+                 +++ 
+                 86.49 ± 1.08 
+               
+                 
+               E3_285 
+                 21 
+                 +++ 
+                 87.84 ± 1.23 
+               
+                 
+               E3_292 
+                 
+                 ++ 
+                 87.37 ± 1.45 
+               
+                 
+               E4_204 
+                 
+                 ++ 
+                 85.34 ± 1.97 
+               
+                 
+               E4_215 
+                 30 
+                 +++ 
+                 89.11 ± 1.06 
+               
+                 
+               E4_244 
+                 
+                 +++ 
+                 83.49 ± 2.15 
+               
+                 
+               E5_254 
+                 
+                 +++ 
+                 83.27 ± 2.21 
+               
+                 
+               E5_263 
+                 60 
+                 +++ 
+                 89.32 ± 2.29 
+               
+                 
+               E5_280 
+                 
+                 +++ 
+                 90.55 ± 1.25 
+               
+                 
+               E6_214 
+                 
+                 ++ 
+                 88.50 ± 0.24 
+               
+                 
+               E6_268 
+                 90 
+                 + 
+                 81.37 ± 2.36 
+               
+                 
+               E6_270 
+                 
+                 +++ 
+                 88.79 ± 1.43 
+               
+                 
+             
+               
+           
+             
+           “-” revealed that the tested sera by RBT was negative for Brucella antibodies, while “+” revealed the positive reactions for Brucella antibodies. “+”, “++” and “+++” revealed the different degrees of agglutination in RBT, from low to high . 
+           
+             
+        
+Overview of Total Small RNA Libraries
+The RNA integrity number (RIN) of each RNA sample was above 6.0, which indicated these RNA can be used for further constructing small RNA libraries. The sequencing quality score (Q30), which represent the base call accuracy of 99.90%, were above 93.49% for each sample, signifying that the sequencing quality was sufficient for subsequent sequence assembly ( Supplementary Table 1 ). The mapped ratios of the clean reads were more than 86.65% and the numbers of mapped mature miRNAs were between 105 and 132 ( Table 2 ). Small RNAs (sRNAs) ranging from 18 to 30 nt long were further analyzed and the unannotated sRNAs were selected to predict novel miRNAs via miREvo and miRDeep2. Principal components analysis showed that the first principal component accounted for 17.76% of the variance, and the second principal component accounted for 7.91% of the variance. The clustering data points were clearly visible among the groups ( Figure 2A ). The correlation heatmap revealed good agreement among the groups ( Figure 2B ).
+
+           Table 2 
+           The sRNAs mapped results. 
+           
+             
+           Sample 
+ 
+ 
+                 Total reads 
+ 
+ 
+                 Clean reads 
+ 
+ 
+                 Mapped total sRNAs 
+ 
+ 
+                 Mapped mature miRNAs 
+ 
+ 
+               
+                 
+             
+               
+             C_379_HY 
+                 15,201,907 (100.00%) 
+                 13,172,378 (86.65%) 
+                 7,299,277 (48.02%) 
+                 117 
+               
+                 
+               C_379_HZ 
+                 16,857,634 (100.00%) 
+                 15,781,374 (93.62%) 
+                 7,848,504 (46.56%) 
+                 123 
+               
+                 
+               C_511_HY 
+                 14,494,014 (100.00%) 
+                 14,034,350 (96.83%) 
+                 7,519,694 (51.88%) 
+                 121 
+               
+                 
+               C_511_HZ 
+                 16,239,452 (100.00%) 
+                 15,914,002 (98.00%) 
+                 8,395,143 (51.7%) 
+                 117 
+               
+                 
+               C_587_HY 
+                 14,045,769 (100.00%) 
+                 13,240,698 (94.27%) 
+                 5,075,481 (36.14%) 
+                 127 
+               
+                 
+               C_587_HZ 
+                 22,478,306 (100.00%) 
+                 22,180,312 (98.67%) 
+                 8,841,773 (39.33%) 
+                 132 
+               
+                 
+               E1_239_HY 
+                 15,498,163 (100.00%) 
+                 14,848,429 (95.81%) 
+                 6,188,333 (39.93%) 
+                 110 
+               
+                 
+               E1_239_HZ 
+                 10,994,015 (100.00%) 
+                 10,215,799 (92.92%) 
+                 4,052,406 (36.86%) 
+                 124 
+               
+                 
+               E1_273_HY 
+                 16,486,598 (100.00%) 
+                 15,915,768 (96.54%) 
+                 10,355,334 (62.81%) 
+                 121 
+               
+                 
+               E1_273_HZ 
+                 16,714,776 (100.00%) 
+                 16,373,491 (97.96%) 
+                 9,584,909 (57.34%) 
+                 120 
+               
+                 
+               E1_283_HY 
+                 16,949,035 (100.00%) 
+                 15,921,999 (93.94%) 
+                 7,078,423 (41.76%) 
+                 130 
+               
+                 
+               E1_283_HZ 
+                 15,672,091 (100.00%) 
+                 15,342,060 (97.89%) 
+                 5,201,947 (33.19%) 
+                 128 
+               
+                 
+               E2_231_HY 
+                 14,242,129 (100.00%) 
+                 13,857,044 (97.30%) 
+                 8,033,474 (56.41%) 
+                 125 
+               
+                 
+               E2_231_HZ 
+                 14,801,355 (100.00%) 
+                 13,921,249 (94.05%) 
+                 5,800,471 (39.19%) 
+                 132 
+               
+                 
+               E2_237_HY 
+                 15,694,994 (100.00%) 
+                 15,459,256 (98.50%) 
+                 6,810,509 (43.39%) 
+                 129 
+               
+                 
+               E2_237_HZ 
+                 16,226,236 (100.00%) 
+                 14,281,640 (88.02%) 
+                 7,350,952 (45.3%) 
+                 116 
+               
+                 
+               E2_265_HY 
+                 14,110,328 (100.00%) 
+                 13,911,529 (98.59%) 
+                 5,730,447 (40.61%) 
+                 129 
+               
+                 
+               E2_265_HZ 
+                 16,128,226 (100.00%) 
+                 15,660,136 (97.10%) 
+                 9,470,821 (58.72%) 
+                 127 
+               
+                 
+               E3_221_HY 
+                 15,353,429 (100.00%) 
+                 15,057,972 (98.08%) 
+                 9,851,865 (64.17%) 
+                 113 
+               
+                 
+               E3_221_HZ 
+                 16,726,967 (100.00%) 
+                 16,119,367 (96.37%) 
+                 8,759,290 (52.37%) 
+                 112 
+               
+                 
+               E3_285_HY 
+                 15,437,776 (100.00%) 
+                 15,081,709 (97.69%) 
+                 7,469,083 (48.38%) 
+                 122 
+               
+                 
+               E3_285_HZ 
+                 14,808,719 (100.00%) 
+                 14,242,649 (96.18%) 
+                 9,766,214 (65.95%) 
+                 116 
+               
+                 
+               E3_292_HY 
+                 16,509,571 (100.00%) 
+                 16,199,891 (98.12%) 
+                 8,406,951 (50.92%) 
+                 120 
+               
+                 
+               E3_292_HZ 
+                 16,891,657 (100.00%) 
+                 16,142,634 (95.57%) 
+                 8,737,141 (51.72%) 
+                 118 
+               
+                 
+               E4_204_HY 
+                 15,185,208 (100.00%) 
+                 14,416,274 (94.94%) 
+                 9,280,198 (61.11%) 
+                 123 
+               
+                 
+               E4_204_HZ 
+                 16,276,393 (100.00%) 
+                 15,522,899 (95.37%) 
+                 10,089,616 (61.99%) 
+                 125 
+               
+                 
+               E4_215_HY 
+                 14,613,512 (100.00%) 
+                 14,069,221 (96.28%) 
+                 8,616,207 (58.96%) 
+                 118 
+               
+                 
+               E4_215_HZ 
+                 16,261,830 (100.00%) 
+                 14,645,087 (90.06%) 
+                 9,215,475 (56.67%) 
+                 105 
+               
+                 
+               E4_244_HZ 
+                 16,610,508 (100.00%) 
+                 16,371,786 (98.56%) 
+                 9,034,705 (54.39%) 
+                 121 
+               
+                 
+               E5_254_HY 
+                 15,312,223 (100.00%) 
+                 14,682,307 (95.89%) 
+                 7,510,388 (49.05%) 
+                 122 
+               
+                 
+               E5_254_HZ 
+                 14,460,756 (100.00%) 
+                 14,111,285 (97.58%) 
+                 6,520,178 (45.09%) 
+                 117 
+               
+                 
+               E5_263_HY 
+                 16,665,351 (100.00%) 
+                 16,444,759 (98.68%) 
+                 8,017,408 (48.11%) 
+                 117 
+               
+                 
+               E5_263_HZ 
+                 15,533,490 (100.00%) 
+                 15,328,090 (98.68%) 
+                 7,436,524 (47.87%) 
+                 123 
+               
+                 
+               E5_280_HY 
+                 15,653,751 (100.00%) 
+                 15,424,987 (98.54%) 
+                 7,816,125 (49.93%) 
+                 121 
+               
+                 
+               E5_280_HZ 
+                 15,706,737 (100.00%) 
+                 15,335,614 (97.64%) 
+                 7,446,763(47.41%) 
+                 119 
+               
+                 
+               E6_214_HY 
+                 14,366,059 (100.00%) 
+                 13,876,706 (96.59%) 
+                 6,830,523 (47.55%) 
+                 129 
+               
+                 
+               E6_214_HZ 
+                 15,163,527 (100.00%) 
+                 15,001,253 (98.93%) 
+                 7,516,219 (49.57%) 
+                 123 
+               
+                 
+               E6_268_HY 
+                 14,755,250 (100.00%) 
+                 14,625,057 (99.12%) 
+                 6,965,737 (47.21%) 
+                 118 
+               
+                 
+               E6_268_HZ 
+                 15,468,239 (100.00%) 
+                 15,332,475 (99.12%) 
+                 7,467,237 (48.27%) 
+                 123 
+               
+                 
+               E6_270_HY 
+                 14,202,828 (100.00%) 
+                 14,027,069 (98.76%) 
+                 7,310,328 (51.47%) 
+                 122 
+               
+                 
+               E6_270_HZ 
+                 14,292,165 (100.00%) 
+                 14,148,409 (98.99%) 
+                 7,413,842 (51.87%) 
+                 122 
+               
+                 
+             
+               
+           
+             
+        
+Novel miRNAs Screening and Differentially Expressed miRNAs Identification
+The alignment analysis yielded 150 known miRNAs and 406 novel miRNAs from all groups. Bioinformatic data from high-throughput miRNA sequencing was used to analyze chromosomal localization. The results indicated that 398 novel miRNAs were located on chromosomes, and 8 differentially expressed miRNAs were located in the scaffolds ( Supplementary Figure 1 ). Among these chromosomes, chromosome 3 has 49 novel miRNAs, which was the highest among all chromosomes. On the contrary, chromosome 23 has 4 novel miRNAs, which was the lowest among all chromosomes. Identification of the differentially expressed miRNAs were performed based on the results of the DESeq R package (1.8.3), revealing 282 miRNAs (|log 2  fold-change |>0.5 and  p  < 0.05) showing significantly altered expressions in the vaccinated groups compared with those of the control group. Moreover, 94 novel miRNAs were screened in the above 282 differentially expressed miRNAs. The number of differentially expressed miRNAs increased gradually with time, and most of them were downregulated. At 90 dpi, 92 differentially expressed miRNAs were identified, compared with the control group ( Figure 3 ). The numbers of unique differentially expressed miRNAs in each group were 6, 4, 10, 19, 18 and 34 ( Figure 4 ). When the thresholds were |log 2  fold-change |>1 and  p  < 0.01, we identified 48 differentially expressed miRNAs, of which, 31 novel differentially expressed miRNAs are shown in the heatmap ( Figure 5 ). Thirteen novel miRNAs, which were differentially expressed in more than one group, were further analyzed for RT-qPCR verification.
+RT-qPCR Validation of Novel miRNAs
+To verify the RNA-seq results and identify the existence of novel miRNAs, 13 novel miRNAs (|log 2  fold-change |>1 and  p  < 0.01), which were differentially expressed in more than one group, were selected for RT-qPCR.  Table 3  shows the mature miRNA sequences and primer information. Previous research revealed that mmu-miR-181a was differentially expressed during  Brucella abortus  infections ( 14 ). In the present study, we selected oar-miR-181a for RT-qPCR validation as a marker miRNA. The RT-qPCR results demonstrated that three novel miRNA (novel_229, novel_609 and novel_973) and oar-miR-181a were consistent with the miRNA-seq results ( Figure 6 ). After vaccination, the expression of novel_229 decreased from 7 dpi to 90 dpi, as well as the novel_973 expression level decreased from 7 dpi to 30 dpi and then increased at 60 dpi. The expression of novel_609 peaked at 14 dpi and maintained a lower level from 21 dpi to 90 dpi ( Supplementary Figure 2 ).
+
+           Table 3 
+           The RT-qPCR primers sequences of miRNAs. 
+           
+             
+           No . 
+                 Name 
+ 
+ 
+                 ′ -3 ′ ) Forward primer sequence (5 
+ 
+ 
+                 ′ -3 ′ ) Reverse primer sequence (5 
+ 
+ 
+               
+                 
+             
+               
+             1 
+                 novel_199 
+                 GCGAAACCCTGAACGAAGG 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               2 
+                 novel_219 
+                 CGACCAGCTGGACTGGGG 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               3 
+                 novel_229 
+                 CGCTCTTGGGCTCGGATCT 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               4 
+                 novel_269 
+                 GCGTCTGCCTGGCTCTGTC 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               5 
+                 novel_35 
+                 TATATTAACTCGGCGTGGCGTCGG 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               6 
+                 novel_456 
+                 ATATATTTACCCGCGGGGGGCGC 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               7 
+                 novel_514 
+                 GCGTCCGCCTCTCCTCAG 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               8 
+                 novel_579 
+                 GCGCGAAAACCTTGATGAACT 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               9 
+                 novel_597 
+                 GCGCTTAGCCAGGGGCT 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               10 
+                 novel_609 
+                 ATATTACGCGCTCGGGGCTGCA 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               11 
+                 novel_636 
+                 GCGCGCGTATGGATGTGTA 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               12 
+                 novel_965 
+                 GCGCTCATGGCTGGTGG 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               13 
+                 novel_973 
+                 GCGCGAGAAACTCAAATGAACT 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               14 
+                 oar-miR-181a 
+                 CGAACATTCAACGCTGTCG 
+                 AGTGCAGGGTCCGAGGTATT 
+               
+                 
+               15 
+                 U6 
+                 CTCGCTTCGGCAGCACA 
+                 AACGCTTCACGAATTTGCGT 
+               
+                 
+             
+               
+           
+             
+        
+Functional Analysis of Novel miRNAs
+TargetScan, miRanda and RNAhybrid were used to predict the target genes of novel_229, novel_609, novel_973 and oar-miR-181a. A total of 131 target genes were obtained and were enriched via the GO and KEGG pathway analyses. GO analysis was performed using DAVID at three levels: biological process, cellular component and molecular function ( Supplementary Figure 3 ).  Figure 7  outlines the top 20 significantly enriched KEGG pathways, with the Wnt signaling pathway and the complement and coagulation cascades being the immune pathways. The mTOR signaling pathway negatively regulates autophagy, which is essential for the intracellular survival of  Brucella . As shown in  Figures 8 , 25 target genes were involved in the immune responses. The immune-related target genes of novel_229 included  TMED1  and  ENSOARG00000000649 .  LCN2, PDPK1  and  LPO  were the immune-related target genes of novel_609. The immune-related target genes of novel_973 were  C6orf58, SPPL3, BPIFB1, ENSOARG00000021083, MPTX1, CCL28, FGB, IDO1, OLR1  and  ENSOARG00000020393 . Four target genes of oar-miR-181a were associated with the immune response, including  ENSOARG00000002722, ARHGEF2, MFAP4 and DOK2 . Moreover, 6 target genes encoded the immunoglobulin-like domains ( Figure 8 ).
+Biological Pathways of the Immune-Related Target Genes
+The above-mentioned immune-related genes were selected, together with the novel_229, novel_609, novel_973 and oar-miR-181a, for further miRNA-mRNA network construction and function analysis. The target genes and their related biological pathways were summarized in  Figure 9 . These target genes are involved in the innate immunity, adaptive immunity, defense responses to bacteria, and the Notch signaling pathways. In the submandibular lymphatic nodes of the sheep inoculated with the  B.suis  S2 vaccine, ten miRNA-mRNA network-associated innate immunity pathways were predicted.  DOK2, CCL28  and  FGB  were associated with both the innate and adaptive immunity pathways. PDPK1 and IDO1, which were regulated by novel_609 and novel_973, were involved in the adaptive immunity pathways. The target genes of novel_229 and novel_609 were involved in the Notch signaling pathway and antimicrobial generation, respectively.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="19872~19877" text="TMED1" location="result" />
+<GENE id="G1" spans="19906~19910" text="LCN2" location="result" />
+<GENE id="G2" spans="19912~19917" text="PDPK1" location="result" />
+<GENE id="G3" spans="19924~19927" text="LPO" location="result" />
+<GENE id="G4" spans="20040~20045" text="SPPL3" location="result" />
+<GENE id="G5" spans="20047~20053" text="BPIFB1" location="result" />
+<GENE id="G6" spans="20075~20080" text="MPTX1" location="result" />
+<GENE id="G7" spans="20082~20087" text="CCL28" location="result" />
+<GENE id="G8" spans="20089~20092" text="FGB" location="result" />
+<GENE id="G9" spans="20094~20098" text="IDO1" location="result" />
+<GENE id="G10" spans="20100~20104" text="OLR1" location="result" />
+<GENE id="G11" spans="20239~20246" text="ARHGEF2" location="result" />
+<GENE id="G12" spans="20248~20253" text="MFAP4" location="result" />
+<GENE id="G13" spans="20258~20262" text="DOK2" location="result" />
+<GENE id="G14" spans="20983~20987" text="DOK2" location="result" />
+<GENE id="G15" spans="20989~20994" text="CCL28" location="result" />
+<GENE id="G16" spans="21001~21004" text="FGB" location="result" />
+<GENE id="G17" spans="21075~21080" text="PDPK1" location="result" />
+<GENE id="G18" spans="21085~21089" text="IDO1" location="result" />
+</TAGS>
+</Genomics_ConceptTask>

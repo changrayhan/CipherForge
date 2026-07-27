@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The Hedgehog (HH) pathway is an evolutionarily conserved signaling pathway that plays an essential role in vertebrate embryogenesis and adult tissue homeostasis ( 1 ). Aberrant activation of the HH pathway results in uncontrolled proliferation and differentiation that leads to tumorigenesis in various tissues, with medulloblastoma ( 2 ,  3 ), rhabdomyosarcoma ( 4 ), and basal cell carcinoma (BCC) ( 5 ) commonly displaying mutations in HH pathway components. BCC is a locally invasive epithelial cancer that represents the most prevalent cancer in the United States, with more than four million cases estimated each year ( 6 ). While most cases of BCC are characterized by low mortality and metastasis that can be easily excised ( 7 ), advanced BCCs display elevated invasiveness, metastasis, and mortality ( 8 ). As the initiation and progression of BCCs predominantly depend on deregulation of the canonical HH pathway  via  activation of the seven-pass transmembrane protein Smoothened (SMO) ( 9 ), such dependency has led to the development of vismodegib and other SMO inhibitors for the treatment of locally advanced and metastatic BCCs ( 10 ). Yet, despite vismodegib demonstrating feasibility and efficacy in clinical trials against HH-driven medulloblastoma ( 11 ,  12 ), it has failed to achieve adequate success in treating advanced BCCs with 57% of patients displaying inherent resistance to the treatment ( 13 ) and 21% of treated patients developing secondary resistance after 56 weeks ( 14 ). Thus, it is vital to elucidate the mechanisms by which resistant BCCs evade SMO inhibition, as well as develop alternative therapeutic strategies that would effectively undermine such mechanisms.
+In the normal vertebrate cell state, ion-driven cholesterol transporter Patched1 (PTCH1) actively depletes cholesterol from the membrane of the primary cilium and thus inhibits the cholesterol-dependent activation of SMO ( 15 ). This inhibition allows Suppressor of Fused homolog (SUFU) to sequester the Glioma-associated oncogene (GLI) transcription factors ( 16 ) and facilitate their post-translational proteolytic processing into repressor forms ( 17 ). The canonical HH pathway signaling initiates with the binding of HH ligands to PTCH1, which inhibits its activity and allows the activation of SMO  via  cholesterylation ( 18 ,  19 ). Activated SMO in turn induces the disassociation of the SUFU-GLI complex and facilitates the nuclear localization of the activator forms of GLI ( 20 ), which results in the expression of HH target genes. Uncontrolled activation of the HH pathway in BCC patients has been observed to occur primarily through inactivating mutations in PTCH1 (73%) or activating mutations in SMO (20%) ( 21 ). Yet, inspection of BCC patients with inherent and secondary resistance to vismodegib has revealed that the majority of mutations are within the SMO gene and either incite constitutive activity or deter inhibitor binding ( 22 ). Current efforts to circumvent BCC chemoresistance are focused on perturbing the oncogenic activity of GLI, either through directly inhibiting the GLI proteins or inhibiting the molecules that modulate GLI activity ( 23 ). Recent studies have demonstrated the potency of inhibiting GLI ( 24 ), DYRK1B ( 25 ), HDAC1 ( 26 ), BRD4 ( 27 ), MLK1 ( 28 ), and aPKC ( 29 ) in attenuating resistant BCCs in preclinical studies.
+Recently, various studies have highlighted the critical interconnections between the HH pathway and other signaling pathways in promoting the persistence and chemoresistance of cancer. In BCC, progression and therapeutic resistance have been linked with molecular crosstalk between the HH pathway and other developmental signaling pathways such as WNT ( 30 ), Notch ( 31 ), TGF-β ( 32 ), and RAS/MAPK ( 33 ) pathways. The phosphoinositide 3-kinase (PI3K) pathway is another developmental signaling pathway that has been demonstrated to interact with the HH pathway in colon ( 34 ), pancreatic, and ovarian carcinomas ( 35 ). In addition, the PI3K pathway functions in therapeutic resistance against SMO inhibitors in medulloblastoma ( 36 ) and esophageal adenocarcinoma ( 37 ). Combinatory inhibition of both PI3K and HH signaling pathways in preclinical studies on medulloblastoma have demonstrated favorable efficacy in attenuating SMO inhibitor-resistant tumors ( 36 ), although the effects on other HH-mediated cancers like BCC remains to be determined.
+The canonical PI3K pathway initiates with the activation of PI3K by receptor tyrosine kinases, which subsequently activates AKT  via  phosphorylation facilitated by phosphoinositides ( 38 ). Activated AKT in turn phosphorylates and regulates the activities of a wide array of signaling proteins that are associated with proliferation and differentiation of the cell ( 39 ). The PI3K/AKT pathway has been shown to interact with the HH pathway through multiple mechanisms that are largely independent of canonical HH signaling, with components of the PI3K/AKT pathway coinciding primarily upstream of GLI ( 40 ). In embryonic fibroblasts, upregulation of the PI3K/AKT pathway signaling promotes HH signaling by antagonizing the inhibitory function of PKA on GLI2 ( 41 ). Additionally, upregulation of the PI3K/AKT pathway signaling has been shown to promote HH signaling and tumor cell proliferation in esophageal ( 42 ) and breast cancers ( 43 ). However, the PI3K/AKT pathway has been shown to promote tumor cell growth with no effect on GLI1 activity in neuroblastomas ( 44 ), suggesting that PI3K/AKT either operates in parallel to or downstream of the HH pathway in this context. Thus, variation in how PI3K/AKT operates with respect to HH signaling confounds our ability to generally apply its function across distinct cancers.
+Here, we demonstrate that the PI3K pathway signaling is upregulated in bulk-level RNA-sequencing data of 14 matched tumor-normal pairs. Human and mouse BCC tumors show a significant increase in PI3K protein expression, and PI3K is essential for both BCC tumor cell growth and HH signaling. However, our data shows disparate results between BCC cells and  in vivo  tumors, where PI3K inhibition has no effect on GLI1 activity despite suppressing tumor growth. Finally, we show that PI3K likely functions in BCC tumors by promoting aPKC- and AKT1-depedent degradation of cyclin-dependent kinase inhibitor p21 to maintain cell cycle progression. Our results suggest that the PI3K pathway functions in parallel to or downstream of the HH pathway to promote BCC tumor growth.
+]]></TEXT>
+<TAGS>
+<GENE id="G0" spans="982~992" text="Smoothened" location="background" />
+<GENE id="G1" spans="994~997" text="SMO" location="background" />
+<GENE id="G2" spans="1073~1076" text="SMO" location="background" />
+<GENE id="G3" spans="1141~1144" text="BCC" location="background" />
+<GENE id="G5" spans="1587~1590" text="SMO" location="background" />
+<GENE id="G6" spans="1779~1787" text="Patched1" location="background" />
+<GENE id="G7" spans="1789~1794" text="PTCH1" location="background" />
+<GENE id="G8" spans="1924~1927" text="SMO" location="background" />
+<GENE id="G9" spans="1959~1986" text="Suppressor of Fused homolog" location="background" />
+<GENE id="G10" spans="1988~1992" text="SUFU" location="background" />
+<GENE id="G13" spans="2244~2249" text="PTCH1" location="background" />
+<GENE id="G14" spans="2308~2311" text="SMO" location="background" />
+<GENE id="G15" spans="2359~2362" text="SMO" location="background" />
+<GENE id="G17" spans="2721~2724" text="SMO" location="background" />
+<GENE id="G19" spans="2883~2886" text="SMO" location="background" />
+<GENE id="G20" spans="3260~3266" text="DYRK1B" location="background" />
+<GENE id="G21" spans="3275~3280" text="HDAC1" location="background" />
+<GENE id="G22" spans="3289~3293" text="BRD4" location="background" />
+<GENE id="G23" spans="3302~3306" text="MLK1" location="background" />
+<GENE id="G24" spans="4084~4087" text="SMO" location="background" />
+<GENE id="G25" spans="4319~4322" text="SMO" location="background" />
+<GENE id="G26" spans="4503~4507" text="PI3K" location="background" />
+<GENE id="G27" spans="4567~4570" text="AKT" location="background" />
+<GENE id="G28" spans="4644~4647" text="AKT" location="background" />
+<GENE id="G29" spans="5199~5203" text="GLI2" location="background" />
+<GENE id="G30" spans="5481~5485" text="GLI1" location="background" />
+<GENE id="G31" spans="5969~5973" text="PI3K" location="result" />
+<GENE id="G32" spans="5998~6002" text="PI3K" location="result" />
+<GENE id="G33" spans="6153~6157" text="PI3K" location="result" />
+<GENE id="G34" spans="6186~6190" text="GLI1" location="result" />
+<GENE id="G35" spans="6256~6260" text="PI3K" location="result" />
+<GENE id="G36" spans="6315~6319" text="AKT1" location="result" />
+<GENE id="G37" spans="6378~6381" text="p21" location="result" />
+<DISEASE id="D0" spans="318~333" text="medulloblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D1" spans="346~362" text="rhabdomyosarcoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D2" spans="374~394" text="basal cell carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D3" spans="396~399" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D4" spans="463~466" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D5" spans="652~655" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D6" spans="749~752" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D7" spans="855~858" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D8" spans="1254~1269" text="medulloblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D9" spans="1347~1350" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D10" spans="1576~1579" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D11" spans="2598~2601" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D12" spans="2682~2687" text="PTCH1" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D13" spans="2758~2761" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D14" spans="2997~3000" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D15" spans="3356~3359" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D16" spans="3562~3568" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D17" spans="3573~3576" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D18" spans="3953~3958,3991~4000" text="colon ... carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D19" spans="3967~3977,3991~4000" text="pancreatic ... carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D20" spans="3983~4000" text="ovarian carcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D21" spans="4102~4117" text="medulloblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D22" spans="4129~4154" text="esophageal adenocarcinoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D23" spans="4251~4266" text="medulloblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D24" spans="4413~4416" text="BCC" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D25" spans="5344~5354,5373~5379" text="esophageal ... cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D26" spans="5366~5379" text="breast cancer" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D28" spans="5498~5511" text="neuroblastoma" location="background" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D29" spans="5766~5772" text="cancer" location="background" disease1="disease of cellular proliferation" disease2="-" />
+<DISEASE id="D30" spans="5927~5930" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D31" spans="6115~6118" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D32" spans="6025~6028" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D33" spans="6281~6284" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+<DISEASE id="D34" spans="6528~6531" text="BCC" location="result" disease1="disease of anatomical entity" disease2="disease of cellular proliferation" />
+</TAGS>
+</Genomics_ConceptTask>
