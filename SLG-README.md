@@ -340,26 +340,7 @@ Trainer._run_epoch
   → StepResult → Trainer
 ```
 
----
 
-## 注意事项
-
-1. **Design-2 S3PIR 查询隐藏失效**：`CryptoSWorker` 当前直接通过 `y_t` 读取 `Enc(-V_y)`，`P3_pir.py` 将其判为查询隐藏失效。**目前未实现严格真 S3PIR**，仅作 Design-2 占位。
-
-2. **配置默认值不一致**：
-   - `configs/llama_biotriplex_he_pir.py` 中 `LlamaBioTriplexConfig` 默认 `u_layers=0, m_layers=32`
-   - `biotriplex_finetune.py` CLI 默认 `u_layers=16, m_layers=16`
-   二者**当前不一致**。CLI 推荐 16/16，README 文档须区分。
-
-3. **Stage 2 是纯明文标准 forward**，无 PIR/BFV（这是设计行为，不是漏调用）。
-
-4. **历史协议实现**：`fusion_protocol.py`、`ipc_protocol.py`、`legacy_ipc_stub.py`、`protocol_he_pir.py` 为旧版/单进程方案，**不要作为新入口**。当前推荐 `HeterogeneousProtocol`。
-
-5. **攻击模块依赖外部包**：顶层攻击类依赖外部 `SLG_attack_test` 包，部分 GPU 反演攻击仍是实验 stub。
-
-6. **`max_seq_length` 默认较大**：默认 10000 显著增加 logits 与 attention 显存。建议先用较短长度或 `--max_train_steps` 做 smoke test。
-
-7. **`test-data/` 数据巨大**（多数百 MB～GB 级），首次 clone 后单独同步。可考虑 Git LFS。
 
 ---
 
