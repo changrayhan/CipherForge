@@ -1,0 +1,155 @@
+{
+  "task": "classification_genrel_qa",
+  "n_samples": 168,
+  "parse_failures": 0,
+  "micro_accuracy": 0.22023809523809523,
+  "macro_precision": 0.1997929606625259,
+  "macro_recall": 0.22321123121155875,
+  "macro_f1": 0.15212796158502603,
+  "weighted_f1": 0.2123623142639093,
+  "micro_f1": 0.22023809523809523,
+  "multilabel_f1_samples": 0.22023809523809523,
+  "multilabel_f1_macro": 0.15212796158502603,
+  "multilabel_f1_micro": 0.22023809523809523,
+  "macro_auc_ovr": NaN,
+  "micro_auc_ovr": 0.6153332860922147,
+  "per_class": {
+    "pathological": {
+      "precision": 0.3275862068965517,
+      "recall": 0.4418604651162791,
+      "f1": 0.37623762376237624,
+      "support": 43,
+      "tp": 19,
+      "fp": 39,
+      "fn": 24
+    },
+    "modulatory": {
+      "precision": 0.06521739130434782,
+      "recall": 0.3,
+      "f1": 0.10714285714285714,
+      "support": 10,
+      "tp": 3,
+      "fp": 43,
+      "fn": 7
+    },
+    "expression change": {
+      "precision": 0.5,
+      "recall": 0.08450704225352113,
+      "f1": 0.14457831325301204,
+      "support": 71,
+      "tp": 6,
+      "fp": 6,
+      "fn": 65
+    },
+    "diagnosis": {
+      "precision": 0.3333333333333333,
+      "recall": 0.1111111111111111,
+      "f1": 0.16666666666666666,
+      "support": 36,
+      "tp": 4,
+      "fp": 8,
+      "fn": 32
+    },
+    "therapy": {
+      "precision": 0.1724137931034483,
+      "recall": 0.625,
+      "f1": 0.2702702702702703,
+      "support": 8,
+      "tp": 5,
+      "fp": 24,
+      "fn": 3
+    },
+    "no relation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "relation undefined": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0,
+      "tp": 0,
+      "fp": 11,
+      "fn": 0
+    }
+  },
+  "confusion_matrix": [
+    [
+      19,
+      15,
+      2,
+      0,
+      2,
+      0,
+      5
+    ],
+    [
+      3,
+      3,
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      28,
+      18,
+      6,
+      7,
+      9,
+      0,
+      3
+    ],
+    [
+      7,
+      9,
+      3,
+      4,
+      11,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "pathological",
+    "modulatory",
+    "expression change",
+    "diagnosis",
+    "therapy",
+    "no relation",
+    "relation undefined"
+  ]
+}

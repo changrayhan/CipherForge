@@ -1,0 +1,5 @@
+=== full log line count ===
+   4064 logs/biotriplex_finetune_all_1784704312.log
+   4128 logs/nohup_train.log
+   4124 logs/train_20260722_151150.log
+  12316 total

@@ -425,8 +425,14 @@ class PartyM:
         # its own upstream gradient ``a_t - V_y``. The protocol contract
         # specifies a per-token gradient; averaging across tokens would
         # destroy signal and break training stability.
-        # Use bfloat16 to match model dtype (document §4.4)
-        g_H = torch.from_numpy(g_accum[: B * S]).float().to(self.device).bfloat16()
+        # g_H_dtype (from config) controls the precision of the injected gradient:
+        #   bf16 (default) — matches model dtype, ~1‰ bf16 truncation tax
+        #   fp32           — skips bf16 conversion, ideal upper bound for the quantization
+        #                    stage (separates "bf16 tax" from "quantization tax")
+        _g_H_DTYPE = {"fp32": torch.float32, "bf16": torch.bfloat16, "fp16": torch.float16}
+        _g_H_DTYPE_KEY = self.config.get("g_H_dtype", "bf16") if hasattr(self, "config") else "bf16"
+        _torch_dtype = _g_H_DTYPE.get(_g_H_DTYPE_KEY, torch.bfloat16)
+        g_H = torch.from_numpy(g_accum[: B * S]).to(_torch_dtype).to(self.device)
         g_H = g_H.view(B, S, vec_dim).contiguous()
 
         loss_proxy = self._inject_and_backward(g_H, step)

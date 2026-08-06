@@ -1,0 +1,32 @@
+# SLG BFV + LoRA parameters extracted from checkpoint
+# Source: _SAVE_20260727_0706/checkpoint_epoch_001.pt
+
+scale: 10000
+plain_bits: 30
+poly_degree: 4096
+hidden_dim: 4096
+vocab_size: 128256
+lora_dropout: 0.05
+lora_alpha_formula: alpha = 2 * rank (peft convention)
+target_modules:
+  - down_proj
+  - gate_proj
+  - k_proj
+  - o_proj
+  - q_proj
+  - up_proj
+  - v_proj
+bfv_source: src/core/bfv_privselect_v2_adapter.py:11-13 (hardcoded)
+shape_source: src/parties/heterogeneous_protocol.py:201-202 (config defaults)
+lora_alpha_source: src/scripts/evaluate_slg_cls.py:172 alpha = rank * 2
+target_modules_source: extracted from ckpt party_checkpoints['M']['lora_state'] keys
+ckpt_config_has_bfv_params: false
+ckpt_config_observed: {'max_epochs': 6, 'train_ratio': 0.9, 'seed': 42, 'batch_size': 1, 'max_seq_length': 10000, 'task_type': 'classification'}
+lora_rank: 8
+lora_alpha: 16
+lora_params_count: 257
+target_modules_count: 7
+lora_state_source: ckpt['party_checkpoints']['M']['lora_state']
+v_shape_source: ckpt['party_checkpoints']['S']['v_shape']
+source_ckpt: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_001.pt
+extracted_on: 2026-07-31

@@ -184,6 +184,7 @@ class HeterogeneousProtocol:
             bfv_backend=bfv_backend,
             hint_table=hint_table,
             config=config,
+            task_type=self._task_type,
         )
         logger.info(
             "[HeterogeneousProtocol] U/M/S ready in %.1fs (single CUDA context)",

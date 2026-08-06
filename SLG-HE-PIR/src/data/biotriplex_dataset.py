@@ -1,25 +1,17 @@
-"""BioTriplex dataset adapters for SLG-HE-PIR.
+"""Dataset adapters for SLG-HE-PIR.
 
-These classes wrap the BioTriplex pre-processed text+sentences+ner document
-format used by the original llama-rec repo and expose them in the same
-dict-based interface expected by ``src.training.trainer.Trainer``.
+This module provides adapters for both BioTriplex and TREC-QC tasks:
 
-Two tasks are supported (matching ``docs/BIOTRIPLEX_FINETUNE_README.md``):
+* **BioTriplex (Task A — Classification / Task B — Generation)**: Wraps the
+  pre-processed text+sentences+ner document format used by the original
+  llama-rec repo.
 
-* **Task A — Classification (GenRel QA)**:
-  ``BioTriplexQADatasetClassification`` reads ``train/val/test_para.txt``,
-  one JSON document per line. Each sentence that contains at least one
-  (gene, disease) pair is expanded into a prompt asking the model to
-  predict a single relation letter (a) ~ g)). The label is a 7-bit
-  multi-label binary vector (one bit per ``GENERAL_RELATIONS`` class).
+* **TREC-QC (6-class coarse question classification)**: Short-text question
+  classification dataset (Li & Roth, COLING'02). Each sample is a short
+  question (~50 chars) with a coarse label in {DESC, ENTY, ABBR, HUM, NUM, LOC}.
+  Used as a complementary short-text ablation in the AccuracyAblationTest.
 
-* **Task B — Generation (NER JSON)**:
-  ``BioTriplexQADatasetGeneration`` reads ``train/val/test_shorter.txt``,
-  one JSON sentence per line. Each sample asks the model to output a
-  JSON list ``[{"span": "...", "entity_type": "GENE|DISEASE|RELATION"}, ...]``.
-
-Both datasets emit the same dict schema required by the heterogeneous
-protocol:
+BioTriplex dict schema::
 
     {
         "input_ids":       Tensor[max_length],
@@ -53,6 +45,7 @@ exactly:
 
 from __future__ import annotations
 
+import collections
 import json
 import logging
 import os
@@ -724,4 +717,198 @@ def build_biotriplex_dataset(
             split=split,
             max_length=max_length,
         )
-    raise ValueError(f"Unknown task: {task} (expected 'classification' or 'generation')")
+    if task in ("trec-qc", "trec_qc", "trec"):
+        return TRECQADataset(
+            data_dir=data_dir,
+            tokenizer=tokenizer,
+            split=split,
+            max_length=max_length,
+        )
+    raise ValueError(f"Unknown task: {task} (expected 'classification', 'generation', or 'trec-qc')")
+
+
+# ---------------------------------------------------------------------------
+#  TREC-QC adapter (Li & Roth, COLING'02 — 6 coarse classes)
+# ---------------------------------------------------------------------------
+# Coarse class mapping (must match label_coarse field in TREC-QC jsonl files)
+TREC_QC_COARSE_CLASSES: List[str] = [
+    "description and abstract concepts",  # 0  DESC
+    "entities",                            # 1  ENTY
+    "abbreviation",                        # 2  ABBR
+    "human beings",                        # 3  HUM
+    "numeric values",                      # 4  NUM
+    "locations",                           # 5  LOC
+]
+TREC_QC_COARSE_CODES: List[str] = ["DESC", "ENTY", "ABBR", "HUM", "NUM", "LOC"]
+
+
+class TRECQADataset(Dataset):
+    """TREC-QC 6-class coarse-grained question classification.
+
+    Wraps the jsonl files emitted by ``datasets/trec-qc/``:
+    ``{train,val,test}.jsonl``. Each line is a JSON object::
+
+        {"text": "How many Russians ...", "label": 13, "label_coarse": 4,
+         "label_coarse_text": "numeric values", "label_coarse_original": "NUM"}
+
+    Emits the same dict schema as ``BioTriplexQADatasetClassification`` so the
+    heterogeneous trainer can load it unchanged. The "labels" tensor holds the
+    fine-grained 7-class CE target at the LAST prompt token (matching the SLG
+    letter-prediction protocol). For TREC-QC we project the coarse label onto
+    the SAME 7-letter option list as BioTriplex (a..g), but only the first 6
+    letters are valid; index 6 is reserved as a dummy "no-class" fallback.
+
+    Args:
+        data_dir: path containing ``train.jsonl`` / ``val.jsonl`` / ``test.jsonl``.
+        tokenizer: HuggingFace tokenizer (must match the model that will be trained).
+        split: one of ``{"train", "val", "test"}``.
+        max_length: max sequence length (default 256 — TREC-QC max is 196 chars).
+
+    Returns dict (per item)::
+
+        {
+            "input_ids":      Tensor[max_length],
+            "attention_mask": Tensor[max_length],
+            "labels":         Tensor[max_length],  # -100 except last pos = coarse_idx (0..5)
+            "output_ids":     None,
+            "output_text":    str,   # e.g. "0)"
+            "doc_key":        str,   # e.g. "trec_42"
+            "prompt":         str,   # raw prompt text
+            "input_text":     str,   # the question text
+            "entities":       [],    # no NER for TREC-QC
+            "relation":       None,
+            "label_idx":      int,   # 0..5 (coarse label index)
+        }
+    """
+
+    def __init__(
+        self,
+        data_dir: str,
+        tokenizer,
+        split: str,
+        max_length: int = 256,
+    ):
+        super().__init__()
+        self.data_dir = Path(data_dir)
+        self.tokenizer = tokenizer
+        self.max_length = int(max_length)
+
+        split_file = {
+            "train": "train.jsonl",
+            "val": "val.jsonl",
+            "test": "test.jsonl",
+        }[split]
+        fpath = self.data_dir / split_file
+        if not fpath.exists():
+            raise FileNotFoundError(f"TREC-QC split not found: {fpath}")
+
+        self.records: List[Dict[str, Any]] = []
+        with open(fpath, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                self.records.append(json.loads(line))
+
+        # Pre-compute class distribution for logging
+        self.class_counts = collections.Counter(
+            r.get("label_coarse", 0) for r in self.records
+        )
+        logger.info(
+            "TRECQADataset[%s] loaded %d samples from %s; class counts=%s",
+            split,
+            len(self.records),
+            fpath,
+            dict(self.class_counts),
+        )
+
+    def __len__(self) -> int:
+        return len(self.records)
+
+    def _format_prompt(self, text: str) -> str:
+        # Match the BioTriplex letter-option prompt format so the heterogeneous
+        # trainer (which expects "a)/b)/.../g)" letter prediction at the last
+        # position) works unchanged. Only options a)..f) are valid; g) is
+        # reserved as a dummy class the trainer never predicts.
+        options = "\n".join(
+            f"{chr(ord('a') + i)}) {name}"
+            for i, name in enumerate(TREC_QC_COARSE_CLASSES)
+        )
+        prompt = (
+            "Classify the following question into one of the 6 coarse categories.\n"
+            f"Question: {text.strip()}\n"
+            f"Options:\n{options}\n"
+            "Answer with one letter (a-f):"
+        )
+        return prompt
+
+    def __getitem__(self, idx: int) -> Dict[str, Any]:
+        item = self.records[idx]
+        text: str = item["text"]
+        coarse_idx: int = int(item["label_coarse"])  # 0..5
+        coarse_text: str = item.get("label_coarse_text", TREC_QC_COARSE_CLASSES[coarse_idx])
+        coarse_code: str = item.get("label_coarse_original", TREC_QC_COARSE_CODES[coarse_idx])
+
+        prompt = self._format_prompt(text)
+
+        enc = self.tokenizer(
+            prompt,
+            max_length=self.max_length,
+            padding="max_length",
+            truncation=True,
+            return_tensors="pt",
+        )
+        input_ids = enc["input_ids"].squeeze(0)
+        attention_mask = enc["attention_mask"].squeeze(0)
+
+        # Tokenize the gold answer letter "a)", "b)", ... and place it at the
+        # LAST non-pad position. All other positions are -100.
+        letter = chr(ord("a") + coarse_idx)  # 'a'..'f'
+        answer_text = f"{letter})"
+        ans_ids = self.tokenizer.encode(answer_text, add_special_tokens=False)
+        if not ans_ids:
+            ans_ids = [self.tokenizer.eos_token_id]
+
+        labels = torch.full_like(input_ids, -100)
+        seq_len = int(attention_mask.sum().item())
+        # Place the FIRST answer token at the last prompt position; subsequent
+        # tokens follow. We use the "first token" variant for CE loss because
+        # the trainer routes the final hidden state through the S shard's
+        # encrypted V matrix to predict the option letter.
+        ans_first = ans_ids[0]
+        if seq_len <= 0:
+            seq_len = 1
+        labels[seq_len - 1] = ans_first
+        # (Truncate the sequence to seq_len to avoid waste when < max_length)
+        # We keep the full padded sequence; the trainer respects attention_mask.
+
+        return {
+            "input_ids": input_ids,
+            "attention_mask": attention_mask,
+            "labels": labels,
+            "output_ids": None,
+            "output_text": answer_text,
+            "doc_key": f"trec_{idx}",
+            "prompt": prompt,
+            "input_text": text,
+            "entities": [],
+            "relation": None,
+            "label_idx": coarse_idx,
+            "label_coarse_text": coarse_text,
+            "label_coarse_original": coarse_code,
+        }
+
+
+def build_trec_qa_dataset(
+    data_dir: str,
+    tokenizer,
+    split: str,
+    max_length: int = 256,
+):
+    """Direct factory for TREC-QC datasets (mirrors build_biotriplex_dataset)."""
+    return TRECQADataset(
+        data_dir=data_dir,
+        tokenizer=tokenizer,
+        split=split,
+        max_length=max_length,
+    )

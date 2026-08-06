@@ -5,6 +5,10 @@ baseline/logs/
 baseline/*/logs/
 baseline/*/checkpoints/
 baseline/*/training.pid
+
+# Evaluation output (not source code)
+runs/
+
 __pycache__/
 *.pyc
 *.egg-info/

@@ -1,0 +1,149 @@
+{
+  "task": "GenRel QA (7-class Classification)",
+  "n_samples": 203,
+  "n_parse_failures": 0,
+  "has_logits": true,
+  "metrics": {
+    "micro_accuracy": 0.270936,
+    "macro_precision": 0.206708,
+    "macro_recall": 0.230887,
+    "macro_f1": 0.151475,
+    "weighted_f1": 0.275904,
+    "micro_f1": 0.270936,
+    "multilabel_f1_samples": 0.270936,
+    "multilabel_f1_macro": 0.151475,
+    "multilabel_f1_micro": 0.270936,
+    "macro_roc_auc_ovr": 0.681486,
+    "micro_roc_auc_ovr": 0.734409
+  },
+  "per_class_metrics": {
+    "pathological": {
+      "precision": 0.666667,
+      "recall": 0.588235,
+      "f1": 0.625,
+      "support": 51
+    },
+    "modulatory": {
+      "precision": 0.080292,
+      "recall": 0.846154,
+      "f1": 0.146667,
+      "support": 13
+    },
+    "expression change": {
+      "precision": 0.7,
+      "recall": 0.181818,
+      "f1": 0.28866,
+      "support": 77
+    },
+    "diagnosis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 51
+    },
+    "therapy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 11
+    },
+    "no relation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "relation undefined": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    }
+  },
+  "y_true_distribution": {
+    "pathological": 51,
+    "modulatory": 13,
+    "expression change": 77,
+    "diagnosis": 51,
+    "therapy": 11,
+    "no relation": 0,
+    "relation undefined": 0
+  },
+  "y_pred_distribution": {
+    "pathological": 45,
+    "modulatory": 137,
+    "expression change": 20,
+    "diagnosis": 0,
+    "therapy": 1,
+    "no relation": 0,
+    "relation undefined": 0
+  },
+  "confusion_matrix": [
+    [
+      30,
+      16,
+      4,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      56,
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      46,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "checkpoint": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_004.pt",
+  "elapsed_s": 14.329324960708618,
+  "epoch": 4
+}

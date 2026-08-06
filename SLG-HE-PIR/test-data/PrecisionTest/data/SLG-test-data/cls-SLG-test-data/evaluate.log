@@ -1,0 +1,95 @@
+/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/src/scripts/evaluate_slg_cls.py:2: SyntaxWarning: invalid escape sequence '\ '
+  """Re-evaluate SLG-HE-PIR classification checkpoints (one per epoch) using
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+===== Evaluating epoch 0 checkpoint: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_000.pt =====
+[eval] loading tokenizer + base model from /root/autodl-tmp/CipherForgeCode/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6744.30it/s]
+[eval] loading LoRA state from /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_000.pt
+[eval] remapped 257 LoRA keys, rank=8, alpha=16, targets={'q_proj', 'v_proj', 'up_proj', 'o_proj', 'gate_proj', 'down_proj', 'k_proj'}
+[eval] PEFT load: missing=515 unexpected=33
+  first unexpected: base_model.model.model.layers.0.input_layernorm.weight.weight
+[eval] evaluating on 203 samples (of 203)
+[eval] 25/203 in 2.8s
+[eval] 50/203 in 4.2s
+[eval] 75/203 in 5.7s
+[eval] 100/203 in 7.5s
+[eval] 125/203 in 9.1s
+[eval] 150/203 in 10.6s
+[eval] 175/203 in 12.5s
+[eval] 200/203 in 14.5s
+[eval] epoch 0 metrics: micro_f1=0.2611 macro_f1=0.1444 auc=0.6796 parse_failures=0
+
+===== Evaluating epoch 1 checkpoint: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_001.pt =====
+[eval] loading tokenizer + base model from /root/autodl-tmp/CipherForgeCode/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6041.06it/s]
+[eval] loading LoRA state from /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_001.pt
+[eval] remapped 257 LoRA keys, rank=8, alpha=16, targets={'q_proj', 'v_proj', 'up_proj', 'o_proj', 'gate_proj', 'down_proj', 'k_proj'}
+[eval] PEFT load: missing=515 unexpected=33
+  first unexpected: base_model.model.model.layers.0.input_layernorm.weight.weight
+[eval] evaluating on 203 samples (of 203)
+[eval] 25/203 in 2.3s
+[eval] 50/203 in 3.8s
+[eval] 75/203 in 5.3s
+[eval] 100/203 in 7.0s
+[eval] 125/203 in 8.7s
+[eval] 150/203 in 10.2s
+[eval] 175/203 in 12.1s
+[eval] 200/203 in 14.1s
+[eval] epoch 1 metrics: micro_f1=0.2709 macro_f1=0.1492 auc=0.6790 parse_failures=0
+
+===== Evaluating epoch 2 checkpoint: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_002.pt =====
+[eval] loading tokenizer + base model from /root/autodl-tmp/CipherForgeCode/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5917.09it/s]
+[eval] loading LoRA state from /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_002.pt
+[eval] remapped 257 LoRA keys, rank=8, alpha=16, targets={'q_proj', 'v_proj', 'up_proj', 'o_proj', 'gate_proj', 'down_proj', 'k_proj'}
+[eval] PEFT load: missing=515 unexpected=33
+  first unexpected: base_model.model.model.layers.0.input_layernorm.weight.weight
+[eval] evaluating on 203 samples (of 203)
+[eval] 25/203 in 2.3s
+[eval] 50/203 in 3.8s
+[eval] 75/203 in 5.3s
+[eval] 100/203 in 7.1s
+[eval] 125/203 in 8.7s
+[eval] 150/203 in 10.2s
+[eval] 175/203 in 12.2s
+[eval] 200/203 in 14.1s
+[eval] epoch 2 metrics: micro_f1=0.2611 macro_f1=0.1438 auc=0.6764 parse_failures=0
+
+===== Evaluating epoch 3 checkpoint: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_003.pt =====
+[eval] loading tokenizer + base model from /root/autodl-tmp/CipherForgeCode/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6320.19it/s]
+[eval] loading LoRA state from /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_003.pt
+[eval] remapped 257 LoRA keys, rank=8, alpha=16, targets={'q_proj', 'v_proj', 'up_proj', 'o_proj', 'gate_proj', 'down_proj', 'k_proj'}
+[eval] PEFT load: missing=515 unexpected=33
+  first unexpected: base_model.model.model.layers.0.input_layernorm.weight.weight
+[eval] evaluating on 203 samples (of 203)
+[eval] 25/203 in 2.3s
+[eval] 50/203 in 3.8s
+[eval] 75/203 in 5.3s
+[eval] 100/203 in 7.1s
+[eval] 125/203 in 8.7s
+[eval] 150/203 in 10.2s
+[eval] 175/203 in 12.1s
+[eval] 200/203 in 14.0s
+[eval] epoch 3 metrics: micro_f1=0.2611 macro_f1=0.1453 auc=0.6784 parse_failures=0
+
+===== Evaluating epoch 4 checkpoint: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_004.pt =====
+[eval] loading tokenizer + base model from /root/autodl-tmp/CipherForgeCode/hf_cache/Llama-3-1-8B-I
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 7671.21it/s]
+[eval] loading LoRA state from /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/checkpoint_epoch_004.pt
+[eval] remapped 257 LoRA keys, rank=8, alpha=16, targets={'q_proj', 'v_proj', 'up_proj', 'o_proj', 'gate_proj', 'down_proj', 'k_proj'}
+[eval] PEFT load: missing=515 unexpected=33
+  first unexpected: base_model.model.model.layers.0.input_layernorm.weight.weight
+[eval] evaluating on 203 samples (of 203)
+[eval] 25/203 in 2.3s
+[eval] 50/203 in 3.8s
+[eval] 75/203 in 5.3s
+[eval] 100/203 in 7.0s
+[eval] 125/203 in 8.7s
+[eval] 150/203 in 10.2s
+[eval] 175/203 in 12.1s
+[eval] 200/203 in 14.0s
+[eval] epoch 4 metrics: micro_f1=0.2709 macro_f1=0.1515 auc=0.6815 parse_failures=0
+[eval] wrote /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/epoch_metrics.jsonl
+[eval] wrote /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/logs/epoch_metrics.jsonl

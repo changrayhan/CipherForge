@@ -41,12 +41,18 @@ class PartyS:
         hint_table,
         config: Dict,
         crypto_s_pool=None,
+        task_type: Optional[str] = None,
     ):
         self.config = config
         self.prg_seed = prg_seed
         self.bfv_backend = bfv_backend
         self.hint_table = hint_table
         self.crypto_s_pool = crypto_s_pool
+        # Task type is propagated from the protocol so the S shard picks the
+        # correct option-letter alphabet (TREC-QC: 6 letters; BioTriplex/others:
+        # 7 letters). Defaults to ``classification`` (7 letters) for legacy
+        # callers.
+        self._task_type: str = str(task_type or self.config.get("task_type", "classification"))
         self._setup_device()
         self._setup_lm_head(lm_head_path)
         self._setup_bfv(bfv_pk_pem)
@@ -286,15 +292,18 @@ class PartyS:
     #  Task-aware option-letter projection helpers
     # ------------------------------------------------------------------------- #
     def _get_option_token_ids(self, device: Optional[torch.device] = None) -> torch.Tensor:
-        """Map ``['a','b','c','d','e','f','g']`` to single token ids of the LM head.
+        """Map option letters to single token ids of the LM head.
 
         Mirrors the baseline strategy from
         ``baseline/classification_genrel/scripts/infer_and_save.py:60-78``:
         for each letter try ``f"{letter})"``, ``letter``, ``f" {letter})"``,
         ``f" {letter}"`` and pick the first encoding that is a *single* token.
 
+        The number of letters is controlled by ``self._task_type``:
+        ``trec-qc`` -> 6 (a..f), others -> 7 (a..g).
+
         Cached on ``self._option_token_ids_cache`` keyed by tokenizer identity.
-        Returned tensor is shaped ``[7]`` long; ``device`` controls placement.
+        Returned tensor is shaped ``[N]`` long; ``device`` controls placement.
         """
         cache_key = getattr(self.spec, "model_path", None) or "default"
         if (
@@ -309,8 +318,10 @@ class PartyS:
                 if self._tokenizer.pad_token is None:
                     self._tokenizer.pad_token = self._tokenizer.eos_token
             tokenizer = self._tokenizer
+            # Determine letter alphabet: TREC-QC has 6 classes, others have 7.
+            task_letters = "abcdef" if getattr(self, "_task_type", None) == "trec-qc" else "abcdefg"
             ids: List[int] = []
-            for letter in "abcdefg":
+            for letter in task_letters:
                 chosen: Optional[int] = None
                 for cand in (f"{letter})", letter, f" {letter})", f" {letter}"):
                     enc = tokenizer.encode(cand, add_special_tokens=False)
@@ -359,6 +370,7 @@ class PartyS:
         attention_mask: Optional[torch.Tensor] = None,
         task_type: str = "classification",
         max_new_tokens: int = 128,
+        gold_in_input: bool = True,
     ) -> Dict[str, List[Any]]:
         """Generate predictions via the standard forward pass (validation only).
 
@@ -380,6 +392,15 @@ class PartyS:
                 ``None`` falls back to ``S - 1`` (matches baseline behaviour).
             task_type: ``'classification'`` (default) or ``'generation'``.
             max_new_tokens: max generated length for the NER path.
+            gold_in_input: whether the input_ids tensor passed through the
+                forward path contains the gold ``c)<|eot|>`` suffix. If
+                True (the SLG ``step_val`` path), the supervised letter
+                token is at ``last_idx - 2`` so we read ``logits[last_idx-3]``.
+                If False (the stage-2 evaluate_biotriplex prompt-only path),
+                the letter is the next token after the assistant header
+                so we read ``logits[last_idx]``. Defaults to True for
+                backwards compatibility with the standard training-mode
+                forward.
 
         Returns:
             For classification:
@@ -397,7 +418,10 @@ class PartyS:
             raise ValueError("Unknown input type for generate_predictions")
 
         if task_type == "classification":
-            return self._classify_from_logits(logits, attention_mask)
+            return self._classify_from_logits(
+                logits, attention_mask,
+                gold_in_input=gold_in_input,
+            )
         elif task_type == "generation":
             return self._greedy_decode_from_logits(
                 logits, attention_mask, max_new_tokens=max_new_tokens,
@@ -412,8 +436,27 @@ class PartyS:
         self,
         logits: torch.Tensor,
         attention_mask: Optional[torch.Tensor],
+        gold_in_input: bool = True,
     ) -> Dict[str, List[Any]]:
         # logits: [B, S, V] on self.device (bf16 or matching dtype)
+        #
+        # Bug fix (2026-08-01): the original implementation read
+        # ``logits[last_idx]`` where ``last_idx = sum(am) - 1``. In HF
+        # causal LM, ``logits[i]`` predicts ``input_ids[i+1]`` (shift-by-1).
+        # The supervised letter token lives at the LAST position whose
+        # ``labels > 0`` (i.e. ``letter_pos`` in ``step_val`` context). In
+        # the standard BioTriplex dataset, the token sequence ends with
+        # ``[letter, ), EOS]`` so ``letter_pos = last_idx - 2``. The
+        # logits that predict the letter token are therefore at
+        # ``letter_pos - 1 = last_idx - 3``.
+        #
+        # The two call sites have different input shapes:
+        #   - ``step_val`` (heterogeneous_protocol.py): input_ids contains
+        #     gold ``c)<|eot|>``. ``last_idx`` is the EOS position. Use
+        #     ``last_idx - 3``.
+        #   - stage 2 evaluate_biotriplex.py: input_ids is prompt-only.
+        #     ``last_idx`` is the assistant header. Use ``last_idx``.
+        # The caller decides which via the ``gold_in_input`` flag.
         device = logits.device
         opt_ids = self._get_option_token_ids(device=device)  # [7] long
         if attention_mask is not None:
@@ -422,8 +465,13 @@ class PartyS:
             last_idx = torch.full(
                 (logits.size(0),), logits.size(1) - 1, dtype=torch.long, device=device,
             )
-        # Gather last-position logits: [B, V]
-        gather_idx = last_idx.view(-1, 1, 1).expand(-1, 1, logits.size(-1))
+        # Pick the letter-prediction position.
+        if gold_in_input:
+            letter_idx = (last_idx - 3).clamp(min=0)
+        else:
+            letter_idx = last_idx
+        # Gather letter-prediction logits: [B, V]
+        gather_idx = letter_idx.view(-1, 1, 1).expand(-1, 1, logits.size(-1))
         last_logits = logits.gather(1, gather_idx).squeeze(1)  # [B, V]
         # Project to 7 classes
         option_logits = last_logits.index_select(-1, opt_ids).float()  # [B, 7]

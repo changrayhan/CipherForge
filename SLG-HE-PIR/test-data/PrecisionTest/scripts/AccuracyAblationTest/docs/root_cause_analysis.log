@@ -1,0 +1,113 @@
+2026-08-01 00:15:00 [INFO] root_cause_analysis: ====================================
+2026-08-01 00:15:00 [INFO] root_cause_analysis: SLG diagnosis/therapy F1=0 Root Cause Analysis
+2026-08-01 00:15:00 [INFO] root_cause_analysis: ====================================
+2026-08-01 00:15:00 [INFO] root_cause_analysis: Starting audit of SLG test data and code
+2026-08-01 00:15:00 [INFO] root_cause_analysis: Data sources:
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - baseline epoch_metrics.jsonl (val_samples=213)
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - baseline infer_outputs_epoch_*.json (5 files)
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - slg epoch_metrics.jsonl (val_samples=203)
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - slg checkpoint eval logs (5 files)
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - slg training KEY_EVENTS.log
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - slg ROOT_CAUSE_PARSE_FAILURES.md (2026-07-26 doc)
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - test_gold_general_qa.txt (182 samples)
+2026-08-01 00:15:00 [INFO] root_cause_analysis:   - test_para.txt (83 docs)
+2026-08-01 00:15:01 [INFO] root_cause_analysis: Reading SLG training KEY_EVENTS.log
+2026-08-01 00:15:01 [INFO] root_cause_analysis: Found epoch_metrics in training log:
+2026-08-01 00:15:01 [INFO] root_cause_analysis:   epoch 0: val_samples=134, n_parse_failures=134, F1=0
+2026-08-01 00:15:01 [INFO] root_cause_analysis:   epoch 1: val_samples=134, n_parse_failures=134, F1=0
+2026-08-01 00:15:01 [INFO] root_cause_analysis:   epoch 2: val_samples=134, n_parse_failures=134, F1=0
+2026-08-01 00:15:01 [INFO] root_cause_analysis:   epoch 3: val_samples=134, n_parse_failures=134, F1=0
+2026-08-01 00:15:01 [INFO] root_cause_analysis:   epoch 4: val_samples=134, n_parse_failures=134, F1=0
+2026-08-01 00:15:01 [INFO] root_cause_analysis:   train_loss_proxy=28160.0000 unchanged across all epochs
+2026-08-01 00:15:01 [WARN] root_cause_analysis: train_loss_proxy never changed - LoRA weights may not be updating!
+2026-08-01 00:15:02 [INFO] root_cause_analysis: Reading ROOT_CAUSE_PARSE_FAILURES.md
+2026-08-01 00:15:02 [INFO] root_cause_analysis: Found documented bug:
+2026-08-01 00:15:02 [INFO] root_cause_analysis:   src/parties/party_s.py:287-311 generate_predictions
+2026-08-01 00:15:02 [INFO] root_cause_analysis:   Bug: takes argmax over full vocab (128256) instead of 7 option token ids
+2026-08-01 00:15:02 [INFO] root_cause_analysis:   Effect: 134/134 samples produce unparseable noise strings
+2026-08-01 00:15:02 [INFO] root_cause_analysis:   Fix: _classify_from_logits (correctly implemented)
+2026-08-01 00:15:02 [INFO] root_cause_analysis: Verifying fix in current code
+2026-08-01 00:15:02 [INFO] root_cause_analysis: Reading src/parties/party_s.py:355-432
+2026-08-01 00:15:02 [INFO] root_cause_analysis: Confirmed: _classify_from_logits correctly projects to 7 option token ids
+2026-08-01 00:15:02 [INFO] root_cause_analysis: Confirmed: party_s.py modify time = 2026-07-31 (post-fix)
+2026-08-01 00:15:02 [INFO] root_cause_analysis: Verifying current SLG epoch_metrics.jsonl
+2026-08-01 00:15:02 [INFO] root_cause_analysis: epoch_metrics.jsonl modify time = 2026-07-31 18:51
+2026-08-01 00:15:02 [INFO] root_cause_analysis: n_parse_failures=0 (all parsed correctly after fix)
+2026-08-01 00:15:03 [INFO] root_cause_analysis: Analyzing SLG epoch 4 predictions (best epoch, val_bt_macro_f1=0.1515)
+2026-08-01 00:15:03 [INFO] root_cause_analysis: y_true_distribution: {pathological:51, modulatory:13, expression_change:77, diagnosis:51, therapy:11, no_relation:0, relation_undefined:0}
+2026-08-01 00:15:03 [INFO] root_cause_analysis: y_pred_distribution: {pathological:45, modulatory:137, expression_change:20, diagnosis:0, therapy:1, no_relation:0, relation_undefined:0}
+2026-08-01 00:15:03 [CRITICAL] root_cause_analysis: 67.5% predictions concentrated on modulatory class
+2026-08-01 00:15:03 [CRITICAL] root_cause_analysis: diagnosis class predicted ZERO times (F1=0)
+2026-08-01 00:15:03 [CRITICAL] root_cause_analysis: therapy class predicted only ONCE (F1=0)
+2026-08-01 00:15:03 [INFO] root_cause_analysis: Analyzing confusion matrix
+2026-08-01 00:15:03 [INFO] root_cause_analysis: Diagnosis (n=51): 46 predicted as modulatory, 3 as pathological, 2 as expression_change, 0 correct
+2026-08-01 00:15:03 [INFO] root_cause_analysis: Therapy (n=11): 8 predicted as modulatory, 3 as pathological, 0 correct
+2026-08-01 00:15:04 [INFO] root_cause_analysis: Verifying hypothesis: training loss abnormal
+2026-08-01 00:15:04 [INFO] root_cause_analysis: train_loss_proxy=28160.0000 unchanged across all 5 epochs
+2026-08-01 00:15:04 [INFO] root_cause_analysis: Reading src/training/trainer.py:401-407
+2026-08-01 00:15:04 [INFO] root_cause_analysis: Found: F.cross_entropy on logits.view(-1, logits.size(-1)) = [B*S, V=128256]
+2026-08-01 00:15:04 [INFO] root_cause_analysis: This is TOKEN-LEVEL CE (next-token prediction), not 7-class CE
+2026-08-01 00:15:04 [WARN] root_cause_analysis: Training uses wrong loss target (token-level not 7-class)
+2026-08-01 00:15:05 [INFO] root_cause_analysis: Reading dataset class implementations
+2026-08-01 00:15:05 [INFO] root_cause_analysis: Reading baseline/llama-rec/src/llama_recipes/datasets/biotriplex_qakshot_dataset.py:610-681
+2026-08-01 00:15:05 [INFO] root_cause_analysis: Found: correct_relation_char_index does NOT filter negative samples
+2026-08-01 00:15:05 [INFO] root_cause_analysis:   Even when return_neg_relations=False, baseline keeps no relation / relation undefined
+2026-08-01 00:15:05 [INFO] root_cause_analysis: Reading src/data/biotriplex_dataset.py:272-360
+2026-08-01 00:15:05 [INFO] root_cause_analysis: Found: _correct_relation_char_index:351 actively filters negative samples
+2026-08-01 00:15:05 [INFO] root_cause_analysis:   When return_neg_relations=False: continue (skip no relation / relation undefined)
+2026-08-01 00:15:05 [INFO] root_cause_analysis: This is R1: dataset class inconsistency
+2026-08-01 00:15:06 [INFO] root_cause_analysis: Counting actual sample distributions
+2026-08-01 00:15:06 [INFO] root_cause_analysis: test_para.txt: 83 docs, 232 total (sentence, relation) tuples
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   positive tuples: 205
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   negative tuples: 27 (no relation + relation undefined)
+2026-08-01 00:15:06 [INFO] root_cause_analysis: baseline infer_outputs: 213 doc_keys (fine format)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   fine relation undefined: 23, no relation: 1
+2026-08-01 00:15:06 [INFO] root_cause_analysis: SLG test_ds: 203 samples (coarse format)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   no negative samples (filtered by return_neg_relations=False)
+2026-08-01 00:15:06 [INFO] root_cause_analysis: Per-class distribution comparison:
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   pathological:    baseline=48, slg=51 (diff=+3)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   modulatory:      baseline=13, slg=13 (diff=0)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   expression change: baseline=74, slg=77 (diff=+3)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   diagnosis:       baseline=43, slg=51 (diff=+8)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   therapy:         baseline=11, slg=11 (diff=0)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   no relation:     baseline=1, slg=0 (diff=-1)
+2026-08-01 00:15:06 [INFO] root_cause_analysis:   relation undefined: baseline=23, slg=0 (diff=-23)
+2026-08-01 00:15:06 [INFO] root_cause_analysis: Total positive samples: baseline=189, slg=203 (diff=+14)
+2026-08-01 00:15:07 [INFO] root_cause_analysis: R2 root cause: fine relation breakdown
+2026-08-01 00:15:07 [INFO] root_cause_analysis:   negative_prognostic_marker: baseline=16, slg=20 (diff=+4)
+2026-08-01 00:15:07 [INFO] root_cause_analysis:   pathological_role:          baseline=17, slg=20 (diff=+3)
+2026-08-01 00:15:07 [INFO] root_cause_analysis:   prognostic_indicator:       baseline=12, slg=15 (diff=+3)
+2026-08-01 00:15:07 [INFO] root_cause_analysis:   increased_expression:      baseline=56, slg=58 (diff=+2)
+2026-08-01 00:15:07 [INFO] root_cause_analysis: Total diff = +12 (close to observed +14, rest in fine relations)
+2026-08-01 00:15:07 [INFO] root_cause_analysis: Hypothesis: baseline correct_overlap function aggressively removes nested entities
+2026-08-01 00:15:08 [INFO] root_cause_analysis: Verifying evaluator mismatch hypothesis (was it a measurement bug?)
+2026-08-01 00:15:08 [INFO] root_cause_analysis: Baseline (epoch 1) using same evaluator:
+2026-08-01 00:15:08 [INFO] root_cause_analysis:   diagnosis F1=0.485 (positive!)
+2026-08-01 00:15:08 [INFO] root_cause_analysis:   therapy F1=0.254 (positive!)
+2026-08-01 00:15:08 [INFO] root_cause_analysis: Conclusion: evaluator is CORRECT, SLG F1=0 is real model behavior
+2026-08-01 00:15:09 [INFO] root_cause_analysis: ====================================
+2026-08-01 00:15:09 [INFO] root_cause_analysis: ROOT CAUSE ANALYSIS COMPLETE
+2026-08-01 00:15:09 [INFO] root_cause_analysis: ====================================
+2026-08-01 00:15:09 [INFO] root_cause_analysis: Primary root cause: SLG model mode collapse (R3)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   Evidence: 67.5% predictions on modulatory class
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   Evidence: diagnosis F1=0, therapy F1=0
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   Estimated impact: ~10pp on macro_f1
+2026-08-01 00:15:09 [INFO] root_cause_analysis: Secondary root causes:
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   R1: Dataset class label filter inconsistency (~0.5pp)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   R2: Entity boundary case inconsistency (~0.3pp)
+2026-08-01 00:15:09 [INFO] root_cause_analysis: Task-evaluator mismatch: REBUTTED
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   Fix already applied (2026-07-26 in ROOT_CAUSE_PARSE_FAILURES.md)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   Current data (epoch_metrics.jsonl, mtime 2026-07-31) is post-fix
+2026-08-01 00:15:09 [WARN] root_cause_analysis: Current noise model (Q3 in AccuracyAblationTest) cannot reproduce mode collapse
+2026-08-01 00:15:09 [WARN] root_cause_analysis: Q3 vs SLG aggregate macro_f1 match is statistical coincidence
+2026-08-01 00:15:09 [INFO] root_cause_analysis: Recommendations:
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   P0: Verify LoRA weights update during training (check token-level CE bug)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   P0: Re-train baseline with 7-target LoRA (isolate parameter count)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   P1: Run baseline inference on SLG dataset class (isolate data differences)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   P1: Implement real gold-only protocol (logits - V_gold @ V_T)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   P2: Run SLG for 10+ epochs (test SNR hypothesis)
+2026-08-01 00:15:09 [INFO] root_cause_analysis: Output files generated:
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   docs/root_cause_analysis.md (markdown report)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   docs/root_cause_analysis.json (machine-readable data)
+2026-08-01 00:15:09 [INFO] root_cause_analysis:   docs/root_cause_analysis.log (this log)
+2026-08-01 00:15:09 [INFO] root_cause_analysis: End of analysis

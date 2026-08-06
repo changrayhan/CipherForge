@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "label": "Baseline (Plaintext, 2-target LoRA)",
+    "best_epoch": 1,
+    "metrics": {
+      "micro_f1": 0.36619718309859156,
+      "macro_f1": 0.2632786270124317,
+      "weighted_f1": 0.3806025820330948,
+      "micro_accuracy": 0.36619718309859156,
+      "macro_precision": 0.35220221790973033,
+      "macro_recall": 0.3500647555880114,
+      "micro_auc": 0.7288695658562748,
+      "macro_auc": 0.7770649498791287,
+      "parse_failures": 0,
+      "n_samples": 213,
+      "train_steps": 596
+    }
+  },
+  "slg": {
+    "label": "SLG-HE-PIR (3-party HE-PIR, 7-target LoRA)",
+    "best_epoch": 4,
+    "metrics": {
+      "micro_f1": 0.270936,
+      "macro_f1": 0.151475,
+      "weighted_f1": 0.275904,
+      "micro_accuracy": 0.270936,
+      "macro_precision": 0.206708,
+      "macro_recall": 0.230887,
+      "micro_auc": 0.734409,
+      "macro_auc": 0.681486,
+      "parse_failures": 0,
+      "n_samples": 203,
+      "train_steps": 734
+    }
+  },
+  "delta": {
+    "label": "Baseline − SLG",
+    "metrics": {
+      "micro_f1": 0.095261,
+      "macro_f1": 0.111804,
+      "weighted_f1": 0.104699,
+      "micro_accuracy": 0.095261,
+      "macro_precision": 0.145494,
+      "macro_recall": 0.119178,
+      "micro_auc": -0.005539,
+      "macro_auc": 0.095579,
+      "parse_failures": 0,
+      "n_samples": 10,
+      "train_steps": -138
+    }
+  }
+}

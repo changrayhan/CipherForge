@@ -1,0 +1,41 @@
+{
+  "baseline_5epoch_avg": {
+    "micro_f1": 0.3004694835680751,
+    "macro_f1": 0.21707478897079951,
+    "weighted_f1": 0.2735300796447307,
+    "micro_accuracy": 0.3004694835680751,
+    "macro_precision": 0.3570505307635195,
+    "macro_recall": 0.328277355893635,
+    "micro_auc": 0.7129093286899277,
+    "macro_auc": 0.7849331267624325,
+    "parse_failures": 0.0,
+    "n_samples": 213.0,
+    "train_steps": 596.0
+  },
+  "slg_5epoch_avg": {
+    "micro_f1": 0.2650248,
+    "macro_f1": 0.1468324,
+    "weighted_f1": 0.26850040000000003,
+    "micro_accuracy": 0.2650248,
+    "macro_precision": 0.2013822,
+    "macro_recall": 0.2228018,
+    "micro_auc": 0.734507,
+    "macro_auc": 0.6789692,
+    "parse_failures": 0.0,
+    "n_samples": 203.0,
+    "train_steps": 734.0
+  },
+  "delta": {
+    "micro_f1": 0.035445,
+    "macro_f1": 0.070242,
+    "weighted_f1": 0.00503,
+    "micro_accuracy": 0.035445,
+    "macro_precision": 0.155668,
+    "macro_recall": 0.105476,
+    "micro_auc": -0.021598,
+    "macro_auc": 0.105964,
+    "parse_failures": 0.0,
+    "n_samples": 10.0,
+    "train_steps": -138.0
+  }
+}

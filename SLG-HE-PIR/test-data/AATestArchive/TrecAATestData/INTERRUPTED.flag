@@ -1,0 +1,8 @@
+TREC 1B test interrupted at 2026-08-01 12:55:
+- Runners: PID 176895 (trec), 190537/190543 (launch_bio_after_trec) all killed
+- Last completed: 18/27 (B-T_dpa30 / seed=2025)
+- Currently running when killed: B-T_dpa50 / seed=42 (python 189173, ~4:49 elapsed)
+- Remaining: B-T_dpa50/{42,123,2025}, B-T_ab_no_beta/{42,123,2025},
+             B-T7_dpa15/{42,123,2025} (9 experiments)
+
+User decision: stop TREC, pivot to BioTriplex 1B accuracy test.

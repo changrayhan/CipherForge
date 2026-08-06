@@ -150,7 +150,13 @@ def _inference_loop_classification(
 
         with torch.no_grad():
             # First pass: get logits at last token (no generate needed for
-            # multi-class classification — we just need last token logits)
+            # multi-class classification — we just need last token logits).
+            # Bug fix (2026-08-01): ``fwd.logits[0, -1, :]`` predicts the token
+            # AFTER the prompt. Since the prompt ends with ``assistant`` (suffix),
+            # this is the right position to predict the letter token. The previous
+            # baseline bug was treating ``-1`` as "last input token", which only
+            # holds when the input INCLUDES the gold answer. Here we tokenize
+            # only the prompt, so ``-1`` correctly targets the next token.
             fwd = model(**inputs)
             last_logits = fwd.logits[0, -1, :].float().cpu()
             option_logits = [float(last_logits[tid]) for tid in option_token_ids]
@@ -352,8 +358,16 @@ def main():
             sample = dataset[idx]
             dk = sample["doc_key"]
             out = outputs.get(dk, {})
-            # Use generated text (multi-letter answers like "j), o)" preserved).
-            pred_text = out.get("generated_text", "") or out.get("answer", "")
+            # Prefer the answer letter derived from option logits (matches the
+            # training-time supervision exactly: predict the letter token
+            # immediately after the ``assistant`` suffix). The generated text is
+            # kept only as a fallback for multi-letter answers or as a debugging
+            # artifact in the output JSON.
+            answer = out.get("answer", "")
+            # ``answer`` is e.g. ``"a)"`` already (see _inference_loop_classification).
+            # We prefer it over the greedy-generated text because the latter may
+            # pick unrelated tokens when the prompt is long.
+            pred_text = answer or out.get("generated_text", "")
             gold_text = sample["output_text"]
             predictions.append(pred_text)
             labels.append(gold_text)

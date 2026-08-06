@@ -1,0 +1,132 @@
+{
+  "baseline_best_epoch": 1,
+  "slg_best_epoch": 4,
+  "per_class": {
+    "pathological": {
+      "baseline": {
+        "precision": 0.5254237288135594,
+        "recall": 0.6458333333333334,
+        "f1": 0.5794392523364487,
+        "support": 48,
+        "tp": 31,
+        "fp": 28,
+        "fn": 17
+      },
+      "slg": {
+        "precision": 0.666667,
+        "recall": 0.588235,
+        "f1": 0.625,
+        "support": 51
+      },
+      "delta_f1": -0.045561
+    },
+    "modulatory": {
+      "baseline": {
+        "precision": 0.09433962264150944,
+        "recall": 0.38461538461538464,
+        "f1": 0.15151515151515152,
+        "support": 13,
+        "tp": 5,
+        "fp": 48,
+        "fn": 8
+      },
+      "slg": {
+        "precision": 0.080292,
+        "recall": 0.846154,
+        "f1": 0.146667,
+        "support": 13
+      },
+      "delta_f1": 0.004848
+    },
+    "expression change": {
+      "baseline": {
+        "precision": 1.0,
+        "recall": 0.22972972972972974,
+        "f1": 0.37362637362637363,
+        "support": 74,
+        "tp": 17,
+        "fp": 0,
+        "fn": 57
+      },
+      "slg": {
+        "precision": 0.7,
+        "recall": 0.181818,
+        "f1": 0.28866,
+        "support": 77
+      },
+      "delta_f1": 0.084966
+    },
+    "diagnosis": {
+      "baseline": {
+        "precision": 0.6956521739130435,
+        "recall": 0.37209302325581395,
+        "f1": 0.48484848484848486,
+        "support": 43,
+        "tp": 16,
+        "fp": 7,
+        "fn": 27
+      },
+      "slg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 51
+      },
+      "delta_f1": 0.484848
+    },
+    "therapy": {
+      "baseline": {
+        "precision": 0.15,
+        "recall": 0.8181818181818182,
+        "f1": 0.2535211267605634,
+        "support": 11,
+        "tp": 9,
+        "fp": 51,
+        "fn": 2
+      },
+      "slg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11
+      },
+      "delta_f1": 0.253521
+    },
+    "no relation": {
+      "baseline": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      "slg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "delta_f1": 0.0
+    },
+    "relation undefined": {
+      "baseline": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 23,
+        "tp": 0,
+        "fp": 1,
+        "fn": 23
+      },
+      "slg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "delta_f1": 0.0
+    }
+  }
+}

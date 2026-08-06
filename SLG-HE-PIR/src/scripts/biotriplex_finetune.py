@@ -83,7 +83,7 @@ TASK_DEFAULTS: Dict[str, Dict[str, Any]] = {
         "weight_decay": 0.0,
         "learning_rate": 1e-4,
         "general_relations": True,
-        "return_neg_relations": False,
+        "return_neg_relations": True,  # v2 fix (Bug 0.5): align SLG dataset with baseline
         "upweight_minority_class": False,
         "num_of_shots": 0,
         "task_label": "GenRel QA (Classification)",
@@ -98,13 +98,25 @@ TASK_DEFAULTS: Dict[str, Dict[str, Any]] = {
         "num_of_shots": 0,
         "task_label": "NER JSON (Generation)",
     },
+    "trec-qc": {
+        "max_epochs": 5,            # shorter task, fewer epochs needed
+        "weight_decay": 0.0,
+        "learning_rate": 1e-4,
+        "general_relations": False,
+        "return_neg_relations": False,
+        "upweight_minority_class": False,
+        "num_of_shots": 0,
+        "task_label": "TREC-QC 6-class QA (Classification)",
+        "max_seq_length_default": 256,  # TREC-QC max 196 chars ≈ 50 tokens + padding
+        "num_classes": 6,           # TREC-QC has 6 coarse classes
+    },
 }
 
 
 def parse_args():
     p = argparse.ArgumentParser(description="SLG-HE-PIR BioTriplex three-party fine-tuning")
     # --- Task selection ---
-    p.add_argument("--task_type", choices=["classification", "generation"], required=True)
+    p.add_argument("--task_type", choices=["classification", "generation", "trec-qc"], required=True)
     p.add_argument("--stage", choices=["0", "1", "2", "all"], default="all")
 
     # --- Paths ---
@@ -124,11 +136,22 @@ def parse_args():
                         "Defaults to ${output_dir}/adapter.")
 
     # --- BFV / protocol params (rarely overridden) ---
+    # hidden_dim default is auto-inferred from the model config in
+    # ``_infer_hidden_dim_from_model()`` below (called right after parse_args)
+    # so swapping the base model (e.g. Llama-3.2-1B hidden_size=2048 vs
+    # Mistral-7B hidden_size=4096) does not silently desync from the
+    # BFV backend's vec_dim. The literal default of ``None`` here is the
+    # sentinel for "auto-detect".
     p.add_argument("--vocab_size", type=int, default=128_256)
-    p.add_argument("--hidden_dim", type=int, default=4096)
+    p.add_argument("--hidden_dim", type=int, default=None,
+                   help="Hidden dim of V (=lm_head row). Defaults to model config hidden_size "
+                        "when omitted. Set explicitly to override.")
     p.add_argument("--poly_degree", type=int, default=4096)
     p.add_argument("--plain_bits", type=int, default=30)
     p.add_argument("--scale", type=int, default=10000)
+    p.add_argument("--g_H_dtype", choices=["bf16", "fp32", "fp16"], default="bf16",
+                   help="Precision of gradient injected into M shard (party_m.py:429). "
+                        "bf16 default; fp32 separates bf16 truncation tax from quantization tax.")
     p.add_argument("--lam", type=int, default=80)
     p.add_argument("--u_layers", type=int, default=16,
                    help="Number of decoder layers in U shard (first u_layers). Remaining layers go to M. Default: 16 (half split)")
@@ -225,7 +248,51 @@ def parse_args():
     p.add_argument("--dp_num_classes", type=int, default=7,
                    help="Number of coarse classes for the LabelBasedCTI. Default: 7 (BioTriplex GenRel).")
 
-    return p.parse_args()
+    args = p.parse_args()
+    _resolve_auto_hidden_dim(args, p)
+    return args
+
+
+def _resolve_auto_hidden_dim(args, parser) -> None:
+    """Auto-infer ``args.hidden_dim`` from the model's ``config.json``.
+
+    Bug fix (2026-08-01): previously the argparse default of 4096 silently
+    shadowed the actual ``hidden_size`` of the base model. For
+    Llama-3.2-1B the actual ``hidden_size`` is **2048**; the BFV backend
+    was therefore built with ``vec_dim=4096`` while ``a_t`` (the
+    softmax-weighted V row) is only 2048-D, producing
+    ``ValueError: operands could not be broadcast together with
+    shapes (2048,) (4096,)`` inside ``PRGShareProtocolBFV.server_make_share``.
+
+    Resolution: when ``--hidden_dim`` is omitted, read
+    ``config.json->hidden_size`` from ``args.hf_model`` and use that.
+    This keeps the legacy CLI stable for any caller that already
+    passes ``--hidden_dim`` explicitly.
+    """
+    if args.hidden_dim is not None:
+        return  # user override — respect it
+    if not getattr(args, "hf_model", None):
+        parser.error(
+            "--hidden_dim not provided and --hf_model is empty; cannot auto-infer."
+        )
+    import json as _json
+    cfg_path = os.path.join(args.hf_model, "config.json")
+    if not os.path.exists(cfg_path):
+        parser.error(
+            f"--hidden_dim not provided and config.json not found at {cfg_path}"
+        )
+    with open(cfg_path) as f:
+        cfg = _json.load(f)
+    inferred = int(cfg.get("hidden_size", cfg.get("n_embd", 0)))
+    if inferred <= 0:
+        parser.error(
+            f"--hidden_dim not provided and config.json has no hidden_size/n_embd"
+        )
+    args.hidden_dim = inferred
+    print(
+        f"[biotriplex_finetune] auto-inferred hidden_dim={inferred} "
+        f"from {cfg_path}"
+    )
 
 
 # --------------------------------------------------------------------------- #
@@ -281,6 +348,11 @@ def _load_V_for_db(model_path: str, vocab_size: int, hidden_dim: int) -> np.ndar
                 V = v_fp.astype(np.float64) if V is None else np.concatenate(
                     [V, v_fp.astype(np.float64)], axis=0
                 )
+            # Llama-3.2-1B (and other recent models) tie lm_head.weight = model.embed_tokens.weight.
+            # Fall back to embed_tokens if no dedicated lm_head is found.
+            if V is None and "embed_tokens" in k and "weight" in k:
+                v_fp = v.float().numpy() if v.dtype != _torch.float32 else v.numpy()
+                V = v_fp.astype(np.float64)
         del sd
     if V is None:
         raise FileNotFoundError(f"lm_head.weight not found in {model_path}")
@@ -441,6 +513,7 @@ def run_stage1(args, logger_: logging.Logger) -> Dict[str, Any]:
         "poly_degree": args.poly_degree,
         "plain_bits": args.plain_bits,
         "scale": args.scale,
+        "g_H_dtype": args.g_H_dtype,  # OFAT phase 1.5: bf16 / fp32 / fp16
         "bfv_cache_dir": args.bfv_cache_dir,
         "lam": args.lam,
         "lora_r": args.lora_rank,

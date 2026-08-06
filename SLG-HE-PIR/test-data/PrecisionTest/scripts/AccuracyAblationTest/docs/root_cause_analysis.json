@@ -1,0 +1,116 @@
+{
+  "analysis_type": "slg_diagnosis_therapy_root_cause",
+  "timestamp": "2026-08-01T00:15:00+08:00",
+  "data_sources": {
+    "baseline_epoch_metrics": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data/epoch_metrics.jsonl",
+    "baseline_infer_outputs": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data/logs/infer_outputs_epoch_*_*.json",
+    "slg_epoch_metrics": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/epoch_metrics.jsonl",
+    "slg_checkpoint_eval_metrics": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/logs/epoch_*_evaluate_metrics.json",
+    "slg_training_log": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/KEY_EVENTS.log",
+    "slg_root_cause_doc": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/SLG-test-data/cls-SLG-test-data/_SAVE_20260727_0706/性能测试重大为题ROOT_CAUSE_PARSE_FAILURES.md",
+    "test_gold_general_qa": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/test_gold_general_qa.txt",
+    "test_para_txt": "/root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/datasets/botriplex/Preprocessed BioTriplex/test_para.txt"
+  },
+  "key_findings": {
+    "R1_dataset_filter_inconsistency": {
+      "severity": "medium",
+      "estimated_accuracy_loss_pp": 0.5,
+      "evidence": {
+        "test_para_txt_total_relations": 232,
+        "test_para_txt_positive_relations": 205,
+        "test_para_txt_negative_relations": 27,
+        "baseline_total_samples": 213,
+        "slg_total_samples": 203,
+        "sample_count_diff": -10
+      },
+      "code_evidence": {
+        "baseline_correct_relation_char_index": {
+          "file": "baseline/llama-rec/src/llama_recipes/datasets/biotriplex_qakshot_dataset.py",
+          "line_range": "610-681",
+          "behavior": "Never filters no relation / relation undefined samples, even when return_neg_relations=False"
+        },
+        "slg_correct_relation_char_index": {
+          "file": "src/data/biotriplex_dataset.py",
+          "line_range": "272-360",
+          "behavior": "Actively filters no relation / relation undefined samples when return_neg_relations=False (line 351)"
+        }
+      }
+    },
+    "R2_entity_boundary_inconsistency": {
+      "severity": "medium",
+      "estimated_accuracy_loss_pp": 0.3,
+      "evidence": {
+        "per_class_diff": {
+          "pathological": {"baseline": 48, "slg": 51, "diff": 3},
+          "expression_change": {"baseline": 74, "slg": 77, "diff": 3},
+          "diagnosis": {"baseline": 43, "slg": 51, "diff": 8},
+          "therapy": {"baseline": 11, "slg": 11, "diff": 0},
+          "modulatory": {"baseline": 13, "slg": 13, "diff": 0}
+        },
+        "fine_relation_diff": {
+          "negative_prognostic_marker": {"baseline": 16, "slg": 20, "diff": 4},
+          "pathological_role": {"baseline": 17, "slg": 20, "diff": 3},
+          "prognostic_indicator": {"baseline": 12, "slg": 15, "diff": 3},
+          "increased_expression": {"baseline": 56, "slg": 58, "diff": 2}
+        }
+      },
+      "hypothesis": "baseline correct_overlap function aggressively removes nested entities that SLG keeps"
+    },
+    "R3_slg_model_mode_collapse": {
+      "severity": "critical",
+      "estimated_accuracy_loss_pp": 10.0,
+      "evidence": {
+        "y_pred_distribution_epoch_4": {
+          "pathological": 45,
+          "modulatory": 137,
+          "expression_change": 20,
+          "diagnosis": 0,
+          "therapy": 1,
+          "no_relation": 0,
+          "relation_undefined": 0
+        },
+        "modulatory_prediction_rate": 0.675,
+        "diagnosis_predicted_zero_times": true,
+        "therapy_predicted_only_once": true
+      },
+      "hypotheses": [
+        "train_loss_proxy=28160.0 unchanged across 5 epochs suggests LoRA weights not actually updating",
+        "token-level CE in trainer.py:401-407 is wrong target for 7-class task",
+        "low signal-to-noise ratio for diagnosis/therapy (small samples) under protocol tax",
+        "base model default tendency to predict modulatory for biomedical relations"
+      ],
+      "code_evidence": {
+        "training_log": "src/training/trainer.py:401-407 uses F.cross_entropy on [B*S, V=128256] which is token-level CE, not 7-class CE",
+        "loss_proxy": "src/parties/party_m.py:499 uses g_H.norm() as loss proxy, not real CE loss"
+      }
+    }
+  },
+  "evaluator_mismatch_rebuttal": {
+    "hypothesis": "F1=0 due to task-evaluator mismatch (parse failure bug)",
+    "rebuttal_evidence": [
+      "n_parse_failures=0 in current SLG epoch_metrics.jsonl (after 2026-07-26 fix in src/parties/party_s.py:411-440 _classify_from_logits)",
+      "pred_logits present and valid (7-dim per sample)",
+      "baseline achieves F1>0 on diagnosis (0.485) and therapy (0.254) using same evaluator",
+      "y_pred_distribution shows massive concentration on modulatory class, proving evaluator correctly reports model predictions"
+    ],
+    "conclusion": "Evaluator is correct. F1=0 is a real model behavior, not a measurement bug."
+  },
+  "conclusion": {
+    "primary_root_cause": "SLG model mode collapse (R3)",
+    "secondary_root_causes": ["Dataset class label filter inconsistency (R1)", "Entity boundary case inconsistency (R2)"],
+    "implication_for_noise_model": "Q3 noise model fitting SLG aggregate macro_f1=0.1515 is statistical coincidence. Per-class distribution is fundamentally different. Noise model cannot reproduce mode collapse.",
+    "estimated_loss_decomposition": {
+      "dataset_filter_R1": 0.5,
+      "entity_boundary_R2": 0.3,
+      "mode_collapse_R3": 10.0,
+      "remaining_tax": 0.4
+    }
+  },
+  "recommendations": [
+    "P0: Verify whether LoRA weights actually updated during SLG training (check trainer.py:401-407 token-level CE issue)",
+    "P0: Re-train baseline with 7-target LoRA (5 epochs) to isolate LoRA parameter count from protocol tax",
+    "P1: Run baseline inference on SLG dataset class (with return_neg_relations=False) to isolate dataset class differences",
+    "P1: Implement real gold-only protocol simulation on baseline logits (logits - V_gold @ V_T)",
+    "P2: Run SLG for 10+ epochs to verify if diagnosis/therapy can be learned (test SNR hypothesis)"
+  ]
+}

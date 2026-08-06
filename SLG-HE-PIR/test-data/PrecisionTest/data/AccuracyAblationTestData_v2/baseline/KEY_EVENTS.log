@@ -1,0 +1,14 @@
+2026-07-31 17:05:00 [INFO] Starting BioTriplex Baseline CLS Fine-tuning
+2026-07-31 17:05:00 [INFO] Output: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data
+2026-07-31 17:05:00 [INFO] Parameters: epochs=5, lr=1e-4, lora_r=8, lora_alpha=16
+2026-07-31 18:25:47 [INFO] Epoch 0 completed
+2026-07-31 18:25:47 [INFO] Checkpoint saved: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data/checkpoint_epoch_000.pt
+2026-07-31 18:30:03 [INFO] Epoch 1 completed
+2026-07-31 18:30:03 [INFO] Checkpoint saved: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data/checkpoint_epoch_001.pt
+2026-07-31 18:34:10 [INFO] Epoch 2 completed
+2026-07-31 18:34:10 [INFO] Checkpoint saved: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data/checkpoint_epoch_002.pt
+2026-07-31 18:38:17 [INFO] Epoch 3 completed
+2026-07-31 18:38:17 [INFO] Checkpoint saved: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data/checkpoint_epoch_003.pt
+2026-07-31 18:42:38 [INFO] Epoch 4 completed
+2026-07-31 18:42:38 [INFO] Checkpoint saved: /root/autodl-tmp/CipherForgeCode/SLG-HE-PIR/test-data/baseline-test-data/new-cls-baseline-test-data/checkpoint_epoch_004.pt
+2026-07-31 18:42:38 [INFO] Training completed, total time: 1258s

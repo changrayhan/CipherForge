@@ -460,7 +460,9 @@ class BFVEncryptedDatabase:
 
         n_entries, hidden_dim = V.shape
         assert n_entries == self.n_entries, f"V has {n_entries} rows, expected {self.n_entries}"
-        assert hidden_dim == self.poly_degree, f"V has dim {hidden_dim}, expected {self.poly_degree}"
+        # poly_degree is the SEAL slot count (4096); V row dim can be smaller (2048 for Llama-3.2-1B).
+        # Smaller rows are zero-padded to fit the encoder — this is safe and standard in BFV.
+        assert hidden_dim <= self.poly_degree, f"V has dim {hidden_dim}, exceeds poly_degree {self.poly_degree}"
 
         data_path = self._data_path
         if data_path and not force:
@@ -479,7 +481,11 @@ class BFVEncryptedDatabase:
         self._ct_list = []
         for y in range(n_entries):
             row = V[y]
-            int_row = encode_vector_as_ints(row, self.scale)  # (poly_degree,)
+            int_row = encode_vector_as_ints(row, self.scale)  # shape (hidden_dim,)
+            # Zero-pad to poly_degree so BatchEncoder accepts it.
+            # The padded slots are all-zero → irrelevant to the V row values.
+            if self.poly_degree > hidden_dim:
+                int_row = np.pad(int_row, (0, self.poly_degree - hidden_dim), mode='constant')
             int_row = -int_row                                # store Enc(−V[y])
             pt = batch.encode(int_row)
             ct = Ciphertext()
@@ -823,6 +829,8 @@ class BFVPrivSelectV2Backend:
 
         # Encode a_t
         a_t_ints = encode_vector_as_ints(a_t_fp32, self.scale)
+        if self.poly_degree > a_t_ints.size:
+            a_t_ints = np.pad(a_t_ints, (0, self.poly_degree - a_t_ints.size), mode='constant')
         pt_a = batch.encode(a_t_ints)
 
         # Load real ciphertexts and accumulate
@@ -880,6 +888,8 @@ class BFVPrivSelectV2Backend:
         batch = BatchEncoder(self._context)
         # Encode -r_t
         neg_r = (-r_t_ints.astype(np.int64))
+        if self.poly_degree > neg_r.size:
+            neg_r = np.pad(neg_r, (0, self.poly_degree - neg_r.size), mode='constant')
         pt_mask = batch.encode(neg_r)
         self._evaluator.add_plain_inplace(ct, pt_mask)
         return _seal_ciphertext_to_bytes(ct)
